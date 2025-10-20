@@ -1,0 +1,49 @@
+# Gitleaks configuration for video-projects
+# Prevents secrets from being committed
+
+title = "video-projects secret scanning"
+
+[extend]
+useDefault = true
+
+[[rules]]
+description = "AWS Access Key"
+id = "aws-access-key"
+regex = '''(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}'''
+
+[[rules]]
+description = "AWS Secret Key"
+id = "aws-secret-key"
+regex = '''(?i)aws(.{0,20})?(?-i)['\"][0-9a-zA-Z\/+]{40}['\"]'''
+
+[[rules]]
+description = "GitHub Token"
+id = "github-token"
+regex = '''ghp_[0-9a-zA-Z]{36}'''
+
+[[rules]]
+description = "Generic API Key"
+id = "generic-api-key"
+regex = '''(?i)(api[_-]?key|apikey|api[_-]?token)(.{0,20})?['\"][0-9a-zA-Z]{32,45}['\"]'''
+
+[[rules]]
+description = "OpenAI API Key"
+id = "openai-api-key"
+regex = '''sk-[a-zA-Z0-9]{48}'''
+
+[[rules]]
+description = "Anthropic API Key"
+id = "anthropic-api-key"
+regex = '''sk-ant-[a-zA-Z0-9-_]{95}'''
+
+[[rules]]
+description = "Private Key"
+id = "private-key"
+regex = '''-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----'''
+
+[allowlist]
+description = "Allowlist for false positives"
+paths = [
+  '''^\.gitleaks\.toml$''',
+  '''^\.git/''',
+]
