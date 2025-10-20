@@ -1,0 +1,413 @@
+In this video I'm going to use ChatGPT as a personal to-do list create some
+commands to manage and maintain more than one list and I'm going to be able
+to add remove and mark items as complete. This video won't just show you how to do
+a to-do list in ChatGPT but also show you how you can create commands to have
+much more control over what you do with ChatGPT. Earlier this year when I was
+learning about prompt engineering I was exploring different ideas of controlling
+ChatGPT and one of the ideas that I was looking into was could I control it like
+I might control an application and at the time I wrote this little prompt around
+to-do list and I had concepts like a list create and I would give the name of the
+list that I would like to have to-do zone and then I'd have something like a
+list add and the be the name of the list that the item would go on to and then
+whatever the item would be and there be a list remove and could we see the
+various to-do items within different lists. Now I thought I'd re-explore this
+idea now that we have access to custom instructions which give us a fair bit more
+control over the ideas of what happens every time prompt comes in and what
+happens every time a response goes out from ChatGPT. While this video is
+specifically about a to-do list what you will find is that you'll be able to
+reuse these concepts to make ChatGPT more consistent and easier to use through
+commands that you can create yourself. To get started head over to ChatGPT I'm
+in the GPT form model at the moment click on the three little dots here and we
+can put in some information to handle a request and to handle how ChatGPT will
+respond. As we build out the to-do list manager which will be a custom GPT
+instruction we're going to work through this infographic here and develop the
+AI role the overview and the guidelines on how it should work what commands it
+should work with and when a command comes in how should it respond. You can put
+any text you like into a custom GPT instruction request or response there is
+a limit of 1500 characters for each field but apart from that put in whatever
+you like but what we're going to do is look at a little programming language
+that I've developed here which will allow us to think in terms of sections what's
+important and just to show you how it works I'll just add in some text I'll
+say hello world and I'll hit save on this and what we should see is that the AI
+role is now updated with hello world if I wanted a command I might do a line
+break followed by a command called help and that command if you used it would
+show help. Now all this information will be made available later on to both the
+request and the response buttons down here and that will just copy the text
+into my clipboard so I can use it within chat GPT. A common concept when writing
+prompts is defining the role that chat GPT is meant to take and in this case what
+we'll do is we'll just say that you are a to-do app. What I'd like to do now is
+give an overview of what this bot is meant to do and I think we can start off with
+you will maintain my to-do list you will keep different lists so more than one
+list is going to be maintained and I want to be able to add a view and markers
+complete various to-do items now we'll just hit save we should see that update
+now I'd like to test this out but before we do let's add one more concept
+and that's the idea of a command and we'll just keep it very simple so I'll
+type in command and we'll call it help so essentially I would like to be able to
+type the word help and understand what this bot is going to do
+so if we fill it in and I'll just paste in this message show the role list of
+the commands and an overview of how you work now I don't get my grammar
+exactly right I just get the bare minimum of information in because I've only
+got 1500 characters in which to write this information
+now I would like to test this custom instruction but before I do I'm going to
+head over to chat GPT and we'll just see what happens if
+we give it a command it's such as help now my expectation is that we'll get
+some sort of a generic message from chat GPT we do of course please provide
+more information so we'll head back over to our
+instruction that we've created we're going to call it to do
+app we've got a list of concepts that we want it
+in the overview and we've got one command called help
+so when I type in help next time we should get
+better information we've also said show a list of
+commands show the role give an overview of how you're planning to work for us
+and we can just go down and click on this request button
+and now when we head over to chat GPT I can just
+paste and we've got this information here
+one of the things to notice is that some of the labels especially the one for
+the AI role are not in this list of information
+and this will become relevant in a moment now what I won't do
+is do it as a regular prompt now you can do you do not need to use custom
+instructions you can take this and just use it as a regular prompt
+the problem with doing it this way is that if this conversation goes for a long
+period of time it will forget all your commands
+so instead what we do is we head over to this area click on the three little
+dots go to custom instructions and we paste it in here
+and this is where I said it was relevant to the amount of information you put
+into the text is that we've only got 1500
+characters that we can put in here the same with how it should respond
+only 1500 characters so some of the things you'll notice
+like with the command overview of how you work
+grammatically you might write that a little bit more
+with more information but it's not needed for
+the custom instruction so I keep it as simple as possible
+and now when we hit save and we do a new chat
+we can just type in help again and hopefully we're going to get a detailed
+look at what this can do it's already said that it's
+designed to maintain our to-do list its role I'll maintain different lists for
+you I will add view mark items now we only
+defined one command and it looks like it's listed a bunch of commands
+what we'll do over time is we will define our own commands and we may even use
+information that's on this list but the problem
+with this is that because we haven't defined it again if
+any conversation gets long it might just start doing random stuff on us
+we really want to be quite specific in the commands we give
+and we may also want to name them differently we might want to support an
+alias do you really want to type complete when maybe c
+colon might be enough information let's test it out though because since it
+has come up with commands it might actually work
+so I'm just going to type add and I reckon we can go with groceries
+and I think I want an apple we'll see what happens with this
+says I've added an apple to your groceries list
+I think in these examples I'll go between food
+and dance I do dancing I do salsa bachata stuff like that
+so I think we'll create another list and we'll call it dance
+and we'll just say I need to do some salsa tonight
+hopefully now we have two to-do items hopefully we've also got two lists so
+I'm not sure whether this is going to work the way it's done
+we will try the show list command next so if we type in show list
+colon press enter and we've got we definitely got two lists so this is a
+good thing I decided to explore the command structure the way chat gpt has
+come up with it and I'll just go over a couple of things that show up
+so as we move down I decided to add orange
+now you might notice beforehand it said would you like to manage these lists
+further now I don't really want it asking me questions along the way I just
+want it executing tasks based on commands so I said add orange I would
+hope that it would go on to the groceries list now it has picked up
+that it should go on to the grocery list but it's asking
+would you like it to be added and the same thing happened when I added
+bachata to the dance list it asked a similar sort of question
+what that meant is that when I did the show list it only came up with the first
+two items it didn't add the new items to the new list so what I think we can do
+is improve the instructions improve the commands ourselves
+so that it does exactly what we need it to do
+we're back over at our to-do list manager instruction and I would like to add
+three commands one to set the current list that we're working with
+one to add items to a list and one to mark items as being done
+so for the set we'll work with an idea that there's a command called set
+that it would take a name so the name of the list that you would like to
+put the focus on and then it just says set the current list
+create a new list if it doesn't exist so you should be able to use this when
+there aren't any to-do lists of that name
+now if we move on we've got add it takes the list name as the first parameter
+notice there's a little question mark there I'll talk about that in a moment
+and then the item you would like to add to the list
+and we'll add one other command called done so it's got the idea that you can
+set a current list you can add an item to an existing list
+and you can mark an item on a list as already done
+so we'll just hit save on that it should update the visualization
+we've got that there the way I'm visualizing it
+now this doesn't come through to the GPT instruction this is just for me to
+understand the communication of what I'm trying to do
+but the things that are light brown the name the item the day
+they're parameters so you should be able to change them to whatever value you
+like we should be able to add salsa on
+Thursday something like that you might notice that with the add and the done
+command that I've got this little question mark in here
+what I want to chat GPT to know is that
+this is an optional parameter I may provide it I may not
+but it won't just guess this auto auto magically we need to tell it
+so what we'll do is we'll add in a section that says
+any parameter with a question mark is optional so
+just like an instruction to a human you can give these instructions to the bot
+and hopefully it will understand it let's quickly add four new commands
+I basically want to be able to see what to do lists are available so we'll have
+something like show lists I want to be able to see what items
+need to be done on a to-do list we'll call that command to do
+and any items that are on the list they should get added to the bottom of the
+list but we might want to move them up or down on the list
+so the commands will add is we'll have list which
+will have show all to-do lists now notice here I've also got this concept
+called shortcut and ideally I don't necessarily want to
+type list colon and then whatever we're doing
+maybe l colon would be good enough it might be really nice to have shortcuts
+or aliases or commands now I haven't got that implemented here yet
+but this is an idea that you can move forward and I'll show you how you can
+implement that in a moment the next one is to-do this will
+give us a list of items that we need to do on a particular list
+then we've got the up command and the down command
+and the idea is that it will take a list item either up
+or down and that ideally you should be able to give the
+item by name or if it's a long name you don't want to type that in
+hopefully they're numbered and you can just say move item three
+up now at the moment none of these items are numbered we haven't put that in so
+we will need to deal with that and that's something that'll come up when we get
+down to the guidelines this is just a little bit of extra
+context that we want to give to chat gpt when it's
+processing a command or anything else within the system
+now the last command that would make sense in a to-do list
+concept is the idea of having a clear we should be able to clear the items on a
+to-do list now there's also a more generic sort of
+command that i like to add into all my custom gpt instructions
+and that i'm going to call status and the idea of status is more to give
+a short synopsis of what's going on in this case we just want to know what
+the current list name is because that was the focus list
+we also want to show the command names now i don't want it to be a detailed
+list of commands i just want a little prompt to remember
+add or list or to do so i have this command called status
+it will give us information about these commands but we are going to give it a
+little bit of extra information either in the guidelines or in the
+response so that it's not too verbose now we've completed our list of commands
+but i think the last bit just to give a little bit of extra help
+is to let chat gpt know how these commands will be called
+so we'll just put in a little bit of text before the mall called
+command access is by slash command or
+command colon i usually use the command colon
+we'll hit save on that it should update the visualization
+i think it's time to see how all this information gets
+built and we can paste it directly into chat gpt i think also
+if we look at the add command and the done command
+they might be useful to have shortcuts as well that's something you'll do all the
+time i'd like to say a colon and then whatever i want to add
+or d colon and have that item marked as done
+so what i'm going to do is i'm going to add in these two shortcuts
+one called a one called d and i'll show you what happens
+with the way this gets written in a moment so let's hit save
+we'll pop over to this area called request and click on it to get a copy
+and move over to chat gpt where we can go to
+our custom instructions and that's the old one that we had
+all the way up to the help command and we'll just remove that information and
+paste in the new information and a couple things to notice
+is that when i give it a command help or set or whatever it is
+it renders it as text in uppercase now chat gpt doesn't really need this but
+it does help me to see where the commands are
+one of the other things that you can see in here is when i had the shortcuts
+it's just put a little pipe symbol with the letter a pipe symbol with the letter
+d now we may need to give a little bit extra guidelines on what that means
+hopefully it'll understand that d means done
+but i think we do need to give it additional instructions
+but as a short test let's just hit save on this
+and we better create a new chat it won't
+affect the current chat so we do need a new one
+and we'll just type help and see what happens now i can do it with the colon
+actually because we did mention slash help let's try that one
+instead i'm here to maintain to do this we've got help
+set add done list to do up and down it's also put the slash t
+so i think we might just try and set it and we'll just go add and we'll say food
+and we will put in apples and we'll see what happens try a on its own this time
+and we'll say food and we'll say orange while sat's happening we'll type a and
+the next one i do i won't do the word food instead i'll just say apple pie
+and we'll see whether we get three items all on a food list
+now it's added it to the current list so we've got a command up here called
+list which will show out to do list we have one called to do which will show
+out to do items so we'll just try list and see what
+happens that's great to do should in this case
+do the same thing the list command didn't work the way i wanted
+and this is going to make sense once we start looking at the
+response area of chat gpt in that i want to format
+the list of to-do lists different to the list of to-do items could test out more
+of the commands but i do want to finish this off and then we'll just run
+everything through it when we were doing the request and the request is
+processing of incoming prompts i have four different sections i have the role
+it said to do app i have an overview you will maintain my lists
+i have a bunch of commands that are all listed here
+and lastly i have guidelines this could be in any order generally but it reads
+like any document and most documents have a structure
+from the top to the bottom and i want the guidelines to happen
+after it understands what the overview of the command is
+and the list of the commands that's got available
+then any extra context that i want to add in
+i'll put into the guidelines all of this is for the request
+then we'll look at the response but let's look at what we could do
+for some guidelines coming back to our custom instruction language here we'll
+move over and have a look at the guidelines and the first guideline we'll add
+is that it assigns numbers to each list item as we go by
+because really i want to be able to once i've got oranges added
+and then apples if i want apples to be above oranges
+i just want to say up to i don't want to have to type in apples
+so we've just tiled chat gpt to assign each item a number
+and to be able to refer to that and that also fits in well with these
+little command variables that we're putting here called number
+earlier we gave this little question mark here for a parameter to be optional
+but what we haven't said is that when the name
+is optional what does that mean like where does it focus
+so we can add another guideline and what we'll do is we'll go with
+name question mark is optional so we're just reinforcing that statement
+if i don't give you a name you should use the current list
+the next thing that i would like to be able to support is the idea of day we
+said earlier that there was this day variable but what does that mean
+if you see day monday tuesday wednesday put it
+into a day of week column now one of the things that we haven't
+talked about is what columns are going to be on this to-do list
+at the moment we've given it a bit of an instruction that says
+there might be a day column but we don't need to do that every time
+either now i'll just save this and we should have our guidelines up to date
+now let's take all this information that we've
+got for our request and we'll click on this button here
+what we can do is head over to chat gpt and come back to the custom instruction
+we'll clear everything out that was here and paste in our new section
+which is going to have the guidelines and it might be time now to talk about
+what a response is if you've written any prompts
+you know that it takes your information your request
+and it converts it into some sort of document that it returns
+now if you gave it say an email or an article
+you could say can you summarize it but more importantly you could say
+can you put it into bullet points and i don't want any bullet point to be more
+than say 10 characters long or you could give it a
+list of bullet points and say can you give me a paragraph
+30 words long per bullet point and it knows how to do this
+and this is the idea of the respond field
+we've moved into this response area of the instruction
+and there'll be similarities to the commands
+plus the normal guidelines so what we'll do is we'll add in
+a responder called list and we're basically saying
+display to-do list names and number of tasks in a table format
+now let's look at what we would do for the to-do items
+that would be display to-do list items in table format
+with numbers and checkboxes now something that you
+do can either be done or not done and this is where the checkbox could be
+important and i have a couple more statements
+here the done if we mark something is done i may
+only give the first one or two letters from the word
+so if we've got something like salsa and bachata salsa starts with an
+essay bachata starts with a ba there's no ambiguity between them
+so we should be able to just say done ba and hopefully the bachata gets removed
+also with the status the idea of a status for me is really just tell me the
+current context that we're in such as what is the
+current to-do list also when i'm looking at help
+i either want detailed help and i'll use the help command for that
+but the status is more here are just a list of command names that you can
+access i'll add a last bit of freeform text
+to the response so that every time any command happens
+whether it be the add or the to-do we get a status command
+now you could call the status command directly but since it's a simple command
+that lists the name of the commands that are
+available and the current focus list in bold
+i would like that to run every time i run any command
+so what we'll do is we'll say show status after each command
+except for help we don't need to do it for help because help is already a
+detailed help list with the current focus
+list being shown so it's only for all other commands
+and before we finish this off i might also make
+an additional change to the guidelines here
+what i haven't really talked about is the shape of the data
+and in programming or databases this is often called a schema
+so what we'll do is add this section to the guidelines
+called schema now the word schema means a lot to database people
+programmers stuff like that and it will mean something to chat gpt
+so i don't really need to describe what it means
+but i do need to follow it up with the schema and i'm basically saying that
+for the list item i want to show the list name
+and the task count so how many tasks are in that list
+and for the to-do list i want to show the task name
+the day of week because we did have support for days
+and a completed task and i think i need one more statement here in the guideline
+i need to handle right at the very beginning
+when i haven't set a current focus list but i'm adding one
+that it goes okay if you're adding one and you don't currently have any list
+maybe we should set that so we'll just paste this in
+if list name is not provided for add done to do up or down
+then act against the current focus list you can set the current focus list if it
+is not set with the add command so we'll hit save on this
+and now we have a little bit more complete set of guidelines for incoming prompts
+and we have how we would like to respond either for individual commands
+or for commands in general what we'll do now is we'll come down to this response
+we'll click on this we'll head over to chat gpt we're in the custom instructions
+now i've made sure that this has been updated with the schema
+and we'll head over to the response we'll add in all this information we can hit save
+and start a brand new chat again we'll reduce this
+and i think we can do a rapid fire run at this so
+let's type in help with a slash at the beginning could be done with a colon as
+well and we'll see what happens now this is looking pretty good the
+role is i'm your to-do app responsible for maintaining to do this
+we've got a list of commands that are all set up
+talks about how it works and that currently there is no current focus
+this set let's just see what happens if we add an item
+so i'm going to add in dance and we'll try bachata and press enter
+it's about to add the next item now it's said default list so it hasn't
+worked on the idea that it's bachata i'd like to see what this does so we'll do
+dance and we'll say salsa and currently it still thinks we have a default list
+so i'm just going to try the list command and see what we get here default
+and it's called to now one of the things we haven't done
+is given a rename list command but that shouldn't matter this should work so
+i'm just going to say rename list default to dance
+and we'll see whether this works we'll try an l colon and now we have a list
+called dance and it has two items in it now to go to our grocery or our third
+list i think we'll use the set command this time so we'll say set food if we do
+an l colon we probably get two list items one with zero entries which is what we
+got so i think we'll add some food and we'll say add
+food we'll say apple like that and we'll start writing the next one food
+we'll say orange now we shouldn't need to add in food each time so let's try add
+and we'll say steak and we'll do a list we can use the alias we in the past but
+we'll use the full command name now we'll say list and we have three food items
+and we have two dance items now currently the focus list is food
+if we do the to do command it should give us the three items
+out of the third list so let's just type to do
+three items are coming down none of them are completed
+so maybe we can do that so we'll say done to
+remember that we had support for numbers we do not have to
+say the whole word we'll say to do
+and it's done it's not on the list anymore now we haven't built in any
+commands to show stuff that are done we could do that
+it may also just work if we wrote the right sort of prompt
+but so far this is working the way that i've instructed it
+in the custom instruction now one of the things i noticed is it's not giving us
+a list of the command names involved so there could be a little bit of tweaking
+that i need to do to the custom instruction we might just try the status
+command and see whether that gives us extra information
+it's not telling us the list of commands available we could do that via help of
+course so this is where we can see the commands available
+it states here that show command names
+in the current and the current list name so it should have happened
+when i've tested this in the past it does but this just means that the custom
+instruction needs a little bit more tweaking let's try another thing
+we're currently on the third list i'm going to do the dance list again
+and tonight it's a sunday afternoon and i'm about to go and do
+so what we'll do is we'll say add to dance
+we'll say zooc and it's a sunday so we'll just say on sun and we'll see what
+happens it said add zooc to dance list for sunday
+and it's also changed the list so now when we do it to do
+it's gonna try a command that i haven't written so we'll say
+change list we'll call it dance and then we'll type in
+to do and it's got it right so sometimes
+like all chat gpt stuff it doesn't do exactly what you've
+asked it to do but a little bit of tweaking we gave it a
+change focus of list it worked when it returned the information it added it to
+the day of week since this item is actually meant to be done
+now might just use the up command and in the past we used a number let's see
+what happens if i do zo it says it's moved it up the list
+generally this is working the way we need we've used custom instructions in chat
+gpt to manage how to do this using a command structure
+and i think the important takeaway is that you can recreate these
+command structures for any sort of actor or agent
+that you're trying to create within chat gpt if you want to see more videos on
+custom instructions in gpt check out one of the videos over here
+my name's david and this has been an apicast

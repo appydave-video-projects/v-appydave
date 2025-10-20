@@ -1,0 +1,245 @@
+In this video, we're exploring how to get detailed information out of a long conversation 
+with a large language model. Because the problem that I often find is that I've got 
+information that it's forgotten about from earlier in the conversation, or when I 
+try to bring in information from earlier in the conversation. It brings in the information 
+that we explored but deemed irrelevant at the time, yet it still thinks it's important.
+I'm AppyDave. I talk about prompt engineering, so please like and subscribe and let's 
+get into it.
+Today, I'm in the middle of cleaning up a lot of my chats, and the one that I'm looking 
+at at today is synthesizing a conversation down to the raw information. Now, the 
+reason this is important for me is that I've got hundreds of chats over here on the 
+left. I've got a dozen projects going on, and one of those particular projects is 
+called FliVideo. And then when I go into FliVideo, I've got all these conversations. 
+A lot of them have the same information and I'm trying to bring this information 
+together. So what I thought I'd do is look at this particular one, which is called 
+project Naming Conventions for FliVideo, and see whether I can get all the information 
+that's in here and ignore some of the stuff that I said wasn't relevant when I was 
+doing the conversation. So that I've got a final markdown document that I can use 
+as knowledge for future chats.
+I put chapter codes down below. If you want to move forward in the next step, what 
+we're going to do is look at the complex conversation. And this is important if you 
+want to understand all the details that are going into bringing this together as 
+one document. But if you just want to get straight to the prompts technique one is 
+where we cherry pick a little bit of the information and we use an advanced prompt. 
+Technique two is where we just use an advanced prompt and a application that I built 
+to grab conversations. And technique three is where I use a combination of ChatGPT 
+canvas and notebook.
+Now the conversation we're looking at today is of medium size. It's not a large conversation, 
+but there's enough detail in it to test out some ideas. And when you look at my conversations, 
+they'll often start with information that I preload it with from previous conversations. 
+And what it's done in this particular case is figured out a bunch of information. 
+It's assuming that I'm working with project names for an organization. There's a 
+concept of a sequence number. The YouTube channel, which was an older channel called 
+AppyCast We got the name of the project, and we got the fact that it's got a status 
+of completed and it's worked out this information. Now, I know that this is not the 
+way I do things today. And further on in this conversation, we change things around, 
+and it's kind of getting to that end result of what the information really should 
+be while taking into consideration as my thoughts during the conversation that we're 
+trying to solve.
+Now, the initial analysis in this conversation is that there was a sequence of project 
+code, a name and a status, and this was for a video project, but that there was also 
+the concept of multiple episodes within a video series, and that they would have 
+a sequence like the first, the second, the third, followed by the name of that particular 
+episode.
+Now the conversation has shown some folder structure examples, whether it be for 
+a single video concept where I'll have individual recordings and particular chapters, 
+and there could be more than one recording for a chapter. And then it's got another 
+example for multiple episodes where it's pretty much the same structure, but they're 
+broken up into more than one episode, and this information is going to be really 
+important for me to keep 
+I asked it to write a requirements document and it wrote a whole lot of good and 
+useful information. I was able to read this and go, this is kind of what I want the 
+application to do. But then it came to a problem here is that it wrote a bunch of 
+code for me, which is great, except it's not in the programming language I want. 
+So I need to make sure that whatever final document we get is in the actual programming 
+language I need.
+Next, I was asking the conversation to rename the project code to a channel code, 
+and I had codes for AppyDave coding. AppyDave the channel you're using right now. 
+AI-TLDR. FliVideo and Winning Prompts, which are all faceless YouTube channels, and 
+I needed to keep this information grouped.
+the conversation adapted to understand that there were channel codes going on in 
+various locations. 
+so it was giving me an improved requirements document, but it was still keeping to 
+the Python implementation. 
+Now, if you've ever done a long conversation in a large language model, you've probably 
+seen these problems before where you get a diminishing return on the information 
+you put in because it's forgetting or changing information that you'd already talked 
+about. So let's try a couple of techniques and bring this back into alignment in 
+new chat windows.
+So let's have a look at technique one and technique one. In this particular scenario 
+will probably work the best because I've got a fairly clean conversation and I kind 
+of know where it diverged. So what I've done is I'm just taking the last section 
+and I'm copying it into the clipboard for now, 
+and then what I can do is just head over to a new ChatGPT conversation and I'll say, 
+can you create a Readme document with the following information? And we can just 
+paste all that information that we've got. Now there's a capability within ChatGPT 
+of going to canvas mode. And this is a great way for creating documents, in this 
+case a requirements document. And you can see it just all coming together before 
+your eyes. Like this. Now one of the things I know should be wrong with this is there 
+won't be any code, because the section that I grabbed didn't have any code.
+So we now have this nice consolidated document. All the information is fairly correct 
+except for the missing code. And we have a little copy button up in the right hand 
+corner which would give it to us in markdown. But what we can do now is just have 
+a little bit more of a conversation and make sure that the code is added to this 
+document.
+Now the next thing I want to do is go back in the conversation to where there was 
+some code that was useful. Now the code is a fair way up and it doesn't take into 
+account certain newer concepts that are later in the document, 
+we'll take a copy of it and come back to our window where we said, can you update 
+the document with the example code? And we're about to paste that in. And I'll put 
+it in right here. But the next thing I've also said is it needs to be updated to 
+understand the concept of tags. 'cause I know that wasn't in the code. So we can 
+see that the document itself has all information with rules about tags, but the code 
+doesn't. So if we just press go on this, what should start to happen is we'll get 
+a rewrite of the requirements document. Nothing should really change. Everything 
+should be just the way it was originally written. But when we get towards the bottom, 
+I'm assuming we're going to get the code that I've pasted in modified so that it 
+understands the concept of flexible and optional tags.
+So when we moved to the bottom, we've got an example in Ruby. It'd be important to 
+see if it's got tags. So we'll just do search. And anything yellow is actually indicating 
+that we've got tags in the code. And we've even got examples.
+So technique number one has worked really well in this particular scenario. What 
+we can do now is just go over to our project. 
+This is the one we were using. We've got two options with this. We could either archive 
+it, but for now I'm just going to rename it and we'll just call it old. And that 
+just reminds me that I should archive it in the future or delete it.
+Now let's look at technique number two. And technique number two is actually really 
+simple, but it doesn't always work depending on the length of the conversation. So 
+what we're going to do is we're just going to go to the top of the conversation, 
+go all the way to the bottom, and we've just shift selected it. And I've pressed 
+command C to put in my clipboard.
+So with this technique, I've gone back to the FliVideo project and I've just put 
+in a simple prompt, summarize and synthesize the conversation into a coherent document. 
+Now, one of the things that we've got to do is make sure that it prioritizes the 
+stuff at the end, but considers the stuff at the beginning. So it needs to retain 
+key insights early on. And what we can do is just paste all the information, and 
+it's quite a long document into it and see what it comes up with. Now it's going 
+straight into canvas mode. I didn't have to tell it what to do, and we're getting 
+similar information to before.
+So I think to test this, we'll just compare it to the other document that we created. 
+So the one on the right is our new document. The one on the left. Here is the old 
+document that we've generated with quite a bit of control in the process. And as 
+we look through it, they look to be very similar. So we've got a sequence channel 
+code and channel name over here. And we've got sequence channel code and project 
+name here. Then we've got what happens if the channel code is submitted. And we've 
+got that example here as well.
+Now, as we move down this document, we start getting confirmation that this particular 
+prompt, which was easier, is actually working fairly well. And that's because we're 
+seeing the tag one and two. Now they both have the tag one and two. But this was 
+right at the very end of the conversation. There was a lot of information to read 
+beforehand, and it's still got it quite correct. It even included the correct tags 
+that we had in the examples, the CTA and the end cards.
+We move further down to where the folder naming conventions are, and there seems 
+to be no difference between both of those.
+So we'll come down to the message prompt, and we're just going to copy and paste 
+the one that we used in the previous example and see whether it updates it down the 
+bottom with this new code. So it's just doing the regular rewrite that canvas does 
+And we're about to hit the end where I'm assuming example code is about to be written, 
+and it's written it in a totally different fashion.
+Just for my own peace of mind. I took all the information that's on the left and 
+just said, can you update the code with this? And it did it, and it did it in an 
+interesting way, which I'm happy with, in that it took the individual functions that 
+we can see all grouped together and put them into the correct spot. So everywhere 
+we're talking about an idea, there's one example of code that implements 
+and that keeps getting repeated all the way through to the bottom.
+Now before moving on to technique three, let's just recap what we've done. So in 
+technique number one we cherry picked we firstly picked the end of the conversation 
+with a lot of information. Said write it in canvas. And then we manually added in 
+code from an earlier session with technique number two. This was a one shot prompt. 
+We just said read the entire conversation based on a couple of rules and recreate 
+it for us. And it did a perfect job as well. We did have to manually add the code 
+back in, but it did it in a unique and interesting way based on the first technique. 
+Now we're about to look at technique number three, which is a variation on the one 
+shot prompt but with different tooling. But I think it's at this point that it would 
+be good to go and have a look at these requirements documents and understand why 
+it's so important to create this sort of information.
+So we know from the previous example that we could go and select all the information 
+and put it into the clipboard. But what if I told you I'd written a little application 
+using a requirements document that did this for me plus more? So what we can do here 
+is we can go and click on this little button up here and I've got this idea called 
+GPT conversation 
+can just press the extract conversation. And now the whole conversation is copied 
+to the clipboard. And the good thing is it's also labeled with information. So there's 
+the user with the content that the user said, followed by the agent with the information 
+that the agent said. But this could do more. We could send it off to another application 
+if we want. And the great thing is it was done with one prompt in about 10 minutes. 
+that's the power of these requirements documents. 'cause if you can write one of 
+these correctly, you don't need to be a programmer to write applications. You can 
+take information like this, feed it into an AI pair programmer, 
+And create an application in one, maybe two prompts. So what I've decided to do next 
+year in 2025 is reactivate a channel that I have called Winning 
+To solve simple automation problems that I have and other people have, using one 
+shot prompting and writing code 
+So if that's of interest to you then please like and subscribe over on Winning Prompts.
+Now, let's check out technique three. We're still going to use a one-shot prompt, 
+but we're gonna use different tooling. So we'll come over and we'll click the Extract 
+Conversation. You could just copy all the text and put it into the clipboard, and 
+then head over to Notebook lm. Click on this button and it'll take you to a blank 
+setup. From here we can create, and what we need to do first is load it up with knowledge. 
+So we'll click on the paste text and we'll just paste everything in. 
+things to notice is that because we use the extraction tool, we'll we'll have access 
+to the user right here. 
+we've got two different participants in the conversation, the user and the assistant. 
+And I consider the assistant to be the one that wrote the document, but the user 
+guided it. So there's a little bit of influence that the user needs to have when 
+we start working with 
+And you'll see this pasted text. It's got a description of what's going on. And what 
+we'll do is we'll paste in the prompt that we used the last time, summarize and synthesize. 
+We want to make sure it prioritizes recent ideas over earlier stuff, 
+we'll just add a little bit extra to the prompt, just letting it know that the assistant 
+wrote the document, but the user's input is considered important. From there, we 
+can just let it start processing.
+Now we have a very different outcome to the last two examples, in that we don't have 
+a requirements document in markdown format, but what we do now have is a well-analyzed 
+document. And we can go through and click on numbers here and go to the sources in 
+the document. You can also come down to here and have a look at specific areas. So 
+let's say we wanted to look at the project naming. We could click on that and it'll 
+just do a prompt into the conversation, discuss project naming. And now we've got 
+all the information related to project naming all in one spot. But the other good 
+thing is, as we click through on this, we can go and look at the sources around where 
+the episode name was conversed 
+So the ability to learn about your document is really easy to do in notebook LM.
+Now let's see if we can convert it into a requirements document. So what we'll do 
+is write a technical requirements doc based on the analyzed content and format using 
+markdown. 
+sure you use short code examples related to the section of the requirements. So I 
+like that second version where we got the code with each bit of writing in the markdown 
+document, and we'll just let it run.
+I've just brought it back to ChatGPT so that I can see it with similar formatting.
+the document on the left is the Google LLM. I've just pulled it in and read it and 
+then converted it to markdown here. The one on the right is the one shot from ChatGPT. 
+And the main thing that I start to see is that they're very similar, but they do 
+write a little bit differently. So when we look at the overview, we've got everything 
+the same in both, except there is a little bit of extra information about talking 
+about supporting the reverse engineering.
+The project naming is the same, slightly different formatting. There is a little 
+bit of extra information in the ChatGPT around an example, but it's essentially the 
+same.
+Episode naming is similar, but the ChatGPT is a little bit better. It's got example 
+input ideas. It's also got better formatting, I think, for the output.
+ChatGPT did a better job on the recording name. And then when we get down to the 
+folder structure, it has a folder structure, but we don't really get a folder structure 
+from the Google notebook LM otherwise a lot of things are similar. When we get to 
+the very bottom where we've got the non-functional requirements, we have that on 
+both, but we get a technical specification as well in the Google.
+So ultimately the output from ChatGPT is a little bit better than the output from 
+notebook LM. But the fact that notebook LM has the ability for us to interrogate 
+information, and of course, the other tools like the podcasting means it's still 
+a useful tool. Just I wouldn't create the requirements document right now just using 
+this tool, if that's all I needed.
+So an overview of what we've been doing is we've taken a complex conversation, and 
+we've tried to synthesize it into a new document. And the document in this case is 
+a requirements document, but it could be any sort of document. Now the first example 
+we did was cherry picking. So we picked the area towards the end of the document. 
+And then when we found it didn't have all the information we wanted, we added in 
+some extra code. Then after that, we went on to the one shot prompt. And in this 
+particular example, it did just as well. It was actually a really good job. It didn't 
+include the code, but we were able to add that manually. We then moved on and tried 
+a different technique, which is notebook LM, and it does nearly as good a job. It 
+also has the benefit that you can interrogate the document afterwards 
+but I don't think it proved to be better in the scenarios that we just tried with.
+So in this video, we've taken this one complex conversation and converted it into 
+a single requirements document. But what I'd like to do in the next video is go through 
+multiple input sources and see if we can bring them in together, and end up with 
+one document that covers the whole project. 
+I'm AppyDave. Please like and subscribe. I'll see you in the next video.

@@ -1,0 +1,243 @@
+You had trouble researching complex topics with ChatGPT because you can't feed it enough information.
+In this video I used custom prompt instructions to allow research on a variety of documents
+while maintaining short term memory within the ChatGPT bot.
+A couple of weeks ago a product called Open Interpreter started gaining popularity and
+I realised I needed to figure out what was going on with this particular project to do
+a little bit of research.
+I also wanted to create a video and I noticed that there were a lot of people starting to
+talk about this product and I wanted to listen to the videos but also put the transcripts
+through ChatGPT and a combination of those transcripts and the documentation from the
+project itself was something that I need to do research on.
+There are a few different ways to research complex documents in ChatGPT but the one I'm
+going to work with today is custom instructions and at the moment I've just started with this
+simple little idea to outline what I'd like to achieve.
+What we'll do is start with a GPT for blank slate and we go down to our settings where
+we can put in custom instructions and I'll just paste the outline that I did.
+This is not exactly what I want to say, in fact I don't know the exact prompt at the
+beginning of this session because I'm going to work through it as I develop and do my
+research on the particular video.
+The main things I know I need this custom instruction to do each time is it needs to
+understand the topic that we're working with and maintain it.
+It needs to comprehend new information coming in and feed it into a simple information structure
+that it has a long term memory as I do my research.
+I don't want it to waste energy trying to tell me information I don't care about.
+I'll ask the questions, it should just give me simple replies.
+I will need it to work with specific commands.
+I believe I'll need to add documents.
+I might need to break documents apart and feed them in because they're too big.
+Sometimes I'll want to get information of the current state of the second brain, the
+second brain being the information that it's maintaining for me.
+I'll move forward and start writing a custom instruction and we'll see how it works.
+When we look at this first statement, I realise that the starting point is to let it know
+that it's my research assistant.
+When we look at it, you will need to be reading and comprehending my documents.
+I think the prompt we can put in here would be something like, you will maintain a document,
+outline and summarise the information you have collected.
+The next step would be to do a document title, but I really want to get into commands right
+now while they're still in my head.
+The thing about maintaining a summary of information is that ChatGPT doesn't always
+maintain the right information.
+I believe I'm going to need some commands that I can use to tell it what's really important,
+what's just generally important and what is not of use to me right now.
+Basically a command to ignore certain pieces of information.
+So let's go and think about the commands we might need.
+The first command I've added here is just called add.
+I guess I would like to type ADD colon and then just paste in a transcript and have that
+transcript added into the document.
+I've put in this add followed by add provided information to the document.
+Now I suspect that when I add information to the document it might get things a little
+bit wrong and I think what we could try is a command called drop and that will be if
+I give it some extra information it just drops that from the main document.
+As the document develops I'm sure there's going to be like a list or an outline so we'll add
+a new command called TOC for table of contents and essentially I just want to get the table
+of contents based on the document that it's maintaining.
+This table of contents will help me understand things but there will be times when I need
+the detail as well.
+We'll add a command called detail that just shows the entire document.
+I suspect that from time to time I'm going to want it to just give me its opinion on
+certain concepts.
+When it does that I don't want the information added to the document I do want to be able
+to evaluate that information.
+I also don't want it to write an essay so I'm believing something like 50 words might be
+good and from time to time I need to change that as well.
+We'll create a command called Q50.
+What it will do is I give it a question it'll give me a 50 word answer it won't add it to
+the document and I'll also let it know that it can accept other numbers.
+I might do Q30 for 30 words or Q100 for 100 words.
+We need to maintain a title we haven't dealt with that yet.
+Maintain and update the document on research we've got that covered.
+Provide simple replies.
+I'm going to have to write a prompt for that soon and respond to the specific commands.
+We've got most of them in place.
+I'll just add one other.
+We'll put in the title command.
+This I would start the research with so we have a title.
+One of the things that I think will happen as I research information is I might want to update
+the title based on new information coming in.
+This command should be able to create or update a title on the fly.
+Once we can finally just delete these pieces of information
+and let's figure out how we'll write this prompt.
+Deal with how GPT responds to each of our commands.
+There is a section called how would you like GPT to respond which we can fill in.
+Essentially I want to take the add and the drop command and make sure it just says yay.
+I do not need any other information other than an acknowledgement
+that it's added or removed it from the document.
+When it comes to the table of contents or the details
+it's going to have to give me the information I want
+but I don't want any other additional information.
+Lastly with the question it can write whatever it likes so long it says 50 words or 30 words.
+Prompt that I'm going to put in here looks like this.
+Do not give any additional information.
+For simple commands like add and drop say yay.
+For table of contents write that for details write that and for question
+you will give me an answer to the question in that number of words.
+I do know that chat GPT will sometimes still give other common phrases around the document
+and I may need to come in here and tell it not to do that
+but for now this is where we're going to start.
+I want to find out whether it understands what its role is.
+What is your role, press enter, see what it comes up with.
+My role is to be your research assistant.
+I will maintain a document outline and a summary of information I have collected.
+I will respond to specific commands such as add drop,
+top, detail, Q50 and title as per your instructions.
+This is looking good so far.
+Let's put in a title.
+We'll head on over to the website.
+Copy the term open interpreter and just paste it in.
+Says yay.
+Perfect.
+Now the documentation around this tool is that it's a code interpreter to run
+locally on your computer.
+There's a whole lot of information in a readme file.
+If I open up that readme file in raw format there'll be a bunch of information.
+It would be nice to strip out the HTML.
+But essentially I should just be able to take a bunch of this raw information
+but not too much because ChatGPT can only take a certain amount of information.
+Head over to ChatGPT.
+We'll give our add command and we'll just paste this information in.
+We've got a response of yay which is perfect.
+I think it might be time for a table of contents.
+We have a partial information.
+I haven't read through the documentation but this seems to be about right.
+Let's head back to the readme file and we'll grab another chunk of information.
+Not too much.
+We'll get to about here I think.
+Head back to GPT.
+We'll put in add and paste that new information.
+There's definitely more information coming through.
+Just adding a final little bit of information that I missed at the bottom.
+Just a little bit of coding information.
+At this point I'd like to see what detail I can get out of the document.
+I don't know that I'd get all the information from the readme file
+because there's too much information in the form of tokens.
+But since this has been summarizing and keeping a detailed information
+we'll just type in detail see what we get.
+And it's starting to write out a couple of commands.
+It's going to show us how to use it.
+Access to the demo.
+We've got a quick start guide and commands.
+This is all looking pretty good and I could probably use it just as it is as a question
+and answer bot to install and start using this particular project.
+But in the next step what I'd like to do is watch a couple of the videos
+by some of the other people on YouTube and see how they're working with OpenInterpreter.
+My research bot is currently loaded up with the documentation from CodeInterpreter.
+But what I'd like to do now is take some videos from YouTube,
+grab their transcriptions and load them into my research as well.
+And the way I've done that is I've used the add command that we already had access to
+and I've added these transcription summaries.
+So we have one here, another one here and they just keep going.
+I keep adding transcription summaries into the research.
+But you might be wondering how did I get a transcription summary?
+And the way I did that was by running YouTube transcriptions
+To do the transcription summaries I actually had to have videos in which to transcribe.
+So right here I have a video called OpenInterpreter,
+open source version of ChatGPT.
+It's a 13 minute video and if I move through the different videos that I researched
+I had all these different people in the last two weeks
+who have been doing detailed videos on OpenInterpreter.
+You can grab a transcript and copy it into a text file
+and I did it for each individual video that I came across
+so that I could use it within the YouTube transcription bot.
+From the point of view of the research bot
+in which I've added all these different summarizations
+we then need to move over to one of the YouTube transcription bots.
+Here's one on OpenInterpreter, we've got a summary here
+and at the bottom I can copy it, move it to the original bot.
+I just repeat that for each of the YouTube transcriptions that I want to do.
+I grab the information I want.
+But you might be wondering where is the YouTube transcription bot?
+Let's head over to a new ChatGPT window
+and I'm just going to paste in this little prompt here called
+What role and instructions have I assigned to you?
+This is a YouTube transcription bot, I've pre-loaded it.
+You have assigned me the role of YouTube transcription assistant.
+I can read through transcriptions and build a detailed document
+which is the goal that I needed for the research.
+But it's got similar sorts of commands like add, drop, stories.
+I can ask questions.
+It hasn't listed a particular command called titles.
+I can generate a bunch of YouTube titles based off the transcript.
+This is basically how I make bots work with one another
+just using various custom instructions.
+If you want to understand how I built this particular custom instruction
+I'll put a link in the description.
+Now we're back at our original research bot
+and I'm just going to put in a quick prompt.
+What is your role and command?
+I just want to remember what I've got available here.
+It's to be a research assistant.
+We can add, drop and get table of contents.
+We should do a detail and see what all the different information
+that we've added to the bot has done for us.
+From this detailed command we've got a fairly extensive
+master document that's been created.
+We've got these limitations for big data,
+get repository cloning, computing, engagement.
+If we move through there's additional documents
+that have been summarized and added into the main document.
+Open, interpreter, YouTube, video analysis.
+We've got information here.
+If we keep going down we've got another one.
+One of the things that I notice is a lot of the commands
+from the original instruction guide from GitHub are missing
+but we may still be able to get them out.
+Let's see if we can get the setup instructions
+for open interpreter and I could do a Q50.
+I might even just be able to get away with a regular prompt
+but I'm going to try this one first.
+It was one of the commands I set up.
+Can you give me a setup guide to create my own open interpreter?
+The great thing about that is it's just given me the 50 words summary.
+Let's do the same prompt again without the command.
+This looks like it's given us a more detailed
+list of instructions that we can run from the terminal
+to setup open interpreter.
+Now I don't tend to do too many more commands from the research
+but generally once I've done my research
+I'll take that information over to other bots
+but it doesn't stop us from doing standard prompts.
+What we'll try here is can you create an engaging
+YouTube script based on the detailed document?
+Normally I would take that to the YouTube script and title
+bot but let's see what it comes up with.
+Here we have a YouTube script.
+Let's look at this intro b-roll with upbeat music.
+Sounds about right.
+Hello everyone welcome back to the channel.
+If you're passionate about AI, coding and game changing technology
+then smash the like button and hit subscribe.
+Today we're diving deep into something that's been buzzing on social media
+open interpreter Gary Marcus himself tweeted about it
+so you know it's a big deal.
+I know that statement did actually come out of one of the transcriptions
+that I watched.
+Is this the way I would write a script?
+No and that's why I would have a YouTube script writing
+set of prompts designed and feed the information into them instead
+so that I can get the style.
+But the good thing is this is a pretty good script just of its own accord.
+This has been a deep dive into the researcher bot
+a custom instruction prompt that you can use for research and development.
+It's also part of a set of advanced prompts that I've been developing
+and they're part of a podcast that I'm putting together.
+You should be able to find information in the next video.

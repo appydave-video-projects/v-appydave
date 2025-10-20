@@ -1,0 +1,991 @@
+1
+00:00:00,000 --> 00:00:05,660
+In this video, we're setting up rails eight with the new basic authentication system
+
+2
+00:00:05,660 --> 00:00:13,430
+also include tailwind CSS, Postgres guard for automated test watching, R-spec and
+
+3
+00:00:13,430 --> 00:00:14,450
+Rubocop.
+
+4
+00:00:14,460 --> 00:00:20,180
+Now let's get started by being on the latest version of Ruby and Rails. So with Ruby,
+
+5
+00:00:20,180 --> 00:00:28,370
+I'm currently on 3.3.6. Now to install rails, I'll just run gem install rails
+
+6
+00:00:28,390 --> 00:00:32,950
+That's finished. And we've installed rails 8.00.0.
+
+7
+00:00:32,960 --> 00:00:37,220
+Now there's a setup guide that you can follow through, but what we've done so far
+
+8
+00:00:37,220 --> 00:00:42,230
+is check the version of Ruby and install the latest version of rails. What we'll
+
+9
+00:00:42,230 --> 00:00:46,490
+do now is just set up a repository that you can find this code in.
+
+10
+00:00:46,500 --> 00:00:51,350
+Now I'm just over at GitHub on AppyDave. We'll create a new repository inside of
+
+11
+00:00:51,350 --> 00:00:56,130
+this. We'll call it rails8-basicauth. Now we're going to make it public.
+
+12
+00:00:56,130 --> 00:01:00,480
+we'll set the license to the Mozilla Public License two.
+
+13
+00:01:00,500 --> 00:01:04,460
+And a basic description. Let's just create this repository.
+
+14
+00:01:04,460 --> 00:01:09,290
+So the command we're going to start off with is rails new rails eight basic auth.
+
+15
+00:01:09,290 --> 00:01:14,150
+We're not going to include any test frameworks because we're going to use RSpec.
+
+16
+00:01:14,150 --> 00:01:18,200
+We will include tailwind CSS and Postgres as the database.
+
+17
+00:01:18,560 --> 00:01:23,240
+Heading over to the terminal, we'll paste in that command and let it do the standard
+
+18
+00:01:23,240 --> 00:01:24,920
+rails creation process.
+
+19
+00:01:24,930 --> 00:01:30,790
+Now the new application is finishing creating. What we're going to need to do is
+
+20
+00:01:30,790 --> 00:01:34,750
+change into the directory. And because we're using Postgres we'll need to create
+
+21
+00:01:34,750 --> 00:01:39,940
+the database. So let's just CD into the correct folder. We'll clear the screen here
+
+22
+00:01:39,940 --> 00:01:46,720
+and we'll do a rails DB create. And that should just create the databases rails eight
+
+23
+00:01:46,750 --> 00:01:49,720
+basic auth development and test.
+
+24
+00:01:49,730 --> 00:01:55,730
+Now let's just test whether the server is running. We've got Chrome open, we're starting
+
+25
+00:01:55,730 --> 00:02:03,320
+up the web server and we'll run it. And we're running rails eight with rack 3.1.8
+
+26
+00:02:03,320 --> 00:02:05,810
+and Ruby 3.3.6.
+
+27
+00:02:05,830 --> 00:02:12,610
+Now let's connect this repo up to the repo we've already created on GitHub. So we'll
+
+28
+00:02:12,610 --> 00:02:17,950
+just put this information in right now. And then let's just run the add dot, commit
+
+29
+00:02:17,980 --> 00:02:23,950
+the initial request and push it all up. So we'll let that go. And that's all moving.
+
+30
+00:02:24,460 --> 00:02:29,950
+And we'll come over to the repo and just refresh. And we've got the initial commit.
+
+31
+00:02:29,950 --> 00:02:35,530
+So as we go along I'll be doing commit along the way. And you can go to any section
+
+32
+00:02:35,530 --> 00:02:36,760
+that you like.
+
+33
+00:02:36,990 --> 00:02:40,450
+Now for a little bit of basic setup. We're just going to make sure that everything
+
+34
+00:02:40,450 --> 00:02:45,460
+that we do is done in a template, that you can just run from the command line. So
+
+35
+00:02:45,460 --> 00:02:51,280
+we'll just go and create this file. We've created it, we've touched it. And lastly
+
+36
+00:02:51,280 --> 00:02:55,600
+we'll also put in the setup documentation that we're reading through at the moment.
+
+37
+00:02:55,600 --> 00:02:58,150
+So this will all be in the repository.
+
+38
+00:02:58,160 --> 00:03:03,760
+Now we have a standard rails application created with tailwind, CSS and Postgres.
+
+39
+00:03:03,790 --> 00:03:10,240
+Now what I've added is a rails generator that you can use, and it's just a standard
+
+40
+00:03:10,240 --> 00:03:14,500
+rails generator with a bunch of steps that we're running through. And as we go through
+
+41
+00:03:14,500 --> 00:03:19,300
+them, they'll just be called by different numbers so that you can cherry pick what
+
+42
+00:03:19,300 --> 00:03:21,700
+you want to do with the generation of this application.
+
+43
+00:03:21,730 --> 00:03:26,270
+I'll just take you through a couple of aliases I've set up, the main one being the
+
+44
+00:03:26,270 --> 00:03:31,430
+R8. Next is how we'll go through each capability of the rails eight application.
+
+45
+00:03:31,460 --> 00:03:35,690
+there's also a run command, which will run the rails server with a precompile in
+
+46
+00:03:35,690 --> 00:03:40,460
+front of it. So what we'll do is just paste all of this and it's now available. Now
+
+47
+00:03:40,460 --> 00:03:45,950
+we can test that out by typing run. And it should just do a standard rails server
+
+48
+00:03:45,950 --> 00:03:47,660
+with Precompile.
+
+49
+00:03:47,660 --> 00:03:51,260
+Now let's just quickly look at this template command that we've set up. There's a
+
+50
+00:03:51,260 --> 00:03:56,300
+file. We'll look at it in a moment. Some of the information came from prior documentation
+
+51
+00:03:56,300 --> 00:04:02,360
+that I read a month ago on the pre-releases of rails eight. But if we go to the top,
+
+52
+00:04:02,360 --> 00:04:07,160
+we're using rails generators as a base class, and then a bunch of classes for each
+
+53
+00:04:07,130 --> 00:04:11,940
+So what we're going to work through is creating common gems. A home page will do
+
+54
+00:04:11,940 --> 00:04:14,490
+the layout. We'll get some alert messages
+
+55
+00:04:14,760 --> 00:04:19,120
+and also adding an email authentication mailer to the system.
+
+56
+00:04:19,130 --> 00:04:23,760
+run our little command line tool. Right? Next we'll get a menu and we're going to
+
+57
+00:04:23,790 --> 00:04:29,970
+work with number one. What that'll do is add the various gems and start doing a bundle
+
+58
+00:04:29,970 --> 00:04:35,430
+install. There's also a bundle outdated going on and it actually finishes off with
+
+59
+00:04:35,730 --> 00:04:40,530
+a Rubocop dash A. So any issues in the code base will be cleaned up.
+
+60
+00:04:40,530 --> 00:04:45,260
+Now let's have a quick look at what's changed. Firstly, if we go to the Gemfile,
+
+61
+00:04:45,260 --> 00:04:49,280
+we can have a look at the original files that have been added. We've got rails eight,
+
+62
+00:04:49,310 --> 00:04:54,320
+we've got a Postgres gem. These are the new concepts that I'm going to talk about
+
+63
+00:04:54,320 --> 00:04:58,670
+in a future video around solid cache, queue and cable.
+
+64
+00:04:58,690 --> 00:05:03,870
+additionally it's also added in the information I want for the custom gems. If we
+
+65
+00:05:03,870 --> 00:05:08,760
+look at the spec file, it's set up with a require spec helper, and I like to use
+
+66
+00:05:08,760 --> 00:05:14,370
+the documentation format. If we go into spec, there's a rails helper and a spec helper
+
+67
+00:05:14,370 --> 00:05:18,120
+already preset up and a guard file. And what the guard
+
+68
+00:05:18,130 --> 00:05:22,990
+is watching our rails application. If we run it, nothing's happening at the moment.
+
+69
+00:05:22,990 --> 00:05:28,760
+Now just label this commit. And what that means is that when you come up to the repo,
+
+70
+00:05:28,790 --> 00:05:33,620
+you should be able to just look through and find the areas that have been changed
+
+71
+00:05:33,620 --> 00:05:35,390
+labeled in the repo.
+
+72
+00:05:35,660 --> 00:05:40,220
+Now that I've got the basic gems set up, I'd like to get a home page going. Now you
+
+73
+00:05:40,220 --> 00:05:47,330
+can see that I'm running a rails server. It's on port 3001 and if we run rate next,
+
+74
+00:05:47,330 --> 00:05:52,640
+it will be looking for the template file in the public directory called rails template.
+
+75
+00:05:52,640 --> 00:05:54,590
+So we'll just run number two.
+
+76
+00:05:54,590 --> 00:05:59,320
+what that's going to do is create the controller and the home page to get started.
+
+77
+00:05:59,420 --> 00:06:05,170
+So we'll just restart the server with the run command and refresh. And we have rails
+
+78
+00:06:05,170 --> 00:06:09,800
+eight basic auth. And we can see that there's some tailwind CSS
+
+79
+00:06:09,820 --> 00:06:11,720
+Giving it a little bit of styling.
+
+80
+00:06:11,750 --> 00:06:17,240
+Now, a quick look at what we've generated is a standard controller called home with
+
+81
+00:06:17,270 --> 00:06:21,740
+index. We're skipping routes because we want to use the route for this, and we can
+
+82
+00:06:21,740 --> 00:06:26,810
+see just a slight modification to the routes. And here's the HTML that's going on.
+
+83
+00:06:26,810 --> 00:06:32,300
+So we've got this in place here a standard view has been created and we've got a
+
+84
+00:06:32,300 --> 00:06:38,180
+couple of specs. So we've got this home helper. We've got a request spec and we've
+
+85
+00:06:38,180 --> 00:06:40,670
+got this view spec. Now I'm going to get rid of the view specs.
+
+86
+00:06:40,680 --> 00:06:45,560
+but request specs we will look at, especially when we're doing the authentication.
+
+87
+00:06:45,580 --> 00:06:49,710
+Now I'll just bring the terminal into focus. I'm running guard and we'll run the
+
+88
+00:06:49,710 --> 00:06:55,290
+tests. And we've got one that's just been skipped, and we've got one that's in error.
+
+89
+00:06:55,310 --> 00:06:59,810
+the one that's being skipped, which is a helper I'm also going to remove. And let's
+
+90
+00:06:59,810 --> 00:07:00,870
+have a look at the request spec.
+
+91
+00:07:00,880 --> 00:07:06,600
+you can see here that it's home slash index. Now I've gone and changed the route
+
+92
+00:07:06,760 --> 00:07:12,090
+so that the home index will point to the route. So let's just make sure we change
+
+93
+00:07:12,090 --> 00:07:14,320
+it here and we'll hit save.
+
+94
+00:07:14,310 --> 00:07:17,180
+And now we have a working request spec for the root.
+
+95
+00:07:17,420 --> 00:07:22,410
+Let's now play around with the layout. We'll get a menu in place for the authentication
+
+96
+00:07:22,410 --> 00:07:27,300
+system. We'll also look at alert messages. So we have all this code going on for
+
+97
+00:07:27,300 --> 00:07:31,200
+the different menus that we want to do. We've got a little bit of changes to the
+
+98
+00:07:31,200 --> 00:07:33,690
+layout, especially adding in the menu.
+
+99
+00:07:33,710 --> 00:07:38,180
+in the next step we'll work with the flash messages where they'll just use tailwind
+
+100
+00:07:38,210 --> 00:07:40,230
+CSS to style them.
+
+101
+00:07:40,250 --> 00:07:41,730
+We'll head over to the web,
+
+102
+00:07:41,580 --> 00:07:45,710
+firstly run the layout and we'll just see how things change with that.
+
+103
+00:07:45,710 --> 00:07:49,330
+this time for the flash messages, which is number four.
+
+104
+00:07:49,350 --> 00:07:54,600
+if we come and do a refresh, we can see the layout in place. The flash messages will
+
+105
+00:07:54,600 --> 00:07:55,680
+show up a bit later.
+
+106
+00:07:55,680 --> 00:08:00,550
+one of the things I was encountering is that the asset precompilation doesn't happen
+
+107
+00:08:00,550 --> 00:08:03,880
+automatically, and there should be a little bit of styling here.
+
+108
+00:08:03,780 --> 00:08:08,860
+rerun the web server. It's also going to do the asset precompile.
+
+109
+00:08:08,880 --> 00:08:11,800
+if we do a refresh we get a new look and feel.
+
+110
+00:08:11,810 --> 00:08:17,050
+Next I want to generate a few controller pages, but before I do that, I'm going to
+
+111
+00:08:17,080 --> 00:08:22,600
+modify a few of the settings going on here, and then we'll add in the pages and the
+
+112
+00:08:22,600 --> 00:08:24,190
+controllers here.
+
+113
+00:08:24,210 --> 00:08:29,850
+I want to generate three top level pages for the authentication system. But before
+
+114
+00:08:29,850 --> 00:08:34,950
+we do that, I would like to play around with the configuration of the generator.
+
+115
+00:08:35,160 --> 00:08:40,050
+So we'll make these changes followed by the generation of the pages.
+
+116
+00:08:39,410 --> 00:08:41,830
+we can firstly do the application settings,
+
+117
+00:08:41,850 --> 00:08:46,970
+we'll restart the generator and we'll do the top level pages. Number six.
+
+118
+00:08:46,980 --> 00:08:51,980
+now we've got our pages controller. There's three actions ready to go. If we look
+
+119
+00:08:51,980 --> 00:08:55,580
+in the views, we've got some pages being pre-created for us.
+
+120
+00:08:55,580 --> 00:08:59,530
+We've also got the shared information from the flash messages and the menus that
+
+121
+00:08:59,530 --> 00:09:03,820
+we just created earlier. If we look down at the unit tests,
+
+122
+00:09:03,850 --> 00:09:07,660
+You'll see that it's now only generating the request spec. So if we click on that,
+
+123
+00:09:07,900 --> 00:09:10,150
+there should be three in place ready to go.
+
+124
+00:09:10,180 --> 00:09:14,850
+Let's just head over to the terminal and put in a guard, and we'll see if these three
+
+125
+00:09:14,850 --> 00:09:17,280
+request specs are running okay. They are,
+
+126
+00:09:17,180 --> 00:09:23,160
+come over to the web view and we refresh and we can see there's now three pages available.
+
+127
+00:09:23,180 --> 00:09:27,650
+you see any styling issues, just restart the server. I know that this should be a
+
+128
+00:09:27,650 --> 00:09:28,880
+darker color.
+
+129
+00:09:29,080 --> 00:09:32,340
+if we click on them, we should be able to go to the three different pages that we
+
+130
+00:09:32,340 --> 00:09:34,620
+want to test with the security system.
+
+131
+00:09:34,720 --> 00:09:39,210
+the next step is to generate the new authentication system that comes with rails
+
+132
+00:09:39,230 --> 00:09:44,490
+eight. Now we could run step number seven which would do the rails generate authentication
+
+133
+00:09:44,490 --> 00:09:49,680
+and update the database. But let's have a look at this manually. So firstly I'm just
+
+134
+00:09:49,680 --> 00:09:52,590
+going to run rails generate authentication.
+
+135
+00:09:52,620 --> 00:09:58,020
+we can see the new files come in. Now notice there's also an update database. If
+
+136
+00:09:58,020 --> 00:10:02,940
+we go and have a look at what that's really doing. It's just a rails DB migrate and
+
+137
+00:10:02,940 --> 00:10:08,310
+a rails DB test prepare. So let's run them manually as well. So just running the
+
+138
+00:10:08,310 --> 00:10:12,990
+rails db migrate to update the database. The test prepare will make sure that the
+
+139
+00:10:12,990 --> 00:10:15,000
+test database is in sync as well.
+
+140
+00:10:15,020 --> 00:10:18,700
+heading over to the application, let's have a look at what's changed. So if we go
+
+141
+00:10:18,700 --> 00:10:24,550
+into the database migrations we can see there's a new table being added called users.
+
+142
+00:10:24,550 --> 00:10:30,610
+It's got an email address and a password digest. After that we've got the sessions
+
+143
+00:10:30,610 --> 00:10:36,010
+for each time a user signs in with just their IP address and user agent.
+
+144
+00:10:36,020 --> 00:10:40,050
+heading over to the app folder. There's a lot of changes going on here.
+
+145
+00:10:40,050 --> 00:10:44,870
+we'll look at the views. We've got the passwords, email and new. There's also a mailer.
+
+146
+00:10:44,870 --> 00:10:48,650
+So when we send out an email for resets that'll be there.
+
+147
+00:10:48,650 --> 00:10:51,570
+we've also got the new sessions view going on here.
+
+148
+00:10:51,580 --> 00:10:55,040
+everything's been done using tailwind CSS.
+
+149
+00:10:55,050 --> 00:11:00,880
+A simple little mailer has been created for resetting the password, and then we start
+
+150
+00:11:00,880 --> 00:11:05,470
+looking at the data going on with the models. So the first one would be the user
+
+151
+00:11:05,470 --> 00:11:12,370
+it's got has secure password and has many sessions. It's also down casing the email
+
+152
+00:11:12,370 --> 00:11:17,320
+address. Then after that we've got the session which is belonging to a user. And
+
+153
+00:11:17,320 --> 00:11:22,210
+if you want to access the current user in session, we've got this current attribute
+
+154
+00:11:22,210 --> 00:11:27,550
+set up with the session and a delegation through to the user. Let's now go have a
+
+155
+00:11:27,550 --> 00:11:32,260
+look at the controller, where a lot of extra work is happening in the passwords controller
+
+156
+00:11:32,260 --> 00:11:33,940
+and the session controller.
+
+157
+00:11:33,950 --> 00:11:39,320
+Now you can see on the passwords controller. This allowed unauthenticated access
+
+158
+00:11:39,320 --> 00:11:43,820
+and if we go to sessions, it's also got the same thing set up for the new and the
+
+159
+00:11:43,820 --> 00:11:49,700
+create action here. And to find that we can go to the application controller where
+
+160
+00:11:49,700 --> 00:11:54,950
+it's including a concept called authentication. And this is a new concern being built
+
+161
+00:11:54,950 --> 00:11:55,310
+here.
+
+162
+00:11:55,310 --> 00:12:00,030
+so the bulk of the code going on for the authentication system can be found in this
+
+163
+00:12:00,030 --> 00:12:00,600
+concern.
+
+164
+00:12:00,610 --> 00:12:04,690
+Now let's go and see how this is affecting the web application. So we've got the
+
+165
+00:12:04,690 --> 00:12:10,150
+authentication concern. It's now included automatically on the application controller.
+
+166
+00:12:10,150 --> 00:12:15,310
+And both the home controller and the pages controller have been left the way they
+
+167
+00:12:15,310 --> 00:12:20,530
+are now if we head over to the website and this is what we saw before, if I do a
+
+168
+00:12:20,530 --> 00:12:24,130
+refresh, we now get taken to a sign in page.
+
+169
+00:12:24,150 --> 00:12:26,150
+should be happening for everything.
+
+170
+00:12:26,150 --> 00:12:31,180
+So let's start by just putting in a username and password. We haven't registered
+
+171
+00:12:31,180 --> 00:12:32,830
+it yet and we'll see what happens.
+
+172
+00:12:32,580 --> 00:12:36,500
+Now we get to see a valid error message coming up here. But the other good thing
+
+173
+00:12:36,500 --> 00:12:43,430
+is the alert message that we styled with tailwind CSS earlier is now coming through.
+
+174
+00:12:43,450 --> 00:12:48,610
+I want to relax some of the security, the home and the about page don't need to be
+
+175
+00:12:48,610 --> 00:12:53,950
+locked down. The account page does, and the authentication page should show information
+
+176
+00:12:53,950 --> 00:12:56,950
+about whether the user is signed in or not.
+
+177
+00:12:56,950 --> 00:12:59,330
+So I'm pressing number eight for relax.
+
+178
+00:12:59,250 --> 00:13:04,140
+we can see there's a change to the home controller and the pages controller. If we
+
+179
+00:13:04,140 --> 00:13:09,960
+do a refresh and the home page now allows us through, let's go have a look at what's
+
+180
+00:13:09,960 --> 00:13:15,270
+going on in the pages controller. So the home controller has allow unauthenticated
+
+181
+00:13:15,270 --> 00:13:20,040
+access, which is why we were able to get to that page with the pages controller.
+
+182
+00:13:20,040 --> 00:13:26,220
+We've got this concept of allow unauthenticated access only for two of the particular
+
+183
+00:13:26,220 --> 00:13:32,280
+pages. So let's just save that and we'll see what happens if we click on the about
+
+184
+00:13:32,280 --> 00:13:36,480
+and the authentication there. Good. And we're still locked down for the account.
+
+185
+00:13:36,580 --> 00:13:41,850
+Now the next step is to create a bunch of authentication enhancements, especially
+
+186
+00:13:41,850 --> 00:13:47,210
+registration, the view and links. So what we'll do is we'll find number nine
+
+187
+00:13:47,040 --> 00:13:50,700
+So let's come and have a look at the changes. If we go into configuration, we can
+
+188
+00:13:50,700 --> 00:13:54,060
+see there's a change to the routes, and we didn't look at some of the routes from
+
+189
+00:13:54,060 --> 00:14:00,000
+earlier as well. So we've got the resource registration session and passwords in
+
+190
+00:14:00,000 --> 00:14:01,320
+place. We've also got
+
+191
+00:14:01,280 --> 00:14:07,070
+three pages that we added earlier. If we come up to application and look within models,
+
+192
+00:14:07,190 --> 00:14:14,120
+there's a modification to the user. So we've now got validation going on on the email
+
+193
+00:14:14,120 --> 00:14:14,690
+address.
+
+194
+00:14:14,710 --> 00:14:18,380
+A new registrations page has been created,
+
+195
+00:14:18,280 --> 00:14:22,390
+and a new registration link has been added to the session.
+
+196
+00:14:22,210 --> 00:14:25,580
+So now we'll be able to register a new user.
+
+197
+00:14:25,410 --> 00:14:30,090
+we have the registrations controller. There's a new and a create method here. And
+
+198
+00:14:30,090 --> 00:14:35,400
+if we have a brief look on the application controller, we can see now there's a current
+
+199
+00:14:35,460 --> 00:14:37,350
+user that we can access
+
+200
+00:14:37,080 --> 00:14:41,780
+let's test the register. We'll click on here and we'll put in appydave@appydave.com.
+
+201
+00:14:42,540 --> 00:14:43,430
+click Register.
+
+202
+00:14:43,440 --> 00:14:48,280
+it has registered successfully. I don't know that we'll be able to sign in yet. Let's
+
+203
+00:14:48,280 --> 00:14:53,470
+just try that. So we appear to be signed in, but we got no information about the
+
+204
+00:14:53,470 --> 00:14:53,950
+user.
+
+205
+00:14:53,980 --> 00:14:56,130
+I would like to put that on the authentication page.
+
+206
+00:14:55,980 --> 00:15:01,750
+Now to visualize the user we'll press number ten which is authentication information.
+
+207
+00:15:01,750 --> 00:15:07,720
+We've got a new page. If we do a refresh we now have the idea of what the user is.
+
+208
+00:15:07,720 --> 00:15:12,010
+But there's something missing here because you would have noticed that we did register.
+
+209
+00:15:12,240 --> 00:15:16,190
+So to give a little bit of clarity around this authentication model, what we have
+
+210
+00:15:16,190 --> 00:15:23,030
+done is allow unauthenticated access. So it's basically skipping the require action.
+
+211
+00:15:23,030 --> 00:15:29,510
+And we can see that going on here. It said for authentication page we don't need
+
+212
+00:15:29,510 --> 00:15:32,810
+to be authenticated. But that doesn't mean you've got access to the authentication
+
+213
+00:15:32,810 --> 00:15:37,910
+information. And the authentication information we're interested in is here in the
+
+214
+00:15:37,910 --> 00:15:44,210
+current session which is looking in the session store. So we need to call this resume
+
+215
+00:15:44,210 --> 00:15:50,000
+session. So what we can do is come back here and just say before action resume session
+
+216
+00:15:50,000 --> 00:15:55,310
+for that particular page. Now we'll hit save on that. Come back to the authentication
+
+217
+00:15:55,310 --> 00:15:57,110
+details and we'll refresh.
+
+218
+00:15:57,110 --> 00:16:02,410
+now that user that we registered appydave@appydave.com is visible.
+
+219
+00:16:02,410 --> 00:16:07,260
+a recompile of the assets is giving us the sign out button. Let's see if that's working.
+
+220
+00:16:07,260 --> 00:16:08,040
+We'll click on it.
+
+221
+00:16:08,040 --> 00:16:13,830
+Let's try and sign back in appydave@appydave.com we'll click sign in. We'll click
+
+222
+00:16:13,830 --> 00:16:16,740
+on the authentication page. And there we have it.
+
+223
+00:16:16,740 --> 00:16:22,060
+Let's now see if we can add email validation to the sign up process. So we'll go
+
+224
+00:16:22,060 --> 00:16:23,440
+to the register user.
+
+225
+00:16:23,440 --> 00:16:27,870
+to try with appydave2. Now before we run that we're going to
+
+226
+00:16:27,980 --> 00:16:30,080
+authentication email.
+
+227
+00:16:30,240 --> 00:16:33,740
+what we've done is add a new table to the database.
+
+228
+00:16:33,740 --> 00:16:37,970
+So the main changes are that the confirmation token and confirmed that have been
+
+229
+00:16:38,000 --> 00:16:43,550
+added to the users. And then after that we've got some extra methods, plus the ability
+
+230
+00:16:43,550 --> 00:16:47,510
+to send an email and regenerate a token.
+
+231
+00:16:46,680 --> 00:16:51,800
+Additionally, we've got the registrations. Controller now has a confirm button on
+
+232
+00:16:51,800 --> 00:16:57,800
+it. We've got a user mailer with the ability to take the email. If we go into routes,
+
+233
+00:16:57,800 --> 00:17:02,330
+we've got letter opener because that's been added via the gem.
+
+234
+00:17:02,180 --> 00:17:07,400
+an important thing to think about is with the configuration, the default URL options
+
+235
+00:17:07,400 --> 00:17:12,800
+change it to the same port as whatever your web server is running on. So let's go
+
+236
+00:17:12,800 --> 00:17:13,400
+test it out.
+
+237
+00:17:13,410 --> 00:17:18,160
+Now we're back at the registration where we've got AP Dave two. We'll click Register
+
+238
+00:17:18,160 --> 00:17:23,530
+and it looks like it's come up with an email system. Let's click on this. Confirm
+
+239
+00:17:23,530 --> 00:17:24,190
+the account.
+
+240
+00:17:24,210 --> 00:17:29,110
+we are now confirmed. So we should be able to sign in with that. There's now also
+
+241
+00:17:29,110 --> 00:17:33,130
+a check email. If we click on that that'll take us over to letter opener. Now we
+
+242
+00:17:33,130 --> 00:17:38,440
+don't need to do that because we've already done it using the default viewer. But
+
+243
+00:17:38,440 --> 00:17:42,340
+if we go and click on the authentication page, it won't say that we're signed in
+
+244
+00:17:42,340 --> 00:17:47,290
+just yet. So let's just click on the sign in and we'll put in appydave2 And we'll
+
+245
+00:17:47,290 --> 00:17:48,580
+do that one more time.
+
+246
+00:17:48,580 --> 00:17:54,050
+now we can get to the account page which wasn't available before. If we look at the
+
+247
+00:17:54,050 --> 00:17:58,010
+authentication page we can see that we're signed in correctly.
+
+248
+00:17:58,040 --> 00:18:01,680
+I'm AppyDave Please like and subscribe and I'll see you in the next video.

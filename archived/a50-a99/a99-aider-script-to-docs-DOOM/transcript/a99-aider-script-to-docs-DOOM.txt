@@ -1,0 +1,184 @@
+AIDA is an AI pair programmer that you can run from the terminal.
+In this video I want to download DOOM by ID software and using scripting capability,
+let's document that complete project automatically so that we can potentially
+turn it into a new version using a different programming language.
+I'm Appy Dave, let's get into it.
+So we can get started by heading over to Appy Dave on GitHub and we've got this DOOM with docs.
+Now what it is is the original DOOM software that I've just fought and I'm going to add
+documentation to it using AIDA.
+So before we get started with the scripting let's just run AIDA and we'll use it from the
+terminal point of view and what we'll do is we'll make sure that the repo has been added in or
+check what's new in the new version.
+I like pressing yes to this every time I start AIDA because it just gives me access to new
+capabilities and the new capability that I'm seeing here today is that there's a copy
+context where information from the AIDA session can automatically end up in your clipboard that
+can be really useful and I just want to find out what is this repo about.
+So what sort of code, what's it meant to do and let's just see what it comes up with.
+Now it's worked out that this is the 1.1 release on Linux of DOOM and it's got a little bit of
+information about the code base.
+Now this cost money to do so we can see the cost here.
+It's two cents and we're on the first part of the session.
+Now if you use the same prompt again you would hope that prompt caching kicks in and that we
+would reduce the cost but I ran this again with exactly the same prompt and if we go to the bottom
+we're still being charged two cents though we do have a little bit different information.
+So just one thing to be aware of there.
+So let's have a quick look at what we've got in the repo.
+So we've got these four folders.
+This one called send serve if we go and click on the readme file it says it's something to do
+with our sound server.
+Open up the serve source and we read the readme file and it's something to do with a modem driver.
+We read that and it's an IPX network driver and it looks like the main code is going to be in this
+area here.
+So we've got a bunch of old readme files going on with various information about the DOOM game.
+So where I think we'll start is we'll go with the simpler folders and just generate some simple
+documentation in a readme markdown file using ADA.
+So we're in the terminal and we've got this IPX directory here and what we'll do is we'll come
+down to terminal type in ADA and we'll put in message and what we'll say is create a readme
+file and after that we just need to put in the location of the file.
+So I'm just going to say readme md and we'll press enter and let's see what it generates
+for us now while that's happening.
+We'll bring up visual studio.
+So we've got this new file being created and let's just put it into a more readable format
+at the moment and it says here this directory contains the IPX networking implementation
+of DOOM.
+We've got an overview.
+We've got features, technical details and a historical note.
+So we've got a bunch of information that it's gathered out on its own.
+Now let's see if we can improve that documentation by maybe reading each of the individual files
+and seeing if we can create something a lot more detailed.
+So I have a little tool that I built for myself that allows me to see files and also the content
+and make them available for ChatChimp ET.
+So what we'll do is we'll just run it on the current folder and we can see
+all the files that are made up of the DOOM software here.
+Now if we just bring it down to the IPX directory we should have C and header files and if we
+just put in a .h we should just have the header files.
+Now from there if I get rid of the .dashf tree I'm going to get a list of those files
+plus their content and it's in the clipboard.
+And so what that means is if I just paste it in we've got there's the last file right there
+and the content and as we scroll up we'll have additional files going on.
+So there's the third file and the content.
+Let's format it so it's designed directly for ADA.
+Now we already know that if we run ADA from the command line with the message
+and a file it'll run against that but you can list moddable files but since we've
+got our new tool which is the GPT context what we'll do is we'll use it to find a bunch of
+files based on a wildcard and we'll just put in a format we'll say ADA and I'll put in a prompt
+tell me something interesting about this file and what this is going to do is just construct
+the ADA command for me put in the clipboard so we can test this out.
+Now the ID software is not written in an encoding that works on my machine so the first thing I'm
+seeing is a few errors as this comes through and you can see here that even though we've got
+information it's also dropped certain files so what we'll do is we'll just run it again
+and I'm just going to go to the beginning and I'm just going to put in this encoding option
+which is part of ADA because I figured out that this would be the way that it would read it through
+so now it's added the files and they're not being dropped and we're going to get clear
+information about each file. Now what I'd like it to do now is create some complex documentation
+just based on these four files and we'll put it into create documentation in ipx slash readmeh.md
+and let's put in a more complex prompt here so to get my more complex prompt I just came over
+to Anthropic Prompt Generator said create clear documentation about a single C file
+aimed at a programmer who does not know C and we end up with this complex prompt going on here
+from there I've just taken the complex prompt that's here and just turned it into a single line
+so that we can just paste it directly into our terminal so we got the terminal create documentation
+in ipx readmeh.md and we'll just paste in all that information we're working on the four files
+and let's see what it comes up with so at the moment we've got a bunch of information
+being written hopefully we're going to see a new file get created in this location
+looks like it's got the file name location crap but it's asking us to generate it so we'll say yes
+and now we have a new file we should be able to go into markdown format and see what that looks like
+and we've got a lot of complex data that's being created for us using the scripting process now I'm
+going to make any claim that this is great information right now but what you can see is
+how we can write complex prompts iterate over multiple files and bring it back into one documentation
+file now I've come back to the GPT context command and I'm just going to change the pattern to the
+C files and I'm essentially going to paste in the same prompt except right at the very beginning
+I'm going to have it right out to the readme C rather than the readme h file and we'll let that
+generate the ADA command we can paste that in and it says ADA message create documentation in the
+ipx readme C MD file and so we'll just press enter on that now this may fail again with the encoding
+issues so we'll see what happens in a moment it looks like it's working okay as we read through
+there we can see the doom C ipx setup and ipx net.c coming through so this is all the documentation
+that we're writing and it's finished we've got a file that's going to appear right next to the
+h file we can open it up go into a markdown format and we can see now a bunch of information
+about the ipx C files now what I'd like to do now is create a complete documentation
+readme for the C files in this particular folder so what we'll do is we go down to the GPT context
+tool and we'll just make sure we've got all the files listed they all look to be good let's see
+just how big this will be so I'm going to get rid of the format and it's going to give us both the
+files and the code we'll just paste all of that in so we've got 43,400 lines of code across all of
+those files if we go to the top we can see the files listed as well and this is important to know
+because this is your context and it's going to cost money so we're running the same GPT context
+command but this time I've said the format is ADA and we'll put in the prompt here and what we'll
+do is we'll just come over and have a look at a prompt that says create documentation in the Linux
+doom readme C file and then we've got this complex prompt that we built using anthropic prompt
+generate so we can see we've got a command ready to go ADA message create documentation in the
+location we want we've got the complex prompt going on after that we'll just let that run and
+see what happens so many files have been added warning it's best to only add files to set
+your need for the chat well we do need them all it's a lot going on here and we can see here
+we've hit a token limit now this is a more than fair thing and we probably wouldn't want to run
+this many files through one lot of documentation generation anyway so what we'll do next is we'll
+so what we're going to do is look at all the C files that are in this particular directory
+and we'll iterate over all of them and just run ADA on each file now one of the things to keep in
+mind is that if we do a git log we want to make sure that as we're iterating we're not creating
+a new commit each time because we probably want to do that at the end of the run so let's assume
+we've got a starting command that looks like this ADA and we don't want to commit so we said no
+auto commits we've got a message and we're going to assume that some sort of file is going to come
+in we want to write to the md file and we want to base it off the incoming file do you want to
+create a new file we'll say yes and we should get a new file just created here and now we've got
+documentation related to the file above so we can see the individual file and the documentation
+related to it now if we come down to the terminal and we do a formatted git log and we can see that
+there's one file ready to go so if we did this in a loop we would have everything ready for a
+single commit at the end and I'll show you the ADA command for that later on so what we have here
+is the file we just ran which was ADA no commits the message we want to a particular file using
+an input file and what we'll do is we'll just paste in a loop so that we're just looping through all
+the files in that folder and we're just interpolating the file name with md and we've also got the
+file name coming in but let's make it a little bit more complex and we'll take this complex
+prompt that we did earlier and we will just go dash and paste that in as well and from there we
+should be able to run this and run the complex prompt and create a markdown file for every c file
+so I kicked off the command we can see where the it starts here and so far it's run for about 15
+minutes and we can see individual files being updated then it moved on here and both created
+and opened the d items md so we've got that going on and this goes on for quite a while then at one
+stage it decided to create files in a docs directory now it didn't always do that it would
+sometimes do it in this directory and sometimes do it at the level of the original file so there's
+just a change that's going on as we go now if we just go to the bottom it's still operating at the
+moment so we'll just kick off the next one it will say yes and this one looks like it's going to be
+created at the root level which is where we want in that instance when it said open the file I said
+no in this case so we do have a little bit of control whether we create them or open them in your
+IDE so for this one we'll just say yes create the file so I'll let it run to the end and then we'll
+see what's been created and calculate the prices let's check out a couple of metrics here so we've
+got all these markdown files in various levels and that's quite concerning to be honest because we
+got some at the root level we've got some where they're meant to be which is in where the code was
+then we've got a bunch that are in a sub folder called docs and then we've got two that are at
+the root level plus docs it seems like it generated all the markdown documents but didn't always get
+them in the right location so what I've done is brought all the files into the docs string so if
+you go down to the chat history you've got a whole lot of data that you can use to figure out various
+things so I'm not sure whether there's a way to get the exact cost of the session so there's 84
+lines averaging around about three to four cents per call that we can see that the 84 calls cost
+four dollars 11 and I got that information from the chat history now if we look for the create new
+file we can see that all listed here for quite a while it's putting them into the right location
+and then it just changes for about three files and then it goes into a high level dots folder for
+some reason and then we're back to where it's meant to be and then later on we've got a few
+examples here here and here where it's done it down at the root level so most of the time when
+it created a file it gave you the option to open it which is not something I actually needed
+it also from time to time would do a cat to the screen and then ask the question would you like
+to add it into the chat conversation now I'm not exactly sure whether this was going to be useful
+or not I don't believe it would be because I was on an iteration of looping through and calling
+AIDA each time so I'm not sure if it was in the same session then from time to time I would ask
+to make a dots directory so the interesting thing about doing this level of analysis is that there's
+an unpredictability to what was going on with the creation now we haven't looked at the documentation
+so let's have a look at that next now AIDA will normally take care of doing the commits for you
+but I said no commits so what we're going to have to do is just add them and commit them so what I
+want to do now is get a tree of all the documentation files that we've created under the doom folder
+plus the ones that we've got at a higher level from there we'll run this command one more time
+and we'll put in some sort of prompt that hopefully can create a broad markdown file that can take us
+to each of those documentation files so here's the prompt that we're going to use we'll just run
+we've now got it all set up we can just press paste and let AIDA do its job of looking through
+all the files creating a 10 to 15 word description for each file and putting it all into a table of
+contents so we can see information coming so I've just pushed the documentation up we can
+set it here code documentation we click on that and we've got this long documentation table of
+contents going on with individual files let's just go and open up a couple of core systems
+we'll do a rendering file a game logic and let's go down to a user interface and as we go across
+we can start to see the documentation going on for the core logic and then there's a little bit
+of user interface information going on here now I can't tell you whether the documentation is 100
+or it's the right way to go the main thing I'm relying on at the moment is that we can script
+to generate information on BOL there's great information in these files such as just how
+it's meant to work as part of the whole system and also information for non-c programmers now that
+brings us to the end of scripting AIDA from the command line we've looked at single line calls
+we've looked at how to do a prompt to guess many files at the same time and also how to loop through
+files now in the next video I want to look at a programmatic way of working with AIDA now one
+of the things that we can see from the documentation here is that they have an unofficial way of
+communicating with this using Python so hopefully we'll explore that in the next video I'm Appy
+

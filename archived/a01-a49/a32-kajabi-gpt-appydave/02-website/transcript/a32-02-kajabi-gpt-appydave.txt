@@ -1,0 +1,714 @@
+Hi, welcome to the Building Kajabi with GPT Assist series.
+In the first episode we looked at the capabilities and what it is we're trying to build within
+Kajabi.
+In this episode we're going to go ahead and start creating pages, a sitemap, navigation
+and we'll also develop a GPT which will guide us along the way through this tutorial series.
+Now let's start building our website.
+So if we click over on the website button here, you'll be presented with this area
+called Pick a Template.
+Now there are four things that you might want to know about this.
+You can pick a template that's free to use from Kajabi.
+You can go and use one of their older legacy templates.
+You can go to the template store where you can buy premium templates but you can also
+upload your own templates.
+Now if you want to use a premium template with Kajabi, it's fairly easy, you can come
+over to the store and you'll be presented with this menu item called Custom Templates.
+From here at the moment there's 26 templates that you can pick, you just have to purchase
+them and then you can upload them.
+Remember you can upload from other providers as well.
+But coming back to the design area, we'll click on Pick a Template or in the template
+store and what you can do is pick one of the free templates available from Kajabi.
+There's also some legacy templates down the bottom that you can also choose.
+Now when choosing a template from the store, here are a couple of things to consider.
+You can either select a template based on something that you like but the reality is
+all of these templates are pretty much the same except for layout.
+So then it becomes a case of what else should be the deciding factor when you pick a template.
+This first one here called Rise happens to be the one that my mentor Alec from Take One
+Tech uses.
+And if we just click through to his website, it looks something like this.
+And I'm going to suggest that you take a look at what his business is about.
+I'm currently following his Kajabi Accelerator course as I learned to build a Kajabi website
+for myself.
+There's some great information there and you can find an affiliate link in the description.
+But one of the other things that you might want to consider is that if all of these
+templates are pretty much the same except for layout, then picking something that's
+very simple and ready to be styled from scratch might be a better alternative.
+I've done my research and worked out that Streamlined House is the one that I want to
+start with today.
+So we'll come over and we'll click on Streamlined House and we get a little picture of what
+it's going to look like and we'll just click on Getting Started.
+It's currently installing the template for us.
+Our template is set up and it's also considered live so you can actually see this from the
+internet.
+But you'll see we've got a home page here and you've got little buttons that allow you
+to see the pages that have been set up.
+So we have our library, our member directory and announcements.
+The next couple of pages haven't been set up yet.
+That's the blog, blog post, the search and thank you.
+But moving forward, we've got a login page and a page not found.
+Lastly, we have the store.
+If you want to preview this site, we can either click on Preview, which is the standard way
+to do it.
+But if we click on Site Settings, what we'll find is that all the settings for our site
+are here and one of them happens to be this URL.
+And this is what it'll be publicly until such time as you set up the DNS.
+And we'll do that in another video.
+Whether you take a copy of the domain name here or if we click back on Website, we should
+be able to go directly to Preview mode.
+We'll be taken to a version of the website that's up and running.
+Here's our store and we can click on the library and the contact and we even have access to
+settings and logging out up here.
+With the template in place, what we can do is click on Customize and you'll be taken
+to each of the individual pages that you want to edit are made available to you via a dropdown.
+So we're currently on the home page and you can see these are the different layouts of
+the elements that are available to us.
+If we wanted to look at something simple, like the page not found, we click on 404 here
+and we'll be given this very simple page with a navigation item at the top and page not
+found in the middle.
+Now moving back to the home page, our next consideration should really be what pages
+do we want to have on the website.
+I think we'd better have a look at what we're actually trying to build and maybe even bring
+some GPT in the mix to build up a site map so that we can move forward.
+In the last video, we had a plan of action and it was to build out Appy Dave, a bunch
+of courses, master classes, consulting and various brands around what I'm doing.
+In the past, I've had a website called appydave.com, pretty simple, stylish at the time about
+six years ago and it was done in the Hugo, which is a static site generator.
+It's known for being very fast and it's free to use.
+So it was being good for the last six years.
+But the problem is that I'm now a content creator, I want to create courses that I can
+market and this is not a platform in which you could really build a business.
+This stage, I think it might be useful to create a GPT that works with Kajabi.
+The goal I think would be to help me develop my branding, my content, my site structure,
+but do it from a Kajabi point of view, which means it should understand concepts like courses,
+memberships and other sorts of products.
+What I'll do is I'll copy all the information that it's given me.
+This is going to make great context information for a new custom GPT.
+So we right click, press copy, head over to my GPTs.
+I usually take a fair bit of time to create.
+This one's going to be a quick build because I just want to use it and then throw it away.
+Though I may make it available as a link for you to use yourself.
+What you've got here is this ability to configure or create it.
+Today we'll use to create and I'm just going to paste in all the information I've got there,
+press enter.
+And what it's doing is reading all this information and figuring out the instructions and the title
+and maybe even the image that we want to go with this custom knowledge by torque GPT agent.
+As returned with great choice, how about naming it Kajabi site helper?
+I think we'll just go with yes for that.
+So we want some sort of nice image to go here.
+And so we've got this image created.
+It's not really what I would go with if I was publishing this to the GPT store.
+I would improve it, but this is a temporary bot for now.
+So let's go with that.
+We could start testing the bot down in the right hand side here.
+We can also look at the configuration where we've got the name, the description and instructions
+about what it's going to do.
+There's also four conversation starters that it's set up that you can just click on when you come to this bot for the first time.
+Now to use this bot, we really want to load it up with information about the website we're trying to build.
+So if we head back over to our mind map,
+we can see we've already got a bunch of content set.
+If we clicked on it and pressed command C, we could come back and just paste it in and all that information in a hierarchy.
+So coming back to this, we will drill into this information a little bit and expand on it.
+So we already seen the old website.
+The idea is that we're building a Kajabi website and it has capabilities.
+And those capabilities were pretty much derived from the menus that are available within Kajabi.
+So we've got marketing where we can do an email list, funnels and landing pages.
+We've got products.
+So for me, it'll be courses.
+They'll also be coaching, but you can also do community and podcasts.
+Then we go into sales where you can bundle up your products into offers.
+You've got coupons and affiliates and the website.
+And this is one of the areas that we're really trying to work on right now is coming up with a sitemap.
+I know I'm going to need contact information, people that want to give me testimonials.
+So I should list that.
+There's definitely an affiliate link concept that I should do because most of my videos,
+there are products or courses that I use and I want to have a page for that.
+I want to create an article for each video and have different sections within my blog.
+Going more into detail about courses, which we did talk about in products,
+we're going to need to create titles, thumbnails, descriptions and pricing.
+This is where a lot of GPT work will come in.
+So definitely the title, the description can be done in GPT.
+The thumbnail, that could be done in Dali 3.
+Moving on to the last area, which is all about the capabilities of Kajabi.
+We'll have affiliate programs, setting up settings really.
+So the banking, connecting of social accounts, Google analytics,
+setting up my incorporation and other sorts of settings that are going to be needed.
+That area of our context is really about what's going to be available for our GPT to use.
+Because outside of this scope is not really relevant for what we're doing today.
+But then there's the case of what is it we want to talk about.
+It's Appy Dave and my business is really centered around some courses.
+The courses that I'm thinking of building is a general chat GPT course.
+There'll be one using the open AI API so that you can automate your GPTs.
+Then there'll be the agent.
+So we're in the middle of writing an agent right now, being the Kajabi agent.
+But I have plenty of agents across YouTube automation around tutorial bots.
+And then Fly Video is a little SaaS application that I'm looking to develop
+to automate this video creation that I'm doing at the moment.
+One of the other areas that I'll be marketing over time in some sort of master class
+or an academy.
+And that'll probably be around GPT because it's the area that I love working in.
+The last two nodes here in the mind map are consulting.
+I do plan to do a little bit of consulting over Zoom.
+If I do it locally in Brisbane, Australia,
+then I'll probably need a Google profile and Google Maps.
+And then there's the brands, YouTube channels that I'm developing.
+The main ones being Appy Dave and Appy Cass.
+But there's also others that I'm looking to develop.
+And they should all be centered around this one website.
+Coming back to our Kajabi site helper GPT,
+I've taken all the information from the mind map and I've just put it into the field.
+And then we'll use text to speech to write a very simple prompt to go with that information.
+The information presented below is the capabilities of Kajabi,
+plus the details about my website that I want you to store.
+Can you just record it and say yay?
+And what we do is we just fix up a little typo there.
+I like saying yay because I don't want it to interpret what I'm saying.
+I just want it to store the information.
+And it said yay, your website details for Appy Dave have been recorded successfully.
+This includes information about your courses, masterclass,
+cash flow, website structure, consulting services and brand elements.
+This will be helpful for further discussions when planning regarding your Kajabi website.
+So we are ready to move forward.
+Now time to develop a site map for the Appy Dave website.
+And we can use the Kajabi GPT helper to build this for us.
+So the idea of a site map is to develop a structure for your website.
+At the moment we've got all these pages that have been set up.
+We've got the home page, the contact page, library and member directory.
+And you'll notice that they're linkable in the main menu just here.
+We've got the store, the my library, about us and contact.
+Also down in the photo, there should be a couple of other menu items.
+We've got my library and store again.
+So this is the sort of information that makes up a site map.
+The reason it's called a map is that it can be multiple levels of menus.
+So if we go down here and we look at something like say the blog,
+the blog is a page with a list of blog posts.
+But the blog posts are underneath the blog.
+I'm going to have multiple courses.
+That's going to be under a page called courses.
+Because I'm going to have services like consulting.
+That'll be under a different sort of page.
+So what we're trying to do is develop that structure.
+The way we can do that is we can take the information that we put into our mind map.
+We've got master class and we've got two concepts here.
+We've got some courses.
+We've got multiple concepts here.
+We've got various brands, the different YouTube channels that I want to go to
+and the consulting.
+We've already got a lot of structure that we've already given to the GPT bot.
+Now on top of the ideas for the site map that I've already talked about,
+there's also the pages that are already set up for this Kajabi website.
+We have home contact library.
+But we're in the Kajabi GPT and I've got,
+can you give me a basic site structure that might fit with the information provided?
+And the information is all the information from the mind map.
+Can you keep in mind that Kajabi has already set up the following pages?
+And what we'll do is we'll just paste in this information and press go.
+Let's come up with a pretty good first pass.
+We've got the basic structure for Api Dave.
+We've got a home page and within this it said courses, master class, consulting.
+If we go back to the original design, we have these three amazing features section,
+which we could fill in directly with this sort of information
+when we're ready to do that.
+I'll probably expand on this in a different conversation.
+Moving on, we've got about courses, master class.
+I'm not really ready to do the master class.
+So what I'm going to do is say, can you remove master class?
+There might be others that we want to remove.
+We've got consulting, a blog, a store.
+We'll keep store resources and community.
+We'll remove community because I will do that using Discord or Facebook.
+Then there's contact, member area, support announcements.
+Probably get rid of announcements as well.
+Now I've just put this little prompt, store in a simple bullet point hierarchy
+with minimal detail because there's way too much information in here
+for me to feed back into my mind map,
+which is where I really want to use this information.
+We now have a simplified structure for the Api Dave website.
+It's quite readable.
+I've just asked it to put it in a markdown format.
+I then had to save with multi-level bullet points.
+So we've got that information here and we'll copy that.
+We'll come over to our mind map.
+I'm just going to paste that information in as a tree.
+This is now a better structure.
+It's flat from the point of view of the main menu,
+but it also has all the details that we've been talking about.
+I can now start transferring information backwards and forwards
+from the Kajabi website to the Kajabi GPT
+as I develop more and more content.
+Now I've just manually relayed out the pages that I've got.
+You can see here that we've got 13 pages.
+I am going to build these pages in this session,
+but what I think we should do is quickly go through the ideas
+and think about what type of page they will be.
+It might be important to also look at the navigation
+and this way we can get a proper site map.
+At the moment, this is more just a structure of the site.
+It will be a site map as soon as it has a bit of depth.
+And the site map is then going to be really useful,
+both for the navigation so that it's very easy to get through the website,
+but also for SEO so that Google and other search engines
+can find your information.
+Moving forward, the obvious one is the home page
+and the home page is where I'll have some sort of tagline,
+a hero message and different things that I'm talking about
+in blocks, courses and services.
+There'll be a list of courses.
+I've got three that I'm thinking of developing at the moment.
+Products will probably be cheat sheets
+and prompt engineering guides, that sort of stuff.
+They may be on the site.
+They may actually be on Etsy.
+We'll see over time.
+Then there'll be the service offerings.
+Now, mostly it's going to be consulting.
+Have some information for where people can book.
+We'll look at projects.
+So these are really pet projects of mine.
+One's a programming language for GPT
+and one is YouTube automation for content creators.
+They really just follow me as I build projects.
+They're not actual products that I would sell.
+It's a major area that I find interesting to work on.
+Then there'll be a blog and a blog's an obvious part
+and this will probably bring a lot of the other stuff together.
+When I'm talking about projects,
+there'll definitely be categories around the pet projects
+that I'm working on.
+Maybe different brands where I put information out
+for different niches.
+So YouTube automation comes through here.
+I might put the prompt engineering guides
+through winning prompts.
+There'll definitely be some sort of store.
+I don't know that it'll be up on the top level navigation.
+It'll probably be back behind at landing pages.
+And then there's the different resources
+that I want to offer like free guides or various tools.
+As a content creator,
+there's always little tools that I need
+just as part of my normal day-to-day process.
+I want to make them available through my tools section.
+Then there's the ability to contact me
+or find out a little bit about who I am.
+And there'll be a sign-in area, the member area.
+We've already seen that the login and the 404
+are being created by Kajabi.
+Now just coming back to two areas,
+which is courses and products.
+It'll also be interesting to note
+that these won't be normal web pages like the home page.
+So the home page will have top-level navigation
+or have footer navigation or have a drop-down.
+But these are all going to be landing pages
+because the idea of this is for people to potentially purchase.
+A standard landing page doesn't have navigation.
+This will happen a lot for these seven items.
+There may be a few others in the site now.
+Let's take a moment to talk about slugs
+or the URLs that we want for each of our pages.
+Now slugs are an important part
+of the search engine optimization for your website.
+They're quite simple in nature.
+And the way they work is that you might have a domain name
+and then there'll be a topic and that's called a slug.
+So all of this area is part of the slug.
+We have a major topic.
+We might have a subcategory
+and then we definitely have a page name.
+There's only one time where none of this exists.
+When you're on a home page, what you would see just a slash.
+When we go to about us, that might be the title
+that we have on the page,
+but the slug might just be slash about.
+And then when it comes to blog,
+we might not want to use the concept of blog.
+We might want to use something like news
+and set the title to news.
+Now that we know what slugs are,
+let's have a look at our site map.
+And the site map now has a root slug,
+which will be for the home page.
+And then we've got courses, products, services.
+I didn't name my projects as projects.
+I went with pet projects.
+And as we come to blog,
+there's this decision I need to make.
+Now I'll probably go with articles we'll see over time.
+So I might just delete them for now,
+but I could go with news as well.
+For the page that represents my store,
+I'll probably call it shop.
+And then we'll have resources, contact, about and members.
+Now using the site structure that we've just developed,
+it might be time to start creating some web pages.
+We've come over to the website.
+We're on design, but if we click on pages,
+we're going to have the ability to work with the system pages
+or create new pages.
+Now things like the system pages
+are always available in Kajabi.
+You don't have to have them enabled on your site,
+but they're always there.
+And there's one limitation that you need to be aware of.
+So when we go into the store,
+we've got this URL and the slug is set to store.
+Now we did talk about calling this shop
+and you can't do that directly from this page.
+There are other techniques
+and we might look at that a bit later.
+What we'll do is just bring up our site map
+over here on the right.
+And we have our homepage.
+We have courses which will be a brand new page
+and we'll be able to use the new page button to change that.
+If we look through at the articles and the store,
+I might just undo this.
+So let's just call that store
+and we'll call that one blog.
+And that's keeping it in alignment with the system pages.
+Later on we'll look at how we can change that.
+Let's create our first four custom pages.
+So we'll go with courses, products, services, and pet projects.
+In the pages area, we'll click on the new page button
+and we'll just type courses and press customize page.
+And you'll have a sample page all set up.
+We'll just click on the first element here
+and just change its text to courses for now.
+We'll hit the save button.
+We just go and repeat this for the other three products,
+services, and pet projects.
+We'll click the bat button.
+And so now we have four new pages added to the system.
+They've all been published.
+We'll just go to the first one and copy the URL.
+And if we open that up in a new browser,
+we'll see that we've got our standard heading
+and just word pet projects.
+We haven't hooked up any navigation yet,
+so there's no other way to get to it other than via the URL.
+But we'll do that soon.
+Now I've gone through the pages that we've got listed here
+and a few of them are custom in nature.
+Others are system, but they're all in place.
+We have 18 on the Kajabi website.
+We've got 13 listed in our mind map.
+So these are the ones that we want to make public.
+Let's just see what they look like right now.
+Here we are at the home page.
+The home page hasn't been altered just yet.
+It's got a navigation down the bottom,
+a navigation at the top.
+If you click on the logo,
+it'll refresh the page and keep it on the home URL.
+Looking at the first four courses,
+products, services and projects,
+we should just be able to click through.
+Notice it's got courses here,
+products, services and pet projects.
+When we move on to blog, it'll have a page not found.
+And that's because we haven't actually created
+any blog entries in the system.
+Once we move on to the other six pages,
+we've got a store.
+When we go to resources,
+there was already a system page for that.
+So I've just left that the way it is for now.
+We've got contact about and the member dashboard.
+One of the things I noticed
+is that the URL is member dashboard slash members.
+Lastly, we've got logging.
+Let's have a look at the navigation section
+and how we get to each of the slugs.
+Let's figure out how we're going to structure
+this website from a menu point of view.
+So we'll just minimize this
+and we'll open up some new areas called navigation.
+And within the navigation,
+there'll be a master menu that'll be
+along the top of the page,
+a footer menu at the bottom,
+and then there's the dropdown.
+We need to create a bunch of menu items.
+So let's just go and paste in a bunch of ideas
+that we've already developed.
+Now I'm using the mind map rather than
+Kajabi at the moment
+because it's so easy to iterate on ideas.
+Let's take the first three menu items
+which take me to courses, products and services.
+I think that's the most important area
+that I want people to go to.
+So it probably should be in the main menu
+or the master menu.
+Things like my pet projects,
+they're not really a marketing thing.
+They're not something I'm trying to sell.
+They're just something I'm talking about.
+They might end up being in the blog.
+And we might leave it there
+or they could go down in the footer menu.
+We'll leave it there.
+And notice how I can just move things
+from area to area pretty quickly in a mind map
+which makes it so much simpler
+when we go over to Kajabi.
+For the footer area,
+I think the resources, the contact
+and the about us make a whole lot of sense in there.
+So we'll just drop that in here.
+And now we've got to figure out where to put the blog.
+Now blogs normally would go in the main menu.
+So we'll put it there.
+Being aware that if your main menu gets too
+detailed, too complex,
+it becomes a little bit of a put off.
+Hopefully we can keep it at four.
+Then we've got the store and the member area.
+Now the member area is pretty easy to work out
+because there is a dropdown that's available
+when you signed in.
+That can sit there.
+And lastly, the store.
+For now, I'm going to put it in the footer menu.
+I don't know where it's going to be.
+But this gives us a pretty good starting point
+for the menu for the website.
+Now we've defined our primary navigation
+for the main menu, the footer and the dropdown.
+I've now added in a home page.
+And one of the things to realize for the home page is
+it's another area where navigation happens.
+But rather than being called menu items,
+they're often called sections.
+So we'll type in the sections.
+And what we'll do is just paste in the information
+we had earlier, basically all the major pages
+that we've got.
+And we can move them into sections within the home page.
+Let's go and have a look at a home page
+to see what we're talking about, both with sections
+and with these navigation items.
+Here we are at the home page.
+We've got a logo and there would be a link
+to the home page here.
+There's also a main menu going on,
+which we've talked about.
+If we go to the bottom, we should have a footer menu
+that we can also work with.
+Within this area would be the dropdown menu.
+What about all these other sections?
+The home page is often made up of concepts
+like called actions, sections with two or three
+or four different links going on.
+And they don't look like hyperlinks,
+but they definitely are.
+And this is the area that we now want to consider
+and map out as part of the sitemap.
+Looking at the sections that we want to put on
+to the home page, the first thing to think about
+is that most home pages start with a hero section.
+And that doesn't necessarily relate directly
+to any of the pages we've got here.
+We'll just add hero to the home page.
+And this might be an area I put my mission.
+It might be some other sort of tagline or call to action.
+Well, after the hero, there'll be more sections.
+So I've just put in a one and a two for now.
+And the way a section should look is,
+depending on the shape of the data.
+So if I had three courses, one for chatGPT,
+one for open AI API, and another one for GPT agents,
+then the section would probably be three squares
+across the screen.
+That could just hold three different courses.
+Then if we move down and say,
+select the products and services and my pet projects,
+they might go into section two.
+And so on the left could be products.
+In the middle could be services.
+On the right, I probably wouldn't call it pet projects there.
+So we'll just go with projects,
+even though the page it goes to might be pet projects.
+I've added a couple more sections.
+And I think for resources,
+which is stuff like affiliate products
+that I might be marketing,
+I don't think they have any purpose being on the home page.
+So we'll just remove it.
+The word blog, that'll be in the main menu.
+But from a section point of view,
+that might just be called latest news
+or latest articles, something like that.
+So we can just remove that from there.
+The store, it's debatable.
+Whether I need that because we do have products,
+that should be okay.
+Then we've got our last section
+that might be contact and something about who I am.
+To close off this section,
+we're going to have a hero
+with some sort of mission statement or tagline.
+We'll have three courses listed in a section,
+maybe a book of call.
+Then we'll have a three column
+that's showing products, services and projects.
+Another book of call.
+And then just the latest three articles,
+followed by a contact about and footer at the bottom.
+The other thing that we've set up here
+being the master footer menu and drop down menu
+is what will go on setup.
+Maintaining your menus is pretty simple.
+We can leave pages and head off to navigation.
+Here you'll have access to four different default menus.
+We've got a main menu, a footer
+that doesn't currently have anything in it.
+A member menu, which is the drop down
+and the about and contact menu.
+We'll look at why we have this one
+and we have a main menu in a moment.
+The other area to be aware of
+is that you can go and create new custom menus
+either by clicking this button or this button right here.
+Understand the different default menus that we have here.
+Let's go and have a look at our page design.
+Now the page design is made up of elements or blocks.
+And if we click on this particular one
+which says store and my library,
+we can see over on the left that there's a menu
+and it's linked up to the main menu.
+If we move over to the right, this is not main menu
+but this is a different menu altogether
+called about and contact.
+We might be thinking, what's the footer going to be?
+Is there going to be a footer menu?
+And if we scroll to the bottom and we click down here,
+we see it's back to the main menu again.
+So what they've done is created this reusable menu
+that can be used at either the heading or in the footer.
+But that's not really the way I want to work with things today.
+What we'll be doing is removing this menu altogether
+and transferring information if needed into a footer menu
+and then redefining this menu with everything that we need.
+Let's work on the main menu here
+and we can start off by bringing up our mind map
+and we've got master menu here
+with courses, products, services and blog.
+And neither store or my menu are part of that.
+So what we can do is we can just click on here
+and delete the menu item and we'll do it for both of them.
+We come down and we add a page in this particular case
+and we can type in the page we want
+or just scroll down and we'll look for courses
+and visible to logged in users only.
+That's not the case.
+I want this visible to everyone
+so we can just hit save here.
+Now let's just do that for the other three pages.
+Looking back at our navigation items,
+we have the main menu with two items in it
+and we will be adding to this in a moment.
+The footer doesn't currently have any menu items.
+We will add to that.
+There is a member menu
+which we're not going to change at the moment.
+That's the drop down and at the bottom,
+the about and contact menu.
+We're not going to remove anything here.
+Instead, we will go over to the page
+and remove the menu in that location.
+With the four menus in our main menu,
+we can go over to the pages, click on the home
+and when we're in here,
+you'll see now that the four menu items are listed here.
+If we click on the preview button,
+we'll be taken to the website
+and we can click through to each of the pages.
+Main menu looks to be working quite fine
+and there's also these about and contact.
+I think it's time to remove them.
+Coming back to our page design,
+we can go over to this element.
+When we click on it, this will change
+and there'll be delete block.
+We'll click on that.
+One of the things to note is that
+when you click the preview,
+nothing has changed
+and the reason for that
+is that we need to come back and click save as well.
+So we click on the save
+and follow it up with the preview
+and hopefully these two all disappear.
+They're gone and at the moment,
+the main menu is also showing in the photo.
+So if we go down to the bottom,
+we'll have them all listed here.
+Let's next look at how we want to do the photo.
+Create the menu for the photo.
+We'll come down, we'll add a page.
+For now, we'll just start with a sample.
+We'll go with resource and click save.
+Heading into our design,
+we go down to the bottom
+and we'll just click here
+and we go, why is it not showing the photo?
+It's because it's still linked to the main menu.
+If we click here and we press footer,
+we should see resources and there they are.
+Now, if we click on our preview button,
+we're hoping to see the word resources at the bottom
+and we don't.
+That's because we've forgotten to save it.
+So click save first
+and then click on the preview button
+and this should change to resources and there it is.
+Now, our photo menu had five different items in it
+from pet projects all the way through to store.
+At the moment, we've got resources.
+What we can do here is click on it and delete it.
+So that's now going to be removed from the system.
+At which point, we can just start adding in our pages.
+I'll just type pet and it should pop up.
+There it is.
+We hit save and then I just repeat this four more times.
+We come back to our design.
+We may need to press the refresh button
+and we get to the bottom.
+We've got five items.
+Let's head over to our preview and test out the menu.
+So we've got our courses, products, we'll click on services.
+Our blog is not set up.
+Let's see what happens there.
+Page not found.
+That's fine.
+We'll go to the bottom.
+We'll look at pet projects.
+They're working okay, resources.
+I did not change the heading on this one.
+We'll click on contact and about store.
+One last menu to be aware of powered by Kajabi.
+We can turn this off in settings.
+But if you keep it, it will include your affiliate code.
+If you're on the growth plan or higher,
+that's down here with affiliate programs.
+I'm going to leave that menu in place.
+We can also go to the top and click on this area
+where we've got access to my library settings and log out.
+We haven't gone over that yet.
+We'll look into that a bit later.
+So far, we have selected a template
+and then gone into chat GPT.
+We started a GPT for Kajabi
+and that'll help us navigate and use Kajabi more effectively
+as well as we go through the series
+developing better content and branding for the site.
+We also went on to develop the sitemap, the navigation
+and put the first set of pages in place.
+If you want access to the original GPT or any other resources,
+click the link in the description below.
+In the next episode,
+we'll be building out the homepage and additional content.
+So remember to like and subscribe.
+I'm Appy Dave.
+Thank you for watching.

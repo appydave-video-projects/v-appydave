@@ -1,0 +1,1199 @@
+1
+00:00:00,00 --> 00:00:06,210
+Two days ago, OpenAI released Swarm. Now what it is is an educational framework for 
+
+2
+00:00:06,210 --> 00:00:11,740
+developers, and it's about building multi-agent workflows. What we're going to do 
+
+3
+00:00:11,760 --> 00:00:15,820
+today is we're going to come up to the code and click on clone and bring it down 
+
+4
+00:00:15,820 --> 00:00:19,890
+to the computer. After that, we'll look through some of the documentation, see how 
+
+5
+00:00:19,890 --> 00:00:24,420
+it works, look at it a little bit of code. And finally we're going to go through 
+
+6
+00:00:24,420 --> 00:00:29,790
+the examples. So they've got a bunch of examples available inside the code base. 
+
+7
+00:00:29,790 --> 00:00:33,720
+And we'll test them out on the system I'm AppyDave. Please like and subscribe. Let's 
+
+8
+00:00:33,720 --> 00:00:34,470
+get into it.
+
+9
+00:00:34,500 --> 00:00:40,140
+The Swarm project is focusing on execution and coordination, and it has two different 
+
+10
+00:00:40,140 --> 00:00:45,420
+concepts within it. One is called agents and the other is handoffs. And with agents, 
+
+11
+00:00:45,420 --> 00:00:50,520
+what we're looking at are instructions and tools with the handoffs. If we go over 
+
+12
+00:00:50,520 --> 00:00:55,530
+to the document related to this, there's a cookbook orchestrating agents routines 
+
+13
+00:00:55,530 --> 00:00:56,520
+and handoffs. 
+
+14
+00:00:56,530 --> 00:01:01,640
+it's defined as an agent that hands off processing to another agent.
+
+15
+00:01:01,660 --> 00:01:06,850
+Now, the Swarm project is essentially an area to explore patterns the patterns for 
+
+16
+00:01:06,850 --> 00:01:11,980
+lightweight, scalable, and highly customizable design. This is not a replacement 
+
+17
+00:01:11,980 --> 00:01:17,950
+for Crew AI or other sorts of frameworks like that as yet, and it's more about educating 
+
+18
+00:01:17,950 --> 00:01:23,320
+developers on how they can work with large language models in a workflow and step 
+
+19
+00:01:23,320 --> 00:01:24,580
+oriented system.
+
+20
+00:01:24,600 --> 00:01:28,560
+to get started let's come to the top here. We're going to click on code. And in this 
+
+21
+00:01:28,560 --> 00:01:31,560
+case I'm going to use GitHub CLI. 
+
+22
+00:01:31,560 --> 00:01:37,520
+I've just created a folder called test. And we're going to paste in gh repo clone 
+
+23
+00:01:37,520 --> 00:01:41,300
+OpenAI / Swarm and let it come down.
+
+24
+00:01:41,330 --> 00:01:45,840
+Now the repository with the examples are on the computer. But what we'll do is we'll 
+
+25
+00:01:45,840 --> 00:01:48,390
+come here and we'll click on the install command. 
+
+26
+00:01:48,400 --> 00:01:52,720
+coming back to the terminal, we'll just paste in that command and make sure it's 
+
+27
+00:01:52,720 --> 00:01:53,200
+installed. 
+
+28
+00:01:52,960 --> 00:01:58,260
+Now I've opened up the repository here in VSCode and we should check out a few things. 
+
+29
+00:01:58,260 --> 00:02:02,500
+if we open up the Swarm directory, you'll see that there's a little bit of code going 
+
+30
+00:02:02,500 --> 00:02:07,720
+on in the system, and we'll check some of that out later if needed. There's examples 
+
+31
+00:02:07,720 --> 00:02:12,100
+and we're definitely going to be working through here. But it's the assets will start 
+
+32
+00:02:12,100 --> 00:02:16,450
+with. So if we go and look at the Swarm diagram you can see what's the weather in 
+
+33
+00:02:16,450 --> 00:02:17,830
+New York. 
+
+34
+00:02:17,100 --> 00:02:23,860
+that's being sent to a triage assistant. And its job is to go, well what is the question 
+
+35
+00:02:23,860 --> 00:02:29,620
+coming in and hand it off to the correct agent. In this case it's the weather assistant 
+
+36
+00:02:29,650 --> 00:02:36,700
+and it says it's 67 degrees in New York. Now, if we come back and look at the examples, 
+
+37
+00:02:36,700 --> 00:02:40,660
+there's already a weather agent system that we can go and look at. If we look at 
+
+38
+00:02:40,660 --> 00:02:45,700
+the Readme file, it says, this example is a weather agent demonstrating function 
+
+39
+00:02:45,700 --> 00:02:48,520
+calling with a single agent. So very similar to what we just saw 
+
+40
+00:02:48,530 --> 00:02:53,130
+Now getting started. When you look at this file, there's the import of the agent 
+
+41
+00:02:53,130 --> 00:02:58,440
+from Swarm. And then there's two functions going on. And we can see that these functions 
+
+42
+00:02:58,470 --> 00:03:04,110
+are being put into an array on the functions property of the agent. And we'll look 
+
+43
+00:03:04,140 --> 00:03:08,820
+a bit later as to how this is actually running. But let's have a look at some of 
+
+44
+00:03:08,820 --> 00:03:14,370
+the documentation related. So I've put together this image that shows that it's initiating 
+
+45
+00:03:14,370 --> 00:03:19,230
+the weather agent. And then it's delegating to the get weather request. And some 
+
+46
+00:03:19,230 --> 00:03:24,330
+input parameters need to come through to that. The location and the time from that. 
+
+47
+00:03:24,330 --> 00:03:28,230
+It should be able to retrieve the weather data. Now this is mock data that comes 
+
+48
+00:03:28,230 --> 00:03:32,460
+through in the system. But this is where you would put call to an API. And then after 
+
+49
+00:03:32,460 --> 00:03:37,350
+that it's returned the weather information. And it can then do other tasks such as 
+
+50
+00:03:37,350 --> 00:03:42,810
+sending an email. And if you provide the correct email details, the goal would be 
+
+51
+00:03:42,810 --> 00:03:43,920
+that it sends an email.
+
+52
+00:03:43,930 --> 00:03:48,850
+Now further into the documentation. What the main starting point is, is an agent 
+
+53
+00:03:48,850 --> 00:03:53,440
+and it just has a system prompt or an instruction called you are a helpful agent. 
+
+54
+00:03:53,440 --> 00:03:57,970
+And the only other thing it knows about is that it's got two functions that it can 
+
+55
+00:03:57,970 --> 00:04:03,430
+delegate responsibility to the get weather and the send email. So when we look at 
+
+56
+00:04:03,430 --> 00:04:07,330
+those functions, we'll see that the get weather is get the current weather in a given 
+
+57
+00:04:07,330 --> 00:04:12,880
+location. Location must be a city. And that's listed. And there's also a time. And 
+
+58
+00:04:12,880 --> 00:04:17,620
+this by at the moment when we look at the functions will default to. Now the goal 
+
+59
+00:04:17,620 --> 00:04:21,910
+of this is to return some sort of JSON structure that has the information we need. 
+
+60
+00:04:21,940 --> 00:04:27,130
+There's also an additional function going on called Send email. With that it takes 
+
+61
+00:04:27,160 --> 00:04:31,270
+a recipient subject and body and we'll see how well that works.
+
+62
+00:04:31,300 --> 00:04:35,980
+So let's work out how we're going to run this. So it's pretty simple. It says here 
+
+63
+00:04:35,980 --> 00:04:42,690
+Python three run py. Now what is that. So we're currently looking at code from the 
+
+64
+00:04:42,690 --> 00:04:48,180
+agents py. There's also this run py and it's taking the weather agent that we've 
+
+65
+00:04:48,180 --> 00:04:53,560
+just defined right here and putting it through to something called run demo loop. 
+
+66
+00:04:53,560 --> 00:05:00,730
+So what is that? So if we come down to the Swarm area we have this file called repl.py. 
+
+67
+00:05:00,730 --> 00:05:05,740
+And within that we've got the ability to process and print the streaming responses. 
+
+68
+00:05:05,740 --> 00:05:12,400
+We can do pretty messages, but the main loop that's going on is sitting here. So 
+
+69
+00:05:12,400 --> 00:05:16,900
+the incoming agent in this case weather agent would come in through here and it would 
+
+70
+00:05:16,900 --> 00:05:18,690
+get passed in
+
+71
+00:05:17,900 --> 00:05:23,390
+to the client, run in the agent variable. And the agent variable is just being loaded 
+
+72
+00:05:23,420 --> 00:05:23,990
+there.
+
+73
+00:05:24,00 --> 00:05:28,300
+So I've got the code open, but we've come into terminal and what we'll do is we'll 
+
+74
+00:05:28,300 --> 00:05:34,180
+CD into the examples web agent folder. From there we should be able to do the Python 
+
+75
+00:05:34,210 --> 00:05:37,540
+three run.pi and see what we get. 
+
+76
+00:05:37,560 --> 00:05:42,960
+the first thing it's saying is who is the user? And I say I might just say hi, I'm 
+
+77
+00:05:42,990 --> 00:05:48,930
+AppyDave and we'll see what it comes up with. Hello AppyDave, how can I assist you 
+
+78
+00:05:48,930 --> 00:05:53,310
+today? What is the temperature?
+
+79
+00:05:53,330 --> 00:05:59,500
+You can't spell I think in Sydney and we'll see what it comes up with. So it's calling 
+
+80
+00:05:59,500 --> 00:06:06,140
+a function called Get Weather and it says the current temperature in Sydney is 65°F. 
+
+81
+00:06:06,170 --> 00:06:11,150
+Now when we look at the code we can see that that's hard coded into the system.
+
+82
+00:06:11,160 --> 00:06:15,870
+So if you want this to return a real value, you would go and change this line so 
+
+83
+00:06:15,870 --> 00:06:20,790
+that it's calling some sort of API to get the current weather for the location and 
+
+84
+00:06:20,790 --> 00:06:26,160
+time. But let's move on to the next one. So this is sending an email to a recipient. 
+
+85
+00:06:26,160 --> 00:06:31,460
+there's three parameters going on. Who is it two subject and body. Let's see how 
+
+86
+00:06:31,460 --> 00:06:31,910
+this works.
+
+87
+00:06:31,930 --> 00:06:35,660
+Now we're back at the terminal and I'm going to say, 
+
+88
+00:06:35,660 --> 00:06:42,230
+can you send email to David at AppyDave.com and see what it comes up with. 
+
+89
+00:06:42,260 --> 00:06:46,770
+it said could you please provide the subject and body of the email. 
+
+90
+00:06:46,560 --> 00:06:47,690
+subject.
+
+91
+00:06:47,700 --> 00:06:49,310
+is hot today
+
+92
+00:06:49,330 --> 00:06:54,870
+it's come back with this message. The email has been sent to david@appydave.com with 
+
+93
+00:06:54,870 --> 00:06:59,850
+the subject what is hot and the body Agent Workflow Builder is hot today. 
+
+94
+00:06:59,960 --> 00:07:04,340
+Agent Workflow Builder is a software application that I'm building in public at the 
+
+95
+00:07:04,340 --> 00:07:09,320
+moment. So I'm demonstrating the code as it goes. And it's basically around designing 
+
+96
+00:07:09,350 --> 00:07:12,290
+agent workflows like the ones we're working with right now.
+
+97
+00:07:12,300 --> 00:07:17,350
+with the weather agent complete, let's close that down and we'll move on to the triage 
+
+98
+00:07:17,380 --> 00:07:22,180
+agent. Now, if we go and look at the readme file first, we can see this is an example 
+
+99
+00:07:22,180 --> 00:07:28,300
+of a Swarm with a triage agent takes user inputs. It can respond directly, or it 
+
+100
+00:07:28,300 --> 00:07:34,360
+can triage and send to other agents like the sales and refund. It says that we can 
+
+101
+00:07:34,360 --> 00:07:38,650
+run it from the command line using Python three run. If we look at that, we'll see 
+
+102
+00:07:38,650 --> 00:07:43,960
+that it's using that same run demo loop example we saw earlier. If we go into the 
+
+103
+00:07:43,960 --> 00:07:50,200
+code, we'll see that we've got a couple of handoff functions. We've got three different 
+
+104
+00:07:50,200 --> 00:07:53,200
+agents going on some more handoff functions. 
+
+105
+00:07:53,200 --> 00:07:57,680
+let's have a look at that documentation here. We've got this example of the Swarm 
+
+106
+00:07:57,680 --> 00:08:04,280
+containing triage agent will take inputs from the user and decide what to do, including 
+
+107
+00:08:04,280 --> 00:08:08,900
+sending it to the sales and refunds. So we can see the triage agent going on here. 
+
+108
+00:08:08,900 --> 00:08:14,570
+It understands what the request type is, and we'll send it to one of these two agents. 
+
+109
+00:08:14,600 --> 00:08:19,490
+Now from this point, the agents have their own logic that they can do. They can proceed 
+
+110
+00:08:19,490 --> 00:08:25,640
+with doing a sale, they can apply discounts or do refunds. So there's a bunch of 
+
+111
+00:08:25,640 --> 00:08:30,260
+things going on in here. Now, if we look at it from this documentation point of view, 
+
+112
+00:08:30,260 --> 00:08:35,540
+there's the main agent. And the instructions are determine which agent is best suited 
+
+113
+00:08:35,540 --> 00:08:40,430
+to handle the user's request and transfer the conversation. And who can it transfer 
+
+114
+00:08:40,730 --> 00:08:45,890
+to a handoff function called transfer to sales and one called transfer to refunds.
+
+115
+00:08:45,890 --> 00:08:50,100
+So after that, you can see there's a few functions going on here, and some of them 
+
+116
+00:08:50,100 --> 00:08:54,540
+return messages like this a message indicating success of the refund, and another 
+
+117
+00:08:54,540 --> 00:08:59,850
+one message indicating that the discount was applied, but some of the others will 
+
+118
+00:08:59,850 --> 00:09:05,160
+just send information back to a different agent. So this one just comes back to itself. 
+
+119
+00:09:05,160 --> 00:09:09,660
+Or we can send it off to the sales agent or the refunds agent.
+
+120
+00:09:09,660 --> 00:09:14,530
+So when we look at the sales agent, it's got a main system instruction called be 
+
+121
+00:09:14,530 --> 00:09:19,210
+super enthusiastic about selling bees. Now, if it can't handle the question coming 
+
+122
+00:09:19,210 --> 00:09:24,190
+in, it's only job is to go back to the triage agent a bit further on. We've got the 
+
+123
+00:09:24,190 --> 00:09:29,830
+refunds agent, and the main instruction for the refund agent is help the user with 
+
+124
+00:09:29,830 --> 00:09:35,500
+a refund. If the reason was too expensive, offer the user a refund code. If they 
+
+125
+00:09:35,500 --> 00:09:37,810
+insist, then process the refund. 
+
+126
+00:09:37,830 --> 00:09:43,560
+we've got two different hand-off functions going on processing and applying discounts 
+
+127
+00:09:43,560 --> 00:09:47,490
+and otherwise. Let's go back to the triage with this one as well.
+
+128
+00:09:47,500 --> 00:09:51,270
+let's go and have a look at a bit of code. We've got a couple of functions going 
+
+129
+00:09:51,270 --> 00:09:56,220
+on here. We'll come back to them in a moment because the next area is there are three 
+
+130
+00:09:56,250 --> 00:10:01,950
+agents being defined. Now. The first agent with a name and instructions is going 
+
+131
+00:10:01,950 --> 00:10:06,810
+to control the whole process. From that it has a sales agent 
+
+132
+00:10:06,730 --> 00:10:11,490
+we can work with. And one of the things that the refunds agent can do is delegate 
+
+133
+00:10:11,490 --> 00:10:17,430
+responsibility to handoffs. So we've got the process refund and the apply discount. 
+
+134
+00:10:17,660 --> 00:10:22,300
+we can see that information going on here. Now if we come back to the sales agent 
+
+135
+00:10:22,300 --> 00:10:27,370
+and we go be super enthusiastic about selling bees, and I think that might be the 
+
+136
+00:10:27,370 --> 00:10:31,960
+first thing that we can just play around with and change before we run the agent. 
+
+137
+00:10:31,800 --> 00:10:37,910
+what we'll do is change bees to where selling Agent Workflow Builder. This is the 
+
+138
+00:10:37,910 --> 00:10:42,710
+application that I'm building in public around designing these sorts of workflows. 
+
+139
+00:10:42,740 --> 00:10:48,140
+Now the next thing we've got is help the users with a refund. If the reason is that 
+
+140
+00:10:48,140 --> 00:10:53,600
+it's too expensive, offer the user a refund code. Well, why don't we change that 
+
+141
+00:10:53,600 --> 00:10:55,430
+to a discount code 
+
+142
+00:10:55,660 --> 00:11:01,240
+we'll call it AWB Early Access. After that, we've got a couple more hand off functions 
+
+143
+00:11:01,240 --> 00:11:06,430
+that we can call, and they're being linked up to the triage agent right here. 
+
+144
+00:11:06,460 --> 00:11:10,670
+Now, after that, we've got a final set of handoff functions. So if we think of the 
+
+145
+00:11:10,670 --> 00:11:16,430
+first two handoff functions as being used by the refunds agent here, then what these 
+
+146
+00:11:16,430 --> 00:11:21,890
+ones offer is the transfer back to triage is available to both the sales and the 
+
+147
+00:11:21,890 --> 00:11:23,330
+refund agent, 
+
+148
+00:11:22,800 --> 00:11:29,180
+Whereas the triage agent can send things to either the sales or the refunds agent.
+
+149
+00:11:29,200 --> 00:11:31,980
+So I've just come down to terminal. We're in Swarm 
+
+150
+00:11:32,00 --> 00:11:36,150
+I think I'm just going to paste in Agent Workflow Builder see what it comes up with. 
+
+151
+00:11:36,180 --> 00:11:40,590
+It says it looks like you're interested in building a workflow for agents. That's 
+
+152
+00:11:40,590 --> 00:11:41,970
+exactly true. 
+
+153
+00:11:42,00 --> 00:11:46,540
+I might just say can I get a discount.
+
+154
+00:11:46,560 --> 00:11:51,250
+That would be great. So it's thinking at the moment it says, could you please let 
+
+155
+00:11:51,250 --> 00:11:56,800
+me know the reason you're looking for a discount? I can offer you a discount code 
+
+156
+00:11:56,800 --> 00:12:01,660
+of AWB Early Access. That sounds good. 
+
+157
+00:12:00,900 --> 00:12:09,790
+I want the AWB early access. Can you apply it? 
+
+158
+00:12:09,800 --> 00:12:16,380
+I've successfully applied the discount using the code AWB Early Access. It's added 
+
+159
+00:12:16,380 --> 00:12:21,150
+to your cart, saving you $100. So let's see if we can buy it. 
+
+160
+00:12:21,160 --> 00:12:25,880
+I would like to buy AWB.
+
+161
+00:12:25,900 --> 00:12:32,460
+B and it says great choice to purchase of Agent Workflow Builder you can proceed 
+
+162
+00:12:32,460 --> 00:12:40,230
+to the cart with the discount already applied by it. I wonder whether this is actually 
+
+163
+00:12:40,260 --> 00:12:41,160
+going to work. 
+
+164
+00:12:41,330 --> 00:12:45,860
+So it says it looks like you're ready to make a purchase. I'll transfer you back 
+
+165
+00:12:45,860 --> 00:12:52,910
+to our triage agent, so we'll assume it's done. What I'll say is, I have bought. 
+
+166
+00:12:52,910 --> 00:12:55,730
+When will you ship?
+
+167
+00:12:55,760 --> 00:13:00,600
+it's just come back with four inquiries related to shipping and order delivery. Let 
+
+168
+00:13:00,900 --> 00:13:04,920
+me transfer you to our sales consultant. So I think we'll go and do a bit of a loop 
+
+169
+00:13:04,920 --> 00:13:10,500
+if we keep doing this. But that's the triage. And we've had multiple agents working 
+
+170
+00:13:10,800 --> 00:13:14,820
+together. We've been able to go back to the master agent. We've been able to go back 
+
+171
+00:13:14,820 --> 00:13:16,530
+to the triage agent. 
+
+172
+00:13:16,530 --> 00:13:21,900
+we've been able to go from the refund agent to the sales agent. And this is a pretty 
+
+173
+00:13:21,900 --> 00:13:23,310
+interesting workflow.
+
+174
+00:13:23,330 --> 00:13:28,560
+So let's go back to the code and see what we just went through. We came in using 
+
+175
+00:13:28,560 --> 00:13:33,120
+the triage agent, and from that I asked for a discount. So that took us over to the 
+
+176
+00:13:33,120 --> 00:13:35,100
+discount agent that I've put here. 
+
+177
+00:13:35,330 --> 00:13:39,660
+we saw both of these function handoffs called. So we've got the process discount 
+
+178
+00:13:39,660 --> 00:13:45,930
+the applied discount. And you can see it said discounting item because and it had 
+
+179
+00:13:45,930 --> 00:13:50,190
+some sort of reason. And then it said applying a discount and said applied $100 to 
+
+180
+00:13:50,220 --> 00:13:54,450
+your cart. Now at that point I also had a couple of issues getting back to the sales 
+
+181
+00:13:54,450 --> 00:13:59,430
+agent. And when I came back and looked at the code, it made complete sense why it 
+
+182
+00:13:59,430 --> 00:13:59,910
+happened.
+
+183
+00:13:59,930 --> 00:14:04,680
+the reason for that is that the discount agent currently has three areas that can 
+
+184
+00:14:04,680 --> 00:14:09,720
+go to. It can process a discount. It can apply a discount. The only other area it 
+
+185
+00:14:09,720 --> 00:14:14,430
+can do down here is go back to triage. So the next step would have been to go back 
+
+186
+00:14:14,430 --> 00:14:19,530
+to the operator the triage. And from there move on to the sales. So all up this is 
+
+187
+00:14:19,530 --> 00:14:22,560
+an incredible little workflow and really quite simple.
+
+188
+00:14:22,560 --> 00:14:27,730
+So we've finished the weather bot. That was fairly simple. We've moved on and done 
+
+189
+00:14:27,730 --> 00:14:32,800
+the triage, sales and refund bot. That's a little bit more complex. Let's see what's 
+
+190
+00:14:32,830 --> 00:14:36,730
+next. So if we minimize this file 
+
+191
+00:14:35,900 --> 00:14:40,340
+and we go over to the support bot, we can see that there's a fair bit more going 
+
+192
+00:14:40,340 --> 00:14:45,110
+on. There's a requirements.txt going on. We've got a Docker container. Looks like 
+
+193
+00:14:45,110 --> 00:14:49,250
+we've got a bunch of articles in the form of JSON documents.
+
+194
+00:14:49,260 --> 00:14:53,240
+Now, what I want to do is see if I can get this up and running. So we've got the 
+
+195
+00:14:53,240 --> 00:14:58,760
+user interface agent and the help center agent, and there's a bunch of things that 
+
+196
+00:14:58,760 --> 00:15:01,430
+we've got to do. I've already run the make install. 
+
+197
+00:15:01,200 --> 00:15:06,200
+So let's just get Docker Composer up. We'll start that it's running. 
+
+198
+00:15:06,200 --> 00:15:11,580
+So we come over to prep data. We've got some imports. We've got an embedding model. 
+
+199
+00:15:11,580 --> 00:15:17,910
+We're querying through articles. That's the JSON documents. And we're running an 
+
+200
+00:15:17,910 --> 00:15:22,680
+embeddings against them. So we're getting the vector data from this and storing it 
+
+201
+00:15:22,680 --> 00:15:30,480
+into a different client. And what else have we got going on here. If the collection 
+
+202
+00:15:30,480 --> 00:15:36,630
+exists delete it. Otherwise create the collection and then upsert the data. Let's 
+
+203
+00:15:36,630 --> 00:15:40,920
+see if this works. So I ran this a couple of times and I got a few errors. But one 
+
+204
+00:15:40,920 --> 00:15:46,830
+of the things I tried was just trying to hit the collections here. I believe the 
+
+205
+00:15:46,830 --> 00:15:49,710
+data is in, so let's just see if I can get this working.
+
+206
+00:15:49,730 --> 00:15:54,370
+So we'll come over to our documentation and we've got this new concept called the 
+
+207
+00:15:54,370 --> 00:15:59,830
+Support Bot. This is an example of a customer service bot which includes a user interface 
+
+208
+00:15:59,830 --> 00:16:05,830
+agent and a help center agent. So they're represented here. Help center agent can 
+
+209
+00:16:05,830 --> 00:16:11,320
+query documents, submit a ticket, send an email, and transfer to the help center 
+
+210
+00:16:11,320 --> 00:16:15,850
+agent, which is itself, I'm assuming. So there must be other subagents going on here. 
+
+211
+00:16:15,850 --> 00:16:20,500
+And then we've got the support agent also querying, submitting tickets and sending 
+
+212
+00:16:20,500 --> 00:16:26,740
+an email. So the idea of the support agent is to handle interactions with the user, 
+
+213
+00:16:26,740 --> 00:16:32,470
+called for general support. Issues that aren't handled by other agents, can query 
+
+214
+00:16:32,470 --> 00:16:37,660
+the documentation, submit a ticket, and send an email. If we move on down to the 
+
+215
+00:16:37,660 --> 00:16:42,850
+help center agent we've got. This deals with questions about OpenAI agents such as 
+
+216
+00:16:42,850 --> 00:16:49,540
+GPT models, Dall-E, and whisper, so we'll ask questions of that later. So let's give 
+
+217
+00:16:49,540 --> 00:16:49,930
+it a whirl.
+
+218
+00:16:49,930 --> 00:16:54,630
+So I think we'll use it before looking at the code. This time I'm just going to say 
+
+219
+00:16:54,660 --> 00:17:00,120
+I'm David and see what it comes up with. Could you please provide more context or 
+
+220
+00:17:00,120 --> 00:17:11,400
+specify a query related to David? Well, I would like to know the time in Chiang Mai, 
+
+221
+00:17:11,700 --> 00:17:16,260
+Thailand, which is currently where I'm living. So Chiang Mai, Thailand.
+
+222
+00:17:16,260 --> 00:17:23,460
+And hopefully that uses a general sort of bot the local time in Chiang Mai, Thailand 
+
+223
+00:17:23,760 --> 00:17:23,730
+is currently 
+
+224
+00:17:23,530 --> 00:17:30,230
+seven hours ahead of Coordinated Universal Time or UTC. Please check your local time 
+
+225
+00:17:30,230 --> 00:17:33,260
+to add time differences. Well that's great. 
+
+226
+00:17:32,760 --> 00:17:41,350
+can I ask questions about ChatGPT or OpenAI 
+
+227
+00:17:41,360 --> 00:17:43,190
+It should have documents related to 
+
+228
+00:17:43,330 --> 00:17:50,330
+how do I write a prompt for Dall-E three.
+
+229
+00:17:50,330 --> 00:17:55,320
+It says creating a prompt for Dall-E three. The AI model designed to generate images 
+
+230
+00:17:55,320 --> 00:18:02,970
+from text descriptions involves clear and descriptive help. So we've got be specific 
+
+231
+00:18:02,970 --> 00:18:12,300
+clear language include style and medium, etc.. Okay, how do I make an API call to 
+
+232
+00:18:12,330 --> 00:18:16,560
+the completions API for chat?
+
+233
+00:18:16,560 --> 00:18:19,530
+And we've had a whole lot of information come through. 
+
+234
+00:18:19,530 --> 00:18:25,800
+Set up your environment pip install requests, obtain an API call, write your API 
+
+235
+00:18:25,800 --> 00:18:30,510
+calls. Now what are we working with? We're working with the user interface agent 
+
+236
+00:18:30,510 --> 00:18:36,780
+in this case. So I'm not sure whether a second agent has come into play. I reckon 
+
+237
+00:18:36,780 --> 00:18:38,340
+we should have a look at the code now.
+
+238
+00:18:38,360 --> 00:18:44,500
+So I've come over to the main.py file here we've got query the vector store. We've 
+
+239
+00:18:44,500 --> 00:18:50,560
+got query docs. And then we've got a couple of handoff functions send emails, submit 
+
+240
+00:18:50,590 --> 00:18:56,260
+ticket and transfer to the help center. Then the user interface agent, which was 
+
+241
+00:18:56,260 --> 00:19:01,540
+where I was at. So that wasn't doing anything to communicate with the database from 
+
+242
+00:19:01,540 --> 00:19:06,460
+what I can tell. And if we look at the help center agent, which is where we need 
+
+243
+00:19:06,460 --> 00:19:11,620
+to be, this is where we can query docs, submit a ticket, or send an email. 
+
+244
+00:19:11,630 --> 00:19:14,430
+maybe let's try and get to the help center agent.
+
+245
+00:19:14,430 --> 00:19:20,600
+We're back at our chat client, so we'll say transfer me to the help center. I don't 
+
+246
+00:19:20,630 --> 00:19:25,250
+know whether I need the word agent. I probably shouldn't need it. And let's see if 
+
+247
+00:19:25,250 --> 00:19:30,320
+that changes. So now we're on a help center agent. Seems that a transfer function 
+
+248
+00:19:30,320 --> 00:19:36,860
+is not available at the current stage. However, I can assist you with issues directly. 
+
+249
+00:19:36,110 --> 00:19:41,210
+Can I submit a ticket around
+
+250
+00:19:41,230 --> 00:19:42,580
+errors
+
+251
+00:19:42,600 --> 00:19:48,460
+with vector store, which was what I was dealing with earlier? So the main thing I'm 
+
+252
+00:19:48,460 --> 00:19:52,870
+trying to do is see whether the submission ticket system works. It says your ticket 
+
+253
+00:19:52,870 --> 00:20:01,150
+regarding errors has been successfully entered. Can I search for articles
+
+254
+00:20:01,160 --> 00:20:03,30
+on open AI?
+
+255
+00:20:03,330 --> 00:20:11,850
+we will go with the voice API, see what it says. Searching for knowledge, retrieving
+
+256
+00:20:11,860 --> 00:20:17,490
+so it looks like it worked. If we just grab this searching knowledge base for query 
+
+257
+00:20:17,490 --> 00:20:22,420
+and we do a search in here, we can see it popping up OpenAI voice API and it's come 
+
+258
+00:20:22,420 --> 00:20:30,390
+up with some information. Let's just go back to main agent, see what happens.
+
+259
+00:20:30,660 --> 00:20:39,210
+We're still with the help center agent. Let's go back to user interface agent. See 
+
+260
+00:20:39,210 --> 00:20:40,820
+if we can go back that far.
+
+261
+00:20:40,830 --> 00:20:45,880
+And we can't. That's okay. And exit won't do anything I don't believe.
+
+262
+00:20:45,900 --> 00:20:49,150
+Have a great day. It gives us a message. So that's pretty cool.
+
+263
+00:20:49,160 --> 00:20:53,270
+So I did have a couple of configuration issues with the support bot, but did get 
+
+264
+00:20:53,270 --> 00:20:57,860
+it up and running. Things like the personal shopper and customer service I didn't 
+
+265
+00:20:57,860 --> 00:21:03,920
+use. But let's have a look at basic. And we've got these little scripts that you 
+
+266
+00:21:03,920 --> 00:21:08,00
+can run. We'll just move a couple of them into focus so you can see what's going 
+
+267
+00:21:08,00 --> 00:21:12,740
+on. And the last one is called function calling. I believe we can run them all one 
+
+268
+00:21:12,740 --> 00:21:13,550
+at a time.
+
+269
+00:21:13,560 --> 00:21:17,310
+So looking at these individually, they're just simple scripts. We've got the agent 
+
+270
+00:21:17,340 --> 00:21:22,710
+handoff where we've got English and Spanish. And one of the things going on is there's 
+
+271
+00:21:22,710 --> 00:21:30,270
+a transfer to Spanish being called by the English agent. So if we come down here 
+
+272
+00:21:30,270 --> 00:21:36,360
+and type in agent Handoff and run it, let's see what we get that's coming through. 
+
+273
+00:21:36,660 --> 00:21:38,100
+Hola. I don't know how to say Spanish. 
+
+274
+00:21:38,730 --> 00:21:45,330
+Let's move on to the next one. So we've got bare minimum. So let's go Python and 
+
+275
+00:21:45,330 --> 00:21:50,970
+we'll type in bare minimum. And what have we got here. How can I assist you today. 
+
+276
+00:21:50,970 --> 00:21:53,160
+So that's really all it's saying. 
+
+277
+00:21:53,160 --> 00:21:58,860
+we can see that the function calling is just an agent. That's helpful. And it will 
+
+278
+00:21:58,860 --> 00:22:02,910
+delegate responsibility to a function. And the function will just return some JSON 
+
+279
+00:22:02,910 --> 00:22:03,540
+data. 
+
+280
+00:22:03,560 --> 00:22:05,140
+if we run that 
+
+281
+00:22:05,160 --> 00:22:10,990
+the weather in New York is currently 67°F. Fahrenheit. This is great. Let's just 
+
+282
+00:22:10,990 --> 00:22:14,530
+move into this last one called Context variables. 
+
+283
+00:22:14,530 --> 00:22:19,220
+So we've got this context variables here. And there's two key value pairs. So let's 
+
+284
+00:22:19,220 --> 00:22:26,480
+change one of them. We'll go name is AppyDave and user ID is 555. And what happens 
+
+285
+00:22:26,480 --> 00:22:31,490
+is we've got this instructions coming through. And instructions now is not a string. 
+
+286
+00:22:31,490 --> 00:22:37,940
+Instead it's a function. And it's taking in the context variables. So we can grab 
+
+287
+00:22:37,940 --> 00:22:43,550
+the user which should be AppyDave you are a helpful agent, greet the user by name. 
+
+288
+00:22:43,580 --> 00:22:48,770
+It should be AppyDave. And if I'm understanding this correctly, we're just going 
+
+289
+00:22:48,770 --> 00:22:53,900
+to run two different responses sequentially. So the first one should be a greeting. 
+
+290
+00:22:53,900 --> 00:22:59,600
+The next one should be the account details. So let's hit save on that. We'll come 
+
+291
+00:22:59,600 --> 00:23:03,710
+over to here and we'll run the context variables script. 
+
+292
+00:23:03,730 --> 00:23:08,960
+Hello AppyDave. How can I assist you today? Account details. AppyDave 555.
+
+293
+00:23:08,960 --> 00:23:15,600
+So that's OpenAI lightweight multi-agent framework called Swarm. It's experimental 
+
+294
+00:23:15,600 --> 00:23:21,600
+at the moment, 4900 stars. Actually, let's just refresh that. It's already gone to 
+
+295
+00:23:21,630 --> 00:23:28,830
+5100 stars since I started recording this about two hours ago. So the next video 
+
+296
+00:23:28,860 --> 00:23:34,530
+I'm going to do is hooking up my Agent Workflow Builder into Swarm so that I can 
+
+297
+00:23:34,530 --> 00:23:40,170
+automate the stuff that I usually do manually. So this is a workflow that I'll use 
+
+298
+00:23:40,170 --> 00:23:44,490
+very soon. To publish this video, we'll work through the script, we'll work through 
+
+299
+00:23:44,490 --> 00:23:45,810
+the thumbnails, stuff like that.
+
+300
+00:23:45,830 --> 00:23:50,560
+I'm AppyDave. Please like and subscribe and I'll see you in the next video.

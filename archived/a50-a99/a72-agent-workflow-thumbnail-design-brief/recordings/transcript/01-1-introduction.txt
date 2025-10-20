@@ -1,0 +1,6 @@
+Do you struggle with coming up with thumbnail designs?
+Maybe it's the visual elements that try to match what you said in the video,
+or maybe it's the text that adds psychological impact
+without saying the same thing as the title.
+In this video, we're looking at a GPT workflow that I've put together for myself
+so that I can create instructions and guidelines to help me create better thumbnails.

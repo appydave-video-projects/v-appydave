@@ -1,0 +1,267 @@
+Is it possible to create an AI pair programmer as code coding language? In this video, 
+I'm looking to hook up a domain specific language to an Aider application running 
+within a web server. I'm AppyDave. Let's get into it.
+Now, if you don't know what Aider AI is, its essentially an AI pair programmer that 
+you can run either within a terminal or from the command line. And the first video 
+in this series I show how to install and get it running with a basic application. 
+I then moved on to the second video in the series, in which I created some presentation 
+software using Reveal.js and Scalable Vector Graphics, and you can find the repo 
+here at AppyDave.
+We then took that presentation a step further in the third video, using Aider image 
+to code generation techniques, we were able to generate both data and CSS files based 
+off mocks that we'd created in Canva.
+Now, in this video, I want to take a little application that we developed in the 
+fourth video, where we were iterating over dozens of files to create documentation 
+for id Software's Doom, and that particular documentation came out looking in markdown 
+format. But it's that particular tool that I want to hook up to a programming language 
+so that we can call a web server 
+So the web server that we created in the fifth video hosts Aider I behind a RESTful 
+endpoint. And today what we're going to do is create an AI programmer as code coding 
+language to talk to this web server.
+So for this test case, I thought we'd create a folder called Aider Klue playground. 
+I'll talk about what Klue is in a moment, and we'll be working on creating some code 
+or reports, 
+where we should start is just go to the game of doom by id software. They've got 
+a lot of code files that we can work through. We've got header and C files. We've 
+got all the documentation that we created in the last video, 
+and 
+we can use our little programming language to talk with this repo and write to this 
+repo.
+So I think how we can start is with the little web server that we created the other 
+day. 
+we'll just start that on a particular port, and we can test it with a curl command. 
+That's just giving some instructions and the location of the target folder. 
+We'll just copy the path from the playground. And we're going to put in some code 
+here. So let's just change that right there. And we'll create an instruction. And 
+the instruction I think we should go with is create reader JS. It should read the 
+column names. And the column names are going to come from this table of contents 
+CSV that I've put together. And from there we just want to print it out into a tabular 
+report. So we'll just bring it all into one line. We'll copy that and we'll come 
+over to this instruction and we'll paste it in here. And from this point we should 
+just be able to run it from the command line.
+So we'll make sure that we're on the right port and we'll put everything onto one 
+particular line. And from there, we should just be able to copy it and paste it directly 
+in here. Now the curl request doesn't really matter where it runs. It just needs 
+to point at the web server and have a folder where it would like code to be written. 
+So at the moment it's writing some code. We've got a yes. So we'll want to automate 
+that in this particular video. We didn't automate it in the last one. And what should 
+be happening is we've just had a file created that's looking good. 
+a quick node install and we'll just put in some data. We'll put in one, two, three 
+and we'll just run this reader and see what we get. And we are reading the file. 
+So we've got a little bit of code running.
+So what I want to test now is just the gathering of files. So we've got the documentation 
+for the doom application here. And if we look at the doom application we've got H 
+files C files we've got docs. And if we run a little GPT context tool, which is what 
+we're going to run the behind the scenes with the coding language, we should get 
+a list of all the files. Now, if we just run that one more time and we'll just do, 
+say the H files, we should just get a list of the files that are headers 
+and we can take this a little bit further and just say we want the IPX folder and 
+see what we get there. So we've just got four directories. So this is what we're 
+hooking up to our DSL.
+When we were generating documentation for doom, this was the technique we used. But 
+instead of using tree format, we used the Aider format and we would build up prompts 
+basically on the same sort of files that we just saw listed there. But let's now 
+move this into a coding language, which will be a lot easier to work with.
+Now to get started. We'll come over to our playground here. We'll go new file and 
+the file will go with is get docs, I think. Sounds good. We'll call it clue. This 
+will make sense a bit later. So we've got this new file and we'll just put in some 
+sort of structure. So I'll go with talk to Aider for want of a better word. 
+So next we'll go down to the terminal and we'll put in this command called Langcraft. 
+And I'm going to show you the video that this is related to. And we're just going 
+to watch the folder that we're on and format for enhanced output. So what happens 
+now when we come here and we hit save. We should get a new file created next to it. 
+So we'll just move that down below. And we can see that whatever we put in here, 
+if we say x-men and we say do and we say end and we hit save, we'll get a new value 
+called X-Men.
+Now having a node called x mean is not very useful. But if we look at the doom with 
+dots folder, what we should be able to do instead is replace this with something 
+called file collector. And with that we just list the actual folder we want to collect 
+from. Now, if we hit save on this, what should happen is we get that information 
+coming through. Plus it's figured out where there might be files to work with. So 
+let's see if we can now populate this with a set of files.
+When we run it from the command line, we did GPT context, we had the folder that 
+we wanted to work with and we did the IPX directory, *. H. What we'll do over here 
+is we'll put in our files node and we'll say include, and it's going to work from 
+the same folder as we have here. We'll just work with the C files. And for now, let's 
+do everything. So we get everything and we get all the files that are in the IPX 
+directory. We get all the files that are in the DOOM directory. 
+so if we come up here and we say IPX and we hit save, we should get a smaller set 
+of files. So we've just got three. And the good thing is we've also got the content 
+of each of these files. Now, just like the command line one, we can also do exclusions. 
+So if we type in exclude, and let's just go IPX, 
+and we'll just say Doom star and hit save. The one of these files should just disappear 
+for us. So we 
+We've got the IPX set up. And again, if we want to come out and get the MD files, 
+And I might want to exclude the README files that have the lowercase read in front 
+of them. So these two files that are just here should disappear when I hit save. 
+Now you may be wondering, where did this bin langcraft come from? So a couple of 
+months ago I did these videos on AI programming languages. Building one. We've got 
+one called Build Your Own Programming Language, where I work with the GPT context 
+gatherer. To do that, there's also the 1000 file changes, which is where I'm working 
+with Cursor, AI and Git diff to do bulk updates. 
+So check out those videos if you want to understand more how I'm going from coding 
+language to data using this little watcher.
+The next thing I would like to do is take the information that we've got here and 
+make it available to our aider web server. 
+if we go back and have a look at the terminal where we're running the aider web server, 
+we can see that it's running on a particular port. Now I'm just going to take a copy 
+of that.
+And this will be useful because one of the parameters is a webhook URL that we can 
+call. So if we restart this and we'll put in dash you and we'll just paste that value 
+in. And as it restarts now when we hit save it should pass it to an endpoint. Now 
+that's probably not the endpoint we want. Let's just call it X-Men for now. 
+We're going to have to handle this incoming data in the Aider web server.
+So we'll come over to the Aider web server and we'll implement this X-Men routine. 
+So to start off with, we could have a look at the original Code Assistant, which 
+is what we'll use Aider to do the work, but we're not quite ready for that. Instead, 
+we'll just put in a stub, we'll call it X-Men, and all it really needs to do is read 
+the incoming data and check that. That's okay. So hit save on that.
+So we'll hit save on that and we'll head over to the terminal and we'll restart the 
+server 
+it should get sent through to the X-Men folder. One of the things that should happen 
+along the way is this file should get updated. So what we'll do is we'll just clear 
+that out for now and we'll hit save. And let's see what happens. So it's been updated 
+with data. 
+it's come through to the X-Men endpoint and we can see that the information is coming 
+in here. 
+One of the things that you can notice is there's a clue type. It's called talk to 
+aider. So if we really wanted to change the nature of the programming language, 
+we might wanna call it AI pair coder, and this information could come through 
+We should see that coming in right here 
+Now I've made a few changes to the X-Men routine. I want to bring it into alignment 
+with the original code assistant, and it could take in an instruction, a list of 
+files, directories, etc. now, the only thing that we're interested in right now are 
+the files. So the files are being processed down here. As for an instruction, we'll 
+just go with tell me something would be useful 
+and we'll get it to just print out some information in the console. So if we come 
+down here we've got the IPX MD files. If we hit save on that we should get an update. 
+And we can see the files to be processed are coming through. If we get rid of the 
+IPX and go for the whole system, we should just get a lot more from multiple subfolders.
+Let's try and expand this X-Men function. So it has more in common with the code 
+assistant. So currently it can take these various options in. 
+this has only got a fixed instruction and it will collect the files, but we better 
+go and update our little programming language, which is this one here on the left, 
+it can support these concepts. 
+we can just make this up and I'm just gonna call it rules for now. And within the 
+rules we might say that instruction, which we will have it mapped to something is, 
+tell me something more. So just a slightly different value coming in on that we could 
+put in the model, but I won't do that for now. I will do the directory 'cause I think 
+that will be a useful, 
+concept for us to put in place. 
+And I've just put in this value where we want to write code to. So this is where 
+we're reading information from. Then we're sending it to Aider. And Aider has been 
+given an instruction and the list of files that it needs to work with. And we have 
+the directory we would like Aider to work into. Now if I hit save at the moment, 
+what will happen is we will get an enhanced document that's now a little bit different. 
+It's got rules in it, it's got the instruction, the directory, it's got the file 
+collector. And if we look down lower, it's still got, the files that have been processed 
+are all going through to this endpoint. But the endpoint at the moment doesn't know 
+how to handle these two parameters. So we just need to hook it up.
+So the code has been updated with a bunch of rules, and we'll just paste them in 
+and we can just restart the web server. 
+these values should come through and get printed out. So it's a dry run, meaning 
+we're not actually going to invoke Aider when we set this to true. There is an instruction 
+we'll just say whatever in here 
+and we can see that that's coming through. There would be the target folder or project 
+that we'd like to write to. And then there's the list of files. Now I've also put 
+in this model as default. We'll let Aider figure that out for itself. But we could 
+override it if we want. And the confirm is basically the idea of should it automatically 
+write files yes or no? 
+This will be the incoming path that we come in on. We'll start the Python server 
+that's now running. Let's go and start the langwatch. But let's make sure that the 
+web hook that it talks to is this new value called clue. And we'll press enter on 
+that and we'll leave dry run turned on 
+So we've got an instruction coming through, we've got a directory, which is not correct. 
+We're on a dry run, which is great. Let's just change the dry run to false and see 
+what happens. Especially considering we don't have a good directory name. 
+and it's reporting an error that no such file or directory exists, which is great.
+Now what I wanna do is the first test. Now I don't think I've got the alignment quite 
+correct with this, but let's talk through it. We're going to read from this folder 
+here, which is the Doom with docs. And we're specifically looking at the IPX directory, 
+the markdown documents. There's three of them going on here. Now if we go and hit 
+save, we can see that the information should come through. 
+But if we look at the JSON document, we can see the content for each of these three 
+files. But this information isn't currently being used in aider only the file name 
+is being used. And this could be a bit of an issue. What we'll also do, we've got 
+dry run turned off, 
+we've got update the TOCs CSV file, which is this file here, 
+and we just need to change the directory. So we'll change it to this and we'll hit 
+save and let's see what starts to happen. So it says it's creating three files. Now 
+why is that? Because there's already three files that exist, and it's because when 
+we set the target, which is here, this is in an area 
+that doesn't have those files. So they're being created for us. 
+and it's telling me to please provide the contents of the TOC file. So the first 
+thing I think we need to do is bring it back to just one directory. 
+So where we read from and where we write to probably need to be the same with the 
+current state of the application.
+So reading from here will 
+going to write into this project and we're going to read from this project. So we've 
+got the reading okay. But the writing is not in the right location. So what we'll 
+do is we'll change the folder that it's writing to. The other thing is that it will 
+want access to the TOC.CSV, but we haven't included it in our files when we're talking. 
+So let's just go include and we'll say TOC.CSV. But I'm also going to take a copy 
+of the one that we had in this project, and I'm just going to make it available within 
+this project.
+we've got a bunch of information being changed.
+So we've had some partial success. We can see the name of the file coming through. 
+We can see a description, but I can't quite tell whether it's a good description. 
+what I've gone and done is create a cat and a markdown document. We'll see what happens 
+there. Then in the prompt originally I talked about 25 words and it's kind of put 
+the 25 words here. 
+I've just modified this instruction a little bit, see if we can get better data. 
+And I might even just delete everything that's in here. Lastly, let's improve this 
+so that we're also getting all the markdown documents and see what happens. So 
+Now it's a little bit better on the descriptions. It's also got some numbers that 
+are looking closer, but they're not actually accurate. 
+and then it's got this opinion about the cat, 
+and then there's a story about a fox jumping over lazy dog and then moving over the 
+sleeping cat. So this all seems good. 
+so if we make this a double asterisk, we should now be able to work through another 
+60 odd files.
+And so now it's working through all the different files that are in the Linux Doom 
+directory.
+So at this point I hit a token limit 
+I've just gone and changed it to just the I underscore files 
+And let's just bring in anything that starts with a P as well. 
+Now you can see that we were able to read through all the markdown documents by just 
+saying, including star, star markdown. We said update the table of contents CSV, 
+and we're basically got a summary of each of the markdown documents.
+I made a couple of syntax changes by loading in, for instance, prompts that we might 
+want to use from the file system. So there's a complex prompt that we're about to 
+go through. And it's just being interpolated into a pre prompt right here along with 
+folders being loaded in. I've also changed it from taught to Aider to just plain 
+Aider. And that just required that the web server be modified to deal with this new 
+node coming in.
+we have our aider coding construct here, and it's going to read from the Doom Documentation 
+folder, which is here, but specifically it's only going to look in the IPX directory 
+for the C files. And there's about three of them listed in this area. And after that 
+we're going to do it as a dry run. So we'll only get data for now where it has a 
+prompt called Create code file text for each file based on a prompt. And the prompt 
+is going to be read from a file and we can see the information here. And this is 
+basically turning C and header files into a format that's readable by a non-developer. 
+So it's just a human readable context going on. And we've got a few other options. 
+we can see information from the file here. We've got unions, compact memory representations 
+here at the end of the prompt, we've got the folder that we are loading in from. 
+And we can notice that the three C files have also been loaded along with their content.
+Finally, we can remove the dry run flag from the Aider code script. It'll run the 
+pre prompt plus the complex prompt, which is going to turn all the C and header files 
+into formats that are human readable. We're going to read from the doom with docs 
+folder. 
+specifically only get the ipx c files. So when we hit save on this, we end up getting 
+code being generated by Aider for each of the C files. We've also updated the JSON 
+document so we can see the individual files that are going to be worked with. We 
+can even see the content that's going to be merged into the documentation.
+So the first file called IPX nets can be created. So we'll say yes and we'll say 
+yes to doom net and yes to IPX setup dot txt. And we can see the code getting generated 
+to go into these files.
+The final output is three meta documents. We've got doom net with the function launch, 
+doom and three global variables, and then we go on to IPX setup where we've got check, 
+param and net ISR.
+So finally we have our domain specific language called KlueLess, which is allowing 
+us to talk to Aider via a scripting language where it can read files from various 
+locations and call the Aider API using the web server that we built in the last video 
+to generate code. 
+is just a proof of concept to talk to the Aider AI pair programmer, but it's part 
+of a broader set of semantically friendly coding languages that I'm exploring so 
+that I can communicate with large language models in a more effective manner. So 
+if this is a topic you're interested in, please like and subscribe. I'm AppyDave. 

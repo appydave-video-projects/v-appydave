@@ -1,0 +1,519 @@
+1
+00:00:00,00 --> 00:00:03,920
+Hi, are you trying to create videos for YouTube and you struggle with either the 
+
+2
+00:00:03,960 --> 00:00:09,00
+intro or the outro component of the video? I'm AppyDave, and in this video we're 
+
+3
+00:00:09,00 --> 00:00:14,760
+going to look at an AI agent workflow to help improve both our intros and our 
+
+4
+00:00:15,330 --> 00:00:19,530
+I've been creating videos on this channel for about a year now, and I've never really 
+
+5
+00:00:19,530 --> 00:00:24,270
+been able to create more than one video every three to five weeks. Now, at the beginning 
+
+6
+00:00:24,300 --> 00:00:29,340
+of the month, I decided to get a video editor, and I've seen the quality of the production 
+
+7
+00:00:29,340 --> 00:00:34,260
+go up in my videos, and I'm now getting to about one a week, which I'm happy about. 
+
+8
+00:00:34,530 --> 00:00:40,140
+But I was analyzing just what I was saying in the videos, and I thought my quality 
+
+9
+00:00:40,140 --> 00:00:42,150
+of what I say is going down. 
+
+10
+00:00:42,160 --> 00:00:47,400
+a lot of that has to do with what I'm doing right now is an ad hoc script. I'm just 
+
+11
+00:00:47,400 --> 00:00:51,930
+saying what comes to my mind, and that just doesn't come across with the impact, 
+
+12
+00:00:51,930 --> 00:00:56,400
+the clarity, or the snappiness that would happen if I had a script pre-prepared.
+
+13
+00:00:56,430 --> 00:01:00,710
+This morning I was about to create the third video in a particular series that I'm 
+
+14
+00:01:00,710 --> 00:01:05,780
+doing, and I realized I didn't know what the video before it was about. I had a vague 
+
+15
+00:01:05,780 --> 00:01:10,670
+idea, but I didn't know the details. And in the intro of the video I wanted to do, 
+
+16
+00:01:10,670 --> 00:01:14,240
+I wanted to reference the ideas from the previous video. 
+
+17
+00:01:14,260 --> 00:01:19,220
+last week I also did a video based on something from Vid IQ where they talked about 
+
+18
+00:01:19,220 --> 00:01:24,110
+doing the other end of it. How do you create an outro that gets people to move to 
+
+19
+00:01:24,110 --> 00:01:29,450
+the next video in the series? So today I thought I'd expand on that particular workflow 
+
+20
+00:01:29,600 --> 00:01:34,910
+and we'll look at how can we do an intro that talks about the previous video as a 
+
+21
+00:01:34,910 --> 00:01:36,740
+context for the video that we're watching.
+
+22
+00:01:36,760 --> 00:01:42,310
+So let's have a look at some formulas for intros and outros. Now, recently I did 
+
+23
+00:01:42,310 --> 00:01:48,970
+an outro formula based on getting 4,000 watch hours quickly, and this is from a video 
+
+24
+00:01:48,970 --> 00:01:49,840
+by Vid IQ. 
+
+25
+00:01:49,860 --> 00:01:54,910
+What I did was I reverse engineered their ideas and came up with my own flow. But 
+
+26
+00:01:54,910 --> 00:01:59,410
+essentially what it is, is you've got a video that you're talking about and you want 
+
+27
+00:01:59,410 --> 00:02:04,690
+to introduce the next video with a call to action so that people go on, what's that 
+
+28
+00:02:04,120 --> 00:02:07,450
+next? And the technique is called the outro formula. 
+
+29
+00:02:07,460 --> 00:02:12,130
+the basic information you need to make this work in an automation is that you need 
+
+30
+00:02:12,130 --> 00:02:16,480
+the current video script and you just need to know the goal of the next video, and 
+
+31
+00:02:16,480 --> 00:02:18,100
+it writes the script for you.
+
+32
+00:02:18,130 --> 00:02:22,590
+So I built this workflow called the YouTube Outro Bridge, 
+
+33
+00:02:22,660 --> 00:02:26,540
+it would take the abridgement or the transcript of the current video, the next video 
+
+34
+00:02:26,570 --> 00:02:27,600
+goal, 
+
+35
+00:02:27,660 --> 00:02:31,120
+run it through a prompt so it could figure out all the details that it needed to 
+
+36
+00:02:31,120 --> 00:02:31,560
+gather. 
+
+37
+00:02:31,590 --> 00:02:36,150
+from there it could move on with the next goal and the content analysis that it just 
+
+38
+00:02:36,150 --> 00:02:39,750
+built, and write a script that I could then read out.
+
+39
+00:02:39,760 --> 00:02:43,900
+Now if you want more information on that video, you can go and watch the video on 
+
+40
+00:02:43,900 --> 00:02:48,850
+the Vid IQ strategy, which was the video at the top that I reverse engineered into 
+
+41
+00:02:48,850 --> 00:02:50,500
+a GPT automation.
+
+42
+00:02:50,530 --> 00:02:55,570
+Now let's look at the intro formula because it's very similar and it's designed for 
+
+43
+00:02:55,570 --> 00:03:00,820
+when you've got a multi-episode and you wanna do a recap on the previous video and 
+
+44
+00:03:00,820 --> 00:03:03,100
+bring it into the one that people are watching. 
+
+45
+00:03:03,130 --> 00:03:05,560
+the flow is simply in the current video 
+
+46
+00:03:05,560 --> 00:03:10,480
+episode recap, call to action based on the last video. So the technique, I'm just 
+
+47
+00:03:10,480 --> 00:03:16,960
+calling the episode recap formula and the information we need is the last episode's 
+
+48
+00:03:16,960 --> 00:03:21,760
+transcript and whatever the current goal or the current script, if you've already 
+
+49
+00:03:21,760 --> 00:03:23,860
+done that for the video, we're on.
+
+50
+00:03:23,990 --> 00:03:27,770
+Now I'm going to extend the old workflow, which was called YouTube Outro Bridge. 
+
+51
+00:03:27,770 --> 00:03:33,560
+It had a content analysis phase and a writing of the outro, and it looked like 
+
+52
+00:03:33,230 --> 00:03:38,110
+steps. And what I've done is I've gone and created a new one called YouTube Intro 
+
+53
+00:03:38,110 --> 00:03:43,570
+Booster, and it should have the same steps for the outro. There's slight naming conventions 
+
+54
+00:03:43,570 --> 00:03:49,420
+going on. We've got the outro booster, but then after that I now have an intro recap 
+
+55
+00:03:49,420 --> 00:03:53,710
+content analysis, and we're going to have to put in a prompt here, and then there'll 
+
+56
+00:03:53,710 --> 00:03:57,340
+be the right outro booster script. So let's go and look at those prompts.
+
+57
+00:03:57,360 --> 00:04:00,40
+Now sometimes when I write prompts I'll use the anthropic 
+
+58
+00:04:00,760 --> 00:04:05,770
+prompt generator. I find it to be very powerful and that's exactly how I created 
+
+59
+00:04:05,770 --> 00:04:07,450
+the last two prompts. 
+
+60
+00:04:07,460 --> 00:04:11,770
+I'm going to take the last two prompts 'cause they are very good. They're designed 
+
+61
+00:04:11,770 --> 00:04:16,390
+for the outro bridge. We've got number one, which is the analysis, and if we go down 
+
+62
+00:04:16,390 --> 00:04:19,840
+a bit further, we should have number two, which is for the script. 
+
+63
+00:04:19,860 --> 00:04:24,840
+make a slight modification to the top of this. We'll inject a prompt that says I 
+
+64
+00:04:24,840 --> 00:04:30,450
+need you to create the intro recap episode, both an analysis and a script. 
+
+65
+00:04:30,460 --> 00:04:34,690
+given a slightly different goal. Main goal is the intro recap is to provide a brief 
+
+66
+00:04:34,690 --> 00:04:40,60
+overview of the previous videos content and set the stage for the current video. 
+
+67
+00:04:40,330 --> 00:04:45,320
+I want it to be short, only one to two sentences. 'cause unlike the outro bridge 
+
+68
+00:04:45,320 --> 00:04:50,90
+where it's really clear that you want people to move to that video, it's not necessarily 
+
+69
+00:04:50,90 --> 00:04:54,590
+clear that you want people to go back to a previous video. So I'm keeping it fairly 
+
+70
+00:04:54,590 --> 00:04:54,560
+simple 
+
+71
+00:04:54,590 --> 00:04:56,950
+and telling it what three variables are available.
+
+72
+00:04:56,960 --> 00:05:01,840
+So instead of using the anthropic, I'm going to use the o1-preview, which is incredibly 
+
+73
+00:05:01,840 --> 00:05:06,760
+powerful. I've pasted in that prompt, and we can see that after a while, it starts 
+
+74
+00:05:06,820 --> 00:05:09,130
+thinking we've got 19 seconds 
+
+75
+00:05:09,330 --> 00:05:14,540
+a chain of thought going on here, and we've got two prompts that I can work with. 
+
+76
+00:05:14,540 --> 00:05:19,250
+We've got the oh two one intro recap episode. The only thing I've gotta do is make 
+
+77
+00:05:19,250 --> 00:05:22,820
+sure I remove this information and we've got it repeated again. 
+
+78
+00:05:22,830 --> 00:05:27,930
+copy those and we'll head back to where we've got number one and two, which are not 
+
+79
+00:05:27,150 --> 00:05:32,190
+yet filled in, and we'll just refresh the page. And now we've got number one filled 
+
+80
+00:05:32,190 --> 00:05:34,500
+in for us. We've got number two filled 
+
+81
+00:05:34,500 --> 00:05:38,90
+Let's go find the information that we want to do a recap on. 
+
+82
+00:05:38,330 --> 00:05:42,870
+I generally talk about four different topics. That's either YouTube, automation, 
+
+83
+00:05:42,900 --> 00:05:48,510
+AI agents, which is what we're looking at right now, coding or general purpose topics. 
+
+84
+00:05:48,750 --> 00:05:54,240
+And what happens is I'll end up doing things in a series, and the series might be 
+
+85
+00:05:54,240 --> 00:05:57,840
+Fli-Video If I'm doing either YouTube automation 
+
+86
+00:05:57,860 --> 00:06:03,570
+and I tend to do my YouTube automated content over on the AI-TLDR channel. This is 
+
+87
+00:06:03,660 --> 00:06:06,630
+videos that are generated using AI 
+
+88
+00:06:06,500 --> 00:06:09,930
+or I'm working on workflow automation, which is what we are looking at 
+
+89
+00:06:10,330 --> 00:06:15,170
+that I use all the time in my own videos. And the one that we were just talking about, 
+
+90
+00:06:15,170 --> 00:06:21,200
+the outro booster being here, I stole video queue's, 4,000 watch hour strategy is 
+
+91
+00:06:21,200 --> 00:06:23,930
+what I use when I go want to go to the next video. 
+
+92
+00:06:23,960 --> 00:06:28,550
+but in this case, we actually wanna link back to this video. So if we come back to 
+
+93
+00:06:28,550 --> 00:06:33,950
+the mind map where we've got the agent workflow builder and the series goal is building 
+
+94
+00:06:33,980 --> 00:06:39,470
+automations and standard operating procedures for businesses, we can see that the 
+
+95
+00:06:39,470 --> 00:06:45,200
+current video I'm working on, I've coded it as number 79, but the previous one was 
+
+96
+00:06:45,290 --> 00:06:46,700
+video number 71.
+
+97
+00:06:46,730 --> 00:06:50,360
+I'm just over at a document that I created last week. It was for 
+
+98
+00:06:50,360 --> 00:06:54,930
+Vid IQs 4,000 Watch hour strategy. I've got all the information that I collect in 
+
+99
+00:06:54,930 --> 00:06:59,280
+my GPT. It's available to me here, and one of them happens to be the transcript. 
+
+100
+00:06:59,300 --> 00:07:04,250
+ will come over to our workflow. We've got the intro recap, content analysis, and 
+
+101
+00:07:04,250 --> 00:07:08,810
+it's the last video abridgement or transcript that we want. One of the things that's 
+
+102
+00:07:08,810 --> 00:07:13,310
+occurred to me as soon as I've done this is that I'm missing the title of the previous 
+
+103
+00:07:13,310 --> 00:07:17,720
+video, and that might actually be useful, but we'll keep this for now and let's come 
+
+104
+00:07:17,720 --> 00:07:19,130
+up with a quick little goal. 
+
+105
+00:07:19,130 --> 00:07:22,990
+I've just typed in the current video goal of show people how to write a script To 
+
+106
+00:07:22,990 --> 00:07:28,960
+recap the previous episode in the series. That's going to get merged in down here. 
+
+107
+00:07:28,960 --> 00:07:34,390
+All this information, we can just press the copy button, head over to A GPT, we'll 
+
+108
+00:07:34,390 --> 00:07:36,430
+just paste it, press enter. 
+
+109
+00:07:36,300 --> 00:07:42,600
+What we should start seeing is an analysis of what it believes the key themes are 
+
+110
+00:07:42,600 --> 00:07:46,500
+in the previous video and how to transition it into this video.
+
+111
+00:07:46,530 --> 00:07:52,610
+I've just taken a copy of the recap analysis. We'll come over to the recap intro 
+
+112
+00:07:52,610 --> 00:07:58,760
+script and we'll just paste that information in and press copy, come back to GPT. 
+
+113
+00:07:58,760 --> 00:08:03,200
+I've pasted all the information in and I've let it run. So we've got an intro script 
+
+114
+00:08:03,230 --> 00:08:07,840
+and GPT workflows. That did go on in the last video, but that wasn't the main thing 
+
+115
+00:08:07,840 --> 00:08:11,980
+I want to talk about here. What I wanna talk about is the reverse engineering of 
+
+116
+00:08:11,980 --> 00:08:12,550
+the Vid IQ, 
+
+117
+00:08:12,560 --> 00:08:17,230
+for the transition between videos. I also don't need the explanation, so I'm just 
+
+118
+00:08:17,230 --> 00:08:18,760
+putting in another pro.
+
+119
+00:08:18,100 --> 00:08:22,220
+In the last video, we explored how to reverse engineer the strategy for creating 
+
+120
+00:08:22,220 --> 00:08:26,570
+seamless transitions between videos. Based on insights from Vid IQ, 
+
+121
+00:08:26,600 --> 00:08:31,650
+we broke down the process Step-by-step using GPT workflows to automate those transitions 
+
+122
+00:08:31,800 --> 00:08:36,720
+and keep your audience engaged in this video. We'll take that step further by showing 
+
+123
+00:08:36,720 --> 00:08:41,850
+you how to write a compelling script that recaps your previous episode and perfectly 
+
+124
+00:08:41,850 --> 00:08:43,380
+sets up the next one.
+
+125
+00:08:43,400 --> 00:08:49,260
+There's another step in workflow automation for YouTubers, and I have dozens of these 
+
+126
+00:08:49,330 --> 00:08:52,770
+automations in place. And if you're interested in the software that I'm demonstrating, 
+
+127
+00:08:52,770 --> 00:08:56,910
+which is the agent workflow builder, then check out the link in the description. 
+
+128
+00:08:57,930 --> 00:09:01,980
+It's software that I'm developing and I'll make it available soon. I'm happy. AppyDave, 
+
+129
+00:09:02,130 --> 00:09:06,240
+please like and subscribe, and in the next video we're going to look at creating 
+
+130
+00:09:06,270 --> 00:09:08,490
+AI programming languages.

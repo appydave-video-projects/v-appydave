@@ -1,0 +1,479 @@
+Today it's Dave and in this happy cast I'm going to be continuing on the YouTube
+automation challenge that I was working on. I've developed this mind map and what
+we're going to do today is just have a look through and make sure everything is
+in place and then develop a project plan. Now I'm going to also do that by
+testing out the same project plan on two different tools. I'm going to try Trello,
+I'm going to try to click up just to see which one I like using the most. There
+will definitely be some sort of can-band sort of layout going on. Now let's work
+through this mind map we have here. So we worked out that we have some channels.
+We have trend 10 which is going to be about trending topics, probably 10
+concepts per trend and the magic of 10 which is going to be some sort of
+evergreen videos. Now I do know I need to expand on this idea a little bit further
+and we might come back to that one. There is then a process that we're going
+to work through. So with the channel there'll be niche research of categories
+and topics, getting a list of videos, figuring out what the YouTube competitors
+are and doing niche valuations and that's kind of what's going to be
+required when we come back and look at the evergreen videos is there'll
+probably be a sub-niche that I want to focus on and understanding niche
+valuations which it can be things like just the I think it's called CPM, the
+monetization per thousand. I don't know what CPM stands for but it's something
+like that. And then we've got the video research of the process where we have
+identified that there'll need to be keyword research for each video then
+there'll need to be research on to the topic. This will generate a title from
+that will create a thumbnail and then we'll pass it off to script writers who
+will probably use GPT bots to help give consistent information for scripts
+and this stuff will then create the intro, the script and the outro and where
+it says CTA there's the idea that there should be a call to action in each of
+these as well. Now the reason it's been important to get the process and what
+makes a part of today's video is that I'm going to create these project
+management plans and essentially it's just going to be the information that
+you see in here especially when I create the project plan template. Now we'll
+move over to this section called structural requirements and what I've
+essentially done here is listed all the concepts that would be on the YouTube
+page itself, description about channel banner logos trailers and what I've
+done is I've created a concept of channel branding and I could just copy all
+these and paste them over here so that when I'm developing my project plan
+that information is already associated with the channel branding. There may
+actually be just one task called channel branding and a bunch of subtasks for
+each of the channel branding concepts and then the good thing is I can delegate
+these out either to myself to work on or to one or more team members. Next area to
+look at is building a team, going to figure out where to find them, how much
+and who the different roles and responsibilities are, thumbnail, designer,
+scriptwriter etc. Now I'm doing this on a budget at the moment so to be honest
+this will probably be myself and my friend Adam will work through these but
+we may outsource some things that just totally make sense to be done by
+someone else. What I'm also starting to see here as I develop this mind map is
+that rather than move this around I'm just going to add a section to the
+process called build a team and we could call it HR as well and this what
+we're calling a process is now starting to become the project plan. The say
+project plan for now it really is the process but I'm going to use this
+information to develop my project plan. So that then brings us into the area called
+project management and this is just a little holding point that I said for
+what sort of tools and format I want to use. It's likely that the stuff in the
+channel or the channel development and the building the team would probably be
+some sort of list project management tool but the actual videos themselves
+because they go through a bunch of different states so they go from
+ideation through the titles and thumbnails and scriptwriting and video
+development and then it's all cleaned up and closed off and then it's
+published and then it moves on to things like social media sending and this
+happens to happen with each and every video. You have this state flow that
+videos need to go through and this will be where a cambeam board would be a
+better technique. So we will check out Trello and click up I know Trello is
+probably a really good tool for this but I've used click up a fair bit more of
+late and I just want to know for myself which tool would be the best to work
+with. So I think from a process project plan point of view we can just say
+PM tool investigation is something we need to do and that's part of today I
+think and then we get on to let's look at what production is about.
+Dutch and will be the actual implementation of these technologies like
+how do you do the keyword research and I have a good idea of a lot of this but
+I'm developing this on the fly as we go as we work through the behind the
+scenes. So a lot of these processes will be developed in the next couple of
+weeks as I work through all of this and lastly we have monetization and it's
+at the moment it's just an umbrella term we have not identified anything like
+affiliates or other sort of monetization strategies to use and a lot of that
+can't really be worked through until I know the actual videos and video types
+that we're going to work on because once you know the sort of video topics
+and videos that you're creating you can then go and identify particular
+affiliate sort of systems maybe it's maybe it's the Amazon affiliate system
+or maybe it's one of the others that are out there I'm not an expert here this
+will require a lot of investigation by me.
+What we'll do now is develop the content for the project plan.
+Now the project plan is essentially got the information that we've been
+developing on this mind map node so what I can do here is click on the node and
+press copy and at the moment that information is stored in the clipboard
+in a hierarchical point of view so if I move over to a product like visual
+studio I can just paste that information directly in and everything will be okay
+there is one link a hyperlink back to the mind map that I don't need here
+and we can look through this information now the data here is a in markdown format
+and the good thing is there's a plugin or within visual studio to see that in a
+more visual sort of format it can handle things like hyperlinks and other
+sorts of HTML formatting but at the moment we just need the bullet points the
+first item that will be working on project management tool investigation
+that that's something we're doing in the next 10 or 15 minutes I don't really
+need that as an entry into any project management plan but working on the
+channel is and whatever we do needs to be done twice because it needs to be done
+for the magic of 10 and it needs to be done for trend 10 and the same sort of
+process needs to be run but it needs to be run twice within that there'll be a
+ticket for niche research and we're looking here at what is the channel
+gonna focus on who is the target avatar so who is this channel aimed at what
+are some topics and categories what are a list of videos who are the
+competitors and how can we get maybe some predicted niche valuations and this
+will be important as we decide well exactly which part of the niche should
+we focus on and to put that in really simple terms if I was doing top 10
+trends top 10 trends on poetry would not pay as much money as top 10 trends on
+crypto trading or artificial intelligence and that's the sort of stuff that I want
+to work out for the channel so that it's not just relatively easy for us to
+implement the competition is okay that we can get into the market but if it
+became successful is it actually going to make decent money say something like
+10 or 15 dollars per thousand views versus 2 cents per thousand views now I'll
+look through here we've got the videos and we've got the building of the team
+I'm going to just take this information and I'm going to move it up and open it
+up into here and the reason for this is that I see the video project management
+as quite different to this section of project management because the video
+project management is a repeating system you might do a hundred videos exactly
+the same project management routine will happen for all hundred videos but these
+other things are kind of one-offs and building a team we're going to have to
+work out where to find a team or whether myself and my friend Adam work on it
+together part of that will be determined by how much it would cost working with a
+team this is really this challenges a test it's not I don't know whether this
+works there are so many people selling this idea of YouTube automation you'll
+get you'll make millions of dollars if you do it but maybe I don't know at the
+moment I wouldn't invest in something that I don't at least have a gut feel
+that it's going to work but as we develop a channel there'll be what I would
+call the channel manager that would be myself and then there will be the
+thumbnail designer the scriptwriter what else we got here the voice over artist
+and the video editor I think the only other thing missing that could be the
+scriptwriter is the keyword researcher or just researcher in general now when we
+look at all of this it's really just a list of tasks the tasks that are going
+on here are going to be repeated twice I don't think I talked about this but this
+is really developing the molding media assets whether it be text assets such as
+the description and the about us page or whether it be visual ones like the logo
+and if we go down to the video this is where we see the detailed ideas of what
+will go on I won't go into it too much now because I think it'll really gel
+even for myself as I develop the project cards and start writing what would go on
+in every task now what we can move on to is having a look at the two project
+management tools that I'm thinking of one called Trello one called ClickUp but
+before I do let's just talk briefly about the difference between list or task or
+Kanban board let's head over to a web view and I'm going to do is bring up a
+to-do list so everyone knows what a to-do list is you put write it down on a
+piece of paper it's a list of tasks and most project management tools can do
+this and this is how I will organize the one-off tasks that I need to do around
+the channel development but not everyone knows what a Kanban board is and
+these Google images here kind of show the idea of a Kanban board where you
+have a concept of these columns and you can name them however you like and you
+can put as many columns in as you want but if you go too too many columns it
+can become a little bit challenging to manage and so you might have a back
+video ideas they would probably go into a back list or a backlog I should say
+and what happens is when you're ready to work on a video you would just drag one
+of the ideas into work in progress but this is where if we go and look at the
+content plan that we set up earlier where for videos we had the idea of keyword
+research general research title is no if you look at the column headings that
+are here backlog work in progress validating complete how you can come
+up with them is quite simple if you go back and look at your original list of
+tasks that you need to do for the video so here we would have the concept of a
+image we just saw backlog would be another thing that we need and in okay
+100 videos let GPT fill it in for us another term for backlog in this case
+could just be ideas and that way when you're passing off information you can
+just pick one of the ideas that you like and see what happens and then you
+would have a column for the keyword research one for the general research
+then someone would after this is done develop a title for what the video is
+going to be from that we can create the thumbnail and each of these just become
+part of now we will take the information that we've got as headings here and when
+we get to our camp and board we will make sure that there's a column that just
+has each of those now let's go and have a look at the two tools that I've used in
+the past and they're both okay and let's make a decision we'll get over to the
+internet and we'll just search for the concept of Trello and we'll also look
+for the concept of ClickUp and it should take us to websites so there's Trello
+looks like ClickUp is logging straight in for me and we'll come back to Trello
+and just click on the official website you can see there's a few
+boards and stuff that I've set up before I haven't used this for quite a while
+and I think I stopped using it because I don't like it but I do want to test them
+out properly with more than one or two people that are using it just to see
+what they feel is the most efficient it's it's good that I have visibility of
+projects but it's better that my team can use the project management tasks
+efficiently so for the first one or two videos or concepts I will test both of
+them and make a decision so from Trello we'll just click create a board and what
+we'll do is we'll call it trend 10 and we'll just say create and as you can see
+it doesn't cost any money for under 10 by the looks of things and I believe I
+can just click this little button here and I will say magic I'll put a dash
+between these words dash of 10 and we'll create that board as well says create
+start with a template I don't maybe I needed to do that as well we should test
+this so we'll just create one called ABC and start with the template and see
+what's available for us and there's already this concept called can ban
+template we can do that and just go create see what it comes up with and
+we're already now I don't think we need this I think you can just change it up
+here and we will see so come back to our trend 10 I'm just gonna come back to
+Visual Studio and I will just copy this block of information I'm not going to go
+down into individual tasks I think the task will just be niche research and I'll
+keep these items they'll probably go in the description they might go into sub
+items if that's supported by this tool so we head back to the can ban or to the
+Trello board and we've got this concept of a board here if I want tabular sort of
+formats or other formats I'd have to pay for this product so I believe we just
+have board and I'm not going to paste in anything until I see what happens so
+let's just go with ABC and how do we do it we press add list that's put in my
+name instead let's do ABC add list AB XYZ so under my name it can be do this
+add a card do something else add a card and ABC can be we'll do a card called one
+we'll do a card called two X will do a card called three and we'll do an X card
+called four and let's just see whether these just move they do they move all
+the way through now what that then leads me to think is that these lists that
+would be created are the can ban board ideas so this would probably be a
+backlog this one would probably be an in progress and this last one might be a
+complete sort of concept and as I look at it I think well I actually want
+different sections because I want a section that would be the list of tasks
+that are in backlog and we were just looking at a couple of them and then
+they go into progress and then they get completed and then a separate section
+which would be all the workflows that we need to produce a video and that would
+be a bigger set of lists and if I understand the use of this software
+correctly and we'll come back to here so you can see what I mean by a bigger set
+of lists where things go from the backlog to design and into to do I would
+almost need a magic of 10 project management overview followed by a magic
+of 10 video video project management setup now a lot of people love this I
+don't like the way this is coming together so at this stage I'm just going to
+abandon it this is part of my investigation as to what project
+management tool I want to use and the fact that I probably need to have a
+workspace for the general tasks versus a workspace for the video tasks I'm not
+sure that I feel comfortable with that but you might feel really comfortable with
+it so if you love Trello if you've used it in the past and you're trying to do
+YouTube automation I encourage you to take this further than I'm going to take
+it in this session today let's just move it straight over to click up and I've
+used it in the past here this is fly video let's just see whether we can add
+a new workspace here we will call it trend 10 and I'm not going to worry
+about the magic of 10 until I've tested this out a little bit and we'll just give
+it a color I think blue will be good when I get a logo that would have gone
+there but we don't have a logo just yet so I want a little bit of marketing
+information I filled in a little bit of extra information I also included
+Adam's email address which I won't show in the video and we're taken directly to
+this list format and there's things called to do what I believe I can do is
+just paste the information now it's noticed that there are multiple lines
+detected and it's going to create eight tasks now most of these are actually
+sub tasks of the other ones so let's just see what that does I thought that
+would be the case I wonder if we can do an undo an undo would be a nice thing
+right now but we can't so we might just select them all and I wonder if they can
+just drag as sub tasks under niche research looks like they can so one of
+the things I could do is have niche research as a task to work on and then
+I could work through all these items another way of looking at it though is
+that I could go into niche research we'll just get rid of this information at the
+moment and call it one task and what happens we go down here and we just
+paste in the information I think this is probably going to be a single task that
+I work through some of the features you can do is I can add Adam as a watcher so
+anything I do on this task he would see it we can do time tracking and etc now
+let's come back to the list and I'm going to delete these little tasks that we
+created I believe there is a button up here and it's just here it's called
+delete and we can delete all eight of them at once to our visual studio and
+we'll come back to our visual studio and we will select this information it's
+called channel branding and get back into click up we'll add a new task I'm just
+going to put a C here for now if I pasted all that information I'd get the
+split and we don't want that so we'll just go in here paste all the information
+we got here take channel branding out of there and put it into the heading so
+these are a bunch of things now this because these are actions that would
+really need to get taken care of one at a time I've just made a decision on the
+fly here that while I will leave that there they do need to be subtasks as
+well now how do we do that we have a concept of subtasks so if we click in
+here I'm just going to paste everything I just come in here there's this
+concept called multi cursor in visual studio that allows you to select
+information and miss other information so we really only want to copy these
+pieces of data go back to our application and paste them straight in and it's
+saying eight tasks and they're all being created and you can see that they're
+there they are tasks but they're subtasks of the main channel branding concept
+and we can then expand this out now this is not going to be a Kanban board so
+we'll come back to visual studio we've got build our team and that's the heading
+we want where do we find them I think in this case this is all one task what I
+might do is take all of this information as a copy we can head back to our
+website to click up in this case I will just call it build team like that we hit
+save and I'll go into the description and write down what it is we want to do
+we can do that back to visual studio and this is where we get on the video and
+this really needs to be a Kanban board rather than a list like we're doing
+should we start it yet we won't start it yet instead we will come back and make
+sure we've got a little bit more segmentation so the current segmentation
+we have is that things are to be done like a backlog I guess now I believe if
+we click in here we can create a new status I do not know whether this creates
+a new grouping we will test this out and we will call it in progress I guess in
+progress give it a color I think blue would be a good color for something that
+you're working on I always like the pastel blues and I don't fully understand
+the the the two different styles here I think it's only for the list that we
+need to do so we'll just add that in we have any progress and what that means is
+that if you were to start work on this if I was to start work on it I could just
+drag it up into the in progress and if Adam who was working on this project was
+to do it I'd get notified which is part of the goal of project management now we
+can go and add one more status and we'll go in here we'll say new status and we'll
+just say complete so we're keeping it very simple the set of things that we're
+going to work through says it already exists
+you
+okay so I had an issue with the complete task but I saw what the what it is let's
+save and I'm just going to click on this little button and there is already a
+complete by default I don't know how configurable this is but when you throw
+a task into complete we can see it right now and that's because it's being shown
+but by default it's not being shown so that was partly why I was confused
+because there was a closed status I put it into close and then I went where did
+it go well it went into an area not visible unless you quickly show the
+closed task and I don't know whether it's appropriate to delete yes you can
+delete so we will delete that one because it was just artificial the other
+thing I've noticed is we have this concept called list inside this concept
+called space so they're such generic terms that they don't make any sense now
+since the tasks that I have here are all around the channel set up I guess I'm
+going to rename this list and how can we do that so you have a little list
+button here we'll click on this let's see if we've got looks like we've got a
+rename view so we'll click there change it to
+it's a bit long but maybe that works okay and that was incorrect I'm gonna go and
+change that back to list and I'll try it from this point instead rename and we
+go set up might be the right way to go okay well that's changed that and it's
+showing up in here now then there's this idea of space and since I'm going to be
+creating two channels trend 10 and magic of 10 currently I've called the account
+trend 10 it might be better off that I call this account YouTube automation
+challenge and then I can have a space which I'll rename and we will call that
+trend 10 so we have a space called trend 10 which currently has a concept called
+channel setup and channel setup currently has three separate major tasks the
+channel branding the building a team and the niche research the channel
+branding currently has a bunch of sub tasks whereas the other two tasks that
+I've created they are just considered one task with a whole lot of things that
+might go on within it this may not be right yet we may want to build these
+out to sub tasks I wonder if it's appropriate to rename this right now so
+it's called channel it's called trend 10 right here and there looks like there
+are settings at two levels on this screen there's either for me the owner of the
+account or for if it's not called a space I don't know what it is I guess it's
+some sort of other naming convention we'll just go to settings and we will call
+this YouTube I might just go YT automation and it's a challenge but if I have too
+many words you won't be able to see it so we can close that out hit the back button
+and now we have YouTube automation I can change over to other accounts I have like
+where I work one of my major channels that I do some stuff on we've got the
+YouTube automation again it'd be really nice if we had a logo showing here and
+we have trend 10 and now the next step is let's create a Kanban board for the
+video production now what we'll do is we'll set up the Kanban board for the videos
+what we can do is move on over to the web interface we have trend 10 now we have the
+channel set up there's an ad button let's see what this gives us we can do a list
+and this time we'll name the list as we go and we'll say videos we'll create them
+and we now have this concept of to do now if we want to go from list format to Kanban
+format we just click the board button and we can see things going from left to right
+we can come back to here and I'll jump us over to visual studio code and what you will see
+now I have a list of the ideas or tasks that would need to be done when
+creating a video I'm just going to copy that and create a new window now we don't need this
+first one because we've already got the list created called videos and I'll select them all
+and shift tab them in now the idea of this little bit of information about what each task goes
+do we need that within our tasks we probably do but they're not easy to just copy and paste
+from this format into click up so I think I'll just I think I'll just remove these little bits as
+we go and now what we've got is just a list of tasks that would happen in order I will rename
+one of them so this is definitely keyboard research this is definitely keyword research
+and this is more the video research that's the backlog or the to do might be a better word but
+we'll go with backlog then we've got the youtube title we got the thumbnail we've got a concept
+we've called GPT bots but a better way of thinking about this and that might be what
+a staff member might be using but this is really just
+part of the script editing but we've already got a script so we won't do that now if I was to do
+things in order would I do the intro before the script this is a hard one to decide it kind of
+depends if you do the intro first which is kind of like when you do the youtube title it really
+informs how the script should be written but then there's probably a time where the intro
+needs to be redone after the script because you never know what direction the script is going
+to go down so I might just put in another thing called intro edit so that will cover the situation
+that the intro has been done the script has been written driven off the intro but now the intro might
+be a little bit wrong so let's recreate it and the other thing that I've kind of missed when
+thinking this through and partly this is because I'm moving into a youtube automation process where
+other people will kind of dictate how they want to do the flow versus how I think about it if I
+was doing it purely myself and the script writing gets done and there is this backwards and forwards
+that goes on during that time and then the video gets created and you can kind of see here I've
+maybe mixed in a few concepts so I might just move the script up to here and then these can really
+be the video creation intro outro and video body this might make a lot more sense in the workflow
+that I'm seeing coming to life now I'm just going to use the multi cursor to get rid of all these
+dashes we don't need any of them I can press command a to select everything command c to copy
+and then I can just go over to pick up where I'm going to paste these in now I'm
+potentially a little confused around this I don't think they're tasks let's just paste them in it
+should allow us to create modable tasks which is great but I don't think this is going to fit the
+canband board style that's right because now we've just got it to do with what is meant to be well
+these items are all meant to be across the top so we can come back I'll come back to list format
+and just select them all now is there a way of selecting them all up here not really so we'll
+click them this way I think you can press shift click to do this we will delete them
+so instead we need to look at these statuses we'll click here and there's new status now I don't
+know whether I can bulk create statuses this is really what I want to try and do here so new status
+status name let's paste them all in and I bet this won't work okay unfortunately we're going
+to have to add them in one at a time so let me just go and do that
+you
+you
+now I've just been adding a couple of these tasks manually and I thought this
+feels wrong it doesn't feel like the right way to do it you can see if I go to the canband board
+that things are starting to come together the order may or may not be right but I thought well
+how do you solve this and just had a quick look over on Google search and it told me to go try
+this area we can find that I think it's in views list settings look at that we got a list of statuses
+now this means we can alter them I wonder if we can change the color here this is also a good
+thing so the backlog would probably be gray and then I could probably color code them because
+there's so many of them just by section I think and I've pressed a button what have I done
+now I tried a couple of attempts to get lists statuses right for the canband board
+and didn't realize that there was a section called statuses I was creating some in a odd
+fashion I think what I'll do is I'll delete this I don't know whether there's a way of
+deleting them easily what we're looking at is a custom set of statuses for this space
+but I believe it might be nicer if I just created a new template and I think we'll call it video
+production that might be a good name for it and from here okay that's where we're at they got rid
+of the word custom this one is definitely going to be back backlog rather than to do
+because we don't know whether it's going to be done or not it needs to be evaluated and you can
+add statuses now you can't add multiple statuses at once so I'll quickly just be going backwards
+and forwards between the visual studio section and the status section and just paste them all in
+one at a time now I've just finished now I've just finished off putting in the statuses manually
+I didn't have to set the colors as you add a new task I'll just show this press a for a status and
+it just automatically picks the color and I just went with whatever it decided we'll just delete
+that one one of the things I'm thinking with the colors is that I might just have the same color for
+say the role so there's a different role for a person who might be researching the keywords
+and the video idea versus the person who's doing the thumbnail versus the person who's doing the
+script writing there may be modable steps in the script writing process both before and well at
+different levels and the video editor and one thing we also haven't put in here is actually the
+publishing of the video like how does it get up on to YouTube when does the description the
+thumbnail and the title get pasted in is there a follow-up process for say AB testing of the
+thumbnails etc so there's more statuses we can have and they are for different roles different
+types of people and this is where I feel the color of each of these statuses might make sense to be
+based on the role and that way if you are the thumbnail person you might just look at the
+blue ones you're the video editor you might just look at the green ones and you work through them
+but this is for future let's now hit save and see where we are at and I've created these
+fake tasks called abcde and we'll just go to cam band board and now things are starting to make
+sense so this goes from left to right let's check they're in order so a backlog a whole lot of video
+ideas and one of the videos has gone into keyword research and from there it's going into video
+research so since this might be the same person they can be blue and then we move over and once
+this video research and of course the keyword research is done it can go over to the person
+whose only job is to do titles and they do the job when they're finished with it they would move it
+over to the thumbnail person and now the thumbnail person would have different information provided
+the keyword that was initially thought of some research about the video the title that was decided
+upon and that person then can create a thumbnail based on all that knowledge and where is that
+knowledge well it would be actually inside the task there'd be comments like I did research
+for the keyword and I came up with xx man versus spider man might be what it is okay and then
+another person or the same person would add in another comment and say
+here is a lot of info about x man and that would just go on and on they might have used chat
+EPT they might have done other sorts of research and now that it's with the thumbnail person and we
+can see the status that it's out here they they can draw an image so what I did was I just took a
+screenshot of here and let's just paste it in and we'll add that as a comment and now there is a
+thumbnail ready to go now this we may have additional statuses later on for whether I accept
+the thumbnail like I'm the channel manager I guess or the owner of the site do I like this
+thumbnail and that might go off for me to review now that's probably not going to happen because
+it's way too much micro management for what I'm trying to achieve here but it's just one of the
+video along the lines is moved into video research and if we set up the emails and the roles correctly
+we should be able to notify those people automatically but that's for another part of this video I think
+and from here the thumbnail person well let's just do it from within here they can just click this
+little button and that just takes it to the next status so it's now with the script person
+and we can see it's moved to the script person they write a script then they can send it all
+over to the video editor now the video editor has that collective set of information as well
+they have the research about what the video is going to be the keyword the title and the script
+and hopefully at this point because I haven't broken down script into having an intro and outro
+component just yet they will just record an intro and that might be something like the title just
+zooming across the page it might be a little bit of a talking head where someone's saying the intro
+may be in a diagonal section so they're over here and there's a title page here once that's done
+the it can move over to video body they they create the video and after that it could move over to
+the video outro now as I talk this through even in my own head I can see areas that are really
+micro managed they're probably is just going to be a concept of video the video editor doesn't
+really want to do project management where they're just changing statuses because they went to
+different sections this would only really make sense if you had specialists there was one person
+who did the intro there was another person that did the body there was another person that said
+did the outro or maybe things like the lower thirds then we would want to do it this way
+so let's just go back and modify that this is what I love about a cam-band board and taking
+things through statuses you get to think about is this actually practical or is this just way too
+much work for the team this is the balance we're trying to solve now I think we can come back to
+list settings and it was list statuses and we can come into here and I like the color of the green
+one I don't like that one so I'm just going to pick on the delete status here and the delete status
+here and just rename this to video only and here's that complete status that I was talking about earlier
+now it's called custom why have why does that happen why is it not part of video production
+I'm just going to hit save and one of the things that picked up was that I'd already put a task
+into a status that now doesn't exist so we just need to state what it's going to be it's just
+going to be video we'll hit done here and now that's part of done now there was an issue I
+noticed we'll come back to list statuses it's called custom I wanted it to be called video
+production why did that not happen I'm just going to copy that and I'm going to are you sure you
+want to delete video production I do and we come to custom which is all of this and I do not
+understand how I can rename the one used in the space and see the word custom here but if I click
+on that that's just something else altogether so what I'll do is I won't worry about it for today
+in another session I might go and create a new template and work through what the issues are
+but I do want to move on and I want to create videos for the youtube automation challenge
+this is not meant to be how does click up work sort of video it just seems to be where we're
+going at the moment we'll hit save come back to the beginning now if you find this view to be
+a bit awkward I think I am zoomed in a little bit let's just see you you can zoom out and you'll see
+a little bit more of the display we can go left and right but you can change it back to
+list view and look at it this way this is as a software developer I usually work in this sort of
+mode because the tasks they're not really related to one another but in the case of tasks where
+there's a whole lot of steps this cam-band board is just a really good way to work now to just recap
+on this section what we have is we have a space called trend 10 we will have a space later on
+called magic of 10 and within that we have the channel set up with three major to do items there
+could be some rearrangement going on here then we have another section it's called a list actually
+called videos and when we do start creating videos and we can I think we can just delete
+these quickly I wonder if there's a nice bulk way I can't see it but this might be a good time just
+to switch back to list we go back to list and from there we've got this little radio button
+and you can just select everything you like including that one and we'll click the delete
+button now everything's back to a clean set up ready to go and so that's the end of this section
+in the next section what I'm going to do is start delegating tasks probably to both myself
+and Adam who I'm working with and this will be in the area of the channel set up
+now Adam wants to work through graphics he's always been good at just drawing and art and
+stuff like that and his learning skills in the area of digital stuff like using mid-journey
+and adobe photoshop and photopea and camber and all that sort of stuff so anything that's in here
+that looks like it's related to a visual aspect I'll delegate that to him and anything that's
+more text oriented and especially related to the the niche the brand and all that I'll probably
+do that or I'll do that with him as a collaboration and that's what we'll do in the next section

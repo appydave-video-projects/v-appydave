@@ -1,0 +1,290 @@
+[
+  {
+    "recording": "#<Recording:0x0000000136b89c50>",
+    "seq": 1,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "1-1-introduction..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89c50>",
+    "seq": 2,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89c50>",
+    "seq": 3,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89c50>",
+    "seq": 4,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89ae8>",
+    "seq": 5,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "1-2-introduction-overview..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89ae8>",
+    "seq": 6,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89ae8>",
+    "seq": 7,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89ae8>",
+    "seq": 8,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b899a8>",
+    "seq": 9,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "2-morning-routine..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b899a8>",
+    "seq": 10,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b899a8>",
+    "seq": 11,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b899a8>",
+    "seq": 12,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89868>",
+    "seq": 13,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "3-walk-to-the-park..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89868>",
+    "seq": 14,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89868>",
+    "seq": 15,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89868>",
+    "seq": 16,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89728>",
+    "seq": 17,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "4-unexpected-rain..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89728>",
+    "seq": 18,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89728>",
+    "seq": 19,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89728>",
+    "seq": 20,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b895e8>",
+    "seq": 21,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "5-1-coffee-shop-dilemma..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b895e8>",
+    "seq": 22,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b895e8>",
+    "seq": 23,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b895e8>",
+    "seq": 24,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b894a8>",
+    "seq": 25,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b894a8>",
+    "seq": 26,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b894a8>",
+    "seq": 27,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b894a8>",
+    "seq": 28,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89368>",
+    "seq": 29,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "5-3-coffee-shop-dilemma..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89368>",
+    "seq": 30,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89368>",
+    "seq": 31,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89368>",
+    "seq": 32,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89228>",
+    "seq": 33,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "6-afternoon-work-session..mov",
+    "detail": "[Transcription goes here]"
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89228>",
+    "seq": 34,
+    "type": "Identify Content",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89228>",
+    "seq": 35,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": ""
+  },
+  {
+    "recording": "#<Recording:0x0000000136b89228>",
+    "seq": 36,
+    "type": "Analysis",
+    "action": "Add information",
+    "message": "xmen",
+    "detail": "xmen"
+  }
+]

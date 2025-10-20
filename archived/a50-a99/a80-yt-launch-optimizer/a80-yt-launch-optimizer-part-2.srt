@@ -1,0 +1,263 @@
+1
+00:00:00,00 --> 00:00:04,830
+So here we have our robot with the intro and the outro. And if we go to the top, 
+
+2
+00:00:04,830 --> 00:00:09,360
+we've got our clock with the fast moving hands. We've got YouTube variations of it 
+
+3
+00:00:09,360 --> 00:00:09,690
+as well.
+
+4
+00:00:09,690 --> 00:00:13,970
+Now we just finished the set up for the titles, the thumbnail elements, the text 
+
+5
+00:00:13,970 --> 00:00:18,170
+that goes onto them. The next thing that I have to do when publishing a video is 
+
+6
+00:00:18,170 --> 00:00:21,470
+getting the YouTube description. And one of the things I'm going to need are the 
+
+7
+00:00:21,470 --> 00:00:27,680
+keywords. Now we have a bunch of keywords that we found during the content analysis 
+
+8
+00:00:27,680 --> 00:00:31,730
+phase. We've also got the title that we're using and the abridgement.
+
+9
+00:00:31,100 --> 00:00:31,820
+Now I've got to 
+
+10
+00:00:31,830 --> 00:00:36,540
+that prompt and we can see here a struggling to create smooth intros and outros in 
+
+11
+00:00:36,540 --> 00:00:41,520
+your YouTube videos. So we have this basic sort of description. Now how does that 
+
+12
+00:00:41,520 --> 00:00:45,930
+fit with a regular YouTube description? If we look at one of the videos I've already 
+
+13
+00:00:45,930 --> 00:00:50,670
+done in the past, you can see there's many areas of the YouTube description, including 
+
+14
+00:00:50,670 --> 00:00:55,890
+keywords, affiliate links, branding, social media. But the section we just generated 
+
+15
+00:00:55,890 --> 00:01:00,870
+would be this area here. It's the basic idea of what the video is meant to be about. 
+
+16
+00:01:00,870 --> 00:01:02,700
+Let's move on and build the rest of this.
+
+17
+00:01:02,730 --> 00:01:07,690
+So we'll come back to the description, take a copy of it, and we'll move on to the 
+
+18
+00:01:07,690 --> 00:01:11,560
+writing of the description, where we've got a whole lot of extra information that 
+
+19
+00:01:11,560 --> 00:01:16,360
+I just talked about. We'll just paste in the simple YouTube description you can see 
+
+20
+00:01:16,360 --> 00:01:20,710
+above. We've got the chapters and all that and make a copy of what we've got here, 
+
+21
+00:01:20,980 --> 00:01:26,710
+and I'll just paste it into ChatGPT. You can also use anthropic if you want, and 
+
+22
+00:01:26,710 --> 00:01:31,360
+it'll start generating a more detailed YouTube description.
+
+23
+00:01:31,360 --> 00:01:36,620
+Now I have uploaded this video yet so I can't put it into YouTube. But what you can 
+
+24
+00:01:36,620 --> 00:01:41,750
+see over here on the left is the original text and we got it visualized on the right. 
+
+25
+00:01:41,750 --> 00:01:46,370
+And this first area is something to look at, mainly because this is the stuff that 
+
+26
+00:01:46,370 --> 00:01:51,170
+goes above the fold. And what that means is that when someone's looking at a video 
+
+27
+00:01:51,170 --> 00:01:55,730
+but they haven't opened up the description, everything above the fold should be the 
+
+28
+00:01:55,730 --> 00:01:56,120
+highest 
+
+29
+00:01:55,960 --> 00:02:01,310
+priority. So one of the things that I've done here is had a link to an opt in for 
+
+30
+00:02:01,310 --> 00:02:05,690
+one of my products, or sometimes I'll use the buy me a coffee link.
+
+31
+00:02:05,700 --> 00:02:10,290
+And then when they expand the description, there might be another high level opt 
+
+32
+00:02:10,290 --> 00:02:14,820
+in that you want to have. Plus, the rest of the information comes down in the appropriate 
+
+33
+00:02:14,820 --> 00:02:15,300
+order.
+
+34
+00:02:15,330 --> 00:02:19,770
+Now this is an evolving system. So there's other steps here that I'm not currently 
+
+35
+00:02:19,770 --> 00:02:24,510
+using like the pinned comments, but they'll come over time. But let's move into the 
+
+36
+00:02:24,510 --> 00:02:29,160
+last phase. And the last phase is how are you going to share the YouTube video? Are 
+
+37
+00:02:29,160 --> 00:02:33,180
+you going to share it with LinkedIn? Are you going to write a medium article or maybe 
+
+38
+00:02:33,180 --> 00:02:39,270
+a tweet? Now the ones I do generally at the moment are tweets and LinkedIn articles. 
+
+39
+00:02:39,270 --> 00:02:41,670
+So we'll just go straight in and have a look at them.
+
+40
+00:02:41,690 --> 00:02:46,400
+we're in the social media post phase, and we can see for creating a tweet that I 
+
+41
+00:02:46,400 --> 00:02:50,900
+need the title of the video. We've got some keywords that can be used and basically 
+
+42
+00:02:50,900 --> 00:02:55,190
+a summary which is a bit smaller than the transcript or the abridgement, and we'll 
+
+43
+00:02:55,190 --> 00:02:59,690
+paste in a link. Now I haven't uploaded the video, so this is just one of my other 
+
+44
+00:02:59,690 --> 00:03:02,720
+videos for now, and we'll move through to the LinkedIn post. 
+
+45
+00:03:02,690 --> 00:03:07,370
+information here is exactly the same, though I like to use the abridgement because 
+
+46
+00:03:07,370 --> 00:03:09,320
+it's more detailed than the summary.
+
+47
+00:03:09,330 --> 00:03:13,760
+we have five tweets that are being created. We've got the information that's related 
+
+48
+00:03:13,760 --> 00:03:18,500
+to the video keywords. And then we've got the link at the bottom. You can pick one 
+
+49
+00:03:18,500 --> 00:03:23,600
+of the ones you want or rewrite them as you see fit. As we scroll down, you'll also 
+
+50
+00:03:23,600 --> 00:03:28,490
+see that there's a LinkedIn post being generated and it'll be way more detailed. 
+
+51
+00:03:28,490 --> 00:03:31,130
+It's not based on the summary, it's based on the abridgment. 
+
+52
+00:03:31,130 --> 00:03:32,580
+it'll have the video at the end. 
+
+53
+00:03:32,590 --> 00:03:36,550
+the way they can look is that we've got different tweets that we've been able to 
+
+54
+00:03:36,550 --> 00:03:41,650
+put out in the past, and if we go over to the LinkedIn posts, you can see a bunch 
+
+55
+00:03:41,650 --> 00:03:46,750
+of LinkedIn posts that I get a lot of engagement from. And this is I find a great 
+
+56
+00:03:46,750 --> 00:03:49,750
+way to send traffic back to the YouTube channel.
+
+57
+00:03:49,760 --> 00:03:55,140
+So there you have my extensive launch sequence. This is everything I do to get a 
+
+58
+00:03:55,140 --> 00:04:01,830
+video released and up onto YouTube and published. This takes about 30 steps, and 
+
+59
+00:04:01,830 --> 00:04:06,630
+in the past I used to take 3 to 5 weeks to get a video out. I'm now down to about 
+
+60
+00:04:06,630 --> 00:04:11,520
+1 or 2 videos a week, and it's GPT workflows like this that help me. 
+
+61
+00:04:11,460 --> 00:04:15,520
+if you're interested in the Agent Workflow Builder, there's a link in the description. 
+
+62
+00:04:15,520 --> 00:04:18,670
+It's software that I'm building and will make available soon.
+
+63
+00:04:18,690 --> 00:04:24,540
+I'm AppyDave. I do videos generally on GPT Prompt Engineering and this agent workflow 
+
+64
+00:04:24,540 --> 00:04:29,640
+tool that I'm building. Please like and subscribe or click on the Buy Me a Coffee 
+
+65
+00:04:29,640 --> 00:04:34,110
+link. That's one of the ways that funds this particular channel and the content that 
+
+66
+00:04:34,110 --> 00:04:36,960
+I'm creating. Anyway, I'll see you in the next video.

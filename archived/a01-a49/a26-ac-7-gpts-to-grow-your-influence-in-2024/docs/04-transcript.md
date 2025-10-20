@@ -1,0 +1,217 @@
+# Transcript
+
+Before going into detail on the seven YouTube automation bots, there's one other bot that
+we should have a look at first. Whenever I create my YouTube intro or the SEO friendly description
+or maybe even the Dali 3 b-roll images, I like to create everything based off exactly what I said
+in the video. And the script abridger is an expert in summarizing transcriptions and making
+abridgments. If we click on the commands, basically there are two concepts that I like to get out of
+a full transcription. Going into detail, the role of this bot is to summarise and condense
+video transcriptions. Now it can use natural language processing to extract structural
+information from a transcript or it can summarise it without losing the detail.
+What this means is I can take a 30 minute video that I've recorded and summarise it from say a
+few thousand words down to a couple of hundred. Now it can do it either as a summary where it
+condenses but keeps the meaning or it can do it as an analysis where it gives more of a structural
+point of view. And both of these sorts of outputs can be useful for future bots.
+To say an example, let's take this 200 lines of transcript from a 30 minute video that I did
+earlier in the week. If we compare everything side by side, you can see the full transcript
+over here on the left is 2,330 words. Now if we go over to the summary, it basically says
+close to the same thing and it does it in 127 words. There's also the analysis which gives
+more of a structural view of what the document has and it's in 270 words. Now both the analysis
+and the summarisation of the transcript make for really useful inputs into other bots that might
+generate a description or generate graphics for an intro and it's as simple to use as typing
+over the summarise or the analysis command, pasting in your long form transcript and then
+just letting GPT do its work. And as it goes, we can see that this video features a scripting
+enthusiast demonstrating the use of a custom GPT agent, the shelf script helper. As we move through
+the seven YouTube automation GPTs, we're going to find that the summary or the analysis of the
+transcription is going to play an important role for each of them.
+The test case for each of the bots that we're working with today will be around the
+shelf script helper video. Now this video came out a couple of days ago and a few things to note
+as you look through it is that there's a detailed SEO friendly YouTube description with keywords
+and links to various assets. If we scroll down and click on the transcript, you'll see that there's
+an intro that was written by one of the bots. We'll look at how I use GPT to generate YouTube titles
+but also look at the text that it can create to go on a thumbnail which is quite a bit different
+to the text in a YouTube title. We'll also look at the Dali 3 images that can be generated or what
+I would call elements of the thumbnail. And if I get a chance, I'll even touch on how Dali 3
+instructions can be generated directly off the transcript to produce B-roll images that look
+exactly like what you're talking about. Most of the videos I create are from 5 to 25 minutes in
+length. And once recorded, I take the transcription and I put it through the transcript of Bridger
+to get my summary and an analysis. From there, I then go and generate a YouTube title using a chat
+GPT bot. With that preliminary work out of the road, I'm then in a position to create my YouTube
+intro and to do that, I use the YouTube Intro Generator. Now the role of this bot is to generate
+tailored YouTube intros. The overview is that it can work with a transcript directly or it
+can work with a summary or an analysis. And the main guidelines is that it creates concise
+informative and compelling intros. The marketing frameworks, which in this case are either Paz
+or Ada, are really just psychological triggers to get people engaged with your content pretty early.
+So we've got the problem agitate solution framework or we've got the attention interest
+desire action framework. Now from a structure point of view, we have concepts like problem
+solution, which is one of the ones I like to use where there is a problem and I've got a solution
+that I've developed. I'm also fond of the Q&A style, but other people might like more of a
+storytelling style. And the idea of the bot is that you would configure it with the niche,
+the topic, which might just be your YouTube title, some keywords, and then basically the
+marketing framework and structure that you want. Using this sort of configuration and the transcript
+helps you then generate the intro. Let's head over to my GPTs and we'll click on the intro maker,
+create engaging educational YouTube intros and we'll just click on the commands to see what
+we've got available. And you can see we can configure it. We can create an intro based off
+a draft. We can also get some definitions around the marketing framework and the intro structures
+if you need. So I've just put in the config command. I've said chat GPT for coding. That's
+what the video happened to be about the Paz marketing framework Q&A style. And let's just see
+what this comes back with. And so this is working on the idea that the niche will be chat GPT for
+coding, choosing the problem agitation solution framework, Q&A structure, the tone will be
+authoritative and engaging. And you can run a configure command again if you want to change
+what it says here. But for that, we can now move on to create and we just type in create like this,
+that's colon, and then we paste in all the information from the transcription. I also like
+to put in the title so the title should be there as well. We got title unlock the power of GPTs
+and we just press enter and we see what we get on the first attempt. It's written an introduction
+for us and the one that's here is hello and welcome to today's video where we're unlocking the
+incredible potential of GPTs focusing on a unique tool, the shell script helper for chat GPT. And
+this example is quite accurate, but it's also way longer than I would want to do for an intro.
+With a little bit of configuration with that GPT agent, you can get an intro that follows the
+style and pattern that you want. And the one I went for for that video was do you want to simplify
+the way you build terminal scripts? Join me on this unique scripting adventure where I'll be
+using custom GPT shell script helper. So this little intro, it's quite short and to the point
+and it was generated out of that, but with a little bit of extra tweaking.
+Let's move on to a GPT agent designed to generate your YouTube outro.
+So looking at the YouTube outro generator, the main role is that it can create an engaging
+outro for your video. Now the overview suggests that it's about creating viewer engagement. You
+want people to like and subscribe to do comments. Maybe you want them to click on an end card and
+go to one of your other videos. Like the previous agent, the outro creator has a configure command
+where you can put the capability that you want to see within the outro. And the main ones that
+I like to use is a call to action, maybe like and subscribe. I definitely like to do a recap
+of the video and have some sort of video end card that people can click on to go to related
+content. And you can do that all through the configuration before you worry about creating
+the outro. We'll come over to the GPTs and we'll click on the Tube outro writer,
+craft engaging outros for YouTube videos based on summaries and settings. And we can have a look
+at what commands we've got available. We can do a configuration, create an outro or look at the
+capabilities. And we'll just run that one command. We're not going to give it any input. We'll just
+see what it comes up with. So we have a pretty extensive list, call to actions, end cards,
+and you could configure each of these pieces of information. But we'll go for something quite
+simple. We'll just go brevity and thanks. So I put in config with brevity, thanks with like and
+subscribe. I also added a configuration for apicast. At this point, we can just do a create and do a
+paste. And what I've done is like before, I've included the title of the video and then the
+full transcript. In this case, you can do it with both transcripts and summaries. I find for this
+one, I like to do the full transcript. So it's gone through and created everything that we wanted.
+I will read it in a moment. But what I'd like it to do is just the script. In this case, it's also
+given a few extra instructions that could be useful for the video editor. But I just want to
+read it. And so what we got was that's wrap on our scripting adventure with shell script helper.
+So it understands the context of the video. Big thanks for joining us on this journey to
+simplify shell scripting with GPT technology. If you loved diving into the tech with us,
+show your support by hitting the like and subscribe to apicast. So this is basically following the
+guidelines that we did when we configured the capabilities. I'll just play the outro
+that was on the video I created two days ago. Wouldn't it be great if the words that you're
+saying in your transcript automatically turned into beautiful scenes generated with say,
+Dali three or mid journey. If you've ever used in video AI or maybe picture, you've already
+seen this in action because what these tools do is take the transcript and match it to images that
+it gets from stop photography and stop video. I created this video about a week ago. And if you
+look at the transcript, there's ideas like creating a custom instruction in chat GPT.
+There's the ability to look at video files that are put into a project folder. And I'm talking
+about this. And what I want to do is make sure that the images that come up as I'm talking
+match what I'm saying. So this is creating a custom GPT instruction. Here I am programming a
+YouTube video application and putting the recordings into a folder structure. So everything
+that you're seeing here is generated directly out of Dali using using a GPT agent. Let's have
+a look at the individual images first. So the creating a custom chat GPT instruction was created
+from this particular prompt here. And as you go through, we've got depict person demonstrating
+video file organization on a computer screen. And then we've got here visualizer user working with
+Ecamm live stream deck and Hazel. Now the video that those images were related to was about this
+software I'm creating called fly video, which takes all my recordings and runs them through
+various GPTs to solve the problems in a more automated fashion. But if we head over to GPT
+and look at an agent that I've created for analyzing basically the transcription,
+you'll see that I've got a bot here that looks at transcriptions in the form of scenes as scene one,
+and it goes from three seconds through to 50 seconds. And this is basically the words being said in
+the transcription. Then scene number two goes from 50 seconds through to one minute and 34. And this
+is a regular file format for subtitles. What I've been able to do is take that information, keep the
+numbers in place. So the numbers haven't changed. But instead prompts have been generated to replace
+what was actually said. And then from these prompts, they can be taken over to chat GPT,
+where you can just create a manually. Now you may not want to do it manually. And that's the reason
+why I'm creating this software called fly video. So that now you may not want to create a manually.
+And that's the reason why I'm creating this software fly video. And I'm just going through the
+various episodes at the moment while I build it out so that I can automate the B roll creation,
+whether it be images, which is great with daily three, or maybe you could use runway ML and generate
+YouTube and and generate B roll video. The GPT agents that we've just looked at were all around
+content creation, whether it be the YouTube intro, the outro or B roll. The next agent we're going
+to look at is around the publishing of your YouTube video, where you've got to fill in information
+like the description and the keywords. Let's take a look at the description from a video I did a
+week ago. And the video is called build YouTube automation app with chat GPT. And the way it
+starts is join me in the first episode of build a YouTube automation app with chat GPT. So it's
+written an intro here in the description that matches the title. From there, we have four sections.
+We've got what's inside, episode highlights, useful links, including affiliate links, and stay
+tuned for more. And it finishes off with a bunch of keywords. Let's take a look at the GPT agent
+for YouTube description writing. And the role of this agent is to craft engaging and informative
+YouTube video descriptions. And the basic overview of this is that it specializes in creating YouTube
+descriptions for videos focusing on SEO view engagement and compliance within the YouTube
+guidelines. So with the additional guidelines around hashtags, around hashtags, links and
+discoverability, we should be able to start using this GPT to create a new description.
+And so the primary command for this particular GPT is create. And usually I would provide it
+with a title and a summary. I might also have some special instructions if I need it. And I often
+include extra metadata such as affiliate links or branding links to my social media channels.
+Heading over to my GPTs, we've got a video description wizard, which is a friendly yet
+professional YouTube description expert focusing on SEO engagement and compliance.
+And what we'll do is we'll click on the I will give you a title, transcript and special instructions.
+And at the moment, it's just waiting for the input. And at the moment, it's just waiting for input.
+So we have all our transcript and analysis and structures here. So I have access to the
+transcript, the analysis, the summary here. What we'll do is we'll select the summary.
+We have access to all the information that's been constructed so far around the transcript.
+What we'll do is we'll select the analysis and the summary. As we scroll up, there's also the
+intro that was used in this video and the title. And we'll take it a little bit further and just
+copy the brand details and just put that into the clipboard. From there, we should just be able
+to go in here, type in the word create with a colon and just paste everything that we've selected
+and see what it creates. And so it's just finishing here. It's got a title which has
+unlocked the power of GPTs. And then we move into the description. So I would be copying from
+this little emoji or the way down what you'll discover key highlights and stay connected
+through some social media channels. There's a call to action to like share and subscribe
+and following up with some keywords. Let's have a look at three GPT agents to share our video on
+social media. We'll look at the we'll look at the tweet composer, the LinkedIn video post writer
+and the Facebook teaser. When I created the shell script helper video, I tweeted it and it goes
+dive into the future of scripting with shell script helper watch as I transform shell scripting with
+chat GPT. And we've got a link and a couple of hashtags. Now looking at the tweet composer GPT
+agent, its role is to create tweets for YouTube videos. It emphasizes on capturing the essence
+of videos in tweet format. And when you use the create command, which I've set up for this one,
+it expects a YouTube title, a link to the video and a couple of key highlights. We could also
+pass in the summary. So let's try it out. Let's head over to the tweet composer and we'll see that
+it specializes in creating engaging tweets for YouTube videos. And we'll click on the
+commands to see what's available. And the primary command is create, which will create a tweet.
+What we'll do is we'll paste in the information we have from earlier, which is a little bit of
+metadata. We've got the title of the video. And then we've got a summary. Now we could also use
+the analysis, which has got more structure and they would both produce different but useful
+tweets. So let's just click on that and see what we get. And here's our tweet. Dive into the world
+of GPTs with appy Dave, discover how the shell script helper GPT transforms shell scripting
+from complex FF MP commands to chapter based video compiling. So we've got a couple of keywords in
+here or hashtags. So we've got a couple of hashtags in here and we're going to link to the
+video. Now it may be a little bit too long for the tweet. It may still need a little bit of
+refinement, but it does a pretty good job of creating a tweet for your video. This GPT will
+work with your how to video on YouTube and convert it into a LinkedIn post in a way that will
+extract the highlights and make it engaging for LinkedIn professionals.
+Before diving into the GPT agent, let's look at a LinkedIn post that was generated a week ago.
+Now the video itself was build a YouTube automation app and I was doing the technical design for this
+tool that I'm creating that mixes in the GPTs that we've been talking about with the transcriptions
+from the videos that I record and just automates the process. But the interesting thing about the
+LinkedIn post that it generated was not only did it pull out the useful information for
+YouTube content creators, but it also isolated that there's an area in here about a programming
+language that I'm developing for GPT. So this is a GPT meta language, maybe an advanced
+prompting language, and it's been able to pull that information out as well. So from a LinkedIn
+post generation point of view, this was a one shot post I put in the transcription,
+the summary and everything and it came out. We've got areas like the hashtags and then I just
+added the thumbnail at the end. Looking at the LinkedIn video post GPT, we can see that its
+role is to transform a video transcription to a LinkedIn post. The key guideline of this spot
+is to extract key highlights from the video and include relevant call to actions and insights
+that adhere to LinkedIn standards. Heading over to the GPT store, what we can do is go to the
+Tube LinkedIn transformer and what this does is specialise in transforming video transcriptions
+into LinkedIn posts. Now there's a couple of starter conversations I think the one we'll work
+with is use special instructions plus title and transcription. Here we have the summary and the
+structural analysis from the transcript. Now we can use one or the other or we can even use both.
+They essentially say the same thing, they're just said in different ways. Now if I copy all this
+information, I've also included the YouTube title and a little bit of metadata. So it's just finishing
+off the article at the moment but if we move up, we've got unleashing the potential of GPTs in
+shell scripting, a case study with shell script helper. Then we've got a couple of hashtags
+and some sort of introduction and we can go and watch the video. Let's actually see if that works.
+Looks like it's loading up. That's great and it just goes on to talk about this video. Now
+based on the way we use either the summary or the transcript analysis or even the transcript itself,
+you will get different outputs but usually this is a one-shot prompt for me. I put the
+information in, I get it out and tiny little bit of tweaking is ready to go. This next GPT agent
+is to create a teaser on your Facebook profile for your YouTube video. Let's have a look at an
+example Facebook teaser that I've done for the last video which was the shell script helper
+and some of the things that you notice is there's no YouTube title as such. There's just a statement
+unleashing the power of AI in shell scripting which is kind of more Facebook like and it's
+made really good use of emojis. It's got a couple of hashtags going on and then a link to the video.
+Now this is in contrast to the two videos I did just before at episode one and episode two in
+Building Fly video where I've just manually written this sort of stuff. It's okay but it's a lot better
+when we use concepts like emojis and hashtags to make this searchable and more engaging.

@@ -1,0 +1,647 @@
+1
+00:00:00,00 --> 00:00:05,300
+Imagine having a programming language that you constructed that allowed you to create 
+
+2
+00:00:05,330 --> 00:00:11,810
+ebooks with images and stories, maybe create videos using Sora or Runway ML. Or how 
+
+3
+00:00:11,810 --> 00:00:17,800
+about processing thousands of lines of code using a large language model AI pair 
+
+4
+00:00:17,830 --> 00:00:19,780
+programmer like Cursor or Aider. 
+
+5
+00:00:19,790 --> 00:00:25,380
+In this video, we're going to use OpenAI's canvas to see if we can process some programming 
+
+6
+00:00:25,380 --> 00:00:28,380
+languages designed just to solve those problems.
+
+7
+00:00:28,390 --> 00:00:32,700
+So let's give it a little bit of context before we get started. For a little while 
+
+8
+00:00:32,700 --> 00:00:37,530
+now, I've been writing a coding language called KlueLess. The clue is to do less, 
+
+9
+00:00:37,530 --> 00:00:43,230
+and the idea is a set of programming languages that interact with large language 
+
+10
+00:00:43,230 --> 00:00:48,660
+models. And I've been working on various forms of documentation and examples and 
+
+11
+00:00:48,660 --> 00:00:51,870
+the rules around how this coding language works.
+
+12
+00:00:51,890 --> 00:00:56,570
+Now imagine you wanted to create a programming language purely to work out the costs 
+
+13
+00:00:56,570 --> 00:01:01,880
+for a cafe in Thailand. Seems like an odd idea, but let's have a look at a programming 
+
+14
+00:01:01,880 --> 00:01:07,280
+language that could do just that. So here we have this concept called Cosy Cafe, 
+
+15
+00:01:07,280 --> 00:01:12,500
+and within it there's costs that are involved that are in local Thai baht. But we 
+
+16
+00:01:12,500 --> 00:01:17,720
+might want to express those costs in US dollars or Australian dollars. And then there's 
+
+17
+00:01:17,750 --> 00:01:22,160
+a bunch of settings. What's coffee shop called? Where's it located? How about the 
+
+18
+00:01:22,160 --> 00:01:27,230
+recurring costs that are related to this particular cafe? The coffee shop probably 
+
+19
+00:01:27,230 --> 00:01:32,930
+needs an owner, and there's a role that the owner might have, and there may be other 
+
+20
+00:01:32,930 --> 00:01:37,610
+people involved in working in the cafe. And as you keep going on, there's investment 
+
+21
+00:01:37,610 --> 00:01:42,500
+and estimates for different products. And then the actual costs involved in setting 
+
+22
+00:01:42,500 --> 00:01:43,790
+up this particular shop.
+
+23
+00:01:43,800 --> 00:01:49,690
+Now that may seem a little esoteric, so let's drop into a more practical example 
+
+24
+00:01:49,690 --> 00:01:55,840
+and look at a tool that I've got that allows me to gather all the files in tree structures 
+
+25
+00:01:55,840 --> 00:02:01,210
+or in content structures, so that I can use it with AI pair programmer. So in this 
+
+26
+00:02:01,210 --> 00:02:06,190
+particular case it's called context gatherer. It gathers files like the requirements 
+
+27
+00:02:06,190 --> 00:02:11,470
+documentation, any of the database schema files that are needed, a bunch of use cases 
+
+28
+00:02:11,470 --> 00:02:17,230
+and code, but it doesn't include the node modules folder. And if you run this particular 
+
+29
+00:02:17,230 --> 00:02:21,730
+script, the idea is that it would go into the clipboard and it would capture both 
+
+30
+00:02:21,730 --> 00:02:23,440
+the tree and the content.
+
+31
+00:02:23,460 --> 00:02:28,540
+Now, that little domain specific language that you just saw is actually backed by 
+
+32
+00:02:28,540 --> 00:02:34,60
+a real tool that's designed to gather content trees from different applications, 
+
+33
+00:02:34,60 --> 00:02:38,920
+including their content. It allows you to include the files that you want, exclude 
+
+34
+00:02:38,920 --> 00:02:43,270
+the files that you don't want, and then format the information either as code or 
+
+35
+00:02:43,270 --> 00:02:44,560
+tree structure.
+
+36
+00:02:44,560 --> 00:02:48,590
+Or imagine you want to combine concepts. So here we have a little coding language 
+
+37
+00:02:48,590 --> 00:02:53,420
+called Build Prompt. It gathers different files that you might have on your system. 
+
+38
+00:02:53,420 --> 00:02:59,390
+And then using those files it puts it through a prompt generation process. So here 
+
+39
+00:02:59,390 --> 00:03:03,650
+we have the header for the prompt. Then each file name that's found from above is 
+
+40
+00:03:03,650 --> 00:03:08,990
+included in the prompt. And then it's closed off with a footer. And all of that information 
+
+41
+00:03:08,990 --> 00:03:13,790
+might be put directly into the clipboard so that you can use it in OpenAI's canvas 
+
+42
+00:03:13,790 --> 00:03:14,390
+or Cursor.
+
+43
+00:03:14,660 --> 00:03:19,960
+So let's get into it. We're over in ChatGPT and I'm going to select GPT four with 
+
+44
+00:03:19,960 --> 00:03:24,490
+canvas. Now at first it'll look the same as the other models, but as soon as we type 
+
+45
+00:03:24,520 --> 00:03:27,130
+a prompt and press enter things will change.
+
+46
+00:03:27,330 --> 00:03:32,230
+So here's our starting prompt. Firstly, you're going to help me process a Ruby inspired 
+
+47
+00:03:32,530 --> 00:03:37,630
+DSL structure to JSON. There'll be two parts to what we're doing here. There'll be 
+
+48
+00:03:37,630 --> 00:03:42,370
+part one where we're just going to work with a simple reflection based technique, 
+
+49
+00:03:42,370 --> 00:03:48,100
+and then part two, which we may do, which will be about converting it into an AST 
+
+50
+00:03:48,130 --> 00:03:53,530
+technique. And lastly, to get started, I'm going to give you some example DSLs and 
+
+51
+00:03:53,530 --> 00:03:55,210
+let's see what it can do. 
+
+52
+00:03:55,230 --> 00:03:59,640
+So I said, sounds good and it's waiting for the first Ruby DSL. So what I'm going 
+
+53
+00:03:59,640 --> 00:04:04,530
+to do is paste in the code that we were just looking at earlier, and you can see 
+
+54
+00:04:04,560 --> 00:04:09,120
+things start to change around. We've got code concepts going on on the right. We've 
+
+55
+00:04:09,120 --> 00:04:13,770
+got conversation going on on the left and the code conversations that it's done is 
+
+56
+00:04:13,770 --> 00:04:19,410
+as per the request that I made in the chat window. Can you convert that data structure 
+
+57
+00:04:19,410 --> 00:04:23,190
+into a hash format, which is very similar to a JSON format?
+
+58
+00:04:23,200 --> 00:04:26,940
+Now I'll just bring up the code that we copied, and you can see it down the bottom 
+
+59
+00:04:26,940 --> 00:04:32,850
+here. And it's looking exactly the same only in this new format. So let's move on 
+
+60
+00:04:32,880 --> 00:04:35,790
+to the other one we've got, which is called the Build prompt.
+
+61
+00:04:35,800 --> 00:04:41,410
+And I'm just going to come over to the chat and paste that one in and see what happens. 
+
+62
+00:04:41,430 --> 00:04:46,240
+So it's going through the old hash format that was there, and now it's building a 
+
+63
+00:04:46,240 --> 00:04:53,890
+new one so it can understand converting the Ruby DSL structure into a Ruby hash structure. 
+
+64
+00:04:53,900 --> 00:04:57,560
+hopefully when we get to writing code, this will be a pretty simple process.
+
+65
+00:04:57,560 --> 00:05:02,360
+Now, if you're interested in seeing how I process files using prompts, you might 
+
+66
+00:05:02,360 --> 00:05:07,610
+want to check out the video I did recently on processing a git diff with 1000 files, 
+
+67
+00:05:07,610 --> 00:05:12,940
+about 2000 changes, and I was essentially looking for a particular issue in the code, 
+
+68
+00:05:12,940 --> 00:05:19,270
+and then using a prompt on those found issues to generate new code using Cursor AI
+
+69
+00:05:19,460 --> 00:05:25,460
+I have this DSL, which I use for GPT agent workflows. And the particular workflow 
+
+70
+00:05:25,460 --> 00:05:30,440
+is how I release my videos. There's all sorts of prompts that I do. There's sections 
+
+71
+00:05:30,440 --> 00:05:35,510
+and steps that I do around the thumbnail, the title, the LinkedIn post, etc. and 
+
+72
+00:05:35,510 --> 00:05:39,770
+all of this information happens to live in a domain specific language. 
+
+73
+00:05:39,790 --> 00:05:41,410
+we'll just copy that information.
+
+74
+00:05:41,430 --> 00:05:47,690
+And we'll come back to ChatGPT canvas and paste it all in and see what it reads out 
+
+75
+00:05:47,690 --> 00:05:52,580
+of that. Now this is quite a complex file coming through. So it scans through the 
+
+76
+00:05:52,580 --> 00:05:57,950
+original files. And then we're going into this concept called a GPT agent workflow. 
+
+77
+00:05:57,980 --> 00:06:01,760
+We've got the description of it. We've got the different prompts that it's reading. 
+
+78
+00:06:01,760 --> 00:06:06,590
+We've got the sections the name of a section. So this is the video preparation where 
+
+79
+00:06:06,590 --> 00:06:12,200
+I'll configure some data and then I'll write the script the abridgement the I'll 
+
+80
+00:06:12,200 --> 00:06:17,600
+do some QA work. So all of this information is coming together and it's finished.
+
+81
+00:06:17,630 --> 00:06:22,630
+I think we'll do one more example. Imagine you had a dream sequence video with a 
+
+82
+00:06:22,630 --> 00:06:27,220
+whole lot of prompts that you turned into images using something like Midjourney 
+
+83
+00:06:27,220 --> 00:06:31,540
+or Leonardo. Well, that's exactly what I've done in the past. There's a video up 
+
+84
+00:06:31,540 --> 00:06:36,760
+above, but here it is, story board graphics, and it's called the dream sequence in 
+
+85
+00:06:36,760 --> 00:06:37,360
+this case. 
+
+86
+00:06:37,360 --> 00:06:42,60
+generate image prompts from a video transcript and you would supply the transcript 
+
+87
+00:06:42,60 --> 00:06:46,230
+file from there, give it some sort of design that you want, and then write out a 
+
+88
+00:06:46,230 --> 00:06:52,860
+prompt CSV file and send it to a particular API, maybe flux one or Midjourney. So 
+
+89
+00:06:52,860 --> 00:06:57,690
+what we'll do is we'll copy that information and we'll just paste it in and let the 
+
+90
+00:06:57,690 --> 00:07:02,700
+last bit of information come into the system. Next we're going to start writing a 
+
+91
+00:07:02,700 --> 00:07:03,390
+bit of code.
+
+92
+00:07:03,390 --> 00:07:07,660
+here's the prompt that I wrote. Now I did it using my voice. So some grammatical 
+
+93
+00:07:07,660 --> 00:07:12,250
+errors. But basically it's just saying here are the files that we're going to work 
+
+94
+00:07:12,250 --> 00:07:16,870
+with. They're based on the files that it's already been looking at. I've said that 
+
+95
+00:07:16,870 --> 00:07:22,210
+it needs to create a little tool that uses reflection based approach to read those 
+
+96
+00:07:22,210 --> 00:07:27,580
+files and convert them into a JSON format. One of the things that I've told it is 
+
+97
+00:07:27,580 --> 00:07:32,530
+that there might be issues with positional parameters, because the idea is that the 
+
+98
+00:07:32,530 --> 00:07:37,330
+method name and the named parameters would make up the attribute names and the node 
+
+99
+00:07:37,330 --> 00:07:41,710
+names within the JSON document, but sometimes you don't actually have a value. I 
+
+100
+00:07:41,710 --> 00:07:46,420
+think I have an example here. So if we look at the YouTube optimizer, you can see 
+
+101
+00:07:46,420 --> 00:07:51,280
+here that there's a node called input, but there's no actual name. We don't know 
+
+102
+00:07:51,280 --> 00:07:53,560
+what parameters coming in on this case. 
+
+103
+00:07:53,430 --> 00:07:56,370
+same with the section and the step title. 
+
+104
+00:07:56,400 --> 00:08:00,570
+we've got to allow it to figure out what to do in that situation. And then I've just 
+
+105
+00:08:00,570 --> 00:08:02,400
+listed the files that we want.
+
+106
+00:08:02,430 --> 00:08:07,760
+Now we're back over at ChatGPT canvas and we'll just paste in all that information 
+
+107
+00:08:07,760 --> 00:08:12,500
+and let's see what it comes up with. So it says to accomplish part one of the system 
+
+108
+00:08:12,500 --> 00:08:18,500
+writing reflection based tool that reads the DSL file. And look, I'm not even going 
+
+109
+00:08:18,530 --> 00:08:24,110
+to read that a whole lot of stuff is going on. And it's starting to write an application 
+
+110
+00:08:24,110 --> 00:08:30,230
+called DSL parser, and it looks like it's going to store the internal structure within 
+
+111
+00:08:30,230 --> 00:08:30,860
+a hash. 
+
+112
+00:08:30,860 --> 00:08:37,600
+the key point that I think we need to look for is that it has a method missing going 
+
+113
+00:08:37,600 --> 00:08:41,890
+on. So essentially it's going to interpret the Ruby code and 
+
+114
+00:08:41,890 --> 00:08:46,120
+It doesn't know the method, but it'll interpret that and turn it into data.
+
+115
+00:08:46,130 --> 00:08:50,810
+let's test it out. What I'm going to do is just copy all this information and we'll 
+
+116
+00:08:50,810 --> 00:08:55,790
+head over to Visual Studio. And I'm just going to paste it in there. Now there's 
+
+117
+00:08:55,820 --> 00:09:02,450
+additional parsing down the bottom. But what we'll do is I'll just manually massage 
+
+118
+00:09:02,450 --> 00:09:07,850
+it a little bit. The main thing I want to do is print it out and also write it out 
+
+119
+00:09:08,150 --> 00:09:09,140
+as JSON 
+
+120
+00:09:08,990 --> 00:09:13,440
+Now here is the file I want to parse. First, I've put a little terminal window down 
+
+121
+00:09:13,440 --> 00:09:17,850
+the bottom. So we should see things come through. And I'm just going to hit save 
+
+122
+00:09:17,850 --> 00:09:23,160
+on that. And we've got what looks to be JSON coming down. And if we just click in 
+
+123
+00:09:23,160 --> 00:09:29,130
+over here we can see the same information. Let's just pop that over here and it should 
+
+124
+00:09:29,130 --> 00:09:34,830
+match. So here we've got context gatherer definitely got that. Files include we've 
+
+125
+00:09:34,830 --> 00:09:39,330
+got params lib architecture. So look at that. It didn't quite work. 
+
+126
+00:09:39,330 --> 00:09:44,770
+it didn't get the concept of multiples which makes a whole lot of sense. It doesn't 
+
+127
+00:09:44,770 --> 00:09:50,770
+know how to deal with an array of types, but it got the exclude and it got the actions 
+
+128
+00:09:50,770 --> 00:09:53,920
+and it seems like all the information has come through here. 
+
+129
+00:09:53,930 --> 00:09:58,200
+Now we'll move on to the build prompt example. I'm assuming it's going to have the 
+
+130
+00:09:58,200 --> 00:10:03,800
+same problem here of course. And if we click on that it's created a JSON file. And 
+
+131
+00:10:03,800 --> 00:10:09,120
+if we move it over to the left we can see we've got the context gatherer within the 
+
+132
+00:10:09,120 --> 00:10:13,980
+build prompt. We've got files but we've only got one listed. But everything within 
+
+133
+00:10:13,980 --> 00:10:18,690
+the prompt should come through because they're just single nodes going on.
+
+134
+00:10:18,700 --> 00:10:24,340
+the way I use this third one is interesting. We've got the storyboard DSL going on, 
+
+135
+00:10:24,340 --> 00:10:29,440
+and I would send this to a tool that I have that reads in the transcript file. It 
+
+136
+00:10:29,440 --> 00:10:34,480
+applies a bit of stylistic design that we might want and generates visualization 
+
+137
+00:10:34,480 --> 00:10:39,550
+prompts. From that they're written out to a CSV file and finally sent to a platform. 
+
+138
+00:10:39,550 --> 00:10:44,800
+And the way that can look is on a video that I've got here, we can see the graphics 
+
+139
+00:10:44,800 --> 00:10:50,440
+are just being transformed using Capcut in this particular case. And we get nice 
+
+140
+00:10:50,440 --> 00:10:56,950
+visualization that allows us to do a story around, in this case, the KlueLess programming 
+
+141
+00:10:56,950 --> 00:11:02,620
+language. The clue is to do less, and that video can be found over on the AI. TLDR 
+
+142
+00:11:02,650 --> 00:11:07,750
+channel that I have. It's just here. I just released it recently and if you want 
+
+143
+00:11:07,780 --> 00:11:09,310
+to find out more, please check it out.
+
+144
+00:11:09,330 --> 00:11:14,110
+So let's look at the last one. It's got a really interesting use case that I currently 
+
+145
+00:11:14,110 --> 00:11:18,550
+put it through. Now it's got the same problems that we've seen. If we look at the 
+
+146
+00:11:18,550 --> 00:11:23,770
+prompts here there's only going to be one listed. But pretty much all the other data 
+
+147
+00:11:23,770 --> 00:11:30,430
+is starting to come through okay. And what I tend to do is I like to write my agents 
+
+148
+00:11:30,430 --> 00:11:37,360
+as code using DSLs. And as soon as I've written a schema object that allows me to 
+
+149
+00:11:37,390 --> 00:11:42,100
+make sure that it can deal with arrays, different type definitions, and other sorts 
+
+150
+00:11:42,100 --> 00:11:48,760
+of rules, what I can then do is hook that information directly up to a web application 
+
+151
+00:11:48,760 --> 00:11:54,490
+being the agent workflow. And in this, this is just a case of prompts with merge 
+
+152
+00:11:54,490 --> 00:12:00,100
+capabilities for various variables, so that you can generate prompts dynamically 
+
+153
+00:12:00,100 --> 00:12:02,500
+in a workflow sort of system. 
+
+154
+00:12:02,500 --> 00:12:07,960
+the good thing about it is that you can have various phases in the workflow, and 
+
+155
+00:12:07,960 --> 00:12:09,970
+all of it's generated directly from the DSL.
+
+156
+00:12:10,00 --> 00:12:16,150
+Well, there we have OpenAI's canvas, which I think was an amazing experience. I only 
+
+157
+00:12:16,150 --> 00:12:19,600
+tried it and thought, wow, this is really cool. 
+
+158
+00:12:19,660 --> 00:12:23,860
+if you're interested in what I'm doing with the KlueLess programming language or 
+
+159
+00:12:23,860 --> 00:12:27,700
+the Agent Workflow Builder, there'll be a link in the description. If, on the other 
+
+160
+00:12:27,700 --> 00:12:31,630
+hand, you just want to learn more about prompt engineering or coding with AI, the 
+
+161
+00:12:31,630 --> 00:12:38,740
+next video that I'm going to talk about is creating documentation for AI pair programmers. 
+
+162
+00:12:38,740 --> 00:12:42,340
+I'm AppyDave. Please like and subscribe and I'll see you in the next video.

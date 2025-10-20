@@ -1,0 +1,1263 @@
+1
+00:00:00,060 --> 00:00:02,760
+I had a wonderful relationship with Mid Journey. 
+
+2
+00:00:03,060 --> 00:00:08,300
+We've shared many experiences and created a lot of memories over the last 12 months. 
+
+3
+00:00:08,820 --> 00:00:12,740
+And even one month ago, I renewed our commitment costing $300. 
+
+4
+00:00:13,460 --> 00:00:18,780
+So I was shot, dismayed and a little bit angry when I found myself banned 
+
+5
+00:00:18,780 --> 00:00:23,120
+and when I tried to communicate with them to find out what had happened to our relationship, 
+
+6
+00:00:23,580 --> 00:00:24,800
+they just ghosted me. 
+
+7
+00:00:24,880 --> 00:00:27,660
+Hi, I'm Api Dave and I'm going to share what happened. 
+
+8
+00:00:27,820 --> 00:00:33,900
+The ban that I got, the $300 that I lost, what I believe is a misdiagnosis 
+
+9
+00:00:33,900 --> 00:00:37,980
+and the frustration that I had dealing with Mid Journey support. 
+
+10
+00:00:38,520 --> 00:00:43,620
+And then after that, I'm going to show you 16 beautiful alternatives to Mid Journey. 
+
+11
+00:00:43,880 --> 00:00:47,200
+I've been using Mid Journey since March last year 
+
+12
+00:00:47,200 --> 00:00:52,740
+and I've created thousands of images that I've used a lot within my YouTube videos. 
+
+13
+00:00:52,740 --> 00:00:57,760
+But last year, I did end up switching a fair bit over to Dali 3 
+
+14
+00:00:57,760 --> 00:01:02,060
+mainly because I found it easier to work with within ChatGPT 
+
+15
+00:01:02,060 --> 00:01:07,020
+and I'd already done a video showcasing 200 image comparisons 
+
+16
+00:01:07,020 --> 00:01:10,500
+between the two different products across 50 prompts. 
+
+17
+00:01:11,040 --> 00:01:17,020
+And in my opinion, Dali 3, while not as good as Mid Journey, was a worthy contender. 
+
+18
+00:01:17,340 --> 00:01:21,420
+Last month, I was talking at a tech summit and I needed some pretty good images 
+
+19
+00:01:21,420 --> 00:01:26,680
+for the presentation I was doing so I ended up reactivating my Mid Journey account. 
+
+20
+00:01:27,100 --> 00:01:29,740
+Now, one week later, I found myself having to upgrade 
+
+21
+00:01:29,740 --> 00:01:32,360
+because I'd used up all the credits that I had there 
+
+22
+00:01:32,360 --> 00:01:35,260
+and I ended up spending $288. 
+
+23
+00:01:35,720 --> 00:01:39,100
+But it was great because the images I was able to generate 
+
+24
+00:01:39,100 --> 00:01:42,260
+for the tech summit presentation were just wonderful. 
+
+25
+00:01:42,940 --> 00:01:45,220
+Now, two weeks ago, I moved to countries. 
+
+26
+00:01:45,440 --> 00:01:48,380
+I came over to Thailand and not long after arriving, 
+
+27
+00:01:48,380 --> 00:01:53,780
+I started getting this particular error, creation failed on my Mid Journey account. 
+
+28
+00:01:54,120 --> 00:01:58,380
+I headed over to Discord and saw this error that's saying 
+
+29
+00:01:58,380 --> 00:02:05,200
+accessing our services via automation, scripting, or third-party tools created a ban. 
+
+30
+00:02:05,620 --> 00:02:09,380
+Now, I started doing a bit of research to figure out what was going on 
+
+31
+00:02:09,380 --> 00:02:12,940
+because I hadn't done any automation or third-party scripting 
+
+32
+00:02:12,940 --> 00:02:18,080
+and people had come up with these issues banned due to billing not matching the home address. 
+
+33
+00:02:18,080 --> 00:02:19,900
+Okay, not my situation. 
+
+34
+00:02:20,320 --> 00:02:25,720
+Someone has talked about losing a $60 subscription and not being refunded. 
+
+35
+00:02:25,880 --> 00:02:30,040
+My situation is $288 because I spent it for a full year 
+
+36
+00:02:30,040 --> 00:02:32,160
+and I haven't been refunded either. 
+
+37
+00:02:32,500 --> 00:02:36,240
+Then we saw other sorts of issues with banning going on 
+
+38
+00:02:36,240 --> 00:02:40,940
+and then this next one gave me a little bit of a clue to what might be the issue. 
+
+39
+00:02:41,180 --> 00:02:44,940
+This includes IP and email bans from Discord. 
+
+40
+00:02:45,180 --> 00:02:49,520
+I headed over to an email and I wrote, I can't sign into Mid Journey. 
+
+41
+00:02:49,920 --> 00:02:50,820
+I've checked the images. 
+
+42
+00:02:51,080 --> 00:02:54,900
+There's nothing that meets the fraud or the other issues that they listed. 
+
+43
+00:02:55,280 --> 00:03:00,340
+I'm an influencer and basically all the images that I do for YouTube 
+
+44
+00:03:00,340 --> 00:03:06,240
+and that's important to understand because you can't do bad quality images on YouTube 
+
+45
+00:03:06,240 --> 00:03:07,360
+and get away with it. 
+
+46
+00:03:07,620 --> 00:03:11,820
+And what happened was I got this reply straight away from them 
+
+47
+00:03:11,980 --> 00:03:15,820
+saying severe repeated violations of terms and services, 
+
+48
+00:03:16,180 --> 00:03:21,260
+use of automation, scripting, APIs, engaging in reselling services. 
+
+49
+00:03:21,540 --> 00:03:23,340
+So none of this stuff was going on for me. 
+
+50
+00:03:23,700 --> 00:03:24,620
+And then we had this one. 
+
+51
+00:03:24,840 --> 00:03:28,960
+You should have received notifications in Discord informing you of this 
+
+52
+00:03:28,960 --> 00:03:33,020
+that they would have appeared that you've interacted with a bot 
+
+53
+00:03:33,020 --> 00:03:35,060
+and copies should have been sent to you. 
+
+54
+00:03:35,240 --> 00:03:38,320
+Now I've not received a direct message regarding that 
+
+55
+00:03:38,320 --> 00:03:39,700
+so I'm not sure what's going on. 
+
+56
+00:03:39,700 --> 00:03:43,720
+The other thing that they've stated here is as per the terms and conditions 
+
+57
+00:03:43,720 --> 00:03:46,060
+refunds are not issued on banned accounts. 
+
+58
+00:03:46,460 --> 00:03:48,760
+So I thought, okay, where do I go now? 
+
+59
+00:03:49,440 --> 00:03:54,960
+So as I reviewed the forums again, it got me thinking about this IP address ban 
+
+60
+00:03:54,960 --> 00:03:58,220
+and the reason it got me thinking about it is that a year and a half ago 
+
+61
+00:03:58,220 --> 00:04:00,700
+I came to Chiang Mai for six months 
+
+62
+00:04:00,700 --> 00:04:05,220
+and while I was here, I signed up to an American e-commerce platform. 
+
+63
+00:04:05,560 --> 00:04:09,520
+About two weeks later, they sent me an email saying that I'd been banned 
+
+64
+00:04:09,520 --> 00:04:10,960
+and that I'd been banned for life. 
+
+65
+00:04:11,100 --> 00:04:12,520
+I could not get an account again. 
+
+66
+00:04:12,820 --> 00:04:15,640
+And I ended up in that particular situation 
+
+67
+00:04:15,640 --> 00:04:19,780
+sending details of my passport and my bank account details 
+
+68
+00:04:19,780 --> 00:04:23,680
+and then finally enough four months later when I was back in Australia 
+
+69
+00:04:23,680 --> 00:04:25,280
+I got a reversal. 
+
+70
+00:04:25,660 --> 00:04:28,340
+So that was a misdiagnosis going on. 
+
+71
+00:04:28,860 --> 00:04:33,940
+Now two weeks ago, I found myself moving again back to Chiang Mai 
+
+72
+00:04:33,940 --> 00:04:36,020
+and I was going via the Philippines. 
+
+73
+00:04:36,020 --> 00:04:40,220
+So the three places that I find myself in are Australia 
+
+74
+00:04:40,220 --> 00:04:42,800
+where I'm either in Sydney or Brisbane. 
+
+75
+00:04:43,040 --> 00:04:46,740
+I find myself in Philippines and I find myself in Thailand. 
+
+76
+00:04:47,040 --> 00:04:50,160
+I ended up sending a reply email to mid-journey stating 
+
+77
+00:04:50,160 --> 00:04:54,240
+that I hadn't violated any terms or conditions that I was aware of 
+
+78
+00:04:54,240 --> 00:04:58,840
+and that I travel and that means that I open on different computers 
+
+79
+00:04:58,840 --> 00:05:01,820
+with different IPs, my mid-journey account 
+
+80
+00:05:01,820 --> 00:05:04,100
+and all they did was reply stating 
+
+81
+00:05:04,100 --> 00:05:08,100
+we can't provide you with any additional information about your ban. 
+
+82
+00:05:08,260 --> 00:05:10,680
+Banned users are not eligible for a refund. 
+
+83
+00:05:11,340 --> 00:05:14,700
+So to be honest, I was a bit gutted by all of that 
+
+84
+00:05:14,700 --> 00:05:19,040
+and quite angry that I'd spent money only about three weeks earlier 
+
+85
+00:05:19,040 --> 00:05:24,640
+and it was all lost and they won't even do the courtesy of communicating with me about it. 
+
+86
+00:05:24,960 --> 00:05:28,660
+Rather than get caught up in the resentment of dealing with mid-journey support 
+
+87
+00:05:28,660 --> 00:05:31,580
+what I thought is it's time for a new relationship 
+
+88
+00:05:31,620 --> 00:05:36,800
+and the good thing is there are many great alternatives out there at the moment. 
+
+89
+00:05:37,380 --> 00:05:41,760
+So what we're going to do is look at 16 different AI art generators 
+
+90
+00:05:41,760 --> 00:05:45,940
+and we're going to use three images that I've used in the past. 
+
+91
+00:05:46,100 --> 00:05:49,220
+I've created these in mid-journey, I've used them in my videos 
+
+92
+00:05:49,220 --> 00:05:54,280
+and with each of them we're going to run them through the 16 AI art generators. 
+
+93
+00:05:54,740 --> 00:05:56,900
+We are going to need a prompt. 
+
+94
+00:05:57,220 --> 00:06:00,580
+So what I thought I'd do is take each of the individual images 
+
+95
+00:06:00,720 --> 00:06:03,500
+and we'll drag them straight into Dali 3. 
+
+96
+00:06:03,920 --> 00:06:08,780
+Once they're in Dali 3 we can actually ask Dali 3 to tell us what the image is about 
+
+97
+00:06:08,780 --> 00:06:14,700
+but I'll give it a little bit extra context by giving it the original mid-journey prompt as well 
+
+98
+00:06:14,700 --> 00:06:19,340
+and then when we run it through Dali 3 we get a prompt like this. 
+
+99
+00:06:19,480 --> 00:06:26,700
+So in this particular case it's create an animated illustration of a smiling 30 year old blond man with eyeglasses 
+
+100
+00:06:26,880 --> 00:06:32,220
+and then a bit later on it says the style should be similar to modern animated illustrations 
+
+101
+00:06:32,220 --> 00:06:34,140
+with a clean and simple design. 
+
+102
+00:06:34,480 --> 00:06:37,980
+And what we'll do is we'll take that prompt and the reference image 
+
+103
+00:06:37,980 --> 00:06:42,020
+and we're just going to run it through all 16 AI art generators. 
+
+104
+00:06:42,500 --> 00:06:46,620
+So the first two we'll look at is Night Cafe and Idiogram. 
+
+105
+00:06:46,900 --> 00:06:52,040
+Now Night Cafe has a nice clean user interface where you can select different styles 
+
+106
+00:06:52,660 --> 00:06:58,560
+whereas Idiogram is really good at doing symbolic art and Idiograms. 
+
+107
+00:06:58,560 --> 00:07:01,900
+We've got two images here, they're looking pretty clean to me. 
+
+108
+00:07:02,760 --> 00:07:06,240
+Next we'll look at OpenArt and Designs AI. 
+
+109
+00:07:07,040 --> 00:07:10,620
+So OpenArt has the ability to use multiple models. 
+
+110
+00:07:10,820 --> 00:07:13,800
+I think it has something like a hundred different models that you can use. 
+
+111
+00:07:13,920 --> 00:07:19,560
+Designs AI can be used for images but it can also be used for logos and videos as well. 
+
+112
+00:07:19,820 --> 00:07:25,960
+Next to our Blue Willow which is by Lime Wire and a Dope Firefly. 
+
+113
+00:07:26,280 --> 00:07:30,360
+They're both producing really great images, we would expect that from a Dope 
+
+114
+00:07:30,360 --> 00:07:33,200
+but this Blue Willow product is also pretty good. 
+
+115
+00:07:33,960 --> 00:07:37,460
+I'd better mention too that we have a Dope Firefly, it's like canvas 
+
+116
+00:07:37,460 --> 00:07:42,580
+so you have the ability to do a lot of other design tooling with that product. 
+
+117
+00:07:43,080 --> 00:07:48,300
+And that then brings us onto Photor and Crayon and Photor is an interesting one 
+
+118
+00:07:48,300 --> 00:07:50,980
+because it's a graphics editing software. 
+
+119
+00:07:51,800 --> 00:07:55,620
+And their implementation of generative art is pretty good I think. 
+
+120
+00:07:55,860 --> 00:08:01,000
+Then we've got Crayon which I had a lot of trouble trying to get good images from it. 
+
+121
+00:08:01,100 --> 00:08:07,080
+So this is the first time we've come across an AI art generator that wouldn't compare to mid-journey 
+
+122
+00:08:07,080 --> 00:08:09,840
+but everything else has been pretty good so far. 
+
+123
+00:08:10,460 --> 00:08:13,700
+Next we have Dream Studio and Imagine. 
+
+124
+00:08:14,060 --> 00:08:19,340
+And Dream Studio has the ability to have multiple models as well that you can select from 
+
+125
+00:08:19,340 --> 00:08:23,420
+and Imagine Art is a detailed illustration tool. 
+
+126
+00:08:23,720 --> 00:08:25,800
+Both of these are producing great images. 
+
+127
+00:08:26,200 --> 00:08:29,500
+Next we're looking at Playground and Hotpot. 
+
+128
+00:08:29,680 --> 00:08:36,320
+Now Playground has advanced editing features while Hotpot also has some editing capabilities. 
+
+129
+00:08:37,140 --> 00:08:42,100
+One of the things I noticed with this particular image is that to me it didn't feel like 
+
+130
+00:08:42,100 --> 00:08:47,280
+the illustration style that was described in the prompt but they're still great images. 
+
+131
+00:08:47,760 --> 00:08:51,520
+The next two to look at is Lexico and Microsoft Copilot. 
+
+132
+00:08:51,920 --> 00:08:55,600
+And Lexico in the past has been an AI art search engine. 
+
+133
+00:08:55,800 --> 00:08:59,800
+It's a great place to get inspiration but they also have creation tools. 
+
+134
+00:09:00,280 --> 00:09:05,360
+And we've used them here and this is a tool I do want to deep dive into and there will be a video on that. 
+
+135
+00:09:05,720 --> 00:09:09,260
+As for Microsoft Copilot it's essentially Dali 3. 
+
+136
+00:09:09,260 --> 00:09:12,540
+So whatever you're doing in ChatGPT you can do here as well. 
+
+137
+00:09:13,000 --> 00:09:15,160
+The last two in the list are Worlds Apart. 
+
+138
+00:09:15,300 --> 00:09:18,160
+So we've got Leonardo AI and Diffusion B. 
+
+139
+00:09:18,640 --> 00:09:24,560
+Now Leonardo AI has a lot of advanced tooling and creativity that you can do within it. 
+
+140
+00:09:24,840 --> 00:09:28,460
+Diffusion B on the other hand is a local computer implementation. 
+
+141
+00:09:29,020 --> 00:09:32,900
+So in my case it's running on the Mac and it is a stable diffusion. 
+
+142
+00:09:33,220 --> 00:09:37,140
+And I wasn't really able to get any good images out of this particular model. 
+
+143
+00:09:37,300 --> 00:09:43,660
+So for the prompt of the 30 year old man creative animated illustration 
+
+144
+00:09:43,660 --> 00:09:46,020
+we've got 16 different variations here. 
+
+145
+00:09:46,260 --> 00:09:51,700
+And there are plenty of great contenders to go up against mid-journey in this particular case. 
+
+146
+00:09:52,140 --> 00:09:55,480
+What we'll do now is we'll move on to the next reference image 
+
+147
+00:09:55,480 --> 00:09:59,320
+and I'll give you a little bit more detail about each of these applications as we go. 
+
+148
+00:09:59,560 --> 00:10:03,580
+We'll start by dragging the reference image over into Dali 3. 
+
+149
+00:10:03,740 --> 00:10:06,660
+We'll also use the original prompt from mid-journey 
+
+150
+00:10:06,660 --> 00:10:10,340
+which had things like their style, raw, stylized 500. 
+
+151
+00:10:10,740 --> 00:10:14,760
+Now this won't be able to be used effectively in the other art generators. 
+
+152
+00:10:15,000 --> 00:10:17,820
+So the generation of the prompt is here. 
+
+153
+00:10:18,100 --> 00:10:22,640
+Creative realistic illustration of a woman in a 30 shown inside profile. 
+
+154
+00:10:23,040 --> 00:10:27,900
+And we get all that information and this is what we're going to feed into the 16 AI art generators. 
+
+155
+00:10:28,120 --> 00:10:31,320
+Moving over to the final overview with this reference image 
+
+156
+00:10:31,980 --> 00:10:34,480
+we've again got a lot of great examples. 
+
+157
+00:10:35,020 --> 00:10:39,240
+Now if there's a particular tool that you want me to do a deep dive in, let me know. 
+
+158
+00:10:39,620 --> 00:10:44,900
+Now I am going to do a two or three minute video on pretty much everything that's here 
+
+159
+00:10:44,900 --> 00:10:51,020
+but there are a couple here that I'm going to use professionally with my YouTube videos 
+
+160
+00:10:51,020 --> 00:10:53,940
+and they're the ones that I'm going to deep dive into. 
+
+161
+00:10:54,140 --> 00:10:57,480
+So let me know which ones you're interested in and I'll do a video on them. 
+
+162
+00:10:57,480 --> 00:11:01,720
+Now the first example we've got here is Night Cafe and Idiogram 
+
+163
+00:11:01,720 --> 00:11:04,880
+and both images are pretty good in my opinion. 
+
+164
+00:11:05,420 --> 00:11:07,520
+Let's talk a little bit about Night Cafe. 
+
+165
+00:11:08,160 --> 00:11:11,940
+This tool you can use stable diffusion or Dali 3. 
+
+166
+00:11:11,960 --> 00:11:17,280
+You've also got access to print on demand and can select different art styles. 
+
+167
+00:11:18,040 --> 00:11:22,020
+I'll tell you more about Idiogram when we look at the third reference image 
+
+168
+00:11:22,020 --> 00:11:25,680
+but moving on we can look at open art and design AI. 
+
+169
+00:11:25,840 --> 00:11:33,020
+We've got interesting styles, maybe the one from Designs AI isn't as good as the mid-journey one 
+
+170
+00:11:33,020 --> 00:11:36,160
+but the open art one is quite impressive. 
+
+171
+00:11:36,320 --> 00:11:40,540
+The thing about this particular tool is that apart from image generation 
+
+172
+00:11:40,540 --> 00:11:45,540
+it's pretty good with anime characters and it's also got an image upscaler. 
+
+173
+00:11:46,000 --> 00:11:48,460
+Moving on to Blue Willow and a Dive Firefly. 
+
+174
+00:11:48,620 --> 00:11:51,080
+Blue Willow is great as a tool. 
+
+175
+00:11:51,220 --> 00:11:53,980
+It has many different styles that you can work from. 
+
+176
+00:11:53,980 --> 00:11:58,600
+It's got some tools like background removers, blurs, 3D models 
+
+177
+00:11:58,600 --> 00:12:03,380
+and one of its key advantages is that it's quick at generating images. 
+
+178
+00:12:03,820 --> 00:12:07,560
+Let's now have a look at Photor and Crayon. 
+
+179
+00:12:07,820 --> 00:12:12,700
+Now Crayon like before doesn't really do a great job of generating images 
+
+180
+00:12:12,700 --> 00:12:17,920
+but Photor is really interesting because not only is it generating a good image 
+
+181
+00:12:17,920 --> 00:12:19,880
+but it's a really powerful tool. 
+
+182
+00:12:20,280 --> 00:12:26,300
+We've got photo enhancement like upscaling background removal in painting. 
+
+183
+00:12:26,700 --> 00:12:30,640
+It's also got realistic human face generation 
+
+184
+00:12:30,640 --> 00:12:36,200
+so it can do things like skin tones, hair, accessories, those sorts of features 
+
+185
+00:12:36,200 --> 00:12:40,840
+which are really hard to do with general tools like mid-journey. 
+
+186
+00:12:41,240 --> 00:12:44,760
+It's got all the different styles of art that you might want to do 
+
+187
+00:12:44,760 --> 00:12:48,000
+which you would expect from a lot of the image generations 
+
+188
+00:12:48,000 --> 00:12:52,300
+but it can also do transforms from one style to another. 
+
+189
+00:12:52,920 --> 00:12:56,660
+Overall if you want image generation but you also want image editing 
+
+190
+00:12:56,660 --> 00:12:58,880
+this might be a great tool to look at. 
+
+191
+00:12:59,300 --> 00:13:02,640
+Moving on to Dream Studio and Imagine. 
+
+192
+00:13:03,140 --> 00:13:06,420
+We've got good images being generated based on the prompt. 
+
+193
+00:13:06,700 --> 00:13:08,420
+Let's talk about Dream Studio. 
+
+194
+00:13:08,860 --> 00:13:12,820
+It's both stability AI using the stable diffusion model. 
+
+195
+00:13:12,820 --> 00:13:16,380
+Now it's got all your text to image sort of capabilities. 
+
+196
+00:13:16,700 --> 00:13:21,260
+It can also do image to image so you can take an image and alter it. 
+
+197
+00:13:21,740 --> 00:13:24,780
+And it's got capabilities like image upscaling. 
+
+198
+00:13:25,100 --> 00:13:28,060
+Looking now at playground and hot pot. 
+
+199
+00:13:28,320 --> 00:13:30,780
+So in this case the images are pretty good. 
+
+200
+00:13:30,960 --> 00:13:34,020
+The playground has this really nice user interface 
+
+201
+00:13:34,020 --> 00:13:37,700
+and a very generous usage limit on a daily basis. 
+
+202
+00:13:38,220 --> 00:13:39,680
+It uses different models. 
+
+203
+00:13:39,680 --> 00:13:42,420
+It's got various tools and customizations 
+
+204
+00:13:42,420 --> 00:13:46,780
+and you can also do image combinations combining images together. 
+
+205
+00:13:47,140 --> 00:13:50,340
+Moving on to Let'ssica and Microsoft Co-Pilot. 
+
+206
+00:13:50,520 --> 00:13:53,100
+So Microsoft Co-Pilot which is Dali 3. 
+
+207
+00:13:53,340 --> 00:13:54,180
+We're showing that here. 
+
+208
+00:13:54,880 --> 00:13:56,680
+Let'ssica is a search engine. 
+
+209
+00:13:56,900 --> 00:13:58,940
+Now it's got image generation tools. 
+
+210
+00:13:59,300 --> 00:14:02,600
+It's got a lot of ability to customize things 
+
+211
+00:14:02,600 --> 00:14:07,160
+and look at the history of images and adapt them over time. 
+
+212
+00:14:07,720 --> 00:14:10,660
+Moving on to the last two for the Japanese girl. 
+
+213
+00:14:10,840 --> 00:14:13,460
+We've got Leonardo AI and Diffusion B. 
+
+214
+00:14:13,920 --> 00:14:17,140
+And at this point I was nearly giving up on Diffusion B. 
+
+215
+00:14:17,580 --> 00:14:23,860
+But Leonardo is an incredibly powerful image generation and AI generation tool. 
+
+216
+00:14:24,300 --> 00:14:29,380
+You've got capabilities like in-painting, out-painting and magic erasers. 
+
+217
+00:14:29,920 --> 00:14:33,980
+You've got Control Net which gives intricate image guidance. 
+
+218
+00:14:34,460 --> 00:14:38,100
+And the real-time canvas allows you to make modifications 
+
+219
+00:14:38,100 --> 00:14:40,880
+to the image quickly and easily. 
+
+220
+00:14:41,420 --> 00:14:44,240
+Now moving on to our last reference image 
+
+221
+00:14:44,240 --> 00:14:46,860
+which is a line coming out of the clouds. 
+
+222
+00:14:47,300 --> 00:14:49,260
+Now you might have noticed in the last section 
+
+223
+00:14:49,260 --> 00:14:54,260
+that I talked a little bit more in detail about each of the image generators 
+
+224
+00:14:54,260 --> 00:14:55,740
+but I only did one of them. 
+
+225
+00:14:55,940 --> 00:14:58,580
+Now I'll do the other half in this section. 
+
+226
+00:14:58,920 --> 00:15:01,880
+So with the image we've dragged it into Dali 3. 
+
+227
+00:15:01,980 --> 00:15:04,740
+The original prompt was actually quite simple. 
+
+228
+00:15:04,940 --> 00:15:08,600
+It was an angel lion emerging from ash. 
+
+229
+00:15:09,020 --> 00:15:11,460
+But with the image being dragged into Dali 3, 
+
+230
+00:15:11,620 --> 00:15:16,140
+what we finally get is create a powerful and dramatic illustration 
+
+231
+00:15:16,140 --> 00:15:18,540
+of a lion with angelic wings. 
+
+232
+00:15:19,360 --> 00:15:22,280
+Create a powerful and dramatic illustration of a lion 
+
+233
+00:15:22,280 --> 00:15:25,780
+with angelic wings emerging from a cloud of ash. 
+
+234
+00:15:26,120 --> 00:15:29,860
+So this is the prompt we're going to use for the 16 generators. 
+
+235
+00:15:30,020 --> 00:15:33,320
+So moving on to Night Cafe and Idiogram. 
+
+236
+00:15:33,740 --> 00:15:38,480
+In this particular case I really love the image that Idiogram has created. 
+
+237
+00:15:38,780 --> 00:15:40,500
+Night Cafe is not too bad. 
+
+238
+00:15:40,940 --> 00:15:44,380
+Now the thing about Idiogram is it's a powerful tool. 
+
+239
+00:15:44,580 --> 00:15:47,000
+It's designed for both amateurs and professionals. 
+
+240
+00:15:47,840 --> 00:15:50,660
+It's got preset image stars, 3D rendering. 
+
+241
+00:15:50,960 --> 00:15:54,540
+It's got community engagement and all the sort of options 
+
+242
+00:15:54,540 --> 00:15:56,320
+editing that you would like to do. 
+
+243
+00:15:56,620 --> 00:16:01,300
+But additionally, it's got a diverse range of visual elements 
+
+244
+00:16:01,300 --> 00:16:02,540
+and icons. 
+
+245
+00:16:03,160 --> 00:16:05,620
+And the other thing that you can do with it is work with text. 
+
+246
+00:16:05,840 --> 00:16:09,180
+So you can combine text, fonts, colours 
+
+247
+00:16:09,180 --> 00:16:11,460
+and different styles with the generation. 
+
+248
+00:16:11,940 --> 00:16:15,300
+So let's have a look at OpenArt and Designs AI. 
+
+249
+00:16:15,700 --> 00:16:18,500
+We've got pretty good images going on here. 
+
+250
+00:16:18,900 --> 00:16:21,560
+Designs AI is an interesting tool. 
+
+251
+00:16:22,140 --> 00:16:25,880
+Developed by the Imagine group, it's got a bunch of makers. 
+
+252
+00:16:25,880 --> 00:16:27,840
+So it's got a text. 
+
+253
+00:16:28,180 --> 00:16:33,240
+It's got a logo maker, a video maker, design maker and speech maker. 
+
+254
+00:16:33,480 --> 00:16:37,820
+So something like the speech maker can be used for voiceovers. 
+
+255
+00:16:38,200 --> 00:16:40,160
+The other thing it's got are these peras. 
+
+256
+00:16:40,520 --> 00:16:43,640
+So it's got font pera and colour matcher. 
+
+257
+00:16:43,820 --> 00:16:47,080
+So an interesting range of tools with this particular product. 
+
+258
+00:16:47,620 --> 00:16:50,640
+Next we'll look at Blue Willow and Adobe Firefly. 
+
+259
+00:16:50,920 --> 00:16:53,220
+We've got two great images going on here. 
+
+260
+00:16:53,220 --> 00:16:56,740
+Now Adobe's going to be a really powerful tool moving forward. 
+
+261
+00:16:57,060 --> 00:16:59,700
+So I guess its main competitor is Canva. 
+
+262
+00:16:59,940 --> 00:17:04,320
+But it has the ability to integrate into the rest of the Adobe products. 
+
+263
+00:17:04,700 --> 00:17:07,320
+One of the things it's got is this ethical AI. 
+
+264
+00:17:07,700 --> 00:17:11,220
+So it's all trained on images that it has the rights to. 
+
+265
+00:17:11,840 --> 00:17:16,420
+And then being a design tool, it has generative fill and expand. 
+
+266
+00:17:16,880 --> 00:17:18,740
+You can also do vector graphics with it. 
+
+267
+00:17:18,840 --> 00:17:21,380
+Move on to Photo and Crayon. 
+
+268
+00:17:22,140 --> 00:17:26,800
+Now Crayon has been a tool that I didn't get a lot of success out of it. 
+
+269
+00:17:27,000 --> 00:17:31,500
+But it might still be a useful tool for you to use for these reasons. 
+
+270
+00:17:32,180 --> 00:17:36,320
+It is a free tool and it has prompt predictions and suggestions. 
+
+271
+00:17:36,820 --> 00:17:40,620
+And with a little bit of work, you can get an image close to what you might want. 
+
+272
+00:17:41,120 --> 00:17:44,260
+Next we'll look at Dream Studio and Imagine Art. 
+
+273
+00:17:44,540 --> 00:17:46,460
+And they're both producing great images. 
+
+274
+00:17:46,720 --> 00:17:49,260
+Now Imagine Art is a pretty powerful tool. 
+
+275
+00:17:49,420 --> 00:17:54,700
+It's got different styles, image remixing and advanced configuration. 
+
+276
+00:17:55,120 --> 00:17:58,100
+It can also do background removal and in painting. 
+
+277
+00:17:58,700 --> 00:18:00,940
+So we're looking at Playground and Hotpot again. 
+
+278
+00:18:01,200 --> 00:18:04,700
+And these are now becoming leading contenders for myself. 
+
+279
+00:18:04,920 --> 00:18:07,160
+But let's talk a little bit about Hotpot. 
+
+280
+00:18:07,280 --> 00:18:11,540
+So it's quite a versatile tool that you can use for image generation. 
+
+281
+00:18:11,540 --> 00:18:17,680
+But you can also use it for photo editing, headshots and avatars. 
+
+282
+00:18:17,680 --> 00:18:20,660
+One of the other things it can do is text writing. 
+
+283
+00:18:21,120 --> 00:18:24,260
+So you can use it for your brainstorming and copywriting. 
+
+284
+00:18:24,640 --> 00:18:31,540
+And like tools like Canva or Firefly, it has templates that you can customize for social media. 
+
+285
+00:18:32,280 --> 00:18:35,380
+Moving on to Let's Secure and Microsoft Co-Pilot. 
+
+286
+00:18:35,720 --> 00:18:37,780
+The Let's Secure image is really good. 
+
+287
+00:18:38,180 --> 00:18:43,080
+The Microsoft Co-Pilot for me is something that you would use just the same way she would use 
+
+288
+00:18:43,080 --> 00:18:45,880
+Dali 3 within ChatGPT. 
+
+289
+00:18:46,460 --> 00:18:51,260
+Now if you're using Microsoft Co-Pilot, you might not want to go any further than this. 
+
+290
+00:18:51,480 --> 00:18:58,860
+And if you really want to see a great set of examples of mid-journey versus what Microsoft Co-Pilot could do, 
+
+291
+00:18:59,140 --> 00:19:03,560
+you can check out the video that I did last year where I did 400 images, 
+
+292
+00:19:04,300 --> 00:19:10,300
+50 prompts, 4 images per prompt for mid-journey and 4 images per prompt for Dali 3. 
+
+293
+00:19:10,300 --> 00:19:15,260
+Where you can get a good side-by-side comparison between these two different products. 
+
+294
+00:19:15,540 --> 00:19:19,960
+And for the last two, Leonardo AI and Diffusion B. 
+
+295
+00:19:20,360 --> 00:19:22,140
+So the Leonardo image is pretty good. 
+
+296
+00:19:22,600 --> 00:19:28,220
+The Diffusion B, the thing about this tool is that this image it's done is okay. 
+
+297
+00:19:28,700 --> 00:19:31,520
+And it's free. It runs on your computer. 
+
+298
+00:19:31,620 --> 00:19:38,760
+So you have a lot of capability to produce images, but it doesn't necessarily create the best results. 
+
+299
+00:19:38,760 --> 00:19:44,620
+But some of the tools that are built into it include in-painting, out-painting and upscaling. 
+
+300
+00:19:44,880 --> 00:19:46,540
+And you can plug different models in. 
+
+301
+00:19:46,880 --> 00:19:51,760
+So if you know what you're doing, you might be able to get this to a much higher level of capability 
+
+302
+00:19:51,760 --> 00:19:56,760
+and just run it locally on your Mac computer in the case of Diffusion B. 
+
+303
+00:19:57,180 --> 00:20:00,320
+For Windows, I'm sure there's a tool that does something very similar. 
+
+304
+00:20:01,040 --> 00:20:05,340
+So there's 16 great examples of the line coming out of the ashes. 
+
+305
+00:20:05,340 --> 00:20:09,860
+We've also got the lady in her house Japanese background. 
+
+306
+00:20:10,420 --> 00:20:15,940
+And the man in his 30s illustration style yellow background with his thumbs up. 
+
+307
+00:20:16,460 --> 00:20:19,660
+So even though I've been banned from mid-journey, it's unfortunate. 
+
+308
+00:20:20,160 --> 00:20:22,060
+I wish they would look into the case. 
+
+309
+00:20:22,380 --> 00:20:26,260
+I've found that there are 16 awesome alternatives out there. 
+
+310
+00:20:26,340 --> 00:20:28,300
+So please like and subscribe. 
+
+311
+00:20:28,560 --> 00:20:34,100
+And if you're interested in videos about prompt engineering or AI, 
+
+312
+00:20:34,520 --> 00:20:36,900
+then let me know in the comments below. 
+
+313
+00:20:37,260 --> 00:20:39,400
+Otherwise, I'll see you in the next video. 
+
+314
+00:20:39,820 --> 00:20:40,500
+Have a great day. 
+
+315
+00:20:40,840 --> 00:20:41,100
+I'm Happy Dave. 
+
+316
+00:20:41,100 --> 00:20:41,380
+I'm Happy Dave.

@@ -1,0 +1,331 @@
+[
+  {
+    "recording_name": "1-1-introduction.mov",
+    "seq": 1,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "1-1-introduction.mov",
+    "detail": "rename 2024-04-19 14:23:37.mov to 1-1-introduction.mov"
+  },
+  {
+    "recording_name": "1-1-introduction.mov",
+    "seq": 2,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "1-1.srt",
+    "detail": "Hey everyone, welcome back to the channel! My name is David and I look to waste your time in introductions about myself"
+  },
+  {
+    "recording_name": "1-1-introduction.mov",
+    "seq": 3,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the introduction",
+    "detail": ""
+  },
+  {
+    "recording_name": "1-1-introduction.mov",
+    "seq": 4,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "No filler words",
+    "detail": ""
+  },
+  {
+    "recording_name": "1-2-introduction-overview.mov",
+    "seq": 5,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "1-2-introduction-overview.mov",
+    "detail": "rename 2024-04-19 14:28:40.mov to 1-2-introduction-overview.mov"
+  },
+  {
+    "recording_name": "1-2-introduction-overview.mov",
+    "seq": 6,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "1-2.srt",
+    "detail": "So, in this video, we'll follow Emily from the moment she wakes up, through a walk to the park, a sudden rain shower, and even a coffee shop dilemma, all the way to their relaxing evening routine. Each scene highlights different aspects of Emily’s character, like her strategic thinking, advocacy for sustainability, and her compassionate nature. Let's get right into it!"
+  },
+  {
+    "recording_name": "1-2-introduction-overview.mov",
+    "seq": 7,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the introduction",
+    "detail": ""
+  },
+  {
+    "recording_name": "1-2-introduction-overview.mov",
+    "seq": 8,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "Filler words found",
+    "detail": [
+      "So"
+    ]
+  },
+  {
+    "recording_name": "2-morning-routine.mov",
+    "seq": 9,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "2-morning-routine.mov",
+    "detail": "rename 2024-04-19 14:35:55.mov to 2-morning-routine.mov"
+  },
+  {
+    "recording_name": "2-morning-routine.mov",
+    "seq": 10,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "2.srt",
+    "detail": "Like, the day begins with Emily waking up to the soft, warm nuzzling of Whiskers on her face. As she stretches, Whiskers hops off the bed, eagerly awaiting their morning ritual. In the kitchen, Emily prepares her green smoothie while Whiskers munches on his organic cat food. Together, they sit by the window, Emily planning her day on her tablet, which really shows her organized and methodical nature as a strategic thinker."
+  },
+  {
+    "recording_name": "2-morning-routine.mov",
+    "seq": 11,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "2-morning-routine.mov",
+    "seq": 12,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "Filler words found",
+    "detail": [
+      "like"
+    ]
+  },
+  {
+    "recording_name": "3-walk-to-the-park.mov",
+    "seq": 13,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "3-walk-to-the-park.mov",
+    "detail": "rename 2024-04-19 14:40:19.mov to 3-walk-to-the-park.mov"
+  },
+  {
+    "recording_name": "3-walk-to-the-park.mov",
+    "seq": 14,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "3.srt",
+    "detail": "and, after breakfast, Emily and Whiskers, um take a leisurely walk to the nearby park. Whiskers, in his stylish harness, attracts admiring glances, while Emily uses this opportunity to subtly educate a curious onlooker about sustainable pet care practices. This scene illustrates Emily’s advocacy for sustainability and her natural charisma in engaging with the public."
+  },
+  {
+    "recording_name": "3-walk-to-the-park.mov",
+    "seq": 15,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "3-walk-to-the-park.mov",
+    "seq": 16,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "Filler words found",
+    "detail": [
+      "and",
+      "um"
+    ]
+  },
+  {
+    "recording_name": "4-unexpected-rain.mov",
+    "seq": 17,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "4-unexpected-rain.mov",
+    "detail": "rename 2024-04-19 14:44:19.mov to 4-unexpected-rain.mov"
+  },
+  {
+    "recording_name": "4-unexpected-rain.mov",
+    "seq": 18,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "4.srt",
+    "detail": "Um, as they enjoy the park, a sudden downpour begins, causing a mild panic among the park-goers. Whiskers, affected by the noise and chaos, becomes visibly stressed, his tail bushy and eyes wide. Emily quickly scoops him up, providing comfort with soothing words and gentle strokes, showcasing her compassionate nature and ability to handle unexpected challenges."
+  },
+  {
+    "recording_name": "4-unexpected-rain.mov",
+    "seq": 19,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "4-unexpected-rain.mov",
+    "seq": 20,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "Filler words found",
+    "detail": [
+      "um"
+    ]
+  },
+  {
+    "recording_name": "5-1-coffee-shop-dilemma.mov",
+    "seq": 21,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "5-1-coffee-shop-dilemma.mov",
+    "detail": "rename 2024-04-19 14:49:04.mov to 5-1-coffee-shop-dilemma.mov"
+  },
+  {
+    "recording_name": "5-1-coffee-shop-dilemma.mov",
+    "seq": 22,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "5-1.srt",
+    "detail": "Taking refuge in a nearby coffee shop, Emily faces a challenge with only non-organic coffee available, pondering her eco-friendly options."
+  },
+  {
+    "recording_name": "5-1-coffee-shop-dilemma.mov",
+    "seq": 23,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "5-1-coffee-shop-dilemma.mov",
+    "seq": 24,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "No filler words",
+    "detail": ""
+  },
+  {
+    "recording_name": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov",
+    "seq": 25,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov",
+    "detail": "rename 2024-04-19 14:56:16.mov to 5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov"
+  },
+  {
+    "recording_name": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov",
+    "seq": 26,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "5-2.srt",
+    "detail": "A young child runs through the cafe, yelling playfully, causing a stir among the patrons."
+  },
+  {
+    "recording_name": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov",
+    "seq": 27,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov",
+    "seq": 28,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "No filler words",
+    "detail": ""
+  },
+  {
+    "recording_name": "5-3-coffee-shop-dilemma.mov",
+    "seq": 29,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "5-3-coffee-shop-dilemma.mov",
+    "detail": "rename 2024-04-19 15:00:30.mov to 5-3-coffee-shop-dilemma.mov"
+  },
+  {
+    "recording_name": "5-3-coffee-shop-dilemma.mov",
+    "seq": 30,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "5-3.srt",
+    "detail": "Whiskers is fearful of the child's loud energy. Emily quickly calms Whiskers down, soothing him with gentle strokes."
+  },
+  {
+    "recording_name": "5-3-coffee-shop-dilemma.mov",
+    "seq": 31,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "5-3-coffee-shop-dilemma.mov",
+    "seq": 32,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "No filler words",
+    "detail": ""
+  },
+  {
+    "recording_name": "6-afternoon-work-session.mov",
+    "seq": 33,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "6-afternoon-work-session.mov",
+    "detail": "rename 2024-04-19 15:05:13.mov to 6-afternoon-work-session.mov"
+  },
+  {
+    "recording_name": "6-afternoon-work-session.mov",
+    "seq": 34,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "6.srt",
+    "detail": "Settled in a quiet corner of the coffee shop, Emily works on her laptop, with Whiskers curled up beside her. This peaceful scene is disrupted when a child excitedly reaches out to pet Whiskers without warning. Startled, Whiskers hisses softly. Emily quickly intervenes, explaining gently to the child how to approach animals respectfully, turning the situation into a learning moment for everyone involved."
+  },
+  {
+    "recording_name": "6-afternoon-work-session.mov",
+    "seq": 35,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "6-afternoon-work-session.mov",
+    "seq": 36,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "No filler words",
+    "detail": ""
+  },
+  {
+    "recording_name": "7-home-and-happy.mov",
+    "seq": 37,
+    "type": "Organize & tag",
+    "action": "Rename file",
+    "message": "7-home-and-happy.mov",
+    "detail": "rename 2024-04-19 15:10:49.mov to 7-home-and-happy.mov"
+  },
+  {
+    "recording_name": "7-home-and-happy.mov",
+    "seq": 38,
+    "type": "Transcribe",
+    "action": "Create subtitle file",
+    "message": "7.srt",
+    "detail": "Back home, Emily and Whiskers unwind after their eventful day. As Emily reads a book on environmental policy, Whiskers, now calm and content, snuggles in her lap, purring loudly. This scene shows the positive reaction Whiskers has with Emily, reflecting the deep bond and mutual comfort they share, illustrating how they both find tranquility and security in each other’s company after the challenges of the day."
+  },
+  {
+    "recording_name": "7-home-and-happy.mov",
+    "seq": 39,
+    "type": "Identify Content",
+    "action": "Gather information",
+    "message": "This seems to be part of the content",
+    "detail": ""
+  },
+  {
+    "recording_name": "7-home-and-happy.mov",
+    "seq": 40,
+    "type": "Filler words",
+    "action": "Add information",
+    "message": "No filler words",
+    "detail": ""
+  }
+]

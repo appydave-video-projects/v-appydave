@@ -1,0 +1,951 @@
+1
+00:00:00,00 --> 00:00:05,700
+Hi, I'm AppyDave, and the new voice mode has just come out on chat, GPT. And what 
+
+2
+00:00:05,730 --> 00:00:10,760
+we're going to do is use it to create an application on the fly. I'm in the middle 
+
+3
+00:00:10,760 --> 00:00:14,750
+of doing something else at the moment, but I needed a little bit of an automation. 
+
+4
+00:00:14,880 --> 00:00:20,720
+I think we can create it in a few minutes using chat, GPT, voice modes. Let's get 
+
+5
+00:00:20,720 --> 00:00:21,590
+into it.
+
+6
+00:00:21,660 --> 00:00:26,650
+So here's the problem I wanna solve. I've got 48 images coming through in Leonardo 
+
+7
+00:00:26,650 --> 00:00:33,190
+at the moment. Now the 48 images are over six different categories of prompts. There's 
+
+8
+00:00:33,220 --> 00:00:38,570
+two versions of the prompt for each category, and then there's four images and I 
+
+9
+00:00:39,130 --> 00:00:42,910
+need to put these renamed into a particular folder quickly.
+
+10
+00:00:42,930 --> 00:00:47,100
+Now I'm in the middle of doing a video on the YouTube launch optimizer, and I've 
+
+11
+00:00:47,100 --> 00:00:53,180
+already created a bunch of assets for the intro 48 in Told. And when I put in the 
+
+12
+00:00:53,180 --> 00:00:57,630
+file names into this system, I actually had to do it all manually. I didn't even 
+
+13
+00:00:57,630 --> 00:00:59,100
+think to automate it, but 
+
+14
+00:00:59,330 --> 00:01:03,200
+Now I'm going to the outro where I've got no images, and I thought, why can't I just 
+
+15
+00:01:03,200 --> 00:01:04,760
+write a script to solve this problem?
+
+16
+00:01:04,760 --> 00:01:10,470
+So I've got chat GPT ready to go. I can press the record button to get it into talk 
+
+17
+00:01:10,470 --> 00:01:15,270
+mode and we'll have a conversation to build this software. I'm not geared for recording 
+
+18
+00:01:15,270 --> 00:01:16,560
+these screens, so 
+
+19
+00:01:16,560 --> 00:01:20,980
+it's gonna have to be done this way. So I'm hitting record and I'm just waiting for 
+
+20
+00:01:20,980 --> 00:01:21,100
+it. 
+
+21
+00:01:21,100 --> 00:01:23,820
+Are you listening to me? It's not saying anything 
+
+22
+00:01:23,830 --> 00:01:26,360
+loud and clear what's on your mind. 
+
+23
+00:01:26,660 --> 00:01:31,990
+I would like to write a script fairly quickly. Don't write in the programming language 
+
+24
+00:01:32,560 --> 00:01:37,270
+just yet. Let's explore the idea and the problem I'm trying to solve. So I'm currently 
+
+25
+00:01:37,270 --> 00:01:42,880
+using Leonardo AI to generate images and what you can do is you can enter in a prompt 
+
+26
+00:01:42,880 --> 00:01:49,120
+and it generates four images and what I need to do is when I click the download button 
+
+27
+00:01:49,120 --> 00:01:54,580
+on each of those images though end up in a folder on my computer as they arrive on 
+
+28
+00:01:54,580 --> 00:02:00,370
+my computer, I need to move them to another folder. But let me describe the structure 
+
+29
+00:02:00,370 --> 00:02:04,750
+of what we're going on. So I'm currently working through images in both the intro 
+
+30
+00:02:04,750 --> 00:02:11,500
+and the outro of the script, where specifically looking at the outro today, and I 
+
+31
+00:02:11,500 --> 00:02:18,760
+have six sections in the outro. Each section in the outro will have two prompts. 
+
+32
+00:02:18,820 --> 00:02:25,360
+So in this case we'll have 12 different prompts, but every time we run a prompt we 
+
+33
+00:02:25,360 --> 00:02:26,650
+get four images. 
+
+34
+00:02:26,660 --> 00:02:28,330
+So are you with me so far? 
+
+35
+00:02:28,330 --> 00:02:29,230
+Absolutely. 
+
+36
+00:02:29,230 --> 00:02:34,670
+So you're generating 12 prompts for the outro and since each prompt yields four images, 
+
+37
+00:02:35,00 --> 00:02:37,700
+you end up with 48 images in total. 
+
+38
+00:02:37,100 --> 00:02:41,690
+You wanna automate moving these images from the download location to specific folders. 
+
+39
+00:02:41,960 --> 00:02:42,560
+Am I following 
+
+40
+00:02:42,560 --> 00:02:46,830
+You are, but there's a little bit of a grouping that you need to think about. So 
+
+41
+00:02:46,830 --> 00:02:53,190
+there are six prompts of which there are two versions for each prompt. So let's say 
+
+42
+00:02:53,190 --> 00:02:59,940
+we're working on the very first sentence of the intro or the outro. We would end 
+
+43
+00:02:59,940 --> 00:03:04,800
+up calling that number one, but because it's the first version, we would want the 
+
+44
+00:03:04,800 --> 00:03:10,740
+letter A to come after the number one. Then because we're working with the intro, 
+
+45
+00:03:10,950 --> 00:03:17,250
+we might say dash intro and then as images get downloaded, the first one would be 
+
+46
+00:03:17,400 --> 00:03:23,310
+one a dash intro dash one. The next one would be dash two, the next one, dash three 
+
+47
+00:03:23,310 --> 00:03:29,700
+and the fourth one would be dash four. Then when I move on to the second row of images 
+
+48
+00:03:29,700 --> 00:03:35,460
+for the same sentence, they would be one B dash intro dash one one B dash intro, 
+
+49
+00:03:35,460 --> 00:03:41,130
+dash two dash three and dash four. Then when I get to the second intro, 
+
+50
+00:03:41,130 --> 00:03:48,200
+the second intro video, I'd probably wanna say two a dash one intro dash one and 
+
+51
+00:03:48,200 --> 00:03:53,540
+that'll just keep repeating. The only time things will change on this is that when 
+
+52
+00:03:53,540 --> 00:03:58,220
+we get to the outro, I want to use the word outro and I probably want to use a different 
+
+53
+00:03:58,220 --> 00:04:00,290
+folder. Does that make sense so far? 
+
+54
+00:04:00,300 --> 00:04:00,690
+Got it. 
+
+55
+00:04:00,700 --> 00:04:05,200
+You are organizing the images based on their position in the sequence and whether 
+
+56
+00:04:05,200 --> 00:04:07,30
+they're from the intro or outro. 
+
+57
+00:04:07,330 --> 00:04:09,290
+So for the first sentence, version A, 
+
+58
+00:04:09,300 --> 00:04:14,370
+the second version of the first sentence would be one B intro dash one and so forth. 
+
+59
+00:04:14,400 --> 00:04:18,560
+Then for the second sentence you'd start with two a intro one, 
+
+60
+00:04:18,560 --> 00:04:23,900
+and for the outro you'd switch to names like one, a outro one and place them in a 
+
+61
+00:04:23,900 --> 00:04:26,810
+different folder. That structure makes sense. 
+
+62
+00:04:26,830 --> 00:04:32,460
+Great. So the other thing I normally I would do this as a file watcher so that it 
+
+63
+00:04:32,460 --> 00:04:37,500
+can just run on automation, but I just need to get the code working. So a simple 
+
+64
+00:04:37,500 --> 00:04:44,550
+script that I can run and what I'll probably do is I'll download four images at a 
+
+65
+00:04:44,550 --> 00:04:51,750
+time. So we'll essentially be working with one A would be the example and I need 
+
+66
+00:04:51,750 --> 00:04:56,370
+to with that script, which will run from the command line, just put in a parameter 
+
+67
+00:04:56,460 --> 00:04:58,350
+one A. Sounds good to me. 
+
+68
+00:04:58,360 --> 00:05:05,120
+and you'll be able to formulate the file names of say four that you find for different 
+
+69
+00:05:05,120 --> 00:05:09,290
+images that are in the downloads directory. I will tell you what the 
+
+70
+00:05:09,300 --> 00:05:14,270
+pattern is for those file names so you know how to find them and then you can just 
+
+71
+00:05:14,270 --> 00:05:21,410
+move them over to the appropriate folder. It might be useful that in the script we 
+
+72
+00:05:21,410 --> 00:05:27,560
+hard code both the input and the output folders, but the output folder should have 
+
+73
+00:05:27,560 --> 00:05:31,760
+a sub folder as well, which can be the same name as that file name we were talking 
+
+74
+00:05:31,760 --> 00:05:36,200
+about. So if we got one a dash intro dash one point 
+
+75
+00:05:36,230 --> 00:05:41,620
+w, I'm not sure the format, we've gotta check what it is, whatever the format is, 
+
+76
+00:05:41,650 --> 00:05:47,470
+it's going into probably a jpeg, let's just go and have a gander at that intros. 
+
+77
+00:05:47,650 --> 00:05:48,550
+They are definitely, 
+
+78
+00:05:48,560 --> 00:05:53,460
+JPEGs that it's going into and you'll move it into a subfolder called intro. If we're 
+
+79
+00:05:53,460 --> 00:05:57,180
+deal dealing with the outro, you'll name it with the word outro, but you also put 
+
+80
+00:05:57,180 --> 00:05:59,970
+into a subfolder of outro. Does that make sense? 
+
+81
+00:06:00,00 --> 00:06:05,860
+Perfectly clear. So the script will take a parameter, like one a intro, 
+
+82
+00:06:05,990 --> 00:06:10,190
+locate the corresponding images in the downloads directory and move them to an output 
+
+83
+00:06:10,190 --> 00:06:13,280
+folder with sub folders like intro or outro. 
+
+84
+00:06:13,300 --> 00:06:19,170
+The images will be renamed based on the parameter such as one, a intro, one jpeg, 
+
+85
+00:06:19,470 --> 00:06:21,360
+and placed in the appropriate sub folder. 
+
+86
+00:06:21,360 --> 00:06:26,160
+Now about the file pattern for identifying the images, how are they currently named 
+
+87
+00:06:26,160 --> 00:06:26,730
+when downloaded? 
+
+88
+00:06:26,760 --> 00:06:31,330
+Okay, that's a good question. Can you just wait while I check this out? 
+
+89
+00:06:31,330 --> 00:06:31,650
+Take your time, 
+
+90
+00:06:31,660 --> 00:06:32,720
+let me know what you find. 
+
+91
+00:06:32,730 --> 00:06:36,630
+Okay, so what we're going to do is head over to 
+
+92
+00:06:36,630 --> 00:06:43,240
+the Leonardo page. I'm just going to find one image here and download it. I think 
+
+93
+00:06:43,240 --> 00:06:47,200
+I need to start from the bottom to get my ordering correct. 
+
+94
+00:06:47,200 --> 00:06:50,120
+So we'll just press download 
+
+95
+00:06:50,130 --> 00:06:55,140
+and it says that an image is going down into the downloads directory Right now. We'll 
+
+96
+00:06:55,140 --> 00:07:00,150
+just bring up the folder. It says it's coming through as Leonardo. There's a big 
+
+97
+00:07:00,150 --> 00:07:06,210
+long name, there's a dash one at the end and it's a jpeg. What I'm going to do is 
+
+98
+00:07:06,210 --> 00:07:12,540
+pass in this or download the second file for you so you know what it is and the third 
+
+99
+00:07:12,630 --> 00:07:20,340
+and the fourth. So these are all related to a particular prompt and they're coming 
+
+100
+00:07:20,340 --> 00:07:22,830
+through in the format. 
+
+101
+00:07:22,100 --> 00:07:24,930
+They're a little odd to be honest. So we've got a 
+
+102
+00:07:24,960 --> 00:07:32,100
+dash zero dash one at the end of the jpeg. We've also got a underscore zero for some 
+
+103
+00:07:32,100 --> 00:07:36,180
+reason. We've got a dash one dash one at the end and we've got 
+
+104
+00:07:36,200 --> 00:07:44,730
+another dash or I kept saying dash, I meant underscore. So I think you just need 
+
+105
+00:07:44,730 --> 00:07:48,600
+to look for JPEGs. That should be enough. I'll make sure there are no other JPEGs 
+
+106
+00:07:48,600 --> 00:07:54,270
+in this particular folder, but apart from that, let's not worry too much about the 
+
+107
+00:07:54,270 --> 00:07:58,950
+incoming name. You just need to change it to the upcoming name. Is that okay? 
+
+108
+00:07:58,960 --> 00:07:59,330
+Got it. 
+
+109
+00:07:59,360 --> 00:08:04,660
+The images have varied naming patterns, but we can focus on just targeting JPEG files. 
+
+110
+00:08:04,660 --> 00:08:09,600
+The script will rename these files to our desired format and move them to the appropriate 
+
+111
+00:08:09,600 --> 00:08:14,220
+sub-folder based on the parameters you provide, like one a intro, 
+
+112
+00:08:14,230 --> 00:08:15,850
+this approach should work smoothly. 
+
+113
+00:08:15,860 --> 00:08:19,430
+Great. I'm just gonna put it on hold and get things set up 
+
+114
+00:08:19,430 --> 00:08:19,820
+sound. 
+
+115
+00:08:19,830 --> 00:08:23,360
+So I'm just stopping that for a second and I'll pause the video.
+
+116
+00:08:23,660 --> 00:08:27,440
+So let's just take stock of where we're at. We've got this bunch of images that are 
+
+117
+00:08:27,440 --> 00:08:32,180
+created and if we go down to the very bottom, we can see that the images match to 
+
+118
+00:08:32,180 --> 00:08:37,880
+the prompts that are going through here. It goes all the way to number 10 and the 
+
+119
+00:08:37,900 --> 00:08:43,870
+bottom row is a complex machine labeled previous video and next video. Is that what 
+
+120
+00:08:43,870 --> 00:08:49,870
+it's saying? I'm not sure it is, which is great. So I think we can have a conversation 
+
+121
+00:08:49,870 --> 00:08:51,760
+with ChatGPT now. 
+
+122
+00:08:51,760 --> 00:08:55,700
+So we're just pressing the button. Are you listening to me at the moment? 
+
+123
+00:08:55,730 --> 00:08:56,630
+Can you hear me? 
+
+124
+00:08:56,630 --> 00:09:00,910
+However, I will also spend time hanging out with my friends playing Dungeons and 
+
+125
+00:09:00,910 --> 00:09:01,630
+Dragons 
+
+126
+00:09:01,660 --> 00:09:04,500
+whenever our schedules actually align 
+
+127
+00:09:04,660 --> 00:09:04,820
+impulse control. 
+
+128
+00:09:04,830 --> 00:09:09,100
+I'm a little confused. What have we been talking about in this conversation? 
+
+129
+00:09:09,330 --> 00:09:13,350
+We've been discussing a script to automate the process of organizing images generated 
+
+130
+00:09:13,350 --> 00:09:14,520
+by Leonardo ai. 
+
+131
+00:09:14,530 --> 00:09:19,590
+You wanna download these images which come in a specific format and then move them 
+
+132
+00:09:19,590 --> 00:09:24,630
+to designated folders based on whether they're for the intro or outro of your project. 
+
+133
+00:09:24,630 --> 00:09:29,380
+The script will rename and sort these images into sub folders accordingly. 
+
+134
+00:09:29,400 --> 00:09:30,470
+Does that help clarify? 
+
+135
+00:09:30,500 --> 00:09:36,370
+It does. Look, I've got a little prompt that I want to give you. It's called Read. 
+
+136
+00:09:36,490 --> 00:09:41,410
+And with the read I'm just going to give you the information you can do with it what 
+
+137
+00:09:41,410 --> 00:09:46,420
+you want. I've given you the source folder so you'll know where to find the files. 
+
+138
+00:09:46,750 --> 00:09:51,910
+I've also given you the four files that are currently in that folder and I've given 
+
+139
+00:09:51,910 --> 00:09:58,270
+you an a few output folders. One is the main one where the assets go, and then two 
+
+140
+00:09:58,270 --> 00:10:02,890
+sub-folders, one called outro, one called intro. And then under that I've given you 
+
+141
+00:10:02,890 --> 00:10:07,900
+all the intro graphics 'cause this'll just help you understand the naming convention. 
+
+142
+00:10:08,230 --> 00:10:15,460
+Now we are going to be specifically focusing on the outro folder. And what I need 
+
+143
+00:10:15,460 --> 00:10:21,460
+you to do is create me one simple ruby script that can do this. Give me the name 
+
+144
+00:10:21,460 --> 00:10:21,610
+of the file 
+
+145
+00:10:21,630 --> 00:10:27,570
+CHMOD so that I can make it executable and just at one command line parameter to 
+
+146
+00:10:27,570 --> 00:10:31,650
+run it. Does that make sense? Are you ready for me to give you that prompt? 
+
+147
+00:10:31,660 --> 00:10:36,340
+Got it. I'm ready for your prompt. Once you give me the details, I'll help you craft 
+
+148
+00:10:36,340 --> 00:10:37,240
+that Ruby script. 
+
+149
+00:10:37,260 --> 00:10:42,990
+Okay, so I've typed that prompt into a, a different chat, the same chat window, but 
+
+150
+00:10:42,990 --> 00:10:47,610
+on the computer. Hopefully we're not gonna have any confusion. Did that come through 
+
+151
+00:10:47,610 --> 00:10:48,510
+to you? Okay. 
+
+152
+00:10:48,530 --> 00:10:53,480
+I'm afraid I can't see messages or prompts from other chat windows or devices. Could 
+
+153
+00:10:53,480 --> 00:10:56,840
+you please provide the prompt here and I'll help you out with the Ruby script? 
+
+154
+00:10:56,860 --> 00:10:59,480
+Okay, no worries. So I thought, 
+
+155
+00:10:59,500 --> 00:11:04,510
+we were using the same chat window on both the mobile phone and the desktop. Maybe 
+
+156
+00:11:04,510 --> 00:11:10,120
+we weren't. So I'll just tell you what we've got. So the source directory is called 
+
+157
+00:11:10,130 --> 00:11:17,560
+dash Tilda Sync, smart downloads, download images. Everything is in lowercase with 
+
+158
+00:11:17,140 --> 00:11:23,560
+dashes except for the word sync. And let's not worry too much for the output folders. 
+
+159
+00:11:23,560 --> 00:11:30,460
+I'll give you them later and I will let you know that the files are one a dash intro 
+
+160
+00:11:30,460 --> 00:11:31,180
+dash one 
+
+161
+00:11:31,200 --> 00:11:31,630
+jpeg. 
+
+162
+00:11:31,630 --> 00:11:33,940
+Actually, we're stopping this conversation here. 
+
+163
+00:11:33,960 --> 00:11:39,550
+Got it. So the source directory for the images is sync, smart downloads, downloaded 
+
+164
+00:11:39,550 --> 00:11:40,140
+images. 
+
+165
+00:11:40,160 --> 00:11:45,280
+We'll focus on organizing files like one a intro dash one jpeg. 
+
+166
+00:11:45,300 --> 00:11:48,700
+When you're ready we can proceed with the Ruby script to handle this. 
+
+167
+00:11:48,730 --> 00:11:49,570
+Okay, great. 
+
+168
+00:11:49,600 --> 00:11:50,680
+look, can you just, 
+
+169
+00:11:50,700 --> 00:11:55,710
+I'm gonna talk to my friends, so just hold on one second or you can listen in, but 
+
+170
+00:11:55,710 --> 00:11:56,340
+just hold on. 
+
+171
+00:11:56,360 --> 00:12:01,260
+So guys, you can see the confusion that I've just created for myself there. I'm having 
+
+172
+00:12:01,260 --> 00:12:05,160
+a conversation on the phone, but I'm also having a conversation in the same chat 
+
+173
+00:12:05,160 --> 00:12:11,430
+window over on the desktop and it didn't work. And I'm not sure why because I do 
+
+174
+00:12:11,430 --> 00:12:16,110
+find that it's relatively easy to go from the phone to the desktop, but it hasn't 
+
+175
+00:12:16,110 --> 00:12:22,350
+worked in this particular case. So with that said, let's just see if we do end up 
+
+176
+00:12:22,350 --> 00:12:24,960
+getting a Ruby script that's going to move the files. 
+
+177
+00:12:24,960 --> 00:12:29,110
+Okay, you've heard all that. Can you move forward with what we've gotta do? 
+
+178
+00:12:29,130 --> 00:12:34,310
+Absolutely. Let's get into it. Here's a simple ruby script to move and rename your 
+
+179
+00:12:34,310 --> 00:12:34,940
+files. 
+
+180
+00:12:34,960 --> 00:12:35,690
+Images, 
+
+181
+00:12:35,700 --> 00:12:42,290
+sync, smart downloads, downloaded images, all lowercase. Make sure to give your input 
+
+182
+00:12:42,290 --> 00:12:45,500
+folders there so you're above the input directory. 
+
+183
+00:12:45,660 --> 00:12:49,530
+And make sure to apply the map address of your download location here. 
+
+184
+00:12:49,560 --> 00:12:54,750
+This script should be executed as a commands prompt. Set it up as simple as possible. 
+
+185
+00:12:55,230 --> 00:12:59,790
+Prompt name, target, selection for the process and folder name. 
+
+186
+00:12:59,800 --> 00:13:02,270
+Then you can run it with the command 
+
+187
+00:13:02,300 --> 00:13:04,900
+pseudo transform up 
+
+188
+00:13:04,900 --> 00:13:05,620
+rb, 
+
+189
+00:13:05,630 --> 00:13:06,900
+run it as an argument 
+
+190
+00:13:06,930 --> 00:13:09,690
+and call the appropriate location. And that's it. 
+
+191
+00:13:09,700 --> 00:13:12,620
+This script should be executed as a command prompt. 
+
+192
+00:13:12,630 --> 00:13:14,130
+Set it up as simple as possible. 
+
+193
+00:13:14,130 --> 00:13:16,960
+Just to let you know, I'm running on a Mac, not on Linux. 
+
+194
+00:13:16,960 --> 00:13:18,490
+Nope, that doesn't change anything. 
+
+195
+00:13:18,500 --> 00:13:21,200
+The script I provided should work perfectly on Mac 
+
+196
+00:13:21,200 --> 00:13:21,270
+Os. 
+
+197
+00:13:21,300 --> 00:13:25,890
+Just make sure you have a Ruby installed, which is included by default on most Mac 
+
+198
+00:13:25,890 --> 00:13:26,760
+OS versions. 
+
+199
+00:13:26,760 --> 00:13:29,240
+Give it a try and let me know how it goes. 
+
+200
+00:13:29,260 --> 00:13:30,600
+I'm just refreshing 
+
+201
+00:13:30,600 --> 00:13:35,150
+the chat window on my desktop so that I can have a look at what's going on. I'm just 
+
+202
+00:13:35,150 --> 00:13:37,400
+gonna put you on pause for a second. Is that okay? 
+
+203
+00:13:37,430 --> 00:13:38,760
+Of course. Take your time. 
+
+204
+00:13:38,760 --> 00:13:40,340
+I'll be here when you're ready to continue. 
+
+205
+00:13:40,360 --> 00:13:45,860
+So it's come through and written a script here. What I'm gonna do is just copy all 
+
+206
+00:13:45,860 --> 00:13:50,360
+that information and we'll head over to Visual Studio, I guess, and we'll just paste 
+
+207
+00:13:50,360 --> 00:13:52,910
+it in there and I'll have a quick look at it.
+
+208
+00:13:52,930 --> 00:13:54,220
+So if we look at this, 
+
+209
+00:13:54,230 --> 00:14:00,780
+folder, we've got a intro area where all the current intro images are. What we wanna 
+
+210
+00:14:00,780 --> 00:14:01,710
+do is put in the outro 
+
+211
+00:14:01,730 --> 00:14:08,190
+area. And one of the things we've gotta change is the folder looks wrong, it's not 
+
+212
+00:14:08,190 --> 00:14:13,470
+downloaded, and that's definitely not the outro. I'm just gonna make a bunch of modifications 
+
+213
+00:14:13,470 --> 00:14:15,540
+and just check this code out before I run it.
+
+214
+00:14:15,560 --> 00:14:20,450
+So I've added a whole bunch of debug code to this, and I'm really glad I did because 
+
+215
+00:14:20,460 --> 00:14:25,500
+a problem happened and I didn't see it in the code, so I didn't run it with the moving 
+
+216
+00:14:25,500 --> 00:14:29,910
+of the files. Let's see what happens if we do run this application. So I think it's 
+
+217
+00:14:29,910 --> 00:14:35,670
+called Move images, the code that we want, the location that we want it to go. And 
+
+218
+00:14:35,670 --> 00:14:40,110
+when we run this, we end up getting too many files. In fact, it's coming through 
+
+219
+00:14:40,110 --> 00:14:46,710
+to 199 and there's only meant to be four. And the issue happens to be that it's going 
+
+220
+00:14:46,710 --> 00:14:51,450
+down into the sub directories, underneath the assets folder, and there's a whole 
+
+221
+00:14:51,450 --> 00:14:55,410
+lot of other stuff going on there. So what we'll do is we'll just get rid of this 
+
+222
+00:14:55,410 --> 00:15:00,510
+and run it again and we should get about four different files that's looking about 
+
+223
+00:15:00,510 --> 00:15:03,360
+right, if we bring up the folders, 
+
+224
+00:15:03,360 --> 00:15:08,960
+We're looking to move these four files here, and they should move into this folder 
+
+225
+00:15:08,960 --> 00:15:10,850
+just here. So let's just 
+
+226
+00:15:10,860 --> 00:15:15,380
+run it. I don't think I've got the move turned on. I don't, so nothing should happen. 
+
+227
+00:15:15,380 --> 00:15:19,700
+We'll just scroll down here and unco this file. 
+
+228
+00:15:19,700 --> 00:15:25,770
+Clear it out. Run. Run it one more time and do, now we've got some files. We've also 
+
+229
+00:15:25,770 --> 00:15:28,740
+got something coming in that we don't need. 
+
+230
+00:15:28,760 --> 00:15:30,580
+Let's just go look at them. This is 
+
+231
+00:15:30,630 --> 00:15:35,520
+Well there we have a live demonstration of the new advanced speech mode. In this 
+
+232
+00:15:35,520 --> 00:15:39,780
+case, we were writing some software and it does work. I'm now going to be able to 
+
+233
+00:15:39,780 --> 00:15:45,690
+go back to the video I was working on and create, download, and label a bunch of 
+
+234
+00:15:45,690 --> 00:15:48,990
+files. I would've liked to have the speech, 
+
+235
+00:15:49,00 --> 00:15:54,720
+tell you more, but that particular chat window went back to an older version of the 
+
+236
+00:15:54,750 --> 00:16:00,660
+speech mode, so the more basic one, which works fabulously, but I couldn't interrupt 
+
+237
+00:16:00,660 --> 00:16:05,340
+it as an example. So anyway, I'm happy Dave. I'll see in the next video where I'll 
+
+238
+00:16:05,340 --> 00:16:08,650
+be talking about prompt engineering and agent workflows.

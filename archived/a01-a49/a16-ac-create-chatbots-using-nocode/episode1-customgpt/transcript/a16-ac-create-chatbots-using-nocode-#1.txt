@@ -1,0 +1,137 @@
+In this video I create a website called Cobot to converse with the Danco
+letters using custom GPT.ai and host it within a conversational bot. Let's
+create a chat bot called co-chat that allows you to interact with a website.
+Here we'll read the Danco letters and we have all these letters here and we'll be
+able to go down to the bot and type in a question and get an answer.
+custom GPT.ai creates your own chat GPT with all your business content. Got a
+landing page, pricing, we have three custom projects for $50 a month. So what
+I think I'll do is let's click on this button, let's just log in and see how we
+can use this product. Now I've come through to a dashboard and we've got my
+project and create a project which looks like it's in three different
+locations. There's some help documentation. If I click on create a
+project I am taken straight to a pricing page. I wonder if I type in free. It's
+not showing up on the page. I've come to the home page and I typed in a question
+into the chat bot. Is there a free trial? Saying that they don't have a free trial
+at the moment. Maybe they will in the future but demand is high and they've
+got costs. That's fair enough. They've got a demo here. I may buy this for one
+month. There's a particular idea that I want to test out this bot. Danco is this
+influencer that I've been following just as I learn how to develop my own brand
+and what I've liked about his information is that he educates people on how to do
+something they're passionate about and I'm actually passionate about technology
+and just teaching people about it. He has this area here called Letters. All these
+blog posts that have written over a couple of years I think might be a really
+good set of information to do a Q&A bot against. Let's go back to custom GPT and
+it has this idea of an XML sitemap. This is a data document that websites have
+usually called something like sitemap.xml. Let's have a look at what they look
+like. Google images here typed in sitemap.xml and this is usually the sort of
+format that they come in but what they do in essence is create a graph of the
+web pages that the site owner would like you to go to. So it's not every page on
+the site but it's the one you want to go to. Hopefully when we go and have a look
+at Danco's website there will be a sitemap that we can use to put back into
+this section right here. I've headed over to the website thedanco.com and put
+in sitemap.xml and you end up with this sitemap and it looks like the way he's
+got it laid out is that he's got various categories and the one I'm actually
+interested in is called letters.sitemap. I'll just click on that and what we
+should see is a list of letters that he has written. I guess they're just
+articles. If we were to click on one of them it should take us to that article.
+We've got an article, we've got a video, we've got a whole lot of text and it's
+the text that's in each of these articles that I would like to do a question
+and answer but against. I've just grabbed the URL, let's paste it in here,
+thedanco.com letters.xml, it says that it's okay. I guess this is where we
+created a project. I have Danco items found, items indexed, I've got no
+information here. I clicked on this button and I ended up getting this list of
+documents. Some of them are queued. I guess that's reading those articles off the
+web. We're now up to 69 items indexed. We've got 85 founds and we've got some
+words indexed. What happens if we go in one more time? Missing or queued are now
+loaded. I'll do now is test this bot out. Click on this ask me anything button.
+We have new conversation. The question I've asked is what is Danco known for
+and why would I subscribe to his bot? We'll just click this button and it's
+starting to come up thinking at the moment. Danco is known as a writer and
+brand advisor for creators, influencers and social media figures that are in the
+seven to eight figure range. He has a deep interest in exploring human potential,
+lifestyle design and one person business. You know what I might do? I might ask
+this same question in chat GPT and compare what that comes up with. We'll head
+over to chat GPT. I'm running the GPT for model and I've got basically the same
+question coming through right here. This is a very typical of chat GPT to come up
+with this as my last update September 2001. I'm really happy with this custom
+GPT bot already. I know that Dan has increased in popularity really quickly
+over a few years. It's just given me generic terms of just do it yourself,
+which is a pain in the bum. So if we go back to the bot, we've got additional
+information. I might just read this subscribing to his blog, the code letter.
+It's good for a couple of reasons gain insights about life and business.
+He offers a free planner. He offers a course to our writer.
+This is one of the things I'm interested in learning is just how to become a better writer.
+The way I like to interact with chat GPT, I really do want to become a better writer
+while we're using chat GPT as a tool to enhance myself. I want to bring these two concepts together
+and he shares his experience on in digital economics to help you productize yourself
+brain content marketing. The other thing that I really enjoy when I listen to his
+YouTube videos, this idea of building a business around what you love doing,
+five different sources, a message from a recovering atheist, how to find God.
+Learn this skill if you want to thrive in the next 10 years.
+As I look through them all, they're all coming out of the letters on his website.
+This is great. It's drawing inspiration directly off his blog.
+First follow up question is, as a new business owner, creating content on YouTube,
+what are the first five steps that I should focus on? Keep it as a simple list and I'm using my
+understanding of prompt engineering that I use all the time with chat GPT to formulate these
+questions. Hudson GPT has come up with five answers. Understand high performing content,
+build an email list, develop your ideas. This is about writing and creating a product or service
+and consider paid growth. One of the reasons I started following Dan is that I want to learn
+how to write and to do email marketing. I don't currently have an email list, but by the time
+I publish this video, I will and I'll make sure there's a link in the description. I currently
+don't have anything to sell, but custom GPT.ai have an affiliate program. I'll put an affiliate
+link in the description and that would help the channel if you decide that this is a product
+you want to explore further. The last point here, consider paid growth. These are all pretty good
+answers, but the reason I've created a bot against this particular set of information is that I want
+to learn the art of creating YouTube titles, headlines, those sorts of messages that I've
+a convert, they create curiosity, people go, wow, I want to know about that topic. And I think that
+should be what my next prompt should be about. So I've created a question here. I want to know how
+to write titles for YouTube, Twitter and blog posts that create engagement, curiosity and clicks.
+Where do I start? Understand your audience using power words. It's given an example of a few power
+words, have a clear and short title, especially for Twitter and YouTube, use numbers, so five ways
+other platforms create a sense of urgency. And one of the things I could follow up with a question
+is what does that mean? What are examples of creating a sense of urgency and testing different
+titles? Now, let's see how I have done this in the past and how this is going to add a lot of value
+to what I do in the future. Head over to ChatGPT where I have a lot of bots that I've created in
+the past. A few that are important start with the letter YT. It's for YouTube. We have the YouTube
+description, YouTube title, creation tips one, creation tips two. And these are variations of
+bots that I've created just for doing YouTube titles. If we were to click on one of them,
+you can see that I often just give it a simple keyword and a title that just comes out of my
+head. What did I think this video happened to be about in layman's terms? I end up getting a bunch
+of relatively good YouTube titles. You sometimes need to edit them a little bit,
+but it does a lot of the heavy lifting for me. And the way I initially created this bot about six
+months ago, you are a specialist in YouTube title creation. I preloaded it with a bunch of information
+that I learned from people like MrBeast and watching different YouTube influencers who were
+top of their game, how they wrote headlines. This has been pretty good for me so far, but it's a
+monkey see monkey do approach to using ChatGPT. These days, I have more skills in the area of
+automating ChatGPT through programming and through learning through people like Danco.
+I can also start to understand how what it means to be a good writer, the psychology of headlines.
+I'd like to feed knowledge into my title and description generation bots. And this is what
+led me to trailing custom GPT.ai. I think it might be useful to do something with this chat bot.
+Maybe we can put it on our website or HTML page. One of the things I've noticed is if I come back
+to my projects, I wasn't sure how to get back into the chat. I know there's a question here,
+but I don't see previous chats. I did find out if that you click on the ask me anything.
+You can get to previous chats over here on the left. Previous chat bot, we've got a background,
+we've got a logo, maybe that can be Danco. If we click over on settings, we have the ability to go
+to, let's click on this user experience, conversation settings, custom persona. Oh, this
+is cool. This probably like a system prompt in chat GPT. But I think this is the one I want to
+work with. We have a color, have a background, other information. We will upload a new image.
+I might create one with mid journey. So the sharing has we've got embeds. This is the sort of stuff
+we'd want on a HTML page. I'll just turn that off for now because I'm not sure whether I need to do
+that after updating this information. Just brought me journey up Terry Potter in Pixar,
+some Donald Duck, and let's head over to this window because it's Danco chat bot,
+one as well gives the likeness of him copy image address should be good enough. I'm just going
+to do something really simple, paste image of his profile in the style of Steve Irwin,
+Bill Ochre, Australian legend with a crocodile that look interesting. They're okay. This one's
+pretty good. This one, I think if I go back and look at the original image, he's looking off to
+the right. I think that might be a good one to work with. We'll do an upscale on number four.
+You could also do number two before we'll do. I've uploaded his image. I've set the color to black.
+I'm not going to worry about the background image. What I'll do now is I'll take a little bit of
+time out just to create a HTML page that might be able to host this particular embedding.
+Everything appears to be working now on the chat bot. The only challenge I've got now is
+the color scheme here. Let's go over to mid-journey and I've gone and created a few images here.
+I'm just looking for a color that might fit in. I've just gone dark blue streaks with light
+on a background. I better do the aspect ratio 16.9 and we will just try one of them out.
+Maybe this one will see what it does. Let's head into the chat bot and we've got this change
+image that we can click on here. I've downloaded a couple. I reckon we'll work with that one.
+Do we have a save? We have a save button. Let's head back to the website and we can just hit
+really fresh and there we go.

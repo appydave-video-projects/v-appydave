@@ -1,0 +1,2436 @@
+1
+00:00:00,100 --> 00:00:00,600
+<u>Do</u> you want to create avatars of yourself in various styles, maybe Disney art, comic
+
+2
+00:00:00,600 --> 00:00:00,660
+Do<u> you</u> want to create avatars of yourself in various styles, maybe Disney art, comic
+
+3
+00:00:00,660 --> 00:00:00,780
+Do you<u> want</u> to create avatars of yourself in various styles, maybe Disney art, comic
+
+4
+00:00:00,780 --> 00:00:00,880
+Do you want<u> to</u> create avatars of yourself in various styles, maybe Disney art, comic
+
+5
+00:00:00,880 --> 00:00:01,080
+Do you want to<u> create</u> avatars of yourself in various styles, maybe Disney art, comic
+
+6
+00:00:01,080 --> 00:00:01,740
+Do you want to create<u> avatars</u> of yourself in various styles, maybe Disney art, comic
+
+7
+00:00:01,740 --> 00:00:02,020
+Do you want to create avatars<u> of</u> yourself in various styles, maybe Disney art, comic
+
+8
+00:00:02,020 --> 00:00:02,320
+Do you want to create avatars of<u> yourself</u> in various styles, maybe Disney art, comic
+
+9
+00:00:02,320 --> 00:00:02,580
+Do you want to create avatars of yourself<u> in</u> various styles, maybe Disney art, comic
+
+10
+00:00:02,580 --> 00:00:02,880
+Do you want to create avatars of yourself in<u> various</u> styles, maybe Disney art, comic
+
+11
+00:00:02,880 --> 00:00:03,300
+Do you want to create avatars of yourself in various<u> styles,</u> maybe Disney art, comic
+
+12
+00:00:03,300 --> 00:00:03,540
+Do you want to create avatars of yourself in various styles, maybe Disney art, comic
+
+13
+00:00:03,540 --> 00:00:03,700
+Do you want to create avatars of yourself in various styles,<u> maybe</u> Disney art, comic
+
+14
+00:00:03,700 --> 00:00:04,060
+Do you want to create avatars of yourself in various styles, maybe<u> Disney</u> art, comic
+
+15
+00:00:04,060 --> 00:00:04,420
+Do you want to create avatars of yourself in various styles, maybe Disney<u> art,</u> comic
+
+16
+00:00:04,420 --> 00:00:04,620
+Do you want to create avatars of yourself in various styles, maybe Disney art, comic
+
+17
+00:00:04,620 --> 00:00:04,860
+Do you want to create avatars of yourself in various styles, maybe Disney art,<u> comic</u>
+
+18
+00:00:04,860 --> 00:00:05,240
+<u>book,</u> photorealistic, and maybe you want to have an API so that you could automate it
+
+19
+00:00:05,240 --> 00:00:05,560
+book, photorealistic, and maybe you want to have an API so that you could automate it
+
+20
+00:00:05,560 --> 00:00:06,360
+book,<u> photorealistic,</u> and maybe you want to have an API so that you could automate it
+
+21
+00:00:06,360 --> 00:00:06,780
+book, photorealistic, and maybe you want to have an API so that you could automate it
+
+22
+00:00:06,780 --> 00:00:07,060
+book, photorealistic,<u> and</u> maybe you want to have an API so that you could automate it
+
+23
+00:00:07,060 --> 00:00:07,300
+book, photorealistic, and<u> maybe</u> you want to have an API so that you could automate it
+
+24
+00:00:07,300 --> 00:00:07,500
+book, photorealistic, and maybe<u> you</u> want to have an API so that you could automate it
+
+25
+00:00:07,500 --> 00:00:07,660
+book, photorealistic, and maybe you<u> want</u> to have an API so that you could automate it
+
+26
+00:00:07,660 --> 00:00:07,880
+book, photorealistic, and maybe you want<u> to</u> have an API so that you could automate it
+
+27
+00:00:07,880 --> 00:00:08,140
+book, photorealistic, and maybe you want to<u> have</u> an API so that you could automate it
+
+28
+00:00:08,140 --> 00:00:08,260
+book, photorealistic, and maybe you want to have<u> an</u> API so that you could automate it
+
+29
+00:00:08,260 --> 00:00:08,660
+book, photorealistic, and maybe you want to have an<u> API</u> so that you could automate it
+
+30
+00:00:08,660 --> 00:00:09,080
+book, photorealistic, and maybe you want to have an API<u> so</u> that you could automate it
+
+31
+00:00:09,080 --> 00:00:09,260
+book, photorealistic, and maybe you want to have an API so<u> that</u> you could automate it
+
+32
+00:00:09,260 --> 00:00:09,400
+book, photorealistic, and maybe you want to have an API so that<u> you</u> could automate it
+
+33
+00:00:09,400 --> 00:00:09,580
+book, photorealistic, and maybe you want to have an API so that you<u> could</u> automate it
+
+34
+00:00:09,580 --> 00:00:10,000
+book, photorealistic, and maybe you want to have an API so that you could<u> automate</u> it
+
+35
+00:00:10,000 --> 00:00:10,220
+book, photorealistic, and maybe you want to have an API so that you could automate<u> it</u>
+
+36
+00:00:10,220 --> 00:00:10,400
+<u>in</u> the future.
+
+37
+00:00:10,400 --> 00:00:10,500
+in<u> the</u> future.
+
+38
+00:00:10,500 --> 00:00:10,840
+in the<u> future.</u>
+
+39
+00:00:11,340 --> 00:00:11,460
+<u>Maybe</u> you want to check out this tool.
+
+40
+00:00:11,460 --> 00:00:11,660
+Maybe<u> you</u> want to check out this tool.
+
+41
+00:00:11,660 --> 00:00:11,800
+Maybe you<u> want</u> to check out this tool.
+
+42
+00:00:11,800 --> 00:00:11,860
+Maybe you want<u> to</u> check out this tool.
+
+43
+00:00:11,860 --> 00:00:12,040
+Maybe you want to<u> check</u> out this tool.
+
+44
+00:00:12,040 --> 00:00:12,220
+Maybe you want to check<u> out</u> this tool.
+
+45
+00:00:12,220 --> 00:00:12,440
+Maybe you want to check out<u> this</u> tool.
+
+46
+00:00:12,440 --> 00:00:12,740
+Maybe you want to check out this<u> tool.</u>
+
+47
+00:00:12,980 --> 00:00:13,260
+<u>Digital</u> doubles are nothing new, but this little replica to end point will get you started
+
+48
+00:00:13,260 --> 00:00:13,640
+Digital<u> doubles</u> are nothing new, but this little replica to end point will get you started
+
+49
+00:00:13,640 --> 00:00:13,880
+Digital doubles<u> are</u> nothing new, but this little replica to end point will get you started
+
+50
+00:00:13,880 --> 00:00:14,080
+Digital doubles are<u> nothing</u> new, but this little replica to end point will get you started
+
+51
+00:00:14,080 --> 00:00:14,400
+Digital doubles are nothing<u> new,</u> but this little replica to end point will get you started
+
+52
+00:00:14,400 --> 00:00:14,540
+Digital doubles are nothing new, but this little replica to end point will get you started
+
+53
+00:00:14,540 --> 00:00:14,580
+Digital doubles are nothing new,<u> but</u> this little replica to end point will get you started
+
+54
+00:00:14,580 --> 00:00:14,800
+Digital doubles are nothing new, but<u> this</u> little replica to end point will get you started
+
+55
+00:00:14,800 --> 00:00:15,100
+Digital doubles are nothing new, but this<u> little</u> replica to end point will get you started
+
+56
+00:00:15,100 --> 00:00:15,460
+Digital doubles are nothing new, but this little<u> replica</u> to end point will get you started
+
+57
+00:00:15,460 --> 00:00:15,880
+Digital doubles are nothing new, but this little replica<u> to</u> end point will get you started
+
+58
+00:00:15,880 --> 00:00:16,140
+Digital doubles are nothing new, but this little replica to<u> end</u> point will get you started
+
+59
+00:00:16,140 --> 00:00:16,400
+Digital doubles are nothing new, but this little replica to end<u> point</u> will get you started
+
+60
+00:00:16,400 --> 00:00:16,580
+Digital doubles are nothing new, but this little replica to end point<u> will</u> get you started
+
+61
+00:00:16,580 --> 00:00:16,780
+Digital doubles are nothing new, but this little replica to end point will<u> get</u> you started
+
+62
+00:00:16,780 --> 00:00:16,900
+Digital doubles are nothing new, but this little replica to end point will get<u> you</u> started
+
+63
+00:00:16,900 --> 00:00:17,220
+Digital doubles are nothing new, but this little replica to end point will get you<u> started</u>
+
+64
+00:00:17,220 --> 00:00:17,640
+<u>quickly</u> and easily.
+
+65
+00:00:17,640 --> 00:00:17,880
+quickly<u> and</u> easily.
+
+66
+00:00:17,880 --> 00:00:18,200
+quickly and<u> easily.</u>
+
+67
+00:00:18,860 --> 00:00:19,040
+<u>If</u> you head over to replica.com, Tencentark slash Photomaker, you can find this playground
+
+68
+00:00:19,040 --> 00:00:19,140
+If<u> you</u> head over to replica.com, Tencentark slash Photomaker, you can find this playground
+
+69
+00:00:19,140 --> 00:00:19,320
+If you<u> head</u> over to replica.com, Tencentark slash Photomaker, you can find this playground
+
+70
+00:00:19,320 --> 00:00:19,560
+If you head<u> over</u> to replica.com, Tencentark slash Photomaker, you can find this playground
+
+71
+00:00:19,560 --> 00:00:19,840
+If you head over<u> to</u> replica.com, Tencentark slash Photomaker, you can find this playground
+
+72
+00:00:19,840 --> 00:00:20,300
+If you head over to<u> replica</u>.com, Tencentark slash Photomaker, you can find this playground
+
+73
+00:00:20,300 --> 00:00:21,460
+If you head over to replica<u>.com,</u> Tencentark slash Photomaker, you can find this playground
+
+74
+00:00:21,460 --> 00:00:21,940
+If you head over to replica.com, Tencentark slash Photomaker, you can find this playground
+
+75
+00:00:21,940 --> 00:00:22,740
+If you head over to replica.com,<u> Tencentark</u> slash Photomaker, you can find this playground
+
+76
+00:00:22,740 --> 00:00:23,200
+If you head over to replica.com, Tencentark<u> slash</u> Photomaker, you can find this playground
+
+77
+00:00:23,200 --> 00:00:24,100
+If you head over to replica.com, Tencentark slash<u> Photomaker,</u> you can find this playground
+
+78
+00:00:24,100 --> 00:00:24,560
+If you head over to replica.com, Tencentark slash Photomaker, you can find this playground
+
+79
+00:00:24,560 --> 00:00:24,820
+If you head over to replica.com, Tencentark slash Photomaker,<u> you</u> can find this playground
+
+80
+00:00:24,820 --> 00:00:24,980
+If you head over to replica.com, Tencentark slash Photomaker, you<u> can</u> find this playground
+
+81
+00:00:24,980 --> 00:00:25,160
+If you head over to replica.com, Tencentark slash Photomaker, you can<u> find</u> this playground
+
+82
+00:00:25,160 --> 00:00:25,360
+If you head over to replica.com, Tencentark slash Photomaker, you can find<u> this</u> playground
+
+83
+00:00:25,360 --> 00:00:25,820
+If you head over to replica.com, Tencentark slash Photomaker, you can find this<u> playground</u>
+
+84
+00:00:25,820 --> 00:00:26,160
+<u>where</u> you can create photos, paintings, and avatars of yourself just by uploading a couple
+
+85
+00:00:26,160 --> 00:00:26,300
+where<u> you</u> can create photos, paintings, and avatars of yourself just by uploading a couple
+
+86
+00:00:26,300 --> 00:00:26,500
+where you<u> can</u> create photos, paintings, and avatars of yourself just by uploading a couple
+
+87
+00:00:26,500 --> 00:00:26,840
+where you can<u> create</u> photos, paintings, and avatars of yourself just by uploading a couple
+
+88
+00:00:26,840 --> 00:00:27,220
+where you can create<u> photos,</u> paintings, and avatars of yourself just by uploading a couple
+
+89
+00:00:27,220 --> 00:00:27,540
+where you can create photos, paintings, and avatars of yourself just by uploading a couple
+
+90
+00:00:27,540 --> 00:00:27,820
+where you can create photos,<u> paintings,</u> and avatars of yourself just by uploading a couple
+
+91
+00:00:27,820 --> 00:00:28,100
+where you can create photos, paintings, and avatars of yourself just by uploading a couple
+
+92
+00:00:28,100 --> 00:00:28,180
+where you can create photos, paintings,<u> and</u> avatars of yourself just by uploading a couple
+
+93
+00:00:28,180 --> 00:00:28,880
+where you can create photos, paintings, and<u> avatars</u> of yourself just by uploading a couple
+
+94
+00:00:28,880 --> 00:00:29,300
+where you can create photos, paintings, and avatars<u> of</u> yourself just by uploading a couple
+
+95
+00:00:29,300 --> 00:00:29,720
+where you can create photos, paintings, and avatars of<u> yourself</u> just by uploading a couple
+
+96
+00:00:29,720 --> 00:00:29,980
+where you can create photos, paintings, and avatars of yourself<u> just</u> by uploading a couple
+
+97
+00:00:29,980 --> 00:00:30,220
+where you can create photos, paintings, and avatars of yourself just<u> by</u> uploading a couple
+
+98
+00:00:30,220 --> 00:00:30,740
+where you can create photos, paintings, and avatars of yourself just by<u> uploading</u> a couple
+
+99
+00:00:30,740 --> 00:00:30,980
+where you can create photos, paintings, and avatars of yourself just by uploading<u> a</u> couple
+
+100
+00:00:30,980 --> 00:00:31,200
+where you can create photos, paintings, and avatars of yourself just by uploading a<u> couple</u>
+
+101
+00:00:31,200 --> 00:00:31,460
+<u>of</u> images.
+
+102
+00:00:31,460 --> 00:00:31,940
+of<u> images.</u>
+
+103
+00:00:32,600 --> 00:00:32,880
+<u>Looking</u> through the examples here, you'll find that there'll be a prompt and within it
+
+104
+00:00:32,880 --> 00:00:33,100
+Looking<u> through</u> the examples here, you'll find that there'll be a prompt and within it
+
+105
+00:00:33,100 --> 00:00:33,280
+Looking through<u> the</u> examples here, you'll find that there'll be a prompt and within it
+
+106
+00:00:33,280 --> 00:00:33,700
+Looking through the<u> examples</u> here, you'll find that there'll be a prompt and within it
+
+107
+00:00:33,700 --> 00:00:34,180
+Looking through the examples<u> here,</u> you'll find that there'll be a prompt and within it
+
+108
+00:00:34,180 --> 00:00:34,280
+Looking through the examples here, you'll find that there'll be a prompt and within it
+
+109
+00:00:34,280 --> 00:00:34,480
+Looking through the examples here,<u> you'll</u> find that there'll be a prompt and within it
+
+110
+00:00:34,480 --> 00:00:34,720
+Looking through the examples here, you'll<u> find</u> that there'll be a prompt and within it
+
+111
+00:00:34,720 --> 00:00:34,920
+Looking through the examples here, you'll find<u> that</u> there'll be a prompt and within it
+
+112
+00:00:34,920 --> 00:00:35,240
+Looking through the examples here, you'll find that<u> there'll</u> be a prompt and within it
+
+113
+00:00:35,240 --> 00:00:35,420
+Looking through the examples here, you'll find that there'll<u> be</u> a prompt and within it
+
+114
+00:00:35,420 --> 00:00:35,620
+Looking through the examples here, you'll find that there'll be<u> a</u> prompt and within it
+
+115
+00:00:35,620 --> 00:00:35,860
+Looking through the examples here, you'll find that there'll be a<u> prompt</u> and within it
+
+116
+00:00:35,860 --> 00:00:36,320
+Looking through the examples here, you'll find that there'll be a prompt<u> and</u> within it
+
+117
+00:00:36,320 --> 00:00:36,620
+Looking through the examples here, you'll find that there'll be a prompt and<u> within</u> it
+
+118
+00:00:36,620 --> 00:00:36,820
+Looking through the examples here, you'll find that there'll be a prompt and within<u> it</u>
+
+119
+00:00:36,820 --> 00:00:36,940
+<u>will</u> be a keyword called image where the image you're uploading would be inserted inside
+
+120
+00:00:36,940 --> 00:00:37,120
+will<u> be</u> a keyword called image where the image you're uploading would be inserted inside
+
+121
+00:00:37,120 --> 00:00:37,240
+will be<u> a</u> keyword called image where the image you're uploading would be inserted inside
+
+122
+00:00:37,240 --> 00:00:37,660
+will be a<u> keyword</u> called image where the image you're uploading would be inserted inside
+
+123
+00:00:37,660 --> 00:00:38,100
+will be a keyword<u> called</u> image where the image you're uploading would be inserted inside
+
+124
+00:00:38,100 --> 00:00:38,480
+will be a keyword called<u> image</u> where the image you're uploading would be inserted inside
+
+125
+00:00:38,480 --> 00:00:39,060
+will be a keyword called image<u> where</u> the image you're uploading would be inserted inside
+
+126
+00:00:39,060 --> 00:00:39,460
+will be a keyword called image where<u> the</u> image you're uploading would be inserted inside
+
+127
+00:00:39,460 --> 00:00:39,740
+will be a keyword called image where the<u> image</u> you're uploading would be inserted inside
+
+128
+00:00:39,740 --> 00:00:40,040
+will be a keyword called image where the image<u> you're</u> uploading would be inserted inside
+
+129
+00:00:40,040 --> 00:00:40,480
+will be a keyword called image where the image you're<u> uploading</u> would be inserted inside
+
+130
+00:00:40,480 --> 00:00:40,800
+will be a keyword called image where the image you're uploading<u> would</u> be inserted inside
+
+131
+00:00:40,800 --> 00:00:41,020
+will be a keyword called image where the image you're uploading would<u> be</u> inserted inside
+
+132
+00:00:41,020 --> 00:00:41,640
+will be a keyword called image where the image you're uploading would be<u> inserted</u> inside
+
+133
+00:00:41,640 --> 00:00:42,420
+will be a keyword called image where the image you're uploading would be inserted<u> inside</u>
+
+134
+00:00:42,420 --> 00:00:42,680
+<u>of</u> this prompt.
+
+135
+00:00:42,680 --> 00:00:42,820
+of<u> this</u> prompt.
+
+136
+00:00:42,820 --> 00:00:43,220
+of this<u> prompt.</u>
+
+137
+00:00:43,600 --> 00:00:43,760
+<u>If</u> we started with this sort of image and we wanted photographic, then this is what it
+
+138
+00:00:43,760 --> 00:00:43,940
+If<u> we</u> started with this sort of image and we wanted photographic, then this is what it
+
+139
+00:00:43,940 --> 00:00:44,300
+If we<u> started</u> with this sort of image and we wanted photographic, then this is what it
+
+140
+00:00:44,300 --> 00:00:44,620
+If we started<u> with</u> this sort of image and we wanted photographic, then this is what it
+
+141
+00:00:44,620 --> 00:00:44,880
+If we started with<u> this</u> sort of image and we wanted photographic, then this is what it
+
+142
+00:00:44,880 --> 00:00:45,120
+If we started with this<u> sort</u> of image and we wanted photographic, then this is what it
+
+143
+00:00:45,120 --> 00:00:45,220
+If we started with this sort<u> of</u> image and we wanted photographic, then this is what it
+
+144
+00:00:45,220 --> 00:00:45,620
+If we started with this sort of<u> image</u> and we wanted photographic, then this is what it
+
+145
+00:00:45,620 --> 00:00:46,240
+If we started with this sort of image<u> and</u> we wanted photographic, then this is what it
+
+146
+00:00:46,240 --> 00:00:46,380
+If we started with this sort of image and<u> we</u> wanted photographic, then this is what it
+
+147
+00:00:46,380 --> 00:00:46,640
+If we started with this sort of image and we<u> wanted</u> photographic, then this is what it
+
+148
+00:00:46,640 --> 00:00:47,680
+If we started with this sort of image and we wanted<u> photographic,</u> then this is what it
+
+149
+00:00:47,680 --> 00:00:47,880
+If we started with this sort of image and we wanted photographic, then this is what it
+
+150
+00:00:47,880 --> 00:00:48,100
+If we started with this sort of image and we wanted photographic,<u> then</u> this is what it
+
+151
+00:00:48,100 --> 00:00:48,540
+If we started with this sort of image and we wanted photographic, then<u> this</u> is what it
+
+152
+00:00:48,540 --> 00:00:48,700
+If we started with this sort of image and we wanted photographic, then this<u> is</u> what it
+
+153
+00:00:48,700 --> 00:00:48,880
+If we started with this sort of image and we wanted photographic, then this is<u> what</u> it
+
+154
+00:00:48,880 --> 00:00:49,000
+If we started with this sort of image and we wanted photographic, then this is what<u> it</u>
+
+155
+00:00:49,000 --> 00:00:49,220
+<u>comes</u> up with.
+
+156
+00:00:49,220 --> 00:00:49,500
+comes<u> up</u> with.
+
+157
+00:00:49,500 --> 00:00:49,760
+comes up<u> with.</u>
+
+158
+00:00:50,280 --> 00:00:50,700
+<u>Next</u> example is a photo of a woman with the image placeholder.
+
+159
+00:00:50,700 --> 00:00:51,220
+Next<u> example</u> is a photo of a woman with the image placeholder.
+
+160
+00:00:51,220 --> 00:00:51,640
+Next example<u> is</u> a photo of a woman with the image placeholder.
+
+161
+00:00:51,640 --> 00:00:51,900
+Next example is<u> a</u> photo of a woman with the image placeholder.
+
+162
+00:00:51,900 --> 00:00:52,180
+Next example is a<u> photo</u> of a woman with the image placeholder.
+
+163
+00:00:52,180 --> 00:00:52,380
+Next example is a photo<u> of</u> a woman with the image placeholder.
+
+164
+00:00:52,380 --> 00:00:52,480
+Next example is a photo of<u> a</u> woman with the image placeholder.
+
+165
+00:00:52,480 --> 00:00:52,740
+Next example is a photo of a<u> woman</u> with the image placeholder.
+
+166
+00:00:52,740 --> 00:00:53,140
+Next example is a photo of a woman<u> with</u> the image placeholder.
+
+167
+00:00:53,140 --> 00:00:53,300
+Next example is a photo of a woman with<u> the</u> image placeholder.
+
+168
+00:00:53,300 --> 00:00:53,620
+Next example is a photo of a woman with the<u> image</u> placeholder.
+
+169
+00:00:53,620 --> 00:00:54,340
+Next example is a photo of a woman with the image<u> placeholder.</u>
+
+170
+00:00:54,340 --> 00:00:54,620
+<u>Now</u> this is the woman that's going to go into the placeholder and in this case the
+
+171
+00:00:54,620 --> 00:00:54,880
+Now<u> this</u> is the woman that's going to go into the placeholder and in this case the
+
+172
+00:00:54,880 --> 00:00:55,020
+Now this<u> is</u> the woman that's going to go into the placeholder and in this case the
+
+173
+00:00:55,020 --> 00:00:55,180
+Now this is<u> the</u> woman that's going to go into the placeholder and in this case the
+
+174
+00:00:55,180 --> 00:00:55,400
+Now this is the<u> woman</u> that's going to go into the placeholder and in this case the
+
+175
+00:00:55,400 --> 00:00:55,800
+Now this is the woman<u> that's</u> going to go into the placeholder and in this case the
+
+176
+00:00:55,800 --> 00:00:56,000
+Now this is the woman that's<u> going</u> to go into the placeholder and in this case the
+
+177
+00:00:56,000 --> 00:00:56,160
+Now this is the woman that's going<u> to</u> go into the placeholder and in this case the
+
+178
+00:00:56,160 --> 00:00:56,320
+Now this is the woman that's going to<u> go</u> into the placeholder and in this case the
+
+179
+00:00:56,320 --> 00:00:56,500
+Now this is the woman that's going to go<u> into</u> the placeholder and in this case the
+
+180
+00:00:56,500 --> 00:00:56,680
+Now this is the woman that's going to go into<u> the</u> placeholder and in this case the
+
+181
+00:00:56,680 --> 00:00:57,220
+Now this is the woman that's going to go into the<u> placeholder</u> and in this case the
+
+182
+00:00:57,220 --> 00:00:57,680
+Now this is the woman that's going to go into the placeholder<u> and</u> in this case the
+
+183
+00:00:57,680 --> 00:00:57,780
+Now this is the woman that's going to go into the placeholder and<u> in</u> this case the
+
+184
+00:00:57,780 --> 00:00:57,980
+Now this is the woman that's going to go into the placeholder and in<u> this</u> case the
+
+185
+00:00:57,980 --> 00:00:58,240
+Now this is the woman that's going to go into the placeholder and in this<u> case</u> the
+
+186
+00:00:58,240 --> 00:00:58,460
+Now this is the woman that's going to go into the placeholder and in this case<u> the</u>
+
+187
+00:00:58,460 --> 00:00:58,800
+<u>style</u> is Neopunk.
+
+188
+00:00:58,800 --> 00:00:59,180
+style<u> is</u> Neopunk.
+
+189
+00:00:59,180 --> 00:00:59,940
+style is<u> Neopunk.</u>
+
+190
+00:01:00,320 --> 00:01:00,700
+<u>Here</u> the image has changed to Neopunk.
+
+191
+00:01:00,700 --> 00:01:00,880
+Here<u> the</u> image has changed to Neopunk.
+
+192
+00:01:00,880 --> 00:01:01,140
+Here the<u> image</u> has changed to Neopunk.
+
+193
+00:01:01,140 --> 00:01:01,340
+Here the image<u> has</u> changed to Neopunk.
+
+194
+00:01:01,340 --> 00:01:01,740
+Here the image has<u> changed</u> to Neopunk.
+
+195
+00:01:01,740 --> 00:01:02,080
+Here the image has changed<u> to</u> Neopunk.
+
+196
+00:01:02,080 --> 00:01:02,680
+Here the image has changed to<u> Neopunk.</u>
+
+197
+00:01:03,220 --> 00:01:03,360
+<u>Now</u> you can also upload multiple images.
+
+198
+00:01:03,360 --> 00:01:03,480
+Now<u> you</u> can also upload multiple images.
+
+199
+00:01:03,480 --> 00:01:03,640
+Now you<u> can</u> also upload multiple images.
+
+200
+00:01:03,640 --> 00:01:03,920
+Now you can<u> also</u> upload multiple images.
+
+201
+00:01:03,920 --> 00:01:04,440
+Now you can also<u> upload</u> multiple images.
+
+202
+00:01:04,440 --> 00:01:04,900
+Now you can also upload<u> multiple</u> images.
+
+203
+00:01:04,900 --> 00:01:05,440
+Now you can also upload multiple<u> images.</u>
+
+204
+00:01:05,800 --> 00:01:05,860
+<u>So</u> in the case of a photo of a female painter in her studio and clearly this is
+
+205
+00:01:05,860 --> 00:01:06,020
+So<u> in</u> the case of a photo of a female painter in her studio and clearly this is
+
+206
+00:01:06,020 --> 00:01:06,120
+So in<u> the</u> case of a photo of a female painter in her studio and clearly this is
+
+207
+00:01:06,120 --> 00:01:06,380
+So in the<u> case</u> of a photo of a female painter in her studio and clearly this is
+
+208
+00:01:06,380 --> 00:01:06,540
+So in the case<u> of</u> a photo of a female painter in her studio and clearly this is
+
+209
+00:01:06,540 --> 00:01:06,660
+So in the case of<u> a</u> photo of a female painter in her studio and clearly this is
+
+210
+00:01:06,660 --> 00:01:06,900
+So in the case of a<u> photo</u> of a female painter in her studio and clearly this is
+
+211
+00:01:06,900 --> 00:01:07,160
+So in the case of a photo<u> of</u> a female painter in her studio and clearly this is
+
+212
+00:01:07,160 --> 00:01:07,300
+So in the case of a photo of<u> a</u> female painter in her studio and clearly this is
+
+213
+00:01:07,300 --> 00:01:07,540
+So in the case of a photo of a<u> female</u> painter in her studio and clearly this is
+
+214
+00:01:07,540 --> 00:01:08,220
+So in the case of a photo of a female<u> painter</u> in her studio and clearly this is
+
+215
+00:01:08,220 --> 00:01:08,760
+So in the case of a photo of a female painter<u> in</u> her studio and clearly this is
+
+216
+00:01:08,760 --> 00:01:08,920
+So in the case of a photo of a female painter in<u> her</u> studio and clearly this is
+
+217
+00:01:08,920 --> 00:01:09,380
+So in the case of a photo of a female painter in her<u> studio</u> and clearly this is
+
+218
+00:01:09,380 --> 00:01:10,140
+So in the case of a photo of a female painter in her studio<u> and</u> clearly this is
+
+219
+00:01:10,140 --> 00:01:10,620
+So in the case of a photo of a female painter in her studio and<u> clearly</u> this is
+
+220
+00:01:10,620 --> 00:01:10,980
+So in the case of a photo of a female painter in her studio and clearly<u> this</u> is
+
+221
+00:01:10,980 --> 00:01:11,140
+So in the case of a photo of a female painter in her studio and clearly this<u> is</u>
+
+222
+00:01:11,140 --> 00:01:12,100
+<u>photographic,</u> it's the default one.
+
+223
+00:01:12,100 --> 00:01:12,340
+photographic,<u> it's</u> the default one.
+
+224
+00:01:12,340 --> 00:01:12,480
+photographic, it's<u> the</u> default one.
+
+225
+00:01:12,480 --> 00:01:12,840
+photographic, it's the<u> default</u> one.
+
+226
+00:01:12,840 --> 00:01:13,160
+photographic, it's the default<u> one.</u>
+
+227
+00:01:13,560 --> 00:01:13,660
+<u>What</u> we can do is take these paintings that are here and convert it directly into a
+
+228
+00:01:13,660 --> 00:01:13,820
+What<u> we</u> can do is take these paintings that are here and convert it directly into a
+
+229
+00:01:13,820 --> 00:01:13,980
+What we<u> can</u> do is take these paintings that are here and convert it directly into a
+
+230
+00:01:13,980 --> 00:01:14,160
+What we can<u> do</u> is take these paintings that are here and convert it directly into a
+
+231
+00:01:14,160 --> 00:01:14,340
+What we can do<u> is</u> take these paintings that are here and convert it directly into a
+
+232
+00:01:14,340 --> 00:01:14,640
+What we can do is<u> take</u> these paintings that are here and convert it directly into a
+
+233
+00:01:14,640 --> 00:01:15,020
+What we can do is take<u> these</u> paintings that are here and convert it directly into a
+
+234
+00:01:15,020 --> 00:01:15,620
+What we can do is take these<u> paintings</u> that are here and convert it directly into a
+
+235
+00:01:15,620 --> 00:01:16,160
+What we can do is take these paintings<u> that</u> are here and convert it directly into a
+
+236
+00:01:16,160 --> 00:01:16,280
+What we can do is take these paintings that<u> are</u> here and convert it directly into a
+
+237
+00:01:16,280 --> 00:01:16,580
+What we can do is take these paintings that are<u> here</u> and convert it directly into a
+
+238
+00:01:16,580 --> 00:01:17,260
+What we can do is take these paintings that are here<u> and</u> convert it directly into a
+
+239
+00:01:17,260 --> 00:01:17,680
+What we can do is take these paintings that are here and<u> convert</u> it directly into a
+
+240
+00:01:17,680 --> 00:01:17,900
+What we can do is take these paintings that are here and convert<u> it</u> directly into a
+
+241
+00:01:17,900 --> 00:01:18,300
+What we can do is take these paintings that are here and convert it<u> directly</u> into a
+
+242
+00:01:18,300 --> 00:01:18,640
+What we can do is take these paintings that are here and convert it directly<u> into</u> a
+
+243
+00:01:18,640 --> 00:01:18,900
+What we can do is take these paintings that are here and convert it directly into<u> a</u>
+
+244
+00:01:18,900 --> 00:01:19,520
+<u>photographic</u> image.
+
+245
+00:01:19,520 --> 00:01:19,700
+photographic<u> image.</u>
+
+246
+00:01:20,140 --> 00:01:20,440
+<u>Now</u> that you've seen the examples, let's just have a quick look at the API.
+
+247
+00:01:20,440 --> 00:01:20,560
+Now<u> that</u> you've seen the examples, let's just have a quick look at the API.
+
+248
+00:01:20,560 --> 00:01:20,740
+Now that<u> you've</u> seen the examples, let's just have a quick look at the API.
+
+249
+00:01:20,740 --> 00:01:20,920
+Now that you've<u> seen</u> the examples, let's just have a quick look at the API.
+
+250
+00:01:20,920 --> 00:01:21,080
+Now that you've seen<u> the</u> examples, let's just have a quick look at the API.
+
+251
+00:01:21,080 --> 00:01:21,560
+Now that you've seen the<u> examples,</u> let's just have a quick look at the API.
+
+252
+00:01:21,560 --> 00:01:21,720
+Now that you've seen the examples, let's just have a quick look at the API.
+
+253
+00:01:21,720 --> 00:01:21,960
+Now that you've seen the examples,<u> let's</u> just have a quick look at the API.
+
+254
+00:01:21,960 --> 00:01:22,140
+Now that you've seen the examples, let's<u> just</u> have a quick look at the API.
+
+255
+00:01:22,140 --> 00:01:22,340
+Now that you've seen the examples, let's just<u> have</u> a quick look at the API.
+
+256
+00:01:22,340 --> 00:01:22,460
+Now that you've seen the examples, let's just have<u> a</u> quick look at the API.
+
+257
+00:01:22,460 --> 00:01:22,580
+Now that you've seen the examples, let's just have a<u> quick</u> look at the API.
+
+258
+00:01:22,580 --> 00:01:22,780
+Now that you've seen the examples, let's just have a quick<u> look</u> at the API.
+
+259
+00:01:22,780 --> 00:01:22,940
+Now that you've seen the examples, let's just have a quick look<u> at</u> the API.
+
+260
+00:01:22,940 --> 00:01:23,060
+Now that you've seen the examples, let's just have a quick look at<u> the</u> API.
+
+261
+00:01:23,060 --> 00:01:23,400
+Now that you've seen the examples, let's just have a quick look at the<u> API.</u>
+
+262
+00:01:23,580 --> 00:01:24,060
+<u>So</u> the API, they show multiple ways that you can run this particular model.
+
+263
+00:01:24,060 --> 00:01:24,240
+So<u> the</u> API, they show multiple ways that you can run this particular model.
+
+264
+00:01:24,240 --> 00:01:24,600
+So the<u> API,</u> they show multiple ways that you can run this particular model.
+
+265
+00:01:24,600 --> 00:01:24,820
+So the API, they show multiple ways that you can run this particular model.
+
+266
+00:01:24,820 --> 00:01:24,960
+So the API,<u> they</u> show multiple ways that you can run this particular model.
+
+267
+00:01:24,960 --> 00:01:25,280
+So the API, they<u> show</u> multiple ways that you can run this particular model.
+
+268
+00:01:25,280 --> 00:01:25,620
+So the API, they show<u> multiple</u> ways that you can run this particular model.
+
+269
+00:01:25,620 --> 00:01:26,000
+So the API, they show multiple<u> ways</u> that you can run this particular model.
+
+270
+00:01:26,000 --> 00:01:26,240
+So the API, they show multiple ways<u> that</u> you can run this particular model.
+
+271
+00:01:26,240 --> 00:01:26,360
+So the API, they show multiple ways that<u> you</u> can run this particular model.
+
+272
+00:01:26,360 --> 00:01:26,540
+So the API, they show multiple ways that you<u> can</u> run this particular model.
+
+273
+00:01:26,540 --> 00:01:26,780
+So the API, they show multiple ways that you can<u> run</u> this particular model.
+
+274
+00:01:26,780 --> 00:01:27,020
+So the API, they show multiple ways that you can run<u> this</u> particular model.
+
+275
+00:01:27,020 --> 00:01:27,460
+So the API, they show multiple ways that you can run this<u> particular</u> model.
+
+276
+00:01:27,460 --> 00:01:27,880
+So the API, they show multiple ways that you can run this particular<u> model.</u>
+
+277
+00:01:28,080 --> 00:01:28,240
+<u>And</u> if we look at the node version, we've got the ability to install it and then just
+
+278
+00:01:28,240 --> 00:01:28,400
+And<u> if</u> we look at the node version, we've got the ability to install it and then just
+
+279
+00:01:28,400 --> 00:01:28,520
+And if<u> we</u> look at the node version, we've got the ability to install it and then just
+
+280
+00:01:28,520 --> 00:01:28,720
+And if we<u> look</u> at the node version, we've got the ability to install it and then just
+
+281
+00:01:28,720 --> 00:01:28,840
+And if we look<u> at</u> the node version, we've got the ability to install it and then just
+
+282
+00:01:28,840 --> 00:01:28,980
+And if we look at<u> the</u> node version, we've got the ability to install it and then just
+
+283
+00:01:28,980 --> 00:01:29,320
+And if we look at the<u> node</u> version, we've got the ability to install it and then just
+
+284
+00:01:29,320 --> 00:01:29,860
+And if we look at the node<u> version,</u> we've got the ability to install it and then just
+
+285
+00:01:29,860 --> 00:01:29,940
+And if we look at the node version, we've got the ability to install it and then just
+
+286
+00:01:29,940 --> 00:01:30,140
+And if we look at the node version,<u> we've</u> got the ability to install it and then just
+
+287
+00:01:30,140 --> 00:01:30,260
+And if we look at the node version, we've<u> got</u> the ability to install it and then just
+
+288
+00:01:30,260 --> 00:01:30,420
+And if we look at the node version, we've got<u> the</u> ability to install it and then just
+
+289
+00:01:30,420 --> 00:01:30,740
+And if we look at the node version, we've got the<u> ability</u> to install it and then just
+
+290
+00:01:30,740 --> 00:01:31,080
+And if we look at the node version, we've got the ability<u> to</u> install it and then just
+
+291
+00:01:31,080 --> 00:01:31,600
+And if we look at the node version, we've got the ability to<u> install</u> it and then just
+
+292
+00:01:31,600 --> 00:01:31,800
+And if we look at the node version, we've got the ability to install<u> it</u> and then just
+
+293
+00:01:31,800 --> 00:01:32,400
+And if we look at the node version, we've got the ability to install it<u> and</u> then just
+
+294
+00:01:32,400 --> 00:01:32,560
+And if we look at the node version, we've got the ability to install it and<u> then</u> just
+
+295
+00:01:32,560 --> 00:01:32,840
+And if we look at the node version, we've got the ability to install it and then<u> just</u>
+
+296
+00:01:32,840 --> 00:01:33,280
+<u>one</u> set of code with the input image that you want to use to generate a new avatar.
+
+297
+00:01:33,280 --> 00:01:33,620
+one<u> set</u> of code with the input image that you want to use to generate a new avatar.
+
+298
+00:01:33,620 --> 00:01:33,720
+one set<u> of</u> code with the input image that you want to use to generate a new avatar.
+
+299
+00:01:33,720 --> 00:01:34,140
+one set of<u> code</u> with the input image that you want to use to generate a new avatar.
+
+300
+00:01:34,140 --> 00:01:34,760
+one set of code<u> with</u> the input image that you want to use to generate a new avatar.
+
+301
+00:01:34,760 --> 00:01:35,060
+one set of code with<u> the</u> input image that you want to use to generate a new avatar.
+
+302
+00:01:35,060 --> 00:01:35,440
+one set of code with the<u> input</u> image that you want to use to generate a new avatar.
+
+303
+00:01:35,440 --> 00:01:35,760
+one set of code with the input<u> image</u> that you want to use to generate a new avatar.
+
+304
+00:01:35,760 --> 00:01:36,100
+one set of code with the input image<u> that</u> you want to use to generate a new avatar.
+
+305
+00:01:36,100 --> 00:01:36,280
+one set of code with the input image that<u> you</u> want to use to generate a new avatar.
+
+306
+00:01:36,280 --> 00:01:36,500
+one set of code with the input image that you<u> want</u> to use to generate a new avatar.
+
+307
+00:01:36,500 --> 00:01:36,680
+one set of code with the input image that you want<u> to</u> use to generate a new avatar.
+
+308
+00:01:36,680 --> 00:01:37,000
+one set of code with the input image that you want to<u> use</u> to generate a new avatar.
+
+309
+00:01:37,000 --> 00:01:37,500
+one set of code with the input image that you want to use<u> to</u> generate a new avatar.
+
+310
+00:01:37,500 --> 00:01:38,000
+one set of code with the input image that you want to use to<u> generate</u> a new avatar.
+
+311
+00:01:38,000 --> 00:01:38,420
+one set of code with the input image that you want to use to generate<u> a</u> new avatar.
+
+312
+00:01:38,420 --> 00:01:38,740
+one set of code with the input image that you want to use to generate a<u> new</u> avatar.
+
+313
+00:01:38,740 --> 00:01:39,260
+one set of code with the input image that you want to use to generate a new<u> avatar.</u>
+
+314
+00:01:39,900 --> 00:01:40,160
+<u>Now</u> if you want to be notified when that avatar is generated, then you can set up the
+
+315
+00:01:40,160 --> 00:01:40,320
+Now<u> if</u> you want to be notified when that avatar is generated, then you can set up the
+
+316
+00:01:40,320 --> 00:01:40,400
+Now if<u> you</u> want to be notified when that avatar is generated, then you can set up the
+
+317
+00:01:40,400 --> 00:01:40,560
+Now if you<u> want</u> to be notified when that avatar is generated, then you can set up the
+
+318
+00:01:40,560 --> 00:01:40,620
+Now if you want<u> to</u> be notified when that avatar is generated, then you can set up the
+
+319
+00:01:40,620 --> 00:01:40,740
+Now if you want to<u> be</u> notified when that avatar is generated, then you can set up the
+
+320
+00:01:40,740 --> 00:01:41,280
+Now if you want to be<u> notified</u> when that avatar is generated, then you can set up the
+
+321
+00:01:41,280 --> 00:01:41,640
+Now if you want to be notified<u> when</u> that avatar is generated, then you can set up the
+
+322
+00:01:41,640 --> 00:01:41,820
+Now if you want to be notified when<u> that</u> avatar is generated, then you can set up the
+
+323
+00:01:41,820 --> 00:01:42,200
+Now if you want to be notified when that<u> avatar</u> is generated, then you can set up the
+
+324
+00:01:42,200 --> 00:01:42,540
+Now if you want to be notified when that avatar<u> is</u> generated, then you can set up the
+
+325
+00:01:42,540 --> 00:01:43,080
+Now if you want to be notified when that avatar is<u> generated,</u> then you can set up the
+
+326
+00:01:43,080 --> 00:01:43,180
+Now if you want to be notified when that avatar is generated, then you can set up the
+
+327
+00:01:43,180 --> 00:01:43,340
+Now if you want to be notified when that avatar is generated,<u> then</u> you can set up the
+
+328
+00:01:43,340 --> 00:01:43,480
+Now if you want to be notified when that avatar is generated, then<u> you</u> can set up the
+
+329
+00:01:43,480 --> 00:01:43,680
+Now if you want to be notified when that avatar is generated, then you<u> can</u> set up the
+
+330
+00:01:43,680 --> 00:01:43,960
+Now if you want to be notified when that avatar is generated, then you can<u> set</u> up the
+
+331
+00:01:43,960 --> 00:01:44,100
+Now if you want to be notified when that avatar is generated, then you can set<u> up</u> the
+
+332
+00:01:44,100 --> 00:01:44,280
+Now if you want to be notified when that avatar is generated, then you can set up<u> the</u>
+
+333
+00:01:44,280 --> 00:01:44,580
+<u>second</u> set of code, which is a webhook to call the URL that you set up.
+
+334
+00:01:44,580 --> 00:01:44,820
+second<u> set</u> of code, which is a webhook to call the URL that you set up.
+
+335
+00:01:44,820 --> 00:01:44,940
+second set<u> of</u> code, which is a webhook to call the URL that you set up.
+
+336
+00:01:44,940 --> 00:01:45,220
+second set of<u> code,</u> which is a webhook to call the URL that you set up.
+
+337
+00:01:45,220 --> 00:01:45,260
+second set of code, which is a webhook to call the URL that you set up.
+
+338
+00:01:45,260 --> 00:01:45,440
+second set of code,<u> which</u> is a webhook to call the URL that you set up.
+
+339
+00:01:45,440 --> 00:01:45,620
+second set of code, which<u> is</u> a webhook to call the URL that you set up.
+
+340
+00:01:45,620 --> 00:01:45,760
+second set of code, which is<u> a</u> webhook to call the URL that you set up.
+
+341
+00:01:45,760 --> 00:01:46,240
+second set of code, which is a<u> webhook</u> to call the URL that you set up.
+
+342
+00:01:46,240 --> 00:01:46,740
+second set of code, which is a webhook<u> to</u> call the URL that you set up.
+
+343
+00:01:46,740 --> 00:01:47,020
+second set of code, which is a webhook to<u> call</u> the URL that you set up.
+
+344
+00:01:47,020 --> 00:01:47,180
+second set of code, which is a webhook to call<u> the</u> URL that you set up.
+
+345
+00:01:47,180 --> 00:01:47,620
+second set of code, which is a webhook to call the<u> URL</u> that you set up.
+
+346
+00:01:47,620 --> 00:01:47,920
+second set of code, which is a webhook to call the URL<u> that</u> you set up.
+
+347
+00:01:47,920 --> 00:01:48,100
+second set of code, which is a webhook to call the URL that<u> you</u> set up.
+
+348
+00:01:48,100 --> 00:01:48,380
+second set of code, which is a webhook to call the URL that you<u> set</u> up.
+
+349
+00:01:48,380 --> 00:01:48,600
+second set of code, which is a webhook to call the URL that you set<u> up.</u>
+
+350
+00:01:48,680 --> 00:01:49,240
+<u>If</u> you come over to the playground, you can then go through and drop any image that you
+
+351
+00:01:49,240 --> 00:01:49,360
+If<u> you</u> come over to the playground, you can then go through and drop any image that you
+
+352
+00:01:49,360 --> 00:01:49,500
+If you<u> come</u> over to the playground, you can then go through and drop any image that you
+
+353
+00:01:49,500 --> 00:01:49,660
+If you come<u> over</u> to the playground, you can then go through and drop any image that you
+
+354
+00:01:49,660 --> 00:01:49,900
+If you come over<u> to</u> the playground, you can then go through and drop any image that you
+
+355
+00:01:49,900 --> 00:01:50,040
+If you come over to<u> the</u> playground, you can then go through and drop any image that you
+
+356
+00:01:50,040 --> 00:01:50,400
+If you come over to the<u> playground,</u> you can then go through and drop any image that you
+
+357
+00:01:50,400 --> 00:01:50,800
+If you come over to the playground, you can then go through and drop any image that you
+
+358
+00:01:50,800 --> 00:01:50,900
+If you come over to the playground,<u> you</u> can then go through and drop any image that you
+
+359
+00:01:50,900 --> 00:01:51,120
+If you come over to the playground, you<u> can</u> then go through and drop any image that you
+
+360
+00:01:51,120 --> 00:01:51,320
+If you come over to the playground, you can<u> then</u> go through and drop any image that you
+
+361
+00:01:51,320 --> 00:01:51,720
+If you come over to the playground, you can then<u> go</u> through and drop any image that you
+
+362
+00:01:51,720 --> 00:01:51,980
+If you come over to the playground, you can then go<u> through</u> and drop any image that you
+
+363
+00:01:51,980 --> 00:01:52,260
+If you come over to the playground, you can then go through<u> and</u> drop any image that you
+
+364
+00:01:52,260 --> 00:01:52,560
+If you come over to the playground, you can then go through and<u> drop</u> any image that you
+
+365
+00:01:52,560 --> 00:01:52,940
+If you come over to the playground, you can then go through and drop<u> any</u> image that you
+
+366
+00:01:52,940 --> 00:01:53,280
+If you come over to the playground, you can then go through and drop any<u> image</u> that you
+
+367
+00:01:53,280 --> 00:01:53,560
+If you come over to the playground, you can then go through and drop any image<u> that</u> you
+
+368
+00:01:53,560 --> 00:01:53,700
+If you come over to the playground, you can then go through and drop any image that<u> you</u>
+
+369
+00:01:53,700 --> 00:01:54,000
+<u>like.</u>
+
+370
+00:01:54,160 --> 00:01:54,240
+<u>Now</u> I just picked a bunch of images of myself and filled in various prompts where the image
+
+371
+00:01:54,240 --> 00:01:54,400
+Now<u> I</u> just picked a bunch of images of myself and filled in various prompts where the image
+
+372
+00:01:54,400 --> 00:01:54,620
+Now I<u> just</u> picked a bunch of images of myself and filled in various prompts where the image
+
+373
+00:01:54,620 --> 00:01:54,920
+Now I just<u> picked</u> a bunch of images of myself and filled in various prompts where the image
+
+374
+00:01:54,920 --> 00:01:55,140
+Now I just picked<u> a</u> bunch of images of myself and filled in various prompts where the image
+
+375
+00:01:55,140 --> 00:01:55,360
+Now I just picked a<u> bunch</u> of images of myself and filled in various prompts where the image
+
+376
+00:01:55,360 --> 00:01:55,600
+Now I just picked a bunch<u> of</u> images of myself and filled in various prompts where the image
+
+377
+00:01:55,600 --> 00:01:56,000
+Now I just picked a bunch of<u> images</u> of myself and filled in various prompts where the image
+
+378
+00:01:56,000 --> 00:01:56,620
+Now I just picked a bunch of images<u> of</u> myself and filled in various prompts where the image
+
+379
+00:01:56,620 --> 00:01:57,100
+Now I just picked a bunch of images of<u> myself</u> and filled in various prompts where the image
+
+380
+00:01:57,100 --> 00:01:58,060
+Now I just picked a bunch of images of myself<u> and</u> filled in various prompts where the image
+
+381
+00:01:58,060 --> 00:01:58,340
+Now I just picked a bunch of images of myself and<u> filled</u> in various prompts where the image
+
+382
+00:01:58,340 --> 00:01:58,520
+Now I just picked a bunch of images of myself and filled<u> in</u> various prompts where the image
+
+383
+00:01:58,520 --> 00:01:58,800
+Now I just picked a bunch of images of myself and filled in<u> various</u> prompts where the image
+
+384
+00:01:58,800 --> 00:01:59,360
+Now I just picked a bunch of images of myself and filled in various<u> prompts</u> where the image
+
+385
+00:01:59,360 --> 00:01:59,920
+Now I just picked a bunch of images of myself and filled in various prompts<u> where</u> the image
+
+386
+00:01:59,920 --> 00:02:00,560
+Now I just picked a bunch of images of myself and filled in various prompts where<u> the</u> image
+
+387
+00:02:00,560 --> 00:02:00,900
+Now I just picked a bunch of images of myself and filled in various prompts where the<u> image</u>
+
+388
+00:02:00,900 --> 00:02:01,640
+<u>placeholder</u> would be located, selected some output styles and then run the generation.
+
+389
+00:02:01,640 --> 00:02:01,860
+placeholder<u> would</u> be located, selected some output styles and then run the generation.
+
+390
+00:02:01,860 --> 00:02:02,040
+placeholder would<u> be</u> located, selected some output styles and then run the generation.
+
+391
+00:02:02,040 --> 00:02:02,600
+placeholder would be<u> located,</u> selected some output styles and then run the generation.
+
+392
+00:02:02,600 --> 00:02:02,880
+placeholder would be located, selected some output styles and then run the generation.
+
+393
+00:02:02,880 --> 00:02:03,280
+placeholder would be located,<u> selected</u> some output styles and then run the generation.
+
+394
+00:02:03,280 --> 00:02:03,640
+placeholder would be located, selected<u> some</u> output styles and then run the generation.
+
+395
+00:02:03,640 --> 00:02:04,140
+placeholder would be located, selected some<u> output</u> styles and then run the generation.
+
+396
+00:02:04,140 --> 00:02:04,640
+placeholder would be located, selected some output<u> styles</u> and then run the generation.
+
+397
+00:02:04,640 --> 00:02:05,580
+placeholder would be located, selected some output styles<u> and</u> then run the generation.
+
+398
+00:02:05,580 --> 00:02:05,760
+placeholder would be located, selected some output styles and<u> then</u> run the generation.
+
+399
+00:02:05,760 --> 00:02:06,040
+placeholder would be located, selected some output styles and then<u> run</u> the generation.
+
+400
+00:02:06,040 --> 00:02:06,180
+placeholder would be located, selected some output styles and then run<u> the</u> generation.
+
+401
+00:02:06,180 --> 00:02:06,720
+placeholder would be located, selected some output styles and then run the<u> generation.</u>
+
+402
+00:02:07,260 --> 00:02:07,520
+<u>To</u> use this, go over to replicant.com and put in Tencentark Photo Maker.
+
+403
+00:02:07,520 --> 00:02:07,740
+To<u> use</u> this, go over to replicant.com and put in Tencentark Photo Maker.
+
+404
+00:02:07,740 --> 00:02:07,920
+To use<u> this,</u> go over to replicant.com and put in Tencentark Photo Maker.
+
+405
+00:02:07,920 --> 00:02:08,220
+To use this, go over to replicant.com and put in Tencentark Photo Maker.
+
+406
+00:02:08,220 --> 00:02:08,220
+To use this,<u> go</u> over to replicant.com and put in Tencentark Photo Maker.
+
+407
+00:02:08,220 --> 00:02:08,460
+To use this, go<u> over</u> to replicant.com and put in Tencentark Photo Maker.
+
+408
+00:02:08,460 --> 00:02:08,580
+To use this, go over<u> to</u> replicant.com and put in Tencentark Photo Maker.
+
+409
+00:02:08,580 --> 00:02:09,200
+To use this, go over to<u> replicant</u>.com and put in Tencentark Photo Maker.
+
+410
+00:02:09,200 --> 00:02:10,100
+To use this, go over to replicant<u>.com</u> and put in Tencentark Photo Maker.
+
+411
+00:02:10,100 --> 00:02:10,400
+To use this, go over to replicant.com<u> and</u> put in Tencentark Photo Maker.
+
+412
+00:02:10,400 --> 00:02:10,640
+To use this, go over to replicant.com and<u> put</u> in Tencentark Photo Maker.
+
+413
+00:02:10,640 --> 00:02:10,820
+To use this, go over to replicant.com and put<u> in</u> Tencentark Photo Maker.
+
+414
+00:02:10,820 --> 00:02:11,620
+To use this, go over to replicant.com and put in<u> Tencentark</u> Photo Maker.
+
+415
+00:02:11,620 --> 00:02:12,040
+To use this, go over to replicant.com and put in Tencentark<u> Photo</u> Maker.
+
+416
+00:02:12,040 --> 00:02:12,520
+To use this, go over to replicant.com and put in Tencentark Photo<u> Maker.</u>
+
+417
+00:02:12,780 --> 00:02:13,040
+<u>When</u> you've got your images, just drag them into the input image area.
+
+418
+00:02:13,040 --> 00:02:13,240
+When<u> you've</u> got your images, just drag them into the input image area.
+
+419
+00:02:13,240 --> 00:02:13,440
+When you've<u> got</u> your images, just drag them into the input image area.
+
+420
+00:02:13,440 --> 00:02:13,640
+When you've got<u> your</u> images, just drag them into the input image area.
+
+421
+00:02:13,640 --> 00:02:14,220
+When you've got your<u> images,</u> just drag them into the input image area.
+
+422
+00:02:14,220 --> 00:02:14,540
+When you've got your images, just drag them into the input image area.
+
+423
+00:02:14,540 --> 00:02:14,820
+When you've got your images,<u> just</u> drag them into the input image area.
+
+424
+00:02:14,820 --> 00:02:15,240
+When you've got your images, just<u> drag</u> them into the input image area.
+
+425
+00:02:15,240 --> 00:02:15,560
+When you've got your images, just drag<u> them</u> into the input image area.
+
+426
+00:02:15,560 --> 00:02:15,940
+When you've got your images, just drag them<u> into</u> the input image area.
+
+427
+00:02:15,940 --> 00:02:16,160
+When you've got your images, just drag them into<u> the</u> input image area.
+
+428
+00:02:16,160 --> 00:02:16,540
+When you've got your images, just drag them into the<u> input</u> image area.
+
+429
+00:02:16,540 --> 00:02:16,960
+When you've got your images, just drag them into the input<u> image</u> area.
+
+430
+00:02:16,960 --> 00:02:17,660
+When you've got your images, just drag them into the input image<u> area.</u>
+
+431
+00:02:17,700 --> 00:02:18,260
+<u>From</u> there, you just need to fill in a prompt here.
+
+432
+00:02:18,260 --> 00:02:18,520
+From<u> there,</u> you just need to fill in a prompt here.
+
+433
+00:02:18,520 --> 00:02:18,680
+From there, you just need to fill in a prompt here.
+
+434
+00:02:18,680 --> 00:02:18,700
+From there,<u> you</u> just need to fill in a prompt here.
+
+435
+00:02:18,700 --> 00:02:18,920
+From there, you<u> just</u> need to fill in a prompt here.
+
+436
+00:02:18,920 --> 00:02:19,120
+From there, you just<u> need</u> to fill in a prompt here.
+
+437
+00:02:19,120 --> 00:02:19,320
+From there, you just need<u> to</u> fill in a prompt here.
+
+438
+00:02:19,320 --> 00:02:19,500
+From there, you just need to<u> fill</u> in a prompt here.
+
+439
+00:02:19,500 --> 00:02:19,640
+From there, you just need to fill<u> in</u> a prompt here.
+
+440
+00:02:19,640 --> 00:02:19,800
+From there, you just need to fill in<u> a</u> prompt here.
+
+441
+00:02:19,800 --> 00:02:20,100
+From there, you just need to fill in a<u> prompt</u> here.
+
+442
+00:02:20,100 --> 00:02:20,480
+From there, you just need to fill in a prompt<u> here.</u>
+
+443
+00:02:20,560 --> 00:02:20,720
+<u>We've</u> got a picture of an image playing chess and they're coming up here.
+
+444
+00:02:20,720 --> 00:02:20,880
+We've<u> got</u> a picture of an image playing chess and they're coming up here.
+
+445
+00:02:20,880 --> 00:02:21,180
+We've got<u> a</u> picture of an image playing chess and they're coming up here.
+
+446
+00:02:21,180 --> 00:02:21,580
+We've got a<u> picture</u> of an image playing chess and they're coming up here.
+
+447
+00:02:21,580 --> 00:02:22,100
+We've got a picture<u> of</u> an image playing chess and they're coming up here.
+
+448
+00:02:22,100 --> 00:02:22,320
+We've got a picture of<u> an</u> image playing chess and they're coming up here.
+
+449
+00:02:22,320 --> 00:02:22,740
+We've got a picture of an<u> image</u> playing chess and they're coming up here.
+
+450
+00:02:22,740 --> 00:02:23,440
+We've got a picture of an image<u> playing</u> chess and they're coming up here.
+
+451
+00:02:23,440 --> 00:02:23,860
+We've got a picture of an image playing<u> chess</u> and they're coming up here.
+
+452
+00:02:23,860 --> 00:02:24,760
+We've got a picture of an image playing chess<u> and</u> they're coming up here.
+
+453
+00:02:24,760 --> 00:02:25,020
+We've got a picture of an image playing chess and<u> they're</u> coming up here.
+
+454
+00:02:25,020 --> 00:02:25,240
+We've got a picture of an image playing chess and they're<u> coming</u> up here.
+
+455
+00:02:25,240 --> 00:02:25,500
+We've got a picture of an image playing chess and they're coming<u> up</u> here.
+
+456
+00:02:25,500 --> 00:02:25,800
+We've got a picture of an image playing chess and they're coming up<u> here.</u>
+
+457
+00:02:25,880 --> 00:02:26,160
+<u>We</u> can move on and look at a Disney character image as a muscular man.
+
+458
+00:02:26,160 --> 00:02:26,320
+We<u> can</u> move on and look at a Disney character image as a muscular man.
+
+459
+00:02:26,320 --> 00:02:26,580
+We can<u> move</u> on and look at a Disney character image as a muscular man.
+
+460
+00:02:26,580 --> 00:02:26,860
+We can move<u> on</u> and look at a Disney character image as a muscular man.
+
+461
+00:02:26,860 --> 00:02:27,100
+We can move on<u> and</u> look at a Disney character image as a muscular man.
+
+462
+00:02:27,100 --> 00:02:27,300
+We can move on and<u> look</u> at a Disney character image as a muscular man.
+
+463
+00:02:27,300 --> 00:02:27,480
+We can move on and look<u> at</u> a Disney character image as a muscular man.
+
+464
+00:02:27,480 --> 00:02:27,620
+We can move on and look at<u> a</u> Disney character image as a muscular man.
+
+465
+00:02:27,620 --> 00:02:27,960
+We can move on and look at a<u> Disney</u> character image as a muscular man.
+
+466
+00:02:27,960 --> 00:02:28,380
+We can move on and look at a Disney<u> character</u> image as a muscular man.
+
+467
+00:02:28,380 --> 00:02:29,160
+We can move on and look at a Disney character<u> image</u> as a muscular man.
+
+468
+00:02:29,160 --> 00:02:29,680
+We can move on and look at a Disney character image<u> as</u> a muscular man.
+
+469
+00:02:29,680 --> 00:02:29,820
+We can move on and look at a Disney character image as<u> a</u> muscular man.
+
+470
+00:02:29,820 --> 00:02:30,160
+We can move on and look at a Disney character image as a<u> muscular</u> man.
+
+471
+00:02:30,160 --> 00:02:30,580
+We can move on and look at a Disney character image as a muscular<u> man.</u>
+
+472
+00:02:31,080 --> 00:02:31,360
+<u>And</u> then here I am at the beach.
+
+473
+00:02:31,360 --> 00:02:31,580
+And<u> then</u> here I am at the beach.
+
+474
+00:02:31,580 --> 00:02:31,920
+And then<u> here</u> I am at the beach.
+
+475
+00:02:31,920 --> 00:02:32,140
+And then here<u> I</u> am at the beach.
+
+476
+00:02:32,140 --> 00:02:32,360
+And then here I<u> am</u> at the beach.
+
+477
+00:02:32,360 --> 00:02:32,680
+And then here I am<u> at</u> the beach.
+
+478
+00:02:32,680 --> 00:02:32,840
+And then here I am at<u> the</u> beach.
+
+479
+00:02:32,840 --> 00:02:33,200
+And then here I am at the<u> beach.</u>
+
+480
+00:02:33,560 --> 00:02:34,180
+<u>Maybe</u> you want to showcase of how good you are at dancing tango in a digital art style.
+
+481
+00:02:34,180 --> 00:02:34,360
+Maybe<u> you</u> want to showcase of how good you are at dancing tango in a digital art style.
+
+482
+00:02:34,360 --> 00:02:34,500
+Maybe you<u> want</u> to showcase of how good you are at dancing tango in a digital art style.
+
+483
+00:02:34,500 --> 00:02:34,580
+Maybe you want<u> to</u> showcase of how good you are at dancing tango in a digital art style.
+
+484
+00:02:34,580 --> 00:02:34,920
+Maybe you want to<u> showcase</u> of how good you are at dancing tango in a digital art style.
+
+485
+00:02:34,920 --> 00:02:35,360
+Maybe you want to showcase<u> of</u> how good you are at dancing tango in a digital art style.
+
+486
+00:02:35,360 --> 00:02:35,640
+Maybe you want to showcase of<u> how</u> good you are at dancing tango in a digital art style.
+
+487
+00:02:35,640 --> 00:02:35,940
+Maybe you want to showcase of how<u> good</u> you are at dancing tango in a digital art style.
+
+488
+00:02:35,940 --> 00:02:36,140
+Maybe you want to showcase of how good<u> you</u> are at dancing tango in a digital art style.
+
+489
+00:02:36,140 --> 00:02:36,460
+Maybe you want to showcase of how good you<u> are</u> at dancing tango in a digital art style.
+
+490
+00:02:36,460 --> 00:02:36,820
+Maybe you want to showcase of how good you are<u> at</u> dancing tango in a digital art style.
+
+491
+00:02:36,820 --> 00:02:37,380
+Maybe you want to showcase of how good you are at<u> dancing</u> tango in a digital art style.
+
+492
+00:02:37,380 --> 00:02:38,040
+Maybe you want to showcase of how good you are at dancing<u> tango</u> in a digital art style.
+
+493
+00:02:38,040 --> 00:02:38,340
+Maybe you want to showcase of how good you are at dancing tango<u> in</u> a digital art style.
+
+494
+00:02:38,340 --> 00:02:38,500
+Maybe you want to showcase of how good you are at dancing tango in<u> a</u> digital art style.
+
+495
+00:02:38,500 --> 00:02:38,880
+Maybe you want to showcase of how good you are at dancing tango in a<u> digital</u> art style.
+
+496
+00:02:38,880 --> 00:02:39,280
+Maybe you want to showcase of how good you are at dancing tango in a digital<u> art</u> style.
+
+497
+00:02:39,280 --> 00:02:39,800
+Maybe you want to showcase of how good you are at dancing tango in a digital art<u> style.</u>
+
+498
+00:02:40,080 --> 00:02:40,520
+<u>Lastly,</u> you can change prompts where you go from male to female or vice versa.
+
+499
+00:02:40,520 --> 00:02:40,660
+Lastly, you can change prompts where you go from male to female or vice versa.
+
+500
+00:02:40,660 --> 00:02:40,800
+Lastly,<u> you</u> can change prompts where you go from male to female or vice versa.
+
+501
+00:02:40,800 --> 00:02:40,980
+Lastly, you<u> can</u> change prompts where you go from male to female or vice versa.
+
+502
+00:02:40,980 --> 00:02:41,340
+Lastly, you can<u> change</u> prompts where you go from male to female or vice versa.
+
+503
+00:02:41,340 --> 00:02:41,780
+Lastly, you can change<u> prompts</u> where you go from male to female or vice versa.
+
+504
+00:02:41,780 --> 00:02:42,220
+Lastly, you can change prompts<u> where</u> you go from male to female or vice versa.
+
+505
+00:02:42,220 --> 00:02:42,400
+Lastly, you can change prompts where<u> you</u> go from male to female or vice versa.
+
+506
+00:02:42,400 --> 00:02:42,580
+Lastly, you can change prompts where you<u> go</u> from male to female or vice versa.
+
+507
+00:02:42,580 --> 00:02:42,780
+Lastly, you can change prompts where you go<u> from</u> male to female or vice versa.
+
+508
+00:02:42,780 --> 00:02:43,100
+Lastly, you can change prompts where you go from<u> male</u> to female or vice versa.
+
+509
+00:02:43,100 --> 00:02:43,280
+Lastly, you can change prompts where you go from male<u> to</u> female or vice versa.
+
+510
+00:02:43,280 --> 00:02:43,600
+Lastly, you can change prompts where you go from male to<u> female</u> or vice versa.
+
+511
+00:02:43,600 --> 00:02:44,000
+Lastly, you can change prompts where you go from male to female<u> or</u> vice versa.
+
+512
+00:02:44,000 --> 00:02:44,300
+Lastly, you can change prompts where you go from male to female or<u> vice</u> versa.
+
+513
+00:02:44,300 --> 00:02:44,800
+Lastly, you can change prompts where you go from male to female or vice<u> versa.</u>
+
+514
+00:02:44,800 --> 00:02:45,280
+<u>So</u> here we have a neo-rock band.
+
+515
+00:02:45,280 --> 00:02:45,520
+So<u> here</u> we have a neo-rock band.
+
+516
+00:02:45,520 --> 00:02:45,660
+So here<u> we</u> have a neo-rock band.
+
+517
+00:02:45,660 --> 00:02:45,860
+So here we<u> have</u> a neo-rock band.
+
+518
+00:02:45,860 --> 00:02:46,000
+So here we have<u> a</u> neo-rock band.
+
+519
+00:02:46,000 --> 00:02:46,220
+So here we have a<u> neo</u>-rock band.
+
+520
+00:02:46,220 --> 00:02:46,520
+So here we have a neo<u>-rock</u> band.
+
+521
+00:02:46,520 --> 00:02:47,060
+So here we have a neo-rock<u> band.</u>
+
+522
+00:02:47,200 --> 00:02:47,560
+<u>There's</u> a female lead singer going on or a male lead singer.
+
+523
+00:02:47,560 --> 00:02:47,680
+There's<u> a</u> female lead singer going on or a male lead singer.
+
+524
+00:02:47,680 --> 00:02:48,020
+There's a<u> female</u> lead singer going on or a male lead singer.
+
+525
+00:02:48,020 --> 00:02:48,480
+There's a female<u> lead</u> singer going on or a male lead singer.
+
+526
+00:02:48,480 --> 00:02:48,760
+There's a female lead<u> singer</u> going on or a male lead singer.
+
+527
+00:02:48,760 --> 00:02:49,160
+There's a female lead singer<u> going</u> on or a male lead singer.
+
+528
+00:02:49,160 --> 00:02:49,420
+There's a female lead singer going<u> on</u> or a male lead singer.
+
+529
+00:02:49,420 --> 00:02:49,840
+There's a female lead singer going on<u> or</u> a male lead singer.
+
+530
+00:02:49,840 --> 00:02:50,000
+There's a female lead singer going on or<u> a</u> male lead singer.
+
+531
+00:02:50,000 --> 00:02:50,200
+There's a female lead singer going on or a<u> male</u> lead singer.
+
+532
+00:02:50,200 --> 00:02:50,520
+There's a female lead singer going on or a male<u> lead</u> singer.
+
+533
+00:02:50,520 --> 00:02:50,920
+There's a female lead singer going on or a male lead<u> singer.</u>
+
+534
+00:02:51,040 --> 00:02:51,760
+<u>Remember</u> that each image that you upload will go into the IMG placeholder of the prompt.
+
+535
+00:02:51,760 --> 00:02:52,000
+Remember<u> that</u> each image that you upload will go into the IMG placeholder of the prompt.
+
+536
+00:02:52,000 --> 00:02:52,320
+Remember that<u> each</u> image that you upload will go into the IMG placeholder of the prompt.
+
+537
+00:02:52,320 --> 00:02:52,740
+Remember that each<u> image</u> that you upload will go into the IMG placeholder of the prompt.
+
+538
+00:02:52,740 --> 00:02:53,080
+Remember that each image<u> that</u> you upload will go into the IMG placeholder of the prompt.
+
+539
+00:02:53,080 --> 00:02:53,360
+Remember that each image that<u> you</u> upload will go into the IMG placeholder of the prompt.
+
+540
+00:02:53,360 --> 00:02:54,120
+Remember that each image that you<u> upload</u> will go into the IMG placeholder of the prompt.
+
+541
+00:02:54,120 --> 00:02:54,420
+Remember that each image that you upload<u> will</u> go into the IMG placeholder of the prompt.
+
+542
+00:02:54,420 --> 00:02:54,640
+Remember that each image that you upload will<u> go</u> into the IMG placeholder of the prompt.
+
+543
+00:02:54,640 --> 00:02:54,880
+Remember that each image that you upload will go<u> into</u> the IMG placeholder of the prompt.
+
+544
+00:02:54,880 --> 00:02:55,100
+Remember that each image that you upload will go into<u> the</u> IMG placeholder of the prompt.
+
+545
+00:02:55,100 --> 00:02:55,860
+Remember that each image that you upload will go into the<u> IMG</u> placeholder of the prompt.
+
+546
+00:02:55,860 --> 00:02:56,620
+Remember that each image that you upload will go into the IMG<u> placeholder</u> of the prompt.
+
+547
+00:02:56,620 --> 00:02:57,060
+Remember that each image that you upload will go into the IMG placeholder<u> of</u> the prompt.
+
+548
+00:02:57,060 --> 00:02:57,240
+Remember that each image that you upload will go into the IMG placeholder of<u> the</u> prompt.
+
+549
+00:02:57,240 --> 00:02:57,520
+Remember that each image that you upload will go into the IMG placeholder of the<u> prompt.</u>
+
+550
+00:02:57,880 --> 00:02:58,020
+<u>So</u> a fantasy picture of image writing a unicorn would look something like this.
+
+551
+00:02:58,020 --> 00:02:58,300
+So<u> a</u> fantasy picture of image writing a unicorn would look something like this.
+
+552
+00:02:58,300 --> 00:02:58,560
+So a<u> fantasy</u> picture of image writing a unicorn would look something like this.
+
+553
+00:02:58,560 --> 00:02:59,140
+So a fantasy<u> picture</u> of image writing a unicorn would look something like this.
+
+554
+00:02:59,140 --> 00:02:59,880
+So a fantasy picture<u> of</u> image writing a unicorn would look something like this.
+
+555
+00:02:59,880 --> 00:03:00,360
+So a fantasy picture of<u> image</u> writing a unicorn would look something like this.
+
+556
+00:03:00,360 --> 00:03:00,800
+So a fantasy picture of image<u> writing</u> a unicorn would look something like this.
+
+557
+00:03:00,800 --> 00:03:01,020
+So a fantasy picture of image writing<u> a</u> unicorn would look something like this.
+
+558
+00:03:01,020 --> 00:03:01,500
+So a fantasy picture of image writing a<u> unicorn</u> would look something like this.
+
+559
+00:03:01,500 --> 00:03:02,060
+So a fantasy picture of image writing a unicorn<u> would</u> look something like this.
+
+560
+00:03:02,060 --> 00:03:02,260
+So a fantasy picture of image writing a unicorn would<u> look</u> something like this.
+
+561
+00:03:02,260 --> 00:03:02,580
+So a fantasy picture of image writing a unicorn would look<u> something</u> like this.
+
+562
+00:03:02,580 --> 00:03:02,840
+So a fantasy picture of image writing a unicorn would look something<u> like</u> this.
+
+563
+00:03:02,840 --> 00:03:03,180
+So a fantasy picture of image writing a unicorn would look something like<u> this.</u>
+
+564
+00:03:03,300 --> 00:03:03,520
+<u>Like</u> and subscribe or click one of the links next to me for videos on chat gpt or prompt
+
+565
+00:03:03,520 --> 00:03:03,680
+Like<u> and</u> subscribe or click one of the links next to me for videos on chat gpt or prompt
+
+566
+00:03:03,680 --> 00:03:04,040
+Like and<u> subscribe</u> or click one of the links next to me for videos on chat gpt or prompt
+
+567
+00:03:04,040 --> 00:03:04,520
+Like and subscribe<u> or</u> click one of the links next to me for videos on chat gpt or prompt
+
+568
+00:03:04,520 --> 00:03:04,700
+Like and subscribe or<u> click</u> one of the links next to me for videos on chat gpt or prompt
+
+569
+00:03:04,700 --> 00:03:04,920
+Like and subscribe or click<u> one</u> of the links next to me for videos on chat gpt or prompt
+
+570
+00:03:04,920 --> 00:03:05,000
+Like and subscribe or click one<u> of</u> the links next to me for videos on chat gpt or prompt
+
+571
+00:03:05,000 --> 00:03:05,120
+Like and subscribe or click one of<u> the</u> links next to me for videos on chat gpt or prompt
+
+572
+00:03:05,120 --> 00:03:05,320
+Like and subscribe or click one of the<u> links</u> next to me for videos on chat gpt or prompt
+
+573
+00:03:05,320 --> 00:03:05,680
+Like and subscribe or click one of the links<u> next</u> to me for videos on chat gpt or prompt
+
+574
+00:03:05,680 --> 00:03:05,940
+Like and subscribe or click one of the links next<u> to</u> me for videos on chat gpt or prompt
+
+575
+00:03:05,940 --> 00:03:06,080
+Like and subscribe or click one of the links next to<u> me</u> for videos on chat gpt or prompt
+
+576
+00:03:06,080 --> 00:03:06,300
+Like and subscribe or click one of the links next to me<u> for</u> videos on chat gpt or prompt
+
+577
+00:03:06,300 --> 00:03:06,740
+Like and subscribe or click one of the links next to me for<u> videos</u> on chat gpt or prompt
+
+578
+00:03:06,740 --> 00:03:07,080
+Like and subscribe or click one of the links next to me for videos<u> on</u> chat gpt or prompt
+
+579
+00:03:07,080 --> 00:03:07,340
+Like and subscribe or click one of the links next to me for videos on<u> chat</u> gpt or prompt
+
+580
+00:03:07,340 --> 00:03:07,820
+Like and subscribe or click one of the links next to me for videos on chat<u> gpt</u> or prompt
+
+581
+00:03:07,820 --> 00:03:08,200
+Like and subscribe or click one of the links next to me for videos on chat gpt<u> or</u> prompt
+
+582
+00:03:08,200 --> 00:03:08,460
+Like and subscribe or click one of the links next to me for videos on chat gpt or<u> prompt</u>
+
+583
+00:03:08,460 --> 00:03:08,980
+<u>engineering.</u>
+
+584
+00:03:09,440 --> 00:03:09,740
+<u>If</u> you would like to see more tools like this AI tool investigated,
+
+585
+00:03:09,740 --> 00:03:09,900
+If<u> you</u> would like to see more tools like this AI tool investigated,
+
+586
+00:03:09,900 --> 00:03:10,080
+If you<u> would</u> like to see more tools like this AI tool investigated,
+
+587
+00:03:10,080 --> 00:03:10,300
+If you would<u> like</u> to see more tools like this AI tool investigated,
+
+588
+00:03:10,300 --> 00:03:10,520
+If you would like<u> to</u> see more tools like this AI tool investigated,
+
+589
+00:03:10,520 --> 00:03:10,800
+If you would like to<u> see</u> more tools like this AI tool investigated,
+
+590
+00:03:10,800 --> 00:03:11,060
+If you would like to see<u> more</u> tools like this AI tool investigated,
+
+591
+00:03:11,060 --> 00:03:11,420
+If you would like to see more<u> tools</u> like this AI tool investigated,
+
+592
+00:03:11,420 --> 00:03:11,760
+If you would like to see more tools<u> like</u> this AI tool investigated,
+
+593
+00:03:11,760 --> 00:03:12,020
+If you would like to see more tools like<u> this</u> AI tool investigated,
+
+594
+00:03:12,020 --> 00:03:12,340
+If you would like to see more tools like this<u> AI</u> tool investigated,
+
+595
+00:03:12,340 --> 00:03:12,680
+If you would like to see more tools like this AI<u> tool</u> investigated,
+
+596
+00:03:12,680 --> 00:03:13,400
+If you would like to see more tools like this AI tool<u> investigated,</u>
+
+597
+00:03:13,460 --> 00:03:13,940
+<u>then</u> drop a comment down below.
+
+598
+00:03:13,940 --> 00:03:14,200
+then<u> drop</u> a comment down below.
+
+599
+00:03:14,200 --> 00:03:14,380
+then drop<u> a</u> comment down below.
+
+600
+00:03:14,380 --> 00:03:14,640
+then drop a<u> comment</u> down below.
+
+601
+00:03:14,640 --> 00:03:14,920
+then drop a comment<u> down</u> below.
+
+602
+00:03:14,920 --> 00:03:15,200
+then drop a comment down<u> below.</u>
+
+603
+00:03:15,600 --> 00:03:15,780
+<u>I'm</u> Appy Dave.
+
+604
+00:03:15,780 --> 00:03:16,000
+I'm<u> Appy</u> Dave.
+
+605
+00:03:16,000 --> 00:03:16,220
+I'm Appy<u> Dave.</u>
+
+606
+00:03:16,440 --> 00:03:16,600
+<u>Thank</u> you for watching.
+
+607
+00:03:16,600 --> 00:03:16,780
+Thank<u> you</u> for watching.
+
+608
+00:03:16,780 --> 00:03:16,920
+Thank you<u> for</u> watching.
+
+609
+00:03:16,920 --> 00:03:17,200
+Thank you for<u> watching.</u>
+

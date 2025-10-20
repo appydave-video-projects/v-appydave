@@ -1,0 +1,70 @@
+In this video I'm going to demonstrate how I'm using ChatGPT to write unit tests for
+our system in a consistent and predictable fashion.
+I was curious if I could just take these scopes from our code.
+Whether I could just go to ChatGPT and type in a message, can scopes be unit tested and
+paste in the code and see what happens.
+And ChatGPT has come up with a couple of unit tests, there should have been about five or six.
+And when I looked through them they looked like they're close to what I need for unit tests.
+But it has a little bit of code that I know if I tried to run it within our system would just
+fail. The way it's worked with creating sample data for unit tests isn't using traits correctly.
+And so what I did was give it a little bit of extra contextual information, letting it know
+that I'm using sub-factories in the code. And from that it came up with better code just with
+that little bit of extra information. Now this was just me training the bot a little bit,
+but I thought I'd use it in anger. And so what I did is I went back to some of the code.
+We had this scope. It's fairly complex. There's a few different ideas going on in the data.
+And what I did with it was take a copy of it, go over to ChatGPT and I just said,
+can you do a test for and then paste it in. Now the test that it came up with
+semantically is right. It had information about four different shipments, three of which were
+valid, one wasn't and gave the right expectations. But it didn't give enough logic in there.
+And it had one serious flaw in that it took the idea of sub-factories to a level beyond what we
+deal with. We only deal with two data specific sub-factories at a time. Usually after that when
+you need more than two records, it's best to have more of a seed generation structure in place.
+And so I just gave it two very simple pieces of training, one to start using create list
+as a technique. And I taught it how we do our sample data systems. So when we do
+simple traits or sample traits, I should say, they follow this pattern.
+And I did that basically by taking a model called Shipment. I had a couple of usage specific
+traits. I had the general sort of named traits that we use for consistent unit test. And then
+sample was essentially a whole lot of data provided by Faker. And with just a little bit of
+information, it was able to learn. So apologies for the misunderstanding. It was able to learn
+how I work with sample data within the system. Now on one of the earlier examples with it,
+I was able to get it to write a general close approximation of a unit test for needs PDF.
+And I then manually just made a few slight alterations to it. And what happened was that
+this worked and it covered every scenario that I could see in the logic. And I thought, okay,
+this is pretty, pretty good unit testing for the code. Could I use it as the basis to train the bot
+a little bit further? And so I just said for the following scope and I posted in the actual code.
+And I told it, I wrote the following unit test and I gave it the pattern that it needed.
+And then it was just a simple case of selecting the next scope on the list, going over and say,
+can you write my unit test for scope and posted the code in. And what it did was write a unit test
+which covered all scenarios and what the first time out, I didn't really have to change anything.
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+be able to see here that there's a fair bit more complex scope going on here. There's a whole
+lot of if else statements going on. So I just gave it that, that code that we're seeing with,
+can you create a test for the following scope? And it ended up giving me a whole lot of code.
+I think there were four or five tests going in here. And I knew there were one or two typos
+in there. There should never have been a string like this. It should have been number. But I fixed
+the couple of typos that were there and I ran it. And what was surprising about this
+is that I had a bunch of unit tests. I think there were five and I focused in on just this
+description. And three of them just worked off the bat. I checked the code and the code was
+written well and I'm happy with that. Two of them failed. I haven't checked this one to see why it
+failed. But when I checked this one, which it uncovered and it created a failure on, I thought,
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+because this is one of the things that we want to do with unit tests is it uncovered a bug in
+the code itself. And the bugs seem to be related to a field that doesn't exist on the model. Now,
+I'll probably do a little bit of further investigation to make sure that I'm not off.
+But what's great about this is that the ability to uncover problems that we didn't even know about
+is a powerful aspect of what we can do with the unit testing. And this has been quite simple to do
+once you train the bot to create what you want. One of the areas that it probably would need further
+training from my point of view is that I wouldn't usually set up data the way it's doing it here.
+It works quite effectively, but it's not using probably good practices of RSpec around the use
+of let blocks, context blocks, stuff like that. But the good thing is that can be trained as well
+in a future bot. So you just you come up with the pattern that you want and you start seeding
+it as information before generating new code. Now, I've been exploring a few different ways
+of creating programming constructs that can define how code should come out of a system,
+feeding it into chat GPT and getting code out the other end that's consistent.
+One of the areas that I played around extensively with was with various languages,
+Python, Ruby and JavaScript to build a mid journey bot that would just create image after image.
+And the funny thing is that when you just use natural language to describe the problem and you
+give it to chat GPT because it's not a complex problem, you get different code every time.
+But through a little bit of pre training and a meta programming language or a
+domain specific language, really, I was able to get chat GPT giving out consistent
+code that followed patterns and practices that I would be happy to use within the system.

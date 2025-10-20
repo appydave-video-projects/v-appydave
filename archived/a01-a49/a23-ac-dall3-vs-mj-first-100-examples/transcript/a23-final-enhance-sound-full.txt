@@ -1,0 +1,324 @@
+In this video we're diving into the world of AI art with an epic showdown between
+Dali 3 and Mid Journey 5.2. We'll explore 50 advanced prompts, 400 beautiful images and
+I'll reveal when to use Dali 3 over Mid Journey.
+But that's not all, I will show you how to get started and uncover 4 advantages that
+Dali 3 has over Mid Journey. Get ready for a comprehensive journey into the AI art realm.
+We can get started by comparing 50 prompts for Dali 3 versus Mid Journey 5.2.
+I've set up a little application to test 50 different prompts. The number will show in the
+bottom left of the display. Each prompt will start from a reference image which will show
+about 4 images that were based off the original prompt. And the prompt that was used for the
+reference image will show in the bottom here. So here we've got a cube cut out of an isometric
+programmer's bedroom. From there I used my own Mid Journey account to regenerate the image myself
+and then applied the same prompt within the new Dali 3 to see what it would look like.
+And finally I created 4 different images for both Mid Journey and Dali 3 and as we go through them
+I'll hover over these little buttons and we'll just see the different images as they come through.
+So stay tuned as I walk through 50 different examples and along the way I will also dive into
+some of the advantages that Dali 3 clearly has over Mid Journey but also some of the areas where
+Mid Journey reigns supreme. So looking objectively at image prompt number one they're both excellent.
+I think the graphics for a cube bedroom is really cool. I think this one is really cool as well.
+The difference though is that this is meant to be an isometric programmer's bedroom and I don't see
+anything in here to suggest that it is for a programmer. Here we've got a guy he's writing code
+he's got two monitors so this is clearly a programmer setup. If we move on to the next
+version the same thing again we've got this messy bedroom on the left it looks very technical
+so it could be a programmer one but we've got a person sitting in front of a computer on the right.
+Here on the third one clear again we've got a messy bedroom on the left we've got a clean and tidy
+bedroom with three monitors going on. From a Mid Journey versus Dali perspective for number one
+I'm leaning towards the Dali image. Let's move on to the second one four cats up here there is a cat
+with a chain around its neck and a fish tattoo on it. Now when we look at Mid Journey this looks
+pretty good there's a tattoo over here we look at the cat over here we've got a fish it's not
+actually on the cat so maybe that's a little incorrect if we move through here we do have a
+tattoo on the cat the fish is off to the side in this case and again the fish is off to the side.
+I think what Dali has done is just a different style it looks really good I personally prefer
+the Mid Journey one I think it got more accurate with this particular prompt but this is the sort
+of things that we're going to discuss as we go through the 50 advanced prompts. Number three is
+a virtual window Art Nouveau with colorful nature motives and we've got a big fox in the middle the
+reference images look awesome they're great when we look at the Mid Journey I personally think it
+looks closer to the reference image and it looks a little bit better the Dali three ones are great
+as well they're just a different style all up they're both great personally I like the Mid Journey
+number four we've got aliens and we've got an alien with a hand blurry shape focus foreground
+when I look at these the hand looks human in this case so that's a bit of a problem going on here it
+also looks a bit human here we've got some great images they're both pretty good they're pretty
+good the one on the right from Dali looks a little better to me and then we've got this
+with the hands kind of looking half alien half human so all pretty good whether it's Mid Journey
+or Dali three so we have these two blonde gentlemen in pale gray vested suits club tie
+Pomodor haircut staining with ketchup the images over here they they looked very consistent with
+the reference as I moved through the different styles images from Dali three though a couple
+of things to note is that it got the actual ketchup on the guy's clothes and I think this
+looks awesome even though the ketchup hull are coming through on these pictures also look awesome
+so they're both great one of the other things to note is that there are only three Dali three
+images we got one two three and we moved to the fourth one and there isn't one and this was one
+of the things I noticed the Dali three image generation is that you didn't always get four
+images now with Mid Journey you you do always get four when you generate a prompt this stage you might
+be wondering how can I use Dali three head over to bing.com slash create now that you know how to
+set up and use Dali three let's move on as we move into number six we have this great reference
+image but the actual prompt is written in Spanish if I move over to google translate we can see what
+it stands for need sovereign probably steel avatar and looking back I think the Mid Journey
+version that's come through when I did it looks quite accurate though the one from Dali three
+kind of looks like the reference image and I'll go into a bit later how I got reference images
+but as we move through and we look at others we've got these really interesting but totally
+different images coming from Mid Journey and Dali three and I think they're both really good it's
+really hard to decide which one I would prefer I guess it's intent would matter the most as we
+move on to prompt seven we start looking at text on an image and here it's a sloth on the cover of
+vogue the reference image had the word vogue there I don't know whether this was added after the
+fat with Photoshop or something but the really interesting thing about Dali three is that it's
+clear that we've got the word vogue and as I move through them it consistently got the word vogue
+on all of them I believe that this doesn't always work but in this case it did
+now the images from Mid Journey also look quite good to me but they're clearly not the intent
+that was after which is a sloth on the cover of vogue and so for me that shows us one of the first
+advantages that we see out of Dali three is that you can generate text I came across another prompt
+that had a text component to it so if we move on to number eight we've got this translucent
+glass AR headset designed by brawn at the moment these two images look quite amazing
+but there's no text on them if we move to the second one though we can clearly see that brawn
+is showing in the Dali image whereas Mid Journey one shows text but you can't read it if we move
+over one more we've got it happening again for a second image in the set the third one didn't do
+anything at all all of these images are brilliant but the fact that we're seeing text on the Dali
+three is that advantage being shown again moving on to number nine we've got this cool reference
+image of a female futuristic pop artist when we look at the Mid Journey version that I generated
+using the same prompt we see a lot of similarity between the reference image coming out of Mid
+Journey the images coming out of Dali three are also excellent they're just a different style
+one of the things that I noticed with this one is we didn't get four images from Dali three we only
+got three of them but this is again sometimes it doesn't return all four images to me these are both
+brilliant examples of this prompt prompt number 10 is a cartoon in the style of tin tin comics
+I look at both side by side they're pretty good no matter whether they came from Mid Journey or
+whether they came from Dali three here I think they're both winners I mentioned earlier that I
+was using reference images and the reference images where I would get the prompt from now let me show
+you how I was sourcing this information essentially I was using either lexica or I was using the
+showcase capability within Mid Journey and what that means is that if you go over to lexica.art
+you'll have all these images that are curated by the community we can even see one here with Vogue
+on the front but what I do is come and find something that I might like this image for example
+and copy the prompt for every image I've done except for a couple where the reference is blank
+I've taken a copy of the original URL and I'll put this in an article if you check in the link below
+an article where you can go and find these original images now every image you're seeing up to this
+stage have come from lexica but I also used for the rest of the images the showcase from Mid Journey
+and Mid Journey showcase is an excellent location to get really good images you can hover over an
+image that you like click on the person that created it and you'll see a list of their various
+prompts and images and from here you can get the information one of the things I did and this happened
+for about 30 of the images that we're seeing is that I copied both the prompt that's here
+and any additional settings that were going on and I would try them in both Dali 3 and Mid Journey
+now I doubt that these were the same way in Dali 3 but it was interesting that I could just copy
+stuff verbatim and get really accurate representations with Dali 3 so if you're looking for some really
+good prompts you can check out lexica or the Mid Journey showcase moving on to number 11 we have
+an unreal engine scenic render of a rabbit in a Chinese coat when we look at the Mid Journey
+image over on the left they look a lot similar to the reference images but everything coming out of
+the right on Dali 3 looks pretty awesome in its own right I think these are a tie but to be honest
+I'd be curious to hear what you think as I go through different images write a comment down
+below of the number of the image and which one you think is the best what's your opinion as we move
+on to number 12 we've got another tinting comic example but this time it's an architectural
+picture it's a building in Tokyo as we move through all four of them they look excellent no matter
+which system you used as we move on to number 13 we've got a very similar image because it's by
+the same prompt offer like I said there'll be an articles if you want to go and find these people
+I started finding as I went through this that I would follow the same offer over and over for a
+few images they was just so brilliant at what they were doing a kudos to those people this is
+another tinting comic we've got a lot of black and white coming through on the Dali 3 sometimes
+on the mid-journey this was an example where Dali 3 didn't return the fourth image all up
+these look great no matter what system you're using we move on to number 14 a symmetrical
+burn owl we get images from mid-journey and Dali 3 which are both great they're just different
+styles one of the things that you can do is test it out between different systems to get great
+quality but different styling as I move on to number 15 we come across an example where the
+results in Dali 3 and mid-journey don't actually match the reference image now I tried this a
+number of times and we look at these four and we can see that there's nothing about them that look
+like the reference image but every now and then mid-journey would give something similar to this
+being very specific in language is still important whether it be mid-journey or Dali 3 in number 16
+my tests again did not quite match the reference image but they were excellent attempts on both
+Dali 3 and mid-journey that we're seeing across the board they're just brilliant it's got this
+2d repeating pattern going each time as we move to 17 we see a clear winner in this case it's
+mid-journey's ability to do really good images from simple prompts we've got this plain sort of
+image over on Dali 3 and that just happened over and over with this particular example
+but I will note that Dali 3 did get really good images most of the time this next example is both
+really cool and just interesting how people think to go a dinosaur made of wool in a realistic
+forest as we look at the mid-journey and the Dali 3 this one looks really cool that one's
+pretty good but as we move through there's good quality images coming out of both systems if you
+want to create a post star for a horror movie both Dali 3 and mid-journey are doing really good
+examples get two different styles but they look pretty good no matter which way you go
+I think it might be a good time to look at the next advantage of Dali 3 over mid-journey and
+that's that you can use it for free within the Bing chat platform if we go back to our example
+that we got here we'll copy the prompt and move into Bing.com and you need to click on the chat
+window and what we can do is type in image of just pasting the prompt that we had press enter
+and let's have a look at what it does now it's come up with I'm sorry but I'm not able to generate
+that image and then it's making a statement your images generate so I wasn't sure what was going
+to happen there this actually looks very similar to what we had if we move back it looks very much
+like this version that we got on the right here in Dali is what we're seeing coming out of here
+if you want to generate images today and you don't want to spend any money you can go straight into
+Bing go into the chat functionality and you can create images there example number 20 is a great
+example of seeing how mid-journey versus Dali 3 can do two totally different styles when trying to
+generate graphics we have a reference image here of a pixelated cat and within mid-journey
+it's quite detailed it's very artistic I think when I look at the one in Dali 3 we have more of this
+8-bit pixelation the sort of stuff that you might have seen in a computer game in the 80s and as I
+scroll through them the various versions the ones on the left look incredible they're very cool
+but if I wanted this as an 8-bit representation the one on the right looks better admittedly I could
+probably get the 8-bit representation by putting that into the prompt but I just like that you can
+test it in both systems and get really different but cool examples advanced prompt comparisons
+are great but before we analyze number 26 I think we should talk about another advantage
+that Dali 3 clearly has over mid-journey and that's the ability to use it directly from chat gpt plus
+now I'm in chat gpt plus I'll hover over the gpt 4 and go to Dali 3 beta now my prompt is
+create image of and we'll just paste in the number 26 example which is a mid-journey prompt
+and one of the things that we should note is that it's got the word dungeon in here this worked out
+great in Dali 3 and mid-journey but there may be issues with certain words within chat gpt at the
+moment it's creating the image we've got one coming through at the moment here's the second one in
+production now the third and hopefully the fourth will come through it's very slow compared to Dali
+3 and the exact issue that I was worried about there's a content policy in the words we've used
+I can expect to a simpler pixel art cat we'll see what that does these are great but it shows the
+differences between Dali 3 and Dali 3 in chat gpt is that there is a content policy issue that we've
+got to deal with prompt number 26 looks great in mid-journey 5 and Dali 3 but we did see the
+issue of using it from chat gpt now looking further into this it could be the word dungeon
+but it's most likely the man repressed with agony is not getting through the content policy issues
+within chat gpt but when we look at the images that are here in Dali 3 they look really good to me
+they're just a different style to what we're seeing out of mid-journey but these are excellent
+examples this next incredibly impressive reference image looks great within mid-journey and Dali 3
+as we hover through similar styles I would say they're looking great but we've got options now
+next we have beautiful oil paintings of majestic animals and they're looking good whether it's
+here mid-journey whether we've got Dali it's funny that we've got lions on both sides here
+we've got horses on both sides here and these images are just being displayed in the order that
+they were generated next we have a reference that Dali 3 did not get correct in this case
+an 80 year old beautiful Dobie now Dobie is a character from a Harry Potter novel we've got
+the picture here and we look through it this one looks great 80 years of age and we move through
+and Dali 3 is presenting a dog each time which is interesting so it didn't get the prompt threat
+if I tried again maybe it would work okay that's something that happens in mid-journey anyway
+it doesn't always get it right the first time now the Dobie example is looking odd in both
+mid-journey and Dali 3 in another attempt so we've got a photo of Dobie in Prada outfit and as we
+scroll through I'm not sure the reference point of this what it's meant to be but we're not seeing
+Dobie the character from Harry Potter but we are seeing Harry from Harry Potter in the Dali 3
+another good thing here we can see Prada being written across the shirt so clearly a Prada
+outfit going on if we move through we've got Harry Potter again we've got some sort of dog
+Harry Potter look tell me in the comments whether you know what this is I didn't understand the
+reference of a dog to the term Dobie maybe I'm just missing something here in keeping with the
+catwalk star we move back to seeing the sloth again I love these sloths in these generations
+as we move through them they're pretty good whether they're Dali 3 or mid-journey generally
+these are looking quite amazing before we talk about the next prompt of Vernon Dursley from Star Wars
+I think it might be good to have a look at the next advantage that Dali 3 has and that's the
+speed and the user experience within the Bing create application now to start off with mid-journey
+doesn't actually have an application for which you can generate images in instead it's a system
+within a discord server so you have to understand how to use discord if we find our image of Vernon
+Dursley we've got him here we've got individual images here now I have about three and a half
+thousand images if I want to go back and find certain images it's quite difficult within discord
+one thing I can do once I've got an image generated like this and from the web interface I can click
+on my username when we get to here you can see all the different images that I've been generating
+over time so I really have to use two different systems when I'm working that way the other problem
+is if I scroll all the way to the bottom I've generated the pixelated cat again that's a pretty
+easy thing to do to generate an image the first time but once you want to play around with settings
+you can understand that there's a settings command and there's all these little commands that you
+need to memorize or have cheat sheets for whereas if this was an application they could just be
+buttons on a screen that you just click so let's contrast this with the Bing create application
+we're here in Bing create I'm signed in I've got 92 credits we've got a little search idea of
+different images by different creators but what I can do is we'll type in the pixel art cat we'll
+do a create on that one of the things I've noticed about Bing create versus mid-journey is that
+generally this is a fair bit quicker we've also got access to some images that we've done recently
+we've got our pixelated cat coming up we don't have the quick shortcuts that are in mid-journey
+of doing a variation on 1 2 3 or 4 directly from this interface but we can click on to an image
+and from here we can do something like a customization this has pulled us into another app in the
+Microsoft ecosystem called Microsoft Designer there's different stuff that we can do here
+but if we go back to the image creator app we might think it's quite minimal at the moment
+there's a lot more you can do if you understand the command structure of mid-journey but being
+an app this is easily expandable and I'm sure we're going to see features added basically shortcuts
+to do common tasks within the Bing creator application I've been pushing the advantages
+of Dali a little bit too much let's bring it back to reality I still like mid-journey from an image
+creation point of view because generally it does a little bit better than what we're getting out of
+Dali 3 if we look at it here we've got the pixelated cat that's within the Bing creator application
+we can also see the same sort of image coming out of chat gpt the fact that we can use it in chat
+gpt is awesome and I certainly like this fourth image from the chat gpt example but if we go over
+to mid-journey what we see here is a far more stylized version of a cat I think for the time being
+the advantages of mid-journey is it you've got a little bit more fine control over the creation
+process within the prompts I think Dali 3 is really catching up but stay tuned we got more
+advanced prompts to look at and we've got one more really big advantage that lives with Dali 3
+so we're back on number 32 it's Vernon Dursley as a Star Wars sci-fi robot and when we go through
+the different versions we've got an image here where I don't think it looks like Vernon Dursley
+out of Dali 3 moving forward they are a little bit closer here so they're all pretty good maybe
+mid-journey is better in this scenario number 33 is a snow owl as a Star Wars Ewok this looks great
+no matter which system you use so both mid-journey and Dali 3 are doing really good renditions of
+this particular prompt if you ever wondered what the anatomy of Voldemort looked like both mid-journey
+and Dali 3 have you covered I think the mid-journey versions are a little bit more stylized but we've
+got really good pictures in both applications if you ever wondered what the world of a wizard
+might look like then this generalized prompt on wizarding looks pretty good in both mid-journey
+where we have what looks like a wizard here we've got this fantasy landscape when we look at the
+reference image that we moved through mid-journey does it pretty well on the second version it also
+does it pretty well on the fourth version in between it's got something totally different
+but the images coming out of Dali 3 are also great each time we go through one I think the nature of
+this generalized sort of prompt we've got there's nothing too specific in here has led to various
+variations that are looking good in both systems this next prompt was a good example where Dali 3
+doesn't always render out all the images correctly so we've got reference image here it looks very
+close in the mid-journey version it's pretty good in the Dali 3 version but when I move to the next
+one we do not have any more images out of Dali 3 maybe you're looking to come up with a design for
+a silk scarf now this next example looks great in both mid-journey and Dali 3 as we move through
+maybe the mid-journey version has a little bit of the edge but they're good in both systems
+this next stunning prompt of a wall carving made out of wood it's a mountain looks great in both
+Dali and mid-journey my preference is definitely the mid-journey version I think it looks better
+but I'm curious when you look through these do you prefer what's coming out of Dali 3
+or do you like what's coming out of mid-journey this next version of robots with flowers looks
+excellent in both Dali 3 and mid-journey but we get two fundamentally different styles as we move
+through we've got the same robot on the left each time we've got the same robot on the right
+but they're very different sort of looks and the same thing happens with this Asian river boats
+mountains we've got two great looking images just a little bit different in the stylization
+between Dali and mid-journey you can see that repeated on the next version where we've got
+these nice mountain river sort of scenes going on here now before we look at a bunch of cats
+on a wall I want to talk about the number one advantage that I'm looking for that will be in
+Dali and that's the access to the API now this will be a game changer because this means that
+those cool images that we've been looking at will be able to integrate into our applications
+I think the easiest way to demonstrate what I mean is by looking at a little bit of code I wrote here
+it's very simple there's essentially a size of image it'll be a thousand pixels square the next
+thing is it'll print out both the prompt and the URL where the generated image will live
+and hopefully it will open it up in a chrome browser for us so if we go up to this area called
+prompt and we'll put in pixel art cat I think that would be a great way to go and we hit save
+a little bit of code will run to generate that image against the open AI endpoints and it's printed
+out a couple of URLs and if I head over to my chrome window we will see a version of a pixelated
+cat now you might be thinking that doesn't look very good and the reason that doesn't look so good
+is because it's using version 2 of Dali now I went and had a look online and three days ago
+this question was posed how do we get Dali 3 access to the API and the reality is it's not there yet
+but I'll just state that as soon as the Dali 3 API is available the ability to have these cool looking
+animals represented within your application by potentially just changing the prompt pressing
+go and seeing a new image up here is exactly what we're going to see very soon you've seen so far
+that Dali 3 has closed the gap on mid journey in terms of image quality generally the mid
+journey images can be a little bit better but when it comes to this API if mid journey don't get
+applications that use images so I went and had a look to see whether mid journey have a plan to do
+this because this has been the number one feature that developers have wanted from mid journey now
+there's a statement here that there may be an API coming out and I assume they have to do it if
+Dali and open AI are going to release an API coming back to prompt number 42 I said before
+the API section that this was about cats because I was looking at this reference image that looks
+like cats but the prompt clearly states dogs and that is what we see here these are really cool
+images of dogs so these are just different styles going on as we move through these look a little
+bit human cat like this one looks a bit human like here we've got dogs on both sides so pretty
+impressed with the images coming out of both systems here if you stayed around to advanced
+prompt number 42 you might be looking at this little application that I've got here and wondering
+what is it how did I do this and this is an application that I've put together it has concepts
+like changing to different images we can click and go to the next image in the list they fade in
+we've got a Dali 3 image zooming out we've got a mid journey image zooming out and again we can
+just move from image to image and ideally I should be able to just modify the prompt and if we had the
+API that we talked about a moment ago should be able to press a button and see the images change
+in both systems and you're going well how do I get access to this well if you stay tuned to the
+end of the video I'll talk about how I put this together briefly and how you might be able to do
+it for yourself
+you
+you
+you
+50 advanced prompts for mid journey 5.2 versus Dali version 3 now as promised I said I might
+talk a little bit about the application I use to demonstrate all this information and it relates
+very much to what this channel is about the channel is not about image generation it's about
+prompt engineering for use in business and I focus on three areas one is writing code using
+prompt engineering two is writing content whether it be marketing content business content and the
+third area that I focus on is YouTube automation because what I'm trying to do is build up a
+YouTube channel and I'm trying to automate my processes but let's have a look at this application
+and how it came about so here we have a little bit of code that I've written it's all through here
+and it's producing the page that you're looking at and you may have noticed earlier that my image
+my talking head was showing up in this little area here where it's currently brown and I did that by
+adding a little bit of code into the system called chrome they're just here which is applying the
+green color and this allowed the video to come through as a green screen but if I take it a
+little bit further and we'll look at these labels so we've got mid journey 5 to dali 3 and we've got
+reference these parts of the application are editable by me so I could change it to something
+like api dave and this would be the channel that I use for writing prompts and chat gpt custom
+instructions when it comes to coding or I might have winning prompts and I want that to show on
+the screen and this is where I do prompt engineering in general and I'm specifically trying to do
+youtube automation and that's where I do fly video so as I run four different youtube channels
+api cast where I do the behind the scenes fly video where I automate myself winning prompts
+where I work through custom gpt instructions and api dave where I do chat gpt coding this
+is the sort of tooling that I'm building now I did not write this from scratch what I did was I
+wrote gpt custom instructions for areas to do with programming and this whole application was created
+on top of astro and tailwind css and the custom instructions allowed me to use documentation
+that was live off the internet and if I just scroll through here we see lots of code being
+generated this took me a little bit of time to do but what's the interesting is that I didn't need
+to put on my programming hat to build an application I could put on my gpt hat now I am a programmer
+I've been writing code for about 40 years since I was 11 and professionally since I was 17 so I do
+know how to code but these days I like to do all my coding using chat gpt is a very interesting
+space to explore I think anyone that's interested in future proofing their jobs
+needs to figure out how they currently do what they do using AI thank you for staying till the end
+if you're interested in something to do with chat gpt or prompt engineering or how you can
+automate yourself in business then have a look at one of these videos up in the corner
+you

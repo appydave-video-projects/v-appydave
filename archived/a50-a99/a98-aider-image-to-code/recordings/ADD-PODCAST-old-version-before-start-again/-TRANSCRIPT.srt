@@ -1,0 +1,291 @@
+1
+00:00:37,230 --> 00:00:41,270
+So I'm about to go and make a structural change to the slideshow. But one of the 
+
+2
+00:00:41,270 --> 00:00:46,280
+interesting things when I opened up Ada is it said that there's a new video that 
+
+3
+00:00:46,460 --> 00:00:51,560
+it said there's a new version, would you like it? It then came up with release notes, 
+
+4
+00:00:51,560 --> 00:00:55,490
+and I started looking at the release notes. And they're very interesting. So one 
+
+5
+00:00:55,490 --> 00:01:00,260
+of the features that I would like to try out soon is the watch Files, because I like 
+
+6
+00:01:00,260 --> 00:01:05,210
+to use a requirements document first approach to coding, and the ability to just 
+
+7
+00:01:05,210 --> 00:01:08,480
+watch that document and have it respond would be awesome.
+
+8
+00:01:09,300 --> 00:01:13,700
+Now I just read the documentation about the watch files. It looks pretty easy, so 
+
+9
+00:01:13,700 --> 00:01:18,410
+let's just add it in from this point onwards. What we'll do is we'll come back to 
+
+10
+00:01:18,440 --> 00:01:22,310
+Visual Studio, and what I've got in front of me at the moment is the presentation 
+
+11
+00:01:22,310 --> 00:01:28,520
+JS in the left hand side, and we've got the original slides from the previous video. 
+
+12
+00:01:28,550 --> 00:01:34,130
+Now there's also three images, which would be the first three sorts of templates. 
+
+13
+00:01:34,130 --> 00:01:40,460
+And what I've done is I've just created a new JSON document called Slides New. Now 
+
+14
+00:01:40,460 --> 00:01:45,740
+if we look at the code over here, we can see that it's currently reading from slides. 
+
+15
+00:01:45,740 --> 00:01:50,270
+So I think the first thing we should do is just add in a comment here to see if we 
+
+16
+00:01:50,270 --> 00:01:54,650
+can alter it so that it can read it from an incoming query string parameter.
+
+17
+00:01:55,730 --> 00:02:01,460
+So we'll come over to here and we'll just put in a prompt. I need slides, Jason, 
+
+18
+00:02:01,460 --> 00:02:07,520
+to be configurable from query parameter and by default it should be slides, Jason, 
+
+19
+00:02:07,790 --> 00:02:10,670
+but we should be able to pass in a custom parameter. 
+
+20
+00:02:11,730 --> 00:02:16,190
+Now I'm just gonna bring in the terminal and I suspect that nothing will happen because 
+
+21
+00:02:16,190 --> 00:02:23,360
+we haven't got the option in this comment to force a recompile or a reread of the 
+
+22
+00:02:23,360 --> 00:02:28,790
+code. So what we should be able to do now is just add AI at the end of it and this 
+
+23
+00:02:28,790 --> 00:02:33,230
+should be enough information. So now it's starting to do something. So let's have 
+
+24
+00:02:33,230 --> 00:02:36,500
+a look at this processing. The request will say yes, 
+
+25
+00:02:38,360 --> 00:02:41,960
+and it's saying it'll modify the load presentation. 
+
+26
+00:02:42,560 --> 00:02:46,520
+So let's see what it has done. So 
+
+27
+00:02:47,930 --> 00:02:54,470
+now the URL premise source is going to default to slides Jason, if not filled in, 
+
+28
+00:02:54,740 --> 00:02:57,230
+and we'll be able to load from that file.
+
+29
+00:02:58,530 --> 00:03:04,650
+Now we have a modification to the code. What used to be slides dot JSON in this location 
+
+30
+00:03:04,650 --> 00:03:11,430
+is now being defaulted to slides dot JSON if it's not provided on the query parameter. 
+
+31
+00:03:11,430 --> 00:03:17,190
+So I've created this file called slides new. This is what we'll pass in. The current 
+
+32
+00:03:17,190 --> 00:03:20,790
+attributes aren't catered for in our code at all. 
+
+33
+00:03:21,490 --> 00:03:26,380
+What I'll have to do is just add in a backward compiler. Backward.
+
+34
+00:03:28,330 --> 00:03:33,160
+So what I'll do is add in a backward compatibility attribute. I know the image will 
+
+35
+00:03:33,190 --> 00:03:37,750
+be used, but this way we can at least see the data. So we'll hit save on that.
+
+36
+00:03:38,890 --> 00:03:43,980
+Now I've just added a H1 because I know that'll be backward compatible. There are 
+
+37
+00:03:43,980 --> 00:03:48,720
+a couple of other things, like the bullets that are probably going to be okay, and 
+
+38
+00:03:48,720 --> 00:03:55,110
+we'll hit save on that. And I've got the old one here just working without a query 
+
+39
+00:03:55,110 --> 00:04:00,780
+parameter. And if we go to the new one, I've got the query parameter in place. And 
+
+40
+00:04:00,780 --> 00:04:05,220
+let's just refresh that. Looks like it's working okay.
+
+41
+00:04:05,990 --> 00:04:11,460
+Now I'm going to test a pretty complex prompt. This time I'm going to ask it to read 
+
+42
+00:04:11,460 --> 00:04:15,930
+the Jason documents. So we've seen that it's got all the different attributes that 
+
+43
+00:04:15,930 --> 00:04:20,370
+we might want for these three templates that are here, and we'll just paste that 
+
+44
+00:04:20,370 --> 00:04:26,580
+in and it looks like it can find things. So we will put that and we'll say yes. 
+
+45
+00:04:27,730 --> 00:04:30,390
+And then after that we will 
+
+46
+00:04:31,860 --> 00:04:36,960
+take all of this information. So what I've said is it'll have three slides with different 
+
+47
+00:04:36,960 --> 00:04:41,610
+attributes and a common attribute, which will be the template. I need that to be 
+
+48
+00:04:41,610 --> 00:04:47,250
+an ID that it can look up. I want it to create a function for each of the templates. 
+
+49
+00:04:47,550 --> 00:04:52,650
+And then it can call each function, and each function will just be responsible for 
+
+50
+00:04:52,650 --> 00:04:58,260
+rendering the HTML elements. It won't be about star. We'll deal with that with CSS. 
+
+51
+00:04:58,260 --> 00:05:04,260
+So if we just pace this in, and I don't know whether we needed to select 
+
+52
+00:05:04,990 --> 00:05:08,790
+presentation js. It looks like everything's working. Okay. 
+
+53
+00:05:09,290 --> 00:05:14,970
+So we'll click on that and we'll come over to presentation js and see what happens 
+
+54
+00:05:14,970 --> 00:05:16,530
+to our code base. 
+
+55
+00:05:18,960 --> 00:05:22,530
+So we can see the old code is still in place actually, 
+
+56
+00:05:24,260 --> 00:05:29,100
+so we can see the old code here and the new code coming in. And it's looking at these 
+
+57
+00:05:29,160 --> 00:05:35,760
+IDs and binding it to different functions. So we've got the first function, which 
+
+58
+00:05:35,760 --> 00:05:40,620
+is working with date main heading, and it looks like it can also deal with a subtitle. 
+
+59
+00:05:41,330 --> 00:05:44,910
+And then we've got function two and function three. 
+
+60
+00:05:46,160 --> 00:05:46,460
+Okay.
+
+61
+00:05:48,360 --> 00:05:53,500
+Now if we look at template number one, we've got a mapping of date, main heading 
+
+62
+00:05:53,500 --> 00:05:58,660
+and subtitle. There's a date main heading and subtitle. Now, this is pretty verbose 
+
+63
+00:05:58,660 --> 00:06:03,610
+code. You wouldn't generally wanna do it this way, but this is going to get us started, 
+
+64
+00:06:03,610 --> 00:06:05,200
+I think. Let's have a look at it. 
+
+65
+00:06:06,230 --> 00:06:12,490
+So it looks like it's mapping to the data correctly. Let's go to the next slide and 
+
+66
+00:06:12,490 --> 00:06:17,590
+we can see that that's today's presentation and that'll be built up by the second 
+
+67
+00:06:17,590 --> 00:06:22,330
+function. So we've got the main heading mapping to here. So basically there should 
+
+68
+00:06:22,330 --> 00:06:28,600
+be a one-to-one relationship between each of these if statements and the data elements. 
+
+69
+00:06:28,600 --> 00:06:32,650
+At the moment, the bullets is interesting. It did figure out how to deal with the 
+
+70
+00:06:32,650 --> 00:06:38,110
+fact that this is an array of data, and I wonder what about the image? Did that come 
+
+71
+00:06:38,110 --> 00:06:42,860
+through? Yeah, we've got the image here, so let's move on to the third one. It looks 
+
+72
+00:06:42,860 --> 00:06:48,490
+like we've got about five data points. So we've got main heading subtitle, headline 
+
+73
+00:06:48,490 --> 00:06:52,600
+one, synopsis one, headline two, synopsis two. Okay.

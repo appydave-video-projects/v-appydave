@@ -1,0 +1,57 @@
+Imagine a streaming setup where background noise is eliminated, scenes are changing
+automatically and mood lighting is setting the perfect ambience.
+In today's video we're diving into Chris Bay Eye for noise cancellation, stream deck
+excel for scene management and foot pedals for on the fly recording control.
+I'll show how I adapt my backgrounds using mood lighting.
+This video was recorded a couple of months ago for my video editor and it was not designed for YouTube
+but I think the information is still relevant.
+I'm using crisp and what that's doing is isolating my voice from all backgrounds.
+If you hear me clapping, that would be a problem but the crisp system will wipe that out to the recording.
+I'm clapping here and you're not meant to hear the clap because the AI is meant to isolate it.
+The problem was I hadn't had Chris Bay Eye going through my audio channel.
+I'll just show you what happens when I clap.
+You shouldn't be able to hear the clapping just my talking.
+I'm using foot pedals as one of the stream decks that I have.
+It has three buttons, a context switch that I've set up here to go to different usages of the foot pedals.
+This is showing that if I press the left foot pedal, it would be recording my screen.
+If I want to pause or resume, I'd use the right foot pedal.
+But what I'll do is I'll press the middle foot pedal and change to a different context.
+Now we're on scanning of my profiles.
+You can see this is called the front scene and one of the things I've got going on in the background
+are four lights, one set out of focus.
+What I've got it set on at the moment is the short front light.
+That's the one just there.
+I'll change it to red.
+What it does is it changes the whole background dynamics because of that.
+We'll change it to green.
+We'll change it to purple, yellow and pink.
+Normally I'm probably working a green.
+And so we get this kind of gradient effect going through there.
+Now I'll press the next scene button.
+That's the right foot pedal.
+And that'll take us to what I'm calling the GPT view.
+Whenever I want to talk about chat GPT, this is what it'll look like.
+One of the things I have to do is all the black area of the screen
+needs to be dealt with a theme of some sort.
+Channel branding, stuff like that.
+We go to the next scene and we've got the web view.
+So this would be a landscape version of a Chrome window.
+Next scene, this is where I would show a chat GPT plus a web view.
+Next scene, a visual studio view with chat GPT sitting out on the right.
+I can do things like cropping in of the webcam.
+If I wanted to focus on a terminal window,
+but still have chat GPT in the background and just a terminal window.
+Visual studio window with maybe a little bit of terminal in the background.
+And a visual studio window.
+That's all of them.
+I can go back as well though.
+Scene profiles won't actually be done by my feet in the future.
+This will only be for the record and pause.
+I'll just take it through to those ones.
+It'll be this one here.
+I'll use the main stream deck,
+which has 30 odd buttons to control which scenes that I want to do.
+This little behind the scenes was done for my team member.
+But if you're interested in videos generally around
+chat GPT for programming or prompt engineering,
+then check out one of the videos here in the corner.

@@ -1,0 +1,1527 @@
+1
+00:00:00,00 --> 00:00:05,640
+Today we're looking at o1 preview. This is a new model by OpenAI, also known as Strawberry, 
+
+2
+00:00:05,640 --> 00:00:08,580
+and it promises advanced reasoning capability.
+
+3
+00:00:08,590 --> 00:00:14,120
+I will put it to the test and use it to read, analyze, and enhance documentation 
+
+4
+00:00:14,120 --> 00:00:17,530
+for an AI workflow engine. I'm AppyDave. Let's get into it.
+
+5
+00:00:17,560 --> 00:00:22,190
+When I opened up chat GPT this morning, I had access to the new model, so I went 
+
+6
+00:00:22,190 --> 00:00:26,690
+straight to perplexity and just asked what's going on with this new model? And it's 
+
+7
+00:00:26,690 --> 00:00:31,910
+come up with this recently introduced oh one preview, a new series of models designed 
+
+8
+00:00:31,910 --> 00:00:37,820
+to enhance reasoning capabilities, particularly for complex tasks like coding, science, 
+
+9
+00:00:37,830 --> 00:00:38,350
+and mathematics.
+
+10
+00:00:38,360 --> 00:00:43,130
+a key feature is enhanced reasoning, and what we've got here is that in tests model 
+
+11
+00:00:43,130 --> 00:00:49,220
+performed comparably to PHD students. It's working on the idea that with the mathematics 
+
+12
+00:00:49,280 --> 00:00:55,770
+Olympiad, the model achieved 83% success rate compared to the 13% of ChatGPT 4o
+
+13
+00:00:56,460 --> 00:01:02,820
+is available today for ChatGPT plus and team users, but you can only do 30 messages 
+
+14
+00:01:02,820 --> 00:01:06,750
+a week at the moment if you are using it for development point of view through the 
+
+15
+00:01:06,750 --> 00:01:10,710
+API, there's some missing capabilities such as function calling.
+
+16
+00:01:10,730 --> 00:01:15,520
+since we're limited by the number of messages and missing capabilities, the use case 
+
+17
+00:01:15,520 --> 00:01:20,530
+today is just to send it a whole lot of notes, documentation, requirement, specs 
+
+18
+00:01:20,770 --> 00:01:25,450
+around an agent, workflow builder that I'm building for myself, and let's just see 
+
+19
+00:01:25,450 --> 00:01:26,290
+what it can do.
+
+20
+00:01:26,290 --> 00:01:31,230
+let's head over to chat GPT and we'll click on the dropdown. And we now have access 
+
+21
+00:01:31,230 --> 00:01:38,580
+to o1-mini and 01-preview, and I've read up that 01-mini is apart from Being Faster, 
+
+22
+00:01:38,790 --> 00:01:43,460
+should be good for coding related jobs. The one we're gonna work with today is 01-preview, 
+
+23
+00:01:43,680 --> 00:01:44,940
+so we'll just click on it here.
+
+24
+00:01:44,960 --> 00:01:49,320
+Now to get started, we're going to need some documentation and I've just come over 
+
+25
+00:01:49,320 --> 00:01:54,270
+to a Read Me file for an agent workflow Builder, an application designed to work 
+
+26
+00:01:54,270 --> 00:02:00,300
+with GPT Workflows and different large language models. And there's a bunch of information 
+
+27
+00:02:00,300 --> 00:02:05,760
+in here. There's a schema. If we click on the schema, there's a bunch of table information 
+
+28
+00:02:05,760 --> 00:02:07,820
+I wanna grab the content of those files. 
+
+29
+00:02:07,830 --> 00:02:12,900
+we'll just run this little command. It's going to give us access to the files, and 
+
+30
+00:02:12,900 --> 00:02:15,750
+if I run it again without the tree, we'll get all the code as well. 
+
+31
+00:02:15,760 --> 00:02:21,520
+I'll just come over and I'm gonna put in, read and paste it in. So all the information 
+
+32
+00:02:21,580 --> 00:02:27,970
+in the three files that I've got being requirements schema and sample workflows, 
+
+33
+00:02:28,60 --> 00:02:30,580
+is now ready to go into this chat, GPT window.
+
+34
+00:02:30,590 --> 00:02:34,410
+Now I've just added a little instruction in front of this documentation. Can you 
+
+35
+00:02:34,410 --> 00:02:39,480
+read the requirements schema and sample workflows, infer what the application is 
+
+36
+00:02:39,480 --> 00:02:39,990
+doing? 
+
+37
+00:02:39,990 --> 00:02:43,190
+let me know what type of people could use this style of application. 
+
+38
+00:02:43,190 --> 00:02:47,300
+let's have a look at what might be missing in the form of topics or sections from 
+
+39
+00:02:47,330 --> 00:02:47,900
+the document. 
+
+40
+00:02:47,930 --> 00:02:50,510
+press enter and we'll see what happens. 
+
+41
+00:02:50,530 --> 00:02:52,480
+at the moment, it started thinking, 
+
+42
+00:02:52,490 --> 00:02:56,900
+understanding, provided context, figuring out requirements. There might actually 
+
+43
+00:02:56,900 --> 00:03:02,600
+be a dropdown here that we can look at different stuff accessing the workflow, understanding 
+
+44
+00:03:02,600 --> 00:03:04,490
+the functionality is going on, 
+
+45
+00:03:04,490 --> 00:03:07,790
+and that thought went for 15 seconds. 
+
+46
+00:03:07,990 --> 00:03:11,740
+this initial review is looking really detailed and quite correct. 
+
+47
+00:03:11,760 --> 00:03:16,670
+we've got the agent workflow builder designed to create, manage, and execute structured 
+
+48
+00:03:16,670 --> 00:03:17,630
+workflows. 
+
+49
+00:03:17,630 --> 00:03:22,940
+And what they look like is, this example is a YouTube launch optimizer workflow with 
+
+50
+00:03:22,970 --> 00:03:23,780
+a bunch of, 
+
+51
+00:03:23,790 --> 00:03:26,970
+sections or phases and a bunch of steps. 
+
+52
+00:03:26,990 --> 00:03:31,950
+so we can see here it's got the workflow definition, it's got attribute management, 
+
+53
+00:03:31,950 --> 00:03:37,770
+which would be going on over here somewhere. We've also got the prompt customization, 
+
+54
+00:03:37,800 --> 00:03:43,590
+and then there's the dynamic execution. So tools like CrewAI and Lang Chain, they're 
+
+55
+00:03:43,590 --> 00:03:46,410
+dynamic execution engines for agents. 
+
+56
+00:03:46,430 --> 00:03:49,770
+this is all part of this particular application. 
+
+57
+00:03:49,790 --> 00:03:53,630
+Now when we moved down to the second section, we got the types of people that could 
+
+58
+00:03:53,630 --> 00:03:58,370
+use a product like this. We've got content creators and marketers, we've got developers, 
+
+59
+00:03:58,370 --> 00:04:03,710
+we've got project managers. One of the things it would've said earlier was that it's 
+
+60
+00:04:03,710 --> 00:04:08,690
+dealing with human in the loop interactions is what makes it different to an automation 
+
+61
+00:04:09,230 --> 00:04:09,980
+framework. 
+
+62
+00:04:09,260 --> 00:04:14,120
+what that meant with, say, the Launch Optimizer is there could be a section for developing 
+
+63
+00:04:14,120 --> 00:04:19,100
+titles for a YouTube video. So there's a bunch of parameters that you can pass in 
+
+64
+00:04:19,100 --> 00:04:24,230
+with prompts, and as you go through the different phases, there's human in the loop 
+
+65
+00:04:24,230 --> 00:04:24,890
+all the way.
+
+66
+00:04:24,890 --> 00:04:30,220
+if we move down to the next section, which is missing topic sections for more complete 
+
+67
+00:04:30,220 --> 00:04:34,330
+requirements documents, and we've got a lot of information here. We've got the user 
+
+68
+00:04:34,330 --> 00:04:39,730
+interface and mocks. Now you've seen some, so that's something I should be able to 
+
+69
+00:04:39,730 --> 00:04:44,530
+provide as an image, except that this version of the model probably doesn't have 
+
+70
+00:04:44,830 --> 00:04:48,550
+image capabilities at the moment. Then we've got things like the access control, 
+
+71
+00:04:48,550 --> 00:04:53,680
+error handling. We've got many different areas of software development that need 
+
+72
+00:04:53,680 --> 00:04:57,580
+to be developed for the requirements document for this particular application. 
+
+73
+00:04:57,590 --> 00:04:59,760
+this is really quite complete. 
+
+74
+00:04:59,760 --> 00:05:02,790
+this is a pretty solid outcome. 
+
+75
+00:05:02,990 --> 00:05:07,420
+What I'd like to do now is integrate some extra code and examples from an agent as 
+
+76
+00:05:07,420 --> 00:05:11,320
+code application, and let's build it into the main requirements.
+
+77
+00:05:11,330 --> 00:05:15,290
+So we've come over to our chat window and we'll just paste in a starting prompt. 
+
+78
+00:05:15,290 --> 00:05:19,820
+I'm going to introduce agent as code domain specific language for you to read and 
+
+79
+00:05:19,820 --> 00:05:26,330
+understand the languages designed to quickly create agentic workflows for HITL and 
+
+80
+00:05:26,330 --> 00:05:28,520
+automated generative workflow. 
+
+81
+00:05:28,530 --> 00:05:32,490
+it can be either human in the loop or it can be automations. 
+
+82
+00:05:32,660 --> 00:05:37,420
+Now we're gonna need some code examples. So this is the one I use when I'm designing 
+
+83
+00:05:37,450 --> 00:05:43,330
+new agent workflows. I've also got a quite a big one that I use for YouTube launch 
+
+84
+00:05:43,330 --> 00:05:44,530
+optimization.
+
+85
+00:05:44,660 --> 00:05:50,200
+I'm just gonna run a little command here to gather some agent as code examples. I've 
+
+86
+00:05:50,200 --> 00:05:51,850
+got four that I wanna work with. 
+
+87
+00:05:51,860 --> 00:05:56,660
+I'll modify it just to get all the code that's related and we can come back over 
+
+88
+00:05:56,660 --> 00:05:57,410
+here and just paste it in. 
+
+89
+00:05:57,430 --> 00:06:02,920
+we've got a whole lot of context in the form of four little scripts, really, that 
+
+90
+00:06:03,730 --> 00:06:07,150
+we'll build agent workflows. And we've got our little prompt and we'll just start 
+
+91
+00:06:07,150 --> 00:06:07,270
+it.
+
+92
+00:06:07,290 --> 00:06:12,600
+So we get the step by step thinking. So the chain of thought is going on right here. 
+
+93
+00:06:13,830 --> 00:06:15,240
+We can minimize that as we go. 
+
+94
+00:06:15,260 --> 00:06:19,640
+it thought for 18 seconds, I think it's still in the middle of writing information.
+
+95
+00:06:19,660 --> 00:06:24,530
+the output we've got here is great. We've got understanding agents as code, and it's 
+
+96
+00:06:24,530 --> 00:06:29,720
+talking about it being useful for Human in the loop and automated workflows. It's 
+
+97
+00:06:30,890 --> 00:06:35,330
+broken down the key components. There's a workflow area for settings, like which 
+
+98
+00:06:35,330 --> 00:06:39,950
+large language model would you like to use from the beginning areas for prompts, 
+
+99
+00:06:40,190 --> 00:06:43,340
+attributes, and the sections and the steps. 
+
+100
+00:06:43,360 --> 00:06:47,420
+the way workflows operate is there's a primary goal and then there's just phases 
+
+101
+00:06:47,420 --> 00:06:51,950
+that you work through with a bunch of steps and you're just updating data along the 
+
+102
+00:06:51,950 --> 00:06:57,620
+way. Now there's the idea of saving the information so it can be exported to places 
+
+103
+00:06:57,620 --> 00:07:01,820
+like CrewAI or Lang Chain. Then we've got some examples. 
+
+104
+00:07:01,830 --> 00:07:06,520
+I've done videos on each of these examples in use, so you can see more information 
+
+105
+00:07:06,520 --> 00:07:11,530
+on the channel. But we've got the YouTube launch optimizer. It's worked out the information 
+
+106
+00:07:11,530 --> 00:07:16,510
+that's available there. We've got the YouTube outro booster, which is how I write 
+
+107
+00:07:16,510 --> 00:07:22,570
+scripts to go from one video to another. And then it's got the agent workflow architect. 
+
+108
+00:07:22,590 --> 00:07:27,330
+So it's now related this to the application requirements we did earlier. It's worked 
+
+109
+00:07:27,330 --> 00:07:34,290
+out that this is about handling structured GPT workflows in a programmatic way. So 
+
+110
+00:07:34,290 --> 00:07:40,320
+I don't tend to use user interfaces to design agent frameworks. I like to use coding 
+
+111
+00:07:40,320 --> 00:07:45,360
+constructs, and that's what this is all talking about. It then talks about the implications 
+
+112
+00:07:45,360 --> 00:07:52,260
+for users such as using this to automate the different agentic framework design in 
+
+113
+00:07:52,260 --> 00:07:53,850
+CICD pipelines. 
+
+114
+00:07:53,860 --> 00:07:58,790
+think this conclusion here really hits the nail on the head with this particular 
+
+115
+00:07:58,790 --> 00:08:02,810
+part of the application. By encapsulating workflows and tools, it bridges the gap 
+
+116
+00:08:02,810 --> 00:08:08,720
+between development and business users. 'cause it's designed to be usable by business 
+
+117
+00:08:08,720 --> 00:08:15,200
+users to design workflows without actually having to know detailed programming examples.
+
+118
+00:08:15,230 --> 00:08:20,490
+Now that we've got some general documentation and agent as code documentation, let's 
+
+119
+00:08:20,520 --> 00:08:23,880
+try testing a bunch of different prompts against this information.
+
+120
+00:08:23,890 --> 00:08:28,670
+So the 01 model has come up with five different ideas. The first one's being a visual 
+
+121
+00:08:28,670 --> 00:08:32,810
+drag and drop workflow editor. Now, one of the things to notice, you can expand this 
+
+122
+00:08:32,810 --> 00:08:38,270
+to see how it came up with the ideas, and it's working through an analysis and adherence. 
+
+123
+00:08:38,510 --> 00:08:43,400
+We've got generating visual design ideas, the workflow creation, and making human 
+
+124
+00:08:43,400 --> 00:08:49,460
+input easier. So if we move down, the next one it's got is an interactive workflow 
+
+125
+00:08:49,760 --> 00:08:54,320
+dashboard, followed by contextual side panels for human interventions. And there's 
+
+126
+00:08:54,320 --> 00:08:59,660
+two more down here. We've got the comprehensive analytics reporting interface and 
+
+127
+00:08:59,660 --> 00:09:03,590
+a reusable templates and components library. Now we're going to work with a couple 
+
+128
+00:09:03,590 --> 00:09:04,400
+of these. We'll probably 
+
+129
+00:09:04,430 --> 00:09:08,940
+work with the fifth one, reusable templates and component libraries, and the visual 
+
+130
+00:09:08,940 --> 00:09:13,530
+drag and drop workflow editor. But I think it might be useful to compare this to 
+
+131
+00:09:13,560 --> 00:09:19,530
+ChatGPT 4o. So what I've done is I've got the same question going on here, and I've 
+
+132
+00:09:19,620 --> 00:09:23,400
+also fed in a lot of the information that we just used, 
+
+133
+00:09:23,430 --> 00:09:28,640
+plus I've fed in the answers that the oh one preview model gave. So at least the 
+
+134
+00:09:28,640 --> 00:09:33,170
+information's the same. So let's just run it and see what this one comes up with.
+
+135
+00:09:33,190 --> 00:09:38,460
+Now side by side, we're looking at the oh one preview versus the 4o model, and the 
+
+136
+00:09:38,460 --> 00:09:43,980
+first one is implement an intuitive can versus where users can construct workflows 
+
+137
+00:09:43,980 --> 00:09:49,140
+by dragging and dropping components. Here we've got the interactive workflow canvas 
+
+138
+00:09:49,140 --> 00:09:54,480
+with drag and drop functionality, so headings wise, they seem similar. The way this 
+
+139
+00:09:54,480 --> 00:10:00,420
+is come up, there's a design idea. There's also the HITL relevance down the bottom, 
+
+140
+00:10:00,480 --> 00:10:02,430
+and then a bunch of key features 
+
+141
+00:10:02,460 --> 00:10:05,670
+We've just got more detailed sort of components 
+
+142
+00:10:05,690 --> 00:10:09,740
+There's meant to be an example, but it's not showing up. In this particular case, 
+
+143
+00:10:10,190 --> 00:10:15,470
+unless I dove deeper into this and tried to use them, I wouldn't be able to say which 
+
+144
+00:10:15,470 --> 00:10:17,720
+one is a better technique at the moment.
+
+145
+00:10:17,730 --> 00:10:22,820
+Here we're matching the third item on the oh one model. We've got contextual side 
+
+146
+00:10:22,820 --> 00:10:28,280
+panels for human intervention versus prompt customization panel with real time preview 
+
+147
+00:10:28,580 --> 00:10:33,950
+and similar. Again, we've got an idea with key features and the human in the loop 
+
+148
+00:10:34,130 --> 00:10:37,580
+relevance. This is a good structure the way this is coming up, 
+
+149
+00:10:37,590 --> 00:10:42,390
+whereas the version over here is also pretty good. It's got a little bit more depth 
+
+150
+00:10:42,390 --> 00:10:43,980
+and detail in the items, 
+
+151
+00:10:43,990 --> 00:10:49,590
+But there's no design idea or human in the loop relevance in these lists, and this 
+
+152
+00:10:49,590 --> 00:10:55,440
+just continues on. So at the moment, I don't have an opinion over one system versus 
+
+153
+00:10:55,470 --> 00:10:56,160
+the other 
+
+154
+00:10:56,330 --> 00:11:00,400
+though, where things do improve a little bit with the o1 is when you get to the bottom 
+
+155
+00:11:00,400 --> 00:11:03,880
+and there's additional design considerations going on 
+
+156
+00:11:03,890 --> 00:11:08,900
+Let's test out getting a design brief for either Figma or Sketch from two of these 
+
+157
+00:11:08,900 --> 00:11:09,290
+examples.
+
+158
+00:11:09,290 --> 00:11:14,270
+So the prompt we're gonna test is can you write a design brief so a human can prototype 
+
+159
+00:11:14,270 --> 00:11:17,150
+these ideas in Figma or Sketch for? 
+
+160
+00:11:17,160 --> 00:11:22,380
+visual drag and drop workflow editor, and we've got the reusable templates and component 
+
+161
+00:11:22,380 --> 00:11:24,240
+libraries. It's starting to think.
+
+162
+00:11:24,260 --> 00:11:30,260
+we've got a bunch of ideas of what it's doing, the assistance task with crafting 
+
+163
+00:11:30,260 --> 00:11:34,310
+the design brief, and then I'm working on the design brief for the drag and drop 
+
+164
+00:11:34,400 --> 00:11:39,950
+editor. Then I'm building the structure for the high tour agent. So I love that we 
+
+165
+00:11:39,950 --> 00:11:41,570
+get to see the way it's thinking. 
+
+166
+00:11:41,590 --> 00:11:45,900
+we've got our title and introduction and just the areas that it's going to focus 
+
+167
+00:11:45,900 --> 00:11:50,970
+on. And then we've got a really detailed idea of each visualization. We've got the 
+
+168
+00:11:50,970 --> 00:11:55,920
+objective target audience, key features and functionalities. This is around the visual 
+
+169
+00:11:55,920 --> 00:11:57,600
+drag and drop workflow editor. 
+
+170
+00:11:57,630 --> 00:12:02,180
+And then we've got different visual design elements being listed down below. 
+
+171
+00:12:02,190 --> 00:12:07,280
+After that, we've got the user experience guidelines, the technical considerations, 
+
+172
+00:12:07,290 --> 00:12:13,410
+then we've got the deliverables like a high fidelity graphic en figma and the style 
+
+173
+00:12:13,410 --> 00:12:14,400
+guide, swatches, 
+
+174
+00:12:14,430 --> 00:12:16,940
+And then we've got the expected deliverables. 
+
+175
+00:12:16,960 --> 00:12:21,520
+for the second design idea, we've got pretty much the same thing. We've got reusable 
+
+176
+00:12:21,520 --> 00:12:25,480
+templates and component libraries. We've got the objective target audience and the 
+
+177
+00:12:25,480 --> 00:12:27,370
+key features and functionality 
+
+178
+00:12:27,390 --> 00:12:32,810
+followed by the user interface experience guidelines, and a user flow example. There's 
+
+179
+00:12:32,810 --> 00:12:37,790
+still the technical considerations and deliverable after that. It's provided the 
+
+180
+00:12:37,790 --> 00:12:42,560
+general sort of feedback. We've got the branding and visual guidelines, accessibility 
+
+181
+00:12:42,590 --> 00:12:44,450
+and prototype requirements. 
+
+182
+00:12:44,460 --> 00:12:49,660
+There's also a timeline and milestones. So the conclusion here is this design brief 
+
+183
+00:12:49,660 --> 00:12:53,740
+outlines the essential features and design considerations for prototyping the visual 
+
+184
+00:12:53,740 --> 00:12:59,860
+drag and drop workflow editor and the reusable template components library. The prototype 
+
+185
+00:12:59,860 --> 00:13:04,180
+should focus on delivering an intuitive and efficient user experience demonstrating 
+
+186
+00:13:04,180 --> 00:13:08,110
+how users can create and manage complex workflows with ease. 
+
+187
+00:13:08,130 --> 00:13:12,810
+Head over to the 4o model where I've given it the same starting information. I've 
+
+188
+00:13:12,810 --> 00:13:17,640
+just asked it to read it and wait for my next question, and we'll just paste in the 
+
+189
+00:13:17,640 --> 00:13:23,760
+same prompt that we used on the oh one preview and we'll see if we get similar sorts 
+
+190
+00:13:23,760 --> 00:13:24,810
+of information coming through. 
+
+191
+00:13:24,830 --> 00:13:28,440
+the first thing you notice is that we don't know how it's coming up with the ideas. 
+
+192
+00:13:28,440 --> 00:13:31,530
+We don't get to see its thinking process.
+
+193
+00:13:31,660 --> 00:13:36,740
+At the moment, we're looking at the design brief headline. From the left hand side 
+
+194
+00:13:36,740 --> 00:13:41,360
+is the o1-preview, and the right hand side is the 4o They're different, but there's 
+
+195
+00:13:41,360 --> 00:13:46,130
+also a lot of similarity between them. Minor differences is that we've got design 
+
+196
+00:13:46,130 --> 00:13:52,280
+brief Fortor agent workflow, web application builder, whereas over here it says 
+
+197
+00:13:52,290 --> 00:13:56,860
+the product we're building, plus the two design ideas that are going on. Those two 
+
+198
+00:13:56,860 --> 00:14:00,220
+design ideas are also broken down in this section here.
+
+199
+00:14:00,230 --> 00:14:04,430
+On the left, we've got an objective and a target audience. Whereas on the right we've 
+
+200
+00:14:04,430 --> 00:14:06,350
+just got a list of design goal. 
+
+201
+00:14:06,360 --> 00:14:11,240
+When we get to the key features and functionality, you can start to see a clear difference. 
+
+202
+00:14:11,480 --> 00:14:16,880
+There's a fair bit more information across multiple components going on. I think 
+
+203
+00:14:16,880 --> 00:14:18,350
+there's about seven of them. 
+
+204
+00:14:18,360 --> 00:14:22,820
+From the key features and functionality, you see a lot more depth. With the new model, 
+
+205
+00:14:22,820 --> 00:14:28,910
+we've got six items going on in here versus the four that are in the older model. 
+
+206
+00:14:29,240 --> 00:14:34,670
+Then we move on to the interactions to prototype drag and drop behaviors, zoom and 
+
+207
+00:14:34,670 --> 00:14:36,530
+panning customization panel, 
+
+208
+00:14:36,530 --> 00:14:42,450
+on first glance is really similar but different. It's, it's not one is stronger than 
+
+209
+00:14:42,450 --> 00:14:42,780
+the other. 
+
+210
+00:14:42,790 --> 00:14:48,300
+but the o1-preview is also going a bit further to talk about the technical considerations 
+
+211
+00:14:48,330 --> 00:14:49,860
+and the deliverables.
+
+212
+00:14:49,860 --> 00:14:54,210
+The second design for the reusable templates and component libraries has similar 
+
+213
+00:14:54,210 --> 00:14:59,130
+pattern. We've got more detail on the left than we do on the right, but as to which 
+
+214
+00:14:59,130 --> 00:15:04,140
+one's better, I'm not going in deep enough to actually understand that particular 
+
+215
+00:15:04,140 --> 00:15:04,260
+answer.
+
+216
+00:15:05,130 --> 00:15:10,250
+But when we do get to the conclusion of the 4o document, there's only a little bit 
+
+217
+00:15:10,250 --> 00:15:15,860
+of information being shown versus a much greater deal of detail, and we've got the 
+
+218
+00:15:15,860 --> 00:15:16,850
+conclusion down the bottom.
+
+219
+00:15:16,860 --> 00:15:21,290
+For the next prompt, I'm going to test them side by side and it's a multi-part prompt. 
+
+220
+00:15:21,350 --> 00:15:27,110
+We're going to use the visual drag and drop workflow edited design from above with 
+
+221
+00:15:27,170 --> 00:15:28,400
+both models. 
+
+222
+00:15:28,430 --> 00:15:33,150
+we're going to select a diagram type to represent data or event flows. 
+
+223
+00:15:33,160 --> 00:15:38,270
+what I wanted to do is explain why it picks a particular diagram type. So I want 
+
+224
+00:15:38,270 --> 00:15:38,870
+it to come up 
+
+225
+00:15:38,830 --> 00:15:44,830
+diagram. And then lastly, I want it to visualize it in an ASCI representation. 
+
+226
+00:15:44,860 --> 00:15:46,550
+we'll kick off the 4o 
+
+227
+00:15:47,660 --> 00:15:52,490
+and we are straight into writing some information with 4o while we're still examining 
+
+228
+00:15:52,490 --> 00:15:54,110
+and working through details. 
+
+229
+00:15:54,130 --> 00:16:00,310
+it's come up with a diagram type of flowchart, node based diagram, why chose it, 
+
+230
+00:16:00,640 --> 00:16:04,240
+clarity and sim simplicity, node based design alignment. 
+
+231
+00:16:04,260 --> 00:16:07,630
+we've got this diagram showing up here on the right 
+
+232
+00:16:07,630 --> 00:16:13,390
+and we can see an explanation of what's going on. Now the other one is firing away 
+
+233
+00:16:13,390 --> 00:16:14,260
+on the left here.
+
+234
+00:16:14,360 --> 00:16:19,540
+the chain of thought going on is quite extensive. And then we get to the diagram 
+
+235
+00:16:19,540 --> 00:16:26,140
+type selected is a data flow diagram (DFD) and it gives a reason for that. I chose 
+
+236
+00:16:26,170 --> 00:16:32,650
+the DFD to represent the data flows for the agent workflow builder. Because it's 
+
+237
+00:16:32,800 --> 00:16:38,590
+data-centric focus, it can deal with hierarchies and it's easy to represent in asci, 
+
+238
+00:16:38,590 --> 00:16:42,490
+which is the main format that you can do with chat GPT 
+
+239
+00:16:42,490 --> 00:16:47,590
+for 4o. We've also got a bunch of reasons that when I look through 'em, I quite rational 
+
+240
+00:16:47,590 --> 00:16:52,830
+and I dare say, a very nice visualization when I compare it to the source document. 
+
+241
+00:16:52,830 --> 00:16:57,570
+So it's taken the source document being the YouTube launch optimizer and we've got 
+
+242
+00:16:57,570 --> 00:17:02,430
+the configured workflow load, the prompt script, summary script, debridement, and 
+
+243
+00:17:02,430 --> 00:17:07,440
+these sorts of concepts. So going on right here you can see as it goes down to new 
+
+244
+00:17:07,440 --> 00:17:13,230
+areas. So here we've got the analyze content essence. That's this area here listed. 
+
+245
+00:17:13,380 --> 00:17:15,990
+So this is a good diagram 
+
+246
+00:17:15,990 --> 00:17:18,690
+and it's given a good explanation over here on the right. 
+
+247
+00:17:18,690 --> 00:17:19,290
+We got 
+
+248
+00:17:19,330 --> 00:17:24,190
+create tweet, Facebook post, and LinkedIn and that sort of stuff is going on here.
+
+249
+00:17:24,190 --> 00:17:28,870
+So I've just had a look through this context diagram and the other DFD diagrams. 
+
+250
+00:17:28,870 --> 00:17:34,120
+This is really powerful. Where it's different is that we've just got a visualization 
+
+251
+00:17:34,120 --> 00:17:40,570
+of data based on one of the agent as code workflows that I've designed in the past. 
+
+252
+00:17:40,900 --> 00:17:45,460
+But when we look through here, we've got various levels of data flow diagrams. The 
+
+253
+00:17:45,460 --> 00:17:48,610
+first one being the context diagram, where we've got the user 
+
+254
+00:17:48,630 --> 00:17:53,960
+who works with workflow definitions, does inputs, reviews the information that leads 
+
+255
+00:17:53,960 --> 00:17:59,810
+onto the agent workflow builder, where we're defining workflows, executing 'em, we're 
+
+256
+00:18:00,140 --> 00:18:04,670
+interacting with the large language models, and then we are managing the persistence 
+
+257
+00:18:04,670 --> 00:18:10,430
+and the retrieval of data stores. There's this next area prompts and data exchanges 
+
+258
+00:18:10,430 --> 00:18:14,780
+with the large language models and what ones are we using, are they from open AI 
+
+259
+00:18:14,780 --> 00:18:21,230
+or anthropic, et cetera. This goes into a little bit more detail as we move on. We've 
+
+260
+00:18:21,230 --> 00:18:26,600
+got a detailed data flow where we can look at it individually, so the user defines 
+
+261
+00:18:26,600 --> 00:18:28,460
+the workflow and provides some input. 
+
+262
+00:18:28,460 --> 00:18:33,300
+So we can see here that process one is defining and configuring the workflow and 
+
+263
+00:18:33,300 --> 00:18:38,160
+then storing that definition into a data store. Then we move on to process number 
+
+264
+00:18:38,160 --> 00:18:43,260
+two, which is where we might execute a workflow against a large language model. And 
+
+265
+00:18:43,260 --> 00:18:48,390
+to do that, we'd need to retrieve the inputs that the user has entered in. And from 
+
+266
+00:18:48,390 --> 00:18:54,390
+there we can merge the inputs with a particular prompt. There can be insertion values 
+
+267
+00:18:54,390 --> 00:18:58,200
+along the way, and then those prompts are sent to the large language model 
+
+268
+00:18:58,230 --> 00:19:00,390
+the large language model outputs, 
+
+269
+00:19:00,390 --> 00:19:05,300
+which can be presented to the human for review. The human in the loop interaction 
+
+270
+00:19:05,300 --> 00:19:10,940
+is, does it accept it? Do they wanna modify it so they can review that and either 
+
+271
+00:19:10,940 --> 00:19:15,890
+give feedback, give modifications, they could change the data directly. And from 
+
+272
+00:19:15,890 --> 00:19:18,710
+there, we can execute further into the workflow. 
+
+273
+00:19:18,730 --> 00:19:23,340
+Now, that's exactly how I do workflows in my own systems. I'll have these inputs 
+
+274
+00:19:23,340 --> 00:19:24,330
+and prompts, 
+
+275
+00:19:24,330 --> 00:19:28,900
+and with the input, like some content goes here, it would get merged into the prompt 
+
+276
+00:19:28,900 --> 00:19:34,450
+and we can see that listed down the bottom. And as this is executed against a large 
+
+277
+00:19:34,450 --> 00:19:40,210
+language model, the output is going into an output attributes to be reused in future 
+
+278
+00:19:40,210 --> 00:19:40,690
+steps.
+
+279
+00:19:40,690 --> 00:19:45,940
+considering that the o1-preview has never seen this user interface, it's never seen 
+
+280
+00:19:45,940 --> 00:19:51,550
+the idea of these workflows in action, all it's looked at is a few requirements, 
+
+281
+00:19:51,610 --> 00:19:55,750
+documents, and an agent-as-code structure, it's 
+
+282
+00:19:55,760 --> 00:20:00,820
+accurately represented the data flow diagram. If we move on further, we've got a 
+
+283
+00:20:00,820 --> 00:20:03,400
+detailed explanation of what's going on 
+
+284
+00:20:03,430 --> 00:20:07,740
+and a detailed conclusion to show us how everything fits together.
+
+285
+00:20:07,760 --> 00:20:12,350
+for the next test, what I wanna do is visualize one of these workflows. I do not 
+
+286
+00:20:12,350 --> 00:20:18,530
+believe I have access to DALE3 within this version of ChatGPT, but I can at least 
+
+287
+00:20:18,530 --> 00:20:24,110
+create some good prompts. I'm hoping that can be turned into images using Leonardo.
+
+288
+00:20:24,130 --> 00:20:28,410
+I've written a prompt here called, given the following, two design briefs, can you 
+
+289
+00:20:28,410 --> 00:20:34,860
+create a prompt for diffusion models like DALE-3 Midjourney that could create two 
+
+290
+00:20:34,860 --> 00:20:35,820
+prompts for each design. 
+
+291
+00:20:35,830 --> 00:20:40,320
+I've just copied the design brief from Strawberry. We'll past it in, and we'll get 
+
+292
+00:20:40,320 --> 00:20:45,360
+that one going. And while that's happening, we'll run the other version on ChatGPT 
+
+293
+00:20:45,360 --> 00:20:45,660
+4o
+
+294
+00:20:46,290 --> 00:20:51,280
+I've got four prompts for chat, GPT-4. Looking at 'em on the surface, it's really 
+
+295
+00:20:51,280 --> 00:20:55,750
+difficult to tell which one's going to be better. One of the interesting things though, 
+
+296
+00:20:55,750 --> 00:20:59,860
+is that we can see the design decisions that came up through the chain of thought 
+
+297
+00:21:00,160 --> 00:21:05,860
+prompting here. So it's mapping out design considerations, mapping the tasks. One 
+
+298
+00:21:05,860 --> 00:21:10,660
+of the areas that it talks about is, is it policy compliant? And it does that in 
+
+299
+00:21:10,660 --> 00:21:14,500
+a couple of areas. So we're not going to have a problem with bad, 
+
+300
+00:21:14,530 --> 00:21:20,460
+images coming through because of policy things. One of the thing that's interesting 
+
+301
+00:21:20,460 --> 00:21:25,770
+though is it's giving all these guidelines on how it came up with the visual designs, 
+
+302
+00:21:26,100 --> 00:21:31,380
+but there's nothing in here to state that it's doing prompts that are geared towards 
+
+303
+00:21:31,380 --> 00:21:35,970
+a diffusion model. 'cause the way you do prompting for images is quite a bit different 
+
+304
+00:21:36,30 --> 00:21:40,140
+to the way you do prompting for ChatGPT as an example. 
+
+305
+00:21:40,160 --> 00:21:43,60
+I would've thought there would've been a step involved there.
+
+306
+00:21:43,330 --> 00:21:48,870
+I generated 32 images because we have two language models, two designs per language 
+
+307
+00:21:48,870 --> 00:21:53,640
+model, and two prompts per design. And when you generate four images for each of 
+
+308
+00:21:53,640 --> 00:21:58,410
+them, you end up with 32 of them. So if we click on a couple, we can start having 
+
+309
+00:21:58,410 --> 00:22:02,370
+a look at some interesting designs that have come through. 
+
+310
+00:22:02,390 --> 00:22:07,170
+I wonder if we can create a little application to showcase all 32 images.
+
+311
+00:22:07,190 --> 00:22:11,730
+Now I've just put all the images into a folder on my computer and we can see a couple 
+
+312
+00:22:11,730 --> 00:22:15,900
+of them here. And I've also created a little prompt. 
+
+313
+00:22:15,930 --> 00:22:21,290
+And this prompt is not actually little, it's quite complex. So I say we've got two 
+
+314
+00:22:21,290 --> 00:22:21,170
+LLM 
+
+315
+00:22:21,330 --> 00:22:27,690
+that we're testing. We've got GPT oh one preview and GPT-4. I've created two prompts 
+
+316
+00:22:27,690 --> 00:22:33,690
+for two visuals for each large language model. Listed below is a large language model 
+
+317
+00:22:33,870 --> 00:22:35,340
+followed by the design, 
+
+318
+00:22:35,360 --> 00:22:40,560
+name and two prompts for each design. I've also included a file prefix. 
+
+319
+00:22:40,560 --> 00:22:45,300
+Then after that I've said I want you to create a HTML/JavaScript slideshow. Each 
+
+320
+00:22:45,300 --> 00:22:51,720
+slide represents a unique large language model, design, name and prompt content composite 
+
+321
+00:22:51,720 --> 00:22:56,850
+key. And every slide should have the following. So the large language model should 
+
+322
+00:22:56,850 --> 00:22:58,470
+go into a heading one, 
+
+323
+00:22:58,490 --> 00:23:03,570
+the design name into a heading two, the the content. You should use a paragraph. 
+
+324
+00:23:03,750 --> 00:23:08,940
+And we're going to display four images. Now I do want to go a little bit more detailed 
+
+325
+00:23:08,940 --> 00:23:13,230
+than this, but I already, I feel like there's too much in this prompt, so we'll see 
+
+326
+00:23:13,230 --> 00:23:17,700
+what happens. I've also told at my brand colors, so we've got a dark brown, a light 
+
+327
+00:23:17,700 --> 00:23:22,650
+brown, a yellow, and a white. And I've said that there should be the ability to move 
+
+328
+00:23:22,650 --> 00:23:25,230
+slides left and right using the arrow key. 
+
+329
+00:23:25,230 --> 00:23:31,460
+Then I've said, here is the information about the LLM designs prompts and file prefixes. 
+
+330
+00:23:31,460 --> 00:23:36,30
+then I've just listed everything out. Now it's relatively well structured, but it's 
+
+331
+00:23:36,30 --> 00:23:42,630
+also freeform, so there's not a lot of guidance from semantic, meaning in here. We'll 
+
+332
+00:23:42,630 --> 00:23:47,130
+see whether this works. And lastly, I've just said files in the current folder, and 
+
+333
+00:23:47,130 --> 00:23:50,730
+I've listed all of them. So I think from here, we should just be able to copy.
+
+334
+00:23:50,730 --> 00:23:55,190
+here we have the conversation that we've been working on all along, and we're just 
+
+335
+00:23:55,190 --> 00:23:59,300
+gonna paste all that information in and hope for the best. 
+
+336
+00:23:59,330 --> 00:24:03,980
+So it started thinking it's crafting a HTML/JavaScript slideshow, 
+
+337
+00:24:03,990 --> 00:24:04,970
+We've got 
+
+338
+00:24:04,990 --> 00:24:10,610
+some CSS for the body. Slideshow, container slides. We've got the colors coming through, 
+
+339
+00:24:10,630 --> 00:24:12,640
+using the colors I've suggested. 
+
+340
+00:24:12,560 --> 00:24:15,360
+We've got highlight going on for the on hover. 
+
+341
+00:24:15,230 --> 00:24:16,310
+got a bunch of HTML 
+
+342
+00:24:16,330 --> 00:24:20,880
+It's given us instructions on how to work with this code just to create a file and 
+
+343
+00:24:20,880 --> 00:24:27,390
+copy the information in. It's given us e explanation of the HTML, the styling and 
+
+344
+00:24:27,390 --> 00:24:30,300
+the navigation. There's also a JavaScript, 
+
+345
+00:24:30,330 --> 00:24:35,350
+show slide and active function going on. Where do we have that? It's right here.
+
+346
+00:24:35,360 --> 00:24:39,840
+I've just gone into my folder and created a file called Slideshow, HTML. We'll just 
+
+347
+00:24:39,840 --> 00:24:42,990
+copy the code, we'll press save on that 
+
+348
+00:24:42,990 --> 00:24:46,350
+and we should be able to right click on it and say Open in live server. 
+
+349
+00:24:46,360 --> 00:24:51,760
+And that has come up and hey, it looks like it's working. Let's make it full screen. 
+
+350
+00:24:51,760 --> 00:24:56,570
+And here we have the slideshow. It's using the brand colors for the highlight. We've 
+
+351
+00:24:56,570 --> 00:25:01,460
+got the light brown as the background, and we can just skip through each of these. 
+
+352
+00:25:01,730 --> 00:25:06,290
+Let's make one little change to it. I would like some buttons that make this all 
+
+353
+00:25:06,470 --> 00:25:09,830
+get bigger so that we can see a more detailed view of the image.
+
+354
+00:25:09,860 --> 00:25:13,730
+So I'm just updating the prompt a little bit to say that everything works well. Can 
+
+355
+00:25:13,730 --> 00:25:18,140
+you update the user interface so that there are four buttons down the bottom left? 
+
+356
+00:25:18,230 --> 00:25:23,630
+I don't think I need to tell it. To use the highlight colors. It should work. As 
+
+357
+00:25:23,630 --> 00:25:28,880
+you hover over the buttons, a image should just become expanded and larger and hopefully 
+
+358
+00:25:28,880 --> 00:25:30,830
+take up primary, 
+
+359
+00:25:30,990 --> 00:25:35,300
+view on the screen. I don't want to lose the headings or the prompt. I still wanna 
+
+360
+00:25:35,300 --> 00:25:36,650
+be able to visualize that. 
+
+361
+00:25:36,660 --> 00:25:42,790
+Now, I've gone and copied this and I'll just bring it up and it's failed. It hasn't 
+
+362
+00:25:42,790 --> 00:25:46,840
+worked the way I wanted though. There's some success. You can see that you can hover 
+
+363
+00:25:46,840 --> 00:25:49,690
+over these icons here and see the enlarged 
+
+364
+00:25:49,690 --> 00:25:54,980
+image, which is what I wanted, but the arrows to go left and right don't work, and 
+
+365
+00:25:55,490 --> 00:25:59,990
+the fact that we don't have the original images on the screen is also a bit of a 
+
+366
+00:25:59,990 --> 00:26:00,320
+problem.
+
+367
+00:26:00,330 --> 00:26:03,810
+Now I tried fixing the problem with the prompt. I said, when you altered the code, 
+
+368
+00:26:03,810 --> 00:26:09,240
+you broke the buttons. I've also said, you have broken the layout of the original 
+
+369
+00:26:09,240 --> 00:26:14,610
+four images, and I expected everything to stay as it was just with four new buttons. 
+
+370
+00:26:14,850 --> 00:26:19,950
+Now you can see here on screen that I've got regeneration errors and I had a bunch 
+
+371
+00:26:19,950 --> 00:26:25,320
+of issues go on. Firstly, it didn't generate the code, then it did generate the code, 
+
+372
+00:26:25,350 --> 00:26:30,390
+and I thought I had a working version. We'll just bring it up. This is it. Here, 
+
+373
+00:26:30,390 --> 00:26:35,130
+we've got four images. They look great. We've got these hover buttons. We can hover 
+
+374
+00:26:35,580 --> 00:26:39,870
+up and see an enlarged version, but what doesn't work 
+
+375
+00:26:39,690 --> 00:26:43,510
+is the left and the right to go between different slides. 
+
+376
+00:26:43,530 --> 00:26:47,940
+when I tried to fix that, nothing seemed to work the way I wanted. 
+
+377
+00:26:47,960 --> 00:26:51,520
+So I've abandoned this for now because I've only got 30 credits for the week.
+
+378
+00:26:51,530 --> 00:26:57,330
+Well, that's been a first look at open AI's oh one preview. In the next video, I 
+
+379
+00:26:57,330 --> 00:27:03,450
+hope to use some of the credits that I've got remaining to create a documentation 
+
+380
+00:27:03,450 --> 00:27:08,820
+programming language, basically at DSL. So stay tuned for the next video where we'll 
+
+381
+00:27:08,820 --> 00:27:13,350
+be looking at that or comment and like and subscribe. I'm AppyDave See you in the 
+
+382
+00:27:13,350 --> 00:27:13,740
+next video.

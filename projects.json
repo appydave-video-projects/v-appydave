@@ -1,0 +1,1632 @@
+{
+  "config": {
+    "local_base": "~/dev/video-projects/v-appydave",
+    "ssd_base": "/Volumes/T7/youtube-PUBLISHED/appydave",
+    "last_updated": "2025-10-20T15:26:28Z",
+    "note": "Auto-generated manifest. Regenerate with: ruby generate_manifest.rb",
+    "disk_usage": {
+      "local_flat": {
+        "total_bytes": 4221454558,
+        "total_mb": 4025.89,
+        "total_gb": 3.93
+      },
+      "local_grouped": {
+        "total_bytes": 1661417291,
+        "total_mb": 1584.45,
+        "total_gb": 1.55
+      },
+      "ssd": {
+        "total_bytes": 430148358562,
+        "total_mb": 410221.44,
+        "total_gb": 400.61
+      }
+    }
+  },
+  "projects": [
+    {
+      "id": "006-ac-carnivore-90",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/006-ac-carnivore-90"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "010-bing-gpt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/010-bing-gpt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "013-ac-hairandbeauty-job-requirement",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/013-ac-hairandbeauty-job-requirement"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "016-ac-blazed-and-amazed",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/016-ac-blazed-and-amazed"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "016-ac-blazed-and-amazed-premiere-pro",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/016-ac-blazed-and-amazed-premiere-pro"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "018-ac-htmx",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/018-ac-htmx"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "021-automate-youtube-production-pipeline",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/021-automate-youtube-production-pipeline"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "022-yt-automation-challenge",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/022-yt-automation-challenge"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "023-ecamm-live-streamdeck-pedle-krisp-ai",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/023-ecamm-live-streamdeck-pedle-krisp-ai"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "024-consistent-and-predictable-unit-tests-chatgpt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/024-consistent-and-predictable-unit-tests-chatgpt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "025-ecamm-layout-hell",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "-01-25/025-ecamm-layout-hell"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a01-ac-writing-a-book-using-chatgpt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a01-ac-writing-a-book-using-chatgpt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a02-ac-studio-setup-behind-the-scenes",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a02-ac-studio-setup-behind-the-scenes"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a05-ad-chatgpt-for-converting-code-styles-factory-data-example",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a05-ad-chatgpt-for-converting-code-styles-factory-data-example"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a06-ac-writing-a-book-using-chatgpt-#2",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a06-ac-writing-a-book-using-chatgpt-#2"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "a13-wp-openai-moderation-api-announcement-aug-25",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a13-wp-openai-moderation-api-announcement-aug-25"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a15-ad-create-code-using-gpt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a15-ad-create-code-using-gpt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a16-ac-create-chatbots-using-nocode",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a16-ac-create-chatbots-using-nocode"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a17-vra-competition",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a17-vra-competition"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a18-ac-take-my-awesome-script-cut-it-in-half-keep-it-awesome",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a18-ac-take-my-awesome-script-cut-it-in-half-keep-it-awesome"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a21-ac-custom-gpt-instruction",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a21-ac-custom-gpt-instruction"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a22-ac-browse-with-bing-chatgpt-feature",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a22-ac-browse-with-bing-chatgpt-feature"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a23-ac-dall3-vs-mj-first-100-examples",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a23-ac-dall3-vs-mj-first-100-examples"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a25-ac-todo-list-manager-CI",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a25-ac-todo-list-manager-CI"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a26-ac-7-gpts-to-grow-your-influence-in-2024",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a26-ac-7-gpts-to-grow-your-influence-in-2024"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a30-gesture-reactions-mac-sonoma",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a30-gesture-reactions-mac-sonoma"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a30-gpt-agents-01-shell-script-helper",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a30-gpt-agents-01-shell-script-helper"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a32-kajabi-gpt-appydave",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a32-kajabi-gpt-appydave"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a33-at-mention-chatgpt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a33-at-mention-chatgpt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a34-create-avatars-with-this-simple-api",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a34-create-avatars-with-this-simple-api"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a35-automate-image-generation",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a35-automate-image-generation"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a36-voice-commands-in-vscode",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a36-voice-commands-in-vscode"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a37-gpt-mem-and-temporary-chat",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a37-gpt-mem-and-temporary-chat"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a38-devin-ai-programmer",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a38-devin-ai-programmer"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a39-ai-operating-system-o1-interpreter",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a39-ai-operating-system-o1-interpreter"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a40-open-devin",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a40-open-devin"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a41-ecamm-leap",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a41-ecamm-leap"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a42-budha-time-vs-western-time",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a42-budha-time-vs-western-time"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a45-banned-from-midjourney-16-alternatives",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a45-banned-from-midjourney-16-alternatives"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a48-prompt-engineering-writing-story",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a01-a49/a48-prompt-engineering-writing-story"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a51-buy-me-a-coffee",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a51-buy-me-a-coffee"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a55-mj-alternatives-shorts",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a55-mj-alternatives-shorts"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "a60-banned-from-midjourney",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a60-banned-from-midjourney"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a61-midjourney-alternatives",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a61-midjourney-alternatives"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a63-agent-workflow",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a63-agent-workflow"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a64-request-for-free-samples",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a64-request-for-free-samples"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a65-websim.ai",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a65-websim.ai"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a66-websim.ai-10-games",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a66-websim.ai-10-games"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a67-agent-workflow-poc",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a67-agent-workflow-poc"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a68-agent-workflow-mvp",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a68-agent-workflow-mvp"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a69-anthropic-prompt-development",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a69-anthropic-prompt-development"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a70-agent-workflow-AaC",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a70-agent-workflow-AaC"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a71-agent-workflow-outro-vidiq",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a71-agent-workflow-outro-vidiq"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a72-agent-workflow-thumbnail-design-brief",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a72-agent-workflow-thumbnail-design-brief"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a73-agent-workflow-designer-TODO",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a73-agent-workflow-designer-TODO"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "a74-agent-workflow-code-documentation-REVIEW",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a74-agent-workflow-code-documentation-REVIEW"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a75-chatgpt-o1-preview",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a75-chatgpt-o1-preview"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a76-klue-parser-exploration-strawberry-REVIEW",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a76-klue-parser-exploration-strawberry-REVIEW"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a77-klue-langkraft",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a77-klue-langkraft"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "a78-klue-tokenizer",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a78-klue-tokenizer"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "a79-agent-workflow-intro-outro",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a79-agent-workflow-intro-outro"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a80-yt-launch-optimizer",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a80-yt-launch-optimizer"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a81-advanced-voice-mode",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a81-advanced-voice-mode"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a82-klue-git-diff",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a82-klue-git-diff"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a83-v0-fli-brief",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a83-v0-fli-brief"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a84-building-documenation-in-cursor",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a84-building-documenation-in-cursor"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a85-building-documentation-with-openai-canvas",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a85-building-documentation-with-openai-canvas"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a86-openai-canvas-dsl-parser",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a86-openai-canvas-dsl-parser"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a87-openai-swarm-1st-look",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a87-openai-swarm-1st-look"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a90-klue-workflow-tests-ABANDON",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a90-klue-workflow-tests-ABANDON"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "a91-rails8-ep1-security",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a91-rails8-ep1-security"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a92-appytools-srt-join",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a92-appytools-srt-join"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a96-aider-getting-started",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a96-aider-getting-started"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a97-aider-presentation-tool",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a97-aider-presentation-tool"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a98-aider-image-to-code",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a98-aider-image-to-code"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "a99-aider-script-to-docs-DOOM",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "a50-a99/a99-aider-script-to-docs-DOOM"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b01-aider-as-webserver",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b01-aider-as-webserver"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b02-sora-first-look",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b02-sora-first-look"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b03-gpt-projects",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b03-gpt-projects"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b04-aider-run-from-dsl",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b04-aider-run-from-dsl"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b05-gpt-desktop",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b05-gpt-desktop"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b06-gpt-advanced-voice-video",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b06-gpt-advanced-voice-video"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b07-studio-tour",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b07-studio-tour"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b08-green-screen",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b08-green-screen"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b09-sythesize-chat-convo",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b09-sythesize-chat-convo"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b10-synthesize-multi-chat",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b10-synthesize-multi-chat"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b40-pickaxe-first-looks",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b40-pickaxe-first-looks"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b41-pickaxe-course-trailer-ads",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b41-pickaxe-course-trailer-ads"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b42-pickaxe-course-trailer-ads-knowledge-base",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b42-pickaxe-course-trailer-ads-knowledge-base"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b44-ecamm-leap-emo-spiders",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b44-ecamm-leap-emo-spiders"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b45-prompt-engineering-stories",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b45-prompt-engineering-stories"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b46-storytelling-hitl-agents-designs",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b46-storytelling-hitl-agents-designs"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b48-n8n-local-install",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b48-n8n-local-install"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b49-n8n-local-docker",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b00-b49/b49-n8n-local-docker"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "b51-chatgpt-project-files",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b51-chatgpt-project-files"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b52-app-a-day",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b52-app-a-day"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "b53-multi-app-ux-prompt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b53-multi-app-ux-prompt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b54-single-app-ux-prompt",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b54-single-app-ux-prompt"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b55-ai-retrospectives",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b55-ai-retrospectives"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b56-vibe-code-landing-page",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b56-vibe-code-landing-page"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b57-publish-host-landing-page",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b57-publish-host-landing-page"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b58-claude-widgets-livestream",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b58-claude-widgets-livestream"
+        },
+        "local": {
+          "exists": true,
+          "structure": "grouped",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b59-n8n-digital-ocean",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b59-n8n-digital-ocean"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": true,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b60-automate-image-generation",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b60-automate-image-generation"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "b61-kdd-bmad",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b61-kdd-bmad"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": true,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b62-remotion-overview",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b62-remotion-overview"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": true,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b63-remotion-tutorial",
+      "storage": {
+        "ssd": {
+          "exists": true,
+          "path": "b50-b99/b63-remotion-tutorial"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "ecamm_recording_name": "2024-04-19 14:23:37.mov",
+    "chapter": "Introduction",
+    "tag": null,
+    "chapter_number": "1",
+    "segment_number": "1",
+    "recording_name": "1-1-introduction.mov",
+    "chapter_recording_name": "1-introduction.mov",
+    "identity": "introduction"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 14:28:40.mov",
+    "chapter": "Introduction",
+    "tag": "Overview",
+    "chapter_number": "1",
+    "segment_number": "2",
+    "recording_name": "1-2-introduction-overview.mov",
+    "chapter_recording_name": "1-introduction.mov",
+    "identity": "introduction"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 14:35:55.mov",
+    "chapter": "Morning Routine",
+    "tag": null,
+    "chapter_number": "2",
+    "segment_number": null,
+    "recording_name": "2-morning-routine.mov",
+    "chapter_recording_name": "2-morning-routine.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 14:40:19.mov",
+    "chapter": "Walk to the park",
+    "tag": null,
+    "chapter_number": "3",
+    "segment_number": null,
+    "recording_name": "3-walk-to-the-park.mov",
+    "chapter_recording_name": "3-walk-to-the-park.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 14:44:19.mov",
+    "chapter": "Unexpected Rain",
+    "tag": null,
+    "chapter_number": "4",
+    "segment_number": null,
+    "recording_name": "4-unexpected-rain.mov",
+    "chapter_recording_name": "4-unexpected-rain.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 14:49:04.mov",
+    "chapter": "Coffee Shop Dilemma",
+    "tag": null,
+    "chapter_number": "5",
+    "segment_number": "1",
+    "recording_name": "5-1-coffee-shop-dilemma.mov",
+    "chapter_recording_name": "5-coffee-shop-dilemma.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 14:56:16.mov",
+    "chapter": "Coffee Shop Dilemma",
+    "tag": "Boy Terrorizing Whiskers",
+    "chapter_number": "5",
+    "segment_number": "2",
+    "recording_name": "5-2-coffee-shop-dilemma-boy-terrorizing-whiskers.mov",
+    "chapter_recording_name": "5-coffee-shop-dilemma.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 15:00:30.mov",
+    "chapter": "Coffee Shop Dilemma",
+    "tag": null,
+    "chapter_number": "5",
+    "segment_number": "3",
+    "recording_name": "5-3-coffee-shop-dilemma.mov",
+    "chapter_recording_name": "5-coffee-shop-dilemma.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 15:05:13.mov",
+    "chapter": "Afternoon Work Session",
+    "tag": null,
+    "chapter_number": "6",
+    "segment_number": null,
+    "recording_name": "6-afternoon-work-session.mov",
+    "chapter_recording_name": "6-afternoon-work-session.mov",
+    "identity": "content"
+  },
+  {
+    "ecamm_recording_name": "2024-04-19 15:10:49.mov",
+    "chapter": "Home and Happy",
+    "tag": null,
+    "chapter_number": "7",
+    "segment_number": null,
+    "recording_name": "7-home-and-happy.mov",
+    "chapter_recording_name": "7-home-and-happy.mov",
+    "identity": "content"
+  }
+]

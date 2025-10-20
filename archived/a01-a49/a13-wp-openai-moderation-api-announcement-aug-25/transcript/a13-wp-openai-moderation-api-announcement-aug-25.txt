@@ -1,0 +1,10 @@
+Cool news alert! OpenAI's moderation tool.
+Gets an upgrade! Hey there, young techies! OpenAI has some awesome news for you!
+On August 25th, 2023, we're giving a boost to our OpenAI moderation API.
+What's that, you ask? Well, it's a tool that helps check and sort out
+messages and texts on the internet. This new version will be even better
+and smarter than before. The best part? If you're using it, you don't have to do
+anything. It'll upgrade all by itself. But if you like things the way they are,
+there's another version called Stable that won't change.
+Stay tuned because we'll keep making it cooler and smarter in the future.
+Thanks for being awesome with us. Your pals at OpenAI.

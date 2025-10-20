@@ -1,0 +1,167 @@
+1
+00:00:00,00 --> 00:00:07,400
+So I was able to use cursor I to take this PR with 950 file changes. There's 2200 
+
+2
+00:00:07,400 --> 00:00:15,110
+diffs and recreate a new PR with over a thousand changes in it. 412 files. And this 
+
+3
+00:00:15,110 --> 00:00:19,340
+was all with the power of simple automation scripts and cursor AI.
+
+4
+00:00:19,660 --> 00:00:25,400
+Now, contrary to that last statement, not everything was fun, and I took a bunch 
+
+5
+00:00:25,400 --> 00:00:30,260
+of notes along the way of what happens. So there's this idea of pressing command 
+
+6
+00:00:30,260 --> 00:00:36,230
+Y on the Mac, which will apply the changes automatically for you one at a time. And 
+
+7
+00:00:36,230 --> 00:00:41,650
+it's a great tool. I was using it all the time, but you can't do it until all the 
+
+8
+00:00:41,650 --> 00:00:47,900
+changes have been processed in the file. So if you've got many changes, say 20, you 
+
+9
+00:00:47,900 --> 00:00:51,140
+might be waiting around for 20 or 30s before you can even start.
+
+10
+00:00:51,160 --> 00:00:55,570
+Now, if you want to do a bulk set up, one of the things I noticed is that as you're 
+
+11
+00:00:55,570 --> 00:01:00,130
+pressing, apply on each of these, you're getting the changes over here. You can press 
+
+12
+00:01:00,130 --> 00:01:05,470
+command Y or command. And if you don't want to accept the change. But once they're 
+
+13
+00:01:05,470 --> 00:01:10,810
+all in place, you can press the accept. Now, you'll see soon that I didn't use this 
+
+14
+00:01:10,810 --> 00:01:15,490
+feature because I kept finding little edge cases where things didn't work, and I 
+
+15
+00:01:15,490 --> 00:01:18,430
+had to manually check every line as I went.
+
+16
+00:01:18,660 --> 00:01:22,620
+I sometimes found the speed at which I could get stuff done here, being impaired 
+
+17
+00:01:22,620 --> 00:01:27,420
+through the way it was communicating messages. There were inconsistencies with the 
+
+18
+00:01:27,420 --> 00:01:32,490
+colors that would show up on the bar. There were inconsistencies with the messaging, 
+
+19
+00:01:32,490 --> 00:01:38,760
+and I'd be sitting here waiting, going, has it finished yet or not? So sometimes 
+
+20
+00:01:38,760 --> 00:01:40,710
+things just took longer than I think they should have.
+
+21
+00:01:40,730 --> 00:01:46,440
+That also led into issues with using the mouse and the command y together. If you 
+
+22
+00:01:46,440 --> 00:01:51,330
+press page down and your cursor goes below an area that's changed and then you press 
+
+23
+00:01:51,330 --> 00:01:56,430
+command Y, it would actually do the next area. So there was a little bit of challenges 
+
+24
+00:01:56,430 --> 00:02:00,600
+just getting used to how that interface works. But the big problems happen to be 
+
+25
+00:02:00,600 --> 00:02:06,360
+with code not working the way you would think. So here we had a change, and it actually 
+
+26
+00:02:06,360 --> 00:02:11,580
+changed a variable name from an act to not an act. So this was something that I wasn't 
+
+27
+00:02:11,580 --> 00:02:16,890
+able to accept. Then it was making some legitimate changes, but they weren't in keeping 
+
+28
+00:02:16,890 --> 00:02:22,830
+with the prompt or were still it would just create an actual bug by taking something 
+
+29
+00:02:22,830 --> 00:02:24,930
+out that was meant to be there.
+
+30
+00:02:24,990 --> 00:02:29,370
+Once I was getting into the groove of working with 15 changes at a time, that's how 
+
+31
+00:02:29,370 --> 00:02:34,500
+the prompts were set up. I decided to increase it to 100, and at that point things 
+
+32
+00:02:34,500 --> 00:02:41,460
+just stopped working, and the way it communicated just didn't really give me an idea 
+
+33
+00:02:41,460 --> 00:02:45,330
+of what was going on. So it might just make one file change. So I had to go back 
+
+34
+00:02:45,330 --> 00:02:49,710
+to smaller prompts, which is fair enough with large language models, but it was something 
+
+35
+00:02:49,710 --> 00:02:55,860
+I learnt. And if we come down to five, six and seven, these are pretty much similar 
+
+36
+00:02:55,860 --> 00:02:59,760
+to the ones before where it's gone and made these odd changes that would only introduce 
+
+37
+00:02:59,760 --> 00:03:03,180
+bugs into the system. So same with number eight.
+
+38
+00:03:03,190 --> 00:03:08,230
+If you want access to the code that I use to generate the diffs and the prompts, 
+
+39
+00:03:08,230 --> 00:03:13,330
+check out the link in the description. I also put a link to the clueless coding language 
+
+40
+00:03:13,330 --> 00:03:18,400
+ideas that I'm working through at the moment. In the next video, I plan to use v0 
+
+41
+00:03:18,400 --> 00:03:24,130
+to create a video asset management tool to communicate with a video editor, so stay 
+
+42
+00:03:24,130 --> 00:03:28,30
+tuned for that. I'm AppyDave. Please like and subscribe! See you soon!

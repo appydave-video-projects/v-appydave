@@ -1,0 +1,1740 @@
+1
+00:00:00,500 --> 00:00:03,530
+Welcome to the Future of YouTube in 2024.
+
+2
+00:00:03,860 --> 00:00:08,119
+I'm excited to unveil seven Custom
+GPTs designed to transform your
+
+3
+00:00:08,119 --> 00:00:12,530
+YouTube channel and introduce the GPT
+store that makes all this possible.
+
+4
+00:00:13,030 --> 00:00:17,560
+Discover how these GPTs revolutionize
+content creation with stunning
+
+5
+00:00:17,560 --> 00:00:22,240
+B roll, engaging outros and SEO
+enhanced YouTube descriptions.
+
+6
+00:00:22,740 --> 00:00:27,030
+We'll also highlight three social
+sharing GPTs to boost your digital reach.
+
+7
+00:00:27,530 --> 00:00:32,960
+Let's delve into how GPT is set to
+reshape content creation in 2024.
+
+8
+00:00:33,460 --> 00:00:38,050
+Hi, I'm AppyDave, and the intro you
+just heard was created by one of
+
+9
+00:00:38,050 --> 00:00:41,980
+the GPTs coming up in this video,
+but we'll get into that later.
+
+10
+00:00:42,480 --> 00:00:42,599
+I.
+
+11
+00:00:43,035 --> 00:00:47,925
+When you open up the chat GPT store,
+you have access to GPTs created
+
+12
+00:00:47,925 --> 00:00:50,355
+by open AI and by other people.
+
+13
+00:00:50,845 --> 00:00:55,224
+Let's head over to my GPTs and you'll
+see that there's a bunch that I've
+
+14
+00:00:55,224 --> 00:00:59,684
+created and many of these are related
+to YouTube content automation.
+
+15
+00:01:00,184 --> 00:01:05,374
+What I'll cover in this video are seven
+different GPTs that I use after I've
+
+16
+00:01:05,374 --> 00:01:10,264
+recorded the bulk of the content, and
+that includes the intro and outro script,
+
+17
+00:01:10,625 --> 00:01:15,065
+B-roll, which is about generating images
+that match the words that I'm saying.
+
+18
+00:01:15,565 --> 00:01:19,405
+There'll be the YouTube description
+writer, which creates a really nice
+
+19
+00:01:19,465 --> 00:01:24,355
+SEO friendly YouTube description
+with affiliate links, social links,
+
+20
+00:01:24,355 --> 00:01:26,455
+and key highlights pulled out of it.
+
+21
+00:01:26,955 --> 00:01:31,634
+Then lastly, I need to share the
+videos that I do, and I use LinkedIn,
+
+22
+00:01:31,634 --> 00:01:35,774
+Facebook, and Twitter, and these
+bots will be designed to generate
+
+23
+00:01:35,835 --> 00:01:40,395
+content or posts that make sense
+for each of the different platforms.
+
+24
+00:01:40,734 --> 00:01:45,144
+Before going into detail on the seven
+YouTube automation bots, there's one other
+
+25
+00:01:45,144 --> 00:01:47,214
+bot that we should have a look at First.
+
+26
+00:01:47,714 --> 00:01:53,364
+Whenever I create my YouTube intro or the
+SEO friendly description, or maybe even
+
+27
+00:01:53,364 --> 00:01:58,734
+the daily three B-roll images, I like
+to create everything based off exactly
+
+28
+00:01:58,734 --> 00:02:01,274
+what I said in the video and the script.
+
+29
+00:02:01,274 --> 00:02:06,760
+abridger is an expert in summarizing
+transcriptions and making abridgement.
+
+30
+00:02:07,004 --> 00:02:11,625
+If we click on the commands, basically
+there are two concepts that I like
+
+31
+00:02:11,625 --> 00:02:13,575
+to get out of a full transcription.
+
+32
+00:02:14,075 --> 00:02:17,615
+Going into detail, the role of
+this bot is to summarize and
+
+33
+00:02:17,615 --> 00:02:19,565
+condense video transcriptions.
+
+34
+00:02:19,745 --> 00:02:23,735
+Now it can use natural language
+processing to extract structural
+
+35
+00:02:23,735 --> 00:02:28,895
+information from a transcript, or it can
+summarize it without losing the detail.
+
+36
+00:02:29,395 --> 00:02:33,955
+What this means is I can take a 30
+minute video that I've recorded and
+
+37
+00:02:33,955 --> 00:02:38,215
+summarize it from, say a few thousand
+words, down to a couple a hundred.
+
+38
+00:02:38,455 --> 00:02:43,195
+Now, it can do it either as a summary
+where it condenses, but keeps the meaning,
+
+39
+00:02:43,375 --> 00:02:47,545
+or it can do it as an analysis where
+it gives more of a structural point
+
+40
+00:02:47,545 --> 00:02:52,495
+of view, and both of these sorts of
+outputs can be useful for future bots.
+
+41
+00:02:52,995 --> 00:02:54,035
+Say an example.
+
+42
+00:02:54,035 --> 00:02:59,645
+Let's take this 200 lines of
+transcript from a 30 minute video
+
+43
+00:02:59,645 --> 00:03:00,995
+that I did earlier in the week.
+
+44
+00:03:01,495 --> 00:03:05,755
+If we compare everything side by side,
+you can see what the full transcript
+
+45
+00:03:05,815 --> 00:03:10,075
+over here on the left is 2,330 words.
+
+46
+00:03:10,255 --> 00:03:14,545
+Now, if we go over to the summary,
+it basically says close to the same
+
+47
+00:03:14,550 --> 00:03:17,725
+thing, and it does it in 127 words.
+
+48
+00:03:17,965 --> 00:03:22,585
+There's also the analysis, which gives
+more of a structural view of what the
+
+49
+00:03:22,585 --> 00:03:26,035
+document has, and it's in 270 words.
+
+50
+00:03:26,535 --> 00:03:30,619
+Now both the analysis and the
+summarization of the transcript make
+
+51
+00:03:30,619 --> 00:03:35,359
+for really useful inputs into other
+bots that might generate a description
+
+52
+00:03:35,600 --> 00:03:40,489
+or generate graphics for an intro, and
+it's as simple to use as typing over
+
+53
+00:03:40,489 --> 00:03:45,109
+the summarize or the analysis command
+pasting in your long form transcript,
+
+54
+00:03:45,170 --> 00:03:47,569
+and then just letting GPT do its work.
+
+55
+00:03:47,569 --> 00:03:52,189
+as it goes, we can see that this
+video features a scripting enthusiast
+
+56
+00:03:52,339 --> 00:03:56,749
+demonstrating the use of a custom
+GPT agent, the shell script helper.
+
+57
+00:03:57,249 --> 00:04:02,049
+As we move through the seven YouTube
+automation GPTs, we're going to find
+
+58
+00:04:02,049 --> 00:04:06,819
+that the summary or the analysis of
+the transcription, it's going to play
+
+59
+00:04:06,824 --> 00:04:08,559
+an important role for each of 'em.
+
+60
+00:04:09,059 --> 00:04:12,809
+The test case for each of the bots
+that we're working with today will be
+
+61
+00:04:12,809 --> 00:04:14,789
+around the Shell Script helper video.
+
+62
+00:04:15,289 --> 00:04:19,159
+Now, this video came out a couple
+of days ago and a few things
+
+63
+00:04:19,159 --> 00:04:20,779
+to note as you look through it.
+
+64
+00:04:21,279 --> 00:04:25,719
+Is that there's a detailed SEO
+friendly YouTube description with
+
+65
+00:04:25,719 --> 00:04:28,990
+keywords and links to various assets.
+
+66
+00:04:29,469 --> 00:04:33,640
+If we scroll down and click on the
+transcript, you'll see that there's an
+
+67
+00:04:33,669 --> 00:04:36,280
+intro that was written by one of the bots.
+
+68
+00:04:36,780 --> 00:04:40,710
+We'll look at how I use GPT
+to generate YouTube titles.
+
+69
+00:04:41,210 --> 00:04:45,530
+But also look at the text that it
+can create to go on a thumbnail,
+
+70
+00:04:45,530 --> 00:04:49,010
+which is quite a bit different
+to the text in a YouTube title.
+
+71
+00:04:49,310 --> 00:04:52,880
+We'll also look at the Dali three
+images that can be generated or what I
+
+72
+00:04:52,880 --> 00:04:54,859
+would call elements of the thumbnail.
+
+73
+00:04:55,359 --> 00:05:00,429
+And if I get a chance, I'll even touch
+on how Dali three instructions can be
+
+74
+00:05:00,429 --> 00:05:05,529
+generated directly off the transcript
+to produce B-roll images that look
+
+75
+00:05:05,529 --> 00:05:07,449
+exactly like what you're talking about.
+
+76
+00:05:07,949 --> 00:05:12,859
+Most of the videos I create are from
+five to 25 minutes in length and once
+
+77
+00:05:12,859 --> 00:05:17,219
+recorded, I take the transcription and
+I put it through the transcript abridger
+
+78
+00:05:17,416 --> 00:05:20,086
+to get my summary and an analysis.
+
+79
+00:05:20,386 --> 00:05:24,826
+From there, I then go and generate a
+YouTube title using a chat GPT bot.
+
+80
+00:05:25,326 --> 00:05:29,106
+That preliminary work out of
+the road, I'm then in a position
+
+81
+00:05:29,106 --> 00:05:31,386
+to create my YouTube intro.
+
+82
+00:05:31,656 --> 00:05:34,746
+And to do that, I use the
+YouTube intro generator.
+
+83
+00:05:35,246 --> 00:05:39,776
+Now, the role of this bot is to
+generate tailored YouTube intros.
+
+84
+00:05:40,106 --> 00:05:44,126
+The overview is that it can work
+with a transcript directly, or it can
+
+85
+00:05:44,126 --> 00:05:46,376
+work with a summary or an analysis.
+
+86
+00:05:46,876 --> 00:05:50,866
+the main guidelines is that it
+creates concise, informative,
+
+87
+00:05:50,896 --> 00:05:52,546
+and compelling intros.
+
+88
+00:05:53,046 --> 00:05:57,966
+The marketing frameworks, which in this
+case are either PAS or AIDA, are really
+
+89
+00:05:57,966 --> 00:06:02,796
+just psychological triggers to get people
+engaged with your content pretty early.
+
+90
+00:06:03,006 --> 00:06:07,686
+So we've got the problem agitate solution
+framework, or we've got the attention,
+
+91
+00:06:07,716 --> 00:06:10,086
+interest desire action framework.
+
+92
+00:06:10,356 --> 00:06:14,756
+Now, from a structure point of view,
+we have concepts like problem solution,
+
+93
+00:06:14,756 --> 00:06:18,656
+which is one of the ones I like to
+use, where there is a problem and I've
+
+94
+00:06:18,656 --> 00:06:20,666
+got a solution that I've de developed.
+
+95
+00:06:20,976 --> 00:06:24,756
+I'm also fond of the Q and A
+style, but other people might
+
+96
+00:06:24,756 --> 00:06:26,976
+like more of a storytelling style.
+
+97
+00:06:27,186 --> 00:06:31,959
+And the idea of the bot is that you would
+configure it with the niche, the topic,
+
+98
+00:06:31,959 --> 00:06:36,619
+which might just be your YouTube title
+some keywords, and then basically the
+
+99
+00:06:36,619 --> 00:06:41,949
+marketing framework and structure that
+you want using this sort of configuration.
+
+100
+00:06:42,009 --> 00:06:45,579
+And the transcript helps
+you then generate the intro.
+
+101
+00:06:46,079 --> 00:06:51,839
+Over to my GPTs, and we'll click
+on the intro maker, create engaging
+
+102
+00:06:51,839 --> 00:06:54,899
+educational YouTube intros, and
+we'll just click on the commands
+
+103
+00:06:54,899 --> 00:06:56,369
+to see what we've got available.
+
+104
+00:06:56,869 --> 00:06:58,669
+And you can see, we can configure it.
+
+105
+00:06:58,669 --> 00:07:01,159
+We can create an intro based off a draft.
+
+106
+00:07:01,369 --> 00:07:05,029
+We can also get some definitions
+around the marketing framework and
+
+107
+00:07:05,029 --> 00:07:06,919
+the intro structures if you need.
+
+108
+00:07:07,419 --> 00:07:09,309
+So I've just put in the config command.
+
+109
+00:07:09,309 --> 00:07:11,619
+I've said ChatGPT for coding.
+
+110
+00:07:11,619 --> 00:07:13,329
+That's what the video
+happened to be about.
+
+111
+00:07:13,539 --> 00:07:17,559
+The PAS marketing framework,
+Q&A style, and let's just see
+
+112
+00:07:17,559 --> 00:07:18,729
+what this comes back with.
+
+113
+00:07:19,229 --> 00:07:24,209
+So this is working on the idea that
+the niche will be ChatGPT for coding.
+
+114
+00:07:24,389 --> 00:07:29,309
+She the problem agitation, solution
+framework, Q and A structure.
+
+115
+00:07:29,639 --> 00:07:33,509
+The tone will be authoritative and
+engaging and you can run a configure.
+
+116
+00:07:33,629 --> 00:07:37,859
+Command again, if you wanna change
+what it says here, but for that,
+
+117
+00:07:37,979 --> 00:07:42,569
+we can now move on to create and we
+just type in, create like this, press
+
+118
+00:07:42,569 --> 00:07:46,469
+colon, and then we paste in all the
+information from the transcription.
+
+119
+00:07:46,829 --> 00:07:51,149
+I also like to put in the title, so
+the title should be there as well.
+
+120
+00:07:51,509 --> 00:07:56,129
+We got title, unlock the Power of
+GPTs, and we just press enter and we
+
+121
+00:07:56,129 --> 00:07:58,619
+see what we get on the first attempt.
+
+122
+00:07:59,119 --> 00:08:03,289
+It's written an introduction for us,
+and the one that's here is hello and
+
+123
+00:08:03,289 --> 00:08:06,890
+welcome to today's video where we're
+unlocking the incredible potential
+
+124
+00:08:06,890 --> 00:08:09,890
+of GPTs focusing on a unique tool.
+
+125
+00:08:10,069 --> 00:08:14,239
+The shell script helper for ChatGPT,
+and then it goes on from there.
+
+126
+00:08:14,739 --> 00:08:18,129
+Now the intro it's created in
+this example is quite accurate,
+
+127
+00:08:18,519 --> 00:08:22,809
+but it's also way longer than I
+would want to do for an intro.
+
+128
+00:08:23,309 --> 00:08:26,309
+We have a little bit of
+configuration with that GPT agent.
+
+129
+00:08:26,309 --> 00:08:30,869
+You can get an intro that follows
+the style and pattern that you want.
+
+130
+00:08:30,929 --> 00:08:33,959
+And the one I went for that video
+was, do you wanna simplify the
+
+131
+00:08:33,964 --> 00:08:36,029
+way you build terminal scripts?
+
+132
+00:08:36,089 --> 00:08:39,899
+Join me on this unique scripting
+adventure where I'll be using
+
+133
+00:08:39,899 --> 00:08:42,459
+custom GPT shell script helper.
+
+134
+00:08:42,669 --> 00:08:47,439
+So this little intro, it's quite
+short and to the point, and it
+
+135
+00:08:47,439 --> 00:08:51,399
+was generated out of that bot with
+a little bit of extra tweaking.
+
+136
+00:08:51,899 --> 00:08:56,599
+Let's move on to A GPT agent designed
+to generate your YouTube outro.
+
+137
+00:08:57,099 --> 00:09:01,779
+Looking at the YouTube outro generator,
+the main role is that it can create
+
+138
+00:09:01,779 --> 00:09:04,389
+an engaging outro for your video.
+
+139
+00:09:04,719 --> 00:09:09,549
+Now, the overview suggests that it's
+about creating viewer engagement.
+
+140
+00:09:09,549 --> 00:09:12,789
+You want people to like and
+subscribe, to do comments.
+
+141
+00:09:12,969 --> 00:09:18,099
+Maybe you want them to click on an end
+card and go to one of your other videos.
+
+142
+00:09:18,599 --> 00:09:23,249
+Like the previous agent, the outro
+creator has a configure command
+
+143
+00:09:23,459 --> 00:09:27,419
+where you can put the capability
+that you wanna see within the outro.
+
+144
+00:09:27,719 --> 00:09:32,909
+And the main ones that I like to use is a
+call to action, maybe like and subscribe.
+
+145
+00:09:33,089 --> 00:09:38,609
+I definitely like to do a recap of the
+video and have some sort of video end card
+
+146
+00:09:38,879 --> 00:09:40,859
+that people can click on to go to related.
+
+147
+00:09:41,016 --> 00:09:44,186
+Content and you can do that
+all through the configuration.
+
+148
+00:09:44,366 --> 00:09:46,916
+Before you worry about creating the outro.
+
+149
+00:09:47,416 --> 00:09:52,726
+It will come over to the GPTs and
+we'll click on the tube outro writer
+
+150
+00:09:52,966 --> 00:09:56,866
+craft engaging outros for YouTube
+videos based on summaries and
+
+151
+00:09:56,866 --> 00:10:00,826
+settings, and we can have a look at
+what commands we'd got available.
+
+152
+00:10:01,326 --> 00:10:06,366
+We can do a configuration, create an
+outro, or look at the capabilities
+
+153
+00:10:06,456 --> 00:10:08,016
+and we'll just run that one command.
+
+154
+00:10:08,016 --> 00:10:11,166
+We're not going to give it any input,
+we'll just see what it comes up with.
+
+155
+00:10:11,666 --> 00:10:14,186
+So we have a pretty extensive list.
+
+156
+00:10:14,216 --> 00:10:17,846
+Call to actions, end cards,
+and you could configure each
+
+157
+00:10:17,851 --> 00:10:19,496
+of these pieces of information.
+
+158
+00:10:19,501 --> 00:10:21,416
+But we'll go for something quite simple.
+
+159
+00:10:21,416 --> 00:10:24,026
+We'll just go brevity and thanks.
+
+160
+00:10:24,476 --> 00:10:27,026
+So I'll put in config with brevity.
+
+161
+00:10:27,236 --> 00:10:29,336
+Thanks with like, and subscribe.
+
+162
+00:10:29,836 --> 00:10:32,986
+I also added a configuration for AppyCast.
+
+163
+00:10:33,196 --> 00:10:37,756
+At this point, we can just do a create
+and do a paste, and what I've done is
+
+164
+00:10:37,756 --> 00:10:41,626
+like, before, I've included the title of
+the video and then the full transcript.
+
+165
+00:10:41,626 --> 00:10:45,326
+In this case you can do it with
+both transcripts and summaries.
+
+166
+00:10:45,476 --> 00:10:48,476
+I find for this one, I like
+to do the full transcript.
+
+167
+00:10:48,976 --> 00:10:52,246
+So it's gone through and created
+everything that we wanted.
+
+168
+00:10:52,276 --> 00:10:57,636
+I will read it in a moment, but what
+I'd like it to do is just the script In
+
+169
+00:10:57,636 --> 00:11:02,316
+this case, it's also given a few extra
+instructions that could be useful for the
+
+170
+00:11:02,316 --> 00:11:04,596
+video editor, but I just wanna read it.
+
+171
+00:11:05,096 --> 00:11:09,116
+So what we got was that's wrap on
+our scripting adventure with Shell
+
+172
+00:11:09,116 --> 00:11:12,566
+Script helper so it understands
+the context of the video.
+
+173
+00:11:12,926 --> 00:11:16,726
+Big thanks for joining us on
+this journey to simplify shell
+
+174
+00:11:16,796 --> 00:11:18,806
+scripting with GPT Technology.
+
+175
+00:11:19,306 --> 00:11:22,846
+If you loved diving into the Tech
+with Us, show you support by hitting
+
+176
+00:11:22,846 --> 00:11:26,266
+the like and subscribe to AppyCast.
+
+177
+00:11:26,416 --> 00:11:30,046
+So this is basically following
+the guidelines that we did when
+
+178
+00:11:30,046 --> 00:11:31,846
+we configured the capabilities.
+
+179
+00:11:32,346 --> 00:11:36,751
+I just played the outro that was on
+the video I created two days ago.
+
+180
+00:11:37,251 --> 00:11:40,971
+Wouldn't it be great if the words
+that you're saying in your transcript
+
+181
+00:11:41,071 --> 00:11:47,181
+automagically turned into beautiful scenes
+generated with, say, DALE3 or MidJourney?
+
+182
+00:11:47,181 --> 00:11:47,241
+I.
+
+183
+00:11:47,741 --> 00:11:52,771
+If you've ever used Nvidia AI or
+maybe Pictory you've already seen
+
+184
+00:11:52,771 --> 00:11:57,871
+this in action because what these
+tools do is take the transcript and
+
+185
+00:11:57,871 --> 00:12:02,731
+match it to images that it gets from
+stock photography and stock video.
+
+186
+00:12:02,731 --> 00:12:06,751
+Created this video about a week ago,
+and if you look at the transcript,
+
+187
+00:12:06,841 --> 00:12:11,011
+there's ideas like creating a
+custom instruction in chat GPT.
+
+188
+00:12:11,341 --> 00:12:16,201
+There's the ability to look at video
+files that are put into a project folder,
+
+189
+00:12:16,291 --> 00:12:20,731
+and I'm talking about this and what I
+want to do is make sure that the images.
+
+190
+00:12:20,761 --> 00:12:24,361
+That come up as I'm talking,
+match what I'm saying.
+
+191
+00:12:24,361 --> 00:12:27,301
+So this is creating a
+custom GPT instruction.
+
+192
+00:12:27,721 --> 00:12:32,011
+Here I am programming a YouTube
+video application and putting the
+
+193
+00:12:32,011 --> 00:12:34,771
+recordings into a folder structure.
+
+194
+00:12:35,071 --> 00:12:38,521
+So everything that you're seeing
+here is generated directly
+
+195
+00:12:38,521 --> 00:12:40,996
+out of Dali using A GPT agent.
+
+196
+00:12:41,496 --> 00:12:43,986
+Let's have a look at the
+individual images first.
+
+197
+00:12:44,286 --> 00:12:49,236
+So the creating a custom chat
+GPT instruction was created from
+
+198
+00:12:49,236 --> 00:12:50,736
+this particular prompt here.
+
+199
+00:12:50,976 --> 00:12:54,936
+And as you go through, we've got
+depict person demonstrating video file
+
+200
+00:12:54,936 --> 00:12:57,486
+organization on a computer screen.
+
+201
+00:12:57,856 --> 00:13:02,476
+visualize a user working with
+eCamm Live Stream Deck and Hazel.
+
+202
+00:13:02,976 --> 00:13:07,146
+the video that those images were
+related to was about this software
+
+203
+00:13:07,146 --> 00:13:12,036
+I'm creating called FliVideo, which
+takes all my recordings and runs them
+
+204
+00:13:12,126 --> 00:13:17,046
+through various GPTs to solve the
+problems in a more automated fashion.
+
+205
+00:13:17,546 --> 00:13:23,091
+if we head over to GPT and look
+at an agent that I've created
+
+206
+00:13:23,331 --> 00:13:26,191
+for analyzing the transcription.
+
+207
+00:13:26,691 --> 00:13:31,281
+You'll see that I've got a bot
+here that looks at transcriptions
+
+208
+00:13:31,281 --> 00:13:32,721
+in the form of scenes.
+
+209
+00:13:32,721 --> 00:13:37,671
+So scene one, and it goes from three
+seconds through to 50 seconds, and this is
+
+210
+00:13:37,671 --> 00:13:39,831
+the words being said in the transcription.
+
+211
+00:13:40,071 --> 00:13:45,381
+Then scene number two goes from 50 seconds
+through to one minute and 34, and this
+
+212
+00:13:45,381 --> 00:13:48,411
+is a regular file format for subtitles.
+
+213
+00:13:48,911 --> 00:13:51,911
+What I've been able to do
+is take that information.
+
+214
+00:13:52,286 --> 00:13:56,456
+Keep the numbers in place so the
+numbers haven't changed, but instead
+
+215
+00:13:56,456 --> 00:14:00,026
+prompts have been generated to
+replace what was actually said.
+
+216
+00:14:00,216 --> 00:14:04,333
+from these prompts, they can be
+taken over to chat GPT, where
+
+217
+00:14:04,333 --> 00:14:05,893
+you can just create 'em manually.
+
+218
+00:14:05,893 --> 00:14:08,833
+Now you may not want to create 'em
+manually, and that's the reason why
+
+219
+00:14:08,833 --> 00:14:12,643
+I'm creating this software FliVideo,
+and I'm just going through the various
+
+220
+00:14:12,643 --> 00:14:17,203
+episodes at the moment while I build it
+out so that I can automate the B roll
+
+221
+00:14:17,203 --> 00:14:21,553
+creation, whether it be images, which
+is great with DALE3, or maybe you could
+
+222
+00:14:21,553 --> 00:14:24,943
+use runway ML and generate B-roll video.
+
+223
+00:14:25,443 --> 00:14:29,303
+The GPT agents that we've just
+looked at, were all around content
+
+224
+00:14:29,303 --> 00:14:33,773
+creation, whether it be the YouTube
+intro, the outro, or B-roll.
+
+225
+00:14:34,103 --> 00:14:37,823
+The next agent we're going to look
+at is around the publishing of
+
+226
+00:14:37,823 --> 00:14:40,973
+your YouTube video, where you've
+gotta fill in information like
+
+227
+00:14:41,003 --> 00:14:42,983
+the description and the keywords.
+
+228
+00:14:43,483 --> 00:14:47,323
+Let's take a look at the description
+from a video I did a week ago, and
+
+229
+00:14:47,323 --> 00:14:51,223
+the video is called Build YouTube
+Automation App with chat GPT.
+
+230
+00:14:51,723 --> 00:14:55,953
+And the way it starts is join me
+in the first episode of Build a
+
+231
+00:14:55,953 --> 00:14:58,533
+YouTube automation app with chat GPT.
+
+232
+00:14:58,803 --> 00:15:03,093
+So it's written an intro here in the
+description that matches the title.
+
+233
+00:15:03,593 --> 00:15:05,693
+From there, we have four sections.
+
+234
+00:15:05,693 --> 00:15:10,643
+We've got what's inside episode
+highlights, useful links including
+
+235
+00:15:10,643 --> 00:15:14,543
+affiliate links, and stay
+tuned for more, and it finishes
+
+236
+00:15:14,543 --> 00:15:16,583
+off with a bunch of keywords.
+
+237
+00:15:17,083 --> 00:15:22,273
+Let's take a look at the GPT agent for
+YouTube description writing, and the role
+
+238
+00:15:22,273 --> 00:15:27,133
+of this agent is to craft engaging and
+informative YouTube video descriptions.
+
+239
+00:15:27,633 --> 00:15:32,343
+The basic overview of this is that
+it specializes in creating YouTube
+
+240
+00:15:32,433 --> 00:15:37,473
+descriptions for videos, focusing on
+SEO viewer engagement and compliance
+
+241
+00:15:37,478 --> 00:15:39,003
+within the YouTube guidelines.
+
+242
+00:15:39,503 --> 00:15:44,908
+So with the additional guidelines around
+hashtags, links, and discoverability,
+
+243
+00:15:45,058 --> 00:15:49,348
+we should be able to start using
+this GPT to create a new description.
+
+244
+00:15:49,848 --> 00:15:55,248
+the primary command for this particular
+GPT is create, and usually I would
+
+245
+00:15:55,248 --> 00:15:57,378
+provide it with a title and a summary.
+
+246
+00:15:57,558 --> 00:16:00,948
+I might also have some special
+instructions if I need it, and I
+
+247
+00:16:00,953 --> 00:16:06,258
+often include extra metadata such
+as affiliate links or branding
+
+248
+00:16:06,258 --> 00:16:08,358
+links to my social media channels.
+
+249
+00:16:08,858 --> 00:16:13,308
+Heading over to my GPTs, we've got
+a video description wizard, which
+
+250
+00:16:13,308 --> 00:16:17,568
+is a friendly yet professional
+YouTube description expert, focusing
+
+251
+00:16:17,568 --> 00:16:20,148
+on SEO engagement and compliance.
+
+252
+00:16:20,648 --> 00:16:23,588
+Now what we'll do is we'll click
+on the, I will give you a title,
+
+253
+00:16:23,588 --> 00:16:26,168
+transcript and special instructions.
+
+254
+00:16:26,538 --> 00:16:28,218
+at the moment it's just waiting for input.
+
+255
+00:16:28,768 --> 00:16:32,338
+Select the analysis and the
+summary as we scroll up.
+
+256
+00:16:32,338 --> 00:16:36,388
+There's also the intro that was used
+in this video and the title, and
+
+257
+00:16:36,388 --> 00:16:40,378
+we'll take it a little bit further
+and just copy the brand details and
+
+258
+00:16:40,383 --> 00:16:41,758
+just put that into the clipboard.
+
+259
+00:16:42,258 --> 00:16:46,098
+type in the word create with a colon,
+and just paste everything that we've
+
+260
+00:16:46,098 --> 00:16:48,918
+selected and see what it creates.
+
+261
+00:16:49,418 --> 00:16:53,798
+It's got a title, which has
+unlocked the power of GPTs, and
+
+262
+00:16:53,798 --> 00:16:55,568
+then we move into the description.
+
+263
+00:16:55,568 --> 00:16:59,408
+So I would be copying from
+this little emoji all the way
+
+264
+00:16:59,413 --> 00:17:03,458
+down what you'll discover, key
+highlights, and stay connected
+
+265
+00:17:03,458 --> 00:17:05,318
+through some social media channels.
+
+266
+00:17:05,318 --> 00:17:09,118
+There's a call to action to
+like, share and subscribe, and
+
+267
+00:17:09,118 --> 00:17:11,128
+following up with some keywords.
+
+268
+00:17:11,628 --> 00:17:16,578
+Let's have a look at 3 GPT agents
+to share our video on social media.
+
+269
+00:17:16,918 --> 00:17:21,028
+we'll look at the tweet composer,
+the LinkedIn video post writer,
+
+270
+00:17:21,268 --> 00:17:22,948
+and the Facebook teaser.
+
+271
+00:17:23,448 --> 00:17:28,218
+When I created the shell script
+helper video, I tweeted it and
+
+272
+00:17:28,218 --> 00:17:32,688
+it goes dive into the future of
+scripting with shell script helper.
+
+273
+00:17:32,808 --> 00:17:37,758
+Watch as I transform shell scripting
+with ChatGPT and we've got a
+
+274
+00:17:37,758 --> 00:17:39,948
+link and a couple of hashtags.
+
+275
+00:17:40,448 --> 00:17:45,518
+Now looking at the Tweet composer,
+GPT Agent, its role is to create
+
+276
+00:17:45,578 --> 00:17:47,378
+tweets for YouTube videos.
+
+277
+00:17:47,498 --> 00:17:52,748
+It emphasizes on capturing the
+essence of videos in tweet format.
+
+278
+00:17:53,148 --> 00:17:56,834
+when you use the create command,
+which I've set up for this one, it
+
+279
+00:17:56,834 --> 00:18:02,114
+expects a YouTube title, a link to the
+video, and a couple of key highlights
+
+280
+00:18:02,264 --> 00:18:03,974
+we could also pass in the summary.
+
+281
+00:18:04,024 --> 00:18:07,714
+Let's head over to the tweet composer
+and we'll see that it specializes
+
+282
+00:18:07,714 --> 00:18:11,914
+in creating engaging tweets for
+YouTube videos, and we'll click on
+
+283
+00:18:11,919 --> 00:18:13,534
+the commands to see what's available.
+
+284
+00:18:14,034 --> 00:18:17,514
+The primary command is create,
+which will create a tweet.
+
+285
+00:18:17,734 --> 00:18:20,314
+paste in the information we
+have from earlier, which is
+
+286
+00:18:20,314 --> 00:18:21,934
+a little bit of metadata.
+
+287
+00:18:22,204 --> 00:18:25,684
+We've got the title of the video,
+and then we've got a summary.
+
+288
+00:18:25,684 --> 00:18:30,539
+we could also use the analysis, which is
+got more structure, and they would both
+
+289
+00:18:30,629 --> 00:18:33,119
+produce different but useful tweets.
+
+290
+00:18:33,179 --> 00:18:35,579
+So let's just click on
+that and see what we get.
+
+291
+00:18:36,079 --> 00:18:37,069
+Here's our tweet.
+
+292
+00:18:37,309 --> 00:18:39,979
+Dive into the world of GPTs with AppyDave.
+
+293
+00:18:40,219 --> 00:18:42,049
+Discover how the shell script.
+
+294
+00:18:42,214 --> 00:18:48,214
+Helper GPT transform shell scripting
+from complex FFMPEG commands to
+
+295
+00:18:48,214 --> 00:18:50,134
+chapter base video compiling.
+
+296
+00:18:50,474 --> 00:18:53,564
+we've got a couple of hashtags in here
+and we've got a link to the video.
+
+297
+00:18:53,724 --> 00:18:55,669
+It may be a little bit
+too long for the tweet.
+
+298
+00:18:55,669 --> 00:18:59,149
+It may still need a little bit of
+refinement, but it does a pretty good
+
+299
+00:18:59,269 --> 00:19:02,179
+job of creating a tweet for your video.
+
+300
+00:19:02,679 --> 00:19:07,139
+This GPT will work with your how to
+video on YouTube and convert it into
+
+301
+00:19:07,139 --> 00:19:11,100
+a LinkedIn post in a way that'll
+extract the highlights and make it
+
+302
+00:19:11,104 --> 00:19:12,929
+engaging for LinkedIn professionals.
+
+303
+00:19:13,429 --> 00:19:15,289
+Diving into the GPT agent.
+
+304
+00:19:15,289 --> 00:19:20,619
+Let's look at the a LinkedIn post that
+was generated a week ago The video itself
+
+305
+00:19:20,624 --> 00:19:26,259
+was build a YouTube automation app, and
+I was doing the technical design for this
+
+306
+00:19:26,289 --> 00:19:31,689
+tool that I'm creating that mixes in the
+GPTs that we've been talking about with
+
+307
+00:19:31,689 --> 00:19:35,889
+the transcriptions from the videos that
+I record and just automates the process.
+
+308
+00:19:36,389 --> 00:19:40,139
+But the interesting thing about the
+LinkedIn posts that it generated.
+
+309
+00:19:40,349 --> 00:19:45,839
+Was not only did it pull out the useful
+information for YouTube content creators,
+
+310
+00:19:46,109 --> 00:19:50,699
+but it also isolated that there's
+an area in here about a programming
+
+311
+00:19:50,704 --> 00:19:53,189
+language that I'm developing for GPT.
+
+312
+00:19:53,189 --> 00:19:58,859
+So this is a GPT meta language, maybe an
+advanced prompting language, and it's been
+
+313
+00:19:58,859 --> 00:20:01,469
+able to pull that information out as well.
+
+314
+00:20:01,709 --> 00:20:03,659
+So from a LinkedIn.
+
+315
+00:20:03,719 --> 00:20:05,519
+Post generation point of view.
+
+316
+00:20:05,519 --> 00:20:07,229
+This was a one-shot post.
+
+317
+00:20:07,350 --> 00:20:11,129
+I put in the transcription, the summary
+and everything, and it came out.
+
+318
+00:20:11,399 --> 00:20:15,689
+We've got areas like the
+hashtags, and then I just
+
+319
+00:20:15,694 --> 00:20:17,459
+added the thumbnail at the end.
+
+320
+00:20:17,959 --> 00:20:23,810
+Looking at the LinkedIn video post GPT,
+we can see that its role is to transform
+
+321
+00:20:23,810 --> 00:20:26,629
+a video transcription to a LinkedIn post.
+
+322
+00:20:27,129 --> 00:20:31,480
+The key guideline of this bot is to
+extract key highlights from the video.
+
+323
+00:20:31,980 --> 00:20:35,040
+Include relevant call to
+actions and insights that
+
+324
+00:20:35,040 --> 00:20:37,110
+adhere to LinkedIn standards.
+
+325
+00:20:37,610 --> 00:20:42,590
+Heading over to the GPT store, what
+we can do is go to the tube LinkedIn
+
+326
+00:20:42,595 --> 00:20:46,940
+transformer, and what this does is
+specialize in transforming video
+
+327
+00:20:46,970 --> 00:20:48,470
+transcriptions into LinkedIn posts.
+
+328
+00:20:48,970 --> 00:20:51,010
+there's a couple of starter conversations.
+
+329
+00:20:51,010 --> 00:20:53,950
+I think the one we'll work with
+is use special instructions
+
+330
+00:20:54,160 --> 00:20:56,320
+plus title and transcription.
+
+331
+00:20:56,820 --> 00:21:01,350
+Here we have the summary and the
+structural analysis from the transcript.
+
+332
+00:21:01,510 --> 00:21:04,270
+we can use one or the other,
+or we can even use both.
+
+333
+00:21:04,450 --> 00:21:08,200
+They essentially say the same thing
+they just said in different ways.
+
+334
+00:21:08,390 --> 00:21:11,870
+if I copy all this information,
+I've also included the YouTube
+
+335
+00:21:11,930 --> 00:21:13,820
+title and a little bit of metadata.
+
+336
+00:21:13,820 --> 00:21:18,320
+it's just finishing off the article
+at the moment, but if we move up,
+
+337
+00:21:18,710 --> 00:21:23,950
+we've got unleashing the potential
+of gpt in Shell scripting a case
+
+338
+00:21:23,950 --> 00:21:26,110
+study with shell script helper.
+
+339
+00:21:26,530 --> 00:21:30,190
+Then we've got a couple of hashtags
+and some sort of introduction and
+
+340
+00:21:30,190 --> 00:21:31,540
+we can go and watch the video.
+
+341
+00:21:31,690 --> 00:21:33,640
+Let's actually see if that works.
+
+342
+00:21:34,010 --> 00:21:35,330
+Looks like it's loading up.
+
+343
+00:21:35,610 --> 00:21:41,140
+That's great, and it just goes on to
+talk about this video based on the way we
+
+344
+00:21:41,140 --> 00:21:46,750
+use either the summary or the transcript
+analysis or even the transcript itself,
+
+345
+00:21:46,900 --> 00:21:52,120
+you'll get different outputs, but
+usually this is a one-shot prompt for me.
+
+346
+00:21:52,360 --> 00:21:56,290
+I put the information in, I get it
+out, and tiny little bit of tweaking.
+
+347
+00:21:56,290 --> 00:21:57,160
+It's ready to go.
+
+348
+00:21:57,660 --> 00:22:02,340
+This next GPT agent is to
+create a teaser on your Facebook
+
+349
+00:22:02,340 --> 00:22:04,440
+profile for your YouTube video.
+
+350
+00:22:04,940 --> 00:22:09,320
+Let's have a look at an example Facebook
+teaser that I've done for the last
+
+351
+00:22:09,320 --> 00:22:11,690
+video, which was the Shell Script helper.
+
+352
+00:22:12,020 --> 00:22:16,610
+And some of the things that you notice
+is there's no YouTube title as such.
+
+353
+00:22:16,730 --> 00:22:20,930
+There's just a statement unleashing
+the power of AI in Shell scripting,
+
+354
+00:22:20,935 --> 00:22:26,540
+which is more Facebook like, and
+it's made really good use of emojis.
+
+355
+00:22:26,540 --> 00:22:29,870
+It's got a couple of hashtags going
+on and then a link to the video.
+
+356
+00:22:30,140 --> 00:22:31,820
+Now, this is in contrast.
+
+357
+00:22:32,320 --> 00:22:37,840
+the two videos I did just before
+episode one and episode two in Building
+
+358
+00:22:37,840 --> 00:22:41,470
+FliVideo where I've just manually
+written this sort of stuff, it's okay,
+
+359
+00:22:41,470 --> 00:22:47,500
+but it's a lot better when we use
+concepts like emojis and hashtags to
+
+360
+00:22:47,500 --> 00:22:49,990
+make this searchable and more engaging.
+
+361
+00:22:50,490 --> 00:22:55,260
+I hope you found the insights from the
+seven YouTube automation bots useful.
+
+362
+00:22:55,760 --> 00:23:00,590
+We dived into how each GPT from an
+intro writer to the Facebook teaser
+
+363
+00:23:00,590 --> 00:23:02,630
+is simplifying content creation.
+
+364
+00:23:03,130 --> 00:23:06,640
+Remember, it's all about making
+the process more efficient and
+
+365
+00:23:06,640 --> 00:23:08,200
+your content more engaging.
+
+366
+00:23:08,700 --> 00:23:12,690
+Don't forget to check out the GPT
+store for these amazing tools and drop
+
+367
+00:23:12,720 --> 00:23:14,310
+your thoughts in the comments below.
+
+368
+00:23:14,810 --> 00:23:18,730
+I would love to know which GPT
+you are most excited to try.
+
+369
+00:23:19,015 --> 00:23:23,445
+And if there is a GPT that you want
+me to create, you can dive deeper into
+
+370
+00:23:23,445 --> 00:23:29,025
+custom Bots with this playlist featuring
+detailed discussions on each custom GPT.
+
+371
+00:23:29,525 --> 00:23:30,575
+Thank you for watching.
+
+372
+00:23:30,665 --> 00:23:31,715
+See you next time.
+

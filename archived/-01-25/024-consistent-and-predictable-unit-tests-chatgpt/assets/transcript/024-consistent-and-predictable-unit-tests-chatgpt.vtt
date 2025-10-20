@@ -1,0 +1,3965 @@
+WEBVTT
+
+00:01.180 --> 00:01.860
+<u>In</u> this video I'm going to demonstrate how I'm using ChatGPT to write unit tests for
+
+00:01.860 --> 00:02.020
+In<u> this</u> video I'm going to demonstrate how I'm using ChatGPT to write unit tests for
+
+00:02.020 --> 00:02.360
+In this<u> video</u> I'm going to demonstrate how I'm using ChatGPT to write unit tests for
+
+00:02.360 --> 00:02.580
+In this video<u> I'm</u> going to demonstrate how I'm using ChatGPT to write unit tests for
+
+00:02.580 --> 00:02.760
+In this video I'm<u> going</u> to demonstrate how I'm using ChatGPT to write unit tests for
+
+00:02.760 --> 00:03.020
+In this video I'm going<u> to</u> demonstrate how I'm using ChatGPT to write unit tests for
+
+00:03.020 --> 00:03.500
+In this video I'm going to<u> demonstrate</u> how I'm using ChatGPT to write unit tests for
+
+00:03.500 --> 00:03.880
+In this video I'm going to demonstrate<u> how</u> I'm using ChatGPT to write unit tests for
+
+00:03.880 --> 00:03.980
+In this video I'm going to demonstrate how<u> I'm</u> using ChatGPT to write unit tests for
+
+00:03.980 --> 00:04.220
+In this video I'm going to demonstrate how I'm<u> using</u> ChatGPT to write unit tests for
+
+00:04.220 --> 00:05.480
+In this video I'm going to demonstrate how I'm using<u> ChatGPT</u> to write unit tests for
+
+00:05.480 --> 00:05.880
+In this video I'm going to demonstrate how I'm using ChatGPT<u> to</u> write unit tests for
+
+00:05.880 --> 00:06.140
+In this video I'm going to demonstrate how I'm using ChatGPT to<u> write</u> unit tests for
+
+00:06.140 --> 00:06.540
+In this video I'm going to demonstrate how I'm using ChatGPT to write<u> unit</u> tests for
+
+00:06.540 --> 00:07.040
+In this video I'm going to demonstrate how I'm using ChatGPT to write unit<u> tests</u> for
+
+00:07.040 --> 00:08.080
+In this video I'm going to demonstrate how I'm using ChatGPT to write unit tests<u> for</u>
+
+00:08.080 --> 00:08.300
+<u>our</u> system in a consistent and predictable fashion.
+
+00:08.300 --> 00:08.900
+our<u> system</u> in a consistent and predictable fashion.
+
+00:08.900 --> 00:09.420
+our system<u> in</u> a consistent and predictable fashion.
+
+00:09.420 --> 00:09.700
+our system in<u> a</u> consistent and predictable fashion.
+
+00:09.700 --> 00:10.380
+our system in a<u> consistent</u> and predictable fashion.
+
+00:10.380 --> 00:10.740
+our system in a consistent<u> and</u> predictable fashion.
+
+00:10.740 --> 00:11.260
+our system in a consistent and<u> predictable</u> fashion.
+
+00:11.260 --> 00:11.700
+our system in a consistent and predictable<u> fashion.</u>
+
+00:12.420 --> 00:12.480
+<u>I</u> was curious if I could just take these scopes from our code.
+
+00:12.480 --> 00:12.580
+I<u> was</u> curious if I could just take these scopes from our code.
+
+00:12.580 --> 00:12.920
+I was<u> curious</u> if I could just take these scopes from our code.
+
+00:12.920 --> 00:13.220
+I was curious<u> if</u> I could just take these scopes from our code.
+
+00:13.220 --> 00:13.360
+I was curious if<u> I</u> could just take these scopes from our code.
+
+00:13.360 --> 00:13.480
+I was curious if I<u> could</u> just take these scopes from our code.
+
+00:13.480 --> 00:13.760
+I was curious if I could<u> just</u> take these scopes from our code.
+
+00:13.760 --> 00:14.120
+I was curious if I could just<u> take</u> these scopes from our code.
+
+00:14.120 --> 00:14.360
+I was curious if I could just take<u> these</u> scopes from our code.
+
+00:14.360 --> 00:14.960
+I was curious if I could just take these<u> scopes</u> from our code.
+
+00:14.960 --> 00:15.280
+I was curious if I could just take these scopes<u> from</u> our code.
+
+00:15.280 --> 00:15.460
+I was curious if I could just take these scopes from<u> our</u> code.
+
+00:15.460 --> 00:15.840
+I was curious if I could just take these scopes from our<u> code.</u>
+
+00:16.520 --> 00:16.740
+<u>Whether</u> I could just go to ChatGPT and type in a message, can scopes be unit tested and
+
+00:16.740 --> 00:17.220
+Whether<u> I</u> could just go to ChatGPT and type in a message, can scopes be unit tested and
+
+00:17.220 --> 00:17.540
+Whether I<u> could</u> just go to ChatGPT and type in a message, can scopes be unit tested and
+
+00:17.540 --> 00:17.900
+Whether I could<u> just</u> go to ChatGPT and type in a message, can scopes be unit tested and
+
+00:17.900 --> 00:18.140
+Whether I could just<u> go</u> to ChatGPT and type in a message, can scopes be unit tested and
+
+00:18.140 --> 00:18.220
+Whether I could just go<u> to</u> ChatGPT and type in a message, can scopes be unit tested and
+
+00:18.220 --> 00:19.420
+Whether I could just go to<u> ChatGPT</u> and type in a message, can scopes be unit tested and
+
+00:19.420 --> 00:19.860
+Whether I could just go to ChatGPT<u> and</u> type in a message, can scopes be unit tested and
+
+00:19.860 --> 00:20.160
+Whether I could just go to ChatGPT and<u> type</u> in a message, can scopes be unit tested and
+
+00:20.160 --> 00:20.340
+Whether I could just go to ChatGPT and type<u> in</u> a message, can scopes be unit tested and
+
+00:20.340 --> 00:20.440
+Whether I could just go to ChatGPT and type in<u> a</u> message, can scopes be unit tested and
+
+00:20.440 --> 00:20.780
+Whether I could just go to ChatGPT and type in a<u> message,</u> can scopes be unit tested and
+
+00:20.780 --> 00:21.540
+Whether I could just go to ChatGPT and type in a message, can scopes be unit tested and
+
+00:21.540 --> 00:21.860
+Whether I could just go to ChatGPT and type in a message,<u> can</u> scopes be unit tested and
+
+00:21.860 --> 00:22.260
+Whether I could just go to ChatGPT and type in a message, can<u> scopes</u> be unit tested and
+
+00:22.260 --> 00:22.560
+Whether I could just go to ChatGPT and type in a message, can scopes<u> be</u> unit tested and
+
+00:22.560 --> 00:22.920
+Whether I could just go to ChatGPT and type in a message, can scopes be<u> unit</u> tested and
+
+00:22.920 --> 00:23.380
+Whether I could just go to ChatGPT and type in a message, can scopes be unit<u> tested</u> and
+
+00:23.380 --> 00:23.940
+Whether I could just go to ChatGPT and type in a message, can scopes be unit tested<u> and</u>
+
+00:23.940 --> 00:24.220
+<u>paste</u> in the code and see what happens.
+
+00:24.220 --> 00:24.400
+paste<u> in</u> the code and see what happens.
+
+00:24.400 --> 00:24.500
+paste in<u> the</u> code and see what happens.
+
+00:24.500 --> 00:24.800
+paste in the<u> code</u> and see what happens.
+
+00:24.800 --> 00:25.240
+paste in the code<u> and</u> see what happens.
+
+00:25.240 --> 00:25.640
+paste in the code and<u> see</u> what happens.
+
+00:25.640 --> 00:25.820
+paste in the code and see<u> what</u> happens.
+
+00:25.820 --> 00:26.200
+paste in the code and see what<u> happens.</u>
+
+00:28.180 --> 00:28.800
+<u>And</u> ChatGPT has come up with a couple of unit tests, there should have been about five or six.
+
+00:28.800 --> 00:28.740
+And<u> ChatGPT</u> has come up with a couple of unit tests, there should have been about five or six.
+
+00:28.740 --> 00:29.420
+And ChatGPT<u> has</u> come up with a couple of unit tests, there should have been about five or six.
+
+00:29.420 --> 00:29.780
+And ChatGPT has<u> come</u> up with a couple of unit tests, there should have been about five or six.
+
+00:29.780 --> 00:29.940
+And ChatGPT has come<u> up</u> with a couple of unit tests, there should have been about five or six.
+
+00:29.940 --> 00:30.120
+And ChatGPT has come up<u> with</u> a couple of unit tests, there should have been about five or six.
+
+00:30.120 --> 00:30.420
+And ChatGPT has come up with<u> a</u> couple of unit tests, there should have been about five or six.
+
+00:30.420 --> 00:30.800
+And ChatGPT has come up with a<u> couple</u> of unit tests, there should have been about five or six.
+
+00:30.800 --> 00:31.220
+And ChatGPT has come up with a couple<u> of</u> unit tests, there should have been about five or six.
+
+00:31.220 --> 00:31.480
+And ChatGPT has come up with a couple of<u> unit</u> tests, there should have been about five or six.
+
+00:31.480 --> 00:31.960
+And ChatGPT has come up with a couple of unit<u> tests,</u> there should have been about five or six.
+
+00:31.960 --> 00:32.360
+And ChatGPT has come up with a couple of unit tests, there should have been about five or six.
+
+00:32.360 --> 00:32.460
+And ChatGPT has come up with a couple of unit tests,<u> there</u> should have been about five or six.
+
+00:32.460 --> 00:32.880
+And ChatGPT has come up with a couple of unit tests, there<u> should</u> have been about five or six.
+
+00:32.880 --> 00:33.000
+And ChatGPT has come up with a couple of unit tests, there should<u> have</u> been about five or six.
+
+00:33.000 --> 00:33.120
+And ChatGPT has come up with a couple of unit tests, there should have<u> been</u> about five or six.
+
+00:33.120 --> 00:33.340
+And ChatGPT has come up with a couple of unit tests, there should have been<u> about</u> five or six.
+
+00:33.340 --> 00:33.640
+And ChatGPT has come up with a couple of unit tests, there should have been about<u> five</u> or six.
+
+00:33.640 --> 00:33.820
+And ChatGPT has come up with a couple of unit tests, there should have been about five<u> or</u> six.
+
+00:33.820 --> 00:34.140
+And ChatGPT has come up with a couple of unit tests, there should have been about five or<u> six.</u>
+
+00:34.940 --> 00:35.320
+<u>And</u> when I looked through them they looked like they're close to what I need for unit tests.
+
+00:35.320 --> 00:35.800
+And<u> when</u> I looked through them they looked like they're close to what I need for unit tests.
+
+00:35.800 --> 00:35.960
+And when<u> I</u> looked through them they looked like they're close to what I need for unit tests.
+
+00:35.960 --> 00:36.120
+And when I<u> looked</u> through them they looked like they're close to what I need for unit tests.
+
+00:36.120 --> 00:36.360
+And when I looked<u> through</u> them they looked like they're close to what I need for unit tests.
+
+00:36.360 --> 00:36.560
+And when I looked through<u> them</u> they looked like they're close to what I need for unit tests.
+
+00:36.560 --> 00:36.980
+And when I looked through them<u> they</u> looked like they're close to what I need for unit tests.
+
+00:36.980 --> 00:37.480
+And when I looked through them they<u> looked</u> like they're close to what I need for unit tests.
+
+00:37.480 --> 00:37.820
+And when I looked through them they looked<u> like</u> they're close to what I need for unit tests.
+
+00:37.820 --> 00:38.140
+And when I looked through them they looked like<u> they're</u> close to what I need for unit tests.
+
+00:38.140 --> 00:38.380
+And when I looked through them they looked like they're<u> close</u> to what I need for unit tests.
+
+00:38.380 --> 00:38.760
+And when I looked through them they looked like they're close<u> to</u> what I need for unit tests.
+
+00:38.760 --> 00:39.120
+And when I looked through them they looked like they're close to<u> what</u> I need for unit tests.
+
+00:39.120 --> 00:39.300
+And when I looked through them they looked like they're close to what<u> I</u> need for unit tests.
+
+00:39.300 --> 00:39.540
+And when I looked through them they looked like they're close to what I<u> need</u> for unit tests.
+
+00:39.540 --> 00:39.860
+And when I looked through them they looked like they're close to what I need<u> for</u> unit tests.
+
+00:39.860 --> 00:40.100
+And when I looked through them they looked like they're close to what I need for<u> unit</u> tests.
+
+00:40.100 --> 00:40.520
+And when I looked through them they looked like they're close to what I need for unit<u> tests.</u>
+
+00:41.440 --> 00:41.800
+<u>But</u> it has a little bit of code that I know if I tried to run it within our system would just
+
+00:41.800 --> 00:41.980
+But<u> it</u> has a little bit of code that I know if I tried to run it within our system would just
+
+00:41.980 --> 00:42.200
+But it<u> has</u> a little bit of code that I know if I tried to run it within our system would just
+
+00:42.200 --> 00:42.540
+But it has<u> a</u> little bit of code that I know if I tried to run it within our system would just
+
+00:42.540 --> 00:42.660
+But it has a<u> little</u> bit of code that I know if I tried to run it within our system would just
+
+00:42.660 --> 00:42.780
+But it has a little<u> bit</u> of code that I know if I tried to run it within our system would just
+
+00:42.780 --> 00:42.920
+But it has a little bit<u> of</u> code that I know if I tried to run it within our system would just
+
+00:42.920 --> 00:43.140
+But it has a little bit of<u> code</u> that I know if I tried to run it within our system would just
+
+00:43.140 --> 00:43.360
+But it has a little bit of code<u> that</u> I know if I tried to run it within our system would just
+
+00:43.360 --> 00:43.500
+But it has a little bit of code that<u> I</u> know if I tried to run it within our system would just
+
+00:43.500 --> 00:43.780
+But it has a little bit of code that I<u> know</u> if I tried to run it within our system would just
+
+00:43.780 --> 00:44.060
+But it has a little bit of code that I know<u> if</u> I tried to run it within our system would just
+
+00:44.060 --> 00:44.180
+But it has a little bit of code that I know if<u> I</u> tried to run it within our system would just
+
+00:44.180 --> 00:44.440
+But it has a little bit of code that I know if I<u> tried</u> to run it within our system would just
+
+00:44.440 --> 00:44.620
+But it has a little bit of code that I know if I tried<u> to</u> run it within our system would just
+
+00:44.620 --> 00:44.800
+But it has a little bit of code that I know if I tried to<u> run</u> it within our system would just
+
+00:44.800 --> 00:44.900
+But it has a little bit of code that I know if I tried to run<u> it</u> within our system would just
+
+00:44.900 --> 00:45.120
+But it has a little bit of code that I know if I tried to run it<u> within</u> our system would just
+
+00:45.120 --> 00:45.380
+But it has a little bit of code that I know if I tried to run it within<u> our</u> system would just
+
+00:45.380 --> 00:45.920
+But it has a little bit of code that I know if I tried to run it within our<u> system</u> would just
+
+00:45.920 --> 00:46.280
+But it has a little bit of code that I know if I tried to run it within our system<u> would</u> just
+
+00:46.280 --> 00:46.680
+But it has a little bit of code that I know if I tried to run it within our system would<u> just</u>
+
+00:46.680 --> 00:47.160
+<u>fail.</u> The way it's worked with creating sample data for unit tests isn't using traits correctly.
+
+00:47.160 --> 00:47.760
+fail. The way it's worked with creating sample data for unit tests isn't using traits correctly.
+
+00:47.760 --> 00:48.180
+fail.<u> The</u> way it's worked with creating sample data for unit tests isn't using traits correctly.
+
+00:48.180 --> 00:48.480
+fail. The<u> way</u> it's worked with creating sample data for unit tests isn't using traits correctly.
+
+00:48.480 --> 00:49.000
+fail. The way<u> it's</u> worked with creating sample data for unit tests isn't using traits correctly.
+
+00:49.000 --> 00:49.300
+fail. The way it's<u> worked</u> with creating sample data for unit tests isn't using traits correctly.
+
+00:49.300 --> 00:49.560
+fail. The way it's worked<u> with</u> creating sample data for unit tests isn't using traits correctly.
+
+00:49.560 --> 00:50.160
+fail. The way it's worked with<u> creating</u> sample data for unit tests isn't using traits correctly.
+
+00:50.160 --> 00:50.940
+fail. The way it's worked with creating<u> sample</u> data for unit tests isn't using traits correctly.
+
+00:50.940 --> 00:51.340
+fail. The way it's worked with creating sample<u> data</u> for unit tests isn't using traits correctly.
+
+00:51.340 --> 00:51.640
+fail. The way it's worked with creating sample data<u> for</u> unit tests isn't using traits correctly.
+
+00:51.640 --> 00:51.940
+fail. The way it's worked with creating sample data for<u> unit</u> tests isn't using traits correctly.
+
+00:51.940 --> 00:52.520
+fail. The way it's worked with creating sample data for unit<u> tests</u> isn't using traits correctly.
+
+00:52.520 --> 00:53.640
+fail. The way it's worked with creating sample data for unit tests<u> isn't</u> using traits correctly.
+
+00:53.640 --> 00:54.040
+fail. The way it's worked with creating sample data for unit tests isn't<u> using</u> traits correctly.
+
+00:54.040 --> 00:54.640
+fail. The way it's worked with creating sample data for unit tests isn't using<u> traits</u> correctly.
+
+00:54.640 --> 00:55.460
+fail. The way it's worked with creating sample data for unit tests isn't using traits<u> correctly.</u>
+
+00:56.240 --> 00:56.760
+<u>And</u> so what I did was give it a little bit of extra contextual information, letting it know
+
+00:56.760 --> 00:57.000
+And<u> so</u> what I did was give it a little bit of extra contextual information, letting it know
+
+00:57.000 --> 00:57.140
+And so<u> what</u> I did was give it a little bit of extra contextual information, letting it know
+
+00:57.140 --> 00:57.240
+And so what<u> I</u> did was give it a little bit of extra contextual information, letting it know
+
+00:57.240 --> 00:57.400
+And so what I<u> did</u> was give it a little bit of extra contextual information, letting it know
+
+00:57.400 --> 00:57.700
+And so what I did<u> was</u> give it a little bit of extra contextual information, letting it know
+
+00:57.700 --> 00:58.380
+And so what I did was<u> give</u> it a little bit of extra contextual information, letting it know
+
+00:58.380 --> 00:58.480
+And so what I did was give<u> it</u> a little bit of extra contextual information, letting it know
+
+00:58.480 --> 00:58.600
+And so what I did was give it<u> a</u> little bit of extra contextual information, letting it know
+
+00:58.600 --> 00:58.740
+And so what I did was give it a<u> little</u> bit of extra contextual information, letting it know
+
+00:58.740 --> 00:58.940
+And so what I did was give it a little<u> bit</u> of extra contextual information, letting it know
+
+00:58.940 --> 00:59.160
+And so what I did was give it a little bit<u> of</u> extra contextual information, letting it know
+
+00:59.160 --> 00:59.700
+And so what I did was give it a little bit of<u> extra</u> contextual information, letting it know
+
+00:59.700 --> 01:00.380
+And so what I did was give it a little bit of extra<u> contextual</u> information, letting it know
+
+01:00.380 --> 01:01.200
+And so what I did was give it a little bit of extra contextual<u> information,</u> letting it know
+
+01:01.200 --> 01:01.480
+And so what I did was give it a little bit of extra contextual information, letting it know
+
+01:01.480 --> 01:01.740
+And so what I did was give it a little bit of extra contextual information,<u> letting</u> it know
+
+01:01.740 --> 01:01.940
+And so what I did was give it a little bit of extra contextual information, letting<u> it</u> know
+
+01:01.940 --> 01:02.220
+And so what I did was give it a little bit of extra contextual information, letting it<u> know</u>
+
+01:02.220 --> 01:02.480
+<u>that</u> I'm using sub-factories in the code. And from that it came up with better code just with
+
+01:02.480 --> 01:02.800
+that<u> I'm</u> using sub-factories in the code. And from that it came up with better code just with
+
+01:02.800 --> 01:03.180
+that I'm<u> using</u> sub-factories in the code. And from that it came up with better code just with
+
+01:03.180 --> 01:04.080
+that I'm using<u> sub</u>-factories in the code. And from that it came up with better code just with
+
+01:04.080 --> 01:04.700
+that I'm using sub<u>-factories</u> in the code. And from that it came up with better code just with
+
+01:04.700 --> 01:04.960
+that I'm using sub-factories<u> in</u> the code. And from that it came up with better code just with
+
+01:04.960 --> 01:05.060
+that I'm using sub-factories in<u> the</u> code. And from that it came up with better code just with
+
+01:05.060 --> 01:05.360
+that I'm using sub-factories in the<u> code.</u> And from that it came up with better code just with
+
+01:05.360 --> 01:05.720
+that I'm using sub-factories in the code. And from that it came up with better code just with
+
+01:05.720 --> 01:06.060
+that I'm using sub-factories in the code.<u> And</u> from that it came up with better code just with
+
+01:06.060 --> 01:06.240
+that I'm using sub-factories in the code. And<u> from</u> that it came up with better code just with
+
+01:06.240 --> 01:06.480
+that I'm using sub-factories in the code. And from<u> that</u> it came up with better code just with
+
+01:06.480 --> 01:06.780
+that I'm using sub-factories in the code. And from that<u> it</u> came up with better code just with
+
+01:06.780 --> 01:07.620
+that I'm using sub-factories in the code. And from that it<u> came</u> up with better code just with
+
+01:07.620 --> 01:07.900
+that I'm using sub-factories in the code. And from that it came<u> up</u> with better code just with
+
+01:07.900 --> 01:08.220
+that I'm using sub-factories in the code. And from that it came up<u> with</u> better code just with
+
+01:08.220 --> 01:09.340
+that I'm using sub-factories in the code. And from that it came up with<u> better</u> code just with
+
+01:09.340 --> 01:10.140
+that I'm using sub-factories in the code. And from that it came up with better<u> code</u> just with
+
+01:10.140 --> 01:10.540
+that I'm using sub-factories in the code. And from that it came up with better code<u> just</u> with
+
+01:10.540 --> 01:10.760
+that I'm using sub-factories in the code. And from that it came up with better code just<u> with</u>
+
+01:10.760 --> 01:10.940
+<u>that</u> little bit of extra information. Now this was just me training the bot a little bit,
+
+01:10.940 --> 01:11.120
+that<u> little</u> bit of extra information. Now this was just me training the bot a little bit,
+
+01:11.120 --> 01:11.260
+that little<u> bit</u> of extra information. Now this was just me training the bot a little bit,
+
+01:11.260 --> 01:11.360
+that little bit<u> of</u> extra information. Now this was just me training the bot a little bit,
+
+01:11.360 --> 01:11.580
+that little bit of<u> extra</u> information. Now this was just me training the bot a little bit,
+
+01:11.580 --> 01:12.080
+that little bit of extra<u> information.</u> Now this was just me training the bot a little bit,
+
+01:12.080 --> 01:12.600
+that little bit of extra information. Now this was just me training the bot a little bit,
+
+01:12.600 --> 01:13.000
+that little bit of extra information.<u> Now</u> this was just me training the bot a little bit,
+
+01:13.000 --> 01:13.280
+that little bit of extra information. Now<u> this</u> was just me training the bot a little bit,
+
+01:13.280 --> 01:13.520
+that little bit of extra information. Now this<u> was</u> just me training the bot a little bit,
+
+01:13.520 --> 01:14.040
+that little bit of extra information. Now this was<u> just</u> me training the bot a little bit,
+
+01:14.040 --> 01:14.320
+that little bit of extra information. Now this was just<u> me</u> training the bot a little bit,
+
+01:14.320 --> 01:15.060
+that little bit of extra information. Now this was just me<u> training</u> the bot a little bit,
+
+01:15.060 --> 01:15.440
+that little bit of extra information. Now this was just me training<u> the</u> bot a little bit,
+
+01:15.440 --> 01:15.680
+that little bit of extra information. Now this was just me training the<u> bot</u> a little bit,
+
+01:15.680 --> 01:15.940
+that little bit of extra information. Now this was just me training the bot<u> a</u> little bit,
+
+01:15.940 --> 01:16.080
+that little bit of extra information. Now this was just me training the bot a<u> little</u> bit,
+
+01:16.080 --> 01:16.340
+that little bit of extra information. Now this was just me training the bot a little<u> bit,</u>
+
+01:16.380 --> 01:16.560
+<u>but</u> I thought I'd use it in anger. And so what I did is I went back to some of the code.
+
+01:16.560 --> 01:16.720
+but<u> I</u> thought I'd use it in anger. And so what I did is I went back to some of the code.
+
+01:16.720 --> 01:16.960
+but I<u> thought</u> I'd use it in anger. And so what I did is I went back to some of the code.
+
+01:16.960 --> 01:17.340
+but I thought<u> I'd</u> use it in anger. And so what I did is I went back to some of the code.
+
+01:17.340 --> 01:17.820
+but I thought I'd<u> use</u> it in anger. And so what I did is I went back to some of the code.
+
+01:17.820 --> 01:18.000
+but I thought I'd use<u> it</u> in anger. And so what I did is I went back to some of the code.
+
+01:18.000 --> 01:18.120
+but I thought I'd use it<u> in</u> anger. And so what I did is I went back to some of the code.
+
+01:18.120 --> 01:18.480
+but I thought I'd use it in<u> anger.</u> And so what I did is I went back to some of the code.
+
+01:18.480 --> 01:18.820
+but I thought I'd use it in anger. And so what I did is I went back to some of the code.
+
+01:18.820 --> 01:18.820
+but I thought I'd use it in anger.<u> And</u> so what I did is I went back to some of the code.
+
+01:18.820 --> 01:19.280
+but I thought I'd use it in anger. And<u> so</u> what I did is I went back to some of the code.
+
+01:19.280 --> 01:19.420
+but I thought I'd use it in anger. And so<u> what</u> I did is I went back to some of the code.
+
+01:19.420 --> 01:19.540
+but I thought I'd use it in anger. And so what<u> I</u> did is I went back to some of the code.
+
+01:19.540 --> 01:19.660
+but I thought I'd use it in anger. And so what I<u> did</u> is I went back to some of the code.
+
+01:19.660 --> 01:19.960
+but I thought I'd use it in anger. And so what I did<u> is</u> I went back to some of the code.
+
+01:19.960 --> 01:20.240
+but I thought I'd use it in anger. And so what I did is<u> I</u> went back to some of the code.
+
+01:20.240 --> 01:20.400
+but I thought I'd use it in anger. And so what I did is I<u> went</u> back to some of the code.
+
+01:20.400 --> 01:20.560
+but I thought I'd use it in anger. And so what I did is I went<u> back</u> to some of the code.
+
+01:20.560 --> 01:20.760
+but I thought I'd use it in anger. And so what I did is I went back<u> to</u> some of the code.
+
+01:20.760 --> 01:21.020
+but I thought I'd use it in anger. And so what I did is I went back to<u> some</u> of the code.
+
+01:21.020 --> 01:21.100
+but I thought I'd use it in anger. And so what I did is I went back to some<u> of</u> the code.
+
+01:21.100 --> 01:21.160
+but I thought I'd use it in anger. And so what I did is I went back to some of<u> the</u> code.
+
+01:21.160 --> 01:21.460
+but I thought I'd use it in anger. And so what I did is I went back to some of the<u> code.</u>
+
+01:21.480 --> 01:22.040
+<u>We</u> had this scope. It's fairly complex. There's a few different ideas going on in the data.
+
+01:22.040 --> 01:22.200
+We<u> had</u> this scope. It's fairly complex. There's a few different ideas going on in the data.
+
+01:22.200 --> 01:22.480
+We had<u> this</u> scope. It's fairly complex. There's a few different ideas going on in the data.
+
+01:22.480 --> 01:23.180
+We had this<u> scope.</u> It's fairly complex. There's a few different ideas going on in the data.
+
+01:23.180 --> 01:23.780
+We had this scope. It's fairly complex. There's a few different ideas going on in the data.
+
+01:23.780 --> 01:24.240
+We had this scope.<u> It's</u> fairly complex. There's a few different ideas going on in the data.
+
+01:24.240 --> 01:24.700
+We had this scope. It's<u> fairly</u> complex. There's a few different ideas going on in the data.
+
+01:24.700 --> 01:25.400
+We had this scope. It's fairly<u> complex.</u> There's a few different ideas going on in the data.
+
+01:25.400 --> 01:25.680
+We had this scope. It's fairly complex. There's a few different ideas going on in the data.
+
+01:25.680 --> 01:25.980
+We had this scope. It's fairly complex.<u> There's</u> a few different ideas going on in the data.
+
+01:25.980 --> 01:26.100
+We had this scope. It's fairly complex. There's<u> a</u> few different ideas going on in the data.
+
+01:26.100 --> 01:26.320
+We had this scope. It's fairly complex. There's a<u> few</u> different ideas going on in the data.
+
+01:26.320 --> 01:26.640
+We had this scope. It's fairly complex. There's a few<u> different</u> ideas going on in the data.
+
+01:26.640 --> 01:27.160
+We had this scope. It's fairly complex. There's a few different<u> ideas</u> going on in the data.
+
+01:27.160 --> 01:27.880
+We had this scope. It's fairly complex. There's a few different ideas<u> going</u> on in the data.
+
+01:27.880 --> 01:28.100
+We had this scope. It's fairly complex. There's a few different ideas going<u> on</u> in the data.
+
+01:28.100 --> 01:28.260
+We had this scope. It's fairly complex. There's a few different ideas going on<u> in</u> the data.
+
+01:28.260 --> 01:28.380
+We had this scope. It's fairly complex. There's a few different ideas going on in<u> the</u> data.
+
+01:28.380 --> 01:28.660
+We had this scope. It's fairly complex. There's a few different ideas going on in the<u> data.</u>
+
+01:28.980 --> 01:29.400
+<u>And</u> what I did with it was take a copy of it, go over to ChatGPT and I just said,
+
+01:29.400 --> 01:29.580
+And<u> what</u> I did with it was take a copy of it, go over to ChatGPT and I just said,
+
+01:29.580 --> 01:29.700
+And what<u> I</u> did with it was take a copy of it, go over to ChatGPT and I just said,
+
+01:29.700 --> 01:29.860
+And what I<u> did</u> with it was take a copy of it, go over to ChatGPT and I just said,
+
+01:29.860 --> 01:30.060
+And what I did<u> with</u> it was take a copy of it, go over to ChatGPT and I just said,
+
+01:30.060 --> 01:30.260
+And what I did with<u> it</u> was take a copy of it, go over to ChatGPT and I just said,
+
+01:30.260 --> 01:31.060
+And what I did with it<u> was</u> take a copy of it, go over to ChatGPT and I just said,
+
+01:31.060 --> 01:31.560
+And what I did with it was<u> take</u> a copy of it, go over to ChatGPT and I just said,
+
+01:31.560 --> 01:31.680
+And what I did with it was take<u> a</u> copy of it, go over to ChatGPT and I just said,
+
+01:31.680 --> 01:31.960
+And what I did with it was take a<u> copy</u> of it, go over to ChatGPT and I just said,
+
+01:31.960 --> 01:32.220
+And what I did with it was take a copy<u> of</u> it, go over to ChatGPT and I just said,
+
+01:32.220 --> 01:32.380
+And what I did with it was take a copy of<u> it,</u> go over to ChatGPT and I just said,
+
+01:32.380 --> 01:32.540
+And what I did with it was take a copy of it, go over to ChatGPT and I just said,
+
+01:32.540 --> 01:32.680
+And what I did with it was take a copy of it,<u> go</u> over to ChatGPT and I just said,
+
+01:32.680 --> 01:32.920
+And what I did with it was take a copy of it, go<u> over</u> to ChatGPT and I just said,
+
+01:32.920 --> 01:33.060
+And what I did with it was take a copy of it, go over<u> to</u> ChatGPT and I just said,
+
+01:33.060 --> 01:34.220
+And what I did with it was take a copy of it, go over to<u> ChatGPT</u> and I just said,
+
+01:34.220 --> 01:34.900
+And what I did with it was take a copy of it, go over to ChatGPT<u> and</u> I just said,
+
+01:34.900 --> 01:35.180
+And what I did with it was take a copy of it, go over to ChatGPT and<u> I</u> just said,
+
+01:35.180 --> 01:35.380
+And what I did with it was take a copy of it, go over to ChatGPT and I<u> just</u> said,
+
+01:35.380 --> 01:35.640
+And what I did with it was take a copy of it, go over to ChatGPT and I just<u> said,</u>
+
+01:35.720 --> 01:36.020
+<u>can</u> you do a test for and then paste it in. Now the test that it came up with
+
+01:36.020 --> 01:36.240
+can<u> you</u> do a test for and then paste it in. Now the test that it came up with
+
+01:36.240 --> 01:36.420
+can you<u> do</u> a test for and then paste it in. Now the test that it came up with
+
+01:36.420 --> 01:36.540
+can you do<u> a</u> test for and then paste it in. Now the test that it came up with
+
+01:36.540 --> 01:36.800
+can you do a<u> test</u> for and then paste it in. Now the test that it came up with
+
+01:36.800 --> 01:37.140
+can you do a test<u> for</u> and then paste it in. Now the test that it came up with
+
+01:37.140 --> 01:38.040
+can you do a test for<u> and</u> then paste it in. Now the test that it came up with
+
+01:38.040 --> 01:38.220
+can you do a test for and<u> then</u> paste it in. Now the test that it came up with
+
+01:38.220 --> 01:38.540
+can you do a test for and then<u> paste</u> it in. Now the test that it came up with
+
+01:38.540 --> 01:38.760
+can you do a test for and then paste<u> it</u> in. Now the test that it came up with
+
+01:38.760 --> 01:39.040
+can you do a test for and then paste it<u> in.</u> Now the test that it came up with
+
+01:39.040 --> 01:39.780
+can you do a test for and then paste it in. Now the test that it came up with
+
+01:39.780 --> 01:40.200
+can you do a test for and then paste it in.<u> Now</u> the test that it came up with
+
+01:40.200 --> 01:40.920
+can you do a test for and then paste it in. Now<u> the</u> test that it came up with
+
+01:40.920 --> 01:41.440
+can you do a test for and then paste it in. Now the<u> test</u> that it came up with
+
+01:41.440 --> 01:41.900
+can you do a test for and then paste it in. Now the test<u> that</u> it came up with
+
+01:41.900 --> 01:42.060
+can you do a test for and then paste it in. Now the test that<u> it</u> came up with
+
+01:42.060 --> 01:42.440
+can you do a test for and then paste it in. Now the test that it<u> came</u> up with
+
+01:42.440 --> 01:42.720
+can you do a test for and then paste it in. Now the test that it came<u> up</u> with
+
+01:42.720 --> 01:43.000
+can you do a test for and then paste it in. Now the test that it came up<u> with</u>
+
+01:43.000 --> 01:43.760
+<u>semantically</u> is right. It had information about four different shipments, three of which were
+
+01:43.760 --> 01:44.180
+semantically<u> is</u> right. It had information about four different shipments, three of which were
+
+01:44.180 --> 01:44.560
+semantically is<u> right.</u> It had information about four different shipments, three of which were
+
+01:44.560 --> 01:44.780
+semantically is right. It had information about four different shipments, three of which were
+
+01:44.780 --> 01:44.880
+semantically is right.<u> It</u> had information about four different shipments, three of which were
+
+01:44.880 --> 01:45.260
+semantically is right. It<u> had</u> information about four different shipments, three of which were
+
+01:45.260 --> 01:45.820
+semantically is right. It had<u> information</u> about four different shipments, three of which were
+
+01:45.820 --> 01:46.640
+semantically is right. It had information<u> about</u> four different shipments, three of which were
+
+01:46.640 --> 01:47.320
+semantically is right. It had information about<u> four</u> different shipments, three of which were
+
+01:47.320 --> 01:47.780
+semantically is right. It had information about four<u> different</u> shipments, three of which were
+
+01:47.780 --> 01:49.540
+semantically is right. It had information about four different<u> shipments,</u> three of which were
+
+01:49.540 --> 01:49.680
+semantically is right. It had information about four different shipments, three of which were
+
+01:49.680 --> 01:49.940
+semantically is right. It had information about four different shipments,<u> three</u> of which were
+
+01:49.940 --> 01:50.060
+semantically is right. It had information about four different shipments, three<u> of</u> which were
+
+01:50.060 --> 01:50.240
+semantically is right. It had information about four different shipments, three of<u> which</u> were
+
+01:50.240 --> 01:50.480
+semantically is right. It had information about four different shipments, three of which<u> were</u>
+
+01:50.480 --> 01:50.820
+<u>valid,</u> one wasn't and gave the right expectations. But it didn't give enough logic in there.
+
+01:50.820 --> 01:50.880
+valid, one wasn't and gave the right expectations. But it didn't give enough logic in there.
+
+01:50.880 --> 01:51.080
+valid,<u> one</u> wasn't and gave the right expectations. But it didn't give enough logic in there.
+
+01:51.080 --> 01:51.940
+valid, one<u> wasn't</u> and gave the right expectations. But it didn't give enough logic in there.
+
+01:51.940 --> 01:52.740
+valid, one wasn't<u> and</u> gave the right expectations. But it didn't give enough logic in there.
+
+01:52.740 --> 01:53.080
+valid, one wasn't and<u> gave</u> the right expectations. But it didn't give enough logic in there.
+
+01:53.080 --> 01:53.440
+valid, one wasn't and gave<u> the</u> right expectations. But it didn't give enough logic in there.
+
+01:53.440 --> 01:53.820
+valid, one wasn't and gave the<u> right</u> expectations. But it didn't give enough logic in there.
+
+01:53.820 --> 01:54.820
+valid, one wasn't and gave the right<u> expectations.</u> But it didn't give enough logic in there.
+
+01:54.820 --> 01:55.380
+valid, one wasn't and gave the right expectations. But it didn't give enough logic in there.
+
+01:55.380 --> 01:55.800
+valid, one wasn't and gave the right expectations.<u> But</u> it didn't give enough logic in there.
+
+01:55.800 --> 01:56.280
+valid, one wasn't and gave the right expectations. But<u> it</u> didn't give enough logic in there.
+
+01:56.280 --> 01:56.580
+valid, one wasn't and gave the right expectations. But it<u> didn't</u> give enough logic in there.
+
+01:56.580 --> 01:56.940
+valid, one wasn't and gave the right expectations. But it didn't<u> give</u> enough logic in there.
+
+01:56.940 --> 01:58.000
+valid, one wasn't and gave the right expectations. But it didn't give<u> enough</u> logic in there.
+
+01:58.000 --> 01:58.600
+valid, one wasn't and gave the right expectations. But it didn't give enough<u> logic</u> in there.
+
+01:58.600 --> 01:59.040
+valid, one wasn't and gave the right expectations. But it didn't give enough logic<u> in</u> there.
+
+01:59.040 --> 01:59.300
+valid, one wasn't and gave the right expectations. But it didn't give enough logic in<u> there.</u>
+
+01:59.720 --> 02:00.560
+<u>And</u> it had one serious flaw in that it took the idea of sub-factories to a level beyond what we
+
+02:00.560 --> 02:00.860
+And<u> it</u> had one serious flaw in that it took the idea of sub-factories to a level beyond what we
+
+02:00.860 --> 02:01.060
+And it<u> had</u> one serious flaw in that it took the idea of sub-factories to a level beyond what we
+
+02:01.060 --> 02:01.280
+And it had<u> one</u> serious flaw in that it took the idea of sub-factories to a level beyond what we
+
+02:01.280 --> 02:01.760
+And it had one<u> serious</u> flaw in that it took the idea of sub-factories to a level beyond what we
+
+02:01.760 --> 02:02.300
+And it had one serious<u> flaw</u> in that it took the idea of sub-factories to a level beyond what we
+
+02:02.300 --> 02:02.600
+And it had one serious flaw<u> in</u> that it took the idea of sub-factories to a level beyond what we
+
+02:02.600 --> 02:02.840
+And it had one serious flaw in<u> that</u> it took the idea of sub-factories to a level beyond what we
+
+02:02.840 --> 02:03.280
+And it had one serious flaw in that<u> it</u> took the idea of sub-factories to a level beyond what we
+
+02:03.280 --> 02:03.500
+And it had one serious flaw in that it<u> took</u> the idea of sub-factories to a level beyond what we
+
+02:03.500 --> 02:03.720
+And it had one serious flaw in that it took<u> the</u> idea of sub-factories to a level beyond what we
+
+02:03.720 --> 02:04.160
+And it had one serious flaw in that it took the<u> idea</u> of sub-factories to a level beyond what we
+
+02:04.160 --> 02:04.620
+And it had one serious flaw in that it took the idea<u> of</u> sub-factories to a level beyond what we
+
+02:04.620 --> 02:04.960
+And it had one serious flaw in that it took the idea of<u> sub</u>-factories to a level beyond what we
+
+02:04.960 --> 02:05.560
+And it had one serious flaw in that it took the idea of sub<u>-factories</u> to a level beyond what we
+
+02:05.560 --> 02:06.280
+And it had one serious flaw in that it took the idea of sub-factories<u> to</u> a level beyond what we
+
+02:06.280 --> 02:06.560
+And it had one serious flaw in that it took the idea of sub-factories to<u> a</u> level beyond what we
+
+02:06.560 --> 02:06.840
+And it had one serious flaw in that it took the idea of sub-factories to a<u> level</u> beyond what we
+
+02:06.840 --> 02:07.220
+And it had one serious flaw in that it took the idea of sub-factories to a level<u> beyond</u> what we
+
+02:07.220 --> 02:07.740
+And it had one serious flaw in that it took the idea of sub-factories to a level beyond<u> what</u> we
+
+02:07.740 --> 02:07.980
+And it had one serious flaw in that it took the idea of sub-factories to a level beyond what<u> we</u>
+
+02:07.980 --> 02:08.240
+<u>deal</u> with. We only deal with two data specific sub-factories at a time. Usually after that when
+
+02:08.240 --> 02:08.480
+deal<u> with.</u> We only deal with two data specific sub-factories at a time. Usually after that when
+
+02:08.480 --> 02:08.900
+deal with. We only deal with two data specific sub-factories at a time. Usually after that when
+
+02:08.900 --> 02:09.160
+deal with.<u> We</u> only deal with two data specific sub-factories at a time. Usually after that when
+
+02:09.160 --> 02:09.440
+deal with. We<u> only</u> deal with two data specific sub-factories at a time. Usually after that when
+
+02:09.440 --> 02:09.880
+deal with. We only<u> deal</u> with two data specific sub-factories at a time. Usually after that when
+
+02:09.880 --> 02:10.160
+deal with. We only deal<u> with</u> two data specific sub-factories at a time. Usually after that when
+
+02:10.160 --> 02:10.760
+deal with. We only deal with<u> two</u> data specific sub-factories at a time. Usually after that when
+
+02:10.760 --> 02:12.260
+deal with. We only deal with two<u> data</u> specific sub-factories at a time. Usually after that when
+
+02:12.260 --> 02:12.880
+deal with. We only deal with two data<u> specific</u> sub-factories at a time. Usually after that when
+
+02:12.880 --> 02:13.440
+deal with. We only deal with two data specific<u> sub</u>-factories at a time. Usually after that when
+
+02:13.440 --> 02:14.000
+deal with. We only deal with two data specific sub<u>-factories</u> at a time. Usually after that when
+
+02:14.000 --> 02:14.200
+deal with. We only deal with two data specific sub-factories<u> at</u> a time. Usually after that when
+
+02:14.200 --> 02:14.300
+deal with. We only deal with two data specific sub-factories at<u> a</u> time. Usually after that when
+
+02:14.300 --> 02:14.620
+deal with. We only deal with two data specific sub-factories at a<u> time.</u> Usually after that when
+
+02:14.620 --> 02:14.700
+deal with. We only deal with two data specific sub-factories at a time. Usually after that when
+
+02:14.700 --> 02:15.060
+deal with. We only deal with two data specific sub-factories at a time.<u> Usually</u> after that when
+
+02:15.060 --> 02:15.940
+deal with. We only deal with two data specific sub-factories at a time. Usually<u> after</u> that when
+
+02:15.940 --> 02:16.280
+deal with. We only deal with two data specific sub-factories at a time. Usually after<u> that</u> when
+
+02:16.280 --> 02:16.480
+deal with. We only deal with two data specific sub-factories at a time. Usually after that<u> when</u>
+
+02:16.480 --> 02:16.680
+<u>you</u> need more than two records, it's best to have more of a seed generation structure in place.
+
+02:16.680 --> 02:16.900
+you<u> need</u> more than two records, it's best to have more of a seed generation structure in place.
+
+02:16.900 --> 02:17.280
+you need<u> more</u> than two records, it's best to have more of a seed generation structure in place.
+
+02:17.280 --> 02:17.480
+you need more<u> than</u> two records, it's best to have more of a seed generation structure in place.
+
+02:17.480 --> 02:17.720
+you need more than<u> two</u> records, it's best to have more of a seed generation structure in place.
+
+02:17.720 --> 02:18.180
+you need more than two<u> records,</u> it's best to have more of a seed generation structure in place.
+
+02:18.180 --> 02:18.520
+you need more than two records, it's best to have more of a seed generation structure in place.
+
+02:18.520 --> 02:18.900
+you need more than two records,<u> it's</u> best to have more of a seed generation structure in place.
+
+02:18.900 --> 02:19.160
+you need more than two records, it's<u> best</u> to have more of a seed generation structure in place.
+
+02:19.160 --> 02:19.440
+you need more than two records, it's best<u> to</u> have more of a seed generation structure in place.
+
+02:19.440 --> 02:19.640
+you need more than two records, it's best to<u> have</u> more of a seed generation structure in place.
+
+02:19.640 --> 02:19.980
+you need more than two records, it's best to have<u> more</u> of a seed generation structure in place.
+
+02:19.980 --> 02:20.160
+you need more than two records, it's best to have more<u> of</u> a seed generation structure in place.
+
+02:20.160 --> 02:20.300
+you need more than two records, it's best to have more of<u> a</u> seed generation structure in place.
+
+02:20.300 --> 02:20.620
+you need more than two records, it's best to have more of a<u> seed</u> generation structure in place.
+
+02:20.620 --> 02:21.360
+you need more than two records, it's best to have more of a seed<u> generation</u> structure in place.
+
+02:21.360 --> 02:22.020
+you need more than two records, it's best to have more of a seed generation<u> structure</u> in place.
+
+02:22.020 --> 02:22.320
+you need more than two records, it's best to have more of a seed generation structure<u> in</u> place.
+
+02:22.320 --> 02:22.780
+you need more than two records, it's best to have more of a seed generation structure in<u> place.</u>
+
+02:23.560 --> 02:23.660
+<u>And</u> so I just gave it two very simple pieces of training, one to start using create list
+
+02:23.660 --> 02:23.940
+And<u> so</u> I just gave it two very simple pieces of training, one to start using create list
+
+02:23.940 --> 02:24.080
+And so<u> I</u> just gave it two very simple pieces of training, one to start using create list
+
+02:24.080 --> 02:24.280
+And so I<u> just</u> gave it two very simple pieces of training, one to start using create list
+
+02:24.280 --> 02:24.520
+And so I just<u> gave</u> it two very simple pieces of training, one to start using create list
+
+02:24.520 --> 02:24.660
+And so I just gave<u> it</u> two very simple pieces of training, one to start using create list
+
+02:24.660 --> 02:24.960
+And so I just gave it<u> two</u> very simple pieces of training, one to start using create list
+
+02:24.960 --> 02:25.220
+And so I just gave it two<u> very</u> simple pieces of training, one to start using create list
+
+02:25.220 --> 02:25.560
+And so I just gave it two very<u> simple</u> pieces of training, one to start using create list
+
+02:25.560 --> 02:25.940
+And so I just gave it two very simple<u> pieces</u> of training, one to start using create list
+
+02:25.940 --> 02:26.240
+And so I just gave it two very simple pieces<u> of</u> training, one to start using create list
+
+02:26.240 --> 02:26.600
+And so I just gave it two very simple pieces of<u> training,</u> one to start using create list
+
+02:26.600 --> 02:27.000
+And so I just gave it two very simple pieces of training, one to start using create list
+
+02:27.000 --> 02:27.120
+And so I just gave it two very simple pieces of training,<u> one</u> to start using create list
+
+02:27.120 --> 02:27.580
+And so I just gave it two very simple pieces of training, one<u> to</u> start using create list
+
+02:27.580 --> 02:28.240
+And so I just gave it two very simple pieces of training, one to<u> start</u> using create list
+
+02:28.240 --> 02:28.700
+And so I just gave it two very simple pieces of training, one to start<u> using</u> create list
+
+02:28.700 --> 02:29.160
+And so I just gave it two very simple pieces of training, one to start using<u> create</u> list
+
+02:29.160 --> 02:29.660
+And so I just gave it two very simple pieces of training, one to start using create<u> list</u>
+
+02:29.660 --> 02:30.440
+<u>as</u> a technique. And I taught it how we do our sample data systems. So when we do
+
+02:30.440 --> 02:30.580
+as<u> a</u> technique. And I taught it how we do our sample data systems. So when we do
+
+02:30.580 --> 02:31.040
+as a<u> technique.</u> And I taught it how we do our sample data systems. So when we do
+
+02:31.040 --> 02:31.600
+as a technique. And I taught it how we do our sample data systems. So when we do
+
+02:31.600 --> 02:32.260
+as a technique.<u> And</u> I taught it how we do our sample data systems. So when we do
+
+02:32.260 --> 02:32.400
+as a technique. And<u> I</u> taught it how we do our sample data systems. So when we do
+
+02:32.400 --> 02:32.780
+as a technique. And I<u> taught</u> it how we do our sample data systems. So when we do
+
+02:32.780 --> 02:33.120
+as a technique. And I taught<u> it</u> how we do our sample data systems. So when we do
+
+02:33.120 --> 02:33.440
+as a technique. And I taught it<u> how</u> we do our sample data systems. So when we do
+
+02:33.440 --> 02:33.800
+as a technique. And I taught it how<u> we</u> do our sample data systems. So when we do
+
+02:33.800 --> 02:34.180
+as a technique. And I taught it how we<u> do</u> our sample data systems. So when we do
+
+02:34.180 --> 02:34.620
+as a technique. And I taught it how we do<u> our</u> sample data systems. So when we do
+
+02:34.620 --> 02:35.260
+as a technique. And I taught it how we do our<u> sample</u> data systems. So when we do
+
+02:35.260 --> 02:35.900
+as a technique. And I taught it how we do our sample<u> data</u> systems. So when we do
+
+02:35.900 --> 02:36.400
+as a technique. And I taught it how we do our sample data<u> systems.</u> So when we do
+
+02:36.400 --> 02:36.860
+as a technique. And I taught it how we do our sample data systems. So when we do
+
+02:36.860 --> 02:36.900
+as a technique. And I taught it how we do our sample data systems.<u> So</u> when we do
+
+02:36.900 --> 02:37.120
+as a technique. And I taught it how we do our sample data systems. So<u> when</u> we do
+
+02:37.120 --> 02:37.280
+as a technique. And I taught it how we do our sample data systems. So when<u> we</u> do
+
+02:37.280 --> 02:37.560
+as a technique. And I taught it how we do our sample data systems. So when we<u> do</u>
+
+02:37.560 --> 02:38.400
+<u>simple</u> traits or sample traits, I should say, they follow this pattern.
+
+02:38.400 --> 02:39.000
+simple<u> traits</u> or sample traits, I should say, they follow this pattern.
+
+02:39.000 --> 02:39.220
+simple traits<u> or</u> sample traits, I should say, they follow this pattern.
+
+02:39.220 --> 02:39.580
+simple traits or<u> sample</u> traits, I should say, they follow this pattern.
+
+02:39.580 --> 02:40.020
+simple traits or sample<u> traits,</u> I should say, they follow this pattern.
+
+02:40.020 --> 02:40.180
+simple traits or sample traits, I should say, they follow this pattern.
+
+02:40.180 --> 02:40.220
+simple traits or sample traits,<u> I</u> should say, they follow this pattern.
+
+02:40.220 --> 02:40.400
+simple traits or sample traits, I<u> should</u> say, they follow this pattern.
+
+02:40.400 --> 02:40.800
+simple traits or sample traits, I should<u> say,</u> they follow this pattern.
+
+02:40.800 --> 02:41.240
+simple traits or sample traits, I should say, they follow this pattern.
+
+02:41.240 --> 02:41.800
+simple traits or sample traits, I should say,<u> they</u> follow this pattern.
+
+02:41.800 --> 02:42.100
+simple traits or sample traits, I should say, they<u> follow</u> this pattern.
+
+02:42.100 --> 02:42.380
+simple traits or sample traits, I should say, they follow<u> this</u> pattern.
+
+02:42.380 --> 02:42.960
+simple traits or sample traits, I should say, they follow this<u> pattern.</u>
+
+02:43.740 --> 02:44.460
+<u>And</u> I did that basically by taking a model called Shipment. I had a couple of usage specific
+
+02:44.460 --> 02:44.600
+And<u> I</u> did that basically by taking a model called Shipment. I had a couple of usage specific
+
+02:44.600 --> 02:44.780
+And I<u> did</u> that basically by taking a model called Shipment. I had a couple of usage specific
+
+02:44.780 --> 02:45.000
+And I did<u> that</u> basically by taking a model called Shipment. I had a couple of usage specific
+
+02:45.000 --> 02:45.600
+And I did that<u> basically</u> by taking a model called Shipment. I had a couple of usage specific
+
+02:45.600 --> 02:45.940
+And I did that basically<u> by</u> taking a model called Shipment. I had a couple of usage specific
+
+02:45.940 --> 02:46.420
+And I did that basically by<u> taking</u> a model called Shipment. I had a couple of usage specific
+
+02:46.420 --> 02:46.860
+And I did that basically by taking<u> a</u> model called Shipment. I had a couple of usage specific
+
+02:46.860 --> 02:47.160
+And I did that basically by taking a<u> model</u> called Shipment. I had a couple of usage specific
+
+02:47.160 --> 02:47.500
+And I did that basically by taking a model<u> called</u> Shipment. I had a couple of usage specific
+
+02:47.500 --> 02:48.040
+And I did that basically by taking a model called<u> Shipment.</u> I had a couple of usage specific
+
+02:48.040 --> 02:48.280
+And I did that basically by taking a model called Shipment. I had a couple of usage specific
+
+02:48.280 --> 02:48.460
+And I did that basically by taking a model called Shipment.<u> I</u> had a couple of usage specific
+
+02:48.460 --> 02:48.560
+And I did that basically by taking a model called Shipment. I<u> had</u> a couple of usage specific
+
+02:48.560 --> 02:48.680
+And I did that basically by taking a model called Shipment. I had<u> a</u> couple of usage specific
+
+02:48.680 --> 02:48.940
+And I did that basically by taking a model called Shipment. I had a<u> couple</u> of usage specific
+
+02:48.940 --> 02:49.400
+And I did that basically by taking a model called Shipment. I had a couple<u> of</u> usage specific
+
+02:49.400 --> 02:50.840
+And I did that basically by taking a model called Shipment. I had a couple of<u> usage</u> specific
+
+02:50.840 --> 02:52.080
+And I did that basically by taking a model called Shipment. I had a couple of usage<u> specific</u>
+
+02:52.080 --> 02:52.640
+<u>traits.</u> I had the general sort of named traits that we use for consistent unit test. And then
+
+02:52.640 --> 02:53.300
+traits. I had the general sort of named traits that we use for consistent unit test. And then
+
+02:53.300 --> 02:53.520
+traits.<u> I</u> had the general sort of named traits that we use for consistent unit test. And then
+
+02:53.520 --> 02:53.760
+traits. I<u> had</u> the general sort of named traits that we use for consistent unit test. And then
+
+02:53.760 --> 02:53.960
+traits. I had<u> the</u> general sort of named traits that we use for consistent unit test. And then
+
+02:53.960 --> 02:54.400
+traits. I had the<u> general</u> sort of named traits that we use for consistent unit test. And then
+
+02:54.400 --> 02:54.780
+traits. I had the general<u> sort</u> of named traits that we use for consistent unit test. And then
+
+02:54.780 --> 02:55.060
+traits. I had the general sort<u> of</u> named traits that we use for consistent unit test. And then
+
+02:55.060 --> 02:55.420
+traits. I had the general sort of<u> named</u> traits that we use for consistent unit test. And then
+
+02:55.420 --> 02:55.960
+traits. I had the general sort of named<u> traits</u> that we use for consistent unit test. And then
+
+02:55.960 --> 02:56.820
+traits. I had the general sort of named traits<u> that</u> we use for consistent unit test. And then
+
+02:56.820 --> 02:57.120
+traits. I had the general sort of named traits that<u> we</u> use for consistent unit test. And then
+
+02:57.120 --> 02:57.460
+traits. I had the general sort of named traits that we<u> use</u> for consistent unit test. And then
+
+02:57.460 --> 02:57.940
+traits. I had the general sort of named traits that we use<u> for</u> consistent unit test. And then
+
+02:57.940 --> 02:58.980
+traits. I had the general sort of named traits that we use for<u> consistent</u> unit test. And then
+
+02:58.980 --> 03:00.120
+traits. I had the general sort of named traits that we use for consistent<u> unit</u> test. And then
+
+03:00.120 --> 03:00.560
+traits. I had the general sort of named traits that we use for consistent unit<u> test.</u> And then
+
+03:00.560 --> 03:01.200
+traits. I had the general sort of named traits that we use for consistent unit test. And then
+
+03:01.200 --> 03:01.300
+traits. I had the general sort of named traits that we use for consistent unit test.<u> And</u> then
+
+03:01.300 --> 03:01.580
+traits. I had the general sort of named traits that we use for consistent unit test. And<u> then</u>
+
+03:01.580 --> 03:02.680
+<u>sample</u> was essentially a whole lot of data provided by Faker. And with just a little bit of
+
+03:02.680 --> 03:03.460
+sample<u> was</u> essentially a whole lot of data provided by Faker. And with just a little bit of
+
+03:03.460 --> 03:04.000
+sample was<u> essentially</u> a whole lot of data provided by Faker. And with just a little bit of
+
+03:04.000 --> 03:04.280
+sample was essentially<u> a</u> whole lot of data provided by Faker. And with just a little bit of
+
+03:04.280 --> 03:04.480
+sample was essentially a<u> whole</u> lot of data provided by Faker. And with just a little bit of
+
+03:04.480 --> 03:04.720
+sample was essentially a whole<u> lot</u> of data provided by Faker. And with just a little bit of
+
+03:04.720 --> 03:04.880
+sample was essentially a whole lot<u> of</u> data provided by Faker. And with just a little bit of
+
+03:04.880 --> 03:05.240
+sample was essentially a whole lot of<u> data</u> provided by Faker. And with just a little bit of
+
+03:05.240 --> 03:05.840
+sample was essentially a whole lot of data<u> provided</u> by Faker. And with just a little bit of
+
+03:05.840 --> 03:06.480
+sample was essentially a whole lot of data provided<u> by</u> Faker. And with just a little bit of
+
+03:06.480 --> 03:07.160
+sample was essentially a whole lot of data provided by<u> Faker.</u> And with just a little bit of
+
+03:07.160 --> 03:07.800
+sample was essentially a whole lot of data provided by Faker. And with just a little bit of
+
+03:07.800 --> 03:08.840
+sample was essentially a whole lot of data provided by Faker.<u> And</u> with just a little bit of
+
+03:08.840 --> 03:09.120
+sample was essentially a whole lot of data provided by Faker. And<u> with</u> just a little bit of
+
+03:09.120 --> 03:09.400
+sample was essentially a whole lot of data provided by Faker. And with<u> just</u> a little bit of
+
+03:09.400 --> 03:09.580
+sample was essentially a whole lot of data provided by Faker. And with just<u> a</u> little bit of
+
+03:09.580 --> 03:09.720
+sample was essentially a whole lot of data provided by Faker. And with just a<u> little</u> bit of
+
+03:09.720 --> 03:09.900
+sample was essentially a whole lot of data provided by Faker. And with just a little<u> bit</u> of
+
+03:09.900 --> 03:10.280
+sample was essentially a whole lot of data provided by Faker. And with just a little bit<u> of</u>
+
+03:10.520 --> 03:11.160
+<u>information,</u> it was able to learn. So apologies for the misunderstanding. It was able to learn
+
+03:11.160 --> 03:11.780
+information, it was able to learn. So apologies for the misunderstanding. It was able to learn
+
+03:11.780 --> 03:11.920
+information,<u> it</u> was able to learn. So apologies for the misunderstanding. It was able to learn
+
+03:11.920 --> 03:12.300
+information, it<u> was</u> able to learn. So apologies for the misunderstanding. It was able to learn
+
+03:12.300 --> 03:12.520
+information, it was<u> able</u> to learn. So apologies for the misunderstanding. It was able to learn
+
+03:12.520 --> 03:12.680
+information, it was able<u> to</u> learn. So apologies for the misunderstanding. It was able to learn
+
+03:12.680 --> 03:13.140
+information, it was able to<u> learn.</u> So apologies for the misunderstanding. It was able to learn
+
+03:13.140 --> 03:13.320
+information, it was able to learn. So apologies for the misunderstanding. It was able to learn
+
+03:13.320 --> 03:13.540
+information, it was able to learn.<u> So</u> apologies for the misunderstanding. It was able to learn
+
+03:13.540 --> 03:14.000
+information, it was able to learn. So<u> apologies</u> for the misunderstanding. It was able to learn
+
+03:14.000 --> 03:14.520
+information, it was able to learn. So apologies<u> for</u> the misunderstanding. It was able to learn
+
+03:14.520 --> 03:14.660
+information, it was able to learn. So apologies for<u> the</u> misunderstanding. It was able to learn
+
+03:14.660 --> 03:15.280
+information, it was able to learn. So apologies for the<u> misunderstanding.</u> It was able to learn
+
+03:15.280 --> 03:15.840
+information, it was able to learn. So apologies for the misunderstanding. It was able to learn
+
+03:15.840 --> 03:15.940
+information, it was able to learn. So apologies for the misunderstanding.<u> It</u> was able to learn
+
+03:15.940 --> 03:16.540
+information, it was able to learn. So apologies for the misunderstanding. It<u> was</u> able to learn
+
+03:16.540 --> 03:16.780
+information, it was able to learn. So apologies for the misunderstanding. It was<u> able</u> to learn
+
+03:16.780 --> 03:16.920
+information, it was able to learn. So apologies for the misunderstanding. It was able<u> to</u> learn
+
+03:16.920 --> 03:17.300
+information, it was able to learn. So apologies for the misunderstanding. It was able to<u> learn</u>
+
+03:17.300 --> 03:17.760
+<u>how</u> I work with sample data within the system. Now on one of the earlier examples with it,
+
+03:17.760 --> 03:18.100
+how<u> I</u> work with sample data within the system. Now on one of the earlier examples with it,
+
+03:18.100 --> 03:18.340
+how I<u> work</u> with sample data within the system. Now on one of the earlier examples with it,
+
+03:18.340 --> 03:18.540
+how I work<u> with</u> sample data within the system. Now on one of the earlier examples with it,
+
+03:18.540 --> 03:18.940
+how I work with<u> sample</u> data within the system. Now on one of the earlier examples with it,
+
+03:18.940 --> 03:19.860
+how I work with sample<u> data</u> within the system. Now on one of the earlier examples with it,
+
+03:19.860 --> 03:20.200
+how I work with sample data<u> within</u> the system. Now on one of the earlier examples with it,
+
+03:20.200 --> 03:20.420
+how I work with sample data within<u> the</u> system. Now on one of the earlier examples with it,
+
+03:20.420 --> 03:20.740
+how I work with sample data within the<u> system.</u> Now on one of the earlier examples with it,
+
+03:20.740 --> 03:21.640
+how I work with sample data within the system. Now on one of the earlier examples with it,
+
+03:21.640 --> 03:22.240
+how I work with sample data within the system.<u> Now</u> on one of the earlier examples with it,
+
+03:22.240 --> 03:22.440
+how I work with sample data within the system. Now<u> on</u> one of the earlier examples with it,
+
+03:22.440 --> 03:22.700
+how I work with sample data within the system. Now on<u> one</u> of the earlier examples with it,
+
+03:22.700 --> 03:22.860
+how I work with sample data within the system. Now on one<u> of</u> the earlier examples with it,
+
+03:22.860 --> 03:23.120
+how I work with sample data within the system. Now on one of<u> the</u> earlier examples with it,
+
+03:23.120 --> 03:23.800
+how I work with sample data within the system. Now on one of the<u> earlier</u> examples with it,
+
+03:23.800 --> 03:24.480
+how I work with sample data within the system. Now on one of the earlier<u> examples</u> with it,
+
+03:24.480 --> 03:24.860
+how I work with sample data within the system. Now on one of the earlier examples<u> with</u> it,
+
+03:24.860 --> 03:25.000
+how I work with sample data within the system. Now on one of the earlier examples with<u> it,</u>
+
+03:25.060 --> 03:25.160
+<u>I</u> was able to get it to write a general close approximation of a unit test for needs PDF.
+
+03:25.160 --> 03:25.300
+I<u> was</u> able to get it to write a general close approximation of a unit test for needs PDF.
+
+03:25.300 --> 03:25.560
+I was<u> able</u> to get it to write a general close approximation of a unit test for needs PDF.
+
+03:25.560 --> 03:25.720
+I was able<u> to</u> get it to write a general close approximation of a unit test for needs PDF.
+
+03:25.720 --> 03:25.980
+I was able to<u> get</u> it to write a general close approximation of a unit test for needs PDF.
+
+03:25.980 --> 03:26.140
+I was able to get<u> it</u> to write a general close approximation of a unit test for needs PDF.
+
+03:26.140 --> 03:26.320
+I was able to get it<u> to</u> write a general close approximation of a unit test for needs PDF.
+
+03:26.320 --> 03:26.520
+I was able to get it to<u> write</u> a general close approximation of a unit test for needs PDF.
+
+03:26.520 --> 03:26.740
+I was able to get it to write<u> a</u> general close approximation of a unit test for needs PDF.
+
+03:26.740 --> 03:27.240
+I was able to get it to write a<u> general</u> close approximation of a unit test for needs PDF.
+
+03:27.240 --> 03:27.960
+I was able to get it to write a general<u> close</u> approximation of a unit test for needs PDF.
+
+03:27.960 --> 03:28.640
+I was able to get it to write a general close<u> approximation</u> of a unit test for needs PDF.
+
+03:28.640 --> 03:29.440
+I was able to get it to write a general close approximation<u> of</u> a unit test for needs PDF.
+
+03:29.440 --> 03:29.540
+I was able to get it to write a general close approximation of<u> a</u> unit test for needs PDF.
+
+03:29.540 --> 03:29.720
+I was able to get it to write a general close approximation of a<u> unit</u> test for needs PDF.
+
+03:29.720 --> 03:30.140
+I was able to get it to write a general close approximation of a unit<u> test</u> for needs PDF.
+
+03:30.140 --> 03:30.560
+I was able to get it to write a general close approximation of a unit test<u> for</u> needs PDF.
+
+03:30.560 --> 03:30.960
+I was able to get it to write a general close approximation of a unit test for<u> needs</u> PDF.
+
+03:30.960 --> 03:31.560
+I was able to get it to write a general close approximation of a unit test for needs<u> PDF.</u>
+
+03:32.000 --> 03:32.680
+<u>And</u> I then manually just made a few slight alterations to it. And what happened was that
+
+03:32.680 --> 03:33.320
+And<u> I</u> then manually just made a few slight alterations to it. And what happened was that
+
+03:33.320 --> 03:33.580
+And I<u> then</u> manually just made a few slight alterations to it. And what happened was that
+
+03:33.580 --> 03:34.380
+And I then<u> manually</u> just made a few slight alterations to it. And what happened was that
+
+03:34.380 --> 03:34.860
+And I then manually<u> just</u> made a few slight alterations to it. And what happened was that
+
+03:34.860 --> 03:35.200
+And I then manually just<u> made</u> a few slight alterations to it. And what happened was that
+
+03:35.200 --> 03:35.400
+And I then manually just made<u> a</u> few slight alterations to it. And what happened was that
+
+03:35.400 --> 03:35.620
+And I then manually just made a<u> few</u> slight alterations to it. And what happened was that
+
+03:35.620 --> 03:36.040
+And I then manually just made a few<u> slight</u> alterations to it. And what happened was that
+
+03:36.040 --> 03:36.920
+And I then manually just made a few slight<u> alterations</u> to it. And what happened was that
+
+03:36.920 --> 03:37.560
+And I then manually just made a few slight alterations<u> to</u> it. And what happened was that
+
+03:37.560 --> 03:37.760
+And I then manually just made a few slight alterations to<u> it.</u> And what happened was that
+
+03:37.760 --> 03:38.060
+And I then manually just made a few slight alterations to it. And what happened was that
+
+03:38.060 --> 03:38.480
+And I then manually just made a few slight alterations to it.<u> And</u> what happened was that
+
+03:38.480 --> 03:38.660
+And I then manually just made a few slight alterations to it. And<u> what</u> happened was that
+
+03:38.660 --> 03:38.960
+And I then manually just made a few slight alterations to it. And what<u> happened</u> was that
+
+03:38.960 --> 03:39.300
+And I then manually just made a few slight alterations to it. And what happened<u> was</u> that
+
+03:39.300 --> 03:39.700
+And I then manually just made a few slight alterations to it. And what happened was<u> that</u>
+
+03:39.700 --> 03:40.440
+<u>this</u> worked and it covered every scenario that I could see in the logic. And I thought, okay,
+
+03:40.440 --> 03:40.940
+this<u> worked</u> and it covered every scenario that I could see in the logic. And I thought, okay,
+
+03:40.940 --> 03:41.440
+this worked<u> and</u> it covered every scenario that I could see in the logic. And I thought, okay,
+
+03:41.440 --> 03:41.620
+this worked and<u> it</u> covered every scenario that I could see in the logic. And I thought, okay,
+
+03:41.620 --> 03:41.880
+this worked and it<u> covered</u> every scenario that I could see in the logic. And I thought, okay,
+
+03:41.880 --> 03:42.340
+this worked and it covered<u> every</u> scenario that I could see in the logic. And I thought, okay,
+
+03:42.340 --> 03:42.880
+this worked and it covered every<u> scenario</u> that I could see in the logic. And I thought, okay,
+
+03:42.880 --> 03:43.300
+this worked and it covered every scenario<u> that</u> I could see in the logic. And I thought, okay,
+
+03:43.300 --> 03:43.440
+this worked and it covered every scenario that<u> I</u> could see in the logic. And I thought, okay,
+
+03:43.440 --> 03:43.600
+this worked and it covered every scenario that I<u> could</u> see in the logic. And I thought, okay,
+
+03:43.600 --> 03:44.120
+this worked and it covered every scenario that I could<u> see</u> in the logic. And I thought, okay,
+
+03:44.120 --> 03:44.700
+this worked and it covered every scenario that I could see<u> in</u> the logic. And I thought, okay,
+
+03:44.700 --> 03:44.880
+this worked and it covered every scenario that I could see in<u> the</u> logic. And I thought, okay,
+
+03:44.880 --> 03:45.200
+this worked and it covered every scenario that I could see in the<u> logic.</u> And I thought, okay,
+
+03:45.200 --> 03:45.620
+this worked and it covered every scenario that I could see in the logic. And I thought, okay,
+
+03:45.620 --> 03:46.060
+this worked and it covered every scenario that I could see in the logic.<u> And</u> I thought, okay,
+
+03:46.060 --> 03:46.380
+this worked and it covered every scenario that I could see in the logic. And<u> I</u> thought, okay,
+
+03:46.380 --> 03:46.520
+this worked and it covered every scenario that I could see in the logic. And I<u> thought,</u> okay,
+
+03:46.520 --> 03:46.600
+this worked and it covered every scenario that I could see in the logic. And I thought, okay,
+
+03:46.600 --> 03:46.820
+this worked and it covered every scenario that I could see in the logic. And I thought,<u> okay,</u>
+
+03:46.840 --> 03:47.040
+<u>this</u> is pretty, pretty good unit testing for the code. Could I use it as the basis to train the bot
+
+03:47.040 --> 03:47.180
+this<u> is</u> pretty, pretty good unit testing for the code. Could I use it as the basis to train the bot
+
+03:47.180 --> 03:47.600
+this is<u> pretty,</u> pretty good unit testing for the code. Could I use it as the basis to train the bot
+
+03:47.600 --> 03:47.680
+this is pretty, pretty good unit testing for the code. Could I use it as the basis to train the bot
+
+03:47.680 --> 03:48.160
+this is pretty,<u> pretty</u> good unit testing for the code. Could I use it as the basis to train the bot
+
+03:48.160 --> 03:48.540
+this is pretty, pretty<u> good</u> unit testing for the code. Could I use it as the basis to train the bot
+
+03:48.540 --> 03:48.900
+this is pretty, pretty good<u> unit</u> testing for the code. Could I use it as the basis to train the bot
+
+03:48.900 --> 03:49.480
+this is pretty, pretty good unit<u> testing</u> for the code. Could I use it as the basis to train the bot
+
+03:49.480 --> 03:49.860
+this is pretty, pretty good unit testing<u> for</u> the code. Could I use it as the basis to train the bot
+
+03:49.860 --> 03:49.980
+this is pretty, pretty good unit testing for<u> the</u> code. Could I use it as the basis to train the bot
+
+03:49.980 --> 03:50.520
+this is pretty, pretty good unit testing for the<u> code.</u> Could I use it as the basis to train the bot
+
+03:50.520 --> 03:50.840
+this is pretty, pretty good unit testing for the code. Could I use it as the basis to train the bot
+
+03:50.840 --> 03:51.740
+this is pretty, pretty good unit testing for the code.<u> Could</u> I use it as the basis to train the bot
+
+03:51.740 --> 03:51.940
+this is pretty, pretty good unit testing for the code. Could<u> I</u> use it as the basis to train the bot
+
+03:51.940 --> 03:52.220
+this is pretty, pretty good unit testing for the code. Could I<u> use</u> it as the basis to train the bot
+
+03:52.220 --> 03:52.340
+this is pretty, pretty good unit testing for the code. Could I use<u> it</u> as the basis to train the bot
+
+03:52.340 --> 03:52.700
+this is pretty, pretty good unit testing for the code. Could I use it<u> as</u> the basis to train the bot
+
+03:52.700 --> 03:52.940
+this is pretty, pretty good unit testing for the code. Could I use it as<u> the</u> basis to train the bot
+
+03:52.940 --> 03:53.380
+this is pretty, pretty good unit testing for the code. Could I use it as the<u> basis</u> to train the bot
+
+03:53.380 --> 03:53.720
+this is pretty, pretty good unit testing for the code. Could I use it as the basis<u> to</u> train the bot
+
+03:53.720 --> 03:54.320
+this is pretty, pretty good unit testing for the code. Could I use it as the basis to<u> train</u> the bot
+
+03:54.320 --> 03:54.540
+this is pretty, pretty good unit testing for the code. Could I use it as the basis to train<u> the</u> bot
+
+03:54.540 --> 03:54.780
+this is pretty, pretty good unit testing for the code. Could I use it as the basis to train the<u> bot</u>
+
+03:54.780 --> 03:55.020
+<u>a</u> little bit further? And so I just said for the following scope and I posted in the actual code.
+
+03:55.020 --> 03:55.160
+a<u> little</u> bit further? And so I just said for the following scope and I posted in the actual code.
+
+03:55.160 --> 03:55.360
+a little<u> bit</u> further? And so I just said for the following scope and I posted in the actual code.
+
+03:55.360 --> 03:55.620
+a little bit<u> further?</u> And so I just said for the following scope and I posted in the actual code.
+
+03:55.620 --> 03:56.520
+a little bit further? And so I just said for the following scope and I posted in the actual code.
+
+03:56.520 --> 03:56.540
+a little bit further?<u> And</u> so I just said for the following scope and I posted in the actual code.
+
+03:56.540 --> 03:56.920
+a little bit further? And<u> so</u> I just said for the following scope and I posted in the actual code.
+
+03:56.920 --> 03:57.220
+a little bit further? And so<u> I</u> just said for the following scope and I posted in the actual code.
+
+03:57.220 --> 03:57.600
+a little bit further? And so I<u> just</u> said for the following scope and I posted in the actual code.
+
+03:57.600 --> 03:57.960
+a little bit further? And so I just<u> said</u> for the following scope and I posted in the actual code.
+
+03:57.960 --> 03:58.300
+a little bit further? And so I just said<u> for</u> the following scope and I posted in the actual code.
+
+03:58.300 --> 03:58.440
+a little bit further? And so I just said for<u> the</u> following scope and I posted in the actual code.
+
+03:58.440 --> 03:58.660
+a little bit further? And so I just said for the<u> following</u> scope and I posted in the actual code.
+
+03:58.660 --> 03:59.160
+a little bit further? And so I just said for the following<u> scope</u> and I posted in the actual code.
+
+03:59.160 --> 03:59.420
+a little bit further? And so I just said for the following scope<u> and</u> I posted in the actual code.
+
+03:59.420 --> 03:59.560
+a little bit further? And so I just said for the following scope and<u> I</u> posted in the actual code.
+
+03:59.560 --> 04:00.180
+a little bit further? And so I just said for the following scope and I<u> posted</u> in the actual code.
+
+04:00.180 --> 04:00.800
+a little bit further? And so I just said for the following scope and I posted<u> in</u> the actual code.
+
+04:00.800 --> 04:01.180
+a little bit further? And so I just said for the following scope and I posted in<u> the</u> actual code.
+
+04:01.180 --> 04:01.820
+a little bit further? And so I just said for the following scope and I posted in the<u> actual</u> code.
+
+04:01.820 --> 04:02.220
+a little bit further? And so I just said for the following scope and I posted in the actual<u> code.</u>
+
+04:02.620 --> 04:03.020
+<u>And</u> I told it, I wrote the following unit test and I gave it the pattern that it needed.
+
+04:03.020 --> 04:03.160
+And<u> I</u> told it, I wrote the following unit test and I gave it the pattern that it needed.
+
+04:03.160 --> 04:03.380
+And I<u> told</u> it, I wrote the following unit test and I gave it the pattern that it needed.
+
+04:03.380 --> 04:03.620
+And I told<u> it,</u> I wrote the following unit test and I gave it the pattern that it needed.
+
+04:03.620 --> 04:03.660
+And I told it, I wrote the following unit test and I gave it the pattern that it needed.
+
+04:03.660 --> 04:03.920
+And I told it,<u> I</u> wrote the following unit test and I gave it the pattern that it needed.
+
+04:03.920 --> 04:04.400
+And I told it, I<u> wrote</u> the following unit test and I gave it the pattern that it needed.
+
+04:04.400 --> 04:04.760
+And I told it, I wrote<u> the</u> following unit test and I gave it the pattern that it needed.
+
+04:04.760 --> 04:05.040
+And I told it, I wrote the<u> following</u> unit test and I gave it the pattern that it needed.
+
+04:05.040 --> 04:05.380
+And I told it, I wrote the following<u> unit</u> test and I gave it the pattern that it needed.
+
+04:05.380 --> 04:05.780
+And I told it, I wrote the following unit<u> test</u> and I gave it the pattern that it needed.
+
+04:05.780 --> 04:06.000
+And I told it, I wrote the following unit test<u> and</u> I gave it the pattern that it needed.
+
+04:06.000 --> 04:06.160
+And I told it, I wrote the following unit test and<u> I</u> gave it the pattern that it needed.
+
+04:06.160 --> 04:06.520
+And I told it, I wrote the following unit test and I<u> gave</u> it the pattern that it needed.
+
+04:06.520 --> 04:06.760
+And I told it, I wrote the following unit test and I gave<u> it</u> the pattern that it needed.
+
+04:06.760 --> 04:07.080
+And I told it, I wrote the following unit test and I gave it<u> the</u> pattern that it needed.
+
+04:07.080 --> 04:07.500
+And I told it, I wrote the following unit test and I gave it the<u> pattern</u> that it needed.
+
+04:07.500 --> 04:07.760
+And I told it, I wrote the following unit test and I gave it the pattern<u> that</u> it needed.
+
+04:07.760 --> 04:07.920
+And I told it, I wrote the following unit test and I gave it the pattern that<u> it</u> needed.
+
+04:07.920 --> 04:08.300
+And I told it, I wrote the following unit test and I gave it the pattern that it<u> needed.</u>
+
+04:08.680 --> 04:09.240
+<u>And</u> then it was just a simple case of selecting the next scope on the list, going over and say,
+
+04:09.240 --> 04:09.360
+And<u> then</u> it was just a simple case of selecting the next scope on the list, going over and say,
+
+04:09.360 --> 04:09.460
+And then<u> it</u> was just a simple case of selecting the next scope on the list, going over and say,
+
+04:09.460 --> 04:09.620
+And then it<u> was</u> just a simple case of selecting the next scope on the list, going over and say,
+
+04:09.620 --> 04:09.840
+And then it was<u> just</u> a simple case of selecting the next scope on the list, going over and say,
+
+04:09.840 --> 04:10.040
+And then it was just<u> a</u> simple case of selecting the next scope on the list, going over and say,
+
+04:10.040 --> 04:10.320
+And then it was just a<u> simple</u> case of selecting the next scope on the list, going over and say,
+
+04:10.320 --> 04:10.820
+And then it was just a simple<u> case</u> of selecting the next scope on the list, going over and say,
+
+04:10.820 --> 04:11.260
+And then it was just a simple case<u> of</u> selecting the next scope on the list, going over and say,
+
+04:11.260 --> 04:12.100
+And then it was just a simple case of<u> selecting</u> the next scope on the list, going over and say,
+
+04:12.100 --> 04:12.660
+And then it was just a simple case of selecting<u> the</u> next scope on the list, going over and say,
+
+04:12.660 --> 04:12.860
+And then it was just a simple case of selecting the<u> next</u> scope on the list, going over and say,
+
+04:12.860 --> 04:13.300
+And then it was just a simple case of selecting the next<u> scope</u> on the list, going over and say,
+
+04:13.300 --> 04:13.560
+And then it was just a simple case of selecting the next scope<u> on</u> the list, going over and say,
+
+04:13.560 --> 04:13.640
+And then it was just a simple case of selecting the next scope on<u> the</u> list, going over and say,
+
+04:13.640 --> 04:14.000
+And then it was just a simple case of selecting the next scope on the<u> list,</u> going over and say,
+
+04:14.000 --> 04:14.120
+And then it was just a simple case of selecting the next scope on the list, going over and say,
+
+04:14.120 --> 04:14.840
+And then it was just a simple case of selecting the next scope on the list,<u> going</u> over and say,
+
+04:14.840 --> 04:15.300
+And then it was just a simple case of selecting the next scope on the list, going<u> over</u> and say,
+
+04:15.300 --> 04:15.660
+And then it was just a simple case of selecting the next scope on the list, going over<u> and</u> say,
+
+04:15.660 --> 04:16.040
+And then it was just a simple case of selecting the next scope on the list, going over and<u> say,</u>
+
+04:16.060 --> 04:16.580
+<u>can</u> you write my unit test for scope and posted the code in. And what it did was write a unit test
+
+04:16.580 --> 04:16.800
+can<u> you</u> write my unit test for scope and posted the code in. And what it did was write a unit test
+
+04:16.800 --> 04:17.160
+can you<u> write</u> my unit test for scope and posted the code in. And what it did was write a unit test
+
+04:17.160 --> 04:17.820
+can you write<u> my</u> unit test for scope and posted the code in. And what it did was write a unit test
+
+04:17.820 --> 04:18.100
+can you write my<u> unit</u> test for scope and posted the code in. And what it did was write a unit test
+
+04:18.100 --> 04:18.520
+can you write my unit<u> test</u> for scope and posted the code in. And what it did was write a unit test
+
+04:18.520 --> 04:18.880
+can you write my unit test<u> for</u> scope and posted the code in. And what it did was write a unit test
+
+04:18.880 --> 04:19.340
+can you write my unit test for<u> scope</u> and posted the code in. And what it did was write a unit test
+
+04:19.340 --> 04:19.960
+can you write my unit test for scope<u> and</u> posted the code in. And what it did was write a unit test
+
+04:19.960 --> 04:20.520
+can you write my unit test for scope and<u> posted</u> the code in. And what it did was write a unit test
+
+04:20.520 --> 04:20.700
+can you write my unit test for scope and posted<u> the</u> code in. And what it did was write a unit test
+
+04:20.700 --> 04:20.960
+can you write my unit test for scope and posted the<u> code</u> in. And what it did was write a unit test
+
+04:20.960 --> 04:21.220
+can you write my unit test for scope and posted the code<u> in.</u> And what it did was write a unit test
+
+04:21.220 --> 04:21.560
+can you write my unit test for scope and posted the code in. And what it did was write a unit test
+
+04:21.560 --> 04:22.280
+can you write my unit test for scope and posted the code in.<u> And</u> what it did was write a unit test
+
+04:22.280 --> 04:22.420
+can you write my unit test for scope and posted the code in. And<u> what</u> it did was write a unit test
+
+04:22.420 --> 04:22.520
+can you write my unit test for scope and posted the code in. And what<u> it</u> did was write a unit test
+
+04:22.520 --> 04:22.760
+can you write my unit test for scope and posted the code in. And what it<u> did</u> was write a unit test
+
+04:22.760 --> 04:23.180
+can you write my unit test for scope and posted the code in. And what it did<u> was</u> write a unit test
+
+04:23.180 --> 04:23.880
+can you write my unit test for scope and posted the code in. And what it did was<u> write</u> a unit test
+
+04:23.880 --> 04:24.460
+can you write my unit test for scope and posted the code in. And what it did was write<u> a</u> unit test
+
+04:24.460 --> 04:24.880
+can you write my unit test for scope and posted the code in. And what it did was write a<u> unit</u> test
+
+04:24.880 --> 04:25.380
+can you write my unit test for scope and posted the code in. And what it did was write a unit<u> test</u>
+
+04:25.380 --> 04:25.940
+<u>which</u> covered all scenarios and what the first time out, I didn't really have to change anything.
+
+04:25.940 --> 04:26.460
+which<u> covered</u> all scenarios and what the first time out, I didn't really have to change anything.
+
+04:26.460 --> 04:26.700
+which covered<u> all</u> scenarios and what the first time out, I didn't really have to change anything.
+
+04:26.700 --> 04:27.320
+which covered all<u> scenarios</u> and what the first time out, I didn't really have to change anything.
+
+04:27.320 --> 04:28.120
+which covered all scenarios<u> and</u> what the first time out, I didn't really have to change anything.
+
+04:28.120 --> 04:28.500
+which covered all scenarios and<u> what</u> the first time out, I didn't really have to change anything.
+
+04:28.500 --> 04:28.880
+which covered all scenarios and what<u> the</u> first time out, I didn't really have to change anything.
+
+04:28.880 --> 04:29.100
+which covered all scenarios and what the<u> first</u> time out, I didn't really have to change anything.
+
+04:29.100 --> 04:29.400
+which covered all scenarios and what the first<u> time</u> out, I didn't really have to change anything.
+
+04:29.400 --> 04:29.620
+which covered all scenarios and what the first time<u> out,</u> I didn't really have to change anything.
+
+04:29.620 --> 04:29.680
+which covered all scenarios and what the first time out, I didn't really have to change anything.
+
+04:29.680 --> 04:29.780
+which covered all scenarios and what the first time out,<u> I</u> didn't really have to change anything.
+
+04:29.780 --> 04:29.940
+which covered all scenarios and what the first time out, I<u> didn't</u> really have to change anything.
+
+04:29.940 --> 04:30.160
+which covered all scenarios and what the first time out, I didn't<u> really</u> have to change anything.
+
+04:30.160 --> 04:30.320
+which covered all scenarios and what the first time out, I didn't really<u> have</u> to change anything.
+
+04:30.320 --> 04:30.440
+which covered all scenarios and what the first time out, I didn't really have<u> to</u> change anything.
+
+04:30.440 --> 04:30.740
+which covered all scenarios and what the first time out, I didn't really have to<u> change</u> anything.
+
+04:30.740 --> 04:31.080
+which covered all scenarios and what the first time out, I didn't really have to change<u> anything.</u>
+
+04:31.280 --> 04:31.500
+<u>So</u> I was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:31.500 --> 04:31.620
+So<u> I</u> was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:31.620 --> 04:31.700
+So I<u> was</u> pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:31.700 --> 04:31.900
+So I was<u> pretty</u> happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:31.900 --> 04:32.140
+So I was pretty<u> happy</u> with that. And I thought, well, let's take it a bit further. And you might
+
+04:32.140 --> 04:32.380
+So I was pretty happy<u> with</u> that. And I thought, well, let's take it a bit further. And you might
+
+04:32.380 --> 04:32.600
+So I was pretty happy with<u> that.</u> And I thought, well, let's take it a bit further. And you might
+
+04:32.600 --> 04:33.120
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:33.120 --> 04:33.420
+So I was pretty happy with that.<u> And</u> I thought, well, let's take it a bit further. And you might
+
+04:33.420 --> 04:33.560
+So I was pretty happy with that. And<u> I</u> thought, well, let's take it a bit further. And you might
+
+04:33.560 --> 04:33.720
+So I was pretty happy with that. And I<u> thought,</u> well, let's take it a bit further. And you might
+
+04:33.720 --> 04:33.840
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:33.840 --> 04:34.040
+So I was pretty happy with that. And I thought,<u> well,</u> let's take it a bit further. And you might
+
+04:34.040 --> 04:34.060
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:34.060 --> 04:34.340
+So I was pretty happy with that. And I thought, well,<u> let's</u> take it a bit further. And you might
+
+04:34.340 --> 04:34.580
+So I was pretty happy with that. And I thought, well, let's<u> take</u> it a bit further. And you might
+
+04:34.580 --> 04:34.700
+So I was pretty happy with that. And I thought, well, let's take<u> it</u> a bit further. And you might
+
+04:34.700 --> 04:34.780
+So I was pretty happy with that. And I thought, well, let's take it<u> a</u> bit further. And you might
+
+04:34.780 --> 04:34.900
+So I was pretty happy with that. And I thought, well, let's take it a<u> bit</u> further. And you might
+
+04:34.900 --> 04:35.260
+So I was pretty happy with that. And I thought, well, let's take it a bit<u> further.</u> And you might
+
+04:35.260 --> 04:35.500
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And you might
+
+04:35.500 --> 04:35.760
+So I was pretty happy with that. And I thought, well, let's take it a bit further.<u> And</u> you might
+
+04:35.760 --> 04:35.920
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And<u> you</u> might
+
+04:35.920 --> 04:36.080
+So I was pretty happy with that. And I thought, well, let's take it a bit further. And you<u> might</u>
+
+04:36.080 --> 04:36.240
+<u>be</u> able to see here that there's a fair bit more complex scope going on here. There's a whole
+
+04:36.240 --> 04:36.340
+be<u> able</u> to see here that there's a fair bit more complex scope going on here. There's a whole
+
+04:36.340 --> 04:36.460
+be able<u> to</u> see here that there's a fair bit more complex scope going on here. There's a whole
+
+04:36.460 --> 04:36.760
+be able to<u> see</u> here that there's a fair bit more complex scope going on here. There's a whole
+
+04:36.760 --> 04:37.120
+be able to see<u> here</u> that there's a fair bit more complex scope going on here. There's a whole
+
+04:37.120 --> 04:37.340
+be able to see here<u> that</u> there's a fair bit more complex scope going on here. There's a whole
+
+04:37.340 --> 04:37.700
+be able to see here that<u> there's</u> a fair bit more complex scope going on here. There's a whole
+
+04:37.700 --> 04:37.920
+be able to see here that there's<u> a</u> fair bit more complex scope going on here. There's a whole
+
+04:37.920 --> 04:39.260
+be able to see here that there's a<u> fair</u> bit more complex scope going on here. There's a whole
+
+04:39.260 --> 04:39.500
+be able to see here that there's a fair<u> bit</u> more complex scope going on here. There's a whole
+
+04:39.500 --> 04:39.860
+be able to see here that there's a fair bit<u> more</u> complex scope going on here. There's a whole
+
+04:39.860 --> 04:40.420
+be able to see here that there's a fair bit more<u> complex</u> scope going on here. There's a whole
+
+04:40.420 --> 04:41.480
+be able to see here that there's a fair bit more complex<u> scope</u> going on here. There's a whole
+
+04:41.480 --> 04:42.160
+be able to see here that there's a fair bit more complex scope<u> going</u> on here. There's a whole
+
+04:42.160 --> 04:42.380
+be able to see here that there's a fair bit more complex scope going<u> on</u> here. There's a whole
+
+04:42.380 --> 04:42.720
+be able to see here that there's a fair bit more complex scope going on<u> here.</u> There's a whole
+
+04:42.720 --> 04:42.920
+be able to see here that there's a fair bit more complex scope going on here. There's a whole
+
+04:42.920 --> 04:43.220
+be able to see here that there's a fair bit more complex scope going on here.<u> There's</u> a whole
+
+04:43.220 --> 04:43.860
+be able to see here that there's a fair bit more complex scope going on here. There's<u> a</u> whole
+
+04:43.860 --> 04:44.140
+be able to see here that there's a fair bit more complex scope going on here. There's a<u> whole</u>
+
+04:44.140 --> 04:44.280
+<u>lot</u> of if else statements going on. So I just gave it that, that code that we're seeing with,
+
+04:44.280 --> 04:44.380
+lot<u> of</u> if else statements going on. So I just gave it that, that code that we're seeing with,
+
+04:44.380 --> 04:44.620
+lot of<u> if</u> else statements going on. So I just gave it that, that code that we're seeing with,
+
+04:44.620 --> 04:44.840
+lot of if<u> else</u> statements going on. So I just gave it that, that code that we're seeing with,
+
+04:44.840 --> 04:45.420
+lot of if else<u> statements</u> going on. So I just gave it that, that code that we're seeing with,
+
+04:45.420 --> 04:45.860
+lot of if else statements<u> going</u> on. So I just gave it that, that code that we're seeing with,
+
+04:45.860 --> 04:46.160
+lot of if else statements going<u> on.</u> So I just gave it that, that code that we're seeing with,
+
+04:46.160 --> 04:46.700
+lot of if else statements going on. So I just gave it that, that code that we're seeing with,
+
+04:46.700 --> 04:46.960
+lot of if else statements going on.<u> So</u> I just gave it that, that code that we're seeing with,
+
+04:46.960 --> 04:47.160
+lot of if else statements going on. So<u> I</u> just gave it that, that code that we're seeing with,
+
+04:47.160 --> 04:47.500
+lot of if else statements going on. So I<u> just</u> gave it that, that code that we're seeing with,
+
+04:47.500 --> 04:48.200
+lot of if else statements going on. So I just<u> gave</u> it that, that code that we're seeing with,
+
+04:48.200 --> 04:48.480
+lot of if else statements going on. So I just gave<u> it</u> that, that code that we're seeing with,
+
+04:48.480 --> 04:48.880
+lot of if else statements going on. So I just gave it<u> that,</u> that code that we're seeing with,
+
+04:48.880 --> 04:48.920
+lot of if else statements going on. So I just gave it that, that code that we're seeing with,
+
+04:48.920 --> 04:49.320
+lot of if else statements going on. So I just gave it that,<u> that</u> code that we're seeing with,
+
+04:49.320 --> 04:49.660
+lot of if else statements going on. So I just gave it that, that<u> code</u> that we're seeing with,
+
+04:49.660 --> 04:49.860
+lot of if else statements going on. So I just gave it that, that code<u> that</u> we're seeing with,
+
+04:49.860 --> 04:50.060
+lot of if else statements going on. So I just gave it that, that code that<u> we're</u> seeing with,
+
+04:50.060 --> 04:50.320
+lot of if else statements going on. So I just gave it that, that code that we're<u> seeing</u> with,
+
+04:50.320 --> 04:50.620
+lot of if else statements going on. So I just gave it that, that code that we're seeing<u> with,</u>
+
+04:50.620 --> 04:50.980
+<u>can</u> you create a test for the following scope? And it ended up giving me a whole lot of code.
+
+04:50.980 --> 04:51.260
+can<u> you</u> create a test for the following scope? And it ended up giving me a whole lot of code.
+
+04:51.260 --> 04:51.660
+can you<u> create</u> a test for the following scope? And it ended up giving me a whole lot of code.
+
+04:51.660 --> 04:51.800
+can you create<u> a</u> test for the following scope? And it ended up giving me a whole lot of code.
+
+04:51.800 --> 04:52.020
+can you create a<u> test</u> for the following scope? And it ended up giving me a whole lot of code.
+
+04:52.020 --> 04:52.240
+can you create a test<u> for</u> the following scope? And it ended up giving me a whole lot of code.
+
+04:52.240 --> 04:52.400
+can you create a test for<u> the</u> following scope? And it ended up giving me a whole lot of code.
+
+04:52.400 --> 04:52.820
+can you create a test for the<u> following</u> scope? And it ended up giving me a whole lot of code.
+
+04:52.820 --> 04:53.260
+can you create a test for the following<u> scope?</u> And it ended up giving me a whole lot of code.
+
+04:53.260 --> 04:53.700
+can you create a test for the following scope? And it ended up giving me a whole lot of code.
+
+04:53.700 --> 04:54.100
+can you create a test for the following scope?<u> And</u> it ended up giving me a whole lot of code.
+
+04:54.100 --> 04:54.320
+can you create a test for the following scope? And<u> it</u> ended up giving me a whole lot of code.
+
+04:54.320 --> 04:54.660
+can you create a test for the following scope? And it<u> ended</u> up giving me a whole lot of code.
+
+04:54.660 --> 04:54.880
+can you create a test for the following scope? And it ended<u> up</u> giving me a whole lot of code.
+
+04:54.880 --> 04:55.140
+can you create a test for the following scope? And it ended up<u> giving</u> me a whole lot of code.
+
+04:55.140 --> 04:55.480
+can you create a test for the following scope? And it ended up giving<u> me</u> a whole lot of code.
+
+04:55.480 --> 04:55.720
+can you create a test for the following scope? And it ended up giving me<u> a</u> whole lot of code.
+
+04:55.720 --> 04:55.860
+can you create a test for the following scope? And it ended up giving me a<u> whole</u> lot of code.
+
+04:55.860 --> 04:56.020
+can you create a test for the following scope? And it ended up giving me a whole<u> lot</u> of code.
+
+04:56.020 --> 04:56.080
+can you create a test for the following scope? And it ended up giving me a whole lot<u> of</u> code.
+
+04:56.080 --> 04:56.440
+can you create a test for the following scope? And it ended up giving me a whole lot of<u> code.</u>
+
+04:56.640 --> 04:56.920
+<u>I</u> think there were four or five tests going in here. And I knew there were one or two typos
+
+04:56.920 --> 04:57.020
+I<u> think</u> there were four or five tests going in here. And I knew there were one or two typos
+
+04:57.020 --> 04:57.140
+I think<u> there</u> were four or five tests going in here. And I knew there were one or two typos
+
+04:57.140 --> 04:57.240
+I think there<u> were</u> four or five tests going in here. And I knew there were one or two typos
+
+04:57.240 --> 04:57.540
+I think there were<u> four</u> or five tests going in here. And I knew there were one or two typos
+
+04:57.540 --> 04:57.660
+I think there were four<u> or</u> five tests going in here. And I knew there were one or two typos
+
+04:57.660 --> 04:58.000
+I think there were four or<u> five</u> tests going in here. And I knew there were one or two typos
+
+04:58.000 --> 04:58.620
+I think there were four or five<u> tests</u> going in here. And I knew there were one or two typos
+
+04:58.620 --> 04:59.260
+I think there were four or five tests<u> going</u> in here. And I knew there were one or two typos
+
+04:59.260 --> 04:59.480
+I think there were four or five tests going<u> in</u> here. And I knew there were one or two typos
+
+04:59.480 --> 04:59.800
+I think there were four or five tests going in<u> here.</u> And I knew there were one or two typos
+
+04:59.800 --> 05:00.400
+I think there were four or five tests going in here. And I knew there were one or two typos
+
+05:00.400 --> 05:01.080
+I think there were four or five tests going in here.<u> And</u> I knew there were one or two typos
+
+05:01.080 --> 05:01.440
+I think there were four or five tests going in here. And<u> I</u> knew there were one or two typos
+
+05:01.440 --> 05:01.700
+I think there were four or five tests going in here. And I<u> knew</u> there were one or two typos
+
+05:01.700 --> 05:01.960
+I think there were four or five tests going in here. And I knew<u> there</u> were one or two typos
+
+05:01.960 --> 05:02.340
+I think there were four or five tests going in here. And I knew there<u> were</u> one or two typos
+
+05:02.340 --> 05:02.600
+I think there were four or five tests going in here. And I knew there were<u> one</u> or two typos
+
+05:02.600 --> 05:02.700
+I think there were four or five tests going in here. And I knew there were one<u> or</u> two typos
+
+05:02.700 --> 05:03.000
+I think there were four or five tests going in here. And I knew there were one or<u> two</u> typos
+
+05:03.000 --> 05:03.740
+I think there were four or five tests going in here. And I knew there were one or two<u> typos</u>
+
+05:03.740 --> 05:04.040
+<u>in</u> there. There should never have been a string like this. It should have been number. But I fixed
+
+05:04.040 --> 05:04.280
+in<u> there.</u> There should never have been a string like this. It should have been number. But I fixed
+
+05:04.280 --> 05:04.400
+in there. There should never have been a string like this. It should have been number. But I fixed
+
+05:04.400 --> 05:04.480
+in there.<u> There</u> should never have been a string like this. It should have been number. But I fixed
+
+05:04.480 --> 05:04.700
+in there. There<u> should</u> never have been a string like this. It should have been number. But I fixed
+
+05:04.700 --> 05:04.980
+in there. There should<u> never</u> have been a string like this. It should have been number. But I fixed
+
+05:04.980 --> 05:05.180
+in there. There should never<u> have</u> been a string like this. It should have been number. But I fixed
+
+05:05.180 --> 05:05.340
+in there. There should never have<u> been</u> a string like this. It should have been number. But I fixed
+
+05:05.340 --> 05:05.480
+in there. There should never have been<u> a</u> string like this. It should have been number. But I fixed
+
+05:05.480 --> 05:05.780
+in there. There should never have been a<u> string</u> like this. It should have been number. But I fixed
+
+05:05.780 --> 05:06.100
+in there. There should never have been a string<u> like</u> this. It should have been number. But I fixed
+
+05:06.100 --> 05:06.560
+in there. There should never have been a string like<u> this.</u> It should have been number. But I fixed
+
+05:06.560 --> 05:06.640
+in there. There should never have been a string like this. It should have been number. But I fixed
+
+05:06.640 --> 05:06.860
+in there. There should never have been a string like this.<u> It</u> should have been number. But I fixed
+
+05:06.860 --> 05:06.980
+in there. There should never have been a string like this. It<u> should</u> have been number. But I fixed
+
+05:06.980 --> 05:07.100
+in there. There should never have been a string like this. It should<u> have</u> been number. But I fixed
+
+05:07.100 --> 05:07.240
+in there. There should never have been a string like this. It should have<u> been</u> number. But I fixed
+
+05:07.240 --> 05:07.740
+in there. There should never have been a string like this. It should have been<u> number.</u> But I fixed
+
+05:07.740 --> 05:08.140
+in there. There should never have been a string like this. It should have been number. But I fixed
+
+05:08.140 --> 05:08.720
+in there. There should never have been a string like this. It should have been number.<u> But</u> I fixed
+
+05:08.720 --> 05:09.100
+in there. There should never have been a string like this. It should have been number. But<u> I</u> fixed
+
+05:09.100 --> 05:09.380
+in there. There should never have been a string like this. It should have been number. But I<u> fixed</u>
+
+05:09.380 --> 05:09.760
+<u>the</u> couple of typos that were there and I ran it. And what was surprising about this
+
+05:09.760 --> 05:10.100
+the<u> couple</u> of typos that were there and I ran it. And what was surprising about this
+
+05:10.100 --> 05:10.300
+the couple<u> of</u> typos that were there and I ran it. And what was surprising about this
+
+05:10.300 --> 05:10.820
+the couple of<u> typos</u> that were there and I ran it. And what was surprising about this
+
+05:10.820 --> 05:11.000
+the couple of typos<u> that</u> were there and I ran it. And what was surprising about this
+
+05:11.000 --> 05:11.140
+the couple of typos that<u> were</u> there and I ran it. And what was surprising about this
+
+05:11.140 --> 05:11.380
+the couple of typos that were<u> there</u> and I ran it. And what was surprising about this
+
+05:11.380 --> 05:11.680
+the couple of typos that were there<u> and</u> I ran it. And what was surprising about this
+
+05:11.680 --> 05:11.820
+the couple of typos that were there and<u> I</u> ran it. And what was surprising about this
+
+05:11.820 --> 05:12.040
+the couple of typos that were there and I<u> ran</u> it. And what was surprising about this
+
+05:12.040 --> 05:12.240
+the couple of typos that were there and I ran<u> it.</u> And what was surprising about this
+
+05:12.240 --> 05:12.640
+the couple of typos that were there and I ran it. And what was surprising about this
+
+05:12.640 --> 05:12.720
+the couple of typos that were there and I ran it.<u> And</u> what was surprising about this
+
+05:12.720 --> 05:13.260
+the couple of typos that were there and I ran it. And<u> what</u> was surprising about this
+
+05:13.260 --> 05:13.440
+the couple of typos that were there and I ran it. And what<u> was</u> surprising about this
+
+05:13.440 --> 05:13.960
+the couple of typos that were there and I ran it. And what was<u> surprising</u> about this
+
+05:13.960 --> 05:14.320
+the couple of typos that were there and I ran it. And what was surprising<u> about</u> this
+
+05:14.320 --> 05:14.720
+the couple of typos that were there and I ran it. And what was surprising about<u> this</u>
+
+05:14.720 --> 05:15.580
+<u>is</u> that I had a bunch of unit tests. I think there were five and I focused in on just this
+
+05:15.580 --> 05:15.820
+is<u> that</u> I had a bunch of unit tests. I think there were five and I focused in on just this
+
+05:15.820 --> 05:16.040
+is that<u> I</u> had a bunch of unit tests. I think there were five and I focused in on just this
+
+05:16.040 --> 05:16.220
+is that I<u> had</u> a bunch of unit tests. I think there were five and I focused in on just this
+
+05:16.220 --> 05:16.520
+is that I had<u> a</u> bunch of unit tests. I think there were five and I focused in on just this
+
+05:16.520 --> 05:16.760
+is that I had a<u> bunch</u> of unit tests. I think there were five and I focused in on just this
+
+05:16.760 --> 05:17.180
+is that I had a bunch<u> of</u> unit tests. I think there were five and I focused in on just this
+
+05:17.180 --> 05:17.640
+is that I had a bunch of<u> unit</u> tests. I think there were five and I focused in on just this
+
+05:17.640 --> 05:18.120
+is that I had a bunch of unit<u> tests.</u> I think there were five and I focused in on just this
+
+05:18.120 --> 05:18.340
+is that I had a bunch of unit tests. I think there were five and I focused in on just this
+
+05:18.340 --> 05:18.440
+is that I had a bunch of unit tests.<u> I</u> think there were five and I focused in on just this
+
+05:18.440 --> 05:18.520
+is that I had a bunch of unit tests. I<u> think</u> there were five and I focused in on just this
+
+05:18.520 --> 05:18.680
+is that I had a bunch of unit tests. I think<u> there</u> were five and I focused in on just this
+
+05:18.680 --> 05:18.780
+is that I had a bunch of unit tests. I think there<u> were</u> five and I focused in on just this
+
+05:18.780 --> 05:19.200
+is that I had a bunch of unit tests. I think there were<u> five</u> and I focused in on just this
+
+05:19.200 --> 05:19.540
+is that I had a bunch of unit tests. I think there were five<u> and</u> I focused in on just this
+
+05:19.540 --> 05:19.800
+is that I had a bunch of unit tests. I think there were five and<u> I</u> focused in on just this
+
+05:19.800 --> 05:20.580
+is that I had a bunch of unit tests. I think there were five and I<u> focused</u> in on just this
+
+05:20.580 --> 05:21.000
+is that I had a bunch of unit tests. I think there were five and I focused<u> in</u> on just this
+
+05:21.000 --> 05:21.580
+is that I had a bunch of unit tests. I think there were five and I focused in<u> on</u> just this
+
+05:21.580 --> 05:21.920
+is that I had a bunch of unit tests. I think there were five and I focused in on<u> just</u> this
+
+05:21.920 --> 05:22.320
+is that I had a bunch of unit tests. I think there were five and I focused in on just<u> this</u>
+
+05:22.320 --> 05:23.120
+<u>description.</u> And three of them just worked off the bat. I checked the code and the code was
+
+05:23.120 --> 05:23.920
+description. And three of them just worked off the bat. I checked the code and the code was
+
+05:23.920 --> 05:24.480
+description.<u> And</u> three of them just worked off the bat. I checked the code and the code was
+
+05:24.480 --> 05:25.360
+description. And<u> three</u> of them just worked off the bat. I checked the code and the code was
+
+05:25.360 --> 05:25.480
+description. And three<u> of</u> them just worked off the bat. I checked the code and the code was
+
+05:25.480 --> 05:25.580
+description. And three of<u> them</u> just worked off the bat. I checked the code and the code was
+
+05:25.580 --> 05:25.760
+description. And three of them<u> just</u> worked off the bat. I checked the code and the code was
+
+05:25.760 --> 05:26.020
+description. And three of them just<u> worked</u> off the bat. I checked the code and the code was
+
+05:26.020 --> 05:26.280
+description. And three of them just worked<u> off</u> the bat. I checked the code and the code was
+
+05:26.280 --> 05:26.480
+description. And three of them just worked off<u> the</u> bat. I checked the code and the code was
+
+05:26.480 --> 05:26.680
+description. And three of them just worked off the<u> bat.</u> I checked the code and the code was
+
+05:26.680 --> 05:26.920
+description. And three of them just worked off the bat. I checked the code and the code was
+
+05:26.920 --> 05:26.960
+description. And three of them just worked off the bat.<u> I</u> checked the code and the code was
+
+05:26.960 --> 05:27.440
+description. And three of them just worked off the bat. I<u> checked</u> the code and the code was
+
+05:27.440 --> 05:27.840
+description. And three of them just worked off the bat. I checked<u> the</u> code and the code was
+
+05:27.840 --> 05:28.160
+description. And three of them just worked off the bat. I checked the<u> code</u> and the code was
+
+05:28.160 --> 05:28.460
+description. And three of them just worked off the bat. I checked the code<u> and</u> the code was
+
+05:28.460 --> 05:28.620
+description. And three of them just worked off the bat. I checked the code and<u> the</u> code was
+
+05:28.620 --> 05:28.880
+description. And three of them just worked off the bat. I checked the code and the<u> code</u> was
+
+05:28.880 --> 05:29.320
+description. And three of them just worked off the bat. I checked the code and the code<u> was</u>
+
+05:29.320 --> 05:29.800
+<u>written</u> well and I'm happy with that. Two of them failed. I haven't checked this one to see why it
+
+05:29.800 --> 05:30.180
+written<u> well</u> and I'm happy with that. Two of them failed. I haven't checked this one to see why it
+
+05:30.180 --> 05:30.520
+written well<u> and</u> I'm happy with that. Two of them failed. I haven't checked this one to see why it
+
+05:30.520 --> 05:30.660
+written well and<u> I'm</u> happy with that. Two of them failed. I haven't checked this one to see why it
+
+05:30.660 --> 05:30.880
+written well and I'm<u> happy</u> with that. Two of them failed. I haven't checked this one to see why it
+
+05:30.880 --> 05:31.060
+written well and I'm happy<u> with</u> that. Two of them failed. I haven't checked this one to see why it
+
+05:31.060 --> 05:31.280
+written well and I'm happy with<u> that.</u> Two of them failed. I haven't checked this one to see why it
+
+05:31.280 --> 05:31.640
+written well and I'm happy with that. Two of them failed. I haven't checked this one to see why it
+
+05:31.640 --> 05:31.960
+written well and I'm happy with that.<u> Two</u> of them failed. I haven't checked this one to see why it
+
+05:31.960 --> 05:32.080
+written well and I'm happy with that. Two<u> of</u> them failed. I haven't checked this one to see why it
+
+05:32.080 --> 05:32.200
+written well and I'm happy with that. Two of<u> them</u> failed. I haven't checked this one to see why it
+
+05:32.200 --> 05:32.540
+written well and I'm happy with that. Two of them<u> failed.</u> I haven't checked this one to see why it
+
+05:32.540 --> 05:32.820
+written well and I'm happy with that. Two of them failed. I haven't checked this one to see why it
+
+05:32.820 --> 05:33.000
+written well and I'm happy with that. Two of them failed.<u> I</u> haven't checked this one to see why it
+
+05:33.000 --> 05:33.260
+written well and I'm happy with that. Two of them failed. I<u> haven't</u> checked this one to see why it
+
+05:33.260 --> 05:33.720
+written well and I'm happy with that. Two of them failed. I haven't<u> checked</u> this one to see why it
+
+05:33.720 --> 05:34.060
+written well and I'm happy with that. Two of them failed. I haven't checked<u> this</u> one to see why it
+
+05:34.060 --> 05:34.280
+written well and I'm happy with that. Two of them failed. I haven't checked this<u> one</u> to see why it
+
+05:34.280 --> 05:34.460
+written well and I'm happy with that. Two of them failed. I haven't checked this one<u> to</u> see why it
+
+05:34.460 --> 05:34.640
+written well and I'm happy with that. Two of them failed. I haven't checked this one to<u> see</u> why it
+
+05:34.640 --> 05:34.900
+written well and I'm happy with that. Two of them failed. I haven't checked this one to see<u> why</u> it
+
+05:34.900 --> 05:35.040
+written well and I'm happy with that. Two of them failed. I haven't checked this one to see why<u> it</u>
+
+05:35.040 --> 05:35.530
+<u>failed.</u> But when I checked this one, which it uncovered and it created a failure on, I thought,
+
+05:35.530 --> 05:35.940
+failed. But when I checked this one, which it uncovered and it created a failure on, I thought,
+
+05:35.940 --> 05:36.020
+failed.<u> But</u> when I checked this one, which it uncovered and it created a failure on, I thought,
+
+05:36.020 --> 05:36.180
+failed. But<u> when</u> I checked this one, which it uncovered and it created a failure on, I thought,
+
+05:36.180 --> 05:36.420
+failed. But when<u> I</u> checked this one, which it uncovered and it created a failure on, I thought,
+
+05:36.420 --> 05:36.820
+failed. But when I<u> checked</u> this one, which it uncovered and it created a failure on, I thought,
+
+05:36.820 --> 05:37.120
+failed. But when I checked<u> this</u> one, which it uncovered and it created a failure on, I thought,
+
+05:37.120 --> 05:37.380
+failed. But when I checked this<u> one,</u> which it uncovered and it created a failure on, I thought,
+
+05:37.380 --> 05:38.000
+failed. But when I checked this one, which it uncovered and it created a failure on, I thought,
+
+05:38.000 --> 05:38.280
+failed. But when I checked this one,<u> which</u> it uncovered and it created a failure on, I thought,
+
+05:38.280 --> 05:38.440
+failed. But when I checked this one, which<u> it</u> uncovered and it created a failure on, I thought,
+
+05:38.440 --> 05:39.140
+failed. But when I checked this one, which it<u> uncovered</u> and it created a failure on, I thought,
+
+05:39.140 --> 05:39.720
+failed. But when I checked this one, which it uncovered<u> and</u> it created a failure on, I thought,
+
+05:39.720 --> 05:39.880
+failed. But when I checked this one, which it uncovered and<u> it</u> created a failure on, I thought,
+
+05:39.880 --> 05:40.280
+failed. But when I checked this one, which it uncovered and it<u> created</u> a failure on, I thought,
+
+05:40.280 --> 05:40.480
+failed. But when I checked this one, which it uncovered and it created<u> a</u> failure on, I thought,
+
+05:40.480 --> 05:40.800
+failed. But when I checked this one, which it uncovered and it created a<u> failure</u> on, I thought,
+
+05:40.800 --> 05:41.140
+failed. But when I checked this one, which it uncovered and it created a failure<u> on,</u> I thought,
+
+05:41.140 --> 05:41.360
+failed. But when I checked this one, which it uncovered and it created a failure on, I thought,
+
+05:41.360 --> 05:41.420
+failed. But when I checked this one, which it uncovered and it created a failure on,<u> I</u> thought,
+
+05:41.420 --> 05:41.600
+failed. But when I checked this one, which it uncovered and it created a failure on, I<u> thought,</u>
+
+05:41.720 --> 05:42.000
+<u>okay,</u> what has it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:42.000 --> 05:42.160
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:42.160 --> 05:42.720
+okay,<u> what</u> has it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:42.720 --> 05:42.920
+okay, what<u> has</u> it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:42.920 --> 05:43.020
+okay, what has<u> it</u> done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:43.020 --> 05:43.260
+okay, what has it<u> done</u> wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:43.260 --> 05:43.500
+okay, what has it done<u> wrong</u> with the unit test? Well, to my surprise and happiness in some respects,
+
+05:43.500 --> 05:43.700
+okay, what has it done wrong<u> with</u> the unit test? Well, to my surprise and happiness in some respects,
+
+05:43.700 --> 05:43.840
+okay, what has it done wrong with<u> the</u> unit test? Well, to my surprise and happiness in some respects,
+
+05:43.840 --> 05:44.060
+okay, what has it done wrong with the<u> unit</u> test? Well, to my surprise and happiness in some respects,
+
+05:44.060 --> 05:44.480
+okay, what has it done wrong with the unit<u> test?</u> Well, to my surprise and happiness in some respects,
+
+05:44.480 --> 05:44.900
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:44.900 --> 05:45.400
+okay, what has it done wrong with the unit test?<u> Well,</u> to my surprise and happiness in some respects,
+
+05:45.400 --> 05:45.520
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness in some respects,
+
+05:45.520 --> 05:45.820
+okay, what has it done wrong with the unit test? Well,<u> to</u> my surprise and happiness in some respects,
+
+05:45.820 --> 05:46.000
+okay, what has it done wrong with the unit test? Well, to<u> my</u> surprise and happiness in some respects,
+
+05:46.000 --> 05:46.520
+okay, what has it done wrong with the unit test? Well, to my<u> surprise</u> and happiness in some respects,
+
+05:46.520 --> 05:47.260
+okay, what has it done wrong with the unit test? Well, to my surprise<u> and</u> happiness in some respects,
+
+05:47.260 --> 05:47.780
+okay, what has it done wrong with the unit test? Well, to my surprise and<u> happiness</u> in some respects,
+
+05:47.780 --> 05:48.140
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness<u> in</u> some respects,
+
+05:48.140 --> 05:48.360
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness in<u> some</u> respects,
+
+05:48.360 --> 05:48.780
+okay, what has it done wrong with the unit test? Well, to my surprise and happiness in some<u> respects,</u>
+
+05:48.780 --> 05:49.240
+<u>because</u> this is one of the things that we want to do with unit tests is it uncovered a bug in
+
+05:49.240 --> 05:49.880
+because<u> this</u> is one of the things that we want to do with unit tests is it uncovered a bug in
+
+05:49.880 --> 05:50.060
+because this<u> is</u> one of the things that we want to do with unit tests is it uncovered a bug in
+
+05:50.060 --> 05:50.360
+because this is<u> one</u> of the things that we want to do with unit tests is it uncovered a bug in
+
+05:50.360 --> 05:50.480
+because this is one<u> of</u> the things that we want to do with unit tests is it uncovered a bug in
+
+05:50.480 --> 05:50.540
+because this is one of<u> the</u> things that we want to do with unit tests is it uncovered a bug in
+
+05:50.540 --> 05:50.740
+because this is one of the<u> things</u> that we want to do with unit tests is it uncovered a bug in
+
+05:50.740 --> 05:50.920
+because this is one of the things<u> that</u> we want to do with unit tests is it uncovered a bug in
+
+05:50.920 --> 05:51.040
+because this is one of the things that<u> we</u> want to do with unit tests is it uncovered a bug in
+
+05:51.040 --> 05:51.240
+because this is one of the things that we<u> want</u> to do with unit tests is it uncovered a bug in
+
+05:51.240 --> 05:51.420
+because this is one of the things that we want<u> to</u> do with unit tests is it uncovered a bug in
+
+05:51.420 --> 05:51.660
+because this is one of the things that we want to<u> do</u> with unit tests is it uncovered a bug in
+
+05:51.660 --> 05:52.000
+because this is one of the things that we want to do<u> with</u> unit tests is it uncovered a bug in
+
+05:52.000 --> 05:52.760
+because this is one of the things that we want to do with<u> unit</u> tests is it uncovered a bug in
+
+05:52.760 --> 05:53.280
+because this is one of the things that we want to do with unit<u> tests</u> is it uncovered a bug in
+
+05:53.280 --> 05:54.280
+because this is one of the things that we want to do with unit tests<u> is</u> it uncovered a bug in
+
+05:54.280 --> 05:54.620
+because this is one of the things that we want to do with unit tests is<u> it</u> uncovered a bug in
+
+05:54.620 --> 05:55.100
+because this is one of the things that we want to do with unit tests is it<u> uncovered</u> a bug in
+
+05:55.100 --> 05:55.340
+because this is one of the things that we want to do with unit tests is it uncovered<u> a</u> bug in
+
+05:55.340 --> 05:55.500
+because this is one of the things that we want to do with unit tests is it uncovered a<u> bug</u> in
+
+05:55.500 --> 05:55.720
+because this is one of the things that we want to do with unit tests is it uncovered a bug<u> in</u>
+
+05:55.720 --> 05:55.820
+<u>the</u> code itself. And the bugs seem to be related to a field that doesn't exist on the model. Now,
+
+05:55.820 --> 05:56.060
+the<u> code</u> itself. And the bugs seem to be related to a field that doesn't exist on the model. Now,
+
+05:56.060 --> 05:56.480
+the code<u> itself.</u> And the bugs seem to be related to a field that doesn't exist on the model. Now,
+
+05:56.480 --> 05:57.080
+the code itself. And the bugs seem to be related to a field that doesn't exist on the model. Now,
+
+05:57.080 --> 05:57.920
+the code itself.<u> And</u> the bugs seem to be related to a field that doesn't exist on the model. Now,
+
+05:57.920 --> 05:58.060
+the code itself. And<u> the</u> bugs seem to be related to a field that doesn't exist on the model. Now,
+
+05:58.060 --> 05:58.320
+the code itself. And the<u> bugs</u> seem to be related to a field that doesn't exist on the model. Now,
+
+05:58.320 --> 05:58.840
+the code itself. And the bugs<u> seem</u> to be related to a field that doesn't exist on the model. Now,
+
+05:58.840 --> 05:59.060
+the code itself. And the bugs seem<u> to</u> be related to a field that doesn't exist on the model. Now,
+
+05:59.060 --> 05:59.280
+the code itself. And the bugs seem to<u> be</u> related to a field that doesn't exist on the model. Now,
+
+05:59.280 --> 05:59.800
+the code itself. And the bugs seem to be<u> related</u> to a field that doesn't exist on the model. Now,
+
+05:59.800 --> 06:00.360
+the code itself. And the bugs seem to be related<u> to</u> a field that doesn't exist on the model. Now,
+
+06:00.360 --> 06:00.800
+the code itself. And the bugs seem to be related to<u> a</u> field that doesn't exist on the model. Now,
+
+06:00.800 --> 06:01.360
+the code itself. And the bugs seem to be related to a<u> field</u> that doesn't exist on the model. Now,
+
+06:01.360 --> 06:01.680
+the code itself. And the bugs seem to be related to a field<u> that</u> doesn't exist on the model. Now,
+
+06:01.680 --> 06:02.360
+the code itself. And the bugs seem to be related to a field that<u> doesn't</u> exist on the model. Now,
+
+06:02.360 --> 06:03.000
+the code itself. And the bugs seem to be related to a field that doesn't<u> exist</u> on the model. Now,
+
+06:03.000 --> 06:03.580
+the code itself. And the bugs seem to be related to a field that doesn't exist<u> on</u> the model. Now,
+
+06:03.580 --> 06:03.680
+the code itself. And the bugs seem to be related to a field that doesn't exist on<u> the</u> model. Now,
+
+06:03.680 --> 06:04.040
+the code itself. And the bugs seem to be related to a field that doesn't exist on the<u> model.</u> Now,
+
+06:04.040 --> 06:04.380
+the code itself. And the bugs seem to be related to a field that doesn't exist on the model. Now,
+
+06:04.380 --> 06:04.760
+the code itself. And the bugs seem to be related to a field that doesn't exist on the model.<u> Now,</u>
+
+06:04.760 --> 06:05.040
+<u>I'll</u> probably do a little bit of further investigation to make sure that I'm not off.
+
+06:05.040 --> 06:05.360
+I'll<u> probably</u> do a little bit of further investigation to make sure that I'm not off.
+
+06:05.360 --> 06:05.580
+I'll probably<u> do</u> a little bit of further investigation to make sure that I'm not off.
+
+06:05.580 --> 06:05.700
+I'll probably do<u> a</u> little bit of further investigation to make sure that I'm not off.
+
+06:05.700 --> 06:05.840
+I'll probably do a<u> little</u> bit of further investigation to make sure that I'm not off.
+
+06:05.840 --> 06:06.020
+I'll probably do a little<u> bit</u> of further investigation to make sure that I'm not off.
+
+06:06.020 --> 06:06.180
+I'll probably do a little bit<u> of</u> further investigation to make sure that I'm not off.
+
+06:06.180 --> 06:06.400
+I'll probably do a little bit of<u> further</u> investigation to make sure that I'm not off.
+
+06:06.400 --> 06:07.340
+I'll probably do a little bit of further<u> investigation</u> to make sure that I'm not off.
+
+06:07.340 --> 06:07.680
+I'll probably do a little bit of further investigation<u> to</u> make sure that I'm not off.
+
+06:07.680 --> 06:07.860
+I'll probably do a little bit of further investigation to<u> make</u> sure that I'm not off.
+
+06:07.860 --> 06:08.200
+I'll probably do a little bit of further investigation to make<u> sure</u> that I'm not off.
+
+06:08.200 --> 06:08.420
+I'll probably do a little bit of further investigation to make sure<u> that</u> I'm not off.
+
+06:08.420 --> 06:08.600
+I'll probably do a little bit of further investigation to make sure that<u> I'm</u> not off.
+
+06:08.600 --> 06:08.740
+I'll probably do a little bit of further investigation to make sure that I'm<u> not</u> off.
+
+06:08.740 --> 06:09.060
+I'll probably do a little bit of further investigation to make sure that I'm not<u> off.</u>
+
+06:09.980 --> 06:10.020
+<u>But</u> what's great about this is that the ability to uncover problems that we didn't even know about
+
+06:10.020 --> 06:10.680
+But<u> what's</u> great about this is that the ability to uncover problems that we didn't even know about
+
+06:10.680 --> 06:11.040
+But what's<u> great</u> about this is that the ability to uncover problems that we didn't even know about
+
+06:11.040 --> 06:11.300
+But what's great<u> about</u> this is that the ability to uncover problems that we didn't even know about
+
+06:11.300 --> 06:11.680
+But what's great about<u> this</u> is that the ability to uncover problems that we didn't even know about
+
+06:11.680 --> 06:11.880
+But what's great about this<u> is</u> that the ability to uncover problems that we didn't even know about
+
+06:11.880 --> 06:12.260
+But what's great about this is<u> that</u> the ability to uncover problems that we didn't even know about
+
+06:12.260 --> 06:12.580
+But what's great about this is that<u> the</u> ability to uncover problems that we didn't even know about
+
+06:12.580 --> 06:12.980
+But what's great about this is that the<u> ability</u> to uncover problems that we didn't even know about
+
+06:12.980 --> 06:13.300
+But what's great about this is that the ability<u> to</u> uncover problems that we didn't even know about
+
+06:13.300 --> 06:13.900
+But what's great about this is that the ability to<u> uncover</u> problems that we didn't even know about
+
+06:13.900 --> 06:15.440
+But what's great about this is that the ability to uncover<u> problems</u> that we didn't even know about
+
+06:15.440 --> 06:16.280
+But what's great about this is that the ability to uncover problems<u> that</u> we didn't even know about
+
+06:16.280 --> 06:16.540
+But what's great about this is that the ability to uncover problems that<u> we</u> didn't even know about
+
+06:16.540 --> 06:16.820
+But what's great about this is that the ability to uncover problems that we<u> didn't</u> even know about
+
+06:16.820 --> 06:16.980
+But what's great about this is that the ability to uncover problems that we didn't<u> even</u> know about
+
+06:16.980 --> 06:17.280
+But what's great about this is that the ability to uncover problems that we didn't even<u> know</u> about
+
+06:17.280 --> 06:17.580
+But what's great about this is that the ability to uncover problems that we didn't even know<u> about</u>
+
+06:17.580 --> 06:18.160
+<u>is</u> a powerful aspect of what we can do with the unit testing. And this has been quite simple to do
+
+06:18.160 --> 06:18.460
+is<u> a</u> powerful aspect of what we can do with the unit testing. And this has been quite simple to do
+
+06:18.460 --> 06:18.980
+is a<u> powerful</u> aspect of what we can do with the unit testing. And this has been quite simple to do
+
+06:18.980 --> 06:19.780
+is a powerful<u> aspect</u> of what we can do with the unit testing. And this has been quite simple to do
+
+06:19.780 --> 06:20.100
+is a powerful aspect<u> of</u> what we can do with the unit testing. And this has been quite simple to do
+
+06:20.100 --> 06:20.220
+is a powerful aspect of<u> what</u> we can do with the unit testing. And this has been quite simple to do
+
+06:20.220 --> 06:20.380
+is a powerful aspect of what<u> we</u> can do with the unit testing. And this has been quite simple to do
+
+06:20.380 --> 06:20.540
+is a powerful aspect of what we<u> can</u> do with the unit testing. And this has been quite simple to do
+
+06:20.540 --> 06:20.760
+is a powerful aspect of what we can<u> do</u> with the unit testing. And this has been quite simple to do
+
+06:20.760 --> 06:21.000
+is a powerful aspect of what we can do<u> with</u> the unit testing. And this has been quite simple to do
+
+06:21.000 --> 06:21.120
+is a powerful aspect of what we can do with<u> the</u> unit testing. And this has been quite simple to do
+
+06:21.120 --> 06:21.320
+is a powerful aspect of what we can do with the<u> unit</u> testing. And this has been quite simple to do
+
+06:21.320 --> 06:21.840
+is a powerful aspect of what we can do with the unit<u> testing.</u> And this has been quite simple to do
+
+06:21.840 --> 06:22.780
+is a powerful aspect of what we can do with the unit testing. And this has been quite simple to do
+
+06:22.780 --> 06:23.000
+is a powerful aspect of what we can do with the unit testing.<u> And</u> this has been quite simple to do
+
+06:23.000 --> 06:24.100
+is a powerful aspect of what we can do with the unit testing. And<u> this</u> has been quite simple to do
+
+06:24.100 --> 06:24.360
+is a powerful aspect of what we can do with the unit testing. And this<u> has</u> been quite simple to do
+
+06:24.360 --> 06:24.640
+is a powerful aspect of what we can do with the unit testing. And this has<u> been</u> quite simple to do
+
+06:24.640 --> 06:24.980
+is a powerful aspect of what we can do with the unit testing. And this has been<u> quite</u> simple to do
+
+06:24.980 --> 06:25.540
+is a powerful aspect of what we can do with the unit testing. And this has been quite<u> simple</u> to do
+
+06:25.540 --> 06:25.820
+is a powerful aspect of what we can do with the unit testing. And this has been quite simple<u> to</u> do
+
+06:25.820 --> 06:26.080
+is a powerful aspect of what we can do with the unit testing. And this has been quite simple to<u> do</u>
+
+06:26.080 --> 06:26.420
+<u>once</u> you train the bot to create what you want. One of the areas that it probably would need further
+
+06:26.420 --> 06:26.660
+once<u> you</u> train the bot to create what you want. One of the areas that it probably would need further
+
+06:26.660 --> 06:27.040
+once you<u> train</u> the bot to create what you want. One of the areas that it probably would need further
+
+06:27.040 --> 06:27.240
+once you train<u> the</u> bot to create what you want. One of the areas that it probably would need further
+
+06:27.240 --> 06:27.460
+once you train the<u> bot</u> to create what you want. One of the areas that it probably would need further
+
+06:27.460 --> 06:27.960
+once you train the bot<u> to</u> create what you want. One of the areas that it probably would need further
+
+06:27.960 --> 06:28.240
+once you train the bot to<u> create</u> what you want. One of the areas that it probably would need further
+
+06:28.240 --> 06:28.520
+once you train the bot to create<u> what</u> you want. One of the areas that it probably would need further
+
+06:28.520 --> 06:28.660
+once you train the bot to create what<u> you</u> want. One of the areas that it probably would need further
+
+06:28.660 --> 06:28.960
+once you train the bot to create what you<u> want.</u> One of the areas that it probably would need further
+
+06:28.960 --> 06:29.320
+once you train the bot to create what you want. One of the areas that it probably would need further
+
+06:29.320 --> 06:29.840
+once you train the bot to create what you want.<u> One</u> of the areas that it probably would need further
+
+06:29.840 --> 06:29.940
+once you train the bot to create what you want. One<u> of</u> the areas that it probably would need further
+
+06:29.940 --> 06:30.160
+once you train the bot to create what you want. One of<u> the</u> areas that it probably would need further
+
+06:30.160 --> 06:30.820
+once you train the bot to create what you want. One of the<u> areas</u> that it probably would need further
+
+06:30.820 --> 06:31.700
+once you train the bot to create what you want. One of the areas<u> that</u> it probably would need further
+
+06:31.700 --> 06:31.960
+once you train the bot to create what you want. One of the areas that<u> it</u> probably would need further
+
+06:31.960 --> 06:32.300
+once you train the bot to create what you want. One of the areas that it<u> probably</u> would need further
+
+06:32.300 --> 06:32.820
+once you train the bot to create what you want. One of the areas that it probably<u> would</u> need further
+
+06:32.820 --> 06:33.100
+once you train the bot to create what you want. One of the areas that it probably would<u> need</u> further
+
+06:33.100 --> 06:33.460
+once you train the bot to create what you want. One of the areas that it probably would need<u> further</u>
+
+06:33.500 --> 06:34.100
+<u>training</u> from my point of view is that I wouldn't usually set up data the way it's doing it here.
+
+06:34.100 --> 06:34.340
+training<u> from</u> my point of view is that I wouldn't usually set up data the way it's doing it here.
+
+06:34.340 --> 06:34.620
+training from<u> my</u> point of view is that I wouldn't usually set up data the way it's doing it here.
+
+06:34.620 --> 06:34.860
+training from my<u> point</u> of view is that I wouldn't usually set up data the way it's doing it here.
+
+06:34.860 --> 06:35.000
+training from my point<u> of</u> view is that I wouldn't usually set up data the way it's doing it here.
+
+06:35.000 --> 06:35.240
+training from my point of<u> view</u> is that I wouldn't usually set up data the way it's doing it here.
+
+06:35.240 --> 06:35.960
+training from my point of view<u> is</u> that I wouldn't usually set up data the way it's doing it here.
+
+06:35.960 --> 06:36.240
+training from my point of view is<u> that</u> I wouldn't usually set up data the way it's doing it here.
+
+06:36.240 --> 06:36.520
+training from my point of view is that<u> I</u> wouldn't usually set up data the way it's doing it here.
+
+06:36.520 --> 06:36.800
+training from my point of view is that I<u> wouldn't</u> usually set up data the way it's doing it here.
+
+06:36.800 --> 06:37.520
+training from my point of view is that I wouldn't<u> usually</u> set up data the way it's doing it here.
+
+06:37.520 --> 06:38.440
+training from my point of view is that I wouldn't usually<u> set</u> up data the way it's doing it here.
+
+06:38.440 --> 06:38.760
+training from my point of view is that I wouldn't usually set<u> up</u> data the way it's doing it here.
+
+06:38.760 --> 06:39.140
+training from my point of view is that I wouldn't usually set up<u> data</u> the way it's doing it here.
+
+06:39.140 --> 06:39.900
+training from my point of view is that I wouldn't usually set up data<u> the</u> way it's doing it here.
+
+06:39.900 --> 06:40.240
+training from my point of view is that I wouldn't usually set up data the<u> way</u> it's doing it here.
+
+06:40.240 --> 06:40.760
+training from my point of view is that I wouldn't usually set up data the way<u> it's</u> doing it here.
+
+06:40.760 --> 06:41.040
+training from my point of view is that I wouldn't usually set up data the way it's<u> doing</u> it here.
+
+06:41.040 --> 06:41.240
+training from my point of view is that I wouldn't usually set up data the way it's doing<u> it</u> here.
+
+06:41.240 --> 06:41.480
+training from my point of view is that I wouldn't usually set up data the way it's doing it<u> here.</u>
+
+06:41.660 --> 06:41.680
+<u>It</u> works quite effectively, but it's not using probably good practices of RSpec around the use
+
+06:41.680 --> 06:41.960
+It<u> works</u> quite effectively, but it's not using probably good practices of RSpec around the use
+
+06:41.960 --> 06:42.300
+It works<u> quite</u> effectively, but it's not using probably good practices of RSpec around the use
+
+06:42.300 --> 06:42.800
+It works quite<u> effectively,</u> but it's not using probably good practices of RSpec around the use
+
+06:42.800 --> 06:43.620
+It works quite effectively,<u> but</u> it's not using probably good practices of RSpec around the use
+
+06:43.620 --> 06:43.920
+It works quite effectively, but<u> it's</u> not using probably good practices of RSpec around the use
+
+06:43.920 --> 06:44.120
+It works quite effectively, but it's<u> not</u> using probably good practices of RSpec around the use
+
+06:44.120 --> 06:44.680
+It works quite effectively, but it's not<u> using</u> probably good practices of RSpec around the use
+
+06:44.680 --> 06:45.740
+It works quite effectively, but it's not using<u> probably</u> good practices of RSpec around the use
+
+06:45.740 --> 06:46.140
+It works quite effectively, but it's not using probably<u> good</u> practices of RSpec around the use
+
+06:46.140 --> 06:46.780
+It works quite effectively, but it's not using probably good<u> practices</u> of RSpec around the use
+
+06:46.780 --> 06:47.460
+It works quite effectively, but it's not using probably good practices<u> of</u> RSpec around the use
+
+06:47.460 --> 06:48.200
+It works quite effectively, but it's not using probably good practices of<u> RSpec</u> around the use
+
+06:48.200 --> 06:48.500
+It works quite effectively, but it's not using probably good practices of RSpec<u> around</u> the use
+
+06:48.500 --> 06:48.720
+It works quite effectively, but it's not using probably good practices of RSpec around<u> the</u> use
+
+06:48.720 --> 06:48.960
+It works quite effectively, but it's not using probably good practices of RSpec around the<u> use</u>
+
+06:48.960 --> 06:49.200
+<u>of</u> let blocks, context blocks, stuff like that. But the good thing is that can be trained as well
+
+06:49.200 --> 06:49.500
+of<u> let</u> blocks, context blocks, stuff like that. But the good thing is that can be trained as well
+
+06:49.500 --> 06:50.080
+of let<u> blocks,</u> context blocks, stuff like that. But the good thing is that can be trained as well
+
+06:50.080 --> 06:50.580
+of let blocks, context blocks, stuff like that. But the good thing is that can be trained as well
+
+06:50.580 --> 06:51.080
+of let blocks,<u> context</u> blocks, stuff like that. But the good thing is that can be trained as well
+
+06:51.080 --> 06:51.680
+of let blocks, context<u> blocks,</u> stuff like that. But the good thing is that can be trained as well
+
+06:51.680 --> 06:51.920
+of let blocks, context blocks, stuff like that. But the good thing is that can be trained as well
+
+06:51.920 --> 06:52.380
+of let blocks, context blocks,<u> stuff</u> like that. But the good thing is that can be trained as well
+
+06:52.380 --> 06:52.620
+of let blocks, context blocks, stuff<u> like</u> that. But the good thing is that can be trained as well
+
+06:52.620 --> 06:52.900
+of let blocks, context blocks, stuff like<u> that.</u> But the good thing is that can be trained as well
+
+06:52.900 --> 06:53.440
+of let blocks, context blocks, stuff like that. But the good thing is that can be trained as well
+
+06:53.440 --> 06:54.040
+of let blocks, context blocks, stuff like that.<u> But</u> the good thing is that can be trained as well
+
+06:54.040 --> 06:54.560
+of let blocks, context blocks, stuff like that. But<u> the</u> good thing is that can be trained as well
+
+06:54.560 --> 06:54.700
+of let blocks, context blocks, stuff like that. But the<u> good</u> thing is that can be trained as well
+
+06:54.700 --> 06:54.860
+of let blocks, context blocks, stuff like that. But the good<u> thing</u> is that can be trained as well
+
+06:54.860 --> 06:55.100
+of let blocks, context blocks, stuff like that. But the good thing<u> is</u> that can be trained as well
+
+06:55.100 --> 06:55.340
+of let blocks, context blocks, stuff like that. But the good thing is<u> that</u> can be trained as well
+
+06:55.340 --> 06:55.620
+of let blocks, context blocks, stuff like that. But the good thing is that<u> can</u> be trained as well
+
+06:55.620 --> 06:55.740
+of let blocks, context blocks, stuff like that. But the good thing is that can<u> be</u> trained as well
+
+06:55.740 --> 06:56.080
+of let blocks, context blocks, stuff like that. But the good thing is that can be<u> trained</u> as well
+
+06:56.080 --> 06:56.320
+of let blocks, context blocks, stuff like that. But the good thing is that can be trained<u> as</u> well
+
+06:56.320 --> 06:56.780
+of let blocks, context blocks, stuff like that. But the good thing is that can be trained as<u> well</u>
+
+06:56.780 --> 06:57.380
+<u>in</u> a future bot. So you just you come up with the pattern that you want and you start seeding
+
+06:57.380 --> 06:57.680
+in<u> a</u> future bot. So you just you come up with the pattern that you want and you start seeding
+
+06:57.680 --> 06:57.840
+in a<u> future</u> bot. So you just you come up with the pattern that you want and you start seeding
+
+06:57.840 --> 06:58.160
+in a future<u> bot.</u> So you just you come up with the pattern that you want and you start seeding
+
+06:58.160 --> 06:58.420
+in a future bot. So you just you come up with the pattern that you want and you start seeding
+
+06:58.420 --> 06:58.560
+in a future bot.<u> So</u> you just you come up with the pattern that you want and you start seeding
+
+06:58.560 --> 06:58.800
+in a future bot. So<u> you</u> just you come up with the pattern that you want and you start seeding
+
+06:58.800 --> 06:59.060
+in a future bot. So you<u> just</u> you come up with the pattern that you want and you start seeding
+
+06:59.060 --> 06:59.560
+in a future bot. So you just<u> you</u> come up with the pattern that you want and you start seeding
+
+06:59.560 --> 06:59.780
+in a future bot. So you just you<u> come</u> up with the pattern that you want and you start seeding
+
+06:59.780 --> 06:59.920
+in a future bot. So you just you come<u> up</u> with the pattern that you want and you start seeding
+
+06:59.920 --> 07:00.060
+in a future bot. So you just you come up<u> with</u> the pattern that you want and you start seeding
+
+07:00.060 --> 07:00.180
+in a future bot. So you just you come up with<u> the</u> pattern that you want and you start seeding
+
+07:00.180 --> 07:00.440
+in a future bot. So you just you come up with the<u> pattern</u> that you want and you start seeding
+
+07:00.440 --> 07:00.660
+in a future bot. So you just you come up with the pattern<u> that</u> you want and you start seeding
+
+07:00.660 --> 07:00.780
+in a future bot. So you just you come up with the pattern that<u> you</u> want and you start seeding
+
+07:00.780 --> 07:01.120
+in a future bot. So you just you come up with the pattern that you<u> want</u> and you start seeding
+
+07:01.120 --> 07:01.620
+in a future bot. So you just you come up with the pattern that you want<u> and</u> you start seeding
+
+07:01.620 --> 07:01.760
+in a future bot. So you just you come up with the pattern that you want and<u> you</u> start seeding
+
+07:01.760 --> 07:02.100
+in a future bot. So you just you come up with the pattern that you want and you<u> start</u> seeding
+
+07:02.100 --> 07:03.400
+in a future bot. So you just you come up with the pattern that you want and you start<u> seeding</u>
+
+07:03.400 --> 07:03.620
+<u>it</u> as information before generating new code. Now, I've been exploring a few different ways
+
+07:03.620 --> 07:04.040
+it<u> as</u> information before generating new code. Now, I've been exploring a few different ways
+
+07:04.040 --> 07:04.660
+it as<u> information</u> before generating new code. Now, I've been exploring a few different ways
+
+07:04.660 --> 07:05.220
+it as information<u> before</u> generating new code. Now, I've been exploring a few different ways
+
+07:05.220 --> 07:05.960
+it as information before<u> generating</u> new code. Now, I've been exploring a few different ways
+
+07:05.960 --> 07:06.260
+it as information before generating<u> new</u> code. Now, I've been exploring a few different ways
+
+07:06.260 --> 07:06.720
+it as information before generating new<u> code.</u> Now, I've been exploring a few different ways
+
+07:06.720 --> 07:07.140
+it as information before generating new code. Now, I've been exploring a few different ways
+
+07:07.140 --> 07:07.960
+it as information before generating new code.<u> Now,</u> I've been exploring a few different ways
+
+07:07.960 --> 07:07.980
+it as information before generating new code. Now, I've been exploring a few different ways
+
+07:07.980 --> 07:08.200
+it as information before generating new code. Now,<u> I've</u> been exploring a few different ways
+
+07:08.200 --> 07:08.360
+it as information before generating new code. Now, I've<u> been</u> exploring a few different ways
+
+07:08.360 --> 07:08.940
+it as information before generating new code. Now, I've been<u> exploring</u> a few different ways
+
+07:08.940 --> 07:09.260
+it as information before generating new code. Now, I've been exploring<u> a</u> few different ways
+
+07:09.260 --> 07:09.440
+it as information before generating new code. Now, I've been exploring a<u> few</u> different ways
+
+07:09.440 --> 07:09.780
+it as information before generating new code. Now, I've been exploring a few<u> different</u> ways
+
+07:09.780 --> 07:10.260
+it as information before generating new code. Now, I've been exploring a few different<u> ways</u>
+
+07:10.260 --> 07:10.700
+<u>of</u> creating programming constructs that can define how code should come out of a system,
+
+07:10.700 --> 07:11.160
+of<u> creating</u> programming constructs that can define how code should come out of a system,
+
+07:11.160 --> 07:11.940
+of creating<u> programming</u> constructs that can define how code should come out of a system,
+
+07:11.940 --> 07:13.740
+of creating programming<u> constructs</u> that can define how code should come out of a system,
+
+07:13.740 --> 07:13.980
+of creating programming constructs<u> that</u> can define how code should come out of a system,
+
+07:13.980 --> 07:14.360
+of creating programming constructs that<u> can</u> define how code should come out of a system,
+
+07:14.360 --> 07:14.880
+of creating programming constructs that can<u> define</u> how code should come out of a system,
+
+07:14.880 --> 07:15.220
+of creating programming constructs that can define<u> how</u> code should come out of a system,
+
+07:15.220 --> 07:15.600
+of creating programming constructs that can define how<u> code</u> should come out of a system,
+
+07:15.600 --> 07:16.000
+of creating programming constructs that can define how code<u> should</u> come out of a system,
+
+07:16.000 --> 07:16.640
+of creating programming constructs that can define how code should<u> come</u> out of a system,
+
+07:16.640 --> 07:17.000
+of creating programming constructs that can define how code should come<u> out</u> of a system,
+
+07:17.000 --> 07:17.140
+of creating programming constructs that can define how code should come out<u> of</u> a system,
+
+07:17.140 --> 07:17.280
+of creating programming constructs that can define how code should come out of<u> a</u> system,
+
+07:17.280 --> 07:17.620
+of creating programming constructs that can define how code should come out of a<u> system,</u>
+
+07:18.140 --> 07:18.620
+<u>feeding</u> it into chat GPT and getting code out the other end that's consistent.
+
+07:18.620 --> 07:18.860
+feeding<u> it</u> into chat GPT and getting code out the other end that's consistent.
+
+07:18.860 --> 07:19.060
+feeding it<u> into</u> chat GPT and getting code out the other end that's consistent.
+
+07:19.060 --> 07:19.340
+feeding it into<u> chat</u> GPT and getting code out the other end that's consistent.
+
+07:19.340 --> 07:20.080
+feeding it into chat<u> GPT</u> and getting code out the other end that's consistent.
+
+07:20.080 --> 07:20.840
+feeding it into chat GPT<u> and</u> getting code out the other end that's consistent.
+
+07:20.840 --> 07:21.180
+feeding it into chat GPT and<u> getting</u> code out the other end that's consistent.
+
+07:21.180 --> 07:21.560
+feeding it into chat GPT and getting<u> code</u> out the other end that's consistent.
+
+07:21.560 --> 07:21.760
+feeding it into chat GPT and getting code<u> out</u> the other end that's consistent.
+
+07:21.760 --> 07:21.900
+feeding it into chat GPT and getting code out<u> the</u> other end that's consistent.
+
+07:21.900 --> 07:22.080
+feeding it into chat GPT and getting code out the<u> other</u> end that's consistent.
+
+07:22.080 --> 07:22.360
+feeding it into chat GPT and getting code out the other<u> end</u> that's consistent.
+
+07:22.360 --> 07:22.620
+feeding it into chat GPT and getting code out the other end<u> that's</u> consistent.
+
+07:22.620 --> 07:23.280
+feeding it into chat GPT and getting code out the other end that's<u> consistent.</u>
+
+07:24.560 --> 07:25.200
+<u>One</u> of the areas that I played around extensively with was with various languages,
+
+07:25.200 --> 07:25.320
+One<u> of</u> the areas that I played around extensively with was with various languages,
+
+07:25.320 --> 07:25.420
+One of<u> the</u> areas that I played around extensively with was with various languages,
+
+07:25.420 --> 07:25.760
+One of the<u> areas</u> that I played around extensively with was with various languages,
+
+07:25.760 --> 07:26.060
+One of the areas<u> that</u> I played around extensively with was with various languages,
+
+07:26.060 --> 07:26.180
+One of the areas that<u> I</u> played around extensively with was with various languages,
+
+07:26.180 --> 07:26.460
+One of the areas that I<u> played</u> around extensively with was with various languages,
+
+07:26.460 --> 07:26.760
+One of the areas that I played<u> around</u> extensively with was with various languages,
+
+07:26.760 --> 07:27.420
+One of the areas that I played around<u> extensively</u> with was with various languages,
+
+07:27.420 --> 07:27.900
+One of the areas that I played around extensively<u> with</u> was with various languages,
+
+07:27.900 --> 07:28.180
+One of the areas that I played around extensively with<u> was</u> with various languages,
+
+07:28.180 --> 07:28.380
+One of the areas that I played around extensively with was<u> with</u> various languages,
+
+07:28.380 --> 07:28.760
+One of the areas that I played around extensively with was with<u> various</u> languages,
+
+07:28.760 --> 07:29.300
+One of the areas that I played around extensively with was with various<u> languages,</u>
+
+07:29.800 --> 07:30.040
+<u>Python,</u> Ruby and JavaScript to build a mid journey bot that would just create image after image.
+
+07:30.040 --> 07:30.260
+Python, Ruby and JavaScript to build a mid journey bot that would just create image after image.
+
+07:30.260 --> 07:30.440
+Python,<u> Ruby</u> and JavaScript to build a mid journey bot that would just create image after image.
+
+07:30.440 --> 07:30.760
+Python, Ruby<u> and</u> JavaScript to build a mid journey bot that would just create image after image.
+
+07:30.760 --> 07:31.300
+Python, Ruby and<u> JavaScript</u> to build a mid journey bot that would just create image after image.
+
+07:31.300 --> 07:32.320
+Python, Ruby and JavaScript<u> to</u> build a mid journey bot that would just create image after image.
+
+07:32.320 --> 07:32.740
+Python, Ruby and JavaScript to<u> build</u> a mid journey bot that would just create image after image.
+
+07:32.740 --> 07:33.020
+Python, Ruby and JavaScript to build<u> a</u> mid journey bot that would just create image after image.
+
+07:33.020 --> 07:33.300
+Python, Ruby and JavaScript to build a<u> mid</u> journey bot that would just create image after image.
+
+07:33.300 --> 07:33.700
+Python, Ruby and JavaScript to build a mid<u> journey</u> bot that would just create image after image.
+
+07:33.700 --> 07:34.440
+Python, Ruby and JavaScript to build a mid journey<u> bot</u> that would just create image after image.
+
+07:34.440 --> 07:34.880
+Python, Ruby and JavaScript to build a mid journey bot<u> that</u> would just create image after image.
+
+07:34.880 --> 07:35.020
+Python, Ruby and JavaScript to build a mid journey bot that<u> would</u> just create image after image.
+
+07:35.020 --> 07:35.260
+Python, Ruby and JavaScript to build a mid journey bot that would<u> just</u> create image after image.
+
+07:35.260 --> 07:35.700
+Python, Ruby and JavaScript to build a mid journey bot that would just<u> create</u> image after image.
+
+07:35.700 --> 07:36.340
+Python, Ruby and JavaScript to build a mid journey bot that would just create<u> image</u> after image.
+
+07:36.340 --> 07:36.720
+Python, Ruby and JavaScript to build a mid journey bot that would just create image<u> after</u> image.
+
+07:36.720 --> 07:37.200
+Python, Ruby and JavaScript to build a mid journey bot that would just create image after<u> image.</u>
+
+07:37.940 --> 07:38.280
+<u>And</u> the funny thing is that when you just use natural language to describe the problem and you
+
+07:38.280 --> 07:39.220
+And<u> the</u> funny thing is that when you just use natural language to describe the problem and you
+
+07:39.220 --> 07:39.460
+And the<u> funny</u> thing is that when you just use natural language to describe the problem and you
+
+07:39.460 --> 07:39.720
+And the funny<u> thing</u> is that when you just use natural language to describe the problem and you
+
+07:39.720 --> 07:40.020
+And the funny thing<u> is</u> that when you just use natural language to describe the problem and you
+
+07:40.020 --> 07:40.240
+And the funny thing is<u> that</u> when you just use natural language to describe the problem and you
+
+07:40.240 --> 07:40.380
+And the funny thing is that<u> when</u> you just use natural language to describe the problem and you
+
+07:40.380 --> 07:40.520
+And the funny thing is that when<u> you</u> just use natural language to describe the problem and you
+
+07:40.520 --> 07:40.760
+And the funny thing is that when you<u> just</u> use natural language to describe the problem and you
+
+07:40.760 --> 07:40.940
+And the funny thing is that when you just<u> use</u> natural language to describe the problem and you
+
+07:40.940 --> 07:41.400
+And the funny thing is that when you just use<u> natural</u> language to describe the problem and you
+
+07:41.400 --> 07:41.940
+And the funny thing is that when you just use natural<u> language</u> to describe the problem and you
+
+07:41.940 --> 07:42.900
+And the funny thing is that when you just use natural language<u> to</u> describe the problem and you
+
+07:42.900 --> 07:43.540
+And the funny thing is that when you just use natural language to<u> describe</u> the problem and you
+
+07:43.540 --> 07:43.800
+And the funny thing is that when you just use natural language to describe<u> the</u> problem and you
+
+07:43.800 --> 07:44.160
+And the funny thing is that when you just use natural language to describe the<u> problem</u> and you
+
+07:44.160 --> 07:44.400
+And the funny thing is that when you just use natural language to describe the problem<u> and</u> you
+
+07:44.400 --> 07:44.540
+And the funny thing is that when you just use natural language to describe the problem and<u> you</u>
+
+07:44.540 --> 07:44.660
+<u>give</u> it to chat GPT because it's not a complex problem, you get different code every time.
+
+07:44.660 --> 07:44.760
+give<u> it</u> to chat GPT because it's not a complex problem, you get different code every time.
+
+07:44.760 --> 07:44.880
+give it<u> to</u> chat GPT because it's not a complex problem, you get different code every time.
+
+07:44.880 --> 07:45.140
+give it to<u> chat</u> GPT because it's not a complex problem, you get different code every time.
+
+07:45.140 --> 07:45.980
+give it to chat<u> GPT</u> because it's not a complex problem, you get different code every time.
+
+07:45.980 --> 07:46.360
+give it to chat GPT<u> because</u> it's not a complex problem, you get different code every time.
+
+07:46.360 --> 07:46.520
+give it to chat GPT because<u> it's</u> not a complex problem, you get different code every time.
+
+07:46.520 --> 07:46.740
+give it to chat GPT because it's<u> not</u> a complex problem, you get different code every time.
+
+07:46.740 --> 07:46.960
+give it to chat GPT because it's not<u> a</u> complex problem, you get different code every time.
+
+07:46.960 --> 07:47.500
+give it to chat GPT because it's not a<u> complex</u> problem, you get different code every time.
+
+07:47.500 --> 07:48.080
+give it to chat GPT because it's not a complex<u> problem,</u> you get different code every time.
+
+07:48.080 --> 07:48.300
+give it to chat GPT because it's not a complex problem, you get different code every time.
+
+07:48.300 --> 07:48.960
+give it to chat GPT because it's not a complex problem,<u> you</u> get different code every time.
+
+07:48.960 --> 07:49.200
+give it to chat GPT because it's not a complex problem, you<u> get</u> different code every time.
+
+07:49.200 --> 07:49.540
+give it to chat GPT because it's not a complex problem, you get<u> different</u> code every time.
+
+07:49.540 --> 07:49.920
+give it to chat GPT because it's not a complex problem, you get different<u> code</u> every time.
+
+07:49.920 --> 07:50.360
+give it to chat GPT because it's not a complex problem, you get different code<u> every</u> time.
+
+07:50.360 --> 07:50.920
+give it to chat GPT because it's not a complex problem, you get different code every<u> time.</u>
+
+07:50.980 --> 07:51.660
+<u>But</u> through a little bit of pre training and a meta programming language or a
+
+07:51.660 --> 07:52.200
+But<u> through</u> a little bit of pre training and a meta programming language or a
+
+07:52.200 --> 07:52.480
+But through<u> a</u> little bit of pre training and a meta programming language or a
+
+07:52.480 --> 07:52.620
+But through a<u> little</u> bit of pre training and a meta programming language or a
+
+07:52.620 --> 07:52.780
+But through a little<u> bit</u> of pre training and a meta programming language or a
+
+07:52.780 --> 07:52.920
+But through a little bit<u> of</u> pre training and a meta programming language or a
+
+07:52.920 --> 07:53.180
+But through a little bit of<u> pre</u> training and a meta programming language or a
+
+07:53.180 --> 07:53.800
+But through a little bit of pre<u> training</u> and a meta programming language or a
+
+07:53.800 --> 07:54.900
+But through a little bit of pre training<u> and</u> a meta programming language or a
+
+07:54.900 --> 07:55.280
+But through a little bit of pre training and<u> a</u> meta programming language or a
+
+07:55.280 --> 07:55.660
+But through a little bit of pre training and a<u> meta</u> programming language or a
+
+07:55.660 --> 07:56.340
+But through a little bit of pre training and a meta<u> programming</u> language or a
+
+07:56.340 --> 07:56.880
+But through a little bit of pre training and a meta programming<u> language</u> or a
+
+07:56.880 --> 07:57.240
+But through a little bit of pre training and a meta programming language<u> or</u> a
+
+07:57.240 --> 07:57.540
+But through a little bit of pre training and a meta programming language or<u> a</u>
+
+07:57.540 --> 07:58.600
+<u>domain</u> specific language, really, I was able to get chat GPT giving out consistent
+
+07:58.600 --> 07:58.940
+domain<u> specific</u> language, really, I was able to get chat GPT giving out consistent
+
+07:58.940 --> 07:59.680
+domain specific<u> language,</u> really, I was able to get chat GPT giving out consistent
+
+07:59.680 --> 07:59.860
+domain specific language, really, I was able to get chat GPT giving out consistent
+
+07:59.860 --> 08:00.160
+domain specific language,<u> really,</u> I was able to get chat GPT giving out consistent
+
+08:00.160 --> 08:00.700
+domain specific language, really, I was able to get chat GPT giving out consistent
+
+08:00.700 --> 08:00.880
+domain specific language, really,<u> I</u> was able to get chat GPT giving out consistent
+
+08:00.880 --> 08:01.140
+domain specific language, really, I<u> was</u> able to get chat GPT giving out consistent
+
+08:01.140 --> 08:01.480
+domain specific language, really, I was<u> able</u> to get chat GPT giving out consistent
+
+08:01.480 --> 08:01.760
+domain specific language, really, I was able<u> to</u> get chat GPT giving out consistent
+
+08:01.760 --> 08:02.040
+domain specific language, really, I was able to<u> get</u> chat GPT giving out consistent
+
+08:02.040 --> 08:02.480
+domain specific language, really, I was able to get<u> chat</u> GPT giving out consistent
+
+08:02.480 --> 08:03.220
+domain specific language, really, I was able to get chat<u> GPT</u> giving out consistent
+
+08:03.220 --> 08:03.540
+domain specific language, really, I was able to get chat GPT<u> giving</u> out consistent
+
+08:03.540 --> 08:03.880
+domain specific language, really, I was able to get chat GPT giving<u> out</u> consistent
+
+08:03.880 --> 08:04.640
+domain specific language, really, I was able to get chat GPT giving out<u> consistent</u>
+
+08:04.640 --> 08:06.020
+<u>code</u> that followed patterns and practices that I would be happy to use within the system.
+
+08:06.020 --> 08:06.260
+code<u> that</u> followed patterns and practices that I would be happy to use within the system.
+
+08:06.260 --> 08:06.720
+code that<u> followed</u> patterns and practices that I would be happy to use within the system.
+
+08:06.720 --> 08:07.340
+code that followed<u> patterns</u> and practices that I would be happy to use within the system.
+
+08:07.340 --> 08:07.640
+code that followed patterns<u> and</u> practices that I would be happy to use within the system.
+
+08:07.640 --> 08:08.060
+code that followed patterns and<u> practices</u> that I would be happy to use within the system.
+
+08:08.060 --> 08:08.600
+code that followed patterns and practices<u> that</u> I would be happy to use within the system.
+
+08:08.600 --> 08:08.760
+code that followed patterns and practices that<u> I</u> would be happy to use within the system.
+
+08:08.760 --> 08:08.900
+code that followed patterns and practices that I<u> would</u> be happy to use within the system.
+
+08:08.900 --> 08:09.080
+code that followed patterns and practices that I would<u> be</u> happy to use within the system.
+
+08:09.080 --> 08:09.360
+code that followed patterns and practices that I would be<u> happy</u> to use within the system.
+
+08:09.360 --> 08:09.600
+code that followed patterns and practices that I would be happy<u> to</u> use within the system.
+
+08:09.600 --> 08:10.220
+code that followed patterns and practices that I would be happy to<u> use</u> within the system.
+
+08:10.220 --> 08:10.580
+code that followed patterns and practices that I would be happy to use<u> within</u> the system.
+
+08:10.580 --> 08:10.780
+code that followed patterns and practices that I would be happy to use within<u> the</u> system.
+
+08:10.780 --> 08:11.120
+code that followed patterns and practices that I would be happy to use within the<u> system.</u>
+

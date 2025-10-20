@@ -1,0 +1,2271 @@
+1
+00:00:00,00 --> 00:00:04,350
+In this video, I'm going to show you how to create 10 different games using WebSim.ai 
+
+2
+00:00:04,800 --> 00:00:09,810
+It's a follow up to the video I did last week on building a component for a GPT Agent 
+
+3
+00:00:09,810 --> 00:00:15,390
+framework. What we'll look at are classic games like Tetris, asteroids, and Wordle, 
+
+4
+00:00:15,570 --> 00:00:21,110
+but also more modern style of games that might be useful in an AI agent framework. 
+
+5
+00:00:21,380 --> 00:00:23,270
+I'm AppyDave. Let's get into it.
+
+6
+00:00:23,290 --> 00:00:28,330
+Head over to Google and type in WebSim.ai and when you click on the link, you'll 
+
+7
+00:00:28,330 --> 00:00:33,850
+be brought to a screen like this. And down below are a bunch of games and applications 
+
+8
+00:00:33,850 --> 00:00:35,980
+that people have already created. 
+
+9
+00:00:35,990 --> 00:00:42,150
+Now, last week in my first looks at WebSim.ai I took an application that I have a 
+
+10
+00:00:42,150 --> 00:00:46,710
+GPT Workflow engine and I was able to add in this new component 
+
+11
+00:00:46,730 --> 00:00:52,330
+and it allowed me to go backwards and forwards by clicking here and ending back on 
+
+12
+00:00:52,330 --> 00:00:58,510
+a workflow screen. Now all of this took me about 20 minutes just using WebSim.ai 
+
+13
+00:00:59,230 --> 00:01:00,130
+to do the work.
+
+14
+00:01:00,130 --> 00:01:05,530
+So from here we'll head back to Web simm ai, and this is where you can start a new 
+
+15
+00:01:05,530 --> 00:01:09,400
+application just by writing a prompt. One of the things that you can do is select 
+
+16
+00:01:09,400 --> 00:01:10,750
+the large language model. 
+
+17
+00:01:10,760 --> 00:01:15,350
+I'm just going to work with Sonnet 3.5. That's what I used last time and it worked 
+
+18
+00:01:15,360 --> 00:01:16,130
+quite well. 
+
+19
+00:01:16,160 --> 00:01:21,110
+But let's work out what it is we're going to build. So if we head over to ChatGPT, 
+
+20
+00:01:22,130 --> 00:01:27,410
+I've written this prompt here that says you are going to help me to create 10 different 
+
+21
+00:01:27,410 --> 00:01:32,480
+games. The game's gonna be written in HTML in JavaScript, and that they're going 
+
+22
+00:01:32,480 --> 00:01:38,420
+to be using online artificial intelligence tool called WebSim.ai So one of the things 
+
+23
+00:01:38,420 --> 00:01:45,110
+I've asked it to do is do a search for WebSim.ai so it understands how this tool 
+
+24
+00:01:45,110 --> 00:01:51,170
+sort of works. And I've also said I want the prompts to be fairly simple and clear 
+
+25
+00:01:51,170 --> 00:01:56,930
+when we are doing this. So I'm trying to find software products or applications from 
+
+26
+00:01:56,930 --> 00:01:59,30
+the past games that have been 
+
+27
+00:01:59,330 --> 00:02:04,700
+relatively simple to create. And what it's done is given a list of 20 ideas that 
+
+28
+00:02:04,710 --> 00:02:09,380
+we can work with. So I've just enhanced that prompt a little bit further so that 
+
+29
+00:02:09,380 --> 00:02:15,500
+we can get two different examples for each of the 20 games. So got things like Pong 
+
+30
+00:02:15,560 --> 00:02:18,590
+and breakout from back in the seventies, 
+
+31
+00:02:18,660 --> 00:02:25,660
+and Tetris from 1984. So what I've done is then just asked it to give me a short 
+
+32
+00:02:25,660 --> 00:02:30,400
+list. Currently it's given me nine, and we'll see that I will get it up to 10 at 
+
+33
+00:02:30,400 --> 00:02:34,840
+the end. But before I did that, I thought let's get some images together to see how 
+
+34
+00:02:34,840 --> 00:02:39,340
+these could look. And so these are the images I'll use on the thumbnail. We've got 
+
+35
+00:02:39,430 --> 00:02:44,830
+Atari, we've got missile command. We may make that one. We'll see. I think S Space 
+
+36
+00:02:44,830 --> 00:02:49,540
+Invaders would be a great game to CR create. And then we got on the Nokia. There 
+
+37
+00:02:49,540 --> 00:02:55,270
+was a snake game when I asked it to do number five, which was Pacman. It said there's 
+
+38
+00:02:55,280 --> 00:03:01,600
+a content policy issue, so I just asked it to rename it to GPT Man. And so we'll 
+
+39
+00:03:01,630 --> 00:03:03,430
+create some sort of Pacman clone, 
+
+40
+00:03:03,460 --> 00:03:05,620
+followed by a tower defense. 
+
+41
+00:03:05,630 --> 00:03:08,410
+then we can finish off with Asteroids, Wordle, 
+
+42
+00:03:08,430 --> 00:03:13,410
+and Tetris. Now that was the original nine it came up with, but I thought I'd love 
+
+43
+00:03:13,410 --> 00:03:18,960
+to see Donkey Kong and hopefully we can round it out to 10 different games in this 
+
+44
+00:03:18,960 --> 00:03:19,410
+video.
+
+45
+00:03:19,430 --> 00:03:24,680
+let's work on the first game. It's the Atari breakout game, and what I've done is 
+
+46
+00:03:24,680 --> 00:03:29,420
+created a little prompt. If I wanted to describe the creation of the game breakout 
+
+47
+00:03:29,720 --> 00:03:34,850
+as a short requirement, spec, and also a separate chain of responsibility, prompt, 
+
+48
+00:03:35,330 --> 00:03:41,450
+how would I do that? Now, what we've got here is a pretty clear list of requirements 
+
+49
+00:03:41,450 --> 00:03:46,550
+for the breakout game. We've got game elements, mechanics, graphics, and design. 
+
+50
+00:03:46,910 --> 00:03:53,150
+The only thing, technical requirements using H-T-M-L-C-S-S and JavaScript and responsive 
+
+51
+00:03:53,360 --> 00:03:59,930
+may not be needed because this is kind of the default that WebSim.ai would do anyway 
+
+52
+00:03:59,990 --> 00:04:04,230
+as a chain of responsibility. This is the sort of stuff you might do if you wanted 
+
+53
+00:04:04,230 --> 00:04:07,860
+to run it in something like Anthropic or ChatGPT, 
+
+54
+00:04:08,430 --> 00:04:14,230
+I don't know that I need to worry about it for this particular case. So I think what 
+
+55
+00:04:14,230 --> 00:04:20,530
+we'll do is we'll take everything from here all the way through to here, and let's 
+
+56
+00:04:20,530 --> 00:04:22,630
+just test it out in WebSim.ai
+
+57
+00:04:22,600 --> 00:04:28,310
+What we'll do is head over to WebSim.ai and we're just gonna paste all the information 
+
+58
+00:04:28,310 --> 00:04:35,630
+that we let ChatGPT create for us and we'll hit go. And I don't know that this will 
+
+59
+00:04:35,630 --> 00:04:40,760
+work. This is probably a little bit more complex than the system would know how to 
+
+60
+00:04:40,760 --> 00:04:42,530
+work with, but let's see what happens.
+
+61
+00:04:42,560 --> 00:04:48,770
+So we've got this breakout play. We've got score up in the left hand corner. Let's 
+
+62
+00:04:48,770 --> 00:04:49,970
+just see. Whoa. 
+
+63
+00:04:50,00 --> 00:04:50,960
+Now 
+
+64
+00:04:50,960 --> 00:04:55,740
+it worked though. I couldn't get the actual paddle to work, 
+
+65
+00:04:55,760 --> 00:05:00,420
+I think we can just go in and change the prompt and see if we can add left and right 
+
+66
+00:05:00,420 --> 00:05:05,760
+arrows to the movement mechanism. So I've just added a prompt. Can you make the paddle 
+
+67
+00:05:05,760 --> 00:05:10,320
+respond to the left and right keys so that I can control movement left and right? 
+
+68
+00:05:10,620 --> 00:05:14,430
+The paddle should not go beyond the left and right edge of the screen and we will 
+
+69
+00:05:14,430 --> 00:05:19,950
+just press go on that and see what it creates. Now one of the things you'll notice 
+
+70
+00:05:19,980 --> 00:05:26,100
+is that the code is being generated and can sometimes be seen up in this blue bar. 
+
+71
+00:05:26,330 --> 00:05:30,900
+So we've got a little help message down here. We'll hit play. Oh, look at that. And 
+
+72
+00:05:30,900 --> 00:05:30,960
+that's working. 
+
+73
+00:05:30,960 --> 00:05:31,920
+And there we, 
+
+74
+00:05:31,930 --> 00:05:33,490
+wow. That's impressive. 
+
+75
+00:05:33,500 --> 00:05:39,200
+heading back to GPT, I just asked what are the classic colors for the game? We've 
+
+76
+00:05:39,200 --> 00:05:44,360
+got red, orange, yellow, green, and blue. I also asked if if there was ever a missile 
+
+77
+00:05:44,360 --> 00:05:49,190
+or bullet system that said there was in a game called asteroid. So I said, give me 
+
+78
+00:05:49,190 --> 00:05:50,900
+a short prompt 
+
+79
+00:05:50,100 --> 00:05:55,250
+what it's come up with is modify the existing breakout game, add rows with bricks 
+
+80
+00:05:55,250 --> 00:06:00,260
+in the following colors, introduce a power up, ensure that the power up is visually 
+
+81
+00:06:00,410 --> 00:06:06,320
+distinguishable and can be activated once per game. So we'll just take this information 
+
+82
+00:06:06,320 --> 00:06:12,890
+right here, we'll head over and paste it in, and we press go and it'll start regenerating 
+
+83
+00:06:12,890 --> 00:06:13,520
+the game. 
+
+84
+00:06:13,530 --> 00:06:18,500
+we'll press play and look at that. We've got colors. This is looking good. I'm not 
+
+85
+00:06:18,500 --> 00:06:20,150
+a very good player at this 
+
+86
+00:06:20,160 --> 00:06:22,930
+and the space doesn't do anything. 
+
+87
+00:06:22,930 --> 00:06:28,500
+So the first attempt at altering the game to have colored bars worked fine, but one 
+
+88
+00:06:28,500 --> 00:06:33,420
+of the things it didn't do was allow the power up to work from the space bar. So 
+
+89
+00:06:33,420 --> 00:06:39,930
+I added in a prompt, the space bar is not firing. Can you fix this? What it did for 
+
+90
+00:06:39,930 --> 00:06:45,480
+me was added in this new power up, that right here it says Space to shoot when the 
+
+91
+00:06:45,480 --> 00:06:51,450
+power is active, but it wasn't active and I couldn't figure out how to make it active. 
+
+92
+00:06:51,630 --> 00:06:53,760
+So I just added in one more prompt 
+
+93
+00:06:53,760 --> 00:06:57,960
+and that prompt is here. Can you make sure the power up is active at the beginning 
+
+94
+00:06:57,970 --> 00:06:58,380
+of the game? 
+
+95
+00:06:58,400 --> 00:07:03,530
+let's just test this out and we've got it working. Looks good. 
+
+96
+00:07:03,530 --> 00:07:08,750
+I just pressed the space button and we saw a bullet come through. So three or four 
+
+97
+00:07:08,750 --> 00:07:12,470
+minutes and we've got this game of breakout. We should be able to 
+
+98
+00:07:12,500 --> 00:07:17,280
+put a bookmark against it. We'll keep that. And the other thing we can do if we click 
+
+99
+00:07:17,280 --> 00:07:20,670
+here is we can download the HTML to our computer. 
+
+100
+00:07:20,700 --> 00:07:25,250
+So we'll head over to Visual Studio and we've just opened up the HTML page that we 
+
+101
+00:07:25,250 --> 00:07:31,370
+downloaded. There's a bunch of CSS going on, little bit of HTML and elements all 
+
+102
+00:07:31,370 --> 00:07:36,890
+being dealt with in JavaScript. So the game itself is relatively simple. If we right 
+
+103
+00:07:36,890 --> 00:07:39,800
+click on it and view it as a live server, 
+
+104
+00:07:39,100 --> 00:07:43,840
+our gamers come up locally, we hit play. And let's say we wanna change the red to 
+
+105
+00:07:43,840 --> 00:07:48,310
+pink. What we should be able to do is just change the first set of colors here. We'll 
+
+106
+00:07:48,310 --> 00:07:53,650
+just make that pink and we'll hit save. And it's refresh the page and we'll hit play. 
+
+107
+00:07:53,680 --> 00:08:00,340
+And we now have a pink line up the top. So, so easy to create a game. It's only a 
+
+108
+00:08:00,340 --> 00:08:04,210
+few minutes, and then you've got all the code and you can edit it the way you want.
+
+109
+00:08:04,230 --> 00:08:09,930
+Now before we move on to game number two, let's just make an alteration to our username. 
+
+110
+00:08:09,930 --> 00:08:14,280
+So at the moment, I'm light butterfly and a number, and what you can do is move over 
+
+111
+00:08:14,280 --> 00:08:15,510
+to the left here. 
+
+112
+00:08:15,530 --> 00:08:19,940
+there is a little icon here that when you click on it, you can go and change your 
+
+113
+00:08:19,940 --> 00:08:20,720
+username. 
+
+114
+00:08:20,730 --> 00:08:25,830
+I've just said a AppyDave, I've changed my avatar picture here. Other things that 
+
+115
+00:08:25,830 --> 00:08:31,200
+you can change is use a custom API key and the default large language model that 
+
+116
+00:08:31,200 --> 00:08:32,130
+you want to use. 
+
+117
+00:08:32,330 --> 00:08:32,940
+just press save 
+
+118
+00:08:32,960 --> 00:08:36,170
+we now have a username and logo going on here. 
+
+119
+00:08:36,200 --> 00:08:39,320
+So let's try and create the next game missile command. 
+
+120
+00:08:39,330 --> 00:08:45,260
+we've got is the original prompt that we did for breakout is just here, but if we 
+
+121
+00:08:45,260 --> 00:08:49,670
+move to the bottom and alter it a little bit, we'll say the game missile command 
+
+122
+00:08:49,670 --> 00:08:54,410
+as a short requirement spec. Now we didn't use the chain of responsibility, so I 
+
+123
+00:08:54,410 --> 00:08:58,700
+think we'll just leave it at that and press play and see what happens. 
+
+124
+00:08:58,730 --> 00:09:00,960
+And we've got our requirement specs. 
+
+125
+00:09:00,960 --> 00:09:06,840
+We'll head over to web sim and just pretty much paste everything and see what happens 
+
+126
+00:09:06,840 --> 00:09:07,800
+with the generation. 
+
+127
+00:09:07,800 --> 00:09:12,950
+We'll get a little initialization. It's still writing code at the moment. It's looking 
+
+128
+00:09:12,950 --> 00:09:17,210
+very similar to the last game we created. Looks like it's finished. We'll just hit 
+
+129
+00:09:17,220 --> 00:09:17,750
+play. 
+
+130
+00:09:17,760 --> 00:09:21,920
+Now the first iteration of this, none of the keyboard controls have worked, but what 
+
+131
+00:09:21,930 --> 00:09:27,200
+we do have are five cities down the bottom of the screen and we've got three missile 
+
+132
+00:09:27,200 --> 00:09:27,860
+silos. 
+
+133
+00:09:27,860 --> 00:09:28,560
+let's head over 
+
+134
+00:09:28,560 --> 00:09:32,800
+ChatGPT and we've got our original, 
+
+135
+00:09:32,100 --> 00:09:36,960
+prompts that we use to come up with the requirement specs. And if we focus in, you 
+
+136
+00:09:36,960 --> 00:09:41,670
+can see I've added this new area. Can you create a separate chain of responsibility? 
+
+137
+00:09:41,670 --> 00:09:45,720
+Prompt, which is what I said I didn't need this time around, but it seems I did. 
+
+138
+00:09:46,800 --> 00:09:51,600
+And what that's doing is giving us a list of actions that you could go through one 
+
+139
+00:09:51,600 --> 00:09:56,160
+at a time, which may be the better way to build games at the moment. One of the areas 
+
+140
+00:09:56,160 --> 00:10:01,410
+here is the game play mechanics, and this is how we should control the different 
+
+141
+00:10:01,410 --> 00:10:06,900
+sprites on the screen. Now it doesn't give us any information here about keyboard 
+
+142
+00:10:06,900 --> 00:10:11,700
+or mouse, so I'm just going to extend it a little bit. Give me the gameplay mechanics 
+
+143
+00:10:11,700 --> 00:10:17,160
+and include keyboard or mass controls. Make sure you specify which keyboard, 
+
+144
+00:10:17,160 --> 00:10:18,270
+controls to use. 
+
+145
+00:10:18,300 --> 00:10:19,760
+we've got 'em listed 
+
+146
+00:10:19,100 --> 00:10:23,900
+and we got As and D to work from the different missile silos. They're the green ones 
+
+147
+00:10:23,900 --> 00:10:27,590
+here. We're also going to support the mouse controls. 
+
+148
+00:10:27,600 --> 00:10:31,330
+should be able to do is just copy the information that's here, 
+
+149
+00:10:31,330 --> 00:10:37,200
+and I've just pasted that information directly into this area here. We've hit play 
+
+150
+00:10:37,200 --> 00:10:42,210
+and I've already done this. So what you can see is that we've now got an A to launch 
+
+151
+00:10:42,240 --> 00:10:48,240
+from the left S to launch from the middle and D to launch from the right. It should 
+
+152
+00:10:48,240 --> 00:10:52,200
+also work with the mouse for aiming and left clicking. 
+
+153
+00:10:52,330 --> 00:10:53,30
+let's give it a whirl.
+
+154
+00:10:53,330 --> 00:10:58,530
+So we'll just hit play and from this point we can use the mouse to just fire, or 
+
+155
+00:10:58,530 --> 00:11:03,420
+if we use a, it comes from the left, s from the center, and d from the right. 
+
+156
+00:11:03,430 --> 00:11:08,260
+so this game is working and it's taken two prompts in about five minutes of work.
+
+157
+00:11:08,260 --> 00:11:12,830
+At the moment, we're two down eight to go. What we can do is head over and you've 
+
+158
+00:11:12,830 --> 00:11:17,900
+got these areas for bookmarks, and one of the things we should be able to do is publish 
+
+159
+00:11:17,910 --> 00:11:19,550
+'em and make them live. 
+
+160
+00:11:19,560 --> 00:11:23,940
+and we'll come over to this one and press the edit button and we can publish that 
+
+161
+00:11:23,970 --> 00:11:27,930
+and we should be able to open that one as well. So here's the first one. Here's the 
+
+162
+00:11:27,930 --> 00:11:28,530
+second one. 
+
+163
+00:11:28,530 --> 00:11:29,700
+Everything seems to be 
+
+164
+00:11:29,730 --> 00:11:30,860
+working here. 
+
+165
+00:11:30,860 --> 00:11:34,420
+Now, just for your information, there may be a little problem you'll run into. I 
+
+166
+00:11:34,420 --> 00:11:39,220
+just ran into it now. So at the moment, this is the correct version of the game and 
+
+167
+00:11:39,220 --> 00:11:44,590
+it's all working, but when I bookmarked it, I actually had an older version of the 
+
+168
+00:11:44,590 --> 00:11:48,880
+application open when I did the bookmark and I couldn't undo it. I kept coming in 
+
+169
+00:11:48,880 --> 00:11:54,430
+here and pressing the unpublished republished, see what happened. But there's this 
+
+170
+00:11:54,430 --> 00:11:58,150
+little button up here that you can press called Updated, and that will just bring 
+
+171
+00:11:58,150 --> 00:12:02,950
+it up to, I believe, the URL that you are on. So if you have an issue where you've 
+
+172
+00:12:03,130 --> 00:12:07,660
+accidentally published an older version and you wanna change it, it's this little 
+
+173
+00:12:07,660 --> 00:12:13,930
+button here called updated that will update the actual URL to the latest version 
+
+174
+00:12:13,930 --> 00:12:13,780
+of your game.
+
+175
+00:12:13,800 --> 00:12:15,700
+So let's move over to the third game, 
+
+176
+00:12:15,700 --> 00:12:20,710
+So I said, can you describe the creation of the game Asteroids as a short requirement 
+
+177
+00:12:20,710 --> 00:12:26,140
+spa in two sections. Number one is just the look and feel and the general game requirements. 
+
+178
+00:12:26,320 --> 00:12:31,240
+And number two is the gameplay because we're finding that if we do them both together, 
+
+179
+00:12:31,240 --> 00:12:33,430
+the gameplay doesn't get done anyway. 
+
+180
+00:12:33,430 --> 00:12:35,190
+we'll see what it produces here. 
+
+181
+00:12:35,200 --> 00:12:41,230
+section one looks good. Let's just copy from this area down to here and later on 
+
+182
+00:12:41,230 --> 00:12:42,940
+we'll come back and look at this. 
+
+183
+00:12:42,960 --> 00:12:47,360
+Now if we go back to the last game we were working on, you can get back to the home 
+
+184
+00:12:47,360 --> 00:12:49,130
+by pressing this little button here 
+
+185
+00:12:49,130 --> 00:12:54,530
+and we'll just click on the prompt and paste it in and see what happens. 
+
+186
+00:12:54,660 --> 00:12:57,180
+Now it's starting to generate the game here. 
+
+187
+00:12:57,200 --> 00:13:01,600
+Neoclassic asteroids, we've got a play button. It's still loading at the moment 
+
+188
+00:13:01,600 --> 00:13:06,260
+it all looks ready. Let's see what happens if we hit play and do we have any, we 
+
+189
+00:13:06,260 --> 00:13:11,120
+do already have some controls, so that's a good thing to know. We may actually be 
+
+190
+00:13:11,180 --> 00:13:12,380
+working right now. 
+
+191
+00:13:12,400 --> 00:13:19,330
+let's go back to the GPT that we had, and I'm still going to add in some extra information. 
+
+192
+00:13:19,330 --> 00:13:20,770
+So we'll just click on this 
+
+193
+00:13:20,800 --> 00:13:21,290
+and 
+
+194
+00:13:21,300 --> 00:13:25,910
+just see what happens if we expand it. I think the main thing that I'm looking to 
+
+195
+00:13:25,910 --> 00:13:31,970
+get this time through is just what the controls are going to be shown visually on 
+
+196
+00:13:31,970 --> 00:13:32,660
+the screen. 
+
+197
+00:13:32,660 --> 00:13:36,530
+we've now got three lives. We've got a high 
+
+198
+00:13:36,660 --> 00:13:37,860
+score zero. 
+
+199
+00:13:37,100 --> 00:13:42,660
+got a little bit of a fire coming out of it now. Oh, let's get out of there and 
+
+200
+00:13:42,660 --> 00:13:47,460
+look. It's working just like the original asteroids. One thing we could do is improve 
+
+201
+00:13:47,460 --> 00:13:51,60
+the graphics a little bit, but other than that, this looks great. In fact, let's 
+
+202
+00:13:51,60 --> 00:13:56,130
+just try that and we'll just test with the idea of can you make the graphics a little 
+
+203
+00:13:56,130 --> 00:13:57,240
+bit more realistic? 
+
+204
+00:13:57,260 --> 00:14:02,970
+at this point, we've got a new name for it. It's called Hyperrealistic Asteroids. 
+
+205
+00:14:03,180 --> 00:14:07,440
+There's a little bit of a font change going on. We're still loading at the moment, 
+
+206
+00:14:07,460 --> 00:14:12,420
+and that's finished. It takes about 30 to 40 seconds to generate, but let's see if 
+
+207
+00:14:12,420 --> 00:14:14,100
+it's actually working. 
+
+208
+00:14:14,330 --> 00:14:19,920
+So this uncovered another issue to be aware of. So I had it not work and I said the 
+
+209
+00:14:19,920 --> 00:14:24,990
+game has stopped working. And what I didn't notice was that there was the word continue 
+
+210
+00:14:24,990 --> 00:14:30,660
+here. So kind of like ChatGPT, uh, might just stop 
+
+211
+00:14:30,660 --> 00:14:33,240
+midway through a generation and you can press continue. 
+
+212
+00:14:33,260 --> 00:14:35,900
+we'll just press continue here 
+
+213
+00:14:35,100 --> 00:14:37,590
+and it's finished. We'll hit play and 
+
+214
+00:14:37,600 --> 00:14:42,550
+there we go. It looks a lot different than before. The graphics are a little bit 
+
+215
+00:14:42,550 --> 00:14:44,350
+better, which is what we're after. 
+
+216
+00:14:44,360 --> 00:14:44,900
+And 
+
+217
+00:14:44,930 --> 00:14:45,750
+fantastic. 
+
+218
+00:14:45,760 --> 00:14:49,420
+So the thing I learned here is that it worked with the original requirement spec. 
+
+219
+00:14:49,420 --> 00:14:55,660
+I didn't need to do the gameplay controls. This time around when I made it more hyperrealistic, 
+
+220
+00:14:55,960 --> 00:14:59,260
+one of the things I didn't take into consideration is that sometimes the generation 
+
+221
+00:14:59,290 --> 00:15:05,560
+of the game can take a lot longer than expected and it will just say continue. And 
+
+222
+00:15:05,560 --> 00:15:09,340
+you've gotta just look out for that. Press the continue. And here we have the updated 
+
+223
+00:15:09,340 --> 00:15:13,210
+game is got better graphics, but essentially it's the same game.
+
+224
+00:15:13,230 --> 00:15:18,870
+heading back over to the fourth game and we've got the Nokia Game Snake, and what 
+
+225
+00:15:18,870 --> 00:15:22,830
+I've done is altered the prompt a little bit. Can you describe the creation of the 
+
+226
+00:15:22,830 --> 00:15:28,290
+Game Snake as a short requirement spec? Now, I haven't split out into two sections 
+
+227
+00:15:28,290 --> 00:15:32,760
+so much because the controls are really easy with this game. Anyway, include the 
+
+228
+00:15:32,760 --> 00:15:37,680
+game, look and feel, general requirements, game mechanics and keyboard controls needed. 
+
+229
+00:15:37,890 --> 00:15:42,630
+I also wanna make sure from now on that we get the keyboard controls printed on the 
+
+230
+00:15:42,630 --> 00:15:46,860
+home screen. It didn't happen with the last one, but it has happened with others. 
+
+231
+00:15:46,860 --> 00:15:50,940
+So I'm just being a little bit more specific in this particular case. 
+
+232
+00:15:50,960 --> 00:15:56,780
+Now, this time it's gone really detailed and broken everything up. Now we've never 
+
+233
+00:15:56,780 --> 00:15:58,550
+tested this as an idea, 
+
+234
+00:15:58,560 --> 00:16:03,900
+I like to do is test things out. So we'll take everything. I generally probably would've 
+
+235
+00:16:03,900 --> 00:16:06,480
+made this a simpler prompt than what we're seeing, 
+
+236
+00:16:06,500 --> 00:16:12,340
+head back to WebSim.ai. Just click on the home button, click in here, and we'll just 
+
+237
+00:16:12,340 --> 00:16:17,290
+paste it all in and we'll see what comes up. Game is being generated at the moment. 
+
+238
+00:16:17,290 --> 00:16:22,540
+We're seeing the how to play controls going on here. So we've got up down left and 
+
+239
+00:16:22,540 --> 00:16:26,290
+right and play to start. Now it's still loading, 
+
+240
+00:16:26,300 --> 00:16:31,220
+So we will kick it off. And I'm meant to be eating the food and I missed it. 
+
+241
+00:16:31,230 --> 00:16:32,900
+And we are now longer, 
+
+242
+00:16:32,930 --> 00:16:37,980
+and it's getting longer as we go. So it looks like the game is working. Okay. This 
+
+243
+00:16:37,980 --> 00:16:43,860
+is awesome. So this actually happened in one prompt. I didn't know how to use it 
+
+244
+00:16:43,860 --> 00:16:45,660
+straight away, but this is going well.
+
+245
+00:16:45,660 --> 00:16:48,770
+So one of the things I've noticed here is that when you right click on areas, you 
+
+246
+00:16:48,770 --> 00:16:54,110
+can do this edit. So how about we take this and we'll click on edit and I'm going 
+
+247
+00:16:54,110 --> 00:16:55,610
+to type in 
+
+248
+00:16:55,630 --> 00:17:01,380
+change the words, classic snake two, buymeacoffee.com/appydave and we'll press okay. 
+
+249
+00:17:01,680 --> 00:17:06,480
+What happens here is it starts regenerating the page again, and hopefully it's just 
+
+250
+00:17:06,480 --> 00:17:12,690
+gonna focus on that one area. So now if you want to help fund this channel, then 
+
+251
+00:17:12,690 --> 00:17:14,560
+check out buymeacoffee.com/appydave.
+
+252
+00:17:16,400 --> 00:17:20,670
+Now let's move on to game number five. And one of the things that ran into was this 
+
+253
+00:17:20,730 --> 00:17:26,700
+issue with using the term Pac Man when it drew the image. And I think we'll deal 
+
+254
+00:17:26,700 --> 00:17:31,200
+with that in the game generation as well. So if we head over to the requirement specs 
+
+255
+00:17:31,200 --> 00:17:35,640
+that we've got here and we can see that, can you describe the creation of the Game 
+
+256
+00:17:35,970 --> 00:17:40,320
+man as a short requirement? Include the game, look and feel, general requirements, 
+
+257
+00:17:40,320 --> 00:17:44,820
+game mechanics. Make sure we've got the screen controls and that they display on 
+
+258
+00:17:44,820 --> 00:17:45,240
+screen. 
+
+259
+00:17:45,260 --> 00:17:50,610
+I'm also going to get it to rename the game to GPT-Man, and we'll just press go 
+
+260
+00:17:50,630 --> 00:17:55,660
+We've got the game look and feel. General requirements, I think whatever it produces. 
+
+261
+00:17:55,660 --> 00:17:58,360
+We're just going to go with one more time 
+
+262
+00:17:58,660 --> 00:18:03,280
+so we get the retro style graphics. This is all good. The one thing that's a little 
+
+263
+00:18:03,280 --> 00:18:09,250
+interesting in here is that we've got the power up to allow GPT Man to eat enemies 
+
+264
+00:18:09,250 --> 00:18:13,930
+for a short duration. So we'll have to see whether that works. The controls are pretty 
+
+265
+00:18:13,930 --> 00:18:19,300
+much the same as we've seen before, so we can just take that information, go back 
+
+266
+00:18:19,300 --> 00:18:24,520
+home to start a new game, and then just paste the information in and press.
+
+267
+00:18:24,530 --> 00:18:24,590
+Okay, 
+
+268
+00:18:24,600 --> 00:18:29,880
+so we'll hit play and see what's going on. And the first thing to notice is it's 
+
+269
+00:18:29,880 --> 00:18:34,350
+very fast, so we might wanna slow it down. In fact, let's do that. 
+
+270
+00:18:34,360 --> 00:18:39,400
+Just see if we can go, can you slow down the speed of movement by half? See if that's 
+
+271
+00:18:39,400 --> 00:18:44,260
+something that'll work. It's generating it here and it's finished. We'll hit play 
+
+272
+00:18:44,260 --> 00:18:49,300
+and things are going a fair bit slower now. Now at the moment, the other characters 
+
+273
+00:18:49,390 --> 00:18:53,380
+aren't moving, so maybe we've broken something in doing this. 
+
+274
+00:18:53,400 --> 00:18:57,740
+So I've just mentioned that the opponents never come out the box and that they're 
+
+275
+00:18:57,740 --> 00:19:03,190
+meant to come out like in a regular game of Pac-Man. And that's kind of delayed so 
+
+276
+00:19:03,190 --> 00:19:08,360
+they don't all come out at the same time. So it's just finished. We'll press the 
+
+277
+00:19:08,360 --> 00:19:13,750
+button and one of 'em is out. So now it's starting to feel a lot like 
+
+278
+00:19:13,760 --> 00:19:14,920
+And it killed me again. 
+
+279
+00:19:14,930 --> 00:19:15,900
+So that's great. 
+
+280
+00:19:15,900 --> 00:19:19,680
+we'll just come back here and we'll right click on the GPT man. 
+
+281
+00:19:19,700 --> 00:19:24,970
+So we'll just change GPT, man to API, Dave, and let it rerun. 
+
+282
+00:19:25,00 --> 00:19:28,900
+and now we've got the YouTube channel AppyDave as the heading here on the game.
+
+283
+00:19:29,290 --> 00:19:33,310
+So let's move on to the sixth game tower defense. And at the moment, they're only 
+
+284
+00:19:33,310 --> 00:19:38,800
+taking about two or three minutes to get each game up and running in a basic form. 
+
+285
+00:19:38,980 --> 00:19:42,850
+So we'll just go with another prompt that we've got. Can you describe the creation 
+
+286
+00:19:42,850 --> 00:19:47,290
+of a tower defense game? It's the same prompt, just with the words change. You've 
+
+287
+00:19:47,290 --> 00:19:50,470
+got things like cartoonish graphics coming through, 
+
+288
+00:19:50,490 --> 00:19:53,720
+green landscape with defined path for enemies to follow. 
+
+289
+00:19:53,730 --> 00:19:58,510
+towers placed along the path. Let's look at the user interface. So we've got play. 
+
+290
+00:19:58,960 --> 00:20:03,130
+We're gonna show the keyboard instructions at the beginning of the game 
+
+291
+00:20:03,130 --> 00:20:08,860
+and the enemies are going to come in. Waves. We've got up, down left, right? We've 
+
+292
+00:20:08,920 --> 00:20:13,840
+also got tower placements, so apparently they can be five that we can use and we 
+
+293
+00:20:13,840 --> 00:20:16,180
+can start and pause the game. 
+
+294
+00:20:16,190 --> 00:20:20,280
+So we'll head over to web sim, we'll paste it in and press go. 
+
+295
+00:20:20,290 --> 00:20:25,780
+Apparently initializing the code here and starting to render some sort of game. 
+
+296
+00:20:25,790 --> 00:20:29,280
+we've got our scores and currency and lives up here, 
+
+297
+00:20:29,290 --> 00:20:30,730
+hit play. 
+
+298
+00:20:30,990 --> 00:20:33,160
+And it's a very bright color going on at the moment. 
+
+299
+00:20:33,190 --> 00:20:36,970
+It's so, so far it's not working. I've just said currently I see a red line across 
+
+300
+00:20:36,970 --> 00:20:37,570
+the screen. 
+
+301
+00:20:37,590 --> 00:20:42,130
+we'll just regenerate the prompt and see if we can get this up and running. 
+
+302
+00:20:42,330 --> 00:20:44,480
+We got clearer instructions showing here, 
+
+303
+00:20:44,490 --> 00:20:49,450
+click to place a tower. Maybe that's something I didn't do before and space bar to 
+
+304
+00:20:49,450 --> 00:20:50,920
+start or pause the game 
+
+305
+00:20:50,930 --> 00:20:52,870
+and something's moving. So 
+
+306
+00:20:52,890 --> 00:20:54,390
+are they meant to shoot? 
+
+307
+00:20:54,390 --> 00:20:58,740
+it looks like it's starting to work, but we don't have any bullets coming out, 
+
+308
+00:20:58,760 --> 00:21:03,120
+I'm just saying no bullets are coming outta the towers. Hopefully this is enough 
+
+309
+00:21:03,120 --> 00:21:03,810
+to get it going. 
+
+310
+00:21:03,830 --> 00:21:05,450
+We'll try one more time 
+
+311
+00:21:05,460 --> 00:21:08,660
+and it's, oh, look at that. There's a bullet coming through now. 
+
+312
+00:21:08,690 --> 00:21:13,570
+I put in a new prompt here that says, when we get to each new level, can you reset 
+
+313
+00:21:13,570 --> 00:21:15,850
+the screen and draw a different path? 
+
+314
+00:21:15,860 --> 00:21:17,710
+And so here we go. 
+
+315
+00:21:17,730 --> 00:21:21,940
+So I've been testing a few different prompts here. And this latest one is, when we 
+
+316
+00:21:21,940 --> 00:21:27,550
+get to a new level, can you reset the enemies to the beginning and draw a new path? 
+
+317
+00:21:27,560 --> 00:21:30,710
+So we have a path going on here. We're on level one 
+
+318
+00:21:30,730 --> 00:21:35,750
+and we've just gone to level two, so we should just be able to click and create new 
+
+319
+00:21:35,930 --> 00:21:36,500
+items 
+
+320
+00:21:36,530 --> 00:21:42,360
+only. I ran outta currency, so this is interesting. There's things like currency 
+
+321
+00:21:42,370 --> 00:21:44,880
+that allow you to buy different towers. 
+
+322
+00:21:44,890 --> 00:21:49,760
+we went to level two, we had no towers, so it started again. I don't know that we'll 
+
+323
+00:21:49,760 --> 00:21:54,980
+get to level three. This is a little bit more finicky to get going with this particular 
+
+324
+00:21:54,980 --> 00:21:55,430
+game, 
+
+325
+00:21:55,460 --> 00:22:00,870
+But the control of the application generation is still pretty spot on. Each time 
+
+326
+00:22:00,870 --> 00:22:01,890
+I make a change.
+
+327
+00:22:01,960 --> 00:22:05,680
+Moving on to the next game. We've got Wordle here and it's in the middle of just 
+
+328
+00:22:05,680 --> 00:22:11,320
+generating a prompt based on Wordle. And we are just going to copy it. I'm not even 
+
+329
+00:22:11,330 --> 00:22:12,670
+going to read it this time. 
+
+330
+00:22:12,690 --> 00:22:13,610
+We're head over to WebSim.ai 
+
+331
+00:22:13,630 --> 00:22:18,670
+we insert the prompt and let it run. And now let's have a look at what's going on 
+
+332
+00:22:18,670 --> 00:22:25,330
+here. We've got a five by six grid where players input their guesses. We've got areas 
+
+333
+00:22:25,330 --> 00:22:28,870
+like incorrect colors, correct letter, wrong position, 
+
+334
+00:22:28,890 --> 00:22:34,770
+correct letter, correct position, and it's still generating over here. The letters 
+
+335
+00:22:34,830 --> 00:22:40,920
+A to Z are the input letters for the current guess and enter. To submit the current 
+
+336
+00:22:40,980 --> 00:22:47,190
+guess, we can use the bat space key to delete the last letter from the page. So what 
+
+337
+00:22:47,200 --> 00:22:48,900
+happens if I press a, 
+
+338
+00:22:48,930 --> 00:22:51,130
+we press play and then 
+
+339
+00:22:51,690 --> 00:22:51,730
+a 
+
+340
+00:22:51,760 --> 00:22:52,350
+B. 
+
+341
+00:22:52,360 --> 00:22:54,410
+Let's do that and press enter. 
+
+342
+00:22:54,430 --> 00:22:57,740
+Now we've got two that are the right letters, but in the wrong location. 
+
+343
+00:22:57,760 --> 00:22:59,990
+So we'll try the word karma, 
+
+344
+00:22:59,990 --> 00:23:03,590
+press enter. We've got the A correct in the second position, 
+
+345
+00:23:03,590 --> 00:23:04,640
+the word naval 
+
+346
+00:23:04,660 --> 00:23:08,720
+made an assumption with the first two A, that there would be two A in it, but that 
+
+347
+00:23:08,720 --> 00:23:12,620
+might not be the case. And it's not, it's happy is the word. 
+
+348
+00:23:12,630 --> 00:23:15,260
+so looks like the word will. Game worked the first time.
+
+349
+00:23:15,260 --> 00:23:20,620
+So we've got this game, we can hit play on it and we'll just type in happy, I think, 
+
+350
+00:23:20,630 --> 00:23:23,540
+and something is correct here. Let's try 
+
+351
+00:23:23,560 --> 00:23:24,480
+dance. 
+
+352
+00:23:24,490 --> 00:23:29,540
+And we've got it on the second go. Now, what might be useful at this point is, can 
+
+353
+00:23:29,540 --> 00:23:32,870
+we just right click here and see the words that we've got available? 
+
+354
+00:23:32,890 --> 00:23:37,850
+So I've just put in, can you give me a list of the words that are available as a 
+
+355
+00:23:38,180 --> 00:23:38,360
+sheet? 
+
+356
+00:23:38,360 --> 00:23:41,310
+I did it by right clicking down near the play again. 
+
+357
+00:23:41,330 --> 00:23:46,580
+hopefully we're going to see a list of information behind the scenes and we have 
+
+358
+00:23:46,580 --> 00:23:48,320
+it here. So let's try another word. 
+
+359
+00:23:48,330 --> 00:23:52,970
+in jumbo, that was down the bottom there. And then we can go with 
+
+360
+00:23:52,990 --> 00:23:54,100
+dance again. 
+
+361
+00:23:54,130 --> 00:23:58,130
+Now it looks like it's gonna be cactus, but that's not a five letter word, so I'm 
+
+362
+00:23:58,130 --> 00:24:00,590
+not sure what's going on here. Let's try that. 
+
+363
+00:24:00,590 --> 00:24:05,790
+And it works. So there's a bug in the software, but apart from that, this is all 
+
+364
+00:24:05,840 --> 00:24:07,890
+working pretty well. 
+
+365
+00:24:07,990 --> 00:24:09,720
+we'd need to do a little bit of playing around with the code. I.
+
+366
+00:24:09,730 --> 00:24:14,720
+we're nearly through the list. We're up to Tetris here. Then we've got Donkey Kong 
+
+367
+00:24:14,750 --> 00:24:18,530
+and I believe there might be one other I need to do, but let's just head over to, 
+
+368
+00:24:18,830 --> 00:24:23,900
+can you describe the creation of the game word or, and we'll just change that to 
+
+369
+00:24:23,900 --> 00:24:24,590
+Tetris 
+
+370
+00:24:24,590 --> 00:24:29,870
+and that's going through and generating a new requirement spec for us. So the graphics 
+
+371
+00:24:29,870 --> 00:24:31,190
+are going to be blocks, 
+
+372
+00:24:31,190 --> 00:24:38,240
+Tetroaminos with different colors. We've got clear and easily distinguishable blocks, 
+
+373
+00:24:38,360 --> 00:24:42,320
+smooth animation for falling and moving. That's pretty cool. 
+
+374
+00:24:42,330 --> 00:24:45,490
+Standard sort of game elements that we've seen before. 
+
+375
+00:24:45,490 --> 00:24:47,340
+When a row is complete, 
+
+376
+00:24:47,360 --> 00:24:52,560
+filled in with all the blocks, it disappears and the player earns some points. Game 
+
+377
+00:24:52,560 --> 00:24:56,640
+continues until the blocks stack up to the top of the playing field. 
+
+378
+00:24:56,660 --> 00:25:03,590
+got the arrow keys going on, including space bar to drop a block instantly. So as 
+
+379
+00:25:03,710 --> 00:25:09,740
+per usual, just paste it in. Press go. So we have start of the game. Tetris Mandala 
+
+380
+00:25:09,760 --> 00:25:14,450
+Align. The pieces align your mind, and we've got the controls going on here at the 
+
+381
+00:25:14,450 --> 00:25:16,460
+moment. It's still generating the page. 
+
+382
+00:25:16,460 --> 00:25:20,870
+A little bit of an animation has kicked in, so we'll hit play. Whoa, that is fast. 
+
+383
+00:25:20,890 --> 00:25:25,360
+So I've just added, can you please slow down the blocks to a quarter of the speed 
+
+384
+00:25:25,390 --> 00:25:29,560
+and we'll try pressing play. And now what? Is it too slow? 
+
+385
+00:25:29,560 --> 00:25:35,250
+Oh, yep. Okay. It's working but it's too slow. But at least we can test it down. 
+
+386
+00:25:35,250 --> 00:25:36,360
+Arrow should take it 
+
+387
+00:25:36,360 --> 00:25:40,570
+space bar to drop it to the bottom. Okay. Move it over Space bar. 
+
+388
+00:25:40,590 --> 00:25:43,820
+Press the up arrow. I think what we can do 
+
+389
+00:25:43,830 --> 00:25:47,390
+is maybe drop that in here. We can do that. 
+
+390
+00:25:47,390 --> 00:25:51,280
+And the next one comes through. How are we going to test at this? 
+
+391
+00:25:51,290 --> 00:25:55,420
+And hopefully we will see two lines disappear with this one. 
+
+392
+00:25:55,430 --> 00:25:56,720
+And they did. 
+
+393
+00:25:56,730 --> 00:26:01,790
+And the last bit to look at here is the score. It's currently a hundred, so as soon 
+
+394
+00:26:01,790 --> 00:26:04,340
+as this goes into place, it should change for us 
+
+395
+00:26:04,360 --> 00:26:09,720
+one 40. So the game's working straight away. There is an issue with the speed. Firstly, 
+
+396
+00:26:09,720 --> 00:26:15,300
+it was too fast, too slow. We can change that pretty easily. But very simple to create 
+
+397
+00:26:15,300 --> 00:26:16,350
+the game of Tetris.
+
+398
+00:26:16,360 --> 00:26:21,790
+So far, we've built eight games pretty quickly with WebSim.ai. From the list that 
+
+399
+00:26:21,790 --> 00:26:26,590
+we've got here, we've done everything except for Space Invaders, and I was going 
+
+400
+00:26:26,590 --> 00:26:31,960
+to work on Donkey Kong, and one of the problems I found when I looked at it was that 
+
+401
+00:26:31,960 --> 00:26:36,910
+it came out looking pretty poor, and I couldn't get the gameplay to work in an easy 
+
+402
+00:26:36,910 --> 00:26:41,920
+fashion. So I thought, why don't I change tact and go off on a new direction now, 
+
+403
+00:26:41,920 --> 00:26:46,750
+because I do a lot of work with AI agent frameworks, I thought, could there be a 
+
+404
+00:26:46,750 --> 00:26:51,340
+couple of games to make agent frameworks a lot easier to use?
+
+405
+00:26:51,360 --> 00:26:56,330
+So the game idea I'm thinking of is Influencer Village. As a YouTuber, I need to 
+
+406
+00:26:56,330 --> 00:27:01,520
+create YouTube titles and descriptions. Sometimes a LinkedIn post or a tweet, and 
+
+407
+00:27:01,520 --> 00:27:03,380
+I use GPTs to solve the problem. 
+
+408
+00:27:03,390 --> 00:27:08,790
+we make a game that solves this in a more visual aspect? So I started designing some 
+
+409
+00:27:08,820 --> 00:27:15,420
+graphics in Dali three. We've got pixel art style here and low poly style and veto 
+
+410
+00:27:15,420 --> 00:27:22,350
+graphics, as well as top down 3D. So the image I think I'm gonna go with is this, 
+
+411
+00:27:22,410 --> 00:27:24,480
+and we'll develop a requirement spec.
+
+412
+00:27:24,490 --> 00:27:26,980
+Now through a series of prompts. We've got this 
+
+413
+00:27:26,990 --> 00:27:31,540
+Influencer Village who play a YouTube influencer navigating through a Village to 
+
+414
+00:27:31,540 --> 00:27:37,900
+complete necessary tasks for publishing a YouTube video. Each villager has a role 
+
+415
+00:27:37,900 --> 00:27:43,960
+like keyword researcher, and these are essentially going to be GPT agents that do 
+
+416
+00:27:43,960 --> 00:27:48,280
+individual tasks. The way I think it'll work is that I'll move around from villager 
+
+417
+00:27:48,280 --> 00:27:53,740
+to villager using the arrow keys, and when you encounter someone, it says, can you 
+
+418
+00:27:53,750 --> 00:27:57,460
+help me with a task? And sure, what task would you like help with? 
+
+419
+00:27:57,460 --> 00:28:03,600
+these are the inputs I need. So something like a YouTube prescription needs a transcript 
+
+420
+00:28:03,600 --> 00:28:05,100
+to write it correctly. 
+
+421
+00:28:05,130 --> 00:28:09,960
+Now, because I'm going to use an image as the background, I need to know the coordinates. 
+
+422
+00:28:09,960 --> 00:28:14,670
+So I've also asked it to put in a debug option so that I can turn it on and off to 
+
+423
+00:28:14,670 --> 00:28:17,490
+see what the coordinates are for each villager 
+
+424
+00:28:17,490 --> 00:28:22,260
+got a bunch of other general sorts of information, but the last area is also the 
+
+425
+00:28:22,260 --> 00:28:26,670
+list of the villagers and their roles and the sort of input that's needed. 
+
+426
+00:28:26,690 --> 00:28:32,460
+Let's head over to WebSim.ai, and we've pasted in our technical requirements, and 
+
+427
+00:28:32,460 --> 00:28:34,110
+we'll just start it off 
+
+428
+00:28:34,130 --> 00:28:38,770
+and things are starting to render right now. We've got the positions where the villages 
+
+429
+00:28:38,770 --> 00:28:43,330
+will be, so hopefully we'll get a little bit of a debug screen here. I 
+
+430
+00:28:43,330 --> 00:28:48,390
+updated the prompt with where is the debug chart and the controls, and now we have 
+
+431
+00:28:48,390 --> 00:28:48,930
+a debug 
+
+432
+00:28:48,960 --> 00:28:54,100
+chart that we can turn on and off. Unfortunately, it's also one of the arrow keys 
+
+433
+00:28:54,100 --> 00:28:58,750
+in this case, the right arrow key, so we could change that, but I'm not so concerned. 
+
+434
+00:28:58,750 --> 00:29:03,700
+I'm more interested in knowing these numbers for when we put a image behind the background. 
+
+435
+00:29:03,730 --> 00:29:08,480
+I'm also looking to add, when I move to a villager, I do not get an interaction and 
+
+436
+00:29:08,480 --> 00:29:13,880
+we'll just put the information that we had in our requirements document and see if 
+
+437
+00:29:13,890 --> 00:29:15,230
+this improves things. 
+
+438
+00:29:15,260 --> 00:29:19,880
+And now we've got this E two in interact with the villager, so if we move over, we've 
+
+439
+00:29:19,880 --> 00:29:25,820
+got press E to interact with the title creator, we'll press E, and we've got information 
+
+440
+00:29:25,820 --> 00:29:30,860
+showing up that would be a Q&A with that particular villager. So I think let's go 
+
+441
+00:29:30,870 --> 00:29:33,260
+and create a graphic and make it in the background.
+
+442
+00:29:33,330 --> 00:29:37,380
+looking through the graphics we've got here, my favorite would be this one, but I 
+
+443
+00:29:37,380 --> 00:29:41,850
+think the one that'll fit the shape the best might be this one. So I'm just gonna 
+
+444
+00:29:41,850 --> 00:29:43,110
+click download on that. 
+
+445
+00:29:43,130 --> 00:29:47,870
+to keep the hosting simple, I'm just gonna drag it into this product called Post 
+
+446
+00:29:47,930 --> 00:29:53,390
+image. And what that'll do is upload the image and make it available as public URL. 
+
+447
+00:29:53,570 --> 00:29:55,760
+We should be able to use that from our application. 
+
+448
+00:29:55,790 --> 00:30:00,740
+here's the image and we'll go and click on the direct link and head over to here 
+
+449
+00:30:00,750 --> 00:30:05,180
+where I've started. Can you add the following image as a background and we'll just 
+
+450
+00:30:05,190 --> 00:30:06,260
+paste that in 
+
+451
+00:30:06,290 --> 00:30:10,200
+and click go. And we're getting a regeneration at the moment. 
+
+452
+00:30:10,230 --> 00:30:17,250
+there we go. So in theory, we should be able to move up to different people, interact 
+
+453
+00:30:17,250 --> 00:30:21,720
+with the title creator. We get the word title here. Now this image is generated in 
+
+454
+00:30:21,720 --> 00:30:27,30
+Dali three, so it's got a whole lot of text issues, but it's still a working idea 
+
+455
+00:30:27,240 --> 00:30:31,140
+transcript converter, which would be the transcription manager right here. 
+
+456
+00:30:31,160 --> 00:30:35,180
+Now I mentioned that the coordinates could be off. So we've got this coordinate here 
+
+457
+00:30:35,180 --> 00:30:38,390
+and we can press the D and notice that 
+
+458
+00:30:38,390 --> 00:30:44,730
+the social media manager, which is down here, is a hundred pixels to the right and 
+
+459
+00:30:44,730 --> 00:30:50,790
+500 pixels down. And what we might wanna do is move it to 250 pixels to the right 
+
+460
+00:30:50,800 --> 00:30:56,100
+or something like that. Now let's go and download this application actually and do 
+
+461
+00:30:56,100 --> 00:30:57,990
+that manually. So we'll 
+
+462
+00:30:57,990 --> 00:31:01,480
+click on the download button that's just here, and we've got the HTML on our computer 
+
+463
+00:31:01,660 --> 00:31:03,220
+and we'll open it in vs code. 
+
+464
+00:31:03,230 --> 00:31:09,170
+So I've got the game running locally from this JavaScript and HTML file that's going 
+
+465
+00:31:09,170 --> 00:31:14,300
+on here. So we can see the JavaScript around the positioning of the different villages 
+
+466
+00:31:14,300 --> 00:31:19,370
+and we can see the image that we just uploaded being read into the background. So 
+
+467
+00:31:19,370 --> 00:31:24,980
+all of this we can alter. So I'll just press D and we've now got our coordinates. 
+
+468
+00:31:24,980 --> 00:31:30,830
+And if we move around to different places, this says social media manager on the 
+
+469
+00:31:30,880 --> 00:31:36,140
+villager profile, but here it says transcript converter. So that's the wrong position. 
+
+470
+00:31:36,350 --> 00:31:41,960
+And the one over here, which I think is the social media manager, is what we pretty 
+
+471
+00:31:41,960 --> 00:31:44,960
+much want over here, maybe about that position. 
+
+472
+00:31:44,960 --> 00:31:50,720
+go and change this value to two 50 and this one will change to five 80. And we'll 
+
+473
+00:31:50,720 --> 00:31:51,470
+hit save 
+
+474
+00:31:51,490 --> 00:31:56,330
+page refreshed. The numbers should be different down here they are. Let's just move 
+
+475
+00:31:56,330 --> 00:32:01,550
+to the right and this will be the social media manager, which is great. This will 
+
+476
+00:32:01,550 --> 00:32:05,660
+be the transcript converter. And let's test the E and see what we get. 
+
+477
+00:32:05,660 --> 00:32:05,900
+So 
+
+478
+00:32:05,930 --> 00:32:06,590
+we'll just press 
+
+479
+00:32:06,590 --> 00:32:09,330
+Sure I can help you with a LinkedIn post conversion.
+
+480
+00:32:09,360 --> 00:32:14,370
+Now where I personally see a game like this being really useful in the sort of applications 
+
+481
+00:32:14,430 --> 00:32:20,370
+I build is as a new interface to the GPT workflow tool that I've been developing. 
+
+482
+00:32:20,390 --> 00:32:26,190
+So the idea of the tool is to isolate the different GPTs that you would call into 
+
+483
+00:32:26,490 --> 00:32:32,940
+a sequence or a series. And last week using WebSim.ai, I developed this landing page 
+
+484
+00:32:33,990 --> 00:32:39,990
+where you could easily see the different phases of A GPT workflow and navigate to 
+
+485
+00:32:39,990 --> 00:32:39,360
+them. 
+
+486
+00:32:39,390 --> 00:32:44,760
+so what we could do now is take a screen like this, put it in the location that this 
+
+487
+00:32:44,760 --> 00:32:50,640
+one was going, and instead navigate around. And when you press E to interact, you 
+
+488
+00:32:50,640 --> 00:32:55,530
+can start communicating with the GPT in a more gamified approach.
+
+489
+00:32:55,560 --> 00:33:00,480
+The last game that I wanna develop here would be a YouTube script automation factory. 
+
+490
+00:33:00,600 --> 00:33:05,160
+And it'll work in a similar fashion to the influencer village. But rather than moving 
+
+491
+00:33:05,160 --> 00:33:10,590
+around different areas of the village, you would just move sequentially down a production 
+
+492
+00:33:10,590 --> 00:33:12,570
+line to build a YouTube script. 
+
+493
+00:33:12,590 --> 00:33:18,930
+what I've done is developed a few images that I like, and I'm either gonna go with 
+
+494
+00:33:18,930 --> 00:33:22,590
+the one here, or probably this one. There are others that have been developed over 
+
+495
+00:33:22,590 --> 00:33:23,100
+time, 
+
+496
+00:33:23,130 --> 00:33:27,320
+and the way I see it working is that you would start from a type of video that you 
+
+497
+00:33:27,320 --> 00:33:32,300
+want to create. You'd be doing things like script writing, quality assurance, getting 
+
+498
+00:33:32,300 --> 00:33:37,100
+a basic fact sheet. Now this is something I do all the time. And so when I'm working 
+
+499
+00:33:37,100 --> 00:33:42,530
+with a GPT workflow from basic ideas, selecting an idea, building a fact sheet about 
+
+500
+00:33:42,530 --> 00:33:48,920
+a video, I want to do video ideas. And I have the ability to navigate to each of 
+
+501
+00:33:48,920 --> 00:33:55,130
+these different ideas. And I use this for creating actual videos on a faceless channel 
+
+502
+00:33:55,130 --> 00:33:57,710
+that I'm developing now. The channel's only a month old. 
+
+503
+00:33:57,730 --> 00:34:03,720
+so started off with this Ideogram video, but basically every script that you've got 
+
+504
+00:34:03,730 --> 00:34:09,750
+here has been generated using a simple GPT workflow. And funnily enough, one of my 
+
+505
+00:34:09,750 --> 00:34:16,290
+first videos took off 700 views a couple of days ago. So what I'd like to do is develop 
+
+506
+00:34:16,440 --> 00:34:21,270
+a requirement spec. And now that I look at it, I think this is the image we'll use 
+
+507
+00:34:21,280 --> 00:34:27,570
+as a background, and we'll see if we can automate or gamify the creation of YouTube 
+
+508
+00:34:27,570 --> 00:34:28,200
+scripts.
+
+509
+00:34:28,290 --> 00:34:33,240
+we'll start off by downloading an image. Now this is the image I like the most, but 
+
+510
+00:34:33,270 --> 00:34:37,800
+from a straight line perspective, which will be easy for the coordinates, we'll work 
+
+511
+00:34:37,810 --> 00:34:42,810
+with this one instead. So we'll just click download within DALE-3 here. 
+
+512
+00:34:42,830 --> 00:34:47,990
+I've headed over to post image and I've uploaded the image we've got and we're just 
+
+513
+00:34:48,40 --> 00:34:49,190
+copying the URL. 
+
+514
+00:34:49,190 --> 00:34:53,220
+Here's the requirements document for the YouTube Automation Factory. 
+
+515
+00:34:53,230 --> 00:34:58,100
+we have the, in the YouTube automation factory, your character is navigating through 
+
+516
+00:34:58,100 --> 00:35:00,380
+an assembly line, completing tasks, 
+
+517
+00:35:00,390 --> 00:35:03,730
+necessary for creating YouTube videos. 
+
+518
+00:35:03,990 --> 00:35:06,960
+then we've got a list of stations within the factory. Now, they're not the order 
+
+519
+00:35:06,960 --> 00:35:12,390
+I do them, but this is just the idea of creating the game. From there, we've also 
+
+520
+00:35:12,390 --> 00:35:17,190
+got the image and we'll make sure that we've got the proper URL when we include it 
+
+521
+00:35:17,490 --> 00:35:18,690
+in the requirement spec. 
+
+522
+00:35:18,690 --> 00:35:24,930
+We got the debugged feature that we did before we, so that we can align the stations 
+
+523
+00:35:24,930 --> 00:35:26,100
+with the coordinates. 
+
+524
+00:35:26,130 --> 00:35:31,120
+this time I'm just keeping the characters movement to left and right keys. We down 
+
+525
+00:35:31,120 --> 00:35:33,970
+the bottom, we've also got a list of stations that we can work with. 
+
+526
+00:35:33,990 --> 00:35:38,140
+head over to WebSim.ai, we can just take all the information we've got, 
+
+527
+00:35:38,160 --> 00:35:41,940
+We've got it generating all the HTML and CSS behind the scenes. 
+
+528
+00:35:41,960 --> 00:35:44,170
+we've got the background has kicked in 
+
+529
+00:35:44,190 --> 00:35:49,890
+and we've got the stations. Now, obviously they would need to go down in this angular 
+
+530
+00:35:49,890 --> 00:35:50,520
+format, 
+
+531
+00:35:50,530 --> 00:35:55,600
+and the D for the debug is working so we can see all the 
+
+532
+00:35:55,630 --> 00:35:58,430
+coordinates. So they look a little odd. I don't know, 
+
+533
+00:35:58,460 --> 00:36:02,720
+Maybe it's on just one vertical access. And so these are just the positions left 
+
+534
+00:36:02,720 --> 00:36:07,850
+and right. So we're probably gonna need to put in a Y and an X coordinate. Now let's 
+
+535
+00:36:07,850 --> 00:36:10,100
+just see if the arrows are working 
+
+536
+00:36:10,130 --> 00:36:10,880
+and it looks like 
+
+537
+00:36:10,890 --> 00:36:16,360
+And next, can I help you with a fact sheet? And then there's sort of secondary question 
+
+538
+00:36:16,240 --> 00:36:20,230
+coming up. So I need the expanded fact sheet from which to work on. 
+
+539
+00:36:20,260 --> 00:36:24,510
+So I'm just gonna bookmark this last one. And all the games that I've been building 
+
+540
+00:36:24,540 --> 00:36:28,680
+the, I got the bookmarks in the YouTube description below. 
+
+541
+00:36:28,690 --> 00:36:31,600
+we'll do right now is just download this to the.
+
+542
+00:36:31,630 --> 00:36:36,180
+So here's A-H-T-M-L that we've got for the page that you're looking at and everything 
+
+543
+00:36:36,180 --> 00:36:40,920
+works okay, but there are two problems. One is that it's only got a position coordinate, 
+
+544
+00:36:40,920 --> 00:36:46,500
+so it doesn't have a Y access that we can configure. And the updating of the character 
+
+545
+00:36:46,500 --> 00:36:52,830
+position also does not actually follow the elements or the stations on screen. 
+
+546
+00:36:52,830 --> 00:36:57,480
+is added? Two prompts. Can you modify it so that the Y coordinate is configurable? 
+
+547
+00:36:57,490 --> 00:37:00,490
+I also want the person to move to the next station. 
+
+548
+00:37:00,490 --> 00:37:02,990
+let's have a look at the code comparison. 
+
+549
+00:37:02,990 --> 00:37:06,690
+here we have the old on the left and the right is the new. And you can see that the 
+
+550
+00:37:06,690 --> 00:37:09,330
+coordinates are fixed on the old version. 
+
+551
+00:37:09,360 --> 00:37:13,740
+And in the JavaScript configuration, we now have an external Y coordinate rather 
+
+552
+00:37:13,740 --> 00:37:19,470
+than position. Also, the coordinates are being used when calculating locations. So 
+
+553
+00:37:19,470 --> 00:37:20,610
+let's see how this looks.
+
+554
+00:37:20,630 --> 00:37:25,440
+So here's our YouTube automation factory, and we've got in the top right hand corner, 
+
+555
+00:37:25,440 --> 00:37:30,480
+the task completed zero seven. If we press the D for debug, we should be able to 
+
+556
+00:37:30,480 --> 00:37:35,850
+see the coordinates for the different stations in the factory. And if we use the 
+
+557
+00:37:35,850 --> 00:37:40,620
+right keyboard, we should be able move forward and see, hello. You can help me with 
+
+558
+00:37:40,620 --> 00:37:46,260
+determining the video type and we just keep moving through the different tasks all 
+
+559
+00:37:46,260 --> 00:37:46,470
+the way to 
+
+560
+00:37:46,490 --> 00:37:50,810
+The best thing about this workflow is like most of 'em, it takes about 10 minutes 
+
+561
+00:37:50,810 --> 00:37:53,240
+to recreate this particular application.
+
+562
+00:37:53,260 --> 00:37:59,330
+So that was building 10 games with WebSim.ai. Eight of them were classics. Two of 
+
+563
+00:37:59,330 --> 00:38:04,190
+them were the sorts of games or workflows that I might want in my GPT workflow engine. 
+
+564
+00:38:04,580 --> 00:38:09,740
+So if you are interested in ChatGPT or Prompt Engineering or different AI tools, 
+
+565
+00:38:09,890 --> 00:38:14,330
+then please I can subscribe or leave a comment down below and the video over here 
+
+566
+00:38:14,330 --> 00:38:15,140
+on the side 
+
+567
+00:38:15,160 --> 00:38:21,460
+point you to the WebSim.ai demonstration that I did, building a component for A GPT 
+
+568
+00:38:21,460 --> 00:38:21,850
+workflow.

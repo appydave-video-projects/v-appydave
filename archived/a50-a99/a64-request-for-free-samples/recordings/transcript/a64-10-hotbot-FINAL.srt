@@ -1,0 +1,952 @@
+1
+00:00:00,740 --> 00:00:01,340
+<u>G'day</u> I'm Appy Dave and last year I did a video on mid-journey versus Dali 3 that
+
+2
+00:00:01,340 --> 00:00:01,600
+G'day<u> I'm</u> Appy Dave and last year I did a video on mid-journey versus Dali 3 that
+
+3
+00:00:01,600 --> 00:00:01,820
+G'day I'm<u> Appy</u> Dave and last year I did a video on mid-journey versus Dali 3 that
+
+4
+00:00:01,820 --> 00:00:02,040
+G'day I'm Appy<u> Dave</u> and last year I did a video on mid-journey versus Dali 3 that
+
+5
+00:00:02,040 --> 00:00:02,420
+G'day I'm Appy Dave<u> and</u> last year I did a video on mid-journey versus Dali 3 that
+
+6
+00:00:02,420 --> 00:00:02,640
+G'day I'm Appy Dave and<u> last</u> year I did a video on mid-journey versus Dali 3 that
+
+7
+00:00:02,640 --> 00:00:02,840
+G'day I'm Appy Dave and last<u> year</u> I did a video on mid-journey versus Dali 3 that
+
+8
+00:00:02,840 --> 00:00:03,000
+G'day I'm Appy Dave and last year<u> I</u> did a video on mid-journey versus Dali 3 that
+
+9
+00:00:03,000 --> 00:00:03,080
+G'day I'm Appy Dave and last year I<u> did</u> a video on mid-journey versus Dali 3 that
+
+10
+00:00:03,080 --> 00:00:03,200
+G'day I'm Appy Dave and last year I did<u> a</u> video on mid-journey versus Dali 3 that
+
+11
+00:00:03,200 --> 00:00:03,440
+G'day I'm Appy Dave and last year I did a<u> video</u> on mid-journey versus Dali 3 that
+
+12
+00:00:03,440 --> 00:00:03,820
+G'day I'm Appy Dave and last year I did a video<u> on</u> mid-journey versus Dali 3 that
+
+13
+00:00:03,820 --> 00:00:04,080
+G'day I'm Appy Dave and last year I did a video on<u> mid</u>-journey versus Dali 3 that
+
+14
+00:00:04,080 --> 00:00:04,360
+G'day I'm Appy Dave and last year I did a video on mid<u>-journey</u> versus Dali 3 that
+
+15
+00:00:04,360 --> 00:00:04,660
+G'day I'm Appy Dave and last year I did a video on mid-journey<u> versus</u> Dali 3 that
+
+16
+00:00:04,660 --> 00:00:05,060
+G'day I'm Appy Dave and last year I did a video on mid-journey versus<u> Dali</u> 3 that
+
+17
+00:00:05,060 --> 00:00:05,420
+G'day I'm Appy Dave and last year I did a video on mid-journey versus Dali<u> 3</u> that
+
+18
+00:00:05,420 --> 00:00:05,700
+G'day I'm Appy Dave and last year I did a video on mid-journey versus Dali 3<u> that</u>
+
+19
+00:00:05,700 --> 00:00:05,940
+<u>got</u> 21,000 views. This year I'm focusing on all the other sorts of image
+
+20
+00:00:05,940 --> 00:00:06,460
+got<u> 21</u>,000 views. This year I'm focusing on all the other sorts of image
+
+21
+00:00:06,460 --> 00:00:06,980
+got 21<u>,000</u> views. This year I'm focusing on all the other sorts of image
+
+22
+00:00:06,980 --> 00:00:07,360
+got 21,000<u> views.</u> This year I'm focusing on all the other sorts of image
+
+23
+00:00:07,360 --> 00:00:07,920
+got 21,000 views. This year I'm focusing on all the other sorts of image
+
+24
+00:00:07,920 --> 00:00:08,100
+got 21,000 views.<u> This</u> year I'm focusing on all the other sorts of image
+
+25
+00:00:08,100 --> 00:00:08,380
+got 21,000 views. This<u> year</u> I'm focusing on all the other sorts of image
+
+26
+00:00:08,380 --> 00:00:08,640
+got 21,000 views. This year<u> I'm</u> focusing on all the other sorts of image
+
+27
+00:00:08,640 --> 00:00:08,960
+got 21,000 views. This year I'm<u> focusing</u> on all the other sorts of image
+
+28
+00:00:08,960 --> 00:00:09,440
+got 21,000 views. This year I'm focusing<u> on</u> all the other sorts of image
+
+29
+00:00:09,440 --> 00:00:09,700
+got 21,000 views. This year I'm focusing on<u> all</u> the other sorts of image
+
+30
+00:00:09,700 --> 00:00:09,900
+got 21,000 views. This year I'm focusing on all<u> the</u> other sorts of image
+
+31
+00:00:09,900 --> 00:00:10,280
+got 21,000 views. This year I'm focusing on all the<u> other</u> sorts of image
+
+32
+00:00:10,280 --> 00:00:10,620
+got 21,000 views. This year I'm focusing on all the other<u> sorts</u> of image
+
+33
+00:00:10,620 --> 00:00:10,880
+got 21,000 views. This year I'm focusing on all the other sorts<u> of</u> image
+
+34
+00:00:10,880 --> 00:00:11,180
+got 21,000 views. This year I'm focusing on all the other sorts of<u> image</u>
+
+35
+00:00:11,180 --> 00:00:11,580
+<u>generation</u> tools such as Hotpot and currently I've just done a video on
+
+36
+00:00:11,580 --> 00:00:12,200
+generation<u> tools</u> such as Hotpot and currently I've just done a video on
+
+37
+00:00:12,200 --> 00:00:12,540
+generation tools<u> such</u> as Hotpot and currently I've just done a video on
+
+38
+00:00:12,540 --> 00:00:12,860
+generation tools such<u> as</u> Hotpot and currently I've just done a video on
+
+39
+00:00:12,860 --> 00:00:13,680
+generation tools such as<u> Hotpot</u> and currently I've just done a video on
+
+40
+00:00:13,680 --> 00:00:14,420
+generation tools such as Hotpot<u> and</u> currently I've just done a video on
+
+41
+00:00:14,420 --> 00:00:15,120
+generation tools such as Hotpot and<u> currently</u> I've just done a video on
+
+42
+00:00:15,120 --> 00:00:15,680
+generation tools such as Hotpot and currently<u> I've</u> just done a video on
+
+43
+00:00:15,680 --> 00:00:15,940
+generation tools such as Hotpot and currently I've<u> just</u> done a video on
+
+44
+00:00:15,940 --> 00:00:16,280
+generation tools such as Hotpot and currently I've just<u> done</u> a video on
+
+45
+00:00:16,280 --> 00:00:16,480
+generation tools such as Hotpot and currently I've just done<u> a</u> video on
+
+46
+00:00:16,480 --> 00:00:16,880
+generation tools such as Hotpot and currently I've just done a<u> video</u> on
+
+47
+00:00:16,880 --> 00:00:17,400
+generation tools such as Hotpot and currently I've just done a video<u> on</u>
+
+48
+00:00:17,400 --> 00:00:17,920
+<u>16</u> competitors to mid-journey. Now I also have another channel called AITLDR
+
+49
+00:00:17,920 --> 00:00:18,540
+16<u> competitors</u> to mid-journey. Now I also have another channel called AITLDR
+
+50
+00:00:18,540 --> 00:00:19,060
+16 competitors<u> to</u> mid-journey. Now I also have another channel called AITLDR
+
+51
+00:00:19,060 --> 00:00:19,240
+16 competitors to<u> mid</u>-journey. Now I also have another channel called AITLDR
+
+52
+00:00:19,240 --> 00:00:19,660
+16 competitors to mid<u>-journey.</u> Now I also have another channel called AITLDR
+
+53
+00:00:19,660 --> 00:00:19,940
+16 competitors to mid-journey. Now I also have another channel called AITLDR
+
+54
+00:00:19,940 --> 00:00:20,100
+16 competitors to mid-journey.<u> Now</u> I also have another channel called AITLDR
+
+55
+00:00:20,100 --> 00:00:20,220
+16 competitors to mid-journey. Now<u> I</u> also have another channel called AITLDR
+
+56
+00:00:20,220 --> 00:00:20,440
+16 competitors to mid-journey. Now I<u> also</u> have another channel called AITLDR
+
+57
+00:00:20,440 --> 00:00:20,620
+16 competitors to mid-journey. Now I also<u> have</u> another channel called AITLDR
+
+58
+00:00:20,620 --> 00:00:20,840
+16 competitors to mid-journey. Now I also have<u> another</u> channel called AITLDR
+
+59
+00:00:20,840 --> 00:00:21,240
+16 competitors to mid-journey. Now I also have another<u> channel</u> called AITLDR
+
+60
+00:00:21,240 --> 00:00:21,940
+16 competitors to mid-journey. Now I also have another channel<u> called</u> AITLDR
+
+61
+00:00:21,940 --> 00:00:23,500
+16 competitors to mid-journey. Now I also have another channel called<u> AITLDR</u>
+
+62
+00:00:23,500 --> 00:00:23,980
+<u>which</u> is a faceless channel and on that channel I go in and look at these
+
+63
+00:00:23,980 --> 00:00:24,320
+which<u> is</u> a faceless channel and on that channel I go in and look at these
+
+64
+00:00:24,320 --> 00:00:24,500
+which is<u> a</u> faceless channel and on that channel I go in and look at these
+
+65
+00:00:24,500 --> 00:00:24,940
+which is a<u> faceless</u> channel and on that channel I go in and look at these
+
+66
+00:00:24,940 --> 00:00:25,580
+which is a faceless<u> channel</u> and on that channel I go in and look at these
+
+67
+00:00:25,580 --> 00:00:26,200
+which is a faceless channel<u> and</u> on that channel I go in and look at these
+
+68
+00:00:26,200 --> 00:00:26,360
+which is a faceless channel and<u> on</u> that channel I go in and look at these
+
+69
+00:00:26,360 --> 00:00:26,500
+which is a faceless channel and on<u> that</u> channel I go in and look at these
+
+70
+00:00:26,500 --> 00:00:26,840
+which is a faceless channel and on that<u> channel</u> I go in and look at these
+
+71
+00:00:26,840 --> 00:00:27,080
+which is a faceless channel and on that channel<u> I</u> go in and look at these
+
+72
+00:00:27,080 --> 00:00:27,340
+which is a faceless channel and on that channel I<u> go</u> in and look at these
+
+73
+00:00:27,340 --> 00:00:27,540
+which is a faceless channel and on that channel I go<u> in</u> and look at these
+
+74
+00:00:27,540 --> 00:00:27,680
+which is a faceless channel and on that channel I go in<u> and</u> look at these
+
+75
+00:00:27,680 --> 00:00:27,920
+which is a faceless channel and on that channel I go in and<u> look</u> at these
+
+76
+00:00:27,920 --> 00:00:28,060
+which is a faceless channel and on that channel I go in and look<u> at</u> these
+
+77
+00:00:28,060 --> 00:00:28,300
+which is a faceless channel and on that channel I go in and look at<u> these</u>
+
+78
+00:00:28,300 --> 00:00:28,800
+<u>individual</u> tools specifically for two to three minutes. Now what I'm interested
+
+79
+00:00:28,800 --> 00:00:29,400
+individual<u> tools</u> specifically for two to three minutes. Now what I'm interested
+
+80
+00:00:29,400 --> 00:00:30,580
+individual tools<u> specifically</u> for two to three minutes. Now what I'm interested
+
+81
+00:00:30,580 --> 00:00:31,140
+individual tools specifically<u> for</u> two to three minutes. Now what I'm interested
+
+82
+00:00:31,140 --> 00:00:31,340
+individual tools specifically for<u> two</u> to three minutes. Now what I'm interested
+
+83
+00:00:31,340 --> 00:00:31,460
+individual tools specifically for two<u> to</u> three minutes. Now what I'm interested
+
+84
+00:00:31,460 --> 00:00:31,740
+individual tools specifically for two to<u> three</u> minutes. Now what I'm interested
+
+85
+00:00:31,740 --> 00:00:32,200
+individual tools specifically for two to three<u> minutes.</u> Now what I'm interested
+
+86
+00:00:32,200 --> 00:00:33,360
+individual tools specifically for two to three minutes. Now what I'm interested
+
+87
+00:00:33,360 --> 00:00:33,700
+individual tools specifically for two to three minutes.<u> Now</u> what I'm interested
+
+88
+00:00:33,700 --> 00:00:34,000
+individual tools specifically for two to three minutes. Now<u> what</u> I'm interested
+
+89
+00:00:34,000 --> 00:00:34,320
+individual tools specifically for two to three minutes. Now what<u> I'm</u> interested
+
+90
+00:00:34,320 --> 00:00:34,700
+individual tools specifically for two to three minutes. Now what I'm<u> interested</u>
+
+91
+00:00:34,700 --> 00:00:35,140
+<u>in</u> doing is showcasing Hotpot and basically with the video I just did on
+
+92
+00:00:35,140 --> 00:00:35,420
+in<u> doing</u> is showcasing Hotpot and basically with the video I just did on
+
+93
+00:00:35,420 --> 00:00:35,880
+in doing<u> is</u> showcasing Hotpot and basically with the video I just did on
+
+94
+00:00:35,880 --> 00:00:36,980
+in doing is<u> showcasing</u> Hotpot and basically with the video I just did on
+
+95
+00:00:36,980 --> 00:00:38,160
+in doing is showcasing<u> Hotpot</u> and basically with the video I just did on
+
+96
+00:00:38,160 --> 00:00:39,120
+in doing is showcasing Hotpot<u> and</u> basically with the video I just did on
+
+97
+00:00:39,120 --> 00:00:40,000
+in doing is showcasing Hotpot and<u> basically</u> with the video I just did on
+
+98
+00:00:40,000 --> 00:00:40,560
+in doing is showcasing Hotpot and basically<u> with</u> the video I just did on
+
+99
+00:00:40,560 --> 00:00:40,820
+in doing is showcasing Hotpot and basically with<u> the</u> video I just did on
+
+100
+00:00:40,820 --> 00:00:41,080
+in doing is showcasing Hotpot and basically with the<u> video</u> I just did on
+
+101
+00:00:41,080 --> 00:00:41,280
+in doing is showcasing Hotpot and basically with the video<u> I</u> just did on
+
+102
+00:00:41,280 --> 00:00:41,660
+in doing is showcasing Hotpot and basically with the video I<u> just</u> did on
+
+103
+00:00:41,660 --> 00:00:42,120
+in doing is showcasing Hotpot and basically with the video I just<u> did</u> on
+
+104
+00:00:42,120 --> 00:00:42,500
+in doing is showcasing Hotpot and basically with the video I just did<u> on</u>
+
+105
+00:00:42,500 --> 00:00:42,760
+<u>mid</u>-journey I was testing these individual prompts against mid-journey but
+
+106
+00:00:42,760 --> 00:00:43,160
+mid<u>-journey</u> I was testing these individual prompts against mid-journey but
+
+107
+00:00:43,160 --> 00:00:43,400
+mid-journey<u> I</u> was testing these individual prompts against mid-journey but
+
+108
+00:00:43,400 --> 00:00:43,580
+mid-journey I<u> was</u> testing these individual prompts against mid-journey but
+
+109
+00:00:43,580 --> 00:00:44,180
+mid-journey I was<u> testing</u> these individual prompts against mid-journey but
+
+110
+00:00:44,180 --> 00:00:44,480
+mid-journey I was testing<u> these</u> individual prompts against mid-journey but
+
+111
+00:00:44,480 --> 00:00:45,040
+mid-journey I was testing these<u> individual</u> prompts against mid-journey but
+
+112
+00:00:45,040 --> 00:00:45,460
+mid-journey I was testing these individual<u> prompts</u> against mid-journey but
+
+113
+00:00:45,460 --> 00:00:45,920
+mid-journey I was testing these individual prompts<u> against</u> mid-journey but
+
+114
+00:00:45,920 --> 00:00:46,380
+mid-journey I was testing these individual prompts against<u> mid</u>-journey but
+
+115
+00:00:46,380 --> 00:00:46,760
+mid-journey I was testing these individual prompts against mid<u>-journey</u> but
+
+116
+00:00:46,760 --> 00:00:47,240
+mid-journey I was testing these individual prompts against mid-journey<u> but</u>
+
+117
+00:00:47,240 --> 00:00:47,400
+<u>one</u> of the things that I noticed as I went through this was that there are a
+
+118
+00:00:47,400 --> 00:00:47,500
+one<u> of</u> the things that I noticed as I went through this was that there are a
+
+119
+00:00:47,500 --> 00:00:47,560
+one of<u> the</u> things that I noticed as I went through this was that there are a
+
+120
+00:00:47,560 --> 00:00:47,720
+one of the<u> things</u> that I noticed as I went through this was that there are a
+
+121
+00:00:47,720 --> 00:00:48,040
+one of the things<u> that</u> I noticed as I went through this was that there are a
+
+122
+00:00:48,040 --> 00:00:48,280
+one of the things that<u> I</u> noticed as I went through this was that there are a
+
+123
+00:00:48,280 --> 00:00:48,640
+one of the things that I<u> noticed</u> as I went through this was that there are a
+
+124
+00:00:48,640 --> 00:00:49,120
+one of the things that I noticed<u> as</u> I went through this was that there are a
+
+125
+00:00:49,120 --> 00:00:49,300
+one of the things that I noticed as<u> I</u> went through this was that there are a
+
+126
+00:00:49,300 --> 00:00:49,660
+one of the things that I noticed as I<u> went</u> through this was that there are a
+
+127
+00:00:49,660 --> 00:00:49,900
+one of the things that I noticed as I went<u> through</u> this was that there are a
+
+128
+00:00:49,900 --> 00:00:50,180
+one of the things that I noticed as I went through<u> this</u> was that there are a
+
+129
+00:00:50,180 --> 00:00:50,360
+one of the things that I noticed as I went through this<u> was</u> that there are a
+
+130
+00:00:50,360 --> 00:00:50,700
+one of the things that I noticed as I went through this was<u> that</u> there are a
+
+131
+00:00:50,700 --> 00:00:50,860
+one of the things that I noticed as I went through this was that<u> there</u> are a
+
+132
+00:00:50,860 --> 00:00:50,960
+one of the things that I noticed as I went through this was that there<u> are</u> a
+
+133
+00:00:50,960 --> 00:00:51,040
+one of the things that I noticed as I went through this was that there are<u> a</u>
+
+134
+00:00:51,040 --> 00:00:51,160
+<u>lot</u> of other features within Hotpot so I'm looking to go a little bit deeper
+
+135
+00:00:51,160 --> 00:00:51,260
+lot<u> of</u> other features within Hotpot so I'm looking to go a little bit deeper
+
+136
+00:00:51,260 --> 00:00:51,420
+lot of<u> other</u> features within Hotpot so I'm looking to go a little bit deeper
+
+137
+00:00:51,420 --> 00:00:51,800
+lot of other<u> features</u> within Hotpot so I'm looking to go a little bit deeper
+
+138
+00:00:51,800 --> 00:00:52,360
+lot of other features<u> within</u> Hotpot so I'm looking to go a little bit deeper
+
+139
+00:00:52,360 --> 00:00:52,940
+lot of other features within<u> Hotpot</u> so I'm looking to go a little bit deeper
+
+140
+00:00:52,940 --> 00:00:53,580
+lot of other features within Hotpot<u> so</u> I'm looking to go a little bit deeper
+
+141
+00:00:53,580 --> 00:00:54,180
+lot of other features within Hotpot so<u> I'm</u> looking to go a little bit deeper
+
+142
+00:00:54,180 --> 00:00:54,420
+lot of other features within Hotpot so I'm<u> looking</u> to go a little bit deeper
+
+143
+00:00:54,420 --> 00:00:54,620
+lot of other features within Hotpot so I'm looking<u> to</u> go a little bit deeper
+
+144
+00:00:54,620 --> 00:00:54,800
+lot of other features within Hotpot so I'm looking to<u> go</u> a little bit deeper
+
+145
+00:00:54,800 --> 00:00:55,080
+lot of other features within Hotpot so I'm looking to go<u> a</u> little bit deeper
+
+146
+00:00:55,080 --> 00:00:55,200
+lot of other features within Hotpot so I'm looking to go a<u> little</u> bit deeper
+
+147
+00:00:55,200 --> 00:00:55,360
+lot of other features within Hotpot so I'm looking to go a little<u> bit</u> deeper
+
+148
+00:00:55,360 --> 00:00:55,880
+lot of other features within Hotpot so I'm looking to go a little bit<u> deeper</u>
+
+149
+00:00:55,880 --> 00:00:56,460
+<u>into</u> the tool and what I'm looking for is A is there something about this tool
+
+150
+00:00:56,460 --> 00:00:56,740
+into<u> the</u> tool and what I'm looking for is A is there something about this tool
+
+151
+00:00:56,740 --> 00:00:57,060
+into the<u> tool</u> and what I'm looking for is A is there something about this tool
+
+152
+00:00:57,060 --> 00:00:57,720
+into the tool<u> and</u> what I'm looking for is A is there something about this tool
+
+153
+00:00:57,720 --> 00:00:58,060
+into the tool and<u> what</u> I'm looking for is A is there something about this tool
+
+154
+00:00:58,060 --> 00:00:58,460
+into the tool and what<u> I'm</u> looking for is A is there something about this tool
+
+155
+00:00:58,460 --> 00:00:58,760
+into the tool and what I'm<u> looking</u> for is A is there something about this tool
+
+156
+00:00:58,760 --> 00:00:59,100
+into the tool and what I'm looking<u> for</u> is A is there something about this tool
+
+157
+00:00:59,100 --> 00:00:59,360
+into the tool and what I'm looking for<u> is</u> A is there something about this tool
+
+158
+00:00:59,360 --> 00:00:59,640
+into the tool and what I'm looking for is<u> A</u> is there something about this tool
+
+159
+00:00:59,640 --> 00:00:59,980
+into the tool and what I'm looking for is A<u> is</u> there something about this tool
+
+160
+00:00:59,980 --> 00:01:00,120
+into the tool and what I'm looking for is A is<u> there</u> something about this tool
+
+161
+00:01:00,120 --> 00:01:00,380
+into the tool and what I'm looking for is A is there<u> something</u> about this tool
+
+162
+00:01:00,380 --> 00:01:00,680
+into the tool and what I'm looking for is A is there something<u> about</u> this tool
+
+163
+00:01:00,680 --> 00:01:00,920
+into the tool and what I'm looking for is A is there something about<u> this</u> tool
+
+164
+00:01:00,920 --> 00:01:01,260
+into the tool and what I'm looking for is A is there something about this<u> tool</u>
+
+165
+00:01:01,260 --> 00:01:01,480
+<u>that</u> you would like someone to do a video on and B would you have access to
+
+166
+00:01:01,480 --> 00:01:01,640
+that<u> you</u> would like someone to do a video on and B would you have access to
+
+167
+00:01:01,640 --> 00:01:01,760
+that you<u> would</u> like someone to do a video on and B would you have access to
+
+168
+00:01:01,760 --> 00:01:02,020
+that you would<u> like</u> someone to do a video on and B would you have access to
+
+169
+00:01:02,020 --> 00:01:02,500
+that you would like<u> someone</u> to do a video on and B would you have access to
+
+170
+00:01:02,500 --> 00:01:02,940
+that you would like someone<u> to</u> do a video on and B would you have access to
+
+171
+00:01:02,940 --> 00:01:03,280
+that you would like someone to<u> do</u> a video on and B would you have access to
+
+172
+00:01:03,280 --> 00:01:03,400
+that you would like someone to do<u> a</u> video on and B would you have access to
+
+173
+00:01:03,400 --> 00:01:03,660
+that you would like someone to do a<u> video</u> on and B would you have access to
+
+174
+00:01:03,660 --> 00:01:04,000
+that you would like someone to do a video<u> on</u> and B would you have access to
+
+175
+00:01:04,000 --> 00:01:04,620
+that you would like someone to do a video on<u> and</u> B would you have access to
+
+176
+00:01:04,620 --> 00:01:05,000
+that you would like someone to do a video on and<u> B</u> would you have access to
+
+177
+00:01:05,000 --> 00:01:05,380
+that you would like someone to do a video on and B<u> would</u> you have access to
+
+178
+00:01:05,380 --> 00:01:05,540
+that you would like someone to do a video on and B would<u> you</u> have access to
+
+179
+00:01:05,540 --> 00:01:05,960
+that you would like someone to do a video on and B would you<u> have</u> access to
+
+180
+00:01:05,960 --> 00:01:06,980
+that you would like someone to do a video on and B would you have<u> access</u> to
+
+181
+00:01:06,980 --> 00:01:07,300
+that you would like someone to do a video on and B would you have access<u> to</u>
+
+182
+00:01:07,300 --> 00:01:07,660
+<u>premium</u> access to Hotpot that I can use for about a month so I can go deep into
+
+183
+00:01:07,660 --> 00:01:08,680
+premium<u> access</u> to Hotpot that I can use for about a month so I can go deep into
+
+184
+00:01:08,680 --> 00:01:09,120
+premium access<u> to</u> Hotpot that I can use for about a month so I can go deep into
+
+185
+00:01:09,120 --> 00:01:09,980
+premium access to<u> Hotpot</u> that I can use for about a month so I can go deep into
+
+186
+00:01:09,980 --> 00:01:10,240
+premium access to Hotpot<u> that</u> I can use for about a month so I can go deep into
+
+187
+00:01:10,240 --> 00:01:10,440
+premium access to Hotpot that<u> I</u> can use for about a month so I can go deep into
+
+188
+00:01:10,440 --> 00:01:10,620
+premium access to Hotpot that I<u> can</u> use for about a month so I can go deep into
+
+189
+00:01:10,620 --> 00:01:10,820
+premium access to Hotpot that I can<u> use</u> for about a month so I can go deep into
+
+190
+00:01:10,820 --> 00:01:11,060
+premium access to Hotpot that I can use<u> for</u> about a month so I can go deep into
+
+191
+00:01:11,060 --> 00:01:11,300
+premium access to Hotpot that I can use for<u> about</u> a month so I can go deep into
+
+192
+00:01:11,300 --> 00:01:11,400
+premium access to Hotpot that I can use for about<u> a</u> month so I can go deep into
+
+193
+00:01:11,400 --> 00:01:11,600
+premium access to Hotpot that I can use for about a<u> month</u> so I can go deep into
+
+194
+00:01:11,600 --> 00:01:11,880
+premium access to Hotpot that I can use for about a month<u> so</u> I can go deep into
+
+195
+00:01:11,880 --> 00:01:11,960
+premium access to Hotpot that I can use for about a month so<u> I</u> can go deep into
+
+196
+00:01:11,960 --> 00:01:12,080
+premium access to Hotpot that I can use for about a month so I<u> can</u> go deep into
+
+197
+00:01:12,080 --> 00:01:12,260
+premium access to Hotpot that I can use for about a month so I can<u> go</u> deep into
+
+198
+00:01:12,260 --> 00:01:12,780
+premium access to Hotpot that I can use for about a month so I can go<u> deep</u> into
+
+199
+00:01:12,780 --> 00:01:13,920
+premium access to Hotpot that I can use for about a month so I can go deep<u> into</u>
+
+200
+00:01:13,920 --> 00:01:14,220
+<u>the</u> capabilities and features of your tool. So if you can you can respond to
+
+201
+00:01:14,220 --> 00:01:14,800
+the<u> capabilities</u> and features of your tool. So if you can you can respond to
+
+202
+00:01:14,800 --> 00:01:15,240
+the capabilities<u> and</u> features of your tool. So if you can you can respond to
+
+203
+00:01:15,240 --> 00:01:15,580
+the capabilities and<u> features</u> of your tool. So if you can you can respond to
+
+204
+00:01:15,580 --> 00:01:15,940
+the capabilities and features<u> of</u> your tool. So if you can you can respond to
+
+205
+00:01:15,940 --> 00:01:16,060
+the capabilities and features of<u> your</u> tool. So if you can you can respond to
+
+206
+00:01:16,060 --> 00:01:16,360
+the capabilities and features of your<u> tool.</u> So if you can you can respond to
+
+207
+00:01:16,360 --> 00:01:16,740
+the capabilities and features of your tool. So if you can you can respond to
+
+208
+00:01:16,740 --> 00:01:17,080
+the capabilities and features of your tool.<u> So</u> if you can you can respond to
+
+209
+00:01:17,080 --> 00:01:17,480
+the capabilities and features of your tool. So<u> if</u> you can you can respond to
+
+210
+00:01:17,480 --> 00:01:17,660
+the capabilities and features of your tool. So if<u> you</u> can you can respond to
+
+211
+00:01:17,660 --> 00:01:17,980
+the capabilities and features of your tool. So if you<u> can</u> you can respond to
+
+212
+00:01:17,980 --> 00:01:18,360
+the capabilities and features of your tool. So if you can<u> you</u> can respond to
+
+213
+00:01:18,360 --> 00:01:18,500
+the capabilities and features of your tool. So if you can you<u> can</u> respond to
+
+214
+00:01:18,500 --> 00:01:18,820
+the capabilities and features of your tool. So if you can you can<u> respond</u> to
+
+215
+00:01:18,820 --> 00:01:19,320
+the capabilities and features of your tool. So if you can you can respond<u> to</u>
+
+216
+00:01:19,320 --> 00:01:19,900
+<u>daviday</u>.ideasman.com.au and hopefully we can have a relationship where I
+
+217
+00:01:19,900 --> 00:01:20,620
+daviday<u>.ideasman</u>.com.au and hopefully we can have a relationship where I
+
+218
+00:01:20,620 --> 00:01:21,280
+daviday.ideasman<u>.com</u>.au and hopefully we can have a relationship where I
+
+219
+00:01:21,280 --> 00:01:21,760
+daviday.ideasman.com<u>.au</u> and hopefully we can have a relationship where I
+
+220
+00:01:21,760 --> 00:01:22,460
+daviday.ideasman.com.au<u> and</u> hopefully we can have a relationship where I
+
+221
+00:01:22,460 --> 00:01:23,040
+daviday.ideasman.com.au and<u> hopefully</u> we can have a relationship where I
+
+222
+00:01:23,040 --> 00:01:23,300
+daviday.ideasman.com.au and hopefully<u> we</u> can have a relationship where I
+
+223
+00:01:23,300 --> 00:01:23,440
+daviday.ideasman.com.au and hopefully we<u> can</u> have a relationship where I
+
+224
+00:01:23,440 --> 00:01:23,580
+daviday.ideasman.com.au and hopefully we can<u> have</u> a relationship where I
+
+225
+00:01:23,580 --> 00:01:23,700
+daviday.ideasman.com.au and hopefully we can have<u> a</u> relationship where I
+
+226
+00:01:23,700 --> 00:01:24,200
+daviday.ideasman.com.au and hopefully we can have a<u> relationship</u> where I
+
+227
+00:01:24,200 --> 00:01:24,980
+daviday.ideasman.com.au and hopefully we can have a relationship<u> where</u> I
+
+228
+00:01:24,980 --> 00:01:25,340
+daviday.ideasman.com.au and hopefully we can have a relationship where<u> I</u>
+
+229
+00:01:25,340 --> 00:01:25,780
+<u>start</u> creating some videos for my channel and your product.
+
+230
+00:01:25,780 --> 00:01:26,320
+start<u> creating</u> some videos for my channel and your product.
+
+231
+00:01:26,320 --> 00:01:26,600
+start creating<u> some</u> videos for my channel and your product.
+
+232
+00:01:26,600 --> 00:01:27,120
+start creating some<u> videos</u> for my channel and your product.
+
+233
+00:01:27,120 --> 00:01:27,840
+start creating some videos<u> for</u> my channel and your product.
+
+234
+00:01:27,840 --> 00:01:28,020
+start creating some videos for<u> my</u> channel and your product.
+
+235
+00:01:28,020 --> 00:01:28,400
+start creating some videos for my<u> channel</u> and your product.
+
+236
+00:01:28,400 --> 00:01:28,860
+start creating some videos for my channel<u> and</u> your product.
+
+237
+00:01:28,860 --> 00:01:29,040
+start creating some videos for my channel and<u> your</u> product.
+
+238
+00:01:29,040 --> 00:01:29,420
+start creating some videos for my channel and your<u> product.</u>
+

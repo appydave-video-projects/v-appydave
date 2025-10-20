@@ -1,0 +1,295 @@
+If you've ever used an AI assistant like Claude or ChatGPT, then you've had to learn 
+a little bit about prompt engineering. Now, either you're writing your own prompts, 
+maybe you've bought one out of a template pack, maybe you've gone quite advanced 
+and you're creating your own custom GPT 
+so that you have this reusable conversation that you can start off with new information.
+I am writing prompts and using custom GPT on a daily basis. But one of the things 
+that happens more and more is that I have these repeatable sets of GPT or agents 
+that I wanna run to solve specific business problems. And in this video, I want to 
+continue the proof of concept application that I talked about in the last video, 
+and we'll turn it into a minimum viable product, something that you could use to 
+solve your own GPT workflows.
+In the last video, I talked about a proof of concept application that I'd put together 
+for my own use called GPT Agent Workflow. And the idea is that you would come up 
+with these workflows. Like here it's the YouTube script writer workflow. There'd 
+be a research phase, and you'd go from the basic idea. You would select an idea from 
+that. You'd develop some facts or details about the YouTube script that you wanna 
+write that could come up with some video ideas. And then you would select the 
+so on. And that would be part of the research phase. And after that, you would go 
+into a new phase, and that would be the developed script phase. 
+you can see them up here on the left. So if we click on the research and development, 
+you can see the workflow and that there's this idea that you go from left to right 
+from this idea to this one. Currently we're on the basic fact sheet, and as you get 
+to the last step, you would then move on to the next phase, which would be developing 
+the script. Now, the problem with this particular application is it doesn't work 
+if you click here, nothing actually happens because this was a proof of concept. 
+What I was really trying to do here is figure out, 
+what would happen if I had this prompt and we'll put a little variable called Idea. 
+if I said, 
+let's do a cool idea goes here. What would be nice is if I could go and click on 
+a button somewhere like Copy Workflow and put it straight into ChatGPT or whatever 
+AI assistant I'm using, 
+or maybe click the little start button down here to have it run the prompt for me.
+So with the proof of concept now demonstrating how I see an agent workflow tool working, 
+let's move into the minimum viable product. And what we'll do is we'll just click 
+back to the overview and this is what we've currently got for this particular workflow. 
+And I'm just gonna change the URLA little bit on my system and you'll see that it 
+changes ever so slightly. So what we've got now is a agent workflow tool written 
+a little bit differently to the old one, and when we click on things, they actually 
+work. So we can now go from idea to idea. We can come down to the little arrows here 
+and as we get to the last one, it should say, let's move on to the next 
+phase. And that would be the developed script phase.
+Now the good thing about the minimum viable product is it's configured exactly the 
+same way as the proof of concept. So what we can do here is we'll go and select the 
+selected idea, cool ideas, go here. Notice that at the moment it's on three and you 
+can't click on anything. Nothing actually works in this particular variation of the 
+tool, but we move to the new version and we can go and click on the basic fact sheet. 
+and there's this interpolated variable that we can put in called idea. Now I know 
+that this selected idea and this don't match, so I'm just gonna call this selected 
+idea right there. 
+what'll happen is if I paste in a value here, it should appear here, and we put it 
+in. 
+If we want it in another part of the prompt, we can just paste it in like that and 
+it just gets replaced 
+and the good thing is 
+There's a copy button here that when we click on it, we'll see this little copied 
+to clipboard, it's ready for me to use. 
+in the final product, I'd like to have a start button, and in this case it called 
+Claude. Or we could have it send it to two different large language models at the 
+same time, or just choose large language models based on the particular step that 
+you're on. 
+pop up the GPT window, we'll 
+we'll just paste everything in. So what it's got is I need you to gather detailed 
+and reliable information about, the cool idea goes here. So if we just pop into this 
+view and we've got cool idea again, and we'll just let it run. 
+from the prompt template and a couple of variables, you should be able to get your 
+detailed prompt, ready to go paste it into your large language model, and it goes 
+and does its thing. The next step from that is that whatever the output is that we're 
+seeing coming through right now becomes the input for the next step in the workflow.
+I am calling this tool agent Workflow Builder, and I'm developing it and demonstrating 
+it as I go. Now, if you want access to some of the code, which will be open source, 
+or if you're more interested in using this as a SaaS application, then click on the 
+link in the description.
+Now the way I'm building this application is with a technique that I call flow code. 
+So if you've heard of no code application generators, they're usually user interfaces. 
+You drag and drop and it produces code. For me, flow code just stands for a freaking 
+lot of code and it's taking small inputs and creating working sets of code that solve 
+problems.
+So when I first started writing this application, this is where I started. It was 
+just a simple mind map around a workflow that I'd been doing every time I did a video 
+and I took a copy of that workflow and I just dropped it into chat GPT. I said, can 
+you read this information 
+Now I've just done a refresh on that window. And what you'll see is that it's quite 
+a long conversation. It went for a couple of days, usually just talking to the phone 
+to build things. But some of the stuff that it came up with was entity relationship 
+diagrams for different workflows. I was also testing concepts like data flow diagrams. 
+And what this allowed me to do was develop a schema. I was able to work through the 
+key components that I wanted in the application. So with that in place, I was able 
+to start a new application using Astro here, and I then developed a bunch of the 
+key components like the workflow, the prompts, the settings, et cetera. And I was 
+able to do this by just talking to the ChatGPT window here on 
+developing some data models in TypeScript. 
+Next, I use Tailwind CSS. I'm, I don't consider myself a good JavaScript or Tailwind 
+CSS sort of developer, but the great thing about ChatGPT is that it can do all the 
+coding for you so long as you know how to prompt it. And that's a lot of what this 
+video series is about, is just talking about how I solve problems as a programmer 
+who may not actually be a polyglot in the different languages that I want to use.
+Now a lot of the information you just saw was about building the proof of concept 
+application in Astro with Tailwind CSS. But then I wanted to make it a little bit 
+dynamic and that requires getting into client side JavaScript. Now, my first approach 
+was to have conversation with GPT about integrating Alpine js. And it was working 
+a little bit, but it was getting a bit bogged down and I thought, well, maybe I need 
+to use a proper client side framework. So I decided to use felt, and the minimum 
+viable product that you're about to look at was written by converting the Astro components 
+to Swet components.
+I am not going to go into detail on how I'm writing the application in this video. 
+If that's a video you wanna see, let me know in the comments below. But we're back 
+here at now, the minimum viable product, and we're going to put it through its paces 
+by developing a workflow today.
+So let's quickly demonstrate a real world example. So here I've got a channel called 
+AI TLDR. It's about two and a half months old and I've created 30 videos. And one 
+of the videos recently was, is Flex one a better alternative to mid journey? 
+So here's part of the workflow that I use for the AI TLDR channel, and we're in the 
+research and development phase and I've got create five simple project ideas for 
+an idea. And the idea happens to be flu one versus Midjourney. 
+if 
+And if I head over to chat GPT and paste it in, we come up with a list of potential 
+project ideas for the video and I can copy them in and head over to the next step 
+where I've just pasted it into the ideas. 
+one of the future things that I wanna do with this tool is have the ability to select 
+an idea, but at the moment, that's not there. 
+I've put in the idea I wanna work with Art Generation Flux One versus midjourney. 
+I can click copy on this to get the prompt and then just head over to any AI assistant 
+that you are using, paste it in, and you'll get a whole lot of information. From 
+there, I've just copied all the information that you see. 
+Moved over to the next tab where I wanna get some video ideas and I've pasted in 
+the original idea and we've also got the fact sheet that we've just developed. 
+I can click the copy, get the new prompt, 
+I want to do a YouTube video 
+Flux versus Midjourney. And 
+we've got the basic fact sheet. And down below we've got a bunch of video ideas that 
+we can work with. So I tend to then select that information head back to the GPT 
+workflow. And we're on the expanded fat sheet where we've got the original idea, 
+we've got the basic fat sheet that we developed, and now we've got a video idea that 
+I selected that I wanna do information on. From there, 
+I can build out an extended fat sheet 
+that we're looking at right here. So all the information, background information 
+about the company, how users are using it, is it fast? What's, what's its pricing 
+model. I've got every piece of information that I might need for either the YouTube 
+video, which is what I used it for, but you could also use it for an article if that 
+was what you were developing.
+I've just shown you how I use agent workflows to create a YouTube script. But what 
+if we want to come up with a new workflow altogether? Well, the good thing is I've 
+created a workflow called Agent Workflow Architect, and the idea is that you want 
+a workflow objective. What are you trying to achieve? What are the steps that would 
+be involved in achieving that target? Can they be organized? Are there groups of 
+steps that you wanna do? Let's come up with a cool name. The name in this particular 
+case is Agent Workflow Architect, and then develop a specification. There's future 
+phases that are coming along 
+the example, 
+workflow for publishing a video on YouTube. 
+this is my main channel, and here the steps that I need to do is I need to come up 
+with a thumbnail. There's the text that I wanna put on the thumbnail and the title 
+that I want to have for the YouTube video. 
+if we look at this particular video pong to Pacman, when I uploaded it, I had the 
+transcript, but what I then needed to do was create a whole lot of extra information 
+in the YouTube description. 
+so here we've got the overview of what the video is all about. We've got a little 
+bit of a call to action to buy me a coffee. We've got a headline going on. After 
+that, we've got the chapters of the video. From there, there's some branding information 
+about myself, social media accounts that you can go to, useful affiliate links. And 
+then we've got the visualization of the chapters that we just looked at. 
+There'll be a bunch of tweets that I produce and also a bunch of LinkedIn articles 
+and Facebook posts. So let's head back to the agent Workflow Architect. We'll click 
+on the objective and we'll put in an idea. And the first one will be YouTube Video 
+publisher. That's basically what 
+I'm also going to paste in a goal here and we can see that come down the bottom. 
+I don't bother to clean up the text. 
+if there's mistakes in it, that's okay. But basically I'm asking a set of agents 
+that will automate various aspects of the YouTube video release. When I currently 
+release a video, I have to come up with title and text on the thumbnail. Then I need 
+to create a YouTube description, and that's usually got chapters and brand information. 
+finally, I need to publish to LinkedIn and Twitter, et cetera. 
+I've put that information in, and from there we can just copy the button 
+head over to a new ChatGPT window or whatever AI assistant you are using. 
+we're passing this information in. 
+So we move on from the workflow objective to the list of steps. We've got an agent 
+objective, which we just got from the previous ChatGPT window. We'll paste that in. 
+We'll click on the copy button 
+and then we could paste it directly in. But what I'll do is I'll just start a new 
+ChatGPT window and I'll paste it here, because generally when I'm doing my individual 
+prompts, they have a enough context in them to do whatever's needed to be done. You 
+don't need to flow on from a previous conversation. 
+We're on organized steps. 
+I'm just gonna paste the information into the list step here. One of the things you 
+might've noticed is that I've got this bar down the bottom saying language model, 
+where you can select various language models that you might wanna send the prompt 
+to, and a start button. 
+that's coming in a future version of the software. 
+it's come up with a workflow that thinks that there should be a content planning 
+and creation phase with a bunch of steps going on. There would be the review and 
+optimization, and then finally the publishing and distribution. 
+I had a go at this yesterday, so I'm going to use some different information that 
+I've manually modified. So we can see the list here, which it came up with yesterday. 
+It was pretty accurate. But I went through and I manually modified a couple of areas 
+I tend to create a summary from the transcript, then I'll create an abridgement, 
+which is a different type of summary. After that, I want to get some metadata, like 
+potential topics, keywords. 
+we can 
+get a good title, get a thumbnail text, get optimized text, and then finally we create 
+the YouTube description 
+tweet, Facebook post, and LinkedIn. 
+it then developed a 
+grouping for me. That's the way it initially looked, but I went and modified it a 
+little 
+so that I could have additional information. So our final one is going to look like 
+video analysis and preparation title and thumbnail optimization and video and social 
+media creation. 
+head back over to our workflow, we'll move on to the organized list, and I'm just 
+copying that information in. From here, we can take a copy and let's get some potential 
+names for the workflow. 
+I could open up a new chat GPT window for today. We'll test it by just using the 
+current conversation. That should also work well. 
+We've got a list of potential names here. I generated a new one. Anytime I need more, 
+I can just press refresh from here. And these sort of capabilities I would like to 
+build into the tool. The one I ultimately went with, which was from yesterday, was 
+video launch optimizer. 
+we're over at the specification. I'm just gonna put in the name I like. We've got 
+our organized list going on here. 
+we'll copy it and create a detailed specification of the different phases of the 
+workflow, the different steps within the workflow, and what the input and the output 
+parameters will be. So we'll just kick it off 
+There's a structured shape that I'd like the output to be in, and we're getting all 
+the information ready. 
+As you look through it, we've got different phases, video preparation, title, and 
+thumbnail content creation. We've got different steps like summarizing, abridgement, 
+analyzing, and adding the metadata. 
+a description going on, and then it starts building out what it thinks the input 
+and the output parameters should be. So the transcript would be an obvious input. 
+And what 
+We get a video summary. The transcript and the video summary might be an input. Now 
+this is not correct. I would manually modify this and we would get a video abridgement, 
+because I see the summary and the abridgement as similar, but different pieces of 
+information that I want to capture. 
+So now I have a detailed specification of what the workflow should have and chat 
+GPT has come up with what parameters it thinks I need, but I'm gonna go through it 
+and manually change 'em. The main parameter I use all the time with my video workflows 
+is the transcript. Whatever I said in the video is what I want to use as a source 
+of truth. From that, 
+I want to get keywords After. After I've got these bits of information, then I can 
+go and generate titles and content using this extra information. So last thing we'll 
+do is we'll take it and let's turn it into a user interface where we can enter this 
+information ourselves.
+the first five steps that we've done being around the agent workflow design are here 
+and we're on the last step and we can go down. Now I also have this concept of output 
+attributes. So anything here is where when the GPT is are being run and you're getting 
+information, it goes into these variable names. So hopefully we're gonna have a specification 
+filled in with the table we just created, and that'll happen when we go over to the 
+create DSL. But we can do that by pressing this down arrow. That takes us to the 
+next phase. And we've got our phase, it says generate DSL. We've got the original 
+name of the workflow that we wanna work with. We've got a list of the organized steps, 
+and we've got this table. If we open it up, we can see the table all listed here. 
+From that, we can just click on the copy button, head over to a new GPT window, and 
+we'll just paste everything in. And what this is doing is producing a programming 
+language that I created. 
+His only job is to recreate workflows. When we run this, we'll get a visualization 
+very similar to the screens that we're looking at here. 
+we'll let that finish. It's still going at the moment, 
+and we'll just press copy on it.
+I've just pasted the workflow in here, and you can think of it as GPT agent workflows 
+as code and as code. We can see that we've got an agent creation. What are we creating? 
+It's the YouTube Launch Optimizer. I did change it from video to YouTube. There's 
+a description going on. It's got a place where the prompts are going to be stored, 
+and what default large language model do you want to use? I want to use, 
+ChatGPT 4o. Then the prompts are all listed here. This is where it will find them. 
+The attributes that we're being defining are all listed, and then there are three 
+phases. Phase one is the video preparation, where to summarize the video, we take 
+the transcript, we use the video summary prompt, and we produce the video summary. 
+And this is just repeating over and over for each phase. 
+when I hit save, it'll automatically create a user interface for me. Currently, it 
+says GPT Workflows. YouTube Launch Optimizer is not found, but the moment I hit save, 
+it becomes available. And here we have video preparation. We've summarized Abridgement 
+video analysis and add the metadata. 
+the good thing is because I use Chat GPT to create all of these workflow steps, it 
+only takes a couple of minutes to create this complex user interface 
+using the GPT workflow as code, as an intermediary system. Now, in the future, I 
+won't do it that way. I'll build this into a SaaS application where it'll be a little 
+bit more streamlined, but this is how I'm doing it today.
+So now that the workflow is created, we could use it today, but the video that you're 
+watching, I'm going to edit it 
+With that transcript, I'll be coming through to this workflow and I'll be typing 
+it into this location. As for the prompts, now, I've already done some videos at 
+the beginning of the year called Seven GPTs to Grow Your Channel in 2024, and the 
+transcript summary that we talk about here is dealt with in that particular video. 
+There's also a video here called SEO, GPT Boosted, SEO for YouTube description. So 
+this is where I'm going to get the prompt for the YouTube description. I've got one 
+for the LinkedIn, I've got one for the Twitter, and I've got a few others that I'll 
+add in. 
+I will talk about how the agent workflow is code or the DSL actually works behind 
+the scenes. And we'll have a look at the script from this video in the next video 
+as it produces the YouTube description and the LinkedIn post and the tweets. 
+I'm AppyDave like to subscribe. If this is something that you want to keep following, 
+I've got a link in the description. If you wanna find out more about the project, 
+either from the SaaS application that I'll be launching sometime in the future or 
+from the open source code that you might want to use if you want to add to or extend 
+I look forward to seeing you in the next video.

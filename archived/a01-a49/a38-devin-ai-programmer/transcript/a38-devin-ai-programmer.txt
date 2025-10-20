@@ -1,0 +1,126 @@
+Devon is a fully autonomous AI software developer by Cognition and in this video we are going
+to look at six different use cases, four different risks that you need to be aware of and the
+easiest way to get access to it. Cognition Labs just announced Devon, the world's first
+autonomous AI programmer. In this video we will look at six different examples. The first
+will be the HTML JavaScript one, then we will go on to a couple of Python examples, one
+for building AI models, the other for making money on Upwork. After that we will look at
+a C++ example with unit testing, moving into Rust where we will look at adding a feature
+into an existing repo. Finally look at the React game of life example. Then show you
+how to get access to Devon plus a simple tip that might make it easier for you to get it quicker.
+After that we will look at four different challenges to do with Devon or AI programmers in
+general and that will be around the areas of cybersecurity, creativity, the complexity of
+the software development life cycle and the big issue, will it take my job? Let's have a look
+at what Devon can do and the first example is about creating secret messages within images
+and the developer that used this, Sarah, had asked the question can you read this URL, it's an
+article and follow the instructions. Devon had said absolutely I can do that. Do you want me to
+generate images and what text would you like it to have? And she's put in Sarah, Devon and Cognition.
+Now Devon has come over and opened up the article that was given and from there followed the
+instructions from the article. It started writing a bit of code and installing some setup and one
+of the things that happened was it ran into an error during setup. You can see down in the
+bottom left that it went off to a different website to figure out what the problem was before
+writing code. It was able to generate this image with Sarah and it moved on to create one with
+Devon and another one with Cognition. The next example is using Devon to train an AI model and
+what they've done is they've got this repo here about clora, efficient fine-tuning of
+quantised LLMs and they've taken the URL and put it into a prompt within Devon saying can you
+fine-tune a 7B Lama model using and then they just provide the link. There should be instructions
+in the readme file so there's the assumption that it will go off and read the readme file. Now
+from there it's figured out that it needs to clone the repo, set up the environment using PIP and
+then it followed the instructions in the readme file. During setup it ran into a problem and it
+needed to reinstall the bits and bytes for cuter compatibility. It was able to start running the
+training of the model. Training went for about an hour and at the end you can see the progress with
+decreasing loss indicating successful model fine-tuning. This next example is really interesting. It's
+about adding a feature to an existing open-source repo and the repo is written in the Rust
+programming language. It's called Mprots and what it does is monitor services that are running
+or processes. You can see here there's this message called down, down, down, down and someone wants
+to make this a bit clearer to see exactly what's going on. Now there was already an issue in the
+issues register of the repo so they thought can we use this just to build the code that's needed.
+A simple question. Write a fix for this issue that's pasted in the URL. Do not commit or push your
+changes. It's gone and read the readme file for Mprots. It's installed the dependencies and then
+it's decided to use a browser and open up the issue that needs to be implemented. From this it's
+been able to write a little bit of Rust code. Now it ran into a few issues and then decided to go
+off and read the Rust documentation to figure out how to resolve the issue. From there you can see
+the old version of the user interface and then the new version with a little bit more clarity around
+what is actually down. After that it was able to create a pull request. Now this next example is
+really exciting. It's firstly an Upwork side hustle but the other thing about it is it's using a
+Vision AI model. If we look at the job ad what we've got here is make inferences with a computer
+vision model. Now the company that posted the ad pays around 23 US dollars an hour for the code being
+written. What they've done is they've included this repo to use as a reference so we've got the repo
+here. We read through this and we can see that there's Road Crap Detection Challenge 2020 so
+it's not even recent and then there's a whole lot of examples including checkpoints. Basically it's
+trying to identify where there are cracks in the road pavement. Now rather than reading or
+understanding this particular repository all the prompt is I am looking to make inferences with
+the models in this repository. Paste in the URL and say please figure it out. Devin goes ahead and
+makes a plan of action. We've got these things like clone a repository, read the documentation,
+so on and so on. It starts setting up the repo and asks a few questions over on the left. It
+ran into an issue. You can see that in the red and it's gone and figured out what the problem was.
+The problem was a dependency was out of date so it's gone and fixed that and then downloaded
+sample images. It's then started to do an interactive debugging on the code that it wrote.
+You can see that it wrote some console logging to solve some problems. It also removed the console
+logging before deploying the final code. It was then able to come up with a fix for little issues
+that were going on and then ran the image model. From there we get these outputs where we can see
+that cracks in the road are being used on new images. This really interesting C++ example
+is based on a repo for a competitive programming setup. Someone has come up with an error stating
+that in a particular scenario an edge case the code doesn't actually work. The programmer involved
+has gone and manually made a change to the code here but now he wants to put in some unit tests
+to see if everything is working okay. He's come over to Devin and said I need a test. Basically
+read my repo, have a look at the function involved and start thinking about what you need to do.
+While he's doing that he's writing the actual requirements for the test so he's listed on
+all here. Devin has started writing the code and it ran into a compiler error in what it had to
+implemented so it figured out how to resolve that. You can see the fix in here it's an include statement
+and basically it was able to get the test running but because this was a function with many sorts of
+values that needed to be tested the programmer then went on to say can you do a brute force
+testing can you iterate over many different combinations of values let's just see if the
+tests work here. One of the examples failed now with that being uncovered Devin was able to go
+through put in a bit of console logging to see what is the particular problem going on here
+and it found in one particular example there was a negative number it knew it needed to be fixed
+it wrote a bit of code to fix that particular edge case and then finally the code ended up running.
+Last coding example is about setting up the game of life in a react project we've got this prompt
+here in Devin it's gone through and started to create a react application and set up the front
+end environment in react and chakra ui it's also added the p5.js library it went straight on to
+deploying this code to netlify and we got to see just what would happen when it rendered.
+One of the things I was confused of when looking at the example initially was
+this is great but why where's the actual code for the game I looked a little deeper into it I can
+see that what they were doing was using code from the p5.js I'm assuming Devin went and found all
+this particular code and then later on the developer in the example starts showing a little bit of
+the code behind the scenes here we've got the game of life code written in javascript and from
+there he had a bug that needed to be sorted see on the left 180 there was a bit of a freeze at the
+three second mark Devin went in resolved that particular problem but then he asked for it
+to make it a little bit more interactive can I click in areas and have the game of life start
+here's the game at the beginning we got Devin and then it starts expanding out as it progresses
+and then clicking with the mouse we start to see new areas of the game of life being drawn in
+different places now if you want to access Devin for yourself what you need to do is go over to
+cognition labs and you'll see this little form here where you can join the waitlist now when
+you're filling it out it's important that you give them good details because there will be a
+selection criteria with this one of the fields just under the company is a prompt that you need
+to write for what sort of application you want to build now the one I did is here I basically
+wanted content creation application using GPTs but if you want to create your own prompt from
+scratch what I suggest is you look at a prompt like this can you write a prompt for an AI programming
+bot so this is not a prompt for GPT this is a prompt for Devin in this case the goal is to turn
+and whatever your goal happens to be I've then given it a little bit of context about what the
+software needs to do we have a couple of examples after that I put in some constraints so in this
+case note you don't need to write prompts for the GPTs this is to run locally so I've told
+at the architecture or at least the platform that it's running on lastly want Devin to actually
+interact with me I don't always want programming bots to go off and do their own thing if you write
+a prompt similar to this but fill in your own details it will then go and create a detailed
+prompt that you can give as part of the application form let's address the elephant in the room and
+that's the risk and fears of working with AI autonomous programmers and the big one is going
+to be cyber security there's a big issue at the moment with repos on github being cloned
+and then having malicious code added into them how would it be if the bot that you're using
+happens to download something that has malicious code in it and it runs locally or it introduces
+it into the program you're using the next issue is just the creative limitations of working with AI
+programmers they just really don't get a lot of more esoteric issues so what language do I want
+to use what architecture what patterns do I want to use have I thought of this particular edge case
+these are the sorts of things that the programmer really needs to be involved or other sorts of
+designers and testers that then leads into the software development lifecycle and the complexity
+especially in an enterprise like how would it be if two different AI bots one's writing it for
+one programming language versus another another one's using restful APIs while another one's
+using grpc there's all sorts of issues and there can be monetary issues let's say a bot
+decides to use open AI endpoints another one uses google endpoints and suddenly the business
+units are going how do we pay for this are we paying for this one or are we paying for this one
+these are the sorts of problems that need a lot of guidance then when we look at the issue
+of job displacement I think what we're going to see is this idea where that you'll have lots of
+computer programmers humans whether they be designers testers software developers and all
+they're doing is working hand in hand with AI bots I'm happy Dave and if you see AI automation bots
+and gpt as a solution which is how I felt for the last 18 months where I put all my energy in here
+then come and check out my gpt academy this is where I'm helping people in small groups
+either with prompt engineering or prompt engineering for coding

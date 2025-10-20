@@ -1,0 +1,4328 @@
+1
+00:00:00,000 --> 00:00:00,440
+<u>Would</u> you like to automate or script your AI pair programming?
+
+2
+00:00:00,440 --> 00:00:00,560
+Would<u> you</u> like to automate or script your AI pair programming?
+
+3
+00:00:00,560 --> 00:00:00,780
+Would you<u> like</u> to automate or script your AI pair programming?
+
+4
+00:00:00,780 --> 00:00:00,940
+Would you like<u> to</u> automate or script your AI pair programming?
+
+5
+00:00:00,940 --> 00:00:01,320
+Would you like to<u> automate</u> or script your AI pair programming?
+
+6
+00:00:01,320 --> 00:00:01,600
+Would you like to automate<u> or</u> script your AI pair programming?
+
+7
+00:00:01,600 --> 00:00:02,020
+Would you like to automate or<u> script</u> your AI pair programming?
+
+8
+00:00:02,020 --> 00:00:02,520
+Would you like to automate or script<u> your</u> AI pair programming?
+
+9
+00:00:02,520 --> 00:00:03,000
+Would you like to automate or script your<u> AI</u> pair programming?
+
+10
+00:00:03,000 --> 00:00:03,360
+Would you like to automate or script your AI<u> pair</u> programming?
+
+11
+00:00:03,360 --> 00:00:03,840
+Would you like to automate or script your AI pair<u> programming?</u>
+
+12
+00:00:04,240 --> 00:00:04,340
+<u>In</u> this video we're going to look at ADA, we're going to install it and test out a couple of use cases.
+
+13
+00:00:04,340 --> 00:00:04,520
+In<u> this</u> video we're going to look at ADA, we're going to install it and test out a couple of use cases.
+
+14
+00:00:04,520 --> 00:00:04,820
+In this<u> video</u> we're going to look at ADA, we're going to install it and test out a couple of use cases.
+
+15
+00:00:04,820 --> 00:00:05,040
+In this video<u> we're</u> going to look at ADA, we're going to install it and test out a couple of use cases.
+
+16
+00:00:05,040 --> 00:00:05,200
+In this video we're<u> going</u> to look at ADA, we're going to install it and test out a couple of use cases.
+
+17
+00:00:05,200 --> 00:00:05,340
+In this video we're going<u> to</u> look at ADA, we're going to install it and test out a couple of use cases.
+
+18
+00:00:05,340 --> 00:00:05,460
+In this video we're going to<u> look</u> at ADA, we're going to install it and test out a couple of use cases.
+
+19
+00:00:05,460 --> 00:00:05,660
+In this video we're going to look<u> at</u> ADA, we're going to install it and test out a couple of use cases.
+
+20
+00:00:05,660 --> 00:00:05,920
+In this video we're going to look at<u> ADA,</u> we're going to install it and test out a couple of use cases.
+
+21
+00:00:05,920 --> 00:00:06,280
+In this video we're going to look at ADA, we're going to install it and test out a couple of use cases.
+
+22
+00:00:06,280 --> 00:00:06,440
+In this video we're going to look at ADA,<u> we're</u> going to install it and test out a couple of use cases.
+
+23
+00:00:06,440 --> 00:00:06,560
+In this video we're going to look at ADA, we're<u> going</u> to install it and test out a couple of use cases.
+
+24
+00:00:06,560 --> 00:00:06,700
+In this video we're going to look at ADA, we're going<u> to</u> install it and test out a couple of use cases.
+
+25
+00:00:06,700 --> 00:00:07,120
+In this video we're going to look at ADA, we're going to<u> install</u> it and test out a couple of use cases.
+
+26
+00:00:07,120 --> 00:00:07,380
+In this video we're going to look at ADA, we're going to install<u> it</u> and test out a couple of use cases.
+
+27
+00:00:07,380 --> 00:00:07,700
+In this video we're going to look at ADA, we're going to install it<u> and</u> test out a couple of use cases.
+
+28
+00:00:07,700 --> 00:00:07,940
+In this video we're going to look at ADA, we're going to install it and<u> test</u> out a couple of use cases.
+
+29
+00:00:07,940 --> 00:00:08,200
+In this video we're going to look at ADA, we're going to install it and test<u> out</u> a couple of use cases.
+
+30
+00:00:08,200 --> 00:00:08,300
+In this video we're going to look at ADA, we're going to install it and test out<u> a</u> couple of use cases.
+
+31
+00:00:08,300 --> 00:00:08,480
+In this video we're going to look at ADA, we're going to install it and test out a<u> couple</u> of use cases.
+
+32
+00:00:08,480 --> 00:00:08,640
+In this video we're going to look at ADA, we're going to install it and test out a couple<u> of</u> use cases.
+
+33
+00:00:08,640 --> 00:00:08,840
+In this video we're going to look at ADA, we're going to install it and test out a couple of<u> use</u> cases.
+
+34
+00:00:08,840 --> 00:00:09,320
+In this video we're going to look at ADA, we're going to install it and test out a couple of use<u> cases.</u>
+
+35
+00:00:09,600 --> 00:00:09,900
+<u>I'm</u> Appy Dave, let's get into it.
+
+36
+00:00:09,900 --> 00:00:10,100
+I'm<u> Appy</u> Dave, let's get into it.
+
+37
+00:00:10,100 --> 00:00:10,300
+I'm Appy<u> Dave,</u> let's get into it.
+
+38
+00:00:10,300 --> 00:00:10,540
+I'm Appy Dave, let's get into it.
+
+39
+00:00:10,540 --> 00:00:10,800
+I'm Appy Dave,<u> let's</u> get into it.
+
+40
+00:00:10,800 --> 00:00:10,960
+I'm Appy Dave, let's<u> get</u> into it.
+
+41
+00:00:10,960 --> 00:00:11,220
+I'm Appy Dave, let's get<u> into</u> it.
+
+42
+00:00:11,220 --> 00:00:11,460
+I'm Appy Dave, let's get into<u> it.</u>
+
+43
+00:00:11,820 --> 00:00:11,960
+<u>Now</u> you can access ADA through GitHub on ADA-AI slash ADA.
+
+44
+00:00:11,960 --> 00:00:12,100
+Now<u> you</u> can access ADA through GitHub on ADA-AI slash ADA.
+
+45
+00:00:12,100 --> 00:00:12,240
+Now you<u> can</u> access ADA through GitHub on ADA-AI slash ADA.
+
+46
+00:00:12,240 --> 00:00:12,760
+Now you can<u> access</u> ADA through GitHub on ADA-AI slash ADA.
+
+47
+00:00:12,760 --> 00:00:13,320
+Now you can access<u> ADA</u> through GitHub on ADA-AI slash ADA.
+
+48
+00:00:13,320 --> 00:00:13,780
+Now you can access ADA<u> through</u> GitHub on ADA-AI slash ADA.
+
+49
+00:00:13,780 --> 00:00:14,140
+Now you can access ADA through<u> GitHub</u> on ADA-AI slash ADA.
+
+50
+00:00:14,140 --> 00:00:14,640
+Now you can access ADA through GitHub<u> on</u> ADA-AI slash ADA.
+
+51
+00:00:14,640 --> 00:00:15,040
+Now you can access ADA through GitHub on<u> ADA</u>-AI slash ADA.
+
+52
+00:00:15,040 --> 00:00:15,860
+Now you can access ADA through GitHub on ADA<u>-AI</u> slash ADA.
+
+53
+00:00:15,860 --> 00:00:16,120
+Now you can access ADA through GitHub on ADA-AI<u> slash</u> ADA.
+
+54
+00:00:16,120 --> 00:00:16,500
+Now you can access ADA through GitHub on ADA-AI slash<u> ADA.</u>
+
+55
+00:00:16,880 --> 00:00:17,020
+<u>And</u> if we scroll down we'll find the Getting Started where we'll work through this to install the software.
+
+56
+00:00:17,020 --> 00:00:17,180
+And<u> if</u> we scroll down we'll find the Getting Started where we'll work through this to install the software.
+
+57
+00:00:17,180 --> 00:00:17,320
+And if<u> we</u> scroll down we'll find the Getting Started where we'll work through this to install the software.
+
+58
+00:00:17,320 --> 00:00:17,600
+And if we<u> scroll</u> down we'll find the Getting Started where we'll work through this to install the software.
+
+59
+00:00:17,600 --> 00:00:17,940
+And if we scroll<u> down</u> we'll find the Getting Started where we'll work through this to install the software.
+
+60
+00:00:17,940 --> 00:00:18,300
+And if we scroll down<u> we'll</u> find the Getting Started where we'll work through this to install the software.
+
+61
+00:00:18,300 --> 00:00:18,600
+And if we scroll down we'll<u> find</u> the Getting Started where we'll work through this to install the software.
+
+62
+00:00:18,600 --> 00:00:18,780
+And if we scroll down we'll find<u> the</u> Getting Started where we'll work through this to install the software.
+
+63
+00:00:18,780 --> 00:00:18,940
+And if we scroll down we'll find the<u> Getting</u> Started where we'll work through this to install the software.
+
+64
+00:00:18,940 --> 00:00:19,320
+And if we scroll down we'll find the Getting<u> Started</u> where we'll work through this to install the software.
+
+65
+00:00:19,320 --> 00:00:19,680
+And if we scroll down we'll find the Getting Started<u> where</u> we'll work through this to install the software.
+
+66
+00:00:19,680 --> 00:00:19,960
+And if we scroll down we'll find the Getting Started where<u> we'll</u> work through this to install the software.
+
+67
+00:00:19,960 --> 00:00:20,200
+And if we scroll down we'll find the Getting Started where we'll<u> work</u> through this to install the software.
+
+68
+00:00:20,200 --> 00:00:20,440
+And if we scroll down we'll find the Getting Started where we'll work<u> through</u> this to install the software.
+
+69
+00:00:20,440 --> 00:00:20,720
+And if we scroll down we'll find the Getting Started where we'll work through<u> this</u> to install the software.
+
+70
+00:00:20,720 --> 00:00:21,060
+And if we scroll down we'll find the Getting Started where we'll work through this<u> to</u> install the software.
+
+71
+00:00:21,060 --> 00:00:21,580
+And if we scroll down we'll find the Getting Started where we'll work through this to<u> install</u> the software.
+
+72
+00:00:21,580 --> 00:00:21,720
+And if we scroll down we'll find the Getting Started where we'll work through this to install<u> the</u> software.
+
+73
+00:00:21,720 --> 00:00:22,060
+And if we scroll down we'll find the Getting Started where we'll work through this to install the<u> software.</u>
+
+74
+00:00:22,360 --> 00:00:22,480
+<u>A</u> little bit further down you've got the documentation which will take you over to a page like this
+
+75
+00:00:22,480 --> 00:00:22,580
+A<u> little</u> bit further down you've got the documentation which will take you over to a page like this
+
+76
+00:00:22,580 --> 00:00:22,760
+A little<u> bit</u> further down you've got the documentation which will take you over to a page like this
+
+77
+00:00:22,760 --> 00:00:22,960
+A little bit<u> further</u> down you've got the documentation which will take you over to a page like this
+
+78
+00:00:22,960 --> 00:00:23,320
+A little bit further<u> down</u> you've got the documentation which will take you over to a page like this
+
+79
+00:00:23,320 --> 00:00:23,540
+A little bit further down<u> you've</u> got the documentation which will take you over to a page like this
+
+80
+00:00:23,540 --> 00:00:23,660
+A little bit further down you've<u> got</u> the documentation which will take you over to a page like this
+
+81
+00:00:23,660 --> 00:00:23,820
+A little bit further down you've got<u> the</u> documentation which will take you over to a page like this
+
+82
+00:00:23,820 --> 00:00:24,340
+A little bit further down you've got the<u> documentation</u> which will take you over to a page like this
+
+83
+00:00:24,340 --> 00:00:24,860
+A little bit further down you've got the documentation<u> which</u> will take you over to a page like this
+
+84
+00:00:24,860 --> 00:00:25,100
+A little bit further down you've got the documentation which<u> will</u> take you over to a page like this
+
+85
+00:00:25,100 --> 00:00:25,320
+A little bit further down you've got the documentation which will<u> take</u> you over to a page like this
+
+86
+00:00:25,320 --> 00:00:25,480
+A little bit further down you've got the documentation which will take<u> you</u> over to a page like this
+
+87
+00:00:25,480 --> 00:00:25,660
+A little bit further down you've got the documentation which will take you<u> over</u> to a page like this
+
+88
+00:00:25,660 --> 00:00:25,880
+A little bit further down you've got the documentation which will take you over<u> to</u> a page like this
+
+89
+00:00:25,880 --> 00:00:25,980
+A little bit further down you've got the documentation which will take you over to<u> a</u> page like this
+
+90
+00:00:25,980 --> 00:00:26,220
+A little bit further down you've got the documentation which will take you over to a<u> page</u> like this
+
+91
+00:00:26,220 --> 00:00:26,520
+A little bit further down you've got the documentation which will take you over to a page<u> like</u> this
+
+92
+00:00:26,520 --> 00:00:26,820
+A little bit further down you've got the documentation which will take you over to a page like<u> this</u>
+
+93
+00:00:26,820 --> 00:00:27,260
+<u>where</u> we can look through some additional examples.
+
+94
+00:00:27,260 --> 00:00:27,420
+where<u> we</u> can look through some additional examples.
+
+95
+00:00:27,420 --> 00:00:27,600
+where we<u> can</u> look through some additional examples.
+
+96
+00:00:27,600 --> 00:00:27,700
+where we can<u> look</u> through some additional examples.
+
+97
+00:00:27,700 --> 00:00:28,000
+where we can look<u> through</u> some additional examples.
+
+98
+00:00:28,000 --> 00:00:28,500
+where we can look through<u> some</u> additional examples.
+
+99
+00:00:28,500 --> 00:00:28,940
+where we can look through some<u> additional</u> examples.
+
+100
+00:00:28,940 --> 00:00:29,560
+where we can look through some additional<u> examples.</u>
+
+101
+00:00:30,000 --> 00:00:30,080
+<u>Now</u> I've just opened up a terminal, I'm running Python 3.12.5.
+
+102
+00:00:30,080 --> 00:00:30,180
+Now<u> I've</u> just opened up a terminal, I'm running Python 3.12.5.
+
+103
+00:00:30,180 --> 00:00:30,340
+Now I've<u> just</u> opened up a terminal, I'm running Python 3.12.5.
+
+104
+00:00:30,340 --> 00:00:30,620
+Now I've just<u> opened</u> up a terminal, I'm running Python 3.12.5.
+
+105
+00:00:30,620 --> 00:00:30,860
+Now I've just opened<u> up</u> a terminal, I'm running Python 3.12.5.
+
+106
+00:00:30,860 --> 00:00:31,040
+Now I've just opened up<u> a</u> terminal, I'm running Python 3.12.5.
+
+107
+00:00:31,040 --> 00:00:31,220
+Now I've just opened up a<u> terminal,</u> I'm running Python 3.12.5.
+
+108
+00:00:31,220 --> 00:00:31,520
+Now I've just opened up a terminal, I'm running Python 3.12.5.
+
+109
+00:00:31,520 --> 00:00:31,620
+Now I've just opened up a terminal,<u> I'm</u> running Python 3.12.5.
+
+110
+00:00:31,620 --> 00:00:31,920
+Now I've just opened up a terminal, I'm<u> running</u> Python 3.12.5.
+
+111
+00:00:31,920 --> 00:00:32,380
+Now I've just opened up a terminal, I'm running<u> Python</u> 3.12.5.
+
+112
+00:00:32,380 --> 00:00:32,840
+Now I've just opened up a terminal, I'm running Python<u> 3</u>.12.5.
+
+113
+00:00:32,840 --> 00:00:33,620
+Now I've just opened up a terminal, I'm running Python 3<u>.12</u>.5.
+
+114
+00:00:33,620 --> 00:00:34,420
+Now I've just opened up a terminal, I'm running Python 3.12<u>.5.</u>
+
+115
+00:00:34,800 --> 00:00:35,080
+<u>We're</u> just going to click on the install for ADA chat and let's paste it in and see what happens.
+
+116
+00:00:35,080 --> 00:00:35,280
+We're<u> just</u> going to click on the install for ADA chat and let's paste it in and see what happens.
+
+117
+00:00:35,280 --> 00:00:35,580
+We're just<u> going</u> to click on the install for ADA chat and let's paste it in and see what happens.
+
+118
+00:00:35,580 --> 00:00:35,940
+We're just going<u> to</u> click on the install for ADA chat and let's paste it in and see what happens.
+
+119
+00:00:35,940 --> 00:00:36,220
+We're just going to<u> click</u> on the install for ADA chat and let's paste it in and see what happens.
+
+120
+00:00:36,220 --> 00:00:36,500
+We're just going to click<u> on</u> the install for ADA chat and let's paste it in and see what happens.
+
+121
+00:00:36,500 --> 00:00:36,780
+We're just going to click on<u> the</u> install for ADA chat and let's paste it in and see what happens.
+
+122
+00:00:36,780 --> 00:00:37,400
+We're just going to click on the<u> install</u> for ADA chat and let's paste it in and see what happens.
+
+123
+00:00:37,400 --> 00:00:37,700
+We're just going to click on the install<u> for</u> ADA chat and let's paste it in and see what happens.
+
+124
+00:00:37,700 --> 00:00:37,980
+We're just going to click on the install for<u> ADA</u> chat and let's paste it in and see what happens.
+
+125
+00:00:37,980 --> 00:00:38,340
+We're just going to click on the install for ADA<u> chat</u> and let's paste it in and see what happens.
+
+126
+00:00:38,340 --> 00:00:38,980
+We're just going to click on the install for ADA chat<u> and</u> let's paste it in and see what happens.
+
+127
+00:00:38,980 --> 00:00:39,260
+We're just going to click on the install for ADA chat and<u> let's</u> paste it in and see what happens.
+
+128
+00:00:39,260 --> 00:00:39,520
+We're just going to click on the install for ADA chat and let's<u> paste</u> it in and see what happens.
+
+129
+00:00:39,520 --> 00:00:39,720
+We're just going to click on the install for ADA chat and let's paste<u> it</u> in and see what happens.
+
+130
+00:00:39,720 --> 00:00:39,880
+We're just going to click on the install for ADA chat and let's paste it<u> in</u> and see what happens.
+
+131
+00:00:39,880 --> 00:00:40,260
+We're just going to click on the install for ADA chat and let's paste it in<u> and</u> see what happens.
+
+132
+00:00:40,260 --> 00:00:40,540
+We're just going to click on the install for ADA chat and let's paste it in and<u> see</u> what happens.
+
+133
+00:00:40,540 --> 00:00:40,660
+We're just going to click on the install for ADA chat and let's paste it in and see<u> what</u> happens.
+
+134
+00:00:40,660 --> 00:00:41,000
+We're just going to click on the install for ADA chat and let's paste it in and see what<u> happens.</u>
+
+135
+00:00:41,460 --> 00:00:41,600
+<u>From</u> here we'll do a new terminal and we'll just type in ADA help
+
+136
+00:00:41,600 --> 00:00:41,840
+From<u> here</u> we'll do a new terminal and we'll just type in ADA help
+
+137
+00:00:41,840 --> 00:00:42,120
+From here<u> we'll</u> do a new terminal and we'll just type in ADA help
+
+138
+00:00:42,120 --> 00:00:42,440
+From here we'll<u> do</u> a new terminal and we'll just type in ADA help
+
+139
+00:00:42,440 --> 00:00:42,900
+From here we'll do<u> a</u> new terminal and we'll just type in ADA help
+
+140
+00:00:42,900 --> 00:00:43,180
+From here we'll do a<u> new</u> terminal and we'll just type in ADA help
+
+141
+00:00:43,180 --> 00:00:43,540
+From here we'll do a new<u> terminal</u> and we'll just type in ADA help
+
+142
+00:00:43,540 --> 00:00:43,860
+From here we'll do a new terminal<u> and</u> we'll just type in ADA help
+
+143
+00:00:43,860 --> 00:00:44,000
+From here we'll do a new terminal and<u> we'll</u> just type in ADA help
+
+144
+00:00:44,000 --> 00:00:44,140
+From here we'll do a new terminal and we'll<u> just</u> type in ADA help
+
+145
+00:00:44,140 --> 00:00:44,400
+From here we'll do a new terminal and we'll just<u> type</u> in ADA help
+
+146
+00:00:44,400 --> 00:00:44,580
+From here we'll do a new terminal and we'll just type<u> in</u> ADA help
+
+147
+00:00:44,580 --> 00:00:45,020
+From here we'll do a new terminal and we'll just type in<u> ADA</u> help
+
+148
+00:00:45,020 --> 00:00:45,480
+From here we'll do a new terminal and we'll just type in ADA<u> help</u>
+
+149
+00:00:45,480 --> 00:00:46,100
+<u>and</u> you'll be able to find all the command line arguments that you can use here.
+
+150
+00:00:46,100 --> 00:00:46,380
+and<u> you'll</u> be able to find all the command line arguments that you can use here.
+
+151
+00:00:46,380 --> 00:00:46,500
+and you'll<u> be</u> able to find all the command line arguments that you can use here.
+
+152
+00:00:46,500 --> 00:00:46,600
+and you'll be<u> able</u> to find all the command line arguments that you can use here.
+
+153
+00:00:46,600 --> 00:00:46,720
+and you'll be able<u> to</u> find all the command line arguments that you can use here.
+
+154
+00:00:46,720 --> 00:00:47,080
+and you'll be able to<u> find</u> all the command line arguments that you can use here.
+
+155
+00:00:47,080 --> 00:00:47,400
+and you'll be able to find<u> all</u> the command line arguments that you can use here.
+
+156
+00:00:47,400 --> 00:00:47,540
+and you'll be able to find all<u> the</u> command line arguments that you can use here.
+
+157
+00:00:47,540 --> 00:00:47,700
+and you'll be able to find all the<u> command</u> line arguments that you can use here.
+
+158
+00:00:47,700 --> 00:00:48,000
+and you'll be able to find all the command<u> line</u> arguments that you can use here.
+
+159
+00:00:48,000 --> 00:00:48,480
+and you'll be able to find all the command line<u> arguments</u> that you can use here.
+
+160
+00:00:48,480 --> 00:00:48,900
+and you'll be able to find all the command line arguments<u> that</u> you can use here.
+
+161
+00:00:48,900 --> 00:00:49,040
+and you'll be able to find all the command line arguments that<u> you</u> can use here.
+
+162
+00:00:49,040 --> 00:00:49,200
+and you'll be able to find all the command line arguments that you<u> can</u> use here.
+
+163
+00:00:49,200 --> 00:00:49,420
+and you'll be able to find all the command line arguments that you can<u> use</u> here.
+
+164
+00:00:49,420 --> 00:00:49,700
+and you'll be able to find all the command line arguments that you can use<u> here.</u>
+
+165
+00:00:49,960 --> 00:00:50,180
+<u>I</u> like to just copy these straight into ChatGPT and ask it questions but it's all available here.
+
+166
+00:00:50,180 --> 00:00:50,340
+I<u> like</u> to just copy these straight into ChatGPT and ask it questions but it's all available here.
+
+167
+00:00:50,340 --> 00:00:50,520
+I like<u> to</u> just copy these straight into ChatGPT and ask it questions but it's all available here.
+
+168
+00:00:50,520 --> 00:00:50,660
+I like to<u> just</u> copy these straight into ChatGPT and ask it questions but it's all available here.
+
+169
+00:00:50,660 --> 00:00:50,960
+I like to just<u> copy</u> these straight into ChatGPT and ask it questions but it's all available here.
+
+170
+00:00:50,960 --> 00:00:51,180
+I like to just copy<u> these</u> straight into ChatGPT and ask it questions but it's all available here.
+
+171
+00:00:51,180 --> 00:00:51,520
+I like to just copy these<u> straight</u> into ChatGPT and ask it questions but it's all available here.
+
+172
+00:00:51,520 --> 00:00:51,720
+I like to just copy these straight<u> into</u> ChatGPT and ask it questions but it's all available here.
+
+173
+00:00:51,720 --> 00:00:52,600
+I like to just copy these straight into<u> ChatGPT</u> and ask it questions but it's all available here.
+
+174
+00:00:52,600 --> 00:00:53,100
+I like to just copy these straight into ChatGPT<u> and</u> ask it questions but it's all available here.
+
+175
+00:00:53,100 --> 00:00:53,340
+I like to just copy these straight into ChatGPT and<u> ask</u> it questions but it's all available here.
+
+176
+00:00:53,340 --> 00:00:53,520
+I like to just copy these straight into ChatGPT and ask<u> it</u> questions but it's all available here.
+
+177
+00:00:53,520 --> 00:00:53,940
+I like to just copy these straight into ChatGPT and ask it<u> questions</u> but it's all available here.
+
+178
+00:00:53,940 --> 00:00:54,360
+I like to just copy these straight into ChatGPT and ask it questions<u> but</u> it's all available here.
+
+179
+00:00:54,360 --> 00:00:54,760
+I like to just copy these straight into ChatGPT and ask it questions but<u> it's</u> all available here.
+
+180
+00:00:54,760 --> 00:00:54,880
+I like to just copy these straight into ChatGPT and ask it questions but it's<u> all</u> available here.
+
+181
+00:00:54,880 --> 00:00:55,140
+I like to just copy these straight into ChatGPT and ask it questions but it's all<u> available</u> here.
+
+182
+00:00:55,140 --> 00:00:55,540
+I like to just copy these straight into ChatGPT and ask it questions but it's all available<u> here.</u>
+
+183
+00:00:55,740 --> 00:00:56,180
+<u>Now</u> the next step in the ReadMe is change to a directory.
+
+184
+00:00:56,180 --> 00:00:56,440
+Now<u> the</u> next step in the ReadMe is change to a directory.
+
+185
+00:00:56,440 --> 00:00:56,860
+Now the<u> next</u> step in the ReadMe is change to a directory.
+
+186
+00:00:56,860 --> 00:00:57,260
+Now the next<u> step</u> in the ReadMe is change to a directory.
+
+187
+00:00:57,260 --> 00:00:57,520
+Now the next step<u> in</u> the ReadMe is change to a directory.
+
+188
+00:00:57,520 --> 00:00:57,640
+Now the next step in<u> the</u> ReadMe is change to a directory.
+
+189
+00:00:57,640 --> 00:00:58,000
+Now the next step in the<u> ReadMe</u> is change to a directory.
+
+190
+00:00:58,000 --> 00:00:58,660
+Now the next step in the ReadMe<u> is</u> change to a directory.
+
+191
+00:00:58,660 --> 00:00:59,320
+Now the next step in the ReadMe is<u> change</u> to a directory.
+
+192
+00:00:59,320 --> 00:00:59,600
+Now the next step in the ReadMe is change<u> to</u> a directory.
+
+193
+00:00:59,600 --> 00:00:59,740
+Now the next step in the ReadMe is change to<u> a</u> directory.
+
+194
+00:00:59,740 --> 00:00:59,920
+Now the next step in the ReadMe is change to a<u> directory.</u>
+
+195
+00:01:00,220 --> 00:01:00,280
+<u>So</u> what we'll do is we'll make a directory and go there.
+
+196
+00:01:00,280 --> 00:01:00,440
+So<u> what</u> we'll do is we'll make a directory and go there.
+
+197
+00:01:00,440 --> 00:01:00,620
+So what<u> we'll</u> do is we'll make a directory and go there.
+
+198
+00:01:00,620 --> 00:01:00,760
+So what we'll<u> do</u> is we'll make a directory and go there.
+
+199
+00:01:00,760 --> 00:01:00,920
+So what we'll do<u> is</u> we'll make a directory and go there.
+
+200
+00:01:00,920 --> 00:01:01,080
+So what we'll do is<u> we'll</u> make a directory and go there.
+
+201
+00:01:01,080 --> 00:01:01,240
+So what we'll do is we'll<u> make</u> a directory and go there.
+
+202
+00:01:01,240 --> 00:01:01,380
+So what we'll do is we'll make<u> a</u> directory and go there.
+
+203
+00:01:01,380 --> 00:01:01,700
+So what we'll do is we'll make a<u> directory</u> and go there.
+
+204
+00:01:01,700 --> 00:01:01,960
+So what we'll do is we'll make a directory<u> and</u> go there.
+
+205
+00:01:01,960 --> 00:01:02,120
+So what we'll do is we'll make a directory and<u> go</u> there.
+
+206
+00:01:02,120 --> 00:01:02,380
+So what we'll do is we'll make a directory and go<u> there.</u>
+
+207
+00:01:02,540 --> 00:01:02,860
+<u>It's</u> also talking about using the Anthropic Key or the OpenAI API key.
+
+208
+00:01:02,860 --> 00:01:03,040
+It's<u> also</u> talking about using the Anthropic Key or the OpenAI API key.
+
+209
+00:01:03,040 --> 00:01:03,480
+It's also<u> talking</u> about using the Anthropic Key or the OpenAI API key.
+
+210
+00:01:03,480 --> 00:01:03,880
+It's also talking<u> about</u> using the Anthropic Key or the OpenAI API key.
+
+211
+00:01:03,880 --> 00:01:04,300
+It's also talking about<u> using</u> the Anthropic Key or the OpenAI API key.
+
+212
+00:01:04,300 --> 00:01:04,560
+It's also talking about using<u> the</u> Anthropic Key or the OpenAI API key.
+
+213
+00:01:04,560 --> 00:01:05,000
+It's also talking about using the<u> Anthropic</u> Key or the OpenAI API key.
+
+214
+00:01:05,000 --> 00:01:05,360
+It's also talking about using the Anthropic<u> Key</u> or the OpenAI API key.
+
+215
+00:01:05,360 --> 00:01:05,660
+It's also talking about using the Anthropic Key<u> or</u> the OpenAI API key.
+
+216
+00:01:05,660 --> 00:01:05,820
+It's also talking about using the Anthropic Key or<u> the</u> OpenAI API key.
+
+217
+00:01:05,820 --> 00:01:06,400
+It's also talking about using the Anthropic Key or the<u> OpenAI</u> API key.
+
+218
+00:01:06,400 --> 00:01:07,000
+It's also talking about using the Anthropic Key or the OpenAI<u> API</u> key.
+
+219
+00:01:07,000 --> 00:01:07,420
+It's also talking about using the Anthropic Key or the OpenAI API<u> key.</u>
+
+220
+00:01:07,720 --> 00:01:07,960
+<u>Now</u> I have both of those exported so I'm not sure which one it's going to run and then we've got ADA.
+
+221
+00:01:07,960 --> 00:01:08,100
+Now<u> I</u> have both of those exported so I'm not sure which one it's going to run and then we've got ADA.
+
+222
+00:01:08,100 --> 00:01:08,240
+Now I<u> have</u> both of those exported so I'm not sure which one it's going to run and then we've got ADA.
+
+223
+00:01:08,240 --> 00:01:08,440
+Now I have<u> both</u> of those exported so I'm not sure which one it's going to run and then we've got ADA.
+
+224
+00:01:08,440 --> 00:01:08,580
+Now I have both<u> of</u> those exported so I'm not sure which one it's going to run and then we've got ADA.
+
+225
+00:01:08,580 --> 00:01:08,800
+Now I have both of<u> those</u> exported so I'm not sure which one it's going to run and then we've got ADA.
+
+226
+00:01:08,800 --> 00:01:09,360
+Now I have both of those<u> exported</u> so I'm not sure which one it's going to run and then we've got ADA.
+
+227
+00:01:09,360 --> 00:01:09,620
+Now I have both of those exported<u> so</u> I'm not sure which one it's going to run and then we've got ADA.
+
+228
+00:01:09,620 --> 00:01:09,720
+Now I have both of those exported so<u> I'm</u> not sure which one it's going to run and then we've got ADA.
+
+229
+00:01:09,720 --> 00:01:09,840
+Now I have both of those exported so I'm<u> not</u> sure which one it's going to run and then we've got ADA.
+
+230
+00:01:09,840 --> 00:01:10,040
+Now I have both of those exported so I'm not<u> sure</u> which one it's going to run and then we've got ADA.
+
+231
+00:01:10,040 --> 00:01:10,220
+Now I have both of those exported so I'm not sure<u> which</u> one it's going to run and then we've got ADA.
+
+232
+00:01:10,220 --> 00:01:10,420
+Now I have both of those exported so I'm not sure which<u> one</u> it's going to run and then we've got ADA.
+
+233
+00:01:10,420 --> 00:01:10,600
+Now I have both of those exported so I'm not sure which one<u> it's</u> going to run and then we've got ADA.
+
+234
+00:01:10,600 --> 00:01:10,780
+Now I have both of those exported so I'm not sure which one it's<u> going</u> to run and then we've got ADA.
+
+235
+00:01:10,780 --> 00:01:10,960
+Now I have both of those exported so I'm not sure which one it's going<u> to</u> run and then we've got ADA.
+
+236
+00:01:10,960 --> 00:01:11,120
+Now I have both of those exported so I'm not sure which one it's going to<u> run</u> and then we've got ADA.
+
+237
+00:01:11,120 --> 00:01:11,540
+Now I have both of those exported so I'm not sure which one it's going to run<u> and</u> then we've got ADA.
+
+238
+00:01:11,540 --> 00:01:11,640
+Now I have both of those exported so I'm not sure which one it's going to run and<u> then</u> we've got ADA.
+
+239
+00:01:11,640 --> 00:01:11,880
+Now I have both of those exported so I'm not sure which one it's going to run and then<u> we've</u> got ADA.
+
+240
+00:01:11,880 --> 00:01:12,060
+Now I have both of those exported so I'm not sure which one it's going to run and then we've<u> got</u> ADA.
+
+241
+00:01:12,060 --> 00:01:12,300
+Now I have both of those exported so I'm not sure which one it's going to run and then we've got<u> ADA.</u>
+
+242
+00:01:12,580 --> 00:01:12,700
+<u>So</u> what we'll do is we'll go down to a terminal, we'll make a test directory and we'll cd into test
+
+243
+00:01:12,700 --> 00:01:12,860
+So<u> what</u> we'll do is we'll go down to a terminal, we'll make a test directory and we'll cd into test
+
+244
+00:01:12,860 --> 00:01:13,000
+So what<u> we'll</u> do is we'll go down to a terminal, we'll make a test directory and we'll cd into test
+
+245
+00:01:13,000 --> 00:01:13,140
+So what we'll<u> do</u> is we'll go down to a terminal, we'll make a test directory and we'll cd into test
+
+246
+00:01:13,140 --> 00:01:13,320
+So what we'll do<u> is</u> we'll go down to a terminal, we'll make a test directory and we'll cd into test
+
+247
+00:01:13,320 --> 00:01:13,500
+So what we'll do is<u> we'll</u> go down to a terminal, we'll make a test directory and we'll cd into test
+
+248
+00:01:13,500 --> 00:01:13,620
+So what we'll do is we'll<u> go</u> down to a terminal, we'll make a test directory and we'll cd into test
+
+249
+00:01:13,620 --> 00:01:13,780
+So what we'll do is we'll go<u> down</u> to a terminal, we'll make a test directory and we'll cd into test
+
+250
+00:01:13,780 --> 00:01:14,000
+So what we'll do is we'll go down<u> to</u> a terminal, we'll make a test directory and we'll cd into test
+
+251
+00:01:14,000 --> 00:01:14,140
+So what we'll do is we'll go down to<u> a</u> terminal, we'll make a test directory and we'll cd into test
+
+252
+00:01:14,140 --> 00:01:14,440
+So what we'll do is we'll go down to a<u> terminal,</u> we'll make a test directory and we'll cd into test
+
+253
+00:01:14,440 --> 00:01:14,680
+So what we'll do is we'll go down to a terminal, we'll make a test directory and we'll cd into test
+
+254
+00:01:14,680 --> 00:01:15,020
+So what we'll do is we'll go down to a terminal,<u> we'll</u> make a test directory and we'll cd into test
+
+255
+00:01:15,020 --> 00:01:15,240
+So what we'll do is we'll go down to a terminal, we'll<u> make</u> a test directory and we'll cd into test
+
+256
+00:01:15,240 --> 00:01:15,400
+So what we'll do is we'll go down to a terminal, we'll make<u> a</u> test directory and we'll cd into test
+
+257
+00:01:15,400 --> 00:01:15,660
+So what we'll do is we'll go down to a terminal, we'll make a<u> test</u> directory and we'll cd into test
+
+258
+00:01:15,660 --> 00:01:16,220
+So what we'll do is we'll go down to a terminal, we'll make a test<u> directory</u> and we'll cd into test
+
+259
+00:01:16,220 --> 00:01:16,640
+So what we'll do is we'll go down to a terminal, we'll make a test directory<u> and</u> we'll cd into test
+
+260
+00:01:16,640 --> 00:01:16,820
+So what we'll do is we'll go down to a terminal, we'll make a test directory and<u> we'll</u> cd into test
+
+261
+00:01:16,820 --> 00:01:17,180
+So what we'll do is we'll go down to a terminal, we'll make a test directory and we'll<u> cd</u> into test
+
+262
+00:01:17,180 --> 00:01:17,380
+So what we'll do is we'll go down to a terminal, we'll make a test directory and we'll cd<u> into</u> test
+
+263
+00:01:17,380 --> 00:01:17,720
+So what we'll do is we'll go down to a terminal, we'll make a test directory and we'll cd into<u> test</u>
+
+264
+00:01:17,720 --> 00:01:18,240
+<u>and</u> then we'll just type in ADA and see what happens.
+
+265
+00:01:18,240 --> 00:01:18,340
+and<u> then</u> we'll just type in ADA and see what happens.
+
+266
+00:01:18,340 --> 00:01:18,520
+and then<u> we'll</u> just type in ADA and see what happens.
+
+267
+00:01:18,520 --> 00:01:18,640
+and then we'll<u> just</u> type in ADA and see what happens.
+
+268
+00:01:18,640 --> 00:01:18,960
+and then we'll just<u> type</u> in ADA and see what happens.
+
+269
+00:01:18,960 --> 00:01:19,200
+and then we'll just type<u> in</u> ADA and see what happens.
+
+270
+00:01:19,200 --> 00:01:19,580
+and then we'll just type in<u> ADA</u> and see what happens.
+
+271
+00:01:19,580 --> 00:01:20,300
+and then we'll just type in ADA<u> and</u> see what happens.
+
+272
+00:01:20,300 --> 00:01:20,600
+and then we'll just type in ADA and<u> see</u> what happens.
+
+273
+00:01:20,600 --> 00:01:20,720
+and then we'll just type in ADA and see<u> what</u> happens.
+
+274
+00:01:20,720 --> 00:01:21,120
+and then we'll just type in ADA and see what<u> happens.</u>
+
+275
+00:01:21,180 --> 00:01:21,860
+<u>So</u> it's firstly asking us to create a repo.
+
+276
+00:01:21,860 --> 00:01:22,240
+So<u> it's</u> firstly asking us to create a repo.
+
+277
+00:01:22,240 --> 00:01:22,620
+So it's<u> firstly</u> asking us to create a repo.
+
+278
+00:01:22,620 --> 00:01:23,080
+So it's firstly<u> asking</u> us to create a repo.
+
+279
+00:01:23,080 --> 00:01:23,360
+So it's firstly asking<u> us</u> to create a repo.
+
+280
+00:01:23,360 --> 00:01:23,540
+So it's firstly asking us<u> to</u> create a repo.
+
+281
+00:01:23,540 --> 00:01:23,940
+So it's firstly asking us to<u> create</u> a repo.
+
+282
+00:01:23,940 --> 00:01:24,080
+So it's firstly asking us to create<u> a</u> repo.
+
+283
+00:01:24,080 --> 00:01:24,320
+So it's firstly asking us to create a<u> repo.</u>
+
+284
+00:01:24,520 --> 00:01:24,640
+<u>We'll</u> say yes and from there it's telling us which model it's going to use.
+
+285
+00:01:24,640 --> 00:01:24,900
+We'll<u> say</u> yes and from there it's telling us which model it's going to use.
+
+286
+00:01:24,900 --> 00:01:25,560
+We'll say<u> yes</u> and from there it's telling us which model it's going to use.
+
+287
+00:01:25,560 --> 00:01:26,220
+We'll say yes<u> and</u> from there it's telling us which model it's going to use.
+
+288
+00:01:26,220 --> 00:01:26,420
+We'll say yes and<u> from</u> there it's telling us which model it's going to use.
+
+289
+00:01:26,420 --> 00:01:26,640
+We'll say yes and from<u> there</u> it's telling us which model it's going to use.
+
+290
+00:01:26,640 --> 00:01:26,980
+We'll say yes and from there<u> it's</u> telling us which model it's going to use.
+
+291
+00:01:26,980 --> 00:01:27,420
+We'll say yes and from there it's<u> telling</u> us which model it's going to use.
+
+292
+00:01:27,420 --> 00:01:27,740
+We'll say yes and from there it's telling<u> us</u> which model it's going to use.
+
+293
+00:01:27,740 --> 00:01:28,260
+We'll say yes and from there it's telling us<u> which</u> model it's going to use.
+
+294
+00:01:28,260 --> 00:01:28,700
+We'll say yes and from there it's telling us which<u> model</u> it's going to use.
+
+295
+00:01:28,700 --> 00:01:29,040
+We'll say yes and from there it's telling us which model<u> it's</u> going to use.
+
+296
+00:01:29,040 --> 00:01:29,260
+We'll say yes and from there it's telling us which model it's<u> going</u> to use.
+
+297
+00:01:29,260 --> 00:01:29,560
+We'll say yes and from there it's telling us which model it's going<u> to</u> use.
+
+298
+00:01:29,560 --> 00:01:29,900
+We'll say yes and from there it's telling us which model it's going to<u> use.</u>
+
+299
+00:01:30,240 --> 00:01:30,240
+<u>So</u> it's got Claude 3.5 Sonnet, 2024, 1022.
+
+300
+00:01:30,240 --> 00:01:30,700
+So<u> it's</u> got Claude 3.5 Sonnet, 2024, 1022.
+
+301
+00:01:30,700 --> 00:01:31,080
+So it's<u> got</u> Claude 3.5 Sonnet, 2024, 1022.
+
+302
+00:01:31,080 --> 00:01:32,160
+So it's got<u> Claude</u> 3.5 Sonnet, 2024, 1022.
+
+303
+00:01:32,160 --> 00:01:32,380
+So it's got Claude<u> 3</u>.5 Sonnet, 2024, 1022.
+
+304
+00:01:32,380 --> 00:01:32,860
+So it's got Claude 3<u>.5</u> Sonnet, 2024, 1022.
+
+305
+00:01:32,860 --> 00:01:33,320
+So it's got Claude 3.5<u> Sonnet,</u> 2024, 1022.
+
+306
+00:01:33,320 --> 00:01:33,780
+So it's got Claude 3.5 Sonnet, 2024, 1022.
+
+307
+00:01:33,780 --> 00:01:34,620
+So it's got Claude 3.5 Sonnet,<u> 2024,</u> 1022.
+
+308
+00:01:34,620 --> 00:01:35,160
+So it's got Claude 3.5 Sonnet, 2024, 1022.
+
+309
+00:01:35,160 --> 00:01:35,980
+So it's got Claude 3.5 Sonnet, 2024,<u> 1022.</u>
+
+310
+00:01:36,580 --> 00:01:36,720
+<u>Now</u> when ADA starts you're straight into a terminal with chat capability already enabled
+
+311
+00:01:36,720 --> 00:01:36,980
+Now<u> when</u> ADA starts you're straight into a terminal with chat capability already enabled
+
+312
+00:01:36,980 --> 00:01:37,600
+Now when<u> ADA</u> starts you're straight into a terminal with chat capability already enabled
+
+313
+00:01:37,600 --> 00:01:38,120
+Now when ADA<u> starts</u> you're straight into a terminal with chat capability already enabled
+
+314
+00:01:38,120 --> 00:01:38,420
+Now when ADA starts<u> you're</u> straight into a terminal with chat capability already enabled
+
+315
+00:01:38,420 --> 00:01:38,600
+Now when ADA starts you're<u> straight</u> into a terminal with chat capability already enabled
+
+316
+00:01:38,600 --> 00:01:38,840
+Now when ADA starts you're straight<u> into</u> a terminal with chat capability already enabled
+
+317
+00:01:38,840 --> 00:01:39,020
+Now when ADA starts you're straight into<u> a</u> terminal with chat capability already enabled
+
+318
+00:01:39,020 --> 00:01:39,360
+Now when ADA starts you're straight into a<u> terminal</u> with chat capability already enabled
+
+319
+00:01:39,360 --> 00:01:39,760
+Now when ADA starts you're straight into a terminal<u> with</u> chat capability already enabled
+
+320
+00:01:39,760 --> 00:01:40,180
+Now when ADA starts you're straight into a terminal with<u> chat</u> capability already enabled
+
+321
+00:01:40,180 --> 00:01:40,800
+Now when ADA starts you're straight into a terminal with chat<u> capability</u> already enabled
+
+322
+00:01:40,800 --> 00:01:41,520
+Now when ADA starts you're straight into a terminal with chat capability<u> already</u> enabled
+
+323
+00:01:41,520 --> 00:01:42,000
+Now when ADA starts you're straight into a terminal with chat capability already<u> enabled</u>
+
+324
+00:01:42,000 --> 00:01:42,300
+<u>so</u> you can just start writing a prompt.
+
+325
+00:01:42,300 --> 00:01:42,460
+so<u> you</u> can just start writing a prompt.
+
+326
+00:01:42,460 --> 00:01:42,580
+so you<u> can</u> just start writing a prompt.
+
+327
+00:01:42,580 --> 00:01:42,780
+so you can<u> just</u> start writing a prompt.
+
+328
+00:01:42,780 --> 00:01:43,120
+so you can just<u> start</u> writing a prompt.
+
+329
+00:01:43,120 --> 00:01:43,460
+so you can just start<u> writing</u> a prompt.
+
+330
+00:01:43,460 --> 00:01:43,620
+so you can just start writing<u> a</u> prompt.
+
+331
+00:01:43,620 --> 00:01:43,940
+so you can just start writing a<u> prompt.</u>
+
+332
+00:01:44,420 --> 00:01:44,540
+<u>So</u> we'll start off with a simple prompt, make a HTML page in Tailwind CSS.
+
+333
+00:01:44,540 --> 00:01:44,800
+So<u> we'll</u> start off with a simple prompt, make a HTML page in Tailwind CSS.
+
+334
+00:01:44,800 --> 00:01:45,000
+So we'll<u> start</u> off with a simple prompt, make a HTML page in Tailwind CSS.
+
+335
+00:01:45,000 --> 00:01:45,240
+So we'll start<u> off</u> with a simple prompt, make a HTML page in Tailwind CSS.
+
+336
+00:01:45,240 --> 00:01:45,420
+So we'll start off<u> with</u> a simple prompt, make a HTML page in Tailwind CSS.
+
+337
+00:01:45,420 --> 00:01:45,760
+So we'll start off with<u> a</u> simple prompt, make a HTML page in Tailwind CSS.
+
+338
+00:01:45,760 --> 00:01:46,000
+So we'll start off with a<u> simple</u> prompt, make a HTML page in Tailwind CSS.
+
+339
+00:01:46,000 --> 00:01:46,420
+So we'll start off with a simple<u> prompt,</u> make a HTML page in Tailwind CSS.
+
+340
+00:01:46,420 --> 00:01:46,620
+So we'll start off with a simple prompt, make a HTML page in Tailwind CSS.
+
+341
+00:01:46,620 --> 00:01:46,880
+So we'll start off with a simple prompt,<u> make</u> a HTML page in Tailwind CSS.
+
+342
+00:01:46,880 --> 00:01:47,020
+So we'll start off with a simple prompt, make<u> a</u> HTML page in Tailwind CSS.
+
+343
+00:01:47,020 --> 00:01:47,460
+So we'll start off with a simple prompt, make a<u> HTML</u> page in Tailwind CSS.
+
+344
+00:01:47,460 --> 00:01:47,960
+So we'll start off with a simple prompt, make a HTML<u> page</u> in Tailwind CSS.
+
+345
+00:01:47,960 --> 00:01:48,480
+So we'll start off with a simple prompt, make a HTML page<u> in</u> Tailwind CSS.
+
+346
+00:01:48,480 --> 00:01:48,920
+So we'll start off with a simple prompt, make a HTML page in<u> Tailwind</u> CSS.
+
+347
+00:01:48,920 --> 00:01:49,300
+So we'll start off with a simple prompt, make a HTML page in Tailwind<u> CSS.</u>
+
+348
+00:01:49,440 --> 00:01:50,000
+<u>We'll</u> add three fields, we'll go with name, description and URL.
+
+349
+00:01:50,000 --> 00:01:50,000
+We'll<u> add</u> three fields, we'll go with name, description and URL.
+
+350
+00:01:50,000 --> 00:01:50,260
+We'll add<u> three</u> fields, we'll go with name, description and URL.
+
+351
+00:01:50,260 --> 00:01:50,660
+We'll add three<u> fields,</u> we'll go with name, description and URL.
+
+352
+00:01:50,660 --> 00:01:50,800
+We'll add three fields, we'll go with name, description and URL.
+
+353
+00:01:50,800 --> 00:01:50,860
+We'll add three fields,<u> we'll</u> go with name, description and URL.
+
+354
+00:01:50,860 --> 00:01:51,000
+We'll add three fields, we'll<u> go</u> with name, description and URL.
+
+355
+00:01:51,000 --> 00:01:51,200
+We'll add three fields, we'll go<u> with</u> name, description and URL.
+
+356
+00:01:51,200 --> 00:01:51,440
+We'll add three fields, we'll go with<u> name,</u> description and URL.
+
+357
+00:01:51,440 --> 00:01:51,580
+We'll add three fields, we'll go with name, description and URL.
+
+358
+00:01:51,580 --> 00:01:51,960
+We'll add three fields, we'll go with name,<u> description</u> and URL.
+
+359
+00:01:51,960 --> 00:01:52,500
+We'll add three fields, we'll go with name, description<u> and</u> URL.
+
+360
+00:01:52,500 --> 00:01:53,040
+We'll add three fields, we'll go with name, description and<u> URL.</u>
+
+361
+00:01:53,440 --> 00:01:53,660
+<u>We'll</u> add a little bit more called plus two text areas and I'm just going to press yes
+
+362
+00:01:53,660 --> 00:01:53,820
+We'll<u> add</u> a little bit more called plus two text areas and I'm just going to press yes
+
+363
+00:01:53,820 --> 00:01:54,020
+We'll add<u> a</u> little bit more called plus two text areas and I'm just going to press yes
+
+364
+00:01:54,020 --> 00:01:54,180
+We'll add a<u> little</u> bit more called plus two text areas and I'm just going to press yes
+
+365
+00:01:54,180 --> 00:01:54,380
+We'll add a little<u> bit</u> more called plus two text areas and I'm just going to press yes
+
+366
+00:01:54,380 --> 00:01:54,640
+We'll add a little bit<u> more</u> called plus two text areas and I'm just going to press yes
+
+367
+00:01:54,640 --> 00:01:54,980
+We'll add a little bit more<u> called</u> plus two text areas and I'm just going to press yes
+
+368
+00:01:54,980 --> 00:01:55,400
+We'll add a little bit more called<u> plus</u> two text areas and I'm just going to press yes
+
+369
+00:01:55,400 --> 00:01:55,900
+We'll add a little bit more called plus<u> two</u> text areas and I'm just going to press yes
+
+370
+00:01:55,900 --> 00:01:56,180
+We'll add a little bit more called plus two<u> text</u> areas and I'm just going to press yes
+
+371
+00:01:56,180 --> 00:01:56,680
+We'll add a little bit more called plus two text<u> areas</u> and I'm just going to press yes
+
+372
+00:01:56,680 --> 00:01:57,160
+We'll add a little bit more called plus two text areas<u> and</u> I'm just going to press yes
+
+373
+00:01:57,160 --> 00:01:57,360
+We'll add a little bit more called plus two text areas and<u> I'm</u> just going to press yes
+
+374
+00:01:57,360 --> 00:01:57,520
+We'll add a little bit more called plus two text areas and I'm<u> just</u> going to press yes
+
+375
+00:01:57,520 --> 00:01:57,680
+We'll add a little bit more called plus two text areas and I'm just<u> going</u> to press yes
+
+376
+00:01:57,680 --> 00:01:57,740
+We'll add a little bit more called plus two text areas and I'm just going<u> to</u> press yes
+
+377
+00:01:57,740 --> 00:01:57,920
+We'll add a little bit more called plus two text areas and I'm just going to<u> press</u> yes
+
+378
+00:01:57,920 --> 00:01:58,340
+We'll add a little bit more called plus two text areas and I'm just going to press<u> yes</u>
+
+379
+00:01:58,340 --> 00:01:58,620
+<u>and</u> see what happens.
+
+380
+00:01:58,620 --> 00:01:58,860
+and<u> see</u> what happens.
+
+381
+00:01:58,860 --> 00:01:59,040
+and see<u> what</u> happens.
+
+382
+00:01:59,040 --> 00:01:59,420
+and see what<u> happens.</u>
+
+383
+00:01:59,520 --> 00:01:59,800
+<u>It'll</u> start writing some code for us and we've got Tailwind CSS.
+
+384
+00:01:59,800 --> 00:02:00,180
+It'll<u> start</u> writing some code for us and we've got Tailwind CSS.
+
+385
+00:02:00,180 --> 00:02:00,580
+It'll start<u> writing</u> some code for us and we've got Tailwind CSS.
+
+386
+00:02:00,580 --> 00:02:00,880
+It'll start writing<u> some</u> code for us and we've got Tailwind CSS.
+
+387
+00:02:00,880 --> 00:02:01,200
+It'll start writing some<u> code</u> for us and we've got Tailwind CSS.
+
+388
+00:02:01,200 --> 00:02:01,480
+It'll start writing some code<u> for</u> us and we've got Tailwind CSS.
+
+389
+00:02:01,480 --> 00:02:01,700
+It'll start writing some code for<u> us</u> and we've got Tailwind CSS.
+
+390
+00:02:01,700 --> 00:02:02,080
+It'll start writing some code for us<u> and</u> we've got Tailwind CSS.
+
+391
+00:02:02,080 --> 00:02:02,180
+It'll start writing some code for us and<u> we've</u> got Tailwind CSS.
+
+392
+00:02:02,180 --> 00:02:02,280
+It'll start writing some code for us and we've<u> got</u> Tailwind CSS.
+
+393
+00:02:02,280 --> 00:02:02,720
+It'll start writing some code for us and we've got<u> Tailwind</u> CSS.
+
+394
+00:02:02,720 --> 00:02:03,080
+It'll start writing some code for us and we've got Tailwind<u> CSS.</u>
+
+395
+00:02:03,620 --> 00:02:03,880
+<u>What</u> I'm hoping to do is have three fields on the left and two text areas on the right
+
+396
+00:02:03,880 --> 00:02:04,020
+What<u> I'm</u> hoping to do is have three fields on the left and two text areas on the right
+
+397
+00:02:04,020 --> 00:02:04,280
+What I'm<u> hoping</u> to do is have three fields on the left and two text areas on the right
+
+398
+00:02:04,280 --> 00:02:04,480
+What I'm hoping<u> to</u> do is have three fields on the left and two text areas on the right
+
+399
+00:02:04,480 --> 00:02:04,660
+What I'm hoping to<u> do</u> is have three fields on the left and two text areas on the right
+
+400
+00:02:04,660 --> 00:02:04,900
+What I'm hoping to do<u> is</u> have three fields on the left and two text areas on the right
+
+401
+00:02:04,900 --> 00:02:05,160
+What I'm hoping to do is<u> have</u> three fields on the left and two text areas on the right
+
+402
+00:02:05,160 --> 00:02:05,620
+What I'm hoping to do is have<u> three</u> fields on the left and two text areas on the right
+
+403
+00:02:05,620 --> 00:02:05,940
+What I'm hoping to do is have three<u> fields</u> on the left and two text areas on the right
+
+404
+00:02:05,940 --> 00:02:06,180
+What I'm hoping to do is have three fields<u> on</u> the left and two text areas on the right
+
+405
+00:02:06,180 --> 00:02:06,320
+What I'm hoping to do is have three fields on<u> the</u> left and two text areas on the right
+
+406
+00:02:06,320 --> 00:02:06,660
+What I'm hoping to do is have three fields on the<u> left</u> and two text areas on the right
+
+407
+00:02:06,660 --> 00:02:07,140
+What I'm hoping to do is have three fields on the left<u> and</u> two text areas on the right
+
+408
+00:02:07,140 --> 00:02:07,440
+What I'm hoping to do is have three fields on the left and<u> two</u> text areas on the right
+
+409
+00:02:07,440 --> 00:02:07,700
+What I'm hoping to do is have three fields on the left and two<u> text</u> areas on the right
+
+410
+00:02:07,700 --> 00:02:08,140
+What I'm hoping to do is have three fields on the left and two text<u> areas</u> on the right
+
+411
+00:02:08,140 --> 00:02:08,460
+What I'm hoping to do is have three fields on the left and two text areas<u> on</u> the right
+
+412
+00:02:08,460 --> 00:02:08,560
+What I'm hoping to do is have three fields on the left and two text areas on<u> the</u> right
+
+413
+00:02:08,560 --> 00:02:08,840
+What I'm hoping to do is have three fields on the left and two text areas on the<u> right</u>
+
+414
+00:02:08,840 --> 00:02:09,040
+<u>and</u> I'd like to create a template engine where the fields on the left are merged with the template to create an output.
+
+415
+00:02:09,040 --> 00:02:09,360
+and<u> I'd</u> like to create a template engine where the fields on the left are merged with the template to create an output.
+
+416
+00:02:09,360 --> 00:02:09,660
+and I'd<u> like</u> to create a template engine where the fields on the left are merged with the template to create an output.
+
+417
+00:02:09,660 --> 00:02:09,860
+and I'd like<u> to</u> create a template engine where the fields on the left are merged with the template to create an output.
+
+418
+00:02:09,860 --> 00:02:10,080
+and I'd like to<u> create</u> a template engine where the fields on the left are merged with the template to create an output.
+
+419
+00:02:10,080 --> 00:02:10,260
+and I'd like to create<u> a</u> template engine where the fields on the left are merged with the template to create an output.
+
+420
+00:02:10,260 --> 00:02:10,560
+and I'd like to create a<u> template</u> engine where the fields on the left are merged with the template to create an output.
+
+421
+00:02:10,560 --> 00:02:10,940
+and I'd like to create a template<u> engine</u> where the fields on the left are merged with the template to create an output.
+
+422
+00:02:10,940 --> 00:02:11,500
+and I'd like to create a template engine<u> where</u> the fields on the left are merged with the template to create an output.
+
+423
+00:02:11,500 --> 00:02:11,800
+and I'd like to create a template engine where<u> the</u> fields on the left are merged with the template to create an output.
+
+424
+00:02:11,800 --> 00:02:12,220
+and I'd like to create a template engine where the<u> fields</u> on the left are merged with the template to create an output.
+
+425
+00:02:12,220 --> 00:02:12,460
+and I'd like to create a template engine where the fields<u> on</u> the left are merged with the template to create an output.
+
+426
+00:02:12,460 --> 00:02:12,560
+and I'd like to create a template engine where the fields on<u> the</u> left are merged with the template to create an output.
+
+427
+00:02:12,560 --> 00:02:12,800
+and I'd like to create a template engine where the fields on the<u> left</u> are merged with the template to create an output.
+
+428
+00:02:12,800 --> 00:02:13,100
+and I'd like to create a template engine where the fields on the left<u> are</u> merged with the template to create an output.
+
+429
+00:02:13,100 --> 00:02:13,440
+and I'd like to create a template engine where the fields on the left are<u> merged</u> with the template to create an output.
+
+430
+00:02:13,440 --> 00:02:13,660
+and I'd like to create a template engine where the fields on the left are merged<u> with</u> the template to create an output.
+
+431
+00:02:13,660 --> 00:02:13,780
+and I'd like to create a template engine where the fields on the left are merged with<u> the</u> template to create an output.
+
+432
+00:02:13,780 --> 00:02:14,120
+and I'd like to create a template engine where the fields on the left are merged with the<u> template</u> to create an output.
+
+433
+00:02:14,120 --> 00:02:14,440
+and I'd like to create a template engine where the fields on the left are merged with the template<u> to</u> create an output.
+
+434
+00:02:14,440 --> 00:02:14,920
+and I'd like to create a template engine where the fields on the left are merged with the template to<u> create</u> an output.
+
+435
+00:02:14,920 --> 00:02:15,080
+and I'd like to create a template engine where the fields on the left are merged with the template to create<u> an</u> output.
+
+436
+00:02:15,080 --> 00:02:15,420
+and I'd like to create a template engine where the fields on the left are merged with the template to create an<u> output.</u>
+
+437
+00:02:15,580 --> 00:02:16,140
+<u>So</u> here we've got some information come up.
+
+438
+00:02:16,140 --> 00:02:16,560
+So<u> here</u> we've got some information come up.
+
+439
+00:02:16,560 --> 00:02:16,820
+So here<u> we've</u> got some information come up.
+
+440
+00:02:16,820 --> 00:02:17,020
+So here we've<u> got</u> some information come up.
+
+441
+00:02:17,020 --> 00:02:17,300
+So here we've got<u> some</u> information come up.
+
+442
+00:02:17,300 --> 00:02:17,660
+So here we've got some<u> information</u> come up.
+
+443
+00:02:17,660 --> 00:02:18,020
+So here we've got some information<u> come</u> up.
+
+444
+00:02:18,020 --> 00:02:18,240
+So here we've got some information come<u> up.</u>
+
+445
+00:02:18,300 --> 00:02:18,720
+<u>It</u> would like to create a page.
+
+446
+00:02:18,720 --> 00:02:18,820
+It<u> would</u> like to create a page.
+
+447
+00:02:18,820 --> 00:02:19,020
+It would<u> like</u> to create a page.
+
+448
+00:02:19,020 --> 00:02:19,200
+It would like<u> to</u> create a page.
+
+449
+00:02:19,200 --> 00:02:19,440
+It would like to<u> create</u> a page.
+
+450
+00:02:19,440 --> 00:02:19,600
+It would like to create<u> a</u> page.
+
+451
+00:02:19,600 --> 00:02:19,940
+It would like to create a<u> page.</u>
+
+452
+00:02:20,160 --> 00:02:20,540
+<u>Let's</u> do that.
+
+453
+00:02:20,540 --> 00:02:20,780
+Let's<u> do</u> that.
+
+454
+00:02:20,780 --> 00:02:20,980
+Let's do<u> that.</u>
+
+455
+00:02:21,020 --> 00:02:21,160
+<u>We'll</u> say yes and it's also got open index HTML.
+
+456
+00:02:21,160 --> 00:02:21,280
+We'll<u> say</u> yes and it's also got open index HTML.
+
+457
+00:02:21,280 --> 00:02:21,660
+We'll say<u> yes</u> and it's also got open index HTML.
+
+458
+00:02:21,660 --> 00:02:22,340
+We'll say yes<u> and</u> it's also got open index HTML.
+
+459
+00:02:22,340 --> 00:02:22,640
+We'll say yes and<u> it's</u> also got open index HTML.
+
+460
+00:02:22,640 --> 00:02:22,880
+We'll say yes and it's<u> also</u> got open index HTML.
+
+461
+00:02:22,880 --> 00:02:23,240
+We'll say yes and it's also<u> got</u> open index HTML.
+
+462
+00:02:23,240 --> 00:02:23,840
+We'll say yes and it's also got<u> open</u> index HTML.
+
+463
+00:02:23,840 --> 00:02:24,340
+We'll say yes and it's also got open<u> index</u> HTML.
+
+464
+00:02:24,340 --> 00:02:25,000
+We'll say yes and it's also got open index<u> HTML.</u>
+
+465
+00:02:25,280 --> 00:02:25,640
+<u>Let's</u> see what happens if we try to open it.
+
+466
+00:02:25,640 --> 00:02:25,820
+Let's<u> see</u> what happens if we try to open it.
+
+467
+00:02:25,820 --> 00:02:25,940
+Let's see<u> what</u> happens if we try to open it.
+
+468
+00:02:25,940 --> 00:02:26,240
+Let's see what<u> happens</u> if we try to open it.
+
+469
+00:02:26,240 --> 00:02:26,440
+Let's see what happens<u> if</u> we try to open it.
+
+470
+00:02:26,440 --> 00:02:26,560
+Let's see what happens if<u> we</u> try to open it.
+
+471
+00:02:26,560 --> 00:02:26,820
+Let's see what happens if we<u> try</u> to open it.
+
+472
+00:02:26,820 --> 00:02:26,960
+Let's see what happens if we try<u> to</u> open it.
+
+473
+00:02:26,960 --> 00:02:27,360
+Let's see what happens if we try to<u> open</u> it.
+
+474
+00:02:27,360 --> 00:02:27,620
+Let's see what happens if we try to open<u> it.</u>
+
+475
+00:02:27,880 --> 00:02:28,300
+<u>So</u> it's generated a new page.
+
+476
+00:02:28,300 --> 00:02:28,860
+So<u> it's</u> generated a new page.
+
+477
+00:02:28,860 --> 00:02:29,360
+So it's<u> generated</u> a new page.
+
+478
+00:02:29,360 --> 00:02:29,760
+So it's generated<u> a</u> new page.
+
+479
+00:02:29,760 --> 00:02:29,980
+So it's generated a<u> new</u> page.
+
+480
+00:02:29,980 --> 00:02:30,340
+So it's generated a new<u> page.</u>
+
+481
+00:02:30,460 --> 00:02:30,720
+<u>We've</u> got it looks like Tailwind to me.
+
+482
+00:02:30,720 --> 00:02:31,000
+We've<u> got</u> it looks like Tailwind to me.
+
+483
+00:02:31,000 --> 00:02:31,380
+We've got<u> it</u> looks like Tailwind to me.
+
+484
+00:02:31,380 --> 00:02:31,580
+We've got it<u> looks</u> like Tailwind to me.
+
+485
+00:02:31,580 --> 00:02:31,900
+We've got it looks<u> like</u> Tailwind to me.
+
+486
+00:02:31,900 --> 00:02:32,340
+We've got it looks like<u> Tailwind</u> to me.
+
+487
+00:02:32,340 --> 00:02:32,500
+We've got it looks like Tailwind<u> to</u> me.
+
+488
+00:02:32,500 --> 00:02:32,640
+We've got it looks like Tailwind to<u> me.</u>
+
+489
+00:02:32,700 --> 00:02:32,840
+<u>We've</u> got name, description and URL and we've got this template and where the output would be right here.
+
+490
+00:02:32,840 --> 00:02:32,920
+We've<u> got</u> name, description and URL and we've got this template and where the output would be right here.
+
+491
+00:02:32,920 --> 00:02:33,380
+We've got<u> name,</u> description and URL and we've got this template and where the output would be right here.
+
+492
+00:02:33,380 --> 00:02:34,160
+We've got name,<u> description</u> and URL and we've got this template and where the output would be right here.
+
+493
+00:02:34,160 --> 00:02:34,780
+We've got name, description<u> and</u> URL and we've got this template and where the output would be right here.
+
+494
+00:02:34,780 --> 00:02:35,140
+We've got name, description and<u> URL</u> and we've got this template and where the output would be right here.
+
+495
+00:02:35,140 --> 00:02:35,740
+We've got name, description and URL<u> and</u> we've got this template and where the output would be right here.
+
+496
+00:02:35,740 --> 00:02:35,920
+We've got name, description and URL and<u> we've</u> got this template and where the output would be right here.
+
+497
+00:02:35,920 --> 00:02:36,000
+We've got name, description and URL and we've<u> got</u> this template and where the output would be right here.
+
+498
+00:02:36,000 --> 00:02:36,200
+We've got name, description and URL and we've got<u> this</u> template and where the output would be right here.
+
+499
+00:02:36,200 --> 00:02:36,660
+We've got name, description and URL and we've got this<u> template</u> and where the output would be right here.
+
+500
+00:02:36,660 --> 00:02:37,240
+We've got name, description and URL and we've got this template<u> and</u> where the output would be right here.
+
+501
+00:02:37,240 --> 00:02:37,460
+We've got name, description and URL and we've got this template and<u> where</u> the output would be right here.
+
+502
+00:02:37,460 --> 00:02:37,620
+We've got name, description and URL and we've got this template and where<u> the</u> output would be right here.
+
+503
+00:02:37,620 --> 00:02:37,960
+We've got name, description and URL and we've got this template and where the<u> output</u> would be right here.
+
+504
+00:02:37,960 --> 00:02:38,240
+We've got name, description and URL and we've got this template and where the output<u> would</u> be right here.
+
+505
+00:02:38,240 --> 00:02:38,520
+We've got name, description and URL and we've got this template and where the output would<u> be</u> right here.
+
+506
+00:02:38,520 --> 00:02:38,920
+We've got name, description and URL and we've got this template and where the output would be<u> right</u> here.
+
+507
+00:02:38,920 --> 00:02:39,220
+We've got name, description and URL and we've got this template and where the output would be right<u> here.</u>
+
+508
+00:02:39,340 --> 00:02:39,700
+<u>So</u> let's say we wanted hello name.
+
+509
+00:02:39,700 --> 00:02:40,040
+So<u> let's</u> say we wanted hello name.
+
+510
+00:02:40,040 --> 00:02:40,280
+So let's<u> say</u> we wanted hello name.
+
+511
+00:02:40,280 --> 00:02:40,500
+So let's say<u> we</u> wanted hello name.
+
+512
+00:02:40,500 --> 00:02:40,820
+So let's say we<u> wanted</u> hello name.
+
+513
+00:02:40,820 --> 00:02:41,380
+So let's say we wanted<u> hello</u> name.
+
+514
+00:02:41,380 --> 00:02:42,120
+So let's say we wanted hello<u> name.</u>
+
+515
+00:02:42,200 --> 00:02:42,760
+<u>This</u> is how I would think it should work.
+
+516
+00:02:42,760 --> 00:02:42,940
+This<u> is</u> how I would think it should work.
+
+517
+00:02:42,940 --> 00:02:43,180
+This is<u> how</u> I would think it should work.
+
+518
+00:02:43,180 --> 00:02:43,460
+This is how<u> I</u> would think it should work.
+
+519
+00:02:43,460 --> 00:02:43,620
+This is how I<u> would</u> think it should work.
+
+520
+00:02:43,620 --> 00:02:43,860
+This is how I would<u> think</u> it should work.
+
+521
+00:02:43,860 --> 00:02:44,020
+This is how I would think<u> it</u> should work.
+
+522
+00:02:44,020 --> 00:02:44,160
+This is how I would think it<u> should</u> work.
+
+523
+00:02:44,160 --> 00:02:44,480
+This is how I would think it should<u> work.</u>
+
+524
+00:02:44,840 --> 00:02:44,840
+<u>And</u> then we can say the description is and we could put something like description.
+
+525
+00:02:44,840 --> 00:02:44,980
+And<u> then</u> we can say the description is and we could put something like description.
+
+526
+00:02:44,980 --> 00:02:45,120
+And then<u> we</u> can say the description is and we could put something like description.
+
+527
+00:02:45,120 --> 00:02:45,300
+And then we<u> can</u> say the description is and we could put something like description.
+
+528
+00:02:45,300 --> 00:02:45,580
+And then we can<u> say</u> the description is and we could put something like description.
+
+529
+00:02:45,580 --> 00:02:45,900
+And then we can say<u> the</u> description is and we could put something like description.
+
+530
+00:02:45,900 --> 00:02:46,440
+And then we can say the<u> description</u> is and we could put something like description.
+
+531
+00:02:46,440 --> 00:02:47,260
+And then we can say the description<u> is</u> and we could put something like description.
+
+532
+00:02:47,260 --> 00:02:47,780
+And then we can say the description is<u> and</u> we could put something like description.
+
+533
+00:02:47,780 --> 00:02:47,960
+And then we can say the description is and<u> we</u> could put something like description.
+
+534
+00:02:47,960 --> 00:02:48,200
+And then we can say the description is and we<u> could</u> put something like description.
+
+535
+00:02:48,200 --> 00:02:48,520
+And then we can say the description is and we could<u> put</u> something like description.
+
+536
+00:02:48,520 --> 00:02:48,860
+And then we can say the description is and we could put<u> something</u> like description.
+
+537
+00:02:48,860 --> 00:02:49,220
+And then we can say the description is and we could put something<u> like</u> description.
+
+538
+00:02:49,220 --> 00:02:49,900
+And then we can say the description is and we could put something like<u> description.</u>
+
+539
+00:02:50,340 --> 00:02:50,580
+<u>And</u> lastly, we need the URL.
+
+540
+00:02:50,580 --> 00:02:51,100
+And<u> lastly,</u> we need the URL.
+
+541
+00:02:51,100 --> 00:02:51,300
+And lastly, we need the URL.
+
+542
+00:02:51,300 --> 00:02:51,480
+And lastly,<u> we</u> need the URL.
+
+543
+00:02:51,480 --> 00:02:51,720
+And lastly, we<u> need</u> the URL.
+
+544
+00:02:51,720 --> 00:02:51,900
+And lastly, we need<u> the</u> URL.
+
+545
+00:02:51,900 --> 00:02:52,360
+And lastly, we need the<u> URL.</u>
+
+546
+00:02:52,640 --> 00:02:52,720
+<u>So</u> I'll say URL and we'll put in the URL.
+
+547
+00:02:52,720 --> 00:02:52,780
+So<u> I'll</u> say URL and we'll put in the URL.
+
+548
+00:02:52,780 --> 00:02:52,980
+So I'll<u> say</u> URL and we'll put in the URL.
+
+549
+00:02:52,980 --> 00:02:53,460
+So I'll say<u> URL</u> and we'll put in the URL.
+
+550
+00:02:53,460 --> 00:02:53,860
+So I'll say URL<u> and</u> we'll put in the URL.
+
+551
+00:02:53,860 --> 00:02:54,020
+So I'll say URL and<u> we'll</u> put in the URL.
+
+552
+00:02:54,020 --> 00:02:54,180
+So I'll say URL and we'll<u> put</u> in the URL.
+
+553
+00:02:54,180 --> 00:02:54,300
+So I'll say URL and we'll put<u> in</u> the URL.
+
+554
+00:02:54,300 --> 00:02:54,400
+So I'll say URL and we'll put in<u> the</u> URL.
+
+555
+00:02:54,400 --> 00:02:54,820
+So I'll say URL and we'll put in the<u> URL.</u>
+
+556
+00:02:55,120 --> 00:02:55,320
+<u>And</u> what I'm hoping will happen is that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+557
+00:02:55,320 --> 00:02:55,440
+And<u> what</u> I'm hoping will happen is that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+558
+00:02:55,440 --> 00:02:55,600
+And what<u> I'm</u> hoping will happen is that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+559
+00:02:55,600 --> 00:02:55,940
+And what I'm<u> hoping</u> will happen is that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+560
+00:02:55,940 --> 00:02:56,220
+And what I'm hoping<u> will</u> happen is that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+561
+00:02:56,220 --> 00:02:56,600
+And what I'm hoping will<u> happen</u> is that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+562
+00:02:56,600 --> 00:02:57,080
+And what I'm hoping will happen<u> is</u> that this information will get copied down here, but these values will be altered with whatever's going on here.
+
+563
+00:02:57,080 --> 00:02:57,280
+And what I'm hoping will happen is<u> that</u> this information will get copied down here, but these values will be altered with whatever's going on here.
+
+564
+00:02:57,280 --> 00:02:57,500
+And what I'm hoping will happen is that<u> this</u> information will get copied down here, but these values will be altered with whatever's going on here.
+
+565
+00:02:57,500 --> 00:02:57,920
+And what I'm hoping will happen is that this<u> information</u> will get copied down here, but these values will be altered with whatever's going on here.
+
+566
+00:02:57,920 --> 00:02:58,420
+And what I'm hoping will happen is that this information<u> will</u> get copied down here, but these values will be altered with whatever's going on here.
+
+567
+00:02:58,420 --> 00:02:58,780
+And what I'm hoping will happen is that this information will<u> get</u> copied down here, but these values will be altered with whatever's going on here.
+
+568
+00:02:58,780 --> 00:02:59,120
+And what I'm hoping will happen is that this information will get<u> copied</u> down here, but these values will be altered with whatever's going on here.
+
+569
+00:02:59,120 --> 00:02:59,460
+And what I'm hoping will happen is that this information will get copied<u> down</u> here, but these values will be altered with whatever's going on here.
+
+570
+00:02:59,460 --> 00:02:59,760
+And what I'm hoping will happen is that this information will get copied down<u> here,</u> but these values will be altered with whatever's going on here.
+
+571
+00:02:59,760 --> 00:03:00,200
+And what I'm hoping will happen is that this information will get copied down here,<u> but</u> these values will be altered with whatever's going on here.
+
+572
+00:03:00,200 --> 00:03:00,440
+And what I'm hoping will happen is that this information will get copied down here, but<u> these</u> values will be altered with whatever's going on here.
+
+573
+00:03:00,440 --> 00:03:01,000
+And what I'm hoping will happen is that this information will get copied down here, but these<u> values</u> will be altered with whatever's going on here.
+
+574
+00:03:01,000 --> 00:03:01,300
+And what I'm hoping will happen is that this information will get copied down here, but these values<u> will</u> be altered with whatever's going on here.
+
+575
+00:03:01,300 --> 00:03:01,540
+And what I'm hoping will happen is that this information will get copied down here, but these values will<u> be</u> altered with whatever's going on here.
+
+576
+00:03:01,540 --> 00:03:02,420
+And what I'm hoping will happen is that this information will get copied down here, but these values will be<u> altered</u> with whatever's going on here.
+
+577
+00:03:02,420 --> 00:03:02,720
+And what I'm hoping will happen is that this information will get copied down here, but these values will be altered<u> with</u> whatever's going on here.
+
+578
+00:03:02,720 --> 00:03:03,280
+And what I'm hoping will happen is that this information will get copied down here, but these values will be altered with<u> whatever's</u> going on here.
+
+579
+00:03:03,280 --> 00:03:03,500
+And what I'm hoping will happen is that this information will get copied down here, but these values will be altered with whatever's<u> going</u> on here.
+
+580
+00:03:03,500 --> 00:03:03,720
+And what I'm hoping will happen is that this information will get copied down here, but these values will be altered with whatever's going<u> on</u> here.
+
+581
+00:03:03,720 --> 00:03:04,100
+And what I'm hoping will happen is that this information will get copied down here, but these values will be altered with whatever's going on<u> here.</u>
+
+582
+00:03:04,520 --> 00:03:04,860
+<u>So</u> if you look at the terminal, you can see a couple of extras.
+
+583
+00:03:04,860 --> 00:03:05,140
+So<u> if</u> you look at the terminal, you can see a couple of extras.
+
+584
+00:03:05,140 --> 00:03:05,220
+So if<u> you</u> look at the terminal, you can see a couple of extras.
+
+585
+00:03:05,220 --> 00:03:05,360
+So if you<u> look</u> at the terminal, you can see a couple of extras.
+
+586
+00:03:05,360 --> 00:03:05,460
+So if you look<u> at</u> the terminal, you can see a couple of extras.
+
+587
+00:03:05,460 --> 00:03:05,560
+So if you look at<u> the</u> terminal, you can see a couple of extras.
+
+588
+00:03:05,560 --> 00:03:05,900
+So if you look at the<u> terminal,</u> you can see a couple of extras.
+
+589
+00:03:05,900 --> 00:03:06,220
+So if you look at the terminal,<u> you</u> can see a couple of extras.
+
+590
+00:03:06,220 --> 00:03:06,400
+So if you look at the terminal, you<u> can</u> see a couple of extras.
+
+591
+00:03:06,400 --> 00:03:06,680
+So if you look at the terminal, you can<u> see</u> a couple of extras.
+
+592
+00:03:06,680 --> 00:03:06,780
+So if you look at the terminal, you can see<u> a</u> couple of extras.
+
+593
+00:03:06,780 --> 00:03:07,020
+So if you look at the terminal, you can see a<u> couple</u> of extras.
+
+594
+00:03:07,020 --> 00:03:07,280
+So if you look at the terminal, you can see a couple<u> of</u> extras.
+
+595
+00:03:07,280 --> 00:03:07,800
+So if you look at the terminal, you can see a couple of<u> extras.</u>
+
+596
+00:03:07,800 --> 00:03:08,120
+<u>So</u> we've got a commit message and it looks like it's using semantic labeling.
+
+597
+00:03:08,120 --> 00:03:08,340
+So<u> we've</u> got a commit message and it looks like it's using semantic labeling.
+
+598
+00:03:08,340 --> 00:03:08,420
+So we've<u> got</u> a commit message and it looks like it's using semantic labeling.
+
+599
+00:03:08,420 --> 00:03:08,500
+So we've got<u> a</u> commit message and it looks like it's using semantic labeling.
+
+600
+00:03:08,500 --> 00:03:08,780
+So we've got a<u> commit</u> message and it looks like it's using semantic labeling.
+
+601
+00:03:08,780 --> 00:03:09,180
+So we've got a commit<u> message</u> and it looks like it's using semantic labeling.
+
+602
+00:03:09,180 --> 00:03:09,740
+So we've got a commit message<u> and</u> it looks like it's using semantic labeling.
+
+603
+00:03:09,740 --> 00:03:09,880
+So we've got a commit message and<u> it</u> looks like it's using semantic labeling.
+
+604
+00:03:09,880 --> 00:03:10,180
+So we've got a commit message and it<u> looks</u> like it's using semantic labeling.
+
+605
+00:03:10,180 --> 00:03:10,400
+So we've got a commit message and it looks<u> like</u> it's using semantic labeling.
+
+606
+00:03:10,400 --> 00:03:10,600
+So we've got a commit message and it looks like<u> it's</u> using semantic labeling.
+
+607
+00:03:10,600 --> 00:03:10,900
+So we've got a commit message and it looks like it's<u> using</u> semantic labeling.
+
+608
+00:03:10,900 --> 00:03:11,280
+So we've got a commit message and it looks like it's using<u> semantic</u> labeling.
+
+609
+00:03:11,280 --> 00:03:11,920
+So we've got a commit message and it looks like it's using semantic<u> labeling.</u>
+
+610
+00:03:12,300 --> 00:03:12,400
+<u>So</u> it's got a feat for feature and it said create a HTML page with HTML CSS.
+
+611
+00:03:12,400 --> 00:03:12,540
+So<u> it's</u> got a feat for feature and it said create a HTML page with HTML CSS.
+
+612
+00:03:12,540 --> 00:03:12,680
+So it's<u> got</u> a feat for feature and it said create a HTML page with HTML CSS.
+
+613
+00:03:12,680 --> 00:03:12,780
+So it's got<u> a</u> feat for feature and it said create a HTML page with HTML CSS.
+
+614
+00:03:12,780 --> 00:03:13,240
+So it's got a<u> feat</u> for feature and it said create a HTML page with HTML CSS.
+
+615
+00:03:13,240 --> 00:03:13,820
+So it's got a feat<u> for</u> feature and it said create a HTML page with HTML CSS.
+
+616
+00:03:13,820 --> 00:03:14,200
+So it's got a feat for<u> feature</u> and it said create a HTML page with HTML CSS.
+
+617
+00:03:14,200 --> 00:03:14,860
+So it's got a feat for feature<u> and</u> it said create a HTML page with HTML CSS.
+
+618
+00:03:14,860 --> 00:03:14,980
+So it's got a feat for feature and<u> it</u> said create a HTML page with HTML CSS.
+
+619
+00:03:14,980 --> 00:03:15,180
+So it's got a feat for feature and it<u> said</u> create a HTML page with HTML CSS.
+
+620
+00:03:15,180 --> 00:03:15,520
+So it's got a feat for feature and it said<u> create</u> a HTML page with HTML CSS.
+
+621
+00:03:15,520 --> 00:03:15,660
+So it's got a feat for feature and it said create<u> a</u> HTML page with HTML CSS.
+
+622
+00:03:15,660 --> 00:03:16,080
+So it's got a feat for feature and it said create a<u> HTML</u> page with HTML CSS.
+
+623
+00:03:16,080 --> 00:03:16,520
+So it's got a feat for feature and it said create a HTML<u> page</u> with HTML CSS.
+
+624
+00:03:16,520 --> 00:03:16,820
+So it's got a feat for feature and it said create a HTML page<u> with</u> HTML CSS.
+
+625
+00:03:16,820 --> 00:03:17,440
+So it's got a feat for feature and it said create a HTML page with<u> HTML</u> CSS.
+
+626
+00:03:17,440 --> 00:03:18,040
+So it's got a feat for feature and it said create a HTML page with HTML<u> CSS.</u>
+
+627
+00:03:18,840 --> 00:03:19,120
+<u>What</u> I think we should do is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+628
+00:03:19,120 --> 00:03:19,360
+What<u> I</u> think we should do is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+629
+00:03:19,360 --> 00:03:19,480
+What I<u> think</u> we should do is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+630
+00:03:19,480 --> 00:03:19,680
+What I think<u> we</u> should do is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+631
+00:03:19,680 --> 00:03:19,840
+What I think we<u> should</u> do is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+632
+00:03:19,840 --> 00:03:20,180
+What I think we should<u> do</u> is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+633
+00:03:20,180 --> 00:03:20,580
+What I think we should do<u> is</u> just go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+634
+00:03:20,580 --> 00:03:20,740
+What I think we should do is<u> just</u> go down to this terminal and we'll do a git status and there's nothing going on in there.
+
+635
+00:03:20,740 --> 00:03:20,960
+What I think we should do is just<u> go</u> down to this terminal and we'll do a git status and there's nothing going on in there.
+
+636
+00:03:20,960 --> 00:03:21,200
+What I think we should do is just go<u> down</u> to this terminal and we'll do a git status and there's nothing going on in there.
+
+637
+00:03:21,200 --> 00:03:21,400
+What I think we should do is just go down<u> to</u> this terminal and we'll do a git status and there's nothing going on in there.
+
+638
+00:03:21,400 --> 00:03:21,580
+What I think we should do is just go down to<u> this</u> terminal and we'll do a git status and there's nothing going on in there.
+
+639
+00:03:21,580 --> 00:03:22,080
+What I think we should do is just go down to this<u> terminal</u> and we'll do a git status and there's nothing going on in there.
+
+640
+00:03:22,080 --> 00:03:22,740
+What I think we should do is just go down to this terminal<u> and</u> we'll do a git status and there's nothing going on in there.
+
+641
+00:03:22,740 --> 00:03:22,920
+What I think we should do is just go down to this terminal and<u> we'll</u> do a git status and there's nothing going on in there.
+
+642
+00:03:22,920 --> 00:03:23,080
+What I think we should do is just go down to this terminal and we'll<u> do</u> a git status and there's nothing going on in there.
+
+643
+00:03:23,080 --> 00:03:23,200
+What I think we should do is just go down to this terminal and we'll do<u> a</u> git status and there's nothing going on in there.
+
+644
+00:03:23,200 --> 00:03:23,340
+What I think we should do is just go down to this terminal and we'll do a<u> git</u> status and there's nothing going on in there.
+
+645
+00:03:23,340 --> 00:03:23,840
+What I think we should do is just go down to this terminal and we'll do a git<u> status</u> and there's nothing going on in there.
+
+646
+00:03:23,840 --> 00:03:24,380
+What I think we should do is just go down to this terminal and we'll do a git status<u> and</u> there's nothing going on in there.
+
+647
+00:03:24,380 --> 00:03:24,740
+What I think we should do is just go down to this terminal and we'll do a git status and<u> there's</u> nothing going on in there.
+
+648
+00:03:24,740 --> 00:03:24,960
+What I think we should do is just go down to this terminal and we'll do a git status and there's<u> nothing</u> going on in there.
+
+649
+00:03:24,960 --> 00:03:25,220
+What I think we should do is just go down to this terminal and we'll do a git status and there's nothing<u> going</u> on in there.
+
+650
+00:03:25,220 --> 00:03:25,440
+What I think we should do is just go down to this terminal and we'll do a git status and there's nothing going<u> on</u> in there.
+
+651
+00:03:25,440 --> 00:03:25,560
+What I think we should do is just go down to this terminal and we'll do a git status and there's nothing going on<u> in</u> there.
+
+652
+00:03:25,560 --> 00:03:25,760
+What I think we should do is just go down to this terminal and we'll do a git status and there's nothing going on in<u> there.</u>
+
+653
+00:03:25,840 --> 00:03:25,920
+<u>We'll</u> do a git log and there it is.
+
+654
+00:03:25,920 --> 00:03:26,080
+We'll<u> do</u> a git log and there it is.
+
+655
+00:03:26,080 --> 00:03:26,180
+We'll do<u> a</u> git log and there it is.
+
+656
+00:03:26,180 --> 00:03:26,340
+We'll do a<u> git</u> log and there it is.
+
+657
+00:03:26,340 --> 00:03:26,640
+We'll do a git<u> log</u> and there it is.
+
+658
+00:03:26,640 --> 00:03:27,420
+We'll do a git log<u> and</u> there it is.
+
+659
+00:03:27,420 --> 00:03:27,880
+We'll do a git log and<u> there</u> it is.
+
+660
+00:03:27,880 --> 00:03:28,000
+We'll do a git log and there<u> it</u> is.
+
+661
+00:03:28,000 --> 00:03:28,220
+We'll do a git log and there it<u> is.</u>
+
+662
+00:03:28,280 --> 00:03:28,580
+<u>We've</u> got this feature create HTML page with tailwind CSS.
+
+663
+00:03:28,580 --> 00:03:28,780
+We've<u> got</u> this feature create HTML page with tailwind CSS.
+
+664
+00:03:28,780 --> 00:03:29,140
+We've got<u> this</u> feature create HTML page with tailwind CSS.
+
+665
+00:03:29,140 --> 00:03:29,680
+We've got this<u> feature</u> create HTML page with tailwind CSS.
+
+666
+00:03:29,680 --> 00:03:30,280
+We've got this feature<u> create</u> HTML page with tailwind CSS.
+
+667
+00:03:30,280 --> 00:03:30,900
+We've got this feature create<u> HTML</u> page with tailwind CSS.
+
+668
+00:03:30,900 --> 00:03:31,900
+We've got this feature create HTML<u> page</u> with tailwind CSS.
+
+669
+00:03:31,900 --> 00:03:32,400
+We've got this feature create HTML page<u> with</u> tailwind CSS.
+
+670
+00:03:32,400 --> 00:03:33,400
+We've got this feature create HTML page with<u> tailwind</u> CSS.
+
+671
+00:03:33,400 --> 00:03:33,740
+We've got this feature create HTML page with tailwind<u> CSS.</u>
+
+672
+00:03:33,740 --> 00:03:34,100
+<u>So</u> if we go back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+673
+00:03:34,100 --> 00:03:34,260
+So<u> if</u> we go back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+674
+00:03:34,260 --> 00:03:34,380
+So if<u> we</u> go back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+675
+00:03:34,380 --> 00:03:34,560
+So if we<u> go</u> back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+676
+00:03:34,560 --> 00:03:34,960
+So if we go<u> back,</u> we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+677
+00:03:34,960 --> 00:03:35,340
+So if we go back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+678
+00:03:35,340 --> 00:03:35,500
+So if we go back,<u> we</u> could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+679
+00:03:35,500 --> 00:03:35,700
+So if we go back, we<u> could</u> undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+680
+00:03:35,700 --> 00:03:36,180
+So if we go back, we could<u> undo</u> it, but what I'd like to do now is extend it with JavaScript capability.
+
+681
+00:03:36,180 --> 00:03:36,420
+So if we go back, we could undo<u> it,</u> but what I'd like to do now is extend it with JavaScript capability.
+
+682
+00:03:36,420 --> 00:03:36,480
+So if we go back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+
+683
+00:03:36,480 --> 00:03:36,680
+So if we go back, we could undo it,<u> but</u> what I'd like to do now is extend it with JavaScript capability.
+
+684
+00:03:36,680 --> 00:03:36,880
+So if we go back, we could undo it, but<u> what</u> I'd like to do now is extend it with JavaScript capability.
+
+685
+00:03:36,880 --> 00:03:37,100
+So if we go back, we could undo it, but what<u> I'd</u> like to do now is extend it with JavaScript capability.
+
+686
+00:03:37,100 --> 00:03:37,240
+So if we go back, we could undo it, but what I'd<u> like</u> to do now is extend it with JavaScript capability.
+
+687
+00:03:37,240 --> 00:03:37,440
+So if we go back, we could undo it, but what I'd like<u> to</u> do now is extend it with JavaScript capability.
+
+688
+00:03:37,440 --> 00:03:37,600
+So if we go back, we could undo it, but what I'd like to<u> do</u> now is extend it with JavaScript capability.
+
+689
+00:03:37,600 --> 00:03:37,960
+So if we go back, we could undo it, but what I'd like to do<u> now</u> is extend it with JavaScript capability.
+
+690
+00:03:37,960 --> 00:03:38,540
+So if we go back, we could undo it, but what I'd like to do now<u> is</u> extend it with JavaScript capability.
+
+691
+00:03:38,540 --> 00:03:39,060
+So if we go back, we could undo it, but what I'd like to do now is<u> extend</u> it with JavaScript capability.
+
+692
+00:03:39,060 --> 00:03:39,240
+So if we go back, we could undo it, but what I'd like to do now is extend<u> it</u> with JavaScript capability.
+
+693
+00:03:39,240 --> 00:03:39,460
+So if we go back, we could undo it, but what I'd like to do now is extend it<u> with</u> JavaScript capability.
+
+694
+00:03:39,460 --> 00:03:39,940
+So if we go back, we could undo it, but what I'd like to do now is extend it with<u> JavaScript</u> capability.
+
+695
+00:03:39,940 --> 00:03:40,760
+So if we go back, we could undo it, but what I'd like to do now is extend it with JavaScript<u> capability.</u>
+
+696
+00:03:40,960 --> 00:03:41,300
+<u>Now</u> what I think we should do now is go over to VS code and let's have a look at the code in the terminal.
+
+697
+00:03:41,300 --> 00:03:41,420
+Now<u> what</u> I think we should do now is go over to VS code and let's have a look at the code in the terminal.
+
+698
+00:03:41,420 --> 00:03:41,540
+Now what<u> I</u> think we should do now is go over to VS code and let's have a look at the code in the terminal.
+
+699
+00:03:41,540 --> 00:03:41,700
+Now what I<u> think</u> we should do now is go over to VS code and let's have a look at the code in the terminal.
+
+700
+00:03:41,700 --> 00:03:41,840
+Now what I think<u> we</u> should do now is go over to VS code and let's have a look at the code in the terminal.
+
+701
+00:03:41,840 --> 00:03:42,000
+Now what I think we<u> should</u> do now is go over to VS code and let's have a look at the code in the terminal.
+
+702
+00:03:42,000 --> 00:03:42,220
+Now what I think we should<u> do</u> now is go over to VS code and let's have a look at the code in the terminal.
+
+703
+00:03:42,220 --> 00:03:42,440
+Now what I think we should do<u> now</u> is go over to VS code and let's have a look at the code in the terminal.
+
+704
+00:03:42,440 --> 00:03:42,860
+Now what I think we should do now<u> is</u> go over to VS code and let's have a look at the code in the terminal.
+
+705
+00:03:42,860 --> 00:03:43,160
+Now what I think we should do now is<u> go</u> over to VS code and let's have a look at the code in the terminal.
+
+706
+00:03:43,160 --> 00:03:43,600
+Now what I think we should do now is go<u> over</u> to VS code and let's have a look at the code in the terminal.
+
+707
+00:03:43,600 --> 00:03:43,720
+Now what I think we should do now is go over<u> to</u> VS code and let's have a look at the code in the terminal.
+
+708
+00:03:43,720 --> 00:03:44,000
+Now what I think we should do now is go over to<u> VS</u> code and let's have a look at the code in the terminal.
+
+709
+00:03:44,000 --> 00:03:44,340
+Now what I think we should do now is go over to VS<u> code</u> and let's have a look at the code in the terminal.
+
+710
+00:03:44,340 --> 00:03:44,700
+Now what I think we should do now is go over to VS code<u> and</u> let's have a look at the code in the terminal.
+
+711
+00:03:44,700 --> 00:03:44,940
+Now what I think we should do now is go over to VS code and<u> let's</u> have a look at the code in the terminal.
+
+712
+00:03:44,940 --> 00:03:45,060
+Now what I think we should do now is go over to VS code and let's<u> have</u> a look at the code in the terminal.
+
+713
+00:03:45,060 --> 00:03:45,160
+Now what I think we should do now is go over to VS code and let's have<u> a</u> look at the code in the terminal.
+
+714
+00:03:45,160 --> 00:03:45,280
+Now what I think we should do now is go over to VS code and let's have a<u> look</u> at the code in the terminal.
+
+715
+00:03:45,280 --> 00:03:45,400
+Now what I think we should do now is go over to VS code and let's have a look<u> at</u> the code in the terminal.
+
+716
+00:03:45,400 --> 00:03:45,500
+Now what I think we should do now is go over to VS code and let's have a look at<u> the</u> code in the terminal.
+
+717
+00:03:45,500 --> 00:03:45,760
+Now what I think we should do now is go over to VS code and let's have a look at the<u> code</u> in the terminal.
+
+718
+00:03:45,760 --> 00:03:45,940
+Now what I think we should do now is go over to VS code and let's have a look at the code<u> in</u> the terminal.
+
+719
+00:03:45,940 --> 00:03:46,060
+Now what I think we should do now is go over to VS code and let's have a look at the code in<u> the</u> terminal.
+
+720
+00:03:46,060 --> 00:03:46,520
+Now what I think we should do now is go over to VS code and let's have a look at the code in the<u> terminal.</u>
+
+721
+00:03:47,140 --> 00:03:47,160
+<u>And</u> so we've got all this HTML.
+
+722
+00:03:47,160 --> 00:03:47,420
+And<u> so</u> we've got all this HTML.
+
+723
+00:03:47,420 --> 00:03:47,660
+And so<u> we've</u> got all this HTML.
+
+724
+00:03:47,660 --> 00:03:47,760
+And so we've<u> got</u> all this HTML.
+
+725
+00:03:47,760 --> 00:03:47,880
+And so we've got<u> all</u> this HTML.
+
+726
+00:03:47,880 --> 00:03:48,020
+And so we've got all<u> this</u> HTML.
+
+727
+00:03:48,020 --> 00:03:48,580
+And so we've got all this<u> HTML.</u>
+
+728
+00:03:48,880 --> 00:03:49,100
+<u>There's</u> the tailwind CSS.
+
+729
+00:03:49,100 --> 00:03:49,260
+There's<u> the</u> tailwind CSS.
+
+730
+00:03:49,260 --> 00:03:50,120
+There's the<u> tailwind</u> CSS.
+
+731
+00:03:50,120 --> 00:03:50,500
+There's the tailwind<u> CSS.</u>
+
+732
+00:03:51,020 --> 00:03:51,480
+<u>Looks</u> all pretty simple.
+
+733
+00:03:51,480 --> 00:03:51,740
+Looks<u> all</u> pretty simple.
+
+734
+00:03:51,740 --> 00:03:52,060
+Looks all<u> pretty</u> simple.
+
+735
+00:03:52,060 --> 00:03:52,520
+Looks all pretty<u> simple.</u>
+
+736
+00:03:52,920 --> 00:03:53,140
+<u>So</u> let's add a new prompt.
+
+737
+00:03:53,140 --> 00:03:53,440
+So<u> let's</u> add a new prompt.
+
+738
+00:03:53,440 --> 00:03:53,780
+So let's<u> add</u> a new prompt.
+
+739
+00:03:53,780 --> 00:03:53,960
+So let's add<u> a</u> new prompt.
+
+740
+00:03:53,960 --> 00:03:54,160
+So let's add a<u> new</u> prompt.
+
+741
+00:03:54,160 --> 00:03:54,440
+So let's add a new<u> prompt.</u>
+
+742
+00:03:54,620 --> 00:03:54,720
+<u>So</u> I've pre written a prompt and it says, can you enhance the page with JavaScript?
+
+743
+00:03:54,720 --> 00:03:55,020
+So<u> I've</u> pre written a prompt and it says, can you enhance the page with JavaScript?
+
+744
+00:03:55,020 --> 00:03:55,360
+So I've<u> pre</u> written a prompt and it says, can you enhance the page with JavaScript?
+
+745
+00:03:55,360 --> 00:03:55,740
+So I've pre<u> written</u> a prompt and it says, can you enhance the page with JavaScript?
+
+746
+00:03:55,740 --> 00:03:55,900
+So I've pre written<u> a</u> prompt and it says, can you enhance the page with JavaScript?
+
+747
+00:03:55,900 --> 00:03:56,180
+So I've pre written a<u> prompt</u> and it says, can you enhance the page with JavaScript?
+
+748
+00:03:56,180 --> 00:03:56,740
+So I've pre written a prompt<u> and</u> it says, can you enhance the page with JavaScript?
+
+749
+00:03:56,740 --> 00:03:56,920
+So I've pre written a prompt and<u> it</u> says, can you enhance the page with JavaScript?
+
+750
+00:03:56,920 --> 00:03:57,220
+So I've pre written a prompt and it<u> says,</u> can you enhance the page with JavaScript?
+
+751
+00:03:57,220 --> 00:03:57,400
+So I've pre written a prompt and it says, can you enhance the page with JavaScript?
+
+752
+00:03:57,400 --> 00:03:57,620
+So I've pre written a prompt and it says,<u> can</u> you enhance the page with JavaScript?
+
+753
+00:03:57,620 --> 00:03:57,900
+So I've pre written a prompt and it says, can<u> you</u> enhance the page with JavaScript?
+
+754
+00:03:57,900 --> 00:03:58,360
+So I've pre written a prompt and it says, can you<u> enhance</u> the page with JavaScript?
+
+755
+00:03:58,360 --> 00:03:58,640
+So I've pre written a prompt and it says, can you enhance<u> the</u> page with JavaScript?
+
+756
+00:03:58,640 --> 00:03:58,900
+So I've pre written a prompt and it says, can you enhance the<u> page</u> with JavaScript?
+
+757
+00:03:58,900 --> 00:03:59,100
+So I've pre written a prompt and it says, can you enhance the page<u> with</u> JavaScript?
+
+758
+00:03:59,100 --> 00:03:59,580
+So I've pre written a prompt and it says, can you enhance the page with<u> JavaScript?</u>
+
+759
+00:03:59,800 --> 00:04:00,320
+<u>We're</u> basically going to watch the field names on the left and the template and we're going to use interpolation.
+
+760
+00:04:00,320 --> 00:04:00,700
+We're<u> basically</u> going to watch the field names on the left and the template and we're going to use interpolation.
+
+761
+00:04:00,700 --> 00:04:01,100
+We're basically<u> going</u> to watch the field names on the left and the template and we're going to use interpolation.
+
+762
+00:04:01,100 --> 00:04:01,300
+We're basically going<u> to</u> watch the field names on the left and the template and we're going to use interpolation.
+
+763
+00:04:01,300 --> 00:04:01,520
+We're basically going to<u> watch</u> the field names on the left and the template and we're going to use interpolation.
+
+764
+00:04:01,520 --> 00:04:01,900
+We're basically going to watch<u> the</u> field names on the left and the template and we're going to use interpolation.
+
+765
+00:04:01,900 --> 00:04:02,280
+We're basically going to watch the<u> field</u> names on the left and the template and we're going to use interpolation.
+
+766
+00:04:02,280 --> 00:04:02,600
+We're basically going to watch the field<u> names</u> on the left and the template and we're going to use interpolation.
+
+767
+00:04:02,600 --> 00:04:02,820
+We're basically going to watch the field names<u> on</u> the left and the template and we're going to use interpolation.
+
+768
+00:04:02,820 --> 00:04:02,940
+We're basically going to watch the field names on<u> the</u> left and the template and we're going to use interpolation.
+
+769
+00:04:02,940 --> 00:04:03,140
+We're basically going to watch the field names on the<u> left</u> and the template and we're going to use interpolation.
+
+770
+00:04:03,140 --> 00:04:03,740
+We're basically going to watch the field names on the left<u> and</u> the template and we're going to use interpolation.
+
+771
+00:04:03,740 --> 00:04:03,880
+We're basically going to watch the field names on the left and<u> the</u> template and we're going to use interpolation.
+
+772
+00:04:03,880 --> 00:04:04,200
+We're basically going to watch the field names on the left and the<u> template</u> and we're going to use interpolation.
+
+773
+00:04:04,200 --> 00:04:04,620
+We're basically going to watch the field names on the left and the template<u> and</u> we're going to use interpolation.
+
+774
+00:04:04,620 --> 00:04:04,780
+We're basically going to watch the field names on the left and the template and<u> we're</u> going to use interpolation.
+
+775
+00:04:04,780 --> 00:04:04,900
+We're basically going to watch the field names on the left and the template and we're<u> going</u> to use interpolation.
+
+776
+00:04:04,900 --> 00:04:05,140
+We're basically going to watch the field names on the left and the template and we're going<u> to</u> use interpolation.
+
+777
+00:04:05,140 --> 00:04:05,600
+We're basically going to watch the field names on the left and the template and we're going to<u> use</u> interpolation.
+
+778
+00:04:05,600 --> 00:04:06,480
+We're basically going to watch the field names on the left and the template and we're going to use<u> interpolation.</u>
+
+779
+00:04:06,640 --> 00:04:06,820
+<u>And</u> I've said, can you use square brackets?
+
+780
+00:04:06,820 --> 00:04:07,020
+And<u> I've</u> said, can you use square brackets?
+
+781
+00:04:07,020 --> 00:04:07,260
+And I've<u> said,</u> can you use square brackets?
+
+782
+00:04:07,260 --> 00:04:07,480
+And I've said, can you use square brackets?
+
+783
+00:04:07,480 --> 00:04:07,820
+And I've said,<u> can</u> you use square brackets?
+
+784
+00:04:07,820 --> 00:04:08,080
+And I've said, can<u> you</u> use square brackets?
+
+785
+00:04:08,080 --> 00:04:08,460
+And I've said, can you<u> use</u> square brackets?
+
+786
+00:04:08,460 --> 00:04:08,820
+And I've said, can you use<u> square</u> brackets?
+
+787
+00:04:08,820 --> 00:04:09,200
+And I've said, can you use square<u> brackets?</u>
+
+788
+00:04:09,420 --> 00:04:09,520
+<u>We'll</u> spell that correctly and we'll take a copy of that.
+
+789
+00:04:09,520 --> 00:04:09,720
+We'll<u> spell</u> that correctly and we'll take a copy of that.
+
+790
+00:04:09,720 --> 00:04:09,940
+We'll spell<u> that</u> correctly and we'll take a copy of that.
+
+791
+00:04:09,940 --> 00:04:10,300
+We'll spell that<u> correctly</u> and we'll take a copy of that.
+
+792
+00:04:10,300 --> 00:04:10,900
+We'll spell that correctly<u> and</u> we'll take a copy of that.
+
+793
+00:04:10,900 --> 00:04:11,040
+We'll spell that correctly and<u> we'll</u> take a copy of that.
+
+794
+00:04:11,040 --> 00:04:11,240
+We'll spell that correctly and we'll<u> take</u> a copy of that.
+
+795
+00:04:11,240 --> 00:04:11,400
+We'll spell that correctly and we'll take<u> a</u> copy of that.
+
+796
+00:04:11,400 --> 00:04:11,640
+We'll spell that correctly and we'll take a<u> copy</u> of that.
+
+797
+00:04:11,640 --> 00:04:11,840
+We'll spell that correctly and we'll take a copy<u> of</u> that.
+
+798
+00:04:11,840 --> 00:04:12,100
+We'll spell that correctly and we'll take a copy of<u> that.</u>
+
+799
+00:04:12,220 --> 00:04:12,400
+<u>And</u> if we head over to the terminal, we should be able to just paste it in and see what happens.
+
+800
+00:04:12,400 --> 00:04:12,660
+And<u> if</u> we head over to the terminal, we should be able to just paste it in and see what happens.
+
+801
+00:04:12,660 --> 00:04:12,840
+And if<u> we</u> head over to the terminal, we should be able to just paste it in and see what happens.
+
+802
+00:04:12,840 --> 00:04:13,060
+And if we<u> head</u> over to the terminal, we should be able to just paste it in and see what happens.
+
+803
+00:04:13,060 --> 00:04:13,440
+And if we head<u> over</u> to the terminal, we should be able to just paste it in and see what happens.
+
+804
+00:04:13,440 --> 00:04:13,760
+And if we head over<u> to</u> the terminal, we should be able to just paste it in and see what happens.
+
+805
+00:04:13,760 --> 00:04:13,980
+And if we head over to<u> the</u> terminal, we should be able to just paste it in and see what happens.
+
+806
+00:04:13,980 --> 00:04:14,340
+And if we head over to the<u> terminal,</u> we should be able to just paste it in and see what happens.
+
+807
+00:04:14,340 --> 00:04:15,120
+And if we head over to the terminal,<u> we</u> should be able to just paste it in and see what happens.
+
+808
+00:04:15,120 --> 00:04:15,420
+And if we head over to the terminal, we<u> should</u> be able to just paste it in and see what happens.
+
+809
+00:04:15,420 --> 00:04:15,660
+And if we head over to the terminal, we should<u> be</u> able to just paste it in and see what happens.
+
+810
+00:04:15,660 --> 00:04:15,900
+And if we head over to the terminal, we should be<u> able</u> to just paste it in and see what happens.
+
+811
+00:04:15,900 --> 00:04:16,040
+And if we head over to the terminal, we should be able<u> to</u> just paste it in and see what happens.
+
+812
+00:04:16,040 --> 00:04:16,240
+And if we head over to the terminal, we should be able to<u> just</u> paste it in and see what happens.
+
+813
+00:04:16,240 --> 00:04:16,600
+And if we head over to the terminal, we should be able to just<u> paste</u> it in and see what happens.
+
+814
+00:04:16,600 --> 00:04:16,840
+And if we head over to the terminal, we should be able to just paste<u> it</u> in and see what happens.
+
+815
+00:04:16,840 --> 00:04:17,140
+And if we head over to the terminal, we should be able to just paste it<u> in</u> and see what happens.
+
+816
+00:04:17,140 --> 00:04:17,600
+And if we head over to the terminal, we should be able to just paste it in<u> and</u> see what happens.
+
+817
+00:04:17,600 --> 00:04:17,880
+And if we head over to the terminal, we should be able to just paste it in and<u> see</u> what happens.
+
+818
+00:04:17,880 --> 00:04:18,040
+And if we head over to the terminal, we should be able to just paste it in and see<u> what</u> happens.
+
+819
+00:04:18,040 --> 00:04:18,480
+And if we head over to the terminal, we should be able to just paste it in and see what<u> happens.</u>
+
+820
+00:04:18,800 --> 00:04:19,120
+<u>Now,</u> hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file or as a new page.
+
+821
+00:04:19,120 --> 00:04:19,640
+Now,<u> hopefully</u> as it goes through, we're also going to see some JavaScript changes either in the HTML file or as a new page.
+
+822
+00:04:19,640 --> 00:04:19,900
+Now, hopefully<u> as</u> it goes through, we're also going to see some JavaScript changes either in the HTML file or as a new page.
+
+823
+00:04:19,900 --> 00:04:20,000
+Now, hopefully as<u> it</u> goes through, we're also going to see some JavaScript changes either in the HTML file or as a new page.
+
+824
+00:04:20,000 --> 00:04:20,220
+Now, hopefully as it<u> goes</u> through, we're also going to see some JavaScript changes either in the HTML file or as a new page.
+
+825
+00:04:20,220 --> 00:04:20,660
+Now, hopefully as it goes<u> through,</u> we're also going to see some JavaScript changes either in the HTML file or as a new page.
+
+826
+00:04:20,660 --> 00:04:21,360
+Now, hopefully as it goes through,<u> we're</u> also going to see some JavaScript changes either in the HTML file or as a new page.
+
+827
+00:04:21,360 --> 00:04:21,820
+Now, hopefully as it goes through, we're<u> also</u> going to see some JavaScript changes either in the HTML file or as a new page.
+
+828
+00:04:21,820 --> 00:04:22,060
+Now, hopefully as it goes through, we're also<u> going</u> to see some JavaScript changes either in the HTML file or as a new page.
+
+829
+00:04:22,060 --> 00:04:22,160
+Now, hopefully as it goes through, we're also going<u> to</u> see some JavaScript changes either in the HTML file or as a new page.
+
+830
+00:04:22,160 --> 00:04:22,340
+Now, hopefully as it goes through, we're also going to<u> see</u> some JavaScript changes either in the HTML file or as a new page.
+
+831
+00:04:22,340 --> 00:04:22,640
+Now, hopefully as it goes through, we're also going to see<u> some</u> JavaScript changes either in the HTML file or as a new page.
+
+832
+00:04:22,640 --> 00:04:23,080
+Now, hopefully as it goes through, we're also going to see some<u> JavaScript</u> changes either in the HTML file or as a new page.
+
+833
+00:04:23,080 --> 00:04:23,900
+Now, hopefully as it goes through, we're also going to see some JavaScript<u> changes</u> either in the HTML file or as a new page.
+
+834
+00:04:23,900 --> 00:04:24,320
+Now, hopefully as it goes through, we're also going to see some JavaScript changes<u> either</u> in the HTML file or as a new page.
+
+835
+00:04:24,320 --> 00:04:24,460
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either<u> in</u> the HTML file or as a new page.
+
+836
+00:04:24,460 --> 00:04:24,540
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in<u> the</u> HTML file or as a new page.
+
+837
+00:04:24,540 --> 00:04:24,980
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the<u> HTML</u> file or as a new page.
+
+838
+00:04:24,980 --> 00:04:25,420
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML<u> file</u> or as a new page.
+
+839
+00:04:25,420 --> 00:04:25,720
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file<u> or</u> as a new page.
+
+840
+00:04:25,720 --> 00:04:26,020
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file or<u> as</u> a new page.
+
+841
+00:04:26,020 --> 00:04:26,180
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file or as<u> a</u> new page.
+
+842
+00:04:26,180 --> 00:04:26,400
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file or as a<u> new</u> page.
+
+843
+00:04:26,400 --> 00:04:26,980
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file or as a new<u> page.</u>
+
+844
+00:04:27,180 --> 00:04:27,660
+<u>So</u> it's finished with instructions.
+
+845
+00:04:27,660 --> 00:04:28,100
+So<u> it's</u> finished with instructions.
+
+846
+00:04:28,100 --> 00:04:28,400
+So it's<u> finished</u> with instructions.
+
+847
+00:04:28,400 --> 00:04:28,740
+So it's finished<u> with</u> instructions.
+
+848
+00:04:28,740 --> 00:04:29,360
+So it's finished with<u> instructions.</u>
+
+849
+00:04:29,600 --> 00:04:29,720
+<u>If</u> we come back over and we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+850
+00:04:29,720 --> 00:04:29,840
+If<u> we</u> come back over and we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+851
+00:04:29,840 --> 00:04:30,080
+If we<u> come</u> back over and we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+852
+00:04:30,080 --> 00:04:30,300
+If we come<u> back</u> over and we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+853
+00:04:30,300 --> 00:04:30,640
+If we come back<u> over</u> and we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+854
+00:04:30,640 --> 00:04:30,800
+If we come back over<u> and</u> we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+855
+00:04:30,800 --> 00:04:30,900
+If we come back over and<u> we</u> look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+856
+00:04:30,900 --> 00:04:31,120
+If we come back over and we<u> look</u> at the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+857
+00:04:31,120 --> 00:04:31,240
+If we come back over and we look<u> at</u> the HTML page, we now have a whole lot of JavaScript down the bottom.
+
+858
+00:04:31,240 --> 00:04:31,360
+If we come back over and we look at<u> the</u> HTML page, we now have a whole lot of JavaScript down the bottom.
+
+859
+00:04:31,360 --> 00:04:31,780
+If we come back over and we look at the<u> HTML</u> page, we now have a whole lot of JavaScript down the bottom.
+
+860
+00:04:31,780 --> 00:04:32,360
+If we come back over and we look at the HTML<u> page,</u> we now have a whole lot of JavaScript down the bottom.
+
+861
+00:04:32,360 --> 00:04:33,240
+If we come back over and we look at the HTML page,<u> we</u> now have a whole lot of JavaScript down the bottom.
+
+862
+00:04:33,240 --> 00:04:33,640
+If we come back over and we look at the HTML page, we<u> now</u> have a whole lot of JavaScript down the bottom.
+
+863
+00:04:33,640 --> 00:04:33,980
+If we come back over and we look at the HTML page, we now<u> have</u> a whole lot of JavaScript down the bottom.
+
+864
+00:04:33,980 --> 00:04:34,200
+If we come back over and we look at the HTML page, we now have<u> a</u> whole lot of JavaScript down the bottom.
+
+865
+00:04:34,200 --> 00:04:34,340
+If we come back over and we look at the HTML page, we now have a<u> whole</u> lot of JavaScript down the bottom.
+
+866
+00:04:34,340 --> 00:04:34,460
+If we come back over and we look at the HTML page, we now have a whole<u> lot</u> of JavaScript down the bottom.
+
+867
+00:04:34,460 --> 00:04:34,540
+If we come back over and we look at the HTML page, we now have a whole lot<u> of</u> JavaScript down the bottom.
+
+868
+00:04:34,540 --> 00:04:35,000
+If we come back over and we look at the HTML page, we now have a whole lot of<u> JavaScript</u> down the bottom.
+
+869
+00:04:35,000 --> 00:04:35,500
+If we come back over and we look at the HTML page, we now have a whole lot of JavaScript<u> down</u> the bottom.
+
+870
+00:04:35,500 --> 00:04:35,660
+If we come back over and we look at the HTML page, we now have a whole lot of JavaScript down<u> the</u> bottom.
+
+871
+00:04:35,660 --> 00:04:35,940
+If we come back over and we look at the HTML page, we now have a whole lot of JavaScript down the<u> bottom.</u>
+
+872
+00:04:36,220 --> 00:04:36,580
+<u>Let's</u> also read this a little bit further.
+
+873
+00:04:36,580 --> 00:04:36,980
+Let's<u> also</u> read this a little bit further.
+
+874
+00:04:36,980 --> 00:04:37,320
+Let's also<u> read</u> this a little bit further.
+
+875
+00:04:37,320 --> 00:04:37,620
+Let's also read<u> this</u> a little bit further.
+
+876
+00:04:37,620 --> 00:04:37,760
+Let's also read this<u> a</u> little bit further.
+
+877
+00:04:37,760 --> 00:04:37,900
+Let's also read this a<u> little</u> bit further.
+
+878
+00:04:37,900 --> 00:04:38,100
+Let's also read this a little<u> bit</u> further.
+
+879
+00:04:38,100 --> 00:04:38,540
+Let's also read this a little bit<u> further.</u>
+
+880
+00:04:38,920 --> 00:04:39,060
+<u>If</u> you type in template area, that's the sort of information you can then fill in the fields.
+
+881
+00:04:39,060 --> 00:04:39,160
+If<u> you</u> type in template area, that's the sort of information you can then fill in the fields.
+
+882
+00:04:39,160 --> 00:04:39,460
+If you<u> type</u> in template area, that's the sort of information you can then fill in the fields.
+
+883
+00:04:39,460 --> 00:04:39,880
+If you type<u> in</u> template area, that's the sort of information you can then fill in the fields.
+
+884
+00:04:39,880 --> 00:04:40,280
+If you type in<u> template</u> area, that's the sort of information you can then fill in the fields.
+
+885
+00:04:40,280 --> 00:04:40,640
+If you type in template<u> area,</u> that's the sort of information you can then fill in the fields.
+
+886
+00:04:40,640 --> 00:04:40,900
+If you type in template area, that's the sort of information you can then fill in the fields.
+
+887
+00:04:40,900 --> 00:04:41,420
+If you type in template area,<u> that's</u> the sort of information you can then fill in the fields.
+
+888
+00:04:41,420 --> 00:04:41,560
+If you type in template area, that's<u> the</u> sort of information you can then fill in the fields.
+
+889
+00:04:41,560 --> 00:04:41,700
+If you type in template area, that's the<u> sort</u> of information you can then fill in the fields.
+
+890
+00:04:41,700 --> 00:04:42,020
+If you type in template area, that's the sort<u> of</u> information you can then fill in the fields.
+
+891
+00:04:42,020 --> 00:04:42,560
+If you type in template area, that's the sort of<u> information</u> you can then fill in the fields.
+
+892
+00:04:42,560 --> 00:04:43,260
+If you type in template area, that's the sort of information<u> you</u> can then fill in the fields.
+
+893
+00:04:43,260 --> 00:04:43,440
+If you type in template area, that's the sort of information you<u> can</u> then fill in the fields.
+
+894
+00:04:43,440 --> 00:04:43,600
+If you type in template area, that's the sort of information you can<u> then</u> fill in the fields.
+
+895
+00:04:43,600 --> 00:04:43,820
+If you type in template area, that's the sort of information you can then<u> fill</u> in the fields.
+
+896
+00:04:43,820 --> 00:04:43,980
+If you type in template area, that's the sort of information you can then fill<u> in</u> the fields.
+
+897
+00:04:43,980 --> 00:04:44,100
+If you type in template area, that's the sort of information you can then fill in<u> the</u> fields.
+
+898
+00:04:44,100 --> 00:04:44,460
+If you type in template area, that's the sort of information you can then fill in the<u> fields.</u>
+
+899
+00:04:44,660 --> 00:04:44,900
+<u>And</u> this is how it should interpolate.
+
+900
+00:04:44,900 --> 00:04:45,100
+And<u> this</u> is how it should interpolate.
+
+901
+00:04:45,100 --> 00:04:45,240
+And this<u> is</u> how it should interpolate.
+
+902
+00:04:45,240 --> 00:04:45,420
+And this is<u> how</u> it should interpolate.
+
+903
+00:04:45,420 --> 00:04:45,560
+And this is how<u> it</u> should interpolate.
+
+904
+00:04:45,560 --> 00:04:45,720
+And this is how it<u> should</u> interpolate.
+
+905
+00:04:45,720 --> 00:04:46,640
+And this is how it should<u> interpolate.</u>
+
+906
+00:04:46,880 --> 00:04:47,180
+<u>And</u> lastly, it should be able to open it.
+
+907
+00:04:47,180 --> 00:04:47,620
+And<u> lastly,</u> it should be able to open it.
+
+908
+00:04:47,620 --> 00:04:47,880
+And lastly, it should be able to open it.
+
+909
+00:04:47,880 --> 00:04:48,060
+And lastly,<u> it</u> should be able to open it.
+
+910
+00:04:48,060 --> 00:04:48,240
+And lastly, it<u> should</u> be able to open it.
+
+911
+00:04:48,240 --> 00:04:48,420
+And lastly, it should<u> be</u> able to open it.
+
+912
+00:04:48,420 --> 00:04:48,540
+And lastly, it should be<u> able</u> to open it.
+
+913
+00:04:48,540 --> 00:04:48,660
+And lastly, it should be able<u> to</u> open it.
+
+914
+00:04:48,660 --> 00:04:49,040
+And lastly, it should be able to<u> open</u> it.
+
+915
+00:04:49,040 --> 00:04:49,280
+And lastly, it should be able to open<u> it.</u>
+
+916
+00:04:49,540 --> 00:04:49,980
+<u>And</u> we also have the commit message going on here as well.
+
+917
+00:04:49,980 --> 00:04:50,720
+And<u> we</u> also have the commit message going on here as well.
+
+918
+00:04:50,720 --> 00:04:51,080
+And we<u> also</u> have the commit message going on here as well.
+
+919
+00:04:51,080 --> 00:04:51,300
+And we also<u> have</u> the commit message going on here as well.
+
+920
+00:04:51,300 --> 00:04:51,440
+And we also have<u> the</u> commit message going on here as well.
+
+921
+00:04:51,440 --> 00:04:51,740
+And we also have the<u> commit</u> message going on here as well.
+
+922
+00:04:51,740 --> 00:04:52,100
+And we also have the commit<u> message</u> going on here as well.
+
+923
+00:04:52,100 --> 00:04:52,460
+And we also have the commit message<u> going</u> on here as well.
+
+924
+00:04:52,460 --> 00:04:52,680
+And we also have the commit message going<u> on</u> here as well.
+
+925
+00:04:52,680 --> 00:04:52,920
+And we also have the commit message going on<u> here</u> as well.
+
+926
+00:04:52,920 --> 00:04:53,140
+And we also have the commit message going on here<u> as</u> well.
+
+927
+00:04:53,140 --> 00:04:53,320
+And we also have the commit message going on here as<u> well.</u>
+
+928
+00:04:53,320 --> 00:04:53,680
+<u>I'm</u> just going to press yes and we'll let that run.
+
+929
+00:04:53,680 --> 00:04:53,800
+I'm<u> just</u> going to press yes and we'll let that run.
+
+930
+00:04:53,800 --> 00:04:53,960
+I'm just<u> going</u> to press yes and we'll let that run.
+
+931
+00:04:53,960 --> 00:04:54,020
+I'm just going<u> to</u> press yes and we'll let that run.
+
+932
+00:04:54,020 --> 00:04:54,240
+I'm just going to<u> press</u> yes and we'll let that run.
+
+933
+00:04:54,240 --> 00:04:54,700
+I'm just going to press<u> yes</u> and we'll let that run.
+
+934
+00:04:54,700 --> 00:04:55,420
+I'm just going to press yes<u> and</u> we'll let that run.
+
+935
+00:04:55,420 --> 00:04:55,600
+I'm just going to press yes and<u> we'll</u> let that run.
+
+936
+00:04:55,600 --> 00:04:55,780
+I'm just going to press yes and we'll<u> let</u> that run.
+
+937
+00:04:55,780 --> 00:04:56,020
+I'm just going to press yes and we'll let<u> that</u> run.
+
+938
+00:04:56,020 --> 00:04:56,400
+I'm just going to press yes and we'll let that<u> run.</u>
+
+939
+00:04:56,740 --> 00:04:56,740
+<u>And</u> while that's happening, we'll bring up a web page.
+
+940
+00:04:56,740 --> 00:04:56,960
+And<u> while</u> that's happening, we'll bring up a web page.
+
+941
+00:04:56,960 --> 00:04:57,260
+And while<u> that's</u> happening, we'll bring up a web page.
+
+942
+00:04:57,260 --> 00:04:57,600
+And while that's<u> happening,</u> we'll bring up a web page.
+
+943
+00:04:57,600 --> 00:04:57,620
+And while that's happening, we'll bring up a web page.
+
+944
+00:04:57,620 --> 00:04:58,020
+And while that's happening,<u> we'll</u> bring up a web page.
+
+945
+00:04:58,020 --> 00:04:58,440
+And while that's happening, we'll<u> bring</u> up a web page.
+
+946
+00:04:58,440 --> 00:04:58,740
+And while that's happening, we'll bring<u> up</u> a web page.
+
+947
+00:04:58,740 --> 00:04:58,960
+And while that's happening, we'll bring up<u> a</u> web page.
+
+948
+00:04:58,960 --> 00:04:59,220
+And while that's happening, we'll bring up a<u> web</u> page.
+
+949
+00:04:59,220 --> 00:04:59,720
+And while that's happening, we'll bring up a web<u> page.</u>
+
+950
+00:04:59,860 --> 00:05:00,260
+<u>So</u> we've got the little HTML page up.
+
+951
+00:05:00,260 --> 00:05:00,440
+So<u> we've</u> got the little HTML page up.
+
+952
+00:05:00,440 --> 00:05:00,520
+So we've<u> got</u> the little HTML page up.
+
+953
+00:05:00,520 --> 00:05:00,660
+So we've got<u> the</u> little HTML page up.
+
+954
+00:05:00,660 --> 00:05:00,840
+So we've got the<u> little</u> HTML page up.
+
+955
+00:05:00,840 --> 00:05:01,380
+So we've got the little<u> HTML</u> page up.
+
+956
+00:05:01,380 --> 00:05:01,860
+So we've got the little HTML<u> page</u> up.
+
+957
+00:05:01,860 --> 00:05:02,180
+So we've got the little HTML page<u> up.</u>
+
+958
+00:05:02,380 --> 00:05:02,500
+<u>Let's</u> put in Dave and let's just see what happens if we start typing name and this last one should change.
+
+959
+00:05:02,500 --> 00:05:02,740
+Let's<u> put</u> in Dave and let's just see what happens if we start typing name and this last one should change.
+
+960
+00:05:02,740 --> 00:05:02,960
+Let's put<u> in</u> Dave and let's just see what happens if we start typing name and this last one should change.
+
+961
+00:05:02,960 --> 00:05:03,460
+Let's put in<u> Dave</u> and let's just see what happens if we start typing name and this last one should change.
+
+962
+00:05:03,460 --> 00:05:03,860
+Let's put in Dave<u> and</u> let's just see what happens if we start typing name and this last one should change.
+
+963
+00:05:03,860 --> 00:05:04,200
+Let's put in Dave and<u> let's</u> just see what happens if we start typing name and this last one should change.
+
+964
+00:05:04,200 --> 00:05:04,420
+Let's put in Dave and let's<u> just</u> see what happens if we start typing name and this last one should change.
+
+965
+00:05:04,420 --> 00:05:04,700
+Let's put in Dave and let's just<u> see</u> what happens if we start typing name and this last one should change.
+
+966
+00:05:04,700 --> 00:05:04,840
+Let's put in Dave and let's just see<u> what</u> happens if we start typing name and this last one should change.
+
+967
+00:05:04,840 --> 00:05:05,220
+Let's put in Dave and let's just see what<u> happens</u> if we start typing name and this last one should change.
+
+968
+00:05:05,220 --> 00:05:05,440
+Let's put in Dave and let's just see what happens<u> if</u> we start typing name and this last one should change.
+
+969
+00:05:05,440 --> 00:05:05,600
+Let's put in Dave and let's just see what happens if<u> we</u> start typing name and this last one should change.
+
+970
+00:05:05,600 --> 00:05:05,920
+Let's put in Dave and let's just see what happens if we<u> start</u> typing name and this last one should change.
+
+971
+00:05:05,920 --> 00:05:06,440
+Let's put in Dave and let's just see what happens if we start<u> typing</u> name and this last one should change.
+
+972
+00:05:06,440 --> 00:05:06,900
+Let's put in Dave and let's just see what happens if we start typing<u> name</u> and this last one should change.
+
+973
+00:05:06,900 --> 00:05:07,360
+Let's put in Dave and let's just see what happens if we start typing name<u> and</u> this last one should change.
+
+974
+00:05:07,360 --> 00:05:07,640
+Let's put in Dave and let's just see what happens if we start typing name and<u> this</u> last one should change.
+
+975
+00:05:07,640 --> 00:05:07,900
+Let's put in Dave and let's just see what happens if we start typing name and this<u> last</u> one should change.
+
+976
+00:05:07,900 --> 00:05:08,160
+Let's put in Dave and let's just see what happens if we start typing name and this last<u> one</u> should change.
+
+977
+00:05:08,160 --> 00:05:08,380
+Let's put in Dave and let's just see what happens if we start typing name and this last one<u> should</u> change.
+
+978
+00:05:08,380 --> 00:05:08,880
+Let's put in Dave and let's just see what happens if we start typing name and this last one should<u> change.</u>
+
+979
+00:05:09,140 --> 00:05:09,240
+<u>It</u> does.
+
+980
+00:05:09,240 --> 00:05:09,500
+It<u> does.</u>
+
+981
+00:05:09,680 --> 00:05:09,680
+<u>It</u> changes to this.
+
+982
+00:05:09,680 --> 00:05:10,000
+It<u> changes</u> to this.
+
+983
+00:05:10,000 --> 00:05:10,540
+It changes<u> to</u> this.
+
+984
+00:05:10,540 --> 00:05:11,580
+It changes to<u> this.</u>
+
+985
+00:05:11,780 --> 00:05:11,860
+<u>We'll</u> say we'll put in a description and we'll say URL URL like that.
+
+986
+00:05:11,860 --> 00:05:12,100
+We'll<u> say</u> we'll put in a description and we'll say URL URL like that.
+
+987
+00:05:12,100 --> 00:05:12,280
+We'll say<u> we'll</u> put in a description and we'll say URL URL like that.
+
+988
+00:05:12,280 --> 00:05:12,420
+We'll say we'll<u> put</u> in a description and we'll say URL URL like that.
+
+989
+00:05:12,420 --> 00:05:12,580
+We'll say we'll put<u> in</u> a description and we'll say URL URL like that.
+
+990
+00:05:12,580 --> 00:05:12,700
+We'll say we'll put in<u> a</u> description and we'll say URL URL like that.
+
+991
+00:05:12,700 --> 00:05:13,160
+We'll say we'll put in a<u> description</u> and we'll say URL URL like that.
+
+992
+00:05:13,160 --> 00:05:13,960
+We'll say we'll put in a description<u> and</u> we'll say URL URL like that.
+
+993
+00:05:13,960 --> 00:05:14,100
+We'll say we'll put in a description and<u> we'll</u> say URL URL like that.
+
+994
+00:05:14,100 --> 00:05:14,280
+We'll say we'll put in a description and we'll<u> say</u> URL URL like that.
+
+995
+00:05:14,280 --> 00:05:14,800
+We'll say we'll put in a description and we'll say<u> URL</u> URL like that.
+
+996
+00:05:14,800 --> 00:05:15,400
+We'll say we'll put in a description and we'll say URL<u> URL</u> like that.
+
+997
+00:05:15,400 --> 00:05:15,980
+We'll say we'll put in a description and we'll say URL URL<u> like</u> that.
+
+998
+00:05:15,980 --> 00:05:16,220
+We'll say we'll put in a description and we'll say URL URL like<u> that.</u>
+
+999
+00:05:16,300 --> 00:05:16,540
+<u>And</u> for the description, we'll paste this in for the URL.
+
+1000
+00:05:16,540 --> 00:05:16,760
+And<u> for</u> the description, we'll paste this in for the URL.
+
+1001
+00:05:16,760 --> 00:05:16,880
+And for<u> the</u> description, we'll paste this in for the URL.
+
+1002
+00:05:16,880 --> 00:05:17,380
+And for the<u> description,</u> we'll paste this in for the URL.
+
+1003
+00:05:17,380 --> 00:05:17,620
+And for the description, we'll paste this in for the URL.
+
+1004
+00:05:17,620 --> 00:05:17,740
+And for the description,<u> we'll</u> paste this in for the URL.
+
+1005
+00:05:17,740 --> 00:05:17,940
+And for the description, we'll<u> paste</u> this in for the URL.
+
+1006
+00:05:17,940 --> 00:05:18,260
+And for the description, we'll paste<u> this</u> in for the URL.
+
+1007
+00:05:18,260 --> 00:05:18,540
+And for the description, we'll paste this<u> in</u> for the URL.
+
+1008
+00:05:18,540 --> 00:05:19,060
+And for the description, we'll paste this in<u> for</u> the URL.
+
+1009
+00:05:19,060 --> 00:05:19,200
+And for the description, we'll paste this in for<u> the</u> URL.
+
+1010
+00:05:19,200 --> 00:05:19,580
+And for the description, we'll paste this in for the<u> URL.</u>
+
+1011
+00:05:19,800 --> 00:05:19,880
+<u>We'll</u> paste this in.
+
+1012
+00:05:19,880 --> 00:05:20,080
+We'll<u> paste</u> this in.
+
+1013
+00:05:20,080 --> 00:05:20,420
+We'll paste<u> this</u> in.
+
+1014
+00:05:20,420 --> 00:05:20,660
+We'll paste this<u> in.</u>
+
+1015
+00:05:20,740 --> 00:05:21,300
+<u>And</u> we've basically built a prompt templating engine in about two prompts.
+
+1016
+00:05:21,300 --> 00:05:21,520
+And<u> we've</u> basically built a prompt templating engine in about two prompts.
+
+1017
+00:05:21,520 --> 00:05:21,860
+And we've<u> basically</u> built a prompt templating engine in about two prompts.
+
+1018
+00:05:21,860 --> 00:05:22,300
+And we've basically<u> built</u> a prompt templating engine in about two prompts.
+
+1019
+00:05:22,300 --> 00:05:22,460
+And we've basically built<u> a</u> prompt templating engine in about two prompts.
+
+1020
+00:05:22,460 --> 00:05:22,860
+And we've basically built a<u> prompt</u> templating engine in about two prompts.
+
+1021
+00:05:22,860 --> 00:05:23,680
+And we've basically built a prompt<u> templating</u> engine in about two prompts.
+
+1022
+00:05:23,680 --> 00:05:24,160
+And we've basically built a prompt templating<u> engine</u> in about two prompts.
+
+1023
+00:05:24,160 --> 00:05:24,700
+And we've basically built a prompt templating engine<u> in</u> about two prompts.
+
+1024
+00:05:24,700 --> 00:05:24,960
+And we've basically built a prompt templating engine in<u> about</u> two prompts.
+
+1025
+00:05:24,960 --> 00:05:25,280
+And we've basically built a prompt templating engine in about<u> two</u> prompts.
+
+1026
+00:05:25,280 --> 00:05:25,700
+And we've basically built a prompt templating engine in about two<u> prompts.</u>
+
+1027
+00:05:26,060 --> 00:05:26,580
+<u>Well,</u> to recap, we've installed Ada.
+
+1028
+00:05:26,580 --> 00:05:26,640
+Well, to recap, we've installed Ada.
+
+1029
+00:05:26,640 --> 00:05:26,680
+Well,<u> to</u> recap, we've installed Ada.
+
+1030
+00:05:26,680 --> 00:05:27,000
+Well, to<u> recap,</u> we've installed Ada.
+
+1031
+00:05:27,000 --> 00:05:27,340
+Well, to recap, we've installed Ada.
+
+1032
+00:05:27,340 --> 00:05:27,600
+Well, to recap,<u> we've</u> installed Ada.
+
+1033
+00:05:27,600 --> 00:05:28,180
+Well, to recap, we've<u> installed</u> Ada.
+
+1034
+00:05:28,180 --> 00:05:28,620
+Well, to recap, we've installed<u> Ada.</u>
+
+1035
+00:05:28,900 --> 00:05:29,100
+<u>We've</u> got it working and we've created a little HTML page and added some JavaScript.
+
+1036
+00:05:29,100 --> 00:05:29,380
+We've<u> got</u> it working and we've created a little HTML page and added some JavaScript.
+
+1037
+00:05:29,380 --> 00:05:29,500
+We've got<u> it</u> working and we've created a little HTML page and added some JavaScript.
+
+1038
+00:05:29,500 --> 00:05:29,840
+We've got it<u> working</u> and we've created a little HTML page and added some JavaScript.
+
+1039
+00:05:29,840 --> 00:05:30,220
+We've got it working<u> and</u> we've created a little HTML page and added some JavaScript.
+
+1040
+00:05:30,220 --> 00:05:30,520
+We've got it working and<u> we've</u> created a little HTML page and added some JavaScript.
+
+1041
+00:05:30,520 --> 00:05:30,860
+We've got it working and we've<u> created</u> a little HTML page and added some JavaScript.
+
+1042
+00:05:30,860 --> 00:05:31,140
+We've got it working and we've created<u> a</u> little HTML page and added some JavaScript.
+
+1043
+00:05:31,140 --> 00:05:31,240
+We've got it working and we've created a<u> little</u> HTML page and added some JavaScript.
+
+1044
+00:05:31,240 --> 00:05:31,780
+We've got it working and we've created a little<u> HTML</u> page and added some JavaScript.
+
+1045
+00:05:31,780 --> 00:05:32,340
+We've got it working and we've created a little HTML<u> page</u> and added some JavaScript.
+
+1046
+00:05:32,340 --> 00:05:32,780
+We've got it working and we've created a little HTML page<u> and</u> added some JavaScript.
+
+1047
+00:05:32,780 --> 00:05:33,040
+We've got it working and we've created a little HTML page and<u> added</u> some JavaScript.
+
+1048
+00:05:33,040 --> 00:05:33,260
+We've got it working and we've created a little HTML page and added<u> some</u> JavaScript.
+
+1049
+00:05:33,260 --> 00:05:33,820
+We've got it working and we've created a little HTML page and added some<u> JavaScript.</u>
+
+1050
+00:05:34,220 --> 00:05:34,400
+<u>And</u> it's taken only a few minutes to finish this off.
+
+1051
+00:05:34,400 --> 00:05:34,600
+And<u> it's</u> taken only a few minutes to finish this off.
+
+1052
+00:05:34,600 --> 00:05:34,840
+And it's<u> taken</u> only a few minutes to finish this off.
+
+1053
+00:05:34,840 --> 00:05:35,080
+And it's taken<u> only</u> a few minutes to finish this off.
+
+1054
+00:05:35,080 --> 00:05:35,240
+And it's taken only<u> a</u> few minutes to finish this off.
+
+1055
+00:05:35,240 --> 00:05:35,420
+And it's taken only a<u> few</u> minutes to finish this off.
+
+1056
+00:05:35,420 --> 00:05:35,700
+And it's taken only a few<u> minutes</u> to finish this off.
+
+1057
+00:05:35,700 --> 00:05:35,940
+And it's taken only a few minutes<u> to</u> finish this off.
+
+1058
+00:05:35,940 --> 00:05:36,180
+And it's taken only a few minutes to<u> finish</u> this off.
+
+1059
+00:05:36,180 --> 00:05:36,540
+And it's taken only a few minutes to finish<u> this</u> off.
+
+1060
+00:05:36,540 --> 00:05:36,980
+And it's taken only a few minutes to finish this<u> off.</u>
+
+1061
+00:05:37,480 --> 00:05:37,680
+<u>I'm</u> happy Dave.
+
+1062
+00:05:37,680 --> 00:05:37,820
+I'm<u> happy</u> Dave.
+
+1063
+00:05:37,820 --> 00:05:38,120
+I'm happy<u> Dave.</u>
+
+1064
+00:05:38,220 --> 00:05:38,360
+<u>In</u> the next video, I'm going to take this process a little bit further.
+
+1065
+00:05:38,360 --> 00:05:38,440
+In<u> the</u> next video, I'm going to take this process a little bit further.
+
+1066
+00:05:38,440 --> 00:05:38,600
+In the<u> next</u> video, I'm going to take this process a little bit further.
+
+1067
+00:05:38,600 --> 00:05:39,040
+In the next<u> video,</u> I'm going to take this process a little bit further.
+
+1068
+00:05:39,040 --> 00:05:39,180
+In the next video, I'm going to take this process a little bit further.
+
+1069
+00:05:39,180 --> 00:05:39,300
+In the next video,<u> I'm</u> going to take this process a little bit further.
+
+1070
+00:05:39,300 --> 00:05:39,400
+In the next video, I'm<u> going</u> to take this process a little bit further.
+
+1071
+00:05:39,400 --> 00:05:39,540
+In the next video, I'm going<u> to</u> take this process a little bit further.
+
+1072
+00:05:39,540 --> 00:05:39,720
+In the next video, I'm going to<u> take</u> this process a little bit further.
+
+1073
+00:05:39,720 --> 00:05:40,020
+In the next video, I'm going to take<u> this</u> process a little bit further.
+
+1074
+00:05:40,020 --> 00:05:40,560
+In the next video, I'm going to take this<u> process</u> a little bit further.
+
+1075
+00:05:40,560 --> 00:05:41,000
+In the next video, I'm going to take this process<u> a</u> little bit further.
+
+1076
+00:05:41,000 --> 00:05:41,160
+In the next video, I'm going to take this process a<u> little</u> bit further.
+
+1077
+00:05:41,160 --> 00:05:41,360
+In the next video, I'm going to take this process a little<u> bit</u> further.
+
+1078
+00:05:41,360 --> 00:05:41,640
+In the next video, I'm going to take this process a little bit<u> further.</u>
+
+1079
+00:05:41,940 --> 00:05:42,180
+<u>I'll</u> see you soon.
+
+1080
+00:05:42,180 --> 00:05:42,340
+I'll<u> see</u> you soon.
+
+1081
+00:05:42,340 --> 00:05:42,480
+I'll see<u> you</u> soon.
+
+1082
+00:05:42,480 --> 00:05:42,680
+I'll see you<u> soon.</u>
+

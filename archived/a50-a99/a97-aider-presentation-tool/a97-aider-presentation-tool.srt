@@ -1,0 +1,755 @@
+1
+00:00:00,00 --> 00:00:04,710
+Aider is a pair programmer that you can run from the command line. And yesterday 
+
+2
+00:00:04,710 --> 00:00:10,130
+I did a video on how to set it up now. Today I would like to create a presentation 
+
+3
+00:00:10,130 --> 00:00:13,650
+software to display scalable vector graphics. 
+
+4
+00:00:13,530 --> 00:00:17,970
+reason I want to do this is that I was in the middle of doing a video and realized 
+
+5
+00:00:17,970 --> 00:00:23,250
+I needed this capability, did not want to use Canva or Google Slides, and I thought, 
+
+6
+00:00:23,250 --> 00:00:28,770
+why don't we just use Aider to recreate this software? I'm AppyDave. Let's get into 
+
+7
+00:00:28,770 --> 00:00:29,190
+it.
+
+8
+00:00:29,190 --> 00:00:35,550
+And here's our presentation using Reveal.js and napkin I for image generation. And 
+
+9
+00:00:35,550 --> 00:00:38,820
+all of this was with a one shot prompt using Aider AI
+
+10
+00:00:39,190 --> 00:00:44,380
+Now in this video, I'm going to use GPT four canvas just to do a little bit of Q 
+
+11
+00:00:44,380 --> 00:00:48,370
+and A and write a requirements document. And then I'm going to feed that requirements 
+
+12
+00:00:48,370 --> 00:00:51,550
+document into Aider to produce the application.
+
+13
+00:00:51,560 --> 00:00:55,760
+Now let's have a look at the problem that I'm trying to solve. So here I am on an 
+
+14
+00:00:55,760 --> 00:01:00,710
+application called napkin. And what it allows you to do is just take some lists of 
+
+15
+00:01:00,710 --> 00:01:05,420
+information and press a little button here and convert it into these graphics. 
+
+16
+00:01:05,130 --> 00:01:09,700
+we just go down to this particular list here and we click on the button, it'll go 
+
+17
+00:01:09,700 --> 00:01:14,230
+into this generation mode. And from there we can select different graphics. Now once 
+
+18
+00:01:14,230 --> 00:01:18,400
+we select a graphic, what we can do is head over to it
+
+19
+00:01:17,860 --> 00:01:22,940
+click on this little button here for export. And we can export a PNG or a scalable 
+
+20
+00:01:22,940 --> 00:01:27,470
+vector graphic. Now it's a scalable vector graphic I would like to show in a presentation. 
+
+21
+00:01:27,470 --> 00:01:31,850
+And the good thing is you can download it. Or in my case I just want to copy it to 
+
+22
+00:01:31,880 --> 00:01:32,690
+the clipboard.
+
+23
+00:01:32,700 --> 00:01:37,370
+So I've come over to GPT canvas, where we're going to start the Q&A session. And 
+
+24
+00:01:37,370 --> 00:01:42,200
+where we'll start is I would like a simple presentation software using JavaScript 
+
+25
+00:01:42,200 --> 00:01:46,520
+library. I don't know which one to use. So let's go and find one needs to be able 
+
+26
+00:01:46,520 --> 00:01:52,130
+to display scalable vector graphics. And I really only need about 20 word description 
+
+27
+00:01:52,130 --> 00:01:57,210
+for each type. I just want to get an idea. So let's come up with Reveal.js and impress.j 
+
+28
+00:01:57,210 --> 00:02:03,200
+reveal-md, bespoke.js and deck.js. Now I don't know the last three, but I do know 
+
+29
+00:02:03,200 --> 00:02:08,150
+the first two and the one I want to work with today I think will be Reveal.js.
+
+30
+00:02:08,330 --> 00:02:12,560
+So I've started writing the prompt that says I plan to use Reveal.js. 
+
+31
+00:02:12,300 --> 00:02:17,370
+I want to create a slide presentation with one or more slides, and that they're going 
+
+32
+00:02:17,370 --> 00:02:22,350
+to be showing some headings and maybe a scalable vector graphic. Now from here, I 
+
+33
+00:02:22,350 --> 00:02:27,900
+just want it to think about the steps that I'm going to need to do to implement this. 
+
+34
+00:02:27,900 --> 00:02:31,890
+Think about the layouts, basic capabilities, brand guidelines. So I'm probably going 
+
+35
+00:02:31,890 --> 00:02:33,210
+to want some colors. 
+
+36
+00:02:33,230 --> 00:02:38,570
+how are we going to store these and reference the Scalable Vector graphics. Lastly, 
+
+37
+00:02:38,570 --> 00:02:41,680
+I would like 1 or 2 simple edge cases 
+
+38
+00:02:41,630 --> 00:02:46,410
+And let's make sure that it's not going to write any code. I only want information 
+
+39
+00:02:46,410 --> 00:02:46,620
+at the 
+
+40
+00:02:46,760 --> 00:02:51,660
+So it's come up with a whole lot of guidelines, and it's working on steps to consider 
+
+41
+00:02:51,660 --> 00:02:57,450
+when creating a reveal.js presentation. Now we're looking at single SVG and a heading 
+
+42
+00:02:57,450 --> 00:03:02,940
+versus multiple. We've got brand guidelines. And what that's making me think is that 
+
+43
+00:03:02,940 --> 00:03:07,260
+we're probably going to need to ask a question about colors and fonts, 
+
+44
+00:03:07,100 --> 00:03:12,280
+Then we've got where we're going to put the SVG files. We've got the slide navigation. 
+
+45
+00:03:12,280 --> 00:03:16,960
+It's assumed that that's something that can be done by Reveal.js, but there are different 
+
+46
+00:03:16,960 --> 00:03:21,610
+effects that we can load in. So this to me seems like another configuration option. 
+
+47
+00:03:21,610 --> 00:03:27,760
+And then after that we've got what to do with missing Scalable Vector graphics and 
+
+48
+00:03:27,760 --> 00:03:31,750
+content overflow. So that's interesting. So I think from here we should just start 
+
+49
+00:03:31,750 --> 00:03:37,60
+writing a prompt to make this available for another developer. Now in this case the 
+
+50
+00:03:37,60 --> 00:03:38,710
+developer is going to be Aider.
+
+51
+00:03:38,730 --> 00:03:43,300
+Now let's build the basic prompt. So we'll start off with can you turn this into 
+
+52
+00:03:43,300 --> 00:03:46,960
+a simple requirements document. We want to let it know that the programmer knows 
+
+53
+00:03:46,960 --> 00:03:51,340
+how to code in Reveal.js, and that we don't want any code. I'm going to let Aider 
+
+54
+00:03:51,550 --> 00:03:57,670
+come up with the ideas and the plans rather than GPT canvas. Just give it clear guidelines. 
+
+55
+00:03:57,670 --> 00:04:01,840
+After that, let's make sure it says text in a code block. That way I can just copy 
+
+56
+00:04:01,870 --> 00:04:03,760
+it and paste it directly in. 
+
+57
+00:04:03,560 --> 00:04:07,990
+we need to have configuration settings. The ones that I've worked through is that 
+
+58
+00:04:07,990 --> 00:04:11,460
+we need a slide type and the brand considerations. 
+
+59
+00:04:11,360 --> 00:04:16,740
+So to configure this we'll go over to Canva where I've got my brand guidelines. And 
+
+60
+00:04:16,740 --> 00:04:21,180
+what we'll do is we'll just start pasting some stuff in. So we'll need a foreground 
+
+61
+00:04:21,180 --> 00:04:27,840
+color, a background color and a highlight color. I like to use yellow for that.
+
+62
+00:04:27,860 --> 00:04:32,750
+And for the font we'll go with Bebas new and that's a Google font. So we'll just 
+
+63
+00:04:32,750 --> 00:04:37,180
+paste that in and let's see what it generates for us
+
+64
+00:04:37,00 --> 00:04:39,300
+as a requirements document. 
+
+65
+00:04:39,330 --> 00:04:44,130
+as you can see because I'm using GPT canvas, it's now changed context because it's 
+
+66
+00:04:44,430 --> 00:04:45,600
+actually writing the document.
+
+67
+00:04:45,630 --> 00:04:49,490
+So we've got our requirements document. If we read through it, we can see that number 
+
+68
+00:04:49,490 --> 00:04:54,200
+one is general slide layout requirements. So it's talking about the single scalable 
+
+69
+00:04:54,200 --> 00:04:59,680
+vetor graphic or the multiple layouts. We've got the brand guidelines and it's talking 
+
+70
+00:04:59,680 --> 00:05:00,800
+about how to name the 
+
+71
+00:05:01,100 --> 00:05:05,930
+where the assets should be. After that, we've got additional configuration around 
+
+72
+00:05:05,930 --> 00:05:11,150
+the transition. Now, if we move down into five, six, and seven, these are areas that 
+
+73
+00:05:11,150 --> 00:05:15,620
+I think I wanna change. And this is the reason why with number five, responsive design 
+
+74
+00:05:15,620 --> 00:05:20,480
+requirements. This is a given. This is reveal js. It knows how to do this. So we 
+
+75
+00:05:20,480 --> 00:05:26,180
+don't actually need to confuse the AI pair programmer with information it doesn't 
+
+76
+00:05:26,180 --> 00:05:27,320
+need to know about. 
+
+77
+00:05:27,330 --> 00:05:32,460
+number six, which is a template based slide creation. If this was a more featured 
+
+78
+00:05:32,640 --> 00:05:37,500
+product than what I actually need, this might be a good thing to do, but I really 
+
+79
+00:05:37,500 --> 00:05:42,360
+wanna replace this with a new idea. And if we look at number seven, the edge cases, 
+
+80
+00:05:42,420 --> 00:05:48,840
+I'm also not concerned about them. So what I think I'll do is say remove steps five, 
+
+81
+00:05:48,840 --> 00:05:54,570
+six, and seven, and let's see what it does. Now, the way GPT Canvas works is it just 
+
+82
+00:05:54,660 --> 00:05:54,960
+starts 
+
+83
+00:05:54,960 --> 00:05:59,110
+rewriting the file and we should see it just disappear. We're down to four. We've 
+
+84
+00:05:59,110 --> 00:06:04,420
+got the configuration summary and the notes for implementation. Let's add in one 
+
+85
+00:06:04,420 --> 00:06:05,350
+more capability.
+
+86
+00:06:05,360 --> 00:06:09,590
+Now I wanted to find one more capability, and that's the ability to configure this 
+
+87
+00:06:09,590 --> 00:06:14,390
+on a multiple presentation front. Now, I only need to use this once, but I think 
+
+88
+00:06:14,390 --> 00:06:18,710
+it might make sense to configure it with a little bit of extra information. So what 
+
+89
+00:06:18,710 --> 00:06:23,960
+we'll do is say I want a basic structure for adjacent document and I want it to have 
+
+90
+00:06:23,990 --> 00:06:26,360
+multiple slides with different attributes. 
+
+91
+00:06:26,360 --> 00:06:31,310
+probably just want to copy the scalable vetor graphic asset, which is a whole lot 
+
+92
+00:06:31,310 --> 00:06:36,970
+of XML. Put it straight into the field as an embedded concept, but I may also want 
+
+93
+00:06:36,970 --> 00:06:38,590
+to store it as a file. 
+
+94
+00:06:38,660 --> 00:06:42,860
+take both an image and a scalable veto graphic as embedding, and there'll be a layout. 
+
+95
+00:06:42,660 --> 00:06:46,400
+I don't currently have any ideas for layout, so I'll just call it default. 
+
+96
+00:06:46,400 --> 00:06:51,160
+I wanna put in a H1, H2 and maybe some bullet points. 
+
+97
+00:06:51,330 --> 00:06:55,930
+lastly, I just wanna give it some extra ruling around that scalable vetor graphic 
+
+98
+00:06:55,960 --> 00:06:56,590
+and name. 
+
+99
+00:06:56,600 --> 00:07:02,510
+from my point of view. The embedded SVG should take precedence over the actual name 
+
+100
+00:07:02,510 --> 00:07:06,230
+field. So if we press enter on that, let's see what it generates. 
+
+101
+00:07:06,330 --> 00:07:11,480
+So it's just started writing some code down here. We've got slide structures in J 
+
+102
+00:07:11,720 --> 00:07:17,720
+format. Define the structure. We've got image name. Look, this all seems to be good. 
+
+103
+00:07:17,960 --> 00:07:21,140
+We've got some attributes and we've got some notes.
+
+104
+00:07:21,160 --> 00:07:26,730
+It's updated the requirements document with a new section at the bottom called Slide 
+
+105
+00:07:26,730 --> 00:07:30,780
+Structure in JSON format, and it goes from here all the way through to here. We've 
+
+106
+00:07:30,780 --> 00:07:36,330
+got an example of how the JSON document would look plus information about the attributes.
+
+107
+00:07:36,330 --> 00:07:40,890
+Now I've come down to a terminal window and we're going to test Aider. Now, I need 
+
+108
+00:07:40,890 --> 00:07:45,870
+to let you know I haven't done this, so this way of writing the requirements document 
+
+109
+00:07:46,110 --> 00:07:50,370
+could fall flat on my face. But what we'll do is we'll make a test directory, we'll 
+
+110
+00:07:50,370 --> 00:07:54,150
+CD into it, and from that point we can just type in Aider. 
+
+111
+00:07:54,160 --> 00:07:59,370
+that'll do is it'll connect to the default model, which in my case will be claude. 
+
+112
+00:07:59,630 --> 00:08:03,500
+I think it's asking me to create a repo. 
+
+113
+00:08:03,660 --> 00:08:05,300
+we using? Clawed 3.5 sonet. 
+
+114
+00:08:05,330 --> 00:08:08,400
+And at this point, we can just start typing prompts. 
+
+115
+00:08:08,400 --> 00:08:12,760
+I don't know yet whether I should break it down into individual prompts or do it 
+
+116
+00:08:12,760 --> 00:08:12,730
+all as one 
+
+117
+00:08:12,800 --> 00:08:18,650
+But we should be able to go back over to our document. There's a copy button, and 
+
+118
+00:08:18,650 --> 00:08:24,200
+if we just paste it all the way in, that's a lot of information. Let's test how good 
+
+119
+00:08:24,200 --> 00:08:31,490
+this Aider system is. So at the moment, it looks like it's creating a reveal JS presentation. 
+
+120
+00:08:31,820 --> 00:08:37,490
+Main HTML file. We've got JavaScript file for configuration. We've got a sample JS 
+
+121
+00:08:37,500 --> 00:08:44,310
+concept. So here's the HTML. It's come up with a custom CSS, and hopefully they're 
+
+122
+00:08:44,310 --> 00:08:47,220
+the colors that we put in from our brand information. 
+
+123
+00:08:47,230 --> 00:08:52,150
+After that, we've got a configuration js, again with various configurations going 
+
+124
+00:08:52,150 --> 00:08:54,280
+on. Then the presentation, 
+
+125
+00:08:54,300 --> 00:09:00,200
+and I don't actually know how to create these yet. We've got a slides, Jason, and 
+
+126
+00:09:00,200 --> 00:09:03,950
+what have we got? Welcome to the presentation. We've got a H two. We've got a graphic 
+
+127
+00:09:03,950 --> 00:09:10,760
+that's been filled in as a circle with some bullet points. This looks good and it's 
+
+128
+00:09:10,760 --> 00:09:12,350
+then telling us to make some directories. 
+
+129
+00:09:12,360 --> 00:09:15,550
+Lastly, it wants us to run it as a server.
+
+130
+00:09:15,560 --> 00:09:19,940
+Now I'm about to follow the instructions to create this, and I'm going to leave this 
+
+131
+00:09:20,240 --> 00:09:25,100
+HTML page that we're currently seeing. ChatGPT up and running because if it creates 
+
+132
+00:09:25,400 --> 00:09:30,320
+a new page and executes it, it should just pop up automatically. So we'll press yes. 
+
+133
+00:09:30,350 --> 00:09:37,400
+We're creating HTML, CSS, JavaScript presentation. So everything that we saw in there 
+
+134
+00:09:37,400 --> 00:09:42,680
+is available. They've all been applied. It's about to make a directory. We'll do 
+
+135
+00:09:42,680 --> 00:09:47,300
+that. And lastly we're going to run a web server. And this is where hopefully it 
+
+136
+00:09:47,300 --> 00:09:49,520
+might even just pop it up for us.
+
+137
+00:09:49,530 --> 00:09:54,300
+And it didn't. But I typed it in and it looks like it's working. Now if I remember 
+
+138
+00:09:54,300 --> 00:09:59,400
+right we can do right arrow to go to the next slide and we can go backwards and forwards. 
+
+139
+00:09:59,400 --> 00:10:04,170
+So that was a one shot prompt. That whole requirements document turned into what 
+
+140
+00:10:04,170 --> 00:10:09,660
+we're seeing. This is my theme colors. So the light brown on the dark brown with 
+
+141
+00:10:09,660 --> 00:10:13,740
+a bit of a highlight. We've got a scalable vector graphic. Let's see if we can modify 
+
+142
+00:10:13,740 --> 00:10:13,980
+it.
+
+143
+00:10:14,00 --> 00:10:18,410
+Now we've got the presentation here. I'll click on the right button. We go to the 
+
+144
+00:10:18,410 --> 00:10:18,680
+next 
+
+145
+00:10:18,800 --> 00:10:23,430
+there's a problem with the image. We'll have to check what that is. But let's go 
+
+146
+00:10:23,430 --> 00:10:29,430
+and grab an image that we can start with. So we've come over to Napkin.AI It turns 
+
+147
+00:10:29,430 --> 00:10:31,530
+these text areas into infographics. 
+
+148
+00:10:31,400 --> 00:10:36,560
+just click on this link here. We'll go export. Now we could work with a PNG. That'd 
+
+149
+00:10:36,590 --> 00:10:41,150
+be fine. But I want to work with a scalable vector graphics. So I'll click on that 
+
+150
+00:10:41,150 --> 00:10:42,680
+and I'll press copy.
+
+151
+00:10:42,700 --> 00:10:47,830
+we'll drop over to the code and we can see things that we can change. Let's get rid 
+
+152
+00:10:47,860 --> 00:10:53,260
+of these bullet points and we'll hit save. And looks like we'll have to refresh manually. 
+
+153
+00:10:53,260 --> 00:10:57,550
+Let's change this to AppyDave. Channels will do
+
+154
+00:10:57,560 --> 00:11:01,520
+and I'll just refresh and see what we get. It says AppyDave channels. We've still 
+
+155
+00:11:01,550 --> 00:11:07,280
+got the image problem and it says it's looking for an image file called sample. And 
+
+156
+00:11:07,280 --> 00:11:11,210
+I'm assuming it's going to go into this folder. So we'll just type in sample dot 
+
+157
+00:11:11,270 --> 00:11:16,340
+SVG and paste in the information we copied from napkin.
+
+158
+00:11:16,360 --> 00:11:18,820
+And we come over to the website. We'll refresh. 
+
+159
+00:11:18,830 --> 00:11:22,650
+there it is. That's looking good. Maybe we can make one more change to this one.
+
+160
+00:11:22,660 --> 00:11:25,530
+Now we'll come back over to Napkin AI 
+
+161
+00:11:25,530 --> 00:11:30,860
+So let's just pick one at random I'm going to click on this text. And I'm going to 
+
+162
+00:11:30,110 --> 00:11:35,570
+do a regenerate. And it's regenerating right here. And we should be able to scroll 
+
+163
+00:11:35,570 --> 00:11:39,890
+through and find something that we like. This looks good to me. We'll just click 
+
+164
+00:11:39,890 --> 00:11:45,590
+on that and we can come up and click on the export, go to Scalable Vector Graphic 
+
+165
+00:11:45,590 --> 00:11:49,820
+and put it in the clipboard. Now if you want this product there'll be a link in the 
+
+166
+00:11:49,820 --> 00:11:53,480
+description below. This is just excellent for making graphics.
+
+167
+00:11:53,500 --> 00:11:55,160
+we'll head back to VS code. 
+
+168
+00:11:55,160 --> 00:11:59,900
+we've got this scalable veto graphic that's embedded. This was the other way I wanted 
+
+169
+00:11:59,900 --> 00:12:03,980
+to use it, so I'm just gonna paste everything that we copied. Now it looks like an 
+
+170
+00:12:04,400 --> 00:12:08,480
+issue and it's because there's a couple of carriage returns. We'll just remove them 
+
+171
+00:12:08,500 --> 00:12:11,350
+So we'll paste that in and hit save 
+
+172
+00:12:11,360 --> 00:12:16,420
+and we'll come back to our webpage and just refresh. And that worked as well. So 
+
+173
+00:12:16,420 --> 00:12:20,920
+that's great. It was a little bit fiddly to get the embedded scalable vetor graphic 
+
+174
+00:12:20,920 --> 00:12:27,100
+into the string. But otherwise I can now put this information in IRA's files or directly 
+
+175
+00:12:27,100 --> 00:12:28,420
+into the Jason document.
+
+176
+00:12:28,430 --> 00:12:33,120
+And now we have our presentation. We can go backwards and forwards between the two 
+
+177
+00:12:33,150 --> 00:12:37,380
+slides, and the only other changes I might want to do in the future is play around 
+
+178
+00:12:37,380 --> 00:12:38,220
+with the layout.
+
+179
+00:12:38,230 --> 00:12:43,660
+So a quick recap. What we did was we worked with Aider. Now if you want a basic installation 
+
+180
+00:12:43,660 --> 00:12:49,540
+guide, there is a video related that I did yesterday. Then I went into ChatGPT canvas. 
+
+181
+00:12:49,540 --> 00:12:54,640
+I did a Q&A just to get the lay of the land of how I wanted to do the requirements 
+
+182
+00:12:54,640 --> 00:12:59,140
+document, and then I wrote the requirements document. Now, if you want to see a video 
+
+183
+00:12:59,140 --> 00:13:04,270
+on using a documents first approach to using pair programmers, I've also got a video 
+
+184
+00:13:04,270 --> 00:13:09,460
+on that topic. After that, we just ran it and it created the whole application from 
+
+185
+00:13:09,460 --> 00:13:13,840
+one requirements documentation. And then we played around with it and got it working. 
+
+186
+00:13:13,660 --> 00:13:18,950
+In the next video, I want to use the Aider image to code generation technique and 
+
+187
+00:13:18,950 --> 00:13:23,540
+see if I can take this Canva presentation that I've put together and turn it into 
+
+188
+00:13:23,540 --> 00:13:28,730
+slides for reveal.js. Anyway, I'm AppyDave. Please like and subscribe and I'll see 
+
+189
+00:13:28,730 --> 00:13:29,900
+you in the next video.

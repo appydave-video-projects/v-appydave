@@ -1,0 +1,169 @@
+Are you looking for a great alternative to mid-journey? In this video I go
+through 16 competitors and what I'll be doing is trialling three different
+prompts, three different reference images and see how it looks in all 16
+products. And we're going to use three images that I've used in the past. I've
+created these in mid-journey. I've used them in my videos and with each of them
+we're going to run them through the 16 AI art generators. We are going to need a
+prompt. So what I thought I'd do is take each of the individual images and we'll
+drag them straight into DALE-3. Once they're in DALE-3 we can actually
+ask DALE-3 to tell us what the image is about. But I'll give it a little bit
+extra context by giving it the original mid-journey prompt as well. And then
+when we run it through DALE-3 we get a prompt like this. So in this particular
+case it's create an animated illustration of a smiling 30 year old
+blond man with eyeglasses. And then a bit later on it says the style should be
+similar to modern animated illustrations with a clean and simple design. And what
+we'll do is we'll take that prompt and the reference image and we're just going
+to run it through all 16 AI art generators. So the first two we'll look
+at is Night Cafe and Idiogram. Now Night Cafe has a nice clean user interface
+where you can select different styles. Whereas Idiogram is really good at
+doing symbolic art and idiograms. We've got two images here they're looking
+pretty clean to me. Next we'll look at Open Art and Designs AI. So Open Art has
+the ability to use multiple models. I think it has something like a hundred
+different models that you can use. Designs AI can be used for images but it can
+also be used for logos and videos as well. Next to our Blue Willow which is by
+Linewire and a Dove Firefly. They're both producing really great images we would
+expect that from a Dove but this Blue Willow product is also pretty good. I
+better mention too that we have a Dove Firefly it's like canvas so you have the
+ability to do a lot of other design tooling with that product. And that then
+brings us on to Photor and Crayon. And Photor is an interesting one because
+it's a graphics editing software and their implementation of generative art is
+pretty good I think. Then we've got Crayon which I had a lot of trouble trying to
+get good images from it. So this is the first time we've come across an AI art
+generator that wouldn't compare to mid-journey but everything else has been
+pretty good so far. Next we have Dream Studio and Imagine. And Dream Studio has
+the ability to have moddable models as well that you can select from and
+Imagine Art is a detailed illustration tool. Both of these are producing great
+images. Next we're looking at Playground and Hotpot. Now Playground has advanced
+editing features while Hotpot also has some editing capabilities. One of the
+things I noticed with this particular image is that to me it didn't feel like
+the illustration style that was described in the prompt but they're still
+great images. The next two to look at is Lexico and Microsoft Copilot. And
+Lexico in the past has been an AI art search engine. It's a great place to
+get inspiration but they also have creation tools and we've used them here
+and this is a tool I do want to deep dive into and there will be a video on
+that. As for Microsoft Copilot it's essentially DALE-3. So whatever you're
+looking for as well. The last two in the list are Worlds Apart. So we've got
+Leonardo AI and Diffusion B. Now Leonardo AI has a lot of advanced tooling
+and creativity that you can do within it. Diffusion B on the other hand is a
+local computer implementation. So in my case it's running on the Mac and it
+uses stable diffusion and I wasn't really able to get any good images out of
+this particular model. So for the prompt of the 30 year old man creative
+animated illustration we've got 16 different variations here and there are
+plenty of great contenders to go up against mid-journey in this particular
+case. What we'll do now is we'll move on to the next reference image and I'll give
+you a little bit more detail about each of these applications as we go. We'll
+start by dragging the reference image over into DALE-3. We'll also use the
+mid-journey which had things like the style raw stylized 500. Now this won't
+be able to be used effectively in the other art generators. So the generation
+of the prompt is here. Creative realistic illustration of a woman in a 30
+shown in side profile and we get all that information and this is what we're
+going to feed into the 16 AI art generators. Moving over to the final
+overview with this reference image we've again got a lot of great examples. Now
+if there's a particular tool that you want me to do a deep dive in let me know.
+Now I am going to do a two or three minute video on pretty much everything
+that's here but there are a couple here that I'm going to use professionally with
+my YouTube videos and they're the ones that I'm going to deep dive into. So let
+me know which ones you're interested in and I'll do a video on them. Now the
+first example we've got here is Night Cafe and Idiogram and both images are
+pretty good in my opinion. Let's talk a little bit about Night Cafe. This tool
+you can use stable diffusion or DALE-3. You've also got access to print on
+demand and can select different art styles. I'll tell you more about Idiogram
+when we look at the third reference image but moving on we can look at open
+art and design AI. We've got interesting styles maybe the one from
+Designs AI isn't as good as the mid-journey one but the open art one is
+quite impressive. The thing about this particular tool is that apart from image
+generation it's pretty good with anime characters and it's also got an image
+upscaler. Moving on to Blue Willow and a dive firefly. Blue Willow is great as a
+tool. It has many different styles that you can work from. It's got some tools
+like background removers, blurs, 3D models and one of its key advantages is
+that it's quick at generating images. Let's now have a look at Photor and
+Crayon. Now Crayon like before doesn't really do a great job of generating
+images but Photor is really interesting because not only is it
+generating a good image but it's a really powerful tool. We've got photo
+enhancement like upscaling background removal in painting. It's also got
+realistic human face generation so it can do things like skin tones hair
+accessories those sorts of features which are really hard to do with general
+tools like mid-journey. It's got all the different styles of art that you might
+want to do which you would expect from a lot of the image generations but it can
+also do transforms from one style to another. Overall if you want image
+generation but you also want image editing this might be a great tool to
+look at. Moving on to Dream Studio and Imagine. We've got good images being
+generated based on the prompt. Let's talk about Dream Studio. It's by stability AI
+using the stable diffusion model. Now it's got all your texture image sort of
+capabilities. It can also do image to image so you can take an image and
+alter it and it's got capabilities like image upscaling. Looking now at
+playground and hot pot so in this case the images are pretty good. The playground
+has this really nice user interface and a very generous usage limit on a daily
+basis. It uses different models it's got various tools and customizations and you
+can also do image combinations combining images together. Moving on to
+Let'ssica and Microsoft co-pilot. So Microsoft co-pilot which is DALE-3 we're
+showing that here. Let'ssica is a search engine now it's got image generation
+tools. It's got a lot of ability to customize things and look at the history
+of images and adapt them over time. Moving on to the last two for the Japanese
+girl. We've got Leonardo AI and Diffusion B and at this point I was nearly giving up
+on Diffusion B but Leonardo is an incredibly powerful image generation
+and AI generation tool. You've got capabilities like in-painting, out-painting
+and magic erasers. You've got Control Net which gives intricate image guidance
+and the real-time canvas allows you to make modifications to the image quickly
+and easily. Now moving on to our last reference image which is the lion coming
+out of the clouds. Now you might have noticed in the last section that I
+talked a little bit more in detail about each of the image generators but I only
+did one of them. Now I'll do the other half in this section. So with the image
+we've dragged it into DALE-3. The original prompt was actually quite
+simple. It was an an angel lion emerging from ash but with the image being
+dragged into DALE-3 what we finally get is create a powerful and dramatic
+illustration of a lion with angelic wings. Create a powerful and dramatic
+illustration of a lion with angelic wings emerging from a cloud of ash. So
+this is the prompt we're going to use for the 16 generators. So moving on to
+Night Cafe and Idiogram. In this particular case I really love the image
+that Idiogram has created. Night Cafe is not too bad. Now the thing about Idiogram
+is it's a powerful tool. It's designed for both imagers and professionals.
+It's got preset image stars 3d rendering. It's got community engagement and all
+the sort of options editing that you would like to do. But additionally
+it's got a diverse range of visual elements and icons and the other thing
+that you can do with it is work with text. So you can combine text fonts,
+colors and different styles with the generation. So let's have a look at
+open art and designs AI. We've got pretty good images going on here. Designs AI
+is an interesting tool. Developed by the Imagine group it's got a bunch of
+makers. So it's got a text. It's got a logo maker, a video maker, a design maker
+and speech maker. So something like the speech maker can be used for voice
+overs. The other thing it's got are these pairers. So it's got font pair and
+color matcher. So an interesting range of tools with this particular product.
+Next we'll look at blue willow and a dove firefly. We've got two great images
+going on here. Now a dove's going to be a really powerful tool moving forward.
+So I guess its main competitor is Canva but it has the ability to integrate into
+the rest of the adobe products. One of the things it's got is this ethical AI.
+So it's all trained on images that it has the rights to. And then being a design
+tool it has generative fill and expand. You can also do vector graphics with it.
+Move on to photo and crayon. Now crayon has been a tool that I didn't get a
+lot of success out of it. But it might still be a useful tool for you to use for
+these reasons. It is a free tool and it has prompt predictions and suggestions.
+And with a little bit of work you can get an image close to what you might want.
+Next we'll look at dream studio and imagine art. And they're both producing great
+images. Now imagine art is a pretty powerful tool. It's got different styles. Image remixing
+and advanced configuration. It can also do background removal and in painting.
+So we're looking at playground and hot pot again. And these are now becoming
+leading contenders for myself. But let's talk a little bit about hot pot. So it's quite a
+versatile tool that you can use for image generation. But you can also use it for photo
+editing, headshots and avatars. One of the other things it can do is text writing.
+So you can use it for your brainstorming and copywriting. And like tools like Canva or Firefly
+it has templates that you can customize for social media. Moving on to Let's Secure and
+Microsoft Co-Pilot. The Let's Secure image is really good. The Microsoft Co-Pilot for me is
+something that you would use just the same way she would use DALE-3 within chat GPT.
+Now if you're using Microsoft Co-Pilot you might not want to go any further than this.
+And if you really want to see a great set of examples of mid-journey versus what
+Microsoft Co-Pilot could do, you can check out the video that I did last year where I did 400
+images, 50 prompts, 4 images per prompt for mid-journey and 4 images per prompt for DALE-3,
+where you can get a good side-by-side comparison between these two different products.
+And for the last two, Leonardo AI and Diffusion B. So the Leonardo image is pretty good.
+The Diffusion B, the thing about this tool is that this image it's done is okay. And it's free,
+it runs on your computer. So you have a lot of capability to produce images,
+but it doesn't necessarily create the best results. But some of the tools that are built into it
+include in-painting, out-painting and upscaling, and you can plug different models in. So if you
+know what you're doing, you might be able to get this to a much higher level of capability
+and just run it locally on your Mac computer in the case of Diffusion B. For Windows, I'm sure
+there's a tool that does something very similar. So there's 16 great examples of the line coming
+out of the ashes. We've got the lady in her house Japanese style, and we've got the man in his 30s,
+yellow background, illustration style. Now, if there's any image generator that you want me
+to explore, put a comment down below. Otherwise, like and subscribe. And I've got more videos in
+the playlist here on Image Generation.

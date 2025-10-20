@@ -1,0 +1,70 @@
+This video is for anyone that's been banned from mid-journey or doesn't want to get banned
+from mid-journey and at the end of the video I'll point you to 16 great alternatives.
+Hi, I'm Api Dave and I'm going to share what happened.
+The ban that I got, the $300 that I lost, what I believe is a misdiagnosis and the frustration
+that I had dealing with mid-journey support.
+And then after that I'm going to show you 16 beautiful alternatives to mid-journey.
+I've been using mid-journey since March last year and I've created thousands of images
+that I've used a lot within my YouTube videos.
+But last year I did end up switching a fair bit over to Dali 3 mainly because I found
+it easier to work with within ChatGPT and I'd already done a video showcasing 200 image
+comparisons between the two different products across 50 prompts.
+And in my opinion, Dali 3, while not as good as mid-journey, was a worthy contender.
+Last month I was talking at a tech summit and I needed some pretty good images for the
+presentation I was doing so I ended up reactivating my mid-journey account.
+Now one week later I found myself having to upgrade because I'd used up all the credits
+that I had there and I ended up spending $288.
+But it was great because the images I was able to generate for the tech summit presentation
+were just wonderful.
+Now two weeks ago I moved to countries, I came over to Thailand and not long after arriving
+I started getting this particular error creation failed on my mid-journey account.
+I headed over to Discord and saw this error that's saying accessing our services via
+automation, scripting or third party tools created a ban.
+Now I started doing a bit of research to figure out what was going on because I hadn't done
+any automation or third party scripting and people had come up with these issues banned
+due to billing not matching the home address okay, not my situation.
+Someone has talked about losing a $60 subscription and not being refunded.
+My situation is $288 because I spent it for a full year and I haven't been refunded either.
+Then we saw other sorts of issues with banning going on and then this next one gave me a
+little bit of a clue to what might be the issue.
+This includes IP and email bans from Discord.
+I headed over to an email and I wrote I can't sign into mid-journey I've checked the images
+there's nothing that meets the fraud or the other issues that they listed.
+I'm an influencer and basically all the images that I do for YouTube and that's important
+to understand because you can't do bad quality images on YouTube and get away with it.
+And what happened was I got this reply straight away from them saying severe repeated violations
+of terms and services, use of automation, scripting, APIs, engaging in reselling services.
+So none of this stuff was going on for me.
+And then we had this one.
+You should have received notifications in Discord informing you of this that they would
+have appeared that you've interacted with a bot and copies should have been sent to you.
+Now I've not received a direct message regarding that so I'm not sure what's going on.
+The other thing that they've stated here is as per the terms and conditions refunds are
+not issued on banned accounts.
+So I thought okay where do I go now?
+So as I reviewed the forums again it got me thinking about this IP address ban and the
+reason it got me thinking about it is that a year and a half ago I came to Chiang Mai for six months
+and while I was here I signed up to an American e-commerce platform.
+About two weeks later they sent me an email saying that I've been banned and that I've
+been banned for life.
+I could not get an account again and I ended up in that particular situation sending details
+of my passport and my bank account details.
+And then funnily enough four months later when I was back in Australia I got a reversal.
+So that was a misdiagnosis going on.
+Now two weeks ago I found myself moving again back to Chiang Mai and I was going via the Philippines.
+So the three places that I find myself in are Australia where I'm either in Sydney or Brisbane.
+I find myself in Philippines and I find myself in Thailand.
+I ended up sending a reply email to mid-journey stating that I hadn't violated any terms or
+conditions that I was aware of and that I travel and that means that I open on different
+computers with different IPs my mid-journey account and all they did was reply stating
+we can't provide you with any additional information about your ban.
+Banned users are not eligible for a refund.
+So to be honest I was a bit gutted by all of that and quite angry that I'd spent money
+only about three weeks earlier and it was all lost and they won't even do the courtesy of
+communicating with me about it.
+Rather than get caught up in the resentment of dealing with mid-journey support what I
+thought is it's time for a new relationship.
+Now here are 16 great alternatives to mid-journey and if you've got any questions about them then
+please drop a comment down below otherwise like and subscribe because the next video
+I'm going to go into detail on these 16 image generators and how they compare
+to the same prompt in mid-journey.

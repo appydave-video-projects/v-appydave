@@ -1,0 +1,279 @@
+1
+00:00:00,240 --> 00:00:04,940
+This video is for anyone that's been banned from mid-journey or doesn't want to get banned
+
+2
+00:00:04,940 --> 00:00:09,980
+from mid-journey and at the end of the video I'll point you to 16 great alternatives.
+
+3
+00:00:10,580 --> 00:00:13,040
+Hi, I'm AppyDave and I'm going to share what happened.
+
+4
+00:00:13,240 --> 00:00:20,500
+The ban that I got, the $300 that I lost, what I believe is a misdiagnosis and the frustration
+
+5
+00:00:20,500 --> 00:00:23,400
+that I had dealing with mid-journey support.
+
+6
+00:00:23,900 --> 00:00:29,100
+And then after that I'm going to show you 16 beautiful alternatives to mid-journey.
+
+7
+00:00:29,100 --> 00:00:34,900
+I've been using mid-journey since March last year and I've created thousands of images
+
+8
+00:00:34,900 --> 00:00:38,140
+that I've used a lot within my YouTube videos.
+
+9
+00:00:38,560 --> 00:00:44,320
+But last year I did end up switching a fair bit over to Dali 3 mainly because I found
+
+10
+00:00:44,320 --> 00:00:51,680
+it easier to work with within ChatGPT and I'd already done a video showcasing 200 image
+
+11
+00:00:51,680 --> 00:00:55,900
+comparisons between the two different products across 50 prompts.
+
+12
+00:00:55,940 --> 00:01:02,420
+And in my opinion, Dali 3, while not as good as mid-journey, was a worthy contender.
+
+13
+00:01:02,760 --> 00:01:07,340
+Last month I was talking at a tech summit and I needed some pretty good images for the
+
+14
+00:01:07,340 --> 00:01:12,060
+presentation I was doing so I ended up reactivating my mid-journey account.
+
+15
+00:01:12,480 --> 00:01:16,960
+Now one week later I found myself having to upgrade because I'd used up all the credits
+
+16
+00:01:16,960 --> 00:01:20,720
+that I had there and I ended up spending $288.
+
+17
+00:01:20,780 --> 00:01:26,320
+But it was great because the images I was able to generate for the tech summit presentation
+
+18
+00:01:26,320 --> 00:01:27,700
+were just wonderful.
+
+19
+00:01:27,880 --> 00:01:33,800
+Now two weeks ago I moved to countries, I came over to Thailand and not long after arriving
+
+20
+00:01:33,800 --> 00:01:39,180
+I started getting this particular error creation failed on my mid-journey account.
+
+21
+00:01:39,300 --> 00:01:45,680
+I headed over to Discord and saw this error that's saying accessing our services via
+
+22
+00:01:45,860 --> 00:01:50,620
+automation, scripting or third party tools created a ban.
+
+23
+00:01:51,020 --> 00:01:55,760
+Now I started doing a bit of research to figure out what was going on because I hadn't done
+
+24
+00:01:55,760 --> 00:02:00,880
+any automation or third party scripting and people had come up with these issues banned
+
+25
+00:02:00,880 --> 00:02:05,280
+due to billing not matching the home address okay, not my situation.
+
+26
+00:02:05,680 --> 00:02:11,120
+Someone has talked about losing a $60 subscription and not being refunded.
+
+27
+00:02:11,120 --> 00:02:17,580
+My situation is $288 because I spent it for a full year and I haven't been refunded either.
+
+28
+00:02:17,980 --> 00:02:24,140
+Then we saw other sorts of issues with banning going on and then this next one gave me a
+
+29
+00:02:24,140 --> 00:02:26,340
+little bit of a clue to what might be the issue.
+
+30
+00:02:26,660 --> 00:02:30,360
+This includes IP and email bans from Discord.
+
+31
+00:02:30,960 --> 00:02:36,220
+I headed over to an email and I wrote I can't sign into mid-journey I've checked the images
+
+32
+00:02:36,220 --> 00:02:40,320
+there's nothing that meets the fraud or the other issues that they listed.
+
+33
+00:02:40,340 --> 00:02:46,580
+I'm an influencer and basically all the images that I do for YouTube and that's important
+
+34
+00:02:46,580 --> 00:02:52,780
+to understand because you can't do bad quality images on YouTube and get away with it.
+
+35
+00:02:52,980 --> 00:02:59,380
+And what happened was I got this reply straight away from them saying severe repeated violations
+
+36
+00:02:59,380 --> 00:03:06,660
+of terms and services, use of automation, scripting, APIs, engaging in reselling services.
+
+37
+00:03:06,660 --> 00:03:08,760
+So none of this stuff was going on for me.
+
+38
+00:03:08,760 --> 00:03:10,040
+And then we had this one.
+
+39
+00:03:10,320 --> 00:03:15,940
+You should have received notifications in Discord informing you of this that they would
+
+40
+00:03:15,940 --> 00:03:20,500
+have appeared that you've interacted with a bot and copies should have been sent to you.
+
+41
+00:03:20,600 --> 00:03:25,080
+Now I've not received a direct message regarding that so I'm not sure what's going on.
+
+42
+00:03:25,380 --> 00:03:30,160
+The other thing that they've stated here is as per the terms and conditions refunds are
+
+43
+00:03:30,160 --> 00:03:31,420
+not issued on banned accounts.
+
+44
+00:03:31,840 --> 00:03:34,160
+So I thought okay where do I go now?
+
+45
+00:03:34,580 --> 00:03:40,700
+So as I reviewed the forums again it got me thinking about this IP address ban and the
+
+46
+00:03:40,700 --> 00:03:46,120
+reason it got me thinking about it is that a year and a half ago I came to Chiang Mai for six months
+
+47
+00:03:46,120 --> 00:03:50,620
+and while I was here I signed up to an American e-commerce platform.
+
+48
+00:03:50,980 --> 00:03:55,520
+About two weeks later they sent me an email saying that I've been banned and that I've
+
+49
+00:03:55,520 --> 00:03:56,340
+been banned for life.
+
+50
+00:03:56,460 --> 00:04:02,260
+I could not get an account again and I ended up in that particular situation sending details
+
+51
+00:04:02,260 --> 00:04:05,120
+of my passport and my bank account details.
+
+52
+00:04:05,620 --> 00:04:10,700
+And then funnily enough four months later when I was back in Australia I got a reversal.
+
+53
+00:04:11,060 --> 00:04:13,740
+So that was a misdiagnosis going on.
+
+54
+00:04:14,260 --> 00:04:21,420
+Now two weeks ago I found myself moving again back to Chiang Mai and I was going via the Philippines.
+
+55
+00:04:21,720 --> 00:04:28,200
+So the three places that I find myself in are Australia where I'm either in Sydney or Brisbane.
+
+56
+00:04:28,200 --> 00:04:32,160
+I find myself in Philippines and I find myself in Thailand.
+
+57
+00:04:32,440 --> 00:04:37,960
+I ended up sending a reply email to mid-journey stating that I hadn't violated any terms or
+
+58
+00:04:37,960 --> 00:04:43,620
+conditions that I was aware of and that I travel and that means that I open on different
+
+59
+00:04:43,620 --> 00:04:49,520
+computers with different IPs my mid-journey account and all they did was reply stating
+
+60
+00:04:49,520 --> 00:04:53,500
+we can't provide you with any additional information about your ban.
+
+61
+00:04:53,640 --> 00:04:56,080
+Banned users are not eligible for a refund.
+
+62
+00:04:56,200 --> 00:05:02,640
+So to be honest I was a bit gutted by all of that and quite angry that I'd spent money
+
+63
+00:05:02,640 --> 00:05:08,340
+only about three weeks earlier and it was all lost and they won't even do the courtesy of
+
+64
+00:05:08,340 --> 00:05:10,040
+communicating with me about it.
+
+65
+00:05:10,320 --> 00:05:14,620
+Rather than get caught up in the resentment of dealing with mid-journey support what I
+
+66
+00:05:14,620 --> 00:05:16,900
+thought is it's time for a new relationship.
+
+67
+00:05:17,700 --> 00:05:23,180
+Now here are 16 great alternatives to mid-journey and if you've got any questions about them then
+
+68
+00:05:23,180 --> 00:05:28,080
+please drop a comment down below otherwise like and subscribe because the next video
+
+69
+00:05:28,080 --> 00:05:33,480
+I'm going to go into detail on these 16 image generators and how they compare
+
+70
+00:05:33,480 --> 00:05:35,540
+to the same prompt in mid-journey.

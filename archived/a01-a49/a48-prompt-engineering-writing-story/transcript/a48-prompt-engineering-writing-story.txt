@@ -1,0 +1,236 @@
+If you asked most people to write a script or a story using ChatGPT, they would write
+a prompt similar to this one.
+In this video, I want to show you some advanced prompt engineering techniques that are both
+simple and easy to implement.
+You'll learn how to do storytelling with ChatGPT, but we'll also look at the multiverse.
+How could this look in the past or the future?
+Prompt engineering is something that I use all the time as a software developer and a
+researcher, but as a YouTuber, I use it for my content creation, script writing, and
+image generation.
+So let's get into it.
+Let's head over to ChatGPT and we'll write a simple prompt.
+Write an illustrated story about a woman with her cat.
+I need to develop characters, beliefs, origin story, and finally write a day in the life
+story.
+So this is what I want to do.
+Now there's a problem.
+If you start writing a prompt like this and press enter, what will happen is ChatGPT will
+go off and write a whole lot of information because you haven't given it enough instructions
+yet.
+So what I like to do when I start a context is I like to say yay.
+And the idea of the say yay instruction is that ChatGPT just responds with yay.
+It doesn't do anything else.
+If you have any problems with this, you can also go into what are called your custom instructions
+and give a little bit of information about the yay statement.
+Here you can see if you see yay or read, just record the information.
+And these are two instructions that I use quite a lot.
+With our yay instruction in place, let's head over and write a prompt.
+We've got this prompt and one of the things to notice is that there is a structure to
+it.
+So it starts off with a task.
+Give me a physical description for.
+So this is the task that we're looking to do.
+From there, we've got a context, a blonde brunette and a Ravenhead woman in her 30s.
+After that, we just limit it in this case to 20 words per person.
+We paste it into ChatGPT.
+We get the information we want and we can see here that we've got the blonde, the brunette
+and the Ravenhead woman in their 30s, which is a good starting point.
+With three physical descriptions about women, let's now come up with three types of women
+and we'll do three types of women in their 30s, include a job, a hobby and a personality.
+And we'll just keep it to 20 words.
+And what ChatGPT will do is come up with these simple little descriptions.
+We've got a pediatrician, software developer and a marketing executive.
+And the pediatrician knits in free time, is compassionate, patient and always smiling,
+loves interacting with children and parents.
+Now later on, we'll randomly mix physical descriptions with types of women.
+But for now, let's go and look at another character.
+Now, the story that I want to build is around a woman and her cats.
+So the next prompt will be, give me three types of cats.
+And what ChatGPT came up with was a Siamese, a Maine Coon and a Bengal.
+And if we look at the Maine Coon, we've got one of the largest domesticated cat breeds
+known for their bushy tails, tough to ears and friendly dog-like personalities.
+Now that we have some basic description and type information about the cats and the women,
+let's go into how they might be thinking.
+Basically, we're looking at their belief systems.
+Now, whether you're a human or an animal, you do have some sort of a belief system.
+We can get ChatGPT to build this for us so that the story is in alignment with the motivations.
+We'll do a little bit of research around belief systems found in women.
+Give me six.
+So that's the number of philosophical views that we're going to get from American women.
+But what I also want to do is break it up into two distinct groups.
+So we've got the traditional perspectives and we've got the polarizing points of view.
+And from that, we get these six different philosophical belief systems.
+We've got pragmatism, existentialism and humanism as traditionals.
+And in the radical, we've got post-modern feminism, eco-feminism and transhumanism.
+Next, we'll develop a belief system for cats.
+And you might be wondering, how can you do that?
+The way I look at it is we can have a life experience that the cat experiences.
+So give me three more traumas affecting cats.
+But we can also have a positive or a negative experience based on different scenarios.
+So here I've said list the positive reaction that they might have if the owner was around.
+And the negative reaction that they might have with another human being or a particular scenario.
+So we end up getting these three different traumas plus two different reactions based on
+whether they're around the owner or around the thing that causes the trauma.
+Now that we have descriptions, types and belief systems for our characters,
+let's develop a personal identity for each of the characters.
+So what we can do is just ask questions of chat GPT.
+Now it already has a lot of context in the background.
+So we'll just say, give me three female names, ages and something they might be passionate about.
+Now keep in mind, we've already developed the concept that these are women in their 30s.
+So the age should be around that area.
+We know they're American women.
+So the names probably will be American in nature.
+When we go for the cats and we ask for the name and the age,
+we don't expect an age to be 50 years of age for a cat because they don't live that long.
+So let's see what happens with this basic prompt.
+We end up with three female characters and three feline characters.
+So we've got Emily, Claire and Nora.
+They're all in their 30s except for Emily, who's 29.
+And we've got three different felines, Whiskers, Luna and Oliver, three, five and two years.
+And with the sort of names that might actually apply to a cat,
+because no human would generally be called Whiskers.
+Now let's develop our backstory or the origin story for our characters.
+Now up until now, everything has been done with pretty simple prompts.
+We've got a lot of information that's being created.
+We don't know what information we want to select yet.
+So to build up the origin story is about drawing all that information together.
+So let's get started with the prompt.
+And the first thing we're going to do is write context.
+I already selected Emily and Whiskers and all we have about them is their name and their age.
+And we're saying create a character backstory about these two.
+It's going to be 500 words.
+Now from that, I've said specifically that I want a brunette.
+Now we did have a blonde and a raven head lady as well.
+And I've said I want the main coon out of the three different types of cats that we had.
+But from ChatGPT, I'm going to let it select the type of woman there were three to choose from.
+And the philosophical perspective there were six to choose from.
+And from the traumas we'll just randomly select one of them.
+Now the next thing you want to do is develop a guideline for the instructions.
+So ensure all the categories are covered and expanded.
+Most of the categories were only about 20 words long.
+So this expanded capability says, well, take it a little bit further, make it bigger,
+but use that as the starting point.
+The other thing is don't hallucinate.
+What we want to do is make sure it doesn't say anything that wasn't in the original information.
+So I said, when building the backstory, include details about their relationship
+and keep consistent to the selected characteristics of Emily and Whiskers.
+The last bit in this is template expansion.
+So we said three to choose from, six to choose from.
+And I've just given it a briefing instruction that says, when you see choose from,
+look up the details from earlier in the conversation and expand on it.
+So let's see what ChatGPT comes up with.
+And firstly, we've got Emily who we did select and we know that Emily was a 29 year old.
+Now the career marketing and the philosophy humanist was selected randomly by ChatGPT,
+but the hair color was selected by me.
+For the cat, we've got Whiskers, a three year old main coon.
+And what we can see is that we've got this 500 word backstory
+about these two different characters.
+And hopefully it includes all the traumas, the interactions,
+and just their philosophical points of view.
+What's really interesting about developing a backstory this way
+is that you have all this information about their philosophical point of view,
+maybe how they come together, different background stories,
+which makes it really easy to develop day in the life sort of stories or other forms of stories.
+Now, before I go into the actual prompts talking about day in the life,
+let's look at how this could be automated.
+So one of the things that you can do with ChatGPT is you can create GPTs,
+or you can use the APIs.
+What I'm about to show you as prompts could be automated
+so that every day for the next 365 days,
+you could create a Daily Chronicle about Emily and Whiskers
+and have a different story each day.
+So let's create the first day in our Daily Chronicles.
+And here I've said, create a day in the life of Emily and Whiskers in six scenes.
+I've given it a guideline.
+I've said, ensure that Emily and Whiskers are in each scene.
+Ensure consistency with the backstory and the Daily Chronicle.
+Now, if you had more than one Daily Chronicle,
+day one, day two, day three,
+then you want to put in a little bit of information
+to make sure it checks the previous days
+so that you have continuity of story.
+But for this one, what we're going to do
+is make sure that there are four scenes that are based on our backstory.
+So we've got a scene where we see the type of woman that she is,
+a challenge based on Emily's philosophical perspective,
+one that shows the effect of Whiskers under trauma.
+The last one is the positive reaction that Whiskers has with Emily.
+Now, when we run the prompt,
+we end up getting six scenes created for our day in the life.
+And the first scene is with Emily and Whiskers doing their morning routine.
+We move on to a walk in the park.
+And based on the guidelines we put into the prompt,
+we can see that the scene illustrates Emily's advocacy
+for sustainability and her natural charisma, engaging the public.
+So as I was going through this,
+I'm also trying to make images along the way that tend to fit the style.
+So most of the images will have Emily with a blue shirt,
+brown hair, we've got a main coon in each one.
+Scene number three is just trying to demonstrate the fear or the anxiety
+that Whiskers is going on because of mild rain.
+We take that a step further in scene number four,
+where Whiskers is really affected by a trauma of a kid
+running around the cafe that they're in.
+But at the end of the day, they're now together.
+They're calm.
+We've got settled in a quiet corner of the coffee shop.
+Emily works on her laptop.
+And to finish off the day,
+we've got the evening relaxation going on.
+Now, as I said before,
+we can automate that and have every day created automatically.
+But another thing that you can do,
+and we see this in Marvel movies, is the concept of a multiverse.
+So how can we totally change the style and structure of the story
+without changing the bat stories?
+I want to base the story off the one we just created in America 2024.
+So we have a prompt that says,
+Using Emily and Whiskers Daily Chronicle America 2024,
+adapt it so that Emily and Whiskers are real life characters from Hemlet.
+It can take the story that we just had,
+rewrite it in a totally different style.
+And from here, we can see that we've got morning revelations.
+We've got the courtyard musings, a play within a play.
+We've got terminology.
+We've got graphics that are very Shakespearean style.
+Then we get into the ghostly encounter and the confrontation.
+That would map to the child running around in the cafe.
+We've got the confrontation going on.
+And then the end of the day, Dark Solace.
+Taking this a step further,
+we can let ChatGPT come up with our multiverse.
+So we'll do a new prompt.
+Give me useful ideas for scenarios.
+Keep it to 20 words per item.
+Emily and Whiskers in some sort of dystopian future
+and a random theme.
+For example, steampunk.
+What ChatGPT has come up with us is cyberpunk cityscape.
+We've got steampunk metropolis.
+We've got a climate dystopia.
+Let's do a daily chronicle with six scenes
+based on steampunk metropolis.
+And ChatGPT just responds with a similar structure
+in this dystopian future.
+So from here, we've got our morning ingenuity
+and twilight triumph.
+They're top and tailing the story.
+And then in the middle, we've got the market maneuvers,
+airship encounters, chased by the cog guard,
+which would be similar to the boy in the cafe
+and the underground revelations.
+Now that was prompt engineering techniques
+that you can use for storytelling.
+You can use it to write your scripts,
+your marketing material.
+You saw that I did a day in the life sort of story
+and I could also do dystopian futures
+or past multiverse sort of concepts.
+If you like this sort of content,
+please like and subscribe or drop a comment down below
+about prompt engineering,
+any questions that you might have.
+I'm Appy Dave.
+I tend to do videos on ChatGPT,
+YouTube automation or prompt engineering.
+So I'll see you in the next video.

@@ -1,0 +1,284 @@
+G'day, it's David and in this happy cast, I'm going to go through the planning stages
+of creating two faceless YouTube channels.
+This is part of a YouTube automation channel that I want to do over 90 days.
+In the previous video, I did some research onto the channel names for two particular
+channels, and I also just created the channels, but here we'll just do the rest of the
+planning around the whole project.
+Okay, let's have a look at the structural requirements of a YouTube channel.
+So there's going to be two channels, and we'll need a, I guess we'll need a description.
+Probably need to know what it is about.
+Now a banner would be a requirement.
+So what it's called a channel banner, I believe.
+Put that in there.
+I'll need a logo.
+I'll need some tags.
+Does that mean keywords?
+We'll say keywords as well.
+There's generally a settings area.
+I'm not sure what goes into the settings, but I know it'll need to be configured.
+And what I might do is take us over to ChatGPT and ask YouTube what it thinks.
+What I might do is take us over to ChatGPT and ask it what it thinks we need for a YouTube channel.
+Now I've just come over to ChatGPT, and I've asked the question,
+when creating a YouTube channel, what would be five or six things that we would need to set up the actual channel?
+It's gone Google account, name and identity.
+We've worked that out.
+Description and about section.
+I have the about section.
+I have the about section.
+We'll just change that to say section.
+Channel trailer.
+I haven't thought about that.
+This is another way of describing what the video, what the channel is about.
+Layout.
+We will definitely need a channel layout.
+This is where things like the shorts, the long form, the podcast where they show up on the front page.
+We got video upload defaults.
+We'll call that settings.
+Keywords and tags.
+They're the things that we've got to think about when we do the structural requirements for both of these channels.
+Trend 10 and Magic of 10.
+What we'll do now is we'll look at the team.
+I'm going to need a team to build out the videos for this particular channel.
+What am I going to need?
+I'm going to need a script writer.
+We'll work out how to hire these people as we go.
+I'm going to need a video editor for sure.
+I'm going to need someone to do thumbnails.
+I think I'm going to need someone to do voiceover.
+The videos will probably be aimed at the American market.
+I wouldn't use my own voice for this sort of stuff.
+I think from there we could go into the mechanics or the process for creating each video as well.
+We'll call it process.
+Drag that over there.
+What would be the first thing?
+We need to do some sort of niche research.
+Process is both at a video level and a channel level.
+We'll do a channel level process.
+We'll do a video level process.
+At the channel we need to do niche research.
+Before we start that means we need to look at other channels.
+Identify if there are any channels that are relatively new but growing, like viral, stuff like that.
+I'm probably going to need a list of categories, like topics.
+We'll say categories, maybe topics.
+I don't think they're different.
+Probably need a list of videos that could create video titles.
+I will say video titles list.
+There's not so much titles because that comes later.
+Video list.
+Then after that, let's look at the research for a video.
+A video would be about a keyword most likely from there.
+We probably need a title from the keyword.
+We should develop the title.
+The title should be something that will convert maybe a little bit click baity.
+But so long as it actually delivers on a promise.
+The title probably should be made up of the keyword.
+We would do keyword research but I'll write that down.
+We'll have a look at some tools that we can use for keyword research.
+That would derive a keyword.
+The keyword would then help to derive the title because part of the keyword would be in the title.
+As I said a moment ago, it would be a keyword plus click bait, something like that.
+The click baity aspect of it could be a double banger title.
+Something like an awesome AI tools would be the keyword.
+Then the click bait bit might be comma or yeah comma that you didn't think you needed.
+I know that's a little weak but the idea of a double banger title is that you got the keyword
+and then some sort of a motive statement or something to make you think.
+Now the next thing is we would need a thumbnail and I'm thinking that thumbnails need to be done
+even before the content and that because it helps to derive emotive information that you need
+for the rest of the video from the thumbnail.
+We could write an intro and a call to action.
+We'll just type intro CTA.
+I'm not sure how long this is going to be.
+Five seconds would be ideal but it kind of depends on the videos I believe.
+And then from there we would write I guess the content or maybe it's called the script.
+There'd probably be an outro which might also include a call to action.
+Now if I break down what's going on there and we say we've got keyword and title and we've got a team
+and I think part of the team is me so I run the channel.
+And stuff like keywords and titles might come from myself and that would help me to create a brief
+because from that brief I could give it to a channel manager or I could give it to a script writer.
+I don't have a channel manager, I'm the channel manager so I think it would go to the script writer.
+I might just change that so it says channel manager.
+This is probably a role I would like to have someone take over from me at some stage
+so as long as I'm thinking about that.
+Now I picture that after the keyword and the title are done that the thumbnail happens
+so I'm also going to change the order of the team.
+We put in the thumbnail.
+I think it would be, there's kind of a catch 22.
+Do you want the script first or the thumbnail first?
+The thumbnail is the most important thing from a click through rate
+so getting it well thought out ahead of time is important.
+And the video, the script, the content can be driven directly off the thumbnail that way.
+And from there it would pass over to a script writer that would use the brief
+and we used the term brief here, we didn't but it would be in there.
+Once the script is written give it to a voiceover person to create it.
+Maybe I'll use artificial intelligence for voices, I'm not sure yet.
+And from that it would be all given to the video editor to create.
+We might, this is not part of team but we'll just create a section called video production.
+In fact what we'll do is we'll create a section called production
+and we can break off concepts like videos and we'll say script, we'll say voiceover
+because we need to expand on each of these and we'll also say research.
+So the script, read, video, voiceover.
+So let's look at the video.
+The video requires a voiceover of course and it will require a script
+and then the video editor will put in a lot of b-roll really.
+Stop photography sort of stuff because I don't think there's not going to be
+a custom content created from cameras.
+So it's either going to be video footage or it's going to be images
+and maybe it's going to be slideshows and titles, something like that, slideshow title.
+Now is this b-roll or is it a-roll?
+It's kind of a bit of both.
+Call it a b-roll.
+And the script itself will also drive the lower thirds.
+So whenever you're doing, especially YouTube shorts,
+lower thirds are incredibly important.
+I'm not sure how important they're going to be on a long form video.
+They can also appear as two different ways.
+It's like, do we want to show all words or do we want to just highlight key main words?
+Like power words would be a good term for it I think.
+So power words and lastly there would be an export.
+So now the export is also interesting because the main video that would be created by the video editor,
+I don't know how long it'll be, but let's say it's 10 fastest cars in the world.
+Maybe each part of the video is 30 seconds long.
+So you end up creating a video somewhere between 5 and 15 minutes.
+And from there, if you've got 10 things, you might as well create 10 shorts.
+So we'll say shorts and we'll call this long form.
+And so the person that creates the long form will also create the shorts.
+And when the shorts are posted, they would need to link back somehow, create a back link back to the main video.
+Now, just the fact that I've said upload and linking back means that there's probably another team member needed.
+Now that team member is probably going to be me, the channel manager.
+But it's managing the actual uploads and the descriptions and stuff like that.
+So that is actually another part of the production we need to add in.
+And what we'll do is we'll call that video SEO for one of a better word.
+Search engine optimization around the video would include the description.
+It would include keywords.
+Funnily enough, those keywords probably should have been dealt with over in the research.
+So we'll just put that in there for a second and probably a link strategy.
+So as I just said above, the 10 YouTube shorts all linking back to the primary video to drive traffic.
+So that's pretty good breakdown of the flow.
+I think for the video production, video SEO, we can expand on this later.
+The voiceover, I think this person just needs to read a script and deliver the file.
+Give me the file, something like that.
+Script writer, this is a bigger process.
+Let's think about that.
+Let's have a look at what would be needed with the script production.
+Now, obviously I need a writer, so there will be a writer.
+But the main tool that both myself and the writer should probably be working with is GPT.
+It's a great research tool at the very least.
+Is it a great writing tool?
+It's a good writing tool.
+It's a better writing tool than me.
+Is it a better writing tool than my writers?
+Don't know.
+Another part of this production process are using tools like Grammarly.
+This is something I rely on to get my grammar correct.
+We'll just move that down there.
+And let's also look at the research area.
+Now, I might bring this back up to the production and say we've got keyword research and we better list the sorts of tools that we would use there.
+Actually, that just got me thinking with script.
+This is where another key metric in any video would be important.
+It's called the retention rate.
+So if you look at the intro CTA, that's really good at getting people to start watching your video.
+But you want people to watch the video through to the end.
+So retention rate is both a key metric and something that can only come through good quality.
+Good quality writing and writing that matches the intro, writing that matches the title.
+Do you deliver?
+We go up to keyword research.
+Now, a basic technique is the ABC technique.
+That's where you just go into YouTube or Google and you type keyword A and whatever gets filled in should be a good keyword.
+Keyword B, keyword C.
+So there's that technique.
+It's free.
+It's pretty good because those tools are returning what they believe are the most popular things.
+And since it's Google, it's a good technique, but it doesn't give us numbers and it doesn't go and find things on bulk.
+So other techniques for keyword research would be answer the public.
+I like it from a visual point of view.
+I think it's a bit expensive for what it does.
+So I don't know that I'll end up using it.
+I've been hearing a lot from a YouTube point of view about having vidIQ.
+So I may end up paying for a subscription of vidIQ because it's not just about keyword research.
+With that tool, you can create titles, create descriptions, do other sorts of metrics and analytics for me.
+Now, I'd also just say research, which is a little different to keyword research.
+This is just general research.
+So for the trending video channel, things like Google Trends and maybe Exploding Topics.
+And there might be other sorts of tools like Exploding Topics.
+It's really a curation tool for Trends.
+It also gives a synopsis and a graph.
+So it can be pretty good.
+It's a bit expensive, but for this sort of channel, it might be a worthy investment.
+And another one that would work for either channel is just YouTube Competitors.
+And a lot of that you can just do through YouTube, I believe we'll have to look into that.
+So that, by the way, can also be part of the niche research is using YouTube to find other channels and see what they're doing.
+Now, let's just look through.
+We've got two channels, Trend 10, Magic of 10.
+They're similar, but different.
+And we got niche research.
+We'll have to look into the competitors, a list of videos, a list of categories.
+And that's going to have to be done for both.
+Then let look at other channels.
+Well, that's YouTube Competitors.
+We can remove that now.
+So we have the channel information.
+Then the individual videos or video categories, you would do keyword research.
+You would do researching on the topic.
+This could be done by myself as the channel manager, but it probably is done by the script writer as well.
+Then from there, we should be able to come up with titles.
+The title should create a thumbnail.
+We'd better just go down here and look at our thumbnail person, because this is the production.
+So how are they going to do it?
+So I probably want someone who specializes in thumbnails.
+And generally, I probably want two or three thumbnails for each video.
+Kind of A, B test them.
+So A, B test the thumbnails.
+And how are they going to create it?
+Well, the obvious tools are things like Canva, but then there's a more professional person would use Photoshop.
+I would use Canva, but they kind of always look the same.
+So I don't know that that's the best way to go.
+I've got a tool that I bought a couple of years ago that might be used for.
+It's called, I think it's called Thumbnail Blaster.
+I might try that out, Thumbnail Blaster.
+And that looks good.
+So we've got our titles, our thumbnail, intro call to action.
+Another thing that's probably going to be needed in the process is GPT scripts or robots.
+And basically this is training bots to do individual tasks.
+So title generation.
+Now, if I get vidIQ, maybe I don't need title generation.
+Maybe I can let vidIQ do it.
+But for now it can be there.
+Probably create bots for descriptions.
+Again, it's something that you could do with vidIQ.
+Definitely structure of the article or well script is something that we could train.
+But then this leads into, well, should we do it in chat GPT?
+Or should we use a tool specializing in YouTube scripts?
+Now, I don't know what's available.
+That's a little bit of research I'm probably going to have to do.
+So we'll close that out.
+Intro call to action.
+So back to the bots.
+So intro and CTA is something that you can train a bot on.
+So that's that's good.
+And obviously that that makes sense for the outro CTA as well.
+Quicker to type that.
+Now retention rate key metric and click through rate.
+Another key metric.
+So.
+And, you know, one thing that with forgotten in the process.
+And is it part of the process?
+It's separate.
+I'm just going to put it in and I'm going to call it monetization.
+And I'm going to close out this section.
+This is enough for this video.
+As we move forward, we'll look into things like monetization.
+And in fact, let's add in a couple of other things to explore in the next video.
+So building a team.
+So where to find them.
+Where to find them.
+How much.
+And, you know, you get you can use different online platforms, up work, online jobs, PH, fiber,
+but certain platforms are probably geared towards certain types of staff members.
+So we'll have to do a bit of research for now.
+I'm going to need a project management tool of some sort, project management.
+And probably a Trello board, I think.
+Sorry.
+And probably something like a Kanban board, I believe.
+So Kanban board tools like Trello or ClickUp might be the go.
+I'll probably look into both of them and try and create a Kanban board.
+That can work through the workflow of producing one video at a time and see which tool I want to use.

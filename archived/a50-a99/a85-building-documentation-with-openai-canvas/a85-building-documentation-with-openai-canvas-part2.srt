@@ -1,0 +1,179 @@
+1
+00:00:00,00 --> 00:00:04,690
+Now I've just had a little bit of a look through the documentation. Everything looks 
+
+2
+00:00:04,690 --> 00:00:08,770
+good. So what we should do now is publish it and make it available for a project. 
+
+3
+00:00:08,770 --> 00:00:12,790
+So what I'm going to do is just click on the copy button, and where I want it to 
+
+4
+00:00:12,790 --> 00:00:18,800
+go is into the handlebars project. Now this project is two years old and it hasn't 
+
+5
+00:00:18,800 --> 00:00:22,910
+had a change since about a year ago. It had a minor change. And if we look at the 
+
+6
+00:00:22,910 --> 00:00:27,140
+current usage documentation, it's not available. So this is what we're going to change. 
+
+7
+00:00:26,990 --> 00:00:32,340
+So let's head over to Cursor. And what I've done is I've just changed the path of 
+
+8
+00:00:32,340 --> 00:00:37,320
+the documentation and created a new empty file. And we should be able to paste all 
+
+9
+00:00:37,320 --> 00:00:42,990
+of that in. Let's just do one little check to see that visually it looks okay. Things 
+
+10
+00:00:42,990 --> 00:00:44,880
+seem to be coming through okay.
+
+11
+00:00:44,890 --> 00:00:49,870
+I'd like to just publish this up to a Ruby gem repository. So what we're doing at 
+
+12
+00:00:49,870 --> 00:00:55,720
+the moment is just merging the changes into the repo. It's going to update the semantic 
+
+13
+00:00:55,720 --> 00:01:00,760
+version number. Hopefully we're going to go from 13.1. I believe it currently is 
+
+14
+00:01:00,760 --> 00:01:05,840
+to version 14. That's also going to bring it into alignment with the other project 
+
+15
+00:01:05,840 --> 00:01:11,750
+that we just did, the cmdlets, which are currently on 14 as well. So once this in 
+
+16
+00:01:11,750 --> 00:01:16,900
+place, we should then be able to use the documentation in the next project that we're 
+
+17
+00:01:16,900 --> 00:01:17,900
+going to be working on.
+
+18
+00:01:17,900 --> 00:01:23,230
+Now the CI pipeline just finished. Let's check out what it's done. So currently we're 
+
+19
+00:01:23,260 --> 00:01:32,560
+on version 0.13.1. If we refresh this we move up to 0.14.0. For the documentation. 
+
+20
+00:01:32,560 --> 00:01:38,200
+There's the old documentation. Let's update it. And I did get a misspell here. But 
+
+21
+00:01:38,200 --> 00:01:43,960
+essentially all of the documentation has now come into place. Let's have a look at 
+
+22
+00:01:43,960 --> 00:01:49,960
+the Ruby gems. So currently the Ruby gems should show Commandlet on 14 and handlebars 
+
+23
+00:01:49,960 --> 00:01:55,750
+on 13.1. But if we refresh that, that has now moved to 14 zero. So both of these 
+
+24
+00:01:55,780 --> 00:01:57,400
+are in alignment as well.
+
+25
+00:01:57,430 --> 00:02:02,210
+Now, with our documentation created, let's check out how we could use it in an AI 
+
+26
+00:02:02,240 --> 00:02:03,380
+pair programmer. 
+
+27
+00:02:03,400 --> 00:02:09,580
+I've come over to the Cursor AI IDE, and there's a brand new project that I've started 
+
+28
+00:02:09,580 --> 00:02:15,250
+called k_template. It's an embedded web server that uses handlebars templates to 
+
+29
+00:02:15,280 --> 00:02:16,810
+render information. 
+
+30
+00:02:16,830 --> 00:02:21,590
+what I've just quickly done is come through. We've got some dependencies here. We 
+
+31
+00:02:21,590 --> 00:02:26,720
+should change them to 14 because this is what the gems are going to be. And lastly 
+
+32
+00:02:26,720 --> 00:02:31,640
+we need to go and check the settings within Cursor. So at the moment we're on general, 
+
+33
+00:02:31,640 --> 00:02:37,670
+if you head over to a concept called features, you can scroll down and add documentation 
+
+34
+00:02:37,670 --> 00:02:44,480
+into the system. So we'll click on Add Docs and I'm just going to paste in the information. 
+
+35
+00:02:44,480 --> 00:02:49,460
+I've changed the letters usage. So that should be okay. Now we'll press enter on 
+
+36
+00:02:49,490 --> 00:02:56,750
+that. And it's now starting to add handlebars JS. We'll press confirm on that. And 
+
+37
+00:02:56,750 --> 00:03:03,980
+currently it's indexing. So what I'll do is I'll take us over to cmdlet as well. 
+
+38
+00:03:03,980 --> 00:03:09,830
+And we'll come back to Cursor. We'll add docs. The last one has finished. So we can 
+
+39
+00:03:09,830 --> 00:03:14,450
+now add in cmdlet. It's probably going to ask the same question. We'll press confirm 
+
+40
+00:03:14,460 --> 00:03:18,370
+and now it's starting to index that documentation as well.
+
+41
+00:03:18,400 --> 00:03:23,710
+Let's just do a quick progress report. In this video, we've rapidly created documentation 
+
+42
+00:03:23,710 --> 00:03:29,470
+using GPT canvas. In the last video, we did the same thing, but we used Cursor AI 
+
+43
+00:03:29,500 --> 00:03:34,600
+to create the documentation. In the next video, we're going to bring together both 
+
+44
+00:03:34,600 --> 00:03:39,820
+pieces of documentation to rapidly create a web application that uses handlebars. 
+
+45
+00:03:39,730 --> 00:03:43,870
+I'm AppyDave. Please like and subscribe and I'll see you in the next video.

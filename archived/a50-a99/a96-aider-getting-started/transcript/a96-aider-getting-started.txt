@@ -1,0 +1,85 @@
+Would you like to automate or script your AI pair programming?
+In this video we're going to look at ADA, we're going to install it and test out a couple of use cases.
+I'm Appy Dave, let's get into it.
+Now you can access ADA through GitHub on ADA-AI slash ADA.
+And if we scroll down we'll find the Getting Started where we'll work through this to install the software.
+A little bit further down you've got the documentation which will take you over to a page like this
+where we can look through some additional examples.
+Now I've just opened up a terminal, I'm running Python 3.12.5.
+We're just going to click on the install for ADA chat and let's paste it in and see what happens.
+From here we'll do a new terminal and we'll just type in ADA help
+and you'll be able to find all the command line arguments that you can use here.
+I like to just copy these straight into ChatGPT and ask it questions but it's all available here.
+Now the next step in the ReadMe is change to a directory.
+So what we'll do is we'll make a directory and go there.
+It's also talking about using the Anthropic Key or the OpenAI API key.
+Now I have both of those exported so I'm not sure which one it's going to run and then we've got ADA.
+So what we'll do is we'll go down to a terminal, we'll make a test directory and we'll cd into test
+and then we'll just type in ADA and see what happens.
+So it's firstly asking us to create a repo.
+We'll say yes and from there it's telling us which model it's going to use.
+So it's got Claude 3.5 Sonnet, 2024, 1022.
+Now when ADA starts you're straight into a terminal with chat capability already enabled
+so you can just start writing a prompt.
+So we'll start off with a simple prompt, make a HTML page in Tailwind CSS.
+We'll add three fields, we'll go with name, description and URL.
+We'll add a little bit more called plus two text areas and I'm just going to press yes
+and see what happens.
+It'll start writing some code for us and we've got Tailwind CSS.
+What I'm hoping to do is have three fields on the left and two text areas on the right
+and I'd like to create a template engine where the fields on the left are merged with the template to create an output.
+So here we've got some information come up.
+It would like to create a page.
+Let's do that.
+We'll say yes and it's also got open index HTML.
+Let's see what happens if we try to open it.
+So it's generated a new page.
+We've got it looks like Tailwind to me.
+We've got name, description and URL and we've got this template and where the output would be right here.
+So let's say we wanted hello name.
+This is how I would think it should work.
+And then we can say the description is and we could put something like description.
+And lastly, we need the URL.
+So I'll say URL and we'll put in the URL.
+And what I'm hoping will happen is that this information will get copied down here, but these values will be altered with whatever's going on here.
+So if you look at the terminal, you can see a couple of extras.
+So we've got a commit message and it looks like it's using semantic labeling.
+So it's got a feat for feature and it said create a HTML page with HTML CSS.
+What I think we should do is just go down to this terminal and we'll do a git status and there's nothing going on in there.
+We'll do a git log and there it is.
+We've got this feature create HTML page with tailwind CSS.
+So if we go back, we could undo it, but what I'd like to do now is extend it with JavaScript capability.
+Now what I think we should do now is go over to VS code and let's have a look at the code in the terminal.
+And so we've got all this HTML.
+There's the tailwind CSS.
+Looks all pretty simple.
+So let's add a new prompt.
+So I've pre written a prompt and it says, can you enhance the page with JavaScript?
+We're basically going to watch the field names on the left and the template and we're going to use interpolation.
+And I've said, can you use square brackets?
+We'll spell that correctly and we'll take a copy of that.
+And if we head over to the terminal, we should be able to just paste it in and see what happens.
+Now, hopefully as it goes through, we're also going to see some JavaScript changes either in the HTML file or as a new page.
+So it's finished with instructions.
+If we come back over and we look at the HTML page, we now have a whole lot of JavaScript down the bottom.
+Let's also read this a little bit further.
+If you type in template area, that's the sort of information you can then fill in the fields.
+And this is how it should interpolate.
+And lastly, it should be able to open it.
+And we also have the commit message going on here as well.
+I'm just going to press yes and we'll let that run.
+And while that's happening, we'll bring up a web page.
+So we've got the little HTML page up.
+Let's put in Dave and let's just see what happens if we start typing name and this last one should change.
+It does.
+It changes to this.
+We'll say we'll put in a description and we'll say URL URL like that.
+And for the description, we'll paste this in for the URL.
+We'll paste this in.
+And we've basically built a prompt templating engine in about two prompts.
+Well, to recap, we've installed Ada.
+We've got it working and we've created a little HTML page and added some JavaScript.
+And it's taken only a few minutes to finish this off.
+I'm happy Dave.
+In the next video, I'm going to take this process a little bit further.
+I'll see you soon.

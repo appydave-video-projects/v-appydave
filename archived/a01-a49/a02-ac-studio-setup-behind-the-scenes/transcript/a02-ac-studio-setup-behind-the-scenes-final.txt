@@ -1,0 +1,97 @@
+G'day, I'm Dave, and in this ApiCast, I want to go behind the scenes and have a look at
+the studio setup that I've got in my living room, how I'm using it to run five face channels.
+I have ApiCast, which is long form content, a lot of behind the scenes sort of work, Api
+Dave, where I build software using ChatGPT, Winning Prompts, where I do prompt engineering
+and look for better ways of writing ChatGPT prompts, Fly Video, where I do YouTube automation,
+that's the glue that's making me, allowing me to have multiple channels run at once,
+and a personal project called the Carnivore 90 Challenge, which is myself just getting
+healthy through a diet that I'm testing out. On top of that, I have two faceless channels
+in development at the moment, using pure YouTube automation sort of technologies. Anyway,
+to make this all happen, I needed to put together a studio. This is what it looks like.
+I walk through my studio setup really needs to start off with this gimbal. It's an Osmo
+4, it's one of those older models. I have a video channel called Carnivore 90, where
+on 90 Day Challenge, and having used of this gimbal has been awesome. Sitting on top is
+a Boya wireless microphone, so I got a little lapel mic going on here. I bought the system
+that has two, two of the microphones, one receiver, though I've never used the second
+one. In the background, we've got a light going on up here, which would normally be
+off, but I've just turned it on to highlight the room a little bit more. And we can move
+through to where I've got a few smart lights. There's four of them. What I find useful about
+having the four, two on the left, two on the right, is that I can change the whole effect
+of an area by changing the colors of just one of them. So I might make the two blue lights
+red, and the red and the green mix together give us an effect. Now behind, I've got an old laptop
+that I used to use all the time. I've put a little backdrop on there. I'm not finding it
+that effective at the moment, it's okay. I took a picture down off the wall, there's a little
+hook there. I may end up putting some sort of print up here, or I may also put a projector
+just painting a picture onto the wall could be useful. Now over here, we've got sound baffles
+on the wall. I currently now use AI software to get rid of all the noise from outside. I happen
+to be on a major road and it's very noisy, police go by all sorts of stuff. But what these sound
+baffles more do for me is just stop the light going in because that curtain doesn't go far enough
+across, not a practical use of sound baffles, but it works. You can see these are the smart lights
+that I'm using, I think they're called a TAPO. We pop out to look at the screen, maybe we'll look
+at the screen decks. So the first one was stream decks. I'm using a stream deck XL, it's El Gato.
+I'm using foot pedals, which are incredible. I find this to be an amazing tool to start
+recording, stop recording, pause recording and resume recording. Currently, I've got the main
+webcam is a Logitech. It works really well for me. The autofocus is sometimes an issue in my videos.
+I have this other one, which I have not started using yet. I'm working on the idea of having
+multiple angles. And behind me, I got different speaker arrangements, whether it be my headphones,
+which I sometimes use or my JBL. Sitting down here, we've got a little bit of cabling coming down.
+I love having these red cables. I just got them on Amazon. By being red, I can see them really
+easily. They all hang down to this little three point stand. That's where I might put stuff like
+the gimbal that I'm holding right now might just sit here and charge overnight. My phone might go
+here. For my microphone, I'm keeping it fairly simple. It's just another Boyer M1 in this case.
+I do have one of these, I don't know what you call them, but you can put various microphones into it
+if we pop in down here. I do have an arm for a microphone and microphones around somewhere.
+I've also got, but not using this streamer pack. It has a lot of the stuff we just talked about.
+Then there's a key light. The key light I'm using, I think it was just a cheap knockoff that I got
+somewhere. It had a really bright light. One of the challenges is that I personally have red skin
+and the bright light was just too harsh. So I've gone for a darker light. Nothing really
+professional about this, but it does work. I do get my lighting pretty good at the moment,
+especially by stopping the light from coming in from outside because of those baffles.
+I would turn this off normally as well. To get the back lighting glow effect,
+I'm finding these colored lights to be pretty awesome. I think that's everything. I've made
+sure I've had good power supply cable management going on here. I made this little box. I didn't
+made the box. I bought the box for $10. Then I did things like cutouts so that it could go over
+the legs of the table. I've also shaved the insides of this so that the stream deck fits.
+It's stuck down. It's quite solid in there. So that's the full extent of my studio setup.
+Other than the monitor, which I will talk briefly about it. It's about two years old now. It's a
+Samsung 5K curved monitor. So it's the size of two 27-inch monitors. I find it to be a bit of a
+pain in the ass as a YouTube content creator. As a software developer, it's pretty good. But
+I was living overseas recently where I had a 32-inch 4K monitor. It was just a lot more
+practical for recording content on that video, on that monitor than it was on this monitor.
+That said, it's still nice to have a big monitor. I guess lastly, what sort of computer am I using?
+It's just a Mac mini. Works pretty well. I've been running out of memory a little bit recently. I've
+live and then other stuff as well, all running at the same time. So that's a little bit of a challenge.
+That's pretty much my setup. Some of the capabilities that I now have with this setup is that I can
+change scenes without my hands. I'm just using foot pedals to control what scene I'm on. Or I can go
+to specific ones using my other stream deck. So a web view or a web view with ChatGPT. We can
+drill in directly on mid-journey. Look at some graphics that I've been playing around with.
+We've got stuff like mixing up mid-journey with folders. Come back to front camera reviews.
+Later on, I'll be hooking up the multiple webcam approach so I can hit different angles.
+There's also issues that I can solve. I'll just hit pause with my toilet,
+whereby I control the lights behind me. I'm just going to go to the medium light at say
+blue at the moment, but I can change it to red because there's also a green light up in the top
+corner, which I've got soft at the moment. I can change the gradient effect of lights as they come
+through. Change the brightness of the lights. Now the studio setup that you see here, I've put it
+together over about a month and a half. I've come back from overseas where I was living abroad just
+doing a bit of work remotely, and I started my YouTube journey while over there loads a lot in
+the last five or six months on the journey. Founded an incredibly challenging process to get videos
+out to get them edited. I'm a one man show, though I do have a video editor now working
+for me for 10 hours a week. I tend to produce a lot more content than is getting uploaded
+to YouTube at the moment. I'm trying to balance that so that the amount of content I'm creating
+is leading straight to videos out on YouTube. The combination of the great software that I've
+been using, especially I think of late it's Eken Live, having this studio setup, having concepts
+like background lights. I also have friends that help me in the form of the apicast. They tend to
+act as a muse for me. I get to communicate with them, bounce ideas. I still drive the show, but
+they add some valuable insight as I'm building out the different channels. When I hear different
+influencers who absolutely know what they're doing when it comes to YouTube, they talk about the idea
+of maybe getting to 100 videos before you even worry about what you're doing. That's exactly
+what I'm doing. I'm not doing it though across one channel. I'm doing it across five channels plus
+two to come. I love doing it this way. It's probably a very dumb way to do it. I don't think any
+educator of YouTube influence would teach you to do it this way. But by having three tech channels
+that do niches, followed by a long form content channel, followed by a personal project channel,
+followed by two faceless channels, I get to see all sorts of angles of the YouTube development
+process. I'm trying to automate as I go. I get lots of examples on how you should automate and what
+doesn't work. I tell you, one of the big things I have is failure. So much failure in my YouTube
+process is driving maturity with what I'm now creating on YouTube. Anyway, thank you for this.
+Coming into the behind the scenes, my studio at ApiCast, Api Dave, winning prompts, fly video,
+carnival 90, and I won't name the other two channels just yet.

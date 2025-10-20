@@ -1,0 +1,239 @@
+OpenAI have just brought back the Browse with Bing feature, which is now available to ChatGPT plus users.
+In this video, I will break down a number of use cases for this new capability.
+In the past, if you wanted to ask questions in ChatGPT that talk directly to the internet,
+you would get some sort of vague statement about September 2021 or January 2022 being the cutoff date for knowledge.
+Yesterday, OpenAI released this new feature to the GPT plus users called Browse with Bing.
+And what it allows us to do is look at live data on the internet.
+So here we have Google Trends. We've got daily trend searches. Here we've got real-time trend searches.
+And as I look through them, one of the items that happened in the past 24 hours, we've got Hulk Hogan and Brook Hogan.
+Some sort of story going on there. If we head over to ChatGPT and we'll go,
+what is going on with Brook and Hulk Hogan?
+ChatGPT will now use the Browse with Bing functionality and go look up that information and then return a result based on the information it finds.
+Brook Hogan missed her father Hulk Hogan's wedding to Sky Daily.
+This is a great new addition to ChatGPT, the ability to do live searches and not worry about these September 21 or January 22 cutoff dates.
+I want to go through a bunch of use cases, but to get started, what we need to do is activate the feature.
+Now, if you've gone to ChatGPT plus and you head up to the GPT for item here, you'll see there's nothing in here about this new feature.
+What you have to do is click through to the three little dots and this will take you to the settings and beta area.
+We can click on there, go to beta features and there's this new item called Browse with Bing.
+If you turn that on, minimize this. You now have this capability that you can turn on.
+Now, by default, you can go back to the old way of working or you can have it in play.
+The first use case I want to work through is just using the Internet to find information.
+Now, if we ensure that we've got the Browse with Bing feature turned on, we can go put in a message like what is David from Appy Dave known for?
+Now, if I just bring up my website, should come up here.
+We can see that the information here is quite old.
+It was done about five years ago when I was working more in software development, microservices, software architecture.
+When we look at it, we can see that David from Appy Dave is known for micro apps, vlogging what I'm doing right now, dancing, which is my passion.
+We've got a bunch of other information there.
+The first use case, the simplest is just go and find some information about an existing website.
+For the next use case, I want to search recent information on YouTube channels.
+To get started, let's look at two different YouTube channels.
+So, Appy Dave is a channel I started about four months ago on using ChatGPT to write software.
+The information within here, especially if we go down to the description, it's been there for a couple of months.
+We should be good with it.
+The other channel we'll look at is Appy Cast, which I've only just started.
+It's where I do long form behind the scenes on ChatGPT and prompt engineering.
+What's going on in here is I've got a description that I only updated about 10 minutes ago using ChatGPT.
+I don't have confidence that we'll be able to access this information, but we'll see.
+I also have some videos that are a couple of days old like custom instructions for researching how to cut YouTube scripts in half, that sort of stuff.
+So, for this next use case, we will go over to the Appy Dave channel and we'll put what is this channel, YouTube, Appy, and we'll just say Dave, about.
+And we can see it failed on that.
+Now, I'm not sure why.
+I think this information has been around for a little while.
+We can test it with the other one.
+Of course, if it didn't work for Appy Dave, it's very unlikely to work for Appy Cast having a look on YouTube at the moment.
+Specifically telling us to go to the about page.
+I wonder if we can go back up here and press edit on both of them.
+We'll just say slash about, I believe, is the URL.
+We'll press submit.
+And it's not finding information, but there is a link.
+What happens if we press that information?
+At least it takes us to the URL.
+I'm assuming if we drop back one and do the same thing here that we're going to have exactly the same result.
+We'll press about.
+We have a similar result, but we do not even have the link in this case.
+One more test here is what would happen if I gave it an actual URL to a video.
+So I popped over to Appy Cast.
+I have a video on a particular custom instruction that I set up for ChatGPT.
+If we head over here and we ask the question, what is this video about?
+I've just pasted in the URL of the video.
+It's starting up the browser.
+Hopefully it starts looking that one failed.
+Let's test it a different way.
+Often this is all you need to do.
+And this time it worked, which is odd.
+One question failed.
+The next question succeeded.
+I think we're going to see a few of these.
+If it didn't work, try again sort of scenarios.
+Basically what it's gotten is the title.
+It's given a small opinion on what it's about.
+Hasn't read the transcription.
+We're making progress on our ability to read relatively new information on the internet.
+I think if we go back to that particular video, it was created nine days ago.
+That information at least came through.
+For the next year's case, what I want to test is whether it can get local information about a region
+and maybe even the current weather patterns in that region.
+We're working with the idea of you are a weather and tourism expert.
+I want to explore it in three different ways.
+The first technique will be just the simple prompt technique using the Browse with Bing feature.
+Then we'll work with GPT functions, which is a software development way of interacting with GPT
+to achieve this similar sort of concept.
+Then we'll look at this custom instruction, which is a more advanced prompting technique
+that you can use within chat GPT plus.
+Getting started with this weather and tourism simple prompt.
+I'm going to add a constraint of say, yeah, if you understand, press enter.
+It's given us some really limited information.
+Yay, how can I assist you today?
+I think we will ask about a place called Chiang Mai in Thailand.
+Can you give me the weather in Chiang Mai this month and tell me some things to do?
+And if we go and have a look at Google, we've got weather in Chiang Mai.
+It looks like it's 23 degrees and rainy at the moment.
+And we've got a little bit of information here.
+We'll head back to our prompt.
+Let's go.
+It's browsing for information.
+It's looking up the weather on October the 20 something.
+It's getting information from weather tab.
+And here we go October 23.
+So there's a shopping center in Chiang Mai called One Niman.
+It's got a whole lot of different shops and food.
+It would have events like Tango and I was living there and things like yoga and these dance venues
+were stuff that I was always trying to use Facebook groups to find.
+This is the sort of information that over time I'd like to be able to get out of chat GPT.
+So when I ran this prompt for One Niman, it's given us a little bit of information about October
+which is next month and that there is a jazz event and there's other things going on there.
+So this is not a replacement for Facebook or Instagram or other places that you get event information
+but at least it's starting to go down that path.
+Let's move on to the next way we might interact for tourism and weather.
+I'll just show custom functions just to see what can be done.
+This is not part of this Browse with Bing idea but this simple prompting technique is working quite good with Browse with Bing
+but let's take it up a notch and see what else we can do.
+So if we go over to custom instructions, we might be able to do something here that uses the Browse with Bing.
+I'm not sure, we'll have to see.
+But I'll also take it a little bit further and just check out this idea of open AI chat GPT functions.
+As preliminary set up to this next idea of GPT functions, what I'll do is I'll just type in today's date
+and it's telling me that it's Friday the 29th and we're in Brisbane
+and we might just say what the weather is as well.
+This is important 26 degrees and what to do in Brisbane as a tourist.
+And we've got some information about Queensland, South Bank, museums, etc.
+What I want to do is just see what would happen if I ran this through a more advanced routine.
+This next information might look very complex but the main thing to look at is what was the weather in Brisbane.
+And the flow did something simple like look up the geographic location
+and run it through an advanced prompt to get a whole lot of current weather information today and tourist information today.
+We can already see that the information about Brisbane being a capital with cultural precincts
+fits in very much with the information that's coming through from chat GPT.
+The risk of getting too far away from the Browse with Bing concepts, which we will come back to,
+this is essentially just an advanced prompt linked up to what is the weather like in Brisbane.
+When it needs information from the internet, it can call functions, get current weather.
+We can see this in action if we go back to our original example of Chiang Mai.
+Let's just run this little bit of code against Chiang Mai rather than Brisbane
+and essentially what it's doing is going off to the internet to get the current location as a longitude and latitude.
+That information is probably popping up just here.
+Going and talking to chat GPT with the original prompt that we had up here somewhere mixed in with this value
+can return an expert's advice on what the weather is and what the things are to do in Chiang Mai.
+So we have average temperatures, cloud speeds, wind speeds,
+and then we have a bunch of things that we can do in Chiang Mai such as the night bazaars, the elephant centuries.
+But since this is a video about Bing with chat GPT, I'll move back to there.
+But if you're ever interested in information more programming related with chat GPT,
+you might want to check out my Appy Dave channel where I talk specifically about coding with chat GPT.
+Now we just tested a regular GPT function and we've also done the simple technique using the Browse with Bing capabilities.
+What I'd like to do now is just see if we go to custom instructions.
+Can we create something like a weather and tourism expert that gives us really quality information based off commands,
+but also using the Browse with Bing functionality?
+I don't know what custom instructions are or when to use them.
+I have other videos on the channel that I'll talk about this.
+But for now, let's just go over to Visual Studio and we'll look at a simple example.
+So the idea is that you can set up the context and I do that by having this concept called a role.
+We've got the role of tourism and weather expert.
+And then what I've done is given it a basic synopsis of what it's meant to do and a list of commands that I'd like it to respond to.
+So I've been working with cities.
+So I've got a city name, maybe a country name.
+I have weather get me the information or the weather information from that country to do.
+And if we use the to do command, I'm hoping it's going to give me tourist information about that region for the guidelines.
+I think I might go to the programming from a few months ago and take this information and I'm just going to add that in there.
+Now, this information would usually go into our custom instruction.
+I'm going to grab everything.
+I don't need the role just that it's a tourism and weather expert and we'll head over to our custom instruction and just paste that in.
+The other thing is how will it respond for the city?
+I just wanted to get the current city if it can't get it.
+So if I said Sydney, which is in Australia, Sydney is also in Canada, so it might need clarification.
+When I asked for the weather, there's a bunch of fields that I would like it to try and get.
+I don't know whether this is going to work.
+We're going to see this together with the to do.
+I might want a specific thing that I want to do.
+I might want to go dancing.
+I might want to go fishing, whatever.
+And I might want three items or I might want five items.
+So by default, it'll do three.
+Take all this information and we'll drop into how would you like chat GPT to respond.
+And when you do custom instructions, they always work for new chats.
+So we'll just start a new chat and we'll go up and we'll make sure the browse with Bing is on.
+We are now in a new chat window.
+I'm going to work with a commander that I always put into any of my custom instructions called help.
+And if we run that, it's just going to tell us what this bot is designed to do.
+And we can see here that we have the city command where we can give a city name and a country name.
+We've got the weather command, which will tell us information about the city and we've got the to do.
+So I think we can test it with city and we'll do chain my again and press enter.
+Let's see.
+So the current city has been set to chain my Thailand.
+Now you can request weather and tourist information.
+We'll just say weather should have had a shorter command.
+We'll just do that and see what happens.
+Now it's browsing.
+So this is great.
+We're using a custom GPT instruction, but we've integrated with the browse with Bing capability.
+And it's the 29th of September, 76 degrees Fahrenheit humidity, 95%.
+That sounds about right.
+Chain my is a very hot and sweaty country at this time of year.
+And I think the last bit of our weather expert or weather and tourism expert is that we try the to do command.
+Now you don't need to give it any other parameters.
+We'll just see what it does.
+It should give us three items.
+It's currently looking up information on the internet from chat chain my.
+We're at the crazy tourist 25 things to do.
+And we've got visit doi sutep explore Nimmon Road, which is where one Nimmon is that I talked about earlier.
+Take a trip to San.
+I can't say that.
+But you know, I'm a I'm a dancer and I like to do a bit of yoga.
+So instead I'm going to say to do five by yoga or dance.
+And hopefully it's going to find some useful information there.
+So yoga and dance activities in chain my.
+I don't know that the current monthly events information is that easy to access on the internet at the best time in chain my.
+So we might get more general information.
+And we certainly have this is current information.
+Of course, we got November 12th to the 78th.
+There's a retreat.
+There's something going on in May.
+So that's already happened.
+There's something going on in June and July.
+That also has already happened.
+It also hasn't given us five items.
+These custom GPT commands or instructions don't always work the way you want.
+This is pretty cool.
+We can now mix GPT instructions with browse with Bing and get current command oriented information.
+And if we just change over to Brisbane, I'll do Sydney because that might run into this issue of the name of a city being into locations.
+So we'll say city and we'll say Sydney and we'll press enter.
+Hopefully it's going to ask for clarification.
+Now it's set it to Australia.
+So we might be able to go city, Sydney, and I think it's in Nova Scotia.
+I don't know.
+Yeah, great.
+And we'll just say to do five.
+What are five things that you can do in Sydney in Nova Scotia?
+And there you go.
+Now if you're from Canada, you can tell me whether this is true.
+I've never been to Canada, but we've got something in Cape Brenton.
+This has just been a quick walkthrough of the browse with Bing functionality that got added yesterday to chat GPT.
+When I started this morning, I had the idea of I want to communicate with the internet and chat GPT.
+I think we've covered that.
+We've definitely covered using different variations of tourism information and weather information.
+The idea of building an AI bot for the too long didn't read style of niche or a trading bot to get prices of stocks in time.
+It's something I want to develop.
+Subscribe to ApiCast.
+This is where I do a lot of my behind the scenes sort of work like we did today.
+If on the other hand you're interested in stuff more programming related or automations that might work with mid-journey like prompt builders or automatically running prompts within Discord,
+then you could pop over to my Api Dave channel.
+This is where I do more programming related work with chat GPT.
+I'm Api Dave.
+It's been great working through the browse with Bing capabilities.
+If you're interested in any other videos and probably up in the corner, there'll be a video around something to do with prompt engineering GPT or a little bit of programming.

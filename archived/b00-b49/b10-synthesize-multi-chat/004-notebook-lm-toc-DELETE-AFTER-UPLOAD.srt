@@ -1,0 +1,47 @@
+1
+00:00:00,00 --> 00:00:05,900
+I used NotebookLM on one of my projects to create this table of content, where I 
+
+2
+00:00:05,900 --> 00:00:10,910
+went through a bunch of the files I had and it created this nice structure for me. 
+
+3
+00:00:10,910 --> 00:00:12,500
+Let me show you how I did that.
+
+4
+00:00:12,530 --> 00:00:17,280
+So here we have a docs directory. And within that folder we've got a whole lot of 
+
+5
+00:00:17,280 --> 00:00:22,250
+requirements documents in markdown format. And what we want to do is create a table 
+
+6
+00:00:22,250 --> 00:00:25,200
+of content for the fly video application.
+
+7
+00:00:25,200 --> 00:00:30,360
+Now. I wrote this simple prompt for the outline and the Toc, but before I did that, 
+
+8
+00:00:30,360 --> 00:00:34,950
+I dragged all the files into the sources. We can see them on the left, and then we 
+
+9
+00:00:34,950 --> 00:00:39,450
+just see the brands and the breakdown of brands. We've got the command line interface 
+
+10
+00:00:39,450 --> 00:00:43,950
+and the breakdown of that, and all this information can now be copied back into my 
+
+11
+00:00:43,950 --> 00:00:45,350
+requirements document.
+
+12
+00:00:45,360 --> 00:00:49,880
+I'm AppyDave. Check out the link below on how I'm using NotebookLM.

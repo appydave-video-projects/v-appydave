@@ -1,0 +1,979 @@
+1
+00:00:00,00 --> 00:00:06,170
+In this video, we're exploring how to get detailed information out of a long conversation 
+
+2
+00:00:06,170 --> 00:00:11,180
+with a large language model. Because the problem that I often find is that I've got 
+
+3
+00:00:11,180 --> 00:00:15,260
+information that it's forgotten about from earlier in the conversation, or when I 
+
+4
+00:00:15,260 --> 00:00:19,710
+try to bring in information from earlier in the conversation. It brings in the information 
+
+5
+00:00:19,710 --> 00:00:25,280
+that we explored but deemed irrelevant at the time, yet it still thinks it's important.
+
+6
+00:00:25,300 --> 00:00:29,640
+I'm AppyDave. I talk about prompt engineering, so please like and subscribe and let's 
+
+7
+00:00:29,640 --> 00:00:30,390
+get into it.
+
+8
+00:00:30,390 --> 00:00:34,820
+Today, I'm in the middle of cleaning up a lot of my chats, and the one that I'm looking 
+
+9
+00:00:34,820 --> 00:00:40,670
+at at today is synthesizing a conversation down to the raw information. Now, the 
+
+10
+00:00:40,670 --> 00:00:44,810
+reason this is important for me is that I've got hundreds of chats over here on the 
+
+11
+00:00:44,810 --> 00:00:50,00
+left. I've got a dozen projects going on, and one of those particular projects is 
+
+12
+00:00:50,00 --> 00:00:54,750
+called FliVideo. And then when I go into FliVideo, I've got all these conversations. 
+
+13
+00:00:54,780 --> 00:00:58,370
+A lot of them have the same information and I'm trying to bring this information 
+
+14
+00:00:58,370 --> 00:01:02,660
+together. So what I thought I'd do is look at this particular one, which is called 
+
+15
+00:01:02,660 --> 00:01:08,870
+project Naming Conventions for FliVideo, and see whether I can get all the information 
+
+16
+00:01:08,870 --> 00:01:13,730
+that's in here and ignore some of the stuff that I said wasn't relevant when I was 
+
+17
+00:01:13,730 --> 00:01:18,810
+doing the conversation. So that I've got a final markdown document that I can use 
+
+18
+00:01:18,810 --> 00:01:20,930
+as knowledge for future chats.
+
+19
+00:01:20,960 --> 00:01:25,10
+I put chapter codes down below. If you want to move forward in the next step, what 
+
+20
+00:01:25,10 --> 00:01:29,300
+we're going to do is look at the complex conversation. And this is important if you 
+
+21
+00:01:29,300 --> 00:01:34,10
+want to understand all the details that are going into bringing this together as 
+
+22
+00:01:34,10 --> 00:01:38,420
+one document. But if you just want to get straight to the prompts technique one is 
+
+23
+00:01:38,420 --> 00:01:42,500
+where we cherry pick a little bit of the information and we use an advanced prompt. 
+
+24
+00:01:42,530 --> 00:01:48,80
+Technique two is where we just use an advanced prompt and a application that I built 
+
+25
+00:01:48,80 --> 00:01:53,630
+to grab conversations. And technique three is where I use a combination of ChatGPT 
+
+26
+00:01:53,810 --> 00:01:55,730
+canvas and notebook.
+
+27
+00:01:55,760 --> 00:02:01,730
+Now the conversation we're looking at today is of medium size. It's not a large conversation, 
+
+28
+00:02:01,730 --> 00:02:07,560
+but there's enough detail in it to test out some ideas. And when you look at my conversations, 
+
+29
+00:02:07,590 --> 00:02:13,310
+they'll often start with information that I preload it with from previous conversations. 
+
+30
+00:02:13,310 --> 00:02:17,510
+And what it's done in this particular case is figured out a bunch of information. 
+
+31
+00:02:17,550 --> 00:02:21,990
+It's assuming that I'm working with project names for an organization. There's a 
+
+32
+00:02:21,990 --> 00:02:26,550
+concept of a sequence number. The YouTube channel, which was an older channel called 
+
+33
+00:02:26,570 --> 00:02:31,740
+AppyCast We got the name of the project, and we got the fact that it's got a status 
+
+34
+00:02:31,740 --> 00:02:36,320
+of completed and it's worked out this information. Now, I know that this is not the 
+
+35
+00:02:36,320 --> 00:02:41,450
+way I do things today. And further on in this conversation, we change things around, 
+
+36
+00:02:41,450 --> 00:02:45,440
+and it's kind of getting to that end result of what the information really should 
+
+37
+00:02:45,440 --> 00:02:50,310
+be while taking into consideration as my thoughts during the conversation that we're 
+
+38
+00:02:50,310 --> 00:02:51,260
+trying to solve.
+
+39
+00:02:51,290 --> 00:02:55,980
+Now, the initial analysis in this conversation is that there was a sequence of project 
+
+40
+00:02:55,980 --> 00:03:00,720
+code, a name and a status, and this was for a video project, but that there was also 
+
+41
+00:03:00,750 --> 00:03:05,790
+the concept of multiple episodes within a video series, and that they would have 
+
+42
+00:03:05,790 --> 00:03:10,650
+a sequence like the first, the second, the third, followed by the name of that particular 
+
+43
+00:03:10,650 --> 00:03:11,160
+episode.
+
+44
+00:03:11,160 --> 00:03:16,510
+Now the conversation has shown some folder structure examples, whether it be for 
+
+45
+00:03:16,510 --> 00:03:21,760
+a single video concept where I'll have individual recordings and particular chapters, 
+
+46
+00:03:21,760 --> 00:03:25,660
+and there could be more than one recording for a chapter. And then it's got another 
+
+47
+00:03:25,660 --> 00:03:30,580
+example for multiple episodes where it's pretty much the same structure, but they're 
+
+48
+00:03:30,580 --> 00:03:35,590
+broken up into more than one episode, and this information is going to be really 
+
+49
+00:03:35,590 --> 00:03:36,310
+important for me to keep 
+
+50
+00:03:36,330 --> 00:03:41,440
+I asked it to write a requirements document and it wrote a whole lot of good and 
+
+51
+00:03:41,440 --> 00:03:45,490
+useful information. I was able to read this and go, this is kind of what I want the 
+
+52
+00:03:45,490 --> 00:03:50,410
+application to do. But then it came to a problem here is that it wrote a bunch of 
+
+53
+00:03:50,410 --> 00:03:54,490
+code for me, which is great, except it's not in the programming language I want. 
+
+54
+00:03:54,520 --> 00:03:59,680
+So I need to make sure that whatever final document we get is in the actual programming 
+
+55
+00:03:59,680 --> 00:04:00,940
+language I need.
+
+56
+00:04:00,960 --> 00:04:05,460
+Next, I was asking the conversation to rename the project code to a channel code, 
+
+57
+00:04:05,460 --> 00:04:10,470
+and I had codes for AppyDave coding. AppyDave the channel you're using right now. 
+
+58
+00:04:10,500 --> 00:04:16,290
+AI-TLDR. FliVideo and Winning Prompts, which are all faceless YouTube channels, and 
+
+59
+00:04:16,290 --> 00:04:19,20
+I needed to keep this information grouped.
+
+60
+00:04:19,30 --> 00:04:23,310
+the conversation adapted to understand that there were channel codes going on in 
+
+61
+00:04:23,310 --> 00:04:24,900
+various locations. 
+
+62
+00:04:24,700 --> 00:04:28,850
+so it was giving me an improved requirements document, but it was still keeping to 
+
+63
+00:04:28,880 --> 00:04:30,560
+the Python implementation. 
+
+64
+00:04:30,560 --> 00:04:35,130
+Now, if you've ever done a long conversation in a large language model, you've probably 
+
+65
+00:04:35,130 --> 00:04:39,960
+seen these problems before where you get a diminishing return on the information 
+
+66
+00:04:39,960 --> 00:04:44,490
+you put in because it's forgetting or changing information that you'd already talked 
+
+67
+00:04:44,490 --> 00:04:49,770
+about. So let's try a couple of techniques and bring this back into alignment in 
+
+68
+00:04:49,770 --> 00:04:51,60
+new chat windows.
+
+69
+00:04:51,60 --> 00:04:55,880
+So let's have a look at technique one and technique one. In this particular scenario 
+
+70
+00:04:55,910 --> 00:05:01,160
+will probably work the best because I've got a fairly clean conversation and I kind 
+
+71
+00:05:01,190 --> 00:05:06,140
+of know where it diverged. So what I've done is I'm just taking the last section 
+
+72
+00:05:06,140 --> 00:05:08,780
+and I'm copying it into the clipboard for now, 
+
+73
+00:05:08,800 --> 00:05:14,640
+and then what I can do is just head over to a new ChatGPT conversation and I'll say, 
+
+74
+00:05:14,640 --> 00:05:18,690
+can you create a Readme document with the following information? And we can just 
+
+75
+00:05:18,690 --> 00:05:24,480
+paste all that information that we've got. Now there's a capability within ChatGPT 
+
+76
+00:05:24,600 --> 00:05:29,850
+of going to canvas mode. And this is a great way for creating documents, in this 
+
+77
+00:05:29,850 --> 00:05:34,470
+case a requirements document. And you can see it just all coming together before 
+
+78
+00:05:34,470 --> 00:05:38,820
+your eyes. Like this. Now one of the things I know should be wrong with this is there 
+
+79
+00:05:38,820 --> 00:05:43,320
+won't be any code, because the section that I grabbed didn't have any code.
+
+80
+00:05:43,330 --> 00:05:48,610
+So we now have this nice consolidated document. All the information is fairly correct 
+
+81
+00:05:48,610 --> 00:05:52,690
+except for the missing code. And we have a little copy button up in the right hand 
+
+82
+00:05:52,690 --> 00:05:57,250
+corner which would give it to us in markdown. But what we can do now is just have 
+
+83
+00:05:57,250 --> 00:06:01,540
+a little bit more of a conversation and make sure that the code is added to this 
+
+84
+00:06:01,540 --> 00:06:02,170
+document.
+
+85
+00:06:02,200 --> 00:06:06,590
+Now the next thing I want to do is go back in the conversation to where there was 
+
+86
+00:06:06,590 --> 00:06:11,900
+some code that was useful. Now the code is a fair way up and it doesn't take into 
+
+87
+00:06:11,900 --> 00:06:14,990
+account certain newer concepts that are later in the document, 
+
+88
+00:06:15,00 --> 00:06:19,430
+we'll take a copy of it and come back to our window where we said, can you update 
+
+89
+00:06:19,430 --> 00:06:23,420
+the document with the example code? And we're about to paste that in. And I'll put 
+
+90
+00:06:23,420 --> 00:06:28,880
+it in right here. But the next thing I've also said is it needs to be updated to 
+
+91
+00:06:28,880 --> 00:06:33,620
+understand the concept of tags. 'cause I know that wasn't in the code. So we can 
+
+92
+00:06:33,620 --> 00:06:39,20
+see that the document itself has all information with rules about tags, but the code 
+
+93
+00:06:39,20 --> 00:06:43,970
+doesn't. So if we just press go on this, what should start to happen is we'll get 
+
+94
+00:06:43,970 --> 00:06:49,100
+a rewrite of the requirements document. Nothing should really change. Everything 
+
+95
+00:06:49,100 --> 00:06:53,750
+should be just the way it was originally written. But when we get towards the bottom, 
+
+96
+00:06:53,900 --> 00:06:59,390
+I'm assuming we're going to get the code that I've pasted in modified so that it 
+
+97
+00:06:59,390 --> 00:07:03,320
+understands the concept of flexible and optional tags.
+
+98
+00:07:03,330 --> 00:07:07,820
+So when we moved to the bottom, we've got an example in Ruby. It'd be important to 
+
+99
+00:07:07,820 --> 00:07:13,940
+see if it's got tags. So we'll just do search. And anything yellow is actually indicating 
+
+100
+00:07:13,940 --> 00:07:17,930
+that we've got tags in the code. And we've even got examples.
+
+101
+00:07:17,960 --> 00:07:22,710
+So technique number one has worked really well in this particular scenario. What 
+
+102
+00:07:22,710 --> 00:07:26,280
+we can do now is just go over to our project. 
+
+103
+00:07:26,300 --> 00:07:30,630
+This is the one we were using. We've got two options with this. We could either archive 
+
+104
+00:07:30,630 --> 00:07:34,740
+it, but for now I'm just going to rename it and we'll just call it old. And that 
+
+105
+00:07:34,740 --> 00:07:39,00
+just reminds me that I should archive it in the future or delete it.
+
+106
+00:07:39,00 --> 00:07:43,440
+Now let's look at technique number two. And technique number two is actually really 
+
+107
+00:07:43,440 --> 00:07:48,390
+simple, but it doesn't always work depending on the length of the conversation. So 
+
+108
+00:07:48,390 --> 00:07:51,840
+what we're going to do is we're just going to go to the top of the conversation, 
+
+109
+00:07:51,870 --> 00:07:56,250
+go all the way to the bottom, and we've just shift selected it. And I've pressed 
+
+110
+00:07:56,250 --> 00:07:58,560
+command C to put in my clipboard.
+
+111
+00:07:58,560 --> 00:08:03,190
+So with this technique, I've gone back to the FliVideo project and I've just put 
+
+112
+00:08:03,190 --> 00:08:09,70
+in a simple prompt, summarize and synthesize the conversation into a coherent document. 
+
+113
+00:08:09,100 --> 00:08:13,360
+Now, one of the things that we've got to do is make sure that it prioritizes the 
+
+114
+00:08:13,360 --> 00:08:18,400
+stuff at the end, but considers the stuff at the beginning. So it needs to retain 
+
+115
+00:08:18,400 --> 00:08:22,930
+key insights early on. And what we can do is just paste all the information, and 
+
+116
+00:08:22,930 --> 00:08:28,480
+it's quite a long document into it and see what it comes up with. Now it's going 
+
+117
+00:08:28,510 --> 00:08:32,440
+straight into canvas mode. I didn't have to tell it what to do, and we're getting 
+
+118
+00:08:32,440 --> 00:08:34,300
+similar information to before.
+
+119
+00:08:34,330 --> 00:08:38,840
+So I think to test this, we'll just compare it to the other document that we created. 
+
+120
+00:08:38,840 --> 00:08:44,90
+So the one on the right is our new document. The one on the left. Here is the old 
+
+121
+00:08:44,90 --> 00:08:50,240
+document that we've generated with quite a bit of control in the process. And as 
+
+122
+00:08:50,240 --> 00:08:54,140
+we look through it, they look to be very similar. So we've got a sequence channel 
+
+123
+00:08:54,140 --> 00:08:58,340
+code and channel name over here. And we've got sequence channel code and project 
+
+124
+00:08:58,370 --> 00:09:02,540
+name here. Then we've got what happens if the channel code is submitted. And we've 
+
+125
+00:09:02,540 --> 00:09:04,460
+got that example here as well.
+
+126
+00:09:04,460 --> 00:09:09,10
+Now, as we move down this document, we start getting confirmation that this particular 
+
+127
+00:09:09,10 --> 00:09:13,810
+prompt, which was easier, is actually working fairly well. And that's because we're 
+
+128
+00:09:13,810 --> 00:09:18,340
+seeing the tag one and two. Now they both have the tag one and two. But this was 
+
+129
+00:09:18,340 --> 00:09:22,180
+right at the very end of the conversation. There was a lot of information to read 
+
+130
+00:09:22,180 --> 00:09:27,250
+beforehand, and it's still got it quite correct. It even included the correct tags 
+
+131
+00:09:27,250 --> 00:09:31,00
+that we had in the examples, the CTA and the end cards.
+
+132
+00:09:31,30 --> 00:09:35,440
+We move further down to where the folder naming conventions are, and there seems 
+
+133
+00:09:35,440 --> 00:09:37,570
+to be no difference between both of those.
+
+134
+00:09:37,600 --> 00:09:41,900
+So we'll come down to the message prompt, and we're just going to copy and paste 
+
+135
+00:09:41,900 --> 00:09:46,790
+the one that we used in the previous example and see whether it updates it down the 
+
+136
+00:09:46,790 --> 00:09:52,10
+bottom with this new code. So it's just doing the regular rewrite that canvas does 
+
+137
+00:09:52,30 --> 00:09:57,560
+And we're about to hit the end where I'm assuming example code is about to be written, 
+
+138
+00:09:57,560 --> 00:10:00,920
+and it's written it in a totally different fashion.
+
+139
+00:10:00,930 --> 00:10:04,960
+Just for my own peace of mind. I took all the information that's on the left and 
+
+140
+00:10:04,960 --> 00:10:08,950
+just said, can you update the code with this? And it did it, and it did it in an 
+
+141
+00:10:08,950 --> 00:10:12,970
+interesting way, which I'm happy with, in that it took the individual functions that 
+
+142
+00:10:12,970 --> 00:10:17,530
+we can see all grouped together and put them into the correct spot. So everywhere 
+
+143
+00:10:17,530 --> 00:10:22,150
+we're talking about an idea, there's one example of code that implements 
+
+144
+00:10:22,160 --> 00:10:25,600
+and that keeps getting repeated all the way through to the bottom.
+
+145
+00:10:25,630 --> 00:10:30,440
+Now before moving on to technique three, let's just recap what we've done. So in 
+
+146
+00:10:30,440 --> 00:10:35,450
+technique number one we cherry picked we firstly picked the end of the conversation 
+
+147
+00:10:35,450 --> 00:10:40,100
+with a lot of information. Said write it in canvas. And then we manually added in 
+
+148
+00:10:40,100 --> 00:10:45,440
+code from an earlier session with technique number two. This was a one shot prompt. 
+
+149
+00:10:45,440 --> 00:10:51,20
+We just said read the entire conversation based on a couple of rules and recreate 
+
+150
+00:10:51,20 --> 00:10:55,130
+it for us. And it did a perfect job as well. We did have to manually add the code 
+
+151
+00:10:55,130 --> 00:11:00,650
+back in, but it did it in a unique and interesting way based on the first technique. 
+
+152
+00:11:00,260 --> 00:11:04,220
+Now we're about to look at technique number three, which is a variation on the one 
+
+153
+00:11:04,220 --> 00:11:08,780
+shot prompt but with different tooling. But I think it's at this point that it would 
+
+154
+00:11:08,810 --> 00:11:13,190
+be good to go and have a look at these requirements documents and understand why 
+
+155
+00:11:13,190 --> 00:11:16,100
+it's so important to create this sort of information.
+
+156
+00:11:16,130 --> 00:11:20,270
+So we know from the previous example that we could go and select all the information 
+
+157
+00:11:20,270 --> 00:11:24,530
+and put it into the clipboard. But what if I told you I'd written a little application 
+
+158
+00:11:24,710 --> 00:11:30,440
+using a requirements document that did this for me plus more? So what we can do here 
+
+159
+00:11:30,440 --> 00:11:34,550
+is we can go and click on this little button up here and I've got this idea called 
+
+160
+00:11:34,560 --> 00:11:35,730
+GPT conversation 
+
+161
+00:11:35,730 --> 00:11:40,530
+can just press the extract conversation. And now the whole conversation is copied 
+
+162
+00:11:40,530 --> 00:11:45,210
+to the clipboard. And the good thing is it's also labeled with information. So there's 
+
+163
+00:11:45,210 --> 00:11:50,250
+the user with the content that the user said, followed by the agent with the information 
+
+164
+00:11:50,250 --> 00:11:55,20
+that the agent said. But this could do more. We could send it off to another application 
+
+165
+00:11:55,20 --> 00:12:00,00
+if we want. And the great thing is it was done with one prompt in about 10 minutes. 
+
+166
+00:12:00,00 --> 00:12:04,170
+that's the power of these requirements documents. 'cause if you can write one of 
+
+167
+00:12:04,170 --> 00:12:08,700
+these correctly, you don't need to be a programmer to write applications. You can 
+
+168
+00:12:08,700 --> 00:12:13,80
+take information like this, feed it into an AI pair programmer, 
+
+169
+00:12:12,760 --> 00:12:17,980
+And create an application in one, maybe two prompts. So what I've decided to do next 
+
+170
+00:12:17,980 --> 00:12:22,630
+year in 2025 is reactivate a channel that I have called Winning 
+
+171
+00:12:22,900 --> 00:12:28,380
+To solve simple automation problems that I have and other people have, using one 
+
+172
+00:12:28,410 --> 00:12:30,210
+shot prompting and writing code 
+
+173
+00:12:30,230 --> 00:12:35,230
+So if that's of interest to you then please like and subscribe over on Winning Prompts.
+
+174
+00:12:35,260 --> 00:12:38,950
+Now, let's check out technique three. We're still going to use a one-shot prompt, 
+
+175
+00:12:38,980 --> 00:12:42,940
+but we're gonna use different tooling. So we'll come over and we'll click the Extract 
+
+176
+00:12:42,940 --> 00:12:46,720
+Conversation. You could just copy all the text and put it into the clipboard, and 
+
+177
+00:12:46,720 --> 00:12:51,550
+then head over to Notebook lm. Click on this button and it'll take you to a blank 
+
+178
+00:12:51,550 --> 00:12:57,880
+setup. From here we can create, and what we need to do first is load it up with knowledge. 
+
+179
+00:12:58,00 --> 00:13:01,930
+So we'll click on the paste text and we'll just paste everything in. 
+
+180
+00:13:01,930 --> 00:13:06,800
+things to notice is that because we use the extraction tool, we'll we'll have access 
+
+181
+00:13:06,800 --> 00:13:08,90
+to the user right here. 
+
+182
+00:13:08,100 --> 00:13:12,440
+we've got two different participants in the conversation, the user and the assistant. 
+
+183
+00:13:12,590 --> 00:13:17,90
+And I consider the assistant to be the one that wrote the document, but the user 
+
+184
+00:13:17,90 --> 00:13:21,320
+guided it. So there's a little bit of influence that the user needs to have when 
+
+185
+00:13:21,320 --> 00:13:22,310
+we start working with 
+
+186
+00:13:22,400 --> 00:13:27,220
+And you'll see this pasted text. It's got a description of what's going on. And what 
+
+187
+00:13:27,220 --> 00:13:31,360
+we'll do is we'll paste in the prompt that we used the last time, summarize and synthesize. 
+
+188
+00:13:31,360 --> 00:13:36,400
+We want to make sure it prioritizes recent ideas over earlier stuff, 
+
+189
+00:13:36,430 --> 00:13:40,840
+we'll just add a little bit extra to the prompt, just letting it know that the assistant 
+
+190
+00:13:40,840 --> 00:13:44,980
+wrote the document, but the user's input is considered important. From there, we 
+
+191
+00:13:44,980 --> 00:13:47,350
+can just let it start processing.
+
+192
+00:13:47,360 --> 00:13:51,840
+Now we have a very different outcome to the last two examples, in that we don't have 
+
+193
+00:13:51,840 --> 00:13:57,390
+a requirements document in markdown format, but what we do now have is a well-analyzed 
+
+194
+00:13:57,390 --> 00:14:01,980
+document. And we can go through and click on numbers here and go to the sources in 
+
+195
+00:14:01,980 --> 00:14:06,780
+the document. You can also come down to here and have a look at specific areas. So 
+
+196
+00:14:06,780 --> 00:14:11,100
+let's say we wanted to look at the project naming. We could click on that and it'll 
+
+197
+00:14:11,100 --> 00:14:15,330
+just do a prompt into the conversation, discuss project naming. And now we've got 
+
+198
+00:14:15,330 --> 00:14:20,40
+all the information related to project naming all in one spot. But the other good 
+
+199
+00:14:20,40 --> 00:14:24,390
+thing is, as we click through on this, we can go and look at the sources around where 
+
+200
+00:14:24,390 --> 00:14:26,100
+the episode name was conversed 
+
+201
+00:14:26,160 --> 00:14:31,260
+So the ability to learn about your document is really easy to do in notebook LM.
+
+202
+00:14:31,260 --> 00:14:35,560
+Now let's see if we can convert it into a requirements document. So what we'll do 
+
+203
+00:14:35,560 --> 00:14:40,810
+is write a technical requirements doc based on the analyzed content and format using 
+
+204
+00:14:40,810 --> 00:14:41,470
+markdown. 
+
+205
+00:14:41,400 --> 00:14:45,780
+sure you use short code examples related to the section of the requirements. So I 
+
+206
+00:14:45,780 --> 00:14:51,150
+like that second version where we got the code with each bit of writing in the markdown 
+
+207
+00:14:51,150 --> 00:14:52,830
+document, and we'll just let it run.
+
+208
+00:14:52,830 --> 00:14:57,490
+I've just brought it back to ChatGPT so that I can see it with similar formatting.
+
+209
+00:14:57,500 --> 00:15:02,130
+the document on the left is the Google LLM. I've just pulled it in and read it and 
+
+210
+00:15:02,130 --> 00:15:07,740
+then converted it to markdown here. The one on the right is the one shot from ChatGPT. 
+
+211
+00:15:07,800 --> 00:15:12,00
+And the main thing that I start to see is that they're very similar, but they do 
+
+212
+00:15:12,30 --> 00:15:16,380
+write a little bit differently. So when we look at the overview, we've got everything 
+
+213
+00:15:16,380 --> 00:15:20,550
+the same in both, except there is a little bit of extra information about talking 
+
+214
+00:15:20,550 --> 00:15:23,100
+about supporting the reverse engineering.
+
+215
+00:15:23,100 --> 00:15:27,340
+The project naming is the same, slightly different formatting. There is a little 
+
+216
+00:15:27,370 --> 00:15:32,680
+bit of extra information in the ChatGPT around an example, but it's essentially the 
+
+217
+00:15:32,680 --> 00:15:33,160
+same.
+
+218
+00:15:33,160 --> 00:15:38,840
+Episode naming is similar, but the ChatGPT is a little bit better. It's got example 
+
+219
+00:15:38,840 --> 00:15:43,940
+input ideas. It's also got better formatting, I think, for the output.
+
+220
+00:15:43,960 --> 00:15:49,910
+ChatGPT did a better job on the recording name. And then when we get down to the 
+
+221
+00:15:49,910 --> 00:15:54,620
+folder structure, it has a folder structure, but we don't really get a folder structure 
+
+222
+00:15:54,620 --> 00:15:59,750
+from the Google notebook LM otherwise a lot of things are similar. When we get to 
+
+223
+00:15:59,780 --> 00:16:03,230
+the very bottom where we've got the non-functional requirements, we have that on 
+
+224
+00:16:03,230 --> 00:16:07,910
+both, but we get a technical specification as well in the Google.
+
+225
+00:16:07,930 --> 00:16:13,430
+So ultimately the output from ChatGPT is a little bit better than the output from 
+
+226
+00:16:13,430 --> 00:16:18,170
+notebook LM. But the fact that notebook LM has the ability for us to interrogate 
+
+227
+00:16:18,170 --> 00:16:23,270
+information, and of course, the other tools like the podcasting means it's still 
+
+228
+00:16:23,270 --> 00:16:28,40
+a useful tool. Just I wouldn't create the requirements document right now just using 
+
+229
+00:16:28,40 --> 00:16:29,810
+this tool, if that's all I needed.
+
+230
+00:16:29,830 --> 00:16:35,880
+So an overview of what we've been doing is we've taken a complex conversation, and 
+
+231
+00:16:35,880 --> 00:16:40,230
+we've tried to synthesize it into a new document. And the document in this case is 
+
+232
+00:16:40,260 --> 00:16:44,340
+a requirements document, but it could be any sort of document. Now the first example 
+
+233
+00:16:44,340 --> 00:16:49,80
+we did was cherry picking. So we picked the area towards the end of the document. 
+
+234
+00:16:49,80 --> 00:16:53,400
+And then when we found it didn't have all the information we wanted, we added in 
+
+235
+00:16:53,400 --> 00:16:57,390
+some extra code. Then after that, we went on to the one shot prompt. And in this 
+
+236
+00:16:57,390 --> 00:17:02,310
+particular example, it did just as well. It was actually a really good job. It didn't 
+
+237
+00:17:02,310 --> 00:17:06,600
+include the code, but we were able to add that manually. We then moved on and tried 
+
+238
+00:17:06,600 --> 00:17:11,730
+a different technique, which is notebook LM, and it does nearly as good a job. It 
+
+239
+00:17:11,730 --> 00:17:15,120
+also has the benefit that you can interrogate the document afterwards 
+
+240
+00:17:14,900 --> 00:17:20,300
+but I don't think it proved to be better in the scenarios that we just tried with.
+
+241
+00:17:20,330 --> 00:17:25,130
+So in this video, we've taken this one complex conversation and converted it into 
+
+242
+00:17:25,130 --> 00:17:29,390
+a single requirements document. But what I'd like to do in the next video is go through 
+
+243
+00:17:29,420 --> 00:17:34,340
+multiple input sources and see if we can bring them in together, and end up with 
+
+244
+00:17:34,340 --> 00:17:36,950
+one document that covers the whole project. 
+
+245
+00:17:36,560 --> 00:17:40,410
+I'm AppyDave. Please like and subscribe. I'll see you in the next video.

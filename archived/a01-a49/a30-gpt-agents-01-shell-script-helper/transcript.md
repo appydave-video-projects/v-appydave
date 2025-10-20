@@ -1,0 +1,205 @@
+# Title
+
+Unlock the Power of GPTs: Shell Script Writer for ChatGPT
+
+# Transcript
+
+Do you want to simplify the way you build terminal scripts?
+Join me on a unique scripting adventure where I'll be using a custom GPT agent, the Shell Script Helper,
+to transform the way I build shell scripts.
+Today's challenge, I'm going to apply a script crafted with this GPT
+to seamlessly compile individual recordings from a video into neatly organised chapters.
+Let's dive in.
+I've just put together this GPT agent, which I'm calling Shell Script Helper,
+and the role of this agent is that it should assist me in writing and debugging shell scripts.
+An overview of this bot is that it's specialised in developing shell scripts.
+It can handle debug console logging sort of concepts
+and also work with various parameters, whether they be optional or required.
+The main guidelines of the bot is that it helps with multi-parameter scripts.
+It helps with debugging, and it helps with best practices.
+Now, if we look at the commands that I'd like to support within it,
+the basic command is that I want to develop a script based on a requirement.
+Next, I want to enhance that script, so I might get the basic capabilities of the script working,
+but then I want to add in either debugging or maybe other optional parameters.
+So this command is designed to deal with that.
+And the last command here called code is where I just give the GPT agent all the code I've got
+so that it can memorise it.
+There's responses for each of these commands, and the code one is a good example
+where all I want it to do is say thank you with the updated code.
+I don't want it to show the code, I just want it to say thank you.
+Let's take our agent definition and we'll head over to GPT and we'll just paste it in
+and let GPT start deciding what it needs to do to get this definition working.
+So it's taken our information, it's come up with the idea of script helper.
+I prefer it to be shell script helper, so we'll just let that happen.
+It's come up with a logo that looks like a shell.
+Maybe this is quite appropriate for a shell script helper.
+There's definitely the technical design going on behind it, so this should be good.
+It's also come up with some starter conversations.
+I don't personally like to use these, so we'll just pop in over here and remove these through.
+What it all have done is modified my agent a little bit.
+Now I tend to bring my agents back verbatim.
+I don't tend to go with what ChatGPT has suggested because it loses a little bit of the detail that I like to have.
+So let's just paste this in.
+So we've got the original agent that I designed.
+It says here specializes in aiding the development of robust shell scripts,
+focusing on scripts with multiple parameters and console debugging.
+It's called shell script helper.
+I don't think we need code interpreter, but I'm going to turn it on and we'll just hit save.
+Let's set this up.
+I want to create a shell script that's going to take the recordings that I'm doing within this video
+and break them down into chapters.
+So let's try that out.
+Now this script is about taking individual recordings such as the ones in this video and putting them into chapters.
+So when I talked about the GPT agent that was in Chapter 2,
+when I talked about creating it in ChatGPT, that was in Chapter 3.
+And we're currently on Chapter 4.
+So what I want to do is take these files individually,
+join them together into a new file over in the chapters folder.
+Now before we start writing our script, we'll head over to the shell script helper
+where we have a starter conversation called help.
+And this will basically give us the commands that we can use within this GPT agent.
+And the one I'm interested in with starting is the script command.
+And what we'll do is we'll start writing the word script and we will follow it up with a prompt at this point.
+Now I've come over to Visual Studio and I have a script that I've already written in the past.
+It uses ffmpeg to join a bunch of videos together.
+And the way it works is it loops through all the movie files in a particular folder,
+sorts them alphabetically so the O1 will come before the O5, for instance,
+and puts all that information into a text file.
+That text file is then fed into ffmpeg using this input command.
+And the output of the file currently goes into 00-full.movie.
+Now this script works fine when I want to take all my little recordings and make it one video.
+But what we want to do is do it as a chapter.
+So we will write our prompt here and then transfer it over to ChatGPT.
+So I've just put a little bit of a description in front of the script we want that says,
+I have used the following script to combine all the files in a folder into a single video called 00-move.
+I'll extend the prompt with I need a new script that takes the chapter ID,
+such as one or two, from the related recordings and put them into a chapter video.
+Now the chapter video is going to be up one level to the parent in dot dot slash chapters.
+The name of the chapter video should be the chapter ID and then the first segment after a part ID.
+So what does that mean?
+If I paste this in and I say files are formatted as chapter ID,
+which is the 01 or the 02 followed by a part ID, which is ABC.
+Then there's multiple words, which I would call segments.
+And in this case, the first video should be called 01 introduction.
+The second one should be 02 GPT agent.
+So what we could do here is output example and we'll just change these.
+We just change these two words to chapters.
+We get rid of these segments.
+Get rid of these part IDs and we'll just remove that.
+We'll take all of this prompt and we'll head back over to our GPT where we've started it off with the idea of the script command.
+And we just paste everything that we just typed straight in.
+And let's see if it creates a program that'll work for us.
+It's a script that it's written and everything seems to be okay.
+I haven't tested it.
+One of the things I noticed is that the input folder assumes that you're in a recordings folder under wherever you are right now.
+Now this won't be the case for me.
+I will specifically be in the recordings folder.
+Then I want to go up one directory to the chapters.
+So this will need to change to a full stop.
+We'll have to have a look whether all this code works.
+Let's have a look at this script and see if it's going to do what we need.
+The first thing it does is check if the chapter ID is provided.
+So if there's no parameter one, then it echoes an error message and it exits out of the system.
+If there is one, then it stores that value into the chapter ID.
+The next thing is the input and output folders.
+As I said earlier, I think I want to get rid of the recordings because I will run it from the recordings directory.
+And I want to create the chapter files one level up from the recordings directory.
+Now it's trying to find the first recording for a particular chapter ID.
+Puts it into a variable called first file.
+It's looking in the input folder.
+It's looking for the chapter ID that we've just passed in.
+And then it's getting a list of all the movie files and sorting them.
+That's important is that my movie files will be labeled A, B, C and D within a chapter.
+And we just want to access the first file to get the title name.
+Now, if it doesn't find the first file, it reports an error and it exits.
+So that looks good.
+It's written this regular expression to extract the title from the first file.
+And it says title equals from the first file, which should have a chapter ID.
+That's whatever we passed in.
+It could be something like 01 or 02.
+Then there will be a part or segment ID and that'll be A, B, C, D or E.
+Now because this file was already sorted, usually it's going to be an A in that position.
+The next thing is it's going to by group get all the characters up to the first dash
+and then follow it up by the star dot movie.
+That will become the title.
+Next it gathers up all the files for the particular chapter.
+So all the recordings that start with 01 or 02 and puts it into a text file called video list dot tx
+and then makes the output directory if it doesn't exist.
+Next it's going to use ffmpeg to read through the video list txt file that we have
+and put a new file in the output folder called chapter ID dash title dot move.
+Lastly it cleans up that file so that'll get removed and we'll be ready for the next chapter recording after running.
+And there's just a little echo statement.
+I think this code is going to work.
+Let's go test it.
+Here we have all the recordings that we've been working through.
+We've got chapter 01, we've got chapter 2 here, chapter 3.
+Currently we're up to chapter 7.
+And what needs to happen is they need to be combined and go into a video file within this chapters directory.
+Come to our recordings directory, run it.
+It's taking the 12 second file, the 13 second file and then it'll take a little bit longer with the 54 second file.
+But in a moment we should have a new chapter file called chapters02gpt-agent.move.
+I'll do is I'll move this video that's being created.
+It's one minute and 20 seconds and we'll just hit play on it for a second.
+I've just put together this GPT agent which I'm calling shell script.
+That sounds like it's the first 12 seconds of the video.
+I've done the first chapter and then thought do I really want to do this as individual commands
+or could we either adapt the script so it can take a range of chapter IDs to work on
+or create a new script.
+Call this for each and every ID that we pass in.
+I think I'll go with the latter.
+We go back to the top of our GPT agent that we created called shell script helper.
+You can see the three commands that we've worked with.
+The initial script was created with that command.
+Then we pasted in our edited code using this one
+and we made a modification around the regular expressions with this one.
+What we'll do is we'll run one more script command down the bottom.
+We'll just say script and I think I can just type this prompt.
+Now the script we want is that it can create a new script called createchapters.sh.
+It will be called with the chapter IDs
+and it will call the create chapter recording script
+that we already created with each of the IDs.
+I think what lastly we should do is write some sort of usage
+and this is what we're going to call it.
+It should work with 01, 02, 03, 04, something like this.
+We'll press enter to see what we come up with.
+Now we have a new bash script called createchapters.
+You can pass in some IDs.
+If nothing is passed in, it will report an error.
+Then it just loops through each of the IDs
+and calls our existing create chapter from recording script
+for each time there's a little bit of error logging
+and then lastly creation process complete.
+We're now in our recording folder and we have chapters
+all the way up to chapter 11.
+Now we got one and two done earlier.
+We'll move on to three, four and five right now.
+So if we go create chapters, three, four and five,
+we know something's being created.
+03 GPTS, 04 FF MPEG, 05 writing the script
+which is still being developed at the moment.
+I think everything's working quite nicely.
+It's already done six.
+Now while it's doing that,
+let's just pop into the recordings folder for a second
+and see how many videos there really are here.
+It's saying there are 44 parts to the video
+that you're watching right now
+all the way from introduction to this area
+where we're creating the chapters shell script.
+Now all the chapters from the video have been created.
+One of the things to note is that there's two
+that look like they're the same.
+08 demonstration and 09 demonstration
+and that was just a typo when I was doing the recordings.
+Now I am creating software called fly video
+which is all about automating YouTube influence.
+So I'll solve that when I'm writing that particular software.
+That's the shell script helper agent.
+I love using it when I need to build a bash script
+or a script in any language like Ruby or Python.
+If you want to see three scripts I use with software development agents
+then check out this video from the building fly video series.
+If you're fascinated by the blend of GPT and app development
+show your support.
+Hit the like, subscribe and share your thoughts in the comments below.
+Thanks for watching.

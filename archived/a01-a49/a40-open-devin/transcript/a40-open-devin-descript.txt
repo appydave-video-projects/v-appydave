@@ -1,0 +1,189 @@
+Last week an AI autonomous programmer was announced by Cognition. It's called Devon.
+And in the week since a bunch of open source repositories are trying to replicate that functionality.
+In this video I'm going to show you OpenDevon and how to install it.
+The back end, the front end and the Docker container.
+And then we'll talk about three different examples and the actual cost of using this product.
+Let's get straight into installing OpenDevon.
+And the way you can do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+and then just click on the code button.
+From there you'll have three different ways that you can clone it down onto your computer.
+I use the GitHub CLI tool, GH repo clone OpenDevon slash OpenDevon.
+From there I went into Visual Studio just to have a look at what we've got.
+To run this locally you're going to need a couple of runtime environments
+and on my computer I use ASDF to manage programming language versions.
+I've currently got Node and Python installed on my computer with different versions.
+And I've also got Docker.
+And if you run a Docker PS you'll see a list of containers that you've got on your computer.
+Now the one we actually need for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+Make sure you do a Docker pull on that and pull it down to your computer.
+Looking at the list of files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+and notice here that it's light gray.
+It's also listed in my gitignore because we're going to put secret information in here like API keys
+and we don't want that to be pushed up to a repo.
+We can now configure a large language model to use with OpenDevon
+and I've decided I want to use OpenAI so I've headed over to platform.openai.com
+and gone down to the API keys, created a new one and just made a copy of it.
+From there what I can do is go over to the config.toml and just paste the value in there.
+You can also export it to your environment.
+With three installation steps, the first being the back end.
+What you need is a Python environment and from there we can do a pip install, pip-enf.
+Follow that up with a pip-enf install-v and a pip shell
+and what that will do is use the pip file that's already in the project
+to make sure that the environment matches what works with OpenDevon.
+With your environment in place, you can now use UVicon to open the back end on port 3000.
+So long as you've gone through any troubleshooting sort of issues,
+if you come back later on and you try to run this and you have errors,
+just remember that you do need to activate the shell each time before starting the server.
+Let's now look at the front-end chatbot which we will be running on port 3001 in this case
+and if you go over to your project, there will be a folder called front-end.
+You can just CD into that project and run an NPN install.
+These installations we can now start the application
+and what you'll see here are a couple of terminals where on the left I've got the Python back end running
+and on the right I've got the Node.js front-end running
+and you can see that it's running on port 3001.
+Now before you write any prompts to create some code,
+we do need to configure and make sure everything is working with the Docker container.
+What you can do is start the application as normal,
+run a Docker PS and you will see no containers listed
+but the moment you start running an actual prompt to generate code, it will reach out
+and from there you should be able to do a Docker PS.
+You'll see the OpenDevern sandbox running.
+Let's look at the example application that I wanted to create with OpenDevern.
+Now recently I've been playing around with YouTube automation agents,
+what I would call an army of workers and I've been doing that using CrewAI
+and what I was looking for was if the agents are running in the background,
+how can I communicate with them from the front-end and what technology would I pick
+and I thought let's try and create an AstroJS application using OpenDevern.
+Getting over to the OpenDevern workspace,
+we can select a large language model to work with.
+I'm using OpenAI so I'll go with GPT-4
+and from there we just need to write a prompt.
+Now the prompt I had was install a new AstroJS project named FlyVideo,
+use Tailwind CSS and create a simple home page
+for a SAS application for YouTube automation.
+So I started running NPN Create Astro at latest with the parameters
+that make sense for the project that I'm creating
+and then starting to install NodeJS dependencies.
+One of the things it did do was use the workspace variable
+to create a new workspace folder within the project that is OpenDevern.
+After that it started running and I noticed it was running for a little while
+and didn't seem to be working, I wasn't sure what was going on.
+I didn't actually investigate the issue too deeply that it couldn't install AstroJS
+and what I did was make a bit of a clumsy mistake of thinking
+that this was all running locally on my computer
+because I've been using CrewAI where a lot of the Python work is local
+and part of your local environment.
+So I gave it this prompt saying I'm using ASDF, I'm using Node20,
+can you do an installation doing that and I tried to do that and it failed
+because what was going on was this is all running in a Docker container
+and the Docker container hasn't got ASDF installed.
+It should have worked but I couldn't figure out what was going on initially.
+What this led to was a thought of is this costing me any money at the moment
+and what I found out was that five minutes of playing around with this
+had cost me $4.23 in open AI credits and I hadn't achieved anything at this point.
+So I made a decision just to abandon this and go to a simpler solution
+just using HTML pages.
+Moving on to example number two which was just to set up a simple HTML page
+around this YouTube automation army.
+What I did was developed a fairly complex prompt
+where I was talking about this agent framework
+where transcripts from YouTube videos could be processed by different agents.
+I needed a couple of fields, the title of the video, the transcript,
+a list of agents that I would like to work with
+and a simple start button.
+When the start button runs the agents would run
+and there'd be events coming back
+and hopefully a bunch of results from the agents.
+With that all in place I just pasted it straight into OpenDevon
+and let's see what happens.
+OpenDevon started running the new task
+and it runs an LS command on the workspace folder
+and it figures out that there's no files there
+and you can see that it's empty here.
+From here it then moves on to a planner
+and starts writing some code for you.
+OpenDevon is going to show you the code in a terminal here
+and also tell you what it did.
+So this current version of FlowVideo page has a transcripted title
+it's also got an agent selection list and a start button.
+After that it started going into a couple of errors.
+I wondered what this was doing and this just kept going on.
+If you go and look at the terminal
+you can see that there's big prompts being sent
+and this is step 12 at the moment
+and that got me thinking is this costing me money?
+I went over to the costing
+and saw that 92 cents had been consumed at this point.
+What did we get for it? We got this HTML page.
+You can see the form here
+and it tells us the information that it's got going on.
+Now normally with a page being created like this
+what you would want to do is go down to the bottom
+and type in a new prompt
+but I just stopped the server at that stage
+because something wasn't working
+and we were in a repeating loop that could be quite expensive.
+The last example is a continuation.
+It's updating the page
+but what makes it a little bit different
+is that in the past we had a workspace with no files
+so it knows how to create new applications.
+In this case there are files
+so it can assume that it's just taking the work that's there
+and updating it further.
+Tape the prompt that we had before
+I just made a couple of modifications to the text.
+I said I've already created the HTML page
+and I told it what sections had gone right.
+I just added in down below
+where I'd already had this information
+told it this is the next section
+that I want you to add into the system.
+Now what it's done is said
+OpenDevon is starting the new task
+of reading in the index.html in the workspace
+and it's figured out that it needs to create
+an event log and a GPT output sections.
+What it does is try to work with a file
+in a sub-direction called workspace
+and that was a bit of an error
+but it self-corrected
+with now editing the workspace
+slash index.html.
+We've got a bunch of HTML
+the first section being the event log is a table
+the second section GPT output
+is a couple of rows just showing some JSON.
+We look at the old form
+and the new form is now added
+event log and the GPT output.
+If we look at the costing for this
+we can see that cost 36 cents
+and it was quite successful.
+For evaluating whether this is a good product to use
+we need to look at the costs.
+So how much did this cost
+and for me the first project
+which was a bit of a failure the AstroJS
+cost me $4.23
+and I never got an output that satisfied me.
+The second one was a success
+but then it went into a little bit of an infinite loop
+and I stopped it at 92 cents.
+The third one worked
+there was one error during the process
+but it self recovered and that cost me 36 cents
+so all up this was a $5.50
+using OpenAI GPT for credits.
+OpenDevon is very promising
+but it needs to be guided at the moment
+otherwise you could incur some big costs.
+I look forward to seeing what they're going to do
+with this over the next few weeks
+it could be a worthy contender
+and alternative to DevonAI.
+I'm Appy Dave.
+If you like videos on chat GPT
+coding with GPT or prompt engineering
+then like and subscribe
+and I'll see you in the next video.

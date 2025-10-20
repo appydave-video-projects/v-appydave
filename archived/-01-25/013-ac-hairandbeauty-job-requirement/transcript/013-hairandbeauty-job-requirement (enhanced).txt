@@ -1,0 +1,222 @@
+The purpose of this session is to use a combination of MindMeister and your website
+to relay requirements through to Gene. Is that correct?
+Yeah, basically, yes. Because I was trying to write out what I wanted her to change on my website.
+I was handwriting it and you were saying no, you just blame her.
+The website.
+She's about to come on in. Hi Gene.
+Hello Gene.
+Hi. Hello everyone. Hi David. Hi Sir Harry.
+How are you?
+Doing good.
+So I got to give you some context of what we're doing today, Gene.
+I'm bringing you involved into this because I think it's good for you to understand this process as well, okay?
+Okay.
+I've had the development over here and what we're going to change this to 26 of Gene requirements.
+And what we're going to be doing with this mind map is giving a list of tasks or actions
+for you, Gene, to do. So they'll be listed like this. Action number one.
+Then there'll be action number two. And if there are sub points, A, B, C, X, Y, Z.
+What you've got as capability within MindMeister is the ability to add emojis.
+So if we go over to this little emoji button over here on the right.
+So you click on the emoji button here and then you click the emoji here.
+And I like to use the green, the orange and the black.
+What I'm trying to convey here is that this action has not been done or maybe you've got
+another rule that you want for black. This action has been done.
+This action is partially done. And maybe we can from a sub action go,
+this one is done, but this one is not done. Okay.
+Why I like this as a technique is that it's like a project management tool.
+It's very visual in nature. It's not good for bigger projects,
+but it's very good for a task-oriented set of steps that we want to do through the week.
+Then the second thing that we want to do is, and we'll pop this over on the left, I think,
+is we'll have visual definition of what we want to work through.
+So let's just shrink that down a little bit. How do I go into the admin at slash WP admin,
+is it? Yep, correct.
+That's a WordPress site. Though that was actually incorrect, I'm going to press
+escape because we are really only interested in the signed in user view of things.
+So if I'm a signed in user, how do I see my profile right?
+Okay. If you are a signed in user, you can go to the dashboard.
+So I'm clicking on my dashboard.
+Yes. And then you can either, yep, that's all the profile that you have.
+You can either go to that or customize my account where you can see your name.
+Cool. So what we're really trying to do here, though, is that Harry has some requirements
+that he wants to communicate to you about things to do. So now it's over to Harry.
+If I was on this particular screen, I'm signed in as John Reid. I'll just ask Gene,
+is John Reid a major account or a sub account?
+It is a master or a major account.
+Harry, when you looked at this screen, is there anything wrong with this particular page?
+It's not what I would have picked. I haven't really analyzed it. That's what you get.
+And I didn't know you could change things.
+What would you like to change? It's obviously not this page. So what's something else that you
+would like to change? The About Us page was one of the pages I was going to talk to Gene about
+later on. I'm going to do another one while we're here because I just see this as being an issue.
+Now, let's say the page we want to change and I like to copy the URL. So I've gone up here
+to the address bar. I've selected all the text and I might say something like dashboard
+because that's where we're at. And we might step back a bit and say we are in as a master account.
+So this is giving us context. Are we a master account? Are we a sub account? Are we an administrator
+of the system? So we'll say master account and then we'll go dashboard. And then I'll just paste
+that link that I copied over here. And what that means is that if Gene or if another user is
+looking at these tasks, they can quickly go to the page that you are seeing. So this is Harry's
+point of view. This is Gene's point of view. And Harry would like her to work on the dashboard.
+So she just comes here and clicks on this link. And suddenly the page that he's talking about
+is actually available for her to do a change on. Then what happens is Harry says, I don't
+like that the menu has wrapped down onto a second line. Harry might say issue with menu on narrow
+display. There can be various ways this problem can be fixed. The normal one with web design
+is HTML hamburgers. I'm not expecting you to remember this, but let's just see what they are
+for now. And a hamburger menu is when you see those three little slashes. But the thing is
+Harry likes had to you need a hamburger when menu is too wide. And you go, okay, that's on the
+dashboard. The reality is that this is not just about the dashboard. This would be every page
+where the menu happens. So I've just made that minor change. I'm not suggesting you do this.
+This is about training for both of you on how we start setting up our sitemap, going to different
+pages, documenting them as a node in the mind map. We've just a little bit of brief information
+about what we would like to do. We have a hyperlink in the form of that little
+attachment icon so that when you're giving the mind map to someone else, they can easily navigate
+to the concept inquiry. And a bit later, we'll show how we would record a video for this so that
+we deliver the requirement or the action plan for the week in a simple video of this as well.
+Coming back to you, Harry, what was the page you wanted me to go to? You wanted me to go to the
+about us page. Okay, we're now on the about us page. So the next thing I do from the must
+account point of view or from the website point of view, because something like the about us
+is not related to an account. So this might be just general. Okay, so general, we have about us.
+I like to come up here and grab the URL, paste it in so that the person that you're giving the
+information to can easily come over here and just open up that website from the mind map.
+You're going to give me just some brief understanding of what is wrong with this page.
+Okay, there's a section there about the sellers. Now, I just can't see keep scrolling down a bit.
+No, no, it's keep scrolling down a bit there. Just slow down, just slow down there. Oh, yeah,
+the reason why sellers prefer here in beauty sellers where it's got the three lines there,
+to reposition it says lowest price to list for sale. I want that to be the second line and only
+here in beauty sellers listed as the first line. Where you were just there now, that's reasons why
+sellers prefer here in beauty sellers. The first slide read lowest price to list for sale. I want
+that to be the second line. And the first line will read only here in beauty sellers listed.
+Okay, we've never had that there. If we verbally tell someone this, that might be enough.
+I changed the copy once I started to read it in detail.
+Okay. So what I'm going to do is say, I'm just going to say reasons why sellers just for now,
+but I'm not going to do the whole thing. That's not needed. It's just a bit of a guide. This is
+something that Jean needs to go and change. We're going to say arrange the lines, add in,
+maybe we can just say new text. Tell me exactly what you'd like there, Harry.
+The first line was going to read only here in beauty sellers listed.
+The second line was going to read lowest price to list for sale.
+The third line was going to read quick contact between buyer and seller.
+Now, what I'm doing in the mind map here, I personally wouldn't have done it this way.
+I don't know whether you've written it onto a paper note or whether you've got it in a Google
+doc. But let's say it was a Google doc, I might actually take that text and put it into a Google
+doc because it's really easy to share with Jean that way. I think for the example, we'll do that.
+So we just go over to dots.google, create a new document. We might call the document the same
+as what we've done on the mind map. So we'll say June 26 changes, something like that.
+We might go back and just say about us. So that's the page we're going to affect.
+Is Google doc the equivalent to Microsoft Word?
+It is. But what I like about Google doc is it's so easy to share a document online
+and have it really collaborative and it's free. No one needs to pay for it.
+I haven't used Word for many years now. So maybe a lot of these features are in there.
+And I don't mind if you use Microsoft Word, use whatever you like. So long as it's a document
+system that's collaborative and free for the people that you're working with. So about us,
+reason why sellers and we can come back here. I'm going to copy these over into that document.
+As I said to you before, you probably don't need to write this into the mind map at all.
+It's just easier when it's just copied to put it straight into here.
+We just take the stuff that mattered. The reason also that I like to deliver it this way rather
+than say a screenshot or images or anything like that is that you can check your spelling.
+So here's a great example. The spelling is wrong. You can check it, Harry.
+You can make sure that the content is what you want it to say. If you don't want it to have
+capital all the way through, you can change it. You can do whatever you want.
+I live here and beauty sellers listed. Maybe you want a capital L. I don't know.
+But the good thing is that the person doing the work or they've got to do is come and copy it
+and paste it into the appropriate spot on the website.
+Another thing we can then do here is we'll click the share button because we do need to make this
+document available. We hit share and we will maybe it's anyone with a link would be fine.
+Are they a viewer or are they editing it? In this case, it could be either whatever you like.
+We make a copy of that link. We're going to need to give that
+to the person getting the requirements. So reasons why sellers we can maybe get rid of that
+and say here's the details and paste in the link. So now we've got that link.
+Let's make this a video task. Often I would do one video for everything that we're going to do,
+but I'm going to keep this very actionable items that can be checked off for now. Let's start up
+loom, hit start recording and select the area of the page that we're interested. And so
+Hi, Gene. This is the first item I want you to do. It's just a general purpose item
+on the about us page. You can see the about us page here. I've put a hyperlink in it for you.
+What I need you to do is go down to the reason why sellers and if you scroll down the about us page,
+you can see it right there. And I need you to do a bit of line arrangement rearrangement for me,
+please. What I need is for this line to be on the second line. Actually, when I look at this text,
+I realize that some of this text is not right. So what I've done is I've given you also a link
+to a little Word document here or a Google dot. And can you just make sure that these three lines
+in this order, say these words. Thank you.
+There we've got the first task. Yeah, we get the first task as a one minute video. Now,
+once you get good at this, it shouldn't take you more than a few minutes to create each task.
+Harry, and they're very actionable now. So let's just hit play. I've got it on two times five
+speed. So this is going to go very fast. We'll hit play. Hi, Gene. This is the first item I want you
+to do. It's just a general purpose item on the about us page. You can see the about us page.
+You see what it is. So now the next thing that we can do is take that link and we can come back
+to our mind map. So to do, just paste a link it. There we go. We're done. So let's go and move on
+to the next task that we would like to assign for the week. If we back up one point, I love
+using the mind map as an organization tool. But it might still be smarter to use a project
+management tool with the same hyperlinks. You still do the word document, you still do the loom,
+but you put everything as tasks in a project management tool, flick up or whatever you want.
+If you're not to the level where you're using a project management tool yet,
+the mind map is just a very simple solution. Is there anything else on the about us page
+that needs to change Harry? If it was a buyer section where it wouldn't cut reasons why buyers.
+Buyers, you got reason why buyers prefer and there were the three lines that are there now.
+I wanted to change them. The first one was going to read only here a few sounds come
+all in one place. Hold on one sec. I'm going to go back to our document here and say reasons
+why buyers only here and busy salons come all in one place.
+Yeah, yeah, after salons. Great. Next slide. Direct contact between all parties.
+Next slide. A salons available for real Australia. Make that Australia wide.
+What I do here now that we've got that we'll go back to our reasons why buyers and to do remember
+was a loom. So maybe you say that loom. We can take a copy of the details that we did there
+and we can just reuse them again. So that's fine. Or you just say all the details are here.
+The good thing about a mind map is that I can delete and move stuff around. If I see I've got
+the same information twice, I don't have to repeat it twice. I just move it to a higher level node
+and go that's on its own. There's the details. When Jean clicks on it,
+she now says the stuff about reasons why buyers and she says the stuff about reasons why sellers
+and the stuff for reasons why buyers. They're both there. Now we go and create another to do.
+So we go to do or we just say loom. She'll know exactly what we mean when we do this
+and we'll record a new loom. Flick up here, press custom size, select it, hit start recording.
+Jean the second action that I would like you to work on is reasons for buyers. Now if you go to
+the about us page, you can find it down here on the right and we really just need to change this
+text here. You can just replace it with the text that I've already written for you. Thank you.
+Now we've got a 22 second video that Jean can watch. We just go and make sure we've got a copy
+of the hyperlink right there. Go back to this node loom and we paste it in. Now you can just
+keep going after that. And so when Jean has finished an action, let's say she's made a change to that.
+If this was a project management tool, she would say done and you would receive an email. So that
+might be might still be the best way for you to go if you're ready to start using PM software.
+But if you're not, she just says to come up here and go, I'm done. Then all you do Jean is in Skype
+or whatever till you're using to communicate. So I've done those actions. Harry can go and look at
+it. And then he's got the same links. He doesn't need to remember how to get to the about us page.
+He doesn't need to remember how to get to the loom video because he can just click on them as well.
+Does that seem like a workable communication tool for getting tasks done that you could use,
+Harry? Or is it a little bit too complex? There's just a learning curve going on here,
+but I think it'd be good because when I'm trying to dictate to Jean what to do,
+it's really time consuming. Whereas I can see I can do this and then send it to her and then she
+can do it around a leisure without me rabbiting in your bag here. What's happened? I think that
+it's worthwhile cursive area with to see if we can make it work. What do you reckon, Jean?
+Yeah, I think it tells us a great idea to get this by this way. We can have records of the tasks
+that we are doing. For example, in the future, we thought of, oh, did you do this before? I can
+just show you some records that we have done it before. I think the way you move things around
+so quickly, I can follow where it's going. It'll just be us learning the jargon and that resolves
+going through the finish this afternoon. I just wondered how long it was going to take,
+because we want to adjust all our listings to Sanadel and make sure they're accurate.
+It would be easier for me to just type what I want on that moister and then June can actually
+work on the directories pro because you've got a position stuff and put it in the right
+field and all those sort of things that take time and you've got to adjust the margins and what have
+you. Oh, I'm going to say, you don't even need to go down the complexity of the my master. It's a
+good way of ordering your thoughts and thinking about things. So long as you're capturing the
+details that you want and a visual of where it is and the leaks, the other technique is you just
+go into the Skype window that Jean is using and you just say, I personally would go and change
+the title up here to make sure it's clear. Lune comes up with a title, but it's not always clear.
+But then you take the URL, you say, there's your first task, Jean.
+There's your second task. Okay, you don't need to use a project management tool. You don't need
+to use a mind map, but they are obviously good ways for you to have a record and audit log
+of what's done, what's not done, and to have comment streams and stuff like that.
+One thing I've picked up here straight away that rather than me handwrite this stuff,
+I spent some time letting it type a bit more efficiently and then used a Google Doc or a Word
+document, then it's easier to transcribe that stuff to Jean's pretty much straight away.
+Let me show you a second way of doing it, right? If you're in this document, this is Google Docs,
+right? You go to tools, you turn on voice typing, say, hello, Jean, comma, today I would like you
+to do all the work really quickly, artificially, blah, blah, blah. Hit stop. Why even type it?
+I know she's been doing some sneaky things like that.
+Yeah, she's not teaching me. Do we need to talk about anything else or is this good?
+Oh, look, it's great, Jean, and I'll just sort it out. I'm looking forward to coming up
+there, Jean, more than ever now, because we could just get in the back room somewhere and just
+set the brains out. Yeah, yeah, yeah, correct.
+Both of you, if you start documenting your best practices this way,
+it means that you can expand your team. When you do something, Jean, and you think this is
+something that I need to remember to do in the future, you probably do that and you don't document
+it. It's so simple to document these things that if you bring on another team member, you can just
+say, see this mind map of our best practices, can you go through it? And I've got little videos to
+tell you about each best practice. This has a great tool for that. David, that's invaluable.
+Well, I've seen it. It's amazing. But I don't know what else to say. It's good stuff. It's just
+learning it. No worries. Thank you so much, David.

@@ -1,0 +1,555 @@
+1
+00:00:00,00 --> 00:00:05,500
+In the last video we used Cursor AI to create documentation for this project called 
+
+2
+00:00:05,500 --> 00:00:10,530
+cmdlet. Now at the end of that process, we had an extensive documentation system 
+
+3
+00:00:10,530 --> 00:00:15,780
+that included a whole lot of code examples, which will be really useful for any AI 
+
+4
+00:00:15,820 --> 00:00:21,600
+pair programmer. Now in this video we want to look at Handlebars.js, and in particular, 
+
+5
+00:00:21,640 --> 00:00:26,410
+let's fix up the documentation that's missing from this internal project of mine. 
+
+6
+00:00:26,410 --> 00:00:32,170
+So today I thought we'd use ChatGPT canvas, see if it does as good a job or maybe 
+
+7
+00:00:32,170 --> 00:00:36,600
+even a better job. I'm AppyDave. Please like and subscribe and let's get into it.
+
+8
+00:00:36,630 --> 00:00:42,400
+So I've come over to ChatGPT and what I'm going to do is select the new canvas model. 
+
+9
+00:00:42,430 --> 00:00:46,960
+Now this is designed for writing code, not for writing documentation. So I'm not 
+
+10
+00:00:46,960 --> 00:00:51,460
+even sure how well this is going to work. But what I do know is that in the last 
+
+11
+00:00:51,460 --> 00:00:57,310
+video, when we were creating the documentation for this Commandlet tool, it ran into 
+
+12
+00:00:57,310 --> 00:01:03,850
+a few problems, and the nature of the problems happened to be how ChatGPT and different 
+
+13
+00:01:03,850 --> 00:01:09,730
+systems like this work with code examples. So if you look at this markdown document 
+
+14
+00:01:09,730 --> 00:01:13,990
+where we've got level two headings, we've got some text going on. We've got a little 
+
+15
+00:01:13,990 --> 00:01:19,450
+command showing up inside of ticks. The moment it gets to a triple tick like this, 
+
+16
+00:01:19,450 --> 00:01:25,930
+which is what we use when we want to show different formats of code. This was breaking 
+
+17
+00:01:25,930 --> 00:01:31,600
+the formatting within the chat window within Cursor AI now what I'm hoping I can 
+
+18
+00:01:31,600 --> 00:01:38,380
+do is use GPT canvas and let it think of the document that it's building as just 
+
+19
+00:01:38,380 --> 00:01:43,690
+a markdown document, of which there is a combination of markdown and code in it.
+
+20
+00:01:43,700 --> 00:01:48,140
+let's start writing a prompt and what we'll start off with is I'm going to give you 
+
+21
+00:01:48,140 --> 00:01:53,60
+a raw markdown document. You will be helping me create a new markdown document for 
+
+22
+00:01:53,360 --> 00:01:58,460
+a different project. What you need to focus on is, number one, good clear documentation 
+
+23
+00:01:58,460 --> 00:02:03,770
+for the new project. And number two, formatting markdown with code blocks correctly. 
+
+24
+00:02:03,800 --> 00:02:05,660
+Note that the code examples 
+
+25
+00:02:05,390 --> 00:02:10,450
+which we will be working with in the new project will either be ruby blocks or handlebars 
+
+26
+00:02:10,480 --> 00:02:11,800
+JS blocks.
+
+27
+00:02:11,830 --> 00:02:16,960
+So we'll go over to our other project here and we'll click on code and this gives 
+
+28
+00:02:16,960 --> 00:02:18,370
+us a raw format. 
+
+29
+00:02:18,390 --> 00:02:23,310
+what we can do is press the copy button here, come back and we'll paste it in. 
+
+30
+00:02:23,330 --> 00:02:27,460
+let's just see what ChatGPT canvas can do with this. 
+
+31
+00:02:27,460 --> 00:02:32,770
+firstly, this is already a whole lot better than what Cursor AI was doing in that 
+
+32
+00:02:32,770 --> 00:02:39,940
+we don't see these breaks in the code flow from markdown, which is all this stuff 
+
+33
+00:02:39,940 --> 00:02:44,140
+here versus the actual code snippets that are being shown.
+
+34
+00:02:44,160 --> 00:02:48,480
+Now, if we come over to the left here, we've got a chat that says, it seems like 
+
+35
+00:02:48,480 --> 00:02:53,130
+you want a new document for a different project that still focuses on good documentation. 
+
+36
+00:02:53,130 --> 00:02:58,350
+It wants to do formatting for ruby and handlebars examples, and we can start doing 
+
+37
+00:02:58,350 --> 00:03:03,930
+a chat in the left. I'll say, I want you to give me an outline, and I'm going to 
+
+38
+00:03:03,120 --> 00:03:07,770
+give it a bunch of files, and I want it to just stick to the heading one, heading 
+
+39
+00:03:07,800 --> 00:03:13,320
+two, heading three. So we'll say here is the existing outline. And we're going to 
+
+40
+00:03:13,320 --> 00:03:14,550
+have to go and get that.
+
+41
+00:03:14,560 --> 00:03:19,810
+let's figure out what files we want. Now the Handlebars.js project has a library 
+
+42
+00:03:19,840 --> 00:03:25,660
+folder, and it also has a unit test folder. And under this we have what are called 
+
+43
+00:03:25,660 --> 00:03:30,850
+helpers. And the helpers are really just handlebars helpers that are hooked up to 
+
+44
+00:03:30,880 --> 00:03:35,740
+the cmdlets that we looked at in the previous project. So there'll be things for 
+
+45
+00:03:35,740 --> 00:03:41,770
+case transformation, like turning text into a constant format, or a title or a dash 
+
+46
+00:03:41,770 --> 00:03:46,720
+notation. So we know where we can find the structure. It should be there. There are 
+
+47
+00:03:46,720 --> 00:03:51,640
+probably other information that might be useful for the documentation in this particular 
+
+48
+00:03:51,640 --> 00:03:57,520
+area. We would call that configuration or setup. And as for examples there should 
+
+49
+00:03:57,520 --> 00:04:02,440
+be examples down in the unit test. So if we go to the unit test and we open up here, 
+
+50
+00:04:02,440 --> 00:04:08,170
+we'll go and have a look at the inflection and maybe look at the pluralization. And 
+
+51
+00:04:08,170 --> 00:04:14,110
+we can see how it could be used in handlebars and the sort of output that should 
+
+52
+00:04:14,110 --> 00:04:14,980
+come from it. 
+
+53
+00:04:14,990 --> 00:04:19,620
+So what I'll do is go into a terminal and I'll run a little tool, and it's called 
+
+54
+00:04:19,620 --> 00:04:24,720
+GPT context. And what it's going to do is capture the files. And we can just see 
+
+55
+00:04:24,720 --> 00:04:30,330
+that if I go straight into a text area and paste it, it's also in my clipboard.
+
+56
+00:04:30,360 --> 00:04:35,400
+We will go back to the chat window and we'll paste that information in there as well. 
+
+57
+00:04:35,400 --> 00:04:40,830
+Let's just check it's all in place. It is. We'll press go. And from that prompt, 
+
+58
+00:04:40,830 --> 00:04:46,590
+what I'm hoping we'll get is a new markdown document that's really only focusing 
+
+59
+00:04:46,590 --> 00:04:47,940
+on the structure. 
+
+60
+00:04:47,960 --> 00:04:54,430
+information is coming through. It's trying to do some configuration which is a little 
+
+61
+00:04:54,460 --> 00:04:57,730
+odd because I haven't given it any information just yet.
+
+62
+00:04:57,760 --> 00:05:03,170
+Now when I look through this, it's done some things correctly, but it's missed part 
+
+63
+00:05:03,170 --> 00:05:08,390
+of the prompt that I stated. So the first thing we look at is the helpers. I've got 
+
+64
+00:05:08,210 --> 00:05:13,460
+at least six different helper groups. There's only three listed here. It's also giving 
+
+65
+00:05:13,460 --> 00:05:17,240
+installation and configuration, but we've not given it any information to work with 
+
+66
+00:05:17,270 --> 00:05:22,220
+yet. And while the examples all look like handlebars, again, we haven't given any 
+
+67
+00:05:22,220 --> 00:05:27,260
+examples for it to work from. The only thing that feels quite correct is this file 
+
+68
+00:05:27,260 --> 00:05:28,730
+structure down the bottom. 
+
+69
+00:05:28,490 --> 00:05:31,170
+So let's just write a correction prompt here. 
+
+70
+00:05:31,190 --> 00:05:36,100
+You went and included details which will be incorrect because I haven't given any 
+
+71
+00:05:36,100 --> 00:05:42,760
+information yet. You don't know how it's configured and there's no examples. Then 
+
+72
+00:05:42,760 --> 00:05:47,740
+we say you are only meant to write an outline in headings like level one, two and 
+
+73
+00:05:47,740 --> 00:05:49,840
+three would be good from my point of view. 
+
+74
+00:05:49,730 --> 00:05:54,950
+You also only wrote three helper groups in the table of contents. There are six in 
+
+75
+00:05:54,950 --> 00:06:00,140
+the structure, so I'm just letting it know that the old markdown document was for 
+
+76
+00:06:00,140 --> 00:06:03,380
+style guidelines, not for informational purposes. 
+
+77
+00:06:03,390 --> 00:06:08,720
+we'll press go on that and let's see what it comes up with. So we've got handlebars 
+
+78
+00:06:08,720 --> 00:06:13,370
+and Ruby Helper documentation guide. That title won't be quite correct but that's 
+
+79
+00:06:13,370 --> 00:06:19,520
+okay. We've got a good table of contents. Now we've got a file structure. This is 
+
+80
+00:06:19,520 --> 00:06:20,600
+looking perfect.
+
+81
+00:06:20,630 --> 00:06:24,690
+let's go and fill out some of the documentation. And I think the area I want to focus 
+
+82
+00:06:24,690 --> 00:06:30,330
+on is just here. So we can start writing a prompt. And the prompt will go with is 
+
+83
+00:06:30,330 --> 00:06:36,630
+I'll give you an example code from the root of the application. And we're just looking 
+
+84
+00:06:36,630 --> 00:06:40,590
+for it to figure out from that code. Introduction configuration and setup.
+
+85
+00:06:40,590 --> 00:06:45,370
+Coming back to VS code, what we can do is click on the lib folder. We've got the 
+
+86
+00:06:45,370 --> 00:06:50,830
+handlebars and I believe these are the files we probably want. So I'll go into a 
+
+87
+00:06:50,830 --> 00:06:56,110
+terminal and I'll put in this command that I've got called GPT context. And we're 
+
+88
+00:06:56,110 --> 00:07:00,910
+only looking for the files in that particular folder. And there they are listed here. 
+
+89
+00:07:00,940 --> 00:07:05,890
+Now if we just paste that in you can see it's in the clipboard. But we can just change 
+
+90
+00:07:05,890 --> 00:07:11,830
+this command slightly. What we'll do is get the format of tree turned off. And what 
+
+91
+00:07:11,830 --> 00:07:17,260
+it will now do when it finishes is give us all the code. So now what we've got is 
+
+92
+00:07:17,260 --> 00:07:22,240
+the tree structure that is definitely put in each time, plus the file name related 
+
+93
+00:07:22,240 --> 00:07:27,910
+to each system. We've got code and as we move down we've got the next one. So what 
+
+94
+00:07:27,910 --> 00:07:33,550
+that means is if we go back over to the web view, we should be able to just pop in 
+
+95
+00:07:33,550 --> 00:07:38,650
+over here, paste it all in. Now there'll be things in here like the version which 
+
+96
+00:07:38,650 --> 00:07:43,90
+isn't relevant. So hopefully it doesn't fill that particular information in. But 
+
+97
+00:07:43,90 --> 00:07:48,100
+now we've got an introduction. We've got installation handlebars helpers. That's 
+
+98
+00:07:48,100 --> 00:07:54,850
+not actually correct. It should be handlebars JS and I can change that later. It's 
+
+99
+00:07:54,850 --> 00:08:00,310
+now started to fill in information, which it feels like it might have missed the 
+
+100
+00:08:00,310 --> 00:08:03,670
+point a little bit though. This area looks pretty good, 
+
+101
+00:08:03,690 --> 00:08:07,750
+Now it's got a couple of mistakes. I've just started a prompt. Please correct these 
+
+102
+00:08:07,750 --> 00:08:13,420
+mistakes. So the first thing that I can see here is that this is not handlebars helpers, 
+
+103
+00:08:13,450 --> 00:08:20,410
+it's actually handlebars JS the configuration. I'm hesitant to include this because 
+
+104
+00:08:20,410 --> 00:08:25,210
+it didn't get it totally from the information I gave, but I might leave it for now. 
+
+105
+00:08:25,210 --> 00:08:30,400
+But the actual helpers. This is a bit of a problem, so we'll just change this and 
+
+106
+00:08:30,400 --> 00:08:35,170
+we'll say I never gave you any example helpers. I shouldn't see any usage. And the 
+
+107
+00:08:35,170 --> 00:08:40,870
+gem is not called handlebars helpers, it's called handlebars.js. So we'll run that. 
+
+108
+00:08:40,870 --> 00:08:41,950
+And the way 
+
+109
+00:08:41,960 --> 00:08:46,100
+it rewrites everything from the top, and that can be a little bit slow, but it's 
+
+110
+00:08:46,100 --> 00:08:51,830
+still incredibly fast compared to previous versions of ChatGPT, and it's a lot more 
+
+111
+00:08:51,830 --> 00:08:57,530
+accurate than Cursor I, so I do like that, so we'll leave that for what it is. We've 
+
+112
+00:08:57,530 --> 00:09:01,850
+got some helpers, we've got some registration, we've got some troubleshooting, we've 
+
+113
+00:09:01,850 --> 00:09:05,330
+got contributing and we've got the file structure. 
+
+114
+00:09:05,330 --> 00:09:10,290
+What I'd like to do now is fill out the usage instructions. So if we go to the table 
+
+115
+00:09:10,290 --> 00:09:14,430
+of contents, we've got available helpers. We've got all our different categories. 
+
+116
+00:09:14,460 --> 00:09:18,420
+Looks like we've got string helpers twice there. Not sure what's going on there. 
+
+117
+00:09:18,420 --> 00:09:24,60
+And I think if we head over to the message box we'll go with the prompt. Can you 
+
+118
+00:09:24,360 --> 00:09:28,980
+work through the following unit tests and write down the instructions in the markdown 
+
+119
+00:09:28,980 --> 00:09:30,780
+document under available helpers. 
+
+120
+00:09:30,790 --> 00:09:33,480
+we're trying to go into this section right here. 
+
+121
+00:09:33,500 --> 00:09:39,300
+what it should focus on is 1 or 2 usage examples for each helper. I know from the 
+
+122
+00:09:39,300 --> 00:09:45,610
+unit tests that there may be more than one data scenario with each of these, so we'll 
+
+123
+00:09:45,610 --> 00:09:46,920
+see what it comes up with.
+
+124
+00:09:46,930 --> 00:09:52,320
+Now we'll come back to VS code. We'll go over to the spec folder and let's go have 
+
+125
+00:09:52,320 --> 00:09:58,140
+a look at join. So here we've got the values of one, two and three being joined together. 
+
+126
+00:09:58,170 --> 00:10:03,420
+Now by default if you do join and values it'll be one comma two comma three. If you 
+
+127
+00:10:03,420 --> 00:10:09,480
+provide a separator it'll be one pipe to pipe three. So these are the sort of usage 
+
+128
+00:10:09,510 --> 00:10:13,920
+examples that we want to see. So we'll close that down. We'll go into our terminal 
+
+129
+00:10:13,920 --> 00:10:18,510
+and we'll use our command. And this time we're looking for the files that are in 
+
+130
+00:10:18,510 --> 00:10:23,820
+the spec folder. And they're all listed here. Now if we just change this command 
+
+131
+00:10:23,820 --> 00:10:29,910
+a little bit and we'll get rid of the format, we've now got the code as well.
+
+132
+00:10:29,930 --> 00:10:36,760
+And from there we should be able to go over to ChatGPT canvas and paste it in. 
+
+133
+00:10:36,760 --> 00:10:41,260
+based on that prompt, that's a lot of information coming through. So maybe there'll 
+
+134
+00:10:41,290 --> 00:10:45,820
+be some mistakes. We've got our installation, we've got our configuration coming 
+
+135
+00:10:45,820 --> 00:10:48,130
+through, and now we've got 
+
+136
+00:10:48,00 --> 00:10:55,630
+available helpers. So the safe one with a value input hello name world output hello 
+
+137
+00:10:55,670 --> 00:10:56,500
+name world. 
+
+138
+00:10:56,530 --> 00:10:59,990
+if we look at our join that we were just looking at we've got values. 
+
+139
+00:10:59,730 --> 00:11:05,940
+Input values are one two, three. Join with a pipe. Should be 123.

@@ -1,0 +1,5236 @@
+1
+00:00:02,980 --> 00:00:03,540
+<u>Hello,</u> how are you doing?
+
+2
+00:00:03,540 --> 00:00:04,060
+Hello, how are you doing?
+
+3
+00:00:04,060 --> 00:00:04,220
+Hello,<u> how</u> are you doing?
+
+4
+00:00:04,220 --> 00:00:04,300
+Hello, how<u> are</u> you doing?
+
+5
+00:00:04,300 --> 00:00:04,480
+Hello, how are<u> you</u> doing?
+
+6
+00:00:04,480 --> 00:00:04,580
+Hello, how are you<u> doing?</u>
+
+7
+00:00:05,200 --> 00:00:05,420
+<u>I'm</u> good.
+
+8
+00:00:05,420 --> 00:00:05,700
+I'm<u> good.</u>
+
+9
+00:00:06,040 --> 00:00:06,320
+<u>Come</u> on in.
+
+10
+00:00:06,320 --> 00:00:06,520
+Come<u> on</u> in.
+
+11
+00:00:06,520 --> 00:00:06,680
+Come on<u> in.</u>
+
+12
+00:00:07,020 --> 00:00:07,220
+<u>Welcome</u> to my home and welcome to the studio that's taking up half my living room.
+
+13
+00:00:07,220 --> 00:00:07,460
+Welcome<u> to</u> my home and welcome to the studio that's taking up half my living room.
+
+14
+00:00:07,460 --> 00:00:07,660
+Welcome to<u> my</u> home and welcome to the studio that's taking up half my living room.
+
+15
+00:00:07,660 --> 00:00:08,000
+Welcome to my<u> home</u> and welcome to the studio that's taking up half my living room.
+
+16
+00:00:08,000 --> 00:00:08,520
+Welcome to my home<u> and</u> welcome to the studio that's taking up half my living room.
+
+17
+00:00:08,520 --> 00:00:08,920
+Welcome to my home and<u> welcome</u> to the studio that's taking up half my living room.
+
+18
+00:00:08,920 --> 00:00:09,200
+Welcome to my home and welcome<u> to</u> the studio that's taking up half my living room.
+
+19
+00:00:09,200 --> 00:00:09,380
+Welcome to my home and welcome to<u> the</u> studio that's taking up half my living room.
+
+20
+00:00:09,380 --> 00:00:09,820
+Welcome to my home and welcome to the<u> studio</u> that's taking up half my living room.
+
+21
+00:00:09,820 --> 00:00:10,360
+Welcome to my home and welcome to the studio<u> that's</u> taking up half my living room.
+
+22
+00:00:10,360 --> 00:00:10,720
+Welcome to my home and welcome to the studio that's<u> taking</u> up half my living room.
+
+23
+00:00:10,720 --> 00:00:10,980
+Welcome to my home and welcome to the studio that's taking<u> up</u> half my living room.
+
+24
+00:00:10,980 --> 00:00:11,240
+Welcome to my home and welcome to the studio that's taking up<u> half</u> my living room.
+
+25
+00:00:11,240 --> 00:00:11,500
+Welcome to my home and welcome to the studio that's taking up half<u> my</u> living room.
+
+26
+00:00:11,500 --> 00:00:11,720
+Welcome to my home and welcome to the studio that's taking up half my<u> living</u> room.
+
+27
+00:00:11,720 --> 00:00:12,040
+Welcome to my home and welcome to the studio that's taking up half my living<u> room.</u>
+
+28
+00:00:12,380 --> 00:00:12,580
+<u>So</u> I've just moved to Brisbane from Thailand and I've brought some of my YouTube equipment
+
+29
+00:00:12,580 --> 00:00:12,680
+So<u> I've</u> just moved to Brisbane from Thailand and I've brought some of my YouTube equipment
+
+30
+00:00:12,680 --> 00:00:12,820
+So I've<u> just</u> moved to Brisbane from Thailand and I've brought some of my YouTube equipment
+
+31
+00:00:12,820 --> 00:00:13,100
+So I've just<u> moved</u> to Brisbane from Thailand and I've brought some of my YouTube equipment
+
+32
+00:00:13,100 --> 00:00:13,320
+So I've just moved<u> to</u> Brisbane from Thailand and I've brought some of my YouTube equipment
+
+33
+00:00:13,320 --> 00:00:13,620
+So I've just moved to<u> Brisbane</u> from Thailand and I've brought some of my YouTube equipment
+
+34
+00:00:13,620 --> 00:00:14,500
+So I've just moved to Brisbane<u> from</u> Thailand and I've brought some of my YouTube equipment
+
+35
+00:00:14,500 --> 00:00:15,220
+So I've just moved to Brisbane from<u> Thailand</u> and I've brought some of my YouTube equipment
+
+36
+00:00:15,220 --> 00:00:16,100
+So I've just moved to Brisbane from Thailand<u> and</u> I've brought some of my YouTube equipment
+
+37
+00:00:16,100 --> 00:00:16,660
+So I've just moved to Brisbane from Thailand and<u> I've</u> brought some of my YouTube equipment
+
+38
+00:00:16,660 --> 00:00:16,980
+So I've just moved to Brisbane from Thailand and I've<u> brought</u> some of my YouTube equipment
+
+39
+00:00:16,980 --> 00:00:17,360
+So I've just moved to Brisbane from Thailand and I've brought<u> some</u> of my YouTube equipment
+
+40
+00:00:17,360 --> 00:00:17,500
+So I've just moved to Brisbane from Thailand and I've brought some<u> of</u> my YouTube equipment
+
+41
+00:00:17,500 --> 00:00:17,680
+So I've just moved to Brisbane from Thailand and I've brought some of<u> my</u> YouTube equipment
+
+42
+00:00:17,680 --> 00:00:17,980
+So I've just moved to Brisbane from Thailand and I've brought some of my<u> YouTube</u> equipment
+
+43
+00:00:17,980 --> 00:00:18,500
+So I've just moved to Brisbane from Thailand and I've brought some of my YouTube<u> equipment</u>
+
+44
+00:00:18,500 --> 00:00:18,760
+<u>that</u> I use for Abbey Dave and it's all set up and it's ready to go.
+
+45
+00:00:18,760 --> 00:00:18,860
+that<u> I</u> use for Abbey Dave and it's all set up and it's ready to go.
+
+46
+00:00:18,860 --> 00:00:19,060
+that I<u> use</u> for Abbey Dave and it's all set up and it's ready to go.
+
+47
+00:00:19,060 --> 00:00:19,300
+that I use<u> for</u> Abbey Dave and it's all set up and it's ready to go.
+
+48
+00:00:19,300 --> 00:00:19,620
+that I use for<u> Abbey</u> Dave and it's all set up and it's ready to go.
+
+49
+00:00:19,620 --> 00:00:19,880
+that I use for Abbey<u> Dave</u> and it's all set up and it's ready to go.
+
+50
+00:00:19,880 --> 00:00:20,740
+that I use for Abbey Dave<u> and</u> it's all set up and it's ready to go.
+
+51
+00:00:20,740 --> 00:00:21,160
+that I use for Abbey Dave and<u> it's</u> all set up and it's ready to go.
+
+52
+00:00:21,160 --> 00:00:21,380
+that I use for Abbey Dave and it's<u> all</u> set up and it's ready to go.
+
+53
+00:00:21,380 --> 00:00:21,480
+that I use for Abbey Dave and it's all<u> set</u> up and it's ready to go.
+
+54
+00:00:21,480 --> 00:00:21,680
+that I use for Abbey Dave and it's all set<u> up</u> and it's ready to go.
+
+55
+00:00:21,680 --> 00:00:21,800
+that I use for Abbey Dave and it's all set up<u> and</u> it's ready to go.
+
+56
+00:00:21,800 --> 00:00:21,960
+that I use for Abbey Dave and it's all set up and<u> it's</u> ready to go.
+
+57
+00:00:21,960 --> 00:00:22,140
+that I use for Abbey Dave and it's all set up and it's<u> ready</u> to go.
+
+58
+00:00:22,140 --> 00:00:22,300
+that I use for Abbey Dave and it's all set up and it's ready<u> to</u> go.
+
+59
+00:00:22,300 --> 00:00:22,440
+that I use for Abbey Dave and it's all set up and it's ready to<u> go.</u>
+
+60
+00:00:22,520 --> 00:00:22,740
+<u>This</u> is my lounge area, it's actually where I sit and use chat GPT from my phone whenever
+
+61
+00:00:22,740 --> 00:00:23,100
+This<u> is</u> my lounge area, it's actually where I sit and use chat GPT from my phone whenever
+
+62
+00:00:23,100 --> 00:00:23,360
+This is<u> my</u> lounge area, it's actually where I sit and use chat GPT from my phone whenever
+
+63
+00:00:23,360 --> 00:00:23,700
+This is my<u> lounge</u> area, it's actually where I sit and use chat GPT from my phone whenever
+
+64
+00:00:23,700 --> 00:00:24,020
+This is my lounge<u> area,</u> it's actually where I sit and use chat GPT from my phone whenever
+
+65
+00:00:24,020 --> 00:00:24,040
+This is my lounge area, it's actually where I sit and use chat GPT from my phone whenever
+
+66
+00:00:24,040 --> 00:00:24,380
+This is my lounge area,<u> it's</u> actually where I sit and use chat GPT from my phone whenever
+
+67
+00:00:24,380 --> 00:00:24,700
+This is my lounge area, it's<u> actually</u> where I sit and use chat GPT from my phone whenever
+
+68
+00:00:24,700 --> 00:00:25,020
+This is my lounge area, it's actually<u> where</u> I sit and use chat GPT from my phone whenever
+
+69
+00:00:25,020 --> 00:00:25,200
+This is my lounge area, it's actually where<u> I</u> sit and use chat GPT from my phone whenever
+
+70
+00:00:25,200 --> 00:00:25,540
+This is my lounge area, it's actually where I<u> sit</u> and use chat GPT from my phone whenever
+
+71
+00:00:25,540 --> 00:00:25,960
+This is my lounge area, it's actually where I sit<u> and</u> use chat GPT from my phone whenever
+
+72
+00:00:25,960 --> 00:00:26,160
+This is my lounge area, it's actually where I sit and<u> use</u> chat GPT from my phone whenever
+
+73
+00:00:26,160 --> 00:00:26,440
+This is my lounge area, it's actually where I sit and use<u> chat</u> GPT from my phone whenever
+
+74
+00:00:26,440 --> 00:00:27,080
+This is my lounge area, it's actually where I sit and use chat<u> GPT</u> from my phone whenever
+
+75
+00:00:27,080 --> 00:00:27,300
+This is my lounge area, it's actually where I sit and use chat GPT<u> from</u> my phone whenever
+
+76
+00:00:27,300 --> 00:00:27,500
+This is my lounge area, it's actually where I sit and use chat GPT from<u> my</u> phone whenever
+
+77
+00:00:27,500 --> 00:00:28,020
+This is my lounge area, it's actually where I sit and use chat GPT from my<u> phone</u> whenever
+
+78
+00:00:28,020 --> 00:00:28,540
+This is my lounge area, it's actually where I sit and use chat GPT from my phone<u> whenever</u>
+
+79
+00:00:28,540 --> 00:00:28,980
+<u>I'm</u> writing code.
+
+80
+00:00:28,980 --> 00:00:29,260
+I'm<u> writing</u> code.
+
+81
+00:00:29,260 --> 00:00:29,760
+I'm writing<u> code.</u>
+
+82
+00:00:29,760 --> 00:00:30,080
+<u>I'd</u> like to actually sit in comfort.
+
+83
+00:00:30,080 --> 00:00:30,220
+I'd<u> like</u> to actually sit in comfort.
+
+84
+00:00:30,220 --> 00:00:30,460
+I'd like<u> to</u> actually sit in comfort.
+
+85
+00:00:30,460 --> 00:00:30,940
+I'd like to<u> actually</u> sit in comfort.
+
+86
+00:00:30,940 --> 00:00:31,220
+I'd like to actually<u> sit</u> in comfort.
+
+87
+00:00:31,220 --> 00:00:31,400
+I'd like to actually sit<u> in</u> comfort.
+
+88
+00:00:31,400 --> 00:00:31,880
+I'd like to actually sit in<u> comfort.</u>
+
+89
+00:00:32,240 --> 00:00:32,640
+<u>Let's</u> have a look at some of my YouTube studio that I've set up in the last week.
+
+90
+00:00:32,640 --> 00:00:32,780
+Let's<u> have</u> a look at some of my YouTube studio that I've set up in the last week.
+
+91
+00:00:32,780 --> 00:00:32,960
+Let's have<u> a</u> look at some of my YouTube studio that I've set up in the last week.
+
+92
+00:00:32,960 --> 00:00:33,120
+Let's have a<u> look</u> at some of my YouTube studio that I've set up in the last week.
+
+93
+00:00:33,120 --> 00:00:33,660
+Let's have a look<u> at</u> some of my YouTube studio that I've set up in the last week.
+
+94
+00:00:33,660 --> 00:00:34,260
+Let's have a look at<u> some</u> of my YouTube studio that I've set up in the last week.
+
+95
+00:00:34,260 --> 00:00:34,400
+Let's have a look at some<u> of</u> my YouTube studio that I've set up in the last week.
+
+96
+00:00:34,400 --> 00:00:34,560
+Let's have a look at some of<u> my</u> YouTube studio that I've set up in the last week.
+
+97
+00:00:34,560 --> 00:00:34,920
+Let's have a look at some of my<u> YouTube</u> studio that I've set up in the last week.
+
+98
+00:00:34,920 --> 00:00:35,700
+Let's have a look at some of my YouTube<u> studio</u> that I've set up in the last week.
+
+99
+00:00:35,700 --> 00:00:36,040
+Let's have a look at some of my YouTube studio<u> that</u> I've set up in the last week.
+
+100
+00:00:36,040 --> 00:00:36,220
+Let's have a look at some of my YouTube studio that<u> I've</u> set up in the last week.
+
+101
+00:00:36,220 --> 00:00:36,360
+Let's have a look at some of my YouTube studio that I've<u> set</u> up in the last week.
+
+102
+00:00:36,360 --> 00:00:36,520
+Let's have a look at some of my YouTube studio that I've set<u> up</u> in the last week.
+
+103
+00:00:36,520 --> 00:00:36,600
+Let's have a look at some of my YouTube studio that I've set up<u> in</u> the last week.
+
+104
+00:00:36,600 --> 00:00:36,700
+Let's have a look at some of my YouTube studio that I've set up in<u> the</u> last week.
+
+105
+00:00:36,700 --> 00:00:36,900
+Let's have a look at some of my YouTube studio that I've set up in the<u> last</u> week.
+
+106
+00:00:36,900 --> 00:00:37,300
+Let's have a look at some of my YouTube studio that I've set up in the last<u> week.</u>
+
+107
+00:00:37,600 --> 00:00:37,720
+<u>So</u> when I came from Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+108
+00:00:37,720 --> 00:00:37,900
+So<u> when</u> I came from Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+109
+00:00:37,900 --> 00:00:38,020
+So when<u> I</u> came from Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+110
+00:00:38,020 --> 00:00:38,200
+So when I<u> came</u> from Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+111
+00:00:38,200 --> 00:00:38,500
+So when I came<u> from</u> Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+112
+00:00:38,500 --> 00:00:38,960
+So when I came from<u> Thailand,</u> all I've brought with me is this little Mac 2 mini, got a little
+
+113
+00:00:38,960 --> 00:00:39,540
+So when I came from Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+114
+00:00:39,540 --> 00:00:39,760
+So when I came from Thailand,<u> all</u> I've brought with me is this little Mac 2 mini, got a little
+
+115
+00:00:39,760 --> 00:00:40,020
+So when I came from Thailand, all<u> I've</u> brought with me is this little Mac 2 mini, got a little
+
+116
+00:00:40,020 --> 00:00:40,240
+So when I came from Thailand, all I've<u> brought</u> with me is this little Mac 2 mini, got a little
+
+117
+00:00:40,240 --> 00:00:40,500
+So when I came from Thailand, all I've brought<u> with</u> me is this little Mac 2 mini, got a little
+
+118
+00:00:40,500 --> 00:00:40,760
+So when I came from Thailand, all I've brought with<u> me</u> is this little Mac 2 mini, got a little
+
+119
+00:00:40,760 --> 00:00:41,120
+So when I came from Thailand, all I've brought with me<u> is</u> this little Mac 2 mini, got a little
+
+120
+00:00:41,120 --> 00:00:41,420
+So when I came from Thailand, all I've brought with me is<u> this</u> little Mac 2 mini, got a little
+
+121
+00:00:41,420 --> 00:00:41,800
+So when I came from Thailand, all I've brought with me is this<u> little</u> Mac 2 mini, got a little
+
+122
+00:00:41,800 --> 00:00:42,220
+So when I came from Thailand, all I've brought with me is this little<u> Mac</u> 2 mini, got a little
+
+123
+00:00:42,220 --> 00:00:42,740
+So when I came from Thailand, all I've brought with me is this little Mac<u> 2</u> mini, got a little
+
+124
+00:00:42,740 --> 00:00:43,080
+So when I came from Thailand, all I've brought with me is this little Mac 2<u> mini,</u> got a little
+
+125
+00:00:43,080 --> 00:00:43,560
+So when I came from Thailand, all I've brought with me is this little Mac 2 mini, got a little
+
+126
+00:00:43,560 --> 00:00:43,860
+So when I came from Thailand, all I've brought with me is this little Mac 2 mini,<u> got</u> a little
+
+127
+00:00:43,860 --> 00:00:44,000
+So when I came from Thailand, all I've brought with me is this little Mac 2 mini, got<u> a</u> little
+
+128
+00:00:44,000 --> 00:00:44,140
+So when I came from Thailand, all I've brought with me is this little Mac 2 mini, got a<u> little</u>
+
+129
+00:00:44,140 --> 00:00:44,500
+<u>hard</u> drive going on and all the cabling.
+
+130
+00:00:44,500 --> 00:00:44,840
+hard<u> drive</u> going on and all the cabling.
+
+131
+00:00:44,840 --> 00:00:45,260
+hard drive<u> going</u> on and all the cabling.
+
+132
+00:00:45,260 --> 00:00:45,700
+hard drive going<u> on</u> and all the cabling.
+
+133
+00:00:45,700 --> 00:00:46,240
+hard drive going on<u> and</u> all the cabling.
+
+134
+00:00:46,240 --> 00:00:46,440
+hard drive going on and<u> all</u> the cabling.
+
+135
+00:00:46,440 --> 00:00:46,580
+hard drive going on and all<u> the</u> cabling.
+
+136
+00:00:46,580 --> 00:00:47,100
+hard drive going on and all the<u> cabling.</u>
+
+137
+00:00:47,560 --> 00:00:47,640
+<u>If</u> we look underneath, you'll see down below there's this stream deck pedal and this is
+
+138
+00:00:47,640 --> 00:00:47,760
+If<u> we</u> look underneath, you'll see down below there's this stream deck pedal and this is
+
+139
+00:00:47,760 --> 00:00:48,000
+If we<u> look</u> underneath, you'll see down below there's this stream deck pedal and this is
+
+140
+00:00:48,000 --> 00:00:48,800
+If we look<u> underneath,</u> you'll see down below there's this stream deck pedal and this is
+
+141
+00:00:48,800 --> 00:00:49,220
+If we look underneath, you'll see down below there's this stream deck pedal and this is
+
+142
+00:00:49,220 --> 00:00:49,660
+If we look underneath,<u> you'll</u> see down below there's this stream deck pedal and this is
+
+143
+00:00:49,660 --> 00:00:49,960
+If we look underneath, you'll<u> see</u> down below there's this stream deck pedal and this is
+
+144
+00:00:49,960 --> 00:00:50,340
+If we look underneath, you'll see<u> down</u> below there's this stream deck pedal and this is
+
+145
+00:00:50,340 --> 00:00:50,680
+If we look underneath, you'll see down<u> below</u> there's this stream deck pedal and this is
+
+146
+00:00:50,680 --> 00:00:51,360
+If we look underneath, you'll see down below<u> there's</u> this stream deck pedal and this is
+
+147
+00:00:51,360 --> 00:00:51,720
+If we look underneath, you'll see down below there's<u> this</u> stream deck pedal and this is
+
+148
+00:00:51,720 --> 00:00:52,480
+If we look underneath, you'll see down below there's this<u> stream</u> deck pedal and this is
+
+149
+00:00:52,480 --> 00:00:52,920
+If we look underneath, you'll see down below there's this stream<u> deck</u> pedal and this is
+
+150
+00:00:52,920 --> 00:00:53,460
+If we look underneath, you'll see down below there's this stream deck<u> pedal</u> and this is
+
+151
+00:00:53,460 --> 00:00:54,180
+If we look underneath, you'll see down below there's this stream deck pedal<u> and</u> this is
+
+152
+00:00:54,180 --> 00:00:54,360
+If we look underneath, you'll see down below there's this stream deck pedal and<u> this</u> is
+
+153
+00:00:54,360 --> 00:00:54,520
+If we look underneath, you'll see down below there's this stream deck pedal and this<u> is</u>
+
+154
+00:00:54,520 --> 00:00:54,640
+<u>what</u> I'm using to record all my videos.
+
+155
+00:00:54,640 --> 00:00:54,880
+what<u> I'm</u> using to record all my videos.
+
+156
+00:00:54,880 --> 00:00:55,080
+what I'm<u> using</u> to record all my videos.
+
+157
+00:00:55,080 --> 00:00:55,420
+what I'm using<u> to</u> record all my videos.
+
+158
+00:00:55,420 --> 00:00:55,740
+what I'm using to<u> record</u> all my videos.
+
+159
+00:00:55,740 --> 00:00:55,900
+what I'm using to record<u> all</u> my videos.
+
+160
+00:00:55,900 --> 00:00:56,080
+what I'm using to record all<u> my</u> videos.
+
+161
+00:00:56,080 --> 00:00:56,440
+what I'm using to record all my<u> videos.</u>
+
+162
+00:00:56,440 --> 00:00:56,720
+<u>The</u> other stuff that I bring with me when I move overseas back and forward, just these
+
+163
+00:00:56,720 --> 00:00:56,860
+The<u> other</u> stuff that I bring with me when I move overseas back and forward, just these
+
+164
+00:00:56,860 --> 00:00:57,200
+The other<u> stuff</u> that I bring with me when I move overseas back and forward, just these
+
+165
+00:00:57,200 --> 00:00:57,360
+The other stuff<u> that</u> I bring with me when I move overseas back and forward, just these
+
+166
+00:00:57,360 --> 00:00:57,500
+The other stuff that<u> I</u> bring with me when I move overseas back and forward, just these
+
+167
+00:00:57,500 --> 00:00:57,740
+The other stuff that I<u> bring</u> with me when I move overseas back and forward, just these
+
+168
+00:00:57,740 --> 00:00:58,020
+The other stuff that I bring<u> with</u> me when I move overseas back and forward, just these
+
+169
+00:00:58,020 --> 00:00:58,200
+The other stuff that I bring with<u> me</u> when I move overseas back and forward, just these
+
+170
+00:00:58,200 --> 00:00:58,400
+The other stuff that I bring with me<u> when</u> I move overseas back and forward, just these
+
+171
+00:00:58,400 --> 00:00:58,560
+The other stuff that I bring with me when<u> I</u> move overseas back and forward, just these
+
+172
+00:00:58,560 --> 00:00:58,960
+The other stuff that I bring with me when I<u> move</u> overseas back and forward, just these
+
+173
+00:00:58,960 --> 00:00:59,540
+The other stuff that I bring with me when I move<u> overseas</u> back and forward, just these
+
+174
+00:00:59,540 --> 00:00:59,900
+The other stuff that I bring with me when I move overseas<u> back</u> and forward, just these
+
+175
+00:00:59,900 --> 00:01:00,040
+The other stuff that I bring with me when I move overseas back<u> and</u> forward, just these
+
+176
+00:01:00,040 --> 00:01:00,460
+The other stuff that I bring with me when I move overseas back and<u> forward,</u> just these
+
+177
+00:01:00,460 --> 00:01:01,080
+The other stuff that I bring with me when I move overseas back and forward, just these
+
+178
+00:01:01,080 --> 00:01:01,440
+The other stuff that I bring with me when I move overseas back and forward,<u> just</u> these
+
+179
+00:01:01,440 --> 00:01:01,720
+The other stuff that I bring with me when I move overseas back and forward, just<u> these</u>
+
+180
+00:01:01,720 --> 00:01:02,060
+<u>little</u> mini key lights.
+
+181
+00:01:02,060 --> 00:01:02,360
+little<u> mini</u> key lights.
+
+182
+00:01:02,360 --> 00:01:02,680
+little mini<u> key</u> lights.
+
+183
+00:01:02,680 --> 00:01:03,080
+little mini key<u> lights.</u>
+
+184
+00:01:03,820 --> 00:01:03,880
+<u>So</u> recently I had to buy some additional equipment for this set up.
+
+185
+00:01:03,880 --> 00:01:04,200
+So<u> recently</u> I had to buy some additional equipment for this set up.
+
+186
+00:01:04,200 --> 00:01:04,580
+So recently<u> I</u> had to buy some additional equipment for this set up.
+
+187
+00:01:04,580 --> 00:01:04,740
+So recently I<u> had</u> to buy some additional equipment for this set up.
+
+188
+00:01:04,740 --> 00:01:04,920
+So recently I had<u> to</u> buy some additional equipment for this set up.
+
+189
+00:01:04,920 --> 00:01:05,140
+So recently I had to<u> buy</u> some additional equipment for this set up.
+
+190
+00:01:05,140 --> 00:01:05,400
+So recently I had to buy<u> some</u> additional equipment for this set up.
+
+191
+00:01:05,400 --> 00:01:05,920
+So recently I had to buy some<u> additional</u> equipment for this set up.
+
+192
+00:01:05,920 --> 00:01:06,360
+So recently I had to buy some additional<u> equipment</u> for this set up.
+
+193
+00:01:06,360 --> 00:01:06,760
+So recently I had to buy some additional equipment<u> for</u> this set up.
+
+194
+00:01:06,760 --> 00:01:06,920
+So recently I had to buy some additional equipment for<u> this</u> set up.
+
+195
+00:01:06,920 --> 00:01:07,120
+So recently I had to buy some additional equipment for this<u> set</u> up.
+
+196
+00:01:07,120 --> 00:01:07,300
+So recently I had to buy some additional equipment for this set<u> up.</u>
+
+197
+00:01:07,760 --> 00:01:07,840
+<u>So</u> the monitor has been staying in Australia with a friend and last time I had a YouTube
+
+198
+00:01:07,840 --> 00:01:08,020
+So<u> the</u> monitor has been staying in Australia with a friend and last time I had a YouTube
+
+199
+00:01:08,020 --> 00:01:08,340
+So the<u> monitor</u> has been staying in Australia with a friend and last time I had a YouTube
+
+200
+00:01:08,340 --> 00:01:09,040
+So the monitor<u> has</u> been staying in Australia with a friend and last time I had a YouTube
+
+201
+00:01:09,040 --> 00:01:09,340
+So the monitor has<u> been</u> staying in Australia with a friend and last time I had a YouTube
+
+202
+00:01:09,340 --> 00:01:09,660
+So the monitor has been<u> staying</u> in Australia with a friend and last time I had a YouTube
+
+203
+00:01:09,660 --> 00:01:09,940
+So the monitor has been staying<u> in</u> Australia with a friend and last time I had a YouTube
+
+204
+00:01:09,940 --> 00:01:10,260
+So the monitor has been staying in<u> Australia</u> with a friend and last time I had a YouTube
+
+205
+00:01:10,260 --> 00:01:10,680
+So the monitor has been staying in Australia<u> with</u> a friend and last time I had a YouTube
+
+206
+00:01:10,680 --> 00:01:10,840
+So the monitor has been staying in Australia with<u> a</u> friend and last time I had a YouTube
+
+207
+00:01:10,840 --> 00:01:11,140
+So the monitor has been staying in Australia with a<u> friend</u> and last time I had a YouTube
+
+208
+00:01:11,140 --> 00:01:12,180
+So the monitor has been staying in Australia with a friend<u> and</u> last time I had a YouTube
+
+209
+00:01:12,180 --> 00:01:12,720
+So the monitor has been staying in Australia with a friend and<u> last</u> time I had a YouTube
+
+210
+00:01:12,720 --> 00:01:13,240
+So the monitor has been staying in Australia with a friend and last<u> time</u> I had a YouTube
+
+211
+00:01:13,240 --> 00:01:13,560
+So the monitor has been staying in Australia with a friend and last time<u> I</u> had a YouTube
+
+212
+00:01:13,560 --> 00:01:13,740
+So the monitor has been staying in Australia with a friend and last time I<u> had</u> a YouTube
+
+213
+00:01:13,740 --> 00:01:13,840
+So the monitor has been staying in Australia with a friend and last time I had<u> a</u> YouTube
+
+214
+00:01:13,840 --> 00:01:14,180
+So the monitor has been staying in Australia with a friend and last time I had a<u> YouTube</u>
+
+215
+00:01:14,180 --> 00:01:14,680
+<u>studio,</u> I actually built this wooden structure to hang all my cameras off.
+
+216
+00:01:14,680 --> 00:01:14,900
+studio, I actually built this wooden structure to hang all my cameras off.
+
+217
+00:01:14,900 --> 00:01:15,060
+studio,<u> I</u> actually built this wooden structure to hang all my cameras off.
+
+218
+00:01:15,060 --> 00:01:15,380
+studio, I<u> actually</u> built this wooden structure to hang all my cameras off.
+
+219
+00:01:15,380 --> 00:01:15,900
+studio, I actually<u> built</u> this wooden structure to hang all my cameras off.
+
+220
+00:01:15,900 --> 00:01:16,280
+studio, I actually built<u> this</u> wooden structure to hang all my cameras off.
+
+221
+00:01:16,280 --> 00:01:16,580
+studio, I actually built this<u> wooden</u> structure to hang all my cameras off.
+
+222
+00:01:16,580 --> 00:01:17,140
+studio, I actually built this wooden<u> structure</u> to hang all my cameras off.
+
+223
+00:01:17,140 --> 00:01:17,460
+studio, I actually built this wooden structure<u> to</u> hang all my cameras off.
+
+224
+00:01:17,460 --> 00:01:17,700
+studio, I actually built this wooden structure to<u> hang</u> all my cameras off.
+
+225
+00:01:17,700 --> 00:01:17,860
+studio, I actually built this wooden structure to hang<u> all</u> my cameras off.
+
+226
+00:01:17,860 --> 00:01:18,040
+studio, I actually built this wooden structure to hang all<u> my</u> cameras off.
+
+227
+00:01:18,040 --> 00:01:18,380
+studio, I actually built this wooden structure to hang all my<u> cameras</u> off.
+
+228
+00:01:18,380 --> 00:01:18,780
+studio, I actually built this wooden structure to hang all my cameras<u> off.</u>
+
+229
+00:01:19,240 --> 00:01:19,600
+<u>Probably</u> with that was it took me a couple of weeks to do and it was fairly expensive.
+
+230
+00:01:19,600 --> 00:01:19,800
+Probably<u> with</u> that was it took me a couple of weeks to do and it was fairly expensive.
+
+231
+00:01:19,800 --> 00:01:19,940
+Probably with<u> that</u> was it took me a couple of weeks to do and it was fairly expensive.
+
+232
+00:01:19,940 --> 00:01:20,200
+Probably with that<u> was</u> it took me a couple of weeks to do and it was fairly expensive.
+
+233
+00:01:20,200 --> 00:01:20,600
+Probably with that was<u> it</u> took me a couple of weeks to do and it was fairly expensive.
+
+234
+00:01:20,600 --> 00:01:20,980
+Probably with that was it<u> took</u> me a couple of weeks to do and it was fairly expensive.
+
+235
+00:01:20,980 --> 00:01:21,160
+Probably with that was it took<u> me</u> a couple of weeks to do and it was fairly expensive.
+
+236
+00:01:21,160 --> 00:01:21,240
+Probably with that was it took me<u> a</u> couple of weeks to do and it was fairly expensive.
+
+237
+00:01:21,240 --> 00:01:21,460
+Probably with that was it took me a<u> couple</u> of weeks to do and it was fairly expensive.
+
+238
+00:01:21,460 --> 00:01:21,600
+Probably with that was it took me a couple<u> of</u> weeks to do and it was fairly expensive.
+
+239
+00:01:21,600 --> 00:01:21,800
+Probably with that was it took me a couple of<u> weeks</u> to do and it was fairly expensive.
+
+240
+00:01:21,800 --> 00:01:22,000
+Probably with that was it took me a couple of weeks<u> to</u> do and it was fairly expensive.
+
+241
+00:01:22,000 --> 00:01:22,240
+Probably with that was it took me a couple of weeks to<u> do</u> and it was fairly expensive.
+
+242
+00:01:22,240 --> 00:01:22,640
+Probably with that was it took me a couple of weeks to do<u> and</u> it was fairly expensive.
+
+243
+00:01:22,640 --> 00:01:22,720
+Probably with that was it took me a couple of weeks to do and<u> it</u> was fairly expensive.
+
+244
+00:01:22,720 --> 00:01:22,840
+Probably with that was it took me a couple of weeks to do and it<u> was</u> fairly expensive.
+
+245
+00:01:22,840 --> 00:01:23,200
+Probably with that was it took me a couple of weeks to do and it was<u> fairly</u> expensive.
+
+246
+00:01:23,200 --> 00:01:23,860
+Probably with that was it took me a couple of weeks to do and it was fairly<u> expensive.</u>
+
+247
+00:01:24,300 --> 00:01:24,920
+<u>I've</u> just recently bought this newer frame and it's working out perfect.
+
+248
+00:01:24,920 --> 00:01:25,100
+I've<u> just</u> recently bought this newer frame and it's working out perfect.
+
+249
+00:01:25,100 --> 00:01:25,620
+I've just<u> recently</u> bought this newer frame and it's working out perfect.
+
+250
+00:01:25,620 --> 00:01:25,960
+I've just recently<u> bought</u> this newer frame and it's working out perfect.
+
+251
+00:01:25,960 --> 00:01:26,200
+I've just recently bought<u> this</u> newer frame and it's working out perfect.
+
+252
+00:01:26,200 --> 00:01:26,740
+I've just recently bought this<u> newer</u> frame and it's working out perfect.
+
+253
+00:01:26,740 --> 00:01:28,300
+I've just recently bought this newer<u> frame</u> and it's working out perfect.
+
+254
+00:01:28,300 --> 00:01:28,780
+I've just recently bought this newer frame<u> and</u> it's working out perfect.
+
+255
+00:01:28,780 --> 00:01:29,400
+I've just recently bought this newer frame and<u> it's</u> working out perfect.
+
+256
+00:01:29,400 --> 00:01:29,920
+I've just recently bought this newer frame and it's<u> working</u> out perfect.
+
+257
+00:01:29,920 --> 00:01:30,180
+I've just recently bought this newer frame and it's working<u> out</u> perfect.
+
+258
+00:01:30,180 --> 00:01:30,700
+I've just recently bought this newer frame and it's working out<u> perfect.</u>
+
+259
+00:01:31,120 --> 00:01:31,180
+<u>You</u> can see at the top that it's got places where I can hang the key light minis and if
+
+260
+00:01:31,180 --> 00:01:31,340
+You<u> can</u> see at the top that it's got places where I can hang the key light minis and if
+
+261
+00:01:31,340 --> 00:01:31,620
+You can<u> see</u> at the top that it's got places where I can hang the key light minis and if
+
+262
+00:01:31,620 --> 00:01:31,780
+You can see<u> at</u> the top that it's got places where I can hang the key light minis and if
+
+263
+00:01:31,780 --> 00:01:31,960
+You can see at<u> the</u> top that it's got places where I can hang the key light minis and if
+
+264
+00:01:31,960 --> 00:01:32,260
+You can see at the<u> top</u> that it's got places where I can hang the key light minis and if
+
+265
+00:01:32,260 --> 00:01:32,860
+You can see at the top<u> that</u> it's got places where I can hang the key light minis and if
+
+266
+00:01:32,860 --> 00:01:33,080
+You can see at the top that<u> it's</u> got places where I can hang the key light minis and if
+
+267
+00:01:33,080 --> 00:01:33,260
+You can see at the top that it's<u> got</u> places where I can hang the key light minis and if
+
+268
+00:01:33,260 --> 00:01:33,700
+You can see at the top that it's got<u> places</u> where I can hang the key light minis and if
+
+269
+00:01:33,700 --> 00:01:34,000
+You can see at the top that it's got places<u> where</u> I can hang the key light minis and if
+
+270
+00:01:34,000 --> 00:01:34,180
+You can see at the top that it's got places where<u> I</u> can hang the key light minis and if
+
+271
+00:01:34,180 --> 00:01:34,340
+You can see at the top that it's got places where I<u> can</u> hang the key light minis and if
+
+272
+00:01:34,340 --> 00:01:34,660
+You can see at the top that it's got places where I can<u> hang</u> the key light minis and if
+
+273
+00:01:34,660 --> 00:01:35,180
+You can see at the top that it's got places where I can hang<u> the</u> key light minis and if
+
+274
+00:01:35,180 --> 00:01:35,840
+You can see at the top that it's got places where I can hang the<u> key</u> light minis and if
+
+275
+00:01:35,840 --> 00:01:36,060
+You can see at the top that it's got places where I can hang the key<u> light</u> minis and if
+
+276
+00:01:36,060 --> 00:01:36,620
+You can see at the top that it's got places where I can hang the key light<u> minis</u> and if
+
+277
+00:01:36,620 --> 00:01:37,000
+You can see at the top that it's got places where I can hang the key light minis<u> and</u> if
+
+278
+00:01:37,000 --> 00:01:37,220
+You can see at the top that it's got places where I can hang the key light minis and<u> if</u>
+
+279
+00:01:37,220 --> 00:01:37,340
+<u>we</u> rotate that around, these are on remote controller run them from the phone.
+
+280
+00:01:37,340 --> 00:01:38,000
+we<u> rotate</u> that around, these are on remote controller run them from the phone.
+
+281
+00:01:38,000 --> 00:01:38,340
+we rotate<u> that</u> around, these are on remote controller run them from the phone.
+
+282
+00:01:38,340 --> 00:01:38,700
+we rotate that<u> around,</u> these are on remote controller run them from the phone.
+
+283
+00:01:38,700 --> 00:01:39,320
+we rotate that around, these are on remote controller run them from the phone.
+
+284
+00:01:39,320 --> 00:01:39,640
+we rotate that around,<u> these</u> are on remote controller run them from the phone.
+
+285
+00:01:39,640 --> 00:01:39,840
+we rotate that around, these<u> are</u> on remote controller run them from the phone.
+
+286
+00:01:39,840 --> 00:01:40,040
+we rotate that around, these are<u> on</u> remote controller run them from the phone.
+
+287
+00:01:40,040 --> 00:01:40,380
+we rotate that around, these are on<u> remote</u> controller run them from the phone.
+
+288
+00:01:40,380 --> 00:01:40,940
+we rotate that around, these are on remote<u> controller</u> run them from the phone.
+
+289
+00:01:40,940 --> 00:01:41,240
+we rotate that around, these are on remote controller<u> run</u> them from the phone.
+
+290
+00:01:41,240 --> 00:01:41,380
+we rotate that around, these are on remote controller run<u> them</u> from the phone.
+
+291
+00:01:41,380 --> 00:01:41,620
+we rotate that around, these are on remote controller run them<u> from</u> the phone.
+
+292
+00:01:41,620 --> 00:01:41,960
+we rotate that around, these are on remote controller run them from<u> the</u> phone.
+
+293
+00:01:41,960 --> 00:01:42,240
+we rotate that around, these are on remote controller run them from the<u> phone.</u>
+
+294
+00:01:42,800 --> 00:01:42,800
+<u>And</u> across it, I've got a couple of racks where I'm sitting the speakers and we'll come
+
+295
+00:01:42,800 --> 00:01:43,300
+And<u> across</u> it, I've got a couple of racks where I'm sitting the speakers and we'll come
+
+296
+00:01:43,300 --> 00:01:43,560
+And across<u> it,</u> I've got a couple of racks where I'm sitting the speakers and we'll come
+
+297
+00:01:43,560 --> 00:01:43,620
+And across it, I've got a couple of racks where I'm sitting the speakers and we'll come
+
+298
+00:01:43,620 --> 00:01:43,720
+And across it,<u> I've</u> got a couple of racks where I'm sitting the speakers and we'll come
+
+299
+00:01:43,720 --> 00:01:43,820
+And across it, I've<u> got</u> a couple of racks where I'm sitting the speakers and we'll come
+
+300
+00:01:43,820 --> 00:01:43,940
+And across it, I've got<u> a</u> couple of racks where I'm sitting the speakers and we'll come
+
+301
+00:01:43,940 --> 00:01:44,120
+And across it, I've got a<u> couple</u> of racks where I'm sitting the speakers and we'll come
+
+302
+00:01:44,120 --> 00:01:44,300
+And across it, I've got a couple<u> of</u> racks where I'm sitting the speakers and we'll come
+
+303
+00:01:44,300 --> 00:01:44,600
+And across it, I've got a couple of<u> racks</u> where I'm sitting the speakers and we'll come
+
+304
+00:01:44,600 --> 00:01:44,940
+And across it, I've got a couple of racks<u> where</u> I'm sitting the speakers and we'll come
+
+305
+00:01:44,940 --> 00:01:45,320
+And across it, I've got a couple of racks where<u> I'm</u> sitting the speakers and we'll come
+
+306
+00:01:45,320 --> 00:01:45,740
+And across it, I've got a couple of racks where I'm<u> sitting</u> the speakers and we'll come
+
+307
+00:01:45,740 --> 00:01:46,280
+And across it, I've got a couple of racks where I'm sitting<u> the</u> speakers and we'll come
+
+308
+00:01:46,280 --> 00:01:46,780
+And across it, I've got a couple of racks where I'm sitting the<u> speakers</u> and we'll come
+
+309
+00:01:46,780 --> 00:01:47,700
+And across it, I've got a couple of racks where I'm sitting the speakers<u> and</u> we'll come
+
+310
+00:01:47,700 --> 00:01:48,000
+And across it, I've got a couple of racks where I'm sitting the speakers and<u> we'll</u> come
+
+311
+00:01:48,000 --> 00:01:48,280
+And across it, I've got a couple of racks where I'm sitting the speakers and we'll<u> come</u>
+
+312
+00:01:48,280 --> 00:01:48,620
+<u>into</u> this little bit of metal because this is part of a new feature that I'm going to
+
+313
+00:01:48,620 --> 00:01:48,860
+into<u> this</u> little bit of metal because this is part of a new feature that I'm going to
+
+314
+00:01:48,860 --> 00:01:49,100
+into this<u> little</u> bit of metal because this is part of a new feature that I'm going to
+
+315
+00:01:49,100 --> 00:01:49,300
+into this little<u> bit</u> of metal because this is part of a new feature that I'm going to
+
+316
+00:01:49,300 --> 00:01:49,400
+into this little bit<u> of</u> metal because this is part of a new feature that I'm going to
+
+317
+00:01:49,400 --> 00:01:49,680
+into this little bit of<u> metal</u> because this is part of a new feature that I'm going to
+
+318
+00:01:49,680 --> 00:01:50,040
+into this little bit of metal<u> because</u> this is part of a new feature that I'm going to
+
+319
+00:01:50,040 --> 00:01:50,240
+into this little bit of metal because<u> this</u> is part of a new feature that I'm going to
+
+320
+00:01:50,240 --> 00:01:50,400
+into this little bit of metal because this<u> is</u> part of a new feature that I'm going to
+
+321
+00:01:50,400 --> 00:01:50,860
+into this little bit of metal because this is<u> part</u> of a new feature that I'm going to
+
+322
+00:01:50,860 --> 00:01:51,320
+into this little bit of metal because this is part<u> of</u> a new feature that I'm going to
+
+323
+00:01:51,320 --> 00:01:51,520
+into this little bit of metal because this is part of<u> a</u> new feature that I'm going to
+
+324
+00:01:51,520 --> 00:01:51,820
+into this little bit of metal because this is part of a<u> new</u> feature that I'm going to
+
+325
+00:01:51,820 --> 00:01:52,660
+into this little bit of metal because this is part of a new<u> feature</u> that I'm going to
+
+326
+00:01:52,660 --> 00:01:52,920
+into this little bit of metal because this is part of a new feature<u> that</u> I'm going to
+
+327
+00:01:52,920 --> 00:01:53,060
+into this little bit of metal because this is part of a new feature that<u> I'm</u> going to
+
+328
+00:01:53,060 --> 00:01:53,280
+into this little bit of metal because this is part of a new feature that I'm<u> going</u> to
+
+329
+00:01:53,280 --> 00:01:53,600
+into this little bit of metal because this is part of a new feature that I'm going<u> to</u>
+
+330
+00:01:53,600 --> 00:01:53,900
+<u>be</u> building soon.
+
+331
+00:01:53,900 --> 00:01:54,200
+be<u> building</u> soon.
+
+332
+00:01:54,200 --> 00:01:54,640
+be building<u> soon.</u>
+
+333
+00:01:55,360 --> 00:01:55,380
+<u>And</u> across the front, I've got my camera and it's actually that piece of metal that we
+
+334
+00:01:55,380 --> 00:01:55,620
+And<u> across</u> the front, I've got my camera and it's actually that piece of metal that we
+
+335
+00:01:55,620 --> 00:01:55,860
+And across<u> the</u> front, I've got my camera and it's actually that piece of metal that we
+
+336
+00:01:55,860 --> 00:01:56,140
+And across the<u> front,</u> I've got my camera and it's actually that piece of metal that we
+
+337
+00:01:56,140 --> 00:01:56,400
+And across the front, I've got my camera and it's actually that piece of metal that we
+
+338
+00:01:56,400 --> 00:01:56,540
+And across the front,<u> I've</u> got my camera and it's actually that piece of metal that we
+
+339
+00:01:56,540 --> 00:01:56,680
+And across the front, I've<u> got</u> my camera and it's actually that piece of metal that we
+
+340
+00:01:56,680 --> 00:01:56,900
+And across the front, I've got<u> my</u> camera and it's actually that piece of metal that we
+
+341
+00:01:56,900 --> 00:01:57,320
+And across the front, I've got my<u> camera</u> and it's actually that piece of metal that we
+
+342
+00:01:57,320 --> 00:01:57,780
+And across the front, I've got my camera<u> and</u> it's actually that piece of metal that we
+
+343
+00:01:57,780 --> 00:01:58,140
+And across the front, I've got my camera and<u> it's</u> actually that piece of metal that we
+
+344
+00:01:58,140 --> 00:01:58,640
+And across the front, I've got my camera and it's<u> actually</u> that piece of metal that we
+
+345
+00:01:58,640 --> 00:01:58,900
+And across the front, I've got my camera and it's actually<u> that</u> piece of metal that we
+
+346
+00:01:58,900 --> 00:01:59,180
+And across the front, I've got my camera and it's actually that<u> piece</u> of metal that we
+
+347
+00:01:59,180 --> 00:01:59,400
+And across the front, I've got my camera and it's actually that piece<u> of</u> metal that we
+
+348
+00:01:59,400 --> 00:01:59,600
+And across the front, I've got my camera and it's actually that piece of<u> metal</u> that we
+
+349
+00:01:59,600 --> 00:01:59,840
+And across the front, I've got my camera and it's actually that piece of metal<u> that</u> we
+
+350
+00:01:59,840 --> 00:02:00,000
+And across the front, I've got my camera and it's actually that piece of metal that<u> we</u>
+
+351
+00:02:00,000 --> 00:02:00,120
+<u>were</u> just looking at is going to be a new platform for this.
+
+352
+00:02:00,120 --> 00:02:00,360
+were<u> just</u> looking at is going to be a new platform for this.
+
+353
+00:02:00,360 --> 00:02:00,640
+were just<u> looking</u> at is going to be a new platform for this.
+
+354
+00:02:00,640 --> 00:02:00,980
+were just looking<u> at</u> is going to be a new platform for this.
+
+355
+00:02:00,980 --> 00:02:01,580
+were just looking at<u> is</u> going to be a new platform for this.
+
+356
+00:02:01,580 --> 00:02:01,840
+were just looking at is<u> going</u> to be a new platform for this.
+
+357
+00:02:01,840 --> 00:02:02,040
+were just looking at is going<u> to</u> be a new platform for this.
+
+358
+00:02:02,040 --> 00:02:02,160
+were just looking at is going to<u> be</u> a new platform for this.
+
+359
+00:02:02,160 --> 00:02:02,320
+were just looking at is going to be<u> a</u> new platform for this.
+
+360
+00:02:02,320 --> 00:02:02,500
+were just looking at is going to be a<u> new</u> platform for this.
+
+361
+00:02:02,500 --> 00:02:03,080
+were just looking at is going to be a new<u> platform</u> for this.
+
+362
+00:02:03,080 --> 00:02:03,460
+were just looking at is going to be a new platform<u> for</u> this.
+
+363
+00:02:03,460 --> 00:02:03,760
+were just looking at is going to be a new platform for<u> this.</u>
+
+364
+00:02:04,240 --> 00:02:04,380
+<u>But</u> generally when I'm doing my YouTubeing, I'm sitting down in front of this big camera
+
+365
+00:02:04,380 --> 00:02:04,780
+But<u> generally</u> when I'm doing my YouTubeing, I'm sitting down in front of this big camera
+
+366
+00:02:04,780 --> 00:02:05,160
+But generally<u> when</u> I'm doing my YouTubeing, I'm sitting down in front of this big camera
+
+367
+00:02:05,160 --> 00:02:05,480
+But generally when<u> I'm</u> doing my YouTubeing, I'm sitting down in front of this big camera
+
+368
+00:02:05,480 --> 00:02:05,700
+But generally when I'm<u> doing</u> my YouTubeing, I'm sitting down in front of this big camera
+
+369
+00:02:05,700 --> 00:02:06,000
+But generally when I'm doing<u> my</u> YouTubeing, I'm sitting down in front of this big camera
+
+370
+00:02:06,000 --> 00:02:06,860
+But generally when I'm doing my<u> YouTubeing,</u> I'm sitting down in front of this big camera
+
+371
+00:02:06,860 --> 00:02:06,940
+But generally when I'm doing my YouTubeing, I'm sitting down in front of this big camera
+
+372
+00:02:06,940 --> 00:02:07,340
+But generally when I'm doing my YouTubeing,<u> I'm</u> sitting down in front of this big camera
+
+373
+00:02:07,340 --> 00:02:07,620
+But generally when I'm doing my YouTubeing, I'm<u> sitting</u> down in front of this big camera
+
+374
+00:02:07,620 --> 00:02:08,000
+But generally when I'm doing my YouTubeing, I'm sitting<u> down</u> in front of this big camera
+
+375
+00:02:08,000 --> 00:02:08,340
+But generally when I'm doing my YouTubeing, I'm sitting down<u> in</u> front of this big camera
+
+376
+00:02:08,340 --> 00:02:08,640
+But generally when I'm doing my YouTubeing, I'm sitting down in<u> front</u> of this big camera
+
+377
+00:02:08,640 --> 00:02:08,820
+But generally when I'm doing my YouTubeing, I'm sitting down in front<u> of</u> this big camera
+
+378
+00:02:08,820 --> 00:02:09,060
+But generally when I'm doing my YouTubeing, I'm sitting down in front of<u> this</u> big camera
+
+379
+00:02:09,060 --> 00:02:09,340
+But generally when I'm doing my YouTubeing, I'm sitting down in front of this<u> big</u> camera
+
+380
+00:02:09,340 --> 00:02:09,840
+But generally when I'm doing my YouTubeing, I'm sitting down in front of this big<u> camera</u>
+
+381
+00:02:09,840 --> 00:02:10,300
+<u>and</u> if we just pull over the Ecamm Live, which is my tool of choice and I've got this little
+
+382
+00:02:10,300 --> 00:02:10,600
+and<u> if</u> we just pull over the Ecamm Live, which is my tool of choice and I've got this little
+
+383
+00:02:10,600 --> 00:02:10,820
+and if<u> we</u> just pull over the Ecamm Live, which is my tool of choice and I've got this little
+
+384
+00:02:10,820 --> 00:02:11,060
+and if we<u> just</u> pull over the Ecamm Live, which is my tool of choice and I've got this little
+
+385
+00:02:11,060 --> 00:02:11,580
+and if we just<u> pull</u> over the Ecamm Live, which is my tool of choice and I've got this little
+
+386
+00:02:11,580 --> 00:02:12,160
+and if we just pull<u> over</u> the Ecamm Live, which is my tool of choice and I've got this little
+
+387
+00:02:12,160 --> 00:02:12,880
+and if we just pull over<u> the</u> Ecamm Live, which is my tool of choice and I've got this little
+
+388
+00:02:12,880 --> 00:02:13,400
+and if we just pull over the<u> Ecamm</u> Live, which is my tool of choice and I've got this little
+
+389
+00:02:13,400 --> 00:02:13,740
+and if we just pull over the Ecamm<u> Live,</u> which is my tool of choice and I've got this little
+
+390
+00:02:13,740 --> 00:02:13,880
+and if we just pull over the Ecamm Live, which is my tool of choice and I've got this little
+
+391
+00:02:13,880 --> 00:02:14,040
+and if we just pull over the Ecamm Live,<u> which</u> is my tool of choice and I've got this little
+
+392
+00:02:14,040 --> 00:02:14,260
+and if we just pull over the Ecamm Live, which<u> is</u> my tool of choice and I've got this little
+
+393
+00:02:14,260 --> 00:02:14,540
+and if we just pull over the Ecamm Live, which is<u> my</u> tool of choice and I've got this little
+
+394
+00:02:14,540 --> 00:02:14,800
+and if we just pull over the Ecamm Live, which is my<u> tool</u> of choice and I've got this little
+
+395
+00:02:14,800 --> 00:02:14,960
+and if we just pull over the Ecamm Live, which is my tool<u> of</u> choice and I've got this little
+
+396
+00:02:14,960 --> 00:02:15,240
+and if we just pull over the Ecamm Live, which is my tool of<u> choice</u> and I've got this little
+
+397
+00:02:15,240 --> 00:02:15,740
+and if we just pull over the Ecamm Live, which is my tool of choice<u> and</u> I've got this little
+
+398
+00:02:15,740 --> 00:02:16,060
+and if we just pull over the Ecamm Live, which is my tool of choice and<u> I've</u> got this little
+
+399
+00:02:16,060 --> 00:02:16,180
+and if we just pull over the Ecamm Live, which is my tool of choice and I've<u> got</u> this little
+
+400
+00:02:16,180 --> 00:02:16,540
+and if we just pull over the Ecamm Live, which is my tool of choice and I've got<u> this</u> little
+
+401
+00:02:16,540 --> 00:02:17,180
+and if we just pull over the Ecamm Live, which is my tool of choice and I've got this<u> little</u>
+
+402
+00:02:17,180 --> 00:02:17,580
+<u>stream</u> deck that I use and essentially what I can do is I can look at individual windows
+
+403
+00:02:17,580 --> 00:02:17,880
+stream<u> deck</u> that I use and essentially what I can do is I can look at individual windows
+
+404
+00:02:17,880 --> 00:02:18,180
+stream deck<u> that</u> I use and essentially what I can do is I can look at individual windows
+
+405
+00:02:18,180 --> 00:02:18,320
+stream deck that<u> I</u> use and essentially what I can do is I can look at individual windows
+
+406
+00:02:18,320 --> 00:02:18,620
+stream deck that I<u> use</u> and essentially what I can do is I can look at individual windows
+
+407
+00:02:18,620 --> 00:02:19,240
+stream deck that I use<u> and</u> essentially what I can do is I can look at individual windows
+
+408
+00:02:19,240 --> 00:02:19,600
+stream deck that I use and<u> essentially</u> what I can do is I can look at individual windows
+
+409
+00:02:19,600 --> 00:02:19,860
+stream deck that I use and essentially<u> what</u> I can do is I can look at individual windows
+
+410
+00:02:19,860 --> 00:02:19,980
+stream deck that I use and essentially what<u> I</u> can do is I can look at individual windows
+
+411
+00:02:19,980 --> 00:02:20,140
+stream deck that I use and essentially what I<u> can</u> do is I can look at individual windows
+
+412
+00:02:20,140 --> 00:02:20,340
+stream deck that I use and essentially what I can<u> do</u> is I can look at individual windows
+
+413
+00:02:20,340 --> 00:02:20,540
+stream deck that I use and essentially what I can do<u> is</u> I can look at individual windows
+
+414
+00:02:20,540 --> 00:02:20,680
+stream deck that I use and essentially what I can do is<u> I</u> can look at individual windows
+
+415
+00:02:20,680 --> 00:02:20,860
+stream deck that I use and essentially what I can do is I<u> can</u> look at individual windows
+
+416
+00:02:20,860 --> 00:02:21,060
+stream deck that I use and essentially what I can do is I can<u> look</u> at individual windows
+
+417
+00:02:21,060 --> 00:02:21,220
+stream deck that I use and essentially what I can do is I can look<u> at</u> individual windows
+
+418
+00:02:21,220 --> 00:02:21,680
+stream deck that I use and essentially what I can do is I can look at<u> individual</u> windows
+
+419
+00:02:21,680 --> 00:02:22,240
+stream deck that I use and essentially what I can do is I can look at individual<u> windows</u>
+
+420
+00:02:22,240 --> 00:02:22,900
+<u>on</u> this 50 inch monitor.
+
+421
+00:02:22,900 --> 00:02:23,160
+on<u> this</u> 50 inch monitor.
+
+422
+00:02:23,160 --> 00:02:23,680
+on this<u> 50</u> inch monitor.
+
+423
+00:02:23,680 --> 00:02:23,940
+on this 50<u> inch</u> monitor.
+
+424
+00:02:23,940 --> 00:02:24,360
+on this 50 inch<u> monitor.</u>
+
+425
+00:02:24,660 --> 00:02:24,760
+<u>So</u> we'll just press the GPT window and now here I am down in the corner.
+
+426
+00:02:24,760 --> 00:02:24,960
+So<u> we'll</u> just press the GPT window and now here I am down in the corner.
+
+427
+00:02:24,960 --> 00:02:25,100
+So we'll<u> just</u> press the GPT window and now here I am down in the corner.
+
+428
+00:02:25,100 --> 00:02:25,400
+So we'll just<u> press</u> the GPT window and now here I am down in the corner.
+
+429
+00:02:25,400 --> 00:02:25,600
+So we'll just press<u> the</u> GPT window and now here I am down in the corner.
+
+430
+00:02:25,600 --> 00:02:26,200
+So we'll just press the<u> GPT</u> window and now here I am down in the corner.
+
+431
+00:02:26,200 --> 00:02:26,540
+So we'll just press the GPT<u> window</u> and now here I am down in the corner.
+
+432
+00:02:26,540 --> 00:02:27,300
+So we'll just press the GPT window<u> and</u> now here I am down in the corner.
+
+433
+00:02:27,300 --> 00:02:27,740
+So we'll just press the GPT window and<u> now</u> here I am down in the corner.
+
+434
+00:02:27,740 --> 00:02:28,080
+So we'll just press the GPT window and now<u> here</u> I am down in the corner.
+
+435
+00:02:28,080 --> 00:02:28,300
+So we'll just press the GPT window and now here<u> I</u> am down in the corner.
+
+436
+00:02:28,300 --> 00:02:28,560
+So we'll just press the GPT window and now here I<u> am</u> down in the corner.
+
+437
+00:02:28,560 --> 00:02:28,900
+So we'll just press the GPT window and now here I am<u> down</u> in the corner.
+
+438
+00:02:28,900 --> 00:02:29,220
+So we'll just press the GPT window and now here I am down<u> in</u> the corner.
+
+439
+00:02:29,220 --> 00:02:29,360
+So we'll just press the GPT window and now here I am down in<u> the</u> corner.
+
+440
+00:02:29,360 --> 00:02:29,820
+So we'll just press the GPT window and now here I am down in the<u> corner.</u>
+
+441
+00:02:30,520 --> 00:02:30,680
+<u>Now</u> this time around, and I haven't used the Dino video yet, so I have the Ecamm Live set
+
+442
+00:02:30,680 --> 00:02:31,300
+Now<u> this</u> time around, and I haven't used the Dino video yet, so I have the Ecamm Live set
+
+443
+00:02:31,300 --> 00:02:31,660
+Now this<u> time</u> around, and I haven't used the Dino video yet, so I have the Ecamm Live set
+
+444
+00:02:31,660 --> 00:02:31,980
+Now this time<u> around,</u> and I haven't used the Dino video yet, so I have the Ecamm Live set
+
+445
+00:02:31,980 --> 00:02:32,180
+Now this time around,<u> and</u> I haven't used the Dino video yet, so I have the Ecamm Live set
+
+446
+00:02:32,180 --> 00:02:32,280
+Now this time around, and<u> I</u> haven't used the Dino video yet, so I have the Ecamm Live set
+
+447
+00:02:32,280 --> 00:02:32,500
+Now this time around, and I<u> haven't</u> used the Dino video yet, so I have the Ecamm Live set
+
+448
+00:02:32,500 --> 00:02:32,740
+Now this time around, and I haven't<u> used</u> the Dino video yet, so I have the Ecamm Live set
+
+449
+00:02:32,740 --> 00:02:32,940
+Now this time around, and I haven't used<u> the</u> Dino video yet, so I have the Ecamm Live set
+
+450
+00:02:32,940 --> 00:02:33,120
+Now this time around, and I haven't used the<u> Dino</u> video yet, so I have the Ecamm Live set
+
+451
+00:02:33,120 --> 00:02:33,380
+Now this time around, and I haven't used the Dino<u> video</u> yet, so I have the Ecamm Live set
+
+452
+00:02:33,380 --> 00:02:33,780
+Now this time around, and I haven't used the Dino video<u> yet,</u> so I have the Ecamm Live set
+
+453
+00:02:33,780 --> 00:02:34,000
+Now this time around, and I haven't used the Dino video yet,<u> so</u> I have the Ecamm Live set
+
+454
+00:02:34,000 --> 00:02:34,100
+Now this time around, and I haven't used the Dino video yet, so<u> I</u> have the Ecamm Live set
+
+455
+00:02:34,100 --> 00:02:34,220
+Now this time around, and I haven't used the Dino video yet, so I<u> have</u> the Ecamm Live set
+
+456
+00:02:34,220 --> 00:02:34,340
+Now this time around, and I haven't used the Dino video yet, so I have<u> the</u> Ecamm Live set
+
+457
+00:02:34,340 --> 00:02:34,600
+Now this time around, and I haven't used the Dino video yet, so I have the<u> Ecamm</u> Live set
+
+458
+00:02:34,600 --> 00:02:34,940
+Now this time around, and I haven't used the Dino video yet, so I have the Ecamm<u> Live</u> set
+
+459
+00:02:34,940 --> 00:02:35,260
+Now this time around, and I haven't used the Dino video yet, so I have the Ecamm Live<u> set</u>
+
+460
+00:02:35,260 --> 00:02:35,460
+<u>up</u> and we're currently looking at the chat GPT window and one of the other things that
+
+461
+00:02:35,460 --> 00:02:35,760
+up<u> and</u> we're currently looking at the chat GPT window and one of the other things that
+
+462
+00:02:35,760 --> 00:02:35,960
+up and<u> we're</u> currently looking at the chat GPT window and one of the other things that
+
+463
+00:02:35,960 --> 00:02:36,360
+up and we're<u> currently</u> looking at the chat GPT window and one of the other things that
+
+464
+00:02:36,360 --> 00:02:36,780
+up and we're currently<u> looking</u> at the chat GPT window and one of the other things that
+
+465
+00:02:36,780 --> 00:02:37,100
+up and we're currently looking<u> at</u> the chat GPT window and one of the other things that
+
+466
+00:02:37,100 --> 00:02:37,260
+up and we're currently looking at<u> the</u> chat GPT window and one of the other things that
+
+467
+00:02:37,260 --> 00:02:37,420
+up and we're currently looking at the<u> chat</u> GPT window and one of the other things that
+
+468
+00:02:37,420 --> 00:02:38,140
+up and we're currently looking at the chat<u> GPT</u> window and one of the other things that
+
+469
+00:02:38,140 --> 00:02:38,460
+up and we're currently looking at the chat GPT<u> window</u> and one of the other things that
+
+470
+00:02:38,460 --> 00:02:38,720
+up and we're currently looking at the chat GPT window<u> and</u> one of the other things that
+
+471
+00:02:38,720 --> 00:02:38,780
+up and we're currently looking at the chat GPT window and<u> one</u> of the other things that
+
+472
+00:02:38,780 --> 00:02:38,860
+up and we're currently looking at the chat GPT window and one<u> of</u> the other things that
+
+473
+00:02:38,860 --> 00:02:38,960
+up and we're currently looking at the chat GPT window and one of<u> the</u> other things that
+
+474
+00:02:38,960 --> 00:02:39,120
+up and we're currently looking at the chat GPT window and one of the<u> other</u> things that
+
+475
+00:02:39,120 --> 00:02:39,380
+up and we're currently looking at the chat GPT window and one of the other<u> things</u> that
+
+476
+00:02:39,380 --> 00:02:39,640
+up and we're currently looking at the chat GPT window and one of the other things<u> that</u>
+
+477
+00:02:39,640 --> 00:02:39,800
+<u>I'll</u> often do is maybe go over to a web view or a code view or sometimes a combination
+
+478
+00:02:39,800 --> 00:02:40,120
+I'll<u> often</u> do is maybe go over to a web view or a code view or sometimes a combination
+
+479
+00:02:40,120 --> 00:02:40,400
+I'll often<u> do</u> is maybe go over to a web view or a code view or sometimes a combination
+
+480
+00:02:40,400 --> 00:02:40,600
+I'll often do<u> is</u> maybe go over to a web view or a code view or sometimes a combination
+
+481
+00:02:40,600 --> 00:02:40,840
+I'll often do is<u> maybe</u> go over to a web view or a code view or sometimes a combination
+
+482
+00:02:40,840 --> 00:02:41,140
+I'll often do is maybe<u> go</u> over to a web view or a code view or sometimes a combination
+
+483
+00:02:41,140 --> 00:02:41,380
+I'll often do is maybe go<u> over</u> to a web view or a code view or sometimes a combination
+
+484
+00:02:41,380 --> 00:02:41,720
+I'll often do is maybe go over<u> to</u> a web view or a code view or sometimes a combination
+
+485
+00:02:41,720 --> 00:02:42,000
+I'll often do is maybe go over to<u> a</u> web view or a code view or sometimes a combination
+
+486
+00:02:42,000 --> 00:02:42,280
+I'll often do is maybe go over to a<u> web</u> view or a code view or sometimes a combination
+
+487
+00:02:42,280 --> 00:02:42,780
+I'll often do is maybe go over to a web<u> view</u> or a code view or sometimes a combination
+
+488
+00:02:42,780 --> 00:02:43,220
+I'll often do is maybe go over to a web view<u> or</u> a code view or sometimes a combination
+
+489
+00:02:43,220 --> 00:02:43,460
+I'll often do is maybe go over to a web view or<u> a</u> code view or sometimes a combination
+
+490
+00:02:43,460 --> 00:02:43,700
+I'll often do is maybe go over to a web view or a<u> code</u> view or sometimes a combination
+
+491
+00:02:43,700 --> 00:02:44,080
+I'll often do is maybe go over to a web view or a code<u> view</u> or sometimes a combination
+
+492
+00:02:44,080 --> 00:02:44,740
+I'll often do is maybe go over to a web view or a code view<u> or</u> sometimes a combination
+
+493
+00:02:44,740 --> 00:02:45,220
+I'll often do is maybe go over to a web view or a code view or<u> sometimes</u> a combination
+
+494
+00:02:45,220 --> 00:02:45,720
+I'll often do is maybe go over to a web view or a code view or sometimes<u> a</u> combination
+
+495
+00:02:45,720 --> 00:02:46,080
+I'll often do is maybe go over to a web view or a code view or sometimes a<u> combination</u>
+
+496
+00:02:46,140 --> 00:02:46,660
+<u>of</u> different views.
+
+497
+00:02:46,660 --> 00:02:47,000
+of<u> different</u> views.
+
+498
+00:02:47,000 --> 00:02:47,400
+of different<u> views.</u>
+
+499
+00:02:48,080 --> 00:02:48,120
+<u>But</u> one of the other things that I've just recently put in is my friend Jim and so hi
+
+500
+00:02:48,120 --> 00:02:48,220
+But<u> one</u> of the other things that I've just recently put in is my friend Jim and so hi
+
+501
+00:02:48,220 --> 00:02:48,300
+But one<u> of</u> the other things that I've just recently put in is my friend Jim and so hi
+
+502
+00:02:48,300 --> 00:02:48,400
+But one of<u> the</u> other things that I've just recently put in is my friend Jim and so hi
+
+503
+00:02:48,400 --> 00:02:48,540
+But one of the<u> other</u> things that I've just recently put in is my friend Jim and so hi
+
+504
+00:02:48,540 --> 00:02:48,780
+But one of the other<u> things</u> that I've just recently put in is my friend Jim and so hi
+
+505
+00:02:48,780 --> 00:02:49,100
+But one of the other things<u> that</u> I've just recently put in is my friend Jim and so hi
+
+506
+00:02:49,100 --> 00:02:49,400
+But one of the other things that<u> I've</u> just recently put in is my friend Jim and so hi
+
+507
+00:02:49,400 --> 00:02:49,540
+But one of the other things that I've<u> just</u> recently put in is my friend Jim and so hi
+
+508
+00:02:49,540 --> 00:02:49,960
+But one of the other things that I've just<u> recently</u> put in is my friend Jim and so hi
+
+509
+00:02:49,960 --> 00:02:50,300
+But one of the other things that I've just recently<u> put</u> in is my friend Jim and so hi
+
+510
+00:02:50,300 --> 00:02:50,540
+But one of the other things that I've just recently put<u> in</u> is my friend Jim and so hi
+
+511
+00:02:50,540 --> 00:02:51,160
+But one of the other things that I've just recently put in<u> is</u> my friend Jim and so hi
+
+512
+00:02:51,160 --> 00:02:51,560
+But one of the other things that I've just recently put in is<u> my</u> friend Jim and so hi
+
+513
+00:02:51,560 --> 00:02:51,820
+But one of the other things that I've just recently put in is my<u> friend</u> Jim and so hi
+
+514
+00:02:51,820 --> 00:02:52,180
+But one of the other things that I've just recently put in is my friend<u> Jim</u> and so hi
+
+515
+00:02:52,180 --> 00:02:53,080
+But one of the other things that I've just recently put in is my friend Jim<u> and</u> so hi
+
+516
+00:02:53,080 --> 00:02:53,480
+But one of the other things that I've just recently put in is my friend Jim and<u> so</u> hi
+
+517
+00:02:53,480 --> 00:02:53,900
+But one of the other things that I've just recently put in is my friend Jim and so<u> hi</u>
+
+518
+00:02:53,900 --> 00:02:54,220
+<u>Jim,</u> thank you for recording.
+
+519
+00:02:54,220 --> 00:02:54,420
+Jim, thank you for recording.
+
+520
+00:02:54,420 --> 00:02:54,640
+Jim,<u> thank</u> you for recording.
+
+521
+00:02:54,640 --> 00:02:54,780
+Jim, thank<u> you</u> for recording.
+
+522
+00:02:54,780 --> 00:02:55,000
+Jim, thank you<u> for</u> recording.
+
+523
+00:02:55,000 --> 00:02:55,440
+Jim, thank you for<u> recording.</u>
+
+524
+00:02:55,840 --> 00:02:55,980
+<u>I've</u> also set up another camera giving me a different angle and I've yet to use it
+
+525
+00:02:55,980 --> 00:02:56,240
+I've<u> also</u> set up another camera giving me a different angle and I've yet to use it
+
+526
+00:02:56,240 --> 00:02:56,600
+I've also<u> set</u> up another camera giving me a different angle and I've yet to use it
+
+527
+00:02:56,600 --> 00:02:56,800
+I've also set<u> up</u> another camera giving me a different angle and I've yet to use it
+
+528
+00:02:56,800 --> 00:02:57,700
+I've also set up<u> another</u> camera giving me a different angle and I've yet to use it
+
+529
+00:02:57,700 --> 00:02:58,460
+I've also set up another<u> camera</u> giving me a different angle and I've yet to use it
+
+530
+00:02:58,460 --> 00:02:59,060
+I've also set up another camera<u> giving</u> me a different angle and I've yet to use it
+
+531
+00:02:59,060 --> 00:02:59,460
+I've also set up another camera giving<u> me</u> a different angle and I've yet to use it
+
+532
+00:02:59,460 --> 00:02:59,860
+I've also set up another camera giving me<u> a</u> different angle and I've yet to use it
+
+533
+00:02:59,860 --> 00:03:00,280
+I've also set up another camera giving me a<u> different</u> angle and I've yet to use it
+
+534
+00:03:00,280 --> 00:03:00,860
+I've also set up another camera giving me a different<u> angle</u> and I've yet to use it
+
+535
+00:03:00,860 --> 00:03:01,320
+I've also set up another camera giving me a different angle<u> and</u> I've yet to use it
+
+536
+00:03:01,320 --> 00:03:01,600
+I've also set up another camera giving me a different angle and<u> I've</u> yet to use it
+
+537
+00:03:01,600 --> 00:03:01,760
+I've also set up another camera giving me a different angle and I've<u> yet</u> to use it
+
+538
+00:03:01,760 --> 00:03:01,920
+I've also set up another camera giving me a different angle and I've yet<u> to</u> use it
+
+539
+00:03:01,920 --> 00:03:02,160
+I've also set up another camera giving me a different angle and I've yet to<u> use</u> it
+
+540
+00:03:02,160 --> 00:03:02,340
+I've also set up another camera giving me a different angle and I've yet to use<u> it</u>
+
+541
+00:03:02,340 --> 00:03:02,480
+<u>in</u> any of the scenes, but we'll see how that works.
+
+542
+00:03:02,480 --> 00:03:02,740
+in<u> any</u> of the scenes, but we'll see how that works.
+
+543
+00:03:02,740 --> 00:03:02,860
+in any<u> of</u> the scenes, but we'll see how that works.
+
+544
+00:03:02,860 --> 00:03:02,980
+in any of<u> the</u> scenes, but we'll see how that works.
+
+545
+00:03:02,980 --> 00:03:03,300
+in any of the<u> scenes,</u> but we'll see how that works.
+
+546
+00:03:03,300 --> 00:03:03,400
+in any of the scenes, but we'll see how that works.
+
+547
+00:03:03,400 --> 00:03:03,580
+in any of the scenes,<u> but</u> we'll see how that works.
+
+548
+00:03:03,580 --> 00:03:03,700
+in any of the scenes, but<u> we'll</u> see how that works.
+
+549
+00:03:03,700 --> 00:03:03,900
+in any of the scenes, but we'll<u> see</u> how that works.
+
+550
+00:03:03,900 --> 00:03:04,100
+in any of the scenes, but we'll see<u> how</u> that works.
+
+551
+00:03:04,100 --> 00:03:04,220
+in any of the scenes, but we'll see how<u> that</u> works.
+
+552
+00:03:04,220 --> 00:03:04,600
+in any of the scenes, but we'll see how that<u> works.</u>
+
+553
+00:03:05,160 --> 00:03:05,240
+<u>And</u> the other thing that I've brought from Thailand is this HyperX microphone, it's a
+
+554
+00:03:05,240 --> 00:03:05,340
+And<u> the</u> other thing that I've brought from Thailand is this HyperX microphone, it's a
+
+555
+00:03:05,340 --> 00:03:05,460
+And the<u> other</u> thing that I've brought from Thailand is this HyperX microphone, it's a
+
+556
+00:03:05,460 --> 00:03:05,680
+And the other<u> thing</u> that I've brought from Thailand is this HyperX microphone, it's a
+
+557
+00:03:05,680 --> 00:03:05,840
+And the other thing<u> that</u> I've brought from Thailand is this HyperX microphone, it's a
+
+558
+00:03:05,840 --> 00:03:06,000
+And the other thing that<u> I've</u> brought from Thailand is this HyperX microphone, it's a
+
+559
+00:03:06,000 --> 00:03:06,220
+And the other thing that I've<u> brought</u> from Thailand is this HyperX microphone, it's a
+
+560
+00:03:06,220 --> 00:03:06,520
+And the other thing that I've brought<u> from</u> Thailand is this HyperX microphone, it's a
+
+561
+00:03:06,520 --> 00:03:06,940
+And the other thing that I've brought from<u> Thailand</u> is this HyperX microphone, it's a
+
+562
+00:03:06,940 --> 00:03:07,360
+And the other thing that I've brought from Thailand<u> is</u> this HyperX microphone, it's a
+
+563
+00:03:07,360 --> 00:03:07,600
+And the other thing that I've brought from Thailand is<u> this</u> HyperX microphone, it's a
+
+564
+00:03:07,600 --> 00:03:08,480
+And the other thing that I've brought from Thailand is this<u> HyperX</u> microphone, it's a
+
+565
+00:03:08,480 --> 00:03:09,260
+And the other thing that I've brought from Thailand is this HyperX<u> microphone,</u> it's a
+
+566
+00:03:09,260 --> 00:03:09,560
+And the other thing that I've brought from Thailand is this HyperX microphone, it's a
+
+567
+00:03:09,560 --> 00:03:09,620
+And the other thing that I've brought from Thailand is this HyperX microphone,<u> it's</u> a
+
+568
+00:03:09,620 --> 00:03:09,740
+And the other thing that I've brought from Thailand is this HyperX microphone, it's<u> a</u>
+
+569
+00:03:10,980 --> 00:03:11,520
+<u>Cartoid</u> podcast microphone.
+
+570
+00:03:11,520 --> 00:03:11,300
+Cartoid<u> podcast</u> microphone.
+
+571
+00:03:11,300 --> 00:03:12,060
+Cartoid podcast<u> microphone.</u>
+
+572
+00:03:12,240 --> 00:03:12,420
+<u>I</u> love it.
+
+573
+00:03:12,420 --> 00:03:12,640
+I<u> love</u> it.
+
+574
+00:03:12,640 --> 00:03:12,860
+I love<u> it.</u>
+
+575
+00:03:12,880 --> 00:03:13,380
+<u>And</u> recently I bought this eight dollar piece of wood.
+
+576
+00:03:13,380 --> 00:03:13,740
+And<u> recently</u> I bought this eight dollar piece of wood.
+
+577
+00:03:13,740 --> 00:03:14,060
+And recently<u> I</u> bought this eight dollar piece of wood.
+
+578
+00:03:14,060 --> 00:03:14,220
+And recently I<u> bought</u> this eight dollar piece of wood.
+
+579
+00:03:14,220 --> 00:03:14,480
+And recently I bought<u> this</u> eight dollar piece of wood.
+
+580
+00:03:14,480 --> 00:03:14,880
+And recently I bought this<u> eight</u> dollar piece of wood.
+
+581
+00:03:14,880 --> 00:03:15,260
+And recently I bought this eight<u> dollar</u> piece of wood.
+
+582
+00:03:15,260 --> 00:03:15,560
+And recently I bought this eight dollar<u> piece</u> of wood.
+
+583
+00:03:15,560 --> 00:03:15,780
+And recently I bought this eight dollar piece<u> of</u> wood.
+
+584
+00:03:15,780 --> 00:03:16,100
+And recently I bought this eight dollar piece of<u> wood.</u>
+
+585
+00:03:16,220 --> 00:03:16,380
+<u>So</u> what I've recently bought this week is this little microphone scan.
+
+586
+00:03:16,380 --> 00:03:16,480
+So<u> what</u> I've recently bought this week is this little microphone scan.
+
+587
+00:03:16,480 --> 00:03:16,660
+So what<u> I've</u> recently bought this week is this little microphone scan.
+
+588
+00:03:16,660 --> 00:03:16,940
+So what I've<u> recently</u> bought this week is this little microphone scan.
+
+589
+00:03:16,940 --> 00:03:17,400
+So what I've recently<u> bought</u> this week is this little microphone scan.
+
+590
+00:03:17,400 --> 00:03:17,760
+So what I've recently bought<u> this</u> week is this little microphone scan.
+
+591
+00:03:17,760 --> 00:03:18,220
+So what I've recently bought this<u> week</u> is this little microphone scan.
+
+592
+00:03:18,220 --> 00:03:18,780
+So what I've recently bought this week<u> is</u> this little microphone scan.
+
+593
+00:03:18,780 --> 00:03:19,400
+So what I've recently bought this week is<u> this</u> little microphone scan.
+
+594
+00:03:19,400 --> 00:03:19,740
+So what I've recently bought this week is this<u> little</u> microphone scan.
+
+595
+00:03:19,740 --> 00:03:20,260
+So what I've recently bought this week is this little<u> microphone</u> scan.
+
+596
+00:03:20,260 --> 00:03:20,700
+So what I've recently bought this week is this little microphone<u> scan.</u>
+
+597
+00:03:21,060 --> 00:03:21,060
+<u>I</u> got it from Yilanze and it's proven to be good.
+
+598
+00:03:21,060 --> 00:03:21,240
+I<u> got</u> it from Yilanze and it's proven to be good.
+
+599
+00:03:21,240 --> 00:03:21,380
+I got<u> it</u> from Yilanze and it's proven to be good.
+
+600
+00:03:21,380 --> 00:03:21,680
+I got it<u> from</u> Yilanze and it's proven to be good.
+
+601
+00:03:21,680 --> 00:03:22,760
+I got it from<u> Yilanze</u> and it's proven to be good.
+
+602
+00:03:22,760 --> 00:03:23,480
+I got it from Yilanze<u> and</u> it's proven to be good.
+
+603
+00:03:23,480 --> 00:03:24,160
+I got it from Yilanze and<u> it's</u> proven to be good.
+
+604
+00:03:24,160 --> 00:03:24,880
+I got it from Yilanze and it's<u> proven</u> to be good.
+
+605
+00:03:24,880 --> 00:03:25,120
+I got it from Yilanze and it's proven<u> to</u> be good.
+
+606
+00:03:25,120 --> 00:03:25,260
+I got it from Yilanze and it's proven to<u> be</u> good.
+
+607
+00:03:25,260 --> 00:03:25,600
+I got it from Yilanze and it's proven to be<u> good.</u>
+
+608
+00:03:25,880 --> 00:03:26,100
+<u>When</u> I first got it, I thought I was going to attach it to the table, but I didn't realise
+
+609
+00:03:26,100 --> 00:03:26,220
+When<u> I</u> first got it, I thought I was going to attach it to the table, but I didn't realise
+
+610
+00:03:26,220 --> 00:03:26,620
+When I<u> first</u> got it, I thought I was going to attach it to the table, but I didn't realise
+
+611
+00:03:26,620 --> 00:03:27,100
+When I first<u> got</u> it, I thought I was going to attach it to the table, but I didn't realise
+
+612
+00:03:27,100 --> 00:03:27,260
+When I first got<u> it,</u> I thought I was going to attach it to the table, but I didn't realise
+
+613
+00:03:27,260 --> 00:03:27,300
+When I first got it, I thought I was going to attach it to the table, but I didn't realise
+
+614
+00:03:27,300 --> 00:03:27,420
+When I first got it,<u> I</u> thought I was going to attach it to the table, but I didn't realise
+
+615
+00:03:27,420 --> 00:03:27,680
+When I first got it, I<u> thought</u> I was going to attach it to the table, but I didn't realise
+
+616
+00:03:27,680 --> 00:03:27,860
+When I first got it, I thought<u> I</u> was going to attach it to the table, but I didn't realise
+
+617
+00:03:27,860 --> 00:03:27,960
+When I first got it, I thought I<u> was</u> going to attach it to the table, but I didn't realise
+
+618
+00:03:27,960 --> 00:03:28,180
+When I first got it, I thought I was<u> going</u> to attach it to the table, but I didn't realise
+
+619
+00:03:28,180 --> 00:03:28,340
+When I first got it, I thought I was going<u> to</u> attach it to the table, but I didn't realise
+
+620
+00:03:28,340 --> 00:03:28,760
+When I first got it, I thought I was going to<u> attach</u> it to the table, but I didn't realise
+
+621
+00:03:28,760 --> 00:03:28,960
+When I first got it, I thought I was going to attach<u> it</u> to the table, but I didn't realise
+
+622
+00:03:28,960 --> 00:03:29,160
+When I first got it, I thought I was going to attach it<u> to</u> the table, but I didn't realise
+
+623
+00:03:29,160 --> 00:03:29,280
+When I first got it, I thought I was going to attach it to<u> the</u> table, but I didn't realise
+
+624
+00:03:29,280 --> 00:03:29,700
+When I first got it, I thought I was going to attach it to the<u> table,</u> but I didn't realise
+
+625
+00:03:29,700 --> 00:03:30,380
+When I first got it, I thought I was going to attach it to the table,<u> but</u> I didn't realise
+
+626
+00:03:30,380 --> 00:03:30,600
+When I first got it, I thought I was going to attach it to the table, but<u> I</u> didn't realise
+
+627
+00:03:30,600 --> 00:03:30,840
+When I first got it, I thought I was going to attach it to the table, but I<u> didn't</u> realise
+
+628
+00:03:30,840 --> 00:03:31,200
+When I first got it, I thought I was going to attach it to the table, but I didn't<u> realise</u>
+
+629
+00:03:31,200 --> 00:03:31,660
+<u>that</u> the angle that this goes up and down wasn't going to be big enough.
+
+630
+00:03:31,660 --> 00:03:31,880
+that<u> the</u> angle that this goes up and down wasn't going to be big enough.
+
+631
+00:03:31,880 --> 00:03:32,300
+that the<u> angle</u> that this goes up and down wasn't going to be big enough.
+
+632
+00:03:32,300 --> 00:03:32,520
+that the angle<u> that</u> this goes up and down wasn't going to be big enough.
+
+633
+00:03:32,520 --> 00:03:32,780
+that the angle that<u> this</u> goes up and down wasn't going to be big enough.
+
+634
+00:03:32,780 --> 00:03:33,060
+that the angle that this<u> goes</u> up and down wasn't going to be big enough.
+
+635
+00:03:33,060 --> 00:03:33,440
+that the angle that this goes<u> up</u> and down wasn't going to be big enough.
+
+636
+00:03:33,440 --> 00:03:33,580
+that the angle that this goes up<u> and</u> down wasn't going to be big enough.
+
+637
+00:03:33,580 --> 00:03:33,920
+that the angle that this goes up and<u> down</u> wasn't going to be big enough.
+
+638
+00:03:33,920 --> 00:03:34,500
+that the angle that this goes up and down<u> wasn't</u> going to be big enough.
+
+639
+00:03:34,500 --> 00:03:34,800
+that the angle that this goes up and down wasn't<u> going</u> to be big enough.
+
+640
+00:03:34,800 --> 00:03:35,020
+that the angle that this goes up and down wasn't going<u> to</u> be big enough.
+
+641
+00:03:35,020 --> 00:03:35,180
+that the angle that this goes up and down wasn't going to<u> be</u> big enough.
+
+642
+00:03:35,180 --> 00:03:35,380
+that the angle that this goes up and down wasn't going to be<u> big</u> enough.
+
+643
+00:03:35,380 --> 00:03:35,640
+that the angle that this goes up and down wasn't going to be big<u> enough.</u>
+
+644
+00:03:35,640 --> 00:03:36,080
+<u>So</u> I've now mounted it to this piece of wood.
+
+645
+00:03:36,080 --> 00:03:36,480
+So<u> I've</u> now mounted it to this piece of wood.
+
+646
+00:03:36,480 --> 00:03:36,680
+So I've<u> now</u> mounted it to this piece of wood.
+
+647
+00:03:36,680 --> 00:03:37,160
+So I've now<u> mounted</u> it to this piece of wood.
+
+648
+00:03:37,160 --> 00:03:37,440
+So I've now mounted<u> it</u> to this piece of wood.
+
+649
+00:03:37,440 --> 00:03:37,660
+So I've now mounted it<u> to</u> this piece of wood.
+
+650
+00:03:37,660 --> 00:03:37,960
+So I've now mounted it to<u> this</u> piece of wood.
+
+651
+00:03:37,960 --> 00:03:38,960
+So I've now mounted it to this<u> piece</u> of wood.
+
+652
+00:03:38,960 --> 00:03:39,180
+So I've now mounted it to this piece<u> of</u> wood.
+
+653
+00:03:39,180 --> 00:03:39,420
+So I've now mounted it to this piece of<u> wood.</u>
+
+654
+00:03:40,000 --> 00:03:40,120
+<u>Now,</u> originally, I also used the stand that this comes on and I sat it on the wood, but
+
+655
+00:03:40,120 --> 00:03:40,160
+Now, originally, I also used the stand that this comes on and I sat it on the wood, but
+
+656
+00:03:40,160 --> 00:03:40,500
+Now,<u> originally,</u> I also used the stand that this comes on and I sat it on the wood, but
+
+657
+00:03:40,500 --> 00:03:40,800
+Now, originally, I also used the stand that this comes on and I sat it on the wood, but
+
+658
+00:03:40,800 --> 00:03:40,860
+Now, originally,<u> I</u> also used the stand that this comes on and I sat it on the wood, but
+
+659
+00:03:40,860 --> 00:03:41,140
+Now, originally, I<u> also</u> used the stand that this comes on and I sat it on the wood, but
+
+660
+00:03:41,140 --> 00:03:41,480
+Now, originally, I also<u> used</u> the stand that this comes on and I sat it on the wood, but
+
+661
+00:03:41,480 --> 00:03:41,720
+Now, originally, I also used<u> the</u> stand that this comes on and I sat it on the wood, but
+
+662
+00:03:41,720 --> 00:03:42,040
+Now, originally, I also used the<u> stand</u> that this comes on and I sat it on the wood, but
+
+663
+00:03:42,040 --> 00:03:42,340
+Now, originally, I also used the stand<u> that</u> this comes on and I sat it on the wood, but
+
+664
+00:03:42,340 --> 00:03:42,640
+Now, originally, I also used the stand that<u> this</u> comes on and I sat it on the wood, but
+
+665
+00:03:42,640 --> 00:03:42,960
+Now, originally, I also used the stand that this<u> comes</u> on and I sat it on the wood, but
+
+666
+00:03:42,960 --> 00:03:43,240
+Now, originally, I also used the stand that this comes<u> on</u> and I sat it on the wood, but
+
+667
+00:03:43,240 --> 00:03:43,400
+Now, originally, I also used the stand that this comes on<u> and</u> I sat it on the wood, but
+
+668
+00:03:43,400 --> 00:03:43,560
+Now, originally, I also used the stand that this comes on and<u> I</u> sat it on the wood, but
+
+669
+00:03:43,560 --> 00:03:43,940
+Now, originally, I also used the stand that this comes on and I<u> sat</u> it on the wood, but
+
+670
+00:03:43,940 --> 00:03:44,120
+Now, originally, I also used the stand that this comes on and I sat<u> it</u> on the wood, but
+
+671
+00:03:44,120 --> 00:03:44,420
+Now, originally, I also used the stand that this comes on and I sat it<u> on</u> the wood, but
+
+672
+00:03:44,420 --> 00:03:44,580
+Now, originally, I also used the stand that this comes on and I sat it on<u> the</u> wood, but
+
+673
+00:03:44,580 --> 00:03:44,840
+Now, originally, I also used the stand that this comes on and I sat it on the<u> wood,</u> but
+
+674
+00:03:44,840 --> 00:03:45,080
+Now, originally, I also used the stand that this comes on and I sat it on the wood, but
+
+675
+00:03:45,080 --> 00:03:45,520
+Now, originally, I also used the stand that this comes on and I sat it on the wood,<u> but</u>
+
+676
+00:03:45,520 --> 00:03:45,700
+<u>the</u> problem I was having was that I wasn't quite close enough to the microphone.
+
+677
+00:03:45,700 --> 00:03:45,980
+the<u> problem</u> I was having was that I wasn't quite close enough to the microphone.
+
+678
+00:03:45,980 --> 00:03:46,220
+the problem<u> I</u> was having was that I wasn't quite close enough to the microphone.
+
+679
+00:03:46,220 --> 00:03:46,380
+the problem I<u> was</u> having was that I wasn't quite close enough to the microphone.
+
+680
+00:03:46,380 --> 00:03:46,700
+the problem I was<u> having</u> was that I wasn't quite close enough to the microphone.
+
+681
+00:03:46,700 --> 00:03:47,060
+the problem I was having<u> was</u> that I wasn't quite close enough to the microphone.
+
+682
+00:03:47,060 --> 00:03:47,340
+the problem I was having was<u> that</u> I wasn't quite close enough to the microphone.
+
+683
+00:03:47,340 --> 00:03:47,500
+the problem I was having was that<u> I</u> wasn't quite close enough to the microphone.
+
+684
+00:03:47,500 --> 00:03:47,780
+the problem I was having was that I<u> wasn't</u> quite close enough to the microphone.
+
+685
+00:03:47,780 --> 00:03:48,100
+the problem I was having was that I wasn't<u> quite</u> close enough to the microphone.
+
+686
+00:03:48,100 --> 00:03:48,460
+the problem I was having was that I wasn't quite<u> close</u> enough to the microphone.
+
+687
+00:03:48,460 --> 00:03:48,740
+the problem I was having was that I wasn't quite close<u> enough</u> to the microphone.
+
+688
+00:03:48,740 --> 00:03:48,960
+the problem I was having was that I wasn't quite close enough<u> to</u> the microphone.
+
+689
+00:03:48,960 --> 00:03:49,100
+the problem I was having was that I wasn't quite close enough to<u> the</u> microphone.
+
+690
+00:03:49,100 --> 00:03:49,480
+the problem I was having was that I wasn't quite close enough to the<u> microphone.</u>
+
+691
+00:03:49,480 --> 00:03:49,940
+<u>So</u> now I can bring it in nice and close and it sounds quite good.
+
+692
+00:03:49,940 --> 00:03:50,180
+So<u> now</u> I can bring it in nice and close and it sounds quite good.
+
+693
+00:03:50,180 --> 00:03:50,440
+So now<u> I</u> can bring it in nice and close and it sounds quite good.
+
+694
+00:03:50,440 --> 00:03:50,620
+So now I<u> can</u> bring it in nice and close and it sounds quite good.
+
+695
+00:03:50,620 --> 00:03:50,820
+So now I can<u> bring</u> it in nice and close and it sounds quite good.
+
+696
+00:03:50,820 --> 00:03:50,980
+So now I can bring<u> it</u> in nice and close and it sounds quite good.
+
+697
+00:03:50,980 --> 00:03:51,200
+So now I can bring it<u> in</u> nice and close and it sounds quite good.
+
+698
+00:03:51,200 --> 00:03:51,740
+So now I can bring it in<u> nice</u> and close and it sounds quite good.
+
+699
+00:03:51,740 --> 00:03:52,120
+So now I can bring it in nice<u> and</u> close and it sounds quite good.
+
+700
+00:03:52,120 --> 00:03:52,460
+So now I can bring it in nice and<u> close</u> and it sounds quite good.
+
+701
+00:03:52,460 --> 00:03:53,260
+So now I can bring it in nice and close<u> and</u> it sounds quite good.
+
+702
+00:03:53,260 --> 00:03:53,440
+So now I can bring it in nice and close and<u> it</u> sounds quite good.
+
+703
+00:03:53,440 --> 00:03:53,740
+So now I can bring it in nice and close and it<u> sounds</u> quite good.
+
+704
+00:03:53,740 --> 00:03:54,120
+So now I can bring it in nice and close and it sounds<u> quite</u> good.
+
+705
+00:03:54,120 --> 00:03:54,500
+So now I can bring it in nice and close and it sounds quite<u> good.</u>
+
+706
+00:03:55,040 --> 00:03:55,400
+<u>The</u> other thing I bought last week was what's called a cheese grate rail.
+
+707
+00:03:55,400 --> 00:03:55,560
+The<u> other</u> thing I bought last week was what's called a cheese grate rail.
+
+708
+00:03:55,560 --> 00:03:55,820
+The other<u> thing</u> I bought last week was what's called a cheese grate rail.
+
+709
+00:03:55,820 --> 00:03:56,120
+The other thing<u> I</u> bought last week was what's called a cheese grate rail.
+
+710
+00:03:56,120 --> 00:03:56,400
+The other thing I<u> bought</u> last week was what's called a cheese grate rail.
+
+711
+00:03:56,400 --> 00:03:56,860
+The other thing I bought<u> last</u> week was what's called a cheese grate rail.
+
+712
+00:03:56,860 --> 00:03:57,380
+The other thing I bought last<u> week</u> was what's called a cheese grate rail.
+
+713
+00:03:57,380 --> 00:03:58,300
+The other thing I bought last week<u> was</u> what's called a cheese grate rail.
+
+714
+00:03:58,300 --> 00:03:58,780
+The other thing I bought last week was<u> what's</u> called a cheese grate rail.
+
+715
+00:03:58,780 --> 00:03:59,000
+The other thing I bought last week was what's<u> called</u> a cheese grate rail.
+
+716
+00:03:59,000 --> 00:03:59,240
+The other thing I bought last week was what's called<u> a</u> cheese grate rail.
+
+717
+00:03:59,240 --> 00:03:59,460
+The other thing I bought last week was what's called a<u> cheese</u> grate rail.
+
+718
+00:03:59,460 --> 00:03:59,940
+The other thing I bought last week was what's called a cheese<u> grate</u> rail.
+
+719
+00:03:59,940 --> 00:04:00,600
+The other thing I bought last week was what's called a cheese grate<u> rail.</u>
+
+720
+00:04:00,740 --> 00:04:01,400
+<u>Bought</u> it so that I can currently hang the camera.
+
+721
+00:04:01,400 --> 00:04:01,600
+Bought<u> it</u> so that I can currently hang the camera.
+
+722
+00:04:01,600 --> 00:04:01,760
+Bought it<u> so</u> that I can currently hang the camera.
+
+723
+00:04:01,760 --> 00:04:01,960
+Bought it so<u> that</u> I can currently hang the camera.
+
+724
+00:04:01,960 --> 00:04:02,120
+Bought it so that<u> I</u> can currently hang the camera.
+
+725
+00:04:02,120 --> 00:04:02,400
+Bought it so that I<u> can</u> currently hang the camera.
+
+726
+00:04:02,400 --> 00:04:03,040
+Bought it so that I can<u> currently</u> hang the camera.
+
+727
+00:04:03,040 --> 00:04:03,620
+Bought it so that I can currently<u> hang</u> the camera.
+
+728
+00:04:03,620 --> 00:04:03,960
+Bought it so that I can currently hang<u> the</u> camera.
+
+729
+00:04:03,960 --> 00:04:04,600
+Bought it so that I can currently hang the<u> camera.</u>
+
+730
+00:04:05,080 --> 00:04:05,300
+<u>It's</u> sitting on this ball joint and we've also got this clamp at the top.
+
+731
+00:04:05,300 --> 00:04:05,500
+It's<u> sitting</u> on this ball joint and we've also got this clamp at the top.
+
+732
+00:04:05,500 --> 00:04:05,740
+It's sitting<u> on</u> this ball joint and we've also got this clamp at the top.
+
+733
+00:04:05,740 --> 00:04:05,940
+It's sitting on<u> this</u> ball joint and we've also got this clamp at the top.
+
+734
+00:04:05,940 --> 00:04:06,540
+It's sitting on this<u> ball</u> joint and we've also got this clamp at the top.
+
+735
+00:04:06,540 --> 00:04:06,920
+It's sitting on this ball<u> joint</u> and we've also got this clamp at the top.
+
+736
+00:04:06,920 --> 00:04:07,640
+It's sitting on this ball joint<u> and</u> we've also got this clamp at the top.
+
+737
+00:04:07,640 --> 00:04:07,880
+It's sitting on this ball joint and<u> we've</u> also got this clamp at the top.
+
+738
+00:04:07,880 --> 00:04:08,140
+It's sitting on this ball joint and we've<u> also</u> got this clamp at the top.
+
+739
+00:04:08,140 --> 00:04:08,380
+It's sitting on this ball joint and we've also<u> got</u> this clamp at the top.
+
+740
+00:04:08,380 --> 00:04:08,840
+It's sitting on this ball joint and we've also got<u> this</u> clamp at the top.
+
+741
+00:04:08,840 --> 00:04:09,700
+It's sitting on this ball joint and we've also got this<u> clamp</u> at the top.
+
+742
+00:04:09,700 --> 00:04:10,200
+It's sitting on this ball joint and we've also got this clamp<u> at</u> the top.
+
+743
+00:04:10,200 --> 00:04:10,320
+It's sitting on this ball joint and we've also got this clamp at<u> the</u> top.
+
+744
+00:04:10,320 --> 00:04:10,720
+It's sitting on this ball joint and we've also got this clamp at the<u> top.</u>
+
+745
+00:04:11,220 --> 00:04:11,320
+<u>Now</u> at the beginning of the week when I recorded a video, I actually hung my camera upside
+
+746
+00:04:11,320 --> 00:04:11,600
+Now<u> at</u> the beginning of the week when I recorded a video, I actually hung my camera upside
+
+747
+00:04:11,600 --> 00:04:11,680
+Now at<u> the</u> beginning of the week when I recorded a video, I actually hung my camera upside
+
+748
+00:04:11,680 --> 00:04:11,960
+Now at the<u> beginning</u> of the week when I recorded a video, I actually hung my camera upside
+
+749
+00:04:11,960 --> 00:04:12,140
+Now at the beginning<u> of</u> the week when I recorded a video, I actually hung my camera upside
+
+750
+00:04:12,140 --> 00:04:12,220
+Now at the beginning of<u> the</u> week when I recorded a video, I actually hung my camera upside
+
+751
+00:04:12,220 --> 00:04:12,460
+Now at the beginning of the<u> week</u> when I recorded a video, I actually hung my camera upside
+
+752
+00:04:12,460 --> 00:04:12,640
+Now at the beginning of the week<u> when</u> I recorded a video, I actually hung my camera upside
+
+753
+00:04:12,640 --> 00:04:12,760
+Now at the beginning of the week when<u> I</u> recorded a video, I actually hung my camera upside
+
+754
+00:04:12,760 --> 00:04:13,180
+Now at the beginning of the week when I<u> recorded</u> a video, I actually hung my camera upside
+
+755
+00:04:13,180 --> 00:04:13,380
+Now at the beginning of the week when I recorded<u> a</u> video, I actually hung my camera upside
+
+756
+00:04:13,380 --> 00:04:13,660
+Now at the beginning of the week when I recorded a<u> video,</u> I actually hung my camera upside
+
+757
+00:04:13,660 --> 00:04:14,000
+Now at the beginning of the week when I recorded a video, I actually hung my camera upside
+
+758
+00:04:14,000 --> 00:04:14,140
+Now at the beginning of the week when I recorded a video,<u> I</u> actually hung my camera upside
+
+759
+00:04:14,140 --> 00:04:14,580
+Now at the beginning of the week when I recorded a video, I<u> actually</u> hung my camera upside
+
+760
+00:04:14,580 --> 00:04:15,240
+Now at the beginning of the week when I recorded a video, I actually<u> hung</u> my camera upside
+
+761
+00:04:15,240 --> 00:04:15,880
+Now at the beginning of the week when I recorded a video, I actually hung<u> my</u> camera upside
+
+762
+00:04:15,880 --> 00:04:16,380
+Now at the beginning of the week when I recorded a video, I actually hung my<u> camera</u> upside
+
+763
+00:04:16,380 --> 00:04:16,860
+Now at the beginning of the week when I recorded a video, I actually hung my camera<u> upside</u>
+
+764
+00:04:16,860 --> 00:04:17,340
+<u>down</u> off this and it works okay, but I was having problems with different software needing
+
+765
+00:04:17,340 --> 00:04:17,740
+down<u> off</u> this and it works okay, but I was having problems with different software needing
+
+766
+00:04:17,740 --> 00:04:18,000
+down off<u> this</u> and it works okay, but I was having problems with different software needing
+
+767
+00:04:18,000 --> 00:04:18,480
+down off this<u> and</u> it works okay, but I was having problems with different software needing
+
+768
+00:04:18,480 --> 00:04:18,580
+down off this and<u> it</u> works okay, but I was having problems with different software needing
+
+769
+00:04:18,580 --> 00:04:18,740
+down off this and it<u> works</u> okay, but I was having problems with different software needing
+
+770
+00:04:18,740 --> 00:04:19,240
+down off this and it works<u> okay,</u> but I was having problems with different software needing
+
+771
+00:04:19,240 --> 00:04:19,480
+down off this and it works okay, but I was having problems with different software needing
+
+772
+00:04:19,480 --> 00:04:19,840
+down off this and it works okay,<u> but</u> I was having problems with different software needing
+
+773
+00:04:19,840 --> 00:04:19,940
+down off this and it works okay, but<u> I</u> was having problems with different software needing
+
+774
+00:04:19,940 --> 00:04:20,040
+down off this and it works okay, but I<u> was</u> having problems with different software needing
+
+775
+00:04:20,040 --> 00:04:20,220
+down off this and it works okay, but I was<u> having</u> problems with different software needing
+
+776
+00:04:20,220 --> 00:04:20,640
+down off this and it works okay, but I was having<u> problems</u> with different software needing
+
+777
+00:04:20,640 --> 00:04:20,960
+down off this and it works okay, but I was having problems<u> with</u> different software needing
+
+778
+00:04:20,960 --> 00:04:21,300
+down off this and it works okay, but I was having problems with<u> different</u> software needing
+
+779
+00:04:21,300 --> 00:04:21,780
+down off this and it works okay, but I was having problems with different<u> software</u> needing
+
+780
+00:04:21,780 --> 00:04:22,120
+down off this and it works okay, but I was having problems with different software<u> needing</u>
+
+781
+00:04:22,120 --> 00:04:22,380
+<u>to</u> rotate the camera right here.
+
+782
+00:04:22,380 --> 00:04:22,820
+to<u> rotate</u> the camera right here.
+
+783
+00:04:22,820 --> 00:04:23,580
+to rotate<u> the</u> camera right here.
+
+784
+00:04:23,580 --> 00:04:24,100
+to rotate the<u> camera</u> right here.
+
+785
+00:04:24,100 --> 00:04:24,420
+to rotate the camera<u> right</u> here.
+
+786
+00:04:24,420 --> 00:04:24,820
+to rotate the camera right<u> here.</u>
+
+787
+00:04:25,020 --> 00:04:25,500
+<u>And</u> we can just see that rotation in Ecamm Live.
+
+788
+00:04:25,500 --> 00:04:25,680
+And<u> we</u> can just see that rotation in Ecamm Live.
+
+789
+00:04:25,680 --> 00:04:25,840
+And we<u> can</u> just see that rotation in Ecamm Live.
+
+790
+00:04:25,840 --> 00:04:26,040
+And we can<u> just</u> see that rotation in Ecamm Live.
+
+791
+00:04:26,040 --> 00:04:26,340
+And we can just<u> see</u> that rotation in Ecamm Live.
+
+792
+00:04:26,340 --> 00:04:26,520
+And we can just see<u> that</u> rotation in Ecamm Live.
+
+793
+00:04:26,520 --> 00:04:27,200
+And we can just see that<u> rotation</u> in Ecamm Live.
+
+794
+00:04:27,200 --> 00:04:28,140
+And we can just see that rotation<u> in</u> Ecamm Live.
+
+795
+00:04:28,140 --> 00:04:28,720
+And we can just see that rotation in<u> Ecamm</u> Live.
+
+796
+00:04:28,720 --> 00:04:29,100
+And we can just see that rotation in Ecamm<u> Live.</u>
+
+797
+00:04:29,500 --> 00:04:29,600
+<u>I</u> can change it for different angles.
+
+798
+00:04:29,600 --> 00:04:29,720
+I<u> can</u> change it for different angles.
+
+799
+00:04:29,720 --> 00:04:30,040
+I can<u> change</u> it for different angles.
+
+800
+00:04:30,040 --> 00:04:30,180
+I can change<u> it</u> for different angles.
+
+801
+00:04:30,180 --> 00:04:30,360
+I can change it<u> for</u> different angles.
+
+802
+00:04:30,360 --> 00:04:30,600
+I can change it for<u> different</u> angles.
+
+803
+00:04:30,600 --> 00:04:30,960
+I can change it for different<u> angles.</u>
+
+804
+00:04:31,180 --> 00:04:31,220
+<u>So</u> when I had the camera upside down, this would be the rotation I have, but now that
+
+805
+00:04:31,220 --> 00:04:31,360
+So<u> when</u> I had the camera upside down, this would be the rotation I have, but now that
+
+806
+00:04:31,360 --> 00:04:31,520
+So when<u> I</u> had the camera upside down, this would be the rotation I have, but now that
+
+807
+00:04:31,520 --> 00:04:31,680
+So when I<u> had</u> the camera upside down, this would be the rotation I have, but now that
+
+808
+00:04:31,680 --> 00:04:31,840
+So when I had<u> the</u> camera upside down, this would be the rotation I have, but now that
+
+809
+00:04:31,840 --> 00:04:32,180
+So when I had the<u> camera</u> upside down, this would be the rotation I have, but now that
+
+810
+00:04:32,180 --> 00:04:32,720
+So when I had the camera<u> upside</u> down, this would be the rotation I have, but now that
+
+811
+00:04:32,720 --> 00:04:33,220
+So when I had the camera upside<u> down,</u> this would be the rotation I have, but now that
+
+812
+00:04:33,220 --> 00:04:33,560
+So when I had the camera upside down, this would be the rotation I have, but now that
+
+813
+00:04:33,560 --> 00:04:33,840
+So when I had the camera upside down,<u> this</u> would be the rotation I have, but now that
+
+814
+00:04:33,840 --> 00:04:34,040
+So when I had the camera upside down, this<u> would</u> be the rotation I have, but now that
+
+815
+00:04:34,040 --> 00:04:34,240
+So when I had the camera upside down, this would<u> be</u> the rotation I have, but now that
+
+816
+00:04:34,240 --> 00:04:34,360
+So when I had the camera upside down, this would be<u> the</u> rotation I have, but now that
+
+817
+00:04:34,360 --> 00:04:34,880
+So when I had the camera upside down, this would be the<u> rotation</u> I have, but now that
+
+818
+00:04:34,880 --> 00:04:35,100
+So when I had the camera upside down, this would be the rotation<u> I</u> have, but now that
+
+819
+00:04:35,100 --> 00:04:35,300
+So when I had the camera upside down, this would be the rotation I<u> have,</u> but now that
+
+820
+00:04:35,300 --> 00:04:35,380
+So when I had the camera upside down, this would be the rotation I have, but now that
+
+821
+00:04:35,380 --> 00:04:35,520
+So when I had the camera upside down, this would be the rotation I have,<u> but</u> now that
+
+822
+00:04:35,520 --> 00:04:35,720
+So when I had the camera upside down, this would be the rotation I have, but<u> now</u> that
+
+823
+00:04:35,720 --> 00:04:35,900
+So when I had the camera upside down, this would be the rotation I have, but now<u> that</u>
+
+824
+00:04:35,900 --> 00:04:36,060
+<u>it's</u> up the right way, I can go back to the normal looking field.
+
+825
+00:04:36,060 --> 00:04:36,220
+it's<u> up</u> the right way, I can go back to the normal looking field.
+
+826
+00:04:36,220 --> 00:04:36,340
+it's up<u> the</u> right way, I can go back to the normal looking field.
+
+827
+00:04:36,340 --> 00:04:36,540
+it's up the<u> right</u> way, I can go back to the normal looking field.
+
+828
+00:04:36,540 --> 00:04:36,800
+it's up the right<u> way,</u> I can go back to the normal looking field.
+
+829
+00:04:36,800 --> 00:04:36,860
+it's up the right way, I can go back to the normal looking field.
+
+830
+00:04:36,860 --> 00:04:36,960
+it's up the right way,<u> I</u> can go back to the normal looking field.
+
+831
+00:04:36,960 --> 00:04:37,120
+it's up the right way, I<u> can</u> go back to the normal looking field.
+
+832
+00:04:37,120 --> 00:04:37,260
+it's up the right way, I can<u> go</u> back to the normal looking field.
+
+833
+00:04:37,260 --> 00:04:37,500
+it's up the right way, I can go<u> back</u> to the normal looking field.
+
+834
+00:04:37,500 --> 00:04:37,820
+it's up the right way, I can go back<u> to</u> the normal looking field.
+
+835
+00:04:37,820 --> 00:04:38,080
+it's up the right way, I can go back to<u> the</u> normal looking field.
+
+836
+00:04:38,080 --> 00:04:38,380
+it's up the right way, I can go back to the<u> normal</u> looking field.
+
+837
+00:04:38,380 --> 00:04:38,720
+it's up the right way, I can go back to the normal<u> looking</u> field.
+
+838
+00:04:38,720 --> 00:04:39,100
+it's up the right way, I can go back to the normal looking<u> field.</u>
+
+839
+00:04:39,360 --> 00:04:39,520
+<u>This</u> then goes into what we're looking at at the back.
+
+840
+00:04:39,520 --> 00:04:39,700
+This<u> then</u> goes into what we're looking at at the back.
+
+841
+00:04:39,700 --> 00:04:40,000
+This then<u> goes</u> into what we're looking at at the back.
+
+842
+00:04:40,000 --> 00:04:40,380
+This then goes<u> into</u> what we're looking at at the back.
+
+843
+00:04:40,380 --> 00:04:40,660
+This then goes into<u> what</u> we're looking at at the back.
+
+844
+00:04:40,660 --> 00:04:40,860
+This then goes into what<u> we're</u> looking at at the back.
+
+845
+00:04:40,860 --> 00:04:41,080
+This then goes into what we're<u> looking</u> at at the back.
+
+846
+00:04:41,080 --> 00:04:41,380
+This then goes into what we're looking<u> at</u> at the back.
+
+847
+00:04:41,380 --> 00:04:41,680
+This then goes into what we're looking at<u> at</u> the back.
+
+848
+00:04:41,680 --> 00:04:41,840
+This then goes into what we're looking at at<u> the</u> back.
+
+849
+00:04:41,840 --> 00:04:42,080
+This then goes into what we're looking at at the<u> back.</u>
+
+850
+00:04:42,460 --> 00:04:42,820
+<u>Currently</u> I've just got a couple of staged items being a tripod.
+
+851
+00:04:42,820 --> 00:04:43,180
+Currently<u> I've</u> just got a couple of staged items being a tripod.
+
+852
+00:04:43,180 --> 00:04:43,360
+Currently I've<u> just</u> got a couple of staged items being a tripod.
+
+853
+00:04:43,360 --> 00:04:43,580
+Currently I've just<u> got</u> a couple of staged items being a tripod.
+
+854
+00:04:43,580 --> 00:04:43,680
+Currently I've just got<u> a</u> couple of staged items being a tripod.
+
+855
+00:04:43,680 --> 00:04:43,940
+Currently I've just got a<u> couple</u> of staged items being a tripod.
+
+856
+00:04:43,940 --> 00:04:44,100
+Currently I've just got a couple<u> of</u> staged items being a tripod.
+
+857
+00:04:44,100 --> 00:04:44,520
+Currently I've just got a couple of<u> staged</u> items being a tripod.
+
+858
+00:04:44,520 --> 00:04:45,280
+Currently I've just got a couple of staged<u> items</u> being a tripod.
+
+859
+00:04:45,280 --> 00:04:45,680
+Currently I've just got a couple of staged items<u> being</u> a tripod.
+
+860
+00:04:45,680 --> 00:04:45,880
+Currently I've just got a couple of staged items being<u> a</u> tripod.
+
+861
+00:04:45,880 --> 00:04:46,420
+Currently I've just got a couple of staged items being a<u> tripod.</u>
+
+862
+00:04:47,020 --> 00:04:47,220
+<u>I've</u> got my little gimbal here and I've got this little tripod as well.
+
+863
+00:04:47,220 --> 00:04:47,420
+I've<u> got</u> my little gimbal here and I've got this little tripod as well.
+
+864
+00:04:47,420 --> 00:04:47,620
+I've got<u> my</u> little gimbal here and I've got this little tripod as well.
+
+865
+00:04:47,620 --> 00:04:47,900
+I've got my<u> little</u> gimbal here and I've got this little tripod as well.
+
+866
+00:04:47,900 --> 00:04:48,360
+I've got my little<u> gimbal</u> here and I've got this little tripod as well.
+
+867
+00:04:48,360 --> 00:04:48,840
+I've got my little gimbal<u> here</u> and I've got this little tripod as well.
+
+868
+00:04:48,840 --> 00:04:49,240
+I've got my little gimbal here<u> and</u> I've got this little tripod as well.
+
+869
+00:04:49,240 --> 00:04:49,500
+I've got my little gimbal here and<u> I've</u> got this little tripod as well.
+
+870
+00:04:49,500 --> 00:04:49,600
+I've got my little gimbal here and I've<u> got</u> this little tripod as well.
+
+871
+00:04:49,600 --> 00:04:49,840
+I've got my little gimbal here and I've got<u> this</u> little tripod as well.
+
+872
+00:04:49,840 --> 00:04:50,140
+I've got my little gimbal here and I've got this<u> little</u> tripod as well.
+
+873
+00:04:50,140 --> 00:04:50,880
+I've got my little gimbal here and I've got this little<u> tripod</u> as well.
+
+874
+00:04:50,880 --> 00:04:51,160
+I've got my little gimbal here and I've got this little tripod<u> as</u> well.
+
+875
+00:04:51,160 --> 00:04:51,480
+I've got my little gimbal here and I've got this little tripod as<u> well.</u>
+
+876
+00:04:51,580 --> 00:04:52,100
+<u>The</u> gimbal is something I'm using out in the field for a little bit of morning recordings
+
+877
+00:04:52,100 --> 00:04:52,340
+The<u> gimbal</u> is something I'm using out in the field for a little bit of morning recordings
+
+878
+00:04:52,340 --> 00:04:52,660
+The gimbal<u> is</u> something I'm using out in the field for a little bit of morning recordings
+
+879
+00:04:52,660 --> 00:04:52,920
+The gimbal is<u> something</u> I'm using out in the field for a little bit of morning recordings
+
+880
+00:04:52,920 --> 00:04:53,180
+The gimbal is something<u> I'm</u> using out in the field for a little bit of morning recordings
+
+881
+00:04:53,180 --> 00:04:53,440
+The gimbal is something I'm<u> using</u> out in the field for a little bit of morning recordings
+
+882
+00:04:53,440 --> 00:04:53,840
+The gimbal is something I'm using<u> out</u> in the field for a little bit of morning recordings
+
+883
+00:04:53,840 --> 00:04:54,040
+The gimbal is something I'm using out<u> in</u> the field for a little bit of morning recordings
+
+884
+00:04:54,040 --> 00:04:54,160
+The gimbal is something I'm using out in<u> the</u> field for a little bit of morning recordings
+
+885
+00:04:54,160 --> 00:04:54,640
+The gimbal is something I'm using out in the<u> field</u> for a little bit of morning recordings
+
+886
+00:04:54,640 --> 00:04:55,100
+The gimbal is something I'm using out in the field<u> for</u> a little bit of morning recordings
+
+887
+00:04:55,100 --> 00:04:55,380
+The gimbal is something I'm using out in the field for<u> a</u> little bit of morning recordings
+
+888
+00:04:55,380 --> 00:04:55,560
+The gimbal is something I'm using out in the field for a<u> little</u> bit of morning recordings
+
+889
+00:04:55,560 --> 00:04:55,820
+The gimbal is something I'm using out in the field for a little<u> bit</u> of morning recordings
+
+890
+00:04:55,820 --> 00:04:56,080
+The gimbal is something I'm using out in the field for a little bit<u> of</u> morning recordings
+
+891
+00:04:56,080 --> 00:04:56,640
+The gimbal is something I'm using out in the field for a little bit of<u> morning</u> recordings
+
+892
+00:04:56,640 --> 00:04:57,320
+The gimbal is something I'm using out in the field for a little bit of morning<u> recordings</u>
+
+893
+00:04:57,320 --> 00:04:57,900
+<u>and</u> I'm yet to do much with that, but that's coming along soon.
+
+894
+00:04:57,900 --> 00:04:58,180
+and<u> I'm</u> yet to do much with that, but that's coming along soon.
+
+895
+00:04:58,180 --> 00:04:58,380
+and I'm<u> yet</u> to do much with that, but that's coming along soon.
+
+896
+00:04:58,380 --> 00:04:58,580
+and I'm yet<u> to</u> do much with that, but that's coming along soon.
+
+897
+00:04:58,580 --> 00:04:58,760
+and I'm yet to<u> do</u> much with that, but that's coming along soon.
+
+898
+00:04:58,760 --> 00:04:59,060
+and I'm yet to do<u> much</u> with that, but that's coming along soon.
+
+899
+00:04:59,060 --> 00:04:59,260
+and I'm yet to do much<u> with</u> that, but that's coming along soon.
+
+900
+00:04:59,260 --> 00:04:59,420
+and I'm yet to do much with<u> that,</u> but that's coming along soon.
+
+901
+00:04:59,420 --> 00:04:59,480
+and I'm yet to do much with that, but that's coming along soon.
+
+902
+00:04:59,480 --> 00:04:59,600
+and I'm yet to do much with that,<u> but</u> that's coming along soon.
+
+903
+00:04:59,600 --> 00:04:59,800
+and I'm yet to do much with that, but<u> that's</u> coming along soon.
+
+904
+00:04:59,800 --> 00:05:00,040
+and I'm yet to do much with that, but that's<u> coming</u> along soon.
+
+905
+00:05:00,040 --> 00:05:00,340
+and I'm yet to do much with that, but that's coming<u> along</u> soon.
+
+906
+00:05:00,340 --> 00:05:00,760
+and I'm yet to do much with that, but that's coming along<u> soon.</u>
+
+907
+00:05:02,000 --> 00:05:02,360
+<u>I've</u> also got this teleprompter which has not proven to be all that useful to me.
+
+908
+00:05:02,360 --> 00:05:02,560
+I've<u> also</u> got this teleprompter which has not proven to be all that useful to me.
+
+909
+00:05:02,560 --> 00:05:02,920
+I've also<u> got</u> this teleprompter which has not proven to be all that useful to me.
+
+910
+00:05:02,920 --> 00:05:03,240
+I've also got<u> this</u> teleprompter which has not proven to be all that useful to me.
+
+911
+00:05:03,240 --> 00:05:04,140
+I've also got this<u> teleprompter</u> which has not proven to be all that useful to me.
+
+912
+00:05:04,140 --> 00:05:04,400
+I've also got this teleprompter<u> which</u> has not proven to be all that useful to me.
+
+913
+00:05:04,400 --> 00:05:04,700
+I've also got this teleprompter which<u> has</u> not proven to be all that useful to me.
+
+914
+00:05:04,700 --> 00:05:05,000
+I've also got this teleprompter which has<u> not</u> proven to be all that useful to me.
+
+915
+00:05:05,000 --> 00:05:05,400
+I've also got this teleprompter which has not<u> proven</u> to be all that useful to me.
+
+916
+00:05:05,400 --> 00:05:05,640
+I've also got this teleprompter which has not proven<u> to</u> be all that useful to me.
+
+917
+00:05:05,640 --> 00:05:05,760
+I've also got this teleprompter which has not proven to<u> be</u> all that useful to me.
+
+918
+00:05:05,760 --> 00:05:05,880
+I've also got this teleprompter which has not proven to be<u> all</u> that useful to me.
+
+919
+00:05:05,880 --> 00:05:06,040
+I've also got this teleprompter which has not proven to be all<u> that</u> useful to me.
+
+920
+00:05:06,040 --> 00:05:06,420
+I've also got this teleprompter which has not proven to be all that<u> useful</u> to me.
+
+921
+00:05:06,420 --> 00:05:06,820
+I've also got this teleprompter which has not proven to be all that useful<u> to</u> me.
+
+922
+00:05:06,820 --> 00:05:07,080
+I've also got this teleprompter which has not proven to be all that useful to<u> me.</u>
+
+923
+00:05:07,460 --> 00:05:07,680
+<u>It's</u> actually a bit of a challenge to set up every time I need it and as you can see
+
+924
+00:05:07,680 --> 00:05:08,080
+It's<u> actually</u> a bit of a challenge to set up every time I need it and as you can see
+
+925
+00:05:08,080 --> 00:05:08,280
+It's actually<u> a</u> bit of a challenge to set up every time I need it and as you can see
+
+926
+00:05:08,280 --> 00:05:08,340
+It's actually a<u> bit</u> of a challenge to set up every time I need it and as you can see
+
+927
+00:05:08,340 --> 00:05:08,460
+It's actually a bit<u> of</u> a challenge to set up every time I need it and as you can see
+
+928
+00:05:08,460 --> 00:05:08,580
+It's actually a bit of<u> a</u> challenge to set up every time I need it and as you can see
+
+929
+00:05:08,580 --> 00:05:09,300
+It's actually a bit of a<u> challenge</u> to set up every time I need it and as you can see
+
+930
+00:05:09,300 --> 00:05:09,600
+It's actually a bit of a challenge<u> to</u> set up every time I need it and as you can see
+
+931
+00:05:09,600 --> 00:05:09,820
+It's actually a bit of a challenge to<u> set</u> up every time I need it and as you can see
+
+932
+00:05:09,820 --> 00:05:09,980
+It's actually a bit of a challenge to set<u> up</u> every time I need it and as you can see
+
+933
+00:05:09,980 --> 00:05:10,200
+It's actually a bit of a challenge to set up<u> every</u> time I need it and as you can see
+
+934
+00:05:10,200 --> 00:05:10,540
+It's actually a bit of a challenge to set up every<u> time</u> I need it and as you can see
+
+935
+00:05:10,540 --> 00:05:10,680
+It's actually a bit of a challenge to set up every time<u> I</u> need it and as you can see
+
+936
+00:05:10,680 --> 00:05:10,920
+It's actually a bit of a challenge to set up every time I<u> need</u> it and as you can see
+
+937
+00:05:10,920 --> 00:05:11,100
+It's actually a bit of a challenge to set up every time I need<u> it</u> and as you can see
+
+938
+00:05:11,100 --> 00:05:11,400
+It's actually a bit of a challenge to set up every time I need it<u> and</u> as you can see
+
+939
+00:05:11,400 --> 00:05:11,720
+It's actually a bit of a challenge to set up every time I need it and<u> as</u> you can see
+
+940
+00:05:11,720 --> 00:05:11,840
+It's actually a bit of a challenge to set up every time I need it and as<u> you</u> can see
+
+941
+00:05:11,840 --> 00:05:12,000
+It's actually a bit of a challenge to set up every time I need it and as you<u> can</u> see
+
+942
+00:05:12,000 --> 00:05:12,400
+It's actually a bit of a challenge to set up every time I need it and as you can<u> see</u>
+
+943
+00:05:12,400 --> 00:05:12,600
+<u>when</u> you look at my current camera, it would cover too much of my screen, which is also
+
+944
+00:05:12,600 --> 00:05:12,720
+when<u> you</u> look at my current camera, it would cover too much of my screen, which is also
+
+945
+00:05:12,720 --> 00:05:12,880
+when you<u> look</u> at my current camera, it would cover too much of my screen, which is also
+
+946
+00:05:12,880 --> 00:05:13,040
+when you look<u> at</u> my current camera, it would cover too much of my screen, which is also
+
+947
+00:05:13,040 --> 00:05:13,220
+when you look at<u> my</u> current camera, it would cover too much of my screen, which is also
+
+948
+00:05:13,220 --> 00:05:13,580
+when you look at my<u> current</u> camera, it would cover too much of my screen, which is also
+
+949
+00:05:13,580 --> 00:05:14,200
+when you look at my current<u> camera,</u> it would cover too much of my screen, which is also
+
+950
+00:05:14,200 --> 00:05:14,720
+when you look at my current camera, it would cover too much of my screen, which is also
+
+951
+00:05:14,720 --> 00:05:15,100
+when you look at my current camera,<u> it</u> would cover too much of my screen, which is also
+
+952
+00:05:15,100 --> 00:05:15,420
+when you look at my current camera, it<u> would</u> cover too much of my screen, which is also
+
+953
+00:05:15,420 --> 00:05:15,800
+when you look at my current camera, it would<u> cover</u> too much of my screen, which is also
+
+954
+00:05:15,800 --> 00:05:16,080
+when you look at my current camera, it would cover<u> too</u> much of my screen, which is also
+
+955
+00:05:16,080 --> 00:05:16,300
+when you look at my current camera, it would cover too<u> much</u> of my screen, which is also
+
+956
+00:05:16,300 --> 00:05:16,440
+when you look at my current camera, it would cover too much<u> of</u> my screen, which is also
+
+957
+00:05:16,440 --> 00:05:16,600
+when you look at my current camera, it would cover too much of<u> my</u> screen, which is also
+
+958
+00:05:16,600 --> 00:05:16,900
+when you look at my current camera, it would cover too much of my<u> screen,</u> which is also
+
+959
+00:05:16,900 --> 00:05:16,980
+when you look at my current camera, it would cover too much of my screen, which is also
+
+960
+00:05:16,980 --> 00:05:17,180
+when you look at my current camera, it would cover too much of my screen,<u> which</u> is also
+
+961
+00:05:17,180 --> 00:05:17,320
+when you look at my current camera, it would cover too much of my screen, which<u> is</u> also
+
+962
+00:05:17,320 --> 00:05:17,620
+when you look at my current camera, it would cover too much of my screen, which is<u> also</u>
+
+963
+00:05:17,620 --> 00:05:17,860
+<u>my</u> existing problem.
+
+964
+00:05:17,860 --> 00:05:18,320
+my<u> existing</u> problem.
+
+965
+00:05:18,320 --> 00:05:18,860
+my existing<u> problem.</u>
+
+966
+00:05:19,900 --> 00:05:20,440
+<u>Now,</u> I do want to talk about this little piece of metal that I've just recently bought
+
+967
+00:05:20,440 --> 00:05:20,680
+Now, I do want to talk about this little piece of metal that I've just recently bought
+
+968
+00:05:20,680 --> 00:05:20,840
+Now,<u> I</u> do want to talk about this little piece of metal that I've just recently bought
+
+969
+00:05:20,840 --> 00:05:21,060
+Now, I<u> do</u> want to talk about this little piece of metal that I've just recently bought
+
+970
+00:05:21,060 --> 00:05:21,240
+Now, I do<u> want</u> to talk about this little piece of metal that I've just recently bought
+
+971
+00:05:21,240 --> 00:05:21,320
+Now, I do want<u> to</u> talk about this little piece of metal that I've just recently bought
+
+972
+00:05:21,320 --> 00:05:21,540
+Now, I do want to<u> talk</u> about this little piece of metal that I've just recently bought
+
+973
+00:05:21,540 --> 00:05:21,780
+Now, I do want to talk<u> about</u> this little piece of metal that I've just recently bought
+
+974
+00:05:21,780 --> 00:05:22,060
+Now, I do want to talk about<u> this</u> little piece of metal that I've just recently bought
+
+975
+00:05:22,060 --> 00:05:22,380
+Now, I do want to talk about this<u> little</u> piece of metal that I've just recently bought
+
+976
+00:05:22,380 --> 00:05:22,600
+Now, I do want to talk about this little<u> piece</u> of metal that I've just recently bought
+
+977
+00:05:22,600 --> 00:05:22,860
+Now, I do want to talk about this little piece<u> of</u> metal that I've just recently bought
+
+978
+00:05:22,860 --> 00:05:23,160
+Now, I do want to talk about this little piece of<u> metal</u> that I've just recently bought
+
+979
+00:05:23,160 --> 00:05:24,080
+Now, I do want to talk about this little piece of metal<u> that</u> I've just recently bought
+
+980
+00:05:24,080 --> 00:05:24,840
+Now, I do want to talk about this little piece of metal that<u> I've</u> just recently bought
+
+981
+00:05:24,840 --> 00:05:25,040
+Now, I do want to talk about this little piece of metal that I've<u> just</u> recently bought
+
+982
+00:05:25,040 --> 00:05:25,600
+Now, I do want to talk about this little piece of metal that I've just<u> recently</u> bought
+
+983
+00:05:25,600 --> 00:05:26,080
+Now, I do want to talk about this little piece of metal that I've just recently<u> bought</u>
+
+984
+00:05:26,080 --> 00:05:26,680
+<u>for</u> about $5 from the local hardware store and what I'm going to do is bend it at two
+
+985
+00:05:26,680 --> 00:05:27,020
+for<u> about</u> $5 from the local hardware store and what I'm going to do is bend it at two
+
+986
+00:05:27,020 --> 00:05:27,420
+for about<u> $5</u> from the local hardware store and what I'm going to do is bend it at two
+
+987
+00:05:27,420 --> 00:05:28,200
+for about $5<u> from</u> the local hardware store and what I'm going to do is bend it at two
+
+988
+00:05:28,200 --> 00:05:28,440
+for about $5 from<u> the</u> local hardware store and what I'm going to do is bend it at two
+
+989
+00:05:28,440 --> 00:05:28,760
+for about $5 from the<u> local</u> hardware store and what I'm going to do is bend it at two
+
+990
+00:05:28,760 --> 00:05:29,160
+for about $5 from the local<u> hardware</u> store and what I'm going to do is bend it at two
+
+991
+00:05:29,160 --> 00:05:29,640
+for about $5 from the local hardware<u> store</u> and what I'm going to do is bend it at two
+
+992
+00:05:29,640 --> 00:05:30,040
+for about $5 from the local hardware store<u> and</u> what I'm going to do is bend it at two
+
+993
+00:05:30,040 --> 00:05:30,200
+for about $5 from the local hardware store and<u> what</u> I'm going to do is bend it at two
+
+994
+00:05:30,200 --> 00:05:30,320
+for about $5 from the local hardware store and what<u> I'm</u> going to do is bend it at two
+
+995
+00:05:30,320 --> 00:05:30,480
+for about $5 from the local hardware store and what I'm<u> going</u> to do is bend it at two
+
+996
+00:05:30,480 --> 00:05:30,740
+for about $5 from the local hardware store and what I'm going<u> to</u> do is bend it at two
+
+997
+00:05:30,740 --> 00:05:30,920
+for about $5 from the local hardware store and what I'm going to<u> do</u> is bend it at two
+
+998
+00:05:30,920 --> 00:05:31,100
+for about $5 from the local hardware store and what I'm going to do<u> is</u> bend it at two
+
+999
+00:05:31,100 --> 00:05:31,440
+for about $5 from the local hardware store and what I'm going to do is<u> bend</u> it at two
+
+1000
+00:05:31,440 --> 00:05:31,660
+for about $5 from the local hardware store and what I'm going to do is bend<u> it</u> at two
+
+1001
+00:05:31,660 --> 00:05:31,860
+for about $5 from the local hardware store and what I'm going to do is bend it<u> at</u> two
+
+1002
+00:05:31,860 --> 00:05:32,200
+for about $5 from the local hardware store and what I'm going to do is bend it at<u> two</u>
+
+1003
+00:05:32,200 --> 00:05:32,480
+<u>different</u> locations so that I can create this Z sort of shape and the bottom of the Z is
+
+1004
+00:05:32,480 --> 00:05:33,200
+different<u> locations</u> so that I can create this Z sort of shape and the bottom of the Z is
+
+1005
+00:05:33,200 --> 00:05:33,640
+different locations<u> so</u> that I can create this Z sort of shape and the bottom of the Z is
+
+1006
+00:05:33,640 --> 00:05:33,800
+different locations so<u> that</u> I can create this Z sort of shape and the bottom of the Z is
+
+1007
+00:05:33,800 --> 00:05:33,920
+different locations so that<u> I</u> can create this Z sort of shape and the bottom of the Z is
+
+1008
+00:05:33,920 --> 00:05:34,100
+different locations so that I<u> can</u> create this Z sort of shape and the bottom of the Z is
+
+1009
+00:05:34,100 --> 00:05:34,560
+different locations so that I can<u> create</u> this Z sort of shape and the bottom of the Z is
+
+1010
+00:05:34,560 --> 00:05:35,100
+different locations so that I can create<u> this</u> Z sort of shape and the bottom of the Z is
+
+1011
+00:05:35,100 --> 00:05:35,640
+different locations so that I can create this<u> Z</u> sort of shape and the bottom of the Z is
+
+1012
+00:05:35,640 --> 00:05:36,120
+different locations so that I can create this Z<u> sort</u> of shape and the bottom of the Z is
+
+1013
+00:05:36,120 --> 00:05:36,240
+different locations so that I can create this Z sort<u> of</u> shape and the bottom of the Z is
+
+1014
+00:05:36,240 --> 00:05:36,540
+different locations so that I can create this Z sort of<u> shape</u> and the bottom of the Z is
+
+1015
+00:05:36,540 --> 00:05:37,120
+different locations so that I can create this Z sort of shape<u> and</u> the bottom of the Z is
+
+1016
+00:05:37,120 --> 00:05:37,240
+different locations so that I can create this Z sort of shape and<u> the</u> bottom of the Z is
+
+1017
+00:05:37,240 --> 00:05:37,480
+different locations so that I can create this Z sort of shape and the<u> bottom</u> of the Z is
+
+1018
+00:05:37,480 --> 00:05:37,680
+different locations so that I can create this Z sort of shape and the bottom<u> of</u> the Z is
+
+1019
+00:05:37,680 --> 00:05:37,800
+different locations so that I can create this Z sort of shape and the bottom of<u> the</u> Z is
+
+1020
+00:05:37,800 --> 00:05:38,060
+different locations so that I can create this Z sort of shape and the bottom of the<u> Z</u> is
+
+1021
+00:05:38,060 --> 00:05:38,660
+different locations so that I can create this Z sort of shape and the bottom of the Z<u> is</u>
+
+1022
+00:05:38,660 --> 00:05:38,920
+<u>where</u> I'm going to mount my camera and the top of the Z is where I'm going to mount
+
+1023
+00:05:38,920 --> 00:05:39,300
+where<u> I'm</u> going to mount my camera and the top of the Z is where I'm going to mount
+
+1024
+00:05:39,300 --> 00:05:39,500
+where I'm<u> going</u> to mount my camera and the top of the Z is where I'm going to mount
+
+1025
+00:05:39,500 --> 00:05:39,720
+where I'm going<u> to</u> mount my camera and the top of the Z is where I'm going to mount
+
+1026
+00:05:39,720 --> 00:05:39,900
+where I'm going to<u> mount</u> my camera and the top of the Z is where I'm going to mount
+
+1027
+00:05:39,900 --> 00:05:40,140
+where I'm going to mount<u> my</u> camera and the top of the Z is where I'm going to mount
+
+1028
+00:05:40,140 --> 00:05:40,520
+where I'm going to mount my<u> camera</u> and the top of the Z is where I'm going to mount
+
+1029
+00:05:40,520 --> 00:05:41,820
+where I'm going to mount my camera<u> and</u> the top of the Z is where I'm going to mount
+
+1030
+00:05:41,820 --> 00:05:42,080
+where I'm going to mount my camera and<u> the</u> top of the Z is where I'm going to mount
+
+1031
+00:05:42,080 --> 00:05:42,420
+where I'm going to mount my camera and the<u> top</u> of the Z is where I'm going to mount
+
+1032
+00:05:42,420 --> 00:05:42,600
+where I'm going to mount my camera and the top<u> of</u> the Z is where I'm going to mount
+
+1033
+00:05:42,600 --> 00:05:42,700
+where I'm going to mount my camera and the top of<u> the</u> Z is where I'm going to mount
+
+1034
+00:05:42,700 --> 00:05:43,020
+where I'm going to mount my camera and the top of the<u> Z</u> is where I'm going to mount
+
+1035
+00:05:43,020 --> 00:05:43,660
+where I'm going to mount my camera and the top of the Z<u> is</u> where I'm going to mount
+
+1036
+00:05:43,660 --> 00:05:43,900
+where I'm going to mount my camera and the top of the Z is<u> where</u> I'm going to mount
+
+1037
+00:05:43,900 --> 00:05:44,260
+where I'm going to mount my camera and the top of the Z is where<u> I'm</u> going to mount
+
+1038
+00:05:44,260 --> 00:05:44,480
+where I'm going to mount my camera and the top of the Z is where I'm<u> going</u> to mount
+
+1039
+00:05:44,480 --> 00:05:44,760
+where I'm going to mount my camera and the top of the Z is where I'm going<u> to</u> mount
+
+1040
+00:05:44,760 --> 00:05:45,060
+where I'm going to mount my camera and the top of the Z is where I'm going to<u> mount</u>
+
+1041
+00:05:45,060 --> 00:05:45,320
+<u>it</u> to this ball joint here.
+
+1042
+00:05:45,320 --> 00:05:45,520
+it<u> to</u> this ball joint here.
+
+1043
+00:05:45,520 --> 00:05:45,780
+it to<u> this</u> ball joint here.
+
+1044
+00:05:45,780 --> 00:05:46,340
+it to this<u> ball</u> joint here.
+
+1045
+00:05:46,340 --> 00:05:46,700
+it to this ball<u> joint</u> here.
+
+1046
+00:05:46,700 --> 00:05:47,140
+it to this ball joint<u> here.</u>
+
+1047
+00:05:47,140 --> 00:05:47,640
+<u>And</u> what that will allow me to do is be able to move this up and down like this.
+
+1048
+00:05:47,640 --> 00:05:47,780
+And<u> what</u> that will allow me to do is be able to move this up and down like this.
+
+1049
+00:05:47,780 --> 00:05:47,980
+And what<u> that</u> will allow me to do is be able to move this up and down like this.
+
+1050
+00:05:47,980 --> 00:05:48,100
+And what that<u> will</u> allow me to do is be able to move this up and down like this.
+
+1051
+00:05:48,100 --> 00:05:48,380
+And what that will<u> allow</u> me to do is be able to move this up and down like this.
+
+1052
+00:05:48,380 --> 00:05:48,600
+And what that will allow<u> me</u> to do is be able to move this up and down like this.
+
+1053
+00:05:48,600 --> 00:05:48,780
+And what that will allow me<u> to</u> do is be able to move this up and down like this.
+
+1054
+00:05:48,780 --> 00:05:49,060
+And what that will allow me to<u> do</u> is be able to move this up and down like this.
+
+1055
+00:05:49,060 --> 00:05:49,420
+And what that will allow me to do<u> is</u> be able to move this up and down like this.
+
+1056
+00:05:49,420 --> 00:05:49,640
+And what that will allow me to do is<u> be</u> able to move this up and down like this.
+
+1057
+00:05:49,640 --> 00:05:49,840
+And what that will allow me to do is be<u> able</u> to move this up and down like this.
+
+1058
+00:05:49,840 --> 00:05:49,960
+And what that will allow me to do is be able<u> to</u> move this up and down like this.
+
+1059
+00:05:49,960 --> 00:05:50,140
+And what that will allow me to do is be able to<u> move</u> this up and down like this.
+
+1060
+00:05:50,140 --> 00:05:50,420
+And what that will allow me to do is be able to move<u> this</u> up and down like this.
+
+1061
+00:05:50,420 --> 00:05:50,780
+And what that will allow me to do is be able to move this<u> up</u> and down like this.
+
+1062
+00:05:50,780 --> 00:05:50,880
+And what that will allow me to do is be able to move this up<u> and</u> down like this.
+
+1063
+00:05:50,880 --> 00:05:51,200
+And what that will allow me to do is be able to move this up and<u> down</u> like this.
+
+1064
+00:05:51,200 --> 00:05:51,540
+And what that will allow me to do is be able to move this up and down<u> like</u> this.
+
+1065
+00:05:51,540 --> 00:05:51,940
+And what that will allow me to do is be able to move this up and down like<u> this.</u>
+
+1066
+00:05:52,080 --> 00:05:52,180
+<u>The</u> camera will have multiple degrees of movement, but the other thing is that I'll be able to
+
+1067
+00:05:52,180 --> 00:05:52,460
+The<u> camera</u> will have multiple degrees of movement, but the other thing is that I'll be able to
+
+1068
+00:05:52,460 --> 00:05:52,700
+The camera<u> will</u> have multiple degrees of movement, but the other thing is that I'll be able to
+
+1069
+00:05:52,700 --> 00:05:52,940
+The camera will<u> have</u> multiple degrees of movement, but the other thing is that I'll be able to
+
+1070
+00:05:52,940 --> 00:05:53,300
+The camera will have<u> multiple</u> degrees of movement, but the other thing is that I'll be able to
+
+1071
+00:05:53,300 --> 00:05:53,920
+The camera will have multiple<u> degrees</u> of movement, but the other thing is that I'll be able to
+
+1072
+00:05:53,920 --> 00:05:54,200
+The camera will have multiple degrees<u> of</u> movement, but the other thing is that I'll be able to
+
+1073
+00:05:54,200 --> 00:05:54,640
+The camera will have multiple degrees of<u> movement,</u> but the other thing is that I'll be able to
+
+1074
+00:05:54,640 --> 00:05:55,220
+The camera will have multiple degrees of movement, but the other thing is that I'll be able to
+
+1075
+00:05:55,220 --> 00:05:55,600
+The camera will have multiple degrees of movement,<u> but</u> the other thing is that I'll be able to
+
+1076
+00:05:55,600 --> 00:05:55,900
+The camera will have multiple degrees of movement, but<u> the</u> other thing is that I'll be able to
+
+1077
+00:05:55,900 --> 00:05:56,080
+The camera will have multiple degrees of movement, but the<u> other</u> thing is that I'll be able to
+
+1078
+00:05:56,080 --> 00:05:56,340
+The camera will have multiple degrees of movement, but the other<u> thing</u> is that I'll be able to
+
+1079
+00:05:56,340 --> 00:05:56,720
+The camera will have multiple degrees of movement, but the other thing<u> is</u> that I'll be able to
+
+1080
+00:05:56,720 --> 00:05:56,920
+The camera will have multiple degrees of movement, but the other thing is<u> that</u> I'll be able to
+
+1081
+00:05:56,920 --> 00:05:57,180
+The camera will have multiple degrees of movement, but the other thing is that<u> I'll</u> be able to
+
+1082
+00:05:57,180 --> 00:05:57,340
+The camera will have multiple degrees of movement, but the other thing is that I'll<u> be</u> able to
+
+1083
+00:05:57,340 --> 00:05:57,480
+The camera will have multiple degrees of movement, but the other thing is that I'll be<u> able</u> to
+
+1084
+00:05:57,480 --> 00:05:57,660
+The camera will have multiple degrees of movement, but the other thing is that I'll be able<u> to</u>
+
+1085
+00:05:57,660 --> 00:05:57,860
+<u>lift</u> my camera up and give more visibility to my screen because one of the problems that
+
+1086
+00:05:57,860 --> 00:05:58,100
+lift<u> my</u> camera up and give more visibility to my screen because one of the problems that
+
+1087
+00:05:58,100 --> 00:05:58,460
+lift my<u> camera</u> up and give more visibility to my screen because one of the problems that
+
+1088
+00:05:58,460 --> 00:05:58,820
+lift my camera<u> up</u> and give more visibility to my screen because one of the problems that
+
+1089
+00:05:58,820 --> 00:05:59,300
+lift my camera up<u> and</u> give more visibility to my screen because one of the problems that
+
+1090
+00:05:59,300 --> 00:05:59,740
+lift my camera up and<u> give</u> more visibility to my screen because one of the problems that
+
+1091
+00:05:59,740 --> 00:06:00,060
+lift my camera up and give<u> more</u> visibility to my screen because one of the problems that
+
+1092
+00:06:00,060 --> 00:06:00,540
+lift my camera up and give more<u> visibility</u> to my screen because one of the problems that
+
+1093
+00:06:00,540 --> 00:06:01,080
+lift my camera up and give more visibility<u> to</u> my screen because one of the problems that
+
+1094
+00:06:01,080 --> 00:06:01,340
+lift my camera up and give more visibility to<u> my</u> screen because one of the problems that
+
+1095
+00:06:01,340 --> 00:06:01,680
+lift my camera up and give more visibility to my<u> screen</u> because one of the problems that
+
+1096
+00:06:01,680 --> 00:06:01,960
+lift my camera up and give more visibility to my screen<u> because</u> one of the problems that
+
+1097
+00:06:01,960 --> 00:06:02,200
+lift my camera up and give more visibility to my screen because<u> one</u> of the problems that
+
+1098
+00:06:02,200 --> 00:06:02,300
+lift my camera up and give more visibility to my screen because one<u> of</u> the problems that
+
+1099
+00:06:02,300 --> 00:06:02,400
+lift my camera up and give more visibility to my screen because one of<u> the</u> problems that
+
+1100
+00:06:02,400 --> 00:06:02,720
+lift my camera up and give more visibility to my screen because one of the<u> problems</u> that
+
+1101
+00:06:02,720 --> 00:06:03,000
+lift my camera up and give more visibility to my screen because one of the problems<u> that</u>
+
+1102
+00:06:03,000 --> 00:06:03,140
+<u>I'm</u> having right now with this screen is that the camera takes up so much real estate that
+
+1103
+00:06:03,140 --> 00:06:03,380
+I'm<u> having</u> right now with this screen is that the camera takes up so much real estate that
+
+1104
+00:06:03,380 --> 00:06:03,860
+I'm having<u> right</u> now with this screen is that the camera takes up so much real estate that
+
+1105
+00:06:03,860 --> 00:06:04,220
+I'm having right<u> now</u> with this screen is that the camera takes up so much real estate that
+
+1106
+00:06:04,220 --> 00:06:04,440
+I'm having right now<u> with</u> this screen is that the camera takes up so much real estate that
+
+1107
+00:06:04,440 --> 00:06:04,660
+I'm having right now with<u> this</u> screen is that the camera takes up so much real estate that
+
+1108
+00:06:04,660 --> 00:06:04,940
+I'm having right now with this<u> screen</u> is that the camera takes up so much real estate that
+
+1109
+00:06:04,940 --> 00:06:05,820
+I'm having right now with this screen<u> is</u> that the camera takes up so much real estate that
+
+1110
+00:06:05,820 --> 00:06:06,320
+I'm having right now with this screen is<u> that</u> the camera takes up so much real estate that
+
+1111
+00:06:06,320 --> 00:06:06,540
+I'm having right now with this screen is that<u> the</u> camera takes up so much real estate that
+
+1112
+00:06:06,540 --> 00:06:06,880
+I'm having right now with this screen is that the<u> camera</u> takes up so much real estate that
+
+1113
+00:06:06,880 --> 00:06:07,260
+I'm having right now with this screen is that the camera<u> takes</u> up so much real estate that
+
+1114
+00:06:07,260 --> 00:06:07,420
+I'm having right now with this screen is that the camera takes<u> up</u> so much real estate that
+
+1115
+00:06:07,420 --> 00:06:07,660
+I'm having right now with this screen is that the camera takes up<u> so</u> much real estate that
+
+1116
+00:06:07,660 --> 00:06:08,020
+I'm having right now with this screen is that the camera takes up so<u> much</u> real estate that
+
+1117
+00:06:08,020 --> 00:06:08,400
+I'm having right now with this screen is that the camera takes up so much<u> real</u> estate that
+
+1118
+00:06:08,400 --> 00:06:08,700
+I'm having right now with this screen is that the camera takes up so much real<u> estate</u> that
+
+1119
+00:06:08,700 --> 00:06:08,920
+I'm having right now with this screen is that the camera takes up so much real estate<u> that</u>
+
+1120
+00:06:08,920 --> 00:06:09,100
+<u>I</u> have to stick my head around to the left or the right to have a look what's behind
+
+1121
+00:06:09,100 --> 00:06:09,420
+I<u> have</u> to stick my head around to the left or the right to have a look what's behind
+
+1122
+00:06:09,420 --> 00:06:09,620
+I have<u> to</u> stick my head around to the left or the right to have a look what's behind
+
+1123
+00:06:09,620 --> 00:06:10,300
+I have to<u> stick</u> my head around to the left or the right to have a look what's behind
+
+1124
+00:06:10,300 --> 00:06:10,580
+I have to stick<u> my</u> head around to the left or the right to have a look what's behind
+
+1125
+00:06:10,580 --> 00:06:10,820
+I have to stick my<u> head</u> around to the left or the right to have a look what's behind
+
+1126
+00:06:10,820 --> 00:06:11,140
+I have to stick my head<u> around</u> to the left or the right to have a look what's behind
+
+1127
+00:06:11,140 --> 00:06:11,420
+I have to stick my head around<u> to</u> the left or the right to have a look what's behind
+
+1128
+00:06:11,420 --> 00:06:11,520
+I have to stick my head around to<u> the</u> left or the right to have a look what's behind
+
+1129
+00:06:11,520 --> 00:06:11,800
+I have to stick my head around to the<u> left</u> or the right to have a look what's behind
+
+1130
+00:06:11,800 --> 00:06:12,060
+I have to stick my head around to the left<u> or</u> the right to have a look what's behind
+
+1131
+00:06:12,060 --> 00:06:12,140
+I have to stick my head around to the left or<u> the</u> right to have a look what's behind
+
+1132
+00:06:12,140 --> 00:06:12,520
+I have to stick my head around to the left or the<u> right</u> to have a look what's behind
+
+1133
+00:06:12,520 --> 00:06:13,080
+I have to stick my head around to the left or the right<u> to</u> have a look what's behind
+
+1134
+00:06:13,080 --> 00:06:13,280
+I have to stick my head around to the left or the right to<u> have</u> a look what's behind
+
+1135
+00:06:13,280 --> 00:06:13,420
+I have to stick my head around to the left or the right to have<u> a</u> look what's behind
+
+1136
+00:06:13,420 --> 00:06:13,500
+I have to stick my head around to the left or the right to have a<u> look</u> what's behind
+
+1137
+00:06:13,500 --> 00:06:13,860
+I have to stick my head around to the left or the right to have a look<u> what's</u> behind
+
+1138
+00:06:13,860 --> 00:06:14,240
+I have to stick my head around to the left or the right to have a look what's<u> behind</u>
+
+1139
+00:06:14,240 --> 00:06:14,500
+<u>it.</u>
+
+1140
+00:06:14,820 --> 00:06:15,080
+<u>So</u> this will be next week.
+
+1141
+00:06:15,080 --> 00:06:15,380
+So<u> this</u> will be next week.
+
+1142
+00:06:15,380 --> 00:06:15,560
+So this<u> will</u> be next week.
+
+1143
+00:06:15,560 --> 00:06:15,760
+So this will<u> be</u> next week.
+
+1144
+00:06:15,760 --> 00:06:16,040
+So this will be<u> next</u> week.
+
+1145
+00:06:16,040 --> 00:06:16,320
+So this will be next<u> week.</u>
+
+1146
+00:06:16,400 --> 00:06:16,980
+<u>So</u> that's my in progress YouTube studio and I say it's in progress because while I was
+
+1147
+00:06:16,980 --> 00:06:17,300
+So<u> that's</u> my in progress YouTube studio and I say it's in progress because while I was
+
+1148
+00:06:17,300 --> 00:06:17,560
+So that's<u> my</u> in progress YouTube studio and I say it's in progress because while I was
+
+1149
+00:06:17,560 --> 00:06:17,880
+So that's my<u> in</u> progress YouTube studio and I say it's in progress because while I was
+
+1150
+00:06:17,880 --> 00:06:18,180
+So that's my in<u> progress</u> YouTube studio and I say it's in progress because while I was
+
+1151
+00:06:18,180 --> 00:06:18,760
+So that's my in progress<u> YouTube</u> studio and I say it's in progress because while I was
+
+1152
+00:06:18,760 --> 00:06:19,300
+So that's my in progress YouTube<u> studio</u> and I say it's in progress because while I was
+
+1153
+00:06:19,300 --> 00:06:19,760
+So that's my in progress YouTube studio<u> and</u> I say it's in progress because while I was
+
+1154
+00:06:19,760 --> 00:06:19,900
+So that's my in progress YouTube studio and<u> I</u> say it's in progress because while I was
+
+1155
+00:06:19,900 --> 00:06:20,120
+So that's my in progress YouTube studio and I<u> say</u> it's in progress because while I was
+
+1156
+00:06:20,120 --> 00:06:20,320
+So that's my in progress YouTube studio and I say<u> it's</u> in progress because while I was
+
+1157
+00:06:20,320 --> 00:06:20,420
+So that's my in progress YouTube studio and I say it's<u> in</u> progress because while I was
+
+1158
+00:06:20,420 --> 00:06:20,780
+So that's my in progress YouTube studio and I say it's in<u> progress</u> because while I was
+
+1159
+00:06:20,780 --> 00:06:21,280
+So that's my in progress YouTube studio and I say it's in progress<u> because</u> while I was
+
+1160
+00:06:21,280 --> 00:06:21,820
+So that's my in progress YouTube studio and I say it's in progress because<u> while</u> I was
+
+1161
+00:06:21,820 --> 00:06:21,960
+So that's my in progress YouTube studio and I say it's in progress because while<u> I</u> was
+
+1162
+00:06:21,960 --> 00:06:22,080
+So that's my in progress YouTube studio and I say it's in progress because while I<u> was</u>
+
+1163
+00:06:22,080 --> 00:06:22,480
+<u>recording</u> this came in, it's got a small ring, people just open it up.
+
+1164
+00:06:22,480 --> 00:06:22,880
+recording<u> this</u> came in, it's got a small ring, people just open it up.
+
+1165
+00:06:22,880 --> 00:06:23,180
+recording this<u> came</u> in, it's got a small ring, people just open it up.
+
+1166
+00:06:23,180 --> 00:06:23,440
+recording this came<u> in,</u> it's got a small ring, people just open it up.
+
+1167
+00:06:23,440 --> 00:06:23,480
+recording this came in, it's got a small ring, people just open it up.
+
+1168
+00:06:23,480 --> 00:06:23,860
+recording this came in,<u> it's</u> got a small ring, people just open it up.
+
+1169
+00:06:23,860 --> 00:06:24,120
+recording this came in, it's<u> got</u> a small ring, people just open it up.
+
+1170
+00:06:24,120 --> 00:06:24,380
+recording this came in, it's got<u> a</u> small ring, people just open it up.
+
+1171
+00:06:24,380 --> 00:06:24,760
+recording this came in, it's got a<u> small</u> ring, people just open it up.
+
+1172
+00:06:24,760 --> 00:06:25,040
+recording this came in, it's got a small<u> ring,</u> people just open it up.
+
+1173
+00:06:25,040 --> 00:06:25,360
+recording this came in, it's got a small ring,<u> people</u> just open it up.
+
+1174
+00:06:25,360 --> 00:06:25,600
+recording this came in, it's got a small ring, people<u> just</u> open it up.
+
+1175
+00:06:25,600 --> 00:06:26,020
+recording this came in, it's got a small ring, people just<u> open</u> it up.
+
+1176
+00:06:26,020 --> 00:06:26,200
+recording this came in, it's got a small ring, people just open<u> it</u> up.
+
+1177
+00:06:26,200 --> 00:06:26,400
+recording this came in, it's got a small ring, people just open it<u> up.</u>
+
+1178
+00:06:26,980 --> 00:06:27,200
+<u>And</u> what this is going to do is be another optional way of mounting the camera.
+
+1179
+00:06:27,200 --> 00:06:27,640
+And<u> what</u> this is going to do is be another optional way of mounting the camera.
+
+1180
+00:06:27,640 --> 00:06:28,060
+And what<u> this</u> is going to do is be another optional way of mounting the camera.
+
+1181
+00:06:28,060 --> 00:06:28,300
+And what this<u> is</u> going to do is be another optional way of mounting the camera.
+
+1182
+00:06:28,300 --> 00:06:28,580
+And what this is<u> going</u> to do is be another optional way of mounting the camera.
+
+1183
+00:06:28,580 --> 00:06:28,800
+And what this is going<u> to</u> do is be another optional way of mounting the camera.
+
+1184
+00:06:28,800 --> 00:06:29,140
+And what this is going to<u> do</u> is be another optional way of mounting the camera.
+
+1185
+00:06:29,140 --> 00:06:29,580
+And what this is going to do<u> is</u> be another optional way of mounting the camera.
+
+1186
+00:06:29,580 --> 00:06:29,860
+And what this is going to do is<u> be</u> another optional way of mounting the camera.
+
+1187
+00:06:29,860 --> 00:06:30,360
+And what this is going to do is be<u> another</u> optional way of mounting the camera.
+
+1188
+00:06:30,360 --> 00:06:31,060
+And what this is going to do is be another<u> optional</u> way of mounting the camera.
+
+1189
+00:06:31,060 --> 00:06:31,480
+And what this is going to do is be another optional<u> way</u> of mounting the camera.
+
+1190
+00:06:31,480 --> 00:06:31,980
+And what this is going to do is be another optional way<u> of</u> mounting the camera.
+
+1191
+00:06:31,980 --> 00:06:32,420
+And what this is going to do is be another optional way of<u> mounting</u> the camera.
+
+1192
+00:06:32,420 --> 00:06:32,700
+And what this is going to do is be another optional way of mounting<u> the</u> camera.
+
+1193
+00:06:32,700 --> 00:06:33,000
+And what this is going to do is be another optional way of mounting the<u> camera.</u>
+
+1194
+00:06:33,480 --> 00:06:33,720
+<u>So</u> what I should be able to do is take this clamp and put it onto the pole and then lock
+
+1195
+00:06:33,720 --> 00:06:33,880
+So<u> what</u> I should be able to do is take this clamp and put it onto the pole and then lock
+
+1196
+00:06:33,880 --> 00:06:34,000
+So what<u> I</u> should be able to do is take this clamp and put it onto the pole and then lock
+
+1197
+00:06:34,000 --> 00:06:34,160
+So what I<u> should</u> be able to do is take this clamp and put it onto the pole and then lock
+
+1198
+00:06:34,160 --> 00:06:34,360
+So what I should<u> be</u> able to do is take this clamp and put it onto the pole and then lock
+
+1199
+00:06:34,360 --> 00:06:34,500
+So what I should be<u> able</u> to do is take this clamp and put it onto the pole and then lock
+
+1200
+00:06:34,500 --> 00:06:34,660
+So what I should be able<u> to</u> do is take this clamp and put it onto the pole and then lock
+
+1201
+00:06:34,660 --> 00:06:34,940
+So what I should be able to<u> do</u> is take this clamp and put it onto the pole and then lock
+
+1202
+00:06:34,940 --> 00:06:35,460
+So what I should be able to do<u> is</u> take this clamp and put it onto the pole and then lock
+
+1203
+00:06:35,460 --> 00:06:35,940
+So what I should be able to do is<u> take</u> this clamp and put it onto the pole and then lock
+
+1204
+00:06:35,940 --> 00:06:36,300
+So what I should be able to do is take<u> this</u> clamp and put it onto the pole and then lock
+
+1205
+00:06:36,300 --> 00:06:36,680
+So what I should be able to do is take this<u> clamp</u> and put it onto the pole and then lock
+
+1206
+00:06:36,680 --> 00:06:37,080
+So what I should be able to do is take this clamp<u> and</u> put it onto the pole and then lock
+
+1207
+00:06:37,080 --> 00:06:37,260
+So what I should be able to do is take this clamp and<u> put</u> it onto the pole and then lock
+
+1208
+00:06:37,260 --> 00:06:37,420
+So what I should be able to do is take this clamp and put<u> it</u> onto the pole and then lock
+
+1209
+00:06:37,420 --> 00:06:37,600
+So what I should be able to do is take this clamp and put it<u> onto</u> the pole and then lock
+
+1210
+00:06:37,600 --> 00:06:38,080
+So what I should be able to do is take this clamp and put it onto<u> the</u> pole and then lock
+
+1211
+00:06:38,080 --> 00:06:38,340
+So what I should be able to do is take this clamp and put it onto the<u> pole</u> and then lock
+
+1212
+00:06:38,340 --> 00:06:39,040
+So what I should be able to do is take this clamp and put it onto the pole<u> and</u> then lock
+
+1213
+00:06:39,040 --> 00:06:39,200
+So what I should be able to do is take this clamp and put it onto the pole and<u> then</u> lock
+
+1214
+00:06:39,200 --> 00:06:39,560
+So what I should be able to do is take this clamp and put it onto the pole and then<u> lock</u>
+
+1215
+00:06:39,560 --> 00:06:39,900
+<u>this</u> into position with my camera just the way I need it.
+
+1216
+00:06:39,900 --> 00:06:40,140
+this<u> into</u> position with my camera just the way I need it.
+
+1217
+00:06:40,140 --> 00:06:40,640
+this into<u> position</u> with my camera just the way I need it.
+
+1218
+00:06:40,640 --> 00:06:40,960
+this into position<u> with</u> my camera just the way I need it.
+
+1219
+00:06:40,960 --> 00:06:41,160
+this into position with<u> my</u> camera just the way I need it.
+
+1220
+00:06:41,160 --> 00:06:41,580
+this into position with my<u> camera</u> just the way I need it.
+
+1221
+00:06:41,580 --> 00:06:42,000
+this into position with my camera<u> just</u> the way I need it.
+
+1222
+00:06:42,000 --> 00:06:42,200
+this into position with my camera just<u> the</u> way I need it.
+
+1223
+00:06:42,200 --> 00:06:42,380
+this into position with my camera just the<u> way</u> I need it.
+
+1224
+00:06:42,380 --> 00:06:42,520
+this into position with my camera just the way<u> I</u> need it.
+
+1225
+00:06:42,520 --> 00:06:42,800
+this into position with my camera just the way I<u> need</u> it.
+
+1226
+00:06:42,800 --> 00:06:43,000
+this into position with my camera just the way I need<u> it.</u>
+
+1227
+00:06:43,000 --> 00:06:43,480
+<u>The</u> other thing that will come into the YouTube studio in the next day or so is the
+
+1228
+00:06:43,480 --> 00:06:43,660
+The<u> other</u> thing that will come into the YouTube studio in the next day or so is the
+
+1229
+00:06:43,660 --> 00:06:43,940
+The other<u> thing</u> that will come into the YouTube studio in the next day or so is the
+
+1230
+00:06:43,940 --> 00:06:44,240
+The other thing<u> that</u> will come into the YouTube studio in the next day or so is the
+
+1231
+00:06:44,240 --> 00:06:44,540
+The other thing that<u> will</u> come into the YouTube studio in the next day or so is the
+
+1232
+00:06:44,540 --> 00:06:44,840
+The other thing that will<u> come</u> into the YouTube studio in the next day or so is the
+
+1233
+00:06:44,840 --> 00:06:45,240
+The other thing that will come<u> into</u> the YouTube studio in the next day or so is the
+
+1234
+00:06:45,240 --> 00:06:45,580
+The other thing that will come into<u> the</u> YouTube studio in the next day or so is the
+
+1235
+00:06:45,580 --> 00:06:45,940
+The other thing that will come into the<u> YouTube</u> studio in the next day or so is the
+
+1236
+00:06:45,940 --> 00:06:46,400
+The other thing that will come into the YouTube<u> studio</u> in the next day or so is the
+
+1237
+00:06:46,400 --> 00:06:46,720
+The other thing that will come into the YouTube studio<u> in</u> the next day or so is the
+
+1238
+00:06:46,720 --> 00:06:46,800
+The other thing that will come into the YouTube studio in<u> the</u> next day or so is the
+
+1239
+00:06:46,800 --> 00:06:46,980
+The other thing that will come into the YouTube studio in the<u> next</u> day or so is the
+
+1240
+00:06:46,980 --> 00:06:47,280
+The other thing that will come into the YouTube studio in the next<u> day</u> or so is the
+
+1241
+00:06:47,280 --> 00:06:47,500
+The other thing that will come into the YouTube studio in the next day<u> or</u> so is the
+
+1242
+00:06:47,500 --> 00:06:47,720
+The other thing that will come into the YouTube studio in the next day or<u> so</u> is the
+
+1243
+00:06:47,720 --> 00:06:48,500
+The other thing that will come into the YouTube studio in the next day or so<u> is</u> the
+
+1244
+00:06:48,500 --> 00:06:48,780
+The other thing that will come into the YouTube studio in the next day or so is<u> the</u>
+
+1245
+00:06:48,780 --> 00:06:48,960
+<u>green</u> screen.
+
+1246
+00:06:48,960 --> 00:06:49,280
+green<u> screen.</u>
+
+1247
+00:06:49,640 --> 00:06:49,720
+<u>Now</u> I'm going to build it, it'll be a DIY sort of job.
+
+1248
+00:06:49,720 --> 00:06:50,040
+Now<u> I'm</u> going to build it, it'll be a DIY sort of job.
+
+1249
+00:06:50,040 --> 00:06:50,180
+Now I'm<u> going</u> to build it, it'll be a DIY sort of job.
+
+1250
+00:06:50,180 --> 00:06:50,340
+Now I'm going<u> to</u> build it, it'll be a DIY sort of job.
+
+1251
+00:06:50,340 --> 00:06:50,560
+Now I'm going to<u> build</u> it, it'll be a DIY sort of job.
+
+1252
+00:06:50,560 --> 00:06:50,760
+Now I'm going to build<u> it,</u> it'll be a DIY sort of job.
+
+1253
+00:06:50,760 --> 00:06:50,800
+Now I'm going to build it, it'll be a DIY sort of job.
+
+1254
+00:06:50,800 --> 00:06:51,000
+Now I'm going to build it,<u> it'll</u> be a DIY sort of job.
+
+1255
+00:06:51,000 --> 00:06:51,160
+Now I'm going to build it, it'll<u> be</u> a DIY sort of job.
+
+1256
+00:06:51,160 --> 00:06:51,300
+Now I'm going to build it, it'll be<u> a</u> DIY sort of job.
+
+1257
+00:06:51,300 --> 00:06:51,720
+Now I'm going to build it, it'll be a<u> DIY</u> sort of job.
+
+1258
+00:06:51,720 --> 00:06:52,320
+Now I'm going to build it, it'll be a DIY<u> sort</u> of job.
+
+1259
+00:06:52,320 --> 00:06:52,460
+Now I'm going to build it, it'll be a DIY sort<u> of</u> job.
+
+1260
+00:06:52,460 --> 00:06:52,740
+Now I'm going to build it, it'll be a DIY sort of<u> job.</u>
+
+1261
+00:06:53,020 --> 00:06:53,120
+<u>You</u> can see some of the challenges that I'm trying to solve with my YouTube setup.
+
+1262
+00:06:53,120 --> 00:06:53,280
+You<u> can</u> see some of the challenges that I'm trying to solve with my YouTube setup.
+
+1263
+00:06:53,280 --> 00:06:53,520
+You can<u> see</u> some of the challenges that I'm trying to solve with my YouTube setup.
+
+1264
+00:06:53,520 --> 00:06:53,820
+You can see<u> some</u> of the challenges that I'm trying to solve with my YouTube setup.
+
+1265
+00:06:53,820 --> 00:06:53,920
+You can see some<u> of</u> the challenges that I'm trying to solve with my YouTube setup.
+
+1266
+00:06:53,920 --> 00:06:54,040
+You can see some of<u> the</u> challenges that I'm trying to solve with my YouTube setup.
+
+1267
+00:06:54,040 --> 00:06:54,480
+You can see some of the<u> challenges</u> that I'm trying to solve with my YouTube setup.
+
+1268
+00:06:54,480 --> 00:06:54,980
+You can see some of the challenges<u> that</u> I'm trying to solve with my YouTube setup.
+
+1269
+00:06:54,980 --> 00:06:55,220
+You can see some of the challenges that<u> I'm</u> trying to solve with my YouTube setup.
+
+1270
+00:06:55,220 --> 00:06:55,420
+You can see some of the challenges that I'm<u> trying</u> to solve with my YouTube setup.
+
+1271
+00:06:55,420 --> 00:06:55,620
+You can see some of the challenges that I'm trying<u> to</u> solve with my YouTube setup.
+
+1272
+00:06:55,620 --> 00:06:55,800
+You can see some of the challenges that I'm trying to<u> solve</u> with my YouTube setup.
+
+1273
+00:06:55,800 --> 00:06:56,120
+You can see some of the challenges that I'm trying to solve<u> with</u> my YouTube setup.
+
+1274
+00:06:56,120 --> 00:06:56,340
+You can see some of the challenges that I'm trying to solve with<u> my</u> YouTube setup.
+
+1275
+00:06:56,340 --> 00:06:56,740
+You can see some of the challenges that I'm trying to solve with my<u> YouTube</u> setup.
+
+1276
+00:06:56,740 --> 00:06:57,180
+You can see some of the challenges that I'm trying to solve with my YouTube<u> setup.</u>
+
+1277
+00:06:57,380 --> 00:06:57,520
+<u>If</u> you've got any comments on how I should improve the YouTube setup, I'd love to hear
+
+1278
+00:06:57,520 --> 00:06:57,760
+If<u> you've</u> got any comments on how I should improve the YouTube setup, I'd love to hear
+
+1279
+00:06:57,760 --> 00:06:57,900
+If you've<u> got</u> any comments on how I should improve the YouTube setup, I'd love to hear
+
+1280
+00:06:57,900 --> 00:06:58,240
+If you've got<u> any</u> comments on how I should improve the YouTube setup, I'd love to hear
+
+1281
+00:06:58,240 --> 00:06:58,780
+If you've got any<u> comments</u> on how I should improve the YouTube setup, I'd love to hear
+
+1282
+00:06:58,780 --> 00:06:59,120
+If you've got any comments<u> on</u> how I should improve the YouTube setup, I'd love to hear
+
+1283
+00:06:59,120 --> 00:06:59,440
+If you've got any comments on<u> how</u> I should improve the YouTube setup, I'd love to hear
+
+1284
+00:06:59,440 --> 00:06:59,640
+If you've got any comments on how<u> I</u> should improve the YouTube setup, I'd love to hear
+
+1285
+00:06:59,640 --> 00:06:59,800
+If you've got any comments on how I<u> should</u> improve the YouTube setup, I'd love to hear
+
+1286
+00:06:59,800 --> 00:07:00,300
+If you've got any comments on how I should<u> improve</u> the YouTube setup, I'd love to hear
+
+1287
+00:07:00,300 --> 00:07:00,580
+If you've got any comments on how I should improve<u> the</u> YouTube setup, I'd love to hear
+
+1288
+00:07:00,580 --> 00:07:00,960
+If you've got any comments on how I should improve the<u> YouTube</u> setup, I'd love to hear
+
+1289
+00:07:00,960 --> 00:07:01,400
+If you've got any comments on how I should improve the YouTube<u> setup,</u> I'd love to hear
+
+1290
+00:07:01,400 --> 00:07:01,720
+If you've got any comments on how I should improve the YouTube setup, I'd love to hear
+
+1291
+00:07:01,720 --> 00:07:01,960
+If you've got any comments on how I should improve the YouTube setup,<u> I'd</u> love to hear
+
+1292
+00:07:01,960 --> 00:07:02,140
+If you've got any comments on how I should improve the YouTube setup, I'd<u> love</u> to hear
+
+1293
+00:07:02,140 --> 00:07:02,340
+If you've got any comments on how I should improve the YouTube setup, I'd love<u> to</u> hear
+
+1294
+00:07:02,340 --> 00:07:02,540
+If you've got any comments on how I should improve the YouTube setup, I'd love to<u> hear</u>
+
+1295
+00:07:02,540 --> 00:07:02,800
+<u>your</u> ideas.
+
+1296
+00:07:02,800 --> 00:07:03,340
+your<u> ideas.</u>
+
+1297
+00:07:03,840 --> 00:07:04,000
+<u>Anyway,</u> I'm Appy Dave, I'll see you in the next video.
+
+1298
+00:07:04,000 --> 00:07:04,280
+Anyway, I'm Appy Dave, I'll see you in the next video.
+
+1299
+00:07:04,280 --> 00:07:04,460
+Anyway,<u> I'm</u> Appy Dave, I'll see you in the next video.
+
+1300
+00:07:04,460 --> 00:07:04,700
+Anyway, I'm<u> Appy</u> Dave, I'll see you in the next video.
+
+1301
+00:07:04,700 --> 00:07:04,920
+Anyway, I'm Appy<u> Dave,</u> I'll see you in the next video.
+
+1302
+00:07:04,920 --> 00:07:05,140
+Anyway, I'm Appy Dave, I'll see you in the next video.
+
+1303
+00:07:05,140 --> 00:07:05,240
+Anyway, I'm Appy Dave,<u> I'll</u> see you in the next video.
+
+1304
+00:07:05,240 --> 00:07:05,440
+Anyway, I'm Appy Dave, I'll<u> see</u> you in the next video.
+
+1305
+00:07:05,440 --> 00:07:05,520
+Anyway, I'm Appy Dave, I'll see<u> you</u> in the next video.
+
+1306
+00:07:05,520 --> 00:07:05,620
+Anyway, I'm Appy Dave, I'll see you<u> in</u> the next video.
+
+1307
+00:07:05,620 --> 00:07:05,700
+Anyway, I'm Appy Dave, I'll see you in<u> the</u> next video.
+
+1308
+00:07:05,700 --> 00:07:05,880
+Anyway, I'm Appy Dave, I'll see you in the<u> next</u> video.
+
+1309
+00:07:05,880 --> 00:07:06,260
+Anyway, I'm Appy Dave, I'll see you in the next<u> video.</u>
+

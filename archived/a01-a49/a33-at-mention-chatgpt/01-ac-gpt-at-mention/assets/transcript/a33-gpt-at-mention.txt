@@ -1,0 +1,158 @@
+An hour ago this awesome feature got added to ChatGPT. Now I hadn't seen it I
+hadn't heard about it but here it is it's called the app mention and what it's
+done is allowed me to create the video you're watching right now in about one
+hour using four or five GPTs all working in orchestration. It's just magical. So
+we're in a brand new ChatGPT window and if I type in the app symbol we'll have
+access to a bunch of GPTs that you've either used or created many of these
+I've created so if we look at F Tube teaser this turns a YouTube video into
+a Facebook teaser post got the same thing for tweets I can make YouTube
+intros and recently I did seven GPTs specifically for YouTube content
+creators you can check that out in the link I think we'll play around with
+TweetTube. I learned about this feature about 10 minutes ago when I was just in
+ChatGPT and a little dialogue came up talking about app mention. Now I hadn't
+heard about it I don't know what it is just yet so we're going to use ChatGPT
+to learn about it and if it does what I think it does we'll get it to create a
+tweet based on the video I'm doing right now using one of the GPTs I've
+already done. What's really interesting is that even though this feature exists
+I'm not finding any references anywhere about it. My first spot of call has been
+to ask a question within ChatGPT and get it to use Bing. Unfortunately the
+specific details about app mention feature are not well known. Okay well
+where do I go next and the best place would be to go to Google so I've headed
+over to Google and what is the app mention feature in ChatGPT plus there's
+the 27th of January 2024. One of the next steps I would go to is just look in
+the news because news is the same as the main page of Google but it's very
+timely. If we click here and use the same feature we've got some information from
+a week ago we've got some information from November 15th. This feature is in
+ChatGPT I've seen it but it's not been talked about just yet so I think we'll
+move on to the next step and let's figure out how to use it together. I've
+just started writing a prompt here called imagine you ChatGPT plus had a
+feature built in whereby you used the app symbol to make GPTs that I have
+created or used available for use when I'm writing prompts. Now this is a
+hallucination now you've heard about hallucinations in GPT where it goes
+off and does stuff that's not real. Well this is a human hallucination because I
+have no idea what this feature does just that I've seen it. What I'm going to do
+is kind of guess what I think it'll do put in this particular statement I
+might just build it up and say how do you think I would use this feature what
+problems does it solve and what are five use cases and let's just see what
+ChatGPT might come up for this particular scenario. ChatGPT has taken my
+hallucination of what this feature might be and written what I consider a
+pretty compelling use case and feature if this is how it works. So if ChatGPT
+plus had a feature that allowed you to use an app symbol to access and use
+different GPT models that you've used or created it would be a powerful tool for
+various applications. Here's how you might use this feature. You could quickly
+switch between different GPT models tailored for specific tasks or expertise.
+So recently I did seven or eight videos on GPTs that I created around content
+creation. I wanted to deal with writing a YouTube intro based of everything I
+said in the video or a YouTube outro based off not only what I said in the
+video but other videos in the series that I want to link to. I've also got GPTs
+that allow me to share my videos as tweets, LinkedIn posts, Facebook teasers
+and even write the YouTube description. What is painful about using these GPTs
+at the moment is that I've got to create a brand new chat window and load it up
+with context each time. Now if we could do something like this switch from GPT
+to GPT from the same conversation that would be an incredible feature. Now it
+goes on with the problem set it solves to talk about some of the things I just
+mentioned specialisation each of those bots that I like to create are really
+specialised GPT agents. It's this one context management. Registers the need
+to repeatedly explain the context or reorient AI. That would be an
+interesting capability. What's I find interesting around the five here is that
+the first four of them are based on GPTs that I've been creating so content
+strategy and development I specialise in GPTs for YouTube content creation and
+especially with SEO educational purposes. I'm in the middle of doing a series
+called the tutors and it's basically a bunch of tutor bots for learning
+complex software applications. I also have a programming language that I'm
+developing called Clueless GPT meta language and I'm doing this sort of
+stuff all the time though I don't have any GPTs specifically in this area. I
+haven't done much here. If this works the way it's describing here I'm going to
+be really happy with this new feature. What I think I'll do is I'll just use
+speech to text and we'll just type a prompt right now. Everything that we've
+talked about above is exactly what this feature is about. What I would like you
+to do is take the information and run it through my Twitter creation bot and
+create a tweet for me. What we'll do is we'll just type at tweet tube. Talking to
+cheek tube is what it does and we've just got this prompt and press enter and
+we'll see whether it does what I expect it to do. Wow this is it. It's writing
+tweets the way my tweet tube bot does so discover the power of customisation with
+specialized GPT models for tailored responses. Perfect for content strategists,
+educators, tech pros, writers and polyglots. That's people that work in
+multiple languages. It's putting a bunch of hashtags. One of the problems I tend
+to have with my tweet bot is sometimes it's a couple of letters over the 144
+character length. Sometimes you've got to modify a bit but usually this is a one
+hit wonder. I'm really happy with this. This is cool already. I'm already sold
+on this feature but maybe I could create an intro for this particular video that
+I'm recording. I think what I'll do is I'll create the YouTube intro for this
+video but I'm a little confused at the moment. It says I'm still talking to the
+tweet tube so I believe we'll just press this cross. Looks good. Type in can you
+take me over to the at YouTube intro GPT and allow me to configure it so that we
+can create a YouTube intro for this particular video. Looks like I might have
+to type this in so we'll go intro maker, press enter. It's taken me over to my bot
+and my bot has basic configuration in it. The YouTube intro maker bot has a
+configuration capability. Now it talks about it here. The niche we're going for
+is GPT plus. The topic is that there's a feature announcement called at mentions
+in chat GPT plus. Now the framework you can use marketing frameworks like AIDA
+and Paz. Paz is problem agitation solution but I like to keep things fairly
+simple so I'll go with none. Keep it simple and the structure I think we want
+is problem solution. What's problem? Here's the solution and the tone excited. I
+think this is an awesome feature but keep it professional. Just press enter on
+that. I think we can just say create is one of the commands. I think we'll copy
+from here all the way through fact sheet that you would want for a script on
+this sort of video. We'll move down to the bottom and we'll just say create an
+intro based on this concept. We have a Stata intro script. Welcome to the future
+of AI customization and efficiency. Today we're unveiling an extraordinary
+feature in chat GPT plus. The at feature is simply a powerful tool that's
+changing the game. Problem highlight. Have you ever found yourself wishing for a
+more specialized, efficient and integrated AI experience? This is my issue all the
+time with chat GPT. One that understands your specific needs without having to
+switch contacts or explain repeatedly. You're waited over and then the solution.
+With the at feature in chat GPT plus you now have the ability to quickly access
+various GPT models tailored for unique tasks and areas of expertise. Now it goes
+on. It's got use cases. I wouldn't work with this because personally want to use
+use cases that I've created myself. What we could do is just say this intro is
+really good. I love the first three paragraphs but it's way too long at the
+moment. Everything goes for about one minute and 30 seconds to two minutes. I
+really need this to be a 30 second script. It's now writing a new script for us.
+Welcome to a revolutionary feature in chat GPT plus the at tool. Transforming
+AI interactions into tailored experience. Ever needed a more specialized AI
+response? Instantly the at feature is your solution. Just type at followed by
+your desired GPT models name and seamlessly switch between tasks and
+conversations or within a single chat interface from at SEO model for marketing
+insights to at Python helper for coding support. Embrace the new era of specialized
+AI with chat GPT plus experience efficiency and customization like never
+before. With a little bit of tweaking would be a good introduction to the video.
+I think while we're at it let's just switch one more context. Can you create
+an article for me on LinkedIn at link tube? And the idea of the link tube
+article generator is it's a single shot prompt. It'll get it right most times.
+It's designed specifically around turning YouTube videos into LinkedIn articles.
+Now this was a little unexpected. I know what the issue is.
+Certainly I can use the feature and need a bit more information like target
+audience key message. I use commands to drive my GPTs and I didn't use a
+command this time so it's gone into the automatic configuration options.
+Don't really need that. I'm just going to say create and I'm going to paste this in
+which is basically the script from earlier. Usually when I do a create command for a
+LinkedIn post I would also give it the title and the YouTube video but we haven't
+created the YouTube video yet so we can't do that. Just go create like that and see
+what happens now. We've got a title which may be the title that we want to use.
+I would usually use my title GPT to generate this revolutionizing AI
+interactions the app feature in chat GPT plus. I think that might be good enough
+for the video anyway. Introduction in the ever-evolving world of artificial
+intelligence. We've got concepts problems practical use cases and conclusions.
+Can you add emojis and hashtags please let it rewrite the article now with a
+couple of emojis so that when I paste it into my LinkedIn page it just looks nicer.
+We've got our LinkedIn article written. There's a couple of hashtags going on down the end.
+Let's finish off the video and we might as well use the outro GPT to do that.
+Tube outro writer and we're in it and we'll just go straight into a config.
+So we'll just configure it and we'll go with a style here called recap so whatever
+we've said in the video we want to recap it but I only want it to go for about 15 seconds
+and I want to have a link to a playlist. I believe in this case I've done YouTube
+automation GPTs. There's a bunch of them all in a playlist and that's what we should mention.
+Let's just type create should be enough. That's a wrap on the revolutionary app feature in chat
+GPT plus. Tailor your AI interactions with ease. Switch between specialized models and
+unlock new levels of efficiency and customization. The future of AI is here and it's personalized.
+Explore more on AI advantages in our YouTube automation GPTs playlist. Link displayed on the
+side. Stay ahead with the latest AI trends. Usually when I do my outros for videos I use
+a teleprompter and I'll read the script that we were just looking at. Now I'm going to do that
+but I'm going to look at the script that I just created. I'm not going to pre-prepare it. I'm not
+going to do any editing. We'll just use it the way it is. So it goes that's a wrap on the revolutionary
+app feature in chat GPT plus. Tailor your AI interactions with ease. Switch between specialized
+models and unlock new levels of efficiency and customization. The future of AI is here and
+it's personalized. Explore more on AI advancements in our YouTube automation GPTs playlist.
+Stay ahead with the latest in AI tech. I'm Appy Dave and I hope you enjoyed this
+news release on the app mention feature.

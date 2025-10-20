@@ -1,0 +1,111 @@
+1
+00:00:00,720 --> 00:00:02,490
+Styling a Kajabi website.
+
+2
+00:00:02,640 --> 00:00:05,790
+In this video, we're going to add
+in a brand kit, and from there
+
+3
+00:00:05,790 --> 00:00:08,039
+there'll be a logo, a favi icon.
+
+4
+00:00:08,220 --> 00:00:12,450
+We'll style most of the HTML
+elements within our site, and then
+
+5
+00:00:12,450 --> 00:00:14,130
+we'll add in some custom fonts.
+
+6
+00:00:14,250 --> 00:00:17,640
+And on top of that, we'll
+use the Kajabi GPT as both a
+
+7
+00:00:17,640 --> 00:00:20,070
+tutor and as a CSS generator.
+
+8
+00:00:21,158 --> 00:00:24,473
+I like the full potential of
+Kajabi with a 30 day trial by
+
+9
+00:00:24,473 --> 00:00:27,353
+visiting appydave.com/kajabi.
+
+10
+00:00:27,923 --> 00:00:29,123
+This is my affiliate link.
+
+11
+00:00:29,128 --> 00:00:32,183
+So while you are paying nothing
+extra, it supports the channel
+
+12
+00:00:32,188 --> 00:00:34,103
+at no additional cost to you.
+
+13
+00:00:34,613 --> 00:00:35,843
+But here's where it gets better.
+
+14
+00:00:36,023 --> 00:00:39,563
+Sign up through my link and you'll
+gain immediate access to the
+
+15
+00:00:39,563 --> 00:00:42,533
+exclusive course Kajabi Accelerator.
+
+16
+00:00:43,193 --> 00:00:45,743
+This course is designed to
+fast track the launch of your
+
+17
+00:00:45,743 --> 00:00:47,543
+online business using Kajabi.
+
+18
+00:00:48,638 --> 00:00:49,358
+And there's more.
+
+19
+00:00:49,508 --> 00:00:52,178
+You'll get a complimentary
+coaching session with me.
+
+20
+00:00:52,448 --> 00:00:56,138
+We'll dive into the Kajabi setup,
+tackle any marketing queries or
+
+21
+00:00:56,138 --> 00:00:58,508
+strategize on landing your first sale.
+
+22
+00:00:59,228 --> 00:01:03,578
+This entire package is at no extra
+cost available instantly when you
+
+23
+00:01:03,578 --> 00:01:07,238
+sign up at appydave.com/kajabi.
+
+24
+00:01:07,958 --> 00:01:08,498
+Don't wait.
+
+25
+00:01:08,648 --> 00:01:11,138
+Let's jumpstart your
+journey with Kajabi today.
+

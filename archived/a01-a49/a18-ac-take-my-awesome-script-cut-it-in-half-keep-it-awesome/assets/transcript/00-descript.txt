@@ -1,0 +1,152 @@
+I have a script that I can say in 60 seconds and it took me about three or four hours to
+write.
+I did it for a competition and I've just found out that I need to say it in about 30 seconds.
+So what I want to do is see if I can create a prompt that will maintain the value of this
+script but cut it in half.
+Here's the idea, can you take an awesome script, cut it in half, keep it awesome.
+I've already created a video and here's the transcript from it.
+Now the main things that are in here that are making it go a bit longer is that I'm
+talking about this 555 manifesto both at the end and at the beginning.
+I also talk about the journey of five different YouTube channels that I've worked on and
+the problem is I probably go into a little bit too much depth on each of them.
+The idea is could we get ChatGPT to rewrite this script for me in about 30 seconds, currently
+it takes 60 seconds.
+To get started let's paste in a little prompt that I've just prepared.
+I need to take this 60 second script, get five variations, I want to test them all by listening
+to them using AI voices but I want each of them to be 25 seconds or less.
+This part of the prompt is essentially setting up the goal of what we're trying to achieve
+but there's one thing that's missing because if I run this prompt on its own it won't take
+into account what I think is the important and I've already stated that the 555 manifesto
+is not actually important.
+So I'm going to write another prompt and we say before you proceed can you make sure
+to ask questions about what is important.
+We might even add to that.
+Just added this section here, keep asking me questions about what is important until
+I say write script.
+So I need it to interrogate me, have a look at the script and then come back with a set
+of questions, I'll answer them and when I'm ready then I'll ask it to write the script.
+Now we can just check it all, it looks all good, let's hit go and see what we come up
+with.
+Now I like what it's come up here, it's talked about having five different questions that
+it needs to ask me, what are the key milestones, are there any specific channels to highlight
+which is not the case, I don't have any, they're all important.
+How essential is it to include details about followers, speed of monetization, it's important
+but I can get rid of it if that makes sense.
+Do you have a preference for mentioning certain achievements?
+Not really, it is the essence of 555 manifesto important, not at all because that I can do
+in a different video.
+There is one thing that I also need to add to this is that it's done for a competition
+by video ranking academy, it's a course that I'm part of and I'm trying to create this
+30 second video to submit to that course.
+I better try and include something like that.
+Let's see what we can add as answer to these questions.
+Now looking at the questions, what I've done is written five different answers and we'll
+go through them.
+The first one which is about milestones or key points and I guess the main thing is because
+it's a competition for video ranking academy which is where I learnt a lot of my skills
+would be good if it could be highlighted somewhere.
+Then the next thing is that all five of the channels are important.
+I think maybe they're not but I believe they are so I'd like to list them.
+The main thing is I've separated them out into three tech channels, one channel that
+is just a personal challenge for me and then the last channel which is my podcasting where
+I actually create most of my content to disseminate to the other channels.
+Then number three, how essential is it to include followers of the speed of monetization?
+It's not really that important from this sort of video point of view but number four it
+would be nice if I could highlight the one channel and the one video that just blew my
+mind because I was able to capture a trend.
+I used concepts like trend jacking and clickbait keywords and unique concepts, unique content
+points of view to monetize a channel really quickly.
+So I think it's important that it tries to capture that detail but we'll see.
+Lastly the 555 manifesto which is really a future project is not really needed within
+this so let's just press enter and see what we get.
+GPT has written five different variations for me.
+One of the things I asked it though was to wait until I said to write script so sometimes
+it doesn't follow the instructions but let's have a look through the five variations.
+Normally what I like to do is get the computer to read them to me either using 11 labs or
+a re-voicer or one of the other text-to-speech tools that I have.
+What we'll do today is I'll just read through them all because most of them are off a little
+bit on what I need and I don't yet have what I consider a final script.
+Variation 1 through Video Ranking Academy I mastered the art of content full stop.
+That sentence just feels dead, it just dies really quickly.
+It then talks about the five channels 3 being tech, 1 being a personal project with my heart
+truly lying with Abby Cast.
+That last statement feels a little bit wrong to me, it's not the way I would want to say
+it.
+I will want to change this if I go with it.
+The idea of gaining 2,000 followers in a week is just a highlight, it's an all right statement.
+The problem is it doesn't relate to the channel where it happened which is Appy Dave so we
+may need to play around with that.
+Let's have a look at Variation 2.
+A Variation 2 feels a lot better from SkillsHound at Video Ranking Academy I diversified into
+five unique channels, Flow Video, Winning Prompts and Appy Dave, catering to tech.
+Well Carnivore 90 is my health diary but Appy Cast is where my story is truly unfold.
+So that whole sentences, that feels pretty good to me.
+This last statement did I mention 2,000 followers in a week, a little bit of context there might
+be important.
+Let's move on to Variation 3.
+Now I've just read through number 3 and it's okay but it has a lot of similarities to Variation
+1 from my point of view and I can almost say no straight away.
+Let's look at Variation 4.
+This one has a starting structure that's similar to 2 and probably okay for me to go with.
+Thanks to Video Ranking Academy I ventured into five channels, Flow Video, Winning Prompts
+and Appy Dave for Tech, Carnivore 90 for Health and my dearest Appy Cast podcast.
+I don't really like that last statement.
+The rest of it didn't really make any sense to me that the context is a bit vague.
+Let's look at Variation 5.
+This one starts off really good.
+My journey began at Video Ranking Academy leading to five dynamic channels, Apply Video,
+Winning Prompts, Appy Dave for Tech, Enthusiasts.
+Carnivore 90 as a health diary.
+It may be a little incorrect.
+My journey didn't begin at Video Ranking Academy.
+They've been a major player during my time creating videos.
+The intimate conversations at Appy Cast, that's also incorrect in that what I'm doing right now
+is more of behind the scenes.
+This is where I figure out how to make Tech do what I need it to do, where I get AI to do what I need it to do.
+To call it intimate conversations is off the ball.
+But I do the last statement.
+Being monetised in nine days was a cherry on top.
+OK, so that to me might be a better statement than the 2000 followers in a week.
+There was also that idea of getting 4000 watch hours and I did it really quickly.
+And so far I've been a one hit wonder.
+I haven't been able to achieve that since.
+But I learned a lot going through that particular process.
+So it'd be good to highlight that having read through this.
+So I have a prompt here that I've filled in.
+I basically like variation to and I like variation for the section about Appy Cast.
+I've got a preference.
+So I basically say when talking about Appy Cast, I prefer a statement similar to.
+And then the last thing is from an achievements point of view, these two statements.
+But I only want one.
+I don't want both.
+So I think we can finish this off with.
+Can you make five scripts using these new criteria for guidance?
+And we'll hit go and see what it comes up with.
+That GPT started writing some pretty good scripts.
+But I did restart it again and I'll just show you why.
+And one of the things that you can do at any time is restart a conversation by clicking
+on this little button here.
+And we'll look at the second one.
+Essentially, I wanted it to note that the achievement was with Appy Dave.
+It started writing new variations again.
+And in particular, I really like variation to now you can read all of them if you want to.
+But essentially, variation to it's kind of the sweet point for me.
+Thanks to video ranking and Academy.
+I've entered into five channels, fly video, winning prompts and that day for tech, carnivore
+90 for health and learning with Dave at Epicast.
+Oh, and a quick brag.
+Appy Dave was monetized in just nine days.
+To me, this feels the way I would say things.
+And I'd be happy to go with this as a testimonial video.
+The only thing that might have been a little bit nicer is if I included dive into behind
+the scenes trials and errors at Epicast, though, as I say it, it doesn't really roll off my
+tongue.
+I think I've got a winner with variation to and this is the script that I'm going to
+submit for a little competition.
+See how I go.
+Personal note, I've been a member of Video Ranking Academy for over two years and I didn't
+actually get started until November last year.
+But if it's something you want to follow up on, then I've left a link in the description.
+It's an affiliate link.
+On the other hand, if what you want to do is learn techniques around chat GPT or automating
+your YouTube influence, then check out one of the videos that I have up here in the corner.

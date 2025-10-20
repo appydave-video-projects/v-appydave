@@ -1,0 +1,423 @@
+I love Ecamm Live, but what I absolutely hate about this product is setting up my desktop
+for a new stream recording.
+In this recording, I want to work through a few different steps that I've been taking
+to get my windows into the correct position so that every time I change scenes, a window
+is nicely positioned within a frame.
+I work through three areas.
+Number one is getting the windows into the right position and the right size.
+This includes the aspect ratio and location on what in my case is a very big monitor,
+a 5K monitor which is the size of two 27 inch monitors.
+After that, I'll go into the process that I use so that I can replace all those windows
+whenever I need by just pressing a button.
+And lastly, I will set up a bunch of scenes and layouts within Ecamm Live and talk about
+the challenges that I regularly have in this area and how I'm managing to overcome them
+at the moment.
+Now, I just want to reiterate, I love Ecamm Live, but this part of the process has been
+really challenging for me over the last two weeks that I've been using the product.
+I thought I'd start by showing the problem that I'm trying to manage and what you're
+looking here is my entire screen, two 27 inch monitors in size, but it's a 5K monitor.
+And what that means is it has 5,120 pixels across and 1,440 pixels down.
+It's not got your normal 16-9 aspect ratio, which is the size that you would be watching
+if you were watching a regular YouTube video, instead it's equivalent of two of them side-by-side.
+You also notice that there's a lot of windows on my screen and that's because the usage
+of Ecamm Live for me is generally around prompt engineering and GPT or software development
+and using GPT to write software or YouTube automation.
+So I have three channels, they all focus on those three individual niches.
+And in ApiCast, which I'm on right now, this is where I try and figure out problems.
+This is where I work through behind the scenes solutions.
+And today we're going to work through how do I get this all laid out so that I can have
+an efficient Ecamm Live process.
+But let's quickly go through the windows that I'm dealing with on a regular basis.
+So here in this big window, we've just got a web page and I often do my mind mapping
+and organization of thoughts here, but I might have other things like Logo Pony.
+I was playing around with logo creation software and I want to teach people about these topics.
+The next window, which is sized in a vertical orientation is chat GPT window.
+So I'm doing a lot of prompt engineering.
+I want to be able to talk about that.
+Quite often need to control the computer from the command line.
+So terminal is very important and when it comes to terminal, there's almost always a requirement
+for some sort of software development and it's a big 16 by 9 screen.
+Most of these are 16 by 9, but at different sizes.
+And lastly, the other big window I use is mid journey.
+So mid journey, I don't want to show the whole window.
+I really only want to focus on the section where the pictures are.
+And I'm also often using the finder window and all of these windows that I've just talked about
+need to show up in my Ecamm Live in different scenes.
+Sometimes it's just one.
+It might just be the visual studio code is the focus or it might be two.
+It might be that I've got visual studio code to show some code being created and chat GPT
+over on the right or on the left so that you can see how the two connect with one another.
+And pretty much every window you see here is either single focused or paired focus.
+And on the odd occasion, there might be three windows being shown.
+Let's have a talk about window management and window size set up.
+I've got this product here called Moom, which does part of the job I want.
+But then there's the issue of actual layout.
+So if we look at this little image of the Internet, you've got all these windows and some of them are
+bigger than others.
+And the idea is that some might be taller, some might be wider and they're definitely in
+different positions.
+Another thing that's interesting is that if I just open is that if you look at this image
+of windows, there's no other.
+Another thing to be aware of, if you look at this image of windows, there's no overlap
+and overlap in Ecamm Live has been causing me a bit of issues.
+I'll show you the problem a bit later on in this video.
+So I have this need to have windows of different sizes, but I also have a need for them not
+to overlap where possible.
+And that can be challenging.
+Let's have a look at how I manually position and measure my windows.
+And what I'm doing is I'm using a Chrome extension called Window Resizer.
+And what it allows you to do is set up a bunch of presets in which a Chrome window will become
+a particular size and at a particular position.
+Now, this is not very useful to the other windows in my system like Visual Studio or
+the terminal, but I use it more to find these positions and get a window into location.
+And then I might put the Visual Studio over the top of it or the terminal over the top
+of it.
+Are there better ways of doing this?
+Probably, but I haven't come across it at the moment on the Mac and there's definitely
+going to be stuff available on windows.
+So what I'll do is I'll just demonstrate it in action.
+At the moment, we're looking at a window and we click down here.
+And if I put this to what I've called Ecamm, because this is laying out my Ecamm setup,
+GPT narrow, it will move over to the right here.
+And the thing is it's totally out of alignment with any other windows that might happen.
+And the thing is it doesn't overlap any other windows the way it is.
+So if I create a new window and go to 1080p, which is my normal web view, it's sitting
+over here on the right and it doesn't overlap the one on the left.
+We can then take the window that I would usually have for the terminal and put one of these
+windows up here.
+So we'll click on here and go for 10, 1280 by 720.
+It's a 720p high definition display.
+Click it and it pops up into the left right there.
+And another position I have is a 520p and it will move down.
+And another position I have is a 520p and it will move down to the bottom right of my screen.
+And I often will put my finder windows down there.
+So just like if you were scrapbooking or doing something with woodwork, you might put down
+a piece of paper to guide things.
+That's what I'm using this for.
+So I can then take this window, which is a finder window, and put it into place.
+Or I can get this into place and size by clicking on here, going up to the 721 should take it
+to the right.
+It does.
+And then I can just move this into position over the top of it.
+So this is how I'm currently getting my windows into position.
+It's a little time consuming, but it was better than just the random arrangement that would
+often happen.
+It's also not a perfect setup because there's still some overlap going on.
+So if I bring up the Visual Studio, it doesn't overlap with the ChatGPT window, but it does
+overlap a little bit with the terminal window.
+I could maybe make this a 520p rather than a 720p and not have as much overlap.
+And again, that'll be a problem because as the mouse moves around over the top of the
+terminal window, it's also moving over the top of the Visual Studio window.
+Even though when you lay out your Ecam live, they might be totally separate from one another,
+but the mouse isn't.
+The mouse is actually in the same place.
+I don't know whether that's a bug or whether it's just something that they can't resolve
+because it's with windows, but it's a little bit of a challenge.
+The other issue that you can see is that the web view is totally over the top of the Visual
+Studio view.
+So if I pop it up, they cover one another.
+There's not much I can do, even though this is a massive monitor.
+I don't have more room.
+And there's also another problem you have when you do have windows that are out of your
+sight line is that when you look to the right, you're now not looking at the camera.
+Now, I do plan to have more cameras set up, but that's also a little bit of extra work
+that we've got to set up to get things just working nicely.
+Now, let's look at Moom.
+And Moom is a Mac product.
+I don't know what the equivalent is on Windows.
+And it's a Windows management tool, Windows layout tool.
+I currently use another tool generally, but I use this tool just for one feature.
+Let's look at what you can do with it.
+When you hover over the little green icon here, you get this little square and you can
+say, I want it, I want the window to be that big.
+So now it's that big.
+We click on it again.
+We hover over it again, and we might say we want it to be on the left hand side.
+So it takes up half the screen on the left.
+Now it's not bad for what it does, but it's not very accurate, especially when your screens
+get bigger.
+It only supports this concept of nine by nine.
+And I want to have precise windowing positions, but it does have another capability, and that's
+the ability to save arranged windows.
+And what I'll do is I'll right click and I'll go into preferences here.
+And you'll see that I've got this configuration set up on my F13 key, where all the windows
+that were on the page have been saved as a snapshot, whatever their location and sizes
+has been saved.
+Now a really important thing to get right when you do this is to turn off ignore obstructed
+windows because you might remember that the Chrome window was over the top of the visual
+code window and the visual code window overlaps a little bit on the eye terminal window.
+And if you don't turn this off, they just won't get saved.
+And that was one of the frustrations I had with this tool was that I'd try to get them
+back into position and some of the windows wouldn't move.
+And I go, why not?
+And it's because they were obstructed and not being saved.
+So what we can do is I won't show you exactly how to use this.
+And in fact, what I will tell you right now is that if you do want to learn more about
+eCAM Live, there are some really great people on the internet to learn from.
+I think these two guys run eCAM Live.
+They do really good tutorials.
+I've found out about eCAM Live from Justin from Primal Video.
+I probably have an affiliate link in the description because he's someone that I learned
+from.
+I learned a lot of my YouTubeing from him and a couple of other people.
+But another two people that I thought were really good with their teaching is Adrian
+Salisby.
+I get the impression he works for eCAM Live, I don't know, but he does really good videos
+on the topic.
+And I've late the person that I've been learning a lot from is Alec from TakeOneTech.
+Now I'm probably going to join his program as well because great learning there.
+If I do, there'll be an affiliate link in the description.
+But these are people that you can just learn great stuff around using eCAM Live and especially
+with Alec, other sorts of automations and stream decks sort of work.
+Anyway, I've got a little bit off track there.
+Let's go back to using Moom to position things around.
+Now I will state up front that sometimes I've had problems with this and I might screw things
+up and have to start again.
+But what I'll do is I'll move this window down a little bit and I'll move this one to
+the right and I'll take the Discord window and I'll move it over here and I'll take this
+window to here and we'll move this one down here and I can press F13 now to resize or
+reposition everything.
+It's also available through this here and that's where the F13 is.
+But I'll just press F13 and what happens?
+Pretty much perfect and this is what I mean.
+If you forget something, it won't be perfect and what I have actually forgotten is that
+the finder window down in the right hand corner of my window, I mustn't have saved it.
+So what I can do there is see if I can find it.
+Here we go.
+Notice this is called Ecamm Layout Hell but we'll move it, I'm going to leave it at the
+size it's at actually and I'm going to move it down here and then we can just go to any
+of these, right click, go to preferences and you can update the snapshot.
+I believe this is the right button to press.
+So we'll click that there, replace the snapshot or merge.
+I don't really know the difference between the two.
+I'm going to go with merge, get out of there and let's do this again.
+Move that out of alignment, move this out of alignment, this one, this one and this one
+and we'll get the i-terminal out of alignment and then from any of them you can just arrange
+windows. This time I'll click on it rather than pressing F13
+and we are looking very good. Just make sure that the Visual Studio Code window is in position
+as well. So the first part of this was about measuring where your windows are going to be,
+what location, resizing them and being able to do it manually but with a bit of efficiency
+using the window resizer tool. The next thing is once you've got it all set up,
+use something like Moom to record all those positions. Now I don't believe it brings the
+windows into play. I think you've got to have them loaded on your screen but it will
+lay it out for you that way.
+Let's just test one other idea because this is probably what will happen to you, this is what
+happens to me all the time. We'll just firstly put everything into position, it's all in position
+but what we'll do is we'll delete a window, we'll take it off the screen so there's no finder
+and there's no ChatGPT window, we've got this out of alignment. Let's see what happens when
+you're missing windows and you try to do this arrangement. So it all works well except the
+two windows are not there. What we might be able to do is grab a window and go to GPT Narrow so
+it's here, we'll call that ChatGPT, we'll open one finder window, new finder window wherever it
+happens to be, it's currently on the downloads directory and we'll try this one more time and
+see if magically it gets things into position. I don't totally have high hopes of this working
+because it won't necessarily remember the exact window but we'll try it.
+Look at that, very good. It's just nice that it does that. I don't know what it would do if we
+had two finder windows but we can try that as well. Always testing so we'll throw out two of them
+and we'll just put one on the download images directory and try this one more time.
+Great, so we've got download images there but the other one magically moved up there so that's
+very odd. It's not necessarily gone where I want and so while Moom is really good at getting things
+back into position it's not totally the best and so sometimes you need to manually rearrange
+your windows which is why knowing about the resizer or window resizer is also a useful option.
+Now in this next section I'm going to go through the scenes and the overlays
+on ECAM live and I'm going to start setting them up for these windows that I've created.
+Now before I do, what we should look at is the stream decks that I'm using so you can see these
+two little windows down in the corner and I'll just focus in on them and the first window I've got
+says finish and pause so at the moment I'm recording and this is a pedal driven stream deck
+so it's three buttons and if I press the middle one I can change context so I've got things like
+I can change profiles so let's just do one they might not be looking good but they should
+still work and if I go to the left I'm back to the one I was just on, keep going left I'm on a
+different profile so I can use the pedals for changing profiles I don't usually because I usually
+use that for recording and pausing and stopping and stopping recording. The next one is a setup
+and where that would be relevant is that if I didn't have the window for my stream deck open I can
+just press the left button and it pops up so now let's talk about this second stream deck it's a
+stream deck excel and this is where I make mistakes I just press the right foot and shortcuts came up
+and I was actually meaning to press pause and so usually when I'm recording I don't ever come off
+this particular one so I can hit pause and we're back up and running and the reason I did that was
+I was about to cough so let's have a look at this stream deck here and you can see that I've got the
+concept of front facing and when front facing is on this is the view that you see and I'll go back
+to the one that we're looking at but I also have my GPT view when I just want to see the GPT window
+but if I also want to see the GPT window plus visual studio or plus iterminal then I can do that
+or if I want a web page or a web page plus GPT or if I want visual studio plus GPT
+terminal plus vs code or mid journey plus the folder that the files would save into
+and we've got this desktop one which I've only put on for today I don't usually do my desktop
+but this is so that you can see the whole screen for these examples
+now just set up the recording so that you can see the overlay windows the scenes and all that
+it's not something that you can normally see when you're recording on a cam live but apparently
+there's a setting so give me one second to find it so exactly one second has gone by
+that's one of the awesome things about these pause buttons is that you can go off and do
+other stuff and resume where you're at and what I did was I went to the Facebook community for
+a cam live it's a great resource to get answers to your questions and I found out that you can
+press command shift D which I'm pressing right now and we go into demo mode so at this point
+things like the camera which you'll see because I might have a window going that doesn't become
+available when you're in demo mode other than what's showing on screen but we now have things like
+the various windows that are available to ecam live so for the rest of this section I'm probably
+going to be in this mode okay so let's tackle these layouts one at a time the first one I'm
+just going to go through this is what we get so the issue I've got here is that it's not pointing
+at the right chrome window I will press the edit button here I find this is the easiest
+way to go you go to chrome and then you can pick one of the selected windows so it looks like we
+want the chat gpt and we have fairly good layout there this is a layout I did earlier before but
+now the windows move so it all gets out of whack I don't want to display the little message at the
+bottom of the chat gpt and I don't want to show the tabs or the address bar so we're pretty perfect
+now I would consider this bit done now as I move on to the plus visual studio code which is here
+we can see that the chat gpt is not quite right and definitely the visual studio is not right
+now the one of the things that I've had a lot of problems with this
+is because I might move windows about and they don't actually have a proper aspect ratio so they
+might not be 16 9 maybe they're 16 10 or maybe they're 15 8 or whatever they are I believe and
+this is what we're testing out today that if you can get your aspect ratio exactly 16 9 for most
+videos for most windows then it should fit on any ecam live layout because the idea of a video
+that I'm doing is the 16 9 so even if it's smaller proportionally it should be right now we did that
+by going to visual studio we've got it sitting right here and I am going to press edit on this
+and it's definitely on code which is what we want to see and I have a wide layout so how
+do I solve this problem firstly this is where I get a bit confused myself using this I'm just
+going to click the zoom to app window and we're pretty good but there's a whole lot of space
+on the left and right now I think I'm going to step forward and try and resolve this window
+before I resolve this because I do have a different way that I can tackle this I believe so let's go
+over to edit on this window and we'll set it to chrome to chat GPT this is great I'm going to come
+back to this one let's move to item so this is chat GPT plus item and we will go into the edit mode
+on this one and set it to the window chat GPT so this is fairly good it's not perfect you can see
+there's a little bit of stuff going on at the top now one of the things you really can't do once you
+layout your windows is you can't move them around like if I tried to move this chat GPT
+window around I might get it looking well in this layout but then I'd screw up another
+layout so that's just one of the challenges you have to think about so what I'll do is I'll hold
+the option key down and I'm just going to move this down a little bit and I think we're pretty good
+there now we could move on to the terminal but again I would like to now deal with things like
+vs code the website and and terminal in the buttons that are that are just solving that problem
+and I'll show you why so as a recap so far we've got this GPT working fine we've got the GPT
+aspect of vs code working fine and the GPT aspect of item working fine we will I'm going to jump over
+to visual studio code now and I press that button and we have a full view of visual studio and this
+is supposed to take up the majority of the screen now I don't know why this is a this is a live preview
+I don't know that I need that but we'll leave it there and I almost want to start again with
+this one but let's just press edit we'll go into we'll just say entire screen kind of
+wrecking whatever happened to be there then wide is probably fine I do like to change it around
+just to make sure the things are working cleanly it's a little challenging and then we go to
+wide mode again and I'm going to select code so code is in place but it's not it's kind of cropped
+in on the window and it could be now that I think about it that this window has been moved before
+so what I'm going to do is I'm going to start again with this one by just deleting it so we come
+over to VS code here and click the little delete button there we'll add a new thing we'll call it
+VS code and then we can click on this little button here and what it's done is reset all the
+orientation we won't go with entire screen we'll just go with code and we'll set the aspect ratio
+to wide and we're looking good we can then make this a bit bigger move it up this way
+move it up this way at this point the VS code window is inside of our frame I don't want any
+of the background I don't want the desktop I certainly don't want the button bars down the left
+along the bottom or even the tabs across the top so at this point I will crop this window in by
+holding down my option key and just dragging down and we'll go that far and this far and this far
+and over on the right if I bring it all the way in I might get a better view here but
+I tend to find that when I'm using multiple versions of VS code layouts that it's just
+better that they're the same every time because what you can do now that you've got this is
+you can copy it back to some of these other layouts where we had problems so I'm just
+going to move this up into the top left hand corner and down into the right and we better just
+center it a little bit and if we drag the window window here
+now the webcam is sitting on top and this is the thing that I often will move from time to time
+another thing I find very useful especially if you're using a full page sort of layout
+is to lock it now if you don't lock it and you've got this window that you can move around
+but if you accidentally drag on the thing it moves your overlay rather than the window
+but if you right click on it and say lock overlay now when you drag it drags the whole window
+now you have to do it for each element this one is not in place and by the way if you do
+screw up and you go I choose how do I get it back to the original location just press command z
+that's the undo key so it's back where we need it and we could lock that one as well and now it's
+draggable from that point of view but let's unlock it one more time click on it and I'm going to
+press copy and I'm going to do that by pressing the and I'm going to do that by pressing the command
+c button so it's copied and we'll move back over to our chat gpt plus visual studio
+and just delete the visual studio overlay that's here and paste in the one that we just copied
+from the full screen vs code there it is and rather than trying to rearrange that vs code
+window it's just easier to go from a full source one like you saw we do need to drag it down it
+is meant to be under the chat gpt window the primary focus with this particular button and
+we are on this orange one here is that chat gpt as a focus plus you get to see vs code now
+I don't need to do any other modifications on this vs code this was a gpt application that I was
+just doing some work against and the very top of the code window is where it says require and the
+very bottom of the code window is where it says allow client so all the code is visible and I'd
+be quite happy with this now we have gpt gpt plus vs code working and we have vs code working what
+I'll now do is do the other individual windows so that would be web item and mid journey which will
+be a little different because its aspect ratio is different the orientation but let's do item so
+I'll press the item button see what we've got we have a pretty good window but as I saw before it's
+kind of better just to delete it and start again so we'll click on it and press delete and then
+what we can do is drag in a new window somehow
+that was a mistake on my part you don't drag you just click it just one click we'll do and from
+here we can click edit go from entire screen to item we now have more of the application
+go to a wide view we're now quite focused expand the window up
+on three of the corners like that and then crop as we need to so I'll get rid of this
+brown at the bottom I'll get rid of the address bar or the title bar get rid of the right hand side
+and then there could be just a little bit of extra laying out that we can do
+with that in place we'll just drag it down so it's underneath the webcam and the webcam is okay
+looks like one of the things I've been doing at some stages I've changed my border border radius
+I probably need to fix that in the ones from before I don't think there's a global way of
+changing this so we'll bring this back up to five it's a little bit fiddly by the way
+there we go and we will copy it because we're going to use this aspect ratio the way we've
+got it back on what I would call the GPT plus item so I go press that on the stream deck
+and we're here and we can just delete this window
+delete button doesn't work so you do actually have to come in and press this little delete button
+here and we can paste and it's good just too big and we'll find a spot that be like it
+and because the aspect ratio was set correctly on the full view the aspect ratio fits quite well
+here we could maybe make things a little bit bigger just for to give more real estate
+one of the big challenges that I've always been trying to do with how-to videos is not to make
+stuff too small you should be able to see it even if you're running on a mobile phone so
+being a little bit pedantic and particular about this I feel is important we'll hit
+we'll go over to the web view and it's probably okay but I might just remove it as well because
+I will copy this to other windows soon so we go to the screen share we delete it we click the button
+I think we need to drag it down one we can then press edit go out of entire screen and go to
+google but this time it's the other page involved this is looking good we can then press
+we'll press the wide gets it at least close to where we want and expand it all the way up
+and cropping now with this particular window I could almost call this my mine
+myster window rather than a chrome window because I like to get rid of the little
+controls that are around the mine myster window and I don't necessarily want to do that on other
+web pages we'll keep it there and now if I want to recenter the middle of this I can do it actually
+on the web page I can move it around to where I need it to be and I often do that because I might
+make this fairly big from time to time and
+I go with the idea that the most important aspect is at the top so if it's an orange
+one the most important concept is GPT plus say item or web web plus GPT so
+this is how I've been thinking it through that primary focus is at the top line secondary focus
+if you need a second item is the second third and fourth line
+now I'm going to move on to this blue vs code plus GPT and the thing is I've already got an
+orange GPT plus vs code and I'll show you what I do here I come and make a copy of both windows
+go back and paste it in there we have the vs code we can go back and now click on the GPT window
+we'll copy that go back and we'll paste it in as well and you might be going well why would you
+do that why would you have a GPT plus vs code or a vs code plus GPT that are looking the same
+and this is where this which one is the major focus becomes important to me
+so since this is the one where GPT is secondary focus I might just make it smaller
+and just put it up in the corner like that and this is just how I'm thinking about laying out
+these windows we'll just move over to the iterm plus vs code what I'll do is I'll just quickly
+put the copy the originals into these spots and there it is we're the terminal taking up the
+major focus with a little bit of code this is a very obvious area where I might actually get rid
+of all this black space on the visual studio and cut it up into a little square but it's more that
+idea that people can see some program running and also see the code at the same time but it's
+not the primary focus and the very last section is the mid journey so as I've done before I will
+just delete the existing mid journey window we'll add on a new overlay and that's a folder so we'll
+add on a new overlay delete the folder make sure that when we edit it we go to discord is
+where mid journey is in this particular case and we want a tall one this time so we go tall
+and we're looking relatively good I think bring it down into there and we can just use the option
+key to zoom in on what we want probably we'll want the message bar don't want any menu bar
+don't want that top section and that's probably okay as well
+we'll copy that and drag it more to the center so because it's so narrow it gives the opportunity
+for the webcam to be a fair bit bigger it would be nicer if I could show more of this but
+that's about where it's at one of the ways I can make it a bit bigger is to crop in even further
+but I don't like to do that in this case because you might want to read what's going on down here
+and we can just copy this one because if we move to the next one which is mid journey plus folder
+we can delete them both again and we'll go mid journey is gone download images is gone we just
+paste what we had from the other window and then we add one more which will now be the folder the
+file finder I guess so we just click on finder and go to wide aspect ratio so so long as you
+crop in in this case down to here and I'll just show you something while we're here is that
+as I've been recording this video I've been doing it in sections so each we're at a
+the section where recording right now obviously isn't in the folder but when I hit the save button
+which is just on my case the left foot pedal for finish it will write a file a video file directly
+into this directory for me and then I can just change the file name and I've kind of got all
+these videos in order but for now we'll just move that to there and in a different video I can show
+more of how I create videos so that it's efficient to create content and not have to do a whole lot
+of post-production editing which is what I've found to be the most exciting aspect of e-cam live
+its ability to make editing almost a thing of the past now it's not quite that simple but
+it does so much of the post-production work for us I think we're done let's just go there's
+desktop view desktop plus stream debt we've got our mid-journey plus our folder we've got our
+mid-journey we've got our iterm plus a vs code we've got our vs code plus a gpt no webcam we could
+add one we've got our web page and we've got our web page plus a gpt and then finally we've got our
+gpt plus vs code plus iterm and our front facing camera
+now at this point I would call that a wrap we are done setting up all our layouts
+hopefully I'm not going to have any troubles with them one thing I didn't talk about is that I did
+send off a support request last night and I dropped a couple of fbombs in the video
+to them because I've found this layout process to be tedious that's the main thing you
+it takes a long time to set up and any sort of movement in your screens screws it up I can see
+how things could improve over time and hopefully we'll see them in improve some of the issues that
+I think are there may not actually be related to ecambut just more to the way windows and the
+windowing environment works on the Mac in my case but this is the process that I think is going to
+work well for me to keep my layouts the way I need them to be
+finally I'm doing videos on chat gpt for coding chat gpt for prompt engineering
+and youtube automation so if there's anything that you're interested in seeing how
+seeing the behind the scenes how it all works just hit me up in the comments

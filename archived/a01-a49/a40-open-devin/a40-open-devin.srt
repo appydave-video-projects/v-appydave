@@ -1,0 +1,861 @@
+1
+00:00:00,500 --> 00:00:04,580
+Last week, an AI autonomous
+programmer was announced by cognition.
+
+2
+00:00:04,610 --> 00:00:09,500
+It's called Devon, and in the week, since
+a bunch of open source repositories are
+
+3
+00:00:09,500 --> 00:00:11,750
+trying to replicate that functionality.
+
+4
+00:00:11,930 --> 00:00:16,520
+In this video, I'm going to show you open
+Devon and how to install it, the backend,
+
+5
+00:00:16,550 --> 00:00:18,590
+the front end, and the docker container.
+
+6
+00:00:18,710 --> 00:00:21,650
+And then we'll talk about three
+different examples and the actual
+
+7
+00:00:21,650 --> 00:00:23,150
+cost of using this product.
+
+8
+00:00:23,650 --> 00:00:27,549
+Let's get straight into installing open
+Devon, and the way you can do that is
+
+9
+00:00:27,549 --> 00:00:29,589
+navigate over to GitHub, open Devon.
+
+10
+00:00:29,889 --> 00:00:34,449
+Find the repository for open Devon,
+and then just click on the code button.
+
+11
+00:00:34,690 --> 00:00:36,760
+From there, you'll have three
+different ways that you can
+
+12
+00:00:36,760 --> 00:00:38,559
+clone it down onto your computer.
+
+13
+00:00:38,860 --> 00:00:45,390
+I use the GitHub CLI tool gh
+repo clone OpenDevon/OpenDevon.
+
+14
+00:00:45,849 --> 00:00:49,750
+From there I went into Visual Studio
+just to have a look at what we've got.
+
+15
+00:00:50,250 --> 00:00:54,269
+Run this locally, you're going to
+need a couple of runtime environments.
+
+16
+00:00:54,300 --> 00:00:59,250
+And on my computer, I use ASDF to
+manage programming language versions.
+
+17
+00:00:59,440 --> 00:01:03,250
+I've currently got Node and
+Python installed on my computer
+
+18
+00:01:03,250 --> 00:01:04,599
+with different versions.
+
+19
+00:01:04,870 --> 00:01:06,280
+And I've also got Docker.
+
+20
+00:01:06,490 --> 00:01:10,390
+And if you run a Docker PS you'll
+see a list of containers that
+
+21
+00:01:10,390 --> 00:01:11,830
+you've got on your computer.
+
+22
+00:01:12,130 --> 00:01:14,140
+Now, the one we actually need for.
+
+23
+00:01:14,520 --> 00:01:14,880
+Open.
+
+24
+00:01:14,880 --> 00:01:20,420
+Devon is called ghcr.io/opendevon/sandbox.
+
+25
+00:01:20,620 --> 00:01:23,950
+make sure you do a docker, pull on
+that and pull it down to your computer.
+
+26
+00:01:23,950 --> 00:01:23,980
+I.
+
+27
+00:01:24,480 --> 00:01:28,140
+Looking at the list of files in your
+code editor, what you'll wanna do is copy
+
+28
+00:01:28,140 --> 00:01:31,220
+the config TOML template to config TOML.
+
+29
+00:01:31,410 --> 00:01:33,630
+And notice here that it's light gray.
+
+30
+00:01:33,840 --> 00:01:38,070
+It's also listed in my .gitignore, because
+we're going to put secret information
+
+31
+00:01:38,070 --> 00:01:42,000
+in here like API keys, and we don't
+want that to be pushed up to a repo.
+
+32
+00:01:42,500 --> 00:01:46,880
+We can now configure a large language
+model to use with open Devon, and I've
+
+33
+00:01:46,880 --> 00:01:52,070
+decided I want to use open ai, so I've
+headed over to platform.open ai.com
+
+34
+00:01:52,430 --> 00:01:57,620
+and gone down to the API Keys, created
+a new one and just made a copy of it.
+
+35
+00:01:57,860 --> 00:02:02,240
+From there, what I can do is go
+over to the config dot TOML and
+
+36
+00:02:02,240 --> 00:02:03,680
+just paste the value in there.
+
+37
+00:02:03,800 --> 00:02:06,170
+You can also export it
+to your environment.
+
+38
+00:02:06,669 --> 00:02:08,469
+With three installation steps.
+
+39
+00:02:08,469 --> 00:02:12,640
+The first being the backend, what you
+need is a Python environment, and from
+
+40
+00:02:12,640 --> 00:02:15,260
+there we can do a pip install pipenv.
+
+41
+00:02:15,670 --> 00:02:20,790
+Follow that up with a pip env
+install -v and a pip shell.
+
+42
+00:02:20,790 --> 00:02:24,660
+And what that will do is use the PIP
+file that's already in the project
+
+43
+00:02:24,660 --> 00:02:29,250
+to make sure that the environment
+matches what works with open Devon.
+
+44
+00:02:29,749 --> 00:02:33,079
+If your environment in place,
+you can now use uvicorn to
+
+45
+00:02:33,169 --> 00:02:36,109
+open the backend on Port 3000.
+
+46
+00:02:36,399 --> 00:02:40,239
+so long as you've gotten through any
+troubleshooting sort of issues, if you
+
+47
+00:02:40,239 --> 00:02:45,009
+come back later on and you try to run
+this and you have errors, just remember
+
+48
+00:02:45,009 --> 00:02:48,999
+that you do need to activate the shell
+each time before starting the server.
+
+49
+00:02:49,499 --> 00:02:52,259
+Let's now look at the front
+end chat bot, which we will be
+
+50
+00:02:52,259 --> 00:02:54,989
+running on port 3001 in this case.
+
+51
+00:02:55,169 --> 00:02:59,009
+And if you go over to your project,
+there will be a folder called Front End.
+
+52
+00:02:59,009 --> 00:03:03,089
+You can just CD into that
+project and run an NPM install.
+
+53
+00:03:03,589 --> 00:03:07,100
+These installations, we can now start
+the application and what you'll see
+
+54
+00:03:07,100 --> 00:03:11,269
+here are a couple of terminals where
+on the left I've got the Python backend
+
+55
+00:03:11,269 --> 00:03:16,489
+running, and on the right I've got the
+node js front end running, and you can
+
+56
+00:03:16,494 --> 00:03:19,124
+see that it's running on Port 3001.
+
+57
+00:03:19,624 --> 00:03:19,744
+I.
+
+58
+00:03:20,244 --> 00:03:23,635
+Now before you write any prompts
+to create some code, we do need to
+
+59
+00:03:23,640 --> 00:03:27,385
+configure and make sure everything
+is working with the Docker container.
+
+60
+00:03:27,605 --> 00:03:32,225
+what you can do is start the application
+as normal, run a Docker PS, and
+
+61
+00:03:32,225 --> 00:03:34,234
+you will see no containers listed.
+
+62
+00:03:34,505 --> 00:03:37,924
+But the moment you start running
+a actual prompt to generate
+
+63
+00:03:37,924 --> 00:03:39,364
+code, it will reach out.
+
+64
+00:03:39,394 --> 00:03:42,515
+And from there you should
+be able to do a Docker PS.
+
+65
+00:03:42,915 --> 00:03:46,095
+you'll see the open Devon Sandbox running.
+
+66
+00:03:46,595 --> 00:03:50,945
+Let's look at the example application
+that I wanted to create with Open Devon.
+
+67
+00:03:51,245 --> 00:03:56,165
+Now, recently I've been playing around
+with YouTube automation agents, what
+
+68
+00:03:56,170 --> 00:04:01,145
+I would call an army of workers, and
+I've been doing that using crew ai.
+
+69
+00:04:01,385 --> 00:04:05,435
+And what I was looking for was if the
+agents are running in the background.
+
+70
+00:04:05,540 --> 00:04:08,840
+How can I communicate with
+them from the front end and
+
+71
+00:04:08,900 --> 00:04:10,580
+what technology would I pick?
+
+72
+00:04:10,610 --> 00:04:15,800
+And I thought, let's try and create an
+Astro JS application using open Devon.
+
+73
+00:04:15,800 --> 00:04:15,830
+I.
+
+74
+00:04:16,330 --> 00:04:19,870
+Over to the open Devon
+Workspace, we can select a large
+
+75
+00:04:19,870 --> 00:04:21,280
+language model to work with.
+
+76
+00:04:21,700 --> 00:04:26,140
+I'm using open ai, so I'll go
+with GPT-4 and from there we
+
+77
+00:04:26,140 --> 00:04:27,220
+just need to write a prompt.
+
+78
+00:04:27,280 --> 00:04:32,530
+Now, the prompt I had was install a
+new Astro JS project named FliVideo.
+
+79
+00:04:32,800 --> 00:04:37,390
+Use Tailwind CSS and create
+a simple homepage for a Sasa
+
+80
+00:04:37,390 --> 00:04:39,130
+application for YouTube automation.
+
+81
+00:04:39,630 --> 00:04:44,730
+So started running MPN create Astro
+at latest with the parameters that
+
+82
+00:04:44,730 --> 00:04:48,060
+make sense for the project that
+I'm creating, and then starting
+
+83
+00:04:48,060 --> 00:04:51,120
+to install nodejs dependencies.
+
+84
+00:04:51,370 --> 00:04:55,630
+one of the things it did do was use
+the workspace variable to create
+
+85
+00:04:55,660 --> 00:05:00,185
+a new workspace folder within
+the project that is open Devon.
+
+86
+00:05:00,685 --> 00:05:04,794
+After that it started running and I
+noticed it was running for a little
+
+87
+00:05:04,794 --> 00:05:07,224
+while and didn't seem to be working.
+
+88
+00:05:07,224 --> 00:05:08,604
+I wasn't sure what was going on.
+
+89
+00:05:09,104 --> 00:05:13,599
+I didn't actually investigate the issue
+too deeply that it couldn't install
+
+90
+00:05:13,599 --> 00:05:18,760
+astro js, and what I did was make a
+bit of a clumsy mistake of thinking
+
+91
+00:05:18,760 --> 00:05:22,360
+that this was all running locally on my
+computer because I've been using crew
+
+92
+00:05:22,360 --> 00:05:26,830
+AI where a lot of the Python work is
+local and part of your local environment.
+
+93
+00:05:27,070 --> 00:05:28,060
+So I gave it this.
+
+94
+00:05:28,099 --> 00:05:32,540
+Prompt saying, I'm using
+ASDF, I'm using node 20.
+
+95
+00:05:32,750 --> 00:05:34,970
+Can you do an installation doing that?
+
+96
+00:05:34,970 --> 00:05:38,180
+And it tried to do that, and it
+failed because what was going
+
+97
+00:05:38,180 --> 00:05:41,420
+on was, this is all running in a
+Docker container and the Docker
+
+98
+00:05:41,420 --> 00:05:44,060
+container hasn't got ASDF installed.
+
+99
+00:05:44,330 --> 00:05:48,895
+It should have worked, but I couldn't
+figure out what was going on initially.
+
+100
+00:05:49,405 --> 00:05:50,605
+what this led to.
+
+101
+00:05:51,105 --> 00:05:54,945
+Was the thought of, is this
+costing me any money at the moment?
+
+102
+00:05:55,095 --> 00:05:58,395
+And what I found out was that five
+minutes of playing around with this had
+
+103
+00:05:58,395 --> 00:06:05,085
+cost me $4 23 in open AI credits, and I
+hadn't achieved anything at this point.
+
+104
+00:06:05,295 --> 00:06:09,075
+So I made a decision just to
+abandon this and go to a simplest
+
+105
+00:06:09,075 --> 00:06:11,395
+solution just using HTML pages.
+
+106
+00:06:11,873 --> 00:06:16,823
+Moving on to example number two, which
+was just to set up a simple HTML page
+
+107
+00:06:16,828 --> 00:06:19,193
+around this YouTube automation army.
+
+108
+00:06:19,383 --> 00:06:23,338
+what I did was developed a fairly
+complex prompt where I was talking
+
+109
+00:06:23,338 --> 00:06:27,988
+about this agent framework where
+transcripts from YouTube videos could
+
+110
+00:06:27,993 --> 00:06:30,418
+be processed by different agents.
+
+111
+00:06:30,488 --> 00:06:35,188
+I needed a couple of fields, the title
+of the video, the transcript, a list of
+
+112
+00:06:35,188 --> 00:06:37,168
+agents that I would like to work with.
+
+113
+00:06:37,463 --> 00:06:38,753
+And a simple start button.
+
+114
+00:06:38,753 --> 00:06:41,843
+When the start button runs, the
+agents would run and there'd be
+
+115
+00:06:41,843 --> 00:06:46,523
+events coming back and hopefully a
+bunch of results from the agents.
+
+116
+00:06:46,653 --> 00:06:50,793
+with that all in place, I just
+pasted it straight into open
+
+117
+00:06:50,793 --> 00:06:52,743
+Devon, and let's see what happens.
+
+118
+00:06:52,743 --> 00:06:52,803
+I.
+
+119
+00:06:53,303 --> 00:06:57,683
+Devon started running the new task
+and it runs an LS command on the
+
+120
+00:06:57,683 --> 00:07:01,733
+workspace folder, and it figures out
+that there's no files there, and you
+
+121
+00:07:01,733 --> 00:07:06,743
+can see that it's empty here from
+here, it then moves on to a planner
+
+122
+00:07:06,803 --> 00:07:08,933
+and starts writing some code for you.
+
+123
+00:07:09,433 --> 00:07:09,853
+Open.
+
+124
+00:07:09,853 --> 00:07:12,883
+Devon is going to show you
+the code in a terminal here
+
+125
+00:07:13,033 --> 00:07:15,043
+and also tell you what it did.
+
+126
+00:07:15,203 --> 00:07:19,193
+it says, current version of FliVideo
+page has a transcripted title.
+
+127
+00:07:19,193 --> 00:07:23,183
+It's also got a agent selection
+list and a start button.
+
+128
+00:07:23,543 --> 00:07:26,573
+After that, it started going
+into a couple of errors.
+
+129
+00:07:26,573 --> 00:07:27,023
+I wondered.
+
+130
+00:07:27,083 --> 00:07:30,233
+What this was doing, and
+this just kept going on.
+
+131
+00:07:30,593 --> 00:07:34,493
+If you go and look at the terminal,
+you can see that there's big prompts
+
+132
+00:07:34,493 --> 00:07:37,703
+being sent, and this is step 12
+at the moment, and that got me
+
+133
+00:07:37,703 --> 00:07:39,683
+thinking, is this costing me money?
+
+134
+00:07:40,103 --> 00:07:40,943
+I went over to the.
+
+135
+00:07:41,378 --> 00:07:45,998
+The costing and saw that 92 cents
+had been consumed at this point.
+
+136
+00:07:46,278 --> 00:07:47,148
+what did we get for it?
+
+137
+00:07:47,148 --> 00:07:49,068
+We got this HTML page.
+
+138
+00:07:49,218 --> 00:07:53,958
+You can see the form here, and it tells
+us the information that it's got going on.
+
+139
+00:07:54,138 --> 00:07:58,278
+Now, normally with a page being created
+like this, what you would want to do
+
+140
+00:07:58,278 --> 00:08:02,658
+is go down to the bottom and type in a
+new prompt, but I just stopped at the
+
+141
+00:08:02,658 --> 00:08:07,158
+server at that stage 'cause something
+wasn't working and we were in a repeating
+
+142
+00:08:07,158 --> 00:08:09,378
+loop that could be quite expensive.
+
+143
+00:08:09,878 --> 00:08:12,018
+The last example is a continuation.
+
+144
+00:08:12,018 --> 00:08:16,308
+It's updating the page, but what makes
+it a little bit different is that in the
+
+145
+00:08:16,308 --> 00:08:22,158
+past we had a workspace with no files, so
+it knows how to create new applications.
+
+146
+00:08:22,338 --> 00:08:26,778
+In this case, there are files, so it can
+assume that it's just taking the work
+
+147
+00:08:26,778 --> 00:08:29,028
+that's there and updating it further.
+
+148
+00:08:29,408 --> 00:08:31,268
+take the prompt that we had before.
+
+149
+00:08:31,418 --> 00:08:34,298
+I just made a couple of
+modifications to the text.
+
+150
+00:08:34,298 --> 00:08:37,868
+I said, I've already created the
+HTML page, and I told it what
+
+151
+00:08:37,868 --> 00:08:39,308
+sections that had gotten right.
+
+152
+00:08:39,588 --> 00:08:43,708
+I just added in down below where I'd
+already had this information, told it.
+
+153
+00:08:43,888 --> 00:08:47,368
+This is the next section that I
+want you to add into the system.
+
+154
+00:08:47,818 --> 00:08:49,348
+Now what it's done is said.
+
+155
+00:08:49,848 --> 00:08:50,118
+Open.
+
+156
+00:08:50,118 --> 00:08:56,268
+Devon is starting the new task of reading
+in the index, HTML in the workspace, and
+
+157
+00:08:56,268 --> 00:09:01,128
+it's figured out that it needs to create
+an event log and a GPT output sections.
+
+158
+00:09:01,428 --> 00:09:05,958
+What it does is try to work with
+a file in a subdirecrtory called
+
+159
+00:09:05,958 --> 00:09:10,038
+workspace, and that was a bit of an
+error, but it self-corrected With
+
+160
+00:09:10,038 --> 00:09:15,563
+now editing the workspace/index.html,
+we've got a bunch of HTML.
+
+161
+00:09:15,743 --> 00:09:18,623
+The first section being
+the event log is table.
+
+162
+00:09:18,803 --> 00:09:25,033
+The second section, GPT output is a
+couple of rows just showing some JSON.
+
+163
+00:09:25,463 --> 00:09:28,783
+we look at the old form and
+the new form is now added,
+
+164
+00:09:28,783 --> 00:09:31,063
+event log and the GPT output.
+
+165
+00:09:31,223 --> 00:09:35,348
+if we look at the costing for
+this, we can see that cost 36
+
+166
+00:09:35,348 --> 00:09:37,733
+cents and it was quite successful.
+
+167
+00:09:37,733 --> 00:09:37,793
+I.
+
+168
+00:09:38,467 --> 00:09:41,707
+For evaluating whether this
+is a good product to use, we
+
+169
+00:09:41,707 --> 00:09:42,967
+need to look at the costs.
+
+170
+00:09:43,147 --> 00:09:45,067
+So how much did this cost?
+
+171
+00:09:45,187 --> 00:09:48,697
+And for me, the first project,
+which was a bit of a failure, the
+
+172
+00:09:48,697 --> 00:09:54,907
+astro js cost me $4 23, and I never
+got an output that satisfied me.
+
+173
+00:09:55,297 --> 00:09:59,227
+The second one was a success, but then
+it went into a little bit of an infinite
+
+174
+00:09:59,227 --> 00:10:02,257
+loop, and I stopped it at 92 cents.
+
+175
+00:10:02,447 --> 00:10:03,977
+The third one worked.
+
+176
+00:10:04,007 --> 00:10:07,217
+There was one error during the
+process, but it self recovered
+
+177
+00:10:07,367 --> 00:10:09,017
+and that cost me 36 cents.
+
+178
+00:10:09,017 --> 00:10:16,007
+So all up this was a $5 and 50
+cents using open AI GPT-4 credits.
+
+179
+00:10:16,507 --> 00:10:16,777
+Open.
+
+180
+00:10:16,777 --> 00:10:21,187
+Devon is very promising, but it
+needs to be guided at the moment.
+
+181
+00:10:21,187 --> 00:10:23,437
+Otherwise you could incur some big costs.
+
+182
+00:10:23,737 --> 00:10:25,717
+I look forward to seeing
+what they're going to do with
+
+183
+00:10:25,717 --> 00:10:27,247
+this over the next few weeks.
+
+184
+00:10:27,247 --> 00:10:31,777
+It could be a worthy contender
+and alternative to Devon ai.
+
+185
+00:10:32,197 --> 00:10:37,087
+I'm AppyDave if you like videos on
+ChatGPT coding with GPT or Prompt
+
+186
+00:10:37,087 --> 00:10:40,417
+Engineering, then like and subscribe
+and I'll see you in the next video.
+

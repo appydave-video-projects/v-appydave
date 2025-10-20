@@ -1,0 +1,195 @@
+1
+00:00:00,00 --> 00:00:04,910
+So for our third test we're going to try and get the HTML that's on the right looking 
+
+2
+00:00:04,910 --> 00:00:09,980
+like the mock that's on the left. Now this is known as template six in the system. 
+
+3
+00:00:09,980 --> 00:00:15,410
+And what I've done is I've got this image here of the mock. But I've also got an 
+
+4
+00:00:15,410 --> 00:00:19,890
+image of what it currently looks like. We should be able to feed them both into Aider.
+
+5
+00:00:19,890 --> 00:00:22,940
+So I'm just going to start by adding a couple of files. 
+
+6
+00:00:22,730 --> 00:00:31,370
+we'll add in 3.jpeg and we'll let that go into the system. And we will add in current.png 
+
+7
+00:00:33,240 --> 00:00:37,410
+And that's my example of what it currently looks like.
+
+8
+00:00:37,430 --> 00:00:41,450
+So I'm just saying can you update template six in the custom 
+
+9
+00:00:41,730 --> 00:00:47,220
+I've given the currently looking image and we'll see what happens. And I'm not sure 
+
+10
+00:00:47,220 --> 00:00:53,220
+whether it's going to change CSS and template. But here it is starting to generate.
+
+11
+00:00:53,230 --> 00:00:57,180
+And so it's made a change to template six. Let's test it out.
+
+12
+00:00:57,190 --> 00:01:02,540
+So here's what it's come up with in both desktop mode and mobile mode. So we can't 
+
+13
+00:01:02,540 --> 00:01:06,170
+see the yellow box there isn't the vertical alignment going 
+
+14
+00:01:06,260 --> 00:01:11,580
+So I played around with a few prompts. And firstly I added in this current image 
+
+15
+00:01:11,580 --> 00:01:16,740
+which is the top left hand image. And I also did a current mobile so I could see 
+
+16
+00:01:16,770 --> 00:01:18,450
+different points of view. 
+
+17
+00:01:18,230 --> 00:01:22,580
+then I just told it that I wanted it to notice the yellow in the top, the white in 
+
+18
+00:01:22,580 --> 00:01:27,950
+the bottom, the image on the right and the vertical alignment of the different text. 
+
+19
+00:01:27,980 --> 00:01:33,650
+Now it told me that it needed some extra information, which I gave it in the form 
+
+20
+00:01:33,650 --> 00:01:39,410
+of the presentation JS and the custom CSS, and it generated a whole lot of code for 
+
+21
+00:01:39,410 --> 00:01:41,630
+us. Let's have a look at what that looks like.
+
+22
+00:01:41,660 --> 00:01:46,140
+And now we're starting to look on point. Now there are differences, but in some respects 
+
+23
+00:01:46,140 --> 00:01:50,490
+I like it the way it is. So let's put the image up in the top right hand corner. 
+
+24
+00:01:50,490 --> 00:01:55,470
+It needs to be moved down to the middle. And these two areas need to be on top of 
+
+25
+00:01:55,470 --> 00:01:59,640
+each other. But at the moment they look quite clean the way they are. So I might 
+
+26
+00:01:59,670 --> 00:02:01,740
+actually leave this template the way it is.
+
+27
+00:02:01,760 --> 00:02:07,430
+As a recap, let's have a look at how they looked in Canva and how they look in Reveal.js. 
+
+28
+00:02:07,430 --> 00:02:12,260
+So it's looking pretty good. It would need a little bit of work, but I like where 
+
+29
+00:02:12,260 --> 00:02:16,970
+it's at. If we look at the next template, this one didn't work out so well when I 
+
+30
+00:02:16,970 --> 00:02:22,130
+moved it over to reveal, so this would require a little bit of manual. Changing the 
+
+31
+00:02:22,130 --> 00:02:27,740
+image to CSS was a bit problematic with this one, but the last one actually worked 
+
+32
+00:02:27,740 --> 00:02:33,110
+quite well, though it gave a little bit different look and feel, but this is something 
+
+33
+00:02:33,110 --> 00:02:40,400
+I could work with. So in this experience, the image to CSS for Reveal.js it worked 
+
+34
+00:02:40,400 --> 00:02:43,760
+okay, but here's my final thoughts.
+
+35
+00:02:43,990 --> 00:02:49,140
+So here's a honest assessment of Aider in the area of converting images into code 
+
+36
+00:02:49,140 --> 00:02:50,610
+and other data structures. 
+
+37
+00:02:50,630 --> 00:02:56,950
+Mostly this was painful. This might have looked okay, but the video probably took 
+
+38
+00:02:56,950 --> 00:03:03,490
+me three times as long as I expected because of the amount of backwards and forwards. 
+
+39
+00:03:03,370 --> 00:03:08,830
+Where it was really simple and where I'd use it over and over again was data extraction. 
+
+40
+00:03:08,830 --> 00:03:12,370
+If you're trying to get data out of an image, this is a great tool and because you 
+
+41
+00:03:12,370 --> 00:03:18,100
+can automate it, there's all sorts of use cases, but converting it into CSS was problematic. 
+
+42
+00:03:17,960 --> 00:03:21,760
+part of the reason it's problematic is because there's another framework involved 
+
+43
+00:03:21,760 --> 00:03:26,920
+and that's revealed js. So I can understand some of the challenges that it went through, 
+
+44
+00:03:27,100 --> 00:03:33,760
+but I ran into a number of bugs and a number of going, one path, backtracking going 
+
+45
+00:03:33,760 --> 00:03:34,840
+down another path. 
+
+46
+00:03:34,860 --> 00:03:39,990
+so at the moment it's got some useful features, but generally this is not a use case 
+
+47
+00:03:39,990 --> 00:03:42,750
+that I'd want to try again anytime soon.
+
+48
+00:03:42,760 --> 00:03:47,810
+I'm AppyDave. Please like and subscribe. And in the next video I'm going to be continuing 
+
+49
+00:03:47,810 --> 00:03:49,100
+my journey with Aider.

@@ -1,0 +1,591 @@
+1
+00:00:00,00 --> 00:00:04,720
+Do you ever get frustrated generating code using large language models? Maybe you 
+
+2
+00:00:04,720 --> 00:00:10,100
+started using ChatGPT and you got some really good classes or files being created 
+
+3
+00:00:10,160 --> 00:00:14,630
+just by the way, you wrote the prompts and then you decided to move on to Claude 
+
+4
+00:00:14,660 --> 00:00:20,120
+Dev or Cursor, and you were able to generate an application really quickly. But what 
+
+5
+00:00:20,120 --> 00:00:24,800
+happens when you're working with a big code base and everything that you try to do 
+
+6
+00:00:24,850 --> 00:00:26,150
+just doesn't quite work.
+
+7
+00:00:26,160 --> 00:00:31,100
+Having great quality prompts and access to the code is a good starting point for 
+
+8
+00:00:31,100 --> 00:00:36,230
+generating code, but if you don't have sematic meaning, then the generator will often 
+
+9
+00:00:36,230 --> 00:00:36,980
+get lost. 
+
+10
+00:00:37,00 --> 00:00:41,600
+so in this video we're going to talk about documentation and examples, and we're 
+
+11
+00:00:41,600 --> 00:00:46,970
+going to do it by generating a workflow that allows us to generate quick and easy 
+
+12
+00:00:46,970 --> 00:00:51,590
+documentation that the large language model will love when it's generating code.
+
+13
+00:00:51,600 --> 00:00:55,260
+There's a term out there called Read the Manual, and a lot of people ha struggle 
+
+14
+00:00:55,260 --> 00:01:00,960
+with this particular term, which is why it's called RTFM. I'm one of those people. 
+
+15
+00:01:00,960 --> 00:01:04,470
+I love to look at code, but I don't necessarily want to figure out how it works from 
+
+16
+00:01:04,470 --> 00:01:05,490
+a written format. 
+
+17
+00:01:05,500 --> 00:01:10,630
+The way I like to learn stuff is usually through unit tests. 'cause unit tests are 
+
+18
+00:01:10,630 --> 00:01:15,430
+a great way of seeing examples of how code works, but a lot of developers don't actually 
+
+19
+00:01:15,430 --> 00:01:20,830
+want to write unit tests and even less wanna write documentation that we just talked 
+
+20
+00:01:20,830 --> 00:01:26,320
+about. But the thing is, having access to unit tests gives you access to examples 
+
+21
+00:01:26,320 --> 00:01:31,660
+of how code works, and having access to documentation gives semantic meaning of how 
+
+22
+00:01:31,810 --> 00:01:37,360
+information flows. Maybe it's an entity relationship diagram or a data flow diagram, 
+
+23
+00:01:37,360 --> 00:01:40,450
+or maybe just a description of use cases.
+
+24
+00:01:40,460 --> 00:01:45,590
+So in this video, I'm going to use the agent workflow designed to come up with a 
+
+25
+00:01:45,590 --> 00:01:51,410
+list of GPTs and agents that we could use to help create documentation in a code 
+
+26
+00:01:51,410 --> 00:01:56,780
+base, but specifically the sort of documentation that would make sense to a code 
+
+27
+00:01:56,780 --> 00:01:59,590
+generation system like Cursor or Claude Dev.
+
+28
+00:01:59,600 --> 00:02:04,730
+Now I had a quick conversation with ChatGPT, and you're seeing it here where it's 
+
+29
+00:02:04,730 --> 00:02:08,300
+talking about the documentation. Now, this is the documentation you'd want in any 
+
+30
+00:02:08,300 --> 00:02:14,150
+coding project. And if you've already had to write code using ChatGPT or a large 
+
+31
+00:02:14,150 --> 00:02:18,290
+language model, you're probably putting some of the information that you see here 
+
+32
+00:02:18,290 --> 00:02:21,950
+into the prompts. But why put it into the prompts when it probably should be in your 
+
+33
+00:02:21,950 --> 00:02:26,270
+documentation? So the things it can talk about is the purpose of the project. You 
+
+34
+00:02:26,270 --> 00:02:30,170
+could have a requirements document we got down here, the architectural paradigms 
+
+35
+00:02:30,170 --> 00:02:35,30
+you want to use. Is it an N tiered application? Are you using CQRS? 
+
+36
+00:02:35,330 --> 00:02:40,760
+what sort of principles do you want? So it's one thing to say, I want to use SOLID. 
+
+37
+00:02:40,760 --> 00:02:44,270
+I wanna be DRY. I want a single responsibility principle. But there might be other 
+
+38
+00:02:44,270 --> 00:02:45,200
+more esoteric, 
+
+39
+00:02:45,230 --> 00:02:50,110
+patterns and ideas that you wanna work with. And you can bake that directly into 
+
+40
+00:02:50,110 --> 00:02:54,790
+the documentation because the documentation can be made available with the code. 
+
+41
+00:02:55,120 --> 00:02:58,600
+Hopefully the code generation is going to follow those principles.
+
+42
+00:02:58,600 --> 00:03:02,540
+Next you might wanna talk about the different modules within the application. Now 
+
+43
+00:03:02,540 --> 00:03:06,830
+let's assume you're working with some sort of clean code architecture, but within 
+
+44
+00:03:06,830 --> 00:03:12,170
+it you've got, say, a SaaS application and you're using some sort of model view controller 
+
+45
+00:03:12,170 --> 00:03:15,830
+going on, or maybe you are using an infrastructure as code, 
+
+46
+00:03:15,660 --> 00:03:20,440
+setup, which is what I do. I do agent as code. And in that particular case, I might 
+
+47
+00:03:20,440 --> 00:03:25,720
+wanna use design patterns such as the director and the builder pattern. Now, I might 
+
+48
+00:03:25,720 --> 00:03:30,400
+have both of those modules in the same code base, and the patterns and the designs 
+
+49
+00:03:30,400 --> 00:03:34,750
+that you go with for the code are actually specific to different areas in the code 
+
+50
+00:03:34,750 --> 00:03:36,220
+base, not a global 
+
+51
+00:03:36,230 --> 00:03:41,540
+concept. So you could bake that into your documentation if you are doing unit tests, 
+
+52
+00:03:41,540 --> 00:03:44,510
+this can be a great way of providing examples. But another good way 
+
+53
+00:03:44,530 --> 00:03:49,910
+is actually to write an example and have some actual seed data or sample data that 
+
+54
+00:03:49,910 --> 00:03:51,170
+looks really 
+
+55
+00:03:51,200 --> 00:03:55,850
+correct. And often I'll use synthetic data generated either using, 
+
+56
+00:03:55,860 --> 00:03:56,620
+tools like 
+
+57
+00:03:56,530 --> 00:04:01,200
+Faker or a large language model designed to create synthetic data. 
+
+58
+00:04:00,900 --> 00:04:06,420
+now we can have these examples that show the usage of code and how they all flow. 
+
+59
+00:04:06,660 --> 00:04:10,830
+And from the flow point of view, we could move into entity relationship diagrams, 
+
+60
+00:04:10,830 --> 00:04:12,750
+we can have schemas, stuff like that. 
+
+61
+00:04:12,760 --> 00:04:14,830
+Now, whenever I take the time to write 
+
+62
+00:04:14,800 --> 00:04:16,950
+documentation, I do a lot of library 
+
+63
+00:04:16,800 --> 00:04:21,440
+projects. My code generation just becomes a whole lot better because there's not 
+
+64
+00:04:21,440 --> 00:04:25,700
+just the code to rely on, there's also this semantic information.
+
+65
+00:04:25,730 --> 00:04:30,770
+what I'd like to do is come to the agent workflow architect and we are going to develop 
+
+66
+00:04:30,770 --> 00:04:35,150
+a bunch of steps very much like the ones that we're working through right now, which 
+
+67
+00:04:35,150 --> 00:04:40,250
+when used, will allow us to generate really good quality documentation that's actually 
+
+68
+00:04:40,250 --> 00:04:42,200
+useful for large language models.
+
+69
+00:04:42,200 --> 00:04:47,250
+the first thing I wanna do is clarify the actual objective of this particular workflow. 
+
+70
+00:04:47,130 --> 00:04:50,360
+to do that I'll need some sort of goal and an idea. 
+
+71
+00:04:50,360 --> 00:04:55,710
+what I've done is just pre-set up a goal. And the goal is develop tools that assist 
+
+72
+00:04:55,980 --> 00:05:00,720
+in structured code-based documentation with human oversight, focus on patterns, use 
+
+73
+00:05:00,720 --> 00:05:02,940
+cases, components and system architecture. 
+
+74
+00:05:02,830 --> 00:05:07,500
+just gonna paste that information in here and I've also, from the conversation I 
+
+75
+00:05:07,500 --> 00:05:11,790
+was already having developed the basic idea that I wanna work with. 
+
+76
+00:05:11,800 --> 00:05:16,760
+this is going to be the basis of knowledge for the workflow we're 
+
+77
+00:05:16,260 --> 00:05:17,780
+we'll run the particular prompt. 
+
+78
+00:05:17,600 --> 00:05:22,280
+what it's come up with is an objective. The workflow aims to coordinate multiple 
+
+79
+00:05:22,280 --> 00:05:27,200
+GPT agents in the development of tools that assist in the analysis, structuring and 
+
+80
+00:05:27,200 --> 00:05:29,570
+documentation of complex code bases. 
+
+81
+00:05:29,600 --> 00:05:31,750
+there's a fair bit of extra information going on 
+
+82
+00:05:31,760 --> 00:05:36,770
+I'm just gonna copy this information and figure out what sort of steps might be involved. 
+
+83
+00:05:36,770 --> 00:05:41,960
+So we'll put the information in here and come back to chat GPT, and we'll just run 
+
+84
+00:05:41,960 --> 00:05:43,670
+that particular prompt. 
+
+85
+00:05:43,700 --> 00:05:47,580
+Now the list of steps have come up and we've got here to find a project scope and 
+
+86
+00:05:47,580 --> 00:05:51,840
+objectives. We've got things like identify patterns and use cases. 
+
+87
+00:05:51,860 --> 00:05:56,940
+we've got testing patterns and this is a relatively good list. We could refine it 
+
+88
+00:05:56,940 --> 00:06:01,320
+if we want, but at the moment we'll copy the code head back to the workflow design, 
+
+89
+00:06:01,350 --> 00:06:06,600
+and we'll just move on to the next idea, which is to organize these steps into some 
+
+90
+00:06:06,600 --> 00:06:10,260
+sort of category and we'll copy the information and paste it in 
+
+91
+00:06:10,260 --> 00:06:12,750
+Now we have a organized list of steps, 
+
+92
+00:06:12,560 --> 00:06:16,30
+when I look through it, I don't like that it's saying phase 1, 2, 3. 
+
+93
+00:06:16,330 --> 00:06:22,900
+we'll get rid of that. This last one, the review and refinement, which is about human 
+
+94
+00:06:22,900 --> 00:06:25,810
+oversight. Well, the way I do GPT is that's kind of implied, 
+
+95
+00:06:25,830 --> 00:06:31,830
+it's not needed as an actual task. But what might be useful is a list of tools to 
+
+96
+00:06:31,830 --> 00:06:38,280
+generate certain types of documentation, such as a use case or a table schema, 
+
+97
+00:06:38,660 --> 00:06:42,310
+what I'll do is I'll just make a little modification here to remove those phases. 
+
+98
+00:06:42,580 --> 00:06:47,140
+We'll rename the last one and we'll just get it to list five to 10 
+
+99
+00:06:47,160 --> 00:06:53,160
+So we now have a hierarchy, and this is basically representing 16 different GPT agents 
+
+100
+00:06:53,220 --> 00:06:55,830
+across four different categories. 
+
+101
+00:06:55,100 --> 00:06:58,710
+Now that we know what the workflow's going to do, let's come up with a nice, 
+
+102
+00:06:58,600 --> 00:07:03,830
+name for it. We'll come up with five potentials and the actual workflow you're looking 
+
+103
+00:07:03,830 --> 00:07:08,480
+at right now is named Agent Workflow Architect. And that was come up using this process. 
+
+104
+00:07:08,300 --> 00:07:13,460
+Now we have five useful names. We can work with the architecture document collaborator. 
+
+105
+00:07:13,460 --> 00:07:17,270
+We've got the Code Insight framework, but the one I think I'm gonna go with is DOT 
+
+106
+00:07:17,270 --> 00:07:18,980
+Flow AI assist.
+
+107
+00:07:18,100 --> 00:07:22,580
+Now the last step in the agent workflow design is just bringing it all together. 
+
+108
+00:07:22,600 --> 00:07:27,600
+got a table of the different phases. We've got a step name for each task. There's 
+
+109
+00:07:27,870 --> 00:07:33,540
+about 16 here. We've got the descriptions, and it's come up with some input attributes 
+
+110
+00:07:33,540 --> 00:07:38,700
+that might make sense for each agent and potential output attributes. And sometimes 
+
+111
+00:07:38,700 --> 00:07:41,880
+the output attributes will become inputs for other tasks.
+
+112
+00:07:41,900 --> 00:07:47,300
+So with the dot flow AI assistant specification created, what I'd like to do now 
+
+113
+00:07:47,300 --> 00:07:53,30
+is turn it into a visual interface so that I can run it and start creating documentation. 
+
+114
+00:07:53,330 --> 00:07:58,390
+the way I do that is I create a domain specific language with all the information 
+
+115
+00:07:58,390 --> 00:08:00,400
+that we're being collecting, 
+
+116
+00:08:00,660 --> 00:08:02,510
+this will then turn into a visual tool. 
+
+117
+00:08:02,530 --> 00:08:06,690
+we'll just take the information that we've got here, head over to GPT, and we'll 
+
+118
+00:08:06,690 --> 00:08:12,390
+paste it in. And what we're going to start seeing is a domain specific language being 
+
+119
+00:08:12,390 --> 00:08:12,750
+written 
+
+120
+00:08:12,630 --> 00:08:17,250
+it'll be called the dot flow AI assistant. There's a description of what it does. 
+
+121
+00:08:17,520 --> 00:08:20,130
+There'll be a location for the prompts to go into. 
+
+122
+00:08:20,130 --> 00:08:23,810
+There'll be a default large language model like GPT four O, 
+
+123
+00:08:23,830 --> 00:08:27,810
+there'll be a bunch of attributes that are going to be collected and they can be 
+
+124
+00:08:27,810 --> 00:08:32,970
+used in various prompts along the way. After that, it's just a bunch of sections 
+
+125
+00:08:33,30 --> 00:08:33,870
+and steps 
+
+126
+00:08:33,700 --> 00:08:37,470
+Now I'm just gonna take all the information that we've got over here, press copy 
+
+127
+00:08:37,470 --> 00:08:38,430
+and paste it 
+
+128
+00:08:38,500 --> 00:08:40,180
+then when I press save 
+
+129
+00:08:39,930 --> 00:08:44,490
+head over to a web view, we should now have the dot flow AI assistance. 
+
+130
+00:08:44,330 --> 00:08:46,190
+We've firstly on the 
+
+131
+00:08:46,200 --> 00:08:49,260
+initialization planning of documentation for a project. 
+
+132
+00:08:49,330 --> 00:08:51,130
+define the scope, analyze the code base. 
+
+133
+00:08:51,160 --> 00:08:55,650
+you can go from step to step, and there's parameters that can be filled in. There 
+
+134
+00:08:55,650 --> 00:09:00,780
+would be prompts that I need to write. And once that's all done though, we can start 
+
+135
+00:09:00,780 --> 00:09:04,320
+generating new documentation for an application.
+
+136
+00:09:04,330 --> 00:09:08,380
+The reason I decided to create this workflow today was I was in the middle of doing 
+
+137
+00:09:08,380 --> 00:09:14,200
+a video on Claude Dev and in particular I was using Claude Dev to modify Comfy 
+
+138
+00:09:14,860 --> 00:09:14,950
+UI. 
+
+139
+00:09:14,960 --> 00:09:17,250
+one of the things I'm trying to do is hook my, 
+
+140
+00:09:17,260 --> 00:09:22,990
+agent as code system up to this particular user interface. 'cause it's got similar 
+
+141
+00:09:22,990 --> 00:09:25,690
+sorts of concepts, only it's a lot more fluid.
+
+142
+00:09:25,700 --> 00:09:29,980
+So we've just gone over 16 different agents and four different workflows that we 
+
+143
+00:09:29,980 --> 00:09:34,720
+designed fairly quickly for documenting a software development project. 
+
+144
+00:09:34,730 --> 00:09:39,430
+in the next video, what I want to do is use this documentation tool once I've written 
+
+145
+00:09:39,430 --> 00:09:44,860
+the prompts so that we can document the agent as architecture software package. And 
+
+146
+00:09:44,860 --> 00:09:49,600
+this is all part of a video I'm doing on using Claude Dev to generate code. So check 
+
+147
+00:09:49,600 --> 00:09:51,460
+it out in the next video. 
+
+148
+00:09:51,660 --> 00:09:54,110
+I'm AppyDave, please like and subscribe and I'll see you soon.

@@ -1,0 +1,567 @@
+1
+00:00:00,00 --> 00:00:05,340
+Now when we come back to our join class, we can see that we've got the file resolver 
+
+2
+00:00:05,340 --> 00:00:10,750
+being delegated to from a method. And we've got this new nested class. And we look 
+
+3
+00:00:10,750 --> 00:00:15,930
+inside of it. It's taking the folder files and sort options. It's doing some processing. 
+
+4
+00:00:15,930 --> 00:00:20,740
+And we've got a bunch of things going on around sorting and resolving the file patterns. 
+
+5
+00:00:20,770 --> 00:00:27,100
+Now the question you might have is is this code actually doing what's intended? Now 
+
+6
+00:00:27,100 --> 00:00:32,820
+we do need to write some unit tests, but we can actually start by going back to ChatGPT 
+
+7
+00:00:32,850 --> 00:00:37,780
+and comparing this particular class to the documentation requirements.
+
+8
+00:00:37,800 --> 00:00:43,330
+So what I've done is taken all the code from this file, moved over to ChatGPT, and 
+
+9
+00:00:43,330 --> 00:00:47,860
+I've gone into using it with canvas mode 'cause it's designed around coding. And 
+
+10
+00:00:47,860 --> 00:00:53,560
+all I've done is pasted in all the code with a question, does the file resolve a 
+
+11
+00:00:53,560 --> 00:00:56,290
+nested class, satisfy the needs of 
+
+12
+00:00:56,290 --> 00:01:01,810
+the requirements document. And what we then get up is an analysis. And this analysis, 
+
+13
+00:01:01,810 --> 00:01:07,690
+which I've already read through, shows that everything seems to be in place. There's 
+
+14
+00:01:07,690 --> 00:01:12,460
+a couple of edge cases that may need to be expanded on a bit later on. 
+
+15
+00:01:12,500 --> 00:01:14,330
+And then there's a section on 
+
+16
+00:01:14,330 --> 00:01:19,500
+the logging mechanism that I need to put into each of the nested classes and the 
+
+17
+00:01:19,500 --> 00:01:23,910
+primary component. Now this is a little bit outside of the scope of where we're at. 
+
+18
+00:01:23,910 --> 00:01:28,260
+We'll do that probably when we're working on the join class. So I think the next 
+
+19
+00:01:28,260 --> 00:01:33,360
+thing we should do is just using the documentation requirements we've got and the 
+
+20
+00:01:33,360 --> 00:01:39,420
+class as it exists is list a bunch of unit tests that would be appropriate for the 
+
+21
+00:01:39,420 --> 00:01:40,980
+file handler class.
+
+22
+00:01:41,00 --> 00:01:45,710
+We're in the same chat window and I've just said, can you look through the requirements 
+
+23
+00:01:45,710 --> 00:01:51,410
+document above? After that, I've said, I want it to list any unit tests that it thinks 
+
+24
+00:01:51,410 --> 00:01:58,400
+it needs for the file handler class. I want it to also consider the outer class primary 
+
+25
+00:01:58,400 --> 00:02:02,870
+component being the join component. And lastly, when it starts thinking of the tests 
+
+26
+00:02:02,870 --> 00:02:09,380
+that are needed, I want it to use behavior driven development concepts, BDD testing 
+
+27
+00:02:09,380 --> 00:02:15,200
+and use naming conventions that fit with our spec because as a testing framework, 
+
+28
+00:02:15,200 --> 00:02:20,270
+it actually has certain naming conventions that it likes to use. I've also said keep 
+
+29
+00:02:20,270 --> 00:02:24,260
+the main focus on the file handler class.
+
+30
+00:02:24,260 --> 00:02:29,830
+So I've just asked it to write the requirement documents for me. I got it to remove 
+
+31
+00:02:29,860 --> 00:02:31,690
+a little bit of information around 
+
+32
+00:02:31,700 --> 00:02:36,590
+logging, and to make sure that the comments are just going to be placeholders. And 
+
+33
+00:02:36,590 --> 00:02:41,690
+by doing it this way, we should be able to just copy these instructions directly 
+
+34
+00:02:41,690 --> 00:02:44,390
+into Cursor AI and create our code.
+
+35
+00:02:44,400 --> 00:02:49,460
+Now we're back in the original chat dialogue that built this code. And what we're 
+
+36
+00:02:49,460 --> 00:02:53,660
+going to do is we're just going to paste everything in. Now, one of the things I'm 
+
+37
+00:02:53,660 --> 00:02:58,820
+aware of with Cursor is sometimes when it needs to create a new file, it might not 
+
+38
+00:02:58,820 --> 00:03:04,490
+put it in the right location. So what I've done is just come over and created a stub 
+
+39
+00:03:04,490 --> 00:03:09,440
+for join spec. I've also just given it a little bit of knowledge, in the form of 
+
+40
+00:03:09,470 --> 00:03:14,510
+a comment of where it could put some test fixtures, if that's what it thinks it needs 
+
+41
+00:03:14,510 --> 00:03:20,930
+to do. So what we'll do is we'll just come back here and we'll say join spec is now 
+
+42
+00:03:20,930 --> 00:03:21,350
+added 
+
+43
+00:03:21,360 --> 00:03:25,780
+and let's see what it produces from the rules that we've put in place.
+
+44
+00:03:25,800 --> 00:03:30,380
+Now Cursor has produced some code. What we're going to do is we're just going to 
+
+45
+00:03:30,410 --> 00:03:36,650
+add it. Now, I can already see a couple of issues, but this is saved. It looks like 
+
+46
+00:03:36,650 --> 00:03:41,720
+all the tests are in place. I'm going to need to test this out in a moment. But the 
+
+47
+00:03:41,720 --> 00:03:47,720
+big issue I've got is that it's taking the fixtures idea and tried to create these 
+
+48
+00:03:47,720 --> 00:03:53,480
+files. Now, the idea of having a fixtures folder is that you've pre-set up the files. 
+
+49
+00:03:53,480 --> 00:03:58,550
+If you wanted to use this sort of technique, you would use a temporary folder instead. 
+
+50
+00:03:58,550 --> 00:04:02,240
+So there's a little bit of a mistake in the code, but we can see whether this is 
+
+51
+00:04:02,240 --> 00:04:03,830
+going to work at the very least.
+
+52
+00:04:03,860 --> 00:04:08,540
+Now I've just brought up guard so we can try these tests out and see whether they 
+
+53
+00:04:08,540 --> 00:04:14,840
+work. I also noticed another issue is that the file resolver is a nested class, and 
+
+54
+00:04:14,840 --> 00:04:19,820
+it should be inside another described block. So there's a couple of other modifications 
+
+55
+00:04:19,820 --> 00:04:24,200
+that I want to make in the future. But what we'll do is we'll just press save and 
+
+56
+00:04:24,200 --> 00:04:28,790
+see what happens when we run it for the first time. Now we've got an error, but if 
+
+57
+00:04:28,790 --> 00:04:36,320
+we scroll up, we've only got one error out of what is quite a lot of tests. So for 
+
+58
+00:04:36,320 --> 00:04:42,500
+just using ChatGPT to build the list of tests that we want, making sure that it works 
+
+59
+00:04:42,500 --> 00:04:47,480
+from the requirements document, we're already off to a really good start with writing 
+
+60
+00:04:47,480 --> 00:04:51,370
+robust code that's self-documenting and self-testing.
+
+61
+00:04:51,400 --> 00:04:57,300
+So the first problem I want to address is the fixtures versus temp folder issue. 
+
+62
+00:04:57,300 --> 00:05:02,400
+And we've got all this code that's been written based on a fairly simple prompt going 
+
+63
+00:05:02,400 --> 00:05:08,180
+on here. So we'll just say accept and we'll hit save on that. And all our tests should 
+
+64
+00:05:08,180 --> 00:05:13,430
+work except for the one that's still failing. So let's just scroll up. Look. So it 
+
+65
+00:05:13,430 --> 00:05:14,460
+all looks okay.
+
+66
+00:05:14,460 --> 00:05:19,130
+Now I just had a recording problem and so I've moved ahead a little bit and I'll 
+
+67
+00:05:19,130 --> 00:05:23,930
+just talk through what's happened. So the first thing was there was one error out 
+
+68
+00:05:23,930 --> 00:05:28,610
+of all the tests and I just copied verbatim what I saw in the console log, which 
+
+69
+00:05:28,610 --> 00:05:33,260
+included the particular error. And what it did was it wrote code for me that resolved 
+
+70
+00:05:33,260 --> 00:05:39,230
+that particular issue. The next thing that I looked at was where should the unit 
+
+71
+00:05:39,230 --> 00:05:40,670
+test for the nested class 
+
+72
+00:05:40,690 --> 00:05:42,450
+should it be in a new sub folder? 
+
+73
+00:05:42,460 --> 00:05:49,200
+and I used the GPT canvas that we had before, and it gave me information about how 
+
+74
+00:05:49,200 --> 00:05:54,630
+it thought about it as a best practice and also how it thought about it as an alternative, 
+
+75
+00:05:54,630 --> 00:05:58,950
+which is the one I thought we would go with. So what I've done is I've just taken 
+
+76
+00:05:58,950 --> 00:06:00,900
+this information here 
+
+77
+00:06:00,930 --> 00:06:05,950
+and pasted it directly into Cursor. You can see it here. And what it's gone and done 
+
+78
+00:06:05,950 --> 00:06:11,800
+for me is created the file, resolver spec, and the folder that that happens to be 
+
+79
+00:06:11,800 --> 00:06:16,840
+in is under the join folder. So all the tests have been transferred. Then after that, 
+
+80
+00:06:16,840 --> 00:06:22,300
+it also did the join class. And it's just put in a placeholder or a stub to get us 
+
+81
+00:06:22,300 --> 00:06:22,900
+started. 
+
+82
+00:06:22,930 --> 00:06:27,640
+so if we go over to our unit tests, we can see that the placeholder for the join 
+
+83
+00:06:27,640 --> 00:06:32,170
+class is coming through. Okay. And then all the information that we're trying to 
+
+84
+00:06:32,170 --> 00:06:36,790
+test in the file, resolver is also coming through green.
+
+85
+00:06:36,790 --> 00:06:42,710
+Next I want to parse the SRT files. So let's just bring one up so we can see what 
+
+86
+00:06:42,710 --> 00:06:48,650
+they look like. And you can see here that they're indexed 12345. They're timestamped 
+
+87
+00:06:48,650 --> 00:06:53,720
+which is the beginning of the sentence or the word in this case and where it finishes. 
+
+88
+00:06:53,720 --> 00:06:58,340
+And then there's the text. So we need to be able to read these sorts of files in. 
+
+89
+00:06:58,340 --> 00:07:03,230
+So what we'll do is we'll come over to the join class. We're in the chat and we're 
+
+90
+00:07:03,230 --> 00:07:09,890
+just going to paste in. Can you create an SRT parser nested class. And can you use 
+
+91
+00:07:09,890 --> 00:07:15,500
+the documentation file to write the code. So we'll just press enter. Oh look at that. 
+
+92
+00:07:15,500 --> 00:07:18,890
+Unable to reach anthropic. 
+
+93
+00:07:18,990 --> 00:07:23,180
+So I'm just testing a new anthropic key. It looks like I ran out of credits with 
+
+94
+00:07:23,180 --> 00:07:28,160
+that. Let's see whether we're back up and running again. And we are. It's generating 
+
+95
+00:07:28,160 --> 00:07:28,580
+code.
+
+96
+00:07:28,590 --> 00:07:34,390
+So I fixed up the anthropic key, got myself back on track. Now I use a paid version 
+
+97
+00:07:34,390 --> 00:07:40,810
+of Cursor, but I also use the Claude 3.5 model, which you also pay additional money 
+
+98
+00:07:40,810 --> 00:07:47,200
+for. Now, when it ran this particular prompt, can you create an SRT parser? It started, 
+
+99
+00:07:47,200 --> 00:07:52,430
+but you can see that it hasn't really written any code that follows the requirements. 
+
+100
+00:07:52,430 --> 00:07:57,370
+So I've just said you have not followed the requirements spec and it starts writing 
+
+101
+00:07:57,370 --> 00:07:59,600
+the rest of the code for us.
+
+102
+00:07:59,660 --> 00:08:03,960
+Now I've integrated all the code. We've got the file resolver from the last section, 
+
+103
+00:08:03,960 --> 00:08:09,390
+and now we've got the SRT parser. There's a bunch of code going on inside of this. 
+
+104
+00:08:09,690 --> 00:08:15,120
+If we scroll down to the bottom of the join class, we now have the parse SRT content 
+
+105
+00:08:15,120 --> 00:08:20,310
+being called directly after the resolve files. So we can see that all happening right 
+
+106
+00:08:20,310 --> 00:08:21,390
+here.
+
+107
+00:08:21,660 --> 00:08:26,500
+Now, as per the last section, I'm not going to do too much checking of the code. 
+
+108
+00:08:26,500 --> 00:08:32,380
+I'm assuming it's okay. What I'll do instead is we'll just come over to GPT canvas 
+
+109
+00:08:32,380 --> 00:08:38,920
+and I said, does the SRT nested parser satisfy the needs of the requirement document? 
+
+110
+00:08:38,920 --> 00:08:43,270
+And what I've done is I've passed in the complete class as we see it at the moment. 
+
+111
+00:08:43,270 --> 00:08:45,700
+And I've done the documentation file.
+
+112
+00:08:45,730 --> 00:08:51,670
+So when we look at the report generated by ChatGPT, it's similar to the last one. 
+
+113
+00:08:51,670 --> 00:08:56,920
+We've got all the different edge cases and points of view that are being covered 
+
+114
+00:08:56,920 --> 00:09:02,140
+by looking at the code. Compared to the documentation I've read through this, everything 
+
+115
+00:09:02,140 --> 00:09:07,780
+is quite accurate. So with that, I could probably move on to doing the tests because 
+
+116
+00:09:07,780 --> 00:09:12,790
+I think the code will be okay. So what I do is just have another prompt which is 
+
+117
+00:09:12,790 --> 00:09:17,230
+similar to before. Can you list the unit tests that you think are needed in bullet 
+
+118
+00:09:17,230 --> 00:09:22,930
+points? And so we have a bunch of unit tests being listed, and all I do is copy this 
+
+119
+00:09:22,960 --> 00:09:25,570
+information and we take it over to Cursor AI
+
+120
+00:09:25,760 --> 00:09:31,710
+So I wrote a small prompt. Add a new SRT parser spec to the join folder, follow the 
+
+121
+00:09:31,710 --> 00:09:34,830
+guidelines from the file resolver spec 
+
+122
+00:09:34,100 --> 00:09:41,110
+from before, and update the join spec. And we can see that we've got a SRT parser 
+
+123
+00:09:41,110 --> 00:09:45,550
+spec all in place. We'll see whether that works in a moment. And if we go over to 
+
+124
+00:09:45,580 --> 00:09:49,780
+the join, we can see that there's minor improvements made here.
+
+125
+00:09:49,790 --> 00:09:54,790
+Now. When I ran the tests, they all worked except for one. There's about ten and 
+
+126
+00:09:54,790 --> 00:10:01,120
+one failed, so all I did, as per before, was just copied the console log and let 
+
+127
+00:10:01,120 --> 00:10:03,100
+it alter the code as it saw fit. 
+
+128
+00:10:03,130 --> 00:10:09,440
+So these SRT examples that you can see here, I want to see it in a separate file 
+
+129
+00:10:09,440 --> 00:10:14,690
+in a fixture file, because I am going to reuse this in a few places. So I've just 
+
+130
+00:10:14,720 --> 00:10:20,540
+asked it can we move these into a fixtures folder. I've given the folder listed. 
+
+131
+00:10:20,540 --> 00:10:25,370
+It's updated the code. So it's now pointing to a couple of files called part one 
+
+132
+00:10:25,370 --> 00:10:30,860
+and part two, and given me file names that it suggests I should put them into. So 
+
+133
+00:10:30,860 --> 00:10:35,300
+if we just click over, we can see the two files in place. And we've got the spec. 
+
+134
+00:10:35,300 --> 00:10:39,960
+So we'll just run the unit test for the primary component, which is called join. 
+
+135
+00:10:39,960 --> 00:10:45,450
+And things seem to be working okay. And we'll go to the SRT parser and run that. 
+
+136
+00:10:45,450 --> 00:10:50,190
+And we've got ten examples that are working. Now this is a point where we should 
+
+137
+00:10:50,190 --> 00:10:56,460
+probably talk about the quality of the code that's come back from ChatGPT or from 
+
+138
+00:10:56,460 --> 00:11:01,860
+anthropic. And think about, does it follow the guidelines that your linter would 
+
+139
+00:11:01,860 --> 00:11:07,170
+use. So what I'm going to do is press enter and we're going to see a whole lot of 
+
+140
+00:11:07,170 --> 00:11:13,380
+warnings come through. And it's saying that 23 offenses detected, 21 of them are 
+
+141
+00:11:13,380 --> 00:11:19,290
+auto correctable. And so these are just simple formatting issues that we can resolve 
+
+142
+00:11:19,290 --> 00:11:23,130
+using just a linting tool. In this case I'm using rubocop.

@@ -1,0 +1,367 @@
+1
+00:00:00,500 --> 00:00:04,610
+Have you ever traveled from a Western
+country to somewhere like Thailand, and
+
+2
+00:00:04,610 --> 00:00:10,130
+when you did a Google search, you saw
+this thing called BE or Buddhist time.
+
+3
+00:00:10,630 --> 00:00:14,830
+In this video, I'm going to show you
+how to deal with the Buddhist era
+
+4
+00:00:14,830 --> 00:00:17,230
+number showing up in your Google search.
+
+5
+00:00:17,730 --> 00:00:22,290
+Today I'm AppyDave, and last week I
+moved to Thailand from Australia and I'm
+
+6
+00:00:22,290 --> 00:00:24,270
+here to do a little bit of videography.
+
+7
+00:00:24,700 --> 00:00:28,120
+when I got here I did a search
+in the local area, which is
+
+8
+00:00:28,120 --> 00:00:29,980
+Chang Mai for things to do.
+
+9
+00:00:30,080 --> 00:00:34,730
+one of the things I noticed was that
+a lot of the references had a date and
+
+10
+00:00:34,730 --> 00:00:36,920
+time in it that I didn't understand.
+
+11
+00:00:37,280 --> 00:00:44,660
+So here we've got August 6, 2566
+BE or the one below it, 2567 BE.
+
+12
+00:00:45,210 --> 00:00:49,260
+last week when I did the same sort
+of search, everything was showing
+
+13
+00:00:49,260 --> 00:00:56,880
+up in my local date format, so 19th
+of February, 2024, or January, 2024.
+
+14
+00:00:57,300 --> 00:00:59,520
+So I wondered what's going on here.
+
+15
+00:00:59,520 --> 00:00:59,550
+I.
+
+16
+00:01:00,049 --> 00:01:03,379
+In the Western world, we
+use the Gregorian calendar.
+
+17
+00:01:03,409 --> 00:01:07,309
+When we show dates in Australia,
+it might start off with the day
+
+18
+00:01:07,309 --> 00:01:10,609
+followed by the month in America,
+the month followed by the day.
+
+19
+00:01:10,970 --> 00:01:14,839
+But when you go to somewhere
+like Thailand, they use Buddhist
+
+20
+00:01:14,845 --> 00:01:16,669
+era or the Buddhist calendar.
+
+21
+00:01:17,170 --> 00:01:21,430
+Now going to other countries, you might
+have other sorts of calendars working
+
+22
+00:01:21,430 --> 00:01:25,330
+out, and hopefully this video will show
+you how to solve that problem as well.
+
+23
+00:01:25,830 --> 00:01:29,255
+let's have a look at how we can
+fix this particular problem.
+
+24
+00:01:29,554 --> 00:01:33,664
+Now, the first thing I tried when I
+arrived in Chiang Mai this week was
+
+25
+00:01:33,664 --> 00:01:39,125
+I headed over to my settings within
+my Mac computer and I played around
+
+26
+00:01:39,130 --> 00:01:40,565
+with the date and time settings.
+
+27
+00:01:40,565 --> 00:01:47,074
+I set the time zone to Indo China time,
+Bangkok, Thailand as the nearest location.
+
+28
+00:01:47,554 --> 00:01:51,245
+Then I headed over to the
+region settings, and from here
+
+29
+00:01:51,245 --> 00:01:53,134
+I left the region as Thailand.
+
+30
+00:01:53,285 --> 00:01:57,095
+But I set the calendar to
+Gregorian and the date format to
+
+31
+00:01:57,095 --> 00:01:58,955
+what I'm used to in Australia.
+
+32
+00:01:59,454 --> 00:02:04,014
+With my settings in place, I headed over
+to Google search and typed in what to do
+
+33
+00:02:04,014 --> 00:02:06,854
+near me, and there was a bit of an issue.
+
+34
+00:02:06,884 --> 00:02:13,160
+What I noticed was that the
+date was set to 2566, BE.
+
+35
+00:02:13,660 --> 00:02:17,110
+So changing the settings didn't
+solve this particular problem.
+
+36
+00:02:17,320 --> 00:02:21,250
+So a little bit of a Google search
+led me to this article here.
+
+37
+00:02:21,640 --> 00:02:25,330
+The dates on Google search
+results are in Buddhist era, and
+
+38
+00:02:25,335 --> 00:02:26,860
+someone had an answer to that.
+
+39
+00:02:26,860 --> 00:02:31,360
+The answer was, you need to change these
+settings within Google preferences.
+
+40
+00:02:31,859 --> 00:02:34,109
+So let's head over to the preferences.
+
+41
+00:02:34,109 --> 00:02:39,359
+We go to google.com/preferences
+and you'll see a screen like this.
+
+42
+00:02:39,570 --> 00:02:43,649
+Now click on the first menu item
+under it called Other settings,
+
+43
+00:02:44,149 --> 00:02:47,269
+and you'll notice an option
+there called Language and Region.
+
+44
+00:02:47,299 --> 00:02:50,809
+Now, if you click on that, you'll
+come to this area where there's
+
+45
+00:02:50,839 --> 00:02:54,919
+the Results Region, and it's
+currently set to current region.
+
+46
+00:02:55,309 --> 00:02:59,179
+Current region in this
+particular situation is Thailand.
+
+47
+00:02:59,679 --> 00:03:03,129
+So what you can do is click on
+the Results Region and change it.
+
+48
+00:03:03,129 --> 00:03:08,339
+So I've typed in Australia and I've
+selected Australia, and now the setting
+
+49
+00:03:08,369 --> 00:03:10,949
+is changed within Google preferences.
+
+50
+00:03:11,449 --> 00:03:15,589
+Now let's head over to Google search
+and we'll type in what to do near me.
+
+51
+00:03:15,919 --> 00:03:20,269
+And the first thing you'll notice is that
+the dates are now showing the way I like.
+
+52
+00:03:20,274 --> 00:03:23,629
+We've got the 25th of January, 2024.
+
+53
+00:03:24,129 --> 00:03:27,429
+If you look closely, you
+might notice there's a pretty
+
+54
+00:03:27,429 --> 00:03:29,079
+big problem going on here.
+
+55
+00:03:29,579 --> 00:03:34,079
+When I did the search, everything that
+was paid search was in the region that
+
+56
+00:03:34,079 --> 00:03:36,299
+I'm in at the moment, which is Chiang Mai.
+
+57
+00:03:36,719 --> 00:03:40,529
+But the organic search was
+all showing up from Australia.
+
+58
+00:03:41,029 --> 00:03:45,679
+And the reason for that is because we've
+set the results region to Australia.
+
+59
+00:03:46,179 --> 00:03:51,159
+Unfortunately, the solution that I'm
+showing you can be one way or the other.
+
+60
+00:03:51,339 --> 00:03:54,549
+There may be a better way, but
+this is how I've figured it out.
+
+61
+00:03:54,969 --> 00:03:59,349
+For me, I prefer to have Western time
+show up against documents because
+
+62
+00:03:59,349 --> 00:04:04,389
+usually I'm searching for information
+where time relevance is important.
+
+63
+00:04:04,889 --> 00:04:08,939
+If, on the other hand, you really
+need region specific searches
+
+64
+00:04:08,969 --> 00:04:12,299
+all the time, you might not want
+to put this setting in place.
+
+65
+00:04:12,799 --> 00:04:15,019
+Let's say you want the
+best of both worlds.
+
+66
+00:04:15,019 --> 00:04:17,029
+You can get it in a subtle way.
+
+67
+00:04:17,269 --> 00:04:20,659
+You can have it set to Western
+time like I have now, and just
+
+68
+00:04:20,719 --> 00:04:22,399
+alter the way you do your search.
+
+69
+00:04:22,399 --> 00:04:26,809
+So in this case, I've said what to
+do in Chiang Mai, and this way I'm
+
+70
+00:04:26,809 --> 00:04:31,579
+getting both the western dates where
+the articles were written and they
+
+71
+00:04:31,579 --> 00:04:33,799
+are pointing to the location I need.
+
+72
+00:04:34,299 --> 00:04:35,019
+I'm AppyDave.
+
+73
+00:04:35,049 --> 00:04:37,869
+I hope to be creating videos
+here in Chiang Mai for the
+
+74
+00:04:37,869 --> 00:04:39,459
+next three to six months.
+
+75
+00:04:39,519 --> 00:04:44,109
+But if you are interested in what I
+do, I either do videos on artificial
+
+76
+00:04:44,109 --> 00:04:46,299
+intelligence or prompt engineering.
+
+77
+00:04:46,509 --> 00:04:49,599
+Please select to subscribe if that's
+the sort of content you're after.
+
+78
+00:04:49,780 --> 00:04:52,150
+And check out some of the
+videos here in the corner.
+

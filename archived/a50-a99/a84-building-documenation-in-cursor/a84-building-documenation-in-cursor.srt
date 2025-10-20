@@ -1,0 +1,763 @@
+1
+00:00:00,00 --> 00:00:05,400
+I love using ChatGPT to write my code, but of late I've been experimenting with the 
+
+2
+00:00:05,400 --> 00:00:11,660
+other tools. So we have CursorAI, Aider, and recently we've got GPT canvas. And what 
+
+3
+00:00:11,660 --> 00:00:16,790
+I love about all these tools is that they can do really good code generation, but 
+
+4
+00:00:16,790 --> 00:00:20,640
+they're only as good as the context you give them. And the context we're talking 
+
+5
+00:00:20,640 --> 00:00:22,160
+about is documentation.
+
+6
+00:00:22,190 --> 00:00:27,760
+So in CursorAI the way you give context in the form of documentation is you head 
+
+7
+00:00:27,760 --> 00:00:31,390
+over to the settings and you'll see that part of the context will come from your 
+
+8
+00:00:31,390 --> 00:00:31,990
+code base. 
+
+9
+00:00:32,00 --> 00:00:36,130
+then another part of it will come from the documentation you provided by uploading 
+
+10
+00:00:36,130 --> 00:00:37,530
+or providing URLs.
+
+11
+00:00:37,560 --> 00:00:43,730
+So what I'd like to do today is take two open source repos. The first one is Handlebars.js. 
+
+12
+00:00:43,100 --> 00:00:48,620
+The second one is cmdlet. And with cmdlet, it's just wrapping function calls within 
+
+13
+00:00:48,620 --> 00:00:54,440
+the command pattern, and Handlebars.js is wrapping those same Commandlets inside 
+
+14
+00:00:54,440 --> 00:00:55,730
+of handlebars. Helpers.
+
+15
+00:00:55,730 --> 00:01:01,410
+Now, these two public repositories are actually internal projects that I use myself. 
+
+16
+00:01:01,410 --> 00:01:05,640
+I don't usually tell people too much about them, and what happened this morning was 
+
+17
+00:01:05,640 --> 00:01:11,100
+that I was creating a new project called k_template, which I wanted to have use those 
+
+18
+00:01:11,100 --> 00:01:15,600
+two projects. And when I went looking at them, we've got cmdlet here and we've got 
+
+19
+00:01:15,630 --> 00:01:20,310
+Handlebars.js. They've both got similar version numbers because they work in tandem. 
+
+20
+00:01:20,330 --> 00:01:24,500
+I went looking through the code for both of them, and we can see that it's a couple 
+
+21
+00:01:24,520 --> 00:01:29,230
+of years since I've worked on these projects. And then I thought, well, let's have 
+
+22
+00:01:29,230 --> 00:01:33,460
+a look at the documentation. So I've come down, I've got stories, I've got usage 
+
+23
+00:01:33,460 --> 00:01:38,290
+examples. And when I opened it up, there was no documentation here. When I went over 
+
+24
+00:01:38,290 --> 00:01:43,810
+to the cmdlet and I opened up the same files I saw, they too had no documentation. 
+
+25
+00:01:43,830 --> 00:01:49,150
+since I need documentation from these for the k_template system, I thought let's 
+
+26
+00:01:49,150 --> 00:01:51,220
+go and generate documentation today.
+
+27
+00:01:51,230 --> 00:01:56,310
+I've opened up the cmdlet project within Cursor AI. And what we'll do is we'll start 
+
+28
+00:01:56,310 --> 00:01:59,430
+by just creating some documentation area. 
+
+29
+00:01:59,660 --> 00:02:00,550
+we'll create a folder called docs. 
+
+30
+00:02:00,390 --> 00:02:06,180
+within it we'll put in a file called usage.md. Now to figure out what we want to 
+
+31
+00:02:06,180 --> 00:02:12,330
+do usage on I've got this little tool that I have GPT context. And it's just going 
+
+32
+00:02:12,330 --> 00:02:16,530
+to gather files and present them in a tree format. And we can see here that we've 
+
+33
+00:02:16,530 --> 00:02:22,380
+got say a area called case. And this is where things like camel case, title case 
+
+34
+00:02:22,380 --> 00:02:27,660
+or making it upper or dash case can all be done using individual commands. We've 
+
+35
+00:02:27,660 --> 00:02:32,610
+got all the comparison operators greater than or equal to. We've got pluralization 
+
+36
+00:02:32,610 --> 00:02:37,620
+and singularization. And what I'd like to do is create documentation around all of 
+
+37
+00:02:37,620 --> 00:02:39,120
+these on how you would use it.
+
+38
+00:02:39,130 --> 00:02:42,980
+Now I've just come over to usage and I'm going to press command L. 
+
+39
+00:02:42,990 --> 00:02:47,880
+what that'll do is open up a chat window focusing in on the file that we were looking 
+
+40
+00:02:47,880 --> 00:02:48,960
+at. 
+
+41
+00:02:48,990 --> 00:02:52,230
+I'll just paste in this little prompt. Can you read through the following files and 
+
+42
+00:02:52,230 --> 00:02:57,120
+give me documentation, format or structure that can help convey usage instructions 
+
+43
+00:02:57,120 --> 00:02:58,590
+to developers. 
+
+44
+00:02:58,660 --> 00:02:59,770
+from here we can press the @ sign 
+
+45
+00:02:59,660 --> 00:03:04,790
+the folder we want will be the lib directory. So what I'm basically saying is this 
+
+46
+00:03:04,790 --> 00:03:08,720
+is where you can find the code. We can already see visually what it should look like. 
+
+47
+00:03:08,720 --> 00:03:13,250
+So it's reading through that at the moment. And it's now going to start giving us 
+
+48
+00:03:13,250 --> 00:03:14,450
+some ideas.
+
+49
+00:03:14,460 --> 00:03:19,170
+Let's have a look through it. So Commandlet usage guide. And we've got introduction 
+
+50
+00:03:19,170 --> 00:03:22,710
+installation configuration and then available cmdlets. 
+
+51
+00:03:22,730 --> 00:03:26,780
+good thing is it looks like it's grouped them by the subfolders we're talking about. 
+
+52
+00:03:26,730 --> 00:03:31,940
+we have array operations going on here. We've got inflection. Is that listed. It 
+
+53
+00:03:31,940 --> 00:03:36,620
+certainly is miscellaneous which is showing up here. This looks good. We've got an 
+
+54
+00:03:36,620 --> 00:03:39,710
+introduction installation and configuration. 
+
+55
+00:03:39,730 --> 00:03:42,380
+we've got a little bit of an issue here. Not sure what's going on. 
+
+56
+00:03:42,260 --> 00:03:45,560
+then the list of them are all available in markdown format. 
+
+57
+00:03:45,590 --> 00:03:50,920
+I think we can just go to the top here and press this button. Can we exit out of 
+
+58
+00:03:50,950 --> 00:03:54,520
+that? We can and we'll just accept it.
+
+59
+00:03:54,530 --> 00:03:56,130
+it's taken over the first section. 
+
+60
+00:03:56,660 --> 00:04:00,330
+where this error was, it didn't know how to read it. So we'll just manually put that 
+
+61
+00:04:00,330 --> 00:04:04,830
+in. And I think it needs to have three ticks like that. So we'll just close them 
+
+62
+00:04:04,860 --> 00:04:05,820
+off as well. 
+
+63
+00:04:05,590 --> 00:04:06,490
+Let's click on 
+
+64
+00:04:06,500 --> 00:04:11,130
+apply to usage. We'll press continue and we'll see whether it gets added to the end. 
+
+65
+00:04:11,130 --> 00:04:13,590
+It does. We'll press command Y.
+
+66
+00:04:13,590 --> 00:04:17,220
+let's have a look at the documentation. We'll close down the chat. I think we'll 
+
+67
+00:04:17,220 --> 00:04:21,510
+close down the explorer. And I've got a little button here that allows us to visualize 
+
+68
+00:04:21,510 --> 00:04:27,690
+it as markdown. And we can see our documentation has started to come together, at 
+
+69
+00:04:27,690 --> 00:04:32,430
+which point we might be wanting to expand on this information. We can write it ourselves 
+
+70
+00:04:32,330 --> 00:04:34,450
+or we could use Cursor in this case. 
+
+71
+00:04:34,460 --> 00:04:36,740
+I've come back to the same chat window with the usage.md, 
+
+72
+00:04:37,130 --> 00:04:42,440
+we'll head to the bottom and put in a new prompt. Can you give me code usage examples 
+
+73
+00:04:42,440 --> 00:04:47,240
+with sample inputs and outputs for each cmdlet, you should be able to find the examples 
+
+74
+00:04:47,240 --> 00:04:47,510
+here. 
+
+75
+00:04:47,530 --> 00:04:52,280
+give it a folder for where it could find some. So we'll type in folders and from 
+
+76
+00:04:52,280 --> 00:04:58,370
+there we'll press Spec unit tests and it should start reading through the unit tests 
+
+77
+00:04:58,370 --> 00:05:00,920
+which exist for each of these cmdlets. 
+
+78
+00:05:00,930 --> 00:05:05,440
+hopefully there's good examples in here. Usage instructions.
+
+79
+00:05:05,460 --> 00:05:07,880
+it looks like we've got some information coming in. 
+
+80
+00:05:07,890 --> 00:05:12,620
+if you wanted to join some values together with a delimiter between them. So we've 
+
+81
+00:05:12,620 --> 00:05:18,460
+got one two, three. It's doing the comma separation. It's got ABC with pipes and 
+
+82
+00:05:18,460 --> 00:05:20,120
+we see the pipes coming through. 
+
+83
+00:05:20,130 --> 00:05:22,600
+Let's look at the dash notation. 
+
+84
+00:05:22,660 --> 00:05:26,880
+the quick brown fox. And we've also got the ability to deal with numbers correctly. 
+
+85
+00:05:26,880 --> 00:05:32,550
+So there's no dash between the five and the 666 which is exactly what I want to see. 
+
+86
+00:05:32,560 --> 00:05:35,880
+let's press apply and see what that starts to do.
+
+87
+00:05:35,900 --> 00:05:39,630
+Now, this is a great time to point out the problems that you can have with Cursor 
+
+88
+00:05:39,630 --> 00:05:45,240
+AI. So at the moment when I press apply, nothing is really happening. If I press 
+
+89
+00:05:45,240 --> 00:05:50,400
+continue, it looks like something's going on. We should see an accept. Well, look 
+
+90
+00:05:50,700 --> 00:05:50,910
+at that. We got it. 
+
+91
+00:05:50,930 --> 00:05:55,160
+So nothing was happening for a few examples, until I started recording again 
+
+92
+00:05:55,230 --> 00:06:01,400
+What I've decided to do is go and take the example. It's just written, and I've wrapped 
+
+93
+00:06:01,400 --> 00:06:07,640
+in some extra structure to the document here, and we'll just move down to this location. 
+
+94
+00:06:07,640 --> 00:06:12,440
+Hopefully we can see the join post come through at this location, and hopefully it'll 
+
+95
+00:06:12,440 --> 00:06:15,260
+also follow the format that we're seeing here. 
+
+96
+00:06:15,260 --> 00:06:19,760
+it looks like that's worked. We can press command. Yes, 
+
+97
+00:06:19,100 --> 00:06:24,500
+yes. And I don't know that I need the example for join. So we'll remove that from 
+
+98
+00:06:24,500 --> 00:06:30,290
+the system. We'll remove that and we'll come down to here I'll press save and let's 
+
+99
+00:06:30,320 --> 00:06:31,730
+work on the next one. 
+
+100
+00:06:31,730 --> 00:06:37,670
+So let's go back to the top and we're missing the join pre. So that's a little bit 
+
+101
+00:06:37,670 --> 00:06:42,770
+of an issue as well. But I'm just going to work on the next one in the list. So this 
+
+102
+00:06:42,770 --> 00:06:48,110
+is case transformations. We'll press apply and we'll go with continue I'm hoping 
+
+103
+00:06:48,110 --> 00:06:53,540
+that we'll see something here. Now again this is looks like it's going to fail 
+
+104
+00:06:53,560 --> 00:06:58,180
+So I've manually put in another heading for the next group case transformations. 
+
+105
+00:06:58,180 --> 00:07:05,110
+I've started off with backslash and we'll do an apply on that. Press continue and 
+
+106
+00:07:05,110 --> 00:07:10,480
+see if it figures out where to place it looks like it has. We'll press command Y. 
+
+107
+00:07:10,510 --> 00:07:15,250
+We've got another example coming through. Then we'll go to camel. We'll press apply 
+
+108
+00:07:15,250 --> 00:07:17,800
+on that and continue. 
+
+109
+00:07:17,830 --> 00:07:20,740
+And we'll press command Y on that. 
+
+110
+00:07:20,760 --> 00:07:25,960
+So I'm two in and I've run into another problem, which is interesting. I think we 
+
+111
+00:07:25,960 --> 00:07:30,910
+can fix it. When we look at the code that's coming through on the right. It's not. 
+
+112
+00:07:30,940 --> 00:07:35,980
+It's cherry picking the files from that particular folder. So what we should be able 
+
+113
+00:07:35,980 --> 00:07:40,120
+to do is head over to the terminal and we'll just run this little command here, which 
+
+114
+00:07:40,120 --> 00:07:46,330
+is going to find all the files that are in the case changing folder. This is really 
+
+115
+00:07:46,330 --> 00:07:50,740
+the order I want stuff to go. So that's now in my clipboard. Now that I've run that.
+
+116
+00:07:50,760 --> 00:07:55,900
+So we've got two here and we've got everything in the right order. Now it's in alphabetical 
+
+117
+00:07:55,900 --> 00:08:01,330
+order. So let's just apply this first one. Press continue and see what happens. Now 
+
+118
+00:08:01,330 --> 00:08:06,970
+I'd already tried doing multiple at the same time and it doesn't provide a good user 
+
+119
+00:08:06,970 --> 00:08:12,730
+experience. So I'm just going to let them come through one at a time. So now we're 
+
+120
+00:08:12,760 --> 00:08:19,300
+on to dash. We'll press continue and we'll get ready over here. And that's the right 
+
+121
+00:08:19,300 --> 00:08:24,910
+location. We'll press command Y and we'll move on to Dot and press continue.
+
+122
+00:08:24,930 --> 00:08:31,990
+Let it come in and onto double colon. There's a little bit tedious the way this works. 
+
+123
+00:08:31,990 --> 00:08:37,570
+I'm still getting used to using Cursor. I think there are better ways that we can 
+
+124
+00:08:37,570 --> 00:08:44,560
+solve these problems, but it's still pretty decent. Go on to human press. Continue 
+
+125
+00:08:44,560 --> 00:08:50,570
+still waiting. Command y. And then all of a sudden it just jumped ahead. And that 
+
+126
+00:08:50,570 --> 00:08:54,920
+gave me some indication of what could have been the issue. I've seen this before 
+
+127
+00:08:54,920 --> 00:09:00,200
+with Cursor, that maybe it was still writing files down in the chat window and it 
+
+128
+00:09:00,200 --> 00:09:04,310
+couldn't move ahead as quickly. Or maybe it's a different issue, but looks like we've 
+
+129
+00:09:04,310 --> 00:09:09,650
+got most of them in place for that one particular section, which is the case. Transformation.
+
+130
+00:09:09,660 --> 00:09:15,360
+Now circling back to the array operations. It had missed one of them. And we can 
+
+131
+00:09:15,360 --> 00:09:19,440
+press command I in this case just to work on this particular area. 
+
+132
+00:09:19,460 --> 00:09:25,350
+we'll put in a prompt. Can you add documentation for join pre. And hopefully it will 
+
+133
+00:09:25,350 --> 00:09:31,770
+find the right information. And this is looking good. We'll just press command Y 
+
+134
+00:09:31,770 --> 00:09:35,610
+on that. There's an accept all. Let's press that and see what it does. 
+
+135
+00:09:35,630 --> 00:09:40,280
+Let's just have a quick run of the documentation. We've got the complete examples. 
+
+136
+00:09:40,280 --> 00:09:45,920
+And here's the array operations currently only three. They're all joins with delimiters. 
+
+137
+00:09:45,920 --> 00:09:50,420
+And some of them the delimiter can be at the end or it can be at the beginning. If 
+
+138
+00:09:50,420 --> 00:09:55,670
+we move into the case transformations we've got things like backslash camel case 
+
+139
+00:09:55,670 --> 00:10:02,630
+constant sort of notation dash dots double colons. So all of this I use generally 
+
+140
+00:10:02,630 --> 00:10:07,790
+in handlebars helpers. But I also use this within other libraries within the system, 
+
+141
+00:10:07,790 --> 00:10:10,670
+which is why it's isolated out to its own command.
+
+142
+00:10:10,700 --> 00:10:14,840
+So we'll come back up to the index and we'll just move on to the next section. We'll 
+
+143
+00:10:14,840 --> 00:10:18,320
+try and do it all in one go. So we'll press command L, 
+
+144
+00:10:18,330 --> 00:10:24,720
+we should actually go back to the last conversation that we were on. We'll say can 
+
+145
+00:10:24,750 --> 00:10:31,290
+you add to the documentation misspell there. That's okay. We'll just paste everything 
+
+146
+00:10:31,290 --> 00:10:36,930
+in and see what it comes up with. And we'll also move down where hopefully it's going 
+
+147
+00:10:36,930 --> 00:10:40,500
+to come in in around this particular location.
+
+148
+00:10:40,530 --> 00:10:45,900
+You can see here using the chat window that has come through malformed again, and 
+
+149
+00:10:45,900 --> 00:10:50,160
+this is going to be difficult to copy over manually. I'll try another approach. What 
+
+150
+00:10:50,160 --> 00:10:54,870
+I'll do is I'll put in comparison operations. That's the next section. In this case 
+
+151
+00:10:54,870 --> 00:11:00,480
+I'll press command I and I'm just going to go can you add to the documentation. And 
+
+152
+00:11:00,480 --> 00:11:04,620
+I'm just listing the actual commands that are related to comparison. 
+
+153
+00:11:04,630 --> 00:11:10,630
+Now it's just finished generating. I don't see anything. I'm expecting line 311 for 
+
+154
+00:11:10,630 --> 00:11:15,730
+information to be loaded. Let's just move up. Look at that. It's pasted it up here. 
+
+155
+00:11:15,760 --> 00:11:20,860
+Now, I could accept it, but the problem is it's going to clear this area out. I wonder 
+
+156
+00:11:20,860 --> 00:11:25,330
+if we can say code is okay
+
+157
+00:11:25,330 --> 00:11:35,490
+but in wrong location, and we'll just say should be at 311. Press enter
+
+158
+00:11:35,500 --> 00:11:41,190
+now it's finished. It didn't really do the right thing, but it is better because 
+
+159
+00:11:41,220 --> 00:11:44,970
+at the moment it's not going to delete this section. So what I think we can do is 
+
+160
+00:11:44,970 --> 00:11:50,580
+just press command Y, we'll accept all that information and we'll just find the end 
+
+161
+00:11:50,580 --> 00:11:56,220
+of it. And that's the end there. We'll press command X and we've just cut it and 
+
+162
+00:11:56,220 --> 00:12:01,680
+we'll just paste it in here and press save before it goes and destroys any code on 
+
+163
+00:12:01,680 --> 00:12:01,980
+me.
+
+164
+00:12:02,00 --> 00:12:06,500
+let's take what we learned from that last one. I'm going to move on to trying to 
+
+165
+00:12:06,500 --> 00:12:10,640
+do the last three all in one hit. And we'll go down to the bottom. And I've said, 
+
+166
+00:12:10,640 --> 00:12:18,950
+put it here. We'll press command I and say, can you continue with documentation.
+
+167
+00:12:18,960 --> 00:12:24,530
+then I've said and place it at, put it here and we'll paste in all that information 
+
+168
+00:12:24,530 --> 00:12:29,780
+we've got. And what's interesting with the user interface here is that I've pasted 
+
+169
+00:12:29,780 --> 00:12:34,550
+lines that have carriage returns in them, and you can't see anything here. I'm not 
+
+170
+00:12:34,550 --> 00:12:40,100
+sure if it works. So we'll press enter. Yeah. Look at that. It hasn't put the information. 
+
+171
+00:12:40,100 --> 00:12:45,380
+Now if I paste it here you'll see that it was in my clipboard. It just doesn't go 
+
+172
+00:12:45,380 --> 00:12:49,460
+into the chat window for some reason. So I don't have any faith that this is going 
+
+173
+00:12:49,460 --> 00:12:55,940
+to work. Now. Luckily I've been proven wrong. So everything has worked. What's been 
+
+174
+00:12:55,940 --> 00:13:00,530
+a bit of a problem is the user experience is a little challenging because you can't 
+
+175
+00:13:00,530 --> 00:13:05,60
+see what's going on. I'm just going to press accept all on that. Do I need to press 
+
+176
+00:13:05,60 --> 00:13:10,100
+save all? Let's do a save all, see what it does and we'll and we'll come back. We've 
+
+177
+00:13:10,100 --> 00:13:15,140
+got the information operations going on. And if we move down a bit further we've 
+
+178
+00:13:15,140 --> 00:13:17,510
+got the miscellaneous operations.
+
+179
+00:13:17,530 --> 00:13:22,840
+So let's go check out the final documentation. So before we had page not found for 
+
+180
+00:13:22,840 --> 00:13:29,230
+usage. And if we do a refresh we are on 13.2 at the moment. If we refresh this now 
+
+181
+00:13:29,230 --> 00:13:31,300
+we're now up to 14.0. 
+
+182
+00:13:31,330 --> 00:13:36,600
+with that there should be new usage information going on. So let's just click on 
+
+183
+00:13:36,900 --> 00:13:36,360
+that 
+
+184
+00:13:36,360 --> 00:13:42,380
+We've got documentation. Now the hyperlinks that we've got going on probably need 
+
+185
+00:13:42,410 --> 00:13:46,730
+to be added into this area as well. But we can see the different sections. 
+
+186
+00:13:46,730 --> 00:13:50,710
+here's the pluralization which is inflection operations. 
+
+187
+00:13:50,730 --> 00:13:57,650
+what happens when you want to get the ordinal of a number. So first second third 
+
+188
+00:13:57,650 --> 00:14:04,190
+or including the number 21st the 11th. How do we pluralize. How do we pluralize numbers. 
+
+189
+00:14:04,200 --> 00:14:11,360
+How do we singular rise? How do we get rid of the plurals. So books becomes book 
+
+190
+00:14:11,360 --> 00:14:16,580
+And then there's some miscellaneous operations like converting into JSON safe and 
+
+191
+00:14:16,580 --> 00:14:17,180
+padding.

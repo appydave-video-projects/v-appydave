@@ -1,0 +1,739 @@
+1
+00:00:00,00 --> 00:00:05,330
+In this video, I'm testing how to do better prompts by using anthropics prompt generation 
+
+2
+00:00:05,330 --> 00:00:05,420
+tool.
+
+3
+00:00:05,890 --> 00:00:11,410
+Back in May. Anthropic released a prompt generation tool within their console, and 
+
+4
+00:00:11,410 --> 00:00:15,760
+they've got this blog post that says, you can now generate production ready prompt 
+
+5
+00:00:15,760 --> 00:00:21,940
+templates using Anthropic console and using techniques such as chain of thought reasoning. 
+
+6
+00:00:22,180 --> 00:00:26,470
+Now, if you head over to their documentation, they basically say sometimes the hardest 
+
+7
+00:00:26,540 --> 00:00:32,320
+part of using AI model is figuring how to prompt it effectively to help, we've created 
+
+8
+00:00:32,320 --> 00:00:35,830
+a prompt generation tool, and that's what we're going to explore today.
+
+9
+00:00:35,100 --> 00:00:40,840
+So I've been building a GPT workflow engine, and this morning I was releasing a video 
+
+10
+00:00:40,840 --> 00:00:46,360
+and realized I didn't have the prompts prepared for creating a tweet or doing a LinkedIn 
+
+11
+00:00:46,360 --> 00:00:50,380
+post. These are the prompts that we're going to try and develop. Basically, they 
+
+12
+00:00:50,380 --> 00:00:54,940
+would take some inputs and the prompt would go in here. So how do we improve that 
+
+13
+00:00:54,940 --> 00:00:55,900
+particular prompt? 
+
+14
+00:00:55,930 --> 00:01:01,930
+Now, in the past I've used custom GPT to turn transcripts from my videos into LinkedIn 
+
+15
+00:01:01,930 --> 00:01:07,750
+posts and also to convert 'em into tweets. But today we're gonna do it a lot simpler 
+
+16
+00:01:07,750 --> 00:01:08,710
+to get started.
+
+17
+00:01:08,460 --> 00:01:13,430
+I've come over to consult dot Anthropic dot com and we've got this ability to write 
+
+18
+00:01:13,430 --> 00:01:17,720
+some prompts and interact with a model. There's also stuff around a system prompt, 
+
+19
+00:01:18,200 --> 00:01:22,610
+and there's this little button here that says, generate prompt and it'll make a better 
+
+20
+00:01:22,610 --> 00:01:27,560
+prompt for you, hopefully. So what we're gonna do is just click on that and I'm just 
+
+21
+00:01:27,560 --> 00:01:32,930
+gonna use a really simple statement, create tweets for YouTube videos, and we'll 
+
+22
+00:01:32,930 --> 00:01:37,340
+generate the prompt and we'll see what it comes up with. So it's got a bunch of information 
+
+23
+00:01:37,340 --> 00:01:42,530
+coming through. Looks like some variables. It put in some guidelines, and it looks 
+
+24
+00:01:42,530 --> 00:01:45,230
+like it's going to produce three different tweets. 
+
+25
+00:01:45,830 --> 00:01:50,230
+So the generated prompt starts with, you are tasked with creating engaging tweets 
+
+26
+00:01:50,230 --> 00:01:56,170
+to promote YouTube videos. Your goal is to craft tweets that grab attention, convey 
+
+27
+00:01:56,170 --> 00:02:00,910
+essence of the video, and encourage users to click and watch. Sounds great. We've 
+
+28
+00:02:00,910 --> 00:02:05,170
+got a title, which makes sense. We've got a description, we've got a duration, 
+
+29
+00:02:04,860 --> 00:02:06,710
+Let's read the guidelines a bit. 
+
+30
+00:02:06,730 --> 00:02:12,550
+tweets should be concise. 280 characters. Yes. Main point and hook in the video. 
+
+31
+00:02:12,580 --> 00:02:14,170
+Couple of hashtags. 
+
+32
+00:02:14,190 --> 00:02:20,130
+it's got this mention the video duration if the selling point, eg. Quick five minute 
+
+33
+00:02:20,130 --> 00:02:20,580
+guide 
+
+34
+00:02:20,430 --> 00:02:24,540
+that sounds interesting. It's like something that might happen if it's useful. 
+
+35
+00:02:24,560 --> 00:02:28,870
+then we've got the structure attention grabbing. We've got calls to action and we've 
+
+36
+00:02:28,870 --> 00:02:33,490
+got the video link. So it's given a couple of examples. It's brilliant. Actually, 
+
+37
+00:02:33,730 --> 00:02:35,740
+please create three different tweets. 
+
+38
+00:02:35,760 --> 00:02:40,370
+this is good. We've got three examples and they're going into locations called Tweet 
+
+39
+00:02:40,370 --> 00:02:42,320
+one, two, and three. 
+
+40
+00:02:42,330 --> 00:02:44,130
+this is a pretty good start. 
+
+41
+00:02:44,160 --> 00:02:46,560
+this was the video I was going to do a tweet about. 
+
+42
+00:02:46,590 --> 00:02:51,560
+it's nine days old. I didn't do a tweet at the time, but I do have a title. We do 
+
+43
+00:02:51,560 --> 00:02:52,460
+have a description. 
+
+44
+00:02:51,760 --> 00:02:55,990
+So I've just bought up the workflow tool, which is around creating a tweet at the 
+
+45
+00:02:55,990 --> 00:02:56,320
+moment. 
+
+46
+00:02:56,330 --> 00:02:59,480
+the prompt that we want to do would go into here, but here are the variables that 
+
+47
+00:02:59,510 --> 00:03:04,130
+we've got, which is a title that was in the prompt we were looking at. We got a video 
+
+48
+00:03:04,130 --> 00:03:08,640
+link. We got keywords, which wasn't in the prompt we were just looking at, and we 
+
+49
+00:03:08,690 --> 00:03:08,870
+got the 
+
+50
+00:03:09,330 --> 00:03:14,820
+So we're in Anthropic console with the prompt that we need. I've made one modification, 
+
+51
+00:03:14,820 --> 00:03:20,190
+so that used to say video duration, and I've also removed point number six that talked 
+
+52
+00:03:20,190 --> 00:03:25,110
+about that. Now, one of the things I noticed, there's nowhere for the URL though 
+
+53
+00:03:25,110 --> 00:03:29,580
+there are those square brackets down here saying video link, and that's in a few 
+
+54
+00:03:29,580 --> 00:03:33,900
+places. So let's see what happens when we generate this. So we should be able to 
+
+55
+00:03:33,960 --> 00:03:34,500
+edit it. 
+
+56
+00:03:34,530 --> 00:03:38,900
+And I've gone and filled in the title, the description, and the keyword from the 
+
+57
+00:03:38,900 --> 00:03:43,310
+video. I haven't filled in the URL, but we'll run it and we'll see what we get. 
+
+58
+00:03:43,330 --> 00:03:48,910
+So we've got these tweet one, two, and three. Let's test this text. That's a little 
+
+59
+00:03:48,910 --> 00:03:51,370
+bit easier to read so we can see what the first, 
+
+60
+00:03:51,390 --> 00:03:53,810
+tweet will be, the second and the third. 
+
+61
+00:03:53,830 --> 00:03:56,190
+I'm just gonna paste in video link. 
+
+62
+00:03:56,190 --> 00:04:01,700
+We can click here to configure, paste it in, and let's see if that's all we need 
+
+63
+00:04:01,700 --> 00:04:03,800
+to do to add the video link. 
+
+64
+00:04:03,830 --> 00:04:08,540
+So that didn't work, but we could try one other thing and maybe change it so that 
+
+65
+00:04:08,540 --> 00:04:09,680
+it's got these input 
+
+66
+00:04:09,930 --> 00:04:15,210
+Now I was struggling for a little bit to get the URL in here. I kept seeing square 
+
+67
+00:04:15,210 --> 00:04:18,420
+brackets, video link, and I wasn't sure what was going on. 
+
+68
+00:04:18,430 --> 00:04:23,520
+then I noticed at the bottom it actually says to do that, remember to use video link 
+
+69
+00:04:23,520 --> 00:04:28,410
+as a placeholder for the actual URL, which might be what you want. It's not what 
+
+70
+00:04:28,410 --> 00:04:31,290
+I wanted. So I've just replaced it with this. 
+
+71
+00:04:31,290 --> 00:04:33,100
+we'll just rerun the prompt again. 
+
+72
+00:04:33,130 --> 00:04:34,850
+we should get three tweets 
+
+73
+00:04:34,860 --> 00:04:39,870
+we've got one here. We don't have one here. Interesting. So we'll just undo. 
+
+74
+00:04:39,890 --> 00:04:44,190
+So I'm also gonna change this little structure that it's got there and just say, 
+
+75
+00:04:44,190 --> 00:04:48,240
+remember to add it to the tweet and we'll see if all three of them come up with video 
+
+76
+00:04:48,240 --> 00:04:52,890
+links this time. So the first one does the second and the third. 
+
+77
+00:04:52,890 --> 00:04:57,640
+one of the problems that I just noticed in having it generate a prompt for me is 
+
+78
+00:04:57,640 --> 00:04:58,630
+that unless I go in, 
+
+79
+00:04:58,660 --> 00:05:03,260
+and pick it apart, I might Miss Little things. This doesn't usually happen when I'm 
+
+80
+00:05:03,260 --> 00:05:05,360
+creating prompts myself, 
+
+81
+00:05:05,360 --> 00:05:10,650
+So I've come into a tech editor and put the prompt that Anthropics created over on 
+
+82
+00:05:10,650 --> 00:05:17,250
+the left and over on the right I've got part of the prompt from my custom GPT. And 
+
+83
+00:05:17,250 --> 00:05:22,170
+we can see here us specialized in creating tweets for YouTube videos, and we've got 
+
+84
+00:05:22,230 --> 00:05:27,390
+different information. One of them is the 280 character limit that we've got going 
+
+85
+00:05:27,390 --> 00:05:27,960
+on here. 
+
+86
+00:05:27,960 --> 00:05:33,470
+I usually use the following three variables, the summary from the video, the video 
+
+87
+00:05:33,470 --> 00:05:35,780
+keywords, and the video URL. 
+
+88
+00:05:35,790 --> 00:05:38,520
+what I thought I'd do is just copy this information 
+
+89
+00:05:38,590 --> 00:05:43,320
+I've come in to generate a new prompt and I'm just gonna paste everything that we 
+
+90
+00:05:43,320 --> 00:05:45,240
+had from our old prompt. 
+
+91
+00:05:45,260 --> 00:05:50,650
+what I'm hoping is that because I spend a bit of time figuring out what I wanted, 
+
+92
+00:05:50,650 --> 00:05:55,690
+and it generally works the way I do want it to work, let's see if we can improve 
+
+93
+00:05:55,690 --> 00:05:55,780
+it. 
+
+94
+00:05:55,790 --> 00:06:00,320
+it's come up with a number of examples, which is great. We've got the summary, the 
+
+95
+00:06:00,320 --> 00:06:04,850
+keywords, and the URL, so this looks like it might be a good way to start. 
+
+96
+00:06:05,690 --> 00:06:09,980
+I'm happy with what it's done. One of the things it's done here is added in a couple 
+
+97
+00:06:09,980 --> 00:06:14,780
+of keywords, which is something you'd want to do. There weren't any keywords coming 
+
+98
+00:06:14,780 --> 00:06:18,800
+through on this, which is interesting. Look, both techniques are 
+
+99
+00:06:18,830 --> 00:06:24,430
+fairly powerful. Obviously with this one, this was such a simple start. It was just 
+
+100
+00:06:24,430 --> 00:06:30,250
+create tweets for a YouTube video and it got a big prompt going straight away. The 
+
+101
+00:06:30,250 --> 00:06:34,930
+second one, it was more in keeping with what I wanted originally because I'd spent 
+
+102
+00:06:34,930 --> 00:06:36,940
+a bit of time building a starter prompt.
+
+103
+00:06:36,960 --> 00:06:43,710
+So I'm going to try this new prompt in my workflow tool. So I've taken everything 
+
+104
+00:06:43,710 --> 00:06:48,540
+that we just generated. I've just modified the variables a little bit right here. 
+
+105
+00:06:48,870 --> 00:06:52,140
+And we've got a workflow engine here with the title, the link, the keywords, and 
+
+106
+00:06:52,140 --> 00:06:57,330
+the summary, and we'll just paste everything in. And these insertion points, if I 
+
+107
+00:06:57,330 --> 00:06:59,190
+show the values, should be 
+
+108
+00:06:59,190 --> 00:07:03,870
+showing up. So there's a summary going on. That looks good. We've got the keywords, 
+
+109
+00:07:04,170 --> 00:07:08,250
+we'll just close that down. Press copy, it's now in the clipboard. We'll head over 
+
+110
+00:07:08,250 --> 00:07:14,130
+to GPT and just paste it in and see if it can produce a good looking, 
+
+111
+00:07:14,160 --> 00:07:18,710
+tweet as well. And it looks pretty good. I probably wanna get rid of these, 
+
+112
+00:07:18,730 --> 00:07:22,880
+notation that's from Anthropic, but the actual tweet, 
+
+113
+00:07:22,890 --> 00:07:28,630
+the keywords also make a lot of sense. The good thing also, we've using an external 
+
+114
+00:07:28,630 --> 00:07:34,780
+tool rather than the Anthropic one is that you could go and use other sorts of models 
+
+115
+00:07:34,780 --> 00:07:37,750
+as you see fit for different steps in the workflow.
+
+116
+00:07:37,760 --> 00:07:43,400
+So with the tweet text available, I'm just going to create a tweet. I'll just drag 
+
+117
+00:07:43,400 --> 00:07:49,130
+in an image here and we'll paste it in and hopefully it's not too big. It looks good, 
+
+118
+00:07:49,130 --> 00:07:54,530
+and we can post it and we should test it, see whether the URL is working. So we'll 
+
+119
+00:07:54,530 --> 00:07:59,960
+just click on that. I recently added by me a copy looks and it looks like we've got 
+
+120
+00:07:59,960 --> 00:08:03,650
+a video coming through. Let's move on and just do the LinkedIn post as well 
+
+121
+00:08:03,660 --> 00:08:08,750
+let's test the simple one First. You create LinkedIn posts based on a YouTube script. 
+
+122
+00:08:09,140 --> 00:08:14,690
+Something's coming through, it's taking a YouTube script, and then there's a bunch 
+
+123
+00:08:14,690 --> 00:08:18,770
+of points that it needs to do. We're just going to press continue on that, and then 
+
+124
+00:08:18,770 --> 00:08:21,200
+I think we can just click on the YouTube script, 
+
+125
+00:08:21,230 --> 00:08:25,270
+come over to the YouTube script, paste it in, and we'll run it and we'll see what 
+
+126
+00:08:25,270 --> 00:08:26,530
+we get for a LinkedIn post. 
+
+127
+00:08:26,530 --> 00:08:32,150
+And it's created two useful things. So it's got, its thinking how it's approaching 
+
+128
+00:08:32,150 --> 00:08:37,130
+it, it's figured out generally the topic. And it's only done that from the abridgement. 
+
+129
+00:08:37,130 --> 00:08:43,190
+I didn't give the title. And we've got some key points listed here and relevant keywords 
+
+130
+00:08:43,610 --> 00:08:47,600
+from there. It's written a short but useful, 
+
+131
+00:08:47,630 --> 00:08:53,750
+post. There's no link to the YouTube video in there, but you could start with this. 
+
+132
+00:08:53,780 --> 00:08:55,760
+What we'll do is we'll update it 
+
+133
+00:08:55,790 --> 00:09:01,230
+by using the YouTube transformer that I've got over here so we can edit it, go into 
+
+134
+00:09:01,230 --> 00:09:02,880
+configure, and we'll just, 
+
+135
+00:09:02,890 --> 00:09:04,460
+copy whatever's going on. Here 
+
+136
+00:09:04,460 --> 00:09:08,990
+we are now on a new prompt. We'll say generate prompt and the information that's 
+
+137
+00:09:08,990 --> 00:09:14,690
+from the GPT with a little bit of a modification is just sitting here. And all the 
+
+138
+00:09:14,690 --> 00:09:19,730
+variables that I need are included or the, the variables I like to include for my 
+
+139
+00:09:19,760 --> 00:09:24,170
+LinkedIn post, whether they're really needed. It could be debatable, but we've got 
+
+140
+00:09:24,170 --> 00:09:27,590
+something coming through here and it's guidelines. 
+
+141
+00:09:27,590 --> 00:09:31,370
+I think we're just ultimately going to work with something very similar to this. 
+
+142
+00:09:31,370 --> 00:09:32,900
+Let's press continue.
+
+143
+00:09:32,930 --> 00:09:38,380
+So I've got my workflow tool. I'm just gonna be copying values from one tool to the 
+
+144
+00:09:38,380 --> 00:09:43,150
+other and we'll test out how this all works. There's everything filled in. We'll 
+
+145
+00:09:43,150 --> 00:09:44,260
+press run on that. 
+
+146
+00:09:44,290 --> 00:09:45,210
+And we've got, 
+
+147
+00:09:45,230 --> 00:09:50,270
+are you a small content creator looking to monetize, discover, game changing platform 
+
+148
+00:09:50,290 --> 00:09:54,940
+that's helping creators earn from day one? We've got a bunch of things. We've got 
+
+149
+00:09:54,940 --> 00:09:55,480
+some 
+
+150
+00:09:55,490 --> 00:10:00,960
+steps that I did in the video. We've got a link not necessarily quite in the format 
+
+151
+00:10:00,960 --> 00:10:04,260
+I want, but it's in the location I want. We've got some, 
+
+152
+00:10:04,330 --> 00:10:06,150
+keywords. I think 
+
+153
+00:10:06,160 --> 00:10:10,120
+that we will take this, we're gonna look at one other thing before we do, but I'm 
+
+154
+00:10:10,120 --> 00:10:14,410
+just gonna take this information straight over to LinkedIn. The other thing it's 
+
+155
+00:10:14,410 --> 00:10:19,630
+done is give us us a bit of an explanation around what's going on. 
+
+156
+00:10:19,630 --> 00:10:21,510
+it can be good to read through this as well. 
+
+157
+00:10:21,530 --> 00:10:25,450
+I've just gone over to LinkedIn. I'm just gonna drag in a thumbnail and we'll just 
+
+158
+00:10:25,450 --> 00:10:31,990
+paste in everything we've got and it's looking pretty good. There is an issue here 
+
+159
+00:10:31,990 --> 00:10:34,960
+with the link, I believe, and we'll press post 
+
+160
+00:10:34,990 --> 00:10:35,660
+and 
+
+161
+00:10:35,660 --> 00:10:38,980
+probably I would normally read this, but we'll go with that. 
+
+162
+00:10:38,990 --> 00:10:45,830
+there's the first version of the LinkedIn post. Let's check that the URL is working. 
+
+163
+00:10:45,860 --> 00:10:47,180
+It looks like it's working 
+
+164
+00:10:47,190 --> 00:10:52,410
+let's just do one more test. I've got all the information from our prompt here. I've 
+
+165
+00:10:52,410 --> 00:10:57,870
+got some placeholders, and we'll just copy the information, come over to the prompt 
+
+166
+00:10:57,870 --> 00:10:58,230
+area. 
+
+167
+00:10:58,260 --> 00:11:03,460
+that it loads up the insertion points from the data that we've got here. We can just 
+
+168
+00:11:03,460 --> 00:11:04,150
+press the copy button, 
+
+169
+00:11:04,160 --> 00:11:11,110
+bring up a GPT and paste it in, and we will publish both LinkedIn articles if this 
+
+170
+00:11:11,110 --> 00:11:15,400
+one looks okay, just so that we can see them side by side in LinkedIn. 
+
+171
+00:11:15,430 --> 00:11:19,880
+So we've come to LinkedIn, we'll just post in another image like we did before. 
+
+172
+00:11:19,890 --> 00:11:23,710
+I've given a just a little bit of padding between lines that didn't come through 
+
+173
+00:11:23,710 --> 00:11:29,890
+correctly and there is no URL, but we've got that in place now. We'll press post 
+
+174
+00:11:29,140 --> 00:11:32,980
+and what we can now do is look at these side by side. 
+
+175
+00:11:32,990 --> 00:11:37,880
+So here's the first LinkedIn post that we did, and the second one is going on here. 
+
+176
+00:11:38,270 --> 00:11:43,520
+And ultimately they're both gonna be okay, whatever we've got. Usually I'll do a 
+
+177
+00:11:43,520 --> 00:11:45,590
+little bit of human editing anyway, 
+
+178
+00:11:45,590 --> 00:11:50,730
+and this just allows me to get a little bit more social proof out there in the form 
+
+179
+00:11:50,730 --> 00:11:55,410
+of posts and do 'em quickly just using the transcriptions that we started off with 
+
+180
+00:11:55,410 --> 00:11:55,920
+in the video.
+
+181
+00:11:55,930 --> 00:12:00,850
+Anthropics Prompt Generator is really powerful. I'm going to use it a lot in the 
+
+182
+00:12:00,850 --> 00:12:05,260
+future. If you've got any questions, then drop a comment down below. Otherwise like 
+
+183
+00:12:05,260 --> 00:12:10,210
+and subscribe because the videos that I do will either be on prompt engineering or 
+
+184
+00:12:10,210 --> 00:12:15,460
+as I build out this GPT workflow engine. You can see the progress as I go. With that, 
+
+185
+00:12:15,610 --> 00:12:17,470
+I'm AppyDave. See you in the next video.

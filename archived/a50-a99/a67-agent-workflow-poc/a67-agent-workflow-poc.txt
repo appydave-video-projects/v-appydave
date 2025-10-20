@@ -1,0 +1,315 @@
+GPT workflows are repeatable instructions that you might see over and over again 
+in your personal life or in your business life. In my particular situation, I do 
+automated YouTube videos where I have scripts based off information that I research 
+on the internet and that workflow I repeat over and over again for each video. The 
+other place that I personally do it is when I publish this video, I'll have to come 
+up with the title, the text that goes on the thumbnail, the design I want for the 
+thumbnail. And then when I do release the video and I have a transcript, I'll want 
+to get the YouTube description, the LinkedIn post, maybe a medium article, and definitely 
+a tweet. So in this video I'm going to show you a proof of concept application that 
+I'm building for building GPT workflows.
+If you're wondering what a GPT workflow is, it's essentially a 
+of prompts that you might run over and over again. And back at the beginning of the 
+year, I did seven GPTs to grow your YouTube channel in 2024. 
+what it did was take the transcript summary that I would do in a video, and from 
+that, produce better intros, produce better outros. Here we would have the ability 
+to create a YouTube description based on the transcript, and then to share it on 
+Twitter or LinkedIn.
+Because I'm doing GPT workflows all the time. I started putting together a little 
+application. And the idea of it is that you have a prompt over here and you have 
+some input variables. So create five simple project ideas on an idea. And we might 
+go with Gen Mo, which is a text image generation system. And if we show the Interpolated 
+prompt, we can see create five simple project ideas on Geno. And with that, we could 
+just copy that straight into the clipboard and use it in chat GPT. 
+Now, from there you would get five different ideas. You would select an idea, and 
+from there, make a basic fact sheet. So let's gather a whole lot of information about 
+this product. And the selected idea might be using Text to image in gmo. And so now 
+you've got this new prompt that you can use in chat GPT or in a future version of 
+this application by clicking the start button.
+Now when working with GPT workflows, you often have different phases that you're 
+going through. So in this example, there might be a research phase followed by developing 
+the script where in the research phase where you can see the bunch of steps that 
+are going on. And where I've used this quite effectively is in a channel that I've 
+got called AI-TLDR where I'm creating different videos. And one of the videos in 
+here 
+called using GMO 
+is already an outlier with 41 times the channel average. And the interesting thing 
+about this channel with its 28 videos is that it's only about two months old and 
+I'm using GPT workflows to build all the scripts and they're good quality scripts 
+and they're good looking videos.
+So let's have a look at how I was doing my GPT workflows. Now, I love using mind 
+maps. They're a great way of organizing structure. And when I was doing a YouTube 
+video script, I'd have this general stuff that I'd do every time I, there'd be a 
+bunch of information that I'd want to collect, we'll call it parameters here. And 
+there'd be certain large language models I'd want to use. Usually it'd be Open AI, 
+but if I needed search capability, I'd use perplexity. Now, from there, I'd go off 
+and do a little bit of research. There'd be basic metadata about the video. Let's 
+develop some facts and information in the fact sheet. Select the type of video that'd 
+be appropriate to the fact sheet we've built, and then expand on it, go into more 
+detail. With that, we could get metadata. And so examples of the sorts of inputs 
+and outputs would be for the expanded fact sheet and input might be a simple title, 
+plus the basic fact sheet that we got here and the video type that we're focusing 
+on, which would've come from here. The output being the expanded fact sheet would 
+then become the input for the expanded metadata. And that's where I might get a list 
+of engaging titles, keywords and topics. With all the research phase completed, we 
+could then move on to 
+the script writing phase would be create a script, 
+clean it up, 
+fact check it. So one of the big problems with writing any sort of information for 
+an article or a YouTube video is, is the information accurate? So there'd be a section 
+in there. 
+lastly, a human would finish the job. 
+so all the ideas that you're looking at in the mind map is what we're trying to achieve 
+with the GPT workflow. Just a bunch of steps in a bunch of phases.
+Another more complex workflow that I do is when I create a Medium article. And what 
+I'm doing with this is collecting a bunch of information. I start from the transcript 
+of one of my videos and I'm building out extra information. And the way I do that 
+is running through a bunch of GPT steps, such as doing some research, developing 
+outlines, getting better intros, stuff like that. And how that looks in the real 
+world is that I've currently got two drafts for different articles. I've got, I recently 
+did a video on getting started with 
+and then 
+this article, but how I built 10 classic games in just an hour using WebSim.ai and 
+chat GPT. And I went through and I created these different games like Pacman and 
+Asteroids, and I talked about the other tool that I created. And it's interesting 
+to look at this because that screenshot that you see has been integrated into the 
+Chat GPT workflow software that we're talking about today. 
+So if we quickly look at the quality of the article, we've got how to use better 
+prompts in GPT to improve storytelling. Built off a transcript and after a month 
+and a half, it's already got nearly 400 claps to it, and we go through it. It's got 
+the prompts, it's got good paragraphs, intros, outros, and graphics, all going on. 
+And much of this was done using the GPT workflow that I just showed in the mind map.
+Now, when I was doing my first proof of concept for the agent workflow software, 
+this is the workflow I started with building a YouTube script. And we've got the 
+research of the basic idea, the fact sheet, video type, et cetera. And you can see 
+all these bits of information across the top here. But we also had what we would 
+call phases. So we got the research phase and the developed script, and if we go 
+and click on the overview, we can see there's a research phase and these are the 
+steps that you would go through 
+followed by the developed script phase, and that would have a set of steps that you 
+go through as well.
+Now let's move over to the workflow that I want to build today, and that's for the 
+YouTube publishing of a video. And what I've put in place is the idea that I create 
+a title. I need text for the thumbnail, and that shouldn't be the same as the YouTube 
+title, and there'll be some design guidelines. After that, I'm going to take the 
+transcript that I've got for the YouTube video and create both a summary and an abridgement. 
+And these are two different ways of summarizing text. From that, we should be able 
+to create YouTube descriptions, LinkedIn posts, send off tweets, and then move on 
+to the medium articles.
+So we have our workflow name, and we have a list of steps here and how that could 
+look in the application is that the workflow name should go here and the steps should 
+be listed in this sort of area. But there's also this other concept going on called 
+the phases, and we can see the phases listed here. So it might be useful to go and 
+change 
+so I've come over to my mind map and I've just added a section called Phases, and 
+I can see three different phases. The first one would be getting the thumbnail correct. 
+The next area would be about getting the summary and the abridgement. We call that 
+research, and that occurs to me that there are two other areas that would be interesting. 
+So usually the chapter timestamps need to be worked out and they're useful for the 
+YouTube description coming up. The other information that's useful is just my brand 
+information. So it's one thing to talk about a video in a YouTube description, but 
+if there's nothing in there to talk about the brand that's creating it, that's a 
+little bit of a challenge, and that information needs to be fed into future workflows, 
+which we'll call, say the social media content. So what I've done is taken the phases 
+and we'll just expand it out. We've got thumbnail design and we will just move these 
+three items down and attach it right there. With that, we've got all the information 
+around the fact sheet, which is the abridgement, the chapters, and the brand information. 
+And lastly, 
+the post-production where we are building social media content. 
+so I think the name of the workflow going here will come from here, followed by three 
+different phases. We've got the thumbnail design, the fact sheet, and the social 
+content. And after that, there'll be three steps within this phase, four, within 
+this phase, and four within this.
+Now let's talk about how I'm quickly designing these GPT workflows. Now, you've seen 
+here that I've created a simple mind map. And a mind map is a wonderful way of explaining 
+structure. But where it misses the point is that there's a lot of extra information 
+that you want in, say, a GPT workflow. In this case, we've got some input variables 
+and it should be simple to use and maybe a basic fact sheet. In this case here, I 
+want to create a DSL that produces GPT agent workflows in minutes. Now, that's where 
+I'm going to introduce the concept of a DSL. 
+what is it? It stands for a domain specific language, and it's really a way of writing, 
+just like we might write with a prompt where you've got both the information that 
+you want, 
+maybe a list of slides for a PowerPoint presentation, but also the semantic meaning 
+the fact that there are slides and that a slide might have an image on the left or 
+the right, and three bullet points. So a domain specific language is this beautiful 
+text structure. It can be written like a prompt, but it has both the semantic meaning 
+and the informational meaning. So examples of them in the real world are things like 
+sql, lasik, latex, and RegX. 
+So let's have a look at how a DSL could work. So I've created this little image here 
+called GPT Agent Workflows, and it's a bit of a storyboard that we could say was 
+done in PowerPoint of understanding the workflows, key considerations, et cetera. 
+And the way I created this was with a DSL. So I said, here, here's an example, DSL 
+for creating a PowerPoint presentation about the topic we're we're dealing with in 
+three slides. And it said presentation. So this is very easy to understand when you 
+are putting it into GPT. We've got semantic meaning the concept, that there's a presentation, 
+that there's slides, and that this slide has a title and some bullet points, and 
+we just keep repeating the information. And this was the user interface that I initially 
+decided I wanted to create 
+my GPT workflows, as you see right here. And the reason for that is twofold. From 
+a 
+point of view, it's way quicker for me to develop this little, 
+DSL language and make it very flexible. But because it is all text, I can generate 
+GPT workflows really quickly, just using chat GPT.
+So over on the left, I've got the DSL that I've created for the YouTube script writer. 
+And remember that a DSL is a domain specific language and it's about solving problems 
+in terminology that's easy to understand and read. 
+what we've got here is the idea of an agent that we are creating. And the agent would 
+be a large language model sort of automation. And we're just naming it YouTube script 
+writer. We've given it a little bit of a description. Now, some of the things that 
+I'm trying to solve is I want concepts like settings that are configurable for each 
+workflow that I do, a list of prompts. And I don't want to write it into the language 
+here 'cause it's just too hard to read when they get big. So in this case, I'm just 
+reading them from files. Then there's a list of attributes or variables that I want 
+to collect along the way. And then there's just the sections or the phases. So the 
+research phase with a bunch of steps going on and that those steps can take some 
+information and they can produce some information. And after a while you'll go on 
+to another 
+phase. From that, the information is written out to a file and all of this happens 
+when we hit save. So let's have a look at that.
+Now as I'm writing my DSL and I'm hitting save, what it does is it takes a file here 
+on the right and it updates it automatically. 
+so if I come up to the description and I'll just put in AppyDave, I'll hit save. 
+And what's happening on the right is that that file is changing automatically. And 
+every section of this, 
+workflow is actually represented on the right. So if we look at the sections, we've 
+got a research phase, and we could come into here and change this to research and 
+development, and we might go into here and change this to something like Claude. 
+And when we hit save, this value should automatically change. Plus now the default 
+language model is Claude. 
+So with that little change in place, the user interface has updated. We're seeing 
+research and development here on the main screen and also on the mobile version of 
+it. And let's have a quick look at how this is set up. 
+So for the proof of concept or first version of this application, there's the DSL 
+here. There it reads in the prompts from little files. So we've got examples of different 
+prompts just sitting in the file. And when you press save, it just writes out this 
+little J document that represents one workflow that's then automatically picked up 
+by a simple astro application that's rendering everything that we see on screen using 
+Tailwind CSS. 
+So the first thing I wanna do is show how easy it is to take a simple mind map structure 
+like we've got YouTube publish video and convert it into an agent workflow. 
+so what I'll do to start off with is I'll go get an email template DSL. I've written 
+a programming DSL for Rails and one that I've done for my script writing workflow. 
+And I've copied all three of these, started myself a new, 
+GPT workflow, and I've just copied all the information in. And I'm using a command 
+called Read that I've set up as a custom instruction so that it just absorbs the 
+information and asks what to do next. I then just go to my mind map and copy the 
+information and I've started a prompt that says, can you create a new DSL using this 
+structure? And I paste everything in. 
+it's in the middle of generating 
+it's got an area for attributes. Now this may be a little bit more complex than I 
+need at the moment, and I will edit it, but let's just see what this looks like when 
+we finish it.
+So to get this working, what I can do is just copy the code that's produced here 
+and we can paste it in and it's seems like it's put everything in place. I have a 
+little bit of a concern around this loading of the files because these files don't 
+currently exist. So what I'll do is I'll go and create a sample prompt, we'll call 
+it create prompts for publishing your YouTube video. 
+And I've just manually updated it so that that's commented out and we're only going 
+to see the same prompt. And now when I hit save on it, 
+we get this new GPT workflow. I'll just click on the thumbnail design. So we've got 
+three items here and they match the information that we've got in our DSL. We click 
+on the fact sheet, we've got four there, and we'll go to the social content where 
+we've also got four. 
+another thing to look at is we should have attributes, prompts, and they're all going 
+to say the same information 'cause we're reading it from the same file each time 
+and some settings. 
+So we'll just have a look at two of the attributes that are here. One's called Summary 
+and Abridgement, and they're basically the outcome from the transcript in two different 
+formats. And if we move into the, 
+social content section, and we'll look at the tweet, they're inputs. So we've got 
+the summary and the abridgement. Now generally I wouldn't have both of them. I'd 
+only have one. So we will change that in a moment, 
+but let's have a look at it here. So we are currently on the attributes where we 
+can see summary and abridgement are two values that we're collecting. And if we go 
+to the social content currently on the tweet and we can see input of summary and 
+abridgement. So let's go change that. 
+Now, I find that Abridgement are really good for YouTube descriptions. They've got 
+a whole lot more detail than a summary. So I would remove the summary from anything 
+that's complex writing, but something like a tweet, which is simple, I would just 
+call it like that. So I'm just gonna hit say And because Astro refreshes automatically 
+when files change, it's just made it summary.
+Now if you were paying attention, you might have noticed that when I went from social 
+to fat sheet to thumbnail, we were always on 0.3, 
+and that's because this is a proof of concept project, not a fully working, minimum 
+viable product. Now, I do have a minimum viable product and it's here. And if we 
+look at the same information from this point of view, we can go into individual areas, 
+click on them and see what's going on. We go back to the overview. We might go to 
+the transcript abridgement as part of the fact sheet, and now we can see that. Now 
+that's all part of the next video, not this one. The first idea for me 
+was the ability to get the DSL, generating the look and feel for all my designs and 
+being able to create GPT workflows really quickly. 
+But I'll just show you this quickly while we're at it. So let's say we put in a variable 
+and we'll call it transcript because that's what we've called it over on the left. 
+And we show the interpolated prompt right here. If we say hello, it should just go 
+straight in. And if we wanted to see hello multiple times, we could just paste this 
+in multiple times and we'll see it. The other thing that's going on here is that 
+there's the ability to select different large language models. 'cause the way I envisage 
+the software working is I should be able to pick the large language model that makes 
+sense for the task I'm on. Another area that's going on is the output attributes. 
+We didn't go into 'em in the DSL, but they do actually 
+work from the point of view that when output comes out of this system, maybe it can 
+be split up into multiple variables to be stored for future use. 
+you should just be able to go from step to step. And once you're at the end of a 
+workflow, there's a little down arrow saying that we're moving on to the next section, 
+which is the social content. And we just can move all the way through until we get 
+to the end. 
+And one last part is this copy button. So what we can do is change the variables 
+here. We'll call this my summary, and we'll go abridgement 
+in action and we'll just say AppyDave for the brand information. Now when we hit 
+copy that's now in the clipboard, and we could just paste that directly into chat. 
+GPT. I'm going to paste it here. And so suddenly we get this really long one. So 
+when we press copy again, we've got a lot more information coming for.
+Now, when I first started this project, I did it all using Chat GPT from my phone. 
+One afternoon I'd done some mind maps around how I wanted GPT workflows to work for 
+my business, my YouTube channel. And I decided can I convert this into a database 
+diagram or an entity relationship diagram? And I basically did it on the phone while 
+riding the motorbike, I was riding the motorbike to a user group and I'd pull off 
+to the side of the road and just make another statement that I'd been thinking of 
+to the phone press, go and let it start generating information. And then I'd write 
+on another half a kilometer. 
+And as I was going, I built up a data flow diagram, an entity relationship diagram. 
+I started having a conversation with it around how the domain specific language should 
+work. 
+All that evening I spent in cafes and also at this group. And whenever I had spare 
+time, just having a quick conversation. 
+Now I've misplaced that conversation, but I'll show you basic ideas. So what I've 
+done here is what is a simple ERD or DFD in ask E for the following structure? And 
+I've just pasted in the structure we've just been working with. And what it then 
+does is start writing entity relationship diagrams around what the agent is, prompts, 
+attributes, sections, et cetera. And you can also get a data flow diagram. And so 
+it was this simple conversation backwards and forwards for many hours, but I was 
+able to work out the way my domain specific language should work. 
+So this was one of the early draft DSLs. It's using a YAML sort of format. From that 
+it wrote an AST, an abstract 
+syntax tree, which would allow programming to read that structure. We just looked 
+at, I think this is in Python, which is not what I needed because I was working with 
+Ruby. So I continued the conversation and here I got a cleaner, more human looking 
+looking DSL to work with. 
+what I like about a structure like this is that if I was to make this application 
+work fully in the cloud from a little text box, this is something people can work 
+with. In fact, let's have a look at 
+this product called DB diagram, which I think is a great example of how DSLs can 
+effectively create visualizations. This allows you to write simple little structures. 
+So I'm just going to put in hello and the hello is now connected up visually and 
+I was able to use this tool to create the entity relationship diagram as an actual 
+database structure. 
+so I spent a whole lot of time then getting it to create code for me. So this is 
+the actual code for how the reading of the data from that domain specific language 
+happens and concepts like writing it out to Jason and YAML were all written as code 
+as we went through this and you can see all the Ruby code here. From there, I was 
+able to create the Astro application and all the code got written again in chat GPT. 
+The only time I'd use handcrafting to fix things was when Chat GPT just was going 
+into circles. It does that from time to time, but a lot of the errors I was able 
+to just diagnose directly in this particular chat window. Now, if you want me to 
+go into more detail of how I'm using Chat GPT for coding, and definitely in the future 
+how I'll be using the GPT agent workflow to write coding and this has been quite 
+effective, then I'm going to be dealing with that in the next video where I've built 
+the minimum viable product and we can see some of the Svelte code being created right 
+here.
+I am AppyDave and that has been a proof of concept around GPT agent workflows. Now 
+if you wanna see this turned into a real product, then check out the link in the 
+description. If on the other hand you wanna know more about either the coding, the 
+GPT way of building code or just the GPT workflows, then drop a comment down below. 
+And in the next video what we'll do is we'll work on the minimum viable product. 
+So please like and subscribe and see you soon.

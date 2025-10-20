@@ -1,0 +1,1441 @@
+1
+00:00:01,000 --> 00:00:05,229
+In this video, I'm going to
+use ChatGPT to create a class
+
+2
+00:00:05,320 --> 00:00:07,240
+to anonymize people's names.
+
+3
+00:00:08,240 --> 00:00:09,400
+Here is the scenario.
+
+4
+00:00:09,730 --> 00:00:15,220
+You have content that you're trying to
+create and you are using real names and
+
+
+5
+00:00:15,220 --> 00:00:20,170
+questions from the internet, and what
+you wanna do is take the names like Dot
+
+6
+00:00:20,170 --> 00:00:26,415
+Stroop Andy and Christelle and change 'em
+to another name that's still realistic,
+
+7
+00:00:26,595 --> 00:00:29,595
+but doesn't identify the original person.
+
+8
+00:00:30,095 --> 00:00:33,635
+I'm just gonna take you over to Visual
+Studio and you'll see that I have a data
+
+9
+00:00:33,635 --> 00:00:35,825
+file here with people's names in it.
+
+10
+00:00:35,825 --> 00:00:38,390
+We've got Michael Dot, and Andy.
+
+11
+00:00:38,870 --> 00:00:45,890
+And from them there are also more detailed
+data files with other people's names.
+
+12
+00:00:45,940 --> 00:00:46,780
+these are people's.
+
+13
+00:00:47,515 --> 00:00:50,455
+Names that would've replied to a question.
+
+14
+00:00:50,765 --> 00:00:56,645
+what I wanna do is take every name and
+run it through an anonymization routine.
+
+15
+00:00:56,915 --> 00:01:00,365
+But the other thing I want to
+do is I wanna vet the names
+
+16
+00:01:00,365 --> 00:01:01,445
+that are coming out of it.
+
+17
+00:01:01,445 --> 00:01:04,385
+And if there's a name that I
+don't like, I want to be able to
+
+18
+00:01:04,385 --> 00:01:06,905
+refresh it on a regular basis.
+
+19
+00:01:07,025 --> 00:01:12,025
+the way I want to go about that
+today is to just use ChatGPT
+
+20
+00:01:12,025 --> 00:01:13,865
+to create this class for me.
+
+21
+00:01:14,865 --> 00:01:19,965
+Let's head over to ChatGPT and look
+at a prompt that I've written and
+
+22
+00:01:19,965 --> 00:01:22,905
+it starts off with, I need a class.
+
+23
+00:01:22,905 --> 00:01:26,115
+I need you to anonymize people's names.
+
+24
+00:01:26,335 --> 00:01:29,695
+The way I want to use it is that
+there'll be a dictionary of some
+
+25
+00:01:29,935 --> 00:01:32,005
+sort with the original name.
+
+26
+00:01:32,135 --> 00:01:36,245
+Name followed by the anonymized
+name, and one of the things
+
+27
+00:01:36,245 --> 00:01:38,735
+is a flag called refresh.
+
+28
+00:01:38,795 --> 00:01:43,235
+And the idea of the refresh flag is
+that if I set it to true, I should
+
+29
+00:01:43,240 --> 00:01:45,635
+be able to get a new name generated.
+
+30
+00:01:45,805 --> 00:01:48,955
+if it gets set to false, it'll stay fixed.
+
+31
+00:01:49,255 --> 00:01:51,745
+if the refresh flag is
+true, it means that I'm.
+
+32
+00:01:51,770 --> 00:01:57,230
+Not happy with the new name, and it can be
+recreated if you receive an original name.
+
+33
+00:01:57,230 --> 00:02:00,320
+So this is a name that
+you've already seen before.
+
+34
+00:02:00,660 --> 00:02:05,100
+You will add it to the dictionary
+and set the refresh flag to true.
+
+35
+00:02:05,560 --> 00:02:08,230
+You only add names that
+you have not seen before.
+
+36
+00:02:08,870 --> 00:02:12,950
+I will need some sort of lookout function
+on the original name so that I can
+
+37
+00:02:12,950 --> 00:02:19,370
+get the anonymized name and I want the
+information stored in a JSON document.
+
+38
+00:02:19,770 --> 00:02:21,780
+I don't really care how it names it.
+
+39
+00:02:21,900 --> 00:02:24,869
+One of the reasons I do that is because.
+
+40
+00:02:25,339 --> 00:02:30,475
+I find it's pretty good at coming up
+with the right names, and since naming
+
+41
+00:02:30,475 --> 00:02:35,665
+is an incredibly important aspect of
+programming, let's take it out of our
+
+42
+00:02:35,670 --> 00:02:38,905
+hands and let the computer do it for us.
+
+43
+00:02:38,955 --> 00:02:43,793
+before you write code, I would like you
+to describe the structure of the class
+
+44
+00:02:43,983 --> 00:02:45,903
+meaning what methods and properties.
+
+45
+00:02:45,903 --> 00:02:50,553
+the reason that's important to me
+is that I don't necessarily like
+
+46
+00:02:50,673 --> 00:02:53,223
+every bit of code that GPT writes.
+
+47
+00:02:53,223 --> 00:02:57,723
+So I want to have a look at what it
+thinks is a good way of going about it,
+
+48
+00:02:57,933 --> 00:03:01,863
+and then I might tweak that a little
+bit before I get it to generate code.
+
+49
+00:03:02,193 --> 00:03:02,403
+I.
+
+50
+00:03:02,488 --> 00:03:04,468
+Want this in Ruby.
+
+51
+00:03:04,468 --> 00:03:08,068
+That's programming language I'm
+using for this particular problem.
+
+52
+00:03:09,118 --> 00:03:15,748
+ChatGPT has come up with this idea of
+a class called Name Anonymizer, and I'm
+
+53
+00:03:15,753 --> 00:03:20,878
+pretty happy with that as the name, and
+it believes it will need a dictionary to
+
+54
+00:03:20,878 --> 00:03:25,998
+store the information I guess the person's
+original name will go into this location
+
+55
+00:03:26,358 --> 00:03:31,038
+and the mapped name or the anonymized
+name will go into this location.
+
+56
+00:03:31,368 --> 00:03:36,648
+I assume it's going to work on the
+idea that if refresh is true, it would
+
+57
+00:03:36,648 --> 00:03:41,388
+regenerate the name before persisting
+it back into the JSON document.
+
+58
+00:03:42,028 --> 00:03:47,968
+it has a concept of a file name and
+it defaults to name mapping JSON.
+
+59
+00:03:48,148 --> 00:03:49,348
+I'll be happy with that.
+
+60
+00:03:49,398 --> 00:03:52,308
+It has a constructor, an initializer.
+
+61
+00:03:52,938 --> 00:03:55,518
+There's nothing mentioned here about it.
+
+62
+00:03:55,518 --> 00:03:59,868
+Taking the file name as a parameter,
+so maybe you have to in instantiate it.
+
+63
+00:04:00,078 --> 00:04:03,288
+Then set the file name if
+you want a custom one, and
+
+64
+00:04:03,288 --> 00:04:04,848
+then work with the functions.
+
+65
+00:04:04,968 --> 00:04:07,218
+But we'll see what it actually generates.
+
+66
+00:04:07,408 --> 00:04:11,498
+This has the concept
+of anonymizing a name.
+
+67
+00:04:11,548 --> 00:04:17,628
+let's say we give my name David Cruwys,
+and it comes back with Bob Smith.
+
+68
+00:04:18,138 --> 00:04:21,858
+The thing is that it will check
+for my name in the dictionary.
+
+69
+00:04:21,958 --> 00:04:23,848
+If present, yes, it does.
+
+70
+00:04:24,028 --> 00:04:26,708
+Then set the refresh flag to false.
+
+71
+00:04:27,213 --> 00:04:29,553
+It returns the anonymized name.
+
+72
+00:04:29,623 --> 00:04:35,833
+That might be the right flow, if not
+present or if the refresh flag is true.
+
+73
+00:04:35,983 --> 00:04:38,443
+It generates a new anonymized name.
+
+74
+00:04:38,633 --> 00:04:42,293
+if it comes back with Bob Smith
+and I don't like that, then I
+
+75
+00:04:42,298 --> 00:04:44,883
+can set the flag to true and.
+
+76
+00:04:45,493 --> 00:04:49,663
+Just call my name again to
+get a different name back now.
+
+77
+00:04:49,963 --> 00:04:53,773
+Then there's a method here
+called refresh, anonymized name.
+
+78
+00:04:53,773 --> 00:04:57,163
+I guess this is the method
+that's going to do the work.
+
+79
+00:04:57,193 --> 00:04:57,733
+What's it say?
+
+80
+00:04:57,943 --> 00:05:03,493
+Sets the refresh flag to true for a
+given name so that a new anonymized
+
+81
+00:05:03,493 --> 00:05:05,563
+name can be generated next time.
+
+82
+00:05:05,723 --> 00:05:08,388
+it's really just setting
+the flag in this case.
+
+83
+00:05:08,903 --> 00:05:16,253
+I think this name is not necessarily the
+best name 'cause I, I got the impression
+
+84
+00:05:16,253 --> 00:05:20,603
+it was going to do an action, but it's
+actually only going to change a state.
+
+85
+00:05:20,703 --> 00:05:26,283
+if I wanted to give a bit extra
+instruction to ChatGPT, that
+
+86
+00:05:26,288 --> 00:05:28,233
+might be the area that I do it.
+
+87
+00:05:28,333 --> 00:05:32,233
+But quite frankly, it's probably
+gonna be easier just to change
+
+88
+00:05:32,233 --> 00:05:33,913
+it in code after the fact.
+
+89
+00:05:34,213 --> 00:05:36,283
+But we'll just see what
+else it's got here.
+
+90
+00:05:36,953 --> 00:05:40,133
+the next one is look up
+with an original name.
+
+91
+00:05:40,138 --> 00:05:44,848
+this is the main method that would get
+called each time returns to an anonymous
+
+92
+00:05:44,848 --> 00:05:46,738
+name, based on an original name.
+
+93
+00:05:47,248 --> 00:05:52,688
+Then there's a save to file and a load
+from file additional considerations,
+
+94
+00:05:53,018 --> 00:05:55,838
+the anonymized name generation process.
+
+95
+00:05:55,838 --> 00:05:59,618
+You could use simple naming
+patterns or integrate a more
+
+96
+00:05:59,618 --> 00:06:01,538
+sophisticated name generator.
+
+97
+00:06:01,748 --> 00:06:09,008
+What I think I'm going to do is suggest to
+it that it uses a ruby gem called Faker.
+
+98
+00:06:09,348 --> 00:06:15,538
+Instantiate, the class which loads the
+existing directory or creates a new one.
+
+99
+00:06:15,718 --> 00:06:17,788
+Not necessarily what I wanna do.
+
+100
+00:06:17,788 --> 00:06:20,608
+I probably wanna have a little bit
+of control there, but we'll see.
+
+101
+00:06:21,028 --> 00:06:26,068
+Call lookup to get the anonymized name
+for an original name and optionally
+
+102
+00:06:26,073 --> 00:06:31,876
+call, refresh anonymized name if you
+want to refresh flag for the name.
+
+103
+00:06:32,196 --> 00:06:34,766
+Maybe this status name is, okay.
+
+104
+00:06:34,766 --> 00:06:36,746
+We'll see once this generates.
+
+105
+00:06:37,056 --> 00:06:39,496
+does this structure align
+with your requirements?
+
+106
+00:06:39,736 --> 00:06:40,636
+It's close enough.
+
+107
+00:06:41,636 --> 00:06:44,816
+I've decided to do a
+couple of customizations.
+
+108
+00:06:44,816 --> 00:06:49,736
+The first one is, if I look at the
+refresh anonymized name, it's actually
+
+109
+00:06:49,736 --> 00:06:53,876
+a pretty good calling technique
+to work this way, but it wasn't
+
+110
+00:06:53,876 --> 00:06:55,646
+the way I was planning to use it.
+
+111
+00:06:55,946 --> 00:07:00,986
+My plan was that if the JSON
+document on the server changed.
+
+112
+00:07:01,136 --> 00:07:05,666
+Then the next time that this
+method is called the getting of
+
+113
+00:07:05,666 --> 00:07:09,866
+a new anonymous name, it would
+just go and refresh at the time.
+
+114
+00:07:10,176 --> 00:07:14,856
+what I'm gonna do is rather than even
+coming up for a name for this method,
+
+115
+00:07:15,096 --> 00:07:21,446
+it's really interesting when you struggle
+to find the right name that ChatGPT may
+
+116
+00:07:21,446 --> 00:07:23,406
+actually be able to solve this problem.
+
+117
+00:07:23,586 --> 00:07:27,536
+So we'll just write this little prompt
+and I've already pre-written it.
+
+118
+00:07:27,676 --> 00:07:32,326
+I think the name refresh, anonymized
+name does not match the intent.
+
+119
+00:07:32,746 --> 00:07:37,036
+This name suggests that the anonymous
+name will be refreshed, but really
+
+120
+00:07:37,041 --> 00:07:41,866
+it's just setting a state flag, which
+will only ever need to be processed
+
+121
+00:07:41,896 --> 00:07:43,996
+the next time the name is requested.
+
+122
+00:07:44,566 --> 00:07:45,856
+Give me five names.
+
+123
+00:07:45,916 --> 00:07:46,846
+That might be better.
+
+124
+00:07:46,906 --> 00:07:47,806
+Let's see what it.
+
+125
+00:07:47,806 --> 00:07:51,341
+does it's come up with
+five different names.
+
+126
+00:07:51,441 --> 00:07:53,121
+They're all pretty good.
+
+127
+00:07:53,201 --> 00:07:57,811
+mark_for_update, set_refresh_flag,
+and schedule_name_refresh.
+
+128
+00:07:58,051 --> 00:08:00,361
+this is probably the most obvious one.
+
+129
+00:08:00,631 --> 00:08:07,201
+I know it does not conform to RuboCop,
+which is a linter in the Ruby language.
+
+130
+00:08:07,421 --> 00:08:12,281
+They do not like using setters and
+getters like that, and that gets
+
+131
+00:08:12,286 --> 00:08:16,151
+me thinking that I might just get
+it to go with mark_for_update.
+
+132
+00:08:16,641 --> 00:08:18,801
+here's the class that it's generated.
+
+133
+00:08:18,801 --> 00:08:21,321
+It's called anonymous name generator.
+
+134
+00:08:21,321 --> 00:08:26,521
+I don't believe that's what it came
+up with before it said NameAnonymizer.
+
+135
+00:08:26,541 --> 00:08:31,941
+I'm gonna copy that 'cause I prefer
+this name for what it's wants.
+
+136
+00:08:32,391 --> 00:08:32,721
+It's.
+
+137
+00:08:33,161 --> 00:08:36,531
+Got requirements for
+JSON and file utilities.
+
+138
+00:08:36,531 --> 00:08:40,701
+I believe the project, I'll use this in
+already have that so it could be removed.
+
+139
+00:08:41,211 --> 00:08:45,501
+It's then got an attribute accessor
+for the underlying mappings.
+
+140
+00:08:46,051 --> 00:08:49,411
+how about we go through it quickly,
+then come back and look in detail.
+
+141
+00:08:49,751 --> 00:08:55,241
+an initializer, which calls a method
+called load or initialize mappings.
+
+142
+00:08:55,571 --> 00:09:00,701
+There's a method for getting anonymous
+name and one for mark for update.
+
+143
+00:09:00,731 --> 00:09:01,691
+That looks good.
+
+144
+00:09:02,201 --> 00:09:06,641
+There's the ability to save
+a mapping and there's the.
+
+145
+00:09:06,691 --> 00:09:09,001
+Ability to generate anonymized names.
+
+146
+00:09:09,151 --> 00:09:11,491
+This is not actually what I wanted to do.
+
+147
+00:09:11,731 --> 00:09:16,681
+I guess I forgot to use the Faker
+gem as part of the requirements.
+
+148
+00:09:16,831 --> 00:09:20,251
+I think we'll end up regenerating
+this, but let's look a bit.
+
+149
+00:09:20,251 --> 00:09:25,066
+Further, and then we've got a
+private method called mkdir_for_file.
+
+150
+00:09:25,256 --> 00:09:30,016
+And what that's doing is taking the file
+name, looking at any path that might
+
+151
+00:09:30,021 --> 00:09:36,466
+be related to it, and then making a
+directory if it does not exist, if we use
+
+152
+00:09:36,466 --> 00:09:38,176
+it here, and this is how we would use it.
+
+153
+00:09:38,566 --> 00:09:42,406
+generator equals anonymous name
+generator with the name of the file.
+
+154
+00:09:42,656 --> 00:09:48,336
+then you can get an anonymous name or
+you can mark it for update as I look
+
+155
+00:09:48,336 --> 00:09:50,346
+through this, a couple of things.
+
+156
+00:09:50,646 --> 00:09:52,246
+stand out this.
+
+157
+00:09:53,296 --> 00:09:54,156
+Should be private.
+
+158
+00:09:54,396 --> 00:09:56,406
+This is not a public method.
+
+159
+00:09:56,466 --> 00:09:58,266
+It's making the directory.
+
+160
+00:09:58,426 --> 00:10:01,726
+returning an empty hash if
+the file does not exist.
+
+161
+00:10:01,726 --> 00:10:07,036
+Otherwise, it's loading it and passing
+it from JSON into a hash, and it's
+
+162
+00:10:07,041 --> 00:10:10,636
+been called in the initializer,
+but really that's a private method.
+
+163
+00:10:10,936 --> 00:10:12,676
+I might tell it to do that.
+
+164
+00:10:12,726 --> 00:10:14,256
+when I look at this section of.
+
+165
+00:10:14,271 --> 00:10:14,871
+Code.
+
+166
+00:10:15,591 --> 00:10:17,721
+I wouldn't necessarily write it this way.
+
+167
+00:10:17,721 --> 00:10:20,691
+We've got this name mapping
+to the original name.
+
+168
+00:10:20,691 --> 00:10:23,481
+So let's say the name is David Cruwys me.
+
+169
+00:10:23,811 --> 00:10:27,051
+It would be at name mapping David Cruwys.
+
+170
+00:10:27,151 --> 00:10:31,321
+that's been called three times
+here and then returned here.
+
+171
+00:10:31,451 --> 00:10:34,151
+maybe a variable might've
+been a better technique.
+
+172
+00:10:34,631 --> 00:10:38,021
+If it does, Find it,
+that's what gets returned.
+
+173
+00:10:38,021 --> 00:10:40,841
+Otherwise, it generates a new one.
+
+174
+00:10:41,041 --> 00:10:47,401
+What we've got here is checking
+for the mark for update is false.
+
+175
+00:10:48,221 --> 00:10:52,956
+if it was true, it would keep moving down
+and get the anonymized name, and then
+
+176
+00:10:52,956 --> 00:10:58,476
+we build up the structure that we want
+to store against the original name, save
+
+177
+00:10:58,476 --> 00:11:01,076
+the mapping, return this anonymized name.
+
+178
+00:11:01,326 --> 00:11:03,246
+I think all this code would work.
+
+179
+00:11:03,906 --> 00:11:07,866
+The only thing I wanna change
+is the name of the class and let
+
+180
+00:11:07,866 --> 00:11:11,146
+it know to use the Faker Gem.
+
+181
+00:11:12,076 --> 00:11:17,146
+I've just created a prompt that I'm
+going to use to generate this class.
+
+182
+00:11:17,146 --> 00:11:22,276
+And one of the things I did was I did
+read through all of this again and
+
+183
+00:11:22,336 --> 00:11:26,746
+picked out a couple of little tweaks
+that I want to do to the instructions.
+
+184
+00:11:27,096 --> 00:11:31,056
+One of them being that I wanted
+to use Mark for update, and what
+
+185
+00:11:31,056 --> 00:11:32,676
+I'll do is we'll paste it in here.
+
+186
+00:11:33,226 --> 00:11:36,616
+because I know some of the
+names can have three words in
+
+187
+00:11:36,616 --> 00:11:38,656
+'them, or two words or one word.
+
+188
+00:11:38,926 --> 00:11:43,186
+I don't really care what the
+source name is, but I do wanna
+
+189
+00:11:43,186 --> 00:11:46,841
+make sure that, the generated name,
+is always the first and a last.
+
+190
+00:11:46,941 --> 00:11:48,051
+I've made that statement.
+
+191
+00:11:49,051 --> 00:11:53,311
+I want to take any Relative
+path, qualified file name.
+
+192
+00:11:53,551 --> 00:11:58,801
+So my belief is that I would use this
+and the JSON file might be in a sub
+
+193
+00:11:58,801 --> 00:12:00,781
+folder from where it's being called.
+
+194
+00:12:01,121 --> 00:12:05,651
+I want to make sure that it can
+handle concepts like config.
+
+195
+00:12:05,801 --> 00:12:07,181
+My names JSON.
+
+196
+00:12:07,656 --> 00:12:14,616
+Or my custom name, JSON, or if nothing
+is provided, and that's important to
+
+197
+00:12:14,616 --> 00:12:20,256
+say, if nothing is provided, so that it
+realizes the Initializer needs an optional
+
+198
+00:12:20,276 --> 00:12:24,196
+parameter and to use name mapping.json.
+
+199
+00:12:24,886 --> 00:12:26,866
+the folder name might not exist.
+
+200
+00:12:26,866 --> 00:12:29,026
+can it pre-create it if it's there?
+
+201
+00:12:29,146 --> 00:12:31,486
+I haven't actually stated
+pre-create the file.
+
+202
+00:12:31,546 --> 00:12:32,596
+I think it's gonna get it.
+
+203
+00:12:33,026 --> 00:12:34,791
+use the mark for update flag.
+
+204
+00:12:35,061 --> 00:12:36,261
+Write this code in Ruby.
+
+205
+00:12:36,561 --> 00:12:40,371
+we'll hit go and we'll see
+what it starts writing for us.
+
+206
+00:12:40,921 --> 00:12:46,351
+Now I've just gone and created a prompt
+just to make a couple minor edits.
+
+207
+00:12:46,591 --> 00:12:52,111
+to be fair, you probably just changed
+this code yourself, but the good thing
+
+208
+00:12:52,111 --> 00:12:58,186
+about ChatGPT is that you can get it
+to do all your work, if you like, and
+
+209
+00:12:58,186 --> 00:13:02,896
+learning the skill is really important
+as we move forward and it gets better
+
+210
+00:13:02,896 --> 00:13:04,966
+and better at doing this sort of stuff.
+
+211
+00:13:05,486 --> 00:13:08,186
+Can you rename the
+class to name anonymize?
+
+212
+00:13:08,186 --> 00:13:09,201
+that's what I liked.
+
+213
+00:13:09,561 --> 00:13:12,561
+Can you make a particular method private?
+
+214
+00:13:12,921 --> 00:13:16,191
+there's these constant lookups
+against the dictionary, which
+
+215
+00:13:16,191 --> 00:13:18,081
+could either be used in a variable.
+
+216
+00:13:18,081 --> 00:13:22,641
+I think it was only in that one method,
+or there could be a Memoized helper.
+
+217
+00:13:22,741 --> 00:13:26,431
+let's just press enter and
+see what it comes up with.
+
+218
+00:13:27,301 --> 00:13:33,281
+The initialized code is not in this
+position anymore, we've got these two.
+
+219
+00:13:33,341 --> 00:13:40,911
+Public methods and then the load is now
+private and we've got a memoised helper.
+
+220
+00:13:41,011 --> 00:13:46,211
+and it's given us a description that it's
+reducing repetitive dictionary lookups.
+
+221
+00:13:46,211 --> 00:13:47,891
+So I'm pretty happy with that.
+
+222
+00:13:47,891 --> 00:13:51,071
+Let's see how that got used up here.
+
+223
+00:13:51,571 --> 00:13:53,101
+here's where it gets called.
+
+224
+00:13:53,296 --> 00:13:58,786
+It's say, mapping entry based off the
+original name, putting it into an entry
+
+225
+00:13:58,786 --> 00:14:03,526
+variable, and then it just works with
+that entry variable wherever it needs to,
+
+226
+00:14:03,826 --> 00:14:06,376
+except when it's creating the new one.
+
+227
+00:14:06,976 --> 00:14:12,546
+I just had a look at this method and
+This is not a memoized pattern, where
+
+228
+00:14:12,966 --> 00:14:18,596
+you go off and do a long-winded process,
+and then you store it in a variable,
+
+229
+00:14:18,716 --> 00:14:22,346
+and then the next time you go to get
+it, you just use that variable again.
+
+230
+00:14:22,486 --> 00:14:27,636
+Here it's just doing the process every
+time, so it didn't really understand that.
+
+231
+00:14:27,916 --> 00:14:31,276
+I'm not even going to
+try again with ChatGPT.
+
+232
+00:14:31,276 --> 00:14:33,016
+I'll just write the code myself.
+
+233
+00:14:33,346 --> 00:14:37,866
+these are the little things that
+you do need to watch out for, it
+
+234
+00:14:37,866 --> 00:14:39,276
+probably doesn't matter at all.
+
+235
+00:14:39,276 --> 00:14:41,886
+This is just a dictionary
+look up on a small file.
+
+236
+00:14:41,886 --> 00:14:46,446
+So performance never is going to be
+a big concern with this particular
+
+237
+00:14:46,446 --> 00:14:50,526
+class, if you have the opportunity
+to do it right the first time, you
+
+238
+00:14:50,526 --> 00:14:51,671
+can do it right the first time.
+
+239
+00:14:52,671 --> 00:14:56,931
+what we can do is go through this
+code, make a couple of tweaks if
+
+240
+00:14:56,931 --> 00:14:58,941
+needed, and we'll test it out.
+
+241
+00:14:59,281 --> 00:15:04,691
+the first thing I'll look at is this
+generate anonymized names, and what I can
+
+242
+00:15:04,696 --> 00:15:07,751
+do is just take this code and replace it.
+
+243
+00:15:08,141 --> 00:15:12,821
+Basically with the Faker gem, I'm
+going to get rid of all the comments.
+
+244
+00:15:12,821 --> 00:15:16,121
+I don't really need comments
+for things that are obvious.
+
+245
+00:15:16,121 --> 00:15:19,871
+I like to use single responsibility
+methods and the method names
+
+246
+00:15:19,871 --> 00:15:21,551
+really match the intent.
+
+247
+00:15:22,131 --> 00:15:27,261
+As I said, this is not a memoed helper,
+but one thing I did notice when I looked
+
+248
+00:15:27,261 --> 00:15:31,421
+back over the code I'll show you that this
+is probably still the right way to go.
+
+249
+00:15:31,536 --> 00:15:37,176
+what I noticed is that the calling
+through to this method both here and
+
+250
+00:15:37,181 --> 00:15:41,716
+where's the other one there, is just
+being stored into a variable anyway.
+
+251
+00:15:41,926 --> 00:15:42,496
+Now, if I.
+
+252
+00:15:42,556 --> 00:15:47,666
+I'd done it the way I'd I
+was suggesting to ChatGPT.
+
+253
+00:15:47,686 --> 00:15:52,216
+Then I would've had to call this method
+with the original name over and over
+
+254
+00:15:52,216 --> 00:15:54,906
+again in this position, and this position.
+
+255
+00:15:55,096 --> 00:15:58,881
+this is still a better technique
+I'll hit save on this file.
+
+256
+00:15:58,881 --> 00:16:04,236
+I'll get a copy of the class name and
+head over to a unit test harness it
+
+257
+00:16:04,236 --> 00:16:09,576
+would be useful if we bring up a terminal
+with unit test runner already to go,
+
+258
+00:16:10,036 --> 00:16:14,416
+basically I've just using it more as an
+integration test to call this method.
+
+259
+00:16:14,416 --> 00:16:18,146
+The method is here and I've set
+up a couple of names the goal will
+
+260
+00:16:18,151 --> 00:16:20,786
+be that this file will update.
+
+261
+00:16:21,026 --> 00:16:25,306
+the first thing we look at is that we
+have an anonymizer we will loop through
+
+262
+00:16:25,306 --> 00:16:30,776
+all the names, which are here, call
+the anonymizer.anonymized_name with
+
+263
+00:16:30,781 --> 00:16:33,236
+that name and get a new value back.
+
+264
+00:16:33,806 --> 00:16:39,176
+While I'm not using this as an actual
+unit test, there is an expectation that
+
+265
+00:16:39,176 --> 00:16:43,916
+the anonymized name will not be the same
+as the regular name, so that should work,
+
+266
+00:16:44,336 --> 00:16:49,586
+and that it matches the concept of having
+two words with capital and lower letter.
+
+267
+00:16:49,586 --> 00:16:50,126
+Does in it.
+
+268
+00:16:50,996 --> 00:16:55,076
+And lastly, I just wanna print out
+a key value pair to the console.
+
+269
+00:16:55,076 --> 00:16:58,886
+I wanna take the original
+name and the anonymous name.
+
+270
+00:16:59,046 --> 00:17:07,426
+if I hit save, we get David Cruwys
+being mapped to Nina and App
+
+271
+00:17:07,426 --> 00:17:09,756
+Dave being mapped to Chet Flatly.
+
+272
+00:17:09,886 --> 00:17:10,666
+that looks good.
+
+273
+00:17:10,666 --> 00:17:13,066
+And we've also got our values here.
+
+274
+00:17:13,066 --> 00:17:17,546
+Here in the Matt file, and
+they're not marked for updates.
+
+275
+00:17:17,546 --> 00:17:21,536
+if I call it again, and the best way
+to do that right here is just hit save.
+
+276
+00:17:21,566 --> 00:17:22,826
+It'll run it again.
+
+277
+00:17:23,156 --> 00:17:29,156
+And we get the same values as before
+for both David Cruwys and API Dave.
+
+278
+00:17:30,036 --> 00:17:36,456
+what I'd like to do is test this, update
+who, and we'll work with David Cruwys.
+
+279
+00:17:36,486 --> 00:17:36,756
+what we.
+
+280
+00:17:36,831 --> 00:17:41,321
+Can do is put my name into
+this particular parameter.
+
+281
+00:17:42,131 --> 00:17:47,141
+If the parameter exists, then call Mark
+for update with that particular value.
+
+282
+00:17:47,631 --> 00:17:52,151
+what should happen is that value
+would become true when this is
+
+283
+00:17:52,151 --> 00:17:56,321
+called, and then when it goes and
+loops through all the people here.
+
+284
+00:17:56,576 --> 00:18:01,526
+when it gets this anonymous name,
+it would update this value and then
+
+285
+00:18:01,526 --> 00:18:03,866
+set this from true back to false.
+
+286
+00:18:04,256 --> 00:18:10,046
+I think it might be useful if we see that
+timing delay so directly after I set that
+
+287
+00:18:10,106 --> 00:18:15,776
+true, we'll put in a one second pause
+before calling the new anonymous name.
+
+288
+00:18:16,446 --> 00:18:20,166
+there it is there, and I'll just hit save.
+
+289
+00:18:20,196 --> 00:18:23,856
+If we've got our terminal running,
+it should just work correctly.
+
+290
+00:18:23,906 --> 00:18:24,836
+This is true.
+
+291
+00:18:25,496 --> 00:18:27,956
+The name changed it's back to false.
+
+292
+00:18:28,076 --> 00:18:31,826
+If we keep doing that, it
+becomes true for a little while.
+
+293
+00:18:31,886 --> 00:18:34,556
+The name will change
+and then back to false.
+
+294
+00:18:34,956 --> 00:18:40,296
+if I wanna do it for API, Dave, I can just
+go and select that value and now it'll be
+
+295
+00:18:40,296 --> 00:18:43,446
+the second one is going to change here.
+
+296
+00:18:43,826 --> 00:18:46,736
+Chet Flatly becomes Jonathan.
+
+297
+00:18:46,976 --> 00:18:47,686
+Schoen.
+
+298
+00:18:48,186 --> 00:18:52,926
+I think one last thing to test is that if
+you wanted other names in there, I might
+
+299
+00:18:52,926 --> 00:18:58,746
+just put in @flivideo, @winningprompts,
+@appycast and @carnivore 90.
+
+300
+00:18:59,036 --> 00:19:04,116
+Now, this code I'm going to be using
+for presentation capabilities within
+
+301
+00:19:04,116 --> 00:19:08,851
+this YouTube channel, but these are
+various YouTube channels that I use.
+
+302
+00:19:08,856 --> 00:19:14,341
+But here I'm just going to use the
+values to change 'em to people's names.
+
+303
+00:19:14,641 --> 00:19:16,771
+I'll hit save and hopefully we.
+
+304
+00:19:16,781 --> 00:19:20,231
+End up with four new
+entries in the system.
+
+305
+00:19:20,471 --> 00:19:27,861
+Now, every time I refer to fly video,
+for instance, I will always get mosh mhy.
+
+306
+00:19:28,141 --> 00:19:31,406
+if I hit save, that value does not change.
+
+307
+00:19:31,406 --> 00:19:37,621
+But if I want fly video to change in
+this case, we'll just say @flivideo,
+
+308
+00:19:37,741 --> 00:19:41,521
+hit save, and now it's been updated.
+
+309
+00:19:41,871 --> 00:19:47,061
+To Didre now, that's an example
+of how you can create a class
+
+310
+00:19:47,061 --> 00:19:49,691
+from scratch using just ChatGPT
+
+311
+00:19:50,181 --> 00:19:55,221
+and if you're interested in various
+automations that I create using prompt
+
+312
+00:19:55,226 --> 00:20:00,171
+engineering and the GPT APIs, then maybe
+click one of the links in the description.
+

@@ -1,0 +1,667 @@
+1
+00:00:00,00 --> 00:00:06,250
+This is the fifth video on using Aider I a pair programmer for programmers. And what 
+
+2
+00:00:06,250 --> 00:00:10,930
+we're going to do in this video is host it within a web server so that we can call 
+
+3
+00:00:10,930 --> 00:00:15,400
+it from other tools. So please like and subscribe if you want to see other videos 
+
+4
+00:00:15,400 --> 00:00:17,980
+in the series. I'm AppyDave. Let's get into it.
+
+5
+00:00:18,00 --> 00:00:23,960
+Now I'm just over at the AppyDave repo, and earlier in this series we built the presentation 
+
+6
+00:00:23,960 --> 00:00:31,190
+tool using Aider. We've also gone and documented the game doom by id software using 
+
+7
+00:00:31,190 --> 00:00:36,710
+a bulk file system and Aider. What we're going to do today is look at the Aider web 
+
+8
+00:00:36,710 --> 00:00:41,730
+server, and I haven't done anything right now, so we're just going to grab this, 
+
+9
+00:00:41,900 --> 00:00:47,540
+come down to a terminal and just start off with a clean repository from which to 
+
+10
+00:00:47,570 --> 00:00:48,920
+build this application.
+
+11
+00:00:48,930 --> 00:00:54,290
+lastly, we'll just type in Aider and get it up and running ready to go. It's looking 
+
+12
+00:00:54,320 --> 00:01:00,410
+to add some environment setup and the chat conversation history. And so now what 
+
+13
+00:01:00,410 --> 00:01:04,430
+I want to do is just put together a prompt that might help us build this particular 
+
+14
+00:01:04,430 --> 00:01:05,180
+application.
+
+15
+00:01:05,200 --> 00:01:09,940
+So whenever I'm building an application from scratch, I like to build a relatively 
+
+16
+00:01:09,940 --> 00:01:14,530
+detailed requirements document. And the way I would do that here is I'd come down 
+
+17
+00:01:14,530 --> 00:01:19,150
+and select canvas mode, which we've seen here, and I'll paste in information and 
+
+18
+00:01:19,150 --> 00:01:23,530
+have a conversation. And by the end of this conversation we end up with this requirements 
+
+19
+00:01:23,530 --> 00:01:24,100
+document. 
+
+20
+00:01:23,890 --> 00:01:29,250
+Now the requirements document for the Aider web API is that it should interact with 
+
+21
+00:01:29,250 --> 00:01:31,920
+the Aider scripting tool using Python. 
+
+22
+00:01:31,660 --> 00:01:36,280
+we wanna run it as a local web server. I do wanna run it from more than one directory 
+
+23
+00:01:36,280 --> 00:01:39,850
+at the same time. 'cause theoretically I should be able to 
+
+24
+00:01:39,690 --> 00:01:43,920
+write code against two different projects if I like from an external tool. 
+
+25
+00:01:43,930 --> 00:01:48,20
+Now I've designed a little bit of flexibility into the requirements document on how 
+
+26
+00:01:48,20 --> 00:01:53,270
+that should happen. So would we run the application from two different repos, just 
+
+27
+00:01:53,270 --> 00:01:58,100
+with different port numbers? That's one option. The other option is can we change 
+
+28
+00:01:58,310 --> 00:02:02,480
+the directory inside of the application? Now, I'm not sure how effective that'll 
+
+29
+00:02:02,480 --> 00:02:07,460
+be with environments and stuff like that, so I've given myself leeway to go in either 
+
+30
+00:02:07,460 --> 00:02:12,440
+direction. But the primary idea is that we have a code assistant endpoint and it 
+
+31
+00:02:12,440 --> 00:02:17,90
+takes an instruction. Now, if we go and look at the documentation from ada, you can 
+
+32
+00:02:17,90 --> 00:02:22,400
+see that that's generally how this works. You give it a message and you can optionally 
+
+33
+00:02:22,430 --> 00:02:27,830
+give it some file names. So what I've also said is that files are available, and 
+
+34
+00:02:27,830 --> 00:02:32,60
+after that we've got the directory, which will test whether this is going to work 
+
+35
+00:02:32,60 --> 00:02:36,410
+or whether we should be running multiple web servers. And then there's options. Now, 
+
+36
+00:02:36,410 --> 00:02:41,840
+I grabbed the options out of this document and I've just pasted it in. Now they also 
+
+37
+00:02:41,840 --> 00:02:46,820
+give an example of how to use it in Python, but they've been clear to say that it's 
+
+38
+00:02:46,820 --> 00:02:47,660
+not officially supported 
+
+39
+00:02:47,660 --> 00:02:53,320
+Now I've mentioned that we're using flask to build the web server and it's given 
+
+40
+00:02:53,320 --> 00:02:56,20
+a little bit of information around how to deal with the, 
+
+41
+00:02:56,30 --> 00:03:01,380
+directory changing. At the bottom we've got some use cases and it's talking about 
+
+42
+00:03:01,380 --> 00:03:06,780
+a couple of trade offs about whether one or multiple web services is the way to go. 
+
+43
+00:03:06,870 --> 00:03:11,700
+And I've given it a really simple testing plan. So what I think we can do now is 
+
+44
+00:03:11,700 --> 00:03:16,560
+just go and copy this document and we'll put it in data and see what it generates.
+
+45
+00:03:16,560 --> 00:03:20,730
+So I've come down to the terminal and what I'll do is just paste in all the information. 
+
+46
+00:03:20,730 --> 00:03:25,440
+Now, I haven't pressed enter just yet because what I think we should do is just pop 
+
+47
+00:03:25,440 --> 00:03:30,390
+on over to Visual Studio on this directory and just have a look at what we get to 
+
+48
+00:03:30,390 --> 00:03:34,860
+start off with. So the first thing we've got is just an input history. We've got 
+
+49
+00:03:34,860 --> 00:03:40,170
+the chat history that we've started and that's before I've pressed enter. So this 
+
+50
+00:03:40,410 --> 00:03:44,760
+ability to press enter and see this come through, should come into this area. The 
+
+51
+00:03:44,760 --> 00:03:48,990
+chat history, which is everything going on, should also happen. There's also this 
+
+52
+00:03:48,990 --> 00:03:50,850
+cased database going on. 
+
+53
+00:03:50,730 --> 00:03:55,790
+I think we should just press enter and see what starts to happen. Well, we've just 
+
+54
+00:03:55,790 --> 00:04:01,130
+seen firstly that the Aider chat history has been updated. If we look at the input 
+
+55
+00:04:01,130 --> 00:04:02,720
+history, we see that going 
+
+56
+00:04:02,790 --> 00:04:08,270
+So I accidentally said yes to reading this URL, which is for an application that 
+
+57
+00:04:08,270 --> 00:04:12,110
+hasn't been built yet, so it doesn't make any sense. But then what it's done is come 
+
+58
+00:04:12,110 --> 00:04:16,730
+up with a plan of action for from the requirements document. So it feels like it 
+
+59
+00:04:16,730 --> 00:04:22,580
+needs a web server. It needs an endpoint for the code assistant. We've got the requirements 
+
+60
+00:04:22,430 --> 00:04:26,740
+asking would I like to proceed. So I've just said can you create it.
+
+61
+00:04:26,760 --> 00:04:31,490
+So we've got the code being created as per the instructions. So we've got the web 
+
+62
+00:04:31,490 --> 00:04:37,100
+server coming in. We've got the endpoint. It'll be code Assistant. After that we've 
+
+63
+00:04:37,100 --> 00:04:42,50
+got an init. We've just comment for now. Then we've got the code assistant under 
+
+64
+00:04:42,50 --> 00:04:47,330
+the API directory. And we've got some instructions. It's changing directories if 
+
+65
+00:04:47,330 --> 00:04:53,180
+that's provided. And then it looks like the code that we used or found in the documentation 
+
+66
+00:04:53,180 --> 00:04:58,100
+online. We might need to confirm that we've got some information here about options. 
+
+67
+00:04:58,100 --> 00:05:03,290
+After that we've got the requirements document for Python installation. So it's looking 
+
+68
+00:05:03,290 --> 00:05:08,450
+at installing it and getting it running on a particular port. And at the end we've 
+
+69
+00:05:08,450 --> 00:05:13,460
+got a list of everything that it's implemented. So this is great. And we've got the 
+
+70
+00:05:13,460 --> 00:05:18,530
+curl requests that we can test it with. So where are we at now. It looks like we 
+
+71
+00:05:18,530 --> 00:05:22,520
+can now try to start creating these files because they haven't been created just 
+
+72
+00:05:22,520 --> 00:05:22,760
+yet.
+
+73
+00:05:22,790 --> 00:05:26,910
+Now it's got this question. Would you like me to proceed with creating the files? 
+
+74
+00:05:26,910 --> 00:05:31,500
+So I think we'll bring up Visual Studio so we can see this and we'll press. Yes. 
+
+75
+00:05:31,500 --> 00:05:39,510
+And I've done something wrong there. We'll press yes again and yes, yes, yes. So 
+
+76
+00:05:39,510 --> 00:05:46,380
+we've got four files that have been created. We'll execute on this Python install.
+
+77
+00:05:46,390 --> 00:05:50,540
+And it says it's running now it's running within the Aider environment. We might 
+
+78
+00:05:50,540 --> 00:05:52,940
+want to start this in a separate process. 
+
+79
+00:05:52,730 --> 00:05:56,360
+Now before we start the web server, let's have a look at what we've got here. So 
+
+80
+00:05:56,360 --> 00:06:01,670
+we've got the code, assistant endpoint, it's marshaling any incoming parameters and 
+
+81
+00:06:01,670 --> 00:06:06,680
+delegating responsibility to the code assistant. Now we can see the code assistant 
+
+82
+00:06:06,770 --> 00:06:12,650
+over here. We've got some comments. We've got a directory that we can change to. 
+
+83
+00:06:12,650 --> 00:06:14,30
+We're using the model 
+
+84
+00:06:14,60 --> 00:06:16,250
+probably don't want to say GPT four 
+
+85
+00:06:16,260 --> 00:06:19,150
+turbo by default. So we will check on that. 
+
+86
+00:06:19,160 --> 00:06:22,680
+It's got a list of file names. Now, when I was looking through the documentation, 
+
+87
+00:06:22,680 --> 00:06:27,720
+I noticed that there was both the file names that could be changed and also the file 
+
+88
+00:06:27,720 --> 00:06:31,740
+names that could be marked as read only. So it might be useful to have parameters 
+
+89
+00:06:32,10 --> 00:06:36,930
+for that in the future. But let's head over to the terminal and we'll just kick off 
+
+90
+00:06:36,930 --> 00:06:43,800
+the server for now. And so we've got a server running and if we create another terminal, 
+
+91
+00:06:43,800 --> 00:06:48,720
+we should be able to do a curl request and we'll try the one that just says create 
+
+92
+00:06:48,720 --> 00:06:51,750
+a script and see what comes through on this. 
+
+93
+00:06:51,760 --> 00:06:54,700
+And this is looking good. It's hit the server. 
+
+94
+00:06:54,730 --> 00:06:58,370
+It's not doing anything. So let's say create a script called 
+
+95
+00:06:58,390 --> 00:06:59,570
+Hello World, 
+
+96
+00:06:59,590 --> 00:07:00,430
+say 
+
+97
+00:07:00,460 --> 00:07:05,390
+Hi from AppyDave and we'll press enter on that. 
+
+98
+00:07:05,390 --> 00:07:10,150
+Now this is where we'll probably find some challenges using this particular technique 
+
+99
+00:07:10,150 --> 00:07:14,830
+and it might be the reason why they haven't exposed it this way. So in a previous 
+
+100
+00:07:14,830 --> 00:07:19,480
+test, it asks the question in the server, which meant you had to go from the terminal, 
+
+101
+00:07:19,480 --> 00:07:24,640
+you would do in the curl request, sign over to the terminal and press yes. Now it's 
+
+102
+00:07:24,640 --> 00:07:30,220
+not actually doing it at all. So what I'm going to do is try and get it to do it 
+
+103
+00:07:30,220 --> 00:07:36,10
+through a prompt. So we'll say please add Hello world, do PI or press yes and we've 
+
+104
+00:07:36,10 --> 00:07:37,510
+got something going on here 
+
+105
+00:07:37,530 --> 00:07:41,950
+and that didn't do anything. So we'll try another one and we'll be quite explicit 
+
+106
+00:07:42,70 --> 00:07:46,960
+and we'll go back to the previous instruction that says, create a script called hello_world.py 
+
+107
+00:07:48,130 --> 00:07:53,50
+Say Hi from a Dave and let's see what happens in that particular case. Now it's writing 
+
+108
+00:07:53,50 --> 00:07:55,750
+it and this is where you can see that it's actually 
+
+109
+00:07:55,760 --> 00:08:01,220
+giving the question in the terminal. Now these ability to say yes to files is apparently 
+
+110
+00:08:01,220 --> 00:08:04,430
+a parameter you can use from the Bash command line. 
+
+111
+00:08:04,460 --> 00:08:08,660
+haven't tried it in the library, but we'll see what we can do with that later on. 
+
+112
+00:08:08,900 --> 00:08:11,30
+But let's see if we get something created 
+
+113
+00:08:11,30 --> 00:08:16,460
+and it looks like it's created something. Let's head over to VS. Code and we've got 
+
+114
+00:08:16,460 --> 00:08:21,170
+our script hi from AppyDave. So I had to be quite explicit to get this to work. So 
+
+115
+00:08:21,170 --> 00:08:26,750
+the interactivity that we get from the terminal is not currently available in the 
+
+116
+00:08:26,750 --> 00:08:32,180
+version that we've done using web services, but we are onto a good start. We'll see 
+
+117
+00:08:32,180 --> 00:08:34,880
+what we can do with this over a few more iterations.
+
+118
+00:08:34,890 --> 00:08:39,680
+So what I'd like to do now is test it against a different repo. So we'll just start 
+
+119
+00:08:39,680 --> 00:08:45,680
+a new terminal and we'll go down to the dev directory and we'll go into the doom 
+
+120
+00:08:45,680 --> 00:08:51,500
+with docs. Now doom with docs is from the previous video where I documented the game 
+
+121
+00:08:51,500 --> 00:08:57,590
+by id software using Aider. Now we'll just have a let's see what's in there and maybe 
+
+122
+00:08:57,590 --> 00:09:04,370
+just open it up in VS code. So you can see all this documentation that was built 
+
+123
+00:09:04,370 --> 00:09:09,500
+against all the C files. They're all listed here. And this was done in a batch operation. 
+
+124
+00:09:09,500 --> 00:09:12,200
+But it might be useful to figure out what 
+
+125
+00:09:12,230 --> 00:09:15,860
+and make it a parameter in our curl request and see if it works here.
+
+126
+00:09:15,860 --> 00:09:21,530
+Now. I haven't started from a new clean repo. I've used the one on my computer, which 
+
+127
+00:09:21,530 --> 00:09:27,950
+already has chat history, which we can see here and here around what I last did with 
+
+128
+00:09:27,950 --> 00:09:32,810
+Aider. So what we might do is go down to the bottom of each of the files and just 
+
+129
+00:09:32,810 --> 00:09:37,340
+see whether the changes we make will happen here. Now, the other thing I've done 
+
+130
+00:09:37,340 --> 00:09:42,320
+is just modified that prompt that we were looking at, create a script called hello_world.py, 
+
+131
+00:09:42,330 --> 00:09:48,740
+let's say doom from AppyDave. And I've just put in the directory and we've got it 
+
+132
+00:09:48,740 --> 00:09:50,870
+running here. Let's test it out in the terminal.
+
+133
+00:09:50,890 --> 00:09:55,740
+Now we're ready to go. We've got Aider web server running in the folder where it 
+
+134
+00:09:55,770 --> 00:10:00,210
+actually is, and that would be where it would normally send requests to. But we're 
+
+135
+00:10:00,210 --> 00:10:04,830
+going to give the directory option, so we'll paste it in. We've got the same question 
+
+136
+00:10:04,830 --> 00:10:10,830
+as before. Create a file called Hello world.py. But say doom from AppyDave. And the 
+
+137
+00:10:10,830 --> 00:10:15,240
+only other thing we've done is change the directory. So now it's hitting the web 
+
+138
+00:10:15,240 --> 00:10:22,140
+server and something is happening. It's saying yes or no. We'll say yes. With that 
+
+139
+00:10:22,260 --> 00:10:28,890
+it's applied a file and look at that. It's actually done it in our new system doom 
+
+140
+00:10:28,890 --> 00:10:34,320
+from AppyDave. So this is a second repo that we've communicated from using the same 
+
+141
+00:10:34,320 --> 00:10:35,130
+web server.
+
+142
+00:10:35,160 --> 00:10:39,780
+So let's go over where we're at and what could be done next. So we've got the Aider 
+
+143
+00:10:39,900 --> 00:10:44,160
+web server up here. We've got the description, and I've just added in the actual 
+
+144
+00:10:44,160 --> 00:10:49,260
+requirements that I used to build this application. Now, luckily for us, this was 
+
+145
+00:10:49,260 --> 00:10:53,940
+pretty much a one shot prompt. I didn't really need to change anything to make it 
+
+146
+00:10:53,940 --> 00:10:59,610
+work the way we've seen it so far. So why don't we just go into a web view of this 
+
+147
+00:10:59,730 --> 00:11:02,190
+and see the code as it currently 
+
+148
+00:11:02,460 --> 00:11:06,170
+So we've got the hello world that we did against the Aider web server. We've got 
+
+149
+00:11:06,170 --> 00:11:11,330
+the actual web server going on here. We've tested it with an instruction. We've also 
+
+150
+00:11:11,330 --> 00:11:15,890
+tested it with a directory. So if we go and have a look at how that code was actually 
+
+151
+00:11:15,890 --> 00:11:21,290
+implemented, we can see that all it's really doing is changing to the directory to 
+
+152
+00:11:21,290 --> 00:11:26,240
+execute the Aider scripts. From that point of view, we have not tested file names 
+
+153
+00:11:26,240 --> 00:11:30,470
+coming in, and we actually haven't tested any of these options. The other thing we 
+
+154
+00:11:30,470 --> 00:11:35,300
+haven't tested as yet is whether it can be run as two separate web servers. Now It 
+
+155
+00:11:35,300 --> 00:11:40,970
+should work okay, but at least one of the use cases of just changing to a different 
+
+156
+00:11:40,970 --> 00:11:43,550
+folder and targeting that is working.
+
+157
+00:11:43,560 --> 00:11:48,460
+Now, if you want the code, you can obviously go and download the repo here. If, on 
+
+158
+00:11:48,460 --> 00:11:51,910
+the other hand, you want to recreate it from scratch, it's pretty simple because 
+
+159
+00:11:51,910 --> 00:11:55,930
+we did it all as a one shot prompt, and I've given you all the information here. 
+
+160
+00:11:56,200 --> 00:11:59,650
+Something that you might want to change is you might not want to use flask as the 
+
+161
+00:11:59,650 --> 00:12:03,760
+framework, or there might be other options that you want to add into this system 
+
+162
+00:12:03,760 --> 00:12:06,370
+and build it all yourself from scratch.
+
+163
+00:12:06,390 --> 00:12:11,630
+So that's the fifth video in our Aider series, and there is a link to the playlist 
+
+164
+00:12:11,630 --> 00:12:16,520
+in the description. But in the next video, what I thought I'd do is create a domain 
+
+165
+00:12:16,520 --> 00:12:21,980
+specific language to make it really easy to call this tool just from little text 
+
+166
+00:12:21,980 --> 00:12:26,840
+files in my IDE. I'm AppyDave. Please like and subscribe and I'll see you in the 
+
+167
+00:12:26,840 --> 00:12:27,740
+next video.

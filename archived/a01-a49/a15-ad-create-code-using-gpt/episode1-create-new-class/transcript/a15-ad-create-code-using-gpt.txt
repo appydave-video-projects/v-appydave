@@ -1,0 +1,328 @@
+In this video, I'm going to use ChatGPT to create a class to anonymize people's names.
+It's a scenario, you have content that you're trying to create and you're using real names
+and questions from the internet.
+And what you want to do is take the names like DotStreet, Andy and Crystal and change
+them to another name that's still realistic but doesn't identify the original person.
+I'm just going to take you over to a visual studio and you'll see that I have a data
+file here with people's names and we've got Michael, Dot and Andy and from them there
+are also more detailed data files with other people's names and these are people's names
+that would have replied to a question.
+What I want to do is take every name and run it through an anonymization routine but the
+names that are coming out of it and if there's a name that I don't like I want to be able
+to refresh it on a regular basis.
+The way I want to go about that today is to just use ChatGPT to create this class for
+me.
+Head over to ChatGPT and look at a prompt that I've written and it starts off with I need
+a class, I need you to anonymize people's names.
+The way I want to use it is that there will be a dictionary of some sort with the original
+name followed by the anonymized name and one of the things is a flag called refresh and
+the idea of the refresh flag is that if I set it to true I should be able to get a new
+name generated.
+If it gets set to false it'll stay fixed.
+If the refresh flag is true it means that I'm not happy with the new name and it can
+be recreated.
+If you receive an original name so this is a name that you've already seen before you
+will add it to the dictionary and set the refresh flag to true.
+You only add names that you have not seen before.
+I will need some sort of lookup function on the original name so that I can get the anonymized
+name and I want the information stored in a JSON document.
+I don't really care how it names it.
+One of the reasons I do that is because I find it's pretty good at coming up with the
+right names and since naming is an incredibly important aspect of programming let's take
+it out of our hands and let the computer do it for us.
+Before you write code I would like you to describe the structure of the class meaning
+what methods and properties.
+The reason that's important to me is that I don't necessarily like every bit of code
+that GPT writes so I want to have a look at what it thinks is a good way of going about
+it and then I might tweak that a little bit before I get it to generate code.
+I want this in Ruby.
+That's programming language I'm using for this particular problem.
+ChatGPT has come up with this idea of a class called name anonymizer and I'm pretty happy
+with that as the name and it believes it will need a dictionary to store the information.
+I guess the person's original name will go into this location and the mapped name or
+the anonymized name will go into this location.
+I assume it's going to work on the idea that if refresh is true it would regenerate the
+name before persisting it back into the JSON document.
+It has a concept of a file name and it defaults to name mapping.json.
+I'll be happy with that.
+It has a constructor and initializer.
+There's nothing mentioned here about it taking the file name as a parameter
+so maybe you have to instantiate it then set the file name if you want a custom one
+and then work with the functions but we'll see what it actually generates.
+It has the concept of anonymizing a name.
+Let's say we give my name David Kruis and it comes back with Bob Smith.
+The thing is that it will check for my name in the dictionary.
+If present, yes it does then set the refresh flag to false.
+It returns the anonymized name.
+That might be the right flow.
+If not present or if the refresh flag is true it generates a new anonymized name.
+If it comes back with Bob Smith and I don't like that then I can set the flag to true
+and just call my name again to get a different name back.
+Now then there's a method here called refresh anonymized name.
+I guess this is the method that's going to do the work was to say.
+Set the refresh flag to true for a given name so that a new anonymized name can be generated
+next time.
+It's really just setting the flag in this case.
+I think this name is not necessarily the best name because I got the impression it was going
+to do an action but it's actually only going to change a state.
+But if I wanted to give a bit extra instruction to JCPT that might be the area that I
+do it but quite frankly it's probably going to be easier just to change it in code after
+the fact but we'll just see what else it's got here.
+The next one is look up with an original name.
+This is the main method that would get called each time.
+Returns an anonymous name based on an original name.
+Then there's a save to file and a load from file.
+Additional considerations.
+The anonymized name generation process.
+You could use simple naming patterns or integrate a more sophisticated name generator.
+What I think I'm going to do is suggest to it that it uses a Ruby gem called Faker.
+Instadiate the class which loads the existing directory or creates a new one.
+Not necessarily what I want to do.
+I probably want to have a little bit of control there but we'll see.
+Call look up to get the anonymized name for an original name.
+And optionally call refresh anonymized name if you want to refresh flag for the name.
+Maybe this status name is okay.
+We'll see once this generates.
+Does this structure align with your requirements?
+Is close enough?
+I've decided to do a couple of customizations.
+The first one is if I look at the refresh anonymized name.
+It's actually a pretty good calling technique to work this way.
+But it wasn't the way I was planning to use it.
+My plan was that if the JSON document on the server changed.
+Then the next time that this method is called the getting of a new anonymous name.
+It would just go and refresh at the time.
+What I'm going to do is rather than even coming up for a name for this method.
+It's really interesting when you struggle to find the right name.
+That chat GP team may actually be able to solve this problem.
+So we'll just write this little prompt and I've already pre-written it.
+I think the name refresh anonymized name does not match the intent.
+This name suggests that the anonymous name will be refreshed.
+But really it's just setting a state flag.
+Which will only ever need to be processed the next time the name is requested.
+Give me five names that might be better.
+Let's see what it does.
+It's come up with five different names.
+They're all pretty good.
+Mark for update, set refresh flag and schedule name refresh.
+This is probably the most obvious one.
+I know it does not conform to Rubikop.
+Which is a linter in the Ruby language.
+They do not like using setters and getters like that.
+And that gets me thinking that I might just get it to go with mark for update.
+It's the class that it's generated.
+It's called an anonymous name generator.
+I don't believe that's what it came up with before.
+It said name anonymize.
+I'm going to copy that because I prefer this name for what it's wants.
+It's got requirements for JSON and file utilities.
+I believe the project I'll use this in already have that.
+So it could be removed.
+It's seen got an attribute accessor for the underlying mappings.
+How about we go through it quickly then come back and look in detail.
+An initializer which calls a method called load or initialize mappings.
+There's a method for getting anonymous name and one for mark for update.
+That looks good.
+There's the ability to save a mapping.
+And there's the ability to generate anonymized names.
+This is not actually what I wanted to do.
+I guess I forgot to use the Faker gem as part of the requirements.
+I think we'll end up regenerating this but let's look a bit further.
+And then we've got a private method called makedir for file.
+What that's doing is taking the file name looking at any path that might be related to it.
+And then making a directory if it does not exist.
+If we use it here and this is how we would use it.
+Generator equals anonymous name generator with the name of the file.
+Then you can get an anonymous name or you can mark it for update.
+As I look through this a couple of things stand out.
+This should be private.
+This is not a public method.
+It's making the directory returning an empty hash if the file does not exist.
+Otherwise it's loading it and passing it from JSON into a hash.
+And it's been called in the initializer but really that's a private method.
+I might tell it to do that.
+When I look at this section of code.
+I wouldn't necessarily write it this way.
+We've got this name mapping to the original name.
+So let's say the name is David Kruis for me.
+It would be at name mapping David Kruis.
+That's been called three times here and then returned here.
+Maybe a variable might have been a better technique.
+If it does find it that's what gets returned.
+Otherwise it generates a new one.
+What we've got here is checking for the mark for update is false.
+If it was true and keep moving down and get the anonymized name.
+And then we build up the structure that we want to store against the original name.
+Save the mapping return this anonymized name.
+I think all this code would work.
+The only thing I want to change is the name of the class
+and let it know to use the Faker gem.
+I've just created a prompt that I'm going to use to generate this class.
+And one of the things I did was I did read through all of this again
+and picked out a couple of little tweaks that I want to do to the instructions.
+One of them being that I want it to use mark for update.
+And what I'll do is we'll paste it in here.
+Because I know some of the names can have three words in them
+or two words or one word.
+I don't really care what the source name is.
+But I do want to make sure that the generated name is always the first and the last.
+I've made that statement.
+I want to take any relative path qualified file name.
+So my belief is that I would use this.
+And the JSON file might be in a sub folder from where it's being called.
+I want to make sure that it can handle concepts like configure my names.json
+or my custom name.json or if nothing is provided.
+And that's important to say if nothing is provided
+so that it realizes the initializer needs an optional parameter
+and to use name mapping.json.
+The folder name might not exist.
+Can it pre-create it if it's there?
+I haven't actually stated pre-create the file.
+I think it's going to get it.
+Use the mark for update flag.
+Write this code in Ruby.
+We'll hit go and we'll see what it starts writing for us.
+Now I've just gone and created a prompt just to make a couple of minute edits.
+To be fair, you probably just change its code yourself.
+But the good thing about chat GPT is that you can get it to do all your work if you like.
+And learning the skill is really important as we move forward
+and it gets better and better at doing this sort of stuff.
+Can you rename the class to name anonymize?
+That's what I liked.
+Can you make a particular method private?
+There's these constant lookups against the dictionary
+which could either be used in a variable.
+I think it was only in that one method
+or there could be a memwised helper.
+Let's just press enter and see what it comes up with.
+The initialized code is not in this position anymore.
+We've got these two public methods
+and then the load is now private.
+And we've got a memwised helper
+and it's given us a description that it's reducing repetitive dictionary lookups.
+So I'm pretty happy with that.
+Let's see how that got used up here.
+Here's where it gets called.
+It's say mapping entry based off the original name
+putting it into an entry variable
+and then it just works with that entry variable
+wherever it needs to except when it's creating the new one.
+I just had a look at this method
+and this is not a memwised pattern
+where you go off and do a long-winded process
+and then you store it in a variable
+and then the next time you go to get it
+you just use that variable again.
+Here it's just doing the process every time.
+So it didn't really understand that.
+I'm not even going to try again with chat.jpt
+I'll just write the code myself.
+These are the little things that you do need to watch out for.
+It probably doesn't matter at all.
+This is just a dictionary lookup on a small file.
+So performance never is going to be a big concern
+with this particular class.
+If you have the opportunity to do it right the first time
+you can do it right the first time.
+What we can do is go through this code
+make a couple of tweaks if needed
+and we'll test it out.
+The first thing I'll look at is this
+generate anonymized names
+and what I can do is just take this code
+and replace it basically with the faker gem.
+I'm going to get rid of all the comments.
+I don't really need comments or things that are obvious.
+I'd like to use single responsibility methods
+and the method names really match the intent.
+As I said this is not a memwised helper
+but one thing I did notice when I looked back over the code
+I'll show you that this is probably still the right way to go.
+What I noticed is that the calling through to this method
+both here and where's the other one there
+is just being stored into a variable anyway.
+Now if I'd done it the way I was suggesting to chat.jpt
+then I would have had to call this method
+with the original name over and over again
+in this position and this position.
+This is still a better technique.
+I'll hit save on this file.
+I'll get a copy of the class name
+and head over to a unit test harness.
+It would be useful if we bring up a terminal
+with unit test runner already to go.
+Basically I've just used here more as an integration test
+to call this method.
+The method is here
+and I've set up a couple of names.
+The goal will be that this file will update.
+The first thing we look at is that we have an anonymiser.
+We will loop through all the names which are here
+call the anonymiser.anonymised name
+with that name and get a new value back.
+While I'm not using this as an actual unit test
+there is an expectation that the anonymised name
+will not be the same as the regular name
+so that should work and that it matches the concept
+of having two words with capital and lower letters in it.
+And lastly I just want to print out a key value pair
+to the console.
+I want to take the original name and the anonymous name.
+If I hit save we get
+David Kruse being mapped to Nina
+and Appy Dave mapped to Chet Flatley.
+That looks good and we've also got
+our values here in the mapped file
+and they're not marked for updates.
+If I call it again and the best way to do that right here
+is just hit save it'll run it again
+and we get the same values as before
+for both David Kruse and Appy Dave.
+What I'd like to do is test this update who
+and we'll work with David Kruse.
+So what we can do is put my name into this particular parameter
+if the parameter exists
+then call mark for update with that particular value.
+What should happen is that value would become true
+when this is called and then when it goes and loops
+through all the people here
+when it gets this anonymous name
+it would update this value
+and then set this from true back to false.
+I think it might be useful if we see that timing delay
+so directly after I set that to true
+we'll put in a one second pause
+before calling the new anonymous name.
+There it is there and I'll just hit save.
+If we've got our terminal running
+it should just work correctly.
+This is true the name changed it's back to false.
+If we keep doing that it becomes true for a little while
+the name will change and then back to false.
+If I want to do it for Appy Dave
+I can just go and select that value
+and now to be the second one is going to change here.
+Chet flatly becomes Jonathan Schoen.
+I think one last thing to test
+is that if you wanted other names in there
+I might just put in at Winning prompts,
+Appycast and Carnivore 90.
+Now this code I'm going to be using
+for presentation capabilities within this YouTube channel
+but these are various YouTube channels that I use
+but here I'm just going to use the values
+to change them to people's names.
+I'll hit save and hopefully we end up with
+four new entries in the system.
+Now every time I refer to fly video for instance
+I will always get Mosh Moshi.
+If I hit save that value does not change
+but if I want fly video to change in this case
+it was just say at fly video hit save
+and now it's been updated to Deidre.
+Now that's an example of how you can create a class
+from scratch using just chat GPT
+and if you're interested in various automations
+that I create using prompt engineering and the GPT APIs
+then maybe click one of the links in the description.
+you

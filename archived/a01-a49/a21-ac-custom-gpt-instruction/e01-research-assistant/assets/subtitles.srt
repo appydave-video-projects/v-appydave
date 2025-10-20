@@ -1,0 +1,1192 @@
+1
+00:00:00,660 --> 00:00:05,710
+You had trouble researching complex
+topics with ChatGPT because you
+
+2
+00:00:05,760 --> 00:00:07,710
+can't feed it enough information.
+
+3
+00:00:08,710 --> 00:00:13,780
+In this video, I use custom prompt
+instructions to allow research on a
+
+4
+00:00:13,780 --> 00:00:21,280
+variety of documents while maintaining
+short-term memory within the ChatGPT bot.
+
+5
+00:00:22,150 --> 00:00:25,270
+A couple of weeks ago, a product
+called Open Interpreter started
+
+6
+00:00:25,270 --> 00:00:30,670
+gaining popularity and I realized I
+needed to figure out what was going
+
+7
+00:00:30,670 --> 00:00:34,120
+on with this particular project,
+do a little bit of research.
+
+8
+00:00:34,400 --> 00:00:38,600
+I also wanted to create a video, and I
+noticed that there were a lot of people
+
+9
+00:00:38,779 --> 00:00:43,460
+starting to talk about this product,
+and I wanted to listen to the video.
+
+10
+00:00:43,990 --> 00:00:49,750
+But also put the transcripts through
+ChatGPT and a combination of those
+
+11
+00:00:49,750 --> 00:00:54,490
+transcripts and the documentation
+from the project itself was something
+
+12
+00:00:54,490 --> 00:00:56,589
+that I need to do research on.
+
+13
+00:00:57,460 --> 00:01:00,970
+There are a few different ways
+to research complex documents in
+
+14
+00:01:00,970 --> 00:01:05,530
+ChatGPT, but the one I'm going to work
+with today is custom instructions.
+
+15
+00:01:05,770 --> 00:01:10,419
+And at the moment I've just started
+with this simple little idea to
+
+16
+00:01:10,419 --> 00:01:12,100
+outline what I'd like to achieve.
+
+17
+00:01:13,100 --> 00:01:18,530
+What we'll do is start with a
+GPT 4 blank slate, and we go down
+
+18
+00:01:18,530 --> 00:01:20,959
+to our settings where we can.
+
+19
+00:01:21,095 --> 00:01:25,745
+And put in custom instructions and
+I'll just paste the outline that I did.
+
+20
+00:01:25,995 --> 00:01:28,215
+this is not exactly what I wanna say.
+
+21
+00:01:28,215 --> 00:01:32,925
+In fact, I don't know the exact prompt at
+the beginning of this session because I'm
+
+22
+00:01:32,930 --> 00:01:38,395
+going to work through it as I develop and
+do my research on the particular video.
+
+23
+00:01:38,945 --> 00:01:39,755
+the main things.
+
+24
+00:01:39,830 --> 00:01:45,020
+I know I need this custom instruction
+to do each time is it needs to
+
+25
+00:01:45,020 --> 00:01:48,920
+understand the topic that we are
+working with and maintain it.
+
+26
+00:01:49,240 --> 00:01:55,120
+it needs to comprehend new information
+coming in and feed it into a simple
+
+27
+00:01:55,240 --> 00:02:00,665
+information structure that it has a
+long-term memory as I do my research.
+
+28
+00:02:01,585 --> 00:02:06,385
+I don't want it to waste energy trying to
+tell me information I don't care about.
+
+29
+00:02:06,415 --> 00:02:08,095
+I'll ask the questions.
+
+30
+00:02:08,275 --> 00:02:12,371
+It should just give me simple
+replies I will need it to
+
+31
+00:02:12,371 --> 00:02:14,431
+work with specific commands.
+
+32
+00:02:14,701 --> 00:02:17,161
+I believe I'll need to add documents.
+
+33
+00:02:17,321 --> 00:02:22,311
+I might need to break documents appart
+and feed 'em in because they're too big.
+
+34
+00:02:22,671 --> 00:02:27,351
+Sometimes I'll want to get information
+of the current state of the second
+
+35
+00:02:27,381 --> 00:02:32,001
+brain, the second brain being the
+information that it's maintaining for me.
+
+36
+00:02:32,225 --> 00:02:35,975
+I'll move forward and start
+writing a custom instruction
+
+37
+00:02:36,005 --> 00:02:36,845
+and we'll see how it works.
+
+38
+00:02:37,845 --> 00:02:43,365
+When we look at this first statement, I
+realized that the starting point is to let
+
+39
+00:02:43,365 --> 00:02:45,885
+it know that it's my research assistant.
+
+40
+00:02:46,885 --> 00:02:51,180
+When we look at you'll need to be
+reading and comprehending my documents.
+
+41
+00:02:51,180 --> 00:02:56,100
+I think the prompt we can put in
+here would be something like you will
+
+42
+00:02:56,100 --> 00:03:00,720
+maintain a document outline and summarize
+the information you have collected.
+
+43
+00:03:01,220 --> 00:03:05,810
+the next step would be to do a
+document title, but I really want
+
+44
+00:03:05,810 --> 00:03:08,840
+to get into commands right now
+while they're still in my head.
+
+45
+00:03:09,530 --> 00:03:14,890
+The thing about maintaining a summary
+of information is that ChatGPT doesn't
+
+46
+00:03:14,890 --> 00:03:19,713
+always maintain the right information,
+and I believe I'm going to need some
+
+47
+00:03:19,713 --> 00:03:24,663
+commands that I can use to tell it
+what's really important, what's just
+
+48
+00:03:24,663 --> 00:03:26,763
+generally important and what is not.
+
+49
+00:03:27,883 --> 00:03:31,543
+Of use to me right now,
+basically a command to ignore
+
+50
+00:03:31,543 --> 00:03:33,373
+certain pieces of information.
+
+51
+00:03:33,853 --> 00:03:37,303
+So let's go and think about
+the commands we might need.
+
+52
+00:03:38,303 --> 00:03:41,543
+The first command I've added
+here is just called add.
+
+53
+00:03:41,543 --> 00:03:48,863
+I guess I would like to type ADD: and
+then just paste in a transcript and have
+
+54
+00:03:48,863 --> 00:03:51,113
+that transcript added into the document.
+
+55
+00:03:52,113 --> 00:03:56,283
+First command we would need would be
+to add information to the document
+
+56
+00:03:57,093 --> 00:04:02,823
+I've put in this ad followed by ad
+provided information to the document.
+
+57
+00:04:03,823 --> 00:04:08,083
+Now, I suspect that when I add
+information to the document it might
+
+58
+00:04:08,083 --> 00:04:12,613
+get things a little bit wrong, and I
+think what we could try is a command
+
+59
+00:04:12,613 --> 00:04:17,203
+called drop, and that will be, if I
+give it some extra information, it
+
+60
+00:04:17,203 --> 00:04:19,483
+just drops that from the main document.
+
+61
+00:04:20,483 --> 00:04:26,093
+As the document develops, I'm sure there's
+going to be like a list or an outline.
+
+62
+00:04:26,093 --> 00:04:32,063
+So we will add a new command called
+T O C for table of Contents, and
+
+63
+00:04:32,068 --> 00:04:36,023
+essentially I just want to get
+the table of contents based on
+
+64
+00:04:36,023 --> 00:04:37,493
+the document that it's maintained.
+
+65
+00:04:38,493 --> 00:04:42,410
+This table of contents will help me
+understand things, but there'll be
+
+66
+00:04:42,410 --> 00:04:44,630
+times when I need the detail as well.
+
+67
+00:04:44,840 --> 00:04:48,950
+We'll add a command called detail
+that just shows the entire document.
+
+68
+00:04:49,950 --> 00:04:54,539
+I suspect that from time to time
+I'm going to want it to just give
+
+69
+00:04:54,539 --> 00:04:57,479
+me its opinion on certain concepts.
+
+70
+00:04:58,080 --> 00:05:01,169
+When it does that, I don't want the
+information added to the document.
+
+71
+00:05:01,169 --> 00:05:03,869
+I do wanna be able to
+evaluate that information.
+
+72
+00:05:04,140 --> 00:05:09,059
+I also don't want it to write an essay,
+so I'm believing something like 50
+
+73
+00:05:09,059 --> 00:05:13,739
+words might be good, and from time to
+time I need to change that as well.
+
+74
+00:05:13,929 --> 00:05:19,569
+we'll create a command called Q 50 What
+it will do is I give it a question.
+
+75
+00:05:19,599 --> 00:05:21,939
+It'll gimme a 50 word answer.
+
+76
+00:05:21,969 --> 00:05:25,749
+It won't add it to the document,
+and I'll also let it know that
+
+77
+00:05:25,869 --> 00:05:27,539
+it, can accept other numbers?
+
+78
+00:05:27,539 --> 00:05:31,950
+I might do Q 30 for 30 words
+or Q 100 for a hundred words.
+
+79
+00:05:32,429 --> 00:05:35,039
+We need to maintain a title we
+haven't dealt with that yet.
+
+80
+00:05:35,460 --> 00:05:38,369
+Maintain and update the
+document on research.
+
+81
+00:05:38,609 --> 00:05:40,140
+We've got that covered.
+
+82
+00:05:40,500 --> 00:05:42,239
+Provide simple replies.
+
+83
+00:05:42,270 --> 00:05:46,530
+I'm gonna have to write a prompt for that
+soon and respond to specific commands.
+
+84
+00:05:46,560 --> 00:05:48,479
+We've got most of them in place.
+
+85
+00:05:48,599 --> 00:05:51,599
+I'll just add one other
+we'll put in the title.
+
+86
+00:05:51,659 --> 00:05:57,760
+Or command this, I would start the
+research with, so we have a title.
+
+87
+00:05:57,940 --> 00:06:00,790
+One of the things that I think will
+happen as I research information
+
+88
+00:06:00,795 --> 00:06:05,530
+is I might want to update the title
+based on new information coming in.
+
+89
+00:06:05,780 --> 00:06:11,419
+this command should be able to create
+or update a title on the fly means
+
+90
+00:06:11,419 --> 00:06:15,739
+we can finally just delete these
+pieces of information and let's
+
+91
+00:06:15,739 --> 00:06:16,939
+figure out how we'll write this.
+
+92
+00:06:17,059 --> 00:06:22,409
+Prompt deal with how GPT
+responds to each of our commands.
+
+93
+00:06:22,469 --> 00:06:26,759
+There is a section called How would you
+like GPT to Respond, which we can fill in.
+
+94
+00:06:27,479 --> 00:06:31,259
+Essentially, I want to take the
+ADD and the DROP command and
+
+95
+00:06:31,259 --> 00:06:32,729
+make sure it just says, 'YAY'.
+
+96
+00:06:32,729 --> 00:06:37,109
+I do not need any other information
+other than an acknowledgement.
+
+97
+00:06:37,469 --> 00:06:40,559
+That it's added or removed
+it from the document.
+
+98
+00:06:41,219 --> 00:06:45,089
+When it comes to the table of contents or
+the details, it's going to have to give
+
+99
+00:06:45,089 --> 00:06:50,159
+me the information I want, but I don't
+want any other additional information.
+
+100
+00:06:50,619 --> 00:06:54,484
+lastly, with the question, it can
+write whatever it likes so long
+
+101
+00:06:54,484 --> 00:06:56,794
+as it's 50 words or 30 words.
+
+102
+00:06:57,844 --> 00:07:00,634
+prompt that I'm going to
+put in here looks like this.
+
+103
+00:07:01,114 --> 00:07:05,734
+Do not give any additional information
+for simple commands like add and drop.
+
+104
+00:07:05,734 --> 00:07:09,814
+Say Yay for table of contents,
+write that for details.
+
+105
+00:07:09,814 --> 00:07:14,284
+Write that and for question, you
+will gimme an A answer to the
+
+106
+00:07:14,289 --> 00:07:16,624
+question in that number of words.
+
+107
+00:07:16,954 --> 00:07:21,574
+I do know that ChatGPT will
+sometimes still give other.
+
+108
+00:07:21,964 --> 00:07:26,974
+Common phrases around the document
+and I may need to come in here and
+
+109
+00:07:26,974 --> 00:07:31,259
+tell it not to do that, but for now,
+this is where we're going to start, I
+
+110
+00:07:31,259 --> 00:07:36,539
+wanna find out whether it understands
+what its role is, what is your role,
+
+111
+00:07:37,109 --> 00:07:39,809
+press enter, see what it comes up with.
+
+112
+00:07:40,529 --> 00:07:46,149
+My role is to be your research assistant,
+I will maintain a document outline and a
+
+113
+00:07:46,149 --> 00:07:48,189
+summary of information I have collected.
+
+114
+00:07:48,579 --> 00:07:53,719
+I will respond to specific commands
+such as ADD DROP, TOC DETAIL, Q50
+
+115
+00:07:53,739 --> 00:07:56,319
+and TITLE as per your instructions.
+
+116
+00:07:56,799 --> 00:07:58,449
+This is looking good so far.
+
+117
+00:07:58,839 --> 00:07:59,949
+Let's put in a title.
+
+118
+00:07:59,949 --> 00:08:06,709
+We'll head on over to the website,
+copy the term open interpreter,
+
+119
+00:08:06,709 --> 00:08:09,239
+and just paste it in, says she.
+
+120
+00:08:09,724 --> 00:08:10,324
+Perfect.
+
+121
+00:08:11,114 --> 00:08:15,314
+the documentation around this tool
+is that it's a code interpreter
+
+122
+00:08:15,314 --> 00:08:17,564
+to run locally on your computer.
+
+123
+00:08:18,044 --> 00:08:21,404
+There's a whole lot of
+information in a Read me file.
+
+124
+00:08:21,854 --> 00:08:25,934
+If I open up that read Me
+file in raw format, there'll
+
+125
+00:08:25,934 --> 00:08:27,344
+be a bunch of information.
+
+126
+00:08:27,344 --> 00:08:28,814
+It would be nice to strip out the.
+
+127
+00:08:28,989 --> 00:08:29,710
+H T M L.
+
+128
+00:08:29,769 --> 00:08:35,020
+But essentially I should just be able
+to take a bunch of this raw information,
+
+129
+00:08:35,230 --> 00:08:40,329
+but not too much because ChatGPT can only
+take a certain amount of information.
+
+130
+00:08:41,260 --> 00:08:43,510
+Head over to ChatGPT.
+
+131
+00:08:43,510 --> 00:08:48,299
+We'll give our ADD command and we'll
+just paste this information in we've got
+
+132
+00:08:48,299 --> 00:08:50,699
+a response of 'YAY', which is perfect.
+
+133
+00:08:50,969 --> 00:08:54,169
+I think it might be time
+for a table of contents.
+
+134
+00:08:54,669 --> 00:08:57,009
+we have a partial information.
+
+135
+00:08:57,429 --> 00:09:01,869
+I haven't read through the documentation,
+but this seems to be about right.
+
+136
+00:09:02,679 --> 00:09:07,809
+Let's head back to the read me file and
+we'll grab another chunk of information.
+
+137
+00:09:08,059 --> 00:09:08,589
+not too much.
+
+138
+00:09:09,349 --> 00:09:14,219
+We'll get to about here,
+I think back to G P T.
+
+139
+00:09:14,219 --> 00:09:17,929
+We'll put in, add and paste that new
+
+140
+00:09:17,929 --> 00:09:24,458
+information  type TOC there's definitely
+more information coming through.
+
+141
+00:09:25,088 --> 00:09:28,538
+Just adding a final little bit of
+information that I missed at the
+
+142
+00:09:28,543 --> 00:09:31,748
+bottom, just a little bit of coding.
+
+143
+00:09:31,763 --> 00:09:32,483
+Information.
+
+144
+00:09:33,173 --> 00:09:37,103
+At this point, I'd like to see what
+detail I can get out of the document.
+
+145
+00:09:37,103 --> 00:09:40,853
+I don't know that I'd get all the
+information from the Readme file
+
+146
+00:09:40,853 --> 00:09:45,353
+because there's too much information
+in the form of tokens, but since
+
+147
+00:09:45,353 --> 00:09:49,803
+this has been summarizing and keeping
+detailed information, we'll just
+
+148
+00:09:49,803 --> 00:09:54,363
+type in detail, see what we get, and
+it's starting to write out a couple
+
+149
+00:09:54,363 --> 00:09:58,773
+of commands that's going to show us
+how to use it, access to the demo.
+
+150
+00:09:58,773 --> 00:09:59,553
+We've got a.
+
+151
+00:09:59,658 --> 00:10:02,838
+Quick start, guide, and commands.
+
+152
+00:10:03,498 --> 00:10:08,748
+This is all looking pretty good and I
+could probably use it just as it is as
+
+153
+00:10:08,748 --> 00:10:14,238
+a question and answer bot to install
+and start using this particular project.
+
+154
+00:10:14,538 --> 00:10:19,968
+But in the next step, what I'd like to do
+is watch a couple of the videos by some
+
+155
+00:10:19,968 --> 00:10:23,988
+of the other people on YouTube and see
+how they're working with open interpreter.
+
+156
+00:10:24,988 --> 00:10:28,858
+My research bot is currently loaded
+up with the documentation from code
+
+157
+00:10:28,858 --> 00:10:33,148
+interpreter, but what I'd like to
+do now is take some videos from
+
+158
+00:10:33,148 --> 00:10:38,458
+YouTube, grab their transcriptions and
+load them into my research as well.
+
+159
+00:10:38,588 --> 00:10:42,908
+the way I've done that is I've used
+the ADD command that we already
+
+160
+00:10:42,913 --> 00:10:48,248
+had access to, and I've added
+these transcription summaries we.
+
+161
+00:10:48,308 --> 00:10:52,148
+Have one here, another one
+here, and they just keep going.
+
+162
+00:10:52,148 --> 00:10:56,858
+I keep adding transcription summaries into
+the research, but you might be wondering
+
+163
+00:10:57,068 --> 00:10:59,888
+how did I get a transcription summary?
+
+164
+00:11:00,188 --> 00:11:05,648
+And the way I did that was by running
+YouTube transcriptions through my
+
+165
+00:11:05,648 --> 00:11:10,428
+transcription summarizer Bot to
+do the transcription summaries.
+
+166
+00:11:10,428 --> 00:11:14,658
+I actually had to have videos in
+which to transcribe, so right here I
+
+167
+00:11:14,658 --> 00:11:19,578
+have a video called Open Interpreter,
+open Source version of ChatGPT.
+
+168
+00:11:19,878 --> 00:11:24,528
+It's a 13 minute video, and if I move
+through the different videos that I
+
+169
+00:11:24,528 --> 00:11:29,108
+researched, I had all these different
+people in the last two weeks who have
+
+170
+00:11:29,108 --> 00:11:34,648
+been doing detailed videos on open
+interpreter, you can grab a transcript
+
+171
+00:11:34,708 --> 00:11:39,598
+and copy it into a text file, and
+I did it for each individual video
+
+172
+00:11:39,598 --> 00:11:44,799
+that I came across so that I could
+use it within the YouTube transcript.
+
+173
+00:11:45,164 --> 00:11:45,464
+Bot.
+
+174
+00:11:45,964 --> 00:11:51,454
+from the point of view of the research bot
+in which I've added all these different
+
+175
+00:11:51,454 --> 00:11:57,904
+summarizations, we then need to move over
+to one of the YouTube transcription bots.
+
+176
+00:11:58,144 --> 00:12:00,214
+Here's one on open interpreter.
+
+177
+00:12:00,219 --> 00:12:03,849
+We've got a summary
+here and at the bottom.
+
+178
+00:12:04,029 --> 00:12:10,019
+I can copy it move it to the original
+bot, I just repeat that for each of the
+
+179
+00:12:10,019 --> 00:12:12,239
+YouTube transcriptions that I want to do.
+
+180
+00:12:12,244 --> 00:12:17,154
+I grab the information I want, but you
+might be wondering where is the YouTube?
+
+181
+00:12:17,169 --> 00:12:18,369
+Transcription bot.
+
+182
+00:12:18,869 --> 00:12:23,309
+let's head over to a new ChatGPT
+window, and I'm just gonna paste in this
+
+183
+00:12:23,309 --> 00:12:28,229
+little prompt here called What role and
+instructions have I assigned to you?
+
+184
+00:12:28,719 --> 00:12:31,869
+this is a YouTube transcription bot.
+
+185
+00:12:31,869 --> 00:12:33,069
+I've preloaded it.
+
+186
+00:12:33,119 --> 00:12:36,989
+You have assigned me the role of
+YouTube transcription assistant.
+
+187
+00:12:37,259 --> 00:12:41,099
+I can read through transcriptions and
+build a detailed document, which is the
+
+188
+00:12:41,099 --> 00:12:46,379
+goal that I needed for the research,
+but it's got similar sorts of commands,
+
+189
+00:12:46,379 --> 00:12:49,539
+like ADD, DROP, STORIES I can ask.
+
+190
+00:12:49,739 --> 00:12:50,819
+Questions.
+
+191
+00:12:51,819 --> 00:12:54,999
+It hasn't listed a particular
+command called titles.
+
+192
+00:12:54,999 --> 00:12:59,139
+I can generate a bunch of YouTube
+titles based off the transcript,
+
+193
+00:12:59,719 --> 00:13:04,459
+this is basically how I make bots
+work with one another just using
+
+194
+00:13:04,464 --> 00:13:06,229
+various custom instructions.
+
+195
+00:13:06,229 --> 00:13:11,504
+if you want to understand how I built this
+particular custom instruction, I'll put a.
+
+196
+00:13:11,534 --> 00:13:12,764
+Link in the description.
+
+197
+00:13:13,764 --> 00:13:18,294
+Now we're back at our original research
+bot, and I'm just gonna put in a quick
+
+198
+00:13:18,354 --> 00:13:21,174
+prompt, what is your role and command?
+
+199
+00:13:21,174 --> 00:13:23,664
+I just want us remember what
+I've got available here.
+
+200
+00:13:24,414 --> 00:13:26,394
+It's to be a research assistant.
+
+201
+00:13:26,424 --> 00:13:30,234
+We can add, drop, and
+get table of contents.
+
+202
+00:13:30,874 --> 00:13:35,644
+we should do a detail and see what all
+the different information that we've
+
+203
+00:13:35,644 --> 00:13:41,559
+added to the bot has done for us from
+this detailed command, we've got a fairly.
+
+204
+00:13:41,679 --> 00:13:46,059
+Extensive master document
+that's been created.
+
+205
+00:13:46,059 --> 00:13:49,869
+We've got this limitations
+for big data, git repository,
+
+206
+00:13:49,869 --> 00:13:51,969
+cloning, community engagement.
+
+207
+00:13:51,999 --> 00:13:54,959
+If we move through, there's
+additional documents that are
+
+208
+00:13:54,959 --> 00:13:56,559
+being summarized and added into.
+
+209
+00:13:56,764 --> 00:14:01,044
+Of the main document open
+interpreter, YouTube video analysis.
+
+210
+00:14:01,044 --> 00:14:02,544
+We've got information here.
+
+211
+00:14:02,814 --> 00:14:06,024
+If we keep going down,
+we've got another one.
+
+212
+00:14:06,834 --> 00:14:12,564
+One of the things that I notice is a
+lot of the commands from the original
+
+213
+00:14:12,569 --> 00:14:16,794
+instruction guide from GitHub are
+missing, but we may still be able
+
+214
+00:14:16,794 --> 00:14:20,694
+to get them out, let's see if we can
+get the setup instructions for open
+
+215
+00:14:20,694 --> 00:14:23,144
+interpreter, and I could do a Q 50.
+
+216
+00:14:23,594 --> 00:14:27,554
+I might even just be able to get
+away with a regular prompt, but
+
+217
+00:14:27,584 --> 00:14:29,384
+I'm going to try this one first.
+
+218
+00:14:29,384 --> 00:14:31,034
+It was one of the commands I set up.
+
+219
+00:14:31,274 --> 00:14:34,364
+Can you give me a setup
+guide to create my own?
+
+220
+00:14:34,904 --> 00:14:35,894
+Open interpreter.
+
+221
+00:14:36,394 --> 00:14:40,054
+the great thing about that is it's
+just given me the 50 word summary.
+
+222
+00:14:40,174 --> 00:14:43,444
+Let's do the same prompt
+again without the command.
+
+223
+00:14:43,944 --> 00:14:48,654
+this looks like it's given us a
+more detailed list of instructions
+
+224
+00:14:48,654 --> 00:14:50,154
+that we can run from the terminal.
+
+225
+00:14:50,154 --> 00:14:51,624
+To set up open interpreter.
+
+226
+00:14:52,624 --> 00:14:56,784
+I don't tend to do too many more
+commands from the research, bot
+
+227
+00:14:56,974 --> 00:15:00,724
+generally once I've done my research,
+I'll take that information over
+
+228
+00:15:00,724 --> 00:15:04,774
+to other bots, but it doesn't stop
+us from doing standard prompts.
+
+229
+00:15:05,014 --> 00:15:10,144
+What we'll try here is can you
+create an engaging YouTube script
+
+230
+00:15:10,504 --> 00:15:12,154
+based on the detailed document.
+
+231
+00:15:12,314 --> 00:15:16,844
+, normally I would take that to the YouTube
+script and title bot, but let's say.
+
+232
+00:15:16,919 --> 00:15:18,419
+What it comes up with.
+
+233
+00:15:18,919 --> 00:15:20,599
+here we have a YouTube script.
+
+234
+00:15:20,629 --> 00:15:22,159
+Let's look at this intro.
+
+235
+00:15:22,189 --> 00:15:24,229
+B roll with upbeat music.
+
+236
+00:15:24,229 --> 00:15:25,159
+Sounds about right.
+
+237
+00:15:25,429 --> 00:15:26,209
+Hello everyone.
+
+238
+00:15:26,209 --> 00:15:29,689
+Welcome back to the channel if you
+are passionate about AI coding and
+
+239
+00:15:29,689 --> 00:15:33,889
+game changing technology, and smash
+the light button and hit subscribe.
+
+240
+00:15:34,189 --> 00:15:38,529
+Today we're diving deep into something
+that's been buzzing on social media.
+
+241
+00:15:39,024 --> 00:15:42,984
+Open interpreter, Gary Marcus
+himself tweeted about it.
+
+242
+00:15:43,134 --> 00:15:44,484
+So you know, it's a big deal.
+
+243
+00:15:44,584 --> 00:15:49,234
+I know that statement did actually come
+out of one of the transcriptions that I.
+
+244
+00:15:49,414 --> 00:15:49,984
+Watched.
+
+245
+00:15:50,434 --> 00:15:52,324
+is this the way I would write a script?
+
+246
+00:15:52,354 --> 00:15:52,894
+No.
+
+247
+00:15:52,894 --> 00:15:59,434
+And that's why I would have a YouTube
+script writing set of prompts designed
+
+248
+00:15:59,434 --> 00:16:03,424
+and feed the information into them
+instead so that I can get the style.
+
+249
+00:16:03,664 --> 00:16:07,804
+But the good thing is this is a pretty
+good script, just of its own accord.
+
+250
+00:16:08,764 --> 00:16:12,364
+This has been a deep dive into
+the researcher bot a custom
+
+251
+00:16:12,364 --> 00:16:16,234
+instruction prompt that you can
+use for research and development.
+
+252
+00:16:16,504 --> 00:16:17,554
+It's also part.
+
+253
+00:16:17,614 --> 00:16:22,114
+Of a set of advanced prompts that I've
+been developing, and they're part of
+
+254
+00:16:22,114 --> 00:16:24,274
+a podcast that I'm putting together.
+
+255
+00:16:24,514 --> 00:16:26,884
+You should be able to find information in.
+

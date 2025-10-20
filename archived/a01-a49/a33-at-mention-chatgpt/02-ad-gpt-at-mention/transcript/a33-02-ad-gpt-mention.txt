@@ -1,0 +1,92 @@
+OpenAI released this awesome feature yesterday in ChatGPT, the ability to call
+multiple GPTs from the store or your personal ones or within one context
+window. Now I did a video on this yesterday, today's video is a cut-down
+version just showing you step-by-step how to use it. So we're in a brand new
+ChatGPT window and if I type in the at symbol we'll have access to a bunch of
+GPTs that you've either used or created, many of these I've created. So if we
+look at F Tube teaser, this turns a YouTube video into a Facebook teaser
+post, got the same thing for tweets, I can make YouTube intros and recently I
+did seven GPTs specifically for YouTube content creators, you can check that out
+in the link. Let's talk briefly about why app mention is so important and the
+inclusion by OpenAI of custom instructions sometimes called a system
+prompt to be really powerful feature. It allowed me to start new chat windows
+that had rules that it would follow, maybe it'd be some commands that it would
+respond to or maybe it would be the style in which you responded. But the
+problem with this system was that whenever you wanted to create a new
+chat window you would need to clear out the custom instruction and create a new
+one. Next, OpenAI added in GPTs. Now GPTs similar to custom instructions allow
+you to create rules and the way ChatGPT would respond but where it's different
+is that now you can have multiple GPTs and you can start a new chat window
+based off a particular GPT. It's a good enhancement but it still has one big
+problem and that's that it can't talk to other GPTs. Yesterday a new capability
+was added into ChatGPT and that was the ability to use the app symbol and
+mention various GPTs in your regular conversation. Now they didn't speak about
+it, there was no fanfare about this and I've come to understand that it's
+probably because it's not solidified as to how it's going to work in the future
+but at the moment it works really well and what you can do now is from a
+regular chat window you can then switch over to any of the GPTs in the store or
+any that you've created. Let's dive in and see how this fits together and I'll
+show you an example of it being used. What I think I'll do is I'll just use
+speech to text and we'll just type a prompt right now. Everything that we've
+talked about above is exactly what this feature is about. What I would like you
+to do is take the information and run it through my Twitter creation bot and
+create a tweet for me. What we'll do is we'll just type at tweet tube. Talking to
+cheek tube is what it does and we've just got this prompt and press enter and
+we'll see whether it does what I expect it to do. Wow this is it. It's writing
+tweets the way my tweet tube bot does so discover the power of customization with
+chat GPT plus at feature instantly switch between specialized GPT models for
+tailored responses perfect for content strategists educators tech pros writers
+and polyglots that's people that work in multiple languages. It's put in a bunch
+of hashtags usually this is a one-hit wonder I'm really happy with this. This
+is cool already I'm already sold on this feature but maybe I could create an
+intro for this particular video that I'm recording. I'm still talking to the
+tweet tube so I believe we'll just press this cross take me over to the at YouTube
+intro GPT and allow me to configure it so that we can create a YouTube intro for
+this particular video. Looks like I might have to type this in so we'll go intro maker
+press enter. It's taken me over to my bot YouTube intro maker bot has a
+configuration capability now it talks about it here. The niche we're going for
+is GPT plus the topic is that there's a feature announcement called at mentions
+in chat GPT plus. Now the framework you can use marketing frameworks like AIDA
+and Paz Paz is problem agitation solution but I like to keep things fairly
+simple so I'll go with none keep it simple and the structure I think we want
+is problem solution what's problem here's the solution and the tone excited I
+think this is an awesome feature but keep it professional just press enter on
+that I think we can just say create is one of the commands I think we'll copy
+from here all the way through fact sheet that you would want for a script on this
+sort of video we'll move down to the bottom and we'll just say create an
+intro based on this concept we have a starter intro script welcome to the
+future of AI customization and efficiency today we're unveiling an
+extraordinary feature in chat GPT plus the at feature simply a powerful tool
+that's changing the game problem highlight have you ever found yourself
+wishing for a more specialized efficient and integrated AI experience this is my
+issue all the time with chat GPT one that understands your specific needs
+without having to switch contacts or explain repeatedly your weight is over
+and then the solution with the at feature in chat GPT plus you now have the
+ability to quickly access various GPT models tailored for unique tasks and
+areas of expertise what we could do is just say this intro is really good I
+love the first three paragraphs but it's way too long at the moment everything
+goes for about one minute and 30 seconds to two minutes I really need this to be
+a 30 second script it's now writing a new script for us with a little bit of
+tweaking would be a good introduction to the video let's just switch one more
+context can you create an article for me on LinkedIn at link tube and the idea of
+the link tube article generator is it's a single shot prompt it'll get it right
+most times it's designed specifically around turning YouTube videos into
+LinkedIn articles I'm just going to say create and I'm going to paste this in
+which is basically the script from earlier usually when I do a create
+command for a LinkedIn post I would also give it the title and the YouTube
+video but we haven't created the YouTube video yet we can't do that just go
+create like that and see what happens now we've got a title which may be the
+title that we want to use I would usually use my title GPT to generate
+this revolutionizing AI interactions the app feature in chat GPT plus I think
+that might be good enough for the video anyway introduction in the ever-
+evolving world of artificial intelligence we've got concepts problems
+practical use cases and conclusions can you add emojis and hashtags please let
+it rewrite the article now with a couple of emojis tube outro writer and
+we're in it and we'll just go straight into a config so we'll just configure it
+and we'll go with a style here called recap so whatever we've said in the
+video we want to recap it but I only want it to go for about 15 seconds and I
+want to have a link to a playlist I believe in this case I've done YouTube
+automation GPT's there's a bunch of them all in a playlist and that's what we
+should mention now the outro that you're seeing on screen right now went into
+yesterday's video thank you I'm happy Dave and I've included a link to the
+GPT's in the end card

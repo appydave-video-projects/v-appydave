@@ -1,0 +1,547 @@
+1
+00:00:00,00 --> 00:00:05,970
+Aider is an AI pair programmer that you can use through automation. And this week 
+
+2
+00:00:05,970 --> 00:00:10,470
+I've been experimenting with it, and I thought I'd extend the presentation system 
+
+3
+00:00:10,470 --> 00:00:15,990
+that we did in the previous video and try the image to code generation technique 
+
+4
+00:00:15,990 --> 00:00:20,520
+and see if I can create some templates. I'm AppyDave. Please like and subscribe and 
+
+5
+00:00:20,520 --> 00:00:21,510
+let's get into it.
+
+6
+00:00:21,530 --> 00:00:26,870
+So here we have the Canva template. And when we put it into Aider using the image 
+
+7
+00:00:26,870 --> 00:00:32,120
+to CSS, this is what we got for our template system. When we looked at the second 
+
+8
+00:00:32,120 --> 00:00:37,370
+template in the system, which looks great in Canva, it didn't look quite so good 
+
+9
+00:00:37,370 --> 00:00:40,610
+once the image to CSS had been done. 
+
+10
+00:00:40,630 --> 00:00:45,550
+third template that you can see here looks really good, just with a slightly different 
+
+11
+00:00:45,550 --> 00:00:46,300
+layout.
+
+12
+00:00:46,330 --> 00:00:52,330
+So in the last video we created this presentation on Reveal.js. The infographics 
+
+13
+00:00:52,330 --> 00:00:56,500
+were designed using napkin I. There is a link in the description, but all the code 
+
+14
+00:00:56,500 --> 00:01:01,930
+was done using a single prompt, using a requirements to code technique that I use. 
+
+15
+00:01:01,960 --> 00:01:06,420
+was all done with Aider AI Now if you want access to the code, you can come over 
+
+16
+00:01:06,420 --> 00:01:11,310
+to the AppyDave repository. It's an organization and we've got Aider presentation 
+
+17
+00:01:11,310 --> 00:01:16,860
+tool available. But what I thought we'd do today is improve the styling of the presentation. 
+
+18
+00:01:16,860 --> 00:01:22,560
+And what I've done is come over to Canva and I've just picked an off the shelf presentation 
+
+19
+00:01:22,560 --> 00:01:27,660
+template, and then I've restyled it a little bit just using my brand guidelines. 
+
+20
+00:01:27,660 --> 00:01:33,600
+So let's see if we can convert these images into styling on Reveal.js presentations.
+
+21
+00:01:33,630 --> 00:01:39,700
+I've opened up the Aider AI documentation, and I've found this link images and web 
+
+22
+00:01:39,730 --> 00:01:43,990
+pages. And the two that I think we're going to work with today will be the add by 
+
+23
+00:01:44,290 --> 00:01:46,480
+file name or add by pasting.
+
+24
+00:01:46,490 --> 00:01:51,750
+Now let's go over to Visual Studio. And this is the project we developed a couple 
+
+25
+00:01:51,780 --> 00:01:56,490
+of things to be aware of. There is an assets folder where we were putting the Scalable 
+
+26
+00:01:56,490 --> 00:02:01,290
+Vector Graphics. There's a data folder which is where the slide deck is. And I've 
+
+27
+00:02:01,290 --> 00:02:06,660
+just added a docs folder. Within that we've got the requirements document from the 
+
+28
+00:02:06,660 --> 00:02:11,250
+last video. But we now have a list of images. So if we'll just click on a couple 
+
+29
+00:02:11,250 --> 00:02:11,700
+of them 
+
+30
+00:02:11,730 --> 00:02:15,270
+can see different mocks that I would like to turn into CSS.
+
+31
+00:02:15,290 --> 00:02:19,630
+Now I just wanna make a minor change before we add images. What I think we'll do 
+
+32
+00:02:19,630 --> 00:02:24,580
+is we'll go over to the CSS area right here. And I'm just gonna put in a comment. 
+
+33
+00:02:24,850 --> 00:02:29,350
+And the comment is just some named variables that I would like to, 
+
+34
+00:02:29,360 --> 00:02:34,940
+utilize in the CSS. And what we can do from there is pop on over to the terminal 
+
+35
+00:02:35,150 --> 00:02:36,440
+where I'm running the, 
+
+36
+00:02:36,460 --> 00:02:41,500
+browser at the moment, or the reveal JS website. We'll open up a new terminal git 
+
+37
+00:02:41,500 --> 00:02:45,640
+status, we've got a modification type in Aider. This will connect to Aider and we'll 
+
+38
+00:02:45,640 --> 00:02:52,720
+be using the sonnet, 3.5 model at the moment. And what I'd like to do is say, I would 
+
+39
+00:02:52,720 --> 00:02:53,410
+like 
+
+40
+00:02:53,430 --> 00:02:55,950
+to use CSS variables, 
+
+41
+00:02:55,960 --> 00:02:57,220
+CSS custom. 
+
+42
+00:02:57,230 --> 00:03:01,150
+It asks if we want to add this into the chat window. The CSS file, 
+
+43
+00:03:01,160 --> 00:03:06,590
+we're saying yes, and it starts rendering information for us. Now we can see here 
+
+44
+00:03:06,590 --> 00:03:08,780
+that we've got variables coming through. 
+
+45
+00:03:08,800 --> 00:03:13,150
+We've got these brand variables, and it looks like we've got some semantic naming 
+
+46
+00:03:13,150 --> 00:03:16,330
+variables going on as well. So we'll just, 
+
+47
+00:03:16,330 --> 00:03:18,250
+let's test it. Just check that it's all working.
+
+48
+00:03:18,260 --> 00:03:23,310
+So I've got the original website there. I'm just going to change this to Red so that 
+
+49
+00:03:23,310 --> 00:03:27,990
+we see it for sure and press refresh. And there we have AppyDave
+
+50
+00:03:27,990 --> 00:03:32,560
+image and there we have it. AppyDave channels, images generated using napkin. Let's 
+
+51
+00:03:32,560 --> 00:03:37,600
+just undo that for a second and refresh. And we're looking good.
+
+52
+00:03:37,630 --> 00:03:42,190
+Now I want to start by looking at the slides and the data that goes onto the slides. 
+
+53
+00:03:42,190 --> 00:03:47,830
+So I've just put together this simple structure and there's three different concepts 
+
+54
+00:03:47,830 --> 00:03:52,360
+that I'm trying to deal with here. The first is that you might have data points with 
+
+55
+00:03:52,360 --> 00:03:57,880
+semantic meaning like main heading or subheading. The next is that you have data 
+
+56
+00:03:57,910 --> 00:04:04,600
+points that map quite cleanly to HTML elements. And then the third one is just talking 
+
+57
+00:04:04,600 --> 00:04:11,230
+about positioning top left right bottom images, in this case provided as Scalable 
+
+58
+00:04:11,230 --> 00:04:16,450
+Vector graphics. Now the next thing I want to do and this is where we'll use Aider 
+
+59
+00:04:16,450 --> 00:04:21,730
+is I want to add three more templates. And these are the look and feels that I want 
+
+60
+00:04:21,760 --> 00:04:22,810
+to work with.
+
+61
+00:04:22,830 --> 00:04:28,250
+Now I'd like to use Aider to extract the data that's in these images and add it to 
+
+62
+00:04:28,250 --> 00:04:33,170
+the templates here. So we've got template one, two, and three. They actually represent 
+
+63
+00:04:33,170 --> 00:04:38,270
+slides. This is more the template definition and I want to create template four, 
+
+64
+00:04:38,270 --> 00:04:44,780
+five, and six as data and slides. So what we'll do is we'll come down to Aider and 
+
+65
+00:04:45,110 --> 00:04:52,820
+how about we say, can you add a new slide to, and what we need to do is put in the 
+
+66
+00:04:52,820 --> 00:05:00,980
+file name, it's the JSON New, can you add a new slide to slides new? Call it template 
+
+67
+00:05:01,00 --> 00:05:09,960
+four. And use this image to find the data. And we'll just put in one and there's 
+
+68
+00:05:09,960 --> 00:05:11,640
+the image that we want 
+
+69
+00:05:11,660 --> 00:05:13,200
+and we'll press yes. 
+
+70
+00:05:13,230 --> 00:05:18,860
+So it started adding the concept of a template four. And let's see what it's done 
+
+71
+00:05:18,860 --> 00:05:24,950
+here. We've got template four, social media strategy, and okay, this looks good. 
+
+72
+00:05:25,280 --> 00:05:31,430
+Now I'm not sure whether I wanted to do that as two fields or one that wraps, but 
+
+73
+00:05:31,430 --> 00:05:33,170
+I think we'll leave it at that for now. 
+
+74
+00:05:33,00 --> 00:05:37,270
+We'll try. With the second image. We'll say, can you add a new slide to template 
+
+75
+00:05:37,270 --> 00:05:44,530
+five using Slide New and use two dot jpeg? 
+
+76
+00:05:44,560 --> 00:05:50,300
+we'll say yes. And hopefully what'll happen is we'll see today's presentation main 
+
+77
+00:05:50,300 --> 00:05:57,560
+topic and then a bullet list. And all of this is meant to go in here. So there's 
+
+78
+00:05:57,560 --> 00:06:03,380
+all the information. It's come through. We've got this image being referenced which 
+
+79
+00:06:03,400 --> 00:06:05,740
+well we'll leave that there the way it is.
+
+80
+00:06:05,760 --> 00:06:11,410
+And here we are on to template number six which is using our third image. We'll let 
+
+81
+00:06:11,410 --> 00:06:16,330
+that go through and see what happens. Now this is obviously not the image I want 
+
+82
+00:06:16,330 --> 00:06:21,490
+to use, but there was an image on the page. So the fact that it found that is also 
+
+83
+00:06:21,490 --> 00:06:26,440
+pretty handy. So if we look at this, we've got a name and a title that's looking 
+
+84
+00:06:26,440 --> 00:06:31,450
+good. We've got position and description based as roles and then we've got an image 
+
+85
+00:06:31,450 --> 00:06:38,290
+again. So Aider is excellent at reading the images just to capture the data. And 
+
+86
+00:06:38,290 --> 00:06:43,390
+it's formatted it into the JSON document just following the patterns that we've used 
+
+87
+00:06:43,390 --> 00:06:44,320
+before.
+
+88
+00:06:44,330 --> 00:06:50,630
+Now we've got our updated slide definition file. There's six different slides all 
+
+89
+00:06:50,630 --> 00:06:56,810
+using a unique template. And you can see an image down below of the last presentation 
+
+90
+00:06:56,810 --> 00:07:00,620
+we did. Now that used a different structure. And this is the structure here. We've 
+
+91
+00:07:00,620 --> 00:07:05,510
+got a H1 and H2. And then we've got this scalable vector graphic going on at the 
+
+92
+00:07:05,510 --> 00:07:10,790
+bottom. There's other slides going on and we can see the code. Now what we need to 
+
+93
+00:07:10,820 --> 00:07:14,540
+do before we get started is rewrite all of this code. 
+
+94
+00:07:14,330 --> 00:07:20,570
+because we have rewritten the JSON structure. And it now needs to support this modularized 
+
+95
+00:07:20,570 --> 00:07:25,310
+templating system. So what we'll do is we'll just take a copy of this information.
+
+96
+00:07:25,330 --> 00:07:29,800
+So what I've done is pre-prepared a requirements document and we're just gonna say, 
+
+97
+00:07:29,800 --> 00:07:34,450
+can you update it with the following? JSON, it needs to add three new template files 
+
+98
+00:07:34,450 --> 00:07:38,770
+and we're gonna paste everything in and then we're just gonna let it do its job. 
+
+99
+00:07:38,980 --> 00:07:40,630
+Now let's talk through what it's doing. 
+
+100
+00:07:40,630 --> 00:07:46,430
+the provided code samples are not mandatory to use. The reason for this is that I've 
+
+101
+00:07:46,430 --> 00:07:52,700
+done all this in Canvas. It's a great system, but I do want Aider to write the code 
+
+102
+00:07:52,700 --> 00:07:58,340
+the way it thinks. It shouldn't be constrained by what I've given it. I've basically 
+
+103
+00:07:58,340 --> 00:08:03,530
+told her it needs a template class for each template that we're doing plus a base 
+
+104
+00:08:03,530 --> 00:08:09,410
+class, and that there'll be a presentation. I've also described the uh, data structure. 
+
+105
+00:08:09,500 --> 00:08:14,270
+And so a lot of this requirements is in very human readable format that you could 
+
+106
+00:08:14,270 --> 00:08:15,740
+just give to a developer. 
+
+107
+00:08:15,760 --> 00:08:19,400
+we got the first three that I'd already set up manually, 
+
+108
+00:08:19,660 --> 00:08:23,770
+we got the four new ones being added here. If we look at the base template class 
+
+109
+00:08:23,980 --> 00:08:27,280
+as an example, if we go down to template four, 
+
+110
+00:08:27,300 --> 00:08:32,260
+which is meant to map a H one and a H two plus a footer message, and then we've got 
+
+111
+00:08:32,260 --> 00:08:34,810
+the date, and let's have a look at template 
+
+112
+00:08:34,860 --> 00:08:41,110
+So it's got a H1 and H2 and a looping through the roles. Finally there's also an 
+
+113
+00:08:41,110 --> 00:08:46,630
+image. And then at the bottom we've got this presentation class. So this is going 
+
+114
+00:08:46,630 --> 00:08:50,140
+to be the requirements document that we're going to feed to Aider. So we'll just 
+
+115
+00:08:50,140 --> 00:08:51,940
+click on this little button here.
+
+116
+00:08:51,960 --> 00:08:57,150
+Now I've put the requirements document into a file called to create presentation 
+
+117
+00:08:57,150 --> 00:09:03,630
+class. Now number one is from the previous video where we built the Reveal.js presentation 
+
+118
+00:09:03,630 --> 00:09:09,930
+system. One of the things I'd run into a few problems was trying to add it into the 
+
+119
+00:09:09,930 --> 00:09:12,930
+chat interface. So we'll just add right now and I think it's going to work. We'll 
+
+120
+00:09:12,930 --> 00:09:18,390
+just go to and we've got the file name there. Now, the reason I was having issues 
+
+121
+00:09:18,420 --> 00:09:24,480
+adding files was that they'd been added to VS code, but they hadn't been committed. 
+
+122
+00:09:24,480 --> 00:09:29,640
+So make sure it's committed if you want to see it work within Aider. So from here 
+
+123
+00:09:29,640 --> 00:09:30,660
+let's test it out.
+
+124
+00:09:30,660 --> 00:09:34,890
+So I've said, can you recreate? And we'll just go with presentation.js 
+
+125
+00:09:34,900 --> 00:09:39,880
+this is an example of where it doesn't find the right document. So I'm just going 
+
+126
+00:09:39,880 --> 00:09:46,390
+to grab the relative link to this file and let's see what happens. It's adding the 
+
+127
+00:09:46,390 --> 00:09:52,450
+presentation.js to the chat. And hopefully we're going to get a bunch of new code 
+
+128
+00:09:52,450 --> 00:09:53,620
+written right here.
+
+129
+00:09:53,630 --> 00:09:58,680
+So it's reported that it's added a base template class. We've got a presentation 
+
+130
+00:09:58,680 --> 00:10:04,620
+builder replacement by presentation class. We've got slide rendering and initialization 
+
+131
+00:10:04,620 --> 00:10:10,680
+code changed. And just so you know you can also see the cost. So that's costing $0.04 
+
+132
+00:10:10,680 --> 00:10:15,150
+at the moment. And if we look through the code we've got a template template one 
+
+133
+00:10:15,150 --> 00:10:20,910
+two. Let's go down to about four where we remember what they were like. We've got 
+
+134
+00:10:20,940 --> 00:10:27,930
+number six was a complex one. So we've got a H1 and H2. We've got an image and we've 
+
+135
+00:10:27,930 --> 00:10:34,830
+got the position and description inside of a loop. We can see the presentation code 
+
+136
+00:10:34,830 --> 00:10:39,180
+going on here. One minor change that I'm going to do myself is that it should be 
+
+137
+00:10:39,180 --> 00:10:44,400
+pointing to slides new. So let's just change that to new and we'll hit save.

@@ -1,0 +1,623 @@
+1
+00:00:00,00 --> 00:00:05,500
+I just noticed that OpenAI Sora got released. So why don't we sign in and figure 
+
+2
+00:00:05,500 --> 00:00:10,630
+out how to use it? So I'm going to come down to this link for Sora right now, and 
+
+3
+00:00:10,630 --> 00:00:16,360
+we'll just click on the start now. And from there account creation is unavailable. 
+
+4
+00:00:16,360 --> 00:00:20,560
+So what do we do. Looks like we're going to have to wait a little while.
+
+5
+00:00:20,560 --> 00:00:25,800
+I tried signing on with my normal OpenAI account and it's also failed, so let's just 
+
+6
+00:00:25,800 --> 00:00:28,800
+give this a couple of hours, see what happens.
+
+7
+00:00:28,990 --> 00:00:33,460
+Out seems only needed to wait a few minutes, and so we can now put in a valid date 
+
+8
+00:00:33,460 --> 00:00:35,260
+here, which you're going to need to get started.
+
+9
+00:00:35,330 --> 00:00:39,880
+So it brings us to a usage page and we can have a look firstly at the GPT Pro. And 
+
+10
+00:00:39,880 --> 00:00:44,200
+you can see that you can get 10,000 credits, 500 videos at 480p, 
+
+11
+00:00:44,230 --> 00:00:47,720
+one by one aspect ratio of five seconds. 
+
+12
+00:00:47,730 --> 00:00:53,180
+relaxed mode allows you to cue multiple videos as you generate them. Now since I'm 
+
+13
+00:00:53,180 --> 00:00:59,750
+using plus, I'm going to have access to 1000 credits, about 50 videos at 480p So 
+
+14
+00:00:59,750 --> 00:01:01,160
+let's just press continue.
+
+15
+00:01:01,190 --> 00:01:06,170
+It's asked for a username. So I'm just going to put in AppyDave And you've got access 
+
+16
+00:01:06,170 --> 00:01:10,730
+to a little helper video and explore your feed. Now what we'll do is we'll close 
+
+17
+00:01:10,730 --> 00:01:11,450
+out of that.
+
+18
+00:01:11,460 --> 00:01:16,950
+So before I get started, I thought I'd come into ChatGPT and just ask the question 
+
+19
+00:01:16,950 --> 00:01:22,560
+about whether there are any tips that I need to follow when writing a prompt for 
+
+20
+00:01:22,860 --> 00:01:28,260
+Sora, which is OpenAI's video editor, and I've been explicit about that so that it 
+
+21
+00:01:28,260 --> 00:01:31,770
+knows to pick the right product. So we've got a whole lot of information here.
+
+22
+00:01:31,790 --> 00:01:38,690
+So I thought I'd try out doing videos on a cafe in Thailand called Kozi Kafe, and 
+
+23
+00:01:38,690 --> 00:01:43,760
+I've put in this prompt walk up to a cafe called Cozy Cafe. We'll upload this image 
+
+24
+00:01:43,760 --> 00:01:50,720
+and just mention that it's a cafe that caters to tourists and shows local artisan 
+
+25
+00:01:50,720 --> 00:01:54,740
+products, stuff like that. But we won't just write that prompt directly. What we'll 
+
+26
+00:01:54,740 --> 00:02:01,790
+do is we'll come back into ChatGPT over here and say, can you use this and create
+
+27
+00:02:01,560 --> 00:02:03,930
+a five second
+
+28
+00:02:03,460 --> 00:02:08,750
+video concept? And we'll just paste in the rest of the information, and hopefully 
+
+29
+00:02:08,750 --> 00:02:13,220
+it's going to infer from the information above to give us a prompt.
+
+30
+00:02:13,230 --> 00:02:17,890
+Now, the prompt I thought I'd do with an image is called walk up to a cafe called 
+
+31
+00:02:17,890 --> 00:02:23,230
+Cozy Cafe in Chiang Mai, Thailand. It's a cafe that caters for tourists and local 
+
+32
+00:02:23,230 --> 00:02:28,390
+artisans, and we've got this image here that I'd like to use. But before we do, what 
+
+33
+00:02:28,390 --> 00:02:34,420
+we'll do is just run it as a prompt to see if it can come up with something cleaner, 
+
+34
+00:02:34,420 --> 00:02:39,160
+based on the guidelines above. So I've also said, can you use this to create a five 
+
+35
+00:02:39,190 --> 00:02:44,590
+second video concept? And it started writing something for us. So what we'll do is 
+
+36
+00:02:44,590 --> 00:02:47,830
+we'll just open all of this and we'll come back to here.
+
+37
+00:02:47,860 --> 00:02:51,570
+So we'll come down to the prompt and we'll just paste it all the way in. And let's 
+
+38
+00:02:51,570 --> 00:02:56,190
+have a look at a couple of the options here. So we can generate five and ten second 
+
+39
+00:02:56,190 --> 00:03:01,440
+videos. Maybe if you've got a pro plan you can do more I don't know. And we can do 
+
+40
+00:03:01,500 --> 00:03:06,840
+720p. Now if I do this I'm going to use up more of my credit. So I'm just going to 
+
+41
+00:03:06,840 --> 00:03:11,220
+stick with this one for now. And we can also play around with the aspect ratio. So 
+
+42
+00:03:11,220 --> 00:03:12,750
+let's also upload an image.
+
+43
+00:03:12,760 --> 00:03:17,790
+And when you do that it will first come up with a media upload agreement. So I'm 
+
+44
+00:03:17,790 --> 00:03:19,800
+going to tick them all off. I've read through 
+
+45
+00:03:19,830 --> 00:03:24,820
+Now I've got this message that you can't upload photos that have people. Now the 
+
+46
+00:03:24,820 --> 00:03:27,670
+photo we've got doesn't have a person, so that should be good.
+
+47
+00:03:27,690 --> 00:03:32,140
+So we come down to this button here, it says, create video, and we click on it and 
+
+48
+00:03:32,140 --> 00:03:35,350
+let's see what starts happening. So at the moment, it's generating 
+
+49
+00:03:35,360 --> 00:03:40,130
+video image, prompt opening frame, and we've, it's talking about what it's doing 
+
+50
+00:03:40,130 --> 00:03:44,960
+480p five seconds and it's 8 55 
+
+51
+00:03:44,990 --> 00:03:49,440
+modern bakery experience opening frame. The video starts with a scene of a street 
+
+52
+00:03:49,440 --> 00:03:52,380
+view in Chiang Mai lined with lush greenery 
+
+53
+00:03:52,390 --> 00:03:56,550
+And it would've gotten that local bakery experience from the fact that it says all 
+
+54
+00:03:56,550 --> 00:03:57,660
+about bread here. 
+
+55
+00:03:57,660 --> 00:04:01,430
+'cause as you can see, we didn't have the word bread here in the prompt. 
+
+56
+00:04:01,430 --> 00:04:05,790
+Now there's no timer telling us how long this is going to take. So far, it's been 
+
+57
+00:04:05,790 --> 00:04:06,630
+over a minute, 
+
+58
+00:04:06,660 --> 00:04:10,340
+so I'm about five minutes in at the moment. I just thought I'd do a search on perplexity 
+
+59
+00:04:10,340 --> 00:04:15,650
+to see what's happening. And many users have reported slow generation time, so often 
+
+60
+00:04:15,650 --> 00:04:21,140
+seeing a loading circle without successful video output. So this could be the experience 
+
+61
+00:04:21,140 --> 00:04:24,830
+I'll have here. I will try again if this happens after 10 minutes. 
+
+62
+00:04:24,860 --> 00:04:29,930
+Now there's also a couple of other pieces of information good to know. So it's going 
+
+63
+00:04:29,930 --> 00:04:35,30
+to struggle with realistic physics and consistency in log longer videos. So something 
+
+64
+00:04:35,30 --> 00:04:40,160
+to be aware of. You might need to clear your browser case, check the status page, 
+
+65
+00:04:40,190 --> 00:04:42,500
+or try a different browser or device.
+
+66
+00:04:42,530 --> 00:04:46,300
+So seven minutes in. We're still uploading, as you can see here. But what I thought 
+
+67
+00:04:46,300 --> 00:04:51,760
+I'd do is just have a look at the uploads capability. So I took a bunch of images 
+
+68
+00:04:51,760 --> 00:04:56,590
+from this Kozi Kafe. We've got this outdoor scene. That is what the first video is 
+
+69
+00:04:56,590 --> 00:05:02,260
+about. We've got a variation of the outdoor scene, some indoor scenes, some product 
+
+70
+00:05:02,260 --> 00:05:09,160
+displays, soaps and a grassy knoll to the side of the cafe. And also potential sort 
+
+71
+00:05:09,160 --> 00:05:13,570
+of infographics around pricing. One of the things I noticed when you upload images 
+
+72
+00:05:13,600 --> 00:05:18,280
+is if you upload two by accident, which I did, you can't delete them. So they're 
+
+73
+00:05:18,280 --> 00:05:22,690
+all listed here at the moment. And I've got no real way of changing this, so keep 
+
+74
+00:05:22,690 --> 00:05:23,380
+that in mind.
+
+75
+00:05:23,390 --> 00:05:27,120
+So working on the assumption that this might have hung. I'm just going to try clicking 
+
+76
+00:05:27,120 --> 00:05:31,860
+on this storyboard. And what we'll do is we'll paste in the same prompt as before. 
+
+77
+00:05:32,280 --> 00:05:37,680
+And when I went to pick the actual image, it only allowed it from the file system, 
+
+78
+00:05:37,680 --> 00:05:42,960
+not from those uploaded files. So that's something else to be aware of. I don't know 
+
+79
+00:05:42,960 --> 00:05:47,400
+whether I can even move this around, so the aspect ratio that it's showing here has 
+
+80
+00:05:47,430 --> 00:05:52,320
+been determined by OpenAI. But what we'll do is we'll click on the storyboard and 
+
+81
+00:05:52,320 --> 00:05:58,470
+we're taken to this area where we can now see things as different scenes. So these 
+
+82
+00:05:58,470 --> 00:06:03,840
+look like the scenes that we saw in the original one being generated. And let's just 
+
+83
+00:06:03,840 --> 00:06:08,910
+click create and see what happens here. And it's saying we can only do one generation 
+
+84
+00:06:08,910 --> 00:06:13,830
+at a time. So I'm on a plus account. I think that's different if you're on a pro 
+
+85
+00:06:13,860 --> 00:06:14,310
+account.
+
+86
+00:06:14,330 --> 00:06:17,420
+But while we're looking at this storyboard, here's another interesting thing. So 
+
+87
+00:06:17,420 --> 00:06:23,930
+you can regenerate the scene text. Now, I didn't find a way to be able to edit it 
+
+88
+00:06:23,120 --> 00:06:26,300
+manually, but we should just be able to click these 
+
+89
+00:06:26,560 --> 00:06:29,320
+here's scene three coming through as a new scene.
+
+90
+00:06:29,330 --> 00:06:34,260
+What now has happened is that this is starting to change and we're at 91%. So I think 
+
+91
+00:06:34,260 --> 00:06:35,880
+we're going to finish okay.
+
+92
+00:06:35,900 --> 00:06:42,520
+So the lesson there is to be patient. For me, that took about 15 minutes, I think.
+
+93
+00:06:42,530 --> 00:06:47,350
+And here we have two images and it looks like the right one. Let's see what happens 
+
+94
+00:06:47,350 --> 00:06:52,630
+if we hit play. Oh look at that. It's put real people into this shot. Now there's 
+
+95
+00:06:52,630 --> 00:06:58,630
+our physics issue going on. We're seeing the glass reflection not working. And it 
+
+96
+00:06:58,630 --> 00:07:00,820
+just looks like people are walking through a wall here.
+
+97
+00:07:00,830 --> 00:07:05,130
+So let's not upload an image for the next video. Let's just describe a scene. So 
+
+98
+00:07:05,130 --> 00:07:09,780
+what I'm going to do is paste in an image of some soaps that are for sale at this 
+
+99
+00:07:09,780 --> 00:07:11,310
+particular Kozi Kafe 
+
+100
+00:07:11,330 --> 00:07:15,380
+So what I'll do is I'll paste it in here. And this time I will use the storyboard 
+
+101
+00:07:15,380 --> 00:07:20,720
+just to see what's going on with this. And we've got these four scenes. So the camera 
+
+102
+00:07:20,750 --> 00:07:24,980
+sunny morning in Chiang Mai. The light filters through lush greenery. Then we've 
+
+103
+00:07:24,980 --> 00:07:30,830
+got inside the shop. A person walks past wooden shelves lined with vibrant, carved, 
+
+104
+00:07:30,830 --> 00:07:31,340
+fragrant soap.
+
+105
+00:07:31,360 --> 00:07:36,200
+Now I'm going to press create here. It's been added to the queue. It says the person 
+
+106
+00:07:36,200 --> 00:07:41,930
+reaches the carved soap section and gently picks up a soap shaped like a blooming 
+
+107
+00:07:41,930 --> 00:07:46,580
+lotus flower. And then we've got the camera zooms in on the soap, capturing the delicate 
+
+108
+00:07:46,580 --> 00:07:48,680
+carvings and soft pastel colors.
+
+109
+00:07:48,690 --> 00:07:53,190
+So you'll know it's running, because you'll see this little activity counter over 
+
+110
+00:07:53,190 --> 00:07:57,510
+here. But we should be able to click here and come back to see the generation over 
+
+111
+00:07:57,510 --> 00:07:58,620
+here as well.
+
+112
+00:07:58,630 --> 00:08:03,480
+I'm a bit slow on the timer, but we'll just start one. We've been going for about 
+
+113
+00:08:03,480 --> 00:08:06,630
+one minute at the moment, maybe two minutes.
+
+114
+00:08:06,660 --> 00:08:11,580
+Now it seems stuck here on 99%, but it's also told me that it's ready to watch. So 
+
+115
+00:08:11,580 --> 00:08:17,940
+what I might do is just do a refresh on the screen and see what happens next. And 
+
+116
+00:08:17,940 --> 00:08:23,460
+so what I had to do here was actually click on this to bring up this new view. So 
+
+117
+00:08:23,460 --> 00:08:30,120
+can we hit play on this. And not yet. We are currently about 14 or 15 minutes into 
+
+118
+00:08:30,120 --> 00:08:31,560
+this generation.
+
+119
+00:08:31,560 --> 00:08:35,530
+So here we have the video. In fact, we've got two videos and I might need to go back 
+
+120
+00:08:35,530 --> 00:08:38,500
+and check the other one, because there must have been a second one on the left that 
+
+121
+00:08:38,500 --> 00:08:44,110
+I didn't notice. But if we hit play on this, we'll see these. Looking at the soaps, 
+
+122
+00:08:44,110 --> 00:08:49,120
+it's coming up to the stand where the soaps are available, and then we zoom in on 
+
+123
+00:08:49,150 --> 00:08:49,630
+them.
+
+124
+00:08:49,660 --> 00:08:54,460
+So I've just come back and I have noticed that this is another video. So if we just 
+
+125
+00:08:54,460 --> 00:08:58,900
+hit play on this, there's just not a lot going on other than the tree is moving with 
+
+126
+00:08:58,900 --> 00:08:59,530
+this one.
+
+127
+00:08:59,560 --> 00:09:05,380
+So let's do one more use case. What I've done is this daily generated infographic, 
+
+128
+00:09:05,380 --> 00:09:09,820
+and I've just asked it to describe the infographic. Then from there, I've put in 
+
+129
+00:09:09,820 --> 00:09:14,830
+this question, can you do a video description about an ebook that teaches people 
+
+130
+00:09:14,830 --> 00:09:20,620
+how to set up and run a cafe in Thailand listing the cost, pricing, models, and sales 
+
+131
+00:09:20,620 --> 00:09:25,240
+and marketing materials? So that's starting to generate a prompt that we should be 
+
+132
+00:09:25,240 --> 00:09:29,500
+able to put in with this one. I think we'll do this as a storyboard as well.
+
+133
+00:09:29,530 --> 00:09:34,950
+So it's just writing that out. And what we'll do is we'll copy it straight into the 
+
+134
+00:09:34,950 --> 00:09:41,220
+describe your video. And I'm going to go with the storyboard concept one more time 
+
+135
+00:09:41,220 --> 00:09:45,480
+just to see how that looks. Let's click on storyboard. I'm not going to be changing 
+
+136
+00:09:45,480 --> 00:09:47,390
+any of these items just yet.
+
+137
+00:09:47,390 --> 00:09:52,530
+and you can see them all listed here. So what we'll do is we'll press create, and 
+
+138
+00:09:52,530 --> 00:09:55,590
+we'll just kick off a timer to see how long this is going to take.
+
+139
+00:09:55,590 --> 00:10:00,950
+And there it is, complete. We've taken about ten minutes. So let's just go over and 
+
+140
+00:10:00,950 --> 00:10:06,230
+test this out. Discover. And we can't read the text, which is pretty normal with 
+
+141
+00:10:06,230 --> 00:10:12,560
+generations. It's got a few errors in it, but this is actually looking interesting 
+
+142
+00:10:12,560 --> 00:10:15,950
+as an idea for an e-book. Let's just go and have a look at the other one we've got 
+
+143
+00:10:15,980 --> 00:10:23,210
+here. Learn in the successful who and strategies who have trusted in Thailand. A 
+
+144
+00:10:23,210 --> 00:10:25,160
+bit of a challenge there as well, 
+
+145
+00:10:25,330 --> 00:10:29,590
+maybe this zoom in effect is pretty good with this particular video. What was the 
+
+146
+00:10:29,590 --> 00:10:34,810
+effect here? This was more moving in different directions. And this like expanding 
+
+147
+00:10:34,810 --> 00:10:35,830
+circle is pretty cool.
+
+148
+00:10:35,830 --> 00:10:41,190
+Now just to finalize off, if you go up into settings, there's an area called My Plan. 
+
+149
+00:10:41,190 --> 00:10:46,530
+And from here you can see that I've used up 150 of the thousand credits I've got, 
+
+150
+00:10:46,530 --> 00:10:52,200
+and that my plan will reset in about five days. Now how what is the timing on this? 
+
+151
+00:10:52,230 --> 00:10:56,730
+If you click on the Learn More, you'll be taken over to the costing. And if you look 
+
+152
+00:10:56,730 --> 00:11:03,630
+for the word reset, you can see that it's going to reset based on your monthly 
+
+153
+00:11:03,990 --> 00:11:06,770
+but if you want to see the costs, they're all listed right here.
+
+154
+00:11:06,790 --> 00:11:13,130
+Well, there you have your first look at Sora video generation system from OpenAI. 
+
+155
+00:11:13,160 --> 00:11:19,430
+I'm happy Dave. I usually do videos on AI agents or automating processes using AI. 
+
+156
+00:11:19,460 --> 00:11:21,860
+Please like and subscribe. I'll see you in the next video.

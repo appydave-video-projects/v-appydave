@@ -1,0 +1,1864 @@
+1
+00:00:00,000 --> 00:00:00,340
+<u>An</u> effective amplification strategy for YouTube is sharing well-crafted tweets on X,
+
+2
+00:00:00,340 --> 00:00:00,640
+An<u> effective</u> amplification strategy for YouTube is sharing well-crafted tweets on X,
+
+3
+00:00:00,640 --> 00:00:01,520
+An effective<u> amplification</u> strategy for YouTube is sharing well-crafted tweets on X,
+
+4
+00:00:01,520 --> 00:00:02,120
+An effective amplification<u> strategy</u> for YouTube is sharing well-crafted tweets on X,
+
+5
+00:00:02,120 --> 00:00:02,440
+An effective amplification strategy<u> for</u> YouTube is sharing well-crafted tweets on X,
+
+6
+00:00:02,440 --> 00:00:02,800
+An effective amplification strategy for<u> YouTube</u> is sharing well-crafted tweets on X,
+
+7
+00:00:02,800 --> 00:00:03,240
+An effective amplification strategy for YouTube<u> is</u> sharing well-crafted tweets on X,
+
+8
+00:00:03,240 --> 00:00:03,600
+An effective amplification strategy for YouTube is<u> sharing</u> well-crafted tweets on X,
+
+9
+00:00:03,600 --> 00:00:03,960
+An effective amplification strategy for YouTube is sharing<u> well</u>-crafted tweets on X,
+
+10
+00:00:03,960 --> 00:00:04,620
+An effective amplification strategy for YouTube is sharing well<u>-crafted</u> tweets on X,
+
+11
+00:00:04,620 --> 00:00:04,900
+An effective amplification strategy for YouTube is sharing well-crafted<u> tweets</u> on X,
+
+12
+00:00:04,900 --> 00:00:05,200
+An effective amplification strategy for YouTube is sharing well-crafted tweets<u> on</u> X,
+
+13
+00:00:05,200 --> 00:00:05,680
+An effective amplification strategy for YouTube is sharing well-crafted tweets on<u> X,</u>
+
+14
+00:00:06,160 --> 00:00:06,460
+<u>formerly</u> Twitter. This video explores how I use TubeTweet GPT to compose compelling tweets
+
+15
+00:00:06,460 --> 00:00:06,780
+formerly<u> Twitter.</u> This video explores how I use TubeTweet GPT to compose compelling tweets
+
+16
+00:00:06,780 --> 00:00:07,580
+formerly Twitter. This video explores how I use TubeTweet GPT to compose compelling tweets
+
+17
+00:00:07,580 --> 00:00:07,760
+formerly Twitter.<u> This</u> video explores how I use TubeTweet GPT to compose compelling tweets
+
+18
+00:00:07,760 --> 00:00:08,100
+formerly Twitter. This<u> video</u> explores how I use TubeTweet GPT to compose compelling tweets
+
+19
+00:00:08,100 --> 00:00:08,660
+formerly Twitter. This video<u> explores</u> how I use TubeTweet GPT to compose compelling tweets
+
+20
+00:00:08,660 --> 00:00:08,940
+formerly Twitter. This video explores<u> how</u> I use TubeTweet GPT to compose compelling tweets
+
+21
+00:00:08,940 --> 00:00:09,080
+formerly Twitter. This video explores how<u> I</u> use TubeTweet GPT to compose compelling tweets
+
+22
+00:00:09,080 --> 00:00:09,320
+formerly Twitter. This video explores how I<u> use</u> TubeTweet GPT to compose compelling tweets
+
+23
+00:00:09,320 --> 00:00:10,080
+formerly Twitter. This video explores how I use<u> TubeTweet</u> GPT to compose compelling tweets
+
+24
+00:00:10,080 --> 00:00:10,900
+formerly Twitter. This video explores how I use TubeTweet<u> GPT</u> to compose compelling tweets
+
+25
+00:00:10,900 --> 00:00:11,440
+formerly Twitter. This video explores how I use TubeTweet GPT<u> to</u> compose compelling tweets
+
+26
+00:00:11,440 --> 00:00:11,840
+formerly Twitter. This video explores how I use TubeTweet GPT to<u> compose</u> compelling tweets
+
+27
+00:00:11,840 --> 00:00:12,400
+formerly Twitter. This video explores how I use TubeTweet GPT to compose<u> compelling</u> tweets
+
+28
+00:00:12,400 --> 00:00:12,920
+formerly Twitter. This video explores how I use TubeTweet GPT to compose compelling<u> tweets</u>
+
+29
+00:00:12,920 --> 00:00:13,440
+<u>that</u> promote YouTube videos, capturing the essence of my content in just a few words.
+
+30
+00:00:13,440 --> 00:00:13,860
+that<u> promote</u> YouTube videos, capturing the essence of my content in just a few words.
+
+31
+00:00:13,860 --> 00:00:14,200
+that promote<u> YouTube</u> videos, capturing the essence of my content in just a few words.
+
+32
+00:00:14,200 --> 00:00:14,760
+that promote YouTube<u> videos,</u> capturing the essence of my content in just a few words.
+
+33
+00:00:14,760 --> 00:00:15,140
+that promote YouTube videos, capturing the essence of my content in just a few words.
+
+34
+00:00:15,140 --> 00:00:15,500
+that promote YouTube videos,<u> capturing</u> the essence of my content in just a few words.
+
+35
+00:00:15,500 --> 00:00:15,800
+that promote YouTube videos, capturing<u> the</u> essence of my content in just a few words.
+
+36
+00:00:15,800 --> 00:00:16,100
+that promote YouTube videos, capturing the<u> essence</u> of my content in just a few words.
+
+37
+00:00:16,100 --> 00:00:16,440
+that promote YouTube videos, capturing the essence<u> of</u> my content in just a few words.
+
+38
+00:00:16,440 --> 00:00:16,700
+that promote YouTube videos, capturing the essence of<u> my</u> content in just a few words.
+
+39
+00:00:16,700 --> 00:00:17,140
+that promote YouTube videos, capturing the essence of my<u> content</u> in just a few words.
+
+40
+00:00:17,140 --> 00:00:17,440
+that promote YouTube videos, capturing the essence of my content<u> in</u> just a few words.
+
+41
+00:00:17,440 --> 00:00:17,640
+that promote YouTube videos, capturing the essence of my content in<u> just</u> a few words.
+
+42
+00:00:17,640 --> 00:00:17,840
+that promote YouTube videos, capturing the essence of my content in just<u> a</u> few words.
+
+43
+00:00:17,840 --> 00:00:17,960
+that promote YouTube videos, capturing the essence of my content in just a<u> few</u> words.
+
+44
+00:00:17,960 --> 00:00:18,380
+that promote YouTube videos, capturing the essence of my content in just a few<u> words.</u>
+
+45
+00:00:19,440 --> 00:00:19,860
+<u>Let's</u> see how we can amplify YouTube influence using GPT.
+
+46
+00:00:19,860 --> 00:00:20,060
+Let's<u> see</u> how we can amplify YouTube influence using GPT.
+
+47
+00:00:20,060 --> 00:00:20,280
+Let's see<u> how</u> we can amplify YouTube influence using GPT.
+
+48
+00:00:20,280 --> 00:00:20,440
+Let's see how<u> we</u> can amplify YouTube influence using GPT.
+
+49
+00:00:20,440 --> 00:00:20,620
+Let's see how we<u> can</u> amplify YouTube influence using GPT.
+
+50
+00:00:20,620 --> 00:00:20,980
+Let's see how we can<u> amplify</u> YouTube influence using GPT.
+
+51
+00:00:20,980 --> 00:00:21,480
+Let's see how we can amplify<u> YouTube</u> influence using GPT.
+
+52
+00:00:21,480 --> 00:00:22,160
+Let's see how we can amplify YouTube<u> influence</u> using GPT.
+
+53
+00:00:22,160 --> 00:00:22,720
+Let's see how we can amplify YouTube influence<u> using</u> GPT.
+
+54
+00:00:22,720 --> 00:00:23,360
+Let's see how we can amplify YouTube influence using<u> GPT.</u>
+
+55
+00:00:23,360 --> 00:00:24,080
+<u>When</u> I created the Shell Script Helper video, I tweeted it and it goes dive into the future of
+
+56
+00:00:24,080 --> 00:00:24,200
+When<u> I</u> created the Shell Script Helper video, I tweeted it and it goes dive into the future of
+
+57
+00:00:24,200 --> 00:00:24,600
+When I<u> created</u> the Shell Script Helper video, I tweeted it and it goes dive into the future of
+
+58
+00:00:24,600 --> 00:00:24,820
+When I created<u> the</u> Shell Script Helper video, I tweeted it and it goes dive into the future of
+
+59
+00:00:24,820 --> 00:00:25,100
+When I created the<u> Shell</u> Script Helper video, I tweeted it and it goes dive into the future of
+
+60
+00:00:25,100 --> 00:00:25,460
+When I created the Shell<u> Script</u> Helper video, I tweeted it and it goes dive into the future of
+
+61
+00:00:25,460 --> 00:00:26,080
+When I created the Shell Script<u> Helper</u> video, I tweeted it and it goes dive into the future of
+
+62
+00:00:26,080 --> 00:00:26,980
+When I created the Shell Script Helper<u> video,</u> I tweeted it and it goes dive into the future of
+
+63
+00:00:26,980 --> 00:00:27,340
+When I created the Shell Script Helper video, I tweeted it and it goes dive into the future of
+
+64
+00:00:27,340 --> 00:00:27,520
+When I created the Shell Script Helper video,<u> I</u> tweeted it and it goes dive into the future of
+
+65
+00:00:27,520 --> 00:00:27,960
+When I created the Shell Script Helper video, I<u> tweeted</u> it and it goes dive into the future of
+
+66
+00:00:27,960 --> 00:00:28,240
+When I created the Shell Script Helper video, I tweeted<u> it</u> and it goes dive into the future of
+
+67
+00:00:28,240 --> 00:00:28,620
+When I created the Shell Script Helper video, I tweeted it<u> and</u> it goes dive into the future of
+
+68
+00:00:28,620 --> 00:00:28,860
+When I created the Shell Script Helper video, I tweeted it and<u> it</u> goes dive into the future of
+
+69
+00:00:28,860 --> 00:00:29,040
+When I created the Shell Script Helper video, I tweeted it and it<u> goes</u> dive into the future of
+
+70
+00:00:29,040 --> 00:00:29,440
+When I created the Shell Script Helper video, I tweeted it and it goes<u> dive</u> into the future of
+
+71
+00:00:29,440 --> 00:00:29,640
+When I created the Shell Script Helper video, I tweeted it and it goes dive<u> into</u> the future of
+
+72
+00:00:29,640 --> 00:00:29,800
+When I created the Shell Script Helper video, I tweeted it and it goes dive into<u> the</u> future of
+
+73
+00:00:29,800 --> 00:00:30,180
+When I created the Shell Script Helper video, I tweeted it and it goes dive into the<u> future</u> of
+
+74
+00:00:30,180 --> 00:00:30,680
+When I created the Shell Script Helper video, I tweeted it and it goes dive into the future<u> of</u>
+
+75
+00:00:30,680 --> 00:00:31,520
+<u>scripting</u> with Shell Script Helper. Watch as I transform Shell Scripting with ChatGPT and we've
+
+76
+00:00:31,520 --> 00:00:31,660
+scripting<u> with</u> Shell Script Helper. Watch as I transform Shell Scripting with ChatGPT and we've
+
+77
+00:00:31,660 --> 00:00:31,940
+scripting with<u> Shell</u> Script Helper. Watch as I transform Shell Scripting with ChatGPT and we've
+
+78
+00:00:31,940 --> 00:00:32,620
+scripting with Shell<u> Script</u> Helper. Watch as I transform Shell Scripting with ChatGPT and we've
+
+79
+00:00:32,620 --> 00:00:33,080
+scripting with Shell Script<u> Helper.</u> Watch as I transform Shell Scripting with ChatGPT and we've
+
+80
+00:00:33,080 --> 00:00:33,160
+scripting with Shell Script Helper. Watch as I transform Shell Scripting with ChatGPT and we've
+
+81
+00:00:33,160 --> 00:00:33,560
+scripting with Shell Script Helper.<u> Watch</u> as I transform Shell Scripting with ChatGPT and we've
+
+82
+00:00:33,560 --> 00:00:33,760
+scripting with Shell Script Helper. Watch<u> as</u> I transform Shell Scripting with ChatGPT and we've
+
+83
+00:00:33,760 --> 00:00:33,900
+scripting with Shell Script Helper. Watch as<u> I</u> transform Shell Scripting with ChatGPT and we've
+
+84
+00:00:33,900 --> 00:00:34,520
+scripting with Shell Script Helper. Watch as I<u> transform</u> Shell Scripting with ChatGPT and we've
+
+85
+00:00:34,520 --> 00:00:35,260
+scripting with Shell Script Helper. Watch as I transform<u> Shell</u> Scripting with ChatGPT and we've
+
+86
+00:00:35,260 --> 00:00:35,860
+scripting with Shell Script Helper. Watch as I transform Shell<u> Scripting</u> with ChatGPT and we've
+
+87
+00:00:35,860 --> 00:00:36,040
+scripting with Shell Script Helper. Watch as I transform Shell Scripting<u> with</u> ChatGPT and we've
+
+88
+00:00:36,040 --> 00:00:36,880
+scripting with Shell Script Helper. Watch as I transform Shell Scripting with<u> ChatGPT</u> and we've
+
+89
+00:00:36,880 --> 00:00:37,440
+scripting with Shell Script Helper. Watch as I transform Shell Scripting with ChatGPT<u> and</u> we've
+
+90
+00:00:37,440 --> 00:00:37,780
+scripting with Shell Script Helper. Watch as I transform Shell Scripting with ChatGPT and<u> we've</u>
+
+91
+00:00:37,780 --> 00:00:38,000
+<u>got</u> a link and a couple of hashtags. Now looking at the tweet composer GPT agent,
+
+92
+00:00:38,000 --> 00:00:38,260
+got<u> a</u> link and a couple of hashtags. Now looking at the tweet composer GPT agent,
+
+93
+00:00:38,260 --> 00:00:38,580
+got a<u> link</u> and a couple of hashtags. Now looking at the tweet composer GPT agent,
+
+94
+00:00:38,580 --> 00:00:39,020
+got a link<u> and</u> a couple of hashtags. Now looking at the tweet composer GPT agent,
+
+95
+00:00:39,020 --> 00:00:39,160
+got a link and<u> a</u> couple of hashtags. Now looking at the tweet composer GPT agent,
+
+96
+00:00:39,160 --> 00:00:39,420
+got a link and a<u> couple</u> of hashtags. Now looking at the tweet composer GPT agent,
+
+97
+00:00:39,420 --> 00:00:39,720
+got a link and a couple<u> of</u> hashtags. Now looking at the tweet composer GPT agent,
+
+98
+00:00:39,720 --> 00:00:40,100
+got a link and a couple of<u> hashtags.</u> Now looking at the tweet composer GPT agent,
+
+99
+00:00:40,100 --> 00:00:41,020
+got a link and a couple of hashtags. Now looking at the tweet composer GPT agent,
+
+100
+00:00:41,020 --> 00:00:41,160
+got a link and a couple of hashtags.<u> Now</u> looking at the tweet composer GPT agent,
+
+101
+00:00:41,160 --> 00:00:41,400
+got a link and a couple of hashtags. Now<u> looking</u> at the tweet composer GPT agent,
+
+102
+00:00:41,400 --> 00:00:41,640
+got a link and a couple of hashtags. Now looking<u> at</u> the tweet composer GPT agent,
+
+103
+00:00:41,640 --> 00:00:41,820
+got a link and a couple of hashtags. Now looking at<u> the</u> tweet composer GPT agent,
+
+104
+00:00:41,820 --> 00:00:42,100
+got a link and a couple of hashtags. Now looking at the<u> tweet</u> composer GPT agent,
+
+105
+00:00:42,100 --> 00:00:42,800
+got a link and a couple of hashtags. Now looking at the tweet<u> composer</u> GPT agent,
+
+106
+00:00:42,800 --> 00:00:43,560
+got a link and a couple of hashtags. Now looking at the tweet composer<u> GPT</u> agent,
+
+107
+00:00:43,560 --> 00:00:44,000
+got a link and a couple of hashtags. Now looking at the tweet composer GPT<u> agent,</u>
+
+108
+00:00:44,560 --> 00:00:44,740
+<u>its</u> role is to create tweets for YouTube videos. It emphasizes on capturing the essence of videos
+
+109
+00:00:44,740 --> 00:00:45,060
+its<u> role</u> is to create tweets for YouTube videos. It emphasizes on capturing the essence of videos
+
+110
+00:00:45,060 --> 00:00:45,320
+its role<u> is</u> to create tweets for YouTube videos. It emphasizes on capturing the essence of videos
+
+111
+00:00:45,320 --> 00:00:45,480
+its role is<u> to</u> create tweets for YouTube videos. It emphasizes on capturing the essence of videos
+
+112
+00:00:45,480 --> 00:00:45,860
+its role is to<u> create</u> tweets for YouTube videos. It emphasizes on capturing the essence of videos
+
+113
+00:00:45,860 --> 00:00:46,420
+its role is to create<u> tweets</u> for YouTube videos. It emphasizes on capturing the essence of videos
+
+114
+00:00:46,420 --> 00:00:46,860
+its role is to create tweets<u> for</u> YouTube videos. It emphasizes on capturing the essence of videos
+
+115
+00:00:46,860 --> 00:00:47,200
+its role is to create tweets for<u> YouTube</u> videos. It emphasizes on capturing the essence of videos
+
+116
+00:00:47,200 --> 00:00:47,660
+its role is to create tweets for YouTube<u> videos.</u> It emphasizes on capturing the essence of videos
+
+117
+00:00:47,660 --> 00:00:48,040
+its role is to create tweets for YouTube videos. It emphasizes on capturing the essence of videos
+
+118
+00:00:48,040 --> 00:00:48,240
+its role is to create tweets for YouTube videos.<u> It</u> emphasizes on capturing the essence of videos
+
+119
+00:00:48,240 --> 00:00:48,860
+its role is to create tweets for YouTube videos. It<u> emphasizes</u> on capturing the essence of videos
+
+120
+00:00:48,860 --> 00:00:49,460
+its role is to create tweets for YouTube videos. It emphasizes<u> on</u> capturing the essence of videos
+
+121
+00:00:49,460 --> 00:00:49,980
+its role is to create tweets for YouTube videos. It emphasizes on<u> capturing</u> the essence of videos
+
+122
+00:00:49,980 --> 00:00:50,520
+its role is to create tweets for YouTube videos. It emphasizes on capturing<u> the</u> essence of videos
+
+123
+00:00:50,520 --> 00:00:50,820
+its role is to create tweets for YouTube videos. It emphasizes on capturing the<u> essence</u> of videos
+
+124
+00:00:50,820 --> 00:00:51,380
+its role is to create tweets for YouTube videos. It emphasizes on capturing the essence<u> of</u> videos
+
+125
+00:00:51,380 --> 00:00:51,860
+its role is to create tweets for YouTube videos. It emphasizes on capturing the essence of<u> videos</u>
+
+126
+00:00:51,860 --> 00:00:52,380
+<u>in</u> tweet format. When you use the create command, which I've set up for this one,
+
+127
+00:00:52,380 --> 00:00:52,640
+in<u> tweet</u> format. When you use the create command, which I've set up for this one,
+
+128
+00:00:52,640 --> 00:00:53,160
+in tweet<u> format.</u> When you use the create command, which I've set up for this one,
+
+129
+00:00:53,160 --> 00:00:53,540
+in tweet format. When you use the create command, which I've set up for this one,
+
+130
+00:00:53,540 --> 00:00:53,780
+in tweet format.<u> When</u> you use the create command, which I've set up for this one,
+
+131
+00:00:53,780 --> 00:00:53,960
+in tweet format. When<u> you</u> use the create command, which I've set up for this one,
+
+132
+00:00:53,960 --> 00:00:54,200
+in tweet format. When you<u> use</u> the create command, which I've set up for this one,
+
+133
+00:00:54,200 --> 00:00:54,380
+in tweet format. When you use<u> the</u> create command, which I've set up for this one,
+
+134
+00:00:54,380 --> 00:00:54,640
+in tweet format. When you use the<u> create</u> command, which I've set up for this one,
+
+135
+00:00:54,640 --> 00:00:55,040
+in tweet format. When you use the create<u> command,</u> which I've set up for this one,
+
+136
+00:00:55,040 --> 00:00:55,300
+in tweet format. When you use the create command, which I've set up for this one,
+
+137
+00:00:55,300 --> 00:00:55,480
+in tweet format. When you use the create command,<u> which</u> I've set up for this one,
+
+138
+00:00:55,480 --> 00:00:55,900
+in tweet format. When you use the create command, which<u> I've</u> set up for this one,
+
+139
+00:00:55,900 --> 00:00:56,120
+in tweet format. When you use the create command, which I've<u> set</u> up for this one,
+
+140
+00:00:56,120 --> 00:00:56,240
+in tweet format. When you use the create command, which I've set<u> up</u> for this one,
+
+141
+00:00:56,240 --> 00:00:56,400
+in tweet format. When you use the create command, which I've set up<u> for</u> this one,
+
+142
+00:00:56,400 --> 00:00:56,600
+in tweet format. When you use the create command, which I've set up for<u> this</u> one,
+
+143
+00:00:56,600 --> 00:00:56,860
+in tweet format. When you use the create command, which I've set up for this<u> one,</u>
+
+144
+00:00:57,160 --> 00:00:57,340
+<u>it</u> expects a YouTube title, a link to the video and a couple of key highlights.
+
+145
+00:00:57,340 --> 00:00:57,860
+it<u> expects</u> a YouTube title, a link to the video and a couple of key highlights.
+
+146
+00:00:57,860 --> 00:00:58,120
+it expects<u> a</u> YouTube title, a link to the video and a couple of key highlights.
+
+147
+00:00:58,120 --> 00:00:58,440
+it expects a<u> YouTube</u> title, a link to the video and a couple of key highlights.
+
+148
+00:00:58,440 --> 00:00:58,980
+it expects a YouTube<u> title,</u> a link to the video and a couple of key highlights.
+
+149
+00:00:58,980 --> 00:00:59,340
+it expects a YouTube title, a link to the video and a couple of key highlights.
+
+150
+00:00:59,340 --> 00:00:59,560
+it expects a YouTube title,<u> a</u> link to the video and a couple of key highlights.
+
+151
+00:00:59,560 --> 00:00:59,780
+it expects a YouTube title, a<u> link</u> to the video and a couple of key highlights.
+
+152
+00:00:59,780 --> 00:01:00,100
+it expects a YouTube title, a link<u> to</u> the video and a couple of key highlights.
+
+153
+00:01:00,100 --> 00:01:00,260
+it expects a YouTube title, a link to<u> the</u> video and a couple of key highlights.
+
+154
+00:01:00,260 --> 00:01:00,660
+it expects a YouTube title, a link to the<u> video</u> and a couple of key highlights.
+
+155
+00:01:00,660 --> 00:01:01,140
+it expects a YouTube title, a link to the video<u> and</u> a couple of key highlights.
+
+156
+00:01:01,140 --> 00:01:01,260
+it expects a YouTube title, a link to the video and<u> a</u> couple of key highlights.
+
+157
+00:01:01,260 --> 00:01:01,460
+it expects a YouTube title, a link to the video and a<u> couple</u> of key highlights.
+
+158
+00:01:01,460 --> 00:01:01,600
+it expects a YouTube title, a link to the video and a couple<u> of</u> key highlights.
+
+159
+00:01:01,600 --> 00:01:01,860
+it expects a YouTube title, a link to the video and a couple of<u> key</u> highlights.
+
+160
+00:01:01,860 --> 00:01:02,360
+it expects a YouTube title, a link to the video and a couple of key<u> highlights.</u>
+
+161
+00:01:02,700 --> 00:01:02,920
+<u>We</u> could also pass in the summary. Let's head over to the tweet composer and we'll see that it
+
+162
+00:01:02,920 --> 00:01:03,060
+We<u> could</u> also pass in the summary. Let's head over to the tweet composer and we'll see that it
+
+163
+00:01:03,060 --> 00:01:03,300
+We could<u> also</u> pass in the summary. Let's head over to the tweet composer and we'll see that it
+
+164
+00:01:03,300 --> 00:01:03,660
+We could also<u> pass</u> in the summary. Let's head over to the tweet composer and we'll see that it
+
+165
+00:01:03,660 --> 00:01:03,900
+We could also pass<u> in</u> the summary. Let's head over to the tweet composer and we'll see that it
+
+166
+00:01:03,900 --> 00:01:04,020
+We could also pass in<u> the</u> summary. Let's head over to the tweet composer and we'll see that it
+
+167
+00:01:04,020 --> 00:01:04,300
+We could also pass in the<u> summary.</u> Let's head over to the tweet composer and we'll see that it
+
+168
+00:01:04,300 --> 00:01:04,640
+We could also pass in the summary. Let's head over to the tweet composer and we'll see that it
+
+169
+00:01:04,640 --> 00:01:04,680
+We could also pass in the summary.<u> Let's</u> head over to the tweet composer and we'll see that it
+
+170
+00:01:04,680 --> 00:01:04,820
+We could also pass in the summary. Let's<u> head</u> over to the tweet composer and we'll see that it
+
+171
+00:01:04,820 --> 00:01:05,060
+We could also pass in the summary. Let's head<u> over</u> to the tweet composer and we'll see that it
+
+172
+00:01:05,060 --> 00:01:05,320
+We could also pass in the summary. Let's head over<u> to</u> the tweet composer and we'll see that it
+
+173
+00:01:05,320 --> 00:01:05,580
+We could also pass in the summary. Let's head over to<u> the</u> tweet composer and we'll see that it
+
+174
+00:01:05,580 --> 00:01:05,920
+We could also pass in the summary. Let's head over to the<u> tweet</u> composer and we'll see that it
+
+175
+00:01:05,920 --> 00:01:06,440
+We could also pass in the summary. Let's head over to the tweet<u> composer</u> and we'll see that it
+
+176
+00:01:06,440 --> 00:01:06,760
+We could also pass in the summary. Let's head over to the tweet composer<u> and</u> we'll see that it
+
+177
+00:01:06,760 --> 00:01:06,880
+We could also pass in the summary. Let's head over to the tweet composer and<u> we'll</u> see that it
+
+178
+00:01:06,880 --> 00:01:07,060
+We could also pass in the summary. Let's head over to the tweet composer and we'll<u> see</u> that it
+
+179
+00:01:07,060 --> 00:01:07,240
+We could also pass in the summary. Let's head over to the tweet composer and we'll see<u> that</u> it
+
+180
+00:01:07,240 --> 00:01:07,360
+We could also pass in the summary. Let's head over to the tweet composer and we'll see that<u> it</u>
+
+181
+00:01:07,360 --> 00:01:08,060
+<u>specializes</u> in creating engaging tweets for YouTube videos and we'll click on the commands
+
+182
+00:01:08,060 --> 00:01:08,400
+specializes<u> in</u> creating engaging tweets for YouTube videos and we'll click on the commands
+
+183
+00:01:08,400 --> 00:01:08,780
+specializes in<u> creating</u> engaging tweets for YouTube videos and we'll click on the commands
+
+184
+00:01:08,780 --> 00:01:09,340
+specializes in creating<u> engaging</u> tweets for YouTube videos and we'll click on the commands
+
+185
+00:01:09,340 --> 00:01:09,780
+specializes in creating engaging<u> tweets</u> for YouTube videos and we'll click on the commands
+
+186
+00:01:09,780 --> 00:01:10,440
+specializes in creating engaging tweets<u> for</u> YouTube videos and we'll click on the commands
+
+187
+00:01:10,440 --> 00:01:10,780
+specializes in creating engaging tweets for<u> YouTube</u> videos and we'll click on the commands
+
+188
+00:01:10,780 --> 00:01:11,300
+specializes in creating engaging tweets for YouTube<u> videos</u> and we'll click on the commands
+
+189
+00:01:11,300 --> 00:01:11,880
+specializes in creating engaging tweets for YouTube videos<u> and</u> we'll click on the commands
+
+190
+00:01:11,880 --> 00:01:12,020
+specializes in creating engaging tweets for YouTube videos and<u> we'll</u> click on the commands
+
+191
+00:01:12,020 --> 00:01:12,200
+specializes in creating engaging tweets for YouTube videos and we'll<u> click</u> on the commands
+
+192
+00:01:12,200 --> 00:01:12,400
+specializes in creating engaging tweets for YouTube videos and we'll click<u> on</u> the commands
+
+193
+00:01:12,400 --> 00:01:12,500
+specializes in creating engaging tweets for YouTube videos and we'll click on<u> the</u> commands
+
+194
+00:01:12,500 --> 00:01:12,860
+specializes in creating engaging tweets for YouTube videos and we'll click on the<u> commands</u>
+
+195
+00:01:12,860 --> 00:01:13,140
+<u>to</u> see what's available. The primary command is create, which will create a tweet. Paste in
+
+196
+00:01:13,140 --> 00:01:13,320
+to<u> see</u> what's available. The primary command is create, which will create a tweet. Paste in
+
+197
+00:01:13,320 --> 00:01:13,560
+to see<u> what's</u> available. The primary command is create, which will create a tweet. Paste in
+
+198
+00:01:13,560 --> 00:01:13,900
+to see what's<u> available.</u> The primary command is create, which will create a tweet. Paste in
+
+199
+00:01:13,900 --> 00:01:14,500
+to see what's available. The primary command is create, which will create a tweet. Paste in
+
+200
+00:01:14,500 --> 00:01:14,640
+to see what's available.<u> The</u> primary command is create, which will create a tweet. Paste in
+
+201
+00:01:14,640 --> 00:01:14,960
+to see what's available. The<u> primary</u> command is create, which will create a tweet. Paste in
+
+202
+00:01:14,960 --> 00:01:15,560
+to see what's available. The primary<u> command</u> is create, which will create a tweet. Paste in
+
+203
+00:01:15,560 --> 00:01:16,000
+to see what's available. The primary command<u> is</u> create, which will create a tweet. Paste in
+
+204
+00:01:16,000 --> 00:01:16,480
+to see what's available. The primary command is<u> create,</u> which will create a tweet. Paste in
+
+205
+00:01:16,480 --> 00:01:16,720
+to see what's available. The primary command is create, which will create a tweet. Paste in
+
+206
+00:01:16,720 --> 00:01:16,940
+to see what's available. The primary command is create,<u> which</u> will create a tweet. Paste in
+
+207
+00:01:16,940 --> 00:01:17,160
+to see what's available. The primary command is create, which<u> will</u> create a tweet. Paste in
+
+208
+00:01:17,160 --> 00:01:17,500
+to see what's available. The primary command is create, which will<u> create</u> a tweet. Paste in
+
+209
+00:01:17,500 --> 00:01:17,660
+to see what's available. The primary command is create, which will create<u> a</u> tweet. Paste in
+
+210
+00:01:17,660 --> 00:01:17,940
+to see what's available. The primary command is create, which will create a<u> tweet.</u> Paste in
+
+211
+00:01:17,940 --> 00:01:18,220
+to see what's available. The primary command is create, which will create a tweet. Paste in
+
+212
+00:01:18,220 --> 00:01:18,560
+to see what's available. The primary command is create, which will create a tweet.<u> Paste</u> in
+
+213
+00:01:18,560 --> 00:01:18,760
+to see what's available. The primary command is create, which will create a tweet. Paste<u> in</u>
+
+214
+00:01:18,760 --> 00:01:18,900
+<u>the</u> information we have from earlier, which is a little bit of metadata. We've got the title of
+
+215
+00:01:18,900 --> 00:01:19,180
+the<u> information</u> we have from earlier, which is a little bit of metadata. We've got the title of
+
+216
+00:01:19,180 --> 00:01:19,560
+the information<u> we</u> have from earlier, which is a little bit of metadata. We've got the title of
+
+217
+00:01:19,560 --> 00:01:19,700
+the information we<u> have</u> from earlier, which is a little bit of metadata. We've got the title of
+
+218
+00:01:19,700 --> 00:01:19,900
+the information we have<u> from</u> earlier, which is a little bit of metadata. We've got the title of
+
+219
+00:01:19,900 --> 00:01:20,380
+the information we have from<u> earlier,</u> which is a little bit of metadata. We've got the title of
+
+220
+00:01:20,380 --> 00:01:20,480
+the information we have from earlier, which is a little bit of metadata. We've got the title of
+
+221
+00:01:20,480 --> 00:01:20,640
+the information we have from earlier,<u> which</u> is a little bit of metadata. We've got the title of
+
+222
+00:01:20,640 --> 00:01:20,820
+the information we have from earlier, which<u> is</u> a little bit of metadata. We've got the title of
+
+223
+00:01:20,820 --> 00:01:20,960
+the information we have from earlier, which is<u> a</u> little bit of metadata. We've got the title of
+
+224
+00:01:20,960 --> 00:01:21,220
+the information we have from earlier, which is a<u> little</u> bit of metadata. We've got the title of
+
+225
+00:01:21,220 --> 00:01:21,400
+the information we have from earlier, which is a little<u> bit</u> of metadata. We've got the title of
+
+226
+00:01:21,400 --> 00:01:21,500
+the information we have from earlier, which is a little bit<u> of</u> metadata. We've got the title of
+
+227
+00:01:21,500 --> 00:01:22,080
+the information we have from earlier, which is a little bit of<u> metadata.</u> We've got the title of
+
+228
+00:01:22,080 --> 00:01:22,620
+the information we have from earlier, which is a little bit of metadata. We've got the title of
+
+229
+00:01:22,620 --> 00:01:22,940
+the information we have from earlier, which is a little bit of metadata.<u> We've</u> got the title of
+
+230
+00:01:22,940 --> 00:01:23,100
+the information we have from earlier, which is a little bit of metadata. We've<u> got</u> the title of
+
+231
+00:01:23,100 --> 00:01:23,280
+the information we have from earlier, which is a little bit of metadata. We've got<u> the</u> title of
+
+232
+00:01:23,280 --> 00:01:23,720
+the information we have from earlier, which is a little bit of metadata. We've got the<u> title</u> of
+
+233
+00:01:23,720 --> 00:01:24,240
+the information we have from earlier, which is a little bit of metadata. We've got the title<u> of</u>
+
+234
+00:01:24,240 --> 00:01:24,380
+<u>the</u> video and then we've got a summary. We could also use the analysis, which has got more structure
+
+235
+00:01:24,380 --> 00:01:24,740
+the<u> video</u> and then we've got a summary. We could also use the analysis, which has got more structure
+
+236
+00:01:24,740 --> 00:01:25,280
+the video<u> and</u> then we've got a summary. We could also use the analysis, which has got more structure
+
+237
+00:01:25,280 --> 00:01:25,400
+the video and<u> then</u> we've got a summary. We could also use the analysis, which has got more structure
+
+238
+00:01:25,400 --> 00:01:25,560
+the video and then<u> we've</u> got a summary. We could also use the analysis, which has got more structure
+
+239
+00:01:25,560 --> 00:01:25,660
+the video and then we've<u> got</u> a summary. We could also use the analysis, which has got more structure
+
+240
+00:01:25,660 --> 00:01:25,740
+the video and then we've got<u> a</u> summary. We could also use the analysis, which has got more structure
+
+241
+00:01:25,740 --> 00:01:26,080
+the video and then we've got a<u> summary.</u> We could also use the analysis, which has got more structure
+
+242
+00:01:26,080 --> 00:01:26,220
+the video and then we've got a summary. We could also use the analysis, which has got more structure
+
+243
+00:01:26,220 --> 00:01:26,320
+the video and then we've got a summary.<u> We</u> could also use the analysis, which has got more structure
+
+244
+00:01:26,320 --> 00:01:26,500
+the video and then we've got a summary. We<u> could</u> also use the analysis, which has got more structure
+
+245
+00:01:26,500 --> 00:01:26,720
+the video and then we've got a summary. We could<u> also</u> use the analysis, which has got more structure
+
+246
+00:01:26,720 --> 00:01:27,080
+the video and then we've got a summary. We could also<u> use</u> the analysis, which has got more structure
+
+247
+00:01:27,080 --> 00:01:27,240
+the video and then we've got a summary. We could also use<u> the</u> analysis, which has got more structure
+
+248
+00:01:27,240 --> 00:01:27,820
+the video and then we've got a summary. We could also use the<u> analysis,</u> which has got more structure
+
+249
+00:01:27,820 --> 00:01:27,880
+the video and then we've got a summary. We could also use the analysis, which has got more structure
+
+250
+00:01:27,880 --> 00:01:28,500
+the video and then we've got a summary. We could also use the analysis,<u> which</u> has got more structure
+
+251
+00:01:28,500 --> 00:01:28,760
+the video and then we've got a summary. We could also use the analysis, which<u> has</u> got more structure
+
+252
+00:01:28,760 --> 00:01:29,240
+the video and then we've got a summary. We could also use the analysis, which has<u> got</u> more structure
+
+253
+00:01:29,240 --> 00:01:29,480
+the video and then we've got a summary. We could also use the analysis, which has got<u> more</u> structure
+
+254
+00:01:29,480 --> 00:01:29,900
+the video and then we've got a summary. We could also use the analysis, which has got more<u> structure</u>
+
+255
+00:01:29,900 --> 00:01:30,340
+<u>and</u> they would both produce different but useful tweets. So let's just click on that and see what
+
+256
+00:01:30,340 --> 00:01:30,540
+and<u> they</u> would both produce different but useful tweets. So let's just click on that and see what
+
+257
+00:01:30,540 --> 00:01:30,680
+and they<u> would</u> both produce different but useful tweets. So let's just click on that and see what
+
+258
+00:01:30,680 --> 00:01:30,940
+and they would<u> both</u> produce different but useful tweets. So let's just click on that and see what
+
+259
+00:01:30,940 --> 00:01:31,540
+and they would both<u> produce</u> different but useful tweets. So let's just click on that and see what
+
+260
+00:01:31,540 --> 00:01:32,240
+and they would both produce<u> different</u> but useful tweets. So let's just click on that and see what
+
+261
+00:01:32,240 --> 00:01:32,500
+and they would both produce different<u> but</u> useful tweets. So let's just click on that and see what
+
+262
+00:01:32,500 --> 00:01:32,880
+and they would both produce different but<u> useful</u> tweets. So let's just click on that and see what
+
+263
+00:01:32,880 --> 00:01:33,280
+and they would both produce different but useful<u> tweets.</u> So let's just click on that and see what
+
+264
+00:01:33,280 --> 00:01:33,660
+and they would both produce different but useful tweets. So let's just click on that and see what
+
+265
+00:01:33,660 --> 00:01:33,860
+and they would both produce different but useful tweets.<u> So</u> let's just click on that and see what
+
+266
+00:01:33,860 --> 00:01:34,080
+and they would both produce different but useful tweets. So<u> let's</u> just click on that and see what
+
+267
+00:01:34,080 --> 00:01:34,220
+and they would both produce different but useful tweets. So let's<u> just</u> click on that and see what
+
+268
+00:01:34,220 --> 00:01:34,540
+and they would both produce different but useful tweets. So let's just<u> click</u> on that and see what
+
+269
+00:01:34,540 --> 00:01:34,740
+and they would both produce different but useful tweets. So let's just click<u> on</u> that and see what
+
+270
+00:01:34,740 --> 00:01:34,960
+and they would both produce different but useful tweets. So let's just click on<u> that</u> and see what
+
+271
+00:01:34,960 --> 00:01:35,280
+and they would both produce different but useful tweets. So let's just click on that<u> and</u> see what
+
+272
+00:01:35,280 --> 00:01:35,540
+and they would both produce different but useful tweets. So let's just click on that and<u> see</u> what
+
+273
+00:01:35,540 --> 00:01:35,680
+and they would both produce different but useful tweets. So let's just click on that and see<u> what</u>
+
+274
+00:01:35,680 --> 00:01:35,820
+<u>we</u> get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+275
+00:01:35,820 --> 00:01:36,020
+we<u> get.</u> Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+276
+00:01:36,020 --> 00:01:36,460
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+277
+00:01:36,460 --> 00:01:36,920
+we get.<u> Here's</u> our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+278
+00:01:36,920 --> 00:01:37,060
+we get. Here's<u> our</u> tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+279
+00:01:37,060 --> 00:01:37,400
+we get. Here's our<u> tweet.</u> Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+280
+00:01:37,400 --> 00:01:37,940
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+281
+00:01:37,940 --> 00:01:38,060
+we get. Here's our tweet.<u> Dive</u> into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+282
+00:01:38,060 --> 00:01:38,280
+we get. Here's our tweet. Dive<u> into</u> the world of GPTs with Appy Dave. Discover how the Shell Script
+
+283
+00:01:38,280 --> 00:01:38,460
+we get. Here's our tweet. Dive into<u> the</u> world of GPTs with Appy Dave. Discover how the Shell Script
+
+284
+00:01:38,460 --> 00:01:38,640
+we get. Here's our tweet. Dive into the<u> world</u> of GPTs with Appy Dave. Discover how the Shell Script
+
+285
+00:01:38,640 --> 00:01:38,780
+we get. Here's our tweet. Dive into the world<u> of</u> GPTs with Appy Dave. Discover how the Shell Script
+
+286
+00:01:38,780 --> 00:01:39,400
+we get. Here's our tweet. Dive into the world of<u> GPTs</u> with Appy Dave. Discover how the Shell Script
+
+287
+00:01:39,400 --> 00:01:39,700
+we get. Here's our tweet. Dive into the world of GPTs<u> with</u> Appy Dave. Discover how the Shell Script
+
+288
+00:01:39,700 --> 00:01:40,060
+we get. Here's our tweet. Dive into the world of GPTs with<u> Appy</u> Dave. Discover how the Shell Script
+
+289
+00:01:40,060 --> 00:01:40,300
+we get. Here's our tweet. Dive into the world of GPTs with Appy<u> Dave.</u> Discover how the Shell Script
+
+290
+00:01:40,300 --> 00:01:40,740
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+
+291
+00:01:40,740 --> 00:01:41,100
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave.<u> Discover</u> how the Shell Script
+
+292
+00:01:41,100 --> 00:01:41,820
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover<u> how</u> the Shell Script
+
+293
+00:01:41,820 --> 00:01:42,020
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how<u> the</u> Shell Script
+
+294
+00:01:42,020 --> 00:01:42,220
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the<u> Shell</u> Script
+
+295
+00:01:42,220 --> 00:01:42,500
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell<u> Script</u>
+
+296
+00:01:43,540 --> 00:01:43,940
+<u>Helper</u> GPT transforms Shell Scripting from complex FF MPG commands to chapter base video
+
+297
+00:01:43,940 --> 00:01:43,780
+Helper<u> GPT</u> transforms Shell Scripting from complex FF MPG commands to chapter base video
+
+298
+00:01:43,780 --> 00:01:44,340
+Helper GPT<u> transforms</u> Shell Scripting from complex FF MPG commands to chapter base video
+
+299
+00:01:44,340 --> 00:01:44,780
+Helper GPT transforms<u> Shell</u> Scripting from complex FF MPG commands to chapter base video
+
+300
+00:01:44,780 --> 00:01:45,420
+Helper GPT transforms Shell<u> Scripting</u> from complex FF MPG commands to chapter base video
+
+301
+00:01:45,420 --> 00:01:46,020
+Helper GPT transforms Shell Scripting<u> from</u> complex FF MPG commands to chapter base video
+
+302
+00:01:46,020 --> 00:01:46,520
+Helper GPT transforms Shell Scripting from<u> complex</u> FF MPG commands to chapter base video
+
+303
+00:01:46,520 --> 00:01:47,200
+Helper GPT transforms Shell Scripting from complex<u> FF</u> MPG commands to chapter base video
+
+304
+00:01:47,200 --> 00:01:47,780
+Helper GPT transforms Shell Scripting from complex FF<u> MPG</u> commands to chapter base video
+
+305
+00:01:47,780 --> 00:01:48,100
+Helper GPT transforms Shell Scripting from complex FF MPG<u> commands</u> to chapter base video
+
+306
+00:01:48,100 --> 00:01:48,700
+Helper GPT transforms Shell Scripting from complex FF MPG commands<u> to</u> chapter base video
+
+307
+00:01:48,700 --> 00:01:49,040
+Helper GPT transforms Shell Scripting from complex FF MPG commands to<u> chapter</u> base video
+
+308
+00:01:49,040 --> 00:01:49,380
+Helper GPT transforms Shell Scripting from complex FF MPG commands to chapter<u> base</u> video
+
+309
+00:01:49,380 --> 00:01:49,860
+Helper GPT transforms Shell Scripting from complex FF MPG commands to chapter base<u> video</u>
+
+310
+00:01:49,860 --> 00:01:50,480
+<u>compiling.</u> We've got a couple of hashtags in here and we've got a link to the video. It may be a
+
+311
+00:01:50,480 --> 00:01:51,040
+compiling. We've got a couple of hashtags in here and we've got a link to the video. It may be a
+
+312
+00:01:51,040 --> 00:01:51,120
+compiling.<u> We've</u> got a couple of hashtags in here and we've got a link to the video. It may be a
+
+313
+00:01:51,120 --> 00:01:51,200
+compiling. We've<u> got</u> a couple of hashtags in here and we've got a link to the video. It may be a
+
+314
+00:01:51,200 --> 00:01:51,300
+compiling. We've got<u> a</u> couple of hashtags in here and we've got a link to the video. It may be a
+
+315
+00:01:51,300 --> 00:01:51,480
+compiling. We've got a<u> couple</u> of hashtags in here and we've got a link to the video. It may be a
+
+316
+00:01:51,480 --> 00:01:51,640
+compiling. We've got a couple<u> of</u> hashtags in here and we've got a link to the video. It may be a
+
+317
+00:01:51,640 --> 00:01:51,960
+compiling. We've got a couple of<u> hashtags</u> in here and we've got a link to the video. It may be a
+
+318
+00:01:51,960 --> 00:01:52,520
+compiling. We've got a couple of hashtags<u> in</u> here and we've got a link to the video. It may be a
+
+319
+00:01:52,520 --> 00:01:52,780
+compiling. We've got a couple of hashtags in<u> here</u> and we've got a link to the video. It may be a
+
+320
+00:01:52,780 --> 00:01:52,980
+compiling. We've got a couple of hashtags in here<u> and</u> we've got a link to the video. It may be a
+
+321
+00:01:52,980 --> 00:01:53,120
+compiling. We've got a couple of hashtags in here and<u> we've</u> got a link to the video. It may be a
+
+322
+00:01:53,120 --> 00:01:53,200
+compiling. We've got a couple of hashtags in here and we've<u> got</u> a link to the video. It may be a
+
+323
+00:01:53,200 --> 00:01:53,280
+compiling. We've got a couple of hashtags in here and we've got<u> a</u> link to the video. It may be a
+
+324
+00:01:53,280 --> 00:01:53,400
+compiling. We've got a couple of hashtags in here and we've got a<u> link</u> to the video. It may be a
+
+325
+00:01:53,400 --> 00:01:53,600
+compiling. We've got a couple of hashtags in here and we've got a link<u> to</u> the video. It may be a
+
+326
+00:01:53,600 --> 00:01:53,700
+compiling. We've got a couple of hashtags in here and we've got a link to<u> the</u> video. It may be a
+
+327
+00:01:53,700 --> 00:01:53,980
+compiling. We've got a couple of hashtags in here and we've got a link to the<u> video.</u> It may be a
+
+328
+00:01:53,980 --> 00:01:54,300
+compiling. We've got a couple of hashtags in here and we've got a link to the video. It may be a
+
+329
+00:01:54,300 --> 00:01:54,340
+compiling. We've got a couple of hashtags in here and we've got a link to the video.<u> It</u> may be a
+
+330
+00:01:54,340 --> 00:01:54,440
+compiling. We've got a couple of hashtags in here and we've got a link to the video. It<u> may</u> be a
+
+331
+00:01:54,440 --> 00:01:54,620
+compiling. We've got a couple of hashtags in here and we've got a link to the video. It may<u> be</u> a
+
+332
+00:01:54,620 --> 00:01:54,740
+compiling. We've got a couple of hashtags in here and we've got a link to the video. It may be<u> a</u>
+
+333
+00:01:54,740 --> 00:01:55,060
+<u>little</u> bit too long for the tweet. It may still need a little bit of refinement, but it does a pretty
+
+334
+00:01:55,060 --> 00:01:55,240
+little<u> bit</u> too long for the tweet. It may still need a little bit of refinement, but it does a pretty
+
+335
+00:01:55,240 --> 00:01:55,480
+little bit<u> too</u> long for the tweet. It may still need a little bit of refinement, but it does a pretty
+
+336
+00:01:55,480 --> 00:01:55,640
+little bit too<u> long</u> for the tweet. It may still need a little bit of refinement, but it does a pretty
+
+337
+00:01:55,640 --> 00:01:55,840
+little bit too long<u> for</u> the tweet. It may still need a little bit of refinement, but it does a pretty
+
+338
+00:01:55,840 --> 00:01:55,920
+little bit too long for<u> the</u> tweet. It may still need a little bit of refinement, but it does a pretty
+
+339
+00:01:55,920 --> 00:01:56,100
+little bit too long for the<u> tweet.</u> It may still need a little bit of refinement, but it does a pretty
+
+340
+00:01:56,100 --> 00:01:56,180
+little bit too long for the tweet. It may still need a little bit of refinement, but it does a pretty
+
+341
+00:01:56,180 --> 00:01:56,260
+little bit too long for the tweet.<u> It</u> may still need a little bit of refinement, but it does a pretty
+
+342
+00:01:56,260 --> 00:01:56,420
+little bit too long for the tweet. It<u> may</u> still need a little bit of refinement, but it does a pretty
+
+343
+00:01:56,420 --> 00:01:56,740
+little bit too long for the tweet. It may<u> still</u> need a little bit of refinement, but it does a pretty
+
+344
+00:01:56,740 --> 00:01:56,960
+little bit too long for the tweet. It may still<u> need</u> a little bit of refinement, but it does a pretty
+
+345
+00:01:56,960 --> 00:01:57,100
+little bit too long for the tweet. It may still need<u> a</u> little bit of refinement, but it does a pretty
+
+346
+00:01:57,100 --> 00:01:57,220
+little bit too long for the tweet. It may still need a<u> little</u> bit of refinement, but it does a pretty
+
+347
+00:01:57,220 --> 00:01:57,380
+little bit too long for the tweet. It may still need a little<u> bit</u> of refinement, but it does a pretty
+
+348
+00:01:57,380 --> 00:01:57,540
+little bit too long for the tweet. It may still need a little bit<u> of</u> refinement, but it does a pretty
+
+349
+00:01:57,540 --> 00:01:58,040
+little bit too long for the tweet. It may still need a little bit of<u> refinement,</u> but it does a pretty
+
+350
+00:01:58,040 --> 00:01:58,540
+little bit too long for the tweet. It may still need a little bit of refinement,<u> but</u> it does a pretty
+
+351
+00:01:58,540 --> 00:01:58,700
+little bit too long for the tweet. It may still need a little bit of refinement, but<u> it</u> does a pretty
+
+352
+00:01:58,700 --> 00:01:58,840
+little bit too long for the tweet. It may still need a little bit of refinement, but it<u> does</u> a pretty
+
+353
+00:01:58,840 --> 00:01:59,040
+little bit too long for the tweet. It may still need a little bit of refinement, but it does<u> a</u> pretty
+
+354
+00:01:59,040 --> 00:01:59,240
+little bit too long for the tweet. It may still need a little bit of refinement, but it does a<u> pretty</u>
+
+355
+00:01:59,240 --> 00:01:59,580
+<u>good</u> job of creating a tweet for your video. Thank you for joining me in this look at one of the GPTs
+
+356
+00:01:59,580 --> 00:02:00,120
+good<u> job</u> of creating a tweet for your video. Thank you for joining me in this look at one of the GPTs
+
+357
+00:02:00,120 --> 00:02:00,520
+good job<u> of</u> creating a tweet for your video. Thank you for joining me in this look at one of the GPTs
+
+358
+00:02:00,520 --> 00:02:00,960
+good job of<u> creating</u> a tweet for your video. Thank you for joining me in this look at one of the GPTs
+
+359
+00:02:00,960 --> 00:02:01,180
+good job of creating<u> a</u> tweet for your video. Thank you for joining me in this look at one of the GPTs
+
+360
+00:02:01,180 --> 00:02:01,420
+good job of creating a<u> tweet</u> for your video. Thank you for joining me in this look at one of the GPTs
+
+361
+00:02:01,420 --> 00:02:02,020
+good job of creating a tweet<u> for</u> your video. Thank you for joining me in this look at one of the GPTs
+
+362
+00:02:02,020 --> 00:02:02,200
+good job of creating a tweet for<u> your</u> video. Thank you for joining me in this look at one of the GPTs
+
+363
+00:02:02,200 --> 00:02:02,600
+good job of creating a tweet for your<u> video.</u> Thank you for joining me in this look at one of the GPTs
+
+364
+00:02:02,600 --> 00:02:03,660
+good job of creating a tweet for your video. Thank you for joining me in this look at one of the GPTs
+
+365
+00:02:03,660 --> 00:02:04,400
+good job of creating a tweet for your video.<u> Thank</u> you for joining me in this look at one of the GPTs
+
+366
+00:02:04,400 --> 00:02:04,580
+good job of creating a tweet for your video. Thank<u> you</u> for joining me in this look at one of the GPTs
+
+367
+00:02:04,580 --> 00:02:04,760
+good job of creating a tweet for your video. Thank you<u> for</u> joining me in this look at one of the GPTs
+
+368
+00:02:04,760 --> 00:02:05,060
+good job of creating a tweet for your video. Thank you for<u> joining</u> me in this look at one of the GPTs
+
+369
+00:02:05,060 --> 00:02:05,320
+good job of creating a tweet for your video. Thank you for joining<u> me</u> in this look at one of the GPTs
+
+370
+00:02:05,320 --> 00:02:05,500
+good job of creating a tweet for your video. Thank you for joining me<u> in</u> this look at one of the GPTs
+
+371
+00:02:05,500 --> 00:02:05,680
+good job of creating a tweet for your video. Thank you for joining me in<u> this</u> look at one of the GPTs
+
+372
+00:02:05,680 --> 00:02:05,880
+good job of creating a tweet for your video. Thank you for joining me in this<u> look</u> at one of the GPTs
+
+373
+00:02:05,880 --> 00:02:06,020
+good job of creating a tweet for your video. Thank you for joining me in this look<u> at</u> one of the GPTs
+
+374
+00:02:06,020 --> 00:02:06,180
+good job of creating a tweet for your video. Thank you for joining me in this look at<u> one</u> of the GPTs
+
+375
+00:02:06,180 --> 00:02:06,280
+good job of creating a tweet for your video. Thank you for joining me in this look at one<u> of</u> the GPTs
+
+376
+00:02:06,280 --> 00:02:06,360
+good job of creating a tweet for your video. Thank you for joining me in this look at one of<u> the</u> GPTs
+
+377
+00:02:06,360 --> 00:02:07,040
+good job of creating a tweet for your video. Thank you for joining me in this look at one of the<u> GPTs</u>
+
+378
+00:02:07,040 --> 00:02:07,240
+<u>I</u> used to streamline content creation on YouTube. To dive deeper and discover how I leverage a GPT
+
+379
+00:02:07,240 --> 00:02:07,500
+I<u> used</u> to streamline content creation on YouTube. To dive deeper and discover how I leverage a GPT
+
+380
+00:02:07,500 --> 00:02:07,760
+I used<u> to</u> streamline content creation on YouTube. To dive deeper and discover how I leverage a GPT
+
+381
+00:02:07,760 --> 00:02:08,040
+I used to<u> streamline</u> content creation on YouTube. To dive deeper and discover how I leverage a GPT
+
+382
+00:02:08,040 --> 00:02:08,640
+I used to streamline<u> content</u> creation on YouTube. To dive deeper and discover how I leverage a GPT
+
+383
+00:02:08,640 --> 00:02:09,200
+I used to streamline content<u> creation</u> on YouTube. To dive deeper and discover how I leverage a GPT
+
+384
+00:02:09,200 --> 00:02:09,440
+I used to streamline content creation<u> on</u> YouTube. To dive deeper and discover how I leverage a GPT
+
+385
+00:02:09,440 --> 00:02:09,940
+I used to streamline content creation on<u> YouTube.</u> To dive deeper and discover how I leverage a GPT
+
+386
+00:02:09,940 --> 00:02:10,920
+I used to streamline content creation on YouTube. To dive deeper and discover how I leverage a GPT
+
+387
+00:02:10,920 --> 00:02:11,200
+I used to streamline content creation on YouTube.<u> To</u> dive deeper and discover how I leverage a GPT
+
+388
+00:02:11,200 --> 00:02:11,360
+I used to streamline content creation on YouTube. To<u> dive</u> deeper and discover how I leverage a GPT
+
+389
+00:02:11,360 --> 00:02:11,920
+I used to streamline content creation on YouTube. To dive<u> deeper</u> and discover how I leverage a GPT
+
+390
+00:02:11,920 --> 00:02:12,200
+I used to streamline content creation on YouTube. To dive deeper<u> and</u> discover how I leverage a GPT
+
+391
+00:02:12,200 --> 00:02:12,540
+I used to streamline content creation on YouTube. To dive deeper and<u> discover</u> how I leverage a GPT
+
+392
+00:02:12,540 --> 00:02:12,940
+I used to streamline content creation on YouTube. To dive deeper and discover<u> how</u> I leverage a GPT
+
+393
+00:02:12,940 --> 00:02:13,060
+I used to streamline content creation on YouTube. To dive deeper and discover how<u> I</u> leverage a GPT
+
+394
+00:02:13,060 --> 00:02:13,340
+I used to streamline content creation on YouTube. To dive deeper and discover how I<u> leverage</u> a GPT
+
+395
+00:02:13,340 --> 00:02:13,760
+I used to streamline content creation on YouTube. To dive deeper and discover how I leverage<u> a</u> GPT
+
+396
+00:02:13,760 --> 00:02:14,280
+I used to streamline content creation on YouTube. To dive deeper and discover how I leverage a<u> GPT</u>
+
+397
+00:02:14,280 --> 00:02:14,740
+<u>Swarm</u> targeting YouTube automation, check out my detailed video, 7 GPTs to Automate YouTube Influence
+
+398
+00:02:14,740 --> 00:02:15,200
+Swarm<u> targeting</u> YouTube automation, check out my detailed video, 7 GPTs to Automate YouTube Influence
+
+399
+00:02:15,200 --> 00:02:15,900
+Swarm targeting<u> YouTube</u> automation, check out my detailed video, 7 GPTs to Automate YouTube Influence
+
+400
+00:02:15,900 --> 00:02:16,600
+Swarm targeting YouTube<u> automation,</u> check out my detailed video, 7 GPTs to Automate YouTube Influence
+
+401
+00:02:16,600 --> 00:02:17,220
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs to Automate YouTube Influence
+
+402
+00:02:17,220 --> 00:02:17,460
+Swarm targeting YouTube automation,<u> check</u> out my detailed video, 7 GPTs to Automate YouTube Influence
+
+403
+00:02:17,460 --> 00:02:17,680
+Swarm targeting YouTube automation, check<u> out</u> my detailed video, 7 GPTs to Automate YouTube Influence
+
+404
+00:02:17,680 --> 00:02:17,840
+Swarm targeting YouTube automation, check out<u> my</u> detailed video, 7 GPTs to Automate YouTube Influence
+
+405
+00:02:17,840 --> 00:02:18,380
+Swarm targeting YouTube automation, check out my<u> detailed</u> video, 7 GPTs to Automate YouTube Influence
+
+406
+00:02:18,380 --> 00:02:18,800
+Swarm targeting YouTube automation, check out my detailed<u> video,</u> 7 GPTs to Automate YouTube Influence
+
+407
+00:02:18,800 --> 00:02:19,260
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs to Automate YouTube Influence
+
+408
+00:02:19,260 --> 00:02:19,480
+Swarm targeting YouTube automation, check out my detailed video,<u> 7</u> GPTs to Automate YouTube Influence
+
+409
+00:02:19,480 --> 00:02:20,260
+Swarm targeting YouTube automation, check out my detailed video, 7<u> GPTs</u> to Automate YouTube Influence
+
+410
+00:02:20,260 --> 00:02:20,400
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs<u> to</u> Automate YouTube Influence
+
+411
+00:02:20,400 --> 00:02:20,900
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs to<u> Automate</u> YouTube Influence
+
+412
+00:02:20,900 --> 00:02:21,300
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs to Automate<u> YouTube</u> Influence
+
+413
+00:02:21,300 --> 00:02:21,860
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs to Automate YouTube<u> Influence</u>
+
+414
+00:02:21,860 --> 00:02:22,260
+<u>in</u> 2024. Just click the link on the screen or in the description. If you are interested in
+
+415
+00:02:22,260 --> 00:02:23,260
+in<u> 2024.</u> Just click the link on the screen or in the description. If you are interested in
+
+416
+00:02:23,260 --> 00:02:23,820
+in 2024. Just click the link on the screen or in the description. If you are interested in
+
+417
+00:02:23,820 --> 00:02:24,040
+in 2024.<u> Just</u> click the link on the screen or in the description. If you are interested in
+
+418
+00:02:24,040 --> 00:02:24,320
+in 2024. Just<u> click</u> the link on the screen or in the description. If you are interested in
+
+419
+00:02:24,320 --> 00:02:24,540
+in 2024. Just click<u> the</u> link on the screen or in the description. If you are interested in
+
+420
+00:02:24,540 --> 00:02:24,840
+in 2024. Just click the<u> link</u> on the screen or in the description. If you are interested in
+
+421
+00:02:24,840 --> 00:02:25,140
+in 2024. Just click the link<u> on</u> the screen or in the description. If you are interested in
+
+422
+00:02:25,140 --> 00:02:25,240
+in 2024. Just click the link on<u> the</u> screen or in the description. If you are interested in
+
+423
+00:02:25,240 --> 00:02:25,580
+in 2024. Just click the link on the<u> screen</u> or in the description. If you are interested in
+
+424
+00:02:25,580 --> 00:02:25,900
+in 2024. Just click the link on the screen<u> or</u> in the description. If you are interested in
+
+425
+00:02:25,900 --> 00:02:26,060
+in 2024. Just click the link on the screen or<u> in</u> the description. If you are interested in
+
+426
+00:02:26,060 --> 00:02:26,160
+in 2024. Just click the link on the screen or in<u> the</u> description. If you are interested in
+
+427
+00:02:26,160 --> 00:02:26,640
+in 2024. Just click the link on the screen or in the<u> description.</u> If you are interested in
+
+428
+00:02:26,640 --> 00:02:27,420
+in 2024. Just click the link on the screen or in the description. If you are interested in
+
+429
+00:02:27,420 --> 00:02:27,660
+in 2024. Just click the link on the screen or in the description.<u> If</u> you are interested in
+
+430
+00:02:27,660 --> 00:02:27,800
+in 2024. Just click the link on the screen or in the description. If<u> you</u> are interested in
+
+431
+00:02:27,800 --> 00:02:27,920
+in 2024. Just click the link on the screen or in the description. If you<u> are</u> interested in
+
+432
+00:02:27,920 --> 00:02:28,300
+in 2024. Just click the link on the screen or in the description. If you are<u> interested</u> in
+
+433
+00:02:28,300 --> 00:02:28,760
+in 2024. Just click the link on the screen or in the description. If you are interested<u> in</u>
+
+434
+00:02:28,760 --> 00:02:29,160
+<u>more</u> innovative AI tools for YouTube, don't miss out on my custom GPTs playlist where I showcase
+
+435
+00:02:29,160 --> 00:02:29,660
+more<u> innovative</u> AI tools for YouTube, don't miss out on my custom GPTs playlist where I showcase
+
+436
+00:02:29,660 --> 00:02:30,060
+more innovative<u> AI</u> tools for YouTube, don't miss out on my custom GPTs playlist where I showcase
+
+437
+00:02:30,060 --> 00:02:30,460
+more innovative AI<u> tools</u> for YouTube, don't miss out on my custom GPTs playlist where I showcase
+
+438
+00:02:30,460 --> 00:02:30,760
+more innovative AI tools<u> for</u> YouTube, don't miss out on my custom GPTs playlist where I showcase
+
+439
+00:02:30,760 --> 00:02:31,240
+more innovative AI tools for<u> YouTube,</u> don't miss out on my custom GPTs playlist where I showcase
+
+440
+00:02:31,240 --> 00:02:31,760
+more innovative AI tools for YouTube, don't miss out on my custom GPTs playlist where I showcase
+
+441
+00:02:31,760 --> 00:02:31,940
+more innovative AI tools for YouTube,<u> don't</u> miss out on my custom GPTs playlist where I showcase
+
+442
+00:02:31,940 --> 00:02:32,220
+more innovative AI tools for YouTube, don't<u> miss</u> out on my custom GPTs playlist where I showcase
+
+443
+00:02:32,220 --> 00:02:32,420
+more innovative AI tools for YouTube, don't miss<u> out</u> on my custom GPTs playlist where I showcase
+
+444
+00:02:32,420 --> 00:02:32,560
+more innovative AI tools for YouTube, don't miss out<u> on</u> my custom GPTs playlist where I showcase
+
+445
+00:02:32,560 --> 00:02:32,760
+more innovative AI tools for YouTube, don't miss out on<u> my</u> custom GPTs playlist where I showcase
+
+446
+00:02:32,760 --> 00:02:33,300
+more innovative AI tools for YouTube, don't miss out on my<u> custom</u> GPTs playlist where I showcase
+
+447
+00:02:33,300 --> 00:02:34,120
+more innovative AI tools for YouTube, don't miss out on my custom<u> GPTs</u> playlist where I showcase
+
+448
+00:02:34,120 --> 00:02:34,480
+more innovative AI tools for YouTube, don't miss out on my custom GPTs<u> playlist</u> where I showcase
+
+449
+00:02:34,480 --> 00:02:35,140
+more innovative AI tools for YouTube, don't miss out on my custom GPTs playlist<u> where</u> I showcase
+
+450
+00:02:35,140 --> 00:02:35,300
+more innovative AI tools for YouTube, don't miss out on my custom GPTs playlist where<u> I</u> showcase
+
+451
+00:02:35,300 --> 00:02:35,660
+more innovative AI tools for YouTube, don't miss out on my custom GPTs playlist where I<u> showcase</u>
+
+452
+00:02:35,660 --> 00:02:35,940
+<u>a</u> variety of GPT-powered solutions. I'm Appy Dave. Thank you for watching.
+
+453
+00:02:35,940 --> 00:02:36,340
+a<u> variety</u> of GPT-powered solutions. I'm Appy Dave. Thank you for watching.
+
+454
+00:02:36,340 --> 00:02:36,540
+a variety<u> of</u> GPT-powered solutions. I'm Appy Dave. Thank you for watching.
+
+455
+00:02:36,540 --> 00:02:37,160
+a variety of<u> GPT</u>-powered solutions. I'm Appy Dave. Thank you for watching.
+
+456
+00:02:37,160 --> 00:02:37,440
+a variety of GPT<u>-powered</u> solutions. I'm Appy Dave. Thank you for watching.
+
+457
+00:02:37,440 --> 00:02:38,000
+a variety of GPT-powered<u> solutions.</u> I'm Appy Dave. Thank you for watching.
+
+458
+00:02:38,000 --> 00:02:38,580
+a variety of GPT-powered solutions. I'm Appy Dave. Thank you for watching.
+
+459
+00:02:38,580 --> 00:02:38,920
+a variety of GPT-powered solutions.<u> I'm</u> Appy Dave. Thank you for watching.
+
+460
+00:02:38,920 --> 00:02:39,160
+a variety of GPT-powered solutions. I'm<u> Appy</u> Dave. Thank you for watching.
+
+461
+00:02:39,160 --> 00:02:39,380
+a variety of GPT-powered solutions. I'm Appy<u> Dave.</u> Thank you for watching.
+
+462
+00:02:39,380 --> 00:02:39,820
+a variety of GPT-powered solutions. I'm Appy Dave. Thank you for watching.
+
+463
+00:02:39,820 --> 00:02:39,920
+a variety of GPT-powered solutions. I'm Appy Dave.<u> Thank</u> you for watching.
+
+464
+00:02:39,920 --> 00:02:40,060
+a variety of GPT-powered solutions. I'm Appy Dave. Thank<u> you</u> for watching.
+
+465
+00:02:40,060 --> 00:02:40,220
+a variety of GPT-powered solutions. I'm Appy Dave. Thank you<u> for</u> watching.
+
+466
+00:02:40,220 --> 00:02:40,480
+a variety of GPT-powered solutions. I'm Appy Dave. Thank you for<u> watching.</u>
+

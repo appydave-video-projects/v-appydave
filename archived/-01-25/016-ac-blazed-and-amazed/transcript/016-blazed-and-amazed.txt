@@ -1,0 +1,295 @@
+G'day it's David and on this appycast I'm here with my mate Pat and he's got a
+screenplay or a movie concept maybe even TV series we're not sure that we're
+going to work through with ChatGPT and see if we can flesh it out into
+something more real so Pat can you just tell me what what's the goal what what
+are you trying to do okay the goal for the goal is actually to to get us get a
+synopsis together character analysis and also to assist with the plot for a
+pilot episode of this show okay cool so we'll get straight into it I think so
+I've got I've set us up with a my map here and we'll build from here and I've
+received this email from Pat called blazed animized so let's just take a
+copy of all this and I'll go into visual studio I've set up a folder here we'll
+go into visual studio I've set up a folder here and we'll just paste to
+everything that we've got so blazed and amazed so new folder new file we'll call
+it scratch pad this is where we're just going to put our raw information take it
+out of here put into here and rather than me asking Pat exactly what this is
+about I think this is where we'll start using ChatGPT so we go into ChatGPT and
+I'm going to pick the GPT for model for today's session and let's give it some
+context today you are an expert today comma you are an expert in creating
+screenplays comma movies comma TV series full stop I am going to need your
+help to develop a project that has come through as an idea from a writer full
+stop just wait for the first draft and then give me a list of actions that you
+come up with so while that's going let's set up a blaster we use this to talk to
+us during the session so whilst this is going I'm just going to play this to us
+so that we can hear what it's told us to do play script development the characters
+okay we've got an audio sound problem sound output let's go through the JBL
+essential hit play script development the characters and plot are well outlined
+but you would need to flesh out dialogues scenes and situations further for a full
+script consider hiring or collaborating with a screenwriter to fully develop the
+screenplay character development Dex and Oz need further backstory to develop
+empathy among viewers and to allow for further character growth this could
+involve detailing their home life relationships and why they chose to
+study under professor Allen create a show Bible develop a show Bible which is a
+comprehensive guide that defines your show's mission statement character
+breakdowns episode summaries and future storylines it's a key document to share
+with potential producers networks or streaming platforms to give them a
+comprehensive overview of your show location scouting start identifying
+shooting locations that would suit the environment and aesthetic of your
+series think about where Dex and Oz would live where professor Alan's
+classes would take place and where Veronica Hartfield's office would be
+located assemble a production team start identifying potential directors
+producers and the cinematographer consider individuals who have a background
+in comedy or satirical work you'll also need to consider the post-production
+team for editing music and sound design casting start scouting for actors who
+can bring your characters to life they should be able to handle both comedic
+and dramatic scenes and should have chemistry together since Dex and Oz
+will spend a lot of time together storyboarding once the script is
+finalized start storyboarding key scenes especially those that involve the
+clues and the detective work budgeting create a detailed budget plan for the
+entire production this would include production costs cast and crew salaries
+location costs post-production costs and contingency funds legal aspects ensure
+that all legal aspects are covered including copyrights for the script and
+music contracts for the cast and crew and permits for the shooting locations
+marketing and promotion develop a marketing strategy to promote your series
+this could include creating a trailer social media promotion interviews with
+cast and crew and sneak peeks of the episodes distribution plan research
+potential networks or streaming platforms where your show could air prepare a
+pitch for these distributors explaining why your show would be a good fit for
+their platform okay so this has gone too broad so what we'll do is we'll just
+pop in the three areas that I think make sense for now and that's script
+development character development and storyboarding so pop in over to chat
+GPT and say this information is way too general comma what I need is a list of
+actions just to cover these three concepts
+okay I'm going to take this this is not quite what I want I do like one and two
+I think one needs a little bit more information in it I think three is
+premature so we'll go back to our document and we'll create something
+called script we'll go with zero one it's just the first concept we're working on
+and we'll say script development like that we won't go zero zero one dot mark
+down and we'll paste this information in and we'll give them all headings
+back story and your storyboarding
+looks like I've missed that a little bit so outline script development character
+development so I'm going to undo this a bit so we have script development we
+have character development and we have storyboarding let's make them all
+headings and wherever we've got a colon like this let's move the text down and
+turn them into another heading like that think we've captured everything we need
+let's take every variant of three hashes and make sure there's a space between them
+and go to the top we call it script development so let's go over to our
+mind map which is over here and give us some goals so we've got script
+development and we got back story now the script development is break down the
+story into access seems write the dialogue create conflict resolution
+cooperate okay so what I'd like to do go back to the scratch pad where we've got
+all our information and can you tell me in 60 words or less the basic premise
+of this story shows about two stone I'll let I'll let this do it to neurodivergent
+stoners decks and ours who despite their cluelessness stumble into real crimes
+and solve them unintentionally exposing hidden truths their humorous adventures
+and unique perspectives unfold within modern-day setting offering comedic
+satirical spin on traditional detective stories that's about right great so what
+we'll do is we'll ask the question what five movies or TV shows that have a similar idea
+to this go with that
+okay so I don't know broad city or dude where's my car though I think I might have
+seen it but the other ones like Bill and Ted's excellent adventure and pineapple
+express seem quite accurate what do you think sorry Bill and Ted pineapple
+express I'd say Bill and Ted pineapple express and broad city maybe the closest
+have you seen any of those I've seen I've seen psych dude where's my car
+Bill and Ted's excellent adventures and and I haven't seen actually I haven't
+seen pineapple express or broad city but the last three I've seen them all but
+just looking at the the storyline behind all of them or five of them I'd say
+that the first actually the first one number three one and three actually are
+the closest okay cool let's just expand on this and say do you know who the
+Kevin Smith clerks mole rats okay would you say that the way Kevin Smith
+approaches doing these sorts of movies would be similar to what you think it's
+it's on a similar path to where we're going with this but also
+like a more even more modern satirical approach okay you don't need to lean
+forward that'll pick up I'll just bring it to you okay okay so let's just work
+through a couple of days you like dude where's my car yeah I liked it it was a
+little bit too of you know a little bit too crazy but it was it was funny as hell
+so you do do where's my car was more like a dumber and dumber thing whereas
+these guys are not dumb don't really want to go the dumb and dumber direction
+psych it's great it is funny it it is smart but you said to me you wanted like
+there's more stoners these are stoners so what they're doing is is that they're
+sort of they they're stoners they think that they're solving they think that
+they're solving one crime but inadvertently actually find real crimes
+let's go with that but let's add in that statement so I just want you to say that
+statement directly any in a moment sure so these two guys think they are solving
+crimes but inadvertently find real crimes and are able to solve them okay so we
+got that now pine apple express let's just type that in
+good bad or otherwise I don't know that I've seen it so I can't give input yeah
+you know psych yeah that's that's correct so I'm not sure about this one as we have
+not seen it don't know about this not seen it so you are broad city
+bill and Ted's excellent adventure this is yeah on point now you also mentioned
+skibby do and other stuff so what so why skibby do just because of the content
+where the age group the age of the guys around the same age as the skibby do
+okay look what wonder around solving crimes but also they kind of stumble especially
+especially
+skibby and shaggy was there another show the hardy boys of course was too too young
+guys around the same age as well that I never saw that but they weren't stoner
+but think of it's basically the same type of thing as skibby do it's sort of like
+like they're ghost and supernatural mysteries that turn out to be somebody you
+know like a real person okay causing a crime trying to scare everybody off by
+right here so Ken what was the question can I get five more shows that fit the
+positive examples within this list in my opinion we got two negative examples
+because we don't know about them I just want to see if we've got more
+Harold and Kumar is that show up big there's a female there's this there is a
+female sleuth character that I'm thinking about who is about 15 years old
+what show would that be
+don't remember it being Veronica Marce that Nancy Drew what about Nancy Drew
+okay I don't know though that Nancy Drew fits in with the the style of thinking
+that no it's it's it's more like a take the hardy boys and skibby do and cross
+it with Bill and Ted and Jane Silent Bob comma so that we get the fun-loving
+sleuth accidental sleuths accidental detectives
+with the irony of stoners
+the one I'm thinking about I just want to bring it in who is the female
+shellok homes that is on Netflix
+anola home have you seen that it's a good it's a very good show so we could look
+into that yes okay oh yeah that's go out of stranger things can you take the
+information that you just wrote for us and also include anola homes as an idea
+okay what I'm gonna do I didn't like the direction that that just went so I'm
+gonna come up to our original question and alter it and that should then alter
+this in the shape that we want sure so
+we'll just go with that I don't know what else to ask
+okay what I'm gonna do that still didn't give what I wanted exactly so I'm gonna
+copy that information we'll we'll call this philosophy so it's kind of like the
+we'll take that line we'll pop back one we'll take that line we'll take this
+information and we're gonna come back to it and say I have some ideas for the
+show philosophy comma some of the ideas overlap here but what I would like you
+to do is break it down into five separate sections and an overview each section should
+describe information relevant to the particular section comma a section would
+be scooby-doo see where we go with that
+okay this is pretty good let's just
+show show philosophy all the way down you know just pop it into this document here let's
+get rid of those we can use this now as a second brain for driving a lot of content
+can be driven from this particular information the only other thing I would want to question is
+is there anything from psych that you want to bring into this I like how the insight I like
+his focus and intelligence when it comes to you know he thinks the thinking outside the box
+okay could you also bring in the good doctor you know the show very interesting so let's
+I met Sean Murphy when he was 14 years old just act like a normal human being he was and he
+still is an extraordinary young man autism difficulty in communicating his high
+concepts does it sound like I'm describing a surgeon he's breathing he saved his life who are
+you I'm Dr. Sean Murphy I'm a surgical resident at San Jose St. Bonaventure Hospital and you
+thought that this board wouldn't have any doubts about hiring a surgeon diagnosed with autism
+justify your decision he also has Savant syndrome genius level skills in several areas he sees
+things it's his heart Adam needs an echocardiogram no behave yourself or you'll be removed from
+the building the echo is normal show them and analyzes things in ways that we can't even begin to
+understand again again there looks normal to me it's not normal this kid was sprayed with
+glass shards what if a piece of glass erases bloodstream what could be looking behind the heart
+you were right why were you rude to me when we first met and now you want to be my friend
+which time was it that you were pretending it's got a serious deficit child is alive today because
+of that deficit tomorrow one may be dead because of it we hire Sean and we give hope to those
+people with limitations that those limitations are not what they think they are that they do have a
+shot never forget you're the smart one you can do anything
+I love the Savant aspect of it where where especially Dex can sort of
+see things that others can't and Alan is often the guy who who sticks up for Dex knowing that he's
+usually right but I'm gonna come back to that have you seen the Queen's Gambit okay so let's
+go with this one hey I'm Harry on 23 years old and I'm from Sydney Australia I've just moved
+into my new apartment men are gonna come along and want to teach you things
+doesn't make them any smarter you just let them blow by and you go on ahead and do just
+what and how you feel like someday you're gonna be all alone so you need to figure out how to take
+care of yourself tell the readers of life how it feels and to be a girl among all those men
+I don't mind it chess isn't always competitive chess can also be
+beautiful you're an orphan bet I'm fine being alone I feel safe in an entire world of just
+64 squares I'll create I'll creativity and psychosis often go hand in hand
+or for that matter
+genius and madness I feel safe in an entire world of just 64 what I want to point out here is that
+what happens in the Queen gambit what happens in the good doctor it happens a little bit in psych
+I don't think it happens in the mentalist too much but it happens in these is that they are seeing
+things that are not real that give real meaning to the story so for her she lays down on a bed
+and she sees the chessboard on the ceiling and she can just see where all the moves are
+in psych he sees stuff like that all the time in the good doctor you've just always got him
+seeing these things that other in virtual in his head that other people can't see and that's what
+yeah and that that's absolutely that's subatism yeah leads you know through through traits of
+asperges and yeah here a divergence so what I what I want to do is come back to what we've got here
+say
+I need you to give me three more
+short sentences on these different movies comma what we're really looking for
+is the savant capabilities within these tv shows
+so they're not movies
+so they say the good doctor
+Queen's Gambit
+and we've only got two there we could bring in
+um
+we could bring in the mentalist maybe maybe like there's a there's a little bit of it but it's um
+I mean those two examples that you pulled up
+I'm gonna say it but the other one that comes to me is uh limitless limitless that'd be more
+so than mentalist right that yeah because limit yeah and limitless yeah okay yeah so go limitless
+let's see what we get
+again so the good doctor and the Queen's Gambit make two statements that I think are relevant
+is that there's this visualization visualization in 3D is how he does it she does the same thing
+visualize and plan multiple moves ahead okay so
+let's get back to our document and add these in
+I'm gonna cut take that out
+I'm not sure what those are so let's uh that oh that's from the that's from the previous area
+so let's just add this colon colon colon
+add that move on down and we've got this
+so let's get just a general idea of well let's get a synopsis and what we'll do
+is we'll go back to our original document that you gave me
+we'll go to scratch pad and say
+using the original idea comma and show philosophies I would like you to come up with a 250 word
+synopsis for a show here we go original idea like that and we'll also say show
+philosophies now we'll paste in the original idea here and we will go to the show philosophies
+and we'll paste them in here
+I'll just hit stop because it looks like I pasted it into the wrong spot
+press edit original idea is here
+go down to the bottom cut that out
+so
+as they uncover as they
+okay we'll just put that in there
+press generate response
+now that's about an hour into the session I think we've got a good understanding of themes
+what we'll do now is we'll play this back just to see whether it's what you like
+and then we might end up the session
+sure
+play
+Blazed and amazed is a vibrant and engaging television series that follows the amusing
+and unexpected adventures of two neurodivergent stoners, Dex and Oz, as they unwittingly become
+entangled in solving real crimes. The duo, reminiscent of a modern-day Hardy Boys crossed
+with the whimsical goofiness of Bill and Ted, bring a fresh take on the classic mystery-solving
+genre. Inadvertently, Dex's keen eye for patterns and Oz's unbounded creativity often
+lead them to stumble upon genuine criminal activities within their seemingly mundane lives.
+Taking inspiration from Scooby-Doo, their shenanigans often start as innocent fun but morph
+into daring escapades. Enriched by the influence of Jay and Silent Bob, their witty and lighthearted
+banter conceals their raw ingenuity and resourcefulness. Dex and Oz's neurodivergence, akin to the
+brilliant minds and the good doctor and the queen's gambit, gifts them with a unique lens through
+which they view the world. In the debut episode, their favorite professor, who channels existentialist
+philosophy reminiscent of the philosophy of absurdity, is wrongfully accused of professional
+misconduct. Driven by a sense of justice and loyalty, much like Enola Holmes, Dex and Oz
+put their eccentric detective skills to the test. They embark on an adventure full of clever plot
+twists, hilarious encounters, and moments of genuine heart. Blazed and amazed masterfully
+weaves comedy, mystery, and the untapped strengths of neurodivergent individuals into an enthralling
+tapestry that captivates audiences from all walks of life. Through laughs, risks, and the
+unraveling of enigmas, Dex and Oz prove that heroes come in the most unexpected packages.
+What do you think? It's pretty cool. It's a good start. I think the next step we should do is buy a
+domain name. Right? Because I think we could convert this into a blog and just we maybe have a landing
+page who knows. So what we'll do now is go to GoDaddy, I think.
+Let's go Blazed and Amazed. Is that it? Yeah, Blazed and Amazed. Yep. Press search.
+It's available? Yeah. Okay. Do you want to also look at Blazed and Amazed?
+What one would be would be easy? Like if somebody was searching that, Blazed and Amazed or Blazed
+jump back and just say Blazed and Amazed.com. Great. So I'll buy it? Yeah. Okay. So make it yours.
+We'll just
+press continue.
+No domain protection for now. No professional email. Continue to cart.
+Okay. Why is it so expensive? Let's just do it for one year.
+$16 Australian. I'm ready to pay.
+Okay. We own a domain called Blazed and Amazed.com. So if we go back to our
+mind map for a second, let's say domain Blazed and Amazed.com. Throw that in.
+If we go website, give it a domain now. Blog. What we can do is take say these
+apicast videos and create a chronological view of how we develop the set. So chronological
+show development based on apicast. Now we've got a show philosophy at the moment or show synopsis,
+I think. There must be a Y in there, I think. We've got a show philosophy as well. We could
+say show philosophy needs more input. Show synopsis. Looking good, in my opinion.
+As we go in here, we'll just give ourselves some emoji marks. So show synopsis will be
+good. Show philosophy will be okay. Domain name is done.
+Okay. Now let's just talk a little bit about next steps. Backstory, character development.
+So we've got Dex and Oz. Okay, that's cool. So we've got Dylan, Dex Richards, and we've got
+Alan, Oz, Cooper. So we need to expand on these guys.
+Let's just throw in a few things. Let's go storyboarding.
+For now, we need to do some mid-journey work to develop out these characters,
+just how we think they'll look.
+We'll leave it at that. I'll have a read through everything. In fact, you have a read
+through it all as well. What I'm going to do is share this mind map with you.
+Okay. Krastamusic.com. You got edit capability on this. So we hit share.
+So you can look at this. You can even expand on it if you want to. We'll take the script as it
+stands today and we'll hit the share button here. Okay. So we copy the link. We'll just see what it says.
+Copy the link and rather than sending it to you as an email, what I'm going to do is go
+to the mind map. I'm going to create a concept called resources.
+And I'm going to say chat GPT. And I'm just going to paste it in as a hyperlink for you. Okay.
+So you can just go here, click on that and it'll take us straight to that. Okay.
+And that'll do for today. Yeah. That was good. Yeah. Okay. Let's hit stop.

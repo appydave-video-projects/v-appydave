@@ -1,0 +1,26 @@
+An effective amplification strategy for YouTube is sharing well-crafted tweets on X,
+formerly Twitter. This video explores how I use TubeTweet GPT to compose compelling tweets
+that promote YouTube videos, capturing the essence of my content in just a few words.
+Let's see how we can amplify YouTube influence using GPT.
+When I created the Shell Script Helper video, I tweeted it and it goes dive into the future of
+scripting with Shell Script Helper. Watch as I transform Shell Scripting with ChatGPT and we've
+got a link and a couple of hashtags. Now looking at the tweet composer GPT agent,
+its role is to create tweets for YouTube videos. It emphasizes on capturing the essence of videos
+in tweet format. When you use the create command, which I've set up for this one,
+it expects a YouTube title, a link to the video and a couple of key highlights.
+We could also pass in the summary. Let's head over to the tweet composer and we'll see that it
+specializes in creating engaging tweets for YouTube videos and we'll click on the commands
+to see what's available. The primary command is create, which will create a tweet. Paste in
+the information we have from earlier, which is a little bit of metadata. We've got the title of
+the video and then we've got a summary. We could also use the analysis, which has got more structure
+and they would both produce different but useful tweets. So let's just click on that and see what
+we get. Here's our tweet. Dive into the world of GPTs with Appy Dave. Discover how the Shell Script
+Helper GPT transforms Shell Scripting from complex FF MPG commands to chapter base video
+compiling. We've got a couple of hashtags in here and we've got a link to the video. It may be a
+little bit too long for the tweet. It may still need a little bit of refinement, but it does a pretty
+good job of creating a tweet for your video. Thank you for joining me in this look at one of the GPTs
+I used to streamline content creation on YouTube. To dive deeper and discover how I leverage a GPT
+Swarm targeting YouTube automation, check out my detailed video, 7 GPTs to Automate YouTube Influence
+in 2024. Just click the link on the screen or in the description. If you are interested in
+more innovative AI tools for YouTube, don't miss out on my custom GPTs playlist where I showcase
+a variety of GPT-powered solutions. I'm Appy Dave. Thank you for watching.

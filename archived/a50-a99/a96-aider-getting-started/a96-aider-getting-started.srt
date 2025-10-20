@@ -1,0 +1,303 @@
+1
+00:00:00,00 --> 00:00:05,30
+Would you like to automate or script your AI pair programming? In this video we're 
+
+2
+00:00:05,30 --> 00:00:09,560
+going to look at Aider. We're going to install it and test out a couple of use cases. 
+
+3
+00:00:09,560 --> 00:00:11,480
+I'm AppyDave. Let's get into it.
+
+4
+00:00:11,500 --> 00:00:18,280
+Now you can access Aider through GitHub on Aider. I Aider and if we scroll down we'll 
+
+5
+00:00:18,280 --> 00:00:22,360
+find the getting started where we'll work through this to install the software a 
+
+6
+00:00:22,360 --> 00:00:25,810
+little bit further down you've got the documentation which will take you over to 
+
+7
+00:00:25,840 --> 00:00:29,620
+a page like this where we can look through some additional examples.
+
+8
+00:00:29,630 --> 00:00:35,920
+Now I've just opened up a terminal. I'm running Python 3.12.5. We're just going to 
+
+9
+00:00:35,950 --> 00:00:41,140
+click on the install for Aider chat, and let's paste it in and see what happens.
+
+10
+00:00:41,160 --> 00:00:46,350
+From here, we'll do a new terminal and we'll just type in Aider help, and you'll 
+
+11
+00:00:46,350 --> 00:00:50,670
+be able to find all the command line arguments that you can use here. I like to just 
+
+12
+00:00:50,670 --> 00:00:55,530
+copy these straight into ChatGPT and ask it questions, but it's all available here.
+
+13
+00:00:55,560 --> 00:01:01,560
+Now the next step in the readme is change to a directory. So what we'll do is we'll 
+
+14
+00:01:01,560 --> 00:01:05,370
+make a directory and go there. It's also talking about using the anthropic key 
+
+15
+00:01:05,390 --> 00:01:10,230
+or the OpenAI API key. Now I have both of those supported, so I'm not sure which 
+
+16
+00:01:10,230 --> 00:01:13,830
+one it's going to run. And then we've got Aider. So what we'll do is we'll go down 
+
+17
+00:01:13,830 --> 00:01:18,450
+to a terminal, we'll make a test directory and we'll CD into test, and then we'll 
+
+18
+00:01:18,450 --> 00:01:24,390
+just type in Aider and see what happens. So it's firstly asking us to create a repo. 
+
+19
+00:01:24,420 --> 00:01:30,690
+We'll say yes. And from there it's telling us which model it's going to use. So it's 
+
+20
+00:01:30,690 --> 00:01:36,510
+got Claude 3.5, sonnet 2024 1022.
+
+21
+00:01:36,530 --> 00:01:42,120
+Now when Aider starts you straight into a terminal with chat capability already enabled. 
+
+22
+00:01:42,120 --> 00:01:46,500
+So you can just start writing a prompt. So we'll start off with a simple prompt, 
+
+23
+00:01:46,680 --> 00:01:51,540
+make A-H-T-M-L page in tailwind CSS, we'll add three fields. We'll go with name, 
+
+24
+00:01:51,540 --> 00:01:53,400
+description and URL. 
+
+25
+00:01:53,400 --> 00:01:58,700
+we'll add a little bit more called plus two text areas. And I'm just gonna press 
+
+26
+00:01:58,700 --> 00:02:02,780
+yes and see what happens. It'll start writing some code for us. And we've got Tailwind 
+
+27
+00:02:02,780 --> 00:02:08,330
+CSS. And what I'm hoping to do is have three fields on the left and two text areas 
+
+28
+00:02:08,330 --> 00:02:12,890
+on the right. And I'd like to create a template engine where the fields on the left 
+
+29
+00:02:13,700 --> 00:02:17,840
+merged with the template to create an output. So here we've got some information 
+
+30
+00:02:17,840 --> 00:02:20,600
+come up. We would like to create a page. Let's, 
+
+31
+00:02:20,590 --> 00:02:26,370
+do that. We'll say yes. And it's also got open index, HCML. Let's see what happens 
+
+32
+00:02:26,370 --> 00:02:32,370
+if we try to open it. So it's generated a new page. We've got, it looks like tailwind 
+
+33
+00:02:32,370 --> 00:02:37,500
+to me. We've got name, description and URL and we've got this template and where 
+
+34
+00:02:37,500 --> 00:02:41,780
+the output would be right here. So let's say we wanted hello, 
+
+35
+00:02:41,800 --> 00:02:44,650
+name. This is how I would think it should work. 
+
+36
+00:02:44,660 --> 00:02:46,910
+and then we can say the description 
+
+37
+00:02:46,930 --> 00:02:49,530
+is, and we could put something like 
+
+38
+00:02:49,530 --> 00:02:50,330
+description. 
+
+39
+00:02:50,360 --> 00:02:55,460
+And lastly, we need the URL. So I'll say URL. And we'll put in the URL. And what 
+
+40
+00:02:55,460 --> 00:03:00,590
+I'm hoping will happen is that this information will get copied down here, but these 
+
+41
+00:03:00,590 --> 00:03:04,250
+values will be altered with whatever's going on here.
+
+42
+00:03:04,260 --> 00:03:05,980
+So if you look at the terminal 
+
+43
+00:03:06,00 --> 00:03:10,560
+you can see a couple of extras. So we've got a commit message and it looks like it's 
+
+44
+00:03:10,560 --> 00:03:16,140
+using semantic labeling. So it's got a feat for feature. And it said create a HTML 
+
+45
+00:03:16,170 --> 00:03:22,710
+page with HTML CSS. What I think we should do is just go down to this terminal and 
+
+46
+00:03:22,710 --> 00:03:26,850
+we'll do a git status, and there's nothing going on in there. We'll do a git log 
+
+47
+00:03:26,850 --> 00:03:34,200
+and there it is. We've got this feature create HTML page with tailwind CSS. So if 
+
+48
+00:03:34,200 --> 00:03:40,110
+we go back we could undo it. But what I'd like to do now is extend it with JavaScript 
+
+49
+00:03:40,110 --> 00:03:40,890
+capability.
+
+50
+00:03:40,900 --> 00:03:45,370
+Now, what I think we should do now is go over to VS code, and let's have a look at 
+
+51
+00:03:45,370 --> 00:03:50,980
+the code in the terminal. And so we've got all this HTML. There's the tailwind CSS 
+
+52
+00:03:51,100 --> 00:03:56,770
+lots. All pretty simple. So let's add a new prompt. So I've prewritten a prompt and 
+
+53
+00:03:56,770 --> 00:04:01,660
+it says can you enhance the page with JavaScript. We're basically going to watch 
+
+54
+00:04:01,660 --> 00:04:06,580
+the field names on the left and the template. And we're going to use interpolation. 
+
+55
+00:04:06,580 --> 00:04:11,290
+And I've said can you use square brackets. We'll spell that correctly and we'll take 
+
+56
+00:04:11,290 --> 00:04:16,690
+a copy of that. And if we head over to the terminal we should be able to just paste 
+
+57
+00:04:16,690 --> 00:04:22,120
+it in and see what happens. Now hopefully as it goes through, we're also going to 
+
+58
+00:04:22,120 --> 00:04:27,120
+see some JavaScript changes, either in the HTML file or as a new page.
+
+59
+00:04:27,130 --> 00:04:31,890
+So it's finished with instructions. If we come back over and we look at the HTML 
+
+60
+00:04:31,920 --> 00:04:37,620
+page, we now have a whole lot of JavaScript down the bottom. Let's also read this 
+
+61
+00:04:37,620 --> 00:04:38,670
+a little bit further. 
+
+62
+00:04:38,700 --> 00:04:43,830
+if you type in the template area, that's the sort of information you can then fill 
+
+63
+00:04:43,830 --> 00:04:48,540
+in the fields. And this is how it should interpolate. And lastly it should be able 
+
+64
+00:04:48,540 --> 00:04:53,910
+to open it. And we also have the commit message going on here as well. I'm just going 
+
+65
+00:04:53,940 --> 00:04:58,980
+to press yes. And we'll let that run. And while that's happening we'll bring up a 
+
+66
+00:04:58,980 --> 00:05:00,180
+web page.
+
+67
+00:04:59,730 --> 00:05:05,270
+So we get the little HTML page up. Let's put in Dave and let's just see what happens 
+
+68
+00:05:05,270 --> 00:05:11,600
+if we start typing name. And this last one should change it. Does it changes to this. 
+
+69
+00:05:11,630 --> 00:05:13,580
+We'll say we'll put in a description 
+
+70
+00:05:13,600 --> 00:05:18,850
+And we'll say URL URL like that. And for the description we'll paste this in. 
+
+71
+00:05:18,860 --> 00:05:20,810
+for the URL we'll paste this in 
+
+72
+00:05:20,830 --> 00:05:26,110
+And we've basically built a prompt templating engine in about two prompts.
+
+73
+00:05:26,130 --> 00:05:31,600
+Well, to recap, we've installed Aider, we've got it working, and we've created a 
+
+74
+00:05:31,600 --> 00:05:35,920
+little HTML page and added some JavaScript. And it's taken only a few minutes. To 
+
+75
+00:05:35,920 --> 00:05:40,750
+finish this off, I'm AppyDave. In the next video, I'm going to take this process 
+
+76
+00:05:40,750 --> 00:05:42,970
+a little bit further. I'll see you soon.

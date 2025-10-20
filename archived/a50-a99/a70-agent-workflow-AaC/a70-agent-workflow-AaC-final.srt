@@ -1,0 +1,643 @@
+1
+00:00:00,00 --> 00:00:05,280
+ you've ever tried to configure an agent framework like Crew ai, auto Gen, or Lang 
+
+2
+00:00:05,280 --> 00:00:10,740
+Chain, or you're trying to design a workflow of GPTs that solve a specific business 
+
+3
+00:00:10,740 --> 00:00:15,390
+problem, you might be wondering, is there a simple instruction language that you 
+
+4
+00:00:15,390 --> 00:00:20,510
+can use to configure or come up with these designs? This is the third video in the 
+
+5
+00:00:20,510 --> 00:00:26,210
+developing an agent workflow builder software. And before I even started developing 
+
+6
+00:00:26,210 --> 00:00:31,440
+this software, I came up with this agent as code sort of idea. What I needed was 
+
+7
+00:00:31,440 --> 00:00:37,530
+a simple instruction set that I could generate workflows quickly using a domain specific. 
+
+8
+00:00:37,560 --> 00:00:43,100
+So let's start by talking about DSLs or domain specific languages. And if you've 
+
+9
+00:00:43,100 --> 00:00:48,420
+ever used something like Terraform, then you've come across a DSL, which is sometimes 
+
+10
+00:00:48,420 --> 00:00:53,820
+called infrastructure as code. And if we look at a scenario here of deploying a scalable 
+
+11
+00:00:53,880 --> 00:00:58,790
+web application, you can see there's a bunch of tasks that would need to be done 
+
+12
+00:00:58,790 --> 00:01:03,680
+to deploy that application. Now you could go onto something like Amazon Web Services 
+
+13
+00:01:03,680 --> 00:01:09,320
+and use the configuration screens, but you can also turn that into code. And here's 
+
+14
+00:01:09,320 --> 00:01:13,980
+an example of what the code might look like. So it says that the provider is Amazon 
+
+15
+00:01:13,980 --> 00:01:18,480
+Web Services. We've got a bunch of resources that we need to set up and then you 
+
+16
+00:01:18,480 --> 00:01:24,510
+just can continue on. You've got security groups, EC2 instances, databases. Now if 
+
+17
+00:01:24,510 --> 00:01:29,700
+you run this script, you could automatically deploy and provision your scalable web 
+
+18
+00:01:29,700 --> 00:01:34,200
+server, but you might also wanna visualize it. And if you visualize it, you might 
+
+19
+00:01:34,200 --> 00:01:38,730
+wanna see it in some sort of graphic. And this is the problem I'm trying to solve 
+
+20
+00:01:39,00 --> 00:01:44,280
+using agent as code. So when I'm releasing a YouTube video, I go through this workflow 
+
+21
+00:01:44,280 --> 00:01:48,480
+and the last thing I do is I create some social media posts. I've got the YouTube 
+
+22
+00:01:48,480 --> 00:01:54,480
+metadata that I need, I create a title and a thumbnail for the video. I'm analyzing 
+
+23
+00:01:54,680 --> 00:01:59,960
+content building the chapters that you see in the description on the video and preparing 
+
+24
+00:02:00,600 --> 00:02:04,530
+the video right at the beginning. And all of this is part of the YouTube launch optimizer. 
+
+25
+00:02:04,730 --> 00:02:11,370
+And as far as agents go, it's made up of 22 different steps. There's 33 data points 
+
+26
+00:02:11,370 --> 00:02:16,220
+that I'm collecting along the way, 21 prompts and six different phases. These are 
+
+27
+00:02:16,220 --> 00:02:20,990
+the phases that you're seeing here. Now let's do a bit of an overview of the agent 
+
+28
+00:02:20,990 --> 00:02:26,390
+as code setup that I've got here. So you can see I've got this agent creation node 
+
+29
+00:02:26,690 --> 00:02:30,360
+and I've called it YouTube Launch Optimizer. And it tells us what it's about. This 
+
+30
+00:02:30,360 --> 00:02:36,150
+workflow optimizes video launches by analyzing, preparing and generating content 
+
+31
+00:02:36,150 --> 00:02:40,830
+for various places. This is how I release a lot of my videos onto social media and 
+
+32
+00:02:40,880 --> 00:02:45,960
+any other writing that I need to do. And what that looks like. This whole process 
+
+33
+00:02:46,160 --> 00:02:51,780
+is right here. We've got the YouTube launch optimizer with a bunch of sections, attributes, 
+
+34
+00:02:51,810 --> 00:02:56,210
+and prompts. So as we move through this, we can see there's a couple of settings 
+
+35
+00:02:56,210 --> 00:03:00,370
+that are in place. Where are we going to put the prompts and what's the default large 
+
+36
+00:03:00,370 --> 00:03:05,430
+language model we wanna work. Now when I wanna make changes to this, I just make 
+
+37
+00:03:05,430 --> 00:03:10,360
+the changes and save the file and everything kicks in. So let's say the YouTube launch 
+
+38
+00:03:10,380 --> 00:03:14,650
+optimizer is not the name we want. And instead we want to go with something like 
+
+39
+00:03:14,650 --> 00:03:19,930
+YouTube post-production. What I do is I press save and it's kicked off some processes 
+
+40
+00:03:19,930 --> 00:03:25,560
+and changed the title here to YouTube post-production. So if I undo that and hit 
+
+41
+00:03:25,560 --> 00:03:29,590
+save, we're back to Launch Optimizer. And the good thing about this is that you're 
+
+42
+00:03:29,590 --> 00:03:36,370
+seeing a visualization from the agency's code, but this could be configured to produce 
+
+43
+00:03:36,370 --> 00:03:42,210
+outputs for say, Lang Chain or Crew ai. So let's come back to the domain specific 
+
+44
+00:03:42,210 --> 00:03:46,620
+language and we can see we've got a bunch of prompts. Now, according to this number 
+
+45
+00:03:46,620 --> 00:03:52,210
+here, we've got 21 prompts and you can see them all listed when you click on the 
+
+46
+00:03:52,240 --> 00:03:57,550
+prompts menu. And they're all loaded into the visualization tool right here. The 
+
+47
+00:03:57,550 --> 00:04:02,500
+next thing we see is a bunch of attributes that I'm collecting along the way, and 
+
+48
+00:04:02,500 --> 00:04:06,810
+those attributes are being configured as strings or indis or whatever they're needed 
+
+49
+00:04:06,810 --> 00:04:11,370
+to be. Keeping in mind that large language models will only work with strings anyway. 
+
+50
+00:04:11,430 --> 00:04:15,720
+But I have the concept of types so that I can configure the interface to limit the 
+
+51
+00:04:15,720 --> 00:04:20,230
+sort of values that come in. Now because this is a section, when we get to the last 
+
+52
+00:04:20,230 --> 00:04:25,500
+point in the section, we can go down to the next phase. And if we scroll down here, 
+
+53
+00:04:25,500 --> 00:04:29,800
+this should be the building of the chapters. This is how I do the chapters in my 
+
+54
+00:04:29,800 --> 00:04:35,980
+YouTube description. So the first thing I do is using a transcript that I type in 
+
+55
+00:04:36,400 --> 00:04:42,670
+and an abridgement, I go and track down or identify the potential headings and what 
+
+56
+00:04:42,670 --> 00:04:47,190
+was said at the time. From that, I'm moving through and refining it and then ultimately 
+
+57
+00:04:47,190 --> 00:04:53,290
+creating the chapters in a format that's probably listed right here. And we can see 
+
+58
+00:04:53,290 --> 00:04:59,470
+these prompts back at the top by navigating to the create chapters prompt. And the 
+
+59
+00:04:59,470 --> 00:05:04,560
+way that looks is it's just a text file that I can alter. We'll just put in X, Y, 
+
+60
+00:05:04,560 --> 00:05:09,570
+Z right here. We'll hit save on that and we'll hit save. Our prompt has been updated 
+
+61
+00:05:09,570 --> 00:05:14,190
+to reflect what the configuration is. Now if you're actually interested in seeing 
+
+62
+00:05:14,190 --> 00:05:17,880
+the repositories around this code, I'll leave a link in the description. Keep in 
+
+63
+00:05:17,880 --> 00:05:22,930
+mind, this is a pre alpha release. This is me eating my own dog food and using these 
+
+64
+00:05:22,930 --> 00:05:27,370
+applications. They're not ready for anyone to actually use, but you can have a look 
+
+65
+00:05:27,370 --> 00:05:32,620
+at the code. What I thought we'd do is create a workflow from scratch and we'll work 
+
+66
+00:05:32,620 --> 00:05:37,360
+with law and order to see law is something I know nothing about. So I dunno what 
+
+67
+00:05:37,360 --> 00:05:41,820
+we are going to end up at the end of this. And search engine optimization. So if 
+
+68
+00:05:41,820 --> 00:05:47,230
+you were a media agency dealing with legal, this might be the sort of workflow you 
+
+69
+00:05:47,230 --> 00:05:51,910
+wanna work. So let's head over to the agent builder and I've come to something called 
+
+70
+00:05:51,910 --> 00:05:56,680
+the Agent Workflow Architect, and we'll use this to create our new workflow. And 
+
+71
+00:05:56,680 --> 00:06:01,690
+I've clicked on the workflow objective and I need a goal and an idea. What I've done 
+
+72
+00:06:01,690 --> 00:06:08,600
+is just typed in a idea, I've called it SEO Agency for Law and Compliance. I've said 
+
+73
+00:06:08,600 --> 00:06:15,350
+a workflow for SEO agents that specializes in content marketing for lawyers and statutory 
+
+74
+00:06:15,350 --> 00:06:20,540
+compliance field. I don't know whether any of this makes sense, but this is the sort 
+
+75
+00:06:20,540 --> 00:06:26,290
+of stuff that I would come across if I had to deal with a new client in Law and Order. 
+
+76
+00:06:26,290 --> 00:06:30,130
+And I want to do SEO sort of work. These are the sort of simple statements I can 
+
+77
+00:06:30,130 --> 00:06:34,630
+come up with. And we can just press copy. This prompt has been merged with these 
+
+78
+00:06:34,790 --> 00:06:39,190
+input parameters and we can just see them down here. We can see the workflow idea 
+
+79
+00:06:39,190 --> 00:06:44,890
+and the goal. And we can simply head over to GPT at the moment and just paste the 
+
+80
+00:06:44,890 --> 00:06:50,200
+information in and see what sort of overview it thinks we need. We've got this overview 
+
+81
+00:06:50,300 --> 00:06:55,220
+is designed for an SEO agency specializing in content marketing for lawyers focused 
+
+82
+00:06:55,220 --> 00:06:59,260
+on statutory compliance. And there's a bunch of other information going in here. 
+
+83
+00:06:59,440 --> 00:07:03,940
+Now you might be wondering why did I use chat JPT and not use the agent builder? 
+
+84
+00:07:04,220 --> 00:07:08,930
+'cause the agent builder actually has a button called start, which would then work 
+
+85
+00:07:08,930 --> 00:07:13,690
+with whatever large language model. But this is a proof of concept application. So 
+
+86
+00:07:13,690 --> 00:07:17,720
+that sort of stuff isn't working yet. So what I've done is I've selected all the 
+
+87
+00:07:17,720 --> 00:07:21,470
+information, copied it, headed back to the workflow tool, and we'll just move on 
+
+88
+00:07:21,470 --> 00:07:26,930
+to the next one, which is listing the steps that you might want in a workflow. So 
+
+89
+00:07:26,930 --> 00:07:31,390
+we're just gonna paste the information in right there, press the copy button, come 
+
+90
+00:07:31,390 --> 00:07:37,630
+back to chat, GPT, paste it in and see what sort of steps it thinks we need. Now 
+
+91
+00:07:37,630 --> 00:07:43,870
+we've got a list of items, identify key compliance topics, legal keywords. This is 
+
+92
+00:07:43,870 --> 00:07:48,580
+all making sense. We could have a conversation with the GPT to expand on it, but 
+
+93
+00:07:48,580 --> 00:07:53,600
+for now we're just going to copy it and head over to the next step, which is about 
+
+94
+00:07:53,890 --> 00:07:58,910
+organizing the steps into some sort of hierarchy that might happen in an SEO agency. 
+
+95
+00:07:58,910 --> 00:08:03,880
+So we're clicking here and we've got these research and planning, content creation 
+
+96
+00:08:03,940 --> 00:08:08,00
+and optimization and publishing. I've just put in this statement to get rid of the 
+
+97
+00:08:08,00 --> 00:08:12,130
+phase one, two and three. I don't think that's very relevant for us. And we'll press 
+
+98
+00:08:12,130 --> 00:08:17,500
+copy and just move on to the next step. What would be useful is how do you name these 
+
+99
+00:08:17,500 --> 00:08:23,360
+workflows? So do you name them based on their function or do you use something cutesy? 
+
+100
+00:08:23,420 --> 00:08:29,600
+'cause imagine an agent workflow as being like a staff member or a team member that 
+
+101
+00:08:29,600 --> 00:08:34,490
+solves a a problem. We might have legal Leon, compliance Christina, but here we'll 
+
+102
+00:08:34,490 --> 00:08:39,200
+just go with a practical name. We'll press copy and we'll see what we're ultimately 
+
+103
+00:08:39,200 --> 00:08:44,530
+going to call this workflow. And we could play around with this, but I like either 
+
+104
+00:08:44,530 --> 00:08:49,940
+the compliance content marketing strategy or the SEO for legal compliance. If I move 
+
+105
+00:08:49,940 --> 00:08:54,880
+into the last step, this is a specification. So this is hooking everything up. So 
+
+106
+00:08:54,880 --> 00:09:00,840
+I'm just going to put in this, we've got the list of organized steps. And what we're 
+
+107
+00:09:00,840 --> 00:09:05,490
+trying to do now is figure out what are the inputs for each step and what are the 
+
+108
+00:09:05,490 --> 00:09:09,450
+outputs and how do they all flow together? And that's what the specification is about. 
+
+109
+00:09:09,600 --> 00:09:15,570
+So we'll come back to our GPT and I've just pasted in everything. It's got an example 
+
+110
+00:09:15,570 --> 00:09:20,150
+of what this should look like. And we're ending up with these phase names, research 
+
+111
+00:09:20,150 --> 00:09:24,140
+and planning, content creation, optimization and publishing. We've got different 
+
+112
+00:09:24,140 --> 00:09:28,670
+steps going on, we've got descriptions, and if we move over to the right, we should 
+
+113
+00:09:28,670 --> 00:09:33,720
+have the inputs and the outputs. So for the first identify topics, we've got an input 
+
+114
+00:09:33,750 --> 00:09:38,460
+of some legal documents and current trends. The output is compliance topics, the 
+
+115
+00:09:38,460 --> 00:09:43,350
+input for the next one, it is the compliance topics from the output here, plus some 
+
+116
+00:09:43,350 --> 00:09:48,600
+search data. Now this may not be right, this doesn't get it fully right, but I use 
+
+117
+00:09:48,600 --> 00:09:53,190
+it as a starting point. So we're just gonna press copy on that. So our agent as code 
+
+118
+00:09:53,190 --> 00:09:59,700
+for SEO and legal compliance is ready to go. If I was to press save, we should get 
+
+119
+00:09:59,700 --> 00:10:05,700
+a new static page created using Astros. So at the moment it currently says SEO for 
+
+120
+00:10:05,700 --> 00:10:10,550
+legal compliance is not available. Now I have links in the description below around 
+
+121
+00:10:10,550 --> 00:10:15,380
+how I created the initial agent, static proof of concept, and then how I made it 
+
+122
+00:10:15,380 --> 00:10:21,290
+more dynamic, which is what we've been using today using the minimum viable product. 
+
+123
+00:10:21,210 --> 00:10:26,300
+But what I'll do now is just hit save and when we come back we should be able to 
+
+124
+00:10:26,300 --> 00:10:32,150
+refresh. We are looking at the visual user interface compared to the agent as code. 
+
+125
+00:10:32,370 --> 00:10:36,890
+We can see that it's called SEO for legal compliant, which is matching the name that 
+
+126
+00:10:36,890 --> 00:10:42,590
+we created. There's also a URL to it. The description is in the agent as code, but 
+
+127
+00:10:42,590 --> 00:10:46,590
+I haven't visualized it in the user experience. Then if we go to settings, we've 
+
+128
+00:10:46,590 --> 00:10:51,290
+got a location for the prompts and we've got a default large language model. So we 
+
+129
+00:10:51,290 --> 00:10:55,320
+can head over to settings and they've been filled in. The next thing we've got are 
+
+130
+00:10:55,320 --> 00:10:59,540
+the prompts. And if we click on prompts, we can see all the prompts. Now the prompts 
+
+131
+00:10:59,610 --> 00:11:04,200
+are not filled in with any information 'cause I haven't done that part of updating 
+
+132
+00:11:04,200 --> 00:11:09,380
+'em in the files. In the SaaS application that I'm building. This will be stored 
+
+133
+00:11:09,380 --> 00:11:14,660
+in a database. If we scroll down, we can see the attributes that have been set up. 
+
+134
+00:11:14,660 --> 00:11:18,770
+And these are the data points that we're collecting. And we can see that by clicking 
+
+135
+00:11:18,770 --> 00:11:22,880
+here. And we've got the list of data points in this place. We've some of them filled 
+
+136
+00:11:22,880 --> 00:11:26,750
+in as I started through this. So I'm just gonna clear one of those out. I'm gonna 
+
+137
+00:11:26,750 --> 00:11:31,500
+keep this one and head over to the overview. So with the overview, we'll click on 
+
+138
+00:11:31,500 --> 00:11:37,160
+identify topics. That was the first thing that was thought of with SEO for compliance. 
+
+139
+00:11:37,350 --> 00:11:43,190
+And we've got agent workflows filled in. And I'm also gonna put in some legal documents. 
+
+140
+00:11:43,190 --> 00:11:47,540
+So let's say you've got this legal document, A, a, A, and we'll put in a space and 
+
+141
+00:11:47,540 --> 00:11:52,790
+we'll just repeat that many, many times. So this is coming in probably from a PDF 
+
+142
+00:11:52,840 --> 00:11:56,760
+document. What you can see here that I've put in a prompt that says, tell me more 
+
+143
+00:11:56,760 --> 00:12:02,110
+about the current trends, which would be agent workflows, the legal documents that 
+
+144
+00:12:02,110 --> 00:12:06,490
+showed. And then we go, make sure you give me the current stats on current trends 
+
+145
+00:12:06,630 --> 00:12:13,900
+again. And if we open up the interpolated prompt, we can see those values being loaded 
+
+146
+00:12:13,900 --> 00:12:18,270
+in in various locations. Now the other thing we can see is that we've got three different 
+
+147
+00:12:18,270 --> 00:12:22,690
+steps going on for the research and planning. And so as we move through our agent 
+
+148
+00:12:22,690 --> 00:12:28,380
+of code, we've got section research and planning identify topics. The input is current 
+
+149
+00:12:28,380 --> 00:12:34,530
+trends or legal documents. The prompt is identify topics that would be read in from 
+
+150
+00:12:34,570 --> 00:12:39,220
+up here, one of the files. And then lastly, there'd be an output, which is compliance 
+
+151
+00:12:39,220 --> 00:12:44,800
+topics. Now, if I was to add in another one, we'll just put in A B, C, just as an 
+
+152
+00:12:44,800 --> 00:12:49,140
+example, and we'll see that there's a new output attribute called A B, C. 'cause 
+
+153
+00:12:49,140 --> 00:12:54,90
+the goal of this sort of tooling is that we should be able to give one or more inputs 
+
+154
+00:12:54,250 --> 00:13:00,460
+and get one or more outputs in various formats, such as just raw text, rich text, 
+
+155
+00:13:00,490 --> 00:13:06,490
+markdown, copy, Jason, or all the sorts of data formats that you might want for more 
+
+156
+00:13:06,490 --> 00:13:08,370
+automated sort of workflows.
+
+157
+00:13:08,430 --> 00:13:14,190
+ that you've seen how DSLs can streamline your YouTube launch strategy, imagine taking 
+
+158
+00:13:14,190 --> 00:13:18,960
+that efficiency to the next level. What if you could achieve 4,000 watch hours faster 
+
+159
+00:13:18,960 --> 00:13:23,310
+than ever before? So drop a comment down below and like, and subscribe because in 
+
+160
+00:13:23,310 --> 00:13:28,830
+the next video we'll reveal advanced techniques to maximize your workflows impact, 
+
+161
+00:13:28,290 --> 00:13:31,200
+and get those watch hours rolling in in no time.

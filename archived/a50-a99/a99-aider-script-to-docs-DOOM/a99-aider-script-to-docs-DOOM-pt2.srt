@@ -1,0 +1,483 @@
+1
+00:00:00,00 --> 00:00:05,860
+Now, what I'd like to do now is create a complete documentation readme for the C 
+
+2
+00:00:05,890 --> 00:00:10,960
+files in this particular folder. So what we'll do is we'll go down to the GPT context 
+
+3
+00:00:10,990 --> 00:00:15,340
+tool, and we'll just make sure we've got all the files listed. They all look to be 
+
+4
+00:00:15,340 --> 00:00:20,260
+good. Let's see just how big this will be. So I'm going to get rid of the format. 
+
+5
+00:00:20,260 --> 00:00:24,490
+And it's going to give us both the files and the code. We'll just paste all of that 
+
+6
+00:00:24,490 --> 00:00:30,880
+in. So we've got 43,400 lines of code across all of those files. If we go to the 
+
+7
+00:00:30,880 --> 00:00:35,950
+top, we can see the files listed as well. And this is important to know because this 
+
+8
+00:00:35,950 --> 00:00:38,530
+is your context and it's going to cost money.
+
+9
+00:00:38,560 --> 00:00:42,880
+So we're running the same GPT context command, but this time I've said the format 
+
+10
+00:00:42,880 --> 00:00:47,830
+is ada. And we'll put in the prompt here. And what we'll do is we'll just come over 
+
+11
+00:00:47,890 --> 00:00:52,900
+and have a look at a prompt that says, create documentation in the Linux Doom Read 
+
+12
+00:00:52,900 --> 00:00:58,300
+me C file. And then we've got this complex prompt that we built using Anthropic prompt 
+
+13
+00:00:58,300 --> 00:00:58,780
+generator. 
+
+14
+00:00:58,630 --> 00:01:03,140
+so we can see we've got a command ready to go aider message, create documentation 
+
+15
+00:01:03,170 --> 00:01:07,400
+in the location we want. We've got the complex prompt going on after that. 
+
+16
+00:01:07,430 --> 00:01:10,700
+we will just let that run and see what happens. 
+
+17
+00:01:10,730 --> 00:01:16,970
+So many files have been added. Warning it's best only ad files to set. You need for 
+
+18
+00:01:16,970 --> 00:01:20,30
+the chat. Well, we do need 'em all. It's a lot going on here. 
+
+19
+00:01:20,330 --> 00:01:24,150
+And we can see here we've hit a token limit. Now this is a more than fair thing and 
+
+20
+00:01:24,150 --> 00:01:29,370
+we probably wouldn't wanna run this many files through one lot of documentation generation 
+
+21
+00:01:29,370 --> 00:01:33,370
+anyway. So what we'll do next is we'll just split it up into four separate passes.
+
+22
+00:01:33,630 --> 00:01:38,400
+So what we're going to do is look at all the C files that are in this particular 
+
+23
+00:01:38,400 --> 00:01:43,830
+directory, and we'll iterate over all of them and just run Aider on each file. Now 
+
+24
+00:01:43,830 --> 00:01:48,330
+one of the things to keep in mind is that if we do a git log, we want to make sure 
+
+25
+00:01:48,330 --> 00:01:53,580
+that as we're iterating, we're not creating a new commit each time, because we probably 
+
+26
+00:01:53,580 --> 00:01:55,830
+want to do that at the end of the run.
+
+27
+00:01:55,830 --> 00:02:00,120
+So let's assume we've got a starting command that looks like this. Aider. And we 
+
+28
+00:02:00,120 --> 00:02:04,590
+don't want the commit. So we've said no auto commits. We've got a message. And we're 
+
+29
+00:02:04,590 --> 00:02:08,820
+going to assume that some sort of file is going to come in. We want to write to the 
+
+30
+00:02:08,820 --> 00:02:12,180
+MD file, and we want to base it off the incoming file. 
+
+31
+00:02:12,190 --> 00:02:17,310
+do you want to create the new file. We'll say yes. And we should get a new file just 
+
+32
+00:02:17,310 --> 00:02:22,850
+created here. And now we've got documentation related to the file above. 
+
+33
+00:02:22,860 --> 00:02:27,330
+so we can see the individual file and the documentation related to it.
+
+34
+00:02:27,330 --> 00:02:30,990
+Now, if we come down to the terminal and we do a formatted git log, 
+
+35
+00:02:31,00 --> 00:02:35,750
+we can see that there's one file ready to go. So if we did this in a loop we would 
+
+36
+00:02:35,750 --> 00:02:39,740
+have everything ready for a single commit at the end. And I'll show you the Aider 
+
+37
+00:02:39,740 --> 00:02:41,900
+command for that later on.
+
+38
+00:02:41,990 --> 00:02:46,130
+So what we have here is the file we just ran, which was Aider. No commits the message. 
+
+39
+00:02:46,130 --> 00:02:51,680
+We want to a particular file using an input file. And what we'll do is we'll just 
+
+40
+00:02:51,680 --> 00:02:56,550
+paste in a loop so that we're just looping through all the files in that folder. 
+
+41
+00:02:56,550 --> 00:03:02,780
+And we're just interpolating the file name with MD. And we've also got the file name 
+
+42
+00:03:02,780 --> 00:03:07,740
+coming in. But let's make it a little bit more complex. And we'll take this complex 
+
+43
+00:03:07,740 --> 00:03:13,560
+prompt that we did earlier. And we will just go dash and paste that in as well. And 
+
+44
+00:03:13,560 --> 00:03:18,360
+from there we should be able to run this and run the complex prompt and create a 
+
+45
+00:03:18,360 --> 00:03:20,960
+markdown file for every C file.
+
+46
+00:03:21,00 --> 00:03:25,580
+So I kicked off the command. We can see where the, it starts here and so far it's 
+
+47
+00:03:25,580 --> 00:03:30,340
+run for about 15 minutes and we can see individual files being updated. 
+
+48
+00:03:30,190 --> 00:03:35,820
+Then it moved on here. It both created and opened the d_items.md So we've got that 
+
+49
+00:03:35,820 --> 00:03:42,210
+going on and this goes on for quite a while. Then at one stage it decided to create 
+
+50
+00:03:42,210 --> 00:03:46,420
+files in a dots directory. Now, it didn't always do that. It would sometimes do it 
+
+51
+00:03:46,420 --> 00:03:46,710
+in this 
+
+52
+00:03:46,730 --> 00:03:51,840
+directory and sometimes do it at the level of the original file. So This's just a 
+
+53
+00:03:51,840 --> 00:03:56,610
+change that's going on as we go. Now if we just go to the bottom, it's still operating 
+
+54
+00:03:56,610 --> 00:04:00,150
+at the moment, so we'll just kick off the next one and we'll say yes. 
+
+55
+00:04:00,160 --> 00:04:04,240
+And this one looks like it's going to be created at the root level, which is where 
+
+56
+00:04:04,240 --> 00:04:04,720
+we wanted 
+
+57
+00:04:04,700 --> 00:04:09,110
+that instance when it said open the file, I said no in this case. 
+
+58
+00:04:09,130 --> 00:04:13,770
+So we do have a little bit of control whether we create them or open them in your 
+
+59
+00:04:13,770 --> 00:04:17,220
+IDE. So for this one, we'll just say yes, 
+
+60
+00:04:17,230 --> 00:04:18,290
+create the file, 
+
+61
+00:04:18,300 --> 00:04:23,190
+So I'll let it run to the end and then we'll see what's being created and calculate 
+
+62
+00:04:23,190 --> 00:04:23,880
+the prices.
+
+63
+00:04:23,900 --> 00:04:26,290
+let's check out a couple of metrics here. 
+
+64
+00:04:26,300 --> 00:04:33,660
+So we've got all these markdown files in various levels. And that's quite concerning 
+
+65
+00:04:33,690 --> 00:04:37,650
+to be honest, because we've got some at the root level. We've got some where they're 
+
+66
+00:04:37,650 --> 00:04:42,570
+meant to be, which is in where the code was then we've got a bunch that are in a 
+
+67
+00:04:42,600 --> 00:04:47,880
+subfolder called docs, and then we've got two that are at the root level plus docs. 
+
+68
+00:04:47,900 --> 00:04:52,960
+it seems like it generated all the markdown documents, but it didn't always get them 
+
+69
+00:04:52,960 --> 00:04:53,860
+in the right location.
+
+70
+00:04:53,100 --> 00:04:56,920
+So what I've done is brought all the files into the docs directory, 
+
+71
+00:04:56,700 --> 00:05:01,550
+So if you go down to the chat history, you've got a whole lot of data that you can 
+
+72
+00:05:01,550 --> 00:05:07,250
+use to figure out various things. So I'm not sure whether there's a way to get the 
+
+73
+00:05:07,250 --> 00:05:08,720
+exact cost of the session, 
+
+74
+00:05:08,730 --> 00:05:14,850
+So there's 84 lines averaging around about 3 to $0.04 per call. 
+
+75
+00:05:14,860 --> 00:05:19,630
+We can see that the 84 calls cost $4.11.
+
+76
+00:05:19,660 --> 00:05:23,750
+And I got that information from the chat history. Now if we look for the create new 
+
+77
+00:05:23,750 --> 00:05:26,270
+file we can see that all listed here. 
+
+78
+00:05:26,300 --> 00:05:30,920
+for quite a while it's putting them into the right location. And then it just changes 
+
+79
+00:05:30,920 --> 00:05:36,370
+for about three files. And then it goes into a high level docs folder for some reason. 
+
+80
+00:05:36,400 --> 00:05:40,730
+then we're back to where it's meant to be. And then later on we've got a few examples 
+
+81
+00:05:40,730 --> 00:05:44,420
+here, here and here where it's done it down at the root level. 
+
+82
+00:05:44,430 --> 00:05:49,560
+So most of the time when it created a file, it gave you the option to open it, which 
+
+83
+00:05:49,560 --> 00:05:54,960
+is not something I actually needed. It also, from time to time, would do a cat to 
+
+84
+00:05:54,120 --> 00:05:58,740
+the screen and then ask a question. Would you like to add it into the chat conversation? 
+
+85
+00:05:58,740 --> 00:06:03,690
+Now, I'm not exactly sure whether this was going to be useful or not. I don't believe 
+
+86
+00:06:03,690 --> 00:06:08,310
+it would be because I was on an iteration of looping through and calling Aider each 
+
+87
+00:06:08,310 --> 00:06:12,330
+time, so I'm not sure if it was in the same session. Then from time to time it would 
+
+88
+00:06:12,330 --> 00:06:14,250
+ask to make a docs directory, 
+
+89
+00:06:14,260 --> 00:06:20,720
+So the interesting thing about doing this level of analysis is that there's an unpredictability 
+
+90
+00:06:20,720 --> 00:06:25,100
+to what was going on with the creation. Now, we haven't looked at the documentation, 
+
+91
+00:06:25,100 --> 00:06:26,450
+so let's have a look at that next.
+
+92
+00:06:26,460 --> 00:06:31,520
+No Aider will normally take care of doing the commits for you. But I said no commits. 
+
+93
+00:06:31,520 --> 00:06:35,930
+So what we're going to have to do is just add them and commit them 
+
+94
+00:06:35,800 --> 00:06:40,690
+what I want to do now is get a tree of all the documentation files that we've created 
+
+95
+00:06:40,690 --> 00:06:45,340
+under the doom folder, plus the ones that we've got at a higher level. From there, 
+
+96
+00:06:45,340 --> 00:06:47,170
+we'll run this command one more time, 
+
+97
+00:06:47,330 --> 00:06:50,820
+and we'll put in some sort of prompt that hopefully can create 
+
+98
+00:06:50,830 --> 00:06:55,410
+broad markdown file that can take us to each of these documentation files.
+
+99
+00:06:55,430 --> 00:07:00,160
+So here's the prompt that we're going to use. We'll just run this. We've now got 
+
+100
+00:07:00,160 --> 00:07:05,170
+it all set up. We can just press paste and let Aider do its job of looking through 
+
+101
+00:07:05,170 --> 00:07:11,290
+all the files, creating a 10 to 15 word description for each file, and putting it 
+
+102
+00:07:11,290 --> 00:07:15,820
+all into a table of contents so we can see information coming 
+
+103
+00:07:15,930 --> 00:07:20,680
+So I've just pushed the documentation up. We can see it here. Code documentation. 
+
+104
+00:07:20,680 --> 00:07:25,930
+We click on that. And we've got this long documentation table of contents going on 
+
+105
+00:07:25,930 --> 00:07:30,880
+with individual files. Let's just go and open up a couple of core systems. We'll 
+
+106
+00:07:30,880 --> 00:07:36,940
+do a rendering file a game logic, and let's go down to a user interface. And as we 
+
+107
+00:07:36,940 --> 00:07:41,980
+go across we can start to see the documentation going on for the core logic 
+
+108
+00:07:41,990 --> 00:07:47,230
+And then there's a little bit of user interface information going on here. Now I 
+
+109
+00:07:47,230 --> 00:07:53,230
+can't tell you whether the documentation is 100% or it's the right way to go. The 
+
+110
+00:07:53,230 --> 00:07:58,120
+main thing I'm relying on at the moment is that we can script to generate information 
+
+111
+00:07:58,120 --> 00:07:58,840
+on bulk, 
+
+112
+00:07:58,760 --> 00:08:03,850
+was great information in these files, such as just how it's meant to work as part 
+
+113
+00:08:03,850 --> 00:08:07,480
+of the whole system, and also information for Non-c programmers. 
+
+114
+00:08:07,490 --> 00:08:12,430
+Now that brings us to the end of scripting. Aider. From the command line we've looked 
+
+115
+00:08:12,430 --> 00:08:17,590
+at single line calls. We've looked at how to do a prompt against many files at the 
+
+116
+00:08:17,590 --> 00:08:20,320
+same time, and also how to loop through files.
+
+117
+00:08:20,330 --> 00:08:24,970
+Now, in the next video, I want to look at a programmatic way of working with Aider. 
+
+118
+00:08:25,90 --> 00:08:29,350
+Now, one of the things that we can see from the documentation here is that they have 
+
+119
+00:08:29,350 --> 00:08:35,200
+an unofficial way of communicating with this using Python, so hopefully we'll explore 
+
+120
+00:08:35,230 --> 00:08:39,760
+that in the next video. I'm AppyDave. Please like and subscribe and I'll see you 
+
+121
+00:08:39,760 --> 00:08:40,300
+soon.

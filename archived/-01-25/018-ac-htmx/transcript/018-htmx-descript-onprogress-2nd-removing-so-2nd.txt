@@ -1,0 +1,379 @@
+Hi, I heard about a library called HTMX from one of the senior developers on my team.
+And I was curious, could I learn how to use HTMX without a lot of JavaScript experience?
+In this AppiCast, I walked through how I created this product listing website,
+using just ChatGPT to learn how to use HTMX.
+G'day, I'm Appi Dave and in this AppiCast, we're going to look behind the scenes at this
+software called HTMX. Now, I believe it's a JavaScript library that allows you to use
+a native HTML sort of setup and the attributes will allow you to do some sort of JavaScript.
+I haven't used it, I've just been told about it. So, we'll go into Google search and we've got
+HTMX Google search and high-powered tools for HTML and we have this landing page.
+Now, what I'm going to do is just copy this basic information here.
+Don't need the sponsors, I don't think. So, we'll go into ChatGPT,
+do that and let's go with ChatGPT form and say,
+you are an expert in writing HTML, JavaScript and CSS comma, but you have come across a library
+called HTMX comma and what this library is designed to do is allow you to do JavaScript style of
+events using pure HTML. Here is a little bit of information about this software comma. Can you
+tell me in 20 words what this software or library will do? So, we have HTMX's small library for
+Ajax, CSS, WebSockets, server-side, server-cent events. It uses simple HTML attributes. Okay,
+that sounds interesting. Now, we're here, we've got, looks like we've got docs, so let's click on there
+and we have, looks like everything here is just a hash anchor. I think all the information is there,
+let's just check. It's all there. So, that makes our lives a bit easier. Let's just go into post
+slide reader where all the information is now in one simple document. I'm going to copy it and
+I've set up a little folder to get started and we'll put the documentation in there.
+Now, I'll just get rid of anything that says post slide.
+So, that won't make any sense to chat GPT. Looks like we've got the information we need. Now,
+there's 900 odd lines of information and I'm assuming some of these lines are pretty long. So,
+this information is way too big for chat GPT. What would happen if I paste it in is
+it would just say this is too big. So, what we will do is go back up to the top,
+select it all and delete it and I think, let's, we're in Java, we're in an environment where
+we can do some JavaScript. So, let's create a file called split to files.txt and we'll hit save on
+our documentation and what we want to do is take a file called documentation.md as an input and
+a size in characters as a second parameter and then split the documentation.md file into
+n number of files. Let's make this a comment. Each size
+as characters long and write two files called doc01.md doc02.md etc.
+And we'll just copy that comment and let's see what chat GPT can do with that.
+And we'll say
+in JavaScript. Okay, it looks okay. We'll see, see wherever it is.
+Hit save. We'll open up a terminal just at this location. I think 1000 is a bit small. I think
+we could go for about 8000 and LSA. We've got documentation.md. We'll just type
+node and we have a bunch of files here. So, HTMX finishes at LO,
+starts at load polling. Okay, so I think we got our documentation that we just got from the HTMX
+here. Let's take this first one and throw it in and say,
+now one of the things that probably didn't really need to do
+was have this script in the same robot or the same bot that we were starting with.
+Usually I would set up a new chat window for that, but because it's the only bit of information in
+here, we can just go and edit this and the bot will kind of forget that this information existed
+unless we change back to it. So what I'm going to do is say, can you read this information
+and tell me five interesting things about it and we just paste that in.
+We'll press save and submit and it will overwrite the split text code that we had.
+The split text code is still there because you can go back through these like this
+and you can see it here if you needed it, but I believe that because we're now on path number
+three here, the bot as it moves forward won't have any knowledge about the split text,
+which is great because we're not actually interested in that concept for testing out this library.
+Okay, HTML extends HTML capabilities so allows us to do HTTP requests.
+I think, can you give me basic installation instructions comma and a hello world HTML file
+to get started. So hello world is the default thing that you do whenever you're starting
+a new programming language or library. Obviously, we want it to do something that uses the library,
+so it might not quite be what we need, but let's go with that. So it says we can set up our HTML
+with this. Let's copy that. Let's create a new folder here. We call it documentation
+and we'll move all of this
+up here. Now we'll go for a new file and we'll call it sorry.html.
+And if we click on this, this will take us over to the library, which is great.
+If you prefer, you can download the file. We don't need to do that. And since it is
+a hello world sort of thing, let's see what this does. So I'm just going to copy that and replace
+the other one. Now we got a div idea message. So I guess this is a get request to an end
+point called hello. We're triggered on the click event target message. So whatever comes back,
+I'm assuming is going to go into here somehow. Swap the outer HTML. Click me to say hello.
+So I do not believe we have enough information to get started, but let's run this. Open in a live
+server. Click me to say hello. Okay. Nothing happened there. Once you have a server that responds,
+okay. How would would you suggest I set up a server to respond to slash hello?
+Okay, let's just run with that. So make server CD server. I don't know that we need the M. Oh,
+yes. The HTML weekend, but the life server is for taking static sort of HTML, loading them up.
+It's not for actually having a back end server. So we need to create a back end server.
+We've called it my server. I wouldn't call it just server, but this is what it said.
+Well, NPN install express. And what's this to have a server.js. So let's create that file,
+we call it pasted in. And there's an endpoint that returns hello world.
+Yeah, we just we run it. We what we might do here server.js. Is that right?
+Looks like it is. Local host. Let's open that up. And let's just hit that hello
+endpoint. Okay, so that's working. And maybe. Okay, so the first thing to notice is that I've
+run the HTML in live server, which means any get requests coming back from the library,
+coming back to this same location, which is not the same as our server. So I think what we'll do
+is rather than using live server to host this page, let's let our own server do that. So we'll
+just ask the question. Can you set up an endpoint called test one that will return
+the file test zero one dot HTML?
+Do this within the express JS server code that we wrote earlier.
+Okay, so let's just follow that path.
+That was good. Looks like public create a folder called public.
+Put it into my server. Take our file, put it into public. So there.
+Go back. I'm just going to copy everything. We know I'm going to copy everything because
+we've lost the hello world thing. But let's copy it anyway.
+Go to our server, paste it all in. Same. We got a path thing.
+Yeah, that's right. We got a join and we still want that, don't we?
+So let's rerun this.
+Hello world is still working. And now hello world.
+Test one is also working. And that says hello world. So we've got the first bit of code working.
+We've used chat Jpt to do it all. We haven't read the manual, which is interesting.
+What we can now do is take this a little bit further.
+We'll tell it first. For each example that I want you to create, could use
+make both the HTML page and the express JS route to serve it from now on.
+It's doing stuff. So that's great. So we got a great one in this case.
+Didn't quite get it the way I wanted.
+And the express JS route to serve the HTML page from.
+Yeah, that looks right. Second page would be what we're talking about.
+That's interesting. Don't even know whether this work. This is like a HTML partial.
+So there's our main page. Let's take that section just here.
+Go into HTML one. I'm going to call this index, set the name they went with it was
+go to our server code, call that index. We'll leave this code. It should still work.
+And we'll paste in this additional code here. Just hit refresh on
+local host. So now we've got click to say hello. That code should still be working.
+It does, which is cool. Hit refresh. Now load second page wouldn't work because we haven't
+got a second page, but it's suggested that we have something called second page.
+And we'll just copy that pop in over here.
+So it's just a partial. It's not the full HTML. And this should just get replaced by.
+So what is it? Welcome to the second page.
+And we don't need to refresh. We should just click it. There you go. Very cool.
+Yeah. Yeah. We have a partial working straight up. Yeah. Okay. Okay. I think we have basic
+understanding of how this works. What I want to do now is really just load all the documentation
+into chat GPT and just interrogate it as I do each one. So let's start off with a prompt that goes
+I'm going to insert all the documentation for HTMX in
+and for each piece of content, I want you to tell me three things that might be
+interesting within that content. Say yay if you understand.
+You paused. Okay. So let's go with this. I'm going to say
+paste that in.
+Thank you. Understanding HTMX. HTMX stands for HTML extension for Ajax.
+By extending HTML, HTMX allows any element to issue a HTTP request.
+Any event trigger request, any HTTP verb to be used. Installation. It's straightforward.
+You can use CDN or download it. I think we use the CDN. Triggering request request and modifiers
+provides granular control over triggering Ajax requests by default elements like input,
+text area and form are triggered on the change and submit events while others are triggered
+by the click event. However, the HX-trigger attribute. So that's something I guess we can use
+just there allows you to customize which event will trigger the request. Additionally,
+trigger modifiers such as once changed delay or throttle and from provide additional control.
+Great. So we got polling capability provides polling that can be very useful for creating
+dynamic and responsive applications using the every syntax with the HX-trigger.
+So we got that there. You can set an element to poll a given URL at regular intervals.
+So we should think about that. Let's go into chat.
+And we'll try and find some URL that we can poll and get something interesting from it on a
+timely basis. Ajax and special events. So HTML core is set up with attributes to enable Ajax
+requests. What do we got? HX get. So get request, post, port, patch, and delete requests allow
+different HTTP methods to be issued. Great. Let's move on to number two. I just took two
+letters from the previous one and added it in. I might just say
+the four interesting things in 15 to 25 words per item. And then we'll paste it in.
+What I'm also going to do is take a copy of that because we're going to use this fairly often.
+And we'll just put it there. It's like a prompt that we're going to use.
+Move on to number three in a moment, but let's see what it's saying.
+Load polling. In scenarios where a process has a definitive endpoint such as progress bars,
+load polling is useful. Okay. Request indicators. Users, HTMX indicate a class to provide
+user feedback during Ajax requests. This class manages the visibility of the indicator based
+on the request status. Okay. I don't think we're going to set this sort of stuff up. We could do.
+Target specification. HTMX allows the response to load into a different element than the request
+one using the HX target. The support standard and extended CSS syntax for flexibility.
+So I guess something we could do here is that if we had, let's say we had a nine by nine square,
+let's say we were doing some sort of product listing, we might be able to go get information
+that updates all nine listings at the same time, especially if it was the same value for each
+listing, or we could update each individual item. So I'm thinking what could we build?
+I think we might look at a couple of games if possible. We'll look at Word or maybe we'll look
+at Connect 4. But looking at the nature of this library, I think it might be easier to work more
+with our web page with dynamic content. So let's say it was like a Shopify product landing page.
+And maybe, so let's switch that out. So there's a product landing page with
+a grid and maybe even lazy load. Let's move that over there. And maybe there's a product description
+page. It'd be interesting if we could use this software and chat gpt and make
+that sort of concept pretty easily. See whether this is at all possible.
+We come back and we got DOM swapping. HTML offers diverse ways to swap HTML into the DOM.
+Supports to additional swapping, morphing. So it looks like it's got dynamic CSS
+transitions. We'll see what that means over time. Let's take number three, paste it in,
+take a little prompt from earlier, we'll just paste it in there.
+Okay, swap and settle model. It uses a model where new content is swapped in with the old
+attribute values, then the new attribute values are swapped after settled delay,
+allowing CSS transitions to work without additional JavaScript. Okay, out of band swaps.
+HTMX can directly swap content from the response into the DOM using an ID attribute
+with the HX swap OOB attribute. Okay, file upload. Uploads via setting the HX encoding
+attribute to multi-part form data. And then there's a progress event that we can hook into
+to see the file uploading. Okay, let's jump over here. Let's stay here. Bursting and progressive
+enhancement. HTMX can burst regular HTML anchors and forms into Ajax requests
+with the burst attribute supporting progressive enhancement by degrading gracefully
+if JavaScript is not enabled. Okay, I think what we'll just do is we'll push on with each question
+quickly. Do that one. We'll get another one going form data. And then there's a progress event that
+we can hook into to see the file uploading. Okay, let's jump over here.
+No, let's stay here. Bursting and progressive enhancement. HTMX can burst regular HTML anchors
+by degrading gracefully if JavaScript is not enabled. Okay, I think what we'll just do is we'll
+push on with each question quickly. Do that one. We'll get another one going. And one last one.
+Let's just read some of this while it's going. Okay, we've read that.
+We've read that HTMX promotes progressive enhancement to ensure broader user accessibility
+using normal HTML accessibility recommendations like semantic HTML. And clear focus states
+supports declarative use of web sockets and service and events, allowing real time interaction
+with clients and servers. History support in HTMX enables interaction with the browser history
+API so you can go back through different pages by using push URL attribute
+allows us to use a back function. HTMX operates with Ajax. And what do we got firing events and
+response or connection errors, and also supports cross origin resource sharing. Move on down.
+All that's going. We'll start another one here. We have a validate an event
+hook allowing developers to add custom validation logic. Check validity. Failed
+an event is invoked when validity is false. Haunted. Triggered when a request
+isn't issued due to a validation error and non form elements don't validate
+by default making before making requests. Okay, scroll down.
+The hate checks on allows you to respond to any event provides locality of behavior
+enabling scripting logic to be embedded with the relevant HTML elements. Okay. Hyperscript a
+front end scripting language created by the team pairs well with HTMX. It's designed easily
+for easy embedment in HTML handling custom events and providing a more expressive
+scripting language. That's interesting. intercooler.js and hyperscript implementations.
+I see remove after so I don't know what this is, which is fine. We'll just jump in there
+and we'll just paste it in there as well.
+intercooler is a JavaScript library that adds simple and efficient way to add
+Ajax functionality to a web application. Click me. Let's keep going.
+And we've got caching. Prevents XSS attacks. Let's look at the configuration via meta tags.
+Okay. What I'm going to do is build a second brain.
+So we have a list of features. And as a secondary item, let's convert it into a blog post.
+Could you write me a blog post? And there's a reason for this. I'm trying to create a brain
+for a different robot at the moment. Could you write me a blog post that thoroughly
+describes the HTMX application
+for someone that wanted to use this library?
+And most of its features in about 2000 words. Okay.
+And what we're going to do was we'll see what this writes. Hopefully it does a good job,
+but we're going to use this blog post and the feature list, the 20 feature list that we had
+to drive a new bot. Okay. And so we've condensed. Okay. So what I'll do is we'll create a new
+document here and we'll call it condensed documentation.md. And we will take all the information
+that it's written in this blog post. And we'll just paste it in there like that.
+And where it says copy code, let's just fix up a couple of things like that.
+We'll copy all the features here and go documentation feature list.md, paste it in there.
+And we'll just rename this so that they're grouped together down the bottom. And then we'll start
+up a new chatbot. Let me let me introduce you to a new JavaScript library called HTMX.
+And what we'll do is we'll take the condensed documentation and the feature list
+posted in and say, please read and say yay. Okay. Now you understand the general features
+of this JavaScript library comma. Can you give me a list of five different simple
+HTML applications that might be suitable for implementation with this language?
+So I was thinking whether forecast image gallery, shopping cart. Okay.
+Sounds great. One more. Can you see this being used for a shop with a list of products and
+a display page for each product comma and some sort of filtering capability for the list of products.
+Great. Let's I have set up a simple server.js using expressjs. And
+this is its current content. We can change this code as we see fit and add new
+controller actions to support the different pages or configuration.
+When it comes to a list of products, we will use a JSON document to store that information.
+So let's see what it does. Okay. We've got two products started.
+Let's just make sure we have that file. We got product one product. Looks good to me.
+Copy the code. Go back to our server. Okay. They both get requests.
+It's also given us a HTML. We'll dynamically load the products here.
+And we'll show one product here. Okay. Let's just take this.
+I don't remember exactly how this is.
+Am I supposed to have an ID called outer HTML or am I not understanding the use of this
+attribute correctly? I know what I'll do. So I'll just paste that in. A list container.
+Okay. Maybe I should also just be reading this a little bit. Cool.
+The value of outer HTML is one option. Probably replace the whole element or replace inside
+the element. Okay. That looks correct. In this updated code, the HX swap inner HTML attribute
+is used instead of outer. This will replace the inner HTML content of the post list container.
+That feels better to me at least. Let's pop in over here. We'll go to our index page.
+Let's just throw them both in. Copy this one.
+I'm just going to run it and see where we're at.
+Hit save. Unexpected token in the JSON. Okay. Feels like we're good now.
+Now, let's test the endpoints. Build my endpoints using this domain port.
+There and there. Home page worked. Product list worked. Let's change this to a one.
+That one worked. And the second one worked. So our endpoints are okay.
+Okay. So if we know that we can get an individual product, we can get a list of products and we
+have a HTML page, but we have nothing showing, then what we really need to ask it is,
+can you add a div using the HTML that will list the products from the products.json?
+But let's stop that because there's an error there.
+Okay. This code that you have given me does not actually work because you are not rendering any
+HTML for each of the products. Okay. That looks a little bit better.
+So that pops in the side. Let's see if that works.
+Great. Now, so name description price. So we'll just ask it.
+Okay. We're looking at a HTML page. We've got some sort of HTML being shown, not in a loop.
+And if we click on it, we get data. So I think I have a misunderstanding of how this product works,
+but at this point in the video, I made a couple of assumptions and I went down some rabbit holes.
+And the assumptions was that this library was going to work similar to tools like react and
+HTML and render it to the screen. And I was thinking that way. I'm like trying to bring back
+JSON, which is not the way it works because this particular library uses a different technique
+called HTML over the wire. So if I type in HTML over the wire, we search for it,
+we have this library out there that's popular with certain type of developers and it's called
+hot wire. And what it does is rather than going back, getting JSON, turning it into HTML in the
+client, it just goes and hits an endpoint and gets HTML. And whatever HTML comes back, it just puts
+it into an ID or whatever on the HTML DOM. So this is, so HTML X, I think, works very similar to
+hot wire in that regard. And this is just something I didn't understand at the point when I was
+communicating with ChatGPT. Rather than the JSON directly,
+won't matter that it's spelled that wrong, you should understand what we're talking about.
+So what we'll do is we've got products,
+we'll grab that, and we've got our server JS, which has so far been returning
+product JSON. And we'll try that out. So we'll come back to our page here, hit refresh.
+Let's just click. Okay, let's just look at our products listing here.
+Probably need to restart the server. So let's test this endpoint. Now we've got some HTML that
+looks better. Let's come back to this page, we'll refresh it and we'll just click here.
+Great. So now we have a list of products. I think the next thing is, let's make it clickable.
+Can you alter the HTML a little bit so that if I click on the div surrounding the product entry,
+comma, it will go and get data from the products slash
+point and replace that into the second details div
+named. And let's just go find that. We had it over on the index HTML. Looks like that.
+Let's make sure you change endpoint to endpoint.
+Point. Thank you. So we have a product list. Did we have that before product list?
+We didn't. So this looks better to me.
+Give a h1 silly machine. You have not followed the documentation.
+There is no concept of a hx dash each in the documentation.
+You instead need to render out the server side HTML with a clickable link to swap the detail HTML.
+Well, it's a bit bogus. That's a bit bogus, but we'll see what it does.
+Okay, it's not going to get it right for me.
+Let's, I just want to take that, I believe. I also did not read this correctly because it already had
+a heading in here. So let's get rid of all of that.
+We've got our product list HTML.
+For now, I'm just going to wrap this around the div.
+So we'll refresh the page. Just click there. Okay, now we've got
+a hyperlink like that. It's a little bit odd, but that's okay. We'll click on it.
+And it has returned. So whatever code it gave me was not JavaScript interpolation.
+Just put that in there.
+Hit save, refresh and click on there.
+Product list, products.
+What we now need is to have a look at our product side decode, which is still returning
+JSON. And we need to alter that. So come in here and say,
+can you alter the individual product end point, which takes an ID and currently returns JSON?
+And instead, can you return a detailed page of HTML? And can you include
+an image element with a fake image placeholder?
+Can you alter the HTML slightly so that it does not have a HTML or body tag?
+Because the HTML that we are using is meant to be a partial, not the full page.
+Okay, that's looking good to me. Let's pop that over here.
+Okay, we've restarted the server. Let's just check this HTML is coming back. Okay,
+rather than JSON, that looks good. And we've got a placeholder image.
+Let's try one. Fantastic. I think while we're at it, let's create a couple of fake images.
+Imagine a product, say product image of a baseball.
+And what we'll do, let that start off, we'll do another one while we're here.
+And we'll say product image of a baseball cap.
+And do another one, product image of a baseball mitt. So we've got a cap.
+We'll let them go. And what we'll do is we'll replace them in overtime. But we come back
+to this code here. So I think I want to remove this. That shouldn't be in there.
+We now have our list container. We have our details container. And in theory,
+this loop over the products will affect our list. And this will affect the detail.
+So let's do a refresh. Okay. Now, we have this problem
+that it only works when I click on it. I need to work on that in a moment. But let's call that xxx
+refresh and click on it. Okay. Something we need to do, we'll load that on page start. Oh,
+look at that. That all worked. Product two come up. Now we'll come up as well.
+So product two, product one. Nice. While we're here, let's go and have a look at the images that
+got created. And that's not a mitt. I got a lot of gloves, don't I? Baseball glove.
+Let's come back to here. And which one do you like?
+I like the one. Yeah, the one, like Tom right?
+Top number two. What do you like?
+Bottom right. Bottom right? Yep. Okay. Let's upscale that.
+Let's download that image.
+Let's download that image. And which one do you like? One, two, three or four?
+I don't like any of them. Yeah, no, no, I like, I like top left.
+Top left? Well, upscale that. Yep. So what we'll do is we'll jump on down to our
+one. So I'm going to update this Jason. I'm going to let the software do it. We'll go with this one.
+Can I get you to alter this Jason document so that it has three products, comma, the first
+product is a baseball cap. The second product is a baseball comma. The third product is a baseball
+glove comma. Can you give me a nice 20 word description for each product, please?
+And set an appropriate price. Cool. Let's test, take that. Can you update
+this Jason so that it has an image element? Okay, let's copy that. Let's take
+each of these and get rid of them. Baseball cap, baseball, baseball glove, great.
+Let's come back to our images, save image. We will go over to finder, download images.
+Okay, we have our three images here. Let's just create a folder called
+images and we'll just drag them in and let's rename them. I think we went with one word for each of
+those. Cool. Let's just change these image URLs so that they say we'll worry about the
+path in the Jason rather than in the HTML. Keep things simple. Go to our servers, restart it,
+press refresh, click on this. Looking good. And we do not have the placeholder cross.
+I think what we can do. Can you alter the HTML in the response so that it uses the new image tag
+in the product Jason file, comma. Can you also create an endpoint to deliver the image
+based on the images folder?
+Let's see what that does. I don't think that worked at all.
+Product list, product detail. Okay, so what it's done is
+serving up the images using the static here. Let's just go to the top, post that in there.
+I think it gave it the wrong information. And let's not use GPT. It's probably easy enough
+to just go product.image. Sorry. Can you tell it to use that? I can teach it to use it,
+but it's not worth it for something that I can do myself much quicker.
+What I can do at the end is give it all my code and tell it this is the current state of the
+program. So that's a good question, but we don't need to do that. So we click here. So we click here.
+And we're looking okay, but it's not finding the image. Okay, I went offline for two minutes just
+to resolve the issue. I put the images folder into the public directory. It should have just
+been under the server. The other issue I had was that each of the images had an underscore.
+That's how they were being downloaded from mid journey and normal convention would be to use a
+dash. So I've put a dash in there, made sure that this is just referencing the images slash
+file name. Let's do a refresh click on here. Get a product and there's a baseball
+hat, a baseball. Let's get rid of that, etc. Let's
+go back to chat GPT and say, let's look at what our HTML looks like.
+Click that. I have the following HTML and I would like to style the image using CSS so that it looks
+like a Polaroid image. So I altered that a little bit to say give CSS for a nicely
+framed picture in a blog post. Now we get this HTML. Let's trial that.
+Let's create a style tag. Save. So it looks like we need a div.
+Class sequels. End of div. Let's run that. It looks good. We'll make it 50% of the page we do.
+Let's just go with 50%. I'm not a CSS person, but that should work.
+That looks good. That looks good. That looks good. I wonder what would happen if we just go back to
+our HTML. Just reverse these around. Chance it to say click for all products.
+And I think we can get rid of those now. They're not adding any value.
+Chance it to say, I think we can get rid of that too. Refresh. Click for all products. Okay.
+Looks good to me. Let's bring this down. I'm not really a HTML person. I'm not a CSS person.
+I'm not even a JavaScript person. I'm just a software architect.
+But using off the shelf library, I was able to get a product listing and product details working
+using just ChatGPT. If I can do it, anyone can do it.

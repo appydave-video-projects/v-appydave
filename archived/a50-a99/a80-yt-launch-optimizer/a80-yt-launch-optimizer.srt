@@ -1,0 +1,1411 @@
+1
+00:00:00,00 --> 00:00:05,450
+In this video, I wanna share my 30 step formula to launching a YouTube video. A few 
+
+2
+00:00:05,520 --> 00:00:12,00
+months ago, I passed 1000 subscribers and I did that producing a video once every 
+
+3
+00:00:12,00 --> 00:00:17,390
+three to five weeks. In the last two weeks, I've released five videos, and part of 
+
+4
+00:00:17,390 --> 00:00:19,430
+that is due to this launch formula.
+
+5
+00:00:19,460 --> 00:00:23,430
+Now, if you like me, you probably thought the hardest part of creating a YouTube 
+
+6
+00:00:23,460 --> 00:00:26,550
+video is recording and doing the editing. 
+
+7
+00:00:26,560 --> 00:00:31,940
+I find that to be the easiest part of the process for me. The hardest part is everything 
+
+8
+00:00:31,940 --> 00:00:37,500
+that goes after I've done my initial recording and post-production. So I've gotta 
+
+9
+00:00:37,500 --> 00:00:42,230
+take a video like the one that we've got here and send it to a video editor. I've 
+
+10
+00:00:42,230 --> 00:00:46,190
+just started getting a video editor involved, but that means I've gotta write up 
+
+11
+00:00:46,190 --> 00:00:52,220
+a brief or record all the information to let that person know what I need to do Along 
+
+12
+00:00:52,220 --> 00:00:56,960
+the way, I've gotta create b-roll, so you'll see a lot of b-roll in the intro, what 
+
+13
+00:00:56,960 --> 00:01:01,970
+you're watching right now of my video, a lot in the outro. Some will be in calls 
+
+14
+00:01:01,970 --> 00:01:07,700
+to action. Next thing I've gotta do is figure out a compelling title, a thumbnail, 
+
+15
+00:01:07,700 --> 00:01:11,720
+the design I want for the thumbnail, the text that I'm going to put on the thumbnail.
+
+16
+00:01:11,730 --> 00:01:16,420
+After that, I've gotta do a whole lot of post-analysis on the transcript. I need 
+
+17
+00:01:16,420 --> 00:01:21,490
+to work out what keywords, the chapters that need to go into the YouTube description. 
+
+18
+00:01:21,760 --> 00:01:26,320
+Is there any sort of branding or affiliate information I wanna put in? I often like 
+
+19
+00:01:26,380 --> 00:01:32,500
+to share my videos on Twitter or LinkedIn, so how do I write the LinkedIn post? How 
+
+20
+00:01:32,500 --> 00:01:36,100
+do I write the tweet or any other social media post for that matter? 
+
+21
+00:01:36,330 --> 00:01:41,230
+I'm also often trying to do an analysis of the text for things like what was the 
+
+22
+00:01:41,230 --> 00:01:46,960
+topic, what might be the search terms, and if my video editor produces a YouTube 
+
+23
+00:01:46,960 --> 00:01:50,440
+short for me, I've gotta go through the same process again. I've gotta come up with 
+
+24
+00:01:50,440 --> 00:01:53,260
+a title. I've gotta come up with a YouTube description.
+
+25
+00:01:53,260 --> 00:01:57,880
+As a YouTuber that talks about prompt engineering and AI agents, you can imagine 
+
+26
+00:01:57,880 --> 00:02:03,940
+that I'm using these sort of technologies to automate my own problems. And the software 
+
+27
+00:02:03,940 --> 00:02:08,140
+I have is called Agent Workflow Builder. It's in development at the moment, but you 
+
+28
+00:02:08,140 --> 00:02:12,970
+can find a link in the description if you want to have early access to it. Otherwise, 
+
+29
+00:02:12,970 --> 00:02:14,650
+like and subscribe and let's get into it.
+
+30
+00:02:14,660 --> 00:02:18,900
+So let's have a look at the video. We're going to launch and we're here in a product 
+
+31
+00:02:18,900 --> 00:02:24,530
+called Gling. It's a pretty good video editing software that allows you to edit videos 
+
+32
+00:02:24,530 --> 00:02:25,880
+using just text. 
+
+33
+00:02:25,900 --> 00:02:30,220
+as we look through it, we've got areas of the screen that I've recorded using E Cam 
+
+34
+00:02:30,220 --> 00:02:32,320
+live, another product that IU, 
+
+35
+00:02:32,330 --> 00:02:37,670
+love to use. But if we go up to the intro, there's no graphics. It's just me in my 
+
+36
+00:02:37,670 --> 00:02:38,900
+living room at the moment. 
+
+37
+00:02:38,930 --> 00:02:43,610
+And this is an area that we are going to need to get some b-roll and put it behind. 
+
+38
+00:02:43,630 --> 00:02:47,340
+you would've noticed that I'm using a green screen for the intro so that I can make 
+
+39
+00:02:47,340 --> 00:02:50,370
+the b-roll look more effective than I've done in the past.
+
+40
+00:02:50,400 --> 00:02:54,380
+let's have a look at the files that are involved. So we're currently in the Launch 
+
+41
+00:02:54,530 --> 00:02:58,400
+optimizer, which is the video I'm recording right now, but we'll move up to the agent 
+
+42
+00:02:58,400 --> 00:03:05,960
+workflow intro/outro. And this was an ability to improve my intros and improve my 
+
+43
+00:03:05,960 --> 00:03:09,770
+outros based on the previous and the next videos. And when I recorded it, we have 
+
+44
+00:03:09,770 --> 00:03:14,840
+this video here. We have a whole lot of recordings that I'd done and put through 
+
+45
+00:03:14,840 --> 00:03:19,520
+that Gling video editor that we're talking about. There's also the idea of assets, 
+
+46
+00:03:19,610 --> 00:03:24,380
+which we're going to create as part of this particular process. And if we just open 
+
+47
+00:03:24,380 --> 00:03:25,640
+up the video, we can see 
+
+48
+00:03:25,660 --> 00:03:29,750
+that I have this nine minute video. We've got the areas that I'm gonna need to get 
+
+49
+00:03:29,750 --> 00:03:34,130
+the video editor to add B roll. And then when we get into the video, he's going to 
+
+50
+00:03:34,130 --> 00:03:36,470
+have to do a whole lot of transitions and sound 
+
+51
+00:03:37,00 --> 00:03:42,450
+Now the most useful file in this particular workflow is the SRT file. What that is 
+
+52
+00:03:42,480 --> 00:03:47,460
+is the subtext file. It's got all the words that I said, the time that I said them, 
+
+53
+00:03:47,610 --> 00:03:49,680
+and the sequence that they happened in. 
+
+54
+00:03:49,700 --> 00:03:53,300
+that's going to be uploaded into the YouTube as the, 
+
+55
+00:03:53,300 --> 00:03:58,850
+lower thirds. But we are also got a copy of it as just raw text, and we're going 
+
+56
+00:03:58,850 --> 00:04:03,740
+to take a copy of that. 'cause I'm going to run every process of this one transcript.
+
+57
+00:04:03,760 --> 00:04:07,840
+So here's the workflow we're going to operate. It's the YouTube launch optimizer. 
+
+58
+00:04:07,840 --> 00:04:13,540
+It's based on a bunch of sections. There are currently 31 steps, and this keeps growing. 
+
+59
+00:04:13,750 --> 00:04:17,800
+So we'll work through the video preparation, building the chapters for the video, 
+
+60
+00:04:18,730 --> 00:04:23,740
+any B roll suggestions that we need in the intro, outro or elsewhere. We've got content 
+
+61
+00:04:23,740 --> 00:04:28,480
+analysis, like what's the theme, the keywords, the title and the thumbnail will work 
+
+62
+00:04:28,480 --> 00:04:32,830
+through. And then we're looking at the metadata, which is mostly the information 
+
+63
+00:04:32,830 --> 00:04:36,910
+that goes into the YouTube description. And lastly, we'll create a couple of social 
+
+64
+00:04:36,910 --> 00:04:41,230
+media posts. And what we can do is go straight into configuration, and I'm just going 
+
+65
+00:04:41,230 --> 00:04:45,580
+to go down to where the transcript is and I'm going to paste all that information 
+
+66
+00:04:45,580 --> 00:04:45,730
+in.
+
+67
+00:04:45,730 --> 00:04:49,740
+Now I've come through and filled in a few other pieces of information. I already 
+
+68
+00:04:49,740 --> 00:04:54,990
+know a bunch of calls to action and information about my brand, but what I'd like 
+
+69
+00:04:54,990 --> 00:04:57,540
+to do is fill in the short title. 
+
+70
+00:04:57,560 --> 00:05:00,760
+So I have a prompt here that'll use the transcript. 
+
+71
+00:05:00,560 --> 00:05:05,250
+if we look at what it's produced, we can see a bunch of short titles I could go with. 
+
+72
+00:05:05,250 --> 00:05:09,600
+And I looked through this. And for me, I think the creating effective intros and 
+
+73
+00:05:09,600 --> 00:05:13,950
+outros is the best way to go. So I'm just going to add it into the workflow.
+
+74
+00:05:13,960 --> 00:05:18,600
+Next I want to get a summary of the transcript and I often use that for tweets and 
+
+75
+00:05:18,600 --> 00:05:23,430
+other areas. So what I've done is created one. We are just going to copy it, I've 
+
+76
+00:05:23,430 --> 00:05:27,990
+read through it, it's quite accurate, and we can just come back, move on to the next 
+
+77
+00:05:27,990 --> 00:05:29,730
+step and we'll just paste it in. 
+
+78
+00:05:29,760 --> 00:05:33,700
+after that we'll try and create an abridgement, which is a similar sort of document, 
+
+79
+00:05:33,850 --> 00:05:39,280
+but with a little bit more depth to it and not a loss of facts. So the information 
+
+80
+00:05:39,280 --> 00:05:40,630
+that's coming through right now, 
+
+81
+00:05:40,660 --> 00:05:45,470
+we'll run the validation. I don't always do that 'cause I tend to trust what comes 
+
+82
+00:05:45,530 --> 00:05:50,900
+through. I like to observe it because one of the things that does bring up is that 
+
+83
+00:05:50,900 --> 00:05:56,210
+there might not be as much information in the in bridgement as in the transcript, 
+
+84
+00:05:56,450 --> 00:05:59,360
+and I can check it just to make sure there's nothing missing.
+
+85
+00:05:59,360 --> 00:06:02,700
+So I'm glad I looked through this. Usually I don't have to worry about what's in 
+
+86
+00:06:02,700 --> 00:06:08,280
+here, but of the 10 items that are listed, three of them probably should be added 
+
+87
+00:06:08,280 --> 00:06:12,750
+into the abridgement. They'll make a lot of sense when I do the LinkedIn post, which 
+
+88
+00:06:12,750 --> 00:06:18,810
+usually uses the abridgement to figure out what to write. And it's things like number 
+
+89
+00:06:18,810 --> 00:06:24,750
+six, the reverse engineering of the Vid IQ strategy is probably an important thing 
+
+90
+00:06:24,750 --> 00:06:29,130
+to talk about. But other things like anecdotes and observations, they don't really 
+
+91
+00:06:29,130 --> 00:06:33,450
+make much sense in an in bridgement 'cause I don't really need 'em in the sort of 
+
+92
+00:06:33,450 --> 00:06:38,280
+documents and social content that I create. So we're just going to run this little 
+
+93
+00:06:38,280 --> 00:06:43,320
+prompt here and just make sure these additional pieces of information go into the 
+
+94
+00:06:43,320 --> 00:06:43,920
+abridgement. 
+
+95
+00:06:43,930 --> 00:06:47,950
+So I've just taken a copy of that information and I'm just going to update 
+
+96
+00:06:47,960 --> 00:06:52,670
+My next step is to separate the intro and the outro from the transcript, and I've 
+
+97
+00:06:52,670 --> 00:06:57,410
+got a few different usages for it. The main one is the B-roll, but in the future 
+
+98
+00:06:57,410 --> 00:07:02,390
+I'd like to do an analysis of them to see whether they can be improved. So what I've 
+
+99
+00:07:02,390 --> 00:07:07,760
+got is a copy of this prompt just running through, and we've pulled out the intro 
+
+100
+00:07:07,760 --> 00:07:09,680
+here and we've pulled out the outro. 
+
+101
+00:07:09,690 --> 00:07:10,930
+just gonna 
+
+102
+00:07:10,230 --> 00:07:12,860
+and make sure it's in the outro section, 
+
+103
+00:07:12,660 --> 00:07:16,640
+we're looking at the video in Gling and we're seeing the intro that it's extracted 
+
+104
+00:07:16,640 --> 00:07:20,570
+and we can see that they're the same. Hi, you are creating videos for YouTube. It's 
+
+105
+00:07:20,570 --> 00:07:24,980
+the same as what we got in Gling. And this goes all the way through to what would 
+
+106
+00:07:24,980 --> 00:07:30,710
+happen if I had a script pre-prepared. And we can see that there. And when I read 
+
+107
+00:07:30,710 --> 00:07:36,650
+this intro, this is clearly the same information. The problem I've got is that I 
+
+108
+00:07:36,650 --> 00:07:41,510
+need to get B-roll for everywhere from this section that we're seeing. But I also 
+
+109
+00:07:41,510 --> 00:07:42,590
+need it for this section 
+
+110
+00:07:42,590 --> 00:07:48,440
+linguistically it's not the intro. So chat, GPT got the right information for me, 
+
+111
+00:07:48,620 --> 00:07:53,270
+but personally I'm gonna want this extra information as well. So I've just asked 
+
+112
+00:07:53,270 --> 00:07:54,950
+Chat GPT to add it 
+
+113
+00:07:54,960 --> 00:07:58,220
+we'll come over to the workflow. We'll put in the introduction 
+
+114
+00:07:57,890 --> 00:08:03,380
+what we've done now is we've completed the video preparation area, we've configured, 
+
+115
+00:08:03,590 --> 00:08:08,480
+got the summary abridgement, we've checked the quality of it, separated the intro 
+
+116
+00:08:08,540 --> 00:08:13,100
+and the outro. And the last thing is I like to save an outcome notes so that I've 
+
+117
+00:08:13,370 --> 00:08:14,520
+got all this information recorded.
+
+118
+00:08:14,530 --> 00:08:19,630
+the next section in my workflow is finding and developing the chapters. And this 
+
+119
+00:08:19,630 --> 00:08:24,400
+is not an area that's working too well for me just yet, but I'm going to show you 
+
+120
+00:08:24,400 --> 00:08:29,860
+what I've got. So firstly, I wanna find the chapters. So if we go over to the GPT 
+
+121
+00:08:30,730 --> 00:08:33,730
+that I've just run, we can see that we've got chapter 
+
+122
+00:08:33,730 --> 00:08:38,140
+examples. These are headings that we could go with and the words that were said at 
+
+123
+00:08:38,140 --> 00:08:38,860
+each point. 
+
+124
+00:08:38,890 --> 00:08:43,970
+I will use this as a baseline and I definitely take a copy of it, but at the moment 
+
+125
+00:08:44,90 --> 00:08:48,560
+I'm still looking through my video trying to find the chapters I've worked through 
+
+126
+00:08:48,560 --> 00:08:55,130
+the idea of using the SRT file as a way of figuring out timings and coming up with 
+
+127
+00:08:55,130 --> 00:09:00,290
+better terminology where it comes up with the times and simple names for chapters, 
+
+128
+00:09:00,230 --> 00:09:04,400
+but it doesn't work too well. I've also used all the tools out there, and so far 
+
+129
+00:09:04,400 --> 00:09:08,660
+I haven't found something that I like to use, but this is a problem that I'll solve 
+
+130
+00:09:08,840 --> 00:09:11,210
+over time, or I'll find a third party tool.
+
+131
+00:09:11,390 --> 00:09:16,270
+I'm just in my outcomes document. This is the information that chat GPT came up with 
+
+132
+00:09:16,450 --> 00:09:21,760
+for me. And what I did was I watched the video on double time. It's a nine minute 
+
+133
+00:09:21,760 --> 00:09:27,850
+video, and this took me about 15 to 20 minutes to do. So it's a bit of an arduous 
+
+134
+00:09:27,910 --> 00:09:32,620
+task just for chapters, but it's one of the things that I think from a quality point 
+
+135
+00:09:32,620 --> 00:09:37,360
+of view is really important to get right in your YouTube description. So I've broken 
+
+136
+00:09:37,360 --> 00:09:41,740
+it down into intros and outros, the struggle that's mapping to this. And as I was 
+
+137
+00:09:41,740 --> 00:09:47,140
+going through, I was often using the headings for inspiration, but then rewriting 
+
+138
+00:09:47,140 --> 00:09:50,860
+'em based on what I saw. So we'll take a copy of that 
+
+139
+00:09:49,990 --> 00:09:51,970
+I'm just gonna paste it into the chapters 
+
+140
+00:09:52,360 --> 00:09:56,910
+I wanna generate a bunch of B-roll for the intro and outro and other areas. 
+
+141
+00:09:56,760 --> 00:10:01,540
+I'm going to do that in Leonardo ai. And so we're in this section at the moment called 
+
+142
+00:10:01,540 --> 00:10:05,920
+the B-Roll Suggestions. We'll do the intro outro B-roll. We're also going to create 
+
+143
+00:10:05,920 --> 00:10:10,960
+a brief for the video editor so that he knows what to do. And we're also gonna think 
+
+144
+00:10:10,960 --> 00:10:14,500
+about design style and transcript design ideas. 
+
+145
+00:10:14,530 --> 00:10:20,680
+So I've just come over to A GPT, which is in the middle of creating intros and outro 
+
+146
+00:10:20,680 --> 00:10:25,480
+graphics. But let's go to the top of it. We've got concepts. So the first idea is 
+
+147
+00:10:25,540 --> 00:10:30,430
+in the intro, we've got struggling. We've creating intros and outros for YouTube 
+
+148
+00:10:30,430 --> 00:10:34,900
+videos. That's something I talk about in the video. Increased video production quality 
+
+149
+00:10:34,900 --> 00:10:36,550
+after hiring an editor. 
+
+150
+00:10:36,560 --> 00:10:41,750
+this was just a statement that I made, and it might be useful to have that as b-roll 
+
+151
+00:10:42,60 --> 00:10:46,980
+in the background. And it's just developing different ideas that are visually appealing 
+
+152
+00:10:46,980 --> 00:10:49,740
+for all the sentences in the intro and the outro. 
+
+153
+00:10:49,760 --> 00:10:54,120
+After the intro outro concepts that we've got here, we start seeing the prompts and 
+
+154
+00:10:54,120 --> 00:10:58,470
+they're going to match. So number one, which is struggling with creating intros and 
+
+155
+00:10:58,470 --> 00:11:04,140
+outros for YouTube videos are going to fit with one A and one b. I tend to create 
+
+156
+00:11:04,140 --> 00:11:08,460
+two prompts for each area, and we've got a frustrated content creator struggling 
+
+157
+00:11:08,460 --> 00:11:13,740
+with video editing, specifically focusing on intro and outro segments. And then we've 
+
+158
+00:11:13,740 --> 00:11:18,360
+got another one here, illustration of a YouTube creator puzzled by the intros and 
+
+159
+00:11:18,360 --> 00:11:24,450
+outros of videos. And that just repeats for all six concepts in the intro. And in 
+
+160
+00:11:24,450 --> 00:11:29,310
+this case, there were six concepts in the outro. And we can use this over in Midjourney, 
+
+161
+00:11:29,400 --> 00:11:31,620
+or I like to use Leonardo ai.
+
+162
+00:11:31,630 --> 00:11:39,290
+Now we're over in the personal feed of Leonardo ai and I've generated about 96 images 
+
+163
+00:11:39,590 --> 00:11:42,350
+through here for both the intro and the outro. 
+
+164
+00:11:42,360 --> 00:11:47,490
+So if we look at these images here, we've got a YouTube creator with a mixture of 
+
+165
+00:11:47,550 --> 00:11:52,770
+anxiety. And what I've done is I've come over to my computer and I've downloaded 
+
+166
+00:11:52,770 --> 00:11:57,840
+and renamed every image, and we can see those particular images we were just talking 
+
+167
+00:11:57,840 --> 00:11:58,260
+about 
+
+168
+00:11:58,260 --> 00:12:02,560
+Now, as I was doing this, this took me about 10 or 15 minutes just to rename the 
+
+169
+00:12:02,560 --> 00:12:05,500
+files. So when I got to the outro, 
+
+170
+00:12:05,330 --> 00:12:07,280
+I decided to automate that. 
+
+171
+00:12:07,290 --> 00:12:10,330
+yesterday I took an hour and a half out to create a video. 
+
+172
+00:12:10,360 --> 00:12:14,910
+In the middle of recording this video, I realized just how long it took me to rename 
+
+173
+00:12:14,910 --> 00:12:19,890
+the files, and I thought, I'll show you a little automation. And what I did was I 
+
+174
+00:12:19,890 --> 00:12:25,350
+went straight to chat, GPT, voice mode. It's a new feature that came in chat, GPT. 
+
+175
+00:12:25,620 --> 00:12:30,660
+I just had a conversation with it about how I could automate that and it wrote the 
+
+176
+00:12:30,660 --> 00:12:35,160
+script for me in about 10 minutes. And then when I got all these files here, I didn't 
+
+177
+00:12:35,160 --> 00:12:39,990
+have to come through and manually rename them, and that was taking me 10 to 15 minutes 
+
+178
+00:12:39,990 --> 00:12:41,160
+to do that alone.
+
+179
+00:12:41,330 --> 00:12:46,130
+the next step I have is letting my video editor know what instructions I want. So 
+
+180
+00:12:46,130 --> 00:12:51,380
+I have these basic general instructions that I want worked on. We've got the intro 
+
+181
+00:12:51,380 --> 00:12:56,540
+and outro ideas, and then I just pass in the special instructions chapters and the 
+
+182
+00:12:56,540 --> 00:13:01,970
+intro outro ideas. And here's an example of what we got. We've got video editing 
+
+183
+00:13:01,970 --> 00:13:07,130
+brief for intros and outros. We got stuff around the intro outro, the chapter breakdown 
+
+184
+00:13:07,130 --> 00:13:08,750
+so they know where to look at 
+
+185
+00:13:08,760 --> 00:13:14,170
+particularly for transitions and maybe some b-roll graphics, extra special instructions, 
+
+186
+00:13:14,170 --> 00:13:15,190
+and CTA, 
+
+187
+00:13:15,190 --> 00:13:20,190
+because one of the things I've found in the past is that I want the calls to action 
+
+188
+00:13:20,250 --> 00:13:25,500
+to look a little bit more impressive than other areas of the system. And it's about 
+
+189
+00:13:25,500 --> 00:13:28,590
+notifying the video editor of that requirement.
+
+190
+00:13:28,590 --> 00:13:28,650
+Okay, 
+
+191
+00:13:28,660 --> 00:13:33,850
+coming back to the B-roll images, you might have noticed that there's no design consistency 
+
+192
+00:13:33,940 --> 00:13:38,140
+going on. Everything looks pretty good individually, but 
+
+193
+00:13:38,160 --> 00:13:43,580
+as a collective in a video, it's not that great. So can we fix that? And that's what 
+
+194
+00:13:43,580 --> 00:13:49,160
+the next step is about. This is design style list. So with this particular prompt, 
+
+195
+00:13:49,310 --> 00:13:53,390
+we're trying to figure out if there's a look and feel that I want in the video.
+
+196
+00:13:53,660 --> 00:13:57,740
+So coming over to chat GPT, we've got 10 different styles. They're all based off 
+
+197
+00:13:57,740 --> 00:14:03,170
+the transcript that we just wrote and included. And the one that might look good 
+
+198
+00:14:03,170 --> 00:14:04,940
+could be the workflow mind map. 
+
+199
+00:14:04,960 --> 00:14:10,630
+We come and have a look at the next step, and this is about taking one of those ideas 
+
+200
+00:14:10,630 --> 00:14:15,250
+and any other special instructions and taking the original set of prompts, and let's 
+
+201
+00:14:15,250 --> 00:14:16,750
+make 'em more the same style. 
+
+202
+00:14:16,590 --> 00:14:21,430
+here I've said I want to use workflow, my map style, but every time you do it, I 
+
+203
+00:14:21,430 --> 00:14:26,410
+need the words agent workflow builder, in quotes. Now I'm just saying that because 
+
+204
+00:14:26,440 --> 00:14:29,350
+that's what this software is, it's agent workflow builder. 
+
+205
+00:14:29,360 --> 00:14:34,280
+if you're looking at a way of automating any standard operating procedure in this 
+
+206
+00:14:34,280 --> 00:14:39,590
+particular case, it's a YouTube launch sequence. Then maybe check out the link in 
+
+207
+00:14:39,590 --> 00:14:40,100
+the description below.
+
+208
+00:14:40,130 --> 00:14:46,390
+Now heading over to GPT, we can see that list of files have come through. The fourth 
+
+209
+00:14:46,330 --> 00:14:52,90
+item in this CSV file is the prompt, and one of the things that you'll notice is 
+
+210
+00:14:52,90 --> 00:14:55,960
+that the word agent workflow builder is built into all of these. 
+
+211
+00:14:55,990 --> 00:15:00,380
+So I've just taken three prompts from that list and let's just look at a couple of 
+
+212
+00:15:00,380 --> 00:15:04,430
+them. So here we've got the word agent workflow builder. Not very legible, but it's 
+
+213
+00:15:04,550 --> 00:15:09,890
+there. In this particular version, we've got more agent workflow builder as part 
+
+214
+00:15:09,890 --> 00:15:15,590
+of a sign, which is interesting. Here. It becomes very clear, and I'm actually loving 
+
+215
+00:15:15,590 --> 00:15:20,630
+these ones, so much so that I might end up downloading them and using in the video 
+
+216
+00:15:20,630 --> 00:15:25,550
+because they're very professional. Now, we still haven't quite got the style right 
+
+217
+00:15:25,550 --> 00:15:29,840
+between them all because I didn't put a lot of effort into that. But let's have a 
+
+218
+00:15:29,840 --> 00:15:30,450
+look at what you could do.
+
+219
+00:15:30,460 --> 00:15:35,730
+Now to see a good example of this image, consistency in action. You can see a video 
+
+220
+00:15:35,730 --> 00:15:43,530
+I released yesterday on my other channel, AI-TLDR This channel is about AI technology, 
+
+221
+00:15:43,530 --> 00:15:48,690
+but it's done creating by using AI technology to create it, and the clue is to do 
+
+222
+00:15:48,690 --> 00:15:54,990
+less, or clueless is a little coding language that I'm creating to allow me to create 
+
+223
+00:15:54,990 --> 00:15:59,310
+videos really quickly. If you wanna find out more about that, check out the link 
+
+224
+00:15:59,310 --> 00:16:05,280
+in the description, or if you just wanna see a great example of consistent storyboards, 
+
+225
+00:16:05,430 --> 00:16:08,200
+come out and check this video on AI-TLDR.
+
+226
+00:16:08,790 --> 00:16:13,930
+Now what I wanna do is get content analysis out of the transcript. We've got the 
+
+227
+00:16:13,930 --> 00:16:17,830
+essence, the audience engagement, and the call to action plus competitors. 
+
+228
+00:16:17,830 --> 00:16:21,620
+if we look at the first one, we're going to identify the main topic and theme, and 
+
+229
+00:16:21,620 --> 00:16:23,810
+we've got three other points that we look into.
+
+230
+00:16:23,830 --> 00:16:29,770
+I repeat that for the audience engagement and the cost action and competitors. And 
+
+231
+00:16:29,770 --> 00:16:34,930
+if we go and have a look at things, we've got a main topic, so it's figured that 
+
+232
+00:16:34,930 --> 00:16:39,340
+out. This is an important piece of information I use to steer different articles 
+
+233
+00:16:39,340 --> 00:16:43,180
+and tweets and that that I create. We've got keywords that could be useful in the 
+
+234
+00:16:43,180 --> 00:16:47,710
+YouTube description. There could be important statistics. You might wanna communicate 
+
+235
+00:16:47,710 --> 00:16:53,440
+this to your video editor so that they highlight it during the video creation. Same 
+
+236
+00:16:53,440 --> 00:16:54,460
+thing with the key takeaway.
+
+237
+00:16:54,460 --> 00:16:59,500
+I have a section here on the audience engagement. We've got emotional triggers, overall 
+
+238
+00:16:59,500 --> 00:17:04,00
+tone, style, audience insights. So far, I haven't used this a whole lot, and you 
+
+239
+00:17:04,00 --> 00:17:08,850
+can see because I'm very dry in my delivery, there's a lot in here that I could take 
+
+240
+00:17:09,390 --> 00:17:13,830
+into future videos, but if we go down the bottom, we've got all the calls to action 
+
+241
+00:17:13,990 --> 00:17:17,490
+and maybe search terms that you can use around this topic.
+
+242
+00:17:17,660 --> 00:17:22,430
+We've now moved into the next phase, which is creating the thumbnails, the text that 
+
+243
+00:17:22,430 --> 00:17:26,990
+goes in the thumbnail and the title of the video. So what we'll do is I'm going to 
+
+244
+00:17:26,990 --> 00:17:31,280
+start off with just a short idea for a title that I came up right at the beginning 
+
+245
+00:17:31,280 --> 00:17:36,290
+of this session, and I'm just going to throw in the main topic as described in the 
+
+246
+00:17:36,290 --> 00:17:41,540
+last content analysis phase. Now, in the past, I've used something as simple as this, 
+
+247
+00:17:41,540 --> 00:17:45,950
+and some keywords, I just take it a little bit further. Sometimes I'll also use the 
+
+248
+00:17:45,950 --> 00:17:50,450
+transcript or the transcript summary, but I find just knowing the topic theme 
+
+249
+00:17:50,460 --> 00:17:53,760
+Here we've got some content highlights. We'll just paste them in 
+
+250
+00:17:53,760 --> 00:17:59,130
+and we'll just run the prompt related to that. And we're getting a bunch of YouTube 
+
+251
+00:17:59,130 --> 00:18:04,320
+titles coming through. Now, I can usually work something a little bit manual from 
+
+252
+00:18:04,320 --> 00:18:08,940
+this. I don't always go exactly what's here. Sometimes I'll run it again, but I find 
+
+253
+00:18:08,940 --> 00:18:13,560
+this a pretty effective way of getting my first draft of a YouTube title.
+
+254
+00:18:13,560 --> 00:18:18,220
+Next, I wanna get the text that goes on our thumbnail. Now if you look at the thumbnails 
+
+255
+00:18:18,340 --> 00:18:23,860
+I currently do, you'll see that there's different areas of text and there's also 
+
+256
+00:18:23,860 --> 00:18:24,730
+a title that they're related to. 
+
+257
+00:18:24,760 --> 00:18:25,850
+I try to do is something 
+
+258
+00:18:25,990 --> 00:18:30,880
+contrary, the words on the thumbnail just need to be a little bit different to the 
+
+259
+00:18:30,880 --> 00:18:34,180
+words on the title. You don't need to say the same thing twice. 
+
+260
+00:18:34,190 --> 00:18:38,300
+we've got a prompt here that we'll take the title that we're going to go with. I've 
+
+261
+00:18:38,300 --> 00:18:43,310
+decided on automate intros and outros for better continuity between videos. 
+
+262
+00:18:43,330 --> 00:18:47,200
+I've also listed all the others because there's probably good wording in here that 
+
+263
+00:18:47,230 --> 00:18:50,110
+we can do a contrary point of view on. 
+
+264
+00:18:50,130 --> 00:18:53,520
+we've also got the theme and the content highlights available. 
+
+265
+00:18:53,290 --> 00:18:58,590
+we've had five engaging thumbnail text ideas based on the provided information, 
+
+266
+00:18:58,590 --> 00:19:02,760
+and I'm just going to increase it by another five. The things that I'm looking for 
+
+267
+00:19:02,760 --> 00:19:07,320
+are the parts, the one, two, and three, where there's usually really good words that 
+
+268
+00:19:07,320 --> 00:19:10,860
+can be taken from here and used on the thumb.
+
+269
+00:19:11,990 --> 00:19:15,990
+Next, I wanna format this information so I can bring it directly into Canva. 
+
+270
+00:19:16,00 --> 00:19:21,340
+take the table that we've got here and rerun it again this time in a CSV format. 
+
+271
+00:19:21,440 --> 00:19:26,940
+And I'll just use the bulk image upload within Canva to see all these text elements.
+
+272
+00:19:26,960 --> 00:19:31,410
+come over to Canva and I've got a template that I've pre-designed, and I've just 
+
+273
+00:19:31,440 --> 00:19:36,390
+uploaded the CSV file and we can see 'em all listed here. So then when I generate 
+
+274
+00:19:36,600 --> 00:19:42,360
+10 designs, what we're gonna see is different combinations of text based on different 
+
+275
+00:19:42,360 --> 00:19:47,100
+title ideas and concepts. And I can just click through these and if there's any words 
+
+276
+00:19:47,100 --> 00:19:49,920
+that I want to use, just use it in my 
+
+277
+00:19:49,930 --> 00:19:50,750
+thumbnail template.
+
+278
+00:19:50,760 --> 00:19:55,120
+At this point, I generate a template just to get started. We've got a few different 
+
+279
+00:19:55,120 --> 00:20:00,460
+designs we can work with, different images of me that I can add to the system, some 
+
+280
+00:20:00,460 --> 00:20:04,210
+examples that I've done in the past. And one of the things that I'll do near the 
+
+281
+00:20:04,210 --> 00:20:07,260
+front is I'll drag any images that we're about to generate 
+
+282
+00:20:07,330 --> 00:20:09,270
+I've trained in some images into the 
+
+283
+00:20:09,430 --> 00:20:14,550
+we can see that the prompt that I used took the title, the content highlights, and 
+
+284
+00:20:14,550 --> 00:20:19,680
+the title ideas. And from there we've generated this extracted information about 
+
+285
+00:20:19,680 --> 00:20:24,960
+the theme, the highlight, the power of automation. But the main thing going on is 
+
+286
+00:20:24,960 --> 00:20:28,830
+that there's an area for different prompts. So we can look at the robotic arm. If 
+
+287
+00:20:28,830 --> 00:20:33,660
+we go further down, we can look at the large clock with the faster moving hand.
+
+288
+00:20:33,660 --> 00:20:37,760
+So here we have our robot with the intro and the outro, and if we go to the top, 
+
+289
+00:20:37,760 --> 00:20:42,190
+we've got our clock with the fast moving hands, we've got YouTube variations of it 
+
+290
+00:20:42,190 --> 00:20:42,350
+as well.
+
+291
+00:20:42,360 --> 00:20:46,650
+Now we just finished the setup for the titles, the thumbnail elements, the text that 
+
+292
+00:20:46,650 --> 00:20:51,30
+goes onto 'em. The next thing that I have to do when publishing a video is getting 
+
+293
+00:20:51,30 --> 00:20:54,840
+the YouTube description, and one of the things I'm gonna need are the keywords. Now 
+
+294
+00:20:54,840 --> 00:21:00,810
+we have a bunch of keywords that we found during the content analysis phase. We've 
+
+295
+00:21:00,810 --> 00:21:03,660
+also got the title that we're using and the abridgement.
+
+296
+00:21:03,660 --> 00:21:08,460
+I've gone and run that prompt and we can see here a struggling to create smooth intros 
+
+297
+00:21:08,460 --> 00:21:13,410
+and outros in your YouTube videos. So we have this basic sort of description. Now, 
+
+298
+00:21:13,410 --> 00:21:17,700
+how does that fit with a regular YouTube description? If we look at one of the videos 
+
+299
+00:21:17,730 --> 00:21:22,560
+I've already done in the past, you can see there's many areas of the YouTube description 
+
+300
+00:21:22,560 --> 00:21:27,720
+including keywords, affiliate links, branding, social media. But the section we just 
+
+301
+00:21:27,720 --> 00:21:32,550
+generated would be this area here. It's the basic idea of what the video is meant 
+
+302
+00:21:32,550 --> 00:21:34,950
+to be about. Let's move on and build the rest of this.
+
+303
+00:21:34,960 --> 00:21:39,850
+So we'll come back to the description, take a copy of it, and we'll move on to the 
+
+304
+00:21:39,850 --> 00:21:43,720
+writing of the description where we've got a whole lot of extra information that 
+
+305
+00:21:43,720 --> 00:21:48,280
+I just talked about. We'll just paste in the simple YouTube description. You can 
+
+306
+00:21:48,280 --> 00:21:52,300
+see above. We've got the chapters and all that. And make a copy of what we've got 
+
+307
+00:21:52,300 --> 00:21:52,720
+here 
+
+308
+00:21:52,730 --> 00:21:58,200
+and I'll just paste it into chat, GPT. You can also use anthropic if you want, and 
+
+309
+00:21:58,200 --> 00:22:02,730
+it'll start generating a more detailed YouTube description. 
+
+310
+00:22:02,760 --> 00:22:07,520
+Now, I haven't uploaded this video yet, so I can't put it into YouTube, but what 
+
+311
+00:22:07,520 --> 00:22:12,380
+you can see over here on the left is the original text and we got it visualized on 
+
+312
+00:22:12,380 --> 00:22:17,930
+the right. And this first area is something to look at mainly because this is the 
+
+313
+00:22:17,930 --> 00:22:21,530
+stuff that goes above the fold. And what that means is that when someone's looking 
+
+314
+00:22:21,800 --> 00:22:24,620
+at a video, but they haven't opened up the description, 
+
+315
+00:22:24,290 --> 00:22:27,560
+Everything above the fold should be high priority. 
+
+316
+00:22:26,790 --> 00:22:31,980
+one of the things that I've done here is had a link to an opt-in for one of my e 
+
+317
+00:22:31,980 --> 00:22:35,520
+products. Or sometimes I'll use the buy me a coffee link.
+
+318
+00:22:35,530 --> 00:22:40,130
+And then when they expand the description, there might be another high level opt-in 
+
+319
+00:22:40,130 --> 00:22:44,480
+that you want to have, plus the rest of the information comes down in the appropriate 
+
+320
+00:22:44,480 --> 00:22:44,900
+order.
+
+321
+00:22:44,930 --> 00:22:49,440
+this is an evolving system, so there's other steps here that I'm not currently using, 
+
+322
+00:22:49,440 --> 00:22:54,690
+like the pinned comments, but they'll come over time. But let's move into the last 
+
+323
+00:22:54,690 --> 00:22:58,410
+phase. And the last phase is how are you going to share the YouTube video? Are you 
+
+324
+00:22:58,440 --> 00:23:02,430
+gonna share it with LinkedIn? Are you going to write a medium article or maybe a 
+
+325
+00:23:02,430 --> 00:23:02,850
+tweet? 
+
+326
+00:23:02,860 --> 00:23:08,540
+the ones I do generally at the moment are tweets and LinkedIn articles. So we'll 
+
+327
+00:23:08,540 --> 00:23:10,460
+just go straight in and have a look at them.
+
+328
+00:23:10,460 --> 00:23:15,120
+Now we're in the social media post phase, and we can see for creating a tweet that 
+
+329
+00:23:15,120 --> 00:23:19,800
+I need the title of the video. We've got some keywords that can be used, and basically 
+
+330
+00:23:19,800 --> 00:23:24,690
+a summary, which is a bit smaller than the transcript or the abridgement, and we'll 
+
+331
+00:23:24,690 --> 00:23:27,990
+paste in a link. Now, I haven't uploaded the videos, so this is just one of my other 
+
+332
+00:23:27,990 --> 00:23:32,580
+videos for now, and we'll move through to the LinkedIn post. I don't tend to do a 
+
+333
+00:23:32,580 --> 00:23:38,640
+Facebook post anymore, and the information here is exactly the same, though I like 
+
+334
+00:23:38,640 --> 00:23:42,390
+to use the Abridgement because it's more detailed than the summary.
+
+335
+00:23:42,390 --> 00:23:46,540
+here we have five tweets that have been created. We've got the information that's 
+
+336
+00:23:46,540 --> 00:23:51,310
+related to the video keywords, and then we've got the link at the bottom. You can 
+
+337
+00:23:51,310 --> 00:23:56,740
+pick one of the ones you want or rewrite A as see fit as we scroll down. You'll also 
+
+338
+00:23:56,740 --> 00:24:01,750
+see that there's a LinkedIn post being generated and it'll be way more detailed. 
+
+339
+00:24:01,750 --> 00:24:05,350
+It's not based on the summary, it's based on the abridgement, and it'll have the 
+
+340
+00:24:05,350 --> 00:24:09,550
+video at the end. And the way they can look is that we've got different tweets that 
+
+341
+00:24:09,550 --> 00:24:14,500
+we've been able to put out in the past, and if we go over to the LinkedIn posts, 
+
+342
+00:24:14,650 --> 00:24:19,810
+you can see a bunch of LinkedIn posts that I get a lot of engagement from. And this 
+
+343
+00:24:19,870 --> 00:24:23,680
+I find a great way to send traffic back to the YouTube channel.
+
+344
+00:24:23,690 --> 00:24:28,940
+So there you have my extensive launch sequence. This is everything I do to get a 
+
+345
+00:24:28,940 --> 00:24:35,660
+video released and up onto YouTube and published. This takes about 30 steps, and 
+
+346
+00:24:35,660 --> 00:24:40,130
+in the past I used to take three to five weeks to get a video out. I'm now down to 
+
+347
+00:24:40,130 --> 00:24:45,830
+about one or two videos a week, and it's GPT workflows like this that help me. So 
+
+348
+00:24:45,830 --> 00:24:49,880
+if you're interested in the agent workflow builder, there's a link in the description. 
+
+349
+00:24:49,880 --> 00:24:53,690
+It's software that I'm building and we'll make available soon.
+
+350
+00:24:53,990 --> 00:24:58,880
+I'm AppyDave. I do videos generally on GPT, prompt Engineering and this agent workflow 
+
+351
+00:24:58,970 --> 00:25:04,430
+tool that I'm building. Please like and subscribe or click on the buy me a coffee 
+
+352
+00:25:04,430 --> 00:25:08,480
+link. That's one of the ways that funds this particular channel and the content that 
+
+353
+00:25:08,480 --> 00:25:11,150
+I'm creating. Anyway, I'll see in the next video.

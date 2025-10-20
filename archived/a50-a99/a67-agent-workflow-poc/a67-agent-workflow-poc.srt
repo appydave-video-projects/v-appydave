@@ -1,0 +1,1259 @@
+1
+00:00:00,00 --> 00:00:05,700
+GPT workflows are repeatable instructions that you might see over and over again 
+
+2
+00:00:05,890 --> 00:00:11,830
+in your personal life or in your business life. In my particular situation, I do 
+
+3
+00:00:11,860 --> 00:00:17,250
+automated YouTube videos where I have scripts based off information that I research 
+
+4
+00:00:17,250 --> 00:00:23,160
+on the internet and that workflow I repeat over and over again for each video. The 
+
+5
+00:00:23,160 --> 00:00:27,820
+other place that I personally do it is when I publish this video, I'll have to come 
+
+6
+00:00:27,820 --> 00:00:32,140
+up with the title, the text that goes on the thumbnail, the design I want for the 
+
+7
+00:00:32,140 --> 00:00:36,960
+thumbnail. And then when I do release the video and I have a transcript, I'll want 
+
+8
+00:00:36,960 --> 00:00:42,900
+to get the YouTube description, the LinkedIn post, maybe a medium article, and definitely 
+
+9
+00:00:42,900 --> 00:00:47,550
+a tweet. So in this video I'm going to show you a proof of concept application that 
+
+10
+00:00:47,550 --> 00:00:50,820
+I'm building for building GPT workflows.
+
+11
+00:00:50,830 --> 00:00:54,190
+If you're wondering what a GPT workflow is, it's essentially a 
+
+12
+00:00:54,190 --> 00:00:58,240
+of prompts that you might run over and over again. And back at the beginning of the 
+
+13
+00:00:58,240 --> 00:01:04,210
+year, I did seven GPTs to grow your YouTube channel in 2024. 
+
+14
+00:01:04,230 --> 00:01:10,430
+what it did was take the transcript summary that I would do in a video, and from 
+
+15
+00:01:10,430 --> 00:01:15,990
+that, produce better intros, produce better outros. Here we would have the ability 
+
+16
+00:01:15,990 --> 00:01:20,930
+to create a YouTube description based on the transcript, and then to share it on 
+
+17
+00:01:20,930 --> 00:01:22,260
+Twitter or LinkedIn.
+
+18
+00:01:22,260 --> 00:01:26,780
+Because I'm doing GPT workflows all the time. I started putting together a little 
+
+19
+00:01:26,780 --> 00:01:32,690
+application. And the idea of it is that you have a prompt over here and you have 
+
+20
+00:01:32,690 --> 00:01:39,560
+some input variables. So create five simple project ideas on an idea. And we might 
+
+21
+00:01:39,560 --> 00:01:45,590
+go with Gen Mo, which is a text image generation system. And if we show the Interpolated 
+
+22
+00:01:45,590 --> 00:01:51,650
+prompt, we can see create five simple project ideas on Geno. And with that, we could 
+
+23
+00:01:51,650 --> 00:01:55,400
+just copy that straight into the clipboard and use it in chat GPT. 
+
+24
+00:01:55,430 --> 00:01:59,780
+Now, from there you would get five different ideas. You would select an idea, and 
+
+25
+00:01:59,780 --> 00:02:04,550
+from there, make a basic fact sheet. So let's gather a whole lot of information about 
+
+26
+00:02:04,550 --> 00:02:10,340
+this product. And the selected idea might be using Text to image in gmo. And so now 
+
+27
+00:02:10,340 --> 00:02:15,200
+you've got this new prompt that you can use in chat GPT or in a future version of 
+
+28
+00:02:15,200 --> 00:02:17,600
+this application by clicking the start button.
+
+29
+00:02:17,630 --> 00:02:22,180
+Now when working with GPT workflows, you often have different phases that you're 
+
+30
+00:02:22,180 --> 00:02:27,250
+going through. So in this example, there might be a research phase followed by developing 
+
+31
+00:02:27,250 --> 00:02:31,480
+the script where in the research phase where you can see the bunch of steps that 
+
+32
+00:02:31,480 --> 00:02:36,100
+are going on. And where I've used this quite effectively is in a channel that I've 
+
+33
+00:02:36,100 --> 00:02:41,440
+got called AI-TLDR where I'm creating different videos. And one of the videos in 
+
+34
+00:02:41,440 --> 00:02:41,770
+here 
+
+35
+00:02:41,800 --> 00:02:43,270
+called using GMO 
+
+36
+00:02:43,300 --> 00:02:47,700
+is already an outlier with 41 times the channel average. And the interesting thing 
+
+37
+00:02:47,700 --> 00:02:52,950
+about this channel with its 28 videos is that it's only about two months old and 
+
+38
+00:02:52,950 --> 00:02:57,750
+I'm using GPT workflows to build all the scripts and they're good quality scripts 
+
+39
+00:02:57,750 --> 00:02:59,460
+and they're good looking videos.
+
+40
+00:02:59,460 --> 00:03:04,580
+So let's have a look at how I was doing my GPT workflows. Now, I love using mind 
+
+41
+00:03:04,580 --> 00:03:10,160
+maps. They're a great way of organizing structure. And when I was doing a YouTube 
+
+42
+00:03:10,160 --> 00:03:14,600
+video script, I'd have this general stuff that I'd do every time I, there'd be a 
+
+43
+00:03:14,600 --> 00:03:19,370
+bunch of information that I'd want to collect, we'll call it parameters here. And 
+
+44
+00:03:19,370 --> 00:03:24,530
+there'd be certain large language models I'd want to use. Usually it'd be Open AI, 
+
+45
+00:03:24,530 --> 00:03:29,750
+but if I needed search capability, I'd use perplexity. Now, from there, I'd go off 
+
+46
+00:03:29,750 --> 00:03:34,550
+and do a little bit of research. There'd be basic metadata about the video. Let's 
+
+47
+00:03:34,550 --> 00:03:39,530
+develop some facts and information in the fact sheet. Select the type of video that'd 
+
+48
+00:03:39,530 --> 00:03:44,480
+be appropriate to the fact sheet we've built, and then expand on it, go into more 
+
+49
+00:03:44,480 --> 00:03:49,460
+detail. With that, we could get metadata. And so examples of the sorts of inputs 
+
+50
+00:03:49,460 --> 00:03:54,140
+and outputs would be for the expanded fact sheet and input might be a simple title, 
+
+51
+00:03:54,320 --> 00:03:59,420
+plus the basic fact sheet that we got here and the video type that we're focusing 
+
+52
+00:03:59,420 --> 00:04:04,610
+on, which would've come from here. The output being the expanded fact sheet would 
+
+53
+00:04:04,610 --> 00:04:09,590
+then become the input for the expanded metadata. And that's where I might get a list 
+
+54
+00:04:09,590 --> 00:04:15,770
+of engaging titles, keywords and topics. With all the research phase completed, we 
+
+55
+00:04:15,770 --> 00:04:16,640
+could then move on to 
+
+56
+00:04:16,660 --> 00:04:18,960
+the script writing phase would be create a script, 
+
+57
+00:04:18,960 --> 00:04:19,920
+clean it up, 
+
+58
+00:04:19,930 --> 00:04:24,210
+fact check it. So one of the big problems with writing any sort of information for 
+
+59
+00:04:24,210 --> 00:04:30,660
+an article or a YouTube video is, is the information accurate? So there'd be a section 
+
+60
+00:04:30,960 --> 00:04:30,540
+in there. 
+
+61
+00:04:30,560 --> 00:04:33,350
+lastly, a human would finish the job. 
+
+62
+00:04:33,360 --> 00:04:38,420
+so all the ideas that you're looking at in the mind map is what we're trying to achieve 
+
+63
+00:04:38,420 --> 00:04:42,740
+with the GPT workflow. Just a bunch of steps in a bunch of phases.
+
+64
+00:04:42,760 --> 00:04:47,730
+Another more complex workflow that I do is when I create a Medium article. And what 
+
+65
+00:04:47,730 --> 00:04:52,500
+I'm doing with this is collecting a bunch of information. I start from the transcript 
+
+66
+00:04:52,500 --> 00:04:57,570
+of one of my videos and I'm building out extra information. And the way I do that 
+
+67
+00:04:57,570 --> 00:05:03,330
+is running through a bunch of GPT steps, such as doing some research, developing 
+
+68
+00:05:03,390 --> 00:05:08,520
+outlines, getting better intros, stuff like that. And how that looks in the real 
+
+69
+00:05:08,520 --> 00:05:14,370
+world is that I've currently got two drafts for different articles. I've got, I recently 
+
+70
+00:05:14,370 --> 00:05:16,770
+did a video on getting started with 
+
+71
+00:05:16,790 --> 00:05:17,290
+and then 
+
+72
+00:05:17,290 --> 00:05:23,510
+this article, but how I built 10 classic games in just an hour using WebSim.ai and 
+
+73
+00:05:23,510 --> 00:05:28,670
+chat GPT. And I went through and I created these different games like Pacman and 
+
+74
+00:05:28,670 --> 00:05:33,470
+Asteroids, and I talked about the other tool that I created. And it's interesting 
+
+75
+00:05:33,470 --> 00:05:39,470
+to look at this because that screenshot that you see has been integrated into the 
+
+76
+00:05:39,500 --> 00:05:43,490
+Chat GPT workflow software that we're talking about today. 
+
+77
+00:05:43,660 --> 00:05:47,330
+So if we quickly look at the quality of the article, we've got how to use better 
+
+78
+00:05:47,330 --> 00:05:52,730
+prompts in GPT to improve storytelling. Built off a transcript and after a month 
+
+79
+00:05:52,730 --> 00:05:58,340
+and a half, it's already got nearly 400 claps to it, and we go through it. It's got 
+
+80
+00:05:58,370 --> 00:06:04,340
+the prompts, it's got good paragraphs, intros, outros, and graphics, all going on. 
+
+81
+00:06:04,640 --> 00:06:09,800
+And much of this was done using the GPT workflow that I just showed in the mind map.
+
+82
+00:06:09,830 --> 00:06:15,100
+Now, when I was doing my first proof of concept for the agent workflow software, 
+
+83
+00:06:15,160 --> 00:06:21,370
+this is the workflow I started with building a YouTube script. And we've got the 
+
+84
+00:06:21,370 --> 00:06:26,920
+research of the basic idea, the fact sheet, video type, et cetera. And you can see 
+
+85
+00:06:26,920 --> 00:06:31,720
+all these bits of information across the top here. But we also had what we would 
+
+86
+00:06:31,720 --> 00:06:36,340
+call phases. So we got the research phase and the developed script, and if we go 
+
+87
+00:06:36,340 --> 00:06:40,240
+and click on the overview, we can see there's a research phase and these are the 
+
+88
+00:06:40,240 --> 00:06:41,590
+steps that you would go through 
+
+89
+00:06:41,600 --> 00:06:45,170
+followed by the developed script phase, and that would have a set of steps that you 
+
+90
+00:06:45,170 --> 00:06:46,250
+go through as well.
+
+91
+00:06:46,260 --> 00:06:51,140
+Now let's move over to the workflow that I want to build today, and that's for the 
+
+92
+00:06:51,140 --> 00:06:56,750
+YouTube publishing of a video. And what I've put in place is the idea that I create 
+
+93
+00:06:56,750 --> 00:07:02,150
+a title. I need text for the thumbnail, and that shouldn't be the same as the YouTube 
+
+94
+00:07:02,150 --> 00:07:07,190
+title, and there'll be some design guidelines. After that, I'm going to take the 
+
+95
+00:07:07,190 --> 00:07:13,730
+transcript that I've got for the YouTube video and create both a summary and an abridgement. 
+
+96
+00:07:13,940 --> 00:07:18,440
+And these are two different ways of summarizing text. From that, we should be able 
+
+97
+00:07:18,440 --> 00:07:23,480
+to create YouTube descriptions, LinkedIn posts, send off tweets, and then move on 
+
+98
+00:07:23,480 --> 00:07:24,710
+to the medium articles.
+
+99
+00:07:24,730 --> 00:07:29,640
+So we have our workflow name, and we have a list of steps here and how that could 
+
+100
+00:07:29,640 --> 00:07:34,950
+look in the application is that the workflow name should go here and the steps should 
+
+101
+00:07:34,950 --> 00:07:40,440
+be listed in this sort of area. But there's also this other concept going on called 
+
+102
+00:07:40,440 --> 00:07:45,600
+the phases, and we can see the phases listed here. So it might be useful to go and 
+
+103
+00:07:45,600 --> 00:07:45,510
+change 
+
+104
+00:07:45,530 --> 00:07:50,630
+so I've come over to my mind map and I've just added a section called Phases, and 
+
+105
+00:07:50,630 --> 00:07:55,850
+I can see three different phases. The first one would be getting the thumbnail correct. 
+
+106
+00:07:56,120 --> 00:08:00,740
+The next area would be about getting the summary and the abridgement. We call that 
+
+107
+00:08:00,740 --> 00:08:05,570
+research, and that occurs to me that there are two other areas that would be interesting. 
+
+108
+00:08:05,570 --> 00:08:10,730
+So usually the chapter timestamps need to be worked out and they're useful for the 
+
+109
+00:08:10,730 --> 00:08:16,220
+YouTube description coming up. The other information that's useful is just my brand 
+
+110
+00:08:16,220 --> 00:08:22,130
+information. So it's one thing to talk about a video in a YouTube description, but 
+
+111
+00:08:22,130 --> 00:08:26,180
+if there's nothing in there to talk about the brand that's creating it, that's a 
+
+112
+00:08:26,450 --> 00:08:31,460
+little bit of a challenge, and that information needs to be fed into future workflows, 
+
+113
+00:08:31,490 --> 00:08:36,950
+which we'll call, say the social media content. So what I've done is taken the phases 
+
+114
+00:08:36,950 --> 00:08:42,230
+and we'll just expand it out. We've got thumbnail design and we will just move these 
+
+115
+00:08:42,230 --> 00:08:47,450
+three items down and attach it right there. With that, we've got all the information 
+
+116
+00:08:47,450 --> 00:08:53,150
+around the fact sheet, which is the abridgement, the chapters, and the brand information. 
+
+117
+00:08:53,270 --> 00:08:54,290
+And lastly, 
+
+118
+00:08:54,300 --> 00:08:58,400
+the post-production where we are building social media content. 
+
+119
+00:08:58,430 --> 00:09:04,890
+so I think the name of the workflow going here will come from here, followed by three 
+
+120
+00:09:04,890 --> 00:09:09,120
+different phases. We've got the thumbnail design, the fact sheet, and the social 
+
+121
+00:09:09,120 --> 00:09:14,130
+content. And after that, there'll be three steps within this phase, four, within 
+
+122
+00:09:14,130 --> 00:09:16,440
+this phase, and four within this.
+
+123
+00:09:16,460 --> 00:09:21,730
+Now let's talk about how I'm quickly designing these GPT workflows. Now, you've seen 
+
+124
+00:09:21,730 --> 00:09:27,670
+here that I've created a simple mind map. And a mind map is a wonderful way of explaining 
+
+125
+00:09:27,670 --> 00:09:32,890
+structure. But where it misses the point is that there's a lot of extra information 
+
+126
+00:09:32,890 --> 00:09:38,680
+that you want in, say, a GPT workflow. In this case, we've got some input variables 
+
+127
+00:09:38,920 --> 00:09:43,810
+and it should be simple to use and maybe a basic fact sheet. In this case here, I 
+
+128
+00:09:43,810 --> 00:09:50,620
+want to create a DSL that produces GPT agent workflows in minutes. Now, that's where 
+
+129
+00:09:50,620 --> 00:09:53,530
+I'm going to introduce the concept of a DSL. 
+
+130
+00:09:53,530 --> 00:09:59,820
+what is it? It stands for a domain specific language, and it's really a way of writing, 
+
+131
+00:09:59,820 --> 00:10:04,350
+just like we might write with a prompt where you've got both the information that 
+
+132
+00:10:04,350 --> 00:10:04,950
+you want, 
+
+133
+00:10:04,960 --> 00:10:10,830
+maybe a list of slides for a PowerPoint presentation, but also the semantic meaning 
+
+134
+00:10:10,830 --> 00:10:15,510
+the fact that there are slides and that a slide might have an image on the left or 
+
+135
+00:10:15,510 --> 00:10:21,360
+the right, and three bullet points. So a domain specific language is this beautiful 
+
+136
+00:10:21,360 --> 00:10:27,210
+text structure. It can be written like a prompt, but it has both the semantic meaning 
+
+137
+00:10:27,480 --> 00:10:33,330
+and the informational meaning. So examples of them in the real world are things like 
+
+138
+00:10:33,330 --> 00:10:36,390
+sql, lasik, latex, and RegX. 
+
+139
+00:10:36,400 --> 00:10:41,400
+So let's have a look at how a DSL could work. So I've created this little image here 
+
+140
+00:10:41,400 --> 00:10:47,190
+called GPT Agent Workflows, and it's a bit of a storyboard that we could say was 
+
+141
+00:10:47,190 --> 00:10:52,590
+done in PowerPoint of understanding the workflows, key considerations, et cetera. 
+
+142
+00:10:52,950 --> 00:10:58,980
+And the way I created this was with a DSL. So I said, here, here's an example, DSL 
+
+143
+00:10:58,980 --> 00:11:04,890
+for creating a PowerPoint presentation about the topic we're we're dealing with in 
+
+144
+00:11:04,890 --> 00:11:10,320
+three slides. And it said presentation. So this is very easy to understand when you 
+
+145
+00:11:10,320 --> 00:11:15,210
+are putting it into GPT. We've got semantic meaning the concept, that there's a presentation, 
+
+146
+00:11:15,360 --> 00:11:19,830
+that there's slides, and that this slide has a title and some bullet points, and 
+
+147
+00:11:19,830 --> 00:11:25,830
+we just keep repeating the information. And this was the user interface that I initially 
+
+148
+00:11:25,830 --> 00:11:27,990
+decided I wanted to create 
+
+149
+00:11:28,00 --> 00:11:33,750
+my GPT workflows, as you see right here. And the reason for that is twofold. From 
+
+150
+00:11:33,750 --> 00:11:33,840
+a 
+
+151
+00:11:33,860 --> 00:11:37,570
+point of view, it's way quicker for me to develop this little, 
+
+152
+00:11:37,600 --> 00:11:43,250
+DSL language and make it very flexible. But because it is all text, I can generate 
+
+153
+00:11:43,310 --> 00:11:47,210
+GPT workflows really quickly, just using chat GPT.
+
+154
+00:11:47,230 --> 00:11:52,450
+So over on the left, I've got the DSL that I've created for the YouTube script writer. 
+
+155
+00:11:52,450 --> 00:11:58,510
+And remember that a DSL is a domain specific language and it's about solving problems 
+
+156
+00:11:58,570 --> 00:12:02,860
+in terminology that's easy to understand and read. 
+
+157
+00:12:02,100 --> 00:12:06,810
+what we've got here is the idea of an agent that we are creating. And the agent would 
+
+158
+00:12:06,810 --> 00:12:12,120
+be a large language model sort of automation. And we're just naming it YouTube script 
+
+159
+00:12:12,120 --> 00:12:16,560
+writer. We've given it a little bit of a description. Now, some of the things that 
+
+160
+00:12:16,620 --> 00:12:21,720
+I'm trying to solve is I want concepts like settings that are configurable for each 
+
+161
+00:12:21,720 --> 00:12:28,230
+workflow that I do, a list of prompts. And I don't want to write it into the language 
+
+162
+00:12:28,230 --> 00:12:32,400
+here 'cause it's just too hard to read when they get big. So in this case, I'm just 
+
+163
+00:12:32,400 --> 00:12:37,890
+reading them from files. Then there's a list of attributes or variables that I want 
+
+164
+00:12:37,890 --> 00:12:42,990
+to collect along the way. And then there's just the sections or the phases. So the 
+
+165
+00:12:42,990 --> 00:12:48,720
+research phase with a bunch of steps going on and that those steps can take some 
+
+166
+00:12:48,720 --> 00:12:53,730
+information and they can produce some information. And after a while you'll go on 
+
+167
+00:12:53,730 --> 00:12:54,870
+to another 
+
+168
+00:12:54,900 --> 00:13:00,220
+phase. From that, the information is written out to a file and all of this happens 
+
+169
+00:13:00,220 --> 00:13:02,350
+when we hit save. So let's have a look at that.
+
+170
+00:13:02,360 --> 00:13:07,630
+Now as I'm writing my DSL and I'm hitting save, what it does is it takes a file here 
+
+171
+00:13:07,630 --> 00:13:10,300
+on the right and it updates it automatically. 
+
+172
+00:13:10,330 --> 00:13:15,330
+so if I come up to the description and I'll just put in AppyDave, I'll hit save. 
+
+173
+00:13:15,330 --> 00:13:19,890
+And what's happening on the right is that that file is changing automatically. And 
+
+174
+00:13:19,890 --> 00:13:22,290
+every section of this, 
+
+175
+00:13:22,300 --> 00:13:27,400
+workflow is actually represented on the right. So if we look at the sections, we've 
+
+176
+00:13:27,400 --> 00:13:32,740
+got a research phase, and we could come into here and change this to research and 
+
+177
+00:13:32,740 --> 00:13:37,360
+development, and we might go into here and change this to something like Claude. 
+
+178
+00:13:37,540 --> 00:13:42,430
+And when we hit save, this value should automatically change. Plus now the default 
+
+179
+00:13:42,430 --> 00:13:44,590
+language model is Claude. 
+
+180
+00:13:44,600 --> 00:13:49,430
+So with that little change in place, the user interface has updated. We're seeing 
+
+181
+00:13:49,460 --> 00:13:55,880
+research and development here on the main screen and also on the mobile version of 
+
+182
+00:13:55,880 --> 00:13:58,790
+it. And let's have a quick look at how this is set up. 
+
+183
+00:13:58,800 --> 00:14:04,160
+So for the proof of concept or first version of this application, there's the DSL 
+
+184
+00:14:04,160 --> 00:14:09,470
+here. There it reads in the prompts from little files. So we've got examples of different 
+
+185
+00:14:09,530 --> 00:14:14,550
+prompts just sitting in the file. And when you press save, it just writes out this 
+
+186
+00:14:14,550 --> 00:14:19,680
+little J document that represents one workflow that's then automatically picked up 
+
+187
+00:14:19,680 --> 00:14:25,500
+by a simple astro application that's rendering everything that we see on screen using 
+
+188
+00:14:25,500 --> 00:14:26,730
+Tailwind CSS. 
+
+189
+00:14:26,760 --> 00:14:32,580
+So the first thing I wanna do is show how easy it is to take a simple mind map structure 
+
+190
+00:14:32,580 --> 00:14:37,680
+like we've got YouTube publish video and convert it into an agent workflow. 
+
+191
+00:14:37,700 --> 00:14:43,350
+so what I'll do to start off with is I'll go get an email template DSL. I've written 
+
+192
+00:14:43,680 --> 00:14:49,830
+a programming DSL for Rails and one that I've done for my script writing workflow. 
+
+193
+00:14:49,830 --> 00:14:54,450
+And I've copied all three of these, started myself a new, 
+
+194
+00:14:54,460 --> 00:14:59,280
+GPT workflow, and I've just copied all the information in. And I'm using a command 
+
+195
+00:14:59,280 --> 00:15:04,500
+called Read that I've set up as a custom instruction so that it just absorbs the 
+
+196
+00:15:04,500 --> 00:15:10,620
+information and asks what to do next. I then just go to my mind map and copy the 
+
+197
+00:15:10,620 --> 00:15:16,230
+information and I've started a prompt that says, can you create a new DSL using this 
+
+198
+00:15:16,230 --> 00:15:18,660
+structure? And I paste everything in. 
+
+199
+00:15:18,660 --> 00:15:20,490
+it's in the middle of generating 
+
+200
+00:15:20,500 --> 00:15:25,470
+it's got an area for attributes. Now this may be a little bit more complex than I 
+
+201
+00:15:25,470 --> 00:15:30,240
+need at the moment, and I will edit it, but let's just see what this looks like when 
+
+202
+00:15:30,240 --> 00:15:31,350
+we finish it.
+
+203
+00:15:31,360 --> 00:15:36,650
+So to get this working, what I can do is just copy the code that's produced here 
+
+204
+00:15:36,650 --> 00:15:41,720
+and we can paste it in and it's seems like it's put everything in place. I have a 
+
+205
+00:15:41,720 --> 00:15:46,760
+little bit of a concern around this loading of the files because these files don't 
+
+206
+00:15:46,820 --> 00:15:51,650
+currently exist. So what I'll do is I'll go and create a sample prompt, we'll call 
+
+207
+00:15:51,650 --> 00:15:55,160
+it create prompts for publishing your YouTube video. 
+
+208
+00:15:55,160 --> 00:16:00,860
+And I've just manually updated it so that that's commented out and we're only going 
+
+209
+00:16:00,860 --> 00:16:03,320
+to see the same prompt. And now when I hit save on it, 
+
+210
+00:16:03,330 --> 00:16:08,440
+we get this new GPT workflow. I'll just click on the thumbnail design. So we've got 
+
+211
+00:16:08,440 --> 00:16:13,510
+three items here and they match the information that we've got in our DSL. We click 
+
+212
+00:16:13,510 --> 00:16:18,700
+on the fact sheet, we've got four there, and we'll go to the social content where 
+
+213
+00:16:18,700 --> 00:16:19,360
+we've also got four. 
+
+214
+00:16:19,360 --> 00:16:23,640
+another thing to look at is we should have attributes, prompts, and they're all going 
+
+215
+00:16:23,640 --> 00:16:27,210
+to say the same information 'cause we're reading it from the same file each time 
+
+216
+00:16:27,450 --> 00:16:28,770
+and some settings. 
+
+217
+00:16:28,800 --> 00:16:32,590
+So we'll just have a look at two of the attributes that are here. One's called Summary 
+
+218
+00:16:32,650 --> 00:16:38,260
+and Abridgement, and they're basically the outcome from the transcript in two different 
+
+219
+00:16:38,260 --> 00:16:40,780
+formats. And if we move into the, 
+
+220
+00:16:40,800 --> 00:16:46,680
+social content section, and we'll look at the tweet, they're inputs. So we've got 
+
+221
+00:16:46,740 --> 00:16:49,890
+the summary and the abridgement. Now generally I wouldn't have both of them. I'd 
+
+222
+00:16:49,890 --> 00:16:52,260
+only have one. So we will change that in a moment, 
+
+223
+00:16:52,260 --> 00:16:56,990
+but let's have a look at it here. So we are currently on the attributes where we 
+
+224
+00:16:56,990 --> 00:17:01,520
+can see summary and abridgement are two values that we're collecting. And if we go 
+
+225
+00:17:01,520 --> 00:17:07,940
+to the social content currently on the tweet and we can see input of summary and 
+
+226
+00:17:07,940 --> 00:17:09,790
+abridgement. So let's go change that. 
+
+227
+00:17:09,800 --> 00:17:14,270
+Now, I find that Abridgement are really good for YouTube descriptions. They've got 
+
+228
+00:17:14,270 --> 00:17:18,680
+a whole lot more detail than a summary. So I would remove the summary from anything 
+
+229
+00:17:18,680 --> 00:17:23,120
+that's complex writing, but something like a tweet, which is simple, I would just 
+
+230
+00:17:23,120 --> 00:17:28,400
+call it like that. So I'm just gonna hit say And because Astro refreshes automatically 
+
+231
+00:17:28,400 --> 00:17:31,220
+when files change, it's just made it summary.
+
+232
+00:17:31,230 --> 00:17:34,930
+Now if you were paying attention, you might have noticed that when I went from social 
+
+233
+00:17:34,930 --> 00:17:39,250
+to fat sheet to thumbnail, we were always on 0.3, 
+
+234
+00:17:39,260 --> 00:17:45,590
+and that's because this is a proof of concept project, not a fully working, minimum 
+
+235
+00:17:45,590 --> 00:17:51,530
+viable product. Now, I do have a minimum viable product and it's here. And if we 
+
+236
+00:17:51,530 --> 00:17:57,200
+look at the same information from this point of view, we can go into individual areas, 
+
+237
+00:17:57,260 --> 00:18:02,960
+click on them and see what's going on. We go back to the overview. We might go to 
+
+238
+00:18:02,960 --> 00:18:07,190
+the transcript abridgement as part of the fact sheet, and now we can see that. Now 
+
+239
+00:18:07,190 --> 00:18:11,870
+that's all part of the next video, not this one. The first idea for me 
+
+240
+00:18:11,900 --> 00:18:17,590
+was the ability to get the DSL, generating the look and feel for all my designs and 
+
+241
+00:18:17,590 --> 00:18:20,950
+being able to create GPT workflows really quickly. 
+
+242
+00:18:20,960 --> 00:18:26,220
+But I'll just show you this quickly while we're at it. So let's say we put in a variable 
+
+243
+00:18:26,220 --> 00:18:29,700
+and we'll call it transcript because that's what we've called it over on the left. 
+
+244
+00:18:30,60 --> 00:18:35,670
+And we show the interpolated prompt right here. If we say hello, it should just go 
+
+245
+00:18:35,670 --> 00:18:41,310
+straight in. And if we wanted to see hello multiple times, we could just paste this 
+
+246
+00:18:41,310 --> 00:18:45,750
+in multiple times and we'll see it. The other thing that's going on here is that 
+
+247
+00:18:45,750 --> 00:18:50,910
+there's the ability to select different large language models. 'cause the way I envisage 
+
+248
+00:18:50,910 --> 00:18:55,770
+the software working is I should be able to pick the large language model that makes 
+
+249
+00:18:55,770 --> 00:19:01,650
+sense for the task I'm on. Another area that's going on is the output attributes. 
+
+250
+00:19:01,650 --> 00:19:05,370
+We didn't go into 'em in the DSL, but they do actually 
+
+251
+00:19:05,400 --> 00:19:10,590
+work from the point of view that when output comes out of this system, maybe it can 
+
+252
+00:19:10,590 --> 00:19:15,240
+be split up into multiple variables to be stored for future use. 
+
+253
+00:19:15,260 --> 00:19:19,820
+you should just be able to go from step to step. And once you're at the end of a 
+
+254
+00:19:19,820 --> 00:19:23,840
+workflow, there's a little down arrow saying that we're moving on to the next section, 
+
+255
+00:19:24,560 --> 00:19:28,310
+which is the social content. And we just can move all the way through until we get 
+
+256
+00:19:28,310 --> 00:19:28,910
+to the end. 
+
+257
+00:19:28,930 --> 00:19:34,560
+And one last part is this copy button. So what we can do is change the variables 
+
+258
+00:19:34,560 --> 00:19:38,490
+here. We'll call this my summary, and we'll go abridgement 
+
+259
+00:19:38,500 --> 00:19:43,410
+in action and we'll just say AppyDave for the brand information. Now when we hit 
+
+260
+00:19:43,620 --> 00:19:48,150
+copy that's now in the clipboard, and we could just paste that directly into chat. 
+
+261
+00:19:48,150 --> 00:19:53,910
+GPT. I'm going to paste it here. And so suddenly we get this really long one. So 
+
+262
+00:19:53,910 --> 00:19:57,780
+when we press copy again, we've got a lot more information coming for.
+
+263
+00:19:57,800 --> 00:20:03,130
+Now, when I first started this project, I did it all using Chat GPT from my phone. 
+
+264
+00:20:03,400 --> 00:20:10,120
+One afternoon I'd done some mind maps around how I wanted GPT workflows to work for 
+
+265
+00:20:10,120 --> 00:20:16,300
+my business, my YouTube channel. And I decided can I convert this into a database 
+
+266
+00:20:16,600 --> 00:20:22,780
+diagram or an entity relationship diagram? And I basically did it on the phone while 
+
+267
+00:20:22,780 --> 00:20:27,880
+riding the motorbike, I was riding the motorbike to a user group and I'd pull off 
+
+268
+00:20:27,940 --> 00:20:31,840
+to the side of the road and just make another statement that I'd been thinking of 
+
+269
+00:20:31,870 --> 00:20:36,760
+to the phone press, go and let it start generating information. And then I'd write 
+
+270
+00:20:36,760 --> 00:20:38,680
+on another half a kilometer. 
+
+271
+00:20:38,700 --> 00:20:44,980
+And as I was going, I built up a data flow diagram, an entity relationship diagram. 
+
+272
+00:20:44,980 --> 00:20:50,740
+I started having a conversation with it around how the domain specific language should 
+
+273
+00:20:50,740 --> 00:20:51,220
+work. 
+
+274
+00:20:51,230 --> 00:20:56,780
+All that evening I spent in cafes and also at this group. And whenever I had spare 
+
+275
+00:20:56,780 --> 00:20:59,600
+time, just having a quick conversation. 
+
+276
+00:20:59,630 --> 00:21:04,400
+Now I've misplaced that conversation, but I'll show you basic ideas. So what I've 
+
+277
+00:21:04,400 --> 00:21:10,100
+done here is what is a simple ERD or DFD in ask E for the following structure? And 
+
+278
+00:21:10,100 --> 00:21:15,410
+I've just pasted in the structure we've just been working with. And what it then 
+
+279
+00:21:15,410 --> 00:21:21,140
+does is start writing entity relationship diagrams around what the agent is, prompts, 
+
+280
+00:21:21,200 --> 00:21:26,720
+attributes, sections, et cetera. And you can also get a data flow diagram. And so 
+
+281
+00:21:26,720 --> 00:21:32,360
+it was this simple conversation backwards and forwards for many hours, but I was 
+
+282
+00:21:32,360 --> 00:21:36,410
+able to work out the way my domain specific language should work. 
+
+283
+00:21:36,430 --> 00:21:43,730
+So this was one of the early draft DSLs. It's using a YAML sort of format. From that 
+
+284
+00:21:43,730 --> 00:21:46,970
+it wrote an AST, an abstract 
+
+285
+00:21:47,00 --> 00:21:52,400
+syntax tree, which would allow programming to read that structure. We just looked 
+
+286
+00:21:52,400 --> 00:21:56,870
+at, I think this is in Python, which is not what I needed because I was working with 
+
+287
+00:21:56,870 --> 00:22:03,510
+Ruby. So I continued the conversation and here I got a cleaner, more human looking 
+
+288
+00:22:03,560 --> 00:22:04,700
+looking DSL to work with. 
+
+289
+00:22:04,730 --> 00:22:10,130
+what I like about a structure like this is that if I was to make this application 
+
+290
+00:22:10,130 --> 00:22:14,720
+work fully in the cloud from a little text box, this is something people can work 
+
+291
+00:22:14,720 --> 00:22:16,670
+with. In fact, let's have a look at 
+
+292
+00:22:16,700 --> 00:22:21,870
+this product called DB diagram, which I think is a great example of how DSLs can 
+
+293
+00:22:21,870 --> 00:22:27,900
+effectively create visualizations. This allows you to write simple little structures. 
+
+294
+00:22:27,900 --> 00:22:34,200
+So I'm just going to put in hello and the hello is now connected up visually and 
+
+295
+00:22:34,200 --> 00:22:39,300
+I was able to use this tool to create the entity relationship diagram as an actual 
+
+296
+00:22:39,300 --> 00:22:40,410
+database structure. 
+
+297
+00:22:40,430 --> 00:22:44,890
+so I spent a whole lot of time then getting it to create code for me. So this is 
+
+298
+00:22:45,220 --> 00:22:51,620
+the actual code for how the reading of the data from that domain specific language 
+
+299
+00:22:51,620 --> 00:22:58,250
+happens and concepts like writing it out to Jason and YAML were all written as code 
+
+300
+00:22:58,280 --> 00:23:03,200
+as we went through this and you can see all the Ruby code here. From there, I was 
+
+301
+00:23:03,200 --> 00:23:09,860
+able to create the Astro application and all the code got written again in chat GPT. 
+
+302
+00:23:10,280 --> 00:23:17,120
+The only time I'd use handcrafting to fix things was when Chat GPT just was going 
+
+303
+00:23:17,120 --> 00:23:22,130
+into circles. It does that from time to time, but a lot of the errors I was able 
+
+304
+00:23:22,130 --> 00:23:26,480
+to just diagnose directly in this particular chat window. Now, if you want me to 
+
+305
+00:23:26,480 --> 00:23:32,390
+go into more detail of how I'm using Chat GPT for coding, and definitely in the future 
+
+306
+00:23:32,720 --> 00:23:38,990
+how I'll be using the GPT agent workflow to write coding and this has been quite 
+
+307
+00:23:38,990 --> 00:23:44,330
+effective, then I'm going to be dealing with that in the next video where I've built 
+
+308
+00:23:44,450 --> 00:23:49,670
+the minimum viable product and we can see some of the Svelte code being created right 
+
+309
+00:23:49,670 --> 00:23:50,180
+here.
+
+310
+00:23:50,200 --> 00:23:56,290
+I am AppyDave and that has been a proof of concept around GPT agent workflows. Now 
+
+311
+00:23:56,290 --> 00:23:59,950
+if you wanna see this turned into a real product, then check out the link in the 
+
+312
+00:23:59,950 --> 00:24:03,670
+description. If on the other hand you wanna know more about either the coding, the 
+
+313
+00:24:03,670 --> 00:24:09,820
+GPT way of building code or just the GPT workflows, then drop a comment down below. 
+
+314
+00:24:10,60 --> 00:24:14,860
+And in the next video what we'll do is we'll work on the minimum viable product. 
+
+315
+00:24:15,760 --> 00:24:17,560
+So please like and subscribe and see you soon.

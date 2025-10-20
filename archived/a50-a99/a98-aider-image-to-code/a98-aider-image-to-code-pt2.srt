@@ -1,0 +1,431 @@
+1
+00:00:00,00 --> 00:00:04,760
+Now, before we go through the changes that the code's created for the presentation, 
+
+2
+00:00:04,760 --> 00:00:08,660
+let's look at the original presentation. And this was done in the previous video. 
+
+3
+00:00:08,660 --> 00:00:13,970
+And one of the things that emphasizes is the use of infographics. In this case I'm 
+
+4
+00:00:13,970 --> 00:00:18,890
+using napkin AI to generate them. There's a link in the description and we can see 
+
+5
+00:00:18,890 --> 00:00:23,450
+this all coming together. It looked good. Let's see where we are now.
+
+6
+00:00:23,460 --> 00:00:28,510
+So we go over to the new presentation, and the first three slides that we got were 
+
+7
+00:00:28,510 --> 00:00:33,250
+the ones that I generated when I was first creating the requirements document. And 
+
+8
+00:00:33,250 --> 00:00:38,740
+one of the interesting edge cases I wanted to deal with was images in four quadrants. 
+
+9
+00:00:38,740 --> 00:00:42,820
+So we've got the four images being shown. They will need to be positioned, but then 
+
+10
+00:00:42,820 --> 00:00:47,560
+we move on to the three slides that were created from the mocks. So we've got the 
+
+11
+00:00:47,560 --> 00:00:52,330
+first one. The second one. You can see part of the image from that mock down below, 
+
+12
+00:00:52,330 --> 00:00:57,910
+and it's pulled it in because this particular mock had an image and it just happened 
+
+13
+00:00:57,910 --> 00:01:02,860
+to use the mock as the example. But otherwise the rest of the data came from this 
+
+14
+00:01:02,860 --> 00:01:07,630
+slide deck. And we can see it here. We've got Byron, we've got CEO of and that's 
+
+15
+00:01:07,630 --> 00:01:12,310
+coming from this information here, followed by the repeating groups which were social 
+
+16
+00:01:12,310 --> 00:01:18,640
+media strategist and marketing expert. So the structure of our presentation looks 
+
+17
+00:01:18,640 --> 00:01:19,960
+to be working okay.
+
+18
+00:01:19,960 --> 00:01:25,180
+Now we're about to start styling our slides using the mocks, but before we do, we've 
+
+19
+00:01:25,180 --> 00:01:29,740
+got a little bit of setup so we can see over here on the right that we've got all 
+
+20
+00:01:29,740 --> 00:01:35,800
+the CSS classes for Reveal.js all set up and ready to go, and that's what we've been 
+
+21
+00:01:35,800 --> 00:01:41,140
+using throughout. We've also got our branding colors coming through. Now if we look 
+
+22
+00:01:41,140 --> 00:01:46,240
+over here, we've got all these HTML templates that we've set up for each of the slide. 
+
+23
+00:01:46,240 --> 00:01:51,460
+But what we don't have is a CSS selector that we can target in on.
+
+24
+00:01:51,460 --> 00:01:56,530
+Now I'm going to try the Aider watch files technique. I've had a few issues with 
+
+25
+00:01:56,530 --> 00:02:00,670
+this. This doesn't always work for me, but we'll see what we get. And I'm just going 
+
+26
+00:02:00,700 --> 00:02:05,200
+to put in a comment and paste in this prompt. Can you make sure that the template 
+
+27
+00:02:05,440 --> 00:02:10,660
+HTML includes a template number class for each section? Now the important thing to 
+
+28
+00:02:10,660 --> 00:02:17,290
+do here is just say I will also put in an exclamation mark and I hit save. And it 
+
+29
+00:02:17,290 --> 00:02:22,630
+looks like it might be working through this particular request. So if everything 
+
+30
+00:02:22,630 --> 00:02:29,200
+works okay, I'm hoping to see a template one, two and three over here. So let's see 
+
+31
+00:02:29,200 --> 00:02:35,860
+what's happening here. We've got class template one template two three, four five 
+
+32
+00:02:35,860 --> 00:02:37,480
+and six. So perfect.
+
+33
+00:02:37,660 --> 00:02:41,530
+Now it worked Okay. For code, let's see what happens with CSS. 
+
+34
+00:02:41,560 --> 00:02:46,900
+Now we have our custom CSS file. It's all got standard reveal sort of formatting 
+
+35
+00:02:46,900 --> 00:02:52,370
+going on. I'd like to add some templates to the bottom here. So let's just put in 
+
+36
+00:02:52,370 --> 00:02:55,900
+a CSS comment. We'll go like that and we'll paste in. 
+
+37
+00:02:55,930 --> 00:03:00,100
+Can you update with placeholders for template one to six using ai? 
+
+38
+00:03:00,130 --> 00:03:05,110
+Now I'll hit save. And one of the things I notice is that in this particular situation, 
+
+39
+00:03:05,350 --> 00:03:10,210
+nothing changes. When you read the documentation, it says that it's looking for hashes 
+
+40
+00:03:10,360 --> 00:03:15,910
+or slashes at the beginning of a line. So what I'll do is I'll just put this in and 
+
+41
+00:03:15,910 --> 00:03:21,160
+just see if this is good enough. Now it's not, and we'll try the hash just for good 
+
+42
+00:03:21,160 --> 00:03:26,500
+measure and we'll cut this out and press save and go. Let's do it differently and 
+
+43
+00:03:26,500 --> 00:03:28,330
+say, can you 
+
+44
+00:03:28,360 --> 00:03:33,700
+update custom CSS with, and we'll just paste it in 
+
+45
+00:03:33,100 --> 00:03:36,160
+And hopefully we'll get the changes this way 
+
+46
+00:03:36,160 --> 00:03:40,220
+so we can see all the changes starting to come through at the moment. 
+
+47
+00:03:40,230 --> 00:03:46,100
+And so it's put in a lot of CSS. This is actually not what I wanted because I really 
+
+48
+00:03:46,100 --> 00:03:50,810
+only wanted some start placeholders, but I think since it's done it, we should at 
+
+49
+00:03:50,810 --> 00:03:51,770
+least test it out.
+
+50
+00:03:51,800 --> 00:03:56,450
+So here's a side by side comparison. On the left, we've got the older version and 
+
+51
+00:03:56,450 --> 00:04:00,980
+we've got the newer version on the right. So we'll just move forward and old. And 
+
+52
+00:04:00,980 --> 00:04:05,510
+the new one is just looking a little bit different. We've got this gradient effect 
+
+53
+00:04:05,570 --> 00:04:09,710
+going on right here. We'll go and have a look at these images. We wanna see 'em in 
+
+54
+00:04:09,740 --> 00:04:16,400
+four quadrants, and that seems to be working okay. We move on to the fourth one and 
+
+55
+00:04:16,400 --> 00:04:20,300
+it's just a little bit different look and feel. In fact, this looks good. This is 
+
+56
+00:04:20,300 --> 00:04:24,110
+meant to be a footer. So the basic changes are looking 
+
+57
+00:04:24,130 --> 00:04:25,260
+pretty good to me. 
+
+58
+00:04:25,260 --> 00:04:28,250
+and if we move on to the sixth one, what do we get? 
+
+59
+00:04:28,260 --> 00:04:32,710
+This looks quite a bit different. In fact, this is nice that it's showing the image 
+
+60
+00:04:32,710 --> 00:04:38,560
+in a circle. Now the reality is this is not following the mocks, but this is a pretty 
+
+61
+00:04:38,560 --> 00:04:42,190
+good starting point for our styling, for each of the different templates.
+
+62
+00:04:42,200 --> 00:04:47,470
+So here's the first design that we want to work with. We've got one dot jpeg and 
+
+63
+00:04:47,470 --> 00:04:47,980
+we're meant 
+
+64
+00:04:48,00 --> 00:04:52,890
+template number four so that it looks like and we'll just type in one dot jpeg and 
+
+65
+00:04:52,890 --> 00:04:59,220
+we'll press enter and see what happens. So we've got changes coming through for template 
+
+66
+00:04:59,220 --> 00:05:01,470
+four. There's a fair few coming in
+
+67
+00:05:01,500 --> 00:05:06,580
+and it's told us what it's done including the split color design. Let's go see how 
+
+68
+00:05:06,580 --> 00:05:07,330
+it looks.
+
+69
+00:05:07,360 --> 00:05:12,950
+So here we have the old, which I really like. Let's go look at the new. And the new 
+
+70
+00:05:12,950 --> 00:05:18,530
+is looking very close to the mark, except for two things. We've got this social media 
+
+71
+00:05:18,560 --> 00:05:24,530
+heading, one which should just be above the line here. And this strategy should definitely 
+
+72
+00:05:24,530 --> 00:05:25,640
+be down below. 
+
+73
+00:05:25,530 --> 00:05:31,730
+I've taken a screenshot of the current example, and I've said the H1 should be slightly 
+
+74
+00:05:31,730 --> 00:05:37,760
+higher and not overlapping the brown area, and the H2 should be the same size as 
+
+75
+00:05:37,790 --> 00:05:40,310
+the H1, and it should be over the brown area. 
+
+76
+00:05:40,330 --> 00:05:44,350
+So I've just taken a screenshot of this particular page
+
+77
+00:05:44,360 --> 00:05:48,470
+and I'll just see if I can paste it in. Now that's not working. So there's a bit 
+
+78
+00:05:48,470 --> 00:05:50,450
+of confusion about how to use this.
+
+79
+00:05:50,460 --> 00:05:51,630
+Oh bloody hell.
+
+80
+00:05:51,660 --> 00:05:57,900
+So moving on to mock number two. We got it over here on the right and it's mapping 
+
+81
+00:05:57,930 --> 00:06:03,480
+to template number five. So we'll just put in can you update template five in custom 
+
+82
+00:06:03,480 --> 00:06:09,810
+CSS so that it looks like. And we'll just put in two dot jpeg and press enter. It'll 
+
+83
+00:06:09,810 --> 00:06:16,290
+add it to the chat and it seems to have hung. So one of the things you might have 
+
+84
+00:06:16,290 --> 00:06:20,790
+noticed is that there's been a few different bugs that I'm dealing with as I'm working 
+
+85
+00:06:20,790 --> 00:06:26,100
+with Aider, so there's still some areas of improvement just in the basic usability. 
+
+86
+00:06:26,100 --> 00:06:31,650
+So what I think we'll do is we'll just cut this all the way out and start again.
+
+87
+00:06:31,660 --> 00:06:37,480
+So new setup and we'll just say two dot jpeg. And that's looking good. We'll say 
+
+88
+00:06:37,480 --> 00:06:45,370
+yes and we'll say yes. So that added in the custom CSS and added in the JPEG. And 
+
+89
+00:06:45,370 --> 00:06:50,860
+the code that we're hoping will change is just in here. We can see it coming through 
+
+90
+00:06:50,860 --> 00:06:51,730
+at the moment
+
+91
+00:06:51,730 --> 00:06:57,480
+and it's about to change right now I'm assuming. Oh look at that, I haven't. There's 
+
+92
+00:06:57,480 --> 00:07:01,940
+another thing to be aware of. If you change things here, you you might have a little 
+
+93
+00:07:01,980 --> 00:07:09,140
+bit of conflict. So if I hit save yeah. Let's just remove that altogether. And now 
+
+94
+00:07:09,140 --> 00:07:14,510
+we do have a complete set of changes to template five highlighting. Yet another challenge 
+
+95
+00:07:14,510 --> 00:07:20,660
+to be aware of is that if you have left some edits in some code but you haven't saved 
+
+96
+00:07:20,660 --> 00:07:25,980
+it, then it's going to cause a little bit of a conflict when Aider starts generating 
+
+97
+00:07:25,980 --> 00:07:26,450
+code.
+
+98
+00:07:26,460 --> 00:07:33,120
+So here we have a few problems. It's getting close. One of the things it's done is 
+
+99
+00:07:33,120 --> 00:07:37,920
+it's missed the main topic. So we need to get that in. And everything should be on 
+
+100
+00:07:37,920 --> 00:07:42,810
+the right and vertical. So we can see today's presentation in the middle. And we've 
+
+101
+00:07:42,810 --> 00:07:48,690
+got the bullet points here. Also I think just the graphics itself with this little 
+
+102
+00:07:48,690 --> 00:07:54,780
+yellow box got a little bit confusing for it. I'm going to actually describe everything 
+
+103
+00:07:54,780 --> 00:07:56,670
+in a prompt and see if I can fix it.
+
+104
+00:07:56,690 --> 00:08:01,910
+Now here we have our reference or our mock image on the left, and we've got the updated 
+
+105
+00:08:01,910 --> 00:08:06,680
+slide on the right. It's starting to look close to what I want, but the problem I 
+
+106
+00:08:06,680 --> 00:08:11,960
+had was I actually had to use a whole lot of standard prompt engineering to get it 
+
+107
+00:08:11,960 --> 00:08:17,510
+looking like this. I didn't find in this second example that the image to CSS was 
+
+108
+00:08:17,510 --> 00:08:18,890
+working too well for me.

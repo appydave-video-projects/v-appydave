@@ -1,0 +1,4 @@
+file ./01-introduction.mov
+file ./02-goals.mov
+file ./03-gpt-prompt-to-create-script.mov
+file ./04-write-script-to-segment-file.mov

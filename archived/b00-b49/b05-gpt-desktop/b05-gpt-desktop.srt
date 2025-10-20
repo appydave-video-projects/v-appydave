@@ -1,0 +1,795 @@
+1
+00:00:00,00 --> 00:00:06,150
+In this video, we're testing out the new ChatGPT desktop and its ability to integrate 
+
+2
+00:00:06,150 --> 00:00:07,220
+with applications.
+
+3
+00:00:07,230 --> 00:00:12,140
+So the integrations I want to test out is the notion app that we're looking at here. 
+
+4
+00:00:12,140 --> 00:00:17,90
+We might be able to do an integration with Chrome and a web application. How about 
+
+5
+00:00:17,90 --> 00:00:22,730
+we try with Visual Studio and maybe the terminal. And let's see if we can also work 
+
+6
+00:00:22,730 --> 00:00:27,590
+with something like an image from either preview or directly with the file.
+
+7
+00:00:27,600 --> 00:00:32,30
+So at the moment I've got notion open and what we'll do is we'll drag in the GPT 
+
+8
+00:00:32,480 --> 00:00:38,780
+desktop application. And what we'll firstly do is just use the search capability 
+
+9
+00:00:38,780 --> 00:00:44,00
+by clicking this button right here. And with the search turned on, we'll just ask 
+
+10
+00:00:44,00 --> 00:00:50,570
+the question of what are these new capabilities going on from day 11 of OpenAI's 
+
+11
+00:00:50,600 --> 00:00:55,250
+12 Days of Christmas? And we've got all this information coming through. And what 
+
+12
+00:00:55,250 --> 00:00:59,00
+I'd like to do first is get this into the notion application.
+
+13
+00:00:59,30 --> 00:01:03,870
+So we can see here that we've got an advanced voice mode. So we'll check that out 
+
+14
+00:01:03,870 --> 00:01:08,760
+at some stage. And we've got integration into writing tools of which notion is one 
+
+15
+00:01:08,760 --> 00:01:13,650
+of them. And Apple notes. So what we should do is turn off the search and click on 
+
+16
+00:01:13,650 --> 00:01:16,560
+this integration button and see what it comes up with.
+
+17
+00:01:16,590 --> 00:01:21,330
+So when this dialog comes up, there are two sections. This is the section of applications 
+
+18
+00:01:21,330 --> 00:01:26,160
+that are open at the moment. But there'll also be an inactive apps. And these are 
+
+19
+00:01:26,160 --> 00:01:29,940
+applications that are available but that I haven't used. But what we'll do at the 
+
+20
+00:01:29,940 --> 00:01:34,50
+moment is we'll go to notion, which is the application behind us, and we'll click 
+
+21
+00:01:34,50 --> 00:01:39,390
+enable. So we need to enable the accessibility permissions. We'll just click on this 
+
+22
+00:01:39,390 --> 00:01:44,880
+button here and we'll come to this accessibility. And we'll turn on ChatGPT.
+
+23
+00:01:44,900 --> 00:01:50,930
+So that's now integrated. And when we come down and click on this button again it'll 
+
+24
+00:01:50,930 --> 00:01:52,430
+say that it's paired.
+
+25
+00:01:52,430 --> 00:01:57,800
+Now as we test things out. Some things might not work the way I'm expecting. I've 
+
+26
+00:01:57,800 --> 00:02:02,120
+watched the video from day 11, and one of my first questions and what we'll test 
+
+27
+00:02:02,120 --> 00:02:07,730
+out here is is it a full duplex system? Meaning can it read from notion and write 
+
+28
+00:02:07,730 --> 00:02:11,870
+to notion at the same time? Now, one of the things you can notice with the chat window 
+
+29
+00:02:11,870 --> 00:02:16,430
+is it's actually talking about what it's connected to at the moment. So we're currently 
+
+30
+00:02:16,430 --> 00:02:22,640
+connected to the notion application. So let's test the idea of can we take the content 
+
+31
+00:02:22,640 --> 00:02:24,110
+that we've just grabbed 
+
+32
+00:02:24,130 --> 00:02:26,930
+And write it directly into the notion page?
+
+33
+00:02:26,960 --> 00:02:31,110
+So I've just added this simple prompt. Can you add all the information into the notion 
+
+34
+00:02:31,110 --> 00:02:35,160
+page? And we'll just execute that and see if anything happens. 
+
+35
+00:02:35,160 --> 00:02:39,590
+What it's done is given us an instructions of what to do. It hasn't actually written 
+
+36
+00:02:39,590 --> 00:02:44,00
+the information as you can see, but it's said open the notion page and it's actually 
+
+37
+00:02:44,00 --> 00:02:45,790
+got the name of the notion page, 
+
+38
+00:02:45,790 --> 00:02:50,130
+correct here, which is great. Click it anywhere on the page to go into edit mode 
+
+39
+00:02:50,400 --> 00:02:54,870
+and then structure the content. So we've got this information now it's just talking 
+
+40
+00:02:54,870 --> 00:02:56,430
+about a copy paste, 
+
+41
+00:02:56,430 --> 00:03:02,130
+instructions. So let's go and select all the information that's available for us 
+
+42
+00:03:02,130 --> 00:03:02,520
+here 
+
+43
+00:03:02,530 --> 00:03:07,530
+and we'll press copy and we'll come on down here and press enter and paste it all 
+
+44
+00:03:07,530 --> 00:03:07,860
+in. 
+
+45
+00:03:07,860 --> 00:03:13,340
+So the first test of making modifications in chat, GPT and then asking it to send 
+
+46
+00:03:13,340 --> 00:03:18,620
+it to Notion hasn't proven to do too much. We've had to just manually copy and paste, 
+
+47
+00:03:18,900 --> 00:03:23,520
+but maybe we can read this document in a different chat window and do something with 
+
+48
+00:03:23,520 --> 00:03:24,150
+it that way.
+
+49
+00:03:24,160 --> 00:03:27,990
+So what I'll do is I'll create a brand new chat, and what we can do is we can go 
+
+50
+00:03:27,990 --> 00:03:32,720
+and click on this button here. We've got a new chat window created. And interestingly 
+
+51
+00:03:32,720 --> 00:03:38,180
+we are still connected to the notion template here. So let's just type in a prompt 
+
+52
+00:03:38,180 --> 00:03:42,750
+and we'll go can you give me a bullet point list from the information in ChatGPT 
+
+53
+00:03:42,780 --> 00:03:47,930
+desktop so that I can create some infographics. And then from that I think
+
+54
+00:03:47,960 --> 00:03:52,180
+go give me three different sorts of lists, because I want to see what sort of information 
+
+55
+00:03:52,180 --> 00:03:56,880
+I can extract out of this and create some sort of visual representation.
+
+56
+00:03:56,900 --> 00:04:01,480
+Okay, so that's just finished and it's pretty good. We've got three different lists 
+
+57
+00:04:01,510 --> 00:04:06,850
+come out and it's all interpretations of the information on the left. So we've got 
+
+58
+00:04:06,850 --> 00:04:11,710
+the advanced voice mode writing tools integration and the desktop applications. Now 
+
+59
+00:04:11,710 --> 00:04:17,80
+one of the capabilities that I tested yesterday is the video sharing using voice 
+
+60
+00:04:17,80 --> 00:04:23,800
+mode. And I've got a video coming out which shows you how to use ChatGPT as a universal 
+
+61
+00:04:23,800 --> 00:04:29,110
+translator or a universal assistant. It's really powerful. But what I think we'll 
+
+62
+00:04:29,110 --> 00:04:34,270
+do is we'll just go and capture this information manually and then open up another 
+
+63
+00:04:34,270 --> 00:04:36,910
+application and see if we can integrate into that.
+
+64
+00:04:36,930 --> 00:04:41,810
+What I've done over on the left is I've opened up Chrome, and I've just gone to a 
+
+65
+00:04:41,810 --> 00:04:46,630
+simple web application that I know about called napkin. And this is a wonderful tool. 
+
+66
+00:04:46,630 --> 00:04:52,310
+And for now, I'm just going to paste in some of the information that we just got. 
+
+67
+00:04:52,330 --> 00:04:56,750
+now, what I'd like to do is use this information and create an infographic. So what 
+
+68
+00:04:56,750 --> 00:05:00,740
+we'll do is we'll just go and click on this little button here, and it's just going 
+
+69
+00:05:00,770 --> 00:05:05,690
+to absorb this information and come up with various graphics that we could work with. 
+
+70
+00:05:05,720 --> 00:05:08,990
+So we'll just go through and have a look for something that we like. I 
+
+71
+00:05:09,00 --> 00:05:14,380
+we'll click on it one more time. And now we have access to a graphic and we should 
+
+72
+00:05:14,380 --> 00:05:20,530
+be able to export it as PNG or SVG. But it might be useful if we can absorb this 
+
+73
+00:05:20,560 --> 00:05:24,310
+into ChatGPT desktop. So that'll be our next test.
+
+74
+00:05:24,330 --> 00:05:28,890
+So I might test by creating a new chat window again. So we'll come and click here 
+
+75
+00:05:28,890 --> 00:05:31,950
+and we'll stop the working with notion. 
+
+76
+00:05:31,960 --> 00:05:36,10
+So when you do the stop integration it stops for all of them. So we'll just come 
+
+77
+00:05:36,10 --> 00:05:40,600
+and click on this button and see what we've got available now. So when we look through 
+
+78
+00:05:40,600 --> 00:05:46,120
+this list we've got applications that are not Chrome. And if we go to inactive applications 
+
+79
+00:05:46,120 --> 00:05:47,590
+we don't have Chrome here. 
+
+80
+00:05:47,590 --> 00:05:52,370
+So from what I can tell integrating with a web application isn't going to work.
+
+81
+00:05:52,390 --> 00:05:57,200
+So I think we should just load these graphics straight into our notion page at the 
+
+82
+00:05:57,200 --> 00:06:02,330
+moment, and we'll do that for each of them. So I've just grabbed number two infographic 
+
+83
+00:06:02,330 --> 00:06:07,220
+and number three infographic and I'm just pasting them into napkin. And we can find 
+
+84
+00:06:07,220 --> 00:06:12,710
+some graphics that we like this way and just repeat that for the third one. So we've 
+
+85
+00:06:12,710 --> 00:06:17,900
+quickly built three different infographics just by copying and pasting some information 
+
+86
+00:06:17,900 --> 00:06:22,490
+that we generated in list form using the ChatGPT client here.
+
+87
+00:06:22,500 --> 00:06:28,230
+So now our notion template is updated. We've got three infographics in it so far. 
+
+88
+00:06:28,230 --> 00:06:32,880
+From a testing point of view though, we've been able to read information quite easily 
+
+89
+00:06:32,880 --> 00:06:37,170
+out of notion. But writing back to it has still been a manual sort of process. 
+
+90
+00:06:37,190 --> 00:06:41,500
+So what I'm thinking of doing is let's create a little web presentation, 
+
+91
+00:06:41,530 --> 00:06:45,870
+We've got a bunch of information that we'd like in the presentation, and we've got 
+
+92
+00:06:45,900 --> 00:06:50,730
+a couple of infographics that will make it visually appealing. So I think we should 
+
+93
+00:06:50,730 --> 00:06:56,190
+just create a new chat window. We are going to need to reconnect through to notion. 
+
+94
+00:06:56,190 --> 00:07:00,630
+So we'll go and click plus on that. We're now working with notion. And I think we 
+
+95
+00:07:00,630 --> 00:07:04,140
+can go into advanced voice mode and see what happens here.
+
+96
+00:07:04,160 --> 00:07:09,530
+I would like you to create A-H-T-M-L presentation for me. The way I want you to go 
+
+97
+00:07:09,530 --> 00:07:15,440
+about it is look at the information from the notion page and come up with the structure 
+
+98
+00:07:15,440 --> 00:07:21,350
+of a presentation. It should have three slides in it. After that, can you also write 
+
+99
+00:07:21,410 --> 00:07:28,400
+it using Tailwind CSS? We'll put it into a simple HTML page, and I'll supply the 
+
+100
+00:07:28,400 --> 00:07:34,340
+three graphics that we can currently see on the Notion template as individual .png 
+
+101
+00:07:34,670 --> 00:07:39,500
+files in the same folder as the actual HTML page that we're going 
+
+102
+00:07:39,530 --> 00:07:40,340
+to create an HTML 
+
+103
+00:07:40,590 --> 00:07:45,570
+notion content you provided. You can start with three slides. One new capabilities 
+
+104
+00:07:45,570 --> 00:07:46,260
+from day 11, 
+
+105
+00:07:46,260 --> 00:07:48,390
+overview of the latest features, introduced 
+
+106
+00:07:48,390 --> 00:07:52,740
+two key features and updates, details about advanced voice mode and integration with 
+
+107
+00:07:52,740 --> 00:07:53,430
+writing tools. 
+
+108
+00:07:53,460 --> 00:07:56,530
+Three, product update highlights, summary of benefits 
+
+109
+00:07:56,560 --> 00:08:00,610
+for the structure, use a simple HTML page with tailwind CSS classes for styling. 
+
+110
+00:08:00,970 --> 00:08:05,140
+Include the three PNG graphics and the appropriate slides. This will ensure a clean 
+
+111
+00:08:05,140 --> 00:08:06,400
+and effective presentation.
+
+112
+00:08:06,430 --> 00:08:11,650
+Now the advanced voice mode worked to create some information, but one of the things 
+
+113
+00:08:11,650 --> 00:08:16,780
+I didn't see here was the ability to integrate with canvas, which is something I 
+
+114
+00:08:16,780 --> 00:08:21,100
+would use if I was doing the coding. So I've come over to the regular web view, and 
+
+115
+00:08:21,100 --> 00:08:23,980
+we're just going to paste this information that we got, 
+
+116
+00:08:23,990 --> 00:08:29,140
+So the original information from ChatGPT desktop is here and we've just got can you 
+
+117
+00:08:29,170 --> 00:08:34,510
+create a slideshow. I've said that I'll give it three images and I just want a little 
+
+118
+00:08:34,510 --> 00:08:38,920
+frame. And lastly I'm just going to make sure it's using canvas. And what this will 
+
+119
+00:08:38,920 --> 00:08:41,860
+do is just build a little application for us. 
+
+120
+00:08:41,890 --> 00:08:47,370
+We'll go back to ChatGPT desktop and we'll integrate with this code, maybe using 
+
+121
+00:08:47,370 --> 00:08:48,330
+VS code.
+
+122
+00:08:48,360 --> 00:08:52,850
+So I've just taken all this information, copied it. I've put it into a file called 
+
+123
+00:08:52,850 --> 00:08:58,00
+slides. And if we run it, it looks like it's working okay. It's not very pretty, 
+
+124
+00:08:58,00 --> 00:09:02,560
+but it is working. And I think it's that integration with VSCode that we could do 
+
+125
+00:09:02,560 --> 00:09:05,90
+that can make this look more stylish.
+
+126
+00:09:05,100 --> 00:09:09,310
+So we'll stay within this chat. But what we're going to do is stop our connection 
+
+127
+00:09:09,310 --> 00:09:14,230
+to notion and go and add a new connection. And this time we're going to do it to 
+
+128
+00:09:14,260 --> 00:09:19,00
+code. And it looks like we've got to add an extension to Visual Studio to make this 
+
+129
+00:09:19,00 --> 00:09:19,960
+work correctly.
+
+130
+00:09:19,960 --> 00:09:24,910
+So I was expecting to be able to use it from the extension marketplace, but it doesn't 
+
+131
+00:09:24,910 --> 00:09:27,250
+seem like it's available yet. It's 
+
+132
+00:09:27,260 --> 00:09:32,550
+saying that it can work with VSCode, but also other tools like cursor and that we 
+
+133
+00:09:32,550 --> 00:09:37,470
+need to download it. So I've just pressed Command shift P and we'll just go with 
+
+134
+00:09:37,470 --> 00:09:45,120
+extensions install from VSIX. And we just scroll down and click on this and click 
+
+135
+00:09:45,120 --> 00:09:45,750
+install.
+
+136
+00:09:45,760 --> 00:09:50,350
+Now I've come back to ChatGPT desktop. We can click on this little button and now 
+
+137
+00:09:50,350 --> 00:09:54,280
+we can add code. And it says working with code.
+
+138
+00:09:54,300 --> 00:09:59,170
+Now, initially, I didn't have a whole lot of control over what it was pointing at 
+
+139
+00:09:59,170 --> 00:10:04,930
+on my particular system. I had eight versions of Visual Studio running across multiple 
+
+140
+00:10:04,930 --> 00:10:09,610
+desktops, so I pretty much had to close them all down. And then when I clicked on 
+
+141
+00:10:09,610 --> 00:10:14,640
+a file, that's when this became the focus. So if we just come over and click on a 
+
+142
+00:10:14,640 --> 00:10:19,840
+logo, because I think for the presentation, we should style it after something and 
+
+143
+00:10:19,840 --> 00:10:23,760
+we'll come back to here and we'll see if we've got that available.
+
+144
+00:10:23,800 --> 00:10:27,640
+So we'll write a little prompt that says, can you extract the image colors from this 
+
+145
+00:10:27,670 --> 00:10:33,490
+image and list them with nice names? Now what image? I'm just going to see what happens 
+
+146
+00:10:33,490 --> 00:10:38,350
+if I paste in the file name. And we'll just press enter. So we've got some sort of 
+
+147
+00:10:38,380 --> 00:10:40,510
+analyzing going on at the moment. 
+
+148
+00:10:40,530 --> 00:10:44,960
+So we'll try a different technique. If we come over here we've got upload a photo. 
+
+149
+00:10:44,960 --> 00:10:49,190
+We could do that. Let's try this. Take a screenshot. And it looks like we want to 
+
+150
+00:10:49,220 --> 00:10:54,650
+work with code. So we'll go with open system settings and make sure that we've got 
+
+151
+00:10:54,680 --> 00:11:00,320
+accessibility available. And it's this enable screen recording that we need to turn 
+
+152
+00:11:00,320 --> 00:11:06,860
+on. So that's now available. And I've probably got to reopen the application. So 
+
+153
+00:11:06,860 --> 00:11:12,80
+let's take a screenshot. We'll go with code. And it looks like it's uploading something. 
+
+154
+00:11:12,80 --> 00:11:18,80
+And we'll go can you extract the colors. And let's find some nice names. I'm hoping 
+
+155
+00:11:18,80 --> 00:11:21,710
+for the light brown and the dark brown to come through, maybe even a little bit of 
+
+156
+00:11:21,710 --> 00:11:22,670
+the gray.
+
+157
+00:11:22,700 --> 00:11:28,900
+And this is a really awesome analysis actually, because you can see there's a background 
+
+158
+00:11:28,930 --> 00:11:33,970
+transparency going on. It's picked up some of that. So we've got the occurrences 
+
+159
+00:11:33,970 --> 00:11:37,60
+of these different colors being shown for us as well.
+
+160
+00:11:37,60 --> 00:11:41,540
+But the problem with this analysis is that it's picked up all the dark greys and 
+
+161
+00:11:41,540 --> 00:11:45,950
+blacks from around the image, and not the main image. So what we'll do is we'll just 
+
+162
+00:11:45,950 --> 00:11:51,470
+upload the file and make it really simple, and we'll use the same prompt again and 
+
+163
+00:11:51,470 --> 00:11:52,630
+see what we get. 
+
+164
+00:11:52,660 --> 00:11:56,260
+So we've got a listing of colors. I've just selected them and copied them. 
+
+165
+00:11:56,260 --> 00:12:02,640
+Can you update slides dot HTML with these colors. And what we'll do is we'll just 
+
+166
+00:12:02,640 --> 00:12:04,290
+paste in what we've got.
+
+167
+00:12:04,300 --> 00:12:08,370
+Now the code on the left is what it's generated, and it's quite a problem because 
+
+168
+00:12:08,370 --> 00:12:13,230
+it obviously didn't read this file because this file has three slides in it. It's 
+
+169
+00:12:13,230 --> 00:12:18,720
+got a little bit of JavaScript and we've got a frame. And we really want to see the 
+
+170
+00:12:18,720 --> 00:12:22,980
+colors that we've picked over here integrated into this somehow. 
+
+171
+00:12:23,00 --> 00:12:28,770
+I'm going to come up and just use these colors that we had before. And I think I'll 
+
+172
+00:12:28,770 --> 00:12:34,20
+just go back to canvas in this particular case and use the prompt that we were hoping 
+
+173
+00:12:34,20 --> 00:12:39,420
+would work in the ChatGPT desktop. Now, if this is working correctly, we're going 
+
+174
+00:12:39,420 --> 00:12:44,880
+to see colors come through for the different branding guidelines. And then they should 
+
+175
+00:12:44,880 --> 00:12:51,480
+get used somewhere. So text secondary background primary is coming through into the 
+
+176
+00:12:51,750 --> 00:12:56,340
+HTML. So canvas works great but this is still only working from the web view. 
+
+177
+00:12:56,360 --> 00:13:02,350
+We better come back and just replace this hit save. And now we have new capabilities 
+
+178
+00:13:02,350 --> 00:13:05,950
+in our slideshow. Still probably a problem in the background, 
+
+179
+00:13:05,960 --> 00:13:11,130
+But that's an easy fix. And it really has nothing to do with the testing of the ChatGPT 
+
+180
+00:13:11,160 --> 00:13:11,670
+desktop.
+
+181
+00:13:11,700 --> 00:13:18,210
+Now so far the features of the desktop version of chat GPT are a little incomplete. 
+
+182
+00:13:18,270 --> 00:13:23,280
+Some of them work a little bit, but most of them aren't working to the level of integration 
+
+183
+00:13:23,280 --> 00:13:27,960
+that I would love to see. But this is an initial BETA version, so we'll see what 
+
+184
+00:13:27,960 --> 00:13:32,220
+happens. What I think we can do is let's try one more prompt. Let's see if we can 
+
+185
+00:13:32,220 --> 00:13:37,20
+extract the information in the slide deck. And we'll write a little prompt that says, 
+
+186
+00:13:37,20 --> 00:13:42,30
+can you read from this slide deck, get the data and we'll see if we can turn it into 
+
+187
+00:13:42,30 --> 00:13:43,620
+some sort of JSON structure. 
+
+188
+00:13:43,630 --> 00:13:47,430
+Now it has found that information and from the looks of things, this has actually 
+
+189
+00:13:47,430 --> 00:13:52,920
+worked pretty good. So if we look at it, we've got title, new capabilities from day 
+
+190
+00:13:52,920 --> 00:13:58,140
+one that's coming from this information here. Let's look at the color that came back 
+
+191
+00:13:58,140 --> 00:14:01,140
+from it. So we've got 203, 186, 156 
+
+192
+00:14:01,360 --> 00:14:05,870
+that's coming from this background primary. And then we can see key features and 
+
+193
+00:14:05,870 --> 00:14:10,670
+updates, highlight voice mode functionality. And that's coming from here. So this 
+
+194
+00:14:10,670 --> 00:14:17,690
+information is definitely reading cleanly from VS code using the chat GPT desktop.
+
+195
+00:14:17,700 --> 00:14:23,960
+So that's my first look at ChatGPT desktop. It's got a little ways to go. A few things 
+
+196
+00:14:23,960 --> 00:14:28,220
+don't work the way you want, but it's got huge potential. So I'm looking forward 
+
+197
+00:14:28,220 --> 00:14:33,500
+to seeing what OpenAI do in the next couple of months. Now I do videos usually on 
+
+198
+00:14:33,500 --> 00:14:38,540
+prompt engineering, AI, architecture, and agents. So please like and subscribe if 
+
+199
+00:14:38,540 --> 00:14:41,750
+that's the sort of information you're after. See you in the next video.

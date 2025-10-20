@@ -1,0 +1,935 @@
+1
+00:00:00,00 --> 00:00:06,120
+Have you got conversations with ChatGPT or other large language models spread across 
+
+2
+00:00:06,120 --> 00:00:10,950
+many chat windows for the same project? And you're thinking, how can I get this all 
+
+3
+00:00:10,980 --> 00:00:16,80
+together in one cohesive and coherent document in this video? That's the problem 
+
+4
+00:00:16,80 --> 00:00:18,810
+we're exploring. I'm AppyDave. Let's get into it.
+
+5
+00:00:18,830 --> 00:00:24,600
+In the last video, we looked at this moderately complex document, which goes over 
+
+6
+00:00:24,630 --> 00:00:29,700
+a long chat window and thought, how do we bring this all together so that we have 
+
+7
+00:00:29,700 --> 00:00:35,130
+one single document? Now in that video we used three different techniques. We did 
+
+8
+00:00:35,130 --> 00:00:38,580
+the cherry pick the one shot prompt and we used notebook.
+
+9
+00:00:39,130 --> 00:00:44,890
+This video extends that idea. But now it's working for multi conversational chat 
+
+10
+00:00:44,890 --> 00:00:50,710
+projects. So in this case we've got a project called FliVideo. We've got many conversations 
+
+11
+00:00:50,710 --> 00:00:55,540
+some of which are almost the same but with slight differences. We need to create 
+
+12
+00:00:55,540 --> 00:01:00,220
+a second brain so that I have one source of truth for the project. We're going to 
+
+13
+00:01:00,250 --> 00:01:04,120
+use some of the techniques that we talked about in the last video, plus bring in 
+
+14
+00:01:04,120 --> 00:01:05,20
+new ones.
+
+15
+00:01:05,30 --> 00:01:09,590
+Now let's get started with the first document. Now this is the conversation we worked 
+
+16
+00:01:09,590 --> 00:01:14,960
+with yesterday. And we created three different variations. These two were both excellent 
+
+17
+00:01:14,960 --> 00:01:19,780
+but we'll work with the one shot prompt version. And from there we have this Readme 
+
+18
+00:01:19,810 --> 00:01:24,850
+document that I created all with one single prompt. And what we'll do is we'll just 
+
+19
+00:01:24,850 --> 00:01:28,840
+copy that and we'll head over to notebook LM, because this is where we're going to 
+
+20
+00:01:28,840 --> 00:01:31,780
+bring all this information into a single document. 
+
+21
+00:01:31,790 --> 00:01:35,930
+what we'll do is click on the Create New button. And from there we'll just copy some 
+
+22
+00:01:35,960 --> 00:01:40,880
+text in and we'll paste this information. And so now we've got our first document 
+
+23
+00:01:40,880 --> 00:01:43,10
+going into notebook LM.
+
+24
+00:01:43,30 --> 00:01:48,280
+Now, I know that this document is about project naming requirements for my YouTube 
+
+25
+00:01:48,280 --> 00:01:53,290
+videos, so I've just renamed it here. And what we'll want to do is add another source. 
+
+26
+00:01:53,290 --> 00:01:55,60
+But where are we going to get that. 
+
+27
+00:01:55,60 --> 00:01:59,760
+we'll come back over to the projects that are listed and we'll look through here. 
+
+28
+00:01:59,760 --> 00:02:03,540
+And I know that there's another document right at the bottom called 
+
+29
+00:02:03,560 --> 00:02:09,130
+Fli Project New Digital Asset Management. And I suspect that the information in this 
+
+30
+00:02:09,130 --> 00:02:12,970
+conversation is very similar to the information that was in this. 
+
+31
+00:02:13,00 --> 00:02:16,950
+what we'll do is use the same technique as yesterday and consolidate it.
+
+32
+00:02:16,960 --> 00:02:23,390
+what we'll do is go into the Fli new project and we can see it's quite a long conversation 
+
+33
+00:02:23,390 --> 00:02:28,250
+where I started off having regular voice conversations with it. And from there it 
+
+34
+00:02:28,250 --> 00:02:33,470
+started creating complex requirements documents. And what we can do is go and click 
+
+35
+00:02:33,470 --> 00:02:38,780
+on our GPT conversation extractor, and now we have a copy of that in the clipboard. 
+
+36
+00:02:38,790 --> 00:02:43,20
+Now we wanna create a new chat, but we can't use this button because we're in a project. 
+
+37
+00:02:43,20 --> 00:02:47,250
+So we'll click on the project instead. And we're just gonna paste in everything from 
+
+38
+00:02:47,250 --> 00:02:52,560
+that document. And we can see we've got the user and assistant interactions going 
+
+39
+00:02:52,560 --> 00:02:52,830
+on 
+
+40
+00:02:52,830 --> 00:02:56,930
+And we just need to prefix it with a prompt that we did in the previous video that 
+
+41
+00:02:56,930 --> 00:03:02,300
+says, summarize and synthesize our conversation into a coherent document. 
+
+42
+00:03:02,300 --> 00:03:07,220
+prioritizing the information is, which is basically at the end of the document, but 
+
+43
+00:03:07,220 --> 00:03:11,810
+still keeping in mind the insights from early in the document. And we'll just press 
+
+44
+00:03:11,810 --> 00:03:12,740
+enter on that. 
+
+45
+00:03:12,760 --> 00:03:17,750
+And that's now in the middle of building another project management requirements 
+
+46
+00:03:17,750 --> 00:03:22,190
+document, which will have a lot of similarities to the document we just looked at. 
+
+47
+00:03:22,340 --> 00:03:25,670
+But there should be differences because it was done a few weeks later.
+
+48
+00:03:25,700 --> 00:03:30,740
+So we've pulled together our second document and it has similarities, but it's actually 
+
+49
+00:03:30,740 --> 00:03:35,270
+quite a different document to the one on the right. Let's talk about the similarities. 
+
+50
+00:03:35,270 --> 00:03:40,670
+So the similarities is that when a project is created for my videos, I'll put in 
+
+51
+00:03:40,670 --> 00:03:46,220
+a sequence for the project. I'll have a channel code. Is it for AppyDave or a TLDR? 
+
+52
+00:03:46,220 --> 00:03:49,940
+And I have the name of the project, which is essentially the name of the video. Now, 
+
+53
+00:03:49,940 --> 00:03:54,290
+when we look through the document on the left, we can see there are similar concepts 
+
+54
+00:03:54,320 --> 00:03:59,630
+going on, but this goes in a totally different direction. It talks about creating 
+
+55
+00:03:59,630 --> 00:04:05,60
+new projects, renaming projects, it's talking about listing projects. And it also 
+
+56
+00:04:05,60 --> 00:04:09,890
+brings in a new terminology called business unit. So where it was called channel 
+
+57
+00:04:09,890 --> 00:04:14,990
+code, here it becomes business unit here, which makes a lot more sense to me. So 
+
+58
+00:04:14,990 --> 00:04:18,320
+it's one of the things I'm going to be thinking about as I bring it all together 
+
+59
+00:04:18,320 --> 00:04:19,610
+into one document.
+
+60
+00:04:19,630 --> 00:04:24,600
+So this is the second document for Notebook lm. So we'll just copy it from here, 
+
+61
+00:04:24,810 --> 00:04:26,970
+head over to notebook lm, 
+
+62
+00:04:27,00 --> 00:04:32,420
+click on add source and we'll use copy text again and we'll just paste all the information 
+
+63
+00:04:32,420 --> 00:04:38,210
+in. We'll let it start reading that information. Now we need to get these names correct 
+
+64
+00:04:38,300 --> 00:04:43,320
+just for our own sanity. It doesn't necessarily matter too much from Notebook LM's 
+
+65
+00:04:43,730 --> 00:04:44,240
+point of view, 
+
+66
+00:04:44,260 --> 00:04:50,130
+go back to FliVideo the project. This was the document that we just consolidated. 
+
+67
+00:04:50,280 --> 00:04:55,710
+So I might just rename this for now and call it old because it's not actually relevant 
+
+68
+00:04:55,740 --> 00:04:58,230
+other than from an archival point of view. 
+
+69
+00:04:58,230 --> 00:05:03,980
+I've renamed it as Fly Project CLI tool. So what we'll do is we'll grab that name, 
+
+70
+00:05:04,160 --> 00:05:05,450
+we'll come in over here 
+
+71
+00:05:05,460 --> 00:05:08,940
+and we'll rename this source to that value as well. 
+
+72
+00:05:08,960 --> 00:05:14,10
+so now we've got project naming for individual videos that I'm creating and we've 
+
+73
+00:05:14,10 --> 00:05:15,780
+got the command line tool.
+
+74
+00:05:15,800 --> 00:05:20,580
+Now I found another document similar to this one, which I've just called Fli Project 
+
+75
+00:05:20,580 --> 00:05:25,830
+CLI Tool More. I've also made sure it's in, I went through, I found a document that 
+
+76
+00:05:25,830 --> 00:05:28,110
+didn't have any information, so I've deleted it. 
+
+77
+00:05:28,130 --> 00:05:33,120
+next, I'm just going to go and look at this document and there's a bunch of information 
+
+78
+00:05:33,120 --> 00:05:38,790
+that was used to build an ASCI diagram. So I think for this, we'll just copy that 
+
+79
+00:05:38,820 --> 00:05:43,110
+information individually because the rest of the information is just a little bit 
+
+80
+00:05:43,110 --> 00:05:46,500
+confusing if we put it into our second brain. 
+
+81
+00:05:46,530 --> 00:05:51,240
+So we're just cherry picking the information there and adding it in as a new source. 
+
+82
+00:05:51,240 --> 00:05:53,400
+And we will rename it as we go. 
+
+83
+00:05:53,400 --> 00:05:57,470
+we have a simple document called FliVideo Entity Relationship Diagram.
+
+84
+00:05:57,500 --> 00:06:01,520
+Now based on the techniques for gathering a conversation that I talked about in the 
+
+85
+00:06:01,520 --> 00:06:07,520
+last video, we've been using the one shot prompt technique the most. We just used 
+
+86
+00:06:07,520 --> 00:06:12,500
+the cherry pick technique when we just grabbed the ERD, but now we're going to use 
+
+87
+00:06:12,500 --> 00:06:13,180
+the NotebookLM 
+
+88
+00:06:13,560 --> 00:06:17,920
+and the reason for that is we've got this fly brief conversation and when we go into 
+
+89
+00:06:17,920 --> 00:06:21,970
+it, we've got a bunch of information that was used to start the conversation. 
+
+90
+00:06:22,00 --> 00:06:24,640
+There's also images at one stage 
+
+91
+00:06:24,660 --> 00:06:29,970
+In the document, I built additional requirements. And all of this information is 
+
+92
+00:06:30,30 --> 00:06:32,610
+just too much to use the one shop prompt. 
+
+93
+00:06:32,630 --> 00:06:36,560
+so what we'll do is we'll go to the top of the document and we'll use the little 
+
+94
+00:06:36,560 --> 00:06:41,660
+tool that I created that allows me to extract a conversation and we'll head over 
+
+95
+00:06:41,660 --> 00:06:43,70
+to Notebook lm, 
+
+96
+00:06:43,100 --> 00:06:48,330
+and we'll use this to clean it up. Now, there is the option of creating a new notebook 
+
+97
+00:06:48,330 --> 00:06:53,460
+because this is just one document that I need to get into alignment, but because 
+
+98
+00:06:53,460 --> 00:06:59,700
+we can actually turn documents on and off, we can also do it here and just make sure 
+
+99
+00:06:59,700 --> 00:07:04,470
+that we're focusing on the information we need both right now and later on when we 
+
+100
+00:07:04,470 --> 00:07:05,580
+bring everything together.
+
+101
+00:07:05,600 --> 00:07:10,480
+So we'll start by adding a source. We'll go to the copy text. We'll paste everything 
+
+102
+00:07:10,480 --> 00:07:15,580
+in. And one of the things we can see is that there's both the user and the assistant 
+
+103
+00:07:15,580 --> 00:07:18,160
+being listed one after another.
+
+104
+00:07:18,160 --> 00:07:23,590
+we have our long raw document and I've actually named it raw. I've also made it the 
+
+105
+00:07:23,590 --> 00:07:26,890
+only one available at the moment. We'll paste in a prompt. It's 
+
+106
+00:07:26,900 --> 00:07:31,360
+a similar prompt of summarizing and synthesizing the document, but there's a little 
+
+107
+00:07:31,390 --> 00:07:35,410
+bit of information to let it know that there is an assistant, there is a user, 
+
+108
+00:07:35,430 --> 00:07:40,70
+With a little bit of extra context around the difference between an assistant and 
+
+109
+00:07:40,70 --> 00:07:43,700
+a user. So we'll just start that and see what it comes up with.
+
+110
+00:07:43,700 --> 00:07:47,960
+So I had to look through the information here. It's essentially about creating a 
+
+111
+00:07:47,960 --> 00:07:52,880
+web application or a SaaS application. And what we'll do is we'll just go into a 
+
+112
+00:07:52,880 --> 00:07:57,140
+new chat. We'll say, turn this information into a requirements document. In this 
+
+113
+00:07:57,140 --> 00:08:01,700
+case we're going to use canvas. We'll paste in all the information. And what it should 
+
+114
+00:08:01,700 --> 00:08:07,610
+do is start writing a good requirements document based on all of that information 
+
+115
+00:08:07,610 --> 00:08:09,260
+from the previous chat.
+
+116
+00:08:09,260 --> 00:08:14,160
+So now we have a nice requirements document for a web application. It figures out 
+
+117
+00:08:14,160 --> 00:08:18,330
+all the different components to lay it out. There's information about the documents 
+
+118
+00:08:18,330 --> 00:08:22,860
+and the design. And down the bottom there's even branding guidelines. So we'll just 
+
+119
+00:08:22,860 --> 00:08:29,610
+copy this information and add it as a new source into notebook LM. Now this information 
+
+120
+00:08:29,610 --> 00:08:35,190
+that's being generated started from this one. So this one I'm going to disable. We 
+
+121
+00:08:35,190 --> 00:08:38,760
+won't use it again in the future because this is a better version.
+
+122
+00:08:38,760 --> 00:08:43,430
+And we just rename it and then turn everything else on except for the raw one.
+
+123
+00:08:43,430 --> 00:08:48,600
+And then I've just come back to ChatGPT and marked it as old while the new one is 
+
+124
+00:08:48,600 --> 00:08:53,970
+in place here. Now over time I will be coming through and archiving them. But for 
+
+125
+00:08:53,970 --> 00:08:55,440
+now, they've just got a label.
+
+126
+00:08:55,460 --> 00:09:00,770
+So one of the conversations, the minimal UI design trends, was just an experiment 
+
+127
+00:09:00,770 --> 00:09:06,350
+where I had a look from the point of view of an image around a certain style called 
+
+128
+00:09:06,380 --> 00:09:11,510
+neomorphism. And so I just used the one shot prompt technique, and we've now got 
+
+129
+00:09:11,510 --> 00:09:16,730
+a document that we can add in. This may not be part of the final project, but at 
+
+130
+00:09:16,760 --> 00:09:21,830
+least this was an exploration of some style guides that I can include.
+
+131
+00:09:21,830 --> 00:09:27,20
+And now we're just onto the last conversation that I want to bring all together. 
+
+132
+00:09:27,20 --> 00:09:31,190
+And I'll just use a different technique again, because when I looked through it, 
+
+133
+00:09:31,220 --> 00:09:36,470
+most of the information is in a relatively short conversation. The only thing missing 
+
+134
+00:09:36,470 --> 00:09:40,790
+is there's not a nice clean document at the end. So what we'll do is we'll just go 
+
+135
+00:09:40,790 --> 00:09:45,800
+into canvas mode with this and just say, read through the entire conversation. And 
+
+136
+00:09:45,800 --> 00:09:49,880
+I've just asked it to come up with a heading, write some requirements, think through 
+
+137
+00:09:49,880 --> 00:09:54,710
+some of the examples and the code, and we'll just let it build the documentation. 
+
+138
+00:09:54,710 --> 00:09:57,110
+This one document, when it's finished, 
+
+139
+00:09:57,130 --> 00:10:03,00
+is what I'll actually add into notebook LM. But I will keep this conversation just 
+
+140
+00:10:03,00 --> 00:10:05,160
+as it is in ChatGPT.
+
+141
+00:10:05,160 --> 00:10:10,310
+So we've got a copy of this conversation. We've gone over to the notebook LM, we've 
+
+142
+00:10:10,310 --> 00:10:15,350
+put it in as Fli File Mover. If we click on that we can see all the information here. 
+
+143
+00:10:15,360 --> 00:10:20,630
+From now, we should be able to synthesize a complete document based on all the different 
+
+144
+00:10:20,630 --> 00:10:23,480
+information sources that we've collected 
+
+145
+00:10:23,500 --> 00:10:27,730
+back from our ChatGPT project called FliVideo.
+
+146
+00:10:27,730 --> 00:10:33,120
+So what I'd like to do now is create one consolidated conversation. So I've come 
+
+147
+00:10:33,120 --> 00:10:38,400
+through and I've marked everything with a tick except for the fly brief raw, because 
+
+148
+00:10:38,400 --> 00:10:42,990
+we have a better version of it here. And I've also cleared the chat window here. 
+
+149
+00:10:42,990 --> 00:10:47,400
+So we're starting from scratch. Now, we could start with a simple prompt that says 
+
+150
+00:10:47,400 --> 00:10:53,310
+create a consolidated document for the FliVideo SaaS application. And that's probably 
+
+151
+00:10:53,310 --> 00:10:58,560
+going to be okay. But maybe we can use Anthropic's prompt generator and come up with 
+
+152
+00:10:58,560 --> 00:11:02,820
+something a little bit more purpose built for this particular project.
+
+153
+00:11:02,830 --> 00:11:06,620
+So I've come over to Philanthropics Prompt Generator. I've said create a consolidated 
+
+154
+00:11:06,620 --> 00:11:12,440
+document based on six documents generally related to building a SaaS application. 
+
+155
+00:11:12,650 --> 00:11:16,970
+Make sure that you've got the appropriate hierarchy going on. Now I shouldn't need 
+
+156
+00:11:16,970 --> 00:11:21,920
+to understand what the hierarchy is because if we view the prompt, it will write 
+
+157
+00:11:21,920 --> 00:11:24,50
+a prompt that's going to make sense. 
+
+158
+00:11:24,60 --> 00:11:28,970
+So we've got a strong opening. You are tasked with creating a consolidated document 
+
+159
+00:11:28,970 --> 00:11:33,980
+based on six different documents. Now there are actually more than that, so we are 
+
+160
+00:11:33,980 --> 00:11:38,150
+going to change that a little bit and we're probably going to strip out all the variables 
+
+161
+00:11:38,270 --> 00:11:42,380
+'cause that doesn't make sense for what we're doing with Notebook lm. But then it's 
+
+162
+00:11:42,380 --> 00:11:47,780
+got additional rules going on in that it can identify the main topics subtopics and 
+
+163
+00:11:47,780 --> 00:11:53,30
+also build an outline. So this will be a good starting prompt. We'll just copy all 
+
+164
+00:11:53,30 --> 00:11:53,930
+this information 
+
+165
+00:11:53,930 --> 00:11:58,740
+and we'll come back to Notebook LM and just paste it all the way in. What we can 
+
+166
+00:11:58,740 --> 00:12:03,870
+do is just remove all these documents. A little modification here to say, provided 
+
+167
+00:12:03,870 --> 00:12:06,180
+sources, it shouldn't matter for what we're doing. 
+
+168
+00:12:06,200 --> 00:12:10,900
+And then the final part of this prompt is just formatting it as two parts to the 
+
+169
+00:12:10,900 --> 00:12:15,430
+document. I could do it as one part, but in this case I think I'll leave it the way 
+
+170
+00:12:15,430 --> 00:12:17,650
+it is and we'll just press go. I.
+
+171
+00:12:17,660 --> 00:12:23,550
+Now, one other thing to be aware of is that the size of this prompt is limited. So 
+
+172
+00:12:23,580 --> 00:12:27,810
+at the moment I can't actually click on the arrow. So we'll go to the very bottom 
+
+173
+00:12:27,810 --> 00:12:32,610
+and we'll get rid of the formatting. We don't need multiple document formats anyway, 
+
+174
+00:12:32,610 --> 00:12:36,810
+and we've given ourselves enough room that we can now run this. So let's kick it 
+
+175
+00:12:36,810 --> 00:12:41,790
+off. We've also made sure that the fly brief raw source has been turned off.
+
+176
+00:12:41,800 --> 00:12:47,30
+So at this point, we've got a strong outline of all the capabilities from all the 
+
+177
+00:12:47,30 --> 00:12:51,470
+different sources, but we haven't gone detailed enough for the actual requirements 
+
+178
+00:12:51,470 --> 00:12:52,40
+document.
+
+179
+00:12:52,60 --> 00:12:57,20
+So I've just said expand the structure into a detailed requirements document. I want 
+
+180
+00:12:57,50 --> 00:13:01,970
+it to go deep into every source, make sure it can bring in all the rules, code examples, 
+
+181
+00:13:01,970 --> 00:13:04,130
+branding guidelines as we go, 
+
+182
+00:13:04,160 --> 00:13:08,340
+So it's expanded the information out for us. One of the things that you can notice 
+
+183
+00:13:08,370 --> 00:13:13,200
+is that it doesn't format code very well, but what you can do is come down and save 
+
+184
+00:13:13,230 --> 00:13:18,360
+a note, which I've done here. And we can see at least that there is code in here. 
+
+185
+00:13:18,360 --> 00:13:24,960
+And we will use this back in ChatGPT canvas to convert it back into a proper document 
+
+186
+00:13:24,960 --> 00:13:26,160
+that we can read.
+
+187
+00:13:26,160 --> 00:13:30,720
+back in a new chat, turn into a requirements document, paste everything in, click 
+
+188
+00:13:30,720 --> 00:13:33,150
+on canvas and let it go to work
+
+189
+00:13:33,160 --> 00:13:37,230
+That's done a pretty good job building up the document, but it's missing a few areas. 
+
+190
+00:13:37,230 --> 00:13:40,770
+So the first area that it hasn't gone deep enough into 
+
+191
+00:13:40,800 --> 00:13:46,320
+Is the CLI tool or the command line interface. So I've said can you go deeper into 
+
+192
+00:13:46,320 --> 00:13:49,980
+the CLI tool. And it's given me a bunch of information 
+
+193
+00:13:50,00 --> 00:13:53,750
+you update the Readme using the following information. And we'll just paste in all 
+
+194
+00:13:53,750 --> 00:13:59,780
+the information that we queried out of notebook LM. So as it goes through it started 
+
+195
+00:13:59,780 --> 00:14:03,830
+updating a part of it. We've got the command line tool coming through here. And now 
+
+196
+00:14:03,830 --> 00:14:07,640
+we've got the functionality for the command line tool coming in. We've got create 
+
+197
+00:14:07,640 --> 00:14:10,910
+project rename and list projects.
+
+198
+00:14:10,930 --> 00:14:16,840
+Next, I want to update the document with the branding guidelines, and I got all this 
+
+199
+00:14:16,870 --> 00:14:22,30
+information directly from a query in notebook LM. Can you give me information about 
+
+200
+00:14:22,30 --> 00:14:22,840
+brand guidelines? 
+
+201
+00:14:22,860 --> 00:14:27,360
+which means we're going to get the general color guidelines that are in the fly brief, 
+
+202
+00:14:27,360 --> 00:14:31,980
+but we're also going to get information about the neomorphism. So this information 
+
+203
+00:14:31,980 --> 00:14:38,550
+is being updated as we speak. General guidelines. The colors for the brand information 
+
+204
+00:14:38,550 --> 00:14:42,330
+around using soft UI principles is coming through as well.
+
+205
+00:14:42,360 --> 00:14:47,40
+Now, another big area of this document was going to be the naming of the rules and 
+
+206
+00:14:47,40 --> 00:14:53,280
+projects for the application for the videos that I create. So we're letting that 
+
+207
+00:14:53,280 --> 00:14:58,830
+update and where I got this from was just asking the information. Can you go deep 
+
+208
+00:14:58,830 --> 00:15:05,130
+into the naming conventions of a single video project, a multi-episode project? How 
+
+209
+00:15:05,130 --> 00:15:10,290
+should recordings within a video get created? What about the chapter names? And there's 
+
+210
+00:15:10,290 --> 00:15:14,970
+also all these B-roll images for the thumbnail, the intro, the outro, the calls to 
+
+211
+00:15:15,00 --> 00:15:17,580
+action. How is this all being dealt with? 
+
+212
+00:15:17,600 --> 00:15:22,790
+So this is now in the middle of updating. We've got project naming, episode naming, 
+
+213
+00:15:22,790 --> 00:15:27,200
+and a solid section on assets like the B-roll that I just mentioned.
+
+214
+00:15:27,230 --> 00:15:32,760
+Now we're looking at the file movement. So one of the concepts that this application 
+
+215
+00:15:32,760 --> 00:15:38,190
+is meant to solve is routing files from, say a downloads directory. If it's a Midjourney 
+
+216
+00:15:38,190 --> 00:15:44,730
+image or from OBS or Ecamm live or Camtasia, if it's a video directly into the appropriate 
+
+217
+00:15:44,730 --> 00:15:49,950
+video project or assets folder. So I've just gone through and asked that question. 
+
+218
+00:15:49,950 --> 00:15:54,720
+Tell me detailed information about how the file movement rules are meant to happen. 
+
+219
+00:15:54,720 --> 00:15:59,190
+Grab that information. And it's just been coming through to the document right now.
+
+220
+00:15:59,200 --> 00:16:03,370
+There is a lot more I want to do with this document, and I will proceed to do that. 
+
+221
+00:16:03,370 --> 00:16:07,960
+But we're at the end of this video, and I want to give a recap of the problems and 
+
+222
+00:16:07,960 --> 00:16:13,120
+the interesting concepts that came out here. So when I started this, I thought I 
+
+223
+00:16:13,120 --> 00:16:17,890
+was going to bring all the conversations into notebook LM, and it was going to create 
+
+224
+00:16:17,890 --> 00:16:23,680
+one big consolidated document for me. Now, it didn't do as good a job, especially 
+
+225
+00:16:23,680 --> 00:16:26,470
+in the formatting as what I wanted,
+
+226
+00:16:26,500 --> 00:16:31,410
+but it certainly wasn't a loss because where it excelled was that if I needed to 
+
+227
+00:16:31,440 --> 00:16:35,910
+query on any part of the documents in the sources, it gave me detailed information 
+
+228
+00:16:35,910 --> 00:16:42,180
+that way. And so, as you saw, I was able to construct a complete document using canvas 
+
+229
+00:16:42,180 --> 00:16:47,730
+from ChatGPT by just pulling in the parts of the documents that I knew it was missing.
+
+230
+00:16:47,730 --> 00:16:52,760
+Now, this video about gathering all this requirements document serves a purpose. 
+
+231
+00:16:52,760 --> 00:16:57,110
+In the next video, where we're going to take all this information and create sales 
+
+232
+00:16:57,110 --> 00:17:01,970
+and marketing copy for a website so that this application, when it does get built, 
+
+233
+00:17:01,970 --> 00:17:06,170
+can actually be marketed. I'm AppyDave. Please like and subscribe. I'll see you in 
+
+234
+00:17:06,170 --> 00:17:07,160
+the next video.

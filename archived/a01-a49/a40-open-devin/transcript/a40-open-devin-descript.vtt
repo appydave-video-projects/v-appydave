@@ -1,0 +1,5765 @@
+WEBVTT
+
+00:00.180 --> 00:00.720
+<u>Last</u> week an AI autonomous programmer was announced by Cognition. It's called Devon.
+
+00:00.720 --> 00:01.020
+Last<u> week</u> an AI autonomous programmer was announced by Cognition. It's called Devon.
+
+00:01.020 --> 00:01.220
+Last week<u> an</u> AI autonomous programmer was announced by Cognition. It's called Devon.
+
+00:01.220 --> 00:01.540
+Last week an<u> AI</u> autonomous programmer was announced by Cognition. It's called Devon.
+
+00:01.540 --> 00:01.940
+Last week an AI<u> autonomous</u> programmer was announced by Cognition. It's called Devon.
+
+00:01.940 --> 00:02.740
+Last week an AI autonomous<u> programmer</u> was announced by Cognition. It's called Devon.
+
+00:02.740 --> 00:03.120
+Last week an AI autonomous programmer<u> was</u> announced by Cognition. It's called Devon.
+
+00:03.120 --> 00:03.500
+Last week an AI autonomous programmer was<u> announced</u> by Cognition. It's called Devon.
+
+00:03.500 --> 00:03.860
+Last week an AI autonomous programmer was announced<u> by</u> Cognition. It's called Devon.
+
+00:03.860 --> 00:04.400
+Last week an AI autonomous programmer was announced by<u> Cognition.</u> It's called Devon.
+
+00:04.400 --> 00:04.660
+Last week an AI autonomous programmer was announced by Cognition. It's called Devon.
+
+00:04.660 --> 00:04.820
+Last week an AI autonomous programmer was announced by Cognition.<u> It's</u> called Devon.
+
+00:04.820 --> 00:05.080
+Last week an AI autonomous programmer was announced by Cognition. It's<u> called</u> Devon.
+
+00:05.080 --> 00:05.620
+Last week an AI autonomous programmer was announced by Cognition. It's called<u> Devon.</u>
+
+00:06.060 --> 00:06.260
+<u>And</u> in the week since a bunch of open source repositories are trying to replicate that functionality.
+
+00:06.260 --> 00:06.380
+And<u> in</u> the week since a bunch of open source repositories are trying to replicate that functionality.
+
+00:06.380 --> 00:06.460
+And in<u> the</u> week since a bunch of open source repositories are trying to replicate that functionality.
+
+00:06.460 --> 00:06.620
+And in the<u> week</u> since a bunch of open source repositories are trying to replicate that functionality.
+
+00:06.620 --> 00:06.940
+And in the week<u> since</u> a bunch of open source repositories are trying to replicate that functionality.
+
+00:06.940 --> 00:07.260
+And in the week since<u> a</u> bunch of open source repositories are trying to replicate that functionality.
+
+00:07.260 --> 00:07.540
+And in the week since a<u> bunch</u> of open source repositories are trying to replicate that functionality.
+
+00:07.540 --> 00:07.720
+And in the week since a bunch<u> of</u> open source repositories are trying to replicate that functionality.
+
+00:07.720 --> 00:07.960
+And in the week since a bunch of<u> open</u> source repositories are trying to replicate that functionality.
+
+00:07.960 --> 00:08.280
+And in the week since a bunch of open<u> source</u> repositories are trying to replicate that functionality.
+
+00:08.280 --> 00:09.240
+And in the week since a bunch of open source<u> repositories</u> are trying to replicate that functionality.
+
+00:09.240 --> 00:09.480
+And in the week since a bunch of open source repositories<u> are</u> trying to replicate that functionality.
+
+00:09.480 --> 00:09.780
+And in the week since a bunch of open source repositories are<u> trying</u> to replicate that functionality.
+
+00:09.780 --> 00:09.960
+And in the week since a bunch of open source repositories are trying<u> to</u> replicate that functionality.
+
+00:09.960 --> 00:10.360
+And in the week since a bunch of open source repositories are trying to<u> replicate</u> that functionality.
+
+00:10.360 --> 00:10.760
+And in the week since a bunch of open source repositories are trying to replicate<u> that</u> functionality.
+
+00:10.760 --> 00:11.260
+And in the week since a bunch of open source repositories are trying to replicate that<u> functionality.</u>
+
+00:11.860 --> 00:12.040
+<u>In</u> this video I'm going to show you OpenDevon and how to install it.
+
+00:12.040 --> 00:12.200
+In<u> this</u> video I'm going to show you OpenDevon and how to install it.
+
+00:12.200 --> 00:12.500
+In this<u> video</u> I'm going to show you OpenDevon and how to install it.
+
+00:12.500 --> 00:12.800
+In this video<u> I'm</u> going to show you OpenDevon and how to install it.
+
+00:12.800 --> 00:12.940
+In this video I'm<u> going</u> to show you OpenDevon and how to install it.
+
+00:12.940 --> 00:13.060
+In this video I'm going<u> to</u> show you OpenDevon and how to install it.
+
+00:13.060 --> 00:13.240
+In this video I'm going to<u> show</u> you OpenDevon and how to install it.
+
+00:13.240 --> 00:13.360
+In this video I'm going to show<u> you</u> OpenDevon and how to install it.
+
+00:13.360 --> 00:14.220
+In this video I'm going to show you<u> OpenDevon</u> and how to install it.
+
+00:14.220 --> 00:14.660
+In this video I'm going to show you OpenDevon<u> and</u> how to install it.
+
+00:14.660 --> 00:14.920
+In this video I'm going to show you OpenDevon and<u> how</u> to install it.
+
+00:14.920 --> 00:15.080
+In this video I'm going to show you OpenDevon and how<u> to</u> install it.
+
+00:15.080 --> 00:15.480
+In this video I'm going to show you OpenDevon and how to<u> install</u> it.
+
+00:15.480 --> 00:15.700
+In this video I'm going to show you OpenDevon and how to install<u> it.</u>
+
+00:15.840 --> 00:15.960
+<u>The</u> back end, the front end and the Docker container.
+
+00:15.960 --> 00:16.180
+The<u> back</u> end, the front end and the Docker container.
+
+00:16.180 --> 00:16.440
+The back<u> end,</u> the front end and the Docker container.
+
+00:16.440 --> 00:16.660
+The back end, the front end and the Docker container.
+
+00:16.660 --> 00:16.680
+The back end,<u> the</u> front end and the Docker container.
+
+00:16.680 --> 00:16.880
+The back end, the<u> front</u> end and the Docker container.
+
+00:16.880 --> 00:17.220
+The back end, the front<u> end</u> and the Docker container.
+
+00:17.220 --> 00:17.540
+The back end, the front end<u> and</u> the Docker container.
+
+00:17.540 --> 00:17.680
+The back end, the front end and<u> the</u> Docker container.
+
+00:17.680 --> 00:17.880
+The back end, the front end and the<u> Docker</u> container.
+
+00:17.880 --> 00:18.440
+The back end, the front end and the Docker<u> container.</u>
+
+00:18.840 --> 00:18.940
+<u>And</u> then we'll talk about three different examples and the actual cost of using this product.
+
+00:18.940 --> 00:19.060
+And<u> then</u> we'll talk about three different examples and the actual cost of using this product.
+
+00:19.060 --> 00:19.220
+And then<u> we'll</u> talk about three different examples and the actual cost of using this product.
+
+00:19.220 --> 00:19.380
+And then we'll<u> talk</u> about three different examples and the actual cost of using this product.
+
+00:19.380 --> 00:19.640
+And then we'll talk<u> about</u> three different examples and the actual cost of using this product.
+
+00:19.640 --> 00:19.920
+And then we'll talk about<u> three</u> different examples and the actual cost of using this product.
+
+00:19.920 --> 00:20.200
+And then we'll talk about three<u> different</u> examples and the actual cost of using this product.
+
+00:20.200 --> 00:20.740
+And then we'll talk about three different<u> examples</u> and the actual cost of using this product.
+
+00:20.740 --> 00:21.220
+And then we'll talk about three different examples<u> and</u> the actual cost of using this product.
+
+00:21.220 --> 00:21.300
+And then we'll talk about three different examples and<u> the</u> actual cost of using this product.
+
+00:21.300 --> 00:21.500
+And then we'll talk about three different examples and the<u> actual</u> cost of using this product.
+
+00:21.500 --> 00:22.040
+And then we'll talk about three different examples and the actual<u> cost</u> of using this product.
+
+00:22.040 --> 00:22.240
+And then we'll talk about three different examples and the actual cost<u> of</u> using this product.
+
+00:22.240 --> 00:22.440
+And then we'll talk about three different examples and the actual cost of<u> using</u> this product.
+
+00:22.440 --> 00:22.660
+And then we'll talk about three different examples and the actual cost of using<u> this</u> product.
+
+00:22.660 --> 00:22.960
+And then we'll talk about three different examples and the actual cost of using this<u> product.</u>
+
+00:23.520 --> 00:23.800
+<u>Let's</u> get straight into installing OpenDevon.
+
+00:23.800 --> 00:23.940
+Let's<u> get</u> straight into installing OpenDevon.
+
+00:23.940 --> 00:24.240
+Let's get<u> straight</u> into installing OpenDevon.
+
+00:24.240 --> 00:24.520
+Let's get straight<u> into</u> installing OpenDevon.
+
+00:24.520 --> 00:25.240
+Let's get straight into<u> installing</u> OpenDevon.
+
+00:25.240 --> 00:26.180
+Let's get straight into installing<u> OpenDevon.</u>
+
+00:26.180 --> 00:26.500
+<u>And</u> the way you can do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:26.500 --> 00:26.600
+And<u> the</u> way you can do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:26.600 --> 00:26.680
+And the<u> way</u> you can do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:26.680 --> 00:26.800
+And the way<u> you</u> can do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:26.800 --> 00:26.940
+And the way you<u> can</u> do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:26.940 --> 00:27.080
+And the way you can<u> do</u> that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:27.080 --> 00:27.240
+And the way you can do<u> that</u> is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:27.240 --> 00:27.460
+And the way you can do that<u> is</u> navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:27.460 --> 00:27.860
+And the way you can do that is<u> navigate</u> over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:27.860 --> 00:28.260
+And the way you can do that is navigate<u> over</u> to GitHub OpenDevon, find the repository for OpenDevon
+
+00:28.260 --> 00:28.440
+And the way you can do that is navigate over<u> to</u> GitHub OpenDevon, find the repository for OpenDevon
+
+00:28.440 --> 00:28.700
+And the way you can do that is navigate over to<u> GitHub</u> OpenDevon, find the repository for OpenDevon
+
+00:28.700 --> 00:29.500
+And the way you can do that is navigate over to GitHub<u> OpenDevon,</u> find the repository for OpenDevon
+
+00:29.500 --> 00:29.720
+And the way you can do that is navigate over to GitHub OpenDevon, find the repository for OpenDevon
+
+00:29.720 --> 00:30.180
+And the way you can do that is navigate over to GitHub OpenDevon,<u> find</u> the repository for OpenDevon
+
+00:30.180 --> 00:30.340
+And the way you can do that is navigate over to GitHub OpenDevon, find<u> the</u> repository for OpenDevon
+
+00:30.340 --> 00:30.880
+And the way you can do that is navigate over to GitHub OpenDevon, find the<u> repository</u> for OpenDevon
+
+00:30.880 --> 00:31.260
+And the way you can do that is navigate over to GitHub OpenDevon, find the repository<u> for</u> OpenDevon
+
+00:31.260 --> 00:32.080
+And the way you can do that is navigate over to GitHub OpenDevon, find the repository for<u> OpenDevon</u>
+
+00:32.080 --> 00:32.340
+<u>and</u> then just click on the code button.
+
+00:32.340 --> 00:32.500
+and<u> then</u> just click on the code button.
+
+00:32.500 --> 00:32.720
+and then<u> just</u> click on the code button.
+
+00:32.720 --> 00:33.060
+and then just<u> click</u> on the code button.
+
+00:33.060 --> 00:33.520
+and then just click<u> on</u> the code button.
+
+00:33.520 --> 00:33.700
+and then just click on<u> the</u> code button.
+
+00:33.700 --> 00:33.960
+and then just click on the<u> code</u> button.
+
+00:33.960 --> 00:34.300
+and then just click on the code<u> button.</u>
+
+00:34.660 --> 00:34.840
+<u>From</u> there you'll have three different ways that you can clone it down onto your computer.
+
+00:34.840 --> 00:35.040
+From<u> there</u> you'll have three different ways that you can clone it down onto your computer.
+
+00:35.040 --> 00:35.260
+From there<u> you'll</u> have three different ways that you can clone it down onto your computer.
+
+00:35.260 --> 00:35.380
+From there you'll<u> have</u> three different ways that you can clone it down onto your computer.
+
+00:35.380 --> 00:35.600
+From there you'll have<u> three</u> different ways that you can clone it down onto your computer.
+
+00:35.600 --> 00:35.860
+From there you'll have three<u> different</u> ways that you can clone it down onto your computer.
+
+00:35.860 --> 00:36.160
+From there you'll have three different<u> ways</u> that you can clone it down onto your computer.
+
+00:36.160 --> 00:36.440
+From there you'll have three different ways<u> that</u> you can clone it down onto your computer.
+
+00:36.440 --> 00:36.560
+From there you'll have three different ways that<u> you</u> can clone it down onto your computer.
+
+00:36.560 --> 00:36.760
+From there you'll have three different ways that you<u> can</u> clone it down onto your computer.
+
+00:36.760 --> 00:37.060
+From there you'll have three different ways that you can<u> clone</u> it down onto your computer.
+
+00:37.060 --> 00:37.260
+From there you'll have three different ways that you can clone<u> it</u> down onto your computer.
+
+00:37.260 --> 00:37.480
+From there you'll have three different ways that you can clone it<u> down</u> onto your computer.
+
+00:37.480 --> 00:37.760
+From there you'll have three different ways that you can clone it down<u> onto</u> your computer.
+
+00:37.760 --> 00:37.980
+From there you'll have three different ways that you can clone it down onto<u> your</u> computer.
+
+00:37.980 --> 00:38.380
+From there you'll have three different ways that you can clone it down onto your<u> computer.</u>
+
+00:38.780 --> 00:38.960
+<u>I</u> use the GitHub CLI tool, GH repo clone OpenDevon slash OpenDevon.
+
+00:38.960 --> 00:39.200
+I<u> use</u> the GitHub CLI tool, GH repo clone OpenDevon slash OpenDevon.
+
+00:39.200 --> 00:39.380
+I use<u> the</u> GitHub CLI tool, GH repo clone OpenDevon slash OpenDevon.
+
+00:39.380 --> 00:39.720
+I use the<u> GitHub</u> CLI tool, GH repo clone OpenDevon slash OpenDevon.
+
+00:39.720 --> 00:40.480
+I use the GitHub<u> CLI</u> tool, GH repo clone OpenDevon slash OpenDevon.
+
+00:40.480 --> 00:40.820
+I use the GitHub CLI<u> tool,</u> GH repo clone OpenDevon slash OpenDevon.
+
+00:40.820 --> 00:41.240
+I use the GitHub CLI tool, GH repo clone OpenDevon slash OpenDevon.
+
+00:41.240 --> 00:41.540
+I use the GitHub CLI tool,<u> GH</u> repo clone OpenDevon slash OpenDevon.
+
+00:41.540 --> 00:42.240
+I use the GitHub CLI tool, GH<u> repo</u> clone OpenDevon slash OpenDevon.
+
+00:42.240 --> 00:42.960
+I use the GitHub CLI tool, GH repo<u> clone</u> OpenDevon slash OpenDevon.
+
+00:42.960 --> 00:44.020
+I use the GitHub CLI tool, GH repo clone<u> OpenDevon</u> slash OpenDevon.
+
+00:44.020 --> 00:44.260
+I use the GitHub CLI tool, GH repo clone OpenDevon<u> slash</u> OpenDevon.
+
+00:44.260 --> 00:45.360
+I use the GitHub CLI tool, GH repo clone OpenDevon slash<u> OpenDevon.</u>
+
+00:45.740 --> 00:46.020
+<u>From</u> there I went into Visual Studio just to have a look at what we've got.
+
+00:46.020 --> 00:46.280
+From<u> there</u> I went into Visual Studio just to have a look at what we've got.
+
+00:46.280 --> 00:46.560
+From there<u> I</u> went into Visual Studio just to have a look at what we've got.
+
+00:46.560 --> 00:46.700
+From there I<u> went</u> into Visual Studio just to have a look at what we've got.
+
+00:46.700 --> 00:46.980
+From there I went<u> into</u> Visual Studio just to have a look at what we've got.
+
+00:46.980 --> 00:47.260
+From there I went into<u> Visual</u> Studio just to have a look at what we've got.
+
+00:47.260 --> 00:47.820
+From there I went into Visual<u> Studio</u> just to have a look at what we've got.
+
+00:47.820 --> 00:48.160
+From there I went into Visual Studio<u> just</u> to have a look at what we've got.
+
+00:48.160 --> 00:48.360
+From there I went into Visual Studio just<u> to</u> have a look at what we've got.
+
+00:48.360 --> 00:48.480
+From there I went into Visual Studio just to<u> have</u> a look at what we've got.
+
+00:48.480 --> 00:48.620
+From there I went into Visual Studio just to have<u> a</u> look at what we've got.
+
+00:48.620 --> 00:48.740
+From there I went into Visual Studio just to have a<u> look</u> at what we've got.
+
+00:48.740 --> 00:48.900
+From there I went into Visual Studio just to have a look<u> at</u> what we've got.
+
+00:48.900 --> 00:49.140
+From there I went into Visual Studio just to have a look at<u> what</u> we've got.
+
+00:49.140 --> 00:49.400
+From there I went into Visual Studio just to have a look at what<u> we've</u> got.
+
+00:49.400 --> 00:49.600
+From there I went into Visual Studio just to have a look at what we've<u> got.</u>
+
+00:50.100 --> 00:50.300
+<u>To</u> run this locally you're going to need a couple of runtime environments
+
+00:50.300 --> 00:50.440
+To<u> run</u> this locally you're going to need a couple of runtime environments
+
+00:50.440 --> 00:50.620
+To run<u> this</u> locally you're going to need a couple of runtime environments
+
+00:50.620 --> 00:51.040
+To run this<u> locally</u> you're going to need a couple of runtime environments
+
+00:51.040 --> 00:51.360
+To run this locally<u> you're</u> going to need a couple of runtime environments
+
+00:51.360 --> 00:51.560
+To run this locally you're<u> going</u> to need a couple of runtime environments
+
+00:51.560 --> 00:51.740
+To run this locally you're going<u> to</u> need a couple of runtime environments
+
+00:51.740 --> 00:51.980
+To run this locally you're going to<u> need</u> a couple of runtime environments
+
+00:51.980 --> 00:52.220
+To run this locally you're going to need<u> a</u> couple of runtime environments
+
+00:52.220 --> 00:52.640
+To run this locally you're going to need a<u> couple</u> of runtime environments
+
+00:52.640 --> 00:52.880
+To run this locally you're going to need a couple<u> of</u> runtime environments
+
+00:52.880 --> 00:53.200
+To run this locally you're going to need a couple of<u> runtime</u> environments
+
+00:53.200 --> 00:53.960
+To run this locally you're going to need a couple of runtime<u> environments</u>
+
+00:53.960 --> 00:54.600
+<u>and</u> on my computer I use ASDF to manage programming language versions.
+
+00:54.600 --> 00:54.880
+and<u> on</u> my computer I use ASDF to manage programming language versions.
+
+00:54.880 --> 00:55.040
+and on<u> my</u> computer I use ASDF to manage programming language versions.
+
+00:55.040 --> 00:55.380
+and on my<u> computer</u> I use ASDF to manage programming language versions.
+
+00:55.380 --> 00:55.660
+and on my computer<u> I</u> use ASDF to manage programming language versions.
+
+00:55.660 --> 00:55.900
+and on my computer I<u> use</u> ASDF to manage programming language versions.
+
+00:55.900 --> 00:56.780
+and on my computer I use<u> ASDF</u> to manage programming language versions.
+
+00:56.780 --> 00:57.000
+and on my computer I use ASDF<u> to</u> manage programming language versions.
+
+00:57.000 --> 00:57.320
+and on my computer I use ASDF to<u> manage</u> programming language versions.
+
+00:57.320 --> 00:58.000
+and on my computer I use ASDF to manage<u> programming</u> language versions.
+
+00:58.000 --> 00:58.460
+and on my computer I use ASDF to manage programming<u> language</u> versions.
+
+00:58.460 --> 00:59.060
+and on my computer I use ASDF to manage programming language<u> versions.</u>
+
+00:59.340 --> 00:59.600
+<u>I've</u> currently got Node and Python installed on my computer with different versions.
+
+00:59.600 --> 00:59.900
+I've<u> currently</u> got Node and Python installed on my computer with different versions.
+
+00:59.900 --> 01:00.220
+I've currently<u> got</u> Node and Python installed on my computer with different versions.
+
+01:00.220 --> 01:00.680
+I've currently got<u> Node</u> and Python installed on my computer with different versions.
+
+01:00.680 --> 01:01.240
+I've currently got Node<u> and</u> Python installed on my computer with different versions.
+
+01:01.240 --> 01:01.720
+I've currently got Node and<u> Python</u> installed on my computer with different versions.
+
+01:01.720 --> 01:02.340
+I've currently got Node and Python<u> installed</u> on my computer with different versions.
+
+01:02.340 --> 01:02.620
+I've currently got Node and Python installed<u> on</u> my computer with different versions.
+
+01:02.620 --> 01:02.740
+I've currently got Node and Python installed on<u> my</u> computer with different versions.
+
+01:02.740 --> 01:03.140
+I've currently got Node and Python installed on my<u> computer</u> with different versions.
+
+01:03.140 --> 01:03.400
+I've currently got Node and Python installed on my computer<u> with</u> different versions.
+
+01:03.400 --> 01:03.760
+I've currently got Node and Python installed on my computer with<u> different</u> versions.
+
+01:03.760 --> 01:04.300
+I've currently got Node and Python installed on my computer with different<u> versions.</u>
+
+01:04.720 --> 01:05.080
+<u>And</u> I've also got Docker.
+
+01:05.080 --> 01:05.320
+And<u> I've</u> also got Docker.
+
+01:05.320 --> 01:05.520
+And I've<u> also</u> got Docker.
+
+01:05.520 --> 01:05.740
+And I've also<u> got</u> Docker.
+
+01:05.740 --> 01:06.040
+And I've also got<u> Docker.</u>
+
+01:06.560 --> 01:06.620
+<u>And</u> if you run a Docker PS you'll see a list of containers that you've got on your computer.
+
+01:06.620 --> 01:06.740
+And<u> if</u> you run a Docker PS you'll see a list of containers that you've got on your computer.
+
+01:06.740 --> 01:06.860
+And if<u> you</u> run a Docker PS you'll see a list of containers that you've got on your computer.
+
+01:06.860 --> 01:07.100
+And if you<u> run</u> a Docker PS you'll see a list of containers that you've got on your computer.
+
+01:07.100 --> 01:07.220
+And if you run<u> a</u> Docker PS you'll see a list of containers that you've got on your computer.
+
+01:07.220 --> 01:07.540
+And if you run a<u> Docker</u> PS you'll see a list of containers that you've got on your computer.
+
+01:07.540 --> 01:08.180
+And if you run a Docker<u> PS</u> you'll see a list of containers that you've got on your computer.
+
+01:08.180 --> 01:08.840
+And if you run a Docker PS<u> you'll</u> see a list of containers that you've got on your computer.
+
+01:08.840 --> 01:09.260
+And if you run a Docker PS you'll<u> see</u> a list of containers that you've got on your computer.
+
+01:09.260 --> 01:09.360
+And if you run a Docker PS you'll see<u> a</u> list of containers that you've got on your computer.
+
+01:09.360 --> 01:09.500
+And if you run a Docker PS you'll see a<u> list</u> of containers that you've got on your computer.
+
+01:09.500 --> 01:09.640
+And if you run a Docker PS you'll see a list<u> of</u> containers that you've got on your computer.
+
+01:09.640 --> 01:10.080
+And if you run a Docker PS you'll see a list of<u> containers</u> that you've got on your computer.
+
+01:10.080 --> 01:10.360
+And if you run a Docker PS you'll see a list of containers<u> that</u> you've got on your computer.
+
+01:10.360 --> 01:10.560
+And if you run a Docker PS you'll see a list of containers that<u> you've</u> got on your computer.
+
+01:10.560 --> 01:10.760
+And if you run a Docker PS you'll see a list of containers that you've<u> got</u> on your computer.
+
+01:10.760 --> 01:11.020
+And if you run a Docker PS you'll see a list of containers that you've got<u> on</u> your computer.
+
+01:11.020 --> 01:11.180
+And if you run a Docker PS you'll see a list of containers that you've got on<u> your</u> computer.
+
+01:11.180 --> 01:11.680
+And if you run a Docker PS you'll see a list of containers that you've got on your<u> computer.</u>
+
+01:12.060 --> 01:12.320
+<u>Now</u> the one we actually need for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:12.320 --> 01:12.500
+Now<u> the</u> one we actually need for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:12.500 --> 01:12.700
+Now the<u> one</u> we actually need for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:12.700 --> 01:12.900
+Now the one<u> we</u> actually need for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:12.900 --> 01:13.340
+Now the one we<u> actually</u> need for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:13.340 --> 01:13.820
+Now the one we actually<u> need</u> for OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:13.820 --> 01:14.060
+Now the one we actually need<u> for</u> OpenDevon is called ghcr.io slash OpenDevon sandbox.
+
+01:14.060 --> 01:15.220
+Now the one we actually need for<u> OpenDevon</u> is called ghcr.io slash OpenDevon sandbox.
+
+01:15.220 --> 01:15.740
+Now the one we actually need for OpenDevon<u> is</u> called ghcr.io slash OpenDevon sandbox.
+
+01:15.740 --> 01:16.200
+Now the one we actually need for OpenDevon is<u> called</u> ghcr.io slash OpenDevon sandbox.
+
+01:16.200 --> 01:17.440
+Now the one we actually need for OpenDevon is called<u> ghcr</u>.io slash OpenDevon sandbox.
+
+01:17.440 --> 01:18.100
+Now the one we actually need for OpenDevon is called ghcr<u>.io</u> slash OpenDevon sandbox.
+
+01:18.100 --> 01:18.620
+Now the one we actually need for OpenDevon is called ghcr.io<u> slash</u> OpenDevon sandbox.
+
+01:18.620 --> 01:19.600
+Now the one we actually need for OpenDevon is called ghcr.io slash<u> OpenDevon</u> sandbox.
+
+01:19.600 --> 01:20.140
+Now the one we actually need for OpenDevon is called ghcr.io slash OpenDevon<u> sandbox.</u>
+
+01:20.280 --> 01:20.720
+<u>Make</u> sure you do a Docker pull on that and pull it down to your computer.
+
+01:20.720 --> 01:20.920
+Make<u> sure</u> you do a Docker pull on that and pull it down to your computer.
+
+01:20.920 --> 01:21.020
+Make sure<u> you</u> do a Docker pull on that and pull it down to your computer.
+
+01:21.020 --> 01:21.180
+Make sure you<u> do</u> a Docker pull on that and pull it down to your computer.
+
+01:21.180 --> 01:21.420
+Make sure you do<u> a</u> Docker pull on that and pull it down to your computer.
+
+01:21.420 --> 01:21.620
+Make sure you do a<u> Docker</u> pull on that and pull it down to your computer.
+
+01:21.620 --> 01:21.940
+Make sure you do a Docker<u> pull</u> on that and pull it down to your computer.
+
+01:21.940 --> 01:22.100
+Make sure you do a Docker pull<u> on</u> that and pull it down to your computer.
+
+01:22.100 --> 01:22.300
+Make sure you do a Docker pull on<u> that</u> and pull it down to your computer.
+
+01:22.300 --> 01:22.600
+Make sure you do a Docker pull on that<u> and</u> pull it down to your computer.
+
+01:22.600 --> 01:22.800
+Make sure you do a Docker pull on that and<u> pull</u> it down to your computer.
+
+01:22.800 --> 01:22.900
+Make sure you do a Docker pull on that and pull<u> it</u> down to your computer.
+
+01:22.900 --> 01:23.100
+Make sure you do a Docker pull on that and pull it<u> down</u> to your computer.
+
+01:23.100 --> 01:23.320
+Make sure you do a Docker pull on that and pull it down<u> to</u> your computer.
+
+01:23.320 --> 01:23.440
+Make sure you do a Docker pull on that and pull it down to<u> your</u> computer.
+
+01:23.440 --> 01:23.820
+Make sure you do a Docker pull on that and pull it down to your<u> computer.</u>
+
+01:24.400 --> 01:24.620
+<u>Looking</u> at the list of files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:24.620 --> 01:24.760
+Looking<u> at</u> the list of files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:24.760 --> 01:24.900
+Looking at<u> the</u> list of files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:24.900 --> 01:25.060
+Looking at the<u> list</u> of files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:25.060 --> 01:25.240
+Looking at the list<u> of</u> files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:25.240 --> 01:25.500
+Looking at the list of<u> files</u> in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:25.500 --> 01:25.860
+Looking at the list of files<u> in</u> your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:25.860 --> 01:26.000
+Looking at the list of files in<u> your</u> code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:26.000 --> 01:26.160
+Looking at the list of files in your<u> code</u> editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:26.160 --> 01:26.460
+Looking at the list of files in your code<u> editor,</u> what you'll want to do is copy the configtoml template to config.toml
+
+01:26.460 --> 01:26.780
+Looking at the list of files in your code editor, what you'll want to do is copy the configtoml template to config.toml
+
+01:26.780 --> 01:26.960
+Looking at the list of files in your code editor,<u> what</u> you'll want to do is copy the configtoml template to config.toml
+
+01:26.960 --> 01:27.140
+Looking at the list of files in your code editor, what<u> you'll</u> want to do is copy the configtoml template to config.toml
+
+01:27.140 --> 01:27.300
+Looking at the list of files in your code editor, what you'll<u> want</u> to do is copy the configtoml template to config.toml
+
+01:27.300 --> 01:27.420
+Looking at the list of files in your code editor, what you'll want<u> to</u> do is copy the configtoml template to config.toml
+
+01:27.420 --> 01:27.560
+Looking at the list of files in your code editor, what you'll want to<u> do</u> is copy the configtoml template to config.toml
+
+01:27.560 --> 01:27.680
+Looking at the list of files in your code editor, what you'll want to do<u> is</u> copy the configtoml template to config.toml
+
+01:27.680 --> 01:28.040
+Looking at the list of files in your code editor, what you'll want to do is<u> copy</u> the configtoml template to config.toml
+
+01:28.040 --> 01:28.240
+Looking at the list of files in your code editor, what you'll want to do is copy<u> the</u> configtoml template to config.toml
+
+01:28.240 --> 01:29.020
+Looking at the list of files in your code editor, what you'll want to do is copy the<u> configtoml</u> template to config.toml
+
+01:29.020 --> 01:29.520
+Looking at the list of files in your code editor, what you'll want to do is copy the configtoml<u> template</u> to config.toml
+
+01:29.520 --> 01:29.840
+Looking at the list of files in your code editor, what you'll want to do is copy the configtoml template<u> to</u> config.toml
+
+01:29.840 --> 01:30.320
+Looking at the list of files in your code editor, what you'll want to do is copy the configtoml template to<u> config</u>.toml
+
+01:30.320 --> 01:31.160
+Looking at the list of files in your code editor, what you'll want to do is copy the configtoml template to config<u>.toml</u>
+
+01:31.160 --> 01:31.580
+<u>and</u> notice here that it's light gray.
+
+01:31.580 --> 01:31.980
+and<u> notice</u> here that it's light gray.
+
+01:31.980 --> 01:32.340
+and notice<u> here</u> that it's light gray.
+
+01:32.340 --> 01:32.540
+and notice here<u> that</u> it's light gray.
+
+01:32.540 --> 01:32.740
+and notice here that<u> it's</u> light gray.
+
+01:32.740 --> 01:33.040
+and notice here that it's<u> light</u> gray.
+
+01:33.040 --> 01:33.420
+and notice here that it's light<u> gray.</u>
+
+01:33.840 --> 01:34.140
+<u>It's</u> also listed in my gitignore because we're going to put secret information in here like API keys
+
+01:34.140 --> 01:34.480
+It's<u> also</u> listed in my gitignore because we're going to put secret information in here like API keys
+
+01:34.480 --> 01:35.000
+It's also<u> listed</u> in my gitignore because we're going to put secret information in here like API keys
+
+01:35.000 --> 01:35.260
+It's also listed<u> in</u> my gitignore because we're going to put secret information in here like API keys
+
+01:35.260 --> 01:35.420
+It's also listed in<u> my</u> gitignore because we're going to put secret information in here like API keys
+
+01:35.420 --> 01:36.060
+It's also listed in my<u> gitignore</u> because we're going to put secret information in here like API keys
+
+01:36.060 --> 01:36.320
+It's also listed in my gitignore<u> because</u> we're going to put secret information in here like API keys
+
+01:36.320 --> 01:36.600
+It's also listed in my gitignore because<u> we're</u> going to put secret information in here like API keys
+
+01:36.600 --> 01:36.760
+It's also listed in my gitignore because we're<u> going</u> to put secret information in here like API keys
+
+01:36.760 --> 01:36.920
+It's also listed in my gitignore because we're going<u> to</u> put secret information in here like API keys
+
+01:36.920 --> 01:37.060
+It's also listed in my gitignore because we're going to<u> put</u> secret information in here like API keys
+
+01:37.060 --> 01:37.400
+It's also listed in my gitignore because we're going to put<u> secret</u> information in here like API keys
+
+01:37.400 --> 01:37.820
+It's also listed in my gitignore because we're going to put secret<u> information</u> in here like API keys
+
+01:37.820 --> 01:38.180
+It's also listed in my gitignore because we're going to put secret information<u> in</u> here like API keys
+
+01:38.180 --> 01:38.400
+It's also listed in my gitignore because we're going to put secret information in<u> here</u> like API keys
+
+01:38.400 --> 01:38.580
+It's also listed in my gitignore because we're going to put secret information in here<u> like</u> API keys
+
+01:38.580 --> 01:38.900
+It's also listed in my gitignore because we're going to put secret information in here like<u> API</u> keys
+
+01:38.900 --> 01:39.380
+It's also listed in my gitignore because we're going to put secret information in here like API<u> keys</u>
+
+01:39.380 --> 01:39.800
+<u>and</u> we don't want that to be pushed up to a repo.
+
+01:39.800 --> 01:39.900
+and<u> we</u> don't want that to be pushed up to a repo.
+
+01:39.900 --> 01:40.120
+and we<u> don't</u> want that to be pushed up to a repo.
+
+01:40.120 --> 01:40.300
+and we don't<u> want</u> that to be pushed up to a repo.
+
+01:40.300 --> 01:40.460
+and we don't want<u> that</u> to be pushed up to a repo.
+
+01:40.460 --> 01:40.620
+and we don't want that<u> to</u> be pushed up to a repo.
+
+01:40.620 --> 01:40.740
+and we don't want that to<u> be</u> pushed up to a repo.
+
+01:40.740 --> 01:40.960
+and we don't want that to be<u> pushed</u> up to a repo.
+
+01:40.960 --> 01:41.180
+and we don't want that to be pushed<u> up</u> to a repo.
+
+01:41.180 --> 01:41.380
+and we don't want that to be pushed up<u> to</u> a repo.
+
+01:41.380 --> 01:41.500
+and we don't want that to be pushed up to<u> a</u> repo.
+
+01:41.500 --> 01:41.780
+and we don't want that to be pushed up to a<u> repo.</u>
+
+01:42.400 --> 01:42.640
+<u>We</u> can now configure a large language model to use with OpenDevon
+
+01:42.640 --> 01:42.780
+We<u> can</u> now configure a large language model to use with OpenDevon
+
+01:42.780 --> 01:42.940
+We can<u> now</u> configure a large language model to use with OpenDevon
+
+01:42.940 --> 01:43.500
+We can now<u> configure</u> a large language model to use with OpenDevon
+
+01:43.500 --> 01:43.940
+We can now configure<u> a</u> large language model to use with OpenDevon
+
+01:43.940 --> 01:44.200
+We can now configure a<u> large</u> language model to use with OpenDevon
+
+01:44.200 --> 01:44.600
+We can now configure a large<u> language</u> model to use with OpenDevon
+
+01:44.600 --> 01:44.980
+We can now configure a large language<u> model</u> to use with OpenDevon
+
+01:44.980 --> 01:45.200
+We can now configure a large language model<u> to</u> use with OpenDevon
+
+01:45.200 --> 01:45.380
+We can now configure a large language model to<u> use</u> with OpenDevon
+
+01:45.380 --> 01:45.600
+We can now configure a large language model to use<u> with</u> OpenDevon
+
+01:45.600 --> 01:46.300
+We can now configure a large language model to use with<u> OpenDevon</u>
+
+01:46.300 --> 01:46.540
+<u>and</u> I've decided I want to use OpenAI so I've headed over to platform.openai.com
+
+01:46.540 --> 01:46.860
+and<u> I've</u> decided I want to use OpenAI so I've headed over to platform.openai.com
+
+01:46.860 --> 01:47.180
+and I've<u> decided</u> I want to use OpenAI so I've headed over to platform.openai.com
+
+01:47.180 --> 01:47.460
+and I've decided<u> I</u> want to use OpenAI so I've headed over to platform.openai.com
+
+01:47.460 --> 01:47.600
+and I've decided I<u> want</u> to use OpenAI so I've headed over to platform.openai.com
+
+01:47.600 --> 01:47.700
+and I've decided I want<u> to</u> use OpenAI so I've headed over to platform.openai.com
+
+01:47.700 --> 01:47.920
+and I've decided I want to<u> use</u> OpenAI so I've headed over to platform.openai.com
+
+01:47.920 --> 01:48.660
+and I've decided I want to use<u> OpenAI</u> so I've headed over to platform.openai.com
+
+01:48.660 --> 01:49.240
+and I've decided I want to use OpenAI<u> so</u> I've headed over to platform.openai.com
+
+01:49.240 --> 01:49.460
+and I've decided I want to use OpenAI so<u> I've</u> headed over to platform.openai.com
+
+01:49.460 --> 01:49.640
+and I've decided I want to use OpenAI so I've<u> headed</u> over to platform.openai.com
+
+01:49.640 --> 01:49.900
+and I've decided I want to use OpenAI so I've headed<u> over</u> to platform.openai.com
+
+01:49.900 --> 01:50.000
+and I've decided I want to use OpenAI so I've headed over<u> to</u> platform.openai.com
+
+01:50.000 --> 01:50.340
+and I've decided I want to use OpenAI so I've headed over to<u> platform</u>.openai.com
+
+01:50.340 --> 01:51.240
+and I've decided I want to use OpenAI so I've headed over to platform<u>.openai</u>.com
+
+01:51.240 --> 01:51.960
+and I've decided I want to use OpenAI so I've headed over to platform.openai<u>.com</u>
+
+01:51.960 --> 01:52.720
+<u>and</u> gone down to the API keys, created a new one and just made a copy of it.
+
+01:52.720 --> 01:53.020
+and<u> gone</u> down to the API keys, created a new one and just made a copy of it.
+
+01:53.020 --> 01:53.280
+and gone<u> down</u> to the API keys, created a new one and just made a copy of it.
+
+01:53.280 --> 01:53.640
+and gone down<u> to</u> the API keys, created a new one and just made a copy of it.
+
+01:53.640 --> 01:53.820
+and gone down to<u> the</u> API keys, created a new one and just made a copy of it.
+
+01:53.820 --> 01:54.180
+and gone down to the<u> API</u> keys, created a new one and just made a copy of it.
+
+01:54.180 --> 01:54.760
+and gone down to the API<u> keys,</u> created a new one and just made a copy of it.
+
+01:54.760 --> 01:54.920
+and gone down to the API keys, created a new one and just made a copy of it.
+
+01:54.920 --> 01:55.400
+and gone down to the API keys,<u> created</u> a new one and just made a copy of it.
+
+01:55.400 --> 01:55.680
+and gone down to the API keys, created<u> a</u> new one and just made a copy of it.
+
+01:55.680 --> 01:55.840
+and gone down to the API keys, created a<u> new</u> one and just made a copy of it.
+
+01:55.840 --> 01:56.080
+and gone down to the API keys, created a new<u> one</u> and just made a copy of it.
+
+01:56.080 --> 01:56.300
+and gone down to the API keys, created a new one<u> and</u> just made a copy of it.
+
+01:56.300 --> 01:56.500
+and gone down to the API keys, created a new one and<u> just</u> made a copy of it.
+
+01:56.500 --> 01:56.740
+and gone down to the API keys, created a new one and just<u> made</u> a copy of it.
+
+01:56.740 --> 01:56.880
+and gone down to the API keys, created a new one and just made<u> a</u> copy of it.
+
+01:56.880 --> 01:57.160
+and gone down to the API keys, created a new one and just made a<u> copy</u> of it.
+
+01:57.160 --> 01:57.420
+and gone down to the API keys, created a new one and just made a copy<u> of</u> it.
+
+01:57.420 --> 01:57.580
+and gone down to the API keys, created a new one and just made a copy of<u> it.</u>
+
+01:57.880 --> 01:58.060
+<u>From</u> there what I can do is go over to the config.toml and just paste the value in there.
+
+01:58.060 --> 01:58.360
+From<u> there</u> what I can do is go over to the config.toml and just paste the value in there.
+
+01:58.360 --> 01:58.540
+From there<u> what</u> I can do is go over to the config.toml and just paste the value in there.
+
+01:58.540 --> 01:58.680
+From there what<u> I</u> can do is go over to the config.toml and just paste the value in there.
+
+01:58.680 --> 01:58.820
+From there what I<u> can</u> do is go over to the config.toml and just paste the value in there.
+
+01:58.820 --> 01:59.080
+From there what I can<u> do</u> is go over to the config.toml and just paste the value in there.
+
+01:59.080 --> 01:59.360
+From there what I can do<u> is</u> go over to the config.toml and just paste the value in there.
+
+01:59.360 --> 01:59.620
+From there what I can do is<u> go</u> over to the config.toml and just paste the value in there.
+
+01:59.620 --> 02:00.000
+From there what I can do is go<u> over</u> to the config.toml and just paste the value in there.
+
+02:00.000 --> 02:00.340
+From there what I can do is go over<u> to</u> the config.toml and just paste the value in there.
+
+02:00.340 --> 02:00.620
+From there what I can do is go over to<u> the</u> config.toml and just paste the value in there.
+
+02:00.620 --> 02:00.960
+From there what I can do is go over to the<u> config</u>.toml and just paste the value in there.
+
+02:00.960 --> 02:01.600
+From there what I can do is go over to the config<u>.toml</u> and just paste the value in there.
+
+02:01.600 --> 02:02.140
+From there what I can do is go over to the config.toml<u> and</u> just paste the value in there.
+
+02:02.140 --> 02:02.400
+From there what I can do is go over to the config.toml and<u> just</u> paste the value in there.
+
+02:02.400 --> 02:02.680
+From there what I can do is go over to the config.toml and just<u> paste</u> the value in there.
+
+02:02.680 --> 02:02.880
+From there what I can do is go over to the config.toml and just paste<u> the</u> value in there.
+
+02:02.880 --> 02:03.140
+From there what I can do is go over to the config.toml and just paste the<u> value</u> in there.
+
+02:03.140 --> 02:03.360
+From there what I can do is go over to the config.toml and just paste the value<u> in</u> there.
+
+02:03.360 --> 02:03.600
+From there what I can do is go over to the config.toml and just paste the value in<u> there.</u>
+
+02:03.800 --> 02:03.960
+<u>You</u> can also export it to your environment.
+
+02:03.960 --> 02:04.080
+You<u> can</u> also export it to your environment.
+
+02:04.080 --> 02:04.400
+You can<u> also</u> export it to your environment.
+
+02:04.400 --> 02:05.020
+You can also<u> export</u> it to your environment.
+
+02:05.020 --> 02:05.260
+You can also export<u> it</u> to your environment.
+
+02:05.260 --> 02:05.420
+You can also export it<u> to</u> your environment.
+
+02:05.420 --> 02:05.560
+You can also export it to<u> your</u> environment.
+
+02:05.560 --> 02:06.000
+You can also export it to your<u> environment.</u>
+
+02:06.460 --> 02:06.840
+<u>With</u> three installation steps, the first being the back end.
+
+02:06.840 --> 02:07.180
+With<u> three</u> installation steps, the first being the back end.
+
+02:07.180 --> 02:07.740
+With three<u> installation</u> steps, the first being the back end.
+
+02:07.740 --> 02:08.240
+With three installation<u> steps,</u> the first being the back end.
+
+02:08.240 --> 02:08.500
+With three installation steps, the first being the back end.
+
+02:08.500 --> 02:08.600
+With three installation steps,<u> the</u> first being the back end.
+
+02:08.600 --> 02:08.940
+With three installation steps, the<u> first</u> being the back end.
+
+02:08.940 --> 02:09.320
+With three installation steps, the first<u> being</u> the back end.
+
+02:09.320 --> 02:09.540
+With three installation steps, the first being<u> the</u> back end.
+
+02:09.540 --> 02:09.760
+With three installation steps, the first being the<u> back</u> end.
+
+02:09.760 --> 02:10.080
+With three installation steps, the first being the back<u> end.</u>
+
+02:10.300 --> 02:10.400
+<u>What</u> you need is a Python environment and from there we can do a pip install, pip-enf.
+
+02:10.400 --> 02:10.580
+What<u> you</u> need is a Python environment and from there we can do a pip install, pip-enf.
+
+02:10.580 --> 02:10.800
+What you<u> need</u> is a Python environment and from there we can do a pip install, pip-enf.
+
+02:10.800 --> 02:11.000
+What you need<u> is</u> a Python environment and from there we can do a pip install, pip-enf.
+
+02:11.000 --> 02:11.160
+What you need is<u> a</u> Python environment and from there we can do a pip install, pip-enf.
+
+02:11.160 --> 02:11.380
+What you need is a<u> Python</u> environment and from there we can do a pip install, pip-enf.
+
+02:11.380 --> 02:11.960
+What you need is a Python<u> environment</u> and from there we can do a pip install, pip-enf.
+
+02:11.960 --> 02:12.340
+What you need is a Python environment<u> and</u> from there we can do a pip install, pip-enf.
+
+02:12.340 --> 02:12.560
+What you need is a Python environment and<u> from</u> there we can do a pip install, pip-enf.
+
+02:12.560 --> 02:12.820
+What you need is a Python environment and from<u> there</u> we can do a pip install, pip-enf.
+
+02:12.820 --> 02:13.020
+What you need is a Python environment and from there<u> we</u> can do a pip install, pip-enf.
+
+02:13.020 --> 02:13.200
+What you need is a Python environment and from there we<u> can</u> do a pip install, pip-enf.
+
+02:13.200 --> 02:13.360
+What you need is a Python environment and from there we can<u> do</u> a pip install, pip-enf.
+
+02:13.360 --> 02:13.500
+What you need is a Python environment and from there we can do<u> a</u> pip install, pip-enf.
+
+02:13.500 --> 02:13.640
+What you need is a Python environment and from there we can do a<u> pip</u> install, pip-enf.
+
+02:13.640 --> 02:14.100
+What you need is a Python environment and from there we can do a pip<u> install,</u> pip-enf.
+
+02:14.100 --> 02:14.400
+What you need is a Python environment and from there we can do a pip install, pip-enf.
+
+02:14.400 --> 02:14.600
+What you need is a Python environment and from there we can do a pip install,<u> pip</u>-enf.
+
+02:14.600 --> 02:15.160
+What you need is a Python environment and from there we can do a pip install, pip<u>-enf.</u>
+
+02:15.400 --> 02:15.960
+<u>Follow</u> that up with a pip-enf install-v and a pip shell
+
+02:15.960 --> 02:16.260
+Follow<u> that</u> up with a pip-enf install-v and a pip shell
+
+02:16.260 --> 02:16.440
+Follow that<u> up</u> with a pip-enf install-v and a pip shell
+
+02:16.440 --> 02:16.640
+Follow that up<u> with</u> a pip-enf install-v and a pip shell
+
+02:16.640 --> 02:16.760
+Follow that up with<u> a</u> pip-enf install-v and a pip shell
+
+02:16.760 --> 02:16.960
+Follow that up with a<u> pip</u>-enf install-v and a pip shell
+
+02:16.960 --> 02:17.360
+Follow that up with a pip<u>-enf</u> install-v and a pip shell
+
+02:17.360 --> 02:17.960
+Follow that up with a pip-enf<u> install</u>-v and a pip shell
+
+02:17.960 --> 02:18.600
+Follow that up with a pip-enf install<u>-v</u> and a pip shell
+
+02:18.600 --> 02:19.460
+Follow that up with a pip-enf install-v<u> and</u> a pip shell
+
+02:19.460 --> 02:19.860
+Follow that up with a pip-enf install-v and<u> a</u> pip shell
+
+02:19.860 --> 02:20.260
+Follow that up with a pip-enf install-v and a<u> pip</u> shell
+
+02:20.260 --> 02:20.600
+Follow that up with a pip-enf install-v and a pip<u> shell</u>
+
+02:20.600 --> 02:20.980
+<u>and</u> what that will do is use the pip file that's already in the project
+
+02:20.980 --> 02:21.140
+and<u> what</u> that will do is use the pip file that's already in the project
+
+02:21.140 --> 02:21.320
+and what<u> that</u> will do is use the pip file that's already in the project
+
+02:21.320 --> 02:21.440
+and what that<u> will</u> do is use the pip file that's already in the project
+
+02:21.440 --> 02:21.620
+and what that will<u> do</u> is use the pip file that's already in the project
+
+02:21.620 --> 02:21.840
+and what that will do<u> is</u> use the pip file that's already in the project
+
+02:21.840 --> 02:22.160
+and what that will do is<u> use</u> the pip file that's already in the project
+
+02:22.160 --> 02:22.560
+and what that will do is use<u> the</u> pip file that's already in the project
+
+02:22.560 --> 02:22.800
+and what that will do is use the<u> pip</u> file that's already in the project
+
+02:22.800 --> 02:23.220
+and what that will do is use the pip<u> file</u> that's already in the project
+
+02:23.220 --> 02:23.480
+and what that will do is use the pip file<u> that's</u> already in the project
+
+02:23.480 --> 02:23.780
+and what that will do is use the pip file that's<u> already</u> in the project
+
+02:23.780 --> 02:23.960
+and what that will do is use the pip file that's already<u> in</u> the project
+
+02:23.960 --> 02:24.060
+and what that will do is use the pip file that's already in<u> the</u> project
+
+02:24.060 --> 02:24.520
+and what that will do is use the pip file that's already in the<u> project</u>
+
+02:24.520 --> 02:24.800
+<u>to</u> make sure that the environment matches what works with OpenDevon.
+
+02:24.800 --> 02:24.900
+to<u> make</u> sure that the environment matches what works with OpenDevon.
+
+02:24.900 --> 02:25.180
+to make<u> sure</u> that the environment matches what works with OpenDevon.
+
+02:25.180 --> 02:25.380
+to make sure<u> that</u> the environment matches what works with OpenDevon.
+
+02:25.380 --> 02:25.560
+to make sure that<u> the</u> environment matches what works with OpenDevon.
+
+02:25.560 --> 02:26.140
+to make sure that the<u> environment</u> matches what works with OpenDevon.
+
+02:26.140 --> 02:26.800
+to make sure that the environment<u> matches</u> what works with OpenDevon.
+
+02:26.800 --> 02:27.180
+to make sure that the environment matches<u> what</u> works with OpenDevon.
+
+02:27.180 --> 02:27.820
+to make sure that the environment matches what<u> works</u> with OpenDevon.
+
+02:27.820 --> 02:28.400
+to make sure that the environment matches what works<u> with</u> OpenDevon.
+
+02:28.400 --> 02:29.240
+to make sure that the environment matches what works with<u> OpenDevon.</u>
+
+02:29.640 --> 02:29.900
+<u>With</u> your environment in place, you can now use UVicon to open the back end on port 3000.
+
+02:29.900 --> 02:30.080
+With<u> your</u> environment in place, you can now use UVicon to open the back end on port 3000.
+
+02:30.080 --> 02:30.640
+With your<u> environment</u> in place, you can now use UVicon to open the back end on port 3000.
+
+02:30.640 --> 02:30.860
+With your environment<u> in</u> place, you can now use UVicon to open the back end on port 3000.
+
+02:30.860 --> 02:31.120
+With your environment in<u> place,</u> you can now use UVicon to open the back end on port 3000.
+
+02:31.120 --> 02:31.220
+With your environment in place, you can now use UVicon to open the back end on port 3000.
+
+02:31.220 --> 02:31.360
+With your environment in place,<u> you</u> can now use UVicon to open the back end on port 3000.
+
+02:31.360 --> 02:31.500
+With your environment in place, you<u> can</u> now use UVicon to open the back end on port 3000.
+
+02:31.500 --> 02:31.640
+With your environment in place, you can<u> now</u> use UVicon to open the back end on port 3000.
+
+02:31.640 --> 02:31.920
+With your environment in place, you can now<u> use</u> UVicon to open the back end on port 3000.
+
+02:31.920 --> 02:32.620
+With your environment in place, you can now use<u> UVicon</u> to open the back end on port 3000.
+
+02:32.620 --> 02:32.980
+With your environment in place, you can now use UVicon<u> to</u> open the back end on port 3000.
+
+02:32.980 --> 02:33.460
+With your environment in place, you can now use UVicon to<u> open</u> the back end on port 3000.
+
+02:33.460 --> 02:33.640
+With your environment in place, you can now use UVicon to open<u> the</u> back end on port 3000.
+
+02:33.640 --> 02:33.900
+With your environment in place, you can now use UVicon to open the<u> back</u> end on port 3000.
+
+02:33.900 --> 02:34.260
+With your environment in place, you can now use UVicon to open the back<u> end</u> on port 3000.
+
+02:34.260 --> 02:34.740
+With your environment in place, you can now use UVicon to open the back end<u> on</u> port 3000.
+
+02:34.740 --> 02:35.020
+With your environment in place, you can now use UVicon to open the back end on<u> port</u> 3000.
+
+02:35.020 --> 02:35.720
+With your environment in place, you can now use UVicon to open the back end on port<u> 3000.</u>
+
+02:36.380 --> 02:36.640
+<u>So</u> long as you've gone through any troubleshooting sort of issues,
+
+02:36.640 --> 02:36.780
+So<u> long</u> as you've gone through any troubleshooting sort of issues,
+
+02:36.780 --> 02:36.880
+So long<u> as</u> you've gone through any troubleshooting sort of issues,
+
+02:36.880 --> 02:37.060
+So long as<u> you've</u> gone through any troubleshooting sort of issues,
+
+02:37.060 --> 02:37.220
+So long as you've<u> gone</u> through any troubleshooting sort of issues,
+
+02:37.220 --> 02:37.540
+So long as you've gone<u> through</u> any troubleshooting sort of issues,
+
+02:37.540 --> 02:37.800
+So long as you've gone through<u> any</u> troubleshooting sort of issues,
+
+02:37.800 --> 02:38.520
+So long as you've gone through any<u> troubleshooting</u> sort of issues,
+
+02:38.520 --> 02:38.840
+So long as you've gone through any troubleshooting<u> sort</u> of issues,
+
+02:38.840 --> 02:38.960
+So long as you've gone through any troubleshooting sort<u> of</u> issues,
+
+02:38.960 --> 02:39.440
+So long as you've gone through any troubleshooting sort of<u> issues,</u>
+
+02:39.820 --> 02:40.100
+<u>if</u> you come back later on and you try to run this and you have errors,
+
+02:40.100 --> 02:40.200
+if<u> you</u> come back later on and you try to run this and you have errors,
+
+02:40.200 --> 02:40.400
+if you<u> come</u> back later on and you try to run this and you have errors,
+
+02:40.400 --> 02:40.560
+if you come<u> back</u> later on and you try to run this and you have errors,
+
+02:40.560 --> 02:40.940
+if you come back<u> later</u> on and you try to run this and you have errors,
+
+02:40.940 --> 02:41.320
+if you come back later<u> on</u> and you try to run this and you have errors,
+
+02:41.320 --> 02:41.820
+if you come back later on<u> and</u> you try to run this and you have errors,
+
+02:41.820 --> 02:42.140
+if you come back later on and<u> you</u> try to run this and you have errors,
+
+02:42.140 --> 02:42.340
+if you come back later on and you<u> try</u> to run this and you have errors,
+
+02:42.340 --> 02:42.440
+if you come back later on and you try<u> to</u> run this and you have errors,
+
+02:42.440 --> 02:42.640
+if you come back later on and you try to<u> run</u> this and you have errors,
+
+02:42.640 --> 02:42.840
+if you come back later on and you try to run<u> this</u> and you have errors,
+
+02:42.840 --> 02:43.020
+if you come back later on and you try to run this<u> and</u> you have errors,
+
+02:43.020 --> 02:43.140
+if you come back later on and you try to run this and<u> you</u> have errors,
+
+02:43.140 --> 02:43.320
+if you come back later on and you try to run this and you<u> have</u> errors,
+
+02:43.320 --> 02:43.820
+if you come back later on and you try to run this and you have<u> errors,</u>
+
+02:43.880 --> 02:44.400
+<u>just</u> remember that you do need to activate the shell each time before starting the server.
+
+02:44.400 --> 02:44.820
+just<u> remember</u> that you do need to activate the shell each time before starting the server.
+
+02:44.820 --> 02:45.160
+just remember<u> that</u> you do need to activate the shell each time before starting the server.
+
+02:45.160 --> 02:45.320
+just remember that<u> you</u> do need to activate the shell each time before starting the server.
+
+02:45.320 --> 02:45.580
+just remember that you<u> do</u> need to activate the shell each time before starting the server.
+
+02:45.580 --> 02:45.800
+just remember that you do<u> need</u> to activate the shell each time before starting the server.
+
+02:45.800 --> 02:45.980
+just remember that you do need<u> to</u> activate the shell each time before starting the server.
+
+02:45.980 --> 02:46.360
+just remember that you do need to<u> activate</u> the shell each time before starting the server.
+
+02:46.360 --> 02:46.660
+just remember that you do need to activate<u> the</u> shell each time before starting the server.
+
+02:46.660 --> 02:46.880
+just remember that you do need to activate the<u> shell</u> each time before starting the server.
+
+02:46.880 --> 02:47.240
+just remember that you do need to activate the shell<u> each</u> time before starting the server.
+
+02:47.240 --> 02:47.540
+just remember that you do need to activate the shell each<u> time</u> before starting the server.
+
+02:47.540 --> 02:47.840
+just remember that you do need to activate the shell each time<u> before</u> starting the server.
+
+02:47.840 --> 02:48.360
+just remember that you do need to activate the shell each time before<u> starting</u> the server.
+
+02:48.360 --> 02:48.580
+just remember that you do need to activate the shell each time before starting<u> the</u> server.
+
+02:48.580 --> 02:48.840
+just remember that you do need to activate the shell each time before starting the<u> server.</u>
+
+02:49.320 --> 02:49.660
+<u>Let's</u> now look at the front-end chatbot which we will be running on port 3001 in this case
+
+02:49.660 --> 02:49.820
+Let's<u> now</u> look at the front-end chatbot which we will be running on port 3001 in this case
+
+02:49.820 --> 02:50.020
+Let's now<u> look</u> at the front-end chatbot which we will be running on port 3001 in this case
+
+02:50.020 --> 02:50.160
+Let's now look<u> at</u> the front-end chatbot which we will be running on port 3001 in this case
+
+02:50.160 --> 02:50.400
+Let's now look at<u> the</u> front-end chatbot which we will be running on port 3001 in this case
+
+02:50.400 --> 02:50.720
+Let's now look at the<u> front</u>-end chatbot which we will be running on port 3001 in this case
+
+02:50.720 --> 02:50.960
+Let's now look at the front<u>-end</u> chatbot which we will be running on port 3001 in this case
+
+02:50.960 --> 02:51.460
+Let's now look at the front-end<u> chatbot</u> which we will be running on port 3001 in this case
+
+02:51.460 --> 02:51.760
+Let's now look at the front-end chatbot<u> which</u> we will be running on port 3001 in this case
+
+02:51.760 --> 02:51.940
+Let's now look at the front-end chatbot which<u> we</u> will be running on port 3001 in this case
+
+02:51.940 --> 02:52.120
+Let's now look at the front-end chatbot which we<u> will</u> be running on port 3001 in this case
+
+02:52.120 --> 02:52.240
+Let's now look at the front-end chatbot which we will<u> be</u> running on port 3001 in this case
+
+02:52.240 --> 02:52.440
+Let's now look at the front-end chatbot which we will be<u> running</u> on port 3001 in this case
+
+02:52.440 --> 02:52.700
+Let's now look at the front-end chatbot which we will be running<u> on</u> port 3001 in this case
+
+02:52.700 --> 02:52.900
+Let's now look at the front-end chatbot which we will be running on<u> port</u> 3001 in this case
+
+02:52.900 --> 02:54.060
+Let's now look at the front-end chatbot which we will be running on port<u> 3001</u> in this case
+
+02:54.060 --> 02:54.260
+Let's now look at the front-end chatbot which we will be running on port 3001<u> in</u> this case
+
+02:54.260 --> 02:54.460
+Let's now look at the front-end chatbot which we will be running on port 3001 in<u> this</u> case
+
+02:54.460 --> 02:54.760
+Let's now look at the front-end chatbot which we will be running on port 3001 in this<u> case</u>
+
+02:54.760 --> 02:55.380
+<u>and</u> if you go over to your project, there will be a folder called front-end.
+
+02:55.380 --> 02:55.560
+and<u> if</u> you go over to your project, there will be a folder called front-end.
+
+02:55.560 --> 02:55.680
+and if<u> you</u> go over to your project, there will be a folder called front-end.
+
+02:55.680 --> 02:55.800
+and if you<u> go</u> over to your project, there will be a folder called front-end.
+
+02:55.800 --> 02:56.000
+and if you go<u> over</u> to your project, there will be a folder called front-end.
+
+02:56.000 --> 02:56.240
+and if you go over<u> to</u> your project, there will be a folder called front-end.
+
+02:56.240 --> 02:56.420
+and if you go over to<u> your</u> project, there will be a folder called front-end.
+
+02:56.420 --> 02:56.840
+and if you go over to your<u> project,</u> there will be a folder called front-end.
+
+02:56.840 --> 02:57.040
+and if you go over to your project, there will be a folder called front-end.
+
+02:57.040 --> 02:57.160
+and if you go over to your project,<u> there</u> will be a folder called front-end.
+
+02:57.160 --> 02:57.340
+and if you go over to your project, there<u> will</u> be a folder called front-end.
+
+02:57.340 --> 02:57.520
+and if you go over to your project, there will<u> be</u> a folder called front-end.
+
+02:57.520 --> 02:57.640
+and if you go over to your project, there will be<u> a</u> folder called front-end.
+
+02:57.640 --> 02:58.040
+and if you go over to your project, there will be a<u> folder</u> called front-end.
+
+02:58.040 --> 02:58.380
+and if you go over to your project, there will be a folder<u> called</u> front-end.
+
+02:58.380 --> 02:58.660
+and if you go over to your project, there will be a folder called<u> front</u>-end.
+
+02:58.660 --> 02:58.940
+and if you go over to your project, there will be a folder called front<u>-end.</u>
+
+02:59.080 --> 02:59.140
+<u>You</u> can just CD into that project and run an NPN install.
+
+02:59.140 --> 02:59.300
+You<u> can</u> just CD into that project and run an NPN install.
+
+02:59.300 --> 02:59.520
+You can<u> just</u> CD into that project and run an NPN install.
+
+02:59.520 --> 02:59.860
+You can just<u> CD</u> into that project and run an NPN install.
+
+02:59.860 --> 03:00.200
+You can just CD<u> into</u> that project and run an NPN install.
+
+03:00.200 --> 03:00.400
+You can just CD into<u> that</u> project and run an NPN install.
+
+03:00.400 --> 03:00.820
+You can just CD into that<u> project</u> and run an NPN install.
+
+03:00.820 --> 03:01.520
+You can just CD into that project<u> and</u> run an NPN install.
+
+03:01.520 --> 03:01.780
+You can just CD into that project and<u> run</u> an NPN install.
+
+03:01.780 --> 03:02.040
+You can just CD into that project and run<u> an</u> NPN install.
+
+03:02.040 --> 03:02.480
+You can just CD into that project and run an<u> NPN</u> install.
+
+03:02.480 --> 03:02.960
+You can just CD into that project and run an NPN<u> install.</u>
+
+03:03.540 --> 03:03.840
+<u>These</u> installations we can now start the application
+
+03:03.840 --> 03:04.400
+These<u> installations</u> we can now start the application
+
+03:04.400 --> 03:04.780
+These installations<u> we</u> can now start the application
+
+03:04.780 --> 03:04.960
+These installations we<u> can</u> now start the application
+
+03:04.960 --> 03:05.100
+These installations we can<u> now</u> start the application
+
+03:05.100 --> 03:05.360
+These installations we can now<u> start</u> the application
+
+03:05.360 --> 03:05.560
+These installations we can now start<u> the</u> application
+
+03:05.560 --> 03:06.120
+These installations we can now start the<u> application</u>
+
+03:06.120 --> 03:06.400
+<u>and</u> what you'll see here are a couple of terminals where on the left I've got the Python back end running
+
+03:06.400 --> 03:06.580
+and<u> what</u> you'll see here are a couple of terminals where on the left I've got the Python back end running
+
+03:06.580 --> 03:06.800
+and what<u> you'll</u> see here are a couple of terminals where on the left I've got the Python back end running
+
+03:06.800 --> 03:07.040
+and what you'll<u> see</u> here are a couple of terminals where on the left I've got the Python back end running
+
+03:07.040 --> 03:07.380
+and what you'll see<u> here</u> are a couple of terminals where on the left I've got the Python back end running
+
+03:07.380 --> 03:07.600
+and what you'll see here<u> are</u> a couple of terminals where on the left I've got the Python back end running
+
+03:07.600 --> 03:07.780
+and what you'll see here are<u> a</u> couple of terminals where on the left I've got the Python back end running
+
+03:07.780 --> 03:07.980
+and what you'll see here are a<u> couple</u> of terminals where on the left I've got the Python back end running
+
+03:07.980 --> 03:08.160
+and what you'll see here are a couple<u> of</u> terminals where on the left I've got the Python back end running
+
+03:08.160 --> 03:08.520
+and what you'll see here are a couple of<u> terminals</u> where on the left I've got the Python back end running
+
+03:08.520 --> 03:08.900
+and what you'll see here are a couple of terminals<u> where</u> on the left I've got the Python back end running
+
+03:08.900 --> 03:09.100
+and what you'll see here are a couple of terminals where<u> on</u> the left I've got the Python back end running
+
+03:09.100 --> 03:09.200
+and what you'll see here are a couple of terminals where on<u> the</u> left I've got the Python back end running
+
+03:09.200 --> 03:09.540
+and what you'll see here are a couple of terminals where on the<u> left</u> I've got the Python back end running
+
+03:09.540 --> 03:09.940
+and what you'll see here are a couple of terminals where on the left<u> I've</u> got the Python back end running
+
+03:09.940 --> 03:10.100
+and what you'll see here are a couple of terminals where on the left I've<u> got</u> the Python back end running
+
+03:10.100 --> 03:10.280
+and what you'll see here are a couple of terminals where on the left I've got<u> the</u> Python back end running
+
+03:10.280 --> 03:10.580
+and what you'll see here are a couple of terminals where on the left I've got the<u> Python</u> back end running
+
+03:10.580 --> 03:10.880
+and what you'll see here are a couple of terminals where on the left I've got the Python<u> back</u> end running
+
+03:10.880 --> 03:11.140
+and what you'll see here are a couple of terminals where on the left I've got the Python back<u> end</u> running
+
+03:11.140 --> 03:11.520
+and what you'll see here are a couple of terminals where on the left I've got the Python back end<u> running</u>
+
+03:11.660 --> 03:12.180
+<u>and</u> on the right I've got the Node.js front-end running
+
+03:12.180 --> 03:12.380
+and<u> on</u> the right I've got the Node.js front-end running
+
+03:12.380 --> 03:12.520
+and on<u> the</u> right I've got the Node.js front-end running
+
+03:12.520 --> 03:12.880
+and on the<u> right</u> I've got the Node.js front-end running
+
+03:12.880 --> 03:13.280
+and on the right<u> I've</u> got the Node.js front-end running
+
+03:13.280 --> 03:13.500
+and on the right I've<u> got</u> the Node.js front-end running
+
+03:13.500 --> 03:13.720
+and on the right I've got<u> the</u> Node.js front-end running
+
+03:13.720 --> 03:13.960
+and on the right I've got the<u> Node</u>.js front-end running
+
+03:13.960 --> 03:14.380
+and on the right I've got the Node<u>.js</u> front-end running
+
+03:14.380 --> 03:14.880
+and on the right I've got the Node.js<u> front</u>-end running
+
+03:14.880 --> 03:15.160
+and on the right I've got the Node.js front<u>-end</u> running
+
+03:15.160 --> 03:15.540
+and on the right I've got the Node.js front-end<u> running</u>
+
+03:15.540 --> 03:16.120
+<u>and</u> you can see that it's running on port 3001.
+
+03:16.120 --> 03:16.340
+and<u> you</u> can see that it's running on port 3001.
+
+03:16.340 --> 03:16.480
+and you<u> can</u> see that it's running on port 3001.
+
+03:16.480 --> 03:16.700
+and you can<u> see</u> that it's running on port 3001.
+
+03:16.700 --> 03:16.880
+and you can see<u> that</u> it's running on port 3001.
+
+03:16.880 --> 03:17.080
+and you can see that<u> it's</u> running on port 3001.
+
+03:17.080 --> 03:17.440
+and you can see that it's<u> running</u> on port 3001.
+
+03:17.440 --> 03:17.800
+and you can see that it's running<u> on</u> port 3001.
+
+03:17.800 --> 03:18.200
+and you can see that it's running on<u> port</u> 3001.
+
+03:18.200 --> 03:19.340
+and you can see that it's running on port<u> 3001.</u>
+
+03:20.100 --> 03:20.400
+<u>Now</u> before you write any prompts to create some code,
+
+03:20.400 --> 03:20.680
+Now<u> before</u> you write any prompts to create some code,
+
+03:20.680 --> 03:20.860
+Now before<u> you</u> write any prompts to create some code,
+
+03:20.860 --> 03:21.060
+Now before you<u> write</u> any prompts to create some code,
+
+03:21.060 --> 03:21.260
+Now before you write<u> any</u> prompts to create some code,
+
+03:21.260 --> 03:21.660
+Now before you write any<u> prompts</u> to create some code,
+
+03:21.660 --> 03:22.000
+Now before you write any prompts<u> to</u> create some code,
+
+03:22.000 --> 03:22.360
+Now before you write any prompts to<u> create</u> some code,
+
+03:22.360 --> 03:22.620
+Now before you write any prompts to create<u> some</u> code,
+
+03:22.620 --> 03:22.880
+Now before you write any prompts to create some<u> code,</u>
+
+03:23.040 --> 03:23.080
+<u>we</u> do need to configure and make sure everything is working with the Docker container.
+
+03:23.080 --> 03:23.320
+we<u> do</u> need to configure and make sure everything is working with the Docker container.
+
+03:23.320 --> 03:23.480
+we do<u> need</u> to configure and make sure everything is working with the Docker container.
+
+03:23.480 --> 03:23.620
+we do need<u> to</u> configure and make sure everything is working with the Docker container.
+
+03:23.620 --> 03:24.120
+we do need to<u> configure</u> and make sure everything is working with the Docker container.
+
+03:24.120 --> 03:24.520
+we do need to configure<u> and</u> make sure everything is working with the Docker container.
+
+03:24.520 --> 03:24.660
+we do need to configure and<u> make</u> sure everything is working with the Docker container.
+
+03:24.660 --> 03:24.960
+we do need to configure and make<u> sure</u> everything is working with the Docker container.
+
+03:24.960 --> 03:25.280
+we do need to configure and make sure<u> everything</u> is working with the Docker container.
+
+03:25.280 --> 03:25.480
+we do need to configure and make sure everything<u> is</u> working with the Docker container.
+
+03:25.480 --> 03:25.740
+we do need to configure and make sure everything is<u> working</u> with the Docker container.
+
+03:25.740 --> 03:25.960
+we do need to configure and make sure everything is working<u> with</u> the Docker container.
+
+03:25.960 --> 03:26.140
+we do need to configure and make sure everything is working with<u> the</u> Docker container.
+
+03:26.140 --> 03:26.440
+we do need to configure and make sure everything is working with the<u> Docker</u> container.
+
+03:26.440 --> 03:27.160
+we do need to configure and make sure everything is working with the Docker<u> container.</u>
+
+03:27.600 --> 03:27.740
+<u>What</u> you can do is start the application as normal,
+
+03:27.740 --> 03:27.880
+What<u> you</u> can do is start the application as normal,
+
+03:27.880 --> 03:28.040
+What you<u> can</u> do is start the application as normal,
+
+03:28.040 --> 03:28.360
+What you can<u> do</u> is start the application as normal,
+
+03:28.360 --> 03:28.720
+What you can do<u> is</u> start the application as normal,
+
+03:28.720 --> 03:29.080
+What you can do is<u> start</u> the application as normal,
+
+03:29.080 --> 03:29.260
+What you can do is start<u> the</u> application as normal,
+
+03:29.260 --> 03:29.780
+What you can do is start the<u> application</u> as normal,
+
+03:29.780 --> 03:30.140
+What you can do is start the application<u> as</u> normal,
+
+03:30.140 --> 03:30.440
+What you can do is start the application as<u> normal,</u>
+
+03:30.680 --> 03:30.960
+<u>run</u> a Docker PS and you will see no containers listed
+
+03:30.960 --> 03:31.140
+run<u> a</u> Docker PS and you will see no containers listed
+
+03:31.140 --> 03:31.320
+run a<u> Docker</u> PS and you will see no containers listed
+
+03:31.320 --> 03:31.740
+run a Docker<u> PS</u> and you will see no containers listed
+
+03:31.740 --> 03:32.200
+run a Docker PS<u> and</u> you will see no containers listed
+
+03:32.200 --> 03:32.400
+run a Docker PS and<u> you</u> will see no containers listed
+
+03:32.400 --> 03:32.580
+run a Docker PS and you<u> will</u> see no containers listed
+
+03:32.580 --> 03:32.800
+run a Docker PS and you will<u> see</u> no containers listed
+
+03:32.800 --> 03:33.020
+run a Docker PS and you will see<u> no</u> containers listed
+
+03:33.020 --> 03:33.540
+run a Docker PS and you will see no<u> containers</u> listed
+
+03:33.540 --> 03:34.100
+run a Docker PS and you will see no containers<u> listed</u>
+
+03:34.100 --> 03:34.640
+<u>but</u> the moment you start running an actual prompt to generate code, it will reach out
+
+03:34.640 --> 03:34.840
+but<u> the</u> moment you start running an actual prompt to generate code, it will reach out
+
+03:34.840 --> 03:35.220
+but the<u> moment</u> you start running an actual prompt to generate code, it will reach out
+
+03:35.220 --> 03:35.440
+but the moment<u> you</u> start running an actual prompt to generate code, it will reach out
+
+03:35.440 --> 03:35.720
+but the moment you<u> start</u> running an actual prompt to generate code, it will reach out
+
+03:35.720 --> 03:36.300
+but the moment you start<u> running</u> an actual prompt to generate code, it will reach out
+
+03:36.300 --> 03:36.540
+but the moment you start running<u> an</u> actual prompt to generate code, it will reach out
+
+03:36.540 --> 03:36.820
+but the moment you start running an<u> actual</u> prompt to generate code, it will reach out
+
+03:36.820 --> 03:37.260
+but the moment you start running an actual<u> prompt</u> to generate code, it will reach out
+
+03:37.260 --> 03:37.480
+but the moment you start running an actual prompt<u> to</u> generate code, it will reach out
+
+03:37.480 --> 03:37.720
+but the moment you start running an actual prompt to<u> generate</u> code, it will reach out
+
+03:37.720 --> 03:38.180
+but the moment you start running an actual prompt to generate<u> code,</u> it will reach out
+
+03:38.180 --> 03:38.320
+but the moment you start running an actual prompt to generate code, it will reach out
+
+03:38.320 --> 03:38.580
+but the moment you start running an actual prompt to generate code,<u> it</u> will reach out
+
+03:38.580 --> 03:38.740
+but the moment you start running an actual prompt to generate code, it<u> will</u> reach out
+
+03:38.740 --> 03:39.000
+but the moment you start running an actual prompt to generate code, it will<u> reach</u> out
+
+03:39.000 --> 03:39.320
+but the moment you start running an actual prompt to generate code, it will reach<u> out</u>
+
+03:39.320 --> 03:39.500
+<u>and</u> from there you should be able to do a Docker PS.
+
+03:39.500 --> 03:39.700
+and<u> from</u> there you should be able to do a Docker PS.
+
+03:39.700 --> 03:40.040
+and from<u> there</u> you should be able to do a Docker PS.
+
+03:40.040 --> 03:40.240
+and from there<u> you</u> should be able to do a Docker PS.
+
+03:40.240 --> 03:40.440
+and from there you<u> should</u> be able to do a Docker PS.
+
+03:40.440 --> 03:40.620
+and from there you should<u> be</u> able to do a Docker PS.
+
+03:40.620 --> 03:40.860
+and from there you should be<u> able</u> to do a Docker PS.
+
+03:40.860 --> 03:41.020
+and from there you should be able<u> to</u> do a Docker PS.
+
+03:41.020 --> 03:41.400
+and from there you should be able to<u> do</u> a Docker PS.
+
+03:41.400 --> 03:41.560
+and from there you should be able to do<u> a</u> Docker PS.
+
+03:41.560 --> 03:41.720
+and from there you should be able to do a<u> Docker</u> PS.
+
+03:41.720 --> 03:42.120
+and from there you should be able to do a Docker<u> PS.</u>
+
+03:42.860 --> 03:43.160
+<u>You'll</u> see the OpenDevern sandbox running.
+
+03:43.160 --> 03:43.420
+You'll<u> see</u> the OpenDevern sandbox running.
+
+03:43.420 --> 03:43.580
+You'll see<u> the</u> OpenDevern sandbox running.
+
+03:43.580 --> 03:44.800
+You'll see the<u> OpenDevern</u> sandbox running.
+
+03:44.800 --> 03:45.020
+You'll see the OpenDevern<u> sandbox</u> running.
+
+03:45.020 --> 03:45.960
+You'll see the OpenDevern sandbox<u> running.</u>
+
+03:46.560 --> 03:46.840
+<u>Let's</u> look at the example application that I wanted to create with OpenDevern.
+
+03:46.840 --> 03:47.020
+Let's<u> look</u> at the example application that I wanted to create with OpenDevern.
+
+03:47.020 --> 03:47.180
+Let's look<u> at</u> the example application that I wanted to create with OpenDevern.
+
+03:47.180 --> 03:47.520
+Let's look at<u> the</u> example application that I wanted to create with OpenDevern.
+
+03:47.520 --> 03:48.100
+Let's look at the<u> example</u> application that I wanted to create with OpenDevern.
+
+03:48.100 --> 03:48.620
+Let's look at the example<u> application</u> that I wanted to create with OpenDevern.
+
+03:48.620 --> 03:48.880
+Let's look at the example application<u> that</u> I wanted to create with OpenDevern.
+
+03:48.880 --> 03:49.000
+Let's look at the example application that<u> I</u> wanted to create with OpenDevern.
+
+03:49.000 --> 03:49.200
+Let's look at the example application that I<u> wanted</u> to create with OpenDevern.
+
+03:49.200 --> 03:49.400
+Let's look at the example application that I wanted<u> to</u> create with OpenDevern.
+
+03:49.400 --> 03:49.680
+Let's look at the example application that I wanted to<u> create</u> with OpenDevern.
+
+03:49.680 --> 03:49.920
+Let's look at the example application that I wanted to create<u> with</u> OpenDevern.
+
+03:49.920 --> 03:50.900
+Let's look at the example application that I wanted to create with<u> OpenDevern.</u>
+
+03:51.300 --> 03:51.520
+<u>Now</u> recently I've been playing around with YouTube automation agents,
+
+03:51.520 --> 03:52.040
+Now<u> recently</u> I've been playing around with YouTube automation agents,
+
+03:52.040 --> 03:52.660
+Now recently<u> I've</u> been playing around with YouTube automation agents,
+
+03:52.660 --> 03:52.820
+Now recently I've<u> been</u> playing around with YouTube automation agents,
+
+03:52.820 --> 03:53.160
+Now recently I've been<u> playing</u> around with YouTube automation agents,
+
+03:53.160 --> 03:53.500
+Now recently I've been playing<u> around</u> with YouTube automation agents,
+
+03:53.500 --> 03:53.680
+Now recently I've been playing around<u> with</u> YouTube automation agents,
+
+03:53.680 --> 03:54.100
+Now recently I've been playing around with<u> YouTube</u> automation agents,
+
+03:54.100 --> 03:54.800
+Now recently I've been playing around with YouTube<u> automation</u> agents,
+
+03:54.800 --> 03:55.460
+Now recently I've been playing around with YouTube automation<u> agents,</u>
+
+03:55.940 --> 03:56.100
+<u>what</u> I would call an army of workers and I've been doing that using CrewAI
+
+03:56.100 --> 03:56.260
+what<u> I</u> would call an army of workers and I've been doing that using CrewAI
+
+03:56.260 --> 03:56.400
+what I<u> would</u> call an army of workers and I've been doing that using CrewAI
+
+03:56.400 --> 03:56.620
+what I would<u> call</u> an army of workers and I've been doing that using CrewAI
+
+03:56.620 --> 03:56.780
+what I would call<u> an</u> army of workers and I've been doing that using CrewAI
+
+03:56.780 --> 03:57.200
+what I would call an<u> army</u> of workers and I've been doing that using CrewAI
+
+03:57.200 --> 03:57.740
+what I would call an army<u> of</u> workers and I've been doing that using CrewAI
+
+03:57.740 --> 03:58.240
+what I would call an army of<u> workers</u> and I've been doing that using CrewAI
+
+03:58.240 --> 03:58.860
+what I would call an army of workers<u> and</u> I've been doing that using CrewAI
+
+03:58.860 --> 03:59.100
+what I would call an army of workers and<u> I've</u> been doing that using CrewAI
+
+03:59.100 --> 03:59.200
+what I would call an army of workers and I've<u> been</u> doing that using CrewAI
+
+03:59.200 --> 03:59.380
+what I would call an army of workers and I've been<u> doing</u> that using CrewAI
+
+03:59.380 --> 03:59.600
+what I would call an army of workers and I've been doing<u> that</u> using CrewAI
+
+03:59.600 --> 03:59.920
+what I would call an army of workers and I've been doing that<u> using</u> CrewAI
+
+03:59.920 --> 04:00.740
+what I would call an army of workers and I've been doing that using<u> CrewAI</u>
+
+04:00.740 --> 04:01.560
+<u>and</u> what I was looking for was if the agents are running in the background,
+
+04:01.560 --> 04:01.760
+and<u> what</u> I was looking for was if the agents are running in the background,
+
+04:01.760 --> 04:01.880
+and what<u> I</u> was looking for was if the agents are running in the background,
+
+04:01.880 --> 04:02.020
+and what I<u> was</u> looking for was if the agents are running in the background,
+
+04:02.020 --> 04:02.320
+and what I was<u> looking</u> for was if the agents are running in the background,
+
+04:02.320 --> 04:02.900
+and what I was looking<u> for</u> was if the agents are running in the background,
+
+04:02.900 --> 04:03.300
+and what I was looking for<u> was</u> if the agents are running in the background,
+
+04:03.300 --> 04:03.560
+and what I was looking for was<u> if</u> the agents are running in the background,
+
+04:03.560 --> 04:03.720
+and what I was looking for was if<u> the</u> agents are running in the background,
+
+04:03.720 --> 04:04.120
+and what I was looking for was if the<u> agents</u> are running in the background,
+
+04:04.120 --> 04:04.380
+and what I was looking for was if the agents<u> are</u> running in the background,
+
+04:04.380 --> 04:04.540
+and what I was looking for was if the agents are<u> running</u> in the background,
+
+04:04.540 --> 04:04.720
+and what I was looking for was if the agents are running<u> in</u> the background,
+
+04:04.720 --> 04:04.800
+and what I was looking for was if the agents are running in<u> the</u> background,
+
+04:04.800 --> 04:05.240
+and what I was looking for was if the agents are running in the<u> background,</u>
+
+04:05.240 --> 04:05.800
+<u>how</u> can I communicate with them from the front-end and what technology would I pick
+
+04:05.800 --> 04:06.040
+how<u> can</u> I communicate with them from the front-end and what technology would I pick
+
+04:06.040 --> 04:06.160
+how can<u> I</u> communicate with them from the front-end and what technology would I pick
+
+04:06.160 --> 04:06.720
+how can I<u> communicate</u> with them from the front-end and what technology would I pick
+
+04:06.720 --> 04:07.060
+how can I communicate<u> with</u> them from the front-end and what technology would I pick
+
+04:07.060 --> 04:07.240
+how can I communicate with<u> them</u> from the front-end and what technology would I pick
+
+04:07.240 --> 04:07.400
+how can I communicate with them<u> from</u> the front-end and what technology would I pick
+
+04:07.400 --> 04:07.540
+how can I communicate with them from<u> the</u> front-end and what technology would I pick
+
+04:07.540 --> 04:07.760
+how can I communicate with them from the<u> front</u>-end and what technology would I pick
+
+04:07.760 --> 04:08.040
+how can I communicate with them from the front<u>-end</u> and what technology would I pick
+
+04:08.040 --> 04:08.720
+how can I communicate with them from the front-end<u> and</u> what technology would I pick
+
+04:08.720 --> 04:09.160
+how can I communicate with them from the front-end and<u> what</u> technology would I pick
+
+04:09.160 --> 04:09.640
+how can I communicate with them from the front-end and what<u> technology</u> would I pick
+
+04:09.640 --> 04:10.000
+how can I communicate with them from the front-end and what technology<u> would</u> I pick
+
+04:10.000 --> 04:10.140
+how can I communicate with them from the front-end and what technology would<u> I</u> pick
+
+04:10.140 --> 04:10.400
+how can I communicate with them from the front-end and what technology would I<u> pick</u>
+
+04:10.400 --> 04:10.760
+<u>and</u> I thought let's try and create an AstroJS application using OpenDevern.
+
+04:10.760 --> 04:10.980
+and<u> I</u> thought let's try and create an AstroJS application using OpenDevern.
+
+04:10.980 --> 04:11.140
+and I<u> thought</u> let's try and create an AstroJS application using OpenDevern.
+
+04:11.140 --> 04:11.580
+and I thought<u> let's</u> try and create an AstroJS application using OpenDevern.
+
+04:11.580 --> 04:12.040
+and I thought let's<u> try</u> and create an AstroJS application using OpenDevern.
+
+04:12.040 --> 04:12.200
+and I thought let's try<u> and</u> create an AstroJS application using OpenDevern.
+
+04:12.200 --> 04:12.520
+and I thought let's try and<u> create</u> an AstroJS application using OpenDevern.
+
+04:12.520 --> 04:12.920
+and I thought let's try and create<u> an</u> AstroJS application using OpenDevern.
+
+04:12.920 --> 04:13.860
+and I thought let's try and create an<u> AstroJS</u> application using OpenDevern.
+
+04:13.860 --> 04:14.220
+and I thought let's try and create an AstroJS<u> application</u> using OpenDevern.
+
+04:14.220 --> 04:14.880
+and I thought let's try and create an AstroJS application<u> using</u> OpenDevern.
+
+04:14.880 --> 04:15.960
+and I thought let's try and create an AstroJS application using<u> OpenDevern.</u>
+
+04:15.960 --> 04:16.200
+<u>Getting</u> over to the OpenDevern workspace,
+
+04:16.200 --> 04:16.400
+Getting<u> over</u> to the OpenDevern workspace,
+
+04:16.400 --> 04:16.660
+Getting over<u> to</u> the OpenDevern workspace,
+
+04:16.660 --> 04:16.880
+Getting over to<u> the</u> OpenDevern workspace,
+
+04:16.880 --> 04:17.540
+Getting over to the<u> OpenDevern</u> workspace,
+
+04:17.540 --> 04:17.860
+Getting over to the OpenDevern<u> workspace,</u>
+
+04:18.340 --> 04:18.520
+<u>we</u> can select a large language model to work with.
+
+04:18.520 --> 04:18.880
+we<u> can</u> select a large language model to work with.
+
+04:18.880 --> 04:19.240
+we can<u> select</u> a large language model to work with.
+
+04:19.240 --> 04:19.440
+we can select<u> a</u> large language model to work with.
+
+04:19.440 --> 04:19.780
+we can select a<u> large</u> language model to work with.
+
+04:19.780 --> 04:20.120
+we can select a large<u> language</u> model to work with.
+
+04:20.120 --> 04:20.520
+we can select a large language<u> model</u> to work with.
+
+04:20.520 --> 04:20.720
+we can select a large language model<u> to</u> work with.
+
+04:20.720 --> 04:20.940
+we can select a large language model to<u> work</u> with.
+
+04:20.940 --> 04:21.220
+we can select a large language model to work<u> with.</u>
+
+04:21.540 --> 04:21.900
+<u>I'm</u> using OpenAI so I'll go with GPT-4
+
+04:21.900 --> 04:22.240
+I'm<u> using</u> OpenAI so I'll go with GPT-4
+
+04:22.240 --> 04:23.000
+I'm using<u> OpenAI</u> so I'll go with GPT-4
+
+04:23.000 --> 04:23.440
+I'm using OpenAI<u> so</u> I'll go with GPT-4
+
+04:23.440 --> 04:23.620
+I'm using OpenAI so<u> I'll</u> go with GPT-4
+
+04:23.620 --> 04:23.760
+I'm using OpenAI so I'll<u> go</u> with GPT-4
+
+04:23.760 --> 04:23.960
+I'm using OpenAI so I'll go<u> with</u> GPT-4
+
+04:23.960 --> 04:24.480
+I'm using OpenAI so I'll go with<u> GPT</u>-4
+
+04:24.480 --> 04:25.060
+I'm using OpenAI so I'll go with GPT<u>-4</u>
+
+04:25.060 --> 04:25.580
+<u>and</u> from there we just need to write a prompt.
+
+04:25.580 --> 04:25.700
+and<u> from</u> there we just need to write a prompt.
+
+04:25.700 --> 04:25.940
+and from<u> there</u> we just need to write a prompt.
+
+04:25.940 --> 04:26.100
+and from there<u> we</u> just need to write a prompt.
+
+04:26.100 --> 04:26.300
+and from there we<u> just</u> need to write a prompt.
+
+04:26.300 --> 04:26.460
+and from there we just<u> need</u> to write a prompt.
+
+04:26.460 --> 04:26.640
+and from there we just need<u> to</u> write a prompt.
+
+04:26.640 --> 04:26.760
+and from there we just need to<u> write</u> a prompt.
+
+04:26.760 --> 04:26.900
+and from there we just need to write<u> a</u> prompt.
+
+04:26.900 --> 04:27.140
+and from there we just need to write a<u> prompt.</u>
+
+04:27.340 --> 04:27.400
+<u>Now</u> the prompt I had was install a new AstroJS project named FlyVideo,
+
+04:27.400 --> 04:27.520
+Now<u> the</u> prompt I had was install a new AstroJS project named FlyVideo,
+
+04:27.520 --> 04:27.660
+Now the<u> prompt</u> I had was install a new AstroJS project named FlyVideo,
+
+04:27.660 --> 04:27.880
+Now the prompt<u> I</u> had was install a new AstroJS project named FlyVideo,
+
+04:27.880 --> 04:28.160
+Now the prompt I<u> had</u> was install a new AstroJS project named FlyVideo,
+
+04:28.160 --> 04:28.360
+Now the prompt I had<u> was</u> install a new AstroJS project named FlyVideo,
+
+04:28.360 --> 04:28.980
+Now the prompt I had was<u> install</u> a new AstroJS project named FlyVideo,
+
+04:28.980 --> 04:29.320
+Now the prompt I had was install<u> a</u> new AstroJS project named FlyVideo,
+
+04:29.320 --> 04:29.520
+Now the prompt I had was install a<u> new</u> AstroJS project named FlyVideo,
+
+04:29.520 --> 04:30.540
+Now the prompt I had was install a new<u> AstroJS</u> project named FlyVideo,
+
+04:30.540 --> 04:30.980
+Now the prompt I had was install a new AstroJS<u> project</u> named FlyVideo,
+
+04:30.980 --> 04:31.580
+Now the prompt I had was install a new AstroJS project<u> named</u> FlyVideo,
+
+04:31.580 --> 04:32.340
+Now the prompt I had was install a new AstroJS project named<u> FlyVideo,</u>
+
+04:32.500 --> 04:33.220
+<u>use</u> Tailwind CSS and create a simple home page
+
+04:33.220 --> 04:33.700
+use<u> Tailwind</u> CSS and create a simple home page
+
+04:33.700 --> 04:34.040
+use Tailwind<u> CSS</u> and create a simple home page
+
+04:34.040 --> 04:34.740
+use Tailwind CSS<u> and</u> create a simple home page
+
+04:34.740 --> 04:35.020
+use Tailwind CSS and<u> create</u> a simple home page
+
+04:35.020 --> 04:35.260
+use Tailwind CSS and create<u> a</u> simple home page
+
+04:35.260 --> 04:35.500
+use Tailwind CSS and create a<u> simple</u> home page
+
+04:35.500 --> 04:35.900
+use Tailwind CSS and create a simple<u> home</u> page
+
+04:35.900 --> 04:36.280
+use Tailwind CSS and create a simple home<u> page</u>
+
+04:36.280 --> 04:36.600
+<u>for</u> a SAS application for YouTube automation.
+
+04:36.600 --> 04:36.900
+for<u> a</u> SAS application for YouTube automation.
+
+04:36.900 --> 04:37.140
+for a<u> SAS</u> application for YouTube automation.
+
+04:37.140 --> 04:37.920
+for a SAS<u> application</u> for YouTube automation.
+
+04:37.920 --> 04:38.120
+for a SAS application<u> for</u> YouTube automation.
+
+04:38.120 --> 04:38.380
+for a SAS application for<u> YouTube</u> automation.
+
+04:38.380 --> 04:38.960
+for a SAS application for YouTube<u> automation.</u>
+
+04:39.240 --> 04:39.760
+<u>So</u> I started running NPN Create Astro at latest with the parameters
+
+04:39.760 --> 04:39.880
+So<u> I</u> started running NPN Create Astro at latest with the parameters
+
+04:39.880 --> 04:40.060
+So I<u> started</u> running NPN Create Astro at latest with the parameters
+
+04:40.060 --> 04:40.640
+So I started<u> running</u> NPN Create Astro at latest with the parameters
+
+04:40.640 --> 04:41.420
+So I started running<u> NPN</u> Create Astro at latest with the parameters
+
+04:41.420 --> 04:41.800
+So I started running NPN<u> Create</u> Astro at latest with the parameters
+
+04:41.800 --> 04:42.460
+So I started running NPN Create<u> Astro</u> at latest with the parameters
+
+04:42.460 --> 04:42.760
+So I started running NPN Create Astro<u> at</u> latest with the parameters
+
+04:42.760 --> 04:43.200
+So I started running NPN Create Astro at<u> latest</u> with the parameters
+
+04:43.200 --> 04:43.680
+So I started running NPN Create Astro at latest<u> with</u> the parameters
+
+04:43.680 --> 04:44.040
+So I started running NPN Create Astro at latest with<u> the</u> parameters
+
+04:44.040 --> 04:44.360
+So I started running NPN Create Astro at latest with the<u> parameters</u>
+
+04:44.360 --> 04:44.720
+<u>that</u> make sense for the project that I'm creating
+
+04:44.720 --> 04:44.900
+that<u> make</u> sense for the project that I'm creating
+
+04:44.900 --> 04:45.220
+that make<u> sense</u> for the project that I'm creating
+
+04:45.220 --> 04:45.460
+that make sense<u> for</u> the project that I'm creating
+
+04:45.460 --> 04:45.560
+that make sense for<u> the</u> project that I'm creating
+
+04:45.560 --> 04:45.860
+that make sense for the<u> project</u> that I'm creating
+
+04:45.860 --> 04:46.080
+that make sense for the project<u> that</u> I'm creating
+
+04:46.080 --> 04:46.260
+that make sense for the project that<u> I'm</u> creating
+
+04:46.260 --> 04:46.740
+that make sense for the project that I'm<u> creating</u>
+
+04:46.740 --> 04:47.340
+<u>and</u> then starting to install NodeJS dependencies.
+
+04:47.340 --> 04:47.500
+and<u> then</u> starting to install NodeJS dependencies.
+
+04:47.500 --> 04:47.880
+and then<u> starting</u> to install NodeJS dependencies.
+
+04:47.880 --> 04:48.360
+and then starting<u> to</u> install NodeJS dependencies.
+
+04:48.360 --> 04:49.020
+and then starting to<u> install</u> NodeJS dependencies.
+
+04:49.020 --> 04:49.960
+and then starting to install<u> NodeJS</u> dependencies.
+
+04:49.960 --> 04:50.440
+and then starting to install NodeJS<u> dependencies.</u>
+
+04:51.300 --> 04:51.500
+<u>One</u> of the things it did do was use the workspace variable
+
+04:51.500 --> 04:51.640
+One<u> of</u> the things it did do was use the workspace variable
+
+04:51.640 --> 04:51.720
+One of<u> the</u> things it did do was use the workspace variable
+
+04:51.720 --> 04:51.940
+One of the<u> things</u> it did do was use the workspace variable
+
+04:51.940 --> 04:52.160
+One of the things<u> it</u> did do was use the workspace variable
+
+04:52.160 --> 04:52.380
+One of the things it<u> did</u> do was use the workspace variable
+
+04:52.380 --> 04:52.700
+One of the things it did<u> do</u> was use the workspace variable
+
+04:52.700 --> 04:53.040
+One of the things it did do<u> was</u> use the workspace variable
+
+04:53.040 --> 04:53.400
+One of the things it did do was<u> use</u> the workspace variable
+
+04:53.400 --> 04:53.700
+One of the things it did do was use<u> the</u> workspace variable
+
+04:53.700 --> 04:54.000
+One of the things it did do was use the<u> workspace</u> variable
+
+04:54.000 --> 04:54.580
+One of the things it did do was use the workspace<u> variable</u>
+
+04:54.580 --> 04:54.940
+<u>to</u> create a new workspace folder within the project that is OpenDevern.
+
+04:54.940 --> 04:55.420
+to<u> create</u> a new workspace folder within the project that is OpenDevern.
+
+04:55.420 --> 04:55.860
+to create<u> a</u> new workspace folder within the project that is OpenDevern.
+
+04:55.860 --> 04:56.060
+to create a<u> new</u> workspace folder within the project that is OpenDevern.
+
+04:56.060 --> 04:56.520
+to create a new<u> workspace</u> folder within the project that is OpenDevern.
+
+04:56.520 --> 04:57.200
+to create a new workspace<u> folder</u> within the project that is OpenDevern.
+
+04:57.200 --> 04:57.860
+to create a new workspace folder<u> within</u> the project that is OpenDevern.
+
+04:57.860 --> 04:58.380
+to create a new workspace folder within<u> the</u> project that is OpenDevern.
+
+04:58.380 --> 04:58.780
+to create a new workspace folder within the<u> project</u> that is OpenDevern.
+
+04:58.780 --> 04:59.300
+to create a new workspace folder within the project<u> that</u> is OpenDevern.
+
+04:59.300 --> 04:59.480
+to create a new workspace folder within the project that<u> is</u> OpenDevern.
+
+04:59.480 --> 05:00.380
+to create a new workspace folder within the project that is<u> OpenDevern.</u>
+
+05:00.460 --> 05:00.980
+<u>After</u> that it started running and I noticed it was running for a little while
+
+05:00.980 --> 05:01.260
+After<u> that</u> it started running and I noticed it was running for a little while
+
+05:01.260 --> 05:01.600
+After that<u> it</u> started running and I noticed it was running for a little while
+
+05:01.600 --> 05:02.040
+After that it<u> started</u> running and I noticed it was running for a little while
+
+05:02.040 --> 05:02.580
+After that it started<u> running</u> and I noticed it was running for a little while
+
+05:02.580 --> 05:03.180
+After that it started running<u> and</u> I noticed it was running for a little while
+
+05:03.180 --> 05:03.460
+After that it started running and<u> I</u> noticed it was running for a little while
+
+05:03.460 --> 05:03.760
+After that it started running and I<u> noticed</u> it was running for a little while
+
+05:03.760 --> 05:03.960
+After that it started running and I noticed<u> it</u> was running for a little while
+
+05:03.960 --> 05:04.080
+After that it started running and I noticed it<u> was</u> running for a little while
+
+05:04.080 --> 05:04.280
+After that it started running and I noticed it was<u> running</u> for a little while
+
+05:04.280 --> 05:04.460
+After that it started running and I noticed it was running<u> for</u> a little while
+
+05:04.460 --> 05:04.620
+After that it started running and I noticed it was running for<u> a</u> little while
+
+05:04.620 --> 05:04.720
+After that it started running and I noticed it was running for a<u> little</u> while
+
+05:04.720 --> 05:05.140
+After that it started running and I noticed it was running for a little<u> while</u>
+
+05:05.140 --> 05:05.580
+<u>and</u> didn't seem to be working, I wasn't sure what was going on.
+
+05:05.580 --> 05:05.920
+and<u> didn't</u> seem to be working, I wasn't sure what was going on.
+
+05:05.920 --> 05:06.300
+and didn't<u> seem</u> to be working, I wasn't sure what was going on.
+
+05:06.300 --> 05:06.520
+and didn't seem<u> to</u> be working, I wasn't sure what was going on.
+
+05:06.520 --> 05:06.700
+and didn't seem to<u> be</u> working, I wasn't sure what was going on.
+
+05:06.700 --> 05:07.100
+and didn't seem to be<u> working,</u> I wasn't sure what was going on.
+
+05:07.100 --> 05:07.220
+and didn't seem to be working, I wasn't sure what was going on.
+
+05:07.220 --> 05:07.300
+and didn't seem to be working,<u> I</u> wasn't sure what was going on.
+
+05:07.300 --> 05:07.620
+and didn't seem to be working, I<u> wasn't</u> sure what was going on.
+
+05:07.620 --> 05:07.840
+and didn't seem to be working, I wasn't<u> sure</u> what was going on.
+
+05:07.840 --> 05:08.020
+and didn't seem to be working, I wasn't sure<u> what</u> was going on.
+
+05:08.020 --> 05:08.200
+and didn't seem to be working, I wasn't sure what<u> was</u> going on.
+
+05:08.200 --> 05:08.440
+and didn't seem to be working, I wasn't sure what was<u> going</u> on.
+
+05:08.440 --> 05:08.700
+and didn't seem to be working, I wasn't sure what was going<u> on.</u>
+
+05:08.960 --> 05:09.080
+<u>I</u> didn't actually investigate the issue too deeply that it couldn't install AstroJS
+
+05:09.080 --> 05:09.320
+I<u> didn't</u> actually investigate the issue too deeply that it couldn't install AstroJS
+
+05:09.320 --> 05:09.640
+I didn't<u> actually</u> investigate the issue too deeply that it couldn't install AstroJS
+
+05:09.640 --> 05:10.080
+I didn't actually<u> investigate</u> the issue too deeply that it couldn't install AstroJS
+
+05:10.080 --> 05:10.540
+I didn't actually investigate<u> the</u> issue too deeply that it couldn't install AstroJS
+
+05:10.540 --> 05:11.080
+I didn't actually investigate the<u> issue</u> too deeply that it couldn't install AstroJS
+
+05:11.080 --> 05:11.440
+I didn't actually investigate the issue<u> too</u> deeply that it couldn't install AstroJS
+
+05:11.440 --> 05:12.020
+I didn't actually investigate the issue too<u> deeply</u> that it couldn't install AstroJS
+
+05:12.020 --> 05:12.380
+I didn't actually investigate the issue too deeply<u> that</u> it couldn't install AstroJS
+
+05:12.380 --> 05:12.520
+I didn't actually investigate the issue too deeply that<u> it</u> couldn't install AstroJS
+
+05:12.520 --> 05:12.780
+I didn't actually investigate the issue too deeply that it<u> couldn't</u> install AstroJS
+
+05:12.780 --> 05:13.400
+I didn't actually investigate the issue too deeply that it couldn't<u> install</u> AstroJS
+
+05:13.400 --> 05:14.540
+I didn't actually investigate the issue too deeply that it couldn't install<u> AstroJS</u>
+
+05:14.540 --> 05:15.120
+<u>and</u> what I did was make a bit of a clumsy mistake of thinking
+
+05:15.120 --> 05:15.360
+and<u> what</u> I did was make a bit of a clumsy mistake of thinking
+
+05:15.360 --> 05:15.540
+and what<u> I</u> did was make a bit of a clumsy mistake of thinking
+
+05:15.540 --> 05:15.720
+and what I<u> did</u> was make a bit of a clumsy mistake of thinking
+
+05:15.720 --> 05:15.920
+and what I did<u> was</u> make a bit of a clumsy mistake of thinking
+
+05:15.920 --> 05:16.100
+and what I did was<u> make</u> a bit of a clumsy mistake of thinking
+
+05:16.100 --> 05:16.260
+and what I did was make<u> a</u> bit of a clumsy mistake of thinking
+
+05:16.260 --> 05:16.360
+and what I did was make a<u> bit</u> of a clumsy mistake of thinking
+
+05:16.360 --> 05:16.480
+and what I did was make a bit<u> of</u> a clumsy mistake of thinking
+
+05:16.480 --> 05:16.580
+and what I did was make a bit of<u> a</u> clumsy mistake of thinking
+
+05:16.580 --> 05:16.840
+and what I did was make a bit of a<u> clumsy</u> mistake of thinking
+
+05:16.840 --> 05:17.440
+and what I did was make a bit of a clumsy<u> mistake</u> of thinking
+
+05:17.440 --> 05:18.240
+and what I did was make a bit of a clumsy mistake<u> of</u> thinking
+
+05:18.240 --> 05:18.580
+and what I did was make a bit of a clumsy mistake of<u> thinking</u>
+
+05:18.580 --> 05:18.900
+<u>that</u> this was all running locally on my computer
+
+05:18.900 --> 05:19.080
+that<u> this</u> was all running locally on my computer
+
+05:19.080 --> 05:19.260
+that this<u> was</u> all running locally on my computer
+
+05:19.260 --> 05:19.400
+that this was<u> all</u> running locally on my computer
+
+05:19.400 --> 05:19.660
+that this was all<u> running</u> locally on my computer
+
+05:19.660 --> 05:20.100
+that this was all running<u> locally</u> on my computer
+
+05:20.100 --> 05:20.280
+that this was all running locally<u> on</u> my computer
+
+05:20.280 --> 05:20.460
+that this was all running locally on<u> my</u> computer
+
+05:20.460 --> 05:20.860
+that this was all running locally on my<u> computer</u>
+
+05:20.860 --> 05:21.400
+<u>because</u> I've been using CrewAI where a lot of the Python work is local
+
+05:21.400 --> 05:21.640
+because<u> I've</u> been using CrewAI where a lot of the Python work is local
+
+05:21.640 --> 05:21.760
+because I've<u> been</u> using CrewAI where a lot of the Python work is local
+
+05:21.760 --> 05:21.980
+because I've been<u> using</u> CrewAI where a lot of the Python work is local
+
+05:21.980 --> 05:22.520
+because I've been using<u> CrewAI</u> where a lot of the Python work is local
+
+05:22.520 --> 05:22.940
+because I've been using CrewAI<u> where</u> a lot of the Python work is local
+
+05:22.940 --> 05:23.100
+because I've been using CrewAI where<u> a</u> lot of the Python work is local
+
+05:23.100 --> 05:23.220
+because I've been using CrewAI where a<u> lot</u> of the Python work is local
+
+05:23.220 --> 05:23.340
+because I've been using CrewAI where a lot<u> of</u> the Python work is local
+
+05:23.340 --> 05:23.600
+because I've been using CrewAI where a lot of<u> the</u> Python work is local
+
+05:23.600 --> 05:24.020
+because I've been using CrewAI where a lot of the<u> Python</u> work is local
+
+05:24.020 --> 05:24.360
+because I've been using CrewAI where a lot of the Python<u> work</u> is local
+
+05:24.360 --> 05:24.740
+because I've been using CrewAI where a lot of the Python work<u> is</u> local
+
+05:24.740 --> 05:25.120
+because I've been using CrewAI where a lot of the Python work is<u> local</u>
+
+05:25.120 --> 05:25.540
+<u>and</u> part of your local environment.
+
+05:25.540 --> 05:25.760
+and<u> part</u> of your local environment.
+
+05:25.760 --> 05:25.860
+and part<u> of</u> your local environment.
+
+05:25.860 --> 05:25.980
+and part of<u> your</u> local environment.
+
+05:25.980 --> 05:26.220
+and part of your<u> local</u> environment.
+
+05:26.220 --> 05:26.720
+and part of your local<u> environment.</u>
+
+05:26.720 --> 05:27.260
+<u>So</u> I gave it this prompt saying I'm using ASDF, I'm using Node20,
+
+05:27.260 --> 05:27.480
+So<u> I</u> gave it this prompt saying I'm using ASDF, I'm using Node20,
+
+05:27.480 --> 05:27.680
+So I<u> gave</u> it this prompt saying I'm using ASDF, I'm using Node20,
+
+05:27.680 --> 05:27.800
+So I gave<u> it</u> this prompt saying I'm using ASDF, I'm using Node20,
+
+05:27.800 --> 05:28.000
+So I gave it<u> this</u> prompt saying I'm using ASDF, I'm using Node20,
+
+05:28.000 --> 05:28.540
+So I gave it this<u> prompt</u> saying I'm using ASDF, I'm using Node20,
+
+05:28.540 --> 05:29.200
+So I gave it this prompt<u> saying</u> I'm using ASDF, I'm using Node20,
+
+05:29.200 --> 05:29.480
+So I gave it this prompt saying<u> I'm</u> using ASDF, I'm using Node20,
+
+05:29.480 --> 05:29.740
+So I gave it this prompt saying I'm<u> using</u> ASDF, I'm using Node20,
+
+05:29.740 --> 05:30.860
+So I gave it this prompt saying I'm using<u> ASDF,</u> I'm using Node20,
+
+05:30.860 --> 05:31.020
+So I gave it this prompt saying I'm using ASDF, I'm using Node20,
+
+05:31.020 --> 05:31.180
+So I gave it this prompt saying I'm using ASDF,<u> I'm</u> using Node20,
+
+05:31.180 --> 05:31.520
+So I gave it this prompt saying I'm using ASDF, I'm<u> using</u> Node20,
+
+05:31.520 --> 05:32.380
+So I gave it this prompt saying I'm using ASDF, I'm using<u> Node20,</u>
+
+05:32.680 --> 05:33.000
+<u>can</u> you do an installation doing that and I tried to do that and it failed
+
+05:33.000 --> 05:33.320
+can<u> you</u> do an installation doing that and I tried to do that and it failed
+
+05:33.320 --> 05:33.720
+can you<u> do</u> an installation doing that and I tried to do that and it failed
+
+05:33.720 --> 05:33.820
+can you do<u> an</u> installation doing that and I tried to do that and it failed
+
+05:33.820 --> 05:34.240
+can you do an<u> installation</u> doing that and I tried to do that and it failed
+
+05:34.240 --> 05:34.660
+can you do an installation<u> doing</u> that and I tried to do that and it failed
+
+05:34.660 --> 05:34.880
+can you do an installation doing<u> that</u> and I tried to do that and it failed
+
+05:34.880 --> 05:35.060
+can you do an installation doing that<u> and</u> I tried to do that and it failed
+
+05:35.060 --> 05:35.140
+can you do an installation doing that and<u> I</u> tried to do that and it failed
+
+05:35.140 --> 05:35.320
+can you do an installation doing that and I<u> tried</u> to do that and it failed
+
+05:35.320 --> 05:35.520
+can you do an installation doing that and I tried<u> to</u> do that and it failed
+
+05:35.520 --> 05:35.640
+can you do an installation doing that and I tried to<u> do</u> that and it failed
+
+05:35.640 --> 05:35.860
+can you do an installation doing that and I tried to do<u> that</u> and it failed
+
+05:35.860 --> 05:36.080
+can you do an installation doing that and I tried to do that<u> and</u> it failed
+
+05:36.080 --> 05:36.180
+can you do an installation doing that and I tried to do that and<u> it</u> failed
+
+05:36.180 --> 05:36.500
+can you do an installation doing that and I tried to do that and it<u> failed</u>
+
+05:36.500 --> 05:36.920
+<u>because</u> what was going on was this is all running in a Docker container
+
+05:36.920 --> 05:37.600
+because<u> what</u> was going on was this is all running in a Docker container
+
+05:37.600 --> 05:37.820
+because what<u> was</u> going on was this is all running in a Docker container
+
+05:37.820 --> 05:38.060
+because what was<u> going</u> on was this is all running in a Docker container
+
+05:38.060 --> 05:38.280
+because what was going<u> on</u> was this is all running in a Docker container
+
+05:38.280 --> 05:38.440
+because what was going on<u> was</u> this is all running in a Docker container
+
+05:38.440 --> 05:38.700
+because what was going on was<u> this</u> is all running in a Docker container
+
+05:38.700 --> 05:38.860
+because what was going on was this<u> is</u> all running in a Docker container
+
+05:38.860 --> 05:39.020
+because what was going on was this is<u> all</u> running in a Docker container
+
+05:39.020 --> 05:39.320
+because what was going on was this is all<u> running</u> in a Docker container
+
+05:39.320 --> 05:39.660
+because what was going on was this is all running<u> in</u> a Docker container
+
+05:39.660 --> 05:39.880
+because what was going on was this is all running in<u> a</u> Docker container
+
+05:39.880 --> 05:40.160
+because what was going on was this is all running in a<u> Docker</u> container
+
+05:40.160 --> 05:40.800
+because what was going on was this is all running in a Docker<u> container</u>
+
+05:40.800 --> 05:41.000
+<u>and</u> the Docker container hasn't got ASDF installed.
+
+05:41.000 --> 05:41.120
+and<u> the</u> Docker container hasn't got ASDF installed.
+
+05:41.120 --> 05:41.340
+and the<u> Docker</u> container hasn't got ASDF installed.
+
+05:41.340 --> 05:42.000
+and the Docker<u> container</u> hasn't got ASDF installed.
+
+05:42.000 --> 05:42.600
+and the Docker container<u> hasn't</u> got ASDF installed.
+
+05:42.600 --> 05:42.720
+and the Docker container hasn't<u> got</u> ASDF installed.
+
+05:42.720 --> 05:43.460
+and the Docker container hasn't got<u> ASDF</u> installed.
+
+05:43.460 --> 05:43.900
+and the Docker container hasn't got ASDF<u> installed.</u>
+
+05:44.320 --> 05:44.500
+<u>It</u> should have worked but I couldn't figure out what was going on initially.
+
+05:44.500 --> 05:44.780
+It<u> should</u> have worked but I couldn't figure out what was going on initially.
+
+05:44.780 --> 05:44.980
+It should<u> have</u> worked but I couldn't figure out what was going on initially.
+
+05:44.980 --> 05:45.360
+It should have<u> worked</u> but I couldn't figure out what was going on initially.
+
+05:45.360 --> 05:45.900
+It should have worked<u> but</u> I couldn't figure out what was going on initially.
+
+05:45.900 --> 05:46.360
+It should have worked but<u> I</u> couldn't figure out what was going on initially.
+
+05:46.360 --> 05:46.640
+It should have worked but I<u> couldn't</u> figure out what was going on initially.
+
+05:46.640 --> 05:46.860
+It should have worked but I couldn't<u> figure</u> out what was going on initially.
+
+05:46.860 --> 05:47.060
+It should have worked but I couldn't figure<u> out</u> what was going on initially.
+
+05:47.060 --> 05:47.240
+It should have worked but I couldn't figure out<u> what</u> was going on initially.
+
+05:47.240 --> 05:47.520
+It should have worked but I couldn't figure out what<u> was</u> going on initially.
+
+05:47.520 --> 05:47.780
+It should have worked but I couldn't figure out what was<u> going</u> on initially.
+
+05:47.780 --> 05:48.080
+It should have worked but I couldn't figure out what was going<u> on</u> initially.
+
+05:48.080 --> 05:48.720
+It should have worked but I couldn't figure out what was going on<u> initially.</u>
+
+05:49.440 --> 05:49.580
+<u>What</u> this led to was a thought of is this costing me any money at the moment
+
+05:49.580 --> 05:49.820
+What<u> this</u> led to was a thought of is this costing me any money at the moment
+
+05:49.820 --> 05:50.080
+What this<u> led</u> to was a thought of is this costing me any money at the moment
+
+05:50.080 --> 05:50.480
+What this led<u> to</u> was a thought of is this costing me any money at the moment
+
+05:50.480 --> 05:51.280
+What this led to<u> was</u> a thought of is this costing me any money at the moment
+
+05:51.280 --> 05:51.460
+What this led to was<u> a</u> thought of is this costing me any money at the moment
+
+05:51.460 --> 05:51.740
+What this led to was a<u> thought</u> of is this costing me any money at the moment
+
+05:51.740 --> 05:52.180
+What this led to was a thought<u> of</u> is this costing me any money at the moment
+
+05:52.180 --> 05:52.480
+What this led to was a thought of<u> is</u> this costing me any money at the moment
+
+05:52.480 --> 05:52.640
+What this led to was a thought of is<u> this</u> costing me any money at the moment
+
+05:52.640 --> 05:53.080
+What this led to was a thought of is this<u> costing</u> me any money at the moment
+
+05:53.080 --> 05:53.500
+What this led to was a thought of is this costing<u> me</u> any money at the moment
+
+05:53.500 --> 05:53.880
+What this led to was a thought of is this costing me<u> any</u> money at the moment
+
+05:53.880 --> 05:54.200
+What this led to was a thought of is this costing me any<u> money</u> at the moment
+
+05:54.200 --> 05:54.440
+What this led to was a thought of is this costing me any money<u> at</u> the moment
+
+05:54.440 --> 05:54.540
+What this led to was a thought of is this costing me any money at<u> the</u> moment
+
+05:54.540 --> 05:54.860
+What this led to was a thought of is this costing me any money at the<u> moment</u>
+
+05:54.860 --> 05:55.200
+<u>and</u> what I found out was that five minutes of playing around with this
+
+05:55.200 --> 05:55.320
+and<u> what</u> I found out was that five minutes of playing around with this
+
+05:55.320 --> 05:55.440
+and what<u> I</u> found out was that five minutes of playing around with this
+
+05:55.440 --> 05:55.700
+and what I<u> found</u> out was that five minutes of playing around with this
+
+05:55.700 --> 05:55.940
+and what I found<u> out</u> was that five minutes of playing around with this
+
+05:55.940 --> 05:56.200
+and what I found out<u> was</u> that five minutes of playing around with this
+
+05:56.200 --> 05:56.480
+and what I found out was<u> that</u> five minutes of playing around with this
+
+05:56.480 --> 05:56.720
+and what I found out was that<u> five</u> minutes of playing around with this
+
+05:56.720 --> 05:57.020
+and what I found out was that five<u> minutes</u> of playing around with this
+
+05:57.020 --> 05:57.240
+and what I found out was that five minutes<u> of</u> playing around with this
+
+05:57.240 --> 05:57.440
+and what I found out was that five minutes of<u> playing</u> around with this
+
+05:57.440 --> 05:57.760
+and what I found out was that five minutes of playing<u> around</u> with this
+
+05:57.760 --> 05:57.940
+and what I found out was that five minutes of playing around<u> with</u> this
+
+05:57.940 --> 05:58.140
+and what I found out was that five minutes of playing around with<u> this</u>
+
+05:58.140 --> 05:58.300
+<u>had</u> cost me $4.23 in open AI credits and I hadn't achieved anything at this point.
+
+05:58.300 --> 05:58.660
+had<u> cost</u> me $4.23 in open AI credits and I hadn't achieved anything at this point.
+
+05:58.660 --> 05:58.920
+had cost<u> me</u> $4.23 in open AI credits and I hadn't achieved anything at this point.
+
+05:58.920 --> 05:59.400
+had cost me<u> $4</u>.23 in open AI credits and I hadn't achieved anything at this point.
+
+05:59.400 --> 06:00.060
+had cost me $4<u>.23</u> in open AI credits and I hadn't achieved anything at this point.
+
+06:00.060 --> 06:00.760
+had cost me $4.23<u> in</u> open AI credits and I hadn't achieved anything at this point.
+
+06:00.760 --> 06:01.140
+had cost me $4.23 in<u> open</u> AI credits and I hadn't achieved anything at this point.
+
+06:01.140 --> 06:01.480
+had cost me $4.23 in open<u> AI</u> credits and I hadn't achieved anything at this point.
+
+06:01.480 --> 06:02.060
+had cost me $4.23 in open AI<u> credits</u> and I hadn't achieved anything at this point.
+
+06:02.060 --> 06:02.680
+had cost me $4.23 in open AI credits<u> and</u> I hadn't achieved anything at this point.
+
+06:02.680 --> 06:02.860
+had cost me $4.23 in open AI credits and<u> I</u> hadn't achieved anything at this point.
+
+06:02.860 --> 06:03.340
+had cost me $4.23 in open AI credits and I<u> hadn't</u> achieved anything at this point.
+
+06:03.340 --> 06:03.820
+had cost me $4.23 in open AI credits and I hadn't<u> achieved</u> anything at this point.
+
+06:03.820 --> 06:04.260
+had cost me $4.23 in open AI credits and I hadn't achieved<u> anything</u> at this point.
+
+06:04.260 --> 06:04.420
+had cost me $4.23 in open AI credits and I hadn't achieved anything<u> at</u> this point.
+
+06:04.420 --> 06:04.620
+had cost me $4.23 in open AI credits and I hadn't achieved anything at<u> this</u> point.
+
+06:04.620 --> 06:04.980
+had cost me $4.23 in open AI credits and I hadn't achieved anything at this<u> point.</u>
+
+06:05.280 --> 06:05.460
+<u>So</u> I made a decision just to abandon this and go to a simpler solution
+
+06:05.460 --> 06:05.620
+So<u> I</u> made a decision just to abandon this and go to a simpler solution
+
+06:05.620 --> 06:05.780
+So I<u> made</u> a decision just to abandon this and go to a simpler solution
+
+06:05.780 --> 06:05.900
+So I made<u> a</u> decision just to abandon this and go to a simpler solution
+
+06:05.900 --> 06:06.320
+So I made a<u> decision</u> just to abandon this and go to a simpler solution
+
+06:06.320 --> 06:06.620
+So I made a decision<u> just</u> to abandon this and go to a simpler solution
+
+06:06.620 --> 06:06.820
+So I made a decision just<u> to</u> abandon this and go to a simpler solution
+
+06:06.820 --> 06:07.260
+So I made a decision just to<u> abandon</u> this and go to a simpler solution
+
+06:07.260 --> 06:07.680
+So I made a decision just to abandon<u> this</u> and go to a simpler solution
+
+06:07.680 --> 06:07.820
+So I made a decision just to abandon this<u> and</u> go to a simpler solution
+
+06:07.820 --> 06:08.020
+So I made a decision just to abandon this and<u> go</u> to a simpler solution
+
+06:08.020 --> 06:08.220
+So I made a decision just to abandon this and go<u> to</u> a simpler solution
+
+06:08.220 --> 06:08.380
+So I made a decision just to abandon this and go to<u> a</u> simpler solution
+
+06:08.380 --> 06:08.780
+So I made a decision just to abandon this and go to a<u> simpler</u> solution
+
+06:08.780 --> 06:09.460
+So I made a decision just to abandon this and go to a simpler<u> solution</u>
+
+06:09.460 --> 06:09.860
+<u>just</u> using HTML pages.
+
+06:09.860 --> 06:10.280
+just<u> using</u> HTML pages.
+
+06:10.280 --> 06:10.760
+just using<u> HTML</u> pages.
+
+06:10.760 --> 06:11.260
+just using HTML<u> pages.</u>
+
+06:11.820 --> 06:12.100
+<u>Moving</u> on to example number two which was just to set up a simple HTML page
+
+06:12.100 --> 06:12.360
+Moving<u> on</u> to example number two which was just to set up a simple HTML page
+
+06:12.360 --> 06:12.600
+Moving on<u> to</u> example number two which was just to set up a simple HTML page
+
+06:12.600 --> 06:12.960
+Moving on to<u> example</u> number two which was just to set up a simple HTML page
+
+06:12.960 --> 06:13.300
+Moving on to example<u> number</u> two which was just to set up a simple HTML page
+
+06:13.300 --> 06:13.680
+Moving on to example number<u> two</u> which was just to set up a simple HTML page
+
+06:13.680 --> 06:14.000
+Moving on to example number two<u> which</u> was just to set up a simple HTML page
+
+06:14.000 --> 06:14.240
+Moving on to example number two which<u> was</u> just to set up a simple HTML page
+
+06:14.240 --> 06:14.540
+Moving on to example number two which was<u> just</u> to set up a simple HTML page
+
+06:14.540 --> 06:14.720
+Moving on to example number two which was just<u> to</u> set up a simple HTML page
+
+06:14.720 --> 06:14.880
+Moving on to example number two which was just to<u> set</u> up a simple HTML page
+
+06:14.880 --> 06:15.020
+Moving on to example number two which was just to set<u> up</u> a simple HTML page
+
+06:15.020 --> 06:15.180
+Moving on to example number two which was just to set up<u> a</u> simple HTML page
+
+06:15.180 --> 06:15.360
+Moving on to example number two which was just to set up a<u> simple</u> HTML page
+
+06:15.360 --> 06:16.160
+Moving on to example number two which was just to set up a simple<u> HTML</u> page
+
+06:16.160 --> 06:16.680
+Moving on to example number two which was just to set up a simple HTML<u> page</u>
+
+06:16.680 --> 06:17.080
+<u>around</u> this YouTube automation army.
+
+06:17.080 --> 06:17.320
+around<u> this</u> YouTube automation army.
+
+06:17.320 --> 06:17.760
+around this<u> YouTube</u> automation army.
+
+06:17.760 --> 06:18.240
+around this YouTube<u> automation</u> army.
+
+06:18.240 --> 06:19.020
+around this YouTube automation<u> army.</u>
+
+06:19.420 --> 06:19.500
+<u>What</u> I did was developed a fairly complex prompt
+
+06:19.500 --> 06:19.640
+What<u> I</u> did was developed a fairly complex prompt
+
+06:19.640 --> 06:19.800
+What I<u> did</u> was developed a fairly complex prompt
+
+06:19.800 --> 06:20.060
+What I did<u> was</u> developed a fairly complex prompt
+
+06:20.060 --> 06:20.460
+What I did was<u> developed</u> a fairly complex prompt
+
+06:20.460 --> 06:20.700
+What I did was developed<u> a</u> fairly complex prompt
+
+06:20.700 --> 06:20.900
+What I did was developed a<u> fairly</u> complex prompt
+
+06:20.900 --> 06:21.360
+What I did was developed a fairly<u> complex</u> prompt
+
+06:21.360 --> 06:22.020
+What I did was developed a fairly complex<u> prompt</u>
+
+06:22.020 --> 06:22.540
+<u>where</u> I was talking about this agent framework
+
+06:22.540 --> 06:22.820
+where<u> I</u> was talking about this agent framework
+
+06:22.820 --> 06:22.980
+where I<u> was</u> talking about this agent framework
+
+06:22.980 --> 06:23.260
+where I was<u> talking</u> about this agent framework
+
+06:23.260 --> 06:23.620
+where I was talking<u> about</u> this agent framework
+
+06:23.620 --> 06:23.880
+where I was talking about<u> this</u> agent framework
+
+06:23.880 --> 06:24.380
+where I was talking about this<u> agent</u> framework
+
+06:24.380 --> 06:24.900
+where I was talking about this agent<u> framework</u>
+
+06:24.900 --> 06:25.460
+<u>where</u> transcripts from YouTube videos could be processed by different agents.
+
+06:25.460 --> 06:26.320
+where<u> transcripts</u> from YouTube videos could be processed by different agents.
+
+06:26.320 --> 06:26.500
+where transcripts<u> from</u> YouTube videos could be processed by different agents.
+
+06:26.500 --> 06:26.820
+where transcripts from<u> YouTube</u> videos could be processed by different agents.
+
+06:26.820 --> 06:27.420
+where transcripts from YouTube<u> videos</u> could be processed by different agents.
+
+06:27.420 --> 06:27.920
+where transcripts from YouTube videos<u> could</u> be processed by different agents.
+
+06:27.920 --> 06:28.140
+where transcripts from YouTube videos could<u> be</u> processed by different agents.
+
+06:28.140 --> 06:28.560
+where transcripts from YouTube videos could be<u> processed</u> by different agents.
+
+06:28.560 --> 06:29.080
+where transcripts from YouTube videos could be processed<u> by</u> different agents.
+
+06:29.080 --> 06:29.720
+where transcripts from YouTube videos could be processed by<u> different</u> agents.
+
+06:29.720 --> 06:30.220
+where transcripts from YouTube videos could be processed by different<u> agents.</u>
+
+06:30.360 --> 06:30.520
+<u>I</u> needed a couple of fields, the title of the video, the transcript,
+
+06:30.520 --> 06:30.720
+I<u> needed</u> a couple of fields, the title of the video, the transcript,
+
+06:30.720 --> 06:30.900
+I needed<u> a</u> couple of fields, the title of the video, the transcript,
+
+06:30.900 --> 06:31.040
+I needed a<u> couple</u> of fields, the title of the video, the transcript,
+
+06:31.040 --> 06:31.220
+I needed a couple<u> of</u> fields, the title of the video, the transcript,
+
+06:31.220 --> 06:31.500
+I needed a couple of<u> fields,</u> the title of the video, the transcript,
+
+06:31.500 --> 06:31.700
+I needed a couple of fields, the title of the video, the transcript,
+
+06:31.700 --> 06:31.860
+I needed a couple of fields,<u> the</u> title of the video, the transcript,
+
+06:31.860 --> 06:32.220
+I needed a couple of fields, the<u> title</u> of the video, the transcript,
+
+06:32.220 --> 06:32.500
+I needed a couple of fields, the title<u> of</u> the video, the transcript,
+
+06:32.500 --> 06:32.660
+I needed a couple of fields, the title of<u> the</u> video, the transcript,
+
+06:32.660 --> 06:33.000
+I needed a couple of fields, the title of the<u> video,</u> the transcript,
+
+06:33.000 --> 06:33.360
+I needed a couple of fields, the title of the video, the transcript,
+
+06:33.360 --> 06:33.520
+I needed a couple of fields, the title of the video,<u> the</u> transcript,
+
+06:33.520 --> 06:34.060
+I needed a couple of fields, the title of the video, the<u> transcript,</u>
+
+06:34.420 --> 06:34.540
+<u>a</u> list of agents that I would like to work with
+
+06:34.540 --> 06:34.900
+a<u> list</u> of agents that I would like to work with
+
+06:34.900 --> 06:35.140
+a list<u> of</u> agents that I would like to work with
+
+06:35.140 --> 06:35.520
+a list of<u> agents</u> that I would like to work with
+
+06:35.520 --> 06:35.920
+a list of agents<u> that</u> I would like to work with
+
+06:35.920 --> 06:36.160
+a list of agents that<u> I</u> would like to work with
+
+06:36.160 --> 06:36.260
+a list of agents that I<u> would</u> like to work with
+
+06:36.260 --> 06:36.440
+a list of agents that I would<u> like</u> to work with
+
+06:36.440 --> 06:36.580
+a list of agents that I would like<u> to</u> work with
+
+06:36.580 --> 06:36.800
+a list of agents that I would like to<u> work</u> with
+
+06:36.800 --> 06:37.140
+a list of agents that I would like to work<u> with</u>
+
+06:37.140 --> 06:37.580
+<u>and</u> a simple start button.
+
+06:37.580 --> 06:37.700
+and<u> a</u> simple start button.
+
+06:37.700 --> 06:37.920
+and a<u> simple</u> start button.
+
+06:37.920 --> 06:38.300
+and a simple<u> start</u> button.
+
+06:38.300 --> 06:38.680
+and a simple start<u> button.</u>
+
+06:38.820 --> 06:38.900
+<u>When</u> the start button runs the agents would run
+
+06:38.900 --> 06:39.120
+When<u> the</u> start button runs the agents would run
+
+06:39.120 --> 06:39.320
+When the<u> start</u> button runs the agents would run
+
+06:39.320 --> 06:39.600
+When the start<u> button</u> runs the agents would run
+
+06:39.600 --> 06:39.980
+When the start button<u> runs</u> the agents would run
+
+06:39.980 --> 06:40.200
+When the start button runs<u> the</u> agents would run
+
+06:40.200 --> 06:40.600
+When the start button runs the<u> agents</u> would run
+
+06:40.600 --> 06:40.880
+When the start button runs the agents<u> would</u> run
+
+06:40.880 --> 06:41.200
+When the start button runs the agents would<u> run</u>
+
+06:41.200 --> 06:41.480
+<u>and</u> there'd be events coming back
+
+06:41.480 --> 06:41.700
+and<u> there'd</u> be events coming back
+
+06:41.700 --> 06:41.800
+and there'd<u> be</u> events coming back
+
+06:41.800 --> 06:42.160
+and there'd be<u> events</u> coming back
+
+06:42.160 --> 06:42.520
+and there'd be events<u> coming</u> back
+
+06:42.520 --> 06:42.840
+and there'd be events coming<u> back</u>
+
+06:42.840 --> 06:43.320
+<u>and</u> hopefully a bunch of results from the agents.
+
+06:43.320 --> 06:43.960
+and<u> hopefully</u> a bunch of results from the agents.
+
+06:43.960 --> 06:44.440
+and hopefully<u> a</u> bunch of results from the agents.
+
+06:44.440 --> 06:44.640
+and hopefully a<u> bunch</u> of results from the agents.
+
+06:44.640 --> 06:44.880
+and hopefully a bunch<u> of</u> results from the agents.
+
+06:44.880 --> 06:45.300
+and hopefully a bunch of<u> results</u> from the agents.
+
+06:45.300 --> 06:45.640
+and hopefully a bunch of results<u> from</u> the agents.
+
+06:45.640 --> 06:45.800
+and hopefully a bunch of results from<u> the</u> agents.
+
+06:45.800 --> 06:46.220
+and hopefully a bunch of results from the<u> agents.</u>
+
+06:46.580 --> 06:46.840
+<u>With</u> that all in place I just pasted it straight into OpenDevon
+
+06:46.840 --> 06:47.140
+With<u> that</u> all in place I just pasted it straight into OpenDevon
+
+06:47.140 --> 06:47.540
+With that<u> all</u> in place I just pasted it straight into OpenDevon
+
+06:47.540 --> 06:47.680
+With that all<u> in</u> place I just pasted it straight into OpenDevon
+
+06:47.680 --> 06:47.980
+With that all in<u> place</u> I just pasted it straight into OpenDevon
+
+06:47.980 --> 06:48.280
+With that all in place<u> I</u> just pasted it straight into OpenDevon
+
+06:48.280 --> 06:48.560
+With that all in place I<u> just</u> pasted it straight into OpenDevon
+
+06:48.560 --> 06:49.160
+With that all in place I just<u> pasted</u> it straight into OpenDevon
+
+06:49.160 --> 06:49.280
+With that all in place I just pasted<u> it</u> straight into OpenDevon
+
+06:49.280 --> 06:49.540
+With that all in place I just pasted it<u> straight</u> into OpenDevon
+
+06:49.540 --> 06:50.080
+With that all in place I just pasted it straight<u> into</u> OpenDevon
+
+06:50.080 --> 06:51.120
+With that all in place I just pasted it straight into<u> OpenDevon</u>
+
+06:51.120 --> 06:51.620
+<u>and</u> let's see what happens.
+
+06:51.620 --> 06:51.960
+and<u> let's</u> see what happens.
+
+06:51.960 --> 06:52.060
+and let's<u> see</u> what happens.
+
+06:52.060 --> 06:52.220
+and let's see<u> what</u> happens.
+
+06:52.220 --> 06:52.520
+and let's see what<u> happens.</u>
+
+06:53.000 --> 06:53.580
+<u>OpenDevon</u> started running the new task
+
+06:53.580 --> 06:54.080
+OpenDevon<u> started</u> running the new task
+
+06:54.080 --> 06:54.480
+OpenDevon started<u> running</u> the new task
+
+06:54.480 --> 06:54.680
+OpenDevon started running<u> the</u> new task
+
+06:54.680 --> 06:54.840
+OpenDevon started running the<u> new</u> task
+
+06:54.840 --> 06:55.380
+OpenDevon started running the new<u> task</u>
+
+06:55.380 --> 06:55.700
+<u>and</u> it runs an LS command on the workspace folder
+
+06:55.700 --> 06:55.840
+and<u> it</u> runs an LS command on the workspace folder
+
+06:55.840 --> 06:56.060
+and it<u> runs</u> an LS command on the workspace folder
+
+06:56.060 --> 06:56.300
+and it runs<u> an</u> LS command on the workspace folder
+
+06:56.300 --> 06:56.680
+and it runs an<u> LS</u> command on the workspace folder
+
+06:56.680 --> 06:57.040
+and it runs an LS<u> command</u> on the workspace folder
+
+06:57.040 --> 06:57.520
+and it runs an LS command<u> on</u> the workspace folder
+
+06:57.520 --> 06:57.720
+and it runs an LS command on<u> the</u> workspace folder
+
+06:57.720 --> 06:58.060
+and it runs an LS command on the<u> workspace</u> folder
+
+06:58.060 --> 06:58.660
+and it runs an LS command on the workspace<u> folder</u>
+
+06:58.660 --> 06:58.880
+<u>and</u> it figures out that there's no files there
+
+06:58.880 --> 06:59.000
+and<u> it</u> figures out that there's no files there
+
+06:59.000 --> 06:59.220
+and it<u> figures</u> out that there's no files there
+
+06:59.220 --> 06:59.520
+and it figures<u> out</u> that there's no files there
+
+06:59.520 --> 06:59.720
+and it figures out<u> that</u> there's no files there
+
+06:59.720 --> 07:00.040
+and it figures out that<u> there's</u> no files there
+
+07:00.040 --> 07:00.240
+and it figures out that there's<u> no</u> files there
+
+07:00.240 --> 07:00.660
+and it figures out that there's no<u> files</u> there
+
+07:00.660 --> 07:01.020
+and it figures out that there's no files<u> there</u>
+
+07:01.020 --> 07:01.580
+<u>and</u> you can see that it's empty here.
+
+07:01.580 --> 07:01.700
+and<u> you</u> can see that it's empty here.
+
+07:01.700 --> 07:01.840
+and you<u> can</u> see that it's empty here.
+
+07:01.840 --> 07:02.040
+and you can<u> see</u> that it's empty here.
+
+07:02.040 --> 07:02.300
+and you can see<u> that</u> it's empty here.
+
+07:02.300 --> 07:02.680
+and you can see that<u> it's</u> empty here.
+
+07:02.680 --> 07:02.960
+and you can see that it's<u> empty</u> here.
+
+07:02.960 --> 07:03.320
+and you can see that it's empty<u> here.</u>
+
+07:03.720 --> 07:04.060
+<u>From</u> here it then moves on to a planner
+
+07:04.060 --> 07:04.400
+From<u> here</u> it then moves on to a planner
+
+07:04.400 --> 07:04.740
+From here<u> it</u> then moves on to a planner
+
+07:04.740 --> 07:04.980
+From here it<u> then</u> moves on to a planner
+
+07:04.980 --> 07:05.240
+From here it then<u> moves</u> on to a planner
+
+07:05.240 --> 07:05.540
+From here it then moves<u> on</u> to a planner
+
+07:05.540 --> 07:05.840
+From here it then moves on<u> to</u> a planner
+
+07:05.840 --> 07:06.120
+From here it then moves on to<u> a</u> planner
+
+07:06.120 --> 07:06.540
+From here it then moves on to a<u> planner</u>
+
+07:06.540 --> 07:07.140
+<u>and</u> starts writing some code for you.
+
+07:07.140 --> 07:07.680
+and<u> starts</u> writing some code for you.
+
+07:07.680 --> 07:08.000
+and starts<u> writing</u> some code for you.
+
+07:08.000 --> 07:08.200
+and starts writing<u> some</u> code for you.
+
+07:08.200 --> 07:08.480
+and starts writing some<u> code</u> for you.
+
+07:08.480 --> 07:08.720
+and starts writing some code<u> for</u> you.
+
+07:08.720 --> 07:08.940
+and starts writing some code for<u> you.</u>
+
+07:09.380 --> 07:10.160
+<u>OpenDevon</u> is going to show you the code in a terminal here
+
+07:10.160 --> 07:10.420
+OpenDevon<u> is</u> going to show you the code in a terminal here
+
+07:10.420 --> 07:10.620
+OpenDevon is<u> going</u> to show you the code in a terminal here
+
+07:10.620 --> 07:10.760
+OpenDevon is going<u> to</u> show you the code in a terminal here
+
+07:10.760 --> 07:11.000
+OpenDevon is going to<u> show</u> you the code in a terminal here
+
+07:11.000 --> 07:11.140
+OpenDevon is going to show<u> you</u> the code in a terminal here
+
+07:11.140 --> 07:11.320
+OpenDevon is going to show you<u> the</u> code in a terminal here
+
+07:11.320 --> 07:11.660
+OpenDevon is going to show you the<u> code</u> in a terminal here
+
+07:11.660 --> 07:11.940
+OpenDevon is going to show you the code<u> in</u> a terminal here
+
+07:11.940 --> 07:12.080
+OpenDevon is going to show you the code in<u> a</u> terminal here
+
+07:12.080 --> 07:12.360
+OpenDevon is going to show you the code in a<u> terminal</u> here
+
+07:12.360 --> 07:12.780
+OpenDevon is going to show you the code in a terminal<u> here</u>
+
+07:12.780 --> 07:13.160
+<u>and</u> also tell you what it did.
+
+07:13.160 --> 07:13.520
+and<u> also</u> tell you what it did.
+
+07:13.520 --> 07:13.900
+and also<u> tell</u> you what it did.
+
+07:13.900 --> 07:14.140
+and also tell<u> you</u> what it did.
+
+07:14.140 --> 07:14.420
+and also tell you<u> what</u> it did.
+
+07:14.420 --> 07:14.580
+and also tell you what<u> it</u> did.
+
+07:14.580 --> 07:14.900
+and also tell you what it<u> did.</u>
+
+07:15.240 --> 07:15.340
+<u>So</u> this current version of FlowVideo page has a transcripted title
+
+07:15.340 --> 07:15.480
+So<u> this</u> current version of FlowVideo page has a transcripted title
+
+07:15.480 --> 07:15.720
+So this<u> current</u> version of FlowVideo page has a transcripted title
+
+07:15.720 --> 07:16.000
+So this current<u> version</u> of FlowVideo page has a transcripted title
+
+07:16.000 --> 07:16.180
+So this current version<u> of</u> FlowVideo page has a transcripted title
+
+07:16.180 --> 07:16.540
+So this current version of<u> FlowVideo</u> page has a transcripted title
+
+07:16.540 --> 07:16.980
+So this current version of FlowVideo<u> page</u> has a transcripted title
+
+07:16.980 --> 07:17.340
+So this current version of FlowVideo page<u> has</u> a transcripted title
+
+07:17.340 --> 07:17.520
+So this current version of FlowVideo page has<u> a</u> transcripted title
+
+07:17.520 --> 07:18.540
+So this current version of FlowVideo page has a<u> transcripted</u> title
+
+07:18.540 --> 07:19.020
+So this current version of FlowVideo page has a transcripted<u> title</u>
+
+07:19.020 --> 07:19.400
+<u>it's</u> also got an agent selection list and a start button.
+
+07:19.400 --> 07:19.560
+it's<u> also</u> got an agent selection list and a start button.
+
+07:19.560 --> 07:19.840
+it's also<u> got</u> an agent selection list and a start button.
+
+07:19.840 --> 07:20.280
+it's also got<u> an</u> agent selection list and a start button.
+
+07:20.280 --> 07:20.800
+it's also got an<u> agent</u> selection list and a start button.
+
+07:20.800 --> 07:21.240
+it's also got an agent<u> selection</u> list and a start button.
+
+07:21.240 --> 07:21.660
+it's also got an agent selection<u> list</u> and a start button.
+
+07:21.660 --> 07:22.200
+it's also got an agent selection list<u> and</u> a start button.
+
+07:22.200 --> 07:22.380
+it's also got an agent selection list and<u> a</u> start button.
+
+07:22.380 --> 07:22.700
+it's also got an agent selection list and a<u> start</u> button.
+
+07:22.700 --> 07:23.080
+it's also got an agent selection list and a start<u> button.</u>
+
+07:23.520 --> 07:23.780
+<u>After</u> that it started going into a couple of errors.
+
+07:23.780 --> 07:24.060
+After<u> that</u> it started going into a couple of errors.
+
+07:24.060 --> 07:24.420
+After that<u> it</u> started going into a couple of errors.
+
+07:24.420 --> 07:24.860
+After that it<u> started</u> going into a couple of errors.
+
+07:24.860 --> 07:25.300
+After that it started<u> going</u> into a couple of errors.
+
+07:25.300 --> 07:25.640
+After that it started going<u> into</u> a couple of errors.
+
+07:25.640 --> 07:25.800
+After that it started going into<u> a</u> couple of errors.
+
+07:25.800 --> 07:26.020
+After that it started going into a<u> couple</u> of errors.
+
+07:26.020 --> 07:26.180
+After that it started going into a couple<u> of</u> errors.
+
+07:26.180 --> 07:26.440
+After that it started going into a couple of<u> errors.</u>
+
+07:26.580 --> 07:26.660
+<u>I</u> wondered what this was doing and this just kept going on.
+
+07:26.660 --> 07:26.900
+I<u> wondered</u> what this was doing and this just kept going on.
+
+07:26.900 --> 07:27.320
+I wondered<u> what</u> this was doing and this just kept going on.
+
+07:27.320 --> 07:27.580
+I wondered what<u> this</u> was doing and this just kept going on.
+
+07:27.580 --> 07:27.780
+I wondered what this<u> was</u> doing and this just kept going on.
+
+07:27.780 --> 07:28.260
+I wondered what this was<u> doing</u> and this just kept going on.
+
+07:28.260 --> 07:28.900
+I wondered what this was doing<u> and</u> this just kept going on.
+
+07:28.900 --> 07:29.180
+I wondered what this was doing and<u> this</u> just kept going on.
+
+07:29.180 --> 07:29.340
+I wondered what this was doing and this<u> just</u> kept going on.
+
+07:29.340 --> 07:29.620
+I wondered what this was doing and this just<u> kept</u> going on.
+
+07:29.620 --> 07:29.880
+I wondered what this was doing and this just kept<u> going</u> on.
+
+07:29.880 --> 07:30.140
+I wondered what this was doing and this just kept going<u> on.</u>
+
+07:30.620 --> 07:30.720
+<u>If</u> you go and look at the terminal
+
+07:30.720 --> 07:30.860
+If<u> you</u> go and look at the terminal
+
+07:30.860 --> 07:31.000
+If you<u> go</u> and look at the terminal
+
+07:31.000 --> 07:31.440
+If you go<u> and</u> look at the terminal
+
+07:31.440 --> 07:31.620
+If you go and<u> look</u> at the terminal
+
+07:31.620 --> 07:31.800
+If you go and look<u> at</u> the terminal
+
+07:31.800 --> 07:31.920
+If you go and look at<u> the</u> terminal
+
+07:31.920 --> 07:32.240
+If you go and look at the<u> terminal</u>
+
+07:32.240 --> 07:32.660
+<u>you</u> can see that there's big prompts being sent
+
+07:32.660 --> 07:32.880
+you<u> can</u> see that there's big prompts being sent
+
+07:32.880 --> 07:33.160
+you can<u> see</u> that there's big prompts being sent
+
+07:33.160 --> 07:33.400
+you can see<u> that</u> there's big prompts being sent
+
+07:33.400 --> 07:33.720
+you can see that<u> there's</u> big prompts being sent
+
+07:33.720 --> 07:33.980
+you can see that there's<u> big</u> prompts being sent
+
+07:33.980 --> 07:34.340
+you can see that there's big<u> prompts</u> being sent
+
+07:34.340 --> 07:34.700
+you can see that there's big prompts<u> being</u> sent
+
+07:34.700 --> 07:35.020
+you can see that there's big prompts being<u> sent</u>
+
+07:35.020 --> 07:35.240
+<u>and</u> this is step 12 at the moment
+
+07:35.240 --> 07:35.440
+and<u> this</u> is step 12 at the moment
+
+07:35.440 --> 07:35.560
+and this<u> is</u> step 12 at the moment
+
+07:35.560 --> 07:35.880
+and this is<u> step</u> 12 at the moment
+
+07:35.880 --> 07:36.240
+and this is step<u> 12</u> at the moment
+
+07:36.240 --> 07:36.560
+and this is step 12<u> at</u> the moment
+
+07:36.560 --> 07:36.680
+and this is step 12 at<u> the</u> moment
+
+07:36.680 --> 07:36.960
+and this is step 12 at the<u> moment</u>
+
+07:36.960 --> 07:37.340
+<u>and</u> that got me thinking is this costing me money?
+
+07:37.340 --> 07:37.460
+and<u> that</u> got me thinking is this costing me money?
+
+07:37.460 --> 07:37.560
+and that<u> got</u> me thinking is this costing me money?
+
+07:37.560 --> 07:37.680
+and that got<u> me</u> thinking is this costing me money?
+
+07:37.680 --> 07:37.940
+and that got me<u> thinking</u> is this costing me money?
+
+07:37.940 --> 07:38.420
+and that got me thinking<u> is</u> this costing me money?
+
+07:38.420 --> 07:38.580
+and that got me thinking is<u> this</u> costing me money?
+
+07:38.580 --> 07:38.900
+and that got me thinking is this<u> costing</u> me money?
+
+07:38.900 --> 07:39.180
+and that got me thinking is this costing<u> me</u> money?
+
+07:39.180 --> 07:39.520
+and that got me thinking is this costing me<u> money?</u>
+
+07:39.880 --> 07:40.240
+<u>I</u> went over to the costing
+
+07:40.240 --> 07:40.420
+I<u> went</u> over to the costing
+
+07:40.420 --> 07:40.600
+I went<u> over</u> to the costing
+
+07:40.600 --> 07:40.820
+I went over<u> to</u> the costing
+
+07:40.820 --> 07:41.000
+I went over to<u> the</u> costing
+
+07:41.000 --> 07:42.080
+I went over to the<u> costing</u>
+
+07:42.080 --> 07:42.420
+<u>and</u> saw that 92 cents had been consumed at this point.
+
+07:42.420 --> 07:42.700
+and<u> saw</u> that 92 cents had been consumed at this point.
+
+07:42.700 --> 07:42.880
+and saw<u> that</u> 92 cents had been consumed at this point.
+
+07:42.880 --> 07:43.520
+and saw that<u> 92</u> cents had been consumed at this point.
+
+07:43.520 --> 07:43.900
+and saw that 92<u> cents</u> had been consumed at this point.
+
+07:43.900 --> 07:44.160
+and saw that 92 cents<u> had</u> been consumed at this point.
+
+07:44.160 --> 07:44.380
+and saw that 92 cents had<u> been</u> consumed at this point.
+
+07:44.380 --> 07:44.880
+and saw that 92 cents had been<u> consumed</u> at this point.
+
+07:44.880 --> 07:45.160
+and saw that 92 cents had been consumed<u> at</u> this point.
+
+07:45.160 --> 07:45.420
+and saw that 92 cents had been consumed at<u> this</u> point.
+
+07:45.420 --> 07:45.880
+and saw that 92 cents had been consumed at this<u> point.</u>
+
+07:45.900 --> 07:46.380
+<u>What</u> did we get for it? We got this HTML page.
+
+07:46.380 --> 07:46.540
+What<u> did</u> we get for it? We got this HTML page.
+
+07:46.540 --> 07:46.660
+What did<u> we</u> get for it? We got this HTML page.
+
+07:46.660 --> 07:46.840
+What did we<u> get</u> for it? We got this HTML page.
+
+07:46.840 --> 07:47.020
+What did we get<u> for</u> it? We got this HTML page.
+
+07:47.020 --> 07:47.140
+What did we get for<u> it?</u> We got this HTML page.
+
+07:47.140 --> 07:47.160
+What did we get for it? We got this HTML page.
+
+07:47.160 --> 07:47.200
+What did we get for it?<u> We</u> got this HTML page.
+
+07:47.200 --> 07:47.360
+What did we get for it? We<u> got</u> this HTML page.
+
+07:47.360 --> 07:47.560
+What did we get for it? We got<u> this</u> HTML page.
+
+07:47.560 --> 07:48.220
+What did we get for it? We got this<u> HTML</u> page.
+
+07:48.220 --> 07:48.840
+What did we get for it? We got this HTML<u> page.</u>
+
+07:49.120 --> 07:49.300
+<u>You</u> can see the form here
+
+07:49.300 --> 07:49.440
+You<u> can</u> see the form here
+
+07:49.440 --> 07:49.680
+You can<u> see</u> the form here
+
+07:49.680 --> 07:49.800
+You can see<u> the</u> form here
+
+07:49.800 --> 07:50.100
+You can see the<u> form</u> here
+
+07:50.100 --> 07:50.420
+You can see the form<u> here</u>
+
+07:50.420 --> 07:51.100
+<u>and</u> it tells us the information that it's got going on.
+
+07:51.100 --> 07:51.260
+and<u> it</u> tells us the information that it's got going on.
+
+07:51.260 --> 07:51.440
+and it<u> tells</u> us the information that it's got going on.
+
+07:51.440 --> 07:51.660
+and it tells<u> us</u> the information that it's got going on.
+
+07:51.660 --> 07:51.900
+and it tells us<u> the</u> information that it's got going on.
+
+07:51.900 --> 07:52.240
+and it tells us the<u> information</u> that it's got going on.
+
+07:52.240 --> 07:52.740
+and it tells us the information<u> that</u> it's got going on.
+
+07:52.740 --> 07:53.080
+and it tells us the information that<u> it's</u> got going on.
+
+07:53.080 --> 07:53.320
+and it tells us the information that it's<u> got</u> going on.
+
+07:53.320 --> 07:53.640
+and it tells us the information that it's got<u> going</u> on.
+
+07:53.640 --> 07:53.860
+and it tells us the information that it's got going<u> on.</u>
+
+07:54.180 --> 07:54.300
+<u>Now</u> normally with a page being created like this
+
+07:54.300 --> 07:54.820
+Now<u> normally</u> with a page being created like this
+
+07:54.820 --> 07:55.540
+Now normally<u> with</u> a page being created like this
+
+07:55.540 --> 07:55.640
+Now normally with<u> a</u> page being created like this
+
+07:55.640 --> 07:55.880
+Now normally with a<u> page</u> being created like this
+
+07:55.880 --> 07:56.260
+Now normally with a page<u> being</u> created like this
+
+07:56.260 --> 07:56.680
+Now normally with a page being<u> created</u> like this
+
+07:56.680 --> 07:57.040
+Now normally with a page being created<u> like</u> this
+
+07:57.040 --> 07:57.320
+Now normally with a page being created like<u> this</u>
+
+07:57.320 --> 07:57.520
+<u>what</u> you would want to do is go down to the bottom
+
+07:57.520 --> 07:57.660
+what<u> you</u> would want to do is go down to the bottom
+
+07:57.660 --> 07:57.800
+what you<u> would</u> want to do is go down to the bottom
+
+07:57.800 --> 07:57.960
+what you would<u> want</u> to do is go down to the bottom
+
+07:57.960 --> 07:58.080
+what you would want<u> to</u> do is go down to the bottom
+
+07:58.080 --> 07:58.240
+what you would want to<u> do</u> is go down to the bottom
+
+07:58.240 --> 07:58.420
+what you would want to do<u> is</u> go down to the bottom
+
+07:58.420 --> 07:58.620
+what you would want to do is<u> go</u> down to the bottom
+
+07:58.620 --> 07:58.880
+what you would want to do is go<u> down</u> to the bottom
+
+07:58.880 --> 07:59.100
+what you would want to do is go down<u> to</u> the bottom
+
+07:59.100 --> 07:59.200
+what you would want to do is go down to<u> the</u> bottom
+
+07:59.200 --> 07:59.440
+what you would want to do is go down to the<u> bottom</u>
+
+07:59.440 --> 07:59.960
+<u>and</u> type in a new prompt
+
+07:59.960 --> 08:00.280
+and<u> type</u> in a new prompt
+
+08:00.280 --> 08:00.460
+and type<u> in</u> a new prompt
+
+08:00.460 --> 08:00.540
+and type in<u> a</u> new prompt
+
+08:00.540 --> 08:00.680
+and type in a<u> new</u> prompt
+
+08:00.680 --> 08:01.000
+and type in a new<u> prompt</u>
+
+08:01.000 --> 08:01.440
+<u>but</u> I just stopped the server at that stage
+
+08:01.440 --> 08:01.680
+but<u> I</u> just stopped the server at that stage
+
+08:01.680 --> 08:01.900
+but I<u> just</u> stopped the server at that stage
+
+08:01.900 --> 08:02.360
+but I just<u> stopped</u> the server at that stage
+
+08:02.360 --> 08:02.620
+but I just stopped<u> the</u> server at that stage
+
+08:02.620 --> 08:02.940
+but I just stopped the<u> server</u> at that stage
+
+08:02.940 --> 08:03.200
+but I just stopped the server<u> at</u> that stage
+
+08:03.200 --> 08:03.380
+but I just stopped the server at<u> that</u> stage
+
+08:03.380 --> 08:03.840
+but I just stopped the server at that<u> stage</u>
+
+08:03.840 --> 08:04.360
+<u>because</u> something wasn't working
+
+08:04.360 --> 08:04.900
+because<u> something</u> wasn't working
+
+08:04.900 --> 08:05.260
+because something<u> wasn't</u> working
+
+08:05.260 --> 08:05.600
+because something wasn't<u> working</u>
+
+08:05.600 --> 08:06.040
+<u>and</u> we were in a repeating loop that could be quite expensive.
+
+08:06.040 --> 08:06.180
+and<u> we</u> were in a repeating loop that could be quite expensive.
+
+08:06.180 --> 08:06.380
+and we<u> were</u> in a repeating loop that could be quite expensive.
+
+08:06.380 --> 08:06.520
+and we were<u> in</u> a repeating loop that could be quite expensive.
+
+08:06.520 --> 08:06.640
+and we were in<u> a</u> repeating loop that could be quite expensive.
+
+08:06.640 --> 08:07.000
+and we were in a<u> repeating</u> loop that could be quite expensive.
+
+08:07.000 --> 08:07.320
+and we were in a repeating<u> loop</u> that could be quite expensive.
+
+08:07.320 --> 08:07.540
+and we were in a repeating loop<u> that</u> could be quite expensive.
+
+08:07.540 --> 08:07.700
+and we were in a repeating loop that<u> could</u> be quite expensive.
+
+08:07.700 --> 08:08.220
+and we were in a repeating loop that could<u> be</u> quite expensive.
+
+08:08.220 --> 08:08.560
+and we were in a repeating loop that could be<u> quite</u> expensive.
+
+08:08.560 --> 08:09.140
+and we were in a repeating loop that could be quite<u> expensive.</u>
+
+08:09.580 --> 08:09.960
+<u>The</u> last example is a continuation.
+
+08:09.960 --> 08:10.160
+The<u> last</u> example is a continuation.
+
+08:10.160 --> 08:10.660
+The last<u> example</u> is a continuation.
+
+08:10.660 --> 08:10.880
+The last example<u> is</u> a continuation.
+
+08:10.880 --> 08:10.980
+The last example is<u> a</u> continuation.
+
+08:10.980 --> 08:11.800
+The last example is a<u> continuation.</u>
+
+08:12.120 --> 08:12.220
+<u>It's</u> updating the page
+
+08:12.220 --> 08:12.720
+It's<u> updating</u> the page
+
+08:12.720 --> 08:12.940
+It's updating<u> the</u> page
+
+08:12.940 --> 08:13.300
+It's updating the<u> page</u>
+
+08:13.300 --> 08:13.540
+<u>but</u> what makes it a little bit different
+
+08:13.540 --> 08:13.880
+but<u> what</u> makes it a little bit different
+
+08:13.880 --> 08:14.180
+but what<u> makes</u> it a little bit different
+
+08:14.180 --> 08:14.300
+but what makes<u> it</u> a little bit different
+
+08:14.300 --> 08:14.420
+but what makes it<u> a</u> little bit different
+
+08:14.420 --> 08:14.580
+but what makes it a<u> little</u> bit different
+
+08:14.580 --> 08:14.760
+but what makes it a little<u> bit</u> different
+
+08:14.760 --> 08:15.160
+but what makes it a little bit<u> different</u>
+
+08:15.160 --> 08:15.700
+<u>is</u> that in the past we had a workspace with no files
+
+08:15.700 --> 08:15.900
+is<u> that</u> in the past we had a workspace with no files
+
+08:15.900 --> 08:16.140
+is that<u> in</u> the past we had a workspace with no files
+
+08:16.140 --> 08:16.300
+is that in<u> the</u> past we had a workspace with no files
+
+08:16.300 --> 08:16.800
+is that in the<u> past</u> we had a workspace with no files
+
+08:16.800 --> 08:17.300
+is that in the past<u> we</u> had a workspace with no files
+
+08:17.300 --> 08:17.540
+is that in the past we<u> had</u> a workspace with no files
+
+08:17.540 --> 08:17.660
+is that in the past we had<u> a</u> workspace with no files
+
+08:17.660 --> 08:18.000
+is that in the past we had a<u> workspace</u> with no files
+
+08:18.000 --> 08:18.440
+is that in the past we had a workspace<u> with</u> no files
+
+08:18.440 --> 08:18.640
+is that in the past we had a workspace with<u> no</u> files
+
+08:18.640 --> 08:19.060
+is that in the past we had a workspace with no<u> files</u>
+
+08:19.060 --> 08:19.300
+<u>so</u> it knows how to create new applications.
+
+08:19.300 --> 08:19.420
+so<u> it</u> knows how to create new applications.
+
+08:19.420 --> 08:19.800
+so it<u> knows</u> how to create new applications.
+
+08:19.800 --> 08:20.360
+so it knows<u> how</u> to create new applications.
+
+08:20.360 --> 08:20.600
+so it knows how<u> to</u> create new applications.
+
+08:20.600 --> 08:20.980
+so it knows how to<u> create</u> new applications.
+
+08:20.980 --> 08:21.260
+so it knows how to create<u> new</u> applications.
+
+08:21.260 --> 08:21.840
+so it knows how to create new<u> applications.</u>
+
+08:22.380 --> 08:22.460
+<u>In</u> this case there are files
+
+08:22.460 --> 08:22.660
+In<u> this</u> case there are files
+
+08:22.660 --> 08:22.980
+In this<u> case</u> there are files
+
+08:22.980 --> 08:23.340
+In this case<u> there</u> are files
+
+08:23.340 --> 08:23.500
+In this case there<u> are</u> files
+
+08:23.500 --> 08:23.900
+In this case there are<u> files</u>
+
+08:23.900 --> 08:24.320
+<u>so</u> it can assume that it's just taking the work that's there
+
+08:24.320 --> 08:24.520
+so<u> it</u> can assume that it's just taking the work that's there
+
+08:24.520 --> 08:24.680
+so it<u> can</u> assume that it's just taking the work that's there
+
+08:24.680 --> 08:25.120
+so it can<u> assume</u> that it's just taking the work that's there
+
+08:25.120 --> 08:25.400
+so it can assume<u> that</u> it's just taking the work that's there
+
+08:25.400 --> 08:25.700
+so it can assume that<u> it's</u> just taking the work that's there
+
+08:25.700 --> 08:25.980
+so it can assume that it's<u> just</u> taking the work that's there
+
+08:25.980 --> 08:26.340
+so it can assume that it's just<u> taking</u> the work that's there
+
+08:26.340 --> 08:26.500
+so it can assume that it's just taking<u> the</u> work that's there
+
+08:26.500 --> 08:26.700
+so it can assume that it's just taking the<u> work</u> that's there
+
+08:26.700 --> 08:27.060
+so it can assume that it's just taking the work<u> that's</u> there
+
+08:27.060 --> 08:27.320
+so it can assume that it's just taking the work that's<u> there</u>
+
+08:27.320 --> 08:27.780
+<u>and</u> updating it further.
+
+08:27.780 --> 08:28.240
+and<u> updating</u> it further.
+
+08:28.240 --> 08:28.480
+and updating<u> it</u> further.
+
+08:28.480 --> 08:28.860
+and updating it<u> further.</u>
+
+08:29.340 --> 08:29.660
+<u>Tape</u> the prompt that we had before
+
+08:29.660 --> 08:29.880
+Tape<u> the</u> prompt that we had before
+
+08:29.880 --> 08:30.200
+Tape the<u> prompt</u> that we had before
+
+08:30.200 --> 08:30.360
+Tape the prompt<u> that</u> we had before
+
+08:30.360 --> 08:30.500
+Tape the prompt that<u> we</u> had before
+
+08:30.500 --> 08:30.680
+Tape the prompt that we<u> had</u> before
+
+08:30.680 --> 08:31.080
+Tape the prompt that we had<u> before</u>
+
+08:31.080 --> 08:31.540
+<u>I</u> just made a couple of modifications to the text.
+
+08:31.540 --> 08:31.740
+I<u> just</u> made a couple of modifications to the text.
+
+08:31.740 --> 08:31.980
+I just<u> made</u> a couple of modifications to the text.
+
+08:31.980 --> 08:32.260
+I just made<u> a</u> couple of modifications to the text.
+
+08:32.260 --> 08:32.500
+I just made a<u> couple</u> of modifications to the text.
+
+08:32.500 --> 08:32.660
+I just made a couple<u> of</u> modifications to the text.
+
+08:32.660 --> 08:33.140
+I just made a couple of<u> modifications</u> to the text.
+
+08:33.140 --> 08:33.740
+I just made a couple of modifications<u> to</u> the text.
+
+08:33.740 --> 08:33.860
+I just made a couple of modifications to<u> the</u> text.
+
+08:33.860 --> 08:34.100
+I just made a couple of modifications to the<u> text.</u>
+
+08:34.260 --> 08:34.360
+<u>I</u> said I've already created the HTML page
+
+08:34.360 --> 08:34.460
+I<u> said</u> I've already created the HTML page
+
+08:34.460 --> 08:34.660
+I said<u> I've</u> already created the HTML page
+
+08:34.660 --> 08:34.940
+I said I've<u> already</u> created the HTML page
+
+08:34.940 --> 08:35.420
+I said I've already<u> created</u> the HTML page
+
+08:35.420 --> 08:35.680
+I said I've already created<u> the</u> HTML page
+
+08:35.680 --> 08:36.160
+I said I've already created the<u> HTML</u> page
+
+08:36.160 --> 08:36.740
+I said I've already created the HTML<u> page</u>
+
+08:36.740 --> 08:37.200
+<u>and</u> I told it what sections had gone right.
+
+08:37.200 --> 08:37.300
+and<u> I</u> told it what sections had gone right.
+
+08:37.300 --> 08:37.480
+and I<u> told</u> it what sections had gone right.
+
+08:37.480 --> 08:37.640
+and I told<u> it</u> what sections had gone right.
+
+08:37.640 --> 08:37.780
+and I told it<u> what</u> sections had gone right.
+
+08:37.780 --> 08:38.260
+and I told it what<u> sections</u> had gone right.
+
+08:38.260 --> 08:38.520
+and I told it what sections<u> had</u> gone right.
+
+08:38.520 --> 08:38.820
+and I told it what sections had<u> gone</u> right.
+
+08:38.820 --> 08:39.200
+and I told it what sections had gone<u> right.</u>
+
+08:39.540 --> 08:39.720
+<u>I</u> just added in down below
+
+08:39.720 --> 08:39.920
+I<u> just</u> added in down below
+
+08:39.920 --> 08:40.300
+I just<u> added</u> in down below
+
+08:40.300 --> 08:40.620
+I just added<u> in</u> down below
+
+08:40.620 --> 08:41.000
+I just added in<u> down</u> below
+
+08:41.000 --> 08:41.240
+I just added in down<u> below</u>
+
+08:41.240 --> 08:41.560
+<u>where</u> I'd already had this information
+
+08:41.560 --> 08:41.740
+where<u> I'd</u> already had this information
+
+08:41.740 --> 08:42.060
+where I'd<u> already</u> had this information
+
+08:42.060 --> 08:42.280
+where I'd already<u> had</u> this information
+
+08:42.280 --> 08:42.440
+where I'd already had<u> this</u> information
+
+08:42.440 --> 08:42.960
+where I'd already had this<u> information</u>
+
+08:42.960 --> 08:43.460
+<u>told</u> it this is the next section
+
+08:43.460 --> 08:43.680
+told<u> it</u> this is the next section
+
+08:43.680 --> 08:44.100
+told it<u> this</u> is the next section
+
+08:44.100 --> 08:44.240
+told it this<u> is</u> the next section
+
+08:44.240 --> 08:44.440
+told it this is<u> the</u> next section
+
+08:44.440 --> 08:44.600
+told it this is the<u> next</u> section
+
+08:44.600 --> 08:44.940
+told it this is the next<u> section</u>
+
+08:44.940 --> 08:45.260
+<u>that</u> I want you to add into the system.
+
+08:45.260 --> 08:45.520
+that<u> I</u> want you to add into the system.
+
+08:45.520 --> 08:45.680
+that I<u> want</u> you to add into the system.
+
+08:45.680 --> 08:45.940
+that I want<u> you</u> to add into the system.
+
+08:45.940 --> 08:46.260
+that I want you<u> to</u> add into the system.
+
+08:46.260 --> 08:46.540
+that I want you to<u> add</u> into the system.
+
+08:46.540 --> 08:46.720
+that I want you to add<u> into</u> the system.
+
+08:46.720 --> 08:46.920
+that I want you to add into<u> the</u> system.
+
+08:46.920 --> 08:47.240
+that I want you to add into the<u> system.</u>
+
+08:47.960 --> 08:47.960
+<u>Now</u> what it's done is said
+
+08:47.960 --> 08:48.160
+Now<u> what</u> it's done is said
+
+08:48.160 --> 08:48.360
+Now what<u> it's</u> done is said
+
+08:48.360 --> 08:48.560
+Now what it's<u> done</u> is said
+
+08:48.560 --> 08:48.920
+Now what it's done<u> is</u> said
+
+08:48.920 --> 08:49.240
+Now what it's done is<u> said</u>
+
+08:49.240 --> 08:50.420
+<u>OpenDevon</u> is starting the new task
+
+08:50.420 --> 08:50.600
+OpenDevon<u> is</u> starting the new task
+
+08:50.600 --> 08:50.900
+OpenDevon is<u> starting</u> the new task
+
+08:50.900 --> 08:51.120
+OpenDevon is starting<u> the</u> new task
+
+08:51.120 --> 08:51.320
+OpenDevon is starting the<u> new</u> task
+
+08:51.320 --> 08:51.900
+OpenDevon is starting the new<u> task</u>
+
+08:51.900 --> 08:52.320
+<u>of</u> reading in the index.html in the workspace
+
+08:52.320 --> 08:52.800
+of<u> reading</u> in the index.html in the workspace
+
+08:52.800 --> 08:53.240
+of reading<u> in</u> the index.html in the workspace
+
+08:53.240 --> 08:53.460
+of reading in<u> the</u> index.html in the workspace
+
+08:53.460 --> 08:53.960
+of reading in the<u> index</u>.html in the workspace
+
+08:53.960 --> 08:54.980
+of reading in the index<u>.html</u> in the workspace
+
+08:54.980 --> 08:55.160
+of reading in the index.html<u> in</u> the workspace
+
+08:55.160 --> 08:55.260
+of reading in the index.html in<u> the</u> workspace
+
+08:55.260 --> 08:55.540
+of reading in the index.html in the<u> workspace</u>
+
+08:55.540 --> 08:56.240
+<u>and</u> it's figured out that it needs to create
+
+08:56.240 --> 08:56.420
+and<u> it's</u> figured out that it needs to create
+
+08:56.420 --> 08:56.640
+and it's<u> figured</u> out that it needs to create
+
+08:56.640 --> 08:56.900
+and it's figured<u> out</u> that it needs to create
+
+08:56.900 --> 08:57.100
+and it's figured out<u> that</u> it needs to create
+
+08:57.100 --> 08:57.240
+and it's figured out that<u> it</u> needs to create
+
+08:57.240 --> 08:57.400
+and it's figured out that it<u> needs</u> to create
+
+08:57.400 --> 08:57.580
+and it's figured out that it needs<u> to</u> create
+
+08:57.580 --> 08:57.860
+and it's figured out that it needs to<u> create</u>
+
+08:57.860 --> 08:58.080
+<u>an</u> event log and a GPT output sections.
+
+08:58.080 --> 08:58.320
+an<u> event</u> log and a GPT output sections.
+
+08:58.320 --> 08:58.620
+an event<u> log</u> and a GPT output sections.
+
+08:58.620 --> 08:58.960
+an event log<u> and</u> a GPT output sections.
+
+08:58.960 --> 08:59.080
+an event log and<u> a</u> GPT output sections.
+
+08:59.080 --> 08:59.680
+an event log and a<u> GPT</u> output sections.
+
+08:59.680 --> 09:00.220
+an event log and a GPT<u> output</u> sections.
+
+09:00.220 --> 09:00.820
+an event log and a GPT output<u> sections.</u>
+
+09:01.340 --> 09:01.600
+<u>What</u> it does is try to work with a file
+
+09:01.600 --> 09:01.780
+What<u> it</u> does is try to work with a file
+
+09:01.780 --> 09:02.120
+What it<u> does</u> is try to work with a file
+
+09:02.120 --> 09:02.680
+What it does<u> is</u> try to work with a file
+
+09:02.680 --> 09:03.220
+What it does is<u> try</u> to work with a file
+
+09:03.220 --> 09:03.520
+What it does is try<u> to</u> work with a file
+
+09:03.520 --> 09:03.760
+What it does is try to<u> work</u> with a file
+
+09:03.760 --> 09:04.000
+What it does is try to work<u> with</u> a file
+
+09:04.000 --> 09:04.080
+What it does is try to work with<u> a</u> file
+
+09:04.080 --> 09:04.340
+What it does is try to work with a<u> file</u>
+
+09:04.340 --> 09:04.720
+<u>in</u> a sub-direction called workspace
+
+09:04.720 --> 09:04.940
+in<u> a</u> sub-direction called workspace
+
+09:04.940 --> 09:05.200
+in a<u> sub</u>-direction called workspace
+
+09:05.200 --> 09:05.520
+in a sub<u>-direction</u> called workspace
+
+09:05.520 --> 09:05.880
+in a sub-direction<u> called</u> workspace
+
+09:05.880 --> 09:06.260
+in a sub-direction called<u> workspace</u>
+
+09:06.260 --> 09:06.640
+<u>and</u> that was a bit of an error
+
+09:06.640 --> 09:06.760
+and<u> that</u> was a bit of an error
+
+09:06.760 --> 09:06.880
+and that<u> was</u> a bit of an error
+
+09:06.880 --> 09:07.020
+and that was<u> a</u> bit of an error
+
+09:07.020 --> 09:07.080
+and that was a<u> bit</u> of an error
+
+09:07.080 --> 09:07.180
+and that was a bit<u> of</u> an error
+
+09:07.180 --> 09:07.300
+and that was a bit of<u> an</u> error
+
+09:07.300 --> 09:07.520
+and that was a bit of an<u> error</u>
+
+09:07.520 --> 09:08.080
+<u>but</u> it self-corrected
+
+09:08.080 --> 09:08.380
+but<u> it</u> self-corrected
+
+09:08.380 --> 09:09.080
+but it<u> self</u>-corrected
+
+09:09.080 --> 09:09.700
+but it self<u>-corrected</u>
+
+09:09.700 --> 09:09.960
+<u>with</u> now editing the workspace
+
+09:09.960 --> 09:10.340
+with<u> now</u> editing the workspace
+
+09:10.340 --> 09:10.800
+with now<u> editing</u> the workspace
+
+09:10.800 --> 09:11.020
+with now editing<u> the</u> workspace
+
+09:11.020 --> 09:11.360
+with now editing the<u> workspace</u>
+
+09:11.360 --> 09:11.900
+<u>slash</u> index.html.
+
+09:11.900 --> 09:12.680
+slash<u> index</u>.html.
+
+09:12.680 --> 09:13.660
+slash index<u>.html.</u>
+
+09:13.860 --> 09:14.140
+<u>We've</u> got a bunch of HTML
+
+09:14.140 --> 09:14.200
+We've<u> got</u> a bunch of HTML
+
+09:14.200 --> 09:14.300
+We've got<u> a</u> bunch of HTML
+
+09:14.300 --> 09:14.520
+We've got a<u> bunch</u> of HTML
+
+09:14.520 --> 09:14.700
+We've got a bunch<u> of</u> HTML
+
+09:14.700 --> 09:15.240
+We've got a bunch of<u> HTML</u>
+
+09:15.240 --> 09:15.860
+<u>the</u> first section being the event log is a table
+
+09:15.860 --> 09:16.140
+the<u> first</u> section being the event log is a table
+
+09:16.140 --> 09:16.540
+the first<u> section</u> being the event log is a table
+
+09:16.540 --> 09:16.800
+the first section<u> being</u> the event log is a table
+
+09:16.800 --> 09:16.980
+the first section being<u> the</u> event log is a table
+
+09:16.980 --> 09:17.240
+the first section being the<u> event</u> log is a table
+
+09:17.240 --> 09:17.500
+the first section being the event<u> log</u> is a table
+
+09:17.500 --> 09:18.040
+the first section being the event log<u> is</u> a table
+
+09:18.040 --> 09:18.200
+the first section being the event log is<u> a</u> table
+
+09:18.200 --> 09:18.460
+the first section being the event log is a<u> table</u>
+
+09:18.460 --> 09:18.940
+<u>the</u> second section GPT output
+
+09:18.940 --> 09:19.240
+the<u> second</u> section GPT output
+
+09:19.240 --> 09:19.680
+the second<u> section</u> GPT output
+
+09:19.680 --> 09:20.440
+the second section<u> GPT</u> output
+
+09:20.440 --> 09:20.940
+the second section GPT<u> output</u>
+
+09:20.940 --> 09:21.840
+<u>is</u> a couple of rows just showing some JSON.
+
+09:21.840 --> 09:22.440
+is<u> a</u> couple of rows just showing some JSON.
+
+09:22.440 --> 09:22.780
+is a<u> couple</u> of rows just showing some JSON.
+
+09:22.780 --> 09:22.960
+is a couple<u> of</u> rows just showing some JSON.
+
+09:22.960 --> 09:23.320
+is a couple of<u> rows</u> just showing some JSON.
+
+09:23.320 --> 09:23.760
+is a couple of rows<u> just</u> showing some JSON.
+
+09:23.760 --> 09:24.080
+is a couple of rows just<u> showing</u> some JSON.
+
+09:24.080 --> 09:24.300
+is a couple of rows just showing<u> some</u> JSON.
+
+09:24.300 --> 09:24.780
+is a couple of rows just showing some<u> JSON.</u>
+
+09:25.200 --> 09:25.560
+<u>We</u> look at the old form
+
+09:25.560 --> 09:25.740
+We<u> look</u> at the old form
+
+09:25.740 --> 09:25.880
+We look<u> at</u> the old form
+
+09:25.880 --> 09:26.020
+We look at<u> the</u> old form
+
+09:26.020 --> 09:26.360
+We look at the<u> old</u> form
+
+09:26.360 --> 09:26.680
+We look at the old<u> form</u>
+
+09:26.680 --> 09:26.980
+<u>and</u> the new form is now added
+
+09:26.980 --> 09:27.120
+and<u> the</u> new form is now added
+
+09:27.120 --> 09:27.300
+and the<u> new</u> form is now added
+
+09:27.300 --> 09:27.560
+and the new<u> form</u> is now added
+
+09:27.560 --> 09:27.880
+and the new form<u> is</u> now added
+
+09:27.880 --> 09:28.160
+and the new form is<u> now</u> added
+
+09:28.160 --> 09:28.640
+and the new form is now<u> added</u>
+
+09:28.640 --> 09:29.020
+<u>event</u> log and the GPT output.
+
+09:29.020 --> 09:29.320
+event<u> log</u> and the GPT output.
+
+09:29.320 --> 09:29.640
+event log<u> and</u> the GPT output.
+
+09:29.640 --> 09:29.780
+event log and<u> the</u> GPT output.
+
+09:29.780 --> 09:30.400
+event log and the<u> GPT</u> output.
+
+09:30.400 --> 09:30.860
+event log and the GPT<u> output.</u>
+
+09:31.140 --> 09:31.320
+<u>If</u> we look at the costing for this
+
+09:31.320 --> 09:31.420
+If<u> we</u> look at the costing for this
+
+09:31.420 --> 09:31.640
+If we<u> look</u> at the costing for this
+
+09:31.640 --> 09:31.900
+If we look<u> at</u> the costing for this
+
+09:31.900 --> 09:32.160
+If we look at<u> the</u> costing for this
+
+09:32.160 --> 09:32.580
+If we look at the<u> costing</u> for this
+
+09:32.580 --> 09:32.860
+If we look at the costing<u> for</u> this
+
+09:32.860 --> 09:33.120
+If we look at the costing for<u> this</u>
+
+09:33.120 --> 09:33.600
+<u>we</u> can see that cost 36 cents
+
+09:33.600 --> 09:33.780
+we<u> can</u> see that cost 36 cents
+
+09:33.780 --> 09:34.000
+we can<u> see</u> that cost 36 cents
+
+09:34.000 --> 09:34.260
+we can see<u> that</u> cost 36 cents
+
+09:34.260 --> 09:34.640
+we can see that<u> cost</u> 36 cents
+
+09:34.640 --> 09:35.260
+we can see that cost<u> 36</u> cents
+
+09:35.260 --> 09:35.680
+we can see that cost 36<u> cents</u>
+
+09:35.680 --> 09:36.240
+<u>and</u> it was quite successful.
+
+09:36.240 --> 09:36.460
+and<u> it</u> was quite successful.
+
+09:36.460 --> 09:36.640
+and it<u> was</u> quite successful.
+
+09:36.640 --> 09:36.920
+and it was<u> quite</u> successful.
+
+09:36.920 --> 09:37.480
+and it was quite<u> successful.</u>
+
+09:38.220 --> 09:38.480
+<u>For</u> evaluating whether this is a good product to use
+
+09:38.480 --> 09:38.940
+For<u> evaluating</u> whether this is a good product to use
+
+09:38.940 --> 09:39.520
+For evaluating<u> whether</u> this is a good product to use
+
+09:39.520 --> 09:39.760
+For evaluating whether<u> this</u> is a good product to use
+
+09:39.760 --> 09:39.920
+For evaluating whether this<u> is</u> a good product to use
+
+09:39.920 --> 09:40.060
+For evaluating whether this is<u> a</u> good product to use
+
+09:40.060 --> 09:40.180
+For evaluating whether this is a<u> good</u> product to use
+
+09:40.180 --> 09:40.640
+For evaluating whether this is a good<u> product</u> to use
+
+09:40.640 --> 09:41.000
+For evaluating whether this is a good product<u> to</u> use
+
+09:41.000 --> 09:41.360
+For evaluating whether this is a good product to<u> use</u>
+
+09:41.360 --> 09:41.660
+<u>we</u> need to look at the costs.
+
+09:41.660 --> 09:41.860
+we<u> need</u> to look at the costs.
+
+09:41.860 --> 09:42.020
+we need<u> to</u> look at the costs.
+
+09:42.020 --> 09:42.140
+we need to<u> look</u> at the costs.
+
+09:42.140 --> 09:42.280
+we need to look<u> at</u> the costs.
+
+09:42.280 --> 09:42.380
+we need to look at<u> the</u> costs.
+
+09:42.380 --> 09:42.760
+we need to look at the<u> costs.</u>
+
+09:43.260 --> 09:43.400
+<u>So</u> how much did this cost
+
+09:43.400 --> 09:43.800
+So<u> how</u> much did this cost
+
+09:43.800 --> 09:43.980
+So how<u> much</u> did this cost
+
+09:43.980 --> 09:44.180
+So how much<u> did</u> this cost
+
+09:44.180 --> 09:44.400
+So how much did<u> this</u> cost
+
+09:44.400 --> 09:44.840
+So how much did this<u> cost</u>
+
+09:44.840 --> 09:45.420
+<u>and</u> for me the first project
+
+09:45.420 --> 09:45.700
+and<u> for</u> me the first project
+
+09:45.700 --> 09:45.880
+and for<u> me</u> the first project
+
+09:45.880 --> 09:46.140
+and for me<u> the</u> first project
+
+09:46.140 --> 09:46.520
+and for me the<u> first</u> project
+
+09:46.520 --> 09:47.140
+and for me the first<u> project</u>
+
+09:47.140 --> 09:47.480
+<u>which</u> was a bit of a failure the AstroJS
+
+09:47.480 --> 09:47.720
+which<u> was</u> a bit of a failure the AstroJS
+
+09:47.720 --> 09:47.860
+which was<u> a</u> bit of a failure the AstroJS
+
+09:47.860 --> 09:47.920
+which was a<u> bit</u> of a failure the AstroJS
+
+09:47.920 --> 09:48.040
+which was a bit<u> of</u> a failure the AstroJS
+
+09:48.040 --> 09:48.100
+which was a bit of<u> a</u> failure the AstroJS
+
+09:48.100 --> 09:48.420
+which was a bit of a<u> failure</u> the AstroJS
+
+09:48.420 --> 09:48.700
+which was a bit of a failure<u> the</u> AstroJS
+
+09:48.700 --> 09:49.560
+which was a bit of a failure the<u> AstroJS</u>
+
+09:49.560 --> 09:50.100
+<u>cost</u> me $4.23
+
+09:50.100 --> 09:50.360
+cost<u> me</u> $4.23
+
+09:50.360 --> 09:50.720
+cost me<u> $4</u>.23
+
+09:50.720 --> 09:51.380
+cost me $4<u>.23</u>
+
+09:51.380 --> 09:52.160
+<u>and</u> I never got an output that satisfied me.
+
+09:52.160 --> 09:52.280
+and<u> I</u> never got an output that satisfied me.
+
+09:52.280 --> 09:52.500
+and I<u> never</u> got an output that satisfied me.
+
+09:52.500 --> 09:52.820
+and I never<u> got</u> an output that satisfied me.
+
+09:52.820 --> 09:53.140
+and I never got<u> an</u> output that satisfied me.
+
+09:53.140 --> 09:53.580
+and I never got an<u> output</u> that satisfied me.
+
+09:53.580 --> 09:53.940
+and I never got an output<u> that</u> satisfied me.
+
+09:53.940 --> 09:54.420
+and I never got an output that<u> satisfied</u> me.
+
+09:54.420 --> 09:54.840
+and I never got an output that satisfied<u> me.</u>
+
+09:55.240 --> 09:55.420
+<u>The</u> second one was a success
+
+09:55.420 --> 09:55.660
+The<u> second</u> one was a success
+
+09:55.660 --> 09:55.880
+The second<u> one</u> was a success
+
+09:55.880 --> 09:56.220
+The second one<u> was</u> a success
+
+09:56.220 --> 09:56.460
+The second one was<u> a</u> success
+
+09:56.460 --> 09:56.900
+The second one was a<u> success</u>
+
+09:56.900 --> 09:57.480
+<u>but</u> then it went into a little bit of an infinite loop
+
+09:57.480 --> 09:57.680
+but<u> then</u> it went into a little bit of an infinite loop
+
+09:57.680 --> 09:57.800
+but then<u> it</u> went into a little bit of an infinite loop
+
+09:57.800 --> 09:57.900
+but then it<u> went</u> into a little bit of an infinite loop
+
+09:57.900 --> 09:58.260
+but then it went<u> into</u> a little bit of an infinite loop
+
+09:58.260 --> 09:58.420
+but then it went into<u> a</u> little bit of an infinite loop
+
+09:58.420 --> 09:58.500
+but then it went into a<u> little</u> bit of an infinite loop
+
+09:58.500 --> 09:58.660
+but then it went into a little<u> bit</u> of an infinite loop
+
+09:58.660 --> 09:58.780
+but then it went into a little bit<u> of</u> an infinite loop
+
+09:58.780 --> 09:58.900
+but then it went into a little bit of<u> an</u> infinite loop
+
+09:58.900 --> 09:59.140
+but then it went into a little bit of an<u> infinite</u> loop
+
+09:59.140 --> 09:59.580
+but then it went into a little bit of an infinite<u> loop</u>
+
+09:59.580 --> 09:59.940
+<u>and</u> I stopped it at 92 cents.
+
+09:59.940 --> 10:00.080
+and<u> I</u> stopped it at 92 cents.
+
+10:00.080 --> 10:00.440
+and I<u> stopped</u> it at 92 cents.
+
+10:00.440 --> 10:00.720
+and I stopped<u> it</u> at 92 cents.
+
+10:00.720 --> 10:00.980
+and I stopped it<u> at</u> 92 cents.
+
+10:00.980 --> 10:01.520
+and I stopped it at<u> 92</u> cents.
+
+10:01.520 --> 10:01.940
+and I stopped it at 92<u> cents.</u>
+
+10:02.420 --> 10:02.680
+<u>The</u> third one worked
+
+10:02.680 --> 10:02.940
+The<u> third</u> one worked
+
+10:02.940 --> 10:03.260
+The third<u> one</u> worked
+
+10:03.260 --> 10:03.800
+The third one<u> worked</u>
+
+10:03.800 --> 10:04.140
+<u>there</u> was one error during the process
+
+10:04.140 --> 10:04.340
+there<u> was</u> one error during the process
+
+10:04.340 --> 10:04.640
+there was<u> one</u> error during the process
+
+10:04.640 --> 10:04.960
+there was one<u> error</u> during the process
+
+10:04.960 --> 10:05.400
+there was one error<u> during</u> the process
+
+10:05.400 --> 10:05.620
+there was one error during<u> the</u> process
+
+10:05.620 --> 10:05.940
+there was one error during the<u> process</u>
+
+10:05.940 --> 10:06.220
+<u>but</u> it self recovered and that cost me 36 cents
+
+10:06.220 --> 10:06.320
+but<u> it</u> self recovered and that cost me 36 cents
+
+10:06.320 --> 10:06.620
+but it<u> self</u> recovered and that cost me 36 cents
+
+10:06.620 --> 10:07.000
+but it self<u> recovered</u> and that cost me 36 cents
+
+10:07.000 --> 10:07.520
+but it self recovered<u> and</u> that cost me 36 cents
+
+10:07.520 --> 10:07.660
+but it self recovered and<u> that</u> cost me 36 cents
+
+10:07.660 --> 10:07.920
+but it self recovered and that<u> cost</u> me 36 cents
+
+10:07.920 --> 10:08.140
+but it self recovered and that cost<u> me</u> 36 cents
+
+10:08.140 --> 10:08.700
+but it self recovered and that cost me<u> 36</u> cents
+
+10:08.700 --> 10:08.940
+but it self recovered and that cost me 36<u> cents</u>
+
+10:08.940 --> 10:09.180
+<u>so</u> all up this was a $5.50
+
+10:09.180 --> 10:09.400
+so<u> all</u> up this was a $5.50
+
+10:09.400 --> 10:09.600
+so all<u> up</u> this was a $5.50
+
+10:09.600 --> 10:09.980
+so all up<u> this</u> was a $5.50
+
+10:09.980 --> 10:10.220
+so all up this<u> was</u> a $5.50
+
+10:10.220 --> 10:10.520
+so all up this was<u> a</u> $5.50
+
+10:10.520 --> 10:10.900
+so all up this was a<u> $5</u>.50
+
+10:10.900 --> 10:11.760
+so all up this was a $5<u>.50</u>
+
+10:11.760 --> 10:12.820
+<u>using</u> OpenAI GPT for credits.
+
+10:12.820 --> 10:13.740
+using<u> OpenAI</u> GPT for credits.
+
+10:13.740 --> 10:14.620
+using OpenAI<u> GPT</u> for credits.
+
+10:14.620 --> 10:15.000
+using OpenAI GPT<u> for</u> credits.
+
+10:15.000 --> 10:15.560
+using OpenAI GPT for<u> credits.</u>
+
+10:16.080 --> 10:17.060
+<u>OpenDevon</u> is very promising
+
+10:17.060 --> 10:17.360
+OpenDevon<u> is</u> very promising
+
+10:17.360 --> 10:17.760
+OpenDevon is<u> very</u> promising
+
+10:17.760 --> 10:18.320
+OpenDevon is very<u> promising</u>
+
+10:18.320 --> 10:18.900
+<u>but</u> it needs to be guided at the moment
+
+10:18.900 --> 10:19.340
+but<u> it</u> needs to be guided at the moment
+
+10:19.340 --> 10:19.780
+but it<u> needs</u> to be guided at the moment
+
+10:19.780 --> 10:19.980
+but it needs<u> to</u> be guided at the moment
+
+10:19.980 --> 10:20.100
+but it needs to<u> be</u> guided at the moment
+
+10:20.100 --> 10:20.480
+but it needs to be<u> guided</u> at the moment
+
+10:20.480 --> 10:20.720
+but it needs to be guided<u> at</u> the moment
+
+10:20.720 --> 10:20.820
+but it needs to be guided at<u> the</u> moment
+
+10:20.820 --> 10:21.100
+but it needs to be guided at the<u> moment</u>
+
+10:21.100 --> 10:21.460
+<u>otherwise</u> you could incur some big costs.
+
+10:21.460 --> 10:21.700
+otherwise<u> you</u> could incur some big costs.
+
+10:21.700 --> 10:21.880
+otherwise you<u> could</u> incur some big costs.
+
+10:21.880 --> 10:22.300
+otherwise you could<u> incur</u> some big costs.
+
+10:22.300 --> 10:22.560
+otherwise you could incur<u> some</u> big costs.
+
+10:22.560 --> 10:22.760
+otherwise you could incur some<u> big</u> costs.
+
+10:22.760 --> 10:23.220
+otherwise you could incur some big<u> costs.</u>
+
+10:23.660 --> 10:23.900
+<u>I</u> look forward to seeing what they're going to do
+
+10:23.900 --> 10:24.060
+I<u> look</u> forward to seeing what they're going to do
+
+10:24.060 --> 10:24.320
+I look<u> forward</u> to seeing what they're going to do
+
+10:24.320 --> 10:24.460
+I look forward<u> to</u> seeing what they're going to do
+
+10:24.460 --> 10:24.680
+I look forward to<u> seeing</u> what they're going to do
+
+10:24.680 --> 10:24.840
+I look forward to seeing<u> what</u> they're going to do
+
+10:24.840 --> 10:25.060
+I look forward to seeing what<u> they're</u> going to do
+
+10:25.060 --> 10:25.200
+I look forward to seeing what they're<u> going</u> to do
+
+10:25.200 --> 10:25.380
+I look forward to seeing what they're going<u> to</u> do
+
+10:25.380 --> 10:25.540
+I look forward to seeing what they're going to<u> do</u>
+
+10:25.540 --> 10:25.700
+<u>with</u> this over the next few weeks
+
+10:25.700 --> 10:25.900
+with<u> this</u> over the next few weeks
+
+10:25.900 --> 10:26.120
+with this<u> over</u> the next few weeks
+
+10:26.120 --> 10:26.240
+with this over<u> the</u> next few weeks
+
+10:26.240 --> 10:26.420
+with this over the<u> next</u> few weeks
+
+10:26.420 --> 10:26.780
+with this over the next<u> few</u> weeks
+
+10:26.780 --> 10:27.100
+with this over the next few<u> weeks</u>
+
+10:27.100 --> 10:27.360
+<u>it</u> could be a worthy contender
+
+10:27.360 --> 10:27.540
+it<u> could</u> be a worthy contender
+
+10:27.540 --> 10:27.720
+it could<u> be</u> a worthy contender
+
+10:27.720 --> 10:27.860
+it could be<u> a</u> worthy contender
+
+10:27.860 --> 10:28.160
+it could be a<u> worthy</u> contender
+
+10:28.160 --> 10:29.140
+it could be a worthy<u> contender</u>
+
+10:29.140 --> 10:29.480
+<u>and</u> alternative to DevonAI.
+
+10:29.480 --> 10:30.060
+and<u> alternative</u> to DevonAI.
+
+10:30.060 --> 10:30.460
+and alternative<u> to</u> DevonAI.
+
+10:30.460 --> 10:31.320
+and alternative to<u> DevonAI.</u>
+
+10:31.860 --> 10:32.420
+<u>I'm</u> Appy Dave.
+
+10:32.420 --> 10:32.660
+I'm<u> Appy</u> Dave.
+
+10:32.660 --> 10:32.940
+I'm Appy<u> Dave.</u>
+
+10:33.240 --> 10:33.420
+<u>If</u> you like videos on chat GPT
+
+10:33.420 --> 10:33.700
+If<u> you</u> like videos on chat GPT
+
+10:33.700 --> 10:33.980
+If you<u> like</u> videos on chat GPT
+
+10:33.980 --> 10:34.340
+If you like<u> videos</u> on chat GPT
+
+10:34.340 --> 10:34.640
+If you like videos<u> on</u> chat GPT
+
+10:34.640 --> 10:34.860
+If you like videos on<u> chat</u> GPT
+
+10:34.860 --> 10:35.440
+If you like videos on chat<u> GPT</u>
+
+10:35.440 --> 10:35.760
+<u>coding</u> with GPT or prompt engineering
+
+10:35.760 --> 10:36.000
+coding<u> with</u> GPT or prompt engineering
+
+10:36.000 --> 10:36.620
+coding with<u> GPT</u> or prompt engineering
+
+10:36.620 --> 10:36.760
+coding with GPT<u> or</u> prompt engineering
+
+10:36.760 --> 10:37.000
+coding with GPT or<u> prompt</u> engineering
+
+10:37.000 --> 10:37.460
+coding with GPT or prompt<u> engineering</u>
+
+10:37.460 --> 10:38.060
+<u>then</u> like and subscribe
+
+10:38.060 --> 10:38.360
+then<u> like</u> and subscribe
+
+10:38.360 --> 10:38.500
+then like<u> and</u> subscribe
+
+10:38.500 --> 10:38.860
+then like and<u> subscribe</u>
+
+10:38.860 --> 10:39.260
+<u>and</u> I'll see you in the next video.
+
+10:39.260 --> 10:39.420
+and<u> I'll</u> see you in the next video.
+
+10:39.420 --> 10:39.540
+and I'll<u> see</u> you in the next video.
+
+10:39.540 --> 10:39.640
+and I'll see<u> you</u> in the next video.
+
+10:39.640 --> 10:39.700
+and I'll see you<u> in</u> the next video.
+
+10:39.700 --> 10:39.780
+and I'll see you in<u> the</u> next video.
+
+10:39.780 --> 10:39.920
+and I'll see you in the<u> next</u> video.
+
+10:39.920 --> 10:40.260
+and I'll see you in the next<u> video.</u>
+

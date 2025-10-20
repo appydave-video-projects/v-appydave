@@ -1,0 +1,886 @@
+1
+00:00:01,110 --> 00:00:05,580
+I have a script that I can say in
+60 seconds and it took me about
+
+2
+00:00:05,580 --> 00:00:07,470
+three or four hours to write.
+
+3
+00:00:07,680 --> 00:00:11,160
+I did it for a competition and
+I've just found out that I need
+
+4
+00:00:11,160 --> 00:00:13,800
+to say it in about 30 seconds.
+
+5
+00:00:14,010 --> 00:00:18,270
+So what I want to do is see if I can
+create a prompt that will maintain the
+
+6
+00:00:18,270 --> 00:00:21,450
+value of this script, but cut it in half.
+
+7
+00:00:23,040 --> 00:00:23,970
+Here's the idea.
+
+8
+00:00:24,000 --> 00:00:25,710
+Can you take an awesome script?
+
+9
+00:00:25,950 --> 00:00:28,380
+Cut it in half, keep it awesome.
+
+10
+00:00:29,340 --> 00:00:33,480
+I've already created a video and
+here's the transcript from it.
+
+11
+00:00:33,600 --> 00:00:38,430
+Now, the main things that are in here
+that are making it go a bit longer is
+
+12
+00:00:38,435 --> 00:00:44,340
+that I'm talking about this 555 manifesto,
+both at the end and at the beginning.
+
+13
+00:00:44,530 --> 00:00:47,705
+I also talk about the journey
+of five different YouTube
+
+14
+00:00:47,705 --> 00:00:49,055
+channels that I've worked on.
+
+15
+00:00:49,595 --> 00:00:54,455
+And the problem is I probably go into a
+little bit too much depth on each of them.
+
+16
+00:00:54,795 --> 00:00:59,684
+the idea is, Could we get
+ChatGPT to rewrite this script
+
+17
+00:00:59,684 --> 00:01:01,845
+for me in about 30 seconds?
+
+18
+00:01:01,904 --> 00:01:04,004
+Currently it takes 60 seconds.
+
+19
+00:01:05,125 --> 00:01:09,324
+to get started, let's paste in a
+little prompt that I've just prepared.
+
+20
+00:01:09,655 --> 00:01:14,664
+I need to take this 60 second
+script, get five variations.
+
+21
+00:01:14,695 --> 00:01:20,465
+I want to test them all by listening to
+them using AI voices, but I want each of
+
+22
+00:01:20,465 --> 00:01:26,300
+'em to be 25 seconds or less and this part
+of the prompt is essentially setting up
+
+23
+00:01:26,300 --> 00:01:29,060
+the goal of what we're trying to achieve.
+
+24
+00:01:29,270 --> 00:01:30,380
+But there's one thing that's missing.
+
+25
+00:01:31,925 --> 00:01:35,885
+'cause if I run this prompt
+on its own, it won't take into
+
+26
+00:01:35,885 --> 00:01:38,135
+account what I think is important.
+
+27
+00:01:38,135 --> 00:01:44,225
+And I've already stated that the 555
+manifesto is not actually important.
+
+28
+00:01:44,465 --> 00:01:48,185
+So I'm going to write another
+prompt and we say, before you
+
+29
+00:01:48,185 --> 00:01:53,195
+proceed, can you make sure to ask
+questions about what is important?
+
+30
+00:01:53,435 --> 00:01:54,395
+We might even add to.
+
+31
+00:01:54,530 --> 00:01:57,560
+That just added this section here.
+
+32
+00:01:57,565 --> 00:02:03,230
+Keep asking me questions about what
+is important until I say write script.
+
+33
+00:02:03,500 --> 00:02:07,400
+So I need it to interrogate me,
+have a look at the script, and then
+
+34
+00:02:07,400 --> 00:02:09,680
+come back with a set of questions.
+
+35
+00:02:09,680 --> 00:02:13,850
+I'll answer them and when I'm ready,
+then I'll ask it to write the script.
+
+36
+00:02:14,510 --> 00:02:15,920
+Now we can just check it all.
+
+37
+00:02:15,920 --> 00:02:16,880
+It looks all good.
+
+38
+00:02:16,880 --> 00:02:19,370
+Let's hit go and see what we come up.
+
+39
+00:02:19,415 --> 00:02:22,054
+With now, I like what's come up here.
+
+40
+00:02:22,054 --> 00:02:26,855
+It's talked about having five
+different questions that it needs to
+
+41
+00:02:26,855 --> 00:02:29,285
+ask me what are the key milestones?
+
+42
+00:02:29,435 --> 00:02:33,235
+Are there any specific channels to
+highlight, which is not the case.
+
+43
+00:02:33,235 --> 00:02:34,075
+I don't have any.
+
+44
+00:02:34,425 --> 00:02:35,565
+They're all important.
+
+45
+00:02:35,835 --> 00:02:40,245
+How essential is it to include details
+about followers, speed of monetizing?
+
+46
+00:02:40,925 --> 00:02:44,375
+It's important, but I can get
+rid of it, if that makes sense.
+
+47
+00:02:44,625 --> 00:02:47,805
+Do you have a preference for
+mentioning certain achievements?
+
+48
+00:02:48,015 --> 00:02:48,855
+Not really.
+
+49
+00:02:49,135 --> 00:02:52,195
+is the essence of 555 manifesto important?
+
+50
+00:02:52,435 --> 00:02:55,375
+Not at all, because that I
+can do in a different video.
+
+51
+00:02:55,675 --> 00:02:56,875
+There is one thing.
+
+52
+00:02:57,125 --> 00:03:02,255
+That I also need to add to this is
+that it's done for a competition
+
+53
+00:03:02,255 --> 00:03:04,295
+by video ranking academy.
+
+54
+00:03:04,295 --> 00:03:09,324
+It's a course that I'm part of and
+I'm trying to create this 30 second
+
+55
+00:03:09,349 --> 00:03:12,194
+video to submit to that course.
+
+56
+00:03:12,254 --> 00:03:14,534
+I better try and include
+something like that.
+
+57
+00:03:14,814 --> 00:03:18,234
+let's see what we can add as
+answer to these questions.
+
+58
+00:03:20,529 --> 00:03:24,069
+Now looking at the questions, what
+I've done is written five different
+
+59
+00:03:24,069 --> 00:03:25,689
+answers and we'll go through them.
+
+60
+00:03:26,109 --> 00:03:30,999
+The first one, which is about milestones
+or key points, and I guess the main
+
+61
+00:03:31,004 --> 00:03:35,729
+thing is because it's a competition
+for video ranking academy which is
+
+62
+00:03:35,729 --> 00:03:37,649
+where I learned a lot of my skills.
+
+63
+00:03:37,889 --> 00:03:40,049
+would be good if it could be highlighted.
+
+64
+00:03:40,189 --> 00:03:40,699
+Somewhere.
+
+65
+00:03:41,299 --> 00:03:44,929
+Then the next thing is that all
+five of the channels are important.
+
+66
+00:03:44,989 --> 00:03:48,549
+I think maybe they're not,
+but I believe they are.
+
+67
+00:03:48,909 --> 00:03:50,559
+So I'd like to list them.
+
+68
+00:03:50,889 --> 00:03:55,179
+The main thing is I've separated
+them out into three tech channels
+
+69
+00:03:55,369 --> 00:03:59,709
+one channel That is just a personal
+challenge for me, and then, The last
+
+70
+00:03:59,829 --> 00:04:04,929
+channel, which is my podcasting, where
+I actually create most of my content
+
+71
+00:04:05,259 --> 00:04:07,659
+to disseminate to the other channels.
+
+72
+00:04:08,199 --> 00:04:12,909
+Then number three, how essential
+is it to include followers
+
+73
+00:04:12,914 --> 00:04:14,319
+and speed and monetization?
+
+74
+00:04:14,469 --> 00:04:17,989
+It's not really that important from
+this sort of video point of view.
+
+75
+00:04:18,099 --> 00:04:23,529
+You, but number four, it would be nice
+if I could highlight the one channel
+
+76
+00:04:23,529 --> 00:04:28,899
+and the one video that just blew my mind
+because I was able to capture a trend.
+
+77
+00:04:29,169 --> 00:04:32,689
+I used concepts like
+trend jacking and click.
+
+78
+00:04:32,889 --> 00:04:39,189
+Bait keywords and unique concepts
+unique content points of view to
+
+79
+00:04:39,219 --> 00:04:41,229
+monetize a channel really quickly.
+
+80
+00:04:41,379 --> 00:04:45,579
+So I think it's important that it tries
+to capture that detail, but we'll see.
+
+81
+00:04:45,859 --> 00:04:50,569
+lastly, the 555 manifesto, which
+is really a future project, is
+
+82
+00:04:50,574 --> 00:04:53,089
+not really needed within this.
+
+83
+00:04:53,149 --> 00:04:55,009
+So let's just press enter and see what.
+
+84
+00:04:55,009 --> 00:04:55,519
+We get.
+
+85
+00:04:56,689 --> 00:04:59,719
+G P T has written five
+different variations for me.
+
+86
+00:04:59,989 --> 00:05:04,519
+One of the things I asked it though
+was to wait until I said to write
+
+87
+00:05:05,029 --> 00:05:09,619
+script, so sometimes it doesn't follow
+the instructions, but let's have a
+
+88
+00:05:09,619 --> 00:05:11,359
+look through the five variations.
+
+89
+00:05:11,569 --> 00:05:16,519
+Normally what I like to do is get the
+computer to read them to me, either using
+
+90
+00:05:16,519 --> 00:05:21,319
+eleven labs or Revoicer or one of the
+other text to speech tools that I have.
+
+91
+00:05:21,909 --> 00:05:26,919
+what we'll do today is I'll just read
+through them all because most of them are
+
+92
+00:05:26,919 --> 00:05:31,869
+off a little bit on what I need, and I
+don't yet have what I consider a final.
+
+93
+00:05:32,039 --> 00:05:38,249
+Script Variation One through Video Ranking
+Academy, I mastered the art of content.
+
+94
+00:05:38,519 --> 00:05:39,299
+Full stop.
+
+95
+00:05:39,809 --> 00:05:42,509
+That sentence just feels dead.
+
+96
+00:05:42,509 --> 00:05:44,699
+It just dies really quickly.
+
+97
+00:05:45,179 --> 00:05:48,329
+It then talks about the five
+channels, three being tech, one
+
+98
+00:05:48,329 --> 00:05:49,919
+being a personal project with.
+
+99
+00:05:50,109 --> 00:05:53,119
+My heart truly lying with @appycast.
+
+100
+00:05:53,649 --> 00:05:56,619
+That last statement feels
+a little bit wrong to me.
+
+101
+00:05:56,619 --> 00:05:58,269
+It's not the way I would wanna say it.
+
+102
+00:05:58,659 --> 00:06:00,819
+I will wanna change this if I go with it.
+
+103
+00:06:01,339 --> 00:06:06,229
+the idea of gaining 2000 followers
+in a week is just a highlight.
+
+104
+00:06:06,529 --> 00:06:07,759
+It's an all right statement.
+
+105
+00:06:08,209 --> 00:06:11,029
+The problem is it doesn't
+relate to the channel where it
+
+106
+00:06:11,029 --> 00:06:12,889
+happened, which is @appydave.
+
+107
+00:06:13,519 --> 00:06:15,679
+so we may need to play around with that.
+
+108
+00:06:15,979 --> 00:06:17,089
+Let's have a look at variation.
+
+109
+00:06:17,944 --> 00:06:22,444
+Two, a variation two feels a
+lot better from skills honed.
+
+110
+00:06:22,444 --> 00:06:26,704
+At Video Ranking Academy, I
+diversified into five unique channels,
+
+111
+00:06:26,904 --> 00:06:31,504
+@flivideo, @winningprompts and
+@appydave Catering to Tech while
+
+112
+00:06:31,504 --> 00:06:33,454
+@carnivore90 is my health diary.
+
+113
+00:06:33,964 --> 00:06:39,454
+But AppyCast is where my story
+is truly unfold, so that.
+
+114
+00:06:39,474 --> 00:06:43,719
+Whole sentences that
+feels pretty good to me.
+
+115
+00:06:43,989 --> 00:06:47,739
+This last statement, did I
+mention 2000 followers in a week?
+
+116
+00:06:48,049 --> 00:06:51,379
+a little bit of context
+there might be important.
+
+117
+00:06:51,769 --> 00:06:53,569
+Let's move on to variation three.
+
+118
+00:06:54,529 --> 00:06:59,299
+I've just read through number
+three and it's okay, but it has a
+
+119
+00:06:59,299 --> 00:07:03,709
+lot of similarities to variation
+one from my point of view, and I
+
+120
+00:07:03,709 --> 00:07:06,049
+can almost say no straight away.
+
+121
+00:07:06,439 --> 00:07:07,429
+Let's look at variation.
+
+122
+00:07:07,459 --> 00:07:07,969
+Four.
+
+123
+00:07:08,969 --> 00:07:13,619
+This one has a starting structure
+that's similar to two and
+
+124
+00:07:13,739 --> 00:07:15,839
+probably okay for me to go with.
+
+125
+00:07:16,169 --> 00:07:19,919
+Thanks to Video Ranking Academy,
+I ventured in the five channels,
+
+126
+00:07:20,109 --> 00:07:24,539
+@flivideo @winningprompts and @appydave
+for Tech @carnivore90 for Health
+
+127
+00:07:24,779 --> 00:07:27,359
+and my Dearest @appycast podcast.
+
+128
+00:07:27,359 --> 00:07:29,399
+I don't really like that last statement.
+
+129
+00:07:29,879 --> 00:07:31,379
+The rest of it didn't really.
+
+130
+00:07:31,379 --> 00:07:35,619
+Really make any sense to me
+that the context is a bit vague?
+
+131
+00:07:36,129 --> 00:07:37,989
+Let's look at variation five.
+
+132
+00:07:38,859 --> 00:07:40,839
+This one starts off really good.
+
+133
+00:07:41,139 --> 00:07:45,969
+My journey began at Video Ranking
+Academy leading to five dynamic
+
+134
+00:07:45,969 --> 00:07:50,679
+channels @flivideo @winningprompts,
+@appydave for tech enthusiasts
+
+135
+00:07:50,909 --> 00:07:53,019
+@carnivore90 as a health diary.
+
+136
+00:07:53,229 --> 00:07:54,699
+It may be a little incorrect.
+
+137
+00:07:54,729 --> 00:07:59,409
+My journey didn't begin at Video
+Ranking Academy, they've been a major
+
+138
+00:07:59,409 --> 00:08:06,149
+player during my time creating videos,
+the and intimate conversations that
+
+139
+00:08:06,149 --> 00:08:09,599
+@appycast, that's also incorrect
+in that what I'm doing right.
+
+140
+00:08:09,599 --> 00:08:12,229
+Now is more behind the scenes.
+
+141
+00:08:12,439 --> 00:08:16,669
+This is where I figure out how to make
+tech do what I need it to do, where
+
+142
+00:08:16,669 --> 00:08:18,889
+I get AI to do what I need it to do.
+
+143
+00:08:19,199 --> 00:08:22,859
+to call it intimate
+conversations is off the ball.
+
+144
+00:08:23,519 --> 00:08:27,664
+But I do the last statement being
+monetized in nine days was a charity.
+
+145
+00:08:27,719 --> 00:08:28,409
+On top.
+
+146
+00:08:28,949 --> 00:08:29,369
+Okay.
+
+147
+00:08:29,369 --> 00:08:33,099
+So that's to me, might be
+a better statement than the
+
+148
+00:08:33,099 --> 00:08:35,169
+2000 followers in a week.
+
+149
+00:08:35,539 --> 00:08:42,139
+there was also that idea of getting 4,000
+watch hours and I did it really quickly
+
+150
+00:08:42,139 --> 00:08:44,599
+and I, so far, I've been a one hit wonder.
+
+151
+00:08:44,599 --> 00:08:49,489
+I haven't been able to achieve that
+since, but I learned a lot going
+
+152
+00:08:49,489 --> 00:08:50,959
+through that particular process.
+
+153
+00:08:50,959 --> 00:08:52,969
+So it'd be good to highlight that.
+
+154
+00:08:53,969 --> 00:08:58,259
+Having read through this, I have
+a prompt here that I've filled in.
+
+155
+00:08:58,709 --> 00:09:03,779
+I basically like variation
+two and I like variation four.
+
+156
+00:09:04,469 --> 00:09:08,459
+The section about @appycast,
+I've got a preference.
+
+157
+00:09:08,489 --> 00:09:13,289
+So I've basically say, when talking
+about acast, I prefer a statement similar
+
+158
+00:09:13,319 --> 00:09:18,479
+to, and then the last thing is from
+an achievements point of view, These
+
+159
+00:09:18,719 --> 00:09:21,029
+two statements, but I only want one.
+
+160
+00:09:21,029 --> 00:09:22,919
+I don't want both.
+
+161
+00:09:23,249 --> 00:09:28,509
+So I think we can finish this off
+with can you make five scripts using
+
+162
+00:09:28,509 --> 00:09:31,299
+these new criteria for guidance?
+
+163
+00:09:31,569 --> 00:09:33,669
+And we'll hit go and see what it comes up.
+
+164
+00:09:33,669 --> 00:09:40,079
+Up with that G P T started writing some
+pretty good scripts, but I did restart
+
+165
+00:09:40,079 --> 00:09:42,059
+it again and I'll just show you why.
+
+166
+00:09:42,339 --> 00:09:47,560
+one of the things that you can do at
+any time is restart a conversation by
+
+167
+00:09:47,560 --> 00:09:49,180
+clicking on this little button here.
+
+168
+00:09:49,250 --> 00:09:50,145
+we'll look at the second one.
+
+169
+00:09:50,200 --> 00:09:54,280
+Essentially, I wanted it to note
+that the achievement was with
+
+170
+00:09:54,360 --> 00:09:59,390
+@appydave, it started writing new
+variations again, and in particular,
+
+171
+00:09:59,480 --> 00:10:01,760
+I really like variation two now.
+
+172
+00:10:01,760 --> 00:10:06,170
+You can read all of them if you want
+to, but essentially variation two.
+
+173
+00:10:06,440 --> 00:10:06,860
+It's kind.
+
+174
+00:10:06,955 --> 00:10:09,085
+Kind of the sweet point for me.
+
+175
+00:10:09,415 --> 00:10:13,795
+Thanks to Video Ranking Academy,
+I ventured into five channels, fly
+
+176
+00:10:13,795 --> 00:10:18,265
+video, @winningprompts and @appydave
+Tech @carnivore90 for Health and
+
+177
+00:10:18,270 --> 00:10:20,245
+learning with Dave @appycast.
+
+178
+00:10:20,455 --> 00:10:24,115
+Oh, and a quick brag @appydave
+was monetized in just.
+
+179
+00:10:24,115 --> 00:10:25,000
+To nine days.
+
+180
+00:10:25,390 --> 00:10:29,050
+To me, this feels the way I would
+say things and I'd be happy to go
+
+181
+00:10:29,050 --> 00:10:31,630
+with this as a testimonial video.
+
+182
+00:10:32,050 --> 00:10:35,830
+The only thing that might have
+been a little bit nicer is if I
+
+183
+00:10:35,830 --> 00:10:41,130
+included dive into behind the scenes
+trials and errors at @appycast.
+
+184
+00:10:41,410 --> 00:10:45,680
+Though as I say it, it doesn't
+really roll off my tongue, I
+
+185
+00:10:45,680 --> 00:10:47,180
+think I've got a winner with very.
+
+186
+00:10:47,195 --> 00:10:51,635
+Variation two, and this is
+the script that I'm going to
+
+187
+00:10:51,635 --> 00:10:54,225
+submit for a little competition.
+
+188
+00:10:54,315 --> 00:10:55,125
+See how I go.
+
+189
+00:10:57,405 --> 00:11:01,605
+On a personal note, I've been a member
+of Video Ranking Academy for over two
+
+190
+00:11:01,605 --> 00:11:07,755
+years, and I didn't actually get started
+until November last year, but if it's
+
+191
+00:11:07,755 --> 00:11:11,235
+something you wanna follow up on, then
+I've left a link in the description.
+
+192
+00:11:11,235 --> 00:11:12,375
+It's an affiliate link.
+
+193
+00:11:12,715 --> 00:11:17,095
+on the other hand, if what you wanna do
+is learn techniques around chat G P T
+
+194
+00:11:17,095 --> 00:11:21,085
+or automating your YouTube influence,
+then check out one of the videos
+
+195
+00:11:21,085 --> 00:11:22,885
+that I have up here in the corner.
+

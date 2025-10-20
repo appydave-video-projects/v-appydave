@@ -1,0 +1,439 @@
+1
+00:00:00,00 --> 00:00:04,810
+Aider is an AI pair programmer that you can run from the terminal. In this video 
+
+2
+00:00:04,810 --> 00:00:10,700
+I want to download doom, which is by id software and using scripting. Let's document 
+
+3
+00:00:10,700 --> 00:00:15,670
+that complete project so that we can potentially create a new application in a different 
+
+4
+00:00:15,670 --> 00:00:19,100
+programming language. I'm AppyDave. Let's get into it.
+
+5
+00:00:19,330 --> 00:00:23,830
+Aider is an AI pair programmer that you can run from the terminal. In this video, 
+
+6
+00:00:23,830 --> 00:00:30,130
+I want to download doom by id software and using scripting capability. Let's document 
+
+7
+00:00:30,130 --> 00:00:35,590
+that complete project automatically so that we can potentially turn it into a new 
+
+8
+00:00:35,590 --> 00:00:40,360
+version using a different programming language. I'm AppyDave. Let's get into it.
+
+9
+00:00:40,660 --> 00:00:46,220
+So we can get started by heading over to AppyDave on GitHub. And we've got this doom 
+
+10
+00:00:46,220 --> 00:00:51,730
+with docs. Now, what it is, is the original doom software that I've just forked, 
+
+11
+00:00:52,160 --> 00:00:55,880
+and I'm going to add documentation to it using Aider.
+
+12
+00:00:55,900 --> 00:01:00,510
+So before we get started with the scripting, let's just run Aider and we'll use it 
+
+13
+00:01:00,510 --> 00:01:05,670
+from the terminal point of view. And what we'll do is we'll make sure that the repo 
+
+14
+00:01:05,700 --> 00:01:11,460
+has been added in. We'll check what's new in the new version. I like pressing yes 
+
+15
+00:01:11,460 --> 00:01:16,400
+to this every time I start Aider, because it just gives me access to new capabilities. 
+
+16
+00:01:16,400 --> 00:01:21,600
+And the new capability that I'm seeing here today is that there's a copy context 
+
+17
+00:01:21,450 --> 00:01:25,830
+where information from the Aider session can automatically end up in your clipboard. 
+
+18
+00:01:25,830 --> 00:01:27,210
+That can be really useful.
+
+19
+00:01:27,230 --> 00:01:32,300
+I just want to find out what is this repo about. So what sort of code, what's it 
+
+20
+00:01:32,300 --> 00:01:35,150
+meant to do. And let's just see what it comes up with.
+
+21
+00:01:35,160 --> 00:01:42,120
+Now it's worked out that this is the 1.1 release on Linux of Doom, and it's got a 
+
+22
+00:01:42,120 --> 00:01:46,980
+little bit of information about the code base. Now, this cost money to do so. We 
+
+23
+00:01:46,980 --> 00:01:52,680
+can see the cost here. It's $0.02 and we're on the first part of the session. Now 
+
+24
+00:01:52,680 --> 00:01:57,900
+if you use the same prompt again, you would hope that prompt caching kicks in and 
+
+25
+00:01:57,900 --> 00:02:03,360
+that we would reduce the cost. But I ran this again with exactly the same prompt. 
+
+26
+00:02:03,360 --> 00:02:08,340
+And if we go to the bottom, we're still being charged $0.02, though we do have a 
+
+27
+00:02:08,340 --> 00:02:12,480
+little bit different information. So just one thing to be aware of there.
+
+28
+00:02:12,500 --> 00:02:17,410
+So let's have a quick look at what we've got in the repo. So we've got these four 
+
+29
+00:02:17,410 --> 00:02:23,260
+folders. So this one called send serve. If we go and click on the Readme file it 
+
+30
+00:02:23,260 --> 00:02:28,750
+says it's something to do with a sound server. Open up the serve source and we read 
+
+31
+00:02:28,750 --> 00:02:31,240
+the Readme file. And it's something to do with 
+
+32
+00:02:31,260 --> 00:02:32,540
+modem driver
+
+33
+00:02:32,560 --> 00:02:38,280
+we read that and it's IPX network driver, and it looks like the main code is going 
+
+34
+00:02:38,280 --> 00:02:45,120
+to be in this area here. So we've got a bunch of old Readme files going on with various 
+
+35
+00:02:45,120 --> 00:02:50,370
+information about the doom game. So where I think we'll start is we'll go with the 
+
+36
+00:02:50,370 --> 00:02:56,400
+simpler folders and just generate some simple documentation in a readme markdown 
+
+37
+00:02:56,400 --> 00:02:58,860
+file using Aider.
+
+38
+00:02:58,990 --> 00:03:02,150
+So we're in the terminal and we've got this IPX directory here. And what we'll do 
+
+39
+00:03:02,150 --> 00:03:08,900
+is we'll come down to terminal type in Aider and we'll put in message. And what we'll 
+
+40
+00:03:08,900 --> 00:03:11,300
+say is create a read me file. 
+
+41
+00:03:11,300 --> 00:03:16,150
+And after that we just need to put in the location of the file. So I'm just gonna 
+
+42
+00:03:16,150 --> 00:03:17,390
+say, read me 
+
+43
+00:03:17,400 --> 00:03:22,940
+MD and we'll press enter and let's see what it generates for us. Now while that's 
+
+44
+00:03:22,940 --> 00:03:23,400
+happening, 
+
+45
+00:03:23,400 --> 00:03:28,590
+we'll bring up Visual Studio. So we've got this new file being created and let's 
+
+46
+00:03:28,590 --> 00:03:33,450
+just put it into a more readable format at the moment. And it says here, this directory 
+
+47
+00:03:33,450 --> 00:03:38,460
+contains the IPX networking implementation of Doom. We've got an overview, we've 
+
+48
+00:03:38,460 --> 00:03:44,970
+got features, technical details, and historical note. So we've got a bunch of information 
+
+49
+00:03:44,970 --> 00:03:50,370
+that it's gathered out on its own. Now let's see if we can improve that documentation 
+
+50
+00:03:50,610 --> 00:03:56,90
+by maybe reading each of the individual files and seeing if we can create something 
+
+51
+00:03:56,90 --> 00:03:56,870
+a lot more detailed.
+
+52
+00:03:56,900 --> 00:04:01,990
+So I have a little tool that I built for myself that allows me to see files and also 
+
+53
+00:04:02,260 --> 00:04:06,310
+the content and make them available for ChatGPT. So what we'll do is we'll just run 
+
+54
+00:04:06,310 --> 00:04:10,930
+it on the current folder, and we can see all the files that are made up of the doom 
+
+55
+00:04:10,930 --> 00:04:16,660
+software here. Now if we just bring it down to the IPX directory, we should have 
+
+56
+00:04:16,690 --> 00:04:21,580
+C and header files. And if we just put in a dot h we should just have the header 
+
+57
+00:04:21,580 --> 00:04:27,250
+files. Now from there, if I get rid of the dash f tree I'm going to get a list of 
+
+58
+00:04:27,250 --> 00:04:31,600
+those files plus their content. And it's in the clipboard. And so what that means 
+
+59
+00:04:31,630 --> 00:04:37,180
+is if I just paste it in we've got there's the last file right there and the content. 
+
+60
+00:04:37,180 --> 00:04:42,280
+And as we scroll up we'll have additional files going on. So there's the third file 
+
+61
+00:04:42,280 --> 00:04:43,480
+and the content. 
+
+62
+00:04:43,500 --> 00:04:47,280
+let's format it. So it's designed directly for Aider.
+
+63
+00:04:47,300 --> 00:04:51,440
+Now, we already know that if we run Aider from the command line with a message and 
+
+64
+00:04:51,440 --> 00:04:55,790
+a file, it will run against that. But you can list multiple files. But since we've 
+
+65
+00:04:55,790 --> 00:05:00,650
+got our new tool, which is the GPT contest, what we'll do is we'll use it to find 
+
+66
+00:05:00,650 --> 00:05:05,480
+a bunch of files based on a wildcard, and we'll just put in a format, we'll say Aider
+
+67
+00:05:05,500 --> 00:05:09,650
+and I'll put in a prompt. Tell me something interesting about this file. And what 
+
+68
+00:05:09,650 --> 00:05:14,310
+this is going to do is just construct the Aider command for me, put in the clipboard 
+
+69
+00:05:14,310 --> 00:05:21,290
+so we can test this out. Now the ID software is not written in an encoding that works 
+
+70
+00:05:21,290 --> 00:05:25,700
+on my machine. So the first thing I'm seeing is a few errors as this comes through.
+
+71
+00:05:25,730 --> 00:05:31,160
+And you can see here that even though we got information, it's also dropped certain 
+
+72
+00:05:31,160 --> 00:05:35,990
+files. So what we'll do is we'll just run it again. And I'm just going to go to the 
+
+73
+00:05:35,990 --> 00:05:39,950
+beginning and I'm just going to put in this encoding option, which is part of the 
+
+74
+00:05:39,980 --> 00:05:43,880
+Aider, because I figured out that this would be the way that it would read it through. 
+
+75
+00:05:43,880 --> 00:05:47,840
+So now it's added the files and they're not being dropped. And we're going to get 
+
+76
+00:05:47,840 --> 00:05:50,120
+clear information about each file.
+
+77
+00:05:50,130 --> 00:05:54,970
+Now, what I'd like it to do now is create some complex documentation just based on 
+
+78
+00:05:54,970 --> 00:06:00,100
+these four files, and we'll put it into create documentation. 
+
+79
+00:06:00,130 --> 00:06:02,340
+in EIP slash. 
+
+80
+00:06:02,360 --> 00:06:10,430
+read me.md, and let's put in a more complex prompt here. So to get my more complex 
+
+81
+00:06:10,430 --> 00:06:15,500
+prompt, I just came over to Anthropic prompt generator said create clear documentation 
+
+82
+00:06:15,500 --> 00:06:20,620
+about a single C file aimed at a programmer who does not know C, and we end up with 
+
+83
+00:06:20,620 --> 00:06:26,240
+this complex prompt going on here. From there, I've just taken the complex prompt. 
+
+84
+00:06:26,240 --> 00:06:31,430
+It's here and just turned it into a single line so that we can just paste it directly 
+
+85
+00:06:31,430 --> 00:06:32,200
+into our terminal.
+
+86
+00:06:32,230 --> 00:06:35,820
+So we've got the terminal create documentation in Ipcs readme
+
+87
+00:06:35,830 --> 00:06:40,560
+dot M.D., and we'll just paste in all that information. We're working on the four 
+
+88
+00:06:40,560 --> 00:06:42,690
+files and let's see what it comes up with.
+
+89
+00:06:42,700 --> 00:06:47,600
+So at the moment we've got a bunch of information being written. Hopefully we're 
+
+90
+00:06:47,600 --> 00:06:50,840
+going to see a new file get created in this location.
+
+91
+00:06:50,860 --> 00:06:55,470
+It looks like it's got the file name location correct, but it's asking us to generate 
+
+92
+00:06:55,470 --> 00:07:00,330
+it. So we'll say yes. And now we have a new file. We should be able to go into markdown 
+
+93
+00:07:00,330 --> 00:07:06,780
+format and see what that looks like. And we've got a lot of complex data that's being 
+
+94
+00:07:06,780 --> 00:07:11,640
+created for us using the scripting process. Now, I'm not going to make any claim 
+
+95
+00:07:11,640 --> 00:07:16,500
+that this is great information right now, but what you can see is how we can write 
+
+96
+00:07:16,500 --> 00:07:21,270
+complex prompts, iterate over multiple files, and bring it back into one documentation 
+
+97
+00:07:21,270 --> 00:07:21,720
+file.
+
+98
+00:07:21,730 --> 00:07:26,850
+Now I've come back to the GPT Context command and I'm just gonna change the pattern 
+
+99
+00:07:26,850 --> 00:07:31,980
+to the C files, and I'm essentially gonna paste in the same prompt except right at 
+
+100
+00:07:31,980 --> 00:07:36,480
+the very beginning. I'm gonna have it right out to the read me C rather than the 
+
+101
+00:07:36,480 --> 00:07:42,840
+read me H file. And we'll let that generate the ADA command. We can paste that in 
+
+102
+00:07:42,960 --> 00:07:49,980
+and it says ADA message, create documentation in the IPX reme C MD file. And so we'll 
+
+103
+00:07:49,980 --> 00:07:54,930
+just press enter on that. Now this may fail again with the encoding issues, so we'll 
+
+104
+00:07:54,930 --> 00:07:56,280
+see what happens in a moment. 
+
+105
+00:07:56,300 --> 00:08:01,720
+It looks like it's working. Okay, as we read through there, we can see the doom CIPX 
+
+106
+00:08:01,720 --> 00:08:06,100
+set up and IPX net C coming through. So this is all the documentation that we're 
+
+107
+00:08:06,100 --> 00:08:06,430
+writing 
+
+108
+00:08:06,430 --> 00:08:11,180
+and it's finished. We've got a file that's going to appear right next to the H file. 
+
+109
+00:08:11,180 --> 00:08:13,670
+We can open it up, go into 
+
+110
+00:08:13,700 --> 00:08:21,590
+a marked down format, and we can see now a bunch of information about the IPXC files.

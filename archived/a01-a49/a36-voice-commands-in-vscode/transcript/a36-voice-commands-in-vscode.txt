@@ -1,0 +1,41 @@
+Do you want to write software in VS Code using your voice?
+With Hay Code voice commands, you can now talk to GitHub co-pilot.
+Let's check it out.
+I'm over on the release notes in VS Code, and there's a section here called Hay Code
+Voice Command.
+And there's a new accessibility voice keyword activation setting, and a bunch of options
+for starting chats in different contexts.
+What I think we can do is set up a couple of keyboard shortcuts to both start and stop
+our chat sessions.
+The way it'll work is you'll be able to say what you want into a chat session, and what
+you're going to need to access this new capability is GitHub co-pilot chat and VS Code speech.
+We'll head over to our extensions and make sure that GitHub co-pilot chat is installed.
+We'll also enable the VS Code speech extension.
+Reading the getting started on VS Code speech, I've already got GitHub co-pilot installed.
+Now there's a couple of keyboard shortcuts.
+We'll just copy that, press Command Shift P in my case, I'm on a Mac, and we can open
+up the settings for keyboard shortcuts.
+We should be able to paste that in just there.
+Put a little comma here, and we'll hit save.
+Let's create a little program that we can run from the command line, and we'll do that
+by pressing Command U and then talk about what we need.
+Pressing Command U.
+Can you create a program in JavaScript comma?
+I would like it to run from node, and I would like it to say hello world, and I would like
+world to be in the color red.
+I've pressed enter, it's just thinking at the moment.
+Now it's done what I want, but there's a dependency, and I think we could do it without
+dependencies, so we'll press Command U.
+Can you rewrite this without dependencies on external packages?
+Can we just use color codes that will work on the console?
+Then I press Command U to stop it listening, and it's going ahead and rewriting the code
+for us.
+So we've got some codes.
+Let's go and click on this, and we'll just paste it in right here.
+We'll close the window down, and let's just see what happens if we run it.
+We've got hello world.
+I certainly like this capability that's been added.
+I look forward to writing more code using just my voice.
+If you're looking for videos on automation through ChatGPT, then like and subscribe.
+I'm Appy Dave, and I'm in the middle of doing a course on all the open AI endpoints.
+See you in the next video.

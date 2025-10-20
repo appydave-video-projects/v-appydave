@@ -1,0 +1,527 @@
+1
+00:00:00,00 --> 00:00:06,540
+In this video, we're going to use cursor AI to bulk update thousands of changes across 
+
+2
+00:00:06,540 --> 00:00:09,920
+hundreds of files within an existing PR.
+
+3
+00:00:09,930 --> 00:00:15,250
+The way we will do is by generating dozens of prompts ready for use by Cursor AI. 
+
+4
+00:00:15,250 --> 00:00:19,720
+And what those prompts will do is change thousands of lines of code across hundreds 
+
+5
+00:00:19,720 --> 00:00:25,570
+of files, and they'll all be put together using a programming construct called KlueLess 
+
+6
+00:00:25,570 --> 00:00:29,800
+that I'm designing at the moment. And this is one of the first previews of how I 
+
+7
+00:00:29,800 --> 00:00:34,810
+see it working. So stick to the end and we'll streamline the ability to use Cursor 
+
+8
+00:00:34,810 --> 00:00:34,990
+AI
+
+9
+00:00:35,200 --> 00:00:40,900
+I've been saying a lot of articles and questions lately on bulk code creation using 
+
+10
+00:00:40,900 --> 00:00:46,930
+different tools, so people are using ChatGPT. Other people are using Cursor and Aider. 
+
+11
+00:00:46,930 --> 00:00:51,520
+And the situation I found myself in recently was that I was helping a company move 
+
+12
+00:00:51,520 --> 00:00:58,420
+from Ruby two to Ruby three, and they had 900 odd files that needed changing, but 
+
+13
+00:00:58,420 --> 00:01:01,990
+there was a problem that needed to be dealt with en masse.
+
+14
+00:01:02,00 --> 00:01:06,110
+So when the PR was being reviewed, there were hundreds of files, and one of the things 
+
+15
+00:01:06,110 --> 00:01:11,150
+that was noticed was that there was a new stylistic change which had to do with an 
+
+16
+00:01:11,150 --> 00:01:16,550
+improvement to the Ruby programming language, whereby you could use the old format, 
+
+17
+00:01:16,550 --> 00:01:21,890
+or you could go to the new format, which would be simpler to read. But it was decided 
+
+18
+00:01:21,890 --> 00:01:27,410
+that this was not a format that we'd needed in the application. The problem is that 
+
+19
+00:01:27,410 --> 00:01:32,150
+it had been done relatively early in the PR, or was going to be very difficult to 
+
+20
+00:01:32,150 --> 00:01:34,130
+undo this particular change.
+
+21
+00:01:34,160 --> 00:01:38,360
+So I played around with a prompt generation technique, and you can see eight files 
+
+22
+00:01:38,360 --> 00:01:42,710
+that have been changed here. And in one of the files there's a bunch of changes that 
+
+23
+00:01:42,710 --> 00:01:49,790
+have been made, essentially undoing the stylistic change that was done using a linter.
+
+24
+00:01:49,800 --> 00:01:55,100
+For years, I've been experimenting with domain specific languages designed to generate 
+
+25
+00:01:55,100 --> 00:02:00,380
+code and other sorts of constructs. The ability to become a polyglot programmer, 
+
+26
+00:02:00,380 --> 00:02:05,330
+where you start from a design pattern or first principles and generate any sort of 
+
+27
+00:02:05,330 --> 00:02:10,340
+code, is the goal that I've had now, rather than doing a no code platform, I've always 
+
+28
+00:02:10,340 --> 00:02:15,140
+thought of it as a flow code platform where you're generating a freaking lot of code.
+
+29
+00:02:15,160 --> 00:02:20,140
+Now, the way I see it working is some sort of domain specific language that you integrate 
+
+30
+00:02:20,140 --> 00:02:23,230
+with the AI programmer that you like to use.
+
+31
+00:02:23,230 --> 00:02:27,840
+So let's have a look at how this could work. So I've got a little KlueLess construct 
+
+32
+00:02:27,840 --> 00:02:33,460
+called Git diff. And the idea of it is that you should be able to do a comparison 
+
+33
+00:02:33,460 --> 00:02:38,590
+between, say, the master branch and another PR, and from there you should be able 
+
+34
+00:02:38,590 --> 00:02:43,360
+to process the changes. Let's see them in both JSON and maybe flattened out into 
+
+35
+00:02:43,360 --> 00:02:44,400
+a CSV format.
+
+36
+00:02:44,430 --> 00:02:48,930
+Now we have the construct here ready to save. And we've got two files that it's going 
+
+37
+00:02:48,930 --> 00:02:54,630
+to output to. So if we let that run, what should happen is we'll get a list of JSON 
+
+38
+00:02:54,630 --> 00:02:59,190
+structure where all the diffs and the particular files. So here's a gem file. And 
+
+39
+00:02:59,190 --> 00:03:03,240
+there's a bunch of diffs going on in there. Now over on the right where you see the 
+
+40
+00:03:03,240 --> 00:03:06,780
+CSV file, it's just a flattened version of it.
+
+41
+00:03:06,800 --> 00:03:12,60
+Now if we make this CSV file easier to see, you can see it's basically a bunch of 
+
+42
+00:03:12,60 --> 00:03:16,770
+files. We've got the number of changes or diffs that are in it. Plus we can see the 
+
+43
+00:03:16,770 --> 00:03:21,390
+diff. So if we look at the gem file here, we can see that there are eight different 
+
+44
+00:03:21,390 --> 00:03:25,560
+changes going on in that particular file. At the moment we don't have any matches, 
+
+45
+00:03:25,560 --> 00:03:29,340
+because what we're trying to do is figure out what sort of changes are going in there, 
+
+46
+00:03:29,340 --> 00:03:32,520
+and then make appropriate changes based on the match type.
+
+47
+00:03:32,530 --> 00:03:37,660
+So the next step is to categorize all these files. And you can see that there's over 
+
+48
+00:03:37,660 --> 00:03:43,300
+2000 files and changes going on here. And if we go to the very top you'll see that 
+
+49
+00:03:43,300 --> 00:03:47,950
+none of them are being processed and the match type has not been filled in. Now if 
+
+50
+00:03:47,950 --> 00:03:51,970
+we look at what it will look like, the idea is that they have all been processed. 
+
+51
+00:03:51,970 --> 00:03:57,550
+Some of them don't match on anything, others match on gem version, investigate, others 
+
+52
+00:03:57,550 --> 00:04:00,310
+match on hash shorthand syntax. 
+
+53
+00:04:00,130 --> 00:04:04,810
+and it's the hash shorthand syntax that I want to generate new code for.
+
+54
+00:04:04,830 --> 00:04:09,930
+So let's have a look at how this KlueLess construct could work. So here I've got 
+
+55
+00:04:09,930 --> 00:04:15,660
+an idea called prompt matcher. And what it's going to do is take an input file. In 
+
+56
+00:04:15,660 --> 00:04:16,560
+this case it's going to be the diff
+
+57
+00:04:16,560 --> 00:04:22,570
+csv. From there we want to find a patterns. So the pattern I'm going to call it issues. 
+
+58
+00:04:22,570 --> 00:04:27,100
+And I've just started writing it. Analyze the following diff and identify the pattern 
+
+59
+00:04:27,100 --> 00:04:32,410
+below. So I've listed what the old and the new code should look like. And then I've 
+
+60
+00:04:32,410 --> 00:04:38,410
+said if it finds it, return hash shorthand syntax. After that. If it's not found, 
+
+61
+00:04:38,410 --> 00:04:43,780
+return no match. And I want to make sure that it doesn't try to return any other 
+
+62
+00:04:43,780 --> 00:04:49,300
+sorts of information. From there, just insert the actual content that you want it 
+
+63
+00:04:49,300 --> 00:04:54,700
+to compare from. The other thing I do is I put some constraints in it as to what 
+
+64
+00:04:54,700 --> 00:04:59,290
+the default value is, if it can't figure anything out, and what the expected values 
+
+65
+00:04:59,290 --> 00:05:03,710
+happen to be. After that, we find the matches and update the diffs.csv.
+
+66
+00:05:04,760 --> 00:05:08,810
+Now. At the moment it deals with one pattern, but if you want it to deal with a second 
+
+67
+00:05:08,810 --> 00:05:13,370
+pattern, you can expand the prompt and you just change things to suit what you need. 
+
+68
+00:05:13,400 --> 00:05:18,560
+Now, if we look at the differences between these two prompts, we've got a little 
+
+69
+00:05:18,560 --> 00:05:23,180
+bit change in the wording. We've got the example of a second pattern going on, and 
+
+70
+00:05:23,180 --> 00:05:28,310
+we've just got extra information going on in the expected results so that they can 
+
+71
+00:05:28,310 --> 00:05:29,150
+be validated.
+
+72
+00:05:29,160 --> 00:05:33,650
+So let's work with this version. And what we'll do is we'll also print out a report. 
+
+73
+00:05:33,650 --> 00:05:38,660
+And when we look at that we can see this report has come through. It's got the different 
+
+74
+00:05:38,660 --> 00:05:44,210
+match types including no match. And then it's got a column of how many are for each 
+
+75
+00:05:44,210 --> 00:05:49,370
+type. So if we look at the gem version, investigate it found five in the gem file. 
+
+76
+00:05:49,370 --> 00:05:55,460
+It found seven in the Gem file lock. And then we've got a scattering of hash syntax 
+
+77
+00:05:55,460 --> 00:05:57,590
+shorthand matches throughout all the other files.
+
+78
+00:05:57,600 --> 00:06:03,00
+Now if we look at how many changes could happen, we've got this column B, which has 
+
+79
+00:06:03,00 --> 00:06:07,370
+the things that we want to change and we look through and there's hundreds of files. 
+
+80
+00:06:07,370 --> 00:06:13,500
+If we get down to the very bottom of this, we can see there are 940 potential files. 
+
+81
+00:06:13,500 --> 00:06:17,670
+Not all of them are selected. This is a lot of changes that are going to go on. So 
+
+82
+00:06:17,670 --> 00:06:22,980
+we now need to wrap this up and bundle it into specific prompts that we can use in 
+
+83
+00:06:22,980 --> 00:06:23,550
+Cursor.
+
+84
+00:06:23,560 --> 00:06:28,420
+So now what we're going to do is build out the prompts for Cursor to work with. So 
+
+85
+00:06:28,420 --> 00:06:33,610
+we're at the generate prompts and I've put in our diff file as input. It's now been 
+
+86
+00:06:33,610 --> 00:06:38,770
+updated with matches. From there we want to filter the items. Now there's particular 
+
+87
+00:06:38,770 --> 00:06:42,850
+items that we want in the list. So what we'll do is where the pattern match is true. 
+
+88
+00:06:42,850 --> 00:06:48,460
+And we've got a match type equal to the hash shorthand syntax. From there we'll do 
+
+89
+00:06:48,460 --> 00:06:52,450
+a header to the prompt. So all the prompts will start with something like this. This 
+
+90
+00:06:52,450 --> 00:06:58,630
+is just explaining the pattern for ChatGPT to go and update, or in this case Cursor. 
+
+91
+00:06:58,630 --> 00:07:03,190
+From there, we'll iterate over every item, and we'll just include the content from 
+
+92
+00:07:03,190 --> 00:07:08,230
+the particular item we've got. And then lastly, put in a bit of a footer to close 
+
+93
+00:07:08,230 --> 00:07:12,490
+it off. The other thing that's important is that when we're creating the files, we 
+
+94
+00:07:12,490 --> 00:07:17,650
+do batch them up, because I don't want Cursor to make all the changes in one hit. 
+
+95
+00:07:17,650 --> 00:07:23,860
+I want to look at them, say 20 files at a time. So what I've done here is said filtered 
+
+96
+00:07:23,860 --> 00:07:28,420
+items. In this case it's batch size 15. I want them all to go out to a particular 
+
+97
+00:07:28,420 --> 00:07:31,330
+folder and have a text extension.
+
+98
+00:07:31,360 --> 00:07:34,990
+So we're about to look at the prompts. Before we do, we'll just start back from the 
+
+99
+00:07:34,990 --> 00:07:40,960
+beginning. What we firstly generated was a JSON structure from a diff between two 
+
+100
+00:07:40,960 --> 00:07:46,450
+different branches. From that, we then turned it into a CSV file and we've matched 
+
+101
+00:07:46,450 --> 00:07:51,340
+different things. You can see the report going on there. Then lastly it's created 
+
+102
+00:07:51,340 --> 00:07:56,380
+the prompts and the prompt set. It's created number 65 different prompts that I need 
+
+103
+00:07:56,380 --> 00:08:02,200
+to run. But that's all dealing with about 15 changes per prompt. And if we look at 
+
+104
+00:08:02,200 --> 00:08:06,460
+the first one we can see that we've got the header section. And then we've got the 
+
+105
+00:08:06,460 --> 00:08:11,260
+actual code that needs to be looked at and analyzed. And that just keeps repeating. 
+
+106
+00:08:11,260 --> 00:08:15,190
+And right at the bottom there should be a closure for it as well.
+
+107
+00:08:15,190 --> 00:08:20,380
+Now let's head over to Cursor. And you can see here we've got the reverse Ruby shorthand 
+
+108
+00:08:20,380 --> 00:08:25,180
+syntax. Let's click on that. And we can see the main part of the prompt. And there's 
+
+109
+00:08:25,180 --> 00:08:29,830
+a lot of changes going in here. Different files. But they're cherry picked to the 
+
+110
+00:08:29,830 --> 00:08:33,620
+specific changes. And then we can see them all come through here. 
+
+111
+00:08:33,630 --> 00:08:36,290
+I went and applied each of these changes.
+
+112
+00:08:36,290 --> 00:08:40,500
+Now we'll go and have a look at the files that have changed on the PR at the moment. 
+
+113
+00:08:40,620 --> 00:08:44,880
+We'll open up the assets controller. We can see the changes have come through and 
+
+114
+00:08:44,880 --> 00:08:50,460
+they're accurate. Look at the activities controller. We've got similar sorts of things 
+
+115
+00:08:50,460 --> 00:08:54,420
+going on. And all of this has just been cherry picked out of the prompts. And just 
+
+116
+00:08:54,420 --> 00:08:56,400
+run on automation with Cursor.
+
+117
+00:08:56,430 --> 00:09:01,500
+So let's actually test another one with Cursor. So I've come over to the list of 
+
+118
+00:09:01,500 --> 00:09:04,500
+prompts and I'm just going with the second one at the moment.
+
+119
+00:09:04,530 --> 00:09:09,650
+And here we are at Cursor. I'll press command L to bring up a chat. And I'm just 
+
+120
+00:09:09,650 --> 00:09:15,560
+going to paste everything in and let's run it and see what happens. So certainly 
+
+121
+00:09:15,560 --> 00:09:20,630
+here's the necessary fixes. We've got the next file company targets controller home 
+
+122
+00:09:20,630 --> 00:09:23,750
+page dashboard location updatable.
+
+123
+00:09:23,760 --> 00:09:30,150
+And if we go to the bottom it says these changes reverse the shorthand hash syntax.
+
+124
+00:09:30,160 --> 00:09:35,390
+So from here I'm just going to press apply on this particular change. From there 
+
+125
+00:09:35,390 --> 00:09:41,100
+we'll go with command y. Command y. Again let's just check there's nothing else going 
+
+126
+00:09:41,100 --> 00:09:46,950
+on in here. We can then press apply on this one and look through to where the actual 
+
+127
+00:09:46,950 --> 00:09:48,800
+change happens to be.
+
+128
+00:09:48,830 --> 00:09:52,820
+And you can see these little blue lines is where you look for the change. 
+
+129
+00:09:52,660 --> 00:09:56,710
+just scroll all the way down to the next one and press Y on that.
+
+130
+00:09:56,730 --> 00:10:02,120
+So now we've gone from the eight that we originally had to now 15 files and we can 
+
+131
+00:10:02,120 --> 00:10:07,830
+look through and see how the changes were. And we're looking at the email controller 
+
+132
+00:10:07,830 --> 00:10:13,830
+and we can see some changes that around line 370 and more at around line 700.

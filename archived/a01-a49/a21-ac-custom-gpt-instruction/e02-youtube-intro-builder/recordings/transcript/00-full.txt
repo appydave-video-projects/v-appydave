@@ -1,0 +1,417 @@
+Today, I'm going to develop a custom instruction in ChatGPT and the goal of it is to take the
+video transcription of the content that I create and use that as the source for building
+an intro to the video.
+In a previous video, I used ChatGPT custom instructions to develop a research assistant.
+That particular bot would act as my research helper.
+It had commands that would work with it, would respond in a certain way, it had an objective.
+And what I'm looking to do today is build a YouTube intro, is to build a video, is to
+build a YouTube video introduction.
+Before I get started with the custom instruction, I want to do a little bit of research.
+Essentially, I want to find out what the best practices are around YouTube introductions.
+Before I do research like this, I do like to come into my custom instructions and make
+sure they're empty.
+I want it to have a clean slate whenever it's doing any research for me from this point
+of view.
+I think how we can start is letting GPT know that it's an expert in writing YouTube introductions.
+I'm really looking to develop a list of best practices.
+They need to fit with my style.
+So it might come up with intros that someone like MrBeast would do.
+I'm an educator, I'm not an entertainer, so the way I do intros has to be different to
+say MrBeast.
+But what we'll do is figure out what other people are doing by running this particular
+prompt.
+GPT has given me 11 bullet points that we can work through.
+One of the things I noticed as I read through them is that some of them are related to visual
+branding and music and none of the stuff that's relevant for developing this custom instruction.
+What I need to do is whittle away this particular list down to the points that are related purely
+to script writing for an intro.
+Now, as I've looked through here, I've taken out the information that I think is relevant
+and I'm letting GPT know what to focus on.
+And it's really anything to deal with the writing, not with the branding.
+Where it says keep it short and snappy, I've said leave that how it is.
+Where it talks about hooking the viewer in immediately, I need to develop a style that's
+for me, maybe a few different styles that make sense to tutorials or how to videos.
+So I'm asking it to guide me in that regard.
+This next point about maintaining consistency, this is like taglines and other brand statements.
+It's maybe a little bit of out of scope of what I really want to achieve here today.
+But with the different channels that I do, like winning prompts, I have a tagline of
+is that a winning prompt?
+Or with Fly Video, it's about automating your YouTube influence.
+Now, I do want to go down this path a little bit today, but I wouldn't.
+It's not strictly speaking a part of this custom instruction.
+This next section on staying relevant.
+This is probably the crux of what I want to achieve out of the custom instruction.
+Generally, for an intro, you want to identify the main point that you're trying to get out
+of the tutorial or the video, and that should be what the intro is about.
+When it comes to engaging emotionally, it's really important to have emotional hooks.
+But for me, I want to stay away from click bait or over sensationalized sort of intros.
+Now, since there are a number of points within this list that aren't relevant for the custom
+instruction, I'm just going to paste in a statement that says, this is what I want to
+leave out and use in a separate conversation because I'll develop custom instructions for
+different areas.
+I like to follow a concept from programming called single responsibility principle.
+And the only responsibility that this bot needs to have is create a YouTube intro, not
+worry about the brand set up.
+So let's just run with this and see where we get to GPT has come up with what looks like
+a pretty good four point outline.
+There's a bunch of sub points in here.
+What we need to do next is take this contextual information and utilize it as the basis around
+the custom instruction that we're developing.
+But since this video is about developing the custom instruction, let's move over to there
+now.
+Let's move over to there now.
+So set up this document with a custom instruction I want to create called YouTube intro builder.
+I've given it a role of creating YouTube intros.
+And the basic objective is that you will use a video transcription as input and help me
+build various introscripts targeted at that video.
+Now if we're going to work with video transcription, we're going to need some sort of input, detailed
+video outline.
+Now the actual transcript itself may be way too long.
+So it needs to be summarized, but not too summarized.
+We still need the details within the document.
+And I use a different custom instruction to deal with that.
+The other thing that is really important is that we get more than one variation of an
+intro script.
+I've found through experience that if I just work on one output from chat GPT, it can be
+pretty good, but there's things that are missing.
+If I ask it to do it five times, I end up finding that the exact information that I
+would like happens to be a combination from more than one output.
+So we will work with the idea of having multiple variations when we develop the commands for
+this custom instruction.
+Now I've added this line called you respond to the following commands.
+And if we take this idea of input, I've given it a command called add and told it that it's
+to add provided transcription and to use that to develop our intros.
+I've developed three commands to get us started and they are essentially the add command where
+we'll add the transcription into the bot that it can use.
+There'll be a timer.
+So I think most intros that I want to do will be about 10 or 15 seconds long.
+And I need to be able to let the bot know how long it should try to create the intros
+for.
+And how many do I want?
+Five variations, three variations, et cetera.
+I've added in four new commands and essentially they have come from looking at this document.
+So there's an area called question teaser.
+Start with a question related to a common tech problem or need ever wondered how to get
+the most out of a new GPU.
+And this sort of information may occur one, two or three times in a transcription.
+So the command that I've added is called teasers designed to identify one or more teasers.
+The next one is facts, having access to facts or statistics from the transcription would
+be useful.
+They talk about it as begin with a surprising or intriguing tech related fact or statistic.
+Did you know?
+Then the next one we've got here is a highlight feature.
+Whenever I'm doing a video, there's probably just one main point that needs to be extracted.
+The idea is if you're showcasing a product, highlight one of the more impressive features.
+If you're doing a how to give an example of what the main thing is that you're trying
+to achieve.
+So here we've got highlights, identify one or more features or highlights.
+And the last one is tagline.
+I've called it tagline, but in here it's part of the brand identity.
+This would typically be a concise sentence or two that communicates the essence of the
+channel.
+Give you a tech, given you're a tech how to showcase, it might be something like unveiling
+text potential one tutorial at a time or discover, learn, master the future of tech.
+Now, for me, if it, if it was fly video, it would be automate your influence.
+If it was appy Dave, build an app a day.
+And for my winning prompts channel, it would be, is this a winning prompt?
+And this is not so much that we need to, and you can see from this command that this is
+something I would supply to the bot.
+I've made some minor corrections here and made sure that these three commands are separated
+with just the idea that the following commands list one or more examples based on the transcription.
+I have moved the tagline up because it's not related to that particular concept.
+And I've added a help section.
+What I hope will happen when I type help is that I will get a list of the commands and
+I'll get an overview of how this bot works.
+At the moment, I haven't given a full overview into the bot, but there's pretty much enough
+information to get started here.
+Another thing to be aware of is statements like this list one or more examples based
+on the transcription may stay where it is, but it can also go into the response section
+of a GPT custom instruction.
+Now, I think another thing we can probably do is just start testing this out.
+So I'm going to copy this over to the chat GPT custom instructions and we'll give it
+a whirl.
+Come over to chat GPT, I'm on GPT4 and we will start configuring this custom instruction.
+What we do is we click on this icon and then the three little dots down here, you'll see
+custom instructions and this is where we're going to put the information.
+We'll head over to our document YouTube intro builder and we have a role create YouTube
+intros and we have a role create YouTube intros.
+After that, we've got a list of commands and I've added in one other section called guidelines.
+Now this is basically the original information in fact, let's go over there.
+Britain, this statement, I want you to take the following information and turn it into
+YouTube instructions and turn it into an YouTube.
+I want you to take the following information and turn it into instructions for my YouTube
+introduction script writer.
+The problem is I only have 200 words that I can use.
+I've given it all the information that we'd already accumulated and it's just given
+me this quick sentence.
+So that quick sentence has now been added in here and we can go up and select all the
+information, click copy and head over to the other chat GPT window and we'll paste it in.
+And I've got it down to 1498 characters.
+You've got a limit of 1500 characters.
+Basically this information could have been supplied in the standard bot that you're using
+if you really need this sort of stuff.
+The other thing that we can do to shrink this list a little bit is maybe move some of the
+information that's in here out into the response and I'll be doing a little bit of that anyway.
+Now we'll hit the save button and close this down and let's go and have a look at what
+we're going to do.
+And let's go and look at what problem we're really trying to solve with this custom instruction.
+So I've brought us over here.
+We have a video project in Premiere Pro.
+It's four and a half minutes long.
+And the good thing about the information here is that it's great to publish on YouTube,
+but it wasn't designed for YouTube.
+Essentially this information was done in a Loom video that I sent off to someone just
+showcasing some of the technologies I was doing.
+And I did not think about the intro at all.
+So the intro here, if we play it, sounds pretty bad.
+Okay, I'm going to show the studio layouts that I've been working through to say you're
+aware I'm just seeing.
+So that's what it is.
+No good for YouTube, but the rest of the information in this video is what I want to derive from
+to build a brand new intro.
+Heading over to the transcription, which we got here and I've put this through Whisper
+AI to create all this information.
+The first line is not needed.
+So everything up to about aware.
+I'll just delete that.
+The rest of it I'm going to copy.
+And this is what we're going to be processing our YouTube introduction on.
+Here we are at empty ChatChopT window.
+One of the commands we had available was called help.
+So I think this is where we're going to test it all out.
+We'll just type help.
+And it's giving us the following information.
+And it's pretty much just repeating everything that we put into our GPT custom instruction.
+I think we can now use the add command.
+Let's just bring up our text, our transcription, which we've copied.
+You can see it over on the left.
+But if I type in add, might just press enter.
+And I'll paste in the information minus that first sentence that was in the transcription.
+And we'll press enter.
+Let's see what happens.
+Now running this information on my custom instruction has highlighted a problem I've got.
+One of the things that I've been looking to do is set up these commands down here.
+We've used the add command.
+We've used the help command.
+And my expectation was that the teaser facts and highlights command would be something
+that I would type in to get that information.
+And instead, it's just come out as a consequence of running the add command.
+The thing is, this is not a bad outcome.
+I kind of like the information that's in here.
+There's a couple of problems such as Chris Bay eye is actually spelt with a K.
+And that issue comes from my translation.
+And that issue comes from my transcription.
+So I fixed it there.
+The other thing I like about this is that I could almost write my own intro just by reading
+through a few of these and incorporating them.
+And that's what I've.
+So what I've done is I've actually gone ahead and done that.
+I'll just paste it in here.
+I could come up with an intro that said these tools help me to create a video daily.
+I use these tools to eradicate background noise, create dynamic layout and transition
+effects and remotely control my record pause controls as I focus on creating content,
+not editing content.
+Now, ideally I want the GPT instruction to produce something like that for me,
+but it was very easy to write that just based on the information I've already got.
+But if I think about why it came up with these answers just by using the add command,
+it's because I didn't put any constraints around what the add command should do.
+I told it what I wanted, but I didn't put in any constraints.
+Now, I could go and add those constraints.
+But as I look through the complexity of the commands that I've created in this first version,
+I realize I could simplify this and make it an easier flow anyway.
+So let's go and have a look at version two.
+In version one, I had a role, an objective and a list of commands.
+And essentially they worked out to be that there would be a help command.
+How would you use this bot, an add command to add in a transition,
+a couple of settings, one for the number of intro should like to get back and the number
+of seconds each intro should go for, the ability to feed it some sort of tag line,
+and then the ability to extract certain information like the teasers, the facts, the highlights.
+The simplification of this would be that we still have the same role and objective,
+but our commands just become help, add and intro.
+And with intro, what we can do is add in some parameters that might be available.
+So with an intro, by default, I might want to get five intros.
+I might want every intro to be 15 seconds long.
+And I can control the instruction to do that by default,
+or to have them as parameters that can be added in.
+There's also generally going to be extra instructions that you might want to provide.
+That also got me thinking about how I wrote.
+That also got me thinking about how I was able to write my own introduction.
+And I'm not a great writer.
+I can come up with an okay introduction.
+But at least if I came up with something that I liked,
+I might be able to feed it to the bot and say,
+build a better intro, but use this one as a starting point.
+So what I'm thinking is that there would be a suggestion command,
+could be the way this goes.
+And from that, I can add suggestions.
+And they're a little bit different to the extra instructions.
+This might be like, this is what I think an intro should be.
+But then it becomes a question of, should that even be a command?
+Or is that just another part of the parameters that we put here?
+So we might have some sort of parameter called suggestion.
+And I could let the GPT instruction know that if it encounters that label,
+suggestion that it uses as input to create new intros.
+Now the version two role objective commands and guidelines would start to look like this.
+We have create YouTube intro.
+We have the objective.
+And our commands now say help add.
+And rather than seconds and intros, what I think we could do
+is just have a command called intro that takes a number like five by 15.
+What we would do in this scenario if we used this as a command,
+it would create five YouTube script variations of about 15 seconds long.
+So now we can just delete these out of it.
+The tagline, I think we could get rid of this command.
+And it could be some sort of extra instruction that we include.
+So we can simplify that by just removing it.
+And the final complexity of having three separate commands to deal with
+teasers, fats and highlights should be something that happens automatically
+as part of the add command.
+So if the add command currently says add provided transcription,
+you will use this to develop intros.
+Then if we move down to where the responses are for this, we can go with.
+Responding to the add command is that you extract a list of question oriented teasers,
+a list of features or facts, and a list of highlights.
+So now just at the time of pressing add and putting in your transcription,
+that information is available.
+We can then use that in what I would call the special or the extra instructions.
+And that now then leaves us with how do we respond to an intro to command.
+With the intro command takes certain parameters like how many intros,
+how many seconds, any extra instructions, and what I am now going to call sample.
+Everything in here is really optional.
+And we make that a statement.
+We say by default create five intros 15 seconds long.
+I may change the numbers.
+Example, intro three by 30 for three intros at 30 seconds.
+To deal with the preferred teasers or the tag loans or any other information,
+we can supply that as an instruction.
+And this last label called sample is basically if it sees the label,
+it can use it as the starting point.
+Now, generally, I don't want to do that.
+Generally, I want it to come up with five great intros for me.
+But once I've found the one I want, I can then feed it back into here as a starting point.
+I can feed it back into here as a starting point for an even better intro.
+Let's test this new custom instruction.
+I've got a new GPT chatbot.
+We'll go into custom instructions.
+I think we can delete this one.
+And from here, we can go and copy the information, including the guidelines,
+and paste it in here.
+For the response, we should be able to take that information, paste it in here.
+We'll press save.
+Close this down.
+Let's try help.
+I really love what this has come up with.
+Let's hop over to the GPT view.
+We've got help, the display, which is what we...
+Help has provided a detailed view of what this bot can do.
+And we see the add command will add a video transcription,
+analyze the text, and extract these highlights, features, fats,
+and the primary question that would be asked in an intro.
+We've got our command for creating intros,
+and by default, there will be five of them at 15 seconds each.
+It can accept other concepts.
+It's come up with examples of other commands,
+which is a little odd because that's from the previous GPT instruction.
+I'm not sure whether this is good or bad.
+If I don't use it, it won't affect anything,
+but it's interesting that it's come up with it.
+And then it's got the guidelines.
+So far, I think the instructions that I'm seeing here in the help file
+are exactly what I need to turn my transcriptions into introductions.
+I'm over at my transcription.
+I've renamed the word CRISP with a C to CRISP with a K.
+We'll take a copy of all this information.
+We've got our add command.
+We can just paste it in, press Enter.
+Now, I know my video, and this is almost a perfect analysis
+of what's in that video.
+We have the three pieces here.
+Want to know how to isolate your voice from background noise in recordings.
+Curious about how foot pedals can transform your streaming setup.
+Ever wondered how to switch seamlessly during a live stream.
+You may have noticed that I'm doing all of these.
+I live next to a road, and you can't hear the noise from that.
+I'm pausing and re-recording as I go, and I'm changing scenes.
+And that was what this video that we're doing an intro for is about.
+It then, based on those pieces, gives us three facts,
+which is how this is actually happening.
+And then the highlights are really just those sentences reworded.
+It's just in a different format.
+It's just in a different linguistic format.
+What I'll do now is create an intro.
+I'm going to go with the default parameters.
+We'll see what happens.
+So we just type in intro, we press Enter,
+and hopefully we're going to get five intros
+that are around about 15 seconds long.
+Now, we do have five intros.
+It's hard to tell how long they really are.
+I think what we can do is we'll just start a timer,
+and I'll just start talking whatever the first one is.
+So we'll go.
+Ever struggled with background noise in your recordings?
+Today, we're diving into how Chris May I can silence the distractions.
+Plus, I'll show you how foot pedals can level up your streaming game.
+Unveiling text potential, one tutorial at a time.
+And that took me about 17, 18 seconds without practice.
+So I think it's hit the 15 second mark.
+Okay, whether I like that intro is debatable.
+Let's try one last example of the intro.
+We'll go back to the standard timings,
+but we will enter them in and I'll give it a sample
+or a starting intro and see what it can build from it.
+So if we go intro three by five, then we put in the word sample.
+We pop on over, we pop on over to visual studio.
+We have our transcription here,
+but we also have the handwritten intro that I did before.
+Take a copy of that and paste it in.
+Now that's way too long for 15 seconds, I believe.
+So I'm not sure what's going to happen, but let's press enter.
+So we have three good intros here, I think.
+I say good, I haven't read them.
+And what I like to do is have the computer read them to me.
+And we might as well trial that out.
+So I'm just going to copy one of them.
+We'll head over to the two tools that I use.
+I either use Revoisa, I do like using it.
+This is where I've got a new project coming out
+and I was testing how it sounds.
+So you could use Revoisa, but for this one,
+I think I'm going to use 11labs.
+And we'll go with Charlie, an Australian voice.
+We'll just paste that in and hit generate.
+To create content without the hassle of editing.
+Today, we're diving into crisp AI and foot pedals.
+Tools that help me eliminate background noise
+and control my setup effortlessly.
+Unveiling text potential.
+One tutorial at a time.
+Looking to create content without the hassle of editing.
+Today, looking to create content without the hassle of editing.
+Today, we're diving into crisp AI and foot pedals.
+Tools that help me eliminate background noise
+and control my setup effortlessly.
+Unveiling text potential.
+One tutorial at a time.
+Looking to create.
+There you have the intro red bat toast by the computer.
+It sounds perfect.
+What I like about doing it this way
+is it's much easier to gauge a script by listening to it
+than just saying it yourself or just reading it.
+Well, it is for me.
+One of the other things that goes on here
+is that you can see the time that it would take.
+Different tools like Revoisa,
+you can even speed that up if you like.
+And if you like either of those tools, 11labs or Revoisa,
+they're both great.
+Probably 11labs is a little bit better.
+I'll leave a link in the description.
+It will probably be an affiliate link.
+I will leave an affiliate link in the description.
+Now, if you want to learn more
+about using chat GPT for programming
+or any other sorts of automations,
+then maybe check out one of the videos
+that are here in the corner.
