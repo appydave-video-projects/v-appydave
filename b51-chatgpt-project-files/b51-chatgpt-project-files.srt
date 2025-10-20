@@ -1,0 +1,503 @@
+1
+00:00:00,00 --> 00:00:05,790
+In this video, we're testing out what happens when you load too many files into a 
+
+2
+00:00:05,790 --> 00:00:11,960
+ChatGPT plus project folder. And this came about for me this morning because I'd 
+
+3
+00:00:11,960 --> 00:00:17,80
+loaded up all these files and I got this message saying responses may be of lower 
+
+4
+00:00:17,80 --> 00:00:22,510
+quality due to the number of files used in the project. And I thought, can I work 
+
+5
+00:00:22,510 --> 00:00:27,560
+with this and give it information so it uses the correct files? And that's what we're 
+
+6
+00:00:27,560 --> 00:00:28,480
+testing today.
+
+7
+00:00:28,500 --> 00:00:34,300
+So for context, I have this project called 555 brand. Dave and I have a bunch of 
+
+8
+00:00:34,300 --> 00:00:39,740
+conversations around how I do my marketing, my branding, my mission statements, that 
+
+9
+00:00:39,740 --> 00:00:46,20
+sort of information. Now, I also follow a structured program from DENT international. 
+
+10
+00:00:46,220 --> 00:00:50,540
+This is Daniel Priestley and the key person of influence. And I'm in the startup 
+
+11
+00:00:50,540 --> 00:00:56,100
+accelerator program. And this morning I was doing one of the workshop lessons, and 
+
+12
+00:00:56,100 --> 00:01:00,420
+I ended up having all these files that I thought, I need to get this into ChatGPT. 
+
+13
+00:01:00,460 --> 00:01:05,260
+So I just loaded them. And the trouble is that we're seeing that message that says 
+
+14
+00:01:05,300 --> 00:01:07,140
+lower quality responses.
+
+15
+00:01:07,160 --> 00:01:12,430
+So what I did was I quickly went into another chat window and I just asked the question 
+
+16
+00:01:12,430 --> 00:01:18,760
+using the project files that are available in ChatGPT plus, can I deal with the fact 
+
+17
+00:01:18,760 --> 00:01:23,920
+that there's a message like this? What do we do to mitigate it? And it's given me 
+
+18
+00:01:23,920 --> 00:01:29,950
+the idea that if I actually specify the name of the file, I should be able to get 
+
+19
+00:01:29,950 --> 00:01:35,290
+it to use that effectively. So that will be our starting point. But what I think 
+
+20
+00:01:35,290 --> 00:01:39,910
+I'll also do while we're here is write a couple of prompts so that we can get this 
+
+21
+00:01:39,910 --> 00:01:44,800
+more into the custom instructions. 'cause when you're working with projects, you've 
+
+22
+00:01:44,800 --> 00:01:48,700
+got this area called instructions and I've already got instructions in here about 
+
+23
+00:01:48,700 --> 00:01:54,400
+my brand. But what would be useful is that if I already had a list of the files that 
+
+24
+00:01:54,400 --> 00:02:01,180
+are available and a little bit of metadata or instructional data about when it should 
+
+25
+00:02:01,300 --> 00:02:06,280
+pick these particular files. So we will continue with some prompt engineering over 
+
+26
+00:02:06,280 --> 00:02:08,500
+here and we will test it over here.
+
+27
+00:02:08,530 --> 00:02:13,850
+Now what I've done at the moment is set up a little prompt designed to iterate over 
+
+28
+00:02:13,850 --> 00:02:18,380
+the 11 files I've got. I think that numbers are relevant really, but the fact that 
+
+29
+00:02:18,380 --> 00:02:24,200
+there are PDF documents is true and we're trying to describe the main purpose. Now, 
+
+30
+00:02:24,200 --> 00:02:30,170
+I was specific not to make this a synopsis. It's not about getting the summary of 
+
+31
+00:02:30,170 --> 00:02:33,440
+the document, but getting it in a specific format. 
+
+32
+00:02:33,460 --> 00:02:38,10
+And that format is known as a functional summary or retrieval guide. And the reason 
+
+33
+00:02:38,10 --> 00:02:42,840
+for this is that we don't want to just know what's in the files, but we want to know 
+
+34
+00:02:42,840 --> 00:02:48,660
+when it would be useful to pick those particular files. So what I'm gonna do is select 
+
+35
+00:02:48,660 --> 00:02:53,820
+everything that's here and we will come over to our little document here and let's 
+
+36
+00:02:53,820 --> 00:02:55,470
+just test what happens. 
+
+37
+00:02:55,500 --> 00:03:00,780
+Let's just run this and see whether it can iterate through the PDF documents 
+
+38
+00:03:00,840 --> 00:03:06,170
+and write a functional summary for each particular file. So the first one, it's only 
+
+39
+00:03:06,170 --> 00:03:11,710
+done one of the files, so I think we might need to specifically state each file as 
+
+40
+00:03:11,710 --> 00:03:16,460
+we go. But the good thing about building this information is that we should be able 
+
+41
+00:03:16,460 --> 00:03:20,600
+to use it to create our customer instruction a bit later on.
+
+42
+00:03:20,600 --> 00:03:24,300
+Now I've just noticed that the bottom that it's suggesting that it can move on to 
+
+43
+00:03:24,300 --> 00:03:29,580
+the next file. So we're just going to run that. And it looks like we can just iterate 
+
+44
+00:03:29,580 --> 00:03:31,340
+through these one at a time. 
+
+45
+00:03:31,340 --> 00:03:37,100
+Let's look at this document here DENT value canvas. So a structured worksheet for 
+
+46
+00:03:37,140 --> 00:03:43,660
+articulating a value proposition by mapping pain points to emotional drivers. Now 
+
+47
+00:03:43,660 --> 00:03:48,140
+I was working on this particular document this morning. So that all makes sense.
+
+48
+00:03:48,150 --> 00:03:53,400
+And so we have a guideline of what it does how it helps people. But more importantly 
+
+49
+00:03:53,400 --> 00:03:57,640
+from the retrieval point of view, it tells us when to use this particular document.
+
+50
+00:03:57,650 --> 00:04:02,130
+So I've just gone through and done all 11 documents and they were pretty easy. All 
+
+51
+00:04:02,130 --> 00:04:06,900
+I had to do was press yes. Each time it would tell me the next file it was going 
+
+52
+00:04:06,900 --> 00:04:11,820
+to do. And that's what it's done here. DENT Origin Mission, we've got what the document 
+
+53
+00:04:11,820 --> 00:04:16,770
+is about and when you would use it. And as I was moving through, this was all working 
+
+54
+00:04:16,770 --> 00:04:24,30
+perfectly. I did get to a specific file of one of the people that is already a member 
+
+55
+00:04:24,30 --> 00:04:29,910
+of the DENT program. This, her name is Colette. And I thought, this can't be written 
+
+56
+00:04:29,910 --> 00:04:34,440
+that way 'cause I don't necessarily want to use this as a source of truth. This is 
+
+57
+00:04:34,440 --> 00:04:37,770
+more an example. So I just made a simple statement 
+
+58
+00:04:37,780 --> 00:04:42,800
+that it should go back to this version and mention that it's one of the members 
+
+59
+00:04:42,820 --> 00:04:46,750
+and not a specific instruction from DENT. And this is great because it's come up 
+
+60
+00:04:46,750 --> 00:04:48,760
+with when you would use it. 
+
+61
+00:04:48,780 --> 00:04:53,510
+so it's come up with the fact that it's for a high impact person. This is actually 
+
+62
+00:04:53,510 --> 00:04:59,00
+a really good example, but it is only an example being described. The last one that 
+
+63
+00:04:59,00 --> 00:05:05,300
+was also important was that I'd done a bunch of deep research using open ai. And 
+
+64
+00:05:05,330 --> 00:05:09,890
+that particular document is really good. It's really comprehensive, but it's not 
+
+65
+00:05:09,890 --> 00:05:12,410
+the direct instructions as per DENT. 
+
+66
+00:05:12,420 --> 00:05:17,610
+so I also ensured that when I asked it to process it, I gave it extra information 
+
+67
+00:05:17,610 --> 00:05:20,40
+to let it know when to use it. 
+
+68
+00:05:20,50 --> 00:05:24,810
+And we can see here that it will be used if I'm ever working on my pricing structures, 
+
+69
+00:05:24,810 --> 00:05:25,920
+which is actually how I 
+
+70
+00:05:25,920 --> 00:05:28,10
+used it manually a couple of days ago. 
+
+71
+00:05:28,350 --> 00:05:29,310
+but also 
+
+72
+00:05:29,300 --> 00:05:34,200
+that it's not authored by DENT directly. It serves as a complimentary resource.
+
+73
+00:05:34,200 --> 00:05:38,660
+Now I've put together a prompt that will help us prepare the custom instruction. 
+
+74
+00:05:38,660 --> 00:05:44,10
+It's going to go through the PDF documents, describe when to use them. Keep a summarized 
+
+75
+00:05:44,10 --> 00:05:49,460
+brief. We need a brief, but it needs to be quite small and emphasizes the retrieval 
+
+76
+00:05:49,460 --> 00:05:54,660
+relevance. So I'm going to take this information as we see it here. We'll come back 
+
+77
+00:05:54,660 --> 00:06:00,460
+to our main conversation. Everything is here. But I will actually paste in the exact 
+
+78
+00:06:00,460 --> 00:06:03,900
+values. So if we just come down here and say
+
+79
+00:06:03,900 --> 00:06:04,640
+use
+
+80
+00:06:04,670 --> 00:06:06,650
+the following, something like that.
+
+81
+00:06:06,670 --> 00:06:12,550
+And the reason I'm doing that is because I've made changes as I was doing the conversation. 
+
+82
+00:06:12,550 --> 00:06:17,310
+So I don't want it to use the past. So we'll come down here, we'll press enter and 
+
+83
+00:06:17,310 --> 00:06:20,990
+we paste in all this information and let's see what happens.
+
+84
+00:06:21,00 --> 00:06:27,900
+And here we have the custom assistant instruction DENT project file index. And this 
+
+85
+00:06:27,900 --> 00:06:32,580
+is looking great. We've got all the files listed. Look at this. It said this one's 
+
+86
+00:06:32,580 --> 00:06:38,100
+not from DENT. Use it for pricing model comparison which is great.
+
+87
+00:06:38,100 --> 00:06:38,780
+and we've got 
+
+88
+00:06:38,780 --> 00:06:43,140
+as not a DENT template but a real person example. 
+
+89
+00:06:43,150 --> 00:06:46,810
+So what we should be able to do is take all the information from here. 
+
+90
+00:06:46,810 --> 00:06:52,330
+if we go back to the project, we can click on the custom instructions and we'll just 
+
+91
+00:06:52,330 --> 00:06:53,770
+pop down to the bottom.
+
+92
+00:06:53,790 --> 00:06:57,870
+We'll just go up to here and paste all that information in hit save.
+
+93
+00:06:57,890 --> 00:07:03,310
+So let's test this out. I'm just going to copy a few words from one of them. This 
+
+94
+00:07:03,310 --> 00:07:10,930
+is Ideal Client Profiles. We'll head over to a new chat and I'll say, can you create, 
+
+95
+00:07:11,20 --> 00:07:15,370
+and we'll just paste that information in using the following, 
+
+96
+00:07:15,390 --> 00:07:22,440
+information. And the information can come from my brand, information from my mission, 
+
+97
+00:07:22,530 --> 00:07:23,250
+and 
+
+98
+00:07:23,260 --> 00:07:24,570
+maybe my content, 
+
+99
+00:07:24,810 --> 00:07:27,300
+maybe the pillars that I work with. 
+
+100
+00:07:27,360 --> 00:07:31,670
+And now it's just a case of paste in a mission, paste in some pillars. So I'll come 
+
+101
+00:07:31,670 --> 00:07:36,500
+over to this document here. We've got a little bit of a mission going on. We'll copy 
+
+102
+00:07:36,500 --> 00:07:38,150
+that down and paste it in. 
+
+103
+00:07:38,160 --> 00:07:42,590
+we'll come down and let's look at the system. I use it's scale framework. I can either 
+
+104
+00:07:42,590 --> 00:07:47,690
+do the short version or the long version. I'll go with the short version. And we 
+
+105
+00:07:47,690 --> 00:07:51,680
+can already see that that's part of my mission anyway. But now we have a bit more 
+
+106
+00:07:51,680 --> 00:07:56,810
+of a definition to it and we'll just run this. And hopefully what it's going to do 
+
+107
+00:07:57,140 --> 00:07:59,810
+is look within a particular document. 
+
+108
+00:07:59,830 --> 00:08:04,580
+And it certainly has, I'm pretty impressed already 'cause I, I've been working through, 
+
+109
+00:08:04,590 --> 00:08:09,980
+this tutorial on this at the moment. So we've got ideal client profile, AI driven 
+
+110
+00:08:09,980 --> 00:08:14,900
+creator. That's the sort of person that I'm marketing to because what I do is I create 
+
+111
+00:08:15,230 --> 00:08:20,390
+AI workflows specifically for content creators, very much like myself. And that's 
+
+112
+00:08:20,390 --> 00:08:25,610
+what it's saying, creative systems thinkers, aspiring YouTubers, creators, 
+
+113
+00:08:25,630 --> 00:08:29,110
+solo content teams. So the client profile looks good, 
+
+114
+00:08:29,130 --> 00:08:34,190
+the core pain points look good, the deep fear and the desired outcome. And it also 
+
+115
+00:08:34,190 --> 00:08:38,690
+mentions my signature method. And one of the things to note is that I never use the 
+
+116
+00:08:38,690 --> 00:08:40,10
+term signature method. 
+
+117
+00:08:40,10 --> 00:08:46,250
+I know that that comes from DENT International, so I'm already really happy with 
+
+118
+00:08:46,250 --> 00:08:46,610
+this. 
+
+119
+00:08:46,880 --> 00:08:52,140
+So that was just a little quick walkthrough on how you can improve your interaction 
+
+120
+00:08:52,140 --> 00:08:57,500
+with ChatGPT files, especially when you've got a lot of them. What we did was essentially 
+
+121
+00:08:57,500 --> 00:09:02,540
+just take a go through them and build up a custom instruction, put it into the custom 
+
+122
+00:09:02,540 --> 00:09:07,780
+instructions area so that when we're communicating with our project, it can pick 
+
+123
+00:09:07,780 --> 00:09:12,900
+the right files automatically. Anyway, I'm AppyDave. Please like and subscribe. And 
+
+124
+00:09:12,900 --> 00:09:16,780
+if you want to work with me, I've got a link in the description. You can book a call 
+
+125
+00:09:16,780 --> 00:09:20,780
+and we can talk through whatever challenges you have. Anyway, see you in the next 
+
+126
+00:09:20,780 --> 00:09:21,300
+video.

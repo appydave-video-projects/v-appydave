@@ -1,0 +1,1135 @@
+1
+00:00:00,00 --> 00:00:05,730
+How successful is your AI pair programming? Maybe you're using Claude Code, or cursor 
+
+2
+00:00:05,730 --> 00:00:10,610
+or root code, and you put in best practices like a requirements document, a PRD, 
+
+3
+00:00:10,850 --> 00:00:15,530
+and a task list, and you're having some success. You're loving the AI pair programming, 
+
+4
+00:00:15,530 --> 00:00:19,970
+but you notice after a while that just some things don't work out the way you want. 
+
+5
+00:00:20,10 --> 00:00:24,850
+And you wonder, could you review all the past work that the AI has done and come 
+
+6
+00:00:24,850 --> 00:00:29,290
+up with a better plan for the future? In this video, we're looking at retrospectives, 
+
+7
+00:00:29,290 --> 00:00:34,50
+and we're going to see if we can implement an AI retrospective. I'm AppyDave. Let's 
+
+8
+00:00:34,50 --> 00:00:34,770
+get into it.
+
+9
+00:00:34,790 --> 00:00:39,730
+So in traditional software development there is a particular methodology known as 
+
+10
+00:00:39,770 --> 00:00:45,410
+agile. And within that there is a framework known as scrum, in which there's this 
+
+11
+00:00:45,410 --> 00:00:51,450
+ability for people to work for what's called a sprint, a two week period, as an example, 
+
+12
+00:00:51,650 --> 00:00:57,330
+to build a section of the software application as a team. And at the end of the sprint, 
+
+13
+00:00:57,330 --> 00:01:01,930
+there might be something going on called a retrospective, where they look back through 
+
+14
+00:01:01,970 --> 00:01:07,130
+what worked, what didn't work, and see if they can improve things for the next sprint 
+
+15
+00:01:07,130 --> 00:01:08,970
+in the software development cycle.
+
+16
+00:01:09,00 --> 00:01:14,970
+So if your developers are writing code and you notice inefficiency and you talk about 
+
+17
+00:01:14,970 --> 00:01:21,60
+it in the retrospective, should the same idea be applied to the AI peer programmers 
+
+18
+00:01:21,60 --> 00:01:26,10
+that we're now using? Now, I've just gone and implemented a whole lot of functionality 
+
+19
+00:01:26,60 --> 00:01:31,650
+using Claude Code, and everything ran on autopilot. I was pretty happy with the output, 
+
+20
+00:01:31,730 --> 00:01:36,810
+but I thought there was a little bit of inefficiency that I want to improve the next 
+
+21
+00:01:36,810 --> 00:01:40,290
+time I write a section of code for this application.
+
+22
+00:01:40,330 --> 00:01:44,680
+So let's have a quick look at the application that I'm talking about. And this is 
+
+23
+00:01:44,680 --> 00:01:49,160
+a minimum viable product, an MVP that I've been putting together in the form of a 
+
+24
+00:01:49,200 --> 00:01:53,880
+wizard. And it's got little capabilities, like a button up here that will preload 
+
+25
+00:01:53,880 --> 00:01:58,160
+with some data so that when I'm testing the application, I don't have to fill it 
+
+26
+00:01:58,160 --> 00:02:04,360
+in. When I press next, we go to a new page and I'll press next again, which is actually 
+
+27
+00:02:04,360 --> 00:02:08,360
+under my picture at the moment. And you'll see that it's starting to load data from 
+
+28
+00:02:08,360 --> 00:02:14,200
+an external source. And the idea of that external source is that it would be an N8N, 
+
+29
+00:02:14,240 --> 00:02:19,520
+workflow, but that's something that I can swap between by being on mock. At the moment 
+
+30
+00:02:19,520 --> 00:02:24,200
+it's fake data. When I click this button, it becomes live data, which would be the 
+
+31
+00:02:24,200 --> 00:02:29,480
+N8N, workflow. And all these capabilities that you're seeing were all done over a 
+
+32
+00:02:29,480 --> 00:02:34,960
+series of individual steps that were well documented, and the AI pair programmer 
+
+33
+00:02:34,960 --> 00:02:36,710
+wrote all the code itself.
+
+34
+00:02:36,730 --> 00:02:42,210
+So let's step back to the AI retrospective and how I was putting this particular 
+
+35
+00:02:42,210 --> 00:02:48,300
+application together using a concept called the Bmad Method. And what the bmad method 
+
+36
+00:02:48,300 --> 00:02:54,300
+is is based off this video series that I saw called Bmad Code, and there's a GitHub 
+
+37
+00:02:54,300 --> 00:03:00,90
+repo related to it. You can see here, it's an AI powered Agile development framework, 
+
+38
+00:03:00,360 --> 00:03:05,370
+which will take your requirements document and break it up into concepts known as 
+
+39
+00:03:05,430 --> 00:03:10,620
+epics. And when we look at our requirements document here, we can see that I went 
+
+40
+00:03:10,620 --> 00:03:16,200
+through a bunch of epics and each of them will have a list of stories to be executed. 
+
+41
+00:03:16,320 --> 00:03:22,200
+And you just feed these stories one at a time into an AI pair programmer and it starts 
+
+42
+00:03:22,200 --> 00:03:27,90
+writing the code for you. So when we look at the technology stack, which was Epic 
+
+43
+00:03:27,90 --> 00:03:31,440
+one, there were a bunch of stories and that gave this application the ability to 
+
+44
+00:03:31,440 --> 00:03:31,980
+work with, 
+
+45
+00:03:32,00 --> 00:03:35,30
+react Shad, cn, tailwind, CSS, vite, 
+
+46
+00:03:35,760 --> 00:03:40,870
+different technologies like that. When I got to Epic two, we got the application 
+
+47
+00:03:40,870 --> 00:03:45,370
+shell, which is all the stuff that we're seeing with the menus on the left. We've 
+
+48
+00:03:45,370 --> 00:03:49,990
+got little quick search concepts that we can pop up. They're not yet styled. We've 
+
+49
+00:03:49,990 --> 00:03:54,900
+got a little light and dark mode. Again, there's some styling issues going on. But 
+
+50
+00:03:54,900 --> 00:04:01,60
+then I moved on to the main styling, which is what I needed for the main wizard. 
+
+51
+00:04:01,90 --> 00:04:06,370
+And we're seeing that wizard here now as I was developing it, it's essentially a 
+
+52
+00:04:06,370 --> 00:04:11,50
+human in the loop agent wizard backed by N8N workflows. 
+
+53
+00:04:11,250 --> 00:04:16,310
+So when I started this feature, known as an epic, I had seven different stories. 
+
+54
+00:04:16,310 --> 00:04:21,190
+And the first story was this first page that you're seeing right here. And then as 
+
+55
+00:04:21,190 --> 00:04:25,830
+soon as you loaded in data, you could move on to the next page, which would be the 
+
+56
+00:04:25,830 --> 00:04:32,00
+second story. And so since there were six different wizard pages plus a final page, 
+
+57
+00:04:32,120 --> 00:04:37,270
+we had seven stories. But by the time I got to the end of writing all the code, once 
+
+58
+00:04:37,270 --> 00:04:43,510
+I thought of things like the modal dialog, talking to N8N,, talking to mock data, 
+
+59
+00:04:43,510 --> 00:04:48,920
+we ended up with 13 different stories going on, and I had to shift things around 
+
+60
+00:04:48,920 --> 00:04:51,920
+a little bit during the conversational process.
+
+61
+00:04:51,920 --> 00:04:57,570
+Now, I will point out that the experience of writing code would BMAD and Claude Code,, 
+
+62
+00:04:57,570 --> 00:05:02,420
+and just following through on these stories allowed me to create all these commits, 
+
+63
+00:05:02,420 --> 00:05:08,130
+and each individual commit was done almost in a one shot prompt, in which Claude 
+
+64
+00:05:08,130 --> 00:05:12,570
+would just go through and work through the different items. At the end of it, I'd 
+
+65
+00:05:12,570 --> 00:05:17,60
+put in a little bit of information to say, please create this fancy commit message 
+
+66
+00:05:17,60 --> 00:05:22,370
+that you're seeing, commit it to the repository, push it all the way up, and sometimes 
+
+67
+00:05:22,370 --> 00:05:29,130
+I'd forget. So this one I forgot to do 4.6. So 4.6 and 4.7 went up together. And 
+
+68
+00:05:29,130 --> 00:05:33,570
+this happened a couple of times. But essentially it was writing code. It was writing 
+
+69
+00:05:33,570 --> 00:05:38,810
+documentation like you're seeing right here, and all of it without me actually having 
+
+70
+00:05:38,810 --> 00:05:39,980
+to write any code.
+
+71
+00:05:39,990 --> 00:05:45,190
+Now before we do the retrospective, if you're actually interested in seeing how I'm 
+
+72
+00:05:45,190 --> 00:05:51,430
+building a human in the loop agent based AI workflow application, and it's all done 
+
+73
+00:05:51,430 --> 00:05:57,80
+using the Bmad method and Claude Code,. Then check out the video down below. But 
+
+74
+00:05:57,80 --> 00:06:01,750
+for now, let's have a look at what this document is that it created. So
+
+75
+00:06:01,750 --> 00:06:06,840
+at the moment we're looking at epic four, which is a list of all the stories that 
+
+76
+00:06:06,840 --> 00:06:12,600
+it went through as it was developing the software. Now, the stories are not the actual 
+
+77
+00:06:12,600 --> 00:06:19,120
+stories that Claude Code, worked with. What these are are summaries that are expanded 
+
+78
+00:06:19,120 --> 00:06:21,310
+just before it's about to write the code.
+
+79
+00:06:21,320 --> 00:06:26,830
+So whenever my AI pair programmer Claude Code, in this case was going to work on 
+
+80
+00:06:26,830 --> 00:06:32,430
+a particular story, it would go and create a new story in the stories folder and 
+
+81
+00:06:32,430 --> 00:06:37,950
+it be the same information, just way more expanded. We've got a lot of extra information, 
+
+82
+00:06:37,950 --> 00:06:42,510
+including a section right at the beginning called Definition of Done, and this would 
+
+83
+00:06:42,510 --> 00:06:47,750
+be a checked off list of the things that were done in that story. So now we have 
+
+84
+00:06:47,750 --> 00:06:51,790
+a complete record of what we created, what was done, and we've got that repeated 
+
+85
+00:06:51,790 --> 00:06:53,30
+for every story.
+
+86
+00:06:53,60 --> 00:06:58,540
+So knowing that, let's have a look through the retrospective analysis prompt. And 
+
+87
+00:06:58,540 --> 00:07:04,420
+we've got this idea that you're conducting a retrospective analysis on epic for the 
+
+88
+00:07:04,450 --> 00:07:09,740
+guided incident capture workflow and that there are objectives. We've got process 
+
+89
+00:07:09,770 --> 00:07:16,370
+improvements, requirements analysis, technical insights, and a look at the Bmad method. 
+
+90
+00:07:16,620 --> 00:07:20,860
+Now it's looking at how it can do that. So it can use data gathering through 
+
+91
+00:07:20,860 --> 00:07:22,890
+the GIT based analysis.
+
+92
+00:07:22,890 --> 00:07:28,430
+The documentation analysis which is just looking at all those documents we just mentioned, 
+
+93
+00:07:28,470 --> 00:07:33,590
+including the Claude doc. It can also go and look through all the commit messages.
+
+94
+00:07:33,620 --> 00:07:39,160
+And it can go through the code base analysis by starting from the initial commit 
+
+95
+00:07:39,160 --> 00:07:44,00
+for the epic and going through and looking at the last one. So it's got different 
+
+96
+00:07:44,00 --> 00:07:47,80
+areas that it's going to analyze for us
+
+97
+00:07:47,90 --> 00:07:51,260
+with the idea of building up a summary, what went well and what we can improve in 
+
+98
+00:07:51,260 --> 00:07:52,20
+the future.
+
+99
+00:07:52,20 --> 00:07:57,50
+So when we look at the specific insights, there's a lot of them going on. But I think 
+
+100
+00:07:57,50 --> 00:08:02,420
+the best thing is we'll just head down to a terminal and I often run a little alias 
+
+101
+00:08:02,420 --> 00:08:07,570
+called Claude Sonnet to run it with the sonnet model. But for this, we'll go straight 
+
+102
+00:08:07,570 --> 00:08:12,170
+into Claude, which should default to the Opus model. And I'm also gonna press shift 
+
+103
+00:08:12,170 --> 00:08:19,90
+tab, 'cause I want to go into planning mode to do this. And I'm gonna say, can you 
+
+104
+00:08:19,430 --> 00:08:21,700
+run a retrospective? 
+
+105
+00:08:21,720 --> 00:08:27,410
+And with that we'll put in the at sign type in retrospective and it should find the 
+
+106
+00:08:27,410 --> 00:08:30,600
+file we want. It's right there and we'll press enter. 
+
+107
+00:08:30,620 --> 00:08:35,90
+At this point, it's starting to run. We'll just bring up the terminal a little bit 
+
+108
+00:08:35,420 --> 00:08:40,250
+and it should come up with a little plan of action before it starts executing. 
+
+109
+00:08:40,250 --> 00:08:44,460
+it's looking at gathering information using the Git log. 
+
+110
+00:08:45,590 --> 00:08:50,340
+It's wanting to read all the stories, starting with the number four.
+
+111
+00:08:50,360 --> 00:08:56,270
+So here's the plan of action. It's analyzed 13 different commits. We've got 82 file 
+
+112
+00:08:56,270 --> 00:09:05,210
+changes. We've got 13 stories review, all 13 stories, 4.1 through 4.13. Now, one 
+
+113
+00:09:05,210 --> 00:09:10,220
+of the things that I'm a little confused about is that when we look at this area, 
+
+114
+00:09:10,220 --> 00:09:18,110
+we've got 4.7 all the way through to 4.13, and maybe we don't have enough. So what 
+
+115
+00:09:18,110 --> 00:09:24,590
+I'm going to do is just say no and say the stories you picked start at 4.7 and go 
+
+116
+00:09:24,590 --> 00:09:26,720
+through to 4.13, 
+
+117
+00:09:27,20 --> 00:09:34,400
+but you have not gone through 4.1 to 4.6. So maybe it has done that because part 
+
+118
+00:09:34,400 --> 00:09:40,490
+of the plan mentioned it, but it never mentioned it in the details. So I'd like to 
+
+119
+00:09:40,490 --> 00:09:46,700
+just be a little bit more complete before we move on. So now it's reading that particular 
+
+120
+00:09:46,700 --> 00:09:52,40
+file, and that was what I was noticing as it was reading individual files that these 
+
+121
+00:09:52,40 --> 00:09:54,710
+early stories weren't being read into memory. 
+
+122
+00:09:54,720 --> 00:09:58,620
+And that's interesting. It's going to loop through a bunch of those files. I think 
+
+123
+00:09:58,620 --> 00:10:00,870
+it's combining them all into 
+
+124
+00:10:00,890 --> 00:10:01,910
+one output. 
+
+125
+00:10:01,920 --> 00:10:04,770
+we can see the commits being read right here, 
+
+126
+00:10:04,790 --> 00:10:11,830
+and it's reporting that it has a complete plan with everything from four one to 4, 1 3. 
+
+127
+00:10:11,860 --> 00:10:16,60
+We've got all them listed. We've got the description of what they all do. 
+
+128
+00:10:16,450 --> 00:10:22,410
+So this is the plan of action of what it's going to do. Create an epic four retrospective 
+
+129
+00:10:22,450 --> 00:10:27,770
+document structure, which is great. It's a retrospective, so it's not going to alter 
+
+130
+00:10:27,770 --> 00:10:29,810
+the original epic. 
+
+131
+00:10:30,290 --> 00:10:34,490
+We're going to have an executive summary. What went well, what could have been improved, 
+
+132
+00:10:34,530 --> 00:10:38,450
+key insights and actionable recommendations.
+
+133
+00:10:38,460 --> 00:10:42,970
+So it's created the document. Let's go have a look at this in VS code. 
+
+134
+00:10:42,970 --> 00:10:49,120
+it out to say the Epic four retrospective guided incident capture workflow. That's 
+
+135
+00:10:49,120 --> 00:10:53,320
+what we were working on. We got an executive summary that states that 
+
+136
+00:10:53,320 --> 00:11:00,410
+Epic four was delivered. It was done using 13 stories and it was done over six days, 
+
+137
+00:11:00,500 --> 00:11:06,200
+and that's about right. So I was spending about 40 minutes to 60 minutes each day 
+
+138
+00:11:06,200 --> 00:11:07,160
+just working on this. 
+
+139
+00:11:07,160 --> 00:11:14,540
+So essentially about two to three stories a day in an hour each. It took six days. 
+
+140
+00:11:14,930 --> 00:11:20,480
+We've got this stories completed, 13, and it says that the original was 11. That's 
+
+141
+00:11:20,480 --> 00:11:25,190
+not actually correct. It was only about seven. So I know there's something going 
+
+142
+00:11:25,190 --> 00:11:30,800
+on here, but the rest of this document, which I've had a bit of a look through, is 
+
+143
+00:11:30,830 --> 00:11:36,300
+pretty useful to me. Now, from your point of view, if you are doing a retrospective, 
+
+144
+00:11:36,330 --> 00:11:41,970
+what you're going to read here is useful, but it will be totally different from your 
+
+145
+00:11:41,970 --> 00:11:47,250
+situation. The main goal that we're trying to achieve here is understand where we 
+
+146
+00:11:47,250 --> 00:11:52,500
+can make improvements to the AI workflows in the future. So let's just have a quick 
+
+147
+00:11:52,590 --> 00:11:54,300
+look at some other areas in here.
+
+148
+00:11:54,330 --> 00:12:00,640
+So on June 17, 18 and 19, which is when the original part of the wizard was in place, 
+
+149
+00:12:00,640 --> 00:12:06,880
+capturing of data across six pages and showing a final clarification. And what I 
+
+150
+00:12:06,880 --> 00:12:12,850
+hadn't thought of through properly was test data, enhancing it using an API using 
+
+151
+00:12:12,910 --> 00:12:19,390
+a mock so I could go between mop data and also go through the N8N workflow. And then 
+
+152
+00:12:19,390 --> 00:12:24,580
+just doing some UX improvements is all the extra stories that got added on. 
+
+153
+00:12:24,590 --> 00:12:30,350
+Now, where it went well is that in EPIC two, which is where I designed how the wizard 
+
+154
+00:12:30,350 --> 00:12:36,80
+could work without any implementation of pages. And it was able to use that framework 
+
+155
+00:12:36,80 --> 00:12:40,10
+quite successfully to build the seven wizard steps 
+
+156
+00:12:40,30 --> 00:12:44,600
+when it was doing the first clarification. And this was essentially going off to 
+
+157
+00:12:44,600 --> 00:12:50,300
+the server to rework some of the data that was input using a large language model, 
+
+158
+00:12:50,480 --> 00:12:56,120
+was using this ugly little spinner. And I turned it into a clarification step. There 
+
+159
+00:12:56,120 --> 00:12:57,770
+was also a modal dialogue 
+
+160
+00:12:57,860 --> 00:13:02,270
+that refactor proved to be really useful across multiple pages. 
+
+161
+00:13:02,270 --> 00:13:08,310
+I think this statement here is also really useful and shows why the BM a method was 
+
+162
+00:13:08,310 --> 00:13:13,440
+really good. So it would have these acceptance criteria, it would have the definition 
+
+163
+00:13:13,440 --> 00:13:18,270
+of done that would get checked off. And so I never saw it going off and doing stuff 
+
+164
+00:13:18,270 --> 00:13:19,860
+that I never asked it to do. 
+
+165
+00:13:19,870 --> 00:13:23,460
+And this is really powerful, the adaptive development, because there were a bunch 
+
+166
+00:13:23,460 --> 00:13:25,910
+of things that I forgot and I'll show you the screen. 
+
+167
+00:13:25,940 --> 00:13:31,30
+so popping over to the wizard. These forms were all in scope, but this little button 
+
+168
+00:13:31,30 --> 00:13:36,970
+here to provide test data wasn't. So when I press that button, we get new test data. 
+
+169
+00:13:37,210 --> 00:13:42,610
+Now as I move through, we got test data filled in and I'll go one more step where 
+
+170
+00:13:42,610 --> 00:13:47,230
+it's working with mop data and then you'll notice there's no test data here. But 
+
+171
+00:13:47,240 --> 00:13:51,830
+I was able to add a second state to this so that when I click it one more time, it 
+
+172
+00:13:51,830 --> 00:13:56,780
+fill in additional test data. 'cause the idea of this is an MVP, I don't need 
+
+173
+00:13:56,810 --> 00:14:02,610
+to have it work against N8N, I can go from the mock view, which is using a little 
+
+174
+00:14:02,610 --> 00:14:08,100
+JSON structure behind the scenes to actually talking to an N8N server. 
+
+175
+00:14:08,110 --> 00:14:12,540
+And it's those little concepts that this adaptive development are talking about, 
+
+176
+00:14:12,570 --> 00:14:17,520
+adding the API toggle the, this sort of stuff was not thought of and it was easy 
+
+177
+00:14:17,520 --> 00:14:22,10
+to add in. Another thing that was really useful in this, as I was using this Zustand 
+
+178
+00:14:22,440 --> 00:14:27,270
+to store the designs, the shape of the data, and this worked really well, 
+
+179
+00:14:27,270 --> 00:14:33,810
+So I never specified the names of the fields in the API at all. And that ran into 
+
+180
+00:14:33,810 --> 00:14:39,30
+a problem and it's actually identified that by the changes I had to make mid epic.
+
+181
+00:14:39,50 --> 00:14:43,920
+So worked out some of the things that I hadn't fully worked through with the ux. 
+
+182
+00:14:43,980 --> 00:14:49,590
+It's then mentioned the size of the stories and it's got this idea of combined judo 
+
+183
+00:14:49,620 --> 00:14:53,610
+type coupling. I'm not sure that anything really could have been improved here. So 
+
+184
+00:14:53,610 --> 00:14:56,910
+some of this is informational and not to be acted on, 
+
+185
+00:14:56,920 --> 00:15:00,710
+and now it's starting to point out information in the code base. This is pretty good 
+
+186
+00:15:00,710 --> 00:15:06,620
+actually. The API service layer is mixing concerns. So we've got configurations of 
+
+187
+00:15:06,830 --> 00:15:11,540
+an if statement as to whether it should be mock or live. I assume we've got a little 
+
+188
+00:15:11,540 --> 00:15:17,390
+bit of code that's inside as an IF statement. So this is at least telling us information 
+
+189
+00:15:17,390 --> 00:15:20,120
+in the future that we can improve our code base on. 
+
+190
+00:15:20,120 --> 00:15:25,580
+It's mentioned the missing abstraction, especially this repeated clarification UI 
+
+191
+00:15:25,580 --> 00:15:31,100
+logic. Essentially at one stage in the development it was repeating the code on each 
+
+192
+00:15:31,160 --> 00:15:32,570
+of the wizard pages. 
+
+193
+00:15:32,780 --> 00:15:36,740
+And it's also highlighting something that I haven't done and it wasn't part of the 
+
+194
+00:15:36,740 --> 00:15:38,750
+MVP and that's unit tests. 
+
+195
+00:15:38,810 --> 00:15:44,450
+So this one line here, the API contract importance makes it really useful. If we 
+
+196
+00:15:44,510 --> 00:15:49,460
+are doing another epic and I, I will be moving on to epic five, which is a different 
+
+197
+00:15:49,490 --> 00:15:55,580
+wizard and it will have its own contract. So I now have some guidance from this document 
+
+198
+00:15:55,610 --> 00:16:00,830
+which I could apply to the Epic five document to say is there anything that we learnt 
+
+199
+00:16:00,830 --> 00:16:03,710
+here that could improve the current Epic? 
+
+200
+00:16:03,710 --> 00:16:08,440
+So all of this just keeps going on. I read it, I thought some of it I dismissed, 
+
+201
+00:16:08,440 --> 00:16:13,540
+some of it I thought was accurate. There were the odd hallucinations going on. It 
+
+202
+00:16:13,540 --> 00:16:19,510
+was really good that it worked out a state management pattern using Zustand 'cause 
+
+203
+00:16:19,510 --> 00:16:23,620
+that was not thought of at the beginning of this. I personally am not a JavaScript 
+
+204
+00:16:23,620 --> 00:16:27,550
+developer, so I don't come from the background of knowing exactly what 
+
+205
+00:16:27,580 --> 00:16:28,510
+I need to implement, 
+
+206
+00:16:28,510 --> 00:16:33,400
+I wanted to do a retrospective to point out what I don't currently know in this sort 
+
+207
+00:16:33,400 --> 00:16:34,330
+of code flow. 
+
+208
+00:16:34,350 --> 00:16:36,760
+We've got this new handle next, 
+
+209
+00:16:36,780 --> 00:16:41,780
+enhancement pattern that's going to be useful in the next wizard that we put in place. 
+
+210
+00:16:41,810 --> 00:16:47,300
+And here we can see this if statement around whether it should use the mock data 
+
+211
+00:16:47,300 --> 00:16:52,790
+or should use the real data. Maybe this is an area that I could guide it by using 
+
+212
+00:16:52,790 --> 00:16:57,620
+the inversion of control pattern rather than this if statement. But I think the code's 
+
+213
+00:16:57,620 --> 00:17:00,470
+pretty small and easy to read at the moment. 
+
+214
+00:17:00,480 --> 00:17:06,540
+And so at this point it starts going on to an analysis of the BMAD method. Now the 
+
+215
+00:17:06,540 --> 00:17:11,310
+other thing to note, this is the first time I've used BMAD I was learning myself 
+
+216
+00:17:11,310 --> 00:17:16,920
+and in the meantime they've moved from version three to version four yesterday. So 
+
+217
+00:17:16,920 --> 00:17:21,730
+the next time I do a video I'm gonna go through this method again and I'll understand 
+
+218
+00:17:21,730 --> 00:17:25,330
+it a lot more. But when I look at the weaknesses that are listed here, 
+
+219
+00:17:25,350 --> 00:17:30,480
+I don't see anything in this list that I actually had to worry about. So I'm not 
+
+220
+00:17:30,480 --> 00:17:34,200
+looking at any weaknesses so far the way this has happened 
+
+221
+00:17:34,210 --> 00:17:40,20
+now, I found the planning of these first six stories. It was excellent, it was great. 
+
+222
+00:17:40,320 --> 00:17:45,960
+This idea that I had to be reactive and change things around and sometimes that meant 
+
+223
+00:17:45,990 --> 00:17:47,640
+inserting stories, 
+
+224
+00:17:47,650 --> 00:17:49,170
+ahead of others and having to renumber. 
+
+225
+00:17:49,810 --> 00:17:51,480
+That was a little bit of a challenge. 
+
+226
+00:17:51,480 --> 00:17:55,240
+And then we'd get this estimation accuracy. And this is where things are a little 
+
+227
+00:17:55,240 --> 00:18:00,460
+bit out of whack. These numbers in these two cells are not quite correct because 
+
+228
+00:18:00,460 --> 00:18:03,220
+I don't believe they were there originally Anyway.
+
+229
+00:18:03,250 --> 00:18:08,720
+Now this next section, which is all about the documentation created by the Bmad method 
+
+230
+00:18:08,810 --> 00:18:14,870
+is actually really useful. So when the epic planning is being done and the improvement 
+
+231
+00:18:14,870 --> 00:18:21,80
+is to have the developer experience stories built in. So what happens with test data 
+
+232
+00:18:21,110 --> 00:18:25,940
+development, tool workflows, debugging utilities, so that could be logging, stuff 
+
+233
+00:18:25,940 --> 00:18:31,400
+like that. And is there any local development setup requirements? So some of the 
+
+234
+00:18:31,400 --> 00:18:36,350
+things that I think I was changing along the way was also ensuring that it was using 
+
+235
+00:18:36,380 --> 00:18:37,850
+a linter correctly. 
+
+236
+00:18:37,880 --> 00:18:42,660
+And this area I really wasn't working on. So I didn't have a flow chart for the user 
+
+237
+00:18:42,660 --> 00:18:47,790
+story. There was no sequence diagram for the API. There was no state management data 
+
+238
+00:18:47,790 --> 00:18:52,470
+flows. So this is useful information that could go into future planning 
+
+239
+00:18:52,480 --> 00:18:58,780
+and understanding the J data contract for both the data going to the end points and 
+
+240
+00:18:58,780 --> 00:19:01,810
+how it comes back is also gonna be really useful. 
+
+241
+00:19:01,810 --> 00:19:07,200
+Now this area around having patterns documented is also something I've been thinking 
+
+242
+00:19:07,200 --> 00:19:13,320
+about from having another repository that I merge into, any code that I'm doing that 
+
+243
+00:19:13,320 --> 00:19:19,530
+has my ideas around single responsibility, principle design patterns, and just basic 
+
+244
+00:19:19,530 --> 00:19:24,630
+patterns of code ready to go with. So it's suggested that we do it within this application 
+
+245
+00:19:24,630 --> 00:19:28,530
+right now though. It's the sort of thing that you probably want to keep doing if 
+
+246
+00:19:28,530 --> 00:19:30,240
+you're doing many applications. 
+
+247
+00:19:30,250 --> 00:19:34,710
+Now, as we look at the process refinements, I want to also point out that if you 
+
+248
+00:19:34,710 --> 00:19:37,500
+are using a tool that can have multiple agents, 
+
+249
+00:19:37,500 --> 00:19:42,900
+what you can do is maybe have something like the architecture review, or you might 
+
+250
+00:19:42,900 --> 00:19:48,210
+have something to generate unit tests being done as a subagent. So not part of the 
+
+251
+00:19:48,210 --> 00:19:53,520
+normal flow, but something that happens asynchronously. So some of this information 
+
+252
+00:19:53,520 --> 00:19:59,160
+that we're seeing is probably too much for me to want to take on board in the next 
+
+253
+00:19:59,160 --> 00:20:05,130
+Epic, but as this continuous improvement happens, I can start thinking of them. Does 
+
+254
+00:20:05,130 --> 00:20:09,150
+it go into the next Epic or does it come in from a different point of view? 
+
+255
+00:20:09,150 --> 00:20:14,390
+such as every time you complete a story, do you run a separate task just around the 
+
+256
+00:20:14,390 --> 00:20:15,290
+unit tests? 
+
+257
+00:20:15,310 --> 00:20:19,690
+or every time you do three stories, such as they say here, do you do 
+
+258
+00:20:19,720 --> 00:20:21,610
+architecture review, check-in? 
+
+259
+00:20:21,620 --> 00:20:28,40
+And this is really interesting. So we could probably run this and get these extractable 
+
+260
+00:20:28,70 --> 00:20:32,210
+reusable patterns put into the code base for us both here 
+
+261
+00:20:32,220 --> 00:20:38,230
+And we could also ask it to go on and build these documents within the architecture 
+
+262
+00:20:38,230 --> 00:20:43,810
+directory. So here we're getting a idea of the lines changed in each of the stories, 
+
+263
+00:20:43,810 --> 00:20:47,650
+but it's this next one that I really love. So before the Epic, this is what it looked 
+
+264
+00:20:47,650 --> 00:20:48,370
+like, A Wizard UI 
+
+265
+00:20:48,380 --> 00:20:52,880
+routes. And after the Epic, this is all the new stuff that's been added.
+
+266
+00:20:53,650 --> 00:20:58,910
+Now the lessons learned, which is the whole reason for doing a retrospective. Now, 
+
+267
+00:20:58,940 --> 00:21:04,850
+keep in mind that this is done around a framework that I'm using called BMAD, but 
+
+268
+00:21:04,850 --> 00:21:08,630
+you might be using something else. You might be just creating requirements documents. 
+
+269
+00:21:08,810 --> 00:21:13,910
+You might have a PRD product requirements documents. You might have task master and 
+
+270
+00:21:13,910 --> 00:21:18,710
+building out task lists. The reason I'm using BMAD is it kind of rolls all of those 
+
+271
+00:21:18,710 --> 00:21:24,260
+concepts up together, and it's pointed out here that it probably should be adapted 
+
+272
+00:21:24,260 --> 00:21:30,620
+to have developer experience tools. And for me, this was the automatic test or seed 
+
+273
+00:21:30,620 --> 00:21:33,950
+data being populated when I needed it to happen. 
+
+274
+00:21:33,980 --> 00:21:39,260
+There's also the extracting patterns, which is taking that code that's been repeated, 
+
+275
+00:21:39,530 --> 00:21:44,480
+putting it into a patterns directory, and this would be an end of epic capability 
+
+276
+00:21:44,480 --> 00:21:47,510
+that I'd want to do. Every time I'm working through the code base, I.
+
+277
+00:21:47,520 --> 00:21:48,580
+So that was, 
+
+278
+00:21:48,580 --> 00:21:55,630
+I retrospective, just to check how the progression of a successful code implementation 
+
+279
+00:21:55,790 --> 00:22:00,510
+could be improved and what measures you want to take in the future. Now, if you're 
+
+280
+00:22:00,510 --> 00:22:05,750
+interested in working one on one with me, you can book a call. You come to the website, 
+
+281
+00:22:05,750 --> 00:22:10,230
+click on that button, and book a session. Otherwise, if you're just interested in 
+
+282
+00:22:10,230 --> 00:22:15,630
+learning more about coding with Claude Code, using the Bmad method or building an 
+
+283
+00:22:15,630 --> 00:22:20,990
+application a day, which is my goal, then like and subscribe on the channel I'm AppyDave. 
+
+284
+00:22:20,990 --> 00:22:22,350
+I'll see you in the next video.

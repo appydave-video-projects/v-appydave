@@ -1,0 +1,211 @@
+1
+00:00:00,00 --> 00:00:04,120
+In this video we're doing a local install of N8n using Node.
+
+2
+00:00:04,960 --> 00:00:11,530
+So let's install N8n locally. I've come over to the GitHub repo for n8n, and if you 
+
+3
+00:00:11,570 --> 00:00:16,130
+scroll down, you'll be able to find access to various documentation. The one we're 
+
+4
+00:00:16,130 --> 00:00:21,970
+looking at at the moment is with NPX, which is one technique we can use. The other 
+
+5
+00:00:21,970 --> 00:00:27,770
+is using NPM and the -g command. So why would we use one over the other?
+
+6
+00:00:28,40 --> 00:00:32,480
+or whether we would use the docker version. So the docker version is what you would 
+
+7
+00:00:32,480 --> 00:00:38,160
+normally run locally. But if you wanted something like GPU acceleration and you're 
+
+8
+00:00:38,160 --> 00:00:42,560
+on a mac, which I am at the moment, you don't have access to that using the Docker 
+
+9
+00:00:42,560 --> 00:00:47,560
+version. So that would be the reason to come back and use one of the node versions. 
+
+10
+00:00:47,560 --> 00:00:53,320
+But then why NPX? Now with NPX, what it'll do is it'll just get it down, get it running 
+
+11
+00:00:53,320 --> 00:00:57,920
+for you, but not do a global install. So this is really useful if all you want to 
+
+12
+00:00:57,920 --> 00:01:02,800
+do is test out the idea of running it locally. So this is where we'll start. And 
+
+13
+00:01:02,800 --> 00:01:05,480
+then after that we'll test the npm version.
+
+14
+00:01:05,480 --> 00:01:09,790
+So quickly. Just come up to this little button, copy it to the clipboard. Once you've 
+
+15
+00:01:09,790 --> 00:01:14,920
+done that, you can go down to your terminal and just run that and follow the prompts.
+
+16
+00:01:14,940 --> 00:01:22,430
+So we have N8n installed. Now we can see that it's running on port localhost 5678. 
+
+17
+00:01:22,480 --> 00:01:29,840
+Now if we head over to a browser and we'll just paste in that URL, we now have n8n 
+
+18
+00:01:29,880 --> 00:01:34,680
+running for us. The good thing about this version of it is that if I run the same 
+
+19
+00:01:34,680 --> 00:01:39,640
+command again in one month's time, it'll give me the latest version every time because 
+
+20
+00:01:39,640 --> 00:01:44,640
+it hasn't been installed globally. But each time you run it, it will be a bit slower 
+
+21
+00:01:44,640 --> 00:01:49,40
+because it does have to go and check and potentially download a new version.
+
+22
+00:01:49,40 --> 00:01:53,720
+So we'll just do a quick little test on this. We'll set up an owner account with 
+
+23
+00:01:53,720 --> 00:01:54,80
+this.
+
+24
+00:01:54,110 --> 00:01:59,430
+Go through the quick customization and we'll skip this section because I already 
+
+25
+00:01:59,430 --> 00:02:00,670
+have a key.
+
+26
+00:02:01,280 --> 00:02:07,560
+Now I've opened up a new terminal to use the global npm install. So if we do which 
+
+27
+00:02:07,600 --> 00:02:13,480
+on n8n, it'll say there's nothing there. So if we type in npm install and we'll type 
+
+28
+00:02:13,480 --> 00:02:20,600
+in n8n and we'll type in g n8n and start the process there.
+
+29
+00:02:20,610 --> 00:02:26,340
+So it's finished installing. If we want to try testing it, we can type in N8n and 
+
+30
+00:02:26,370 --> 00:02:31,460
+see what happens when we run it. And it tells us that there is a port conflict going 
+
+31
+00:02:31,460 --> 00:02:33,620
+on with the version that's running over here. 
+
+32
+00:02:33,610 --> 00:02:38,900
+So what we'll do is we'll just set the port in an environment variable. N8n port 
+
+33
+00:02:38,900 --> 00:02:45,180
+is 5900 and see whether this runs. And here we have it. We'll take a copy of the 
+
+34
+00:02:45,220 --> 00:02:50,420
+URL with the 5900 at the end. Now here we have the older version that's running on 
+
+35
+00:02:50,420 --> 00:02:56,380
+NPX. If we do a refresh, everything should be running okay. And we'll just open up 
+
+36
+00:02:56,380 --> 00:03:02,140
+a new browser window and start a new version. And this time it's asking us to sign 
+
+37
+00:03:02,140 --> 00:03:02,460
+in.
+
+38
+00:03:02,480 --> 00:03:07,210
+Now we're entering the credentials that were used on the other version of this, running 
+
+39
+00:03:07,210 --> 00:03:09,890
+on a different port, and it looks like we've signed in.
+
+40
+00:03:09,910 --> 00:03:11,90
+So what we'll do is 
+
+41
+00:03:11,110 --> 00:03:15,510
+we'll click on the add first Node. We're just going to go with the trigger manually. 
+
+42
+00:03:15,510 --> 00:03:17,910
+We just want to make sure this is all running.
+
+43
+00:03:17,910 --> 00:03:23,170
+And we'll press the execute workflow. And that looks to be working okay. 
+
+44
+00:03:23,210 --> 00:03:27,490
+Now to be interesting, to know whether we can run this on the other port. We'll just 
+
+45
+00:03:27,490 --> 00:03:32,930
+pop back to there and we do need to sign in. So this is the NPX version. The other 
+
+46
+00:03:32,930 --> 00:03:34,130
+one is the NPM
+
+47
+00:03:34,140 --> 00:03:38,870
+g version and it looks like it's all available. Let's see what happens if we click 
+
+48
+00:03:38,870 --> 00:03:43,870
+through here and we press Execute Workflow. We can run it from both ports. And it 
+
+49
+00:03:43,870 --> 00:03:45,270
+is sharing the information. 
+
+50
+00:03:45,270 --> 00:03:49,80
+So that's a local install of n8n using either the npm or 
+
+51
+00:03:49,100 --> 00:03:52,640
+npm g command. In the next video, what we'll do is 
+
+52
+00:03:52,670 --> 00:03:57,160
+we'll install it locally again, but this time using Docker. I'm AppyDave. See you 
+
+53
+00:03:57,160 --> 00:03:58,40
+in the next video.

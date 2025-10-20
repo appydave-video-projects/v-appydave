@@ -1,0 +1,1369 @@
+﻿1
+00:00:00,066 --> 00:00:03,533
+In this video, we're taking a first
+look at Pickaxe,
+
+2
+00:00:03,533 --> 00:00:06,733
+which is an AI workflow builder or chat
+bot builder.
+
+3
+00:00:07,000 --> 00:00:09,166
+Now here we are on the home page.
+
+4
+00:00:09,166 --> 00:00:10,566
+Scroll down. You can have a look
+
+5
+00:00:10,566 --> 00:00:13,666
+at the different capabilities
+that are available right here.
+
+6
+00:00:14,000 --> 00:00:17,933
+So the first thing is that you can build
+your own chat bot or wizards.
+
+7
+00:00:18,166 --> 00:00:20,400
+You can customize the look and feel.
+
+8
+00:00:20,400 --> 00:00:23,333
+This is so that you can put it
+on your own website.
+
+9
+00:00:23,333 --> 00:00:24,533
+You can monetize it.
+
+10
+00:00:24,533 --> 00:00:29,433
+So set up different payment plans for
+your customers that are using your tools.
+
+11
+00:00:29,633 --> 00:00:34,766
+And lastly, you can monitor the analytics
+and the capability of the chat bots
+
+12
+00:00:34,766 --> 00:00:35,600
+that you're building.
+
+13
+00:00:35,600 --> 00:00:39,333
+So let's dive
+a little deeper into this application.
+
+14
+00:00:39,333 --> 00:00:42,333
+And we can say that it's a no code
+platform
+
+15
+00:00:42,366 --> 00:00:45,533
+that builds human in the loop
+AI workflows.
+
+16
+00:00:45,700 --> 00:00:51,466
+What that means is that your end users
+can use simple forms or chat bots
+
+17
+00:00:51,766 --> 00:00:56,833
+to interact with AI workflows that you've
+pre-configured with your own prompts.
+
+18
+00:00:56,900 --> 00:01:00,300
+Now, if you scroll down,
+you'll see that it's a bunch of FAQs.
+
+19
+00:01:00,300 --> 00:01:01,500
+But if you're interested
+
+20
+00:01:01,500 --> 00:01:05,566
+in learning any specific capability
+within Pickaxe after this
+
+21
+00:01:05,566 --> 00:01:09,033
+first video, then check out the playlist
+that'll be at the end.
+
+22
+00:01:09,366 --> 00:01:12,866
+But moving forward,
+what we're going to do is work with this
+
+23
+00:01:12,866 --> 00:01:16,366
+first option in creating a Pickaxe,
+which is the form.
+
+24
+00:01:16,633 --> 00:01:21,366
+So we also have conversational bots,
+which is a little bit like ChatGPT.
+
+25
+00:01:21,766 --> 00:01:26,133
+Now the form system is similar to a tool
+that I use internally called
+
+26
+00:01:26,133 --> 00:01:30,733
+the Agent Workflow Builder, and I use this
+whenever I'm launching a video.
+
+27
+00:01:30,733 --> 00:01:33,133
+I go through all these different
+workflow steps,
+
+28
+00:01:33,133 --> 00:01:36,633
+and the one that we're going to look at
+today is the title ideas.
+
+29
+00:01:36,900 --> 00:01:40,800
+So with this particular form
+that I've used in the past,
+
+30
+00:01:41,033 --> 00:01:44,500
+I can take a transcript and I can feed
+in a little bit of information
+
+31
+00:01:44,633 --> 00:01:47,300
+and get a rich YouTube title from it.
+
+32
+00:01:47,300 --> 00:01:50,600
+We'll see if we can do the same thing
+by clicking on here.
+
+33
+00:01:50,700 --> 00:01:52,066
+And let's get started.
+
+34
+00:01:52,066 --> 00:01:54,633
+Now when you're in the form builder
+you have two areas.
+
+35
+00:01:54,633 --> 00:01:57,100
+The area on the right
+is what we're building.
+
+36
+00:01:57,100 --> 00:02:00,533
+The area on the left is where
+we're doing a lot of the configuration.
+
+37
+00:02:00,566 --> 00:02:03,900
+Now there is the ability
+to add information on the right as well.
+
+38
+00:02:04,100 --> 00:02:08,533
+So what we're going to do is we'll call
+this a YouTube title generator.
+
+39
+00:02:08,800 --> 00:02:11,366
+Now I've just gone to the next page.
+
+40
+00:02:11,366 --> 00:02:12,766
+This is started drawing.
+
+41
+00:02:12,766 --> 00:02:17,566
+So it's taken whatever title you did
+and come up with a starter image
+
+42
+00:02:17,566 --> 00:02:18,933
+that you might want to work with.
+
+43
+00:02:18,933 --> 00:02:21,600
+If we click on it
+we can give it a different prompt.
+
+44
+00:02:21,600 --> 00:02:25,566
+I'm just gonna go with this
+and I might just call it logo for now.
+
+45
+00:02:25,566 --> 00:02:27,100
+I think that'll be the simplest.
+
+46
+00:02:27,100 --> 00:02:29,200
+And let's see what we get from this.
+
+47
+00:02:29,200 --> 00:02:32,466
+And so it's drawn something
+which is not very readable.
+
+48
+00:02:32,466 --> 00:02:35,033
+So I think we'll go back to illustrated.
+
+49
+00:02:35,033 --> 00:02:38,600
+We'll do a generate
+one more time and see what comes through.
+
+50
+00:02:38,600 --> 00:02:41,800
+And with a little bit of experimentation
+we'll go with this one.
+
+51
+00:02:42,000 --> 00:02:45,533
+Now the next step I want to do
+is describe what this tool does.
+
+52
+00:02:45,533 --> 00:02:49,633
+And I think the easiest way is
+if we go and select all the information
+
+53
+00:02:49,633 --> 00:02:53,633
+from the original prompt, and what we'll
+do is we'll head over to checkpoint.
+
+54
+00:02:54,200 --> 00:02:57,200
+We've got a pasted in
+and we just got a little
+
+55
+00:02:57,300 --> 00:03:00,600
+turn it into a description
+sort of capability.
+
+56
+00:03:00,866 --> 00:03:02,633
+And we'll copy all that information.
+
+57
+00:03:02,633 --> 00:03:07,266
+And if we head back over here and paste it
+in, this 300 character
+
+58
+00:03:07,400 --> 00:03:11,233
+description should be enough
+to give a basic information
+
+59
+00:03:11,233 --> 00:03:14,100
+to a user about what
+the tool is going to do.
+
+60
+00:03:14,100 --> 00:03:17,933
+Now, at this point,
+I want to generate the prompt for this.
+
+61
+00:03:17,933 --> 00:03:21,166
+So if we click over on the prompt menu
+you've got both
+
+62
+00:03:21,166 --> 00:03:24,333
+the main prompt
+for generating the information you want.
+
+63
+00:03:24,333 --> 00:03:25,966
+But we've also got the role.
+
+64
+00:03:25,966 --> 00:03:28,300
+And I'm just going to take a copy
+of this information.
+
+65
+00:03:28,300 --> 00:03:30,866
+What we'll do
+is we'll head over to ChatGPT
+
+66
+00:03:30,866 --> 00:03:33,266
+where I'm just giving it that example.
+
+67
+00:03:33,266 --> 00:03:34,500
+We just copied it.
+
+68
+00:03:34,500 --> 00:03:37,900
+I've also just asked it
+to write a role for me.
+
+69
+00:03:38,033 --> 00:03:40,400
+So let's see what it comes up with.
+
+70
+00:03:40,400 --> 00:03:41,300
+And it's going.
+
+71
+00:03:41,300 --> 00:03:44,300
+You are a seasoned
+YouTube title strategist,
+
+72
+00:03:44,333 --> 00:03:48,300
+SEO, ten compelling, under 70
+characters, etc..
+
+73
+00:03:48,500 --> 00:03:49,600
+Now, I've just mentioned
+
+74
+00:03:49,600 --> 00:03:54,033
+to my own chat bot
+that this information we're currently got,
+
+75
+00:03:54,066 --> 00:03:55,866
+it's already
+going to be in the main prompt.
+
+76
+00:03:55,866 --> 00:04:01,000
+So we'll just simplify the role right
+here, and we'll come back and take a copy
+
+77
+00:04:01,000 --> 00:04:05,500
+of the prompt that we do want to build
+what they're calling the prompt frame.
+
+78
+00:04:05,666 --> 00:04:06,833
+And we'll paste that in.
+
+79
+00:04:06,833 --> 00:04:09,633
+And then we'll figure out what we need
+to change in here.
+
+80
+00:04:09,633 --> 00:04:13,500
+So with my prompt in place,
+the main change I've done is
+
+81
+00:04:13,533 --> 00:04:17,533
+I've just added a title between each
+input that I want to have.
+
+82
+00:04:17,900 --> 00:04:20,033
+We've got this “You are a specialist”.
+
+83
+00:04:20,033 --> 00:04:24,300
+We can get rid of that because this
+information is going to be up in the role.
+
+84
+00:04:24,600 --> 00:04:27,300
+But the rest of the rules
+are what we can configure
+
+85
+00:04:27,300 --> 00:04:30,500
+over time and find improvements from now.
+
+86
+00:04:30,500 --> 00:04:32,400
+Let's have a look at the model
+
+87
+00:04:32,400 --> 00:04:33,733
+we can choose from.
+
+88
+00:04:33,733 --> 00:04:38,200
+So when you click on this you're
+going to see that we are on a free plan.
+
+89
+00:04:38,200 --> 00:04:41,933
+And we can pick the GPT-4.1 nano
+or the mini.
+
+90
+00:04:42,133 --> 00:04:43,633
+And it's come with mini by default.
+
+91
+00:04:43,633 --> 00:04:46,433
+But nano model’s had be a great one
+to work with.
+
+92
+00:04:46,433 --> 00:04:51,200
+Now I found it a little confusing
+what was considered pro and gold.
+
+93
+00:04:51,400 --> 00:04:56,066
+So we've got this Claude 3 Opus
+and GPT 4.1 as pro.
+
+94
+00:04:56,400 --> 00:04:59,933
+Now when you look at the pricing model,
+the Pro is actually the top plan.
+
+95
+00:05:00,166 --> 00:05:05,333
+And I would have thought that something
+like the GPT 3.7 Sonnet
+
+96
+00:05:05,633 --> 00:05:08,066
+might have been something
+that would appear in the pro,
+
+97
+00:05:08,066 --> 00:05:09,466
+but you get it in the gold.
+
+98
+00:05:09,466 --> 00:05:13,533
+So if you do an upgrade to $23/month,
+again,
+
+99
+00:05:13,533 --> 00:05:15,733
+there's an affiliate link
+in the description.
+
+100
+00:05:15,733 --> 00:05:20,300
+You'll be able to select that particular
+model when you're generating information.
+
+101
+00:05:20,600 --> 00:05:23,800
+Now at the moment I've got this
+three areas where I want to put the
+
+102
+00:05:23,800 --> 00:05:24,700
+user inputs.
+
+103
+00:05:24,700 --> 00:05:27,866
+And the way you can do
+it is by adding a user input like this.
+
+104
+00:05:27,866 --> 00:05:29,500
+And you'll see these values.
+
+105
+00:05:29,500 --> 00:05:32,333
+So what we'll do is would go under shot
+title add one.
+
+106
+00:05:32,333 --> 00:05:37,066
+There we go under video topic same
+and we'll go under Content Highlights.
+
+107
+00:05:37,333 --> 00:05:40,333
+Now if there's something
+that you don't want like this one
+
+108
+00:05:40,333 --> 00:05:43,600
+we can just come over here
+and press the delete button.
+
+109
+00:05:43,866 --> 00:05:47,800
+But with that in place
+we should go and copy the different titles
+
+110
+00:05:48,033 --> 00:05:53,200
+and make sure it's just nice
+for the user to read and understand.
+
+111
+00:05:53,200 --> 00:05:55,800
+We'll find content highlights.
+
+112
+00:05:55,800 --> 00:05:59,866
+Now, I think the control is covering
+is covered
+
+113
+00:05:59,866 --> 00:06:03,766
+by my head at the moment, but to the right
+is this little short answer.
+
+114
+00:06:03,833 --> 00:06:08,500
+And for the content highlights down here,
+I'm going to make it long answer.
+
+115
+00:06:08,533 --> 00:06:11,766
+So if I just go and do that
+and press long answer.
+
+116
+00:06:11,766 --> 00:06:13,366
+This will get a little bit bigger.
+
+117
+00:06:13,366 --> 00:06:16,333
+Gives us access
+to a thousand characters of input.
+
+118
+00:06:16,333 --> 00:06:20,266
+What I'd like to do next is test it out
+so we can fill in values
+
+119
+00:06:20,266 --> 00:06:21,966
+down in the bottom right hand corner.
+
+120
+00:06:21,966 --> 00:06:25,133
+There's a test prompt,
+but to get us started,
+
+121
+00:06:25,133 --> 00:06:28,133
+let's work with one I've done in the past.
+
+122
+00:06:28,333 --> 00:06:31,333
+This is that same prompt
+with some values filled in,
+
+123
+00:06:31,433 --> 00:06:32,833
+and we'll use it as a reference.
+
+124
+00:06:32,833 --> 00:06:36,900
+So I'm going to copy the
+AI workflows for content creators.
+
+125
+00:06:37,100 --> 00:06:41,166
+I haven't actually done a video in
+about a month for being moving over space,
+
+126
+00:06:41,166 --> 00:06:44,166
+and I've just arrived in Chiang Mai,
+Thailand,
+
+127
+00:06:44,333 --> 00:06:49,066
+and it's taken me a while to get back up
+and running with video content.
+
+128
+00:06:49,300 --> 00:06:52,466
+But what we'll do
+is we'll take all this content highlights
+
+129
+00:06:52,866 --> 00:06:55,866
+that are done
+when whenever I did this video
+
+130
+00:06:56,100 --> 00:07:00,733
+and we'll paste all the information in
+and I'm going to click the test prompt.
+
+131
+00:07:00,733 --> 00:07:04,100
+We're currently
+running the GPT 4o mini.
+
+132
+00:07:04,366 --> 00:07:10,333
+Let's press that looks like I went 51
+characters over the limit of 1000,
+
+133
+00:07:10,600 --> 00:07:14,700
+but in the original one, this is the
+sort of information I had before.
+
+134
+00:07:15,166 --> 00:07:17,266
+And when we look at it over here,
+
+135
+00:07:17,266 --> 00:07:21,666
+it looks like a pretty good list of titles
+that we can work with.
+
+136
+00:07:21,933 --> 00:07:24,700
+Now, have we used a credit?
+
+137
+00:07:24,700 --> 00:07:26,400
+And the answer is, I don't know.
+
+138
+00:07:26,400 --> 00:07:29,400
+This is the first time
+I've used this myself
+
+139
+00:07:29,633 --> 00:07:33,633
+and what we'll do is we'll
+just jump into Nano and we'll just test
+
+140
+00:07:33,766 --> 00:07:35,366
+the prompt one more time.
+
+141
+00:07:35,366 --> 00:07:38,766
+And AI responds right here and look,
+
+142
+00:07:38,866 --> 00:07:43,833
+without actually going deep
+and having a look at them side by side.
+
+143
+00:07:43,833 --> 00:07:46,433
+And this is actually something
+I wasn't aware of,
+
+144
+00:07:46,433 --> 00:07:50,200
+is that I've lost the output
+of the previous example.
+
+145
+00:07:50,200 --> 00:07:55,033
+But from here, these are
+pretty good titles to get started with.
+
+146
+00:07:55,166 --> 00:07:59,033
+Now, before I demonstrate the Pickaxe,
+I just want to explain a couple of things,
+
+147
+00:07:59,033 --> 00:08:01,733
+including a big problem
+that I encountered.
+
+148
+00:08:01,733 --> 00:08:03,966
+So the first is, from a cost
+point of view,
+
+149
+00:08:03,966 --> 00:08:07,533
+the two tests that you've seen me
+do have cost to credit.
+
+150
+00:08:07,533 --> 00:08:10,000
+So we've got 48 to go.
+
+151
+00:08:10,000 --> 00:08:13,000
+Now, if you go and have a look
+at my dashboard at the moment,
+
+152
+00:08:13,133 --> 00:08:17,333
+one of the things that you'll notice
+is that there are no Pickaxes listed.
+
+153
+00:08:17,333 --> 00:08:22,433
+There is a studio and the reason
+this happened is that I was configuring
+
+154
+00:08:22,433 --> 00:08:26,333
+the Pickaxe that you just saw in the video,
+and then I pressed a button
+
+155
+00:08:26,733 --> 00:08:30,300
+which took me to an information screen
+and everything got lost.
+
+156
+00:08:30,433 --> 00:08:35,800
+So what we're going to do is we're going
+to click on the new Pickaxe again.
+
+157
+00:08:35,800 --> 00:08:38,800
+We're going to go in and click on the form
+and I'm going
+
+158
+00:08:38,800 --> 00:08:42,533
+to show you a recreation
+and what not to do.
+
+159
+00:08:42,633 --> 00:08:46,266
+So here we are
+at the new Pickaxe now on a different tab.
+
+160
+00:08:46,266 --> 00:08:48,766
+I've gone and recreated it again.
+
+161
+00:08:48,766 --> 00:08:52,533
+And the reason this all happened
+is that I lost all the information
+
+162
+00:08:52,533 --> 00:08:56,666
+is that as you're filling
+this out, it's not actually being saved.
+
+163
+00:08:56,833 --> 00:09:00,133
+And I was just having a look around down
+below and I clicked on this
+
+164
+00:09:00,133 --> 00:09:01,433
+“more options”.
+
+165
+00:09:01,433 --> 00:09:02,233
+And what it did was
+
+166
+00:09:02,233 --> 00:09:05,300
+take me to a different page
+and I couldn't figure out how to go back.
+
+167
+00:09:05,466 --> 00:09:08,666
+So I press the back button
+and everything was gone.
+
+168
+00:09:08,866 --> 00:09:12,100
+So what we'll do right now
+is press the publish button
+
+169
+00:09:12,266 --> 00:09:15,133
+and hopefully what's going to happen
+is this now site.
+
+170
+00:09:15,133 --> 00:09:18,933
+So just be aware that at the moment
+there's probably a few changes
+
+171
+00:09:18,933 --> 00:09:22,233
+I need to make to this product
+to make it a bit more sound,
+
+172
+00:09:22,233 --> 00:09:27,000
+but we now have a YouTube
+title generator, so we're now on a page
+
+173
+00:09:27,000 --> 00:09:31,333
+where we've got a URL, which would be
+to our YouTube title generator.
+
+174
+00:09:31,533 --> 00:09:35,633
+We've also got this concept
+called website, and that's telling us
+
+175
+00:09:35,633 --> 00:09:38,733
+your website is a canvas
+to hold all your Pickaxes.
+
+176
+00:09:38,966 --> 00:09:43,166
+So I think what we can do
+is just go and open that.
+
+177
+00:09:43,300 --> 00:09:47,400
+And it's again, it's opening it in page,
+not in a new page.
+
+178
+00:09:47,666 --> 00:09:49,466
+So we've got it all listed here.
+
+179
+00:09:49,466 --> 00:09:53,700
+It says home
+and we're not saying our title generator.
+
+180
+00:09:53,700 --> 00:09:56,300
+And what I think that is because of
+
+181
+00:09:56,300 --> 00:10:00,500
+if we go and click on it right here,
+there's this website unlisted.
+
+182
+00:10:00,500 --> 00:10:03,666
+So what we'll do
+is we'll say listed right here.
+
+183
+00:10:03,666 --> 00:10:07,433
+And you can't see it
+because my head is covering it I think.
+
+184
+00:10:07,533 --> 00:10:13,100
+But we'll go and click back on this
+and see if that's become available.
+
+185
+00:10:13,166 --> 00:10:17,600
+Yes. It has now got the YouTube title
+generator, which I can click on
+
+186
+00:10:17,600 --> 00:10:20,866
+and that should take us to 
+our title generator.
+
+187
+00:10:21,100 --> 00:10:23,800
+If we just go back one more time,
+
+188
+00:10:23,800 --> 00:10:27,833
+we should also be able to click on it
+by using this button.
+
+189
+00:10:27,933 --> 00:10:30,966
+So if we use this button right here
+that actually opened it
+
+190
+00:10:30,966 --> 00:10:34,400
+in a new tab, which was more
+what I wanted to see happen before.
+
+191
+00:10:34,400 --> 00:10:39,300
+And we can minimize this area
+and start working with it.
+
+192
+00:10:39,300 --> 00:10:42,633
+Now it's got the information that I left in.
+
+193
+00:10:42,633 --> 00:10:46,366
+So the next thing I'm going to have to do
+is go back and edit this
+
+194
+00:10:46,533 --> 00:10:50,800
+so that that's actually
+this is classed as placeholder text.
+
+195
+00:10:50,933 --> 00:10:52,933
+So this is really good.
+
+196
+00:10:52,933 --> 00:10:55,366
+So what we'll do now
+is will test it for real.
+
+197
+00:10:55,366 --> 00:10:59,933
+And what I've got down here is a bunch
+of videos that I've done in the past.
+
+198
+00:10:59,933 --> 00:11:04,300
+One was when I was recently made
+redundant, and I did a video
+
+199
+00:11:04,700 --> 00:11:08,900
+on how I'm planning to create a digital
+AI agency.
+
+200
+00:11:09,166 --> 00:11:12,300
+And so if we move further down
+in this conversation,
+
+201
+00:11:12,566 --> 00:11:16,433
+we should be able to find a short title
+that we can work with.
+
+202
+00:11:16,433 --> 00:11:19,866
+So a copy of that information,
+I will just paste it in here.
+
+203
+00:11:20,200 --> 00:11:23,633
+And then we'll copy that information
+and we'll grab that information
+
+204
+00:11:23,633 --> 00:11:25,266
+and paste it in here.
+
+205
+00:11:25,266 --> 00:11:28,733
+And we're within the limits
+which is good to see.
+
+206
+00:11:28,966 --> 00:11:32,900
+And these were the titles that were done
+at that period of time
+
+207
+00:11:32,900 --> 00:11:34,666
+when I used it in ChatGPT.
+
+208
+00:11:34,666 --> 00:11:37,600
+But we'll just press submit.
+
+209
+00:11:37,600 --> 00:11:39,566
+And there is a “See history”.
+
+210
+00:11:39,566 --> 00:11:43,400
+So that's something I had an issue
+with when testing it.
+
+211
+00:11:43,400 --> 00:11:47,600
+I wasn't able to see the earlier
+title list,
+
+212
+00:11:47,733 --> 00:11:51,400
+but apparently this has a “see history”,
+so maybe we can see more.
+
+213
+00:11:51,733 --> 00:11:54,066
+We've got information going down here.
+
+214
+00:11:54,066 --> 00:11:55,633
+What does this do?
+
+215
+00:11:55,633 --> 00:12:00,633
+And okay, maybe I'm
+going to test it with another video.
+
+216
+00:12:00,633 --> 00:12:03,533
+But let's just see
+a comparison side by side.
+
+217
+00:12:03,533 --> 00:12:06,200
+So what we've got on
+the left is what it's come up with.
+
+218
+00:12:06,200 --> 00:12:10,400
+It's a good set of titles
+now where it's a little different to
+
+219
+00:12:10,400 --> 00:12:13,966
+what I've done in the past
+is that when I generated the titles
+
+220
+00:12:13,966 --> 00:12:18,233
+the first time around, I kind of liked
+this particular one for the video.
+
+221
+00:12:18,233 --> 00:12:20,366
+It's “Lost my job, found my purpose:
+
+222
+00:12:20,366 --> 00:12:21,533
+Here's what I did”.
+
+223
+00:12:21,533 --> 00:12:25,600
+But I had access to conversation bot
+because I was in ChatGPT
+
+224
+00:12:25,933 --> 00:12:29,833
+and I was actually able
+to improve this particular title.
+
+225
+00:12:30,033 --> 00:12:33,433
+And where that ultimately got to
+was this video
+
+226
+00:12:33,666 --> 00:12:37,466
+where according to VidIQ,
+it had a 91 score.
+
+227
+00:12:37,700 --> 00:12:41,600
+And one of the things I just noticed
+right now is that it's unlisted.
+
+228
+00:12:41,766 --> 00:12:46,200
+I had it unlisted because there were
+people that I was communicating with,
+
+229
+00:12:46,600 --> 00:12:50,266
+and I didn't want to tell them
+that I had lost my job, mainly
+
+230
+00:12:50,266 --> 00:12:54,400
+because for me, it was
+this all happened a month and a half ago.
+
+231
+00:12:54,400 --> 00:12:59,133
+This is why I'm in Chiang Mai
+and ended up with this great opportunity.
+
+232
+00:12:59,133 --> 00:13:02,366
+But after four years,
+it was also a little bit of ego
+
+233
+00:13:02,366 --> 00:13:05,366
+busting going on because of the job
+I was in.
+
+234
+00:13:05,533 --> 00:13:09,100
+But that said, well, here
+we've got on the right the titles
+
+235
+00:13:09,100 --> 00:13:10,100
+that you can see
+
+236
+00:13:10,100 --> 00:13:13,766
+and the improvements I can have,
+because the conversational capability,
+
+237
+00:13:13,933 --> 00:13:17,633
+we've got the titles
+that are here on the left and earlier on
+
+238
+00:13:17,633 --> 00:13:22,966
+I was looking to see how I could implement
+chat capability into this,
+
+239
+00:13:23,100 --> 00:13:24,066
+which was the reason
+
+240
+00:13:24,066 --> 00:13:27,866
+I actually lost all the information
+which I talked about earlier in the video.
+
+241
+00:13:28,166 --> 00:13:32,566
+But what we'll do is we'll come back
+to this particular list,
+
+242
+00:13:32,566 --> 00:13:37,733
+we'll go to videos right here
+and we'll find another one to work with.
+
+243
+00:13:37,733 --> 00:13:40,733
+So let's go with b10.
+
+244
+00:13:40,733 --> 00:13:44,333
+And in here, if we look for that
+
+245
+00:13:44,366 --> 00:13:48,633
+title again, we've got another set of data
+that we can use,
+
+246
+00:13:48,633 --> 00:13:53,666
+so synthesizing multi conversational chats.
+
+247
+00:13:53,966 --> 00:13:57,266
+And is it a case of we can just update it
+I think we can. Yep.
+
+248
+00:13:57,266 --> 00:13:58,800
+All pretty easy.
+
+249
+00:13:58,800 --> 00:14:00,933
+We'll just press submit on that.
+
+250
+00:14:00,933 --> 00:14:04,333
+And while that's generating whatever
+it's doing we can go and have a look
+
+251
+00:14:04,366 --> 00:14:07,800
+to what I had originally streamlined
+ChatGPT chats
+
+252
+00:14:07,800 --> 00:14:11,966
+into actionable documents. 
+And what have we got here?
+
+253
+00:14:11,966 --> 00:14:13,200
+So there we go.
+
+254
+00:14:13,200 --> 00:14:17,200
+So the original one we just did
+is down here
+
+255
+00:14:17,533 --> 00:14:21,900
+and we've got the new one going on
+right here, which is pretty cool.
+
+256
+00:14:21,933 --> 00:14:24,966
+Now another thing to notice
+is that the history of
+
+257
+00:14:24,966 --> 00:14:29,233
+we can click on this particular one
+if you want to go to them quickly.
+
+258
+00:14:29,433 --> 00:14:30,800
+Now, if you're actually interested
+
+259
+00:14:30,800 --> 00:14:35,166
+in that particular video, like I said,
+I've just made it public right now.
+
+260
+00:14:35,266 --> 00:14:38,966
+It got a bunch of views in the first week,
+and then I just turned it off.
+
+261
+00:14:39,366 --> 00:14:43,866
+So let's go back and look at one
+more aspect of this system.
+
+262
+00:14:43,866 --> 00:14:46,033
+So one of the things you notice on
+this page
+
+263
+00:14:46,033 --> 00:14:47,633
+is that you've got this beautiful image.
+
+264
+00:14:47,633 --> 00:14:51,766
+We've got a title, getting started,
+and this is all customizable.
+
+265
+00:14:51,766 --> 00:14:54,166
+I'm going to do another video
+on that in the future.
+
+266
+00:14:54,166 --> 00:14:56,933
+But I think we just need
+to look at the usage.
+
+267
+00:14:56,933 --> 00:14:59,833
+It's not quite showing you exactly
+what's going on.
+
+268
+00:14:59,866 --> 00:15:03,000
+We've got the total users is two.
+
+269
+00:15:03,000 --> 00:15:07,300
+One use this today. Two users today.
+And we can see the information going on.
+
+270
+00:15:07,300 --> 00:15:10,800
+But this is from the public facing
+aspect of it.
+
+271
+00:15:10,800 --> 00:15:13,433
+It doesn't include the actual tests
+we did.
+
+272
+00:15:13,433 --> 00:15:16,666
+If we move over to the dashboard
+we've got information here.
+
+273
+00:15:16,666 --> 00:15:19,400
+You click on the username,
+you'll be taken over to this page
+
+274
+00:15:19,400 --> 00:15:20,833
+where you can see the actual pricing
+
+275
+00:15:20,833 --> 00:15:24,966
+and you can see the actual credits
+we used, which is four
+
+276
+00:15:24,966 --> 00:15:30,366
+have been used. Two in testing, two
+as part of the little micro application
+
+277
+00:15:30,366 --> 00:15:33,466
+that we've published to the internet
+for people to use.
+
+278
+00:15:33,633 --> 00:15:34,633
+So that's Pickaxe.
+
+279
+00:15:34,633 --> 00:15:37,966
+What we've done is we've created
+our YouTube title generator.
+
+280
+00:15:37,966 --> 00:15:41,600
+It's a little tool
+that's been hooked up to a little website.
+
+281
+00:15:41,600 --> 00:15:44,333
+In the next video,
+what I'll do is I'll play around
+
+282
+00:15:44,333 --> 00:15:47,733
+with a little bit of the designs
+and create another workflow just to see
+
+283
+00:15:47,900 --> 00:15:51,566
+how flexible
+this is in other sorts of situations.
+
+284
+00:15:51,566 --> 00:15:56,200
+But if you want to work with me
+one on one, then just head over to AppyDave.com
+
+285
+00:15:56,200 --> 00:15:58,766
+There's a there's a book
+a call button that you can click on
+
+286
+00:15:58,766 --> 00:16:03,566
+and that will take you to an area where
+we can have a discovery call or just work
+
+287
+00:16:03,566 --> 00:16:08,766
+one on one in a strategy session on prompt
+engineering or AI agent workflows.
+
+288
+00:16:08,766 --> 00:16:11,833
+I'm AppyDave.
+Look forward to seeing you in the next video.

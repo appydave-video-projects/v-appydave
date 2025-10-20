@@ -1,0 +1,1302 @@
+﻿1
+00:00:00,000 --> 00:00:05,600
+I'm AppyDave, and in this video we're looking at a talk that I gave last night for 
+
+2
+00:00:05,633 --> 00:00:11,466
+Ecamm Live Tech Summit on multi-agent workflows. And specifically, we're looking 
+
+3
+00:00:11,466 --> 00:00:16,066
+at a framework that I've been putting together called Emotional Support Spiders.
+
+4
+00:00:16,100 --> 00:00:20,733
+In this video, we'll be covering the prompt engineering the AI workflows and agents, 
+
+5
+00:00:20,733 --> 00:00:26,033
+and also talking about how I'm putting together a system for multiple character, 
+
+6
+00:00:26,033 --> 00:00:29,700
+multiple storylines with videography to fit. 
+
+7
+00:00:29,766 --> 00:00:36,433
+So if you're currently a YouTuber or a storyteller online and you're using AI at 
+
+8
+00:00:36,433 --> 00:00:42,333
+the moment, you might be concerned about whether in the future AI is going to get 
+
+9
+00:00:42,333 --> 00:00:47,333
+rid of you from the picture, or is it something that's going to give you superpowers 
+
+10
+00:00:47,333 --> 00:00:53,533
+over time? So in this video, we're looking at different aspects of storytelling and 
+
+11
+00:00:53,533 --> 00:00:59,300
+visualization with AI. For instance, in the next five years, it's predicted that 
+
+12
+00:00:59,300 --> 00:01:06,933
+90% of all content online will be AI generated one way or another. So here I'm talking 
+
+13
+00:01:06,933 --> 00:01:13,533
+about the AI workflows that I use, and what I'm suggesting might be good for creators. 
+
+14
+00:01:13,533 --> 00:01:16,533
+And I do it through what I call the scale framework.
+
+15
+00:01:16,533 --> 00:01:22,533
+So let's power up, get on our superpowers and have a look at what we can do Today 
+
+16
+00:01:22,533 --> 00:01:25,400
+with video content generation and movies 
+
+17
+00:01:25,400 --> 00:01:28,633
+are forged in the fires of the YouTube battlefield. 
+
+18
+00:01:28,666 --> 00:01:33,666
+Only the strongest, the most persistent, the most clickbait driven warriors 
+
+19
+00:01:33,666 --> 00:01:35,066
+will survive 
+
+20
+00:01:35,066 --> 00:01:38,366
+in the kingdom of contempt, views our power 
+
+21
+00:01:38,366 --> 00:01:44,466
+and the shows. No Mercy AppyDave was once just a creator, but when the prophecy called 
+
+22
+00:01:44,466 --> 00:01:52,833
+for 555 videos in 55 weeks across five channels, he answered, he has climbed the 
+
+23
+00:01:52,833 --> 00:01:57,933
+treacherous mountain of mastery where many have fallen. He has battled burnout, 
+
+24
+00:01:57,933 --> 00:02:03,200
+braved the shadow band swamps, and faced the dreaded demonetization dungeon. 
+
+25
+00:02:03,200 --> 00:02:08,300
+He has studied the sacred texts, viral thumbnails, retention graphs in every cat 
+
+26
+00:02:08,300 --> 00:02:16,000
+video in search of the ultimate truth. Is he a genius, a madman, a man haunted by 
+
+27
+00:02:16,000 --> 00:02:19,533
+the ghosts of unfinished edits? No one knows, 
+
+28
+00:02:19,533 --> 00:02:23,733
+but one thing certain he won't stop 
+
+29
+00:02:23,733 --> 00:02:31,200
+until he finds the answer or loses his mind. Trying. This is the ridiculous legend 
+
+30
+00:02:31,200 --> 00:02:35,100
+of AppyDave and the 5 5 5 Manifesto. 
+
+31
+00:02:35,300 --> 00:02:42,033
+So that was AppyDave, the 5 5 5 Manifesto, which is a Hollywood style blockbuster 
+
+32
+00:02:42,066 --> 00:02:48,200
+video trailer that I put together a couple of months ago for a different tech summit. 
+
+33
+00:02:48,533 --> 00:02:53,200
+And what I wanna do is talk about how I'm putting these together across multiple 
+
+34
+00:02:53,200 --> 00:02:54,100
+channels.
+
+35
+00:02:54,400 --> 00:02:59,133
+So let's look at one of the fundamental ideas that are needed to succeed on YouTube. 
+
+36
+00:02:59,133 --> 00:03:04,600
+And this comes from MrBeast. When asked the question why after I've done ten videos, 
+
+37
+00:03:04,600 --> 00:03:09,633
+am I not seeing any subscribers or views? And he says that unless you've done 100 
+
+38
+00:03:09,633 --> 00:03:14,433
+videos and looked at how to improve on each and every video, don't bother wasting 
+
+39
+00:03:14,433 --> 00:03:20,933
+his time. And what I did a couple of years ago was to think, can I do that 100 videos? 
+
+40
+00:03:20,933 --> 00:03:23,466
+But can I do it across five different channels?
+
+41
+00:03:23,466 --> 00:03:29,100
+So for some time now, I've been using this metaphor called the Mountain of Mastery, 
+
+42
+00:03:29,100 --> 00:03:34,000
+which is a spiral learning metaphor that says that as you go around the mountain, 
+
+43
+00:03:34,333 --> 00:03:39,300
+at each stage you can see something different. But as you go around the mountain 
+
+44
+00:03:39,300 --> 00:03:43,766
+a couple of times and you look at a higher level, you have more clarity around what 
+
+45
+00:03:43,766 --> 00:03:48,600
+it is you're seeing. And I find this happens to be the case across concepts like 
+
+46
+00:03:48,600 --> 00:03:54,366
+YouTube titles, how to write descriptions, how to do hooks, how to do outros. As 
+
+47
+00:03:54,366 --> 00:03:59,066
+I go through the mountain of mastery, over time I learn a little bit more. 
+
+48
+00:03:59,066 --> 00:04:04,566
+and what I wanted to do with that knowledge is encapsulate it into AI agents for 
+
+49
+00:04:04,666 --> 00:04:09,966
+YouTube automation. And that's where the 5 5 5 Manifesto started a couple of years 
+
+50
+00:04:09,966 --> 00:04:17,700
+ago in a conversation with ChatGPT, where I said, can I create 555 videos in 55 weeks 
+
+51
+00:04:17,700 --> 00:04:22,933
+across five different channels? And looking to do that using automation systems.
+
+52
+00:04:22,933 --> 00:04:29,000
+Now to start achieving that, I had to put in place a new system of thinking and automation, 
+
+53
+00:04:29,000 --> 00:04:33,800
+and I call that the scale framework. And the idea of the scale framework is that 
+
+54
+00:04:33,800 --> 00:04:38,733
+we start from the point of view of structured prompt engineering. The ability to 
+
+55
+00:04:38,766 --> 00:04:43,866
+communicate with AI is one of the fundamental skills that we need. The way we're 
+
+56
+00:04:43,866 --> 00:04:45,933
+using large language models today.
+
+57
+00:04:45,933 --> 00:04:50,800
+Once you understand how to do the prompt engineering, you can move into prompt chains 
+
+58
+00:04:50,800 --> 00:04:57,233
+or crafting different workflows or standard operating procedures that automate certain 
+
+59
+00:04:57,233 --> 00:05:03,200
+parts of your business or your YouTube content creation. After that, I like to package 
+
+60
+00:05:03,200 --> 00:05:08,233
+it all up in agents. Now, these agents might be pure automations, or they might be 
+
+61
+00:05:08,233 --> 00:05:11,033
+automations with human in the loop concepts. 
+
+62
+00:05:11,033 --> 00:05:15,533
+After that we want to hook into low code tools. So let's say you've done a video, 
+
+63
+00:05:15,566 --> 00:05:20,766
+you've generated an article based off the video. You then want to be able to push 
+
+64
+00:05:20,766 --> 00:05:25,900
+that directly into your WordPress site. Or you might want to upload assets to Canva. 
+
+65
+00:05:25,900 --> 00:05:30,500
+And this is where low code automation can kick in. The last thing that we're ultimately 
+
+66
+00:05:30,500 --> 00:05:35,500
+trying to do is become more productive. So how do we empower content creators to 
+
+67
+00:05:35,533 --> 00:05:40,266
+get a whole lot of stuff done, which is involved with this business, with the limited 
+
+68
+00:05:40,266 --> 00:05:43,366
+resources of just some AI agents?
+
+69
+00:05:43,366 --> 00:05:49,066
+So let's start off with a tutorial on effective prompt engineering. And to do that, 
+
+70
+00:05:49,066 --> 00:05:54,366
+we're going to do it from a storytelling perspective by talking about a woman and 
+
+71
+00:05:54,366 --> 00:06:00,266
+her cat in New York as a storytelling construct. And when I'm doing prompt engineering, 
+
+72
+00:06:00,266 --> 00:06:04,733
+it's all about breaking it down into the component parts, such as, in this case, 
+
+73
+00:06:04,766 --> 00:06:09,366
+a structured sequence of events. We've also got the protagonist, which happens to 
+
+74
+00:06:09,366 --> 00:06:13,766
+be the woman, the environment, or the scene which happens to be New York, and the 
+
+75
+00:06:13,766 --> 00:06:16,833
+fact that she has another character being her cat.
+
+76
+00:06:16,833 --> 00:06:20,533
+With that information in place, we give the structure of what we want to create, 
+
+77
+00:06:20,533 --> 00:06:25,566
+which is a five scene write up, and we would like something dramatic maybe in the 
+
+78
+00:06:25,566 --> 00:06:30,966
+third scene. And from there we end up getting storytelling that's over five different 
+
+79
+00:06:30,966 --> 00:06:36,200
+scenes. Now, the next thing that we want to do from here is get some sort of visualization. 
+
+80
+00:06:36,200 --> 00:06:40,733
+But before we do the visualization, we need to create what's called a shot list.
+
+81
+00:06:40,833 --> 00:06:45,900
+Now the shot list is just a simple continuation of the story we just created, just 
+
+82
+00:06:45,900 --> 00:06:50,433
+with a little bit of output formatting. In this case, create a simplified shot list, 
+
+83
+00:06:50,433 --> 00:06:55,033
+and we see that information coming through. And there's a lot of visual componentry 
+
+84
+00:06:55,066 --> 00:06:57,000
+going into what's being written.
+
+85
+00:06:57,100 --> 00:07:01,400
+Now that we've got the story and the shot list, we can go into generating prompts 
+
+86
+00:07:01,400 --> 00:07:06,233
+that allow us to generate these images in something like Leonardo AI.
+
+87
+00:07:06,433 --> 00:07:11,233
+Now to create images effectively. The things that are important is that firstly, 
+
+88
+00:07:11,233 --> 00:07:16,200
+we continue the context of the previous part of the conversation with an output format, 
+
+89
+00:07:16,200 --> 00:07:21,233
+which is generate a concise image prompt. After that, we give the aesthetic style 
+
+90
+00:07:21,233 --> 00:07:26,700
+that we want. It's pretty simple here. It's just New York City, a woman 2025. And 
+
+91
+00:07:26,700 --> 00:07:30,966
+then lastly, because there are multiple characters, we want to make sure that each 
+
+92
+00:07:30,966 --> 00:07:36,933
+of the characters are stylistically the same in every scene. Last thing we need is 
+
+93
+00:07:36,933 --> 00:07:41,233
+to see a cat that's brown in one scene and black in the next scene.
+
+94
+00:07:41,233 --> 00:07:45,966
+So we continue the conversation. And one of the things that you notice is that all 
+
+95
+00:07:45,966 --> 00:07:50,933
+the image prompts that have been generated all have the same fluffy orange tabby 
+
+96
+00:07:50,966 --> 00:07:56,366
+cat in each of the scenes. So hopefully we're going to get visual consistency. So 
+
+97
+00:07:56,366 --> 00:08:00,733
+when we start running this through Leonardo AI, you end up with a bunch of images 
+
+98
+00:08:00,733 --> 00:08:05,466
+that look pretty good. We can notice in the third scene that there is a dramatic 
+
+99
+00:08:05,500 --> 00:08:08,566
+issue going on here. The cat is escaping in the park.
+
+100
+00:08:08,566 --> 00:08:14,166
+So we have our final story of the woman in her 30s in New York with her cat. But 
+
+101
+00:08:14,166 --> 00:08:19,200
+what if we want to take this same story and restructure it for a different period 
+
+102
+00:08:19,200 --> 00:08:25,266
+in time? And for this, let's go with Elizabethan times or Shakespeare Hamlet sort 
+
+103
+00:08:25,266 --> 00:08:31,200
+of style. From that, we can just take a new prompt, a reframe prompt. We ensure that 
+
+104
+00:08:31,200 --> 00:08:35,200
+the woman and the cat are in each scene, but the scene should be quite different 
+
+105
+00:08:35,200 --> 00:08:40,066
+because it's a different period in time. And we do have a reinforcement part of the 
+
+106
+00:08:40,066 --> 00:08:44,933
+prompt that says that only image prompts are expected. The woman and the cat should 
+
+107
+00:08:44,933 --> 00:08:48,200
+have visual consistency across every scene.
+
+108
+00:08:48,200 --> 00:08:53,666
+And so now we have our noble woman and her cat in London. It's a similar sort of 
+
+109
+00:08:53,700 --> 00:08:57,833
+concept, but one of the things that you notice when you see them side by side is 
+
+110
+00:08:57,833 --> 00:09:02,866
+that there is a little bit of a flaw. The blonde woman in the first scene is a little 
+
+111
+00:09:02,866 --> 00:09:07,433
+bit different colored blonde, and then she becomes silver and then a darker brunette, 
+
+112
+00:09:07,466 --> 00:09:12,500
+followed by silver at the end. And what we're looking at is what I call instructional 
+
+113
+00:09:12,500 --> 00:09:17,266
+collapse in prompt engineering. So in the next section let's see how we can improve 
+
+114
+00:09:17,266 --> 00:09:19,233
+that with AI workflows.
+
+115
+00:09:19,233 --> 00:09:23,566
+So in the scale framework we've just looked at Structured Prompt engineering. Now 
+
+116
+00:09:23,566 --> 00:09:28,466
+we're going to look at crafting workflows. And these are simple prompt chains that 
+
+117
+00:09:28,466 --> 00:09:34,033
+you put in place to execute the same sort of instructions over and over again in 
+
+118
+00:09:34,033 --> 00:09:43,966
+a systematic way. And I like to use them in three main areas business optimization, 
+creative processes like you're seeing in this presentation or in a lot of the YouTube 
+
+119
+00:09:43,966 --> 00:09:49,966
+videos I do, or personal productivity, maybe writing an email or a Facebook message.
+
+120
+00:09:49,966 --> 00:09:55,633
+Now, if you're doing workflows correctly, you also have extended tools such as fine 
+
+121
+00:09:55,633 --> 00:10:01,200
+tuning, retrieval, augmented generation, memory, human in the loop to interact with 
+
+122
+00:10:01,200 --> 00:10:06,633
+the AI, and maybe different models to solve different problems. So let's have a look 
+
+123
+00:10:06,633 --> 00:10:12,066
+at it from a marketing agency point of view. So let's say you're a digital marketing 
+
+124
+00:10:12,066 --> 00:10:16,900
+company and you've got a lot of workflows that you're doing for many clients. And 
+
+125
+00:10:16,900 --> 00:10:21,066
+it's the same workflows over and over again. And this was one such company I was 
+
+126
+00:10:21,066 --> 00:10:24,866
+working with. And we were looking at the different workflows they've got and just 
+
+127
+00:10:24,866 --> 00:10:29,766
+putting them into structured, prompt chains that they could run over and over again.
+
+128
+00:10:29,766 --> 00:10:33,666
+Now, one of the things I found interesting about working with this company, that 
+
+129
+00:10:33,666 --> 00:10:38,400
+is that there's a lot of similarity between being a YouTuber, publishing LinkedIn 
+
+130
+00:10:38,400 --> 00:10:49,600
+articles and being an SEO agency, creating various forms of content. 
+I also worked recently with a branding agency, and what they had put in place already 
+
+131
+00:10:49,600 --> 00:10:55,366
+was competitive analysis, market research tools in the form of prompt packs. And 
+
+132
+00:10:55,366 --> 00:10:59,900
+these prompt packs were done in Canva. They had nice little video walkthroughs of 
+
+133
+00:10:59,900 --> 00:11:04,366
+how to use them, and they were quite simple in nature. Basically a bunch of prompts 
+
+134
+00:11:04,366 --> 00:11:09,600
+that a customer could just copy paste into large language model of choice, maybe 
+
+135
+00:11:09,600 --> 00:11:15,533
+modify a few input variables. So this is a simplistic way of getting your first prompt 
+
+136
+00:11:15,533 --> 00:11:16,733
+chains up and running.
+
+137
+00:11:16,733 --> 00:11:22,266
+Now as a YouTuber, using prompt chains can be effective in all sorts of areas, like 
+
+138
+00:11:22,266 --> 00:11:27,733
+creation and optimization of your content. You might want to repurpose and redistribute 
+
+139
+00:11:27,800 --> 00:11:34,100
+it as an article or as a carousel, or you might want to deal with analyzing the comments 
+
+140
+00:11:34,100 --> 00:11:38,400
+or building some sort of offer to a sponsorship deal.
+
+141
+00:11:38,400 --> 00:11:43,733
+So let's look at a tool I use internally called the Agent Workflow Builder to create 
+
+142
+00:11:43,800 --> 00:11:48,866
+videos. And one of the workflows I go through is the YouTube Launch Optimizer. It's 
+
+143
+00:11:48,866 --> 00:11:53,566
+a 30 step workflow that I go through every time I release a video, but one of the 
+
+144
+00:11:53,566 --> 00:11:58,966
+steps involved here is the YouTube titles. So when we were looking at the video at 
+
+145
+00:11:58,966 --> 00:12:05,100
+the beginning of this session called the 5 5 5 Manifesto and the Mountain of Mastery, 
+
+146
+00:12:05,400 --> 00:12:09,633
+I would've run that through a title generator. I would've said the short title is 
+
+147
+00:12:09,633 --> 00:12:15,400
+the 5 5 5 Manifesto. It's main topic is it's about spiral learning, and I would put 
+
+148
+00:12:15,400 --> 00:12:19,633
+in a couple of content highlights. Now, the good thing about this is it would run 
+
+149
+00:12:19,633 --> 00:12:25,300
+a prompt through Chat GPT in this case, and we'd get a bunch of YouTube titles ready 
+
+150
+00:12:25,300 --> 00:12:26,200
+to get started. 
+
+151
+00:12:26,200 --> 00:12:32,200
+Now, personally, I use Vid IQ a lot when I want to use Title Generation, but what 
+
+152
+00:12:32,233 --> 00:12:37,833
+I love about doing it within the age of Workflow Builder is I have full control over 
+
+153
+00:12:37,833 --> 00:12:42,366
+the way titles of being created. So I use it as a first pass, and then I finish off 
+
+154
+00:12:42,400 --> 00:12:42,966
+with Vid iq.
+
+155
+00:12:42,966 --> 00:12:48,900
+So let's get into a more detailed workflow. Let's look at story building. And in 
+
+156
+00:12:48,900 --> 00:12:52,766
+the video that we saw at the beginning, it starts off with legends are forged in 
+
+157
+00:12:52,766 --> 00:12:57,366
+the fires of the YouTube battlefield. Let's just play that for a second so that you 
+
+158
+00:12:57,366 --> 00:13:02,066
+can see what it sounds like. Again, legends are forged in the fires of the YouTube 
+
+159
+00:13:02,233 --> 00:13:02,933
+battlefield. 
+
+160
+00:13:02,933 --> 00:13:05,666
+Only the strongest, the most persistent. 
+
+161
+00:13:05,700 --> 00:13:10,300
+And so you can see there that we've got nothing more than a transcript, and with 
+
+162
+00:13:10,300 --> 00:13:14,900
+this transcript we can run it through various processes. So the first one I wanna 
+
+163
+00:13:14,900 --> 00:13:20,000
+look at is the shot list that we talked about with the woman in New York, and we're 
+
+164
+00:13:20,000 --> 00:13:24,066
+doing some prompt engineering around coming up with shot lists. And one of the things 
+
+165
+00:13:24,066 --> 00:13:29,733
+that you notice with a scene is that there's more than one concept going here. Firstly, 
+
+166
+00:13:29,800 --> 00:13:34,400
+we've got the scene itself is a mountain in the background, but in the foreground 
+
+167
+00:13:34,400 --> 00:13:39,266
+we've got two different ideas going on. Firstly, we've got the protagonist, the hero 
+
+168
+00:13:39,266 --> 00:13:44,566
+in the story, in the red robes. The second thing we've got is a main artifact or 
+
+169
+00:13:44,566 --> 00:13:47,666
+item. In this case, it happens to be a sword.
+
+170
+00:13:47,700 --> 00:13:53,966
+Now, the specific details are really important when you're generating graphics and 
+
+171
+00:13:53,966 --> 00:13:58,666
+prompts and stuff like that. So I start off with the primary character generator, 
+
+172
+00:13:58,666 --> 00:14:03,600
+and this is where I work through and solidify what the character is going to look 
+
+173
+00:14:03,600 --> 00:14:07,900
+like. After that, I'll look at the other characters that might be the villains, they 
+
+174
+00:14:07,900 --> 00:14:13,400
+might be the other characters within the story, and how do I get them consistently 
+
+175
+00:14:13,500 --> 00:14:17,800
+looking the same across different scenes? After that, I want to work on the scenes 
+
+176
+00:14:17,800 --> 00:14:22,333
+themselves. Can I come up with a style that's repeatable that I can reuse to get 
+
+177
+00:14:22,366 --> 00:14:26,100
+nice effects? And one of the things that you see in a scene is there's all sorts 
+
+178
+00:14:26,100 --> 00:14:31,200
+of objects, but sometimes there's a major object, and the major object would be something 
+
+179
+00:14:31,200 --> 00:14:36,933
+like the 555 manifesto, where I want to define that and work through consistently 
+
+180
+00:14:36,933 --> 00:14:41,000
+being able to reproduce it in various scenes of the video.
+
+181
+00:14:41,000 --> 00:14:46,033
+Now as an example, and we'll only talk about the primary character. I've developed 
+
+182
+00:14:46,033 --> 00:14:50,333
+two different styles. So here I've put myself in a black shirt and I've run it through 
+
+183
+00:14:50,366 --> 00:14:55,700
+style one and style two. I decided I liked style two more, but I didn't want to work 
+
+184
+00:14:55,700 --> 00:14:59,266
+with the black shirt, so I just took a different picture of myself 
+
+185
+00:14:59,300 --> 00:15:04,133
+And you can see that the image on the right was used in the Mountain of Mastery YouTube 
+
+186
+00:15:04,166 --> 00:15:04,766
+trailer.
+
+187
+00:15:04,800 --> 00:15:09,500
+Now we've crafting workflows out of the way. Let's look into the next two sections, 
+
+188
+00:15:09,500 --> 00:15:17,200
+which is AI agents and using low code tools. So an AI agent is an automation generally, 
+
+189
+00:15:17,200 --> 00:15:22,700
+but quite often we'll also do a human in the loop sort of visual interface. So when 
+
+190
+00:15:22,700 --> 00:15:28,466
+it comes to using Vidiq, we can see that a video that I did, I put in a title and 
+
+191
+00:15:28,466 --> 00:15:34,233
+it said your score is only 66. But what it did was suggest better ones. And I went 
+
+192
+00:15:34,233 --> 00:15:39,833
+with the one that was 96. So this is a very simple human in the loop interface, backed 
+
+193
+00:15:39,833 --> 00:15:45,633
+by agent workflows such as the one that I build for myself. But another way of looking 
+
+194
+00:15:45,633 --> 00:15:50,166
+at this, and this is where low code tools can come in, is that you can use a tool 
+
+195
+00:15:50,166 --> 00:15:51,166
+like pickaxe.
+
+196
+00:15:51,166 --> 00:15:57,200
+Now I've done four videos on this particular tool, but just as a recap, if we look 
+
+197
+00:15:57,200 --> 00:16:04,033
+at these little tools that are AI driven, such as the YouTube title generator, again, 
+
+198
+00:16:04,066 --> 00:16:07,900
+working on similar principles to what we saw in the Agent Workflow Builder,, you 
+
+199
+00:16:07,900 --> 00:16:13,366
+can come along, fill in a little bit of information, and get a list of titles generated 
+
+200
+00:16:13,366 --> 00:16:18,233
+or using a tool that you can market, you can reuse, you can give away to different 
+
+201
+00:16:18,233 --> 00:16:23,700
+people. Another tool that I've done is the video advertisement script writer. And 
+
+202
+00:16:23,700 --> 00:16:29,033
+the idea of this is creating an advert script that converts. So you put in a few 
+
+203
+00:16:29,033 --> 00:16:33,433
+inputs and here we've got the hook that says, "hey, yeah, you scrolling mindlessly, 
+
+204
+00:16:33,433 --> 00:16:39,233
+still thinking of those get rich quick videos will save your ass. Spoiler alert they 
+
+205
+00:16:39,233 --> 00:16:45,133
+won't." And that's a hook. 
+We've got the pain in the villain, the reveal and then the call to action all at 
+
+206
+00:16:45,133 --> 00:16:45,866
+the end of it.
+
+207
+00:16:45,900 --> 00:16:52,266
+So with the scale framework out of the way, let's move on to Emotional Support Spiders. 
+
+208
+00:16:52,300 --> 00:16:57,333
+And this is something that I came up with a couple of years ago working with ChatGPT,.
+
+209
+00:16:57,333 --> 00:17:02,600
+And the idea was looking at the concept of emotional support animals or companion 
+
+210
+00:17:02,600 --> 00:17:08,233
+animals and doing it differently, doing it as a storytelling in a multiverse sort 
+
+211
+00:17:08,233 --> 00:17:13,833
+of event. And so this is called Emotional Support Spiders. It's an idea in which 
+
+212
+00:17:13,833 --> 00:17:18,600
+there are two sentient races. You've got humans and you've got spiders. And what 
+
+213
+00:17:18,600 --> 00:17:22,333
+we're trying to do within it is create buddy stories.
+
+214
+00:17:22,333 --> 00:17:33,000
+this has been thought of from the very beginning as a multi-agent storytelling system, 
+where each story can have irony and contrast. We can create trust and connection 
+
+215
+00:17:33,000 --> 00:17:37,366
+between two different characters that are quite different from one another. We can 
+
+216
+00:17:37,366 --> 00:17:43,100
+explore concepts like truth and trauma, hopefully so that we can get inspiration 
+
+217
+00:17:43,100 --> 00:17:44,333
+and hope out of it all.
+
+218
+00:17:44,400 --> 00:17:48,466
+Now, from the multi-agent point of view, the images that you're seeing, which were 
+
+219
+00:17:48,466 --> 00:17:54,466
+done in Midjourney a couple of years ago, were the idea, could you take individual 
+
+220
+00:17:54,500 --> 00:18:00,500
+images of the spider and the human and create a story narrative back stories? Can 
+
+221
+00:18:00,500 --> 00:18:06,166
+we create forward stories? Join us stories where people come together to form relationships. 
+
+222
+00:18:06,166 --> 00:18:11,766
+And this is where various agents that arrive, a one off character related or storytelling, 
+
+223
+00:18:11,766 --> 00:18:14,200
+are being reused over and over again.
+
+224
+00:18:14,200 --> 00:18:19,633
+So the way I start storytelling is from a world narrative. This is a set of one-off 
+
+225
+00:18:19,700 --> 00:18:25,800
+agents that define the world that we live in. And the first agent is around philosophical 
+
+226
+00:18:25,800 --> 00:18:30,100
+view of the world. Do I want to have a bit of Buddhism? Do I want some Christianity? 
+
+227
+00:18:30,100 --> 00:18:34,900
+Do I want something else? And the way I like to do this is have a simple human in 
+
+228
+00:18:34,900 --> 00:18:39,466
+the loop interface where I fill in a few values and then behind the scenes use an 
+
+229
+00:18:39,533 --> 00:18:46,166
+agent workflow system such as NA 10 or Zapier to implement and build out all the 
+
+230
+00:18:46,166 --> 00:18:52,166
+information. After that, we can move on to a design and visualization agent. And 
+
+231
+00:18:52,166 --> 00:18:57,100
+when you look at the images in this screenshot at the moment, if we go back one and 
+
+232
+00:18:57,100 --> 00:19:02,800
+we see the spider and the man, and we've got all this stone work, it's a rock mural 
+
+233
+00:19:03,033 --> 00:19:07,766
+sort of system. And this is going to be repeated through the next set of slides. 
+
+234
+00:19:07,800 --> 00:19:14,633
+And to do this, we need to get a design guide going. So we start off by another human 
+
+235
+00:19:14,633 --> 00:19:19,366
+in the loop sort of input form, run it through a bunch of agents to come up with 
+
+236
+00:19:19,366 --> 00:19:21,600
+a consistent style that we want to use.
+
+237
+00:19:21,766 --> 00:19:26,333
+Now. After that, we need to come up with a detailed fact sheet of what is a human 
+
+238
+00:19:26,333 --> 00:19:32,033
+and what is a spider. And you can think of it the same way as you might a role playing 
+
+239
+00:19:32,033 --> 00:19:36,366
+game, a Dungeons and Dragons, where you've got these attribute sheets that make sense 
+
+240
+00:19:36,366 --> 00:19:41,100
+for humans, and you've got a different attribute sheets that make sense for monsters 
+
+241
+00:19:41,100 --> 00:19:42,233
+as an example. 
+
+242
+00:19:42,233 --> 00:19:47,366
+With our general worldview agents in place, especially this species traits one, we 
+
+243
+00:19:47,366 --> 00:19:52,766
+can now move on to the character development itself. So if we are developing a human 
+
+244
+00:19:52,766 --> 00:19:57,033
+character, one of the things that we wanna do is come up with the attributes, the 
+
+245
+00:19:57,033 --> 00:20:02,366
+sort of stuff that happens when they're born. So with that, do we want to know what 
+
+246
+00:20:02,366 --> 00:20:07,700
+their hair color is? The height that they grow to, what are their general fears and 
+
+247
+00:20:07,700 --> 00:20:12,833
+problems going on in life? What are their desires? We want to do this same concept 
+
+248
+00:20:12,866 --> 00:20:18,800
+with the spiders themselves, and we use a different agent, mainly because the goals, 
+
+249
+00:20:18,833 --> 00:20:23,200
+the behaviors, they're going to be different between the two different species. With 
+
+250
+00:20:23,200 --> 00:20:28,266
+that in place, we can then start to build a timeline of where they are in life, so 
+
+251
+00:20:28,266 --> 00:20:30,166
+they got born, but where are 
+
+252
+00:20:30,166 --> 00:20:36,566
+maybe we've got a human that's 13 years of age. Can we build up a storyline from 
+
+253
+00:20:36,566 --> 00:20:41,500
+the attribute sheet all the way up to that period in time? Now, if we can do that, 
+
+254
+00:20:41,566 --> 00:20:47,100
+we can then start to determine the sort of behaviors and mannerisms that each character 
+
+255
+00:20:47,100 --> 00:20:47,733
+has.
+
+256
+00:20:47,733 --> 00:20:53,000
+Now, before we build any stories around these characters, a couple of additional 
+
+257
+00:20:53,000 --> 00:20:58,633
+agents that can be useful is that if a scene, a scenario, an action happens, how 
+
+258
+00:20:58,633 --> 00:21:05,033
+does that change their behavior? What's their motivations? Do they lead into a positive 
+
+259
+00:21:05,200 --> 00:21:09,633
+sort of let's move forward in the world, or do they become a bit of a victim now, 
+
+260
+00:21:09,666 --> 00:21:14,800
+no matter what the mapping comes with, the next thing is to read that and put it 
+
+261
+00:21:14,800 --> 00:21:20,266
+back into the character. So if I have a confronting situation and I rise above it, 
+
+262
+00:21:20,600 --> 00:21:25,800
+how do we write that information back into the DNA of who I am as a character? 
+
+263
+00:21:25,800 --> 00:21:31,100
+With all our character development, our timelines in place, we can move on to scenario 
+
+264
+00:21:31,100 --> 00:21:35,966
+writing. And I like to have a different agent for the different types of scenarios 
+
+265
+00:21:36,166 --> 00:21:41,066
+that can happen in the Emotional Support Spiders world. So the first one is that 
+
+266
+00:21:41,066 --> 00:21:45,366
+when you've got two characters that have never met, what brings them together, and 
+
+267
+00:21:45,366 --> 00:21:50,800
+usually that's a dramatic scene, such as a bird attacking the spider and a human 
+
+268
+00:21:50,800 --> 00:21:54,333
+coming in to save the spider. In this particular 
+
+269
+00:21:54,633 --> 00:21:59,566
+Now that dramatic, emotionally charged scene can lead to a bonding. And with the 
+
+270
+00:21:59,566 --> 00:22:05,033
+bonding, we can then go into them sharing their backstory, sharing what they've done, 
+
+271
+00:22:05,033 --> 00:22:08,666
+and finding commonality in hanging out with one another.
+
+272
+00:22:08,666 --> 00:22:14,233
+Now the Buddy story scenario is a classic in Hollywood. We've seen it in Lethal Weapon, 
+
+273
+00:22:14,233 --> 00:22:19,833
+Dumb and Dumber Bill and Ted's excellent adventure. So what I like to do is now that 
+
+274
+00:22:19,833 --> 00:22:24,600
+we've got this in place, how do these two characters move forward in the future? 
+
+275
+00:22:24,966 --> 00:22:30,500
+And we do that using a new sort of writer that is more on an episode by episode basis 
+
+276
+00:22:30,500 --> 00:22:35,900
+or a day-to-day basis. And so the first one we have is what we saw when we were looking 
+
+277
+00:22:35,900 --> 00:22:41,566
+at the woman and her cat a day in the life story. So we do a scenario based story 
+
+278
+00:22:41,833 --> 00:22:47,266
+based on the idea that we have a world philosophical view. We had the design of the 
+
+279
+00:22:47,266 --> 00:22:51,866
+world. We understand what a human and a spider is from a characteristics point of 
+
+280
+00:22:51,866 --> 00:22:52,266
+view. 
+
+281
+00:22:52,266 --> 00:22:57,600
+We now also have the individual profile or DNA of the spider and the human, their 
+
+282
+00:22:57,600 --> 00:23:02,633
+timeline, their backstory. We also know how they came together in traumatic fashion 
+
+283
+00:23:02,833 --> 00:23:08,100
+to become friends. So now when we just paint a simple scene for a day in the life 
+
+284
+00:23:08,100 --> 00:23:13,433
+story, we've got all this rich information to drive it. After that, we wanna move 
+
+285
+00:23:13,433 --> 00:23:18,133
+into the actual shot list. Again, we did that with the woman and her cat. One of 
+
+286
+00:23:18,133 --> 00:23:22,733
+the things that happens though, when you are doing shot lists, and we can use agents 
+
+287
+00:23:22,733 --> 00:23:29,033
+to do this, is not all scenes will be correct. So let's say we wanted grays and oranges 
+
+288
+00:23:29,033 --> 00:23:32,166
+throughout every scene and we get one that's pink. 
+
+289
+00:23:32,166 --> 00:23:36,533
+In this particular case, we will tell the agent and say, look, you got this one a 
+
+290
+00:23:36,533 --> 00:23:41,066
+little bit incorrect. Can you regenerate the prompt so that we can regenerate the 
+
+291
+00:23:41,066 --> 00:23:41,733
+images?
+
+292
+00:23:41,766 --> 00:23:46,333
+So that gives you some context of how emotional support spiders are put together 
+
+293
+00:23:46,333 --> 00:23:50,433
+with different agents. The next thing is looking a little bit at the technicality 
+
+294
+00:23:50,433 --> 00:23:55,966
+of it all, and it's really quite simple. What we do is we build little agent workflows. 
+
+295
+00:23:56,000 --> 00:24:01,466
+We can use tools like N 18 or we can code them directly in Python or JavaScript. 
+
+296
+00:24:01,733 --> 00:24:06,833
+From there, we just need to hook 'em up to human in the loop interfaces. So when 
+
+297
+00:24:06,833 --> 00:24:11,466
+we're building in the world philosophy, we'll run in a few pieces of information, 
+
+298
+00:24:11,466 --> 00:24:15,466
+send it to a workflow. After that, we want to figure out what's this world going 
+
+299
+00:24:15,466 --> 00:24:20,166
+to look like? It's just another workflow. When we get onto dealing with the human, 
+
+300
+00:24:20,333 --> 00:24:28,566
+this is on a per human basis or on a per spider basis, 
+we're defining, how they look, what their motivations are. After that, we run both 
+
+301
+00:24:28,566 --> 00:24:34,333
+workflows through the Backstory generator and we just continue to do this for each 
+
+302
+00:24:34,333 --> 00:24:36,333
+of the different agents that we're trying to build.
+
+303
+00:24:36,333 --> 00:24:41,366
+So with everything in place, the next thing is to create a story of some form and 
+
+304
+00:24:41,433 --> 00:24:47,033
+the day in the life stories can look like this. Here we have a boy and an emotional 
+
+305
+00:24:47,033 --> 00:24:52,633
+support spider in this particular case, and the boy has been invited to a party but 
+
+306
+00:24:52,633 --> 00:24:57,366
+doesn't know how to associate with people. So from there, we add in a little bit 
+
+307
+00:24:57,366 --> 00:24:59,233
+of a narrative over the top of it, 
+
+308
+00:24:59,266 --> 00:25:05,733
+put in some magic animations sort of stuff that we can do in DZine or Leonardo ai. 
+
+309
+00:25:05,733 --> 00:25:11,033
+I've got links in the description for both of them. And from there we simply animate 
+
+310
+00:25:11,133 --> 00:25:16,966
+the scene. We've got the boy down at the beach and being befriended by a spider in 
+
+311
+00:25:16,966 --> 00:25:22,833
+this particular case. Later on they're at his house where he's teaching them about 
+
+312
+00:25:22,833 --> 00:25:27,433
+computer programming and stuff like that. Later in the day, there's a dramatic scene. 
+
+313
+00:25:27,633 --> 00:25:36,700
+This time the father is angry upstairs, so there's a bit of comfort going 
+and then we finish the scene with a little bit of hope. They're down at the beach 
+
+314
+00:25:36,733 --> 00:25:38,333
+and they're playing together.
+
+315
+00:25:38,333 --> 00:25:45,066
+So this was the presentation I gave over at Ecamm Live Leap last night, and it talks 
+
+316
+00:25:45,066 --> 00:25:50,233
+about the scale framework, the structured prompts, creative workflows, the agents, 
+
+317
+00:25:50,233 --> 00:25:55,400
+the low code frameworks, and how we put it together to empower creators. And then 
+
+318
+00:25:55,400 --> 00:26:00,633
+moving on to the emotional support spiders, which is a system that's in developed 
+
+319
+00:26:00,633 --> 00:26:06,666
+by myself so that I can do multi-agent storytelling. Now, if you wanna find out more 
+
+320
+00:26:06,666 --> 00:26:11,566
+about how the actual video structures are being put together, you can come over to 
+
+321
+00:26:11,566 --> 00:26:17,200
+the A-I-T-L-D-R channel where we do a lot of videos that are all AI generated and 
+
+322
+00:26:17,200 --> 00:26:21,466
+there's a lot of storytelling going on. Or if you wanna learn more about the agent 
+
+323
+00:26:21,500 --> 00:26:29,400
+Workflow builder, then just come to the AppyDave website. 
+I'm AppyDave,. Please book a call if you want to work one on one. Otherwise, like 
+
+324
+00:26:29,400 --> 00:26:30,933
+and subscribe and I'll see you in the next video.

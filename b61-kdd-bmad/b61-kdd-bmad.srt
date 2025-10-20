@@ -1,0 +1,695 @@
+1
+00:00:00,00 --> 00:00:04,640
+In this video, we're exploring knowledge driven development, an idea that fits under 
+
+2
+00:00:04,640 --> 00:00:10,510
+the context, engineering or coding way of development. And we're doing it by looking 
+
+3
+00:00:10,510 --> 00:00:15,200
+at a starter template that I'm putting together, which puts together next, Convex 
+
+4
+00:00:15,200 --> 00:00:21,110
+and Cloudflare. But has the whole thing developed using AI agents using the Bmad 
+
+5
+00:00:21,110 --> 00:00:21,670
+method?
+
+6
+00:00:21,670 --> 00:00:24,830
+Now, if you've been following vibe coding for a while, you might have come across 
+
+7
+00:00:24,830 --> 00:00:31,390
+some repos such as Claude, Taskmaster, and Super Claude. Now, the one I've been following 
+
+8
+00:00:31,440 --> 00:00:36,670
+a lot lately, and building starter templates and applications is the BMAD method, 
+
+9
+00:00:36,670 --> 00:00:41,600
+which stands for Breakthrough Method for AI Driven Development. And if you want to 
+
+10
+00:00:41,600 --> 00:00:46,920
+find out more about this particular technique, you can go over to BMAD code over 
+
+11
+00:00:46,960 --> 00:00:50,790
+on YouTube. And he's got some great videos demonstrating how to use this.
+
+12
+00:00:50,790 --> 00:00:54,750
+Over the last couple of weeks, I've been doing a lot of videos around the context 
+
+13
+00:00:54,750 --> 00:01:00,310
+engineering space. One in particular on the BMAD method is I retrospectives, which 
+
+14
+00:01:00,310 --> 00:01:04,750
+is something you might do at the end of a sprint in software development. But I'm 
+
+15
+00:01:04,790 --> 00:01:09,70
+now putting together a little starter kit, a full stack application 
+
+16
+00:01:09,70 --> 00:01:14,150
+which is following an AI software development first approach. And as I was putting 
+
+17
+00:01:14,150 --> 00:01:19,120
+it together, I came up with a stack that I wanted to work with. I wanted high performance 
+
+18
+00:01:19,120 --> 00:01:24,80
+computing, I wanted reactive databases, and I wanted all the bells and whistles that 
+
+19
+00:01:24,80 --> 00:01:28,480
+a modern stack would have. But the key difference that I wanted with this is that 
+
+20
+00:01:28,480 --> 00:01:33,710
+I knew it wasn't going to be developed by me. Instead, I wanted it to be driven through 
+
+21
+00:01:33,760 --> 00:01:38,520
+documents that an architect or an entrepreneur or a software developer could put 
+
+22
+00:01:38,520 --> 00:01:41,150
+together and build the complete application.
+
+23
+00:01:41,150 --> 00:01:46,510
+Now. I started developing this application yesterday. So the initial commit happened 
+
+24
+00:01:46,510 --> 00:01:50,670
+and then there was a bunch of documentation as I was developing the requirements 
+
+25
+00:01:50,670 --> 00:01:55,790
+document, the PRD, the epics, stories and the architectural document. And then this 
+
+26
+00:01:55,790 --> 00:02:00,470
+morning I sat and started creating the code for the first story. And this is the 
+
+27
+00:02:00,470 --> 00:02:02,110
+foundation for the application.
+
+28
+00:02:02,120 --> 00:02:06,920
+So let's go and have a look at the code base in Visual Studio and what you'll be 
+
+29
+00:02:06,920 --> 00:02:12,590
+able to see, especially in this area here is generally starter files that are needed 
+
+30
+00:02:12,590 --> 00:02:17,840
+to get this project off the ground. And most of these were created in that last story 
+
+31
+00:02:17,840 --> 00:02:22,470
+that you just saw. But what everything is being driven off is this documents directory. 
+
+32
+00:02:22,470 --> 00:02:28,280
+And this documents directory was created using the Bmad method. Now up here we've 
+
+33
+00:02:28,280 --> 00:02:33,360
+got the Bmad core. This is where all the agents and the templates the checklists 
+
+34
+00:02:33,360 --> 00:02:38,240
+are. We've also got because I'm using Claude Code, to do this, a bunch of commands 
+
+35
+00:02:38,240 --> 00:02:40,870
+set up for Claude that follow the Bmad method.
+
+36
+00:02:40,870 --> 00:02:46,350
+Now, as we look through the documents, the very first document that got created using 
+
+37
+00:02:46,350 --> 00:02:51,470
+a particular agent called Mary was the project brief. And this was an overview of 
+
+38
+00:02:51,470 --> 00:02:56,310
+what I wanted to build the application on. After that, I went into the architecture 
+
+39
+00:02:56,350 --> 00:03:01,430
+agent, and I built essentially the stack that I want everything to work on the different 
+
+40
+00:03:01,470 --> 00:03:06,560
+technologies. After that, we were able to combine those two together to build a product 
+
+41
+00:03:06,560 --> 00:03:11,190
+requirements document, and the product requirements document started listing all 
+
+42
+00:03:11,190 --> 00:03:16,710
+the different stages of the build. There's essentially seven epics, and each epic 
+
+43
+00:03:16,710 --> 00:03:20,870
+has a whole lot of individual components that need to be built over time.
+
+44
+00:03:20,870 --> 00:03:25,00
+Now, if you don't know what an epic or a story is, there are ideas that come from 
+
+45
+00:03:25,00 --> 00:03:29,630
+agile software development, which is designed for software development teams, and 
+
+46
+00:03:29,630 --> 00:03:35,240
+the idea is that major areas of building the codebase are thought of as epics, and 
+
+47
+00:03:35,240 --> 00:03:38,190
+then they're individually broken down into stories.
+
+48
+00:03:38,190 --> 00:03:43,560
+Now this information is really useful to the AI agent, but it has a problem in that 
+
+49
+00:03:43,560 --> 00:03:49,640
+it's way too big. And so I was able to use the AI agent from the BMAD method called 
+
+50
+00:03:49,640 --> 00:03:54,30
+the Scrum Master, and with the Scrum Master, I was able to do what's called sharding, 
+
+51
+00:03:54,30 --> 00:03:58,750
+which is essentially splitting up all the files that are here into individual files 
+
+52
+00:03:58,750 --> 00:04:03,360
+that we can work with. And I was able to do that for the PRD. I was also able to 
+
+53
+00:04:03,360 --> 00:04:07,870
+do it for the architecture. So everything is in a much smaller unit of work 
+
+54
+00:04:08,150 --> 00:04:13,270
+And so when you're using Cursor, or Claude Code,, you can easily find just the dedicated 
+
+55
+00:04:13,270 --> 00:04:17,270
+piece of information that you need to effectively generate code.
+
+56
+00:04:17,270 --> 00:04:21,590
+So when I started building the application this morning, I wanted to start from Epic 
+
+57
+00:04:21,590 --> 00:04:27,110
+one, which is get the foundation, the end to end development in place. And I needed 
+
+58
+00:04:27,110 --> 00:04:32,750
+to work on story number one, and this is mono repo tooling and initialization. And 
+
+59
+00:04:32,750 --> 00:04:37,940
+it would be considered done once it passes the acceptance criteria such as we have 
+
+60
+00:04:37,940 --> 00:04:42,410
+a GitHub repository, we've got a package.json, we've got a few different folders. 
+
+61
+00:04:42,750 --> 00:04:48,410
+But to do this, we need to break that information down into a detailed story. And 
+
+62
+00:04:48,410 --> 00:04:53,930
+to do that, we use, in BMAD method, we use a particular agent called the Scrum Master. 
+
+63
+00:04:54,50 --> 00:04:57,750
+And one of the capabilities of the scrum master is that they can create the next 
+
+64
+00:04:57,750 --> 00:05:03,870
+story task. So the story task got created, and as you can see, it's quite a detailed 
+
+65
+00:05:03,870 --> 00:05:08,540
+document. And this document was at one level at the beginning of the creation, but 
+
+66
+00:05:08,540 --> 00:05:12,890
+after that, it then needed to go through development. And the development is done 
+
+67
+00:05:12,890 --> 00:05:15,680
+by a totally different agent called the development agent. 
+
+68
+00:05:15,890 --> 00:05:19,760
+and the development agent has all the skills of a software developer. 
+
+69
+00:05:19,760 --> 00:05:24,290
+and when they're finished, they will come back to the story and fill in information 
+
+70
+00:05:24,290 --> 00:05:26,180
+along the way of what they've done.
+
+71
+00:05:26,180 --> 00:05:30,670
+Now. The way you run a story against a large language model depends on the environment. 
+
+72
+00:05:30,670 --> 00:05:35,550
+You're using Cursor, and windsurf or do it one way, but I'm using Claude Code, so 
+
+73
+00:05:35,550 --> 00:05:40,60
+we're working very much in the terminal. And this was the terminal window that it 
+
+74
+00:05:40,60 --> 00:05:45,230
+was processing. It all happened on autopilot. I didn't really need to get involved, 
+
+75
+00:05:45,230 --> 00:05:50,260
+but once I got to a certain level and it had completed, I said, well, how do I test 
+
+76
+00:05:50,260 --> 00:05:54,910
+this? How do I know it's even working? And what it did was it started giving me a 
+
+77
+00:05:54,940 --> 00:05:59,620
+list of commands that I could run. And if we take some of them, we'll take the script 
+
+78
+00:05:59,620 --> 00:06:01,790
+execution in this particular case,
+
+79
+00:06:01,790 --> 00:06:07,310
+and we'll head over to this terminal and run it. And it's just starting to show me 
+
+80
+00:06:07,350 --> 00:06:10,60
+how to test and check that the code is working.
+
+81
+00:06:10,70 --> 00:06:14,590
+So I thought that was great. But one of the things I noticed when I looked through 
+
+82
+00:06:14,590 --> 00:06:19,310
+the completion notes was that there were a whole lot of new concepts being added. 
+
+83
+00:06:19,310 --> 00:06:24,30
+So when we look here, we can see that there's turbo because it's using turbo repo, 
+
+84
+00:06:24,190 --> 00:06:28,230
+we've got prettier ESLint, we've got a Husky with Pre-commit 
+
+85
+00:06:28,230 --> 00:06:32,350
+and we've got a whole lot of new directories. And that got me thinking. There are 
+
+86
+00:06:32,350 --> 00:06:37,830
+documents that probably need to be updated to reflect all these new concepts. Some 
+
+87
+00:06:37,870 --> 00:06:41,230
+of them might be just the basic directory structure, others 
+
+88
+00:06:41,230 --> 00:06:42,350
+might be patterns 
+
+89
+00:06:42,350 --> 00:06:43,430
+for command, lines 
+
+90
+00:06:43,430 --> 00:06:47,590
+that you can use for different tools. And I thought, how do I get that back into 
+
+91
+00:06:47,590 --> 00:06:49,110
+the main documentation 
+
+92
+00:06:49,110 --> 00:06:51,950
+so that the next time I run an agent, it's aware of this.
+
+93
+00:06:51,950 --> 00:06:56,570
+So once I finished the story and I had everything committed with a nice commit message, 
+
+94
+00:06:56,720 --> 00:07:02,510
+I thought, can I create some sort of agent or a technique that would allow me to 
+
+95
+00:07:02,510 --> 00:07:07,490
+automatically update the document? And so I started a new conversation in Claude 
+
+96
+00:07:07,700 --> 00:07:11,300
+over here on the right. And essentially what I did was 
+
+97
+00:07:11,300 --> 00:07:11,930
+I said to 
+
+98
+00:07:11,930 --> 00:07:12,170
+it, 
+
+99
+00:07:12,170 --> 00:07:15,950
+I've done this new story, and there's a whole lot of changes that you've made and 
+
+100
+00:07:15,950 --> 00:07:19,580
+you've documented them. You've told me what they are, but they're not actually stored 
+
+101
+00:07:19,580 --> 00:07:24,740
+anywhere. And I said, how can we go about modifying the system? And I wasn't sure 
+
+102
+00:07:24,740 --> 00:07:27,860
+whether I wanted to modify the BMAD agents. 
+
+103
+00:07:28,10 --> 00:07:32,00
+I didn't know whether I wanted it to modify the template when it creates a story 
+
+104
+00:07:32,210 --> 00:07:34,580
+or whether I wanted a brand new agent altogether. 
+
+105
+00:07:34,820 --> 00:07:39,500
+and as part of that conversation, it essentially came up with a plan of action for 
+
+106
+00:07:39,500 --> 00:07:39,680
+me. 
+
+107
+00:07:39,680 --> 00:07:44,390
+and phase number one of that would be to look at the BM a D template and see if it 
+
+108
+00:07:44,390 --> 00:07:49,970
+could be updated. After that, it would look at applying any of the changes and documents 
+
+109
+00:07:49,970 --> 00:07:53,960
+that came out of that last story and putting it into the system. And the last thing 
+
+110
+00:07:53,960 --> 00:07:57,320
+would be just to document it a little bit so I could tell you about it.
+
+111
+00:07:57,320 --> 00:08:02,780
+So let's first look at what it's added into VS code. So if we go down to Docs, we've 
+
+112
+00:08:02,780 --> 00:08:06,980
+got all the architecture, PRD, and Project Brief that was originally created with 
+
+113
+00:08:06,980 --> 00:08:07,220
+the 
+
+114
+00:08:07,220 --> 00:08:11,210
+Bmad method, but now we've got these new folders. So one of them is called Examples. 
+
+115
+00:08:11,420 --> 00:08:16,340
+So examples for the backend configuration and front end have not yet been created 
+
+116
+00:08:16,340 --> 00:08:20,750
+because we haven't worked on any of that. But one thing we have done is the Monorepo 
+
+117
+00:08:20,750 --> 00:08:25,370
+setup. So when we go in there, we can see concepts like the project structure, other 
+
+118
+00:08:25,370 --> 00:08:27,530
+sorts of configurations going on. 
+
+119
+00:08:27,530 --> 00:08:33,80
+if we reduce the examples and go into something like lessons learned, we can also 
+
+120
+00:08:33,80 --> 00:08:37,910
+have a recording of lessons learned during the application development process. And 
+
+121
+00:08:37,910 --> 00:08:41,60
+most of them are all empty at the moment, but we do have stories. 
+
+122
+00:08:41,60 --> 00:08:43,760
+and what were the lessons learned in story one dash one? 
+
+123
+00:08:43,760 --> 00:08:48,440
+And you can see a list of these ideas that are basically broken down into concepts 
+
+124
+00:08:48,440 --> 00:08:53,750
+like context, challenge, solution outcome and recommendation. Or in this one problem 
+
+125
+00:08:53,750 --> 00:08:55,880
+impact solution and how to prevent it.
+
+126
+00:08:55,880 --> 00:09:00,80
+Now, I think the most important files that this was generating were all the patterns 
+
+127
+00:09:00,80 --> 00:09:04,600
+files. So what's the back end patterns? The front end software going to look like? 
+
+128
+00:09:04,600 --> 00:09:08,880
+How do you do test now? At the moment they're all rudimentary because we haven't 
+
+129
+00:09:08,880 --> 00:09:13,720
+done much of the application. But over time these will get extended. And so every 
+
+130
+00:09:13,760 --> 00:09:18,320
+time it wants to create a new component in the front end, in the back end, or maybe 
+
+131
+00:09:18,360 --> 00:09:23,200
+do some testing, we'll be able to have examples of what we consider the best practice 
+
+132
+00:09:23,200 --> 00:09:25,680
+that it can use when it goes to write the code.
+
+133
+00:09:25,680 --> 00:09:27,840
+Now you might be wondering how do you get it for yourself? 
+
+134
+00:09:27,840 --> 00:09:29,390
+Well, if you go to the repo and 
+
+135
+00:09:29,390 --> 00:09:35,510
+you go to the docs and the methodology folder, I've put in a new file called KDD 
+
+136
+00:09:35,510 --> 00:09:40,910
+Overview. Now, if we open that up in a markdown format, we can see it's the knowledge 
+
+137
+00:09:40,910 --> 00:09:43,400
+driven development integration and 
+
+138
+00:09:43,400 --> 00:09:47,630
+the problem that we're trying to solve is that after implementing a story, there's 
+
+139
+00:09:47,630 --> 00:09:53,70
+a whole lot of new code and file files and folders, and the documentation isn't up 
+
+140
+00:09:53,70 --> 00:09:57,840
+to date. So this came up with the idea of calling it knowledge driven development. 
+
+141
+00:09:58,40 --> 00:10:02,220
+I thought this is a pretty good term. I wasn't sure whether it should be called context 
+
+142
+00:10:02,220 --> 00:10:07,10
+driven development, but it doesn't really matter too much. Essentially, the integration 
+
+143
+00:10:07,10 --> 00:10:08,580
+strategy that it's gone with 
+
+144
+00:10:08,570 --> 00:10:14,120
+is updating the Bmad core templates. So there's new files going on there. We've got 
+
+145
+00:10:14,120 --> 00:10:20,600
+a new KDD validation checklist. We've got ideas of where we're going to write information 
+
+146
+00:10:20,630 --> 00:10:25,550
+into and keep track of stuff like the patterns, lessons learned and examples, and 
+
+147
+00:10:25,550 --> 00:10:27,80
+you can add more over time. 
+
+148
+00:10:27,80 --> 00:10:32,180
+And it's also gone through the story template, which is used as a basis whenever 
+
+149
+00:10:32,180 --> 00:10:37,790
+a new story is created using BMAD, and it's just added in a whole lot of extra steps 
+
+150
+00:10:37,850 --> 00:10:41,450
+to help propagate information back to the documentation system.
+
+151
+00:10:41,450 --> 00:10:45,380
+Now, I'll leave a link in the description if you want to find out the actual commit 
+
+152
+00:10:45,380 --> 00:10:49,520
+that this was on, or you can come over to the repo, click on the commits that are 
+
+153
+00:10:49,520 --> 00:10:54,140
+going on here. We're actually looking for the implementation of the knowledge driven 
+
+154
+00:10:54,140 --> 00:10:59,870
+design integration with BMAD methodology. And you can see the overview of what it's 
+
+155
+00:10:59,870 --> 00:11:04,250
+done here, but as you go through, you can see the individual parts that's added in. 
+
+156
+00:11:04,490 --> 00:11:08,810
+For instance, if we look at this particular developer agent, so that's one of the 
+
+157
+00:11:08,810 --> 00:11:13,790
+agents, it's got a new section in there to talk about the KDD pattern. And if you 
+
+158
+00:11:13,790 --> 00:11:18,620
+scroll down, you'll see things like the KDD validation checklist, which is now part 
+
+159
+00:11:18,620 --> 00:11:19,820
+of BMAD core, 
+
+160
+00:11:19,820 --> 00:11:25,710
+the definition of done checklist, which is a really powerful tool that you can use 
+
+161
+00:11:25,710 --> 00:11:29,300
+to make sure that everything that's in the story was actually done. 
+
+162
+00:11:29,300 --> 00:11:33,890
+It's been updated with knowledge about the knowledge driven development compliance. 
+
+163
+00:11:33,890 --> 00:11:38,990
+So go through this commit, there's 19 odd file changes. Maybe one day they'll get 
+
+164
+00:11:38,990 --> 00:11:43,910
+added to the BMAD method itself. But I think the really powerful thing to note here 
+
+165
+00:11:44,90 --> 00:11:49,250
+is that when you want to modify the BMAD method, it's really easy by starting with 
+
+166
+00:11:49,250 --> 00:11:49,940
+something like 
+
+167
+00:11:49,940 --> 00:11:52,310
+this KDD integration 
+
+168
+00:11:52,310 --> 00:11:56,330
+overview document that I created and just running it within Claude Dev 
+
+169
+00:11:56,330 --> 00:12:00,230
+and it'll make all the changes you need to the Bmad core and the different agents. 
+
+170
+00:12:00,230 --> 00:12:00,290
+I.
+
+171
+00:12:00,290 --> 00:12:06,370
+Anyway, that's knowledge driven development using the Bmad method and context engineering. 
+
+172
+00:12:06,370 --> 00:12:11,770
+I'm AppyDave, and if you want more videos on the BMAD method, or you want to see 
+
+173
+00:12:11,770 --> 00:12:16,410
+more of what I'm doing with creating AI starter kits, then please like and subscribe 
+
+174
+00:12:16,410 --> 00:12:17,860
+and I'll see you in the next video.

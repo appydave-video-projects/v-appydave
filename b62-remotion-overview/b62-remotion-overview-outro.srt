@@ -1,0 +1,35 @@
+1
+00:00:00,990 --> 00:00:07,320
+So let's just recap. What we did was created these four video infographic animations. 
+
+2
+00:00:07,550 --> 00:00:13,520
+the first one was the top 10 reveal, which was the sort of showcase of maybe 10, 
+
+3
+00:00:13,850 --> 00:00:18,830
+different products that you wanna see on a video. Then I took one of my GitHub profiles 
+
+4
+00:00:18,830 --> 00:00:22,760
+and we animated it. We also took a tweet and animated that. 
+
+5
+00:00:22,940 --> 00:00:28,160
+I took care of the outro of a YouTube video where we talk about the next video, the 
+
+6
+00:00:28,160 --> 00:00:32,340
+like, of the subscribe, and the please comment down below. Now, the visuals in all 
+
+7
+00:00:32,340 --> 00:00:37,200
+of this were a bit low quality 'cause of the Loom video, but if you wanna see more 
+
+8
+00:00:37,200 --> 00:00:43,530
+videos on Remotion, the next video is actually going to be how I built each of those, 
+
+9
+00:00:43,760 --> 00:00:46,940
+I'mAppyDave. Please like and subscribe. I'll see you in the next video.

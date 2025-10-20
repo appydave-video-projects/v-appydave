@@ -1,0 +1,792 @@
+﻿1
+00:00:00,000 --> 00:00:04,900
+Have you been learning to Vibe Code and create your own websites or applications 
+
+2
+00:00:04,900 --> 00:00:06,300
+using ChatGPT 
+
+3
+00:00:06,500 --> 00:00:07,100
+or Claude 
+
+4
+00:00:07,100 --> 00:00:12,133
+or Claude Code? And now you're thinking, I've created this beautiful little application. 
+
+5
+00:00:12,133 --> 00:00:16,333
+How do I host it in this video? That's the problem we're tackling. Let's get into 
+
+6
+00:00:16,333 --> 00:00:16,600
+it.
+
+7
+00:00:16,600 --> 00:00:22,400
+Let's have a look at a couple of landing pages that were created using very simple 
+
+8
+00:00:22,400 --> 00:00:27,600
+prompting. And this was all done in the previous video. And it shows you how with 
+
+9
+00:00:27,600 --> 00:00:31,900
+three simple prompts, you can make beautiful landing pages. You can even go into 
+
+10
+00:00:31,900 --> 00:00:36,833
+concepts like modifying them so that they have a bit of a Christmas look and feel. 
+
+11
+00:00:36,833 --> 00:00:43,266
+We've got some animated snowflakes. I even took this over to a friend Readapted the 
+
+12
+00:00:43,266 --> 00:00:48,533
+company to his brand, which was more as a lawyer, but reformed it. So it was in the 
+
+13
+00:00:48,533 --> 00:00:53,700
+style of the Smurfs. So we took his legal information. We converted it into a Smurf 
+
+14
+00:00:53,700 --> 00:00:59,600
+landing page. So this is all looking great. Great HTML, great styling, but now we 
+
+15
+00:00:59,600 --> 00:01:04,866
+want to host it.
+Now, if you're actually looking for the code for these pages, you can find it over 
+
+16
+00:01:04,900 --> 00:01:11,200
+on this GitHub repository, which is the AppyDave, AppyDave,. It's number three. And 
+
+17
+00:01:11,266 --> 00:01:15,733
+there's also a link to the video in the description. But what we'll do is we'll look 
+
+18
+00:01:15,733 --> 00:01:20,533
+at the website we're doing today, and it's for a business called Support Signal. 
+
+19
+00:01:20,533 --> 00:01:20,966
+I've taken one of the templates that we had there. This is not the final way that 
+
+20
+00:01:20,966 --> 00:01:24,633
+I've taken one of the templates that we had there. This is not the final way that 
+
+21
+00:01:24,633 --> 00:01:29,266
+I want the website to work, but this is a simple landing page that I should be able 
+
+22
+00:01:29,266 --> 00:01:34,900
+to host really quickly. And I've got it in both the widescreen, and we've also got 
+
+23
+00:01:34,900 --> 00:01:37,800
+it in a mobile friendly version as well.
+
+24
+00:01:37,800 --> 00:01:42,666
+So let's have a look at the plan of action. And what I've done is just had a quick 
+
+25
+00:01:42,666 --> 00:01:47,866
+conversation with chat GPT to come up with the basic ideas that we're working through 
+
+26
+00:01:47,866 --> 00:01:54,500
+today. And I will go through the prompts so that you can adapt it to your situation. 
+
+27
+00:01:54,733 --> 00:01:59,900
+But essentially, I just wanted to work with a simple HTML file and a logo file. I 
+
+28
+00:01:59,900 --> 00:02:04,333
+didn't want to do more. I gave it a domain name that I would like to work with, which 
+
+29
+00:02:04,333 --> 00:02:09,733
+is the supporting signal. And I've decided because I want it to be free forever at 
+
+30
+00:02:09,733 --> 00:02:15,400
+the moment and very fast, I'm going to use Cloudflare pages. I've talked about it 
+
+31
+00:02:15,400 --> 00:02:21,900
+using the Cloudflare DNS for pointing to the actual domain name. I've noted where 
+
+32
+00:02:21,900 --> 00:02:28,133
+the actual repo is and also where the files are on my computer. It's also looked 
+
+33
+00:02:28,133 --> 00:02:33,433
+at the files and given a structure. So we got the structure, the index file, the 
+
+34
+00:02:33,433 --> 00:02:36,366
+logo, and we'll have some sort of a read me document. 
+
+35
+00:02:36,366 --> 00:02:41,366
+Now as we go down, we've got this step-by-step implementation plan for putting it 
+
+36
+00:02:41,366 --> 00:02:46,466
+into a GitHub repo. And one of the things I've done ahead of time is just created 
+
+37
+00:02:46,466 --> 00:02:51,833
+the repo. So the organization has been set up to be called Support Signal, 
+
+38
+00:02:51,833 --> 00:02:56,800
+and I've set up one repository at the moment called Support Signal Placeholder 
+
+39
+00:02:56,800 --> 00:03:01,933
+with a license and a read me file in it. And so this information that we got here 
+
+40
+00:03:01,933 --> 00:03:06,933
+should allow us to link the local directory that we've already done the code from 
+
+41
+00:03:06,933 --> 00:03:07,866
+in the last video 
+
+42
+00:03:07,866 --> 00:03:13,166
+to this remote repository. After that, we'll look through the steps for setting it 
+
+43
+00:03:13,166 --> 00:03:18,633
+up with Cloudflare hosting. Now, if you wanted to use something else like vercel, 
+
+44
+00:03:18,966 --> 00:03:23,500
+you would change the prompts that I'm going to show you that came up with this particular 
+
+45
+00:03:23,500 --> 00:03:28,300
+document. You really adapt the prompts to the situation that's facing you at the 
+
+46
+00:03:28,300 --> 00:03:28,666
+moment. 
+
+47
+00:03:28,666 --> 00:03:33,733
+Now, in my particular case, I'm also using GoDaddy. So we've got information here 
+
+48
+00:03:33,733 --> 00:03:35,333
+on how to set things up. 
+
+49
+00:03:35,333 --> 00:03:39,866
+And one of the things is, as I go through this, this might not all work. So I will 
+
+50
+00:03:40,000 --> 00:03:45,600
+use chat GPT to fix problems on the way, but at least we've got a basic plan of action 
+
+51
+00:03:45,600 --> 00:03:46,433
+to get started. So we'll push our local code to GitHub, but we'll set up Cloudflare 
+
+52
+00:03:46,433 --> 00:03:50,933
+to get started. So we'll push our local code to GitHub, but we'll set up Cloudflare 
+
+53
+00:03:51,000 --> 00:03:54,033
+pages and connect it to our GitHub repo. 
+
+54
+00:03:54,033 --> 00:03:59,333
+We'll set up the Cloudflare DNS. After that, we'll update the GoDaddy name 
+
+55
+00:03:59,333 --> 00:04:04,733
+service to point to Cloudflare. And lastly, we should be able to change code anytime, 
+
+56
+00:04:04,900 --> 00:04:09,500
+redeploy it to GitHub, and we'll see whether this is going to update live as well.
+
+57
+00:04:09,500 --> 00:04:15,066
+So let's look at how you would come up with this for yourself using tiny bit of prompt 
+
+58
+00:04:15,066 --> 00:04:19,833
+engineering. So if we go to the very top, I just started off with, if I had a raw 
+
+59
+00:04:19,833 --> 00:04:25,700
+HTML page, how would I publish it to a website? I do own the domain name. I just 
+
+60
+00:04:25,700 --> 00:04:30,766
+need something very simple and free and easy. You may want to ask me questions along 
+
+61
+00:04:30,766 --> 00:04:31,133
+the way. 
+
+62
+00:04:31,133 --> 00:04:36,733
+Now most people would probably go with Netlify, and I didn't want to do that because 
+
+63
+00:04:36,733 --> 00:04:41,600
+I think there's more benefits. If you want to host a lot of websites, you want 'em 
+
+64
+00:04:41,600 --> 00:04:46,533
+to be fast and you don't ever want to hit any usage caps. So this is the reason I've 
+
+65
+00:04:46,533 --> 00:04:48,200
+picked this one. In this case 
+
+66
+00:04:48,200 --> 00:04:53,433
+now it's asked me four different questions at once, an answer. I've used the speech 
+
+67
+00:04:53,433 --> 00:04:58,133
+to test. So there's a couple of problems. But essentially it's saying, I use GoDaddy. 
+
+68
+00:04:58,333 --> 00:05:03,133
+I want to host the CSS and one or two images. I'm comfortable with GitHub 
+
+69
+00:05:03,133 --> 00:05:07,766
+and I want something fast. I prefer something that I can just add a simple package, 
+
+70
+00:05:07,766 --> 00:05:08,400
+Jason 
+
+71
+00:05:08,400 --> 00:05:13,400
+and take the current project to GitHub and deploy it. So there's not much in the 
+
+72
+00:05:13,400 --> 00:05:18,766
+way of good grammar or even accuracy. But it's worked out that using GitHub for the 
+
+73
+00:05:18,766 --> 00:05:25,033
+domain comfortable with GitHub, HTML + CSS want fast and easy access. 
+
+74
+00:05:25,033 --> 00:05:28,500
+it's come up with the best option being netlify in this case. 
+
+75
+00:05:28,500 --> 00:05:34,833
+I decided I didn't want Netlify, I want Cloudflare. And it's come up with basic benefits 
+
+76
+00:05:34,833 --> 00:05:40,066
+analysis. So this is great reasons to switch. And so I've just given it one more 
+
+77
+00:05:40,066 --> 00:05:45,633
+statement, which is give me the full implementation plan. I said I want it for Cloudflare. 
+
+78
+00:05:45,666 --> 00:05:49,200
+I've told it where I'm putting the code on my computer. 
+
+79
+00:05:49,200 --> 00:05:51,566
+I've told it the files, so I have access to, 
+
+80
+00:05:51,566 --> 00:05:54,033
+I told it where the remote repository was. 
+
+81
+00:05:54,033 --> 00:05:58,100
+And so now we have the document that we are going to talk through for the rest of 
+
+82
+00:05:58,100 --> 00:05:58,633
+this video.
+
+83
+00:05:58,633 --> 00:06:03,533
+Now you can see that the first step is to push your local folder to a GitHub repo. 
+
+84
+00:06:03,533 --> 00:06:08,133
+So what does that mean? So what I'm doing at the moment is taking us down to Visual 
+
+85
+00:06:08,133 --> 00:06:13,333
+Studio, where I've got the index file for the website. Now, the way the website looks 
+
+86
+00:06:13,333 --> 00:06:18,833
+at the moment is it's the one generated from the previous video with a little logo 
+
+87
+00:06:18,866 --> 00:06:20,766
+up in the top left hand corner.
+
+88
+00:06:20,766 --> 00:06:25,200
+Now, what we want to do is take all of the files that are here and put it into this 
+
+89
+00:06:25,200 --> 00:06:27,633
+GitHub repo that I've preset up.
+
+90
+00:06:27,633 --> 00:06:31,366
+Now let's go and get a copy of our script that we want to, 
+
+91
+00:06:31,366 --> 00:06:35,633
+use to push those files. And it's all commented out here, what it's going to do. 
+
+92
+00:06:35,633 --> 00:06:41,766
+Step into the current project folder, initialize the local git repo, add in the remote 
+
+93
+00:06:41,766 --> 00:06:44,333
+one that we've already set up on GitHub. 
+
+94
+00:06:44,633 --> 00:06:50,133
+create and switch to the main branch. After that, we've got this little statement 
+
+95
+00:06:50,133 --> 00:06:54,600
+here. Merge the remote history into the local. What we're trying to do is make sure 
+
+96
+00:06:54,600 --> 00:06:59,333
+they both come together correctly because we've got some files on the local. We've 
+
+97
+00:06:59,333 --> 00:07:01,433
+also got a couple of files on the remote, 
+
+98
+00:07:01,433 --> 00:07:06,133
+such as the README file and the license file. After that, we can make sure all our 
+
+99
+00:07:06,133 --> 00:07:10,833
+files are in our local commit and given a nice message, and after that we can push 
+
+100
+00:07:10,833 --> 00:07:15,733
+it. So with that, we select all the information we head on down to our terminal and 
+
+101
+00:07:15,733 --> 00:07:18,000
+we just paste it in and see how it goes. 
+
+102
+00:07:18,000 --> 00:07:23,600
+So it's finished. We can bring it up at our GitHub repo, and if we hit refresh, we 
+
+103
+00:07:23,600 --> 00:07:28,033
+should have a new bunch of files and we're now up to two commits as well. And it's 
+
+104
+00:07:28,033 --> 00:07:31,066
+the initial HTML version merged with the remote.
+
+105
+00:07:31,066 --> 00:07:35,433
+So the next thing we want to do is set up hosting and we're doing it on Cloudflare 
+
+106
+00:07:35,466 --> 00:07:40,533
+pages. We've got the URL right here, and I've just brought it up. And what it's saying 
+
+107
+00:07:40,533 --> 00:07:44,933
+is that we need to go to the pages and create a project. 
+
+108
+00:07:44,933 --> 00:07:49,366
+so if we come up here to the add button, there should be an area called pages. We'll 
+
+109
+00:07:49,366 --> 00:07:55,466
+click on that. After that what we want to do is import an existing repository. So 
+
+110
+00:07:55,500 --> 00:07:57,133
+we'll click on this button right here.
+
+111
+00:07:57,133 --> 00:08:00,933
+And we'll come down to this button here, press Connect, GitHub. 
+
+112
+00:08:00,933 --> 00:08:05,466
+And I've got a lot of organizations going on here. So we'll just go to the very end. 
+
+113
+00:08:05,466 --> 00:08:08,566
+We should have one called Support Signal. We'll click on that. 
+
+114
+00:08:08,566 --> 00:08:11,633
+And I'm going to use all repositories. 
+
+115
+00:08:11,633 --> 00:08:13,200
+I'm gonna need to put in a pass key. 
+
+116
+00:08:13,200 --> 00:08:18,600
+So I've got my GitHub organization and repository, and we've got more instructions 
+
+117
+00:08:18,600 --> 00:08:22,533
+here. But let's just go with the begin setup, see what we do next. 
+
+118
+00:08:22,533 --> 00:08:27,400
+And we can lead the preset framework to none. The build command blank, and we just 
+
+119
+00:08:27,400 --> 00:08:28,933
+need to put in a dot 
+
+120
+00:08:28,933 --> 00:08:30,466
+and we'll hit save and Deploy. 
+
+121
+00:08:30,466 --> 00:08:34,833
+It's starting to deploy the website for us here, building it. 
+
+122
+00:08:34,833 --> 00:08:39,466
+And the instructions have told me the URL, but we're best off clicking on this button 
+
+123
+00:08:39,466 --> 00:08:44,766
+right here. And let's see if our site loaded. It has, and it's incredibly fast. This 
+
+124
+00:08:44,766 --> 00:08:47,233
+is one of the benefits of Cloudflare CDN. 
+
+125
+00:08:47,233 --> 00:08:53,233
+So the next thing we want to do is connect our domain name. And this is the domain 
+
+126
+00:08:53,233 --> 00:08:58,566
+name we want. We'll go and copy that and we'll head over to the dash Cloudflare. 
+
+127
+00:08:58,800 --> 00:09:04,200
+From here we've got the domains tab that we can go and click on. And we can then 
+
+128
+00:09:04,200 --> 00:09:08,166
+search for an existing domain. Now because I have set this up we should be able to 
+
+129
+00:09:08,166 --> 00:09:09,700
+do a quick scan on that.
+
+130
+00:09:09,700 --> 00:09:14,633
+It's asked us for a plan. I'm just going to go with the free one for today.
+
+131
+00:09:14,633 --> 00:09:19,633
+So we got our DNS records here. There's this little message saying that we need to 
+
+132
+00:09:19,700 --> 00:09:24,366
+complete the instructions in the overview page. When we head over here we've got 
+
+133
+00:09:24,366 --> 00:09:30,533
+these instructions I'm using GoDaddy so I can log on to that. It says make sure that 
+
+134
+00:09:30,533 --> 00:09:31,400
+your DNS
+
+135
+00:09:31,400 --> 00:09:37,133
+is turned off when I head over to GoDaddy. And we can see the DNS management for 
+
+136
+00:09:37,133 --> 00:09:44,033
+support signal here I click on DNS right here and it says turn on. So it must be 
+
+137
+00:09:44,033 --> 00:09:44,733
+off at the moment.
+
+138
+00:09:44,733 --> 00:09:49,433
+So next we're going to come down and grab the name service. We'll click copy on the 
+
+139
+00:09:49,433 --> 00:09:53,966
+first one. We'll go back to Go Daddy. We'll go and click on the name Service tab 
+
+140
+00:09:53,966 --> 00:09:54,466
+right here. We've already got two here that were done by GoDaddy. But we're going 
+
+141
+00:09:54,466 --> 00:09:58,166
+right here. We've already got two here that were done by GoDaddy. But we're going 
+
+142
+00:09:58,166 --> 00:09:59,633
+to click on change.
+
+143
+00:09:59,633 --> 00:10:03,866
+I'll use my own and we'll paste the first one in. We'll come back. We'll click on 
+
+144
+00:10:03,866 --> 00:10:07,300
+copy for the second one. We'll paste that one in and we'll hit save.
+
+145
+00:10:07,300 --> 00:10:12,533
+Now our website is configured with Cloudflare. We've got support signal.com 
+
+146
+00:10:12,533 --> 00:10:18,633
+au, but if I try and access the site, I'm still hitting a landing page on GoDaddy. 
+
+147
+00:10:18,866 --> 00:10:23,433
+And there's one other thing that we need to change and it is available to us in the 
+
+148
+00:10:23,433 --> 00:10:29,500
+documentation we will just looking through, and that's that these DNS records also 
+
+149
+00:10:29,500 --> 00:10:35,100
+need to be deleted. So if we come down here and we look for the two that are sitting 
+
+150
+00:10:35,100 --> 00:10:38,233
+here, click on that one and that one 
+
+151
+00:10:38,233 --> 00:10:40,433
+and press delete two records. 
+
+152
+00:10:40,433 --> 00:10:41,400
+Let that go.
+
+153
+00:10:41,400 --> 00:10:46,200
+Plus we'll take a look at these CNAME records. So this one we're going to keep. And 
+
+154
+00:10:46,200 --> 00:10:52,033
+the one below it we're going to edit. And it's going to change related to the information 
+
+155
+00:10:52,033 --> 00:10:58,433
+that's right here. So we'll take that information. Come on over to here. Paste it 
+
+156
+00:10:58,433 --> 00:11:04,433
+in without the word target. And it's just a placeholder. And I will take that information 
+
+157
+00:11:04,433 --> 00:11:07,566
+one more time and add a new record. 
+
+158
+00:11:07,566 --> 00:11:12,666
+We'll set this to a CNAME, put an At and we'll paste this information in and hit 
+
+159
+00:11:12,666 --> 00:11:13,600
+save on that.
+
+160
+00:11:13,600 --> 00:11:16,966
+Now there's one more thing we've got to do, and it's a little tricky to find, to 
+
+161
+00:11:16,966 --> 00:11:22,733
+be honest. So let's go back to pages, your site, custom domains, and you would think 
+
+162
+00:11:22,733 --> 00:11:27,266
+it would be clicking on here, but it's actually under this compute workers.
+
+163
+00:11:27,266 --> 00:11:29,100
+We can now click on our website.
+
+164
+00:11:29,100 --> 00:11:33,066
+And we have this little tab at the top called Custom Domains.
+
+165
+00:11:33,066 --> 00:11:37,933
+And I'll just copy the information here. Set up a custom domain, paste it in and 
+
+166
+00:11:37,933 --> 00:11:39,133
+press continue.
+
+167
+00:11:39,133 --> 00:11:42,633
+And we'll click on the Activate Domain Name button.
+
+168
+00:11:42,633 --> 00:11:45,933
+And lastly we'll see if it works. We'll click on this here.
+
+169
+00:11:45,933 --> 00:11:52,600
+And lastly we will take this domain name and put it into a new browser. And it looks 
+
+170
+00:11:52,600 --> 00:11:54,600
+like the website is now running.
+
+171
+00:11:54,600 --> 00:11:58,666
+Now that we have the website up and running, we should test this last capability, 
+
+172
+00:11:58,666 --> 00:12:03,600
+the auto deploy, whenever we do a GI push. And I think the best way to do that is 
+
+173
+00:12:03,600 --> 00:12:08,866
+to go and take the title that we've got here and we will go down to a terminal where 
+
+174
+00:12:08,866 --> 00:12:13,266
+I'm just running claude on this particular folder and put in this prompt. And I'll 
+
+175
+00:12:13,266 --> 00:12:13,566
+I'm just running claude on this particular folder and put in this prompt. And I'll 
+
+176
+00:12:13,566 --> 00:12:17,700
+just say, can you come up with a simpler title in the hero? This one's too long. 
+
+177
+00:12:17,700 --> 00:12:21,733
+And we'll paste the one that we had there and let's see what it comes up with. And 
+
+178
+00:12:21,733 --> 00:12:22,200
+And we'll paste the one that we had there and let's see what it comes up with. And 
+
+179
+00:12:22,200 --> 00:12:24,433
+we'll go with option one. In this case, we're seeing it alter the HTML for us right 
+
+180
+00:12:24,433 --> 00:12:27,333
+we'll go with option one. In this case, we're seeing it alter the HTML for us right 
+
+181
+00:12:27,333 --> 00:12:27,733
+there. 
+
+182
+00:12:27,733 --> 00:12:32,300
+And lastly, I'm just going to ask it to create a little commit message, which is 
+
+183
+00:12:32,300 --> 00:12:37,300
+just what the change has been. Then I will ask it to do a commit. And after that 
+
+184
+00:12:37,300 --> 00:12:42,766
+we'll do a deploy. Once it deploys, we should see an automatic update to the website. 
+
+185
+00:12:42,766 --> 00:12:46,400
+Make sure we add our file to the GitHub repo, 
+
+186
+00:12:46,400 --> 00:12:47,900
+say yes to. 
+
+187
+00:12:47,900 --> 00:12:53,133
+And we can see the differences in the code here if we look at the old version. And 
+
+188
+00:12:53,133 --> 00:12:57,500
+here is the new version, which probably needs a little bit more formatting, 
+
+189
+00:12:57,500 --> 00:13:02,266
+So I'll just quickly fix that by just putting in, can you put in a new line, 
+
+190
+00:13:02,266 --> 00:13:08,700
+between turns and compliance? After that, I've asked it to commit and push. And if 
+
+191
+00:13:08,700 --> 00:13:14,366
+we hit refresh on the page right now, we should see a change. And there we have it.
+
+192
+00:13:14,366 --> 00:13:20,400
+So that brings us to the end of deploying this particular website, which we created 
+
+193
+00:13:20,400 --> 00:13:25,266
+in the previous video, just using a little bit of prompt engineering. And at any 
+
+194
+00:13:25,300 --> 00:13:30,466
+time we can make changes to it, as you saw. And each time you push the code to your 
+
+195
+00:13:30,500 --> 00:13:35,666
+GitHub repository, it just makes the changes happen automatically. It's fast. It's 
+
+196
+00:13:35,666 --> 00:13:39,933
+free. Anyway, I'm AppyDave, please like and subscribe and I'll see you in the next 
+
+197
+00:13:39,933 --> 00:13:45,466
+video where I'm continuing this journey of coding various aspects of the application 
+
+198
+00:13:45,466 --> 00:13:46,733
+development process.

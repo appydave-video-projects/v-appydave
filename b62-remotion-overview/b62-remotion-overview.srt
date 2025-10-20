@@ -1,0 +1,307 @@
+1
+00:00:00,00 --> 00:00:05,610
+Okay, this video is to showcase how you can automate video creation of things like 
+
+2
+00:00:05,610 --> 00:00:12,350
+these tables. And it comes because this table showed up on the AI-TLDR channel. 
+
+3
+00:00:12,350 --> 00:00:17,600
+you can see the little animation of tools appearing. It's very much based off a social 
+
+4
+00:00:17,600 --> 00:00:20,620
+media graphic that you see all the time, the top 10 XYZs, 
+
+5
+00:00:21,660 --> 00:00:25,800
+and they all show up. And you notice that there's a little bit of image misalignment 
+
+6
+00:00:25,800 --> 00:00:31,310
+going on, and it's because of the nature of how these slides were created in Canva. 
+
+7
+00:00:31,310 --> 00:00:35,810
+So what happened was at different times, slides were duplicated, more information 
+
+8
+00:00:35,840 --> 00:00:40,340
+was happening, and somewhere it shifted a little bit to the left. We can also see 
+
+9
+00:00:40,340 --> 00:00:45,230
+some misalignment in these two bars. So this is actually quite time consuming to 
+
+10
+00:00:45,230 --> 00:00:51,950
+do in Canva. And it's not the prettiest. It's pretty good. It's is like it is Canva. 
+
+11
+00:00:51,950 --> 00:00:56,870
+You can do some pretty good stuff, but what if we could take that to a much greater 
+
+12
+00:00:56,870 --> 00:00:59,840
+level? And that's what I wanna show with Remotion. 
+
+13
+00:00:59,840 --> 00:01:05,90
+So here we have Remotion. It looks like a video editor, a timeline video editor, 
+
+14
+00:01:05,90 --> 00:01:09,710
+and it looks like that 'cause it is. But what makes it very different to any video 
+
+15
+00:01:09,710 --> 00:01:15,860
+editor you've ever seen is that it's a programming language based video editor. So 
+
+16
+00:01:16,100 --> 00:01:20,810
+everything that we see here is just little micro applications that have been, 
+
+17
+00:01:20,810 --> 00:01:25,610
+built. And they've got things like color controls that we can do and we can play 
+
+18
+00:01:25,610 --> 00:01:30,00
+around with different settings. We could change the text, which I've already done 
+
+19
+00:01:30,00 --> 00:01:32,480
+once and we'll just change that. 
+
+20
+00:01:32,480 --> 00:01:36,860
+Hello from David. So this little hello world application, 
+
+21
+00:01:36,860 --> 00:01:41,730
+came with the Remotion studio, but I built a bunch of other graphics. So I think 
+
+22
+00:01:41,730 --> 00:01:47,600
+the first one we're gonna look at is the top 10 reveal. So if we come back over to 
+
+23
+00:01:47,600 --> 00:01:54,170
+the video that we're seeing here from AI-TLDR, this is a top 10 AI tools, 
+
+24
+00:01:54,170 --> 00:01:59,780
+reveal where we've got categories down the left and we've got AI tools down the right. 
+
+25
+00:01:59,990 --> 00:02:02,90
+So what I ended up doing 
+
+26
+00:02:02,90 --> 00:02:06,530
+was going into ChatGPT and describing different, 
+
+27
+00:02:06,530 --> 00:02:08,900
+micro apps that I wanted to create. One of them is 
+
+28
+00:02:08,900 --> 00:02:10,940
+the O one top 10 reveal. 
+
+29
+00:02:10,940 --> 00:02:12,80
+And we can see the, 
+
+30
+00:02:12,80 --> 00:02:13,670
+requirements docs here. 
+
+31
+00:02:13,670 --> 00:02:18,560
+We can change information, stuff like that. And through a little bit of extra prompt 
+
+32
+00:02:18,560 --> 00:02:25,370
+magic, I went in and turned it into a complex structure for video animations within 
+
+33
+00:02:25,370 --> 00:02:30,200
+this Remotion Hello world. And so let's go and actually have a look at 
+
+34
+00:02:30,200 --> 00:02:36,740
+the top 10 AI reveal tools for 2025. And we've got number four, number five, number 
+
+35
+00:02:36,740 --> 00:02:41,270
+six. And these are all coming through in red. That is actually changeable. If we 
+
+36
+00:02:41,270 --> 00:02:45,600
+wanted, we can go with that, but we'll leave it at red because number one, two, and 
+
+37
+00:02:45,600 --> 00:02:50,340
+three are all now about to pop in. And the good thing about this animation is I could 
+
+38
+00:02:50,340 --> 00:02:54,840
+go and click the render button down in the bottom right and turn this into a video. 
+
+39
+00:02:54,840 --> 00:03:00,780
+Now that's one sort of animation, but I saw another variation of a animation online 
+
+40
+00:03:00,900 --> 00:03:05,550
+that I thought I wanted to do for myself. So what I did is I just went over to my 
+
+41
+00:03:05,610 --> 00:03:08,400
+GitHub username. It's got some 88, 
+
+42
+00:03:08,400 --> 00:03:09,870
+code repositories in this. 
+
+43
+00:03:09,870 --> 00:03:15,180
+I wanna see this information in an animation. Now, as I was building it, I did misalign 
+
+44
+00:03:15,180 --> 00:03:16,260
+the names a little bit. 
+
+45
+00:03:16,260 --> 00:03:20,820
+so we are going to see this in the tweet type on is where we're going to see the 
+
+46
+00:03:20,820 --> 00:03:25,780
+GitHub repository. So here it's coming through. Let's just change the size of it 
+
+47
+00:03:26,10 --> 00:03:29,850
+so it's a little bit more readable and we'll get rid of the property grid over on 
+
+48
+00:03:29,850 --> 00:03:36,750
+the right. And what we are now seeing is an animation around my guitar programming 
+
+49
+00:03:36,750 --> 00:03:41,160
+repository. We can put my name in there, the name of the repository. We've got the 
+
+50
+00:03:41,160 --> 00:03:47,200
+pinned repositories all just typing across as we go and we can see the contributions. 
+
+51
+00:03:47,340 --> 00:03:52,470
+And all of this was done in a one shot prompt. So then let's look at the next one 
+
+52
+00:03:52,470 --> 00:03:56,910
+I did, which was really a tweet like what happens if we, and that's 
+
+53
+00:03:56,910 --> 00:04:02,590
+when we click on this particular thing, we've got an animated Twitter post. So we 
+
+54
+00:04:02,590 --> 00:04:08,370
+see AppyDave AppyDave just shipped a new feature, sometimes the smallest optimizations. 
+
+55
+00:04:08,610 --> 00:04:13,900
+And we've got all this information coming through. Now all the data is all configurable, 
+
+56
+00:04:13,900 --> 00:04:19,500
+as you can see over here on the right in the property grid. And all of it was generated 
+
+57
+00:04:19,500 --> 00:04:22,260
+in one shot prompt based on 
+
+58
+00:04:22,260 --> 00:04:25,620
+a little prompt structure that I put together for Remotion. 
+
+59
+00:04:25,620 --> 00:04:28,140
+Now for the last one, I wanted to, 
+
+60
+00:04:28,140 --> 00:04:30,870
+look into an idea that I've had on my channel a 
+
+61
+00:04:30,870 --> 00:04:36,340
+year and a half ago, and it was animated YouTube outros. Now it doesn't look like 
+
+62
+00:04:36,340 --> 00:04:40,960
+what I want, but most of the information is there. So what we're seeing at the moment 
+
+63
+00:04:40,960 --> 00:04:46,90
+is the sort of thing that I kind of say at the end of a YouTube video. Usually I 
+
+64
+00:04:46,90 --> 00:04:46,500
+say, 
+
+65
+00:04:46,500 --> 00:04:51,120
+I'll do a little bit of a recap. I'll talk about what the next video is. I'll ask 
+
+66
+00:04:51,120 --> 00:04:52,620
+for a like and subscribe. 
+
+67
+00:04:52,620 --> 00:04:52,830
+I'll 
+
+68
+00:04:52,830 --> 00:04:54,180
+maybe suggest people, 
+
+69
+00:04:54,180 --> 00:04:58,740
+comment down below and tell 'em what's coming up next. So here it is AppyDave, we've 
+
+70
+00:04:58,740 --> 00:05:03,630
+got the number of subscribers. Here are three videos that you might find interesting. 
+
+71
+00:05:03,630 --> 00:05:07,680
+Please like and subscribe and I'll see you in the next video. And then the next video 
+
+72
+00:05:07,680 --> 00:05:11,940
+can pop up like this and that could be what it is. And I could also tell people about 
+
+73
+00:05:11,940 --> 00:05:17,110
+the chapter codes. So all of this animation, again, was a one shot prompt. 
+
+74
+00:05:17,110 --> 00:05:21,790
+and it built it all. Now it's just a case of tweaking it to make it look pretty. 
+
+75
+00:05:22,60 --> 00:05:29,770
+So this is using prompt engineering, Claude code and promotion to generate any sort 
+
+76
+00:05:29,770 --> 00:05:34,420
+of animation that you want, where you're doing infographics and information like 
+
+77
+00:05:34,420 --> 00:05:34,660
+that. 

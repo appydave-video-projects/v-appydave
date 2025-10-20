@@ -1,0 +1,71 @@
+In this video we're doing a tutorial on prompt engineering
+in visual storytelling. Part of it will set up a storyline, we'll break down how
+the prompts work, we'll develop a shot list
+and maybe some images. After that we'll look at reframing it for other types of
+storylines, think multiverse. Now all of this is part of a talk I
+gave recently at Ecamm Live's Leap Event on multi-agent
+storytelling, so if you want to find out more about that the link is in the
+description. Otherwise let's get into the tutorial.
+So let's start off with a tutorial on effective prompt engineering and to do
+that we're going to do it from a storytelling
+perspective by talking about a woman and her cat
+in New York as a storytelling construct. And when I'm doing prompt engineering
+it's all about breaking it down into the component parts such as in this case
+a structured sequence of events. We've also got the protagonist which
+happens to be the woman, the environment or the scene which
+happens to be New York and the fact that she has
+another character being her cat. With that information in place we give the
+structure of what we want to create which is a five
+scene write-up and we would like something dramatic maybe in the third
+scene and from there we end up getting storytelling.
+That's over five different scenes. Now the next thing that we want to do from
+here is get some sort of visualization but
+before we do the visualization we need to create what's called
+a shot list. Now the shot list is just a simple continuation
+of the story we just created just with a little bit of output formatting.
+In this case create a simplified shot list and we see that information coming
+through and there's a lot of visual componentry
+going into what's being written. Now that we've got the story
+and the shot list we can go into generating prompts that allow us
+to generate these images in something like Leonardo
+AI. Now to create images effectively the things that are important is that
+firstly we continue the context of the previous part of the conversation
+with an output format which is generate a concise
+image prompt. After that we give the aesthetic style that we want it's pretty
+simple here it's just New York City a woman 2025 and then lastly because
+there are multiple characters we want to make sure that each of the
+characters are stylistically the same in every scene.
+Last thing we need is to see a cat that's brown in one scene and black in
+the next scene. So we continue the conversation
+and one of the things that you notice is that all the image prompts that have
+been generated all have the same fluffy orange tabby
+cat in each of the scenes so hopefully we're going to get
+visual consistency. So when we start running this through Leonardo AI you end
+up with a bunch of images that look pretty good.
+We can notice in the third scene that there is a dramatic
+issue going on here the cat is escaping in the park.
+So we have our final story of the woman in her 30s in New York with her cat
+but what if we want to take this same story and restructure it for a different
+period in time and for this let's go with Elizabethan
+Times or Shakespeare Hamlet sort of style. From that we can just take a new
+prompt a reframe prompt we ensure that the woman and the cat are
+in each scene but the scene should be quite different
+because it's a different period in time and we do have a reinforcement part of
+the prompt that says that only image prompts are
+expected the woman and the cat should have visual consistency across
+every scene. And so now we have our noble woman and her
+cat in London it's a similar sort of concept but one of the things that you
+notice when you see them side by side is that there is a little bit of a
+flaw. The blonde woman in the first scene is
+a little bit different colored blonde and then she becomes silver and then a
+darker brunette followed by silver at the end and what we're looking at
+is what I call instructional collapse in prompt engineering.
+So that was the end of the tutorial section that I did
+on prompt engineering for storytelling. This was part of the ECAM
+live leap event that I did recently where I was talking about multi-agent
+architecture in a project called emotional support spiders.
+Now if you would like to work with me one-on-one then check out the link in
+the description you can book a call. Otherwise if you want to learn more
+about the other agent workflows and human in the loop
+concepts that I talked about at that seminar then check out the next video.
+I'm Epi Dave, have a great day.

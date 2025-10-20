@@ -1,0 +1,749 @@
+﻿1
+00:00:00,000 --> 00:00:04,633
+Would you like to vibe code a user interface, such as the one you're seeing now, 
+
+2
+00:00:04,633 --> 00:00:09,466
+where we've got access to light and dark mode, where we can switch between different 
+
+3
+00:00:09,500 --> 00:00:14,467
+applications and have menus that make sense for each of the applications. We've got 
+
+4
+00:00:14,467 --> 00:00:19,200
+the concept of settings at the app level and at the global level. And all of this 
+
+5
+00:00:19,200 --> 00:00:23,900
+was done using two simple prompts. And in this video, what we'll do is I'll show 
+
+6
+00:00:23,900 --> 00:00:28,500
+you the two prompts and how they can be adapted to any sort of user interface that 
+
+7
+00:00:28,500 --> 00:00:31,501
+you'd like to create. I'm AppyDave. Let's get into it.
+
+8
+00:00:31,534 --> 00:00:36,867
+Yesterday I was putting together a video using Claude code, and the idea was to go 
+
+9
+00:00:36,867 --> 00:00:42,068
+through a fairly long product requirements document and build out the application 
+
+10
+00:00:42,068 --> 00:00:47,868
+one epic at a time. And so as I was working through it, I built out all the technical 
+
+11
+00:00:47,868 --> 00:00:52,768
+foundations I'd started getting into a little bit of the application, scaffolding 
+
+12
+00:00:52,835 --> 00:00:57,502
+the concepts of like a wizard that I could go through each of the items. But one 
+
+13
+00:00:57,502 --> 00:01:00,735
+of the challenges I had was that it looked pretty average.
+
+14
+00:01:00,735 --> 00:01:06,902
+Now this morning having a simple conversation with ChatGPT for requirements and claude 
+
+15
+00:01:07,169 --> 00:01:12,602
+for generating the application. I was able to come up with this simple application 
+
+16
+00:01:12,602 --> 00:01:18,536
+harness for the visual user interface, and the idea of it was from the get go, I 
+
+17
+00:01:18,536 --> 00:01:23,069
+could have extensions in the form of micro apps. So here we've got Visual Studio, 
+
+18
+00:01:23,269 --> 00:01:29,169
+slack, Figma. A lot of these names came from the example applications that I used 
+
+19
+00:01:29,169 --> 00:01:33,636
+in part of the conversation around what other applications are out there that do 
+
+20
+00:01:33,636 --> 00:01:38,603
+what I want to do. And it came up with this provider model. So I should be able to 
+
+21
+00:01:38,603 --> 00:01:44,103
+build AI agents that can build new applications quite simply, but they don't have 
+
+22
+00:01:44,103 --> 00:01:48,570
+to build the rest of the user interface, such as the menus that you're seeing here, 
+
+23
+00:01:48,570 --> 00:01:54,237
+which are application specific, but they're already being designed into the application 
+
+24
+00:01:54,237 --> 00:01:59,304
+frame. We have right now, the idea that an application should have settings is being 
+
+25
+00:01:59,304 --> 00:02:04,704
+encapsulated here, but the idea that the whole application and the multiple applications 
+
+26
+00:02:04,704 --> 00:02:08,571
+going on can have their own settings are here at the moment. If I click on that, 
+
+27
+00:02:08,571 --> 00:02:14,604
+this now remains fixed. So as I move off, that's not collapsing, but later on it 
+
+28
+00:02:14,604 --> 00:02:15,971
+can become collapsible.
+
+29
+00:02:16,004 --> 00:02:21,038
+So let's have a look at the conversation that I used to build, firstly, the requirements, 
+
+30
+00:02:21,038 --> 00:02:25,905
+and then we'll look at how I made it all come together. So the conversation started 
+
+31
+00:02:25,905 --> 00:02:31,505
+off fairly simply just speaking into the microphone in advanced mode where I said, 
+
+32
+00:02:31,705 --> 00:02:35,972
+keep every answer short in the conversation. It started that way. I didn't want long 
+
+33
+00:02:35,972 --> 00:02:42,772
+diatribes from it. All I wanted to do was say, I want examples of host applications 
+
+34
+00:02:43,005 --> 00:02:49,139
+that have a multi app sort of feeling. So the first one it came up with was Salesforce 
+
+35
+00:02:49,205 --> 00:02:55,539
+and Microsoft 360. I gave it additional information. It was telling me about the 
+
+36
+00:02:55,539 --> 00:03:00,572
+plugins that go on in WordPress. We talked a little bit about the extensions that 
+
+37
+00:03:00,606 --> 00:03:05,206
+go in Visual Studio, and part of the conversation was also talking about the stuff 
+
+38
+00:03:05,206 --> 00:03:10,706
+I liked and I didn't like in different applications. At one stage, it came up with 
+
+39
+00:03:10,840 --> 00:03:16,773
+WeChat as a perfect example of the sort of application framework I wanted. But then 
+
+40
+00:03:16,773 --> 00:03:23,340
+I realized that that was a mobile first approach and I really needed a desktop first 
+
+41
+00:03:23,340 --> 00:03:23,940
+approach. 
+
+42
+00:03:23,973 --> 00:03:29,140
+But I was starting to get a feel that the WeChat approach would be perfect if I understood 
+
+43
+00:03:29,140 --> 00:03:34,440
+it more. I haven't used the application myself, but I mentioned that it's now starting 
+
+44
+00:03:34,440 --> 00:03:38,640
+to sound a lot like an operating system, like an Android phone where you've got all 
+
+45
+00:03:38,640 --> 00:03:43,341
+these multiple applications, you can click on them, they all open, but there's often 
+
+46
+00:03:43,341 --> 00:03:46,041
+a lot of similarity in the user interface.
+
+47
+00:03:46,274 --> 00:03:51,908
+As I was doing my conversation, I was ending up with extra GitHub repos like this 
+
+48
+00:03:51,908 --> 00:03:57,208
+one here, and noticed it was five years old. So that was no good for me. So I started 
+
+49
+00:03:57,208 --> 00:04:02,508
+to ask it the simple question, where are we at? I, all I wanted to do was consolidate 
+
+50
+00:04:02,575 --> 00:04:04,241
+what we'd been talking about, 
+
+51
+00:04:04,241 --> 00:04:09,342
+and I followed up with just the assumption that WeChat is limited to the mobile phone. 
+
+52
+00:04:09,342 --> 00:04:13,875
+I need something that's on the desktop. Now, after a couple of other questions backwards 
+
+53
+00:04:13,875 --> 00:04:16,475
+and forwards, we started coming up with 
+
+54
+00:04:16,475 --> 00:04:22,275
+various applications that I knew, like Slack and VS. Code, and talking about how 
+
+55
+00:04:22,275 --> 00:04:28,676
+they worked. Concepts like Control K to go into search, the idea of contextual surfacing 
+
+56
+00:04:28,676 --> 00:04:33,409
+where applications don't appear on the left hand side until you needed them. So I 
+
+57
+00:04:33,409 --> 00:04:37,776
+was thinking maybe I need some pinned applications that I use all the time, others 
+
+58
+00:04:37,776 --> 00:04:39,543
+that just show up recently. 
+
+59
+00:04:39,543 --> 00:04:43,343
+Now, you might be wondering from the prompt engineering point of view, how do you 
+
+60
+00:04:43,343 --> 00:04:49,276
+do this yourself? What is the system? Well, this system is simply a simple conversation 
+
+61
+00:04:49,610 --> 00:04:54,576
+of what I like and what I don't like through example. I'm just asking what are the 
+
+62
+00:04:54,643 --> 00:04:59,943
+applications in this category that do this, such as Microsoft Teams. I had little 
+
+63
+00:04:59,943 --> 00:05:04,877
+statements like, hang on, Microsoft Teams only has a few applications. Would this 
+
+64
+00:05:04,877 --> 00:05:10,377
+be the right system for me? And I started to learn what are the functionality that 
+
+65
+00:05:10,377 --> 00:05:11,044
+I want? 
+
+66
+00:05:11,244 --> 00:05:15,011
+this is building up the requirements document through trial and error. 
+
+67
+00:05:15,044 --> 00:05:19,644
+Now, one of the things that the conversation naturally went into, but that I didn't 
+
+68
+00:05:19,644 --> 00:05:25,378
+want it to go into was I the idea of do any of the apps need multi-step workflows? 
+
+69
+00:05:25,378 --> 00:05:27,511
+Now, if you go to what's being built, 
+
+70
+00:05:27,544 --> 00:05:33,678
+this is going to be hosting multi-stage wizards where the steps will show up down 
+
+71
+00:05:33,678 --> 00:05:37,245
+the left and there'll be a wizard in the middle. But none of that has anything to 
+
+72
+00:05:37,245 --> 00:05:42,178
+do with the application harness. That's the specific application that I wanna build 
+
+73
+00:05:42,178 --> 00:05:43,545
+in another step.
+
+74
+00:05:43,545 --> 00:05:43,612
+Okay, 
+
+75
+00:05:43,612 --> 00:05:49,178
+now the idea it was coming up with both visually but also in the data shaping was 
+
+76
+00:05:49,178 --> 00:05:54,445
+that it needed to explore areas like the user roles and permissions. How should the 
+
+77
+00:05:54,445 --> 00:05:59,979
+data move? It's what sort of database. And I told it to exclude these areas 'cause 
+
+78
+00:05:59,979 --> 00:06:04,646
+this is not what I wanted to build from just a user interface point of view. 
+
+79
+00:06:04,679 --> 00:06:10,312
+It did ask me if I wanted light and dark mode. So I said yes I did. I wanted settings. 
+
+80
+00:06:10,312 --> 00:06:15,046
+I did tell it that I needed both global settings and application specific setting. 
+
+81
+00:06:15,079 --> 00:06:20,179
+And sometimes I would ask it, what do you think we should explore? And it would just 
+
+82
+00:06:20,179 --> 00:06:25,046
+come up with different areas from the framework, the application discovery, the user 
+
+83
+00:06:25,046 --> 00:06:29,913
+interface, the data consistency. And this is where I would answer some of them and 
+
+84
+00:06:29,913 --> 00:06:31,847
+say some of them aren't relevant 
+
+85
+00:06:31,847 --> 00:06:36,447
+by this time. It had come up with seven areas that were pretty relevant for me. We've 
+
+86
+00:06:36,447 --> 00:06:41,280
+got the application panel, which would have the pinned, the recent, it should be 
+
+87
+00:06:41,280 --> 00:06:46,947
+collapsible. It had the actual menu item, which is the menu of individual applications. 
+
+88
+00:06:47,247 --> 00:06:49,747
+Then how do they show as a main 
+
+89
+00:06:49,781 --> 00:06:55,581
+display. It then started talking about a conversational chat panel, which I decided 
+
+90
+00:06:55,581 --> 00:07:00,781
+to let go of mainly because that's really going to sit within the application and 
+
+91
+00:07:00,781 --> 00:07:05,714
+it's optional, not part of something I need in the application shell, I did need 
+
+92
+00:07:05,748 --> 00:07:11,915
+the command K interface to do searches. I did need a top bar and 
+I did need a footer status. 
+
+93
+00:07:11,948 --> 00:07:17,648
+And so it was getting really good at writing a brief for me. And I just gave it a 
+
+94
+00:07:17,648 --> 00:07:22,482
+little bit of extra instruction and said, can you now turn it into a full document? 
+
+95
+00:07:22,482 --> 00:07:26,448
+And there we had the full document once this was in place. And I knew that all the 
+
+96
+00:07:26,448 --> 00:07:31,715
+information was specifically what I wanted, excluding the stuff that I didn't want. 
+
+97
+00:07:31,915 --> 00:07:33,615
+I was just able to press the copy button.
+
+98
+00:07:33,649 --> 00:07:39,716
+So with our design brief in our clipboard, it's a case of how do we run it within 
+
+99
+00:07:39,716 --> 00:07:45,549
+this case? Anthropic so what I did was I headed over to Claude. And you can see I've 
+
+100
+00:07:45,549 --> 00:07:50,183
+said, here is the brief and I've just pasted everything in verbatim, but there is 
+
+101
+00:07:50,183 --> 00:07:54,949
+a little bit going on just before this conversation. And that's the idea of what 
+
+102
+00:07:54,983 --> 00:07:56,550
+sort of role do we want?
+
+103
+00:07:56,550 --> 00:08:01,850
+Now, the reason I don't drop this really detailed requirements document directly 
+
+104
+00:08:01,850 --> 00:08:06,750
+into the conversation is just understanding the nature of how large language models 
+
+105
+00:08:06,750 --> 00:08:13,583
+work. So if you were doing a search for promoting a website and you did it on Google, 
+
+106
+00:08:13,583 --> 00:08:15,550
+you might say, how do I promote a website? 
+
+107
+00:08:15,584 --> 00:08:20,717
+And might come up with ideas around search engine optimization and backlinks might 
+
+108
+00:08:20,717 --> 00:08:22,984
+come up with content creation, or it 
+
+109
+00:08:22,984 --> 00:08:28,717
+might come up with search engine marketing, so Facebook ads or Google AdWords. Now, 
+
+110
+00:08:28,717 --> 00:08:33,951
+you shouldn't generally use your large language models the way you work with Google. 
+
+111
+00:08:34,251 --> 00:08:40,251
+Instead, what you want to do is get it to become a certain type of person in the 
+
+112
+00:08:40,251 --> 00:08:45,951
+real world, because the way large language models generate the next token is usually 
+
+113
+00:08:45,951 --> 00:08:52,118
+based on what come before. So what I like to do is train it and say you are a specific 
+
+114
+00:08:52,118 --> 00:08:56,385
+sort of person, but again, I don't come up with that idea. I let that build it for 
+
+115
+00:08:56,385 --> 00:09:01,218
+myself. So let's have a look at that and what we'll do is we'll jump over to the 
+
+116
+00:09:01,218 --> 00:09:05,485
+original conversation and we'll take it to the top. Now, a lot of this was done just 
+
+117
+00:09:05,485 --> 00:09:10,319
+talking into the microphone. So there's all sorts of typos going on in in here, but 
+
+118
+00:09:10,319 --> 00:09:15,086
+it was still quite accurate. So I said, you are going to design a user interface. 
+
+119
+00:09:15,252 --> 00:09:19,352
+I'm going to give you the details. That's the requirements document that you just 
+
+120
+00:09:19,352 --> 00:09:24,886
+looked at, and it said, if I wanted to develop a role under which you operate. So 
+
+121
+00:09:24,886 --> 00:09:30,986
+basically what sort of human are you and your experiences and your strengths is building 
+
+122
+00:09:30,986 --> 00:09:38,286
+multi app user experiences. Give it examples like Teams and Slack, stuff like that. 
+
+123
+00:09:38,286 --> 00:09:44,187
+I mentioned concepts like multiple plugins or multiple sub apps. I give it examples 
+
+124
+00:09:44,187 --> 00:09:45,653
+and it doesn't even get the 
+
+125
+00:09:45,687 --> 00:09:49,587
+text, right? But it doesn't matter. We've got visual Studio going in there. 
+
+126
+00:09:49,587 --> 00:09:54,420
+And with all this information just said directly into the microphone, it ends up 
+
+127
+00:09:54,420 --> 00:10:00,221
+coming up with what is considered a pretty good role for a multi-platform UX UI 
+
+128
+00:10:00,254 --> 00:10:05,121
+systems architect. I don't think I use the term systems architect anywhere, but it 
+
+129
+00:10:05,121 --> 00:10:10,888
+knew how to design this. So this then becomes the full context and you just paste 
+
+130
+00:10:10,888 --> 00:10:15,121
+the prompt that you want directly after you've built the role that you want.
+
+131
+00:10:15,154 --> 00:10:20,921
+So about a minute after actually pasting this in, we got this little button here 
+
+132
+00:10:20,921 --> 00:10:25,155
+that we can click to pull up the application. We also got a summary which I never 
+
+133
+00:10:25,155 --> 00:10:31,288
+bothered to read until now, and then realized it had implemented the command and 
+
+134
+00:10:31,288 --> 00:10:35,088
+control K. Let's go and check whether that worked, because I haven't tested that 
+
+135
+00:10:35,122 --> 00:10:39,489
+yet. So we come over to the application. We've got our light and our dark mode. We've 
+
+136
+00:10:39,489 --> 00:10:45,522
+got our expanding menu which has the individual apps that we want. We have the ability 
+
+137
+00:10:45,522 --> 00:10:50,689
+to lock the menu in place by clicking the settings here in the real world, other 
+
+138
+00:10:50,689 --> 00:10:55,289
+sorts of menus might pop up there. Then we've got the menus related to the individual 
+
+139
+00:10:55,289 --> 00:11:00,323
+app. Now let's see what happens if we press command K, it looks like it's doing something. 
+
+140
+00:11:00,356 --> 00:11:06,023
+we can not do anything right now, but all of this functionality all worked in one 
+
+141
+00:11:06,056 --> 00:11:10,856
+hit by getting the role right and just having a conversation about what you do and 
+
+142
+00:11:10,856 --> 00:11:11,956
+what you don't want.
+
+143
+00:11:11,956 --> 00:11:17,123
+I think one final useful test while we have this is if we look at the underlying 
+
+144
+00:11:17,257 --> 00:11:22,323
+HTML, we've got a bunch of CSS going on here. If we go to the very bottom, we've 
+
+145
+00:11:22,323 --> 00:11:28,090
+got a little bit of JavaScript going on, and above that raw HTML. So this is not 
+
+146
+00:11:28,090 --> 00:11:33,224
+the sort of format I want to use in the application I'm building here. So this application 
+
+147
+00:11:33,224 --> 00:11:40,724
+is using React. It's got Shad CN, and Tailwind CSS. So what I've done is I've just 
+
+148
+00:11:40,724 --> 00:11:45,824
+started a remix on the application that we've put together, and we'll just test a 
+
+149
+00:11:45,824 --> 00:11:51,258
+little prompt. What would it take to turn the entire application structure into a 
+
+150
+00:11:51,258 --> 00:11:58,091
+React component using Shad CN and Tailwind Cs, and let's just see what it comes up 
+
+151
+00:11:58,091 --> 00:11:58,325
+with. 
+
+152
+00:11:58,325 --> 00:12:03,625
+So we've got a bunch of code being written at the moment. This is the React desktop 
+
+153
+00:12:03,625 --> 00:12:06,192
+shell with Shad cn slash 
+
+154
+00:12:06,192 --> 00:12:06,292
+ui, 
+
+155
+00:12:06,292 --> 00:12:12,025
+starting to write the app panel component right there. We've got application items, 
+
+156
+00:12:12,025 --> 00:12:14,959
+we've got a little bit of HTML being embedded in here. 
+
+157
+00:12:15,025 --> 00:12:18,125
+Here's our light dart mode component being written. 
+
+158
+00:12:18,125 --> 00:12:21,225
+We've got something pretty ugly coming together at the moment.
+
+159
+00:12:21,225 --> 00:12:25,559
+Now, the reason this is showing up like this is if we look at the underlying code, 
+
+160
+00:12:25,559 --> 00:12:30,826
+all we have is the code for the individual components. And this is probably perfect 
+
+161
+00:12:30,826 --> 00:12:36,426
+if we wanted to take it over as components into the existing application, but I think 
+
+162
+00:12:36,426 --> 00:12:40,593
+we should do a little more. So when you look on the left here, it talks about the 
+
+163
+00:12:40,593 --> 00:12:46,193
+architecture changes that it's made. It's told us about the Shad CN UI components. 
+
+164
+00:12:46,193 --> 00:12:50,626
+It's used and it's got other information. But I just asked it a simple question. 
+
+165
+00:12:50,926 --> 00:12:56,627
+Would you be able to recreate a HTML page that is using React and actually works? 
+
+166
+00:12:56,660 --> 00:13:01,827
+What would be your strategy? Is it as simple as a HTML page or do we need to do more? 
+
+167
+00:13:01,994 --> 00:13:06,927
+And it starts working through it? It's using A CDN when we look at the code in a 
+
+168
+00:13:06,927 --> 00:13:12,661
+moment. So let's just go and click on this and see what we get. And we've got the 
+
+169
+00:13:12,827 --> 00:13:19,094
+HTML. We're using CDNs to go and get Tailwind to go and get React. Everything else 
+
+170
+00:13:19,094 --> 00:13:24,094
+is just being written. And so when we run it, it looks like we've got a real application. 
+
+171
+00:13:24,328 --> 00:13:28,294
+Now I might just hit the publish button and see what happens from here.
+
+172
+00:13:28,294 --> 00:13:29,795
+So we click on our
+
+173
+00:13:29,795 --> 00:13:34,595
+published link and it takes us over here. We've got some errors, but let's just see 
+
+174
+00:13:34,828 --> 00:13:39,662
+what it does. Now it doesn't quite look as good as the HTML version. So there'll 
+
+175
+00:13:39,762 --> 00:13:45,528
+be a few changes that we need to do. We do have the drop out menu. It doesn't look 
+
+176
+00:13:45,528 --> 00:13:51,295
+like it locks down. So that's not working the same. If we press command K let's see 
+
+177
+00:13:51,295 --> 00:13:56,429
+what we get there. We've got the ability to search. So if I type in slack it finds 
+
+178
+00:13:56,429 --> 00:14:00,262
+it. So it's now actually working which is good and light 
+
+179
+00:14:00,262 --> 00:14:04,396
+and dark mode. There's a little bit of issues with this, but otherwise we've been 
+
+180
+00:14:04,429 --> 00:14:10,396
+able to create all our components 
+and we've been able to see what they could look like in a hosted application.
+
+181
+00:14:10,396 --> 00:14:17,029
+So to recap what we've done, there is created a simple user experience having just 
+
+182
+00:14:17,029 --> 00:14:21,930
+a conversational prompt and a role based prompt. Now, if you're interested in learning 
+
+183
+00:14:21,930 --> 00:14:26,830
+to code with me, you can come over to the AppyDave website, book a call, and we can 
+
+184
+00:14:26,830 --> 00:14:31,630
+figure out how that could work for you. Otherwise, like and subscribe because in 
+
+185
+00:14:31,630 --> 00:14:36,830
+the next video, I'm going to be doing more on this app-a-day sort of concept and 
+
+186
+00:14:36,830 --> 00:14:41,864
+testing my ideas around coding and software architecture. I'm AppyDave see you in 
+
+187
+00:14:41,864 --> 00:14:42,597
+the next video.

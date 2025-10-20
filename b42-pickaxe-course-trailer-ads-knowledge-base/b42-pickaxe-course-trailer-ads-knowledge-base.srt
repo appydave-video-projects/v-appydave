@@ -1,0 +1,1019 @@
+1
+00:00:00,00 --> 00:00:04,650
+Have you ever wanted to write video ad scripts that actually convert? If you've ever 
+
+2
+00:00:04,650 --> 00:00:08,650
+needed to write a script for YouTube or other sorts of content, you know that a video 
+
+3
+00:00:08,650 --> 00:00:10,650
+ad is at a whole different level.
+
+4
+00:00:10,660 --> 00:00:16,350
+In the last video, we built a script writing automation using PickAxe. Here's a snippet 
+
+5
+00:00:16,350 --> 00:00:18,350
+from that particular creation.
+
+6
+00:00:18,360 --> 00:00:23,50
+In this video, we're going to take things up a notch by adding in curated knowledge 
+
+7
+00:00:23,50 --> 00:00:28,530
+based on exceptional ad scripts, and we're going to drop it into the PickAxe automation 
+
+8
+00:00:28,530 --> 00:00:32,380
+using the knowledge capability. I'm AppyDave. Let's get into it.
+
+9
+00:00:32,390 --> 00:00:37,760
+Okay, so our goal is to take the script writing bot that we used in the last video 
+
+10
+00:00:37,760 --> 00:00:43,140
+and level up its capabilities. And what we're going to do is start from the original 
+
+11
+00:00:43,140 --> 00:00:48,120
+hook based script, and we're going to go into PickAxe. And from here we can edit 
+
+12
+00:00:48,140 --> 00:00:49,670
+this particular PickAxe 
+
+13
+00:00:49,690 --> 00:00:54,990
+and we can see that it's simply a set of fields that we can fill in and a fairly 
+
+14
+00:00:54,990 --> 00:01:00,720
+detailed prompt with insertion points for each of those fields. And that's what created 
+
+15
+00:01:00,720 --> 00:01:05,910
+the script that you just saw. What we'd like to do next is start making use of the 
+
+16
+00:01:05,910 --> 00:01:11,40
+knowledge base. And with the knowledge base, what we can do is get a curated list 
+
+17
+00:01:11,40 --> 00:01:16,890
+of best practices for script writing, for say TikTok ads, or YouTube or Facebook 
+
+18
+00:01:16,920 --> 00:01:21,990
+ads. Load 'em all up in here. And we may also come back and change a little bit of 
+
+19
+00:01:21,990 --> 00:01:25,890
+the prompt to support the fact that we have a knowledge base. And let's say if 
+
+20
+00:01:25,900 --> 00:01:28,890
+we can do a much better video advertising script.
+
+21
+00:01:28,900 --> 00:01:32,820
+So the first thing we're going to do is we'll come to the knowledge base and we're 
+
+22
+00:01:32,820 --> 00:01:36,860
+going to connect a file. Now we haven't created a file yet. So let's see how we can 
+
+23
+00:01:36,860 --> 00:01:43,220
+do that. Now I've got in here a bunch of scripts from five different videos that 
+
+24
+00:01:43,220 --> 00:01:49,460
+are all quite similar to each other, which I thought were good examples of YouTube 
+
+25
+00:01:49,460 --> 00:01:54,860
+video ads, and I'll just read one of them from the top. You open ChatGPT like it's 
+
+26
+00:01:54,860 --> 00:02:00,60
+a vending machine for viral content. But what came out? Beige emotionless buzzword 
+
+27
+00:02:00,100 --> 00:02:05,660
+salad. So this was the style of video I wanted to be able to reproduce for myself. 
+
+28
+00:02:05,660 --> 00:02:10,940
+So I've taken all five transcripts and I've just taken them over to ChatGPT where 
+
+29
+00:02:10,940 --> 00:02:17,140
+I've said read. And by doing that, I've put it into the knowledge base of a conversation. 
+
+30
+00:02:17,140 --> 00:02:22,260
+Once it's absorbed, I can then start doing some additional simple, prompt engineering 
+
+31
+00:02:22,300 --> 00:02:24,860
+to turn this into something really rich.
+
+32
+00:02:24,860 --> 00:02:29,70
+So rather than reading this bit of the prompt here, all it was was four different 
+
+33
+00:02:29,70 --> 00:02:33,950
+questions that I was trying to gather information around the five scripts that I 
+
+34
+00:02:33,950 --> 00:02:36,670
+provided. So let's have a look at the answers to them.
+
+35
+00:02:36,690 --> 00:02:41,230
+So when it read through all five scripts, it worked out that four of them were actually 
+
+36
+00:02:41,230 --> 00:02:46,470
+all pretty similar in nature. They were this hard, impacting a lot of swear words 
+
+37
+00:02:46,670 --> 00:02:52,390
+aimed at a male Gen Z sort of audience, sort of aggressive humor. So I knew about 
+
+38
+00:02:52,390 --> 00:02:57,150
+that. There was also a fifth one in there that I hadn't been fully aware of the format, 
+
+39
+00:02:57,150 --> 00:03:01,990
+but it was basically the coaching unlock formula where you might have a statement 
+
+40
+00:03:01,990 --> 00:03:04,790
+like, here's how you actually do prompt engineering.
+
+41
+00:03:04,790 --> 00:03:10,80
+Now that led into my second question, which was what sort of advert were we seeing 
+
+42
+00:03:10,80 --> 00:03:15,120
+here? And the reason this is important is that to reverse engineer and build your 
+
+43
+00:03:15,120 --> 00:03:20,520
+own high performing adverts, you can't just clone someone else. You have to understand 
+
+44
+00:03:21,00 --> 00:03:25,440
+the nature of how it's put together and we can see this. What style of advert? So 
+
+45
+00:03:25,440 --> 00:03:30,80
+the shock and roast marketing is Gary Vee meets South Park sort of thing. 
+
+46
+00:03:30,90 --> 00:03:34,840
+got pattern interrupt plus tribal rallying. So we've got pushes away the normies, 
+
+47
+00:03:34,880 --> 00:03:41,00
+attracts the rebels. So this particular style of advert is going to be really useful 
+
+48
+00:03:41,160 --> 00:03:46,320
+for a type of customer, a type of avatar if you like. But I did want to have other 
+
+49
+00:03:46,320 --> 00:03:51,800
+types of avatars that I could create video adverts for that would resonate with them 
+
+50
+00:03:51,800 --> 00:03:53,760
+more so than this particular style.
+
+51
+00:03:53,760 --> 00:03:59,210
+Now, my third question was other types of avatars. How would storytelling in video 
+
+52
+00:03:59,210 --> 00:04:04,330
+adverts relate to them? And it's come up with three tonal pivots to soften the structure. 
+
+53
+00:04:04,330 --> 00:04:09,90
+We've got the empathetic coach, curious teacher, and the story first mentor, 
+
+54
+00:04:09,90 --> 00:04:14,430
+what I think we can do with the advertising script generation bot is have one seed 
+
+55
+00:04:14,430 --> 00:04:20,630
+story and produce 3 or 4 totally different types of adverts for different audiences.
+
+56
+00:04:20,660 --> 00:04:25,240
+The last question that I wanted clarity from was this separation of story from the 
+
+57
+00:04:25,240 --> 00:04:29,200
+actual structure of the adverts. So it's come up with the idea that you should be 
+
+58
+00:04:29,200 --> 00:04:34,280
+able to have a very simple and bland story that you work from, and from that it can 
+
+59
+00:04:34,280 --> 00:04:40,360
+identify the psychological triggers, like what's going on that we can hone in on 
+
+60
+00:04:40,400 --> 00:04:46,00
+for any sort of advertising structure. Once that's in place, we can wrap all of that 
+
+61
+00:04:46,00 --> 00:04:50,920
+into an advertising transcript using the various structures. And we're looking at 
+
+62
+00:04:50,920 --> 00:04:55,00
+one here that has the hook, the punch, the insight and the call to action.
+
+63
+00:04:55,00 --> 00:05:00,140
+Now we're about to do some research, but I had one more question to ask, and it was 
+
+64
+00:05:00,140 --> 00:05:04,460
+related to this statement that the three tonal pivots that we're seeing right here 
+
+65
+00:05:04,660 --> 00:05:09,340
+would soften the delivery. And the last thing I needed was for the adverts to lose 
+
+66
+00:05:09,340 --> 00:05:14,620
+their energy, to not do what adverts are meant to do, which is to create calls to 
+
+67
+00:05:14,620 --> 00:05:16,820
+action to have click through rates.
+
+68
+00:05:16,830 --> 00:05:21,860
+So I asked this question about will it affect the actual advertisements, and it's 
+
+69
+00:05:21,860 --> 00:05:27,220
+come up with some useful information stating that these styles can be really effective 
+
+70
+00:05:27,260 --> 00:05:28,20
+advertising 
+
+71
+00:05:28,30 --> 00:05:31,280
+But you've got to make sure that things are punchy and that you don't slow down.
+
+72
+00:05:31,300 --> 00:05:35,430
+Now, the inside it's given on the new styles is that you don't need to be rude, which 
+
+73
+00:05:35,430 --> 00:05:41,390
+is what the first advert style was to create anxiety or tension within the adverts, 
+
+74
+00:05:41,390 --> 00:05:46,680
+which helps to create click through rates. And the TLDR the "too long, didn't read" 
+
+75
+00:05:46,990 --> 00:05:52,230
+is that for the empathetic coach, it would require fast emotional resonance. Immediate 
+
+76
+00:05:52,230 --> 00:05:57,350
+problem identification. We've got the curious teacher here high concept hook or a 
+
+77
+00:05:57,350 --> 00:06:03,30
+surprising truth in the next two seconds. And the story first mentor just needs to 
+
+78
+00:06:03,70 --> 00:06:06,510
+tease the conflict fast and character connection. 
+
+79
+00:06:06,530 --> 00:06:11,850
+now while we're talking about TLDR, I want to take you over to AI. TLDR which is 
+
+80
+00:06:11,850 --> 00:06:16,770
+the whole reason that this video advert script system is being created.
+
+81
+00:06:16,800 --> 00:06:22,760
+Now AI-TLDR has been one of my experiment channels and in this it's currently got 
+
+82
+00:06:22,760 --> 00:06:29,720
+150 videos, 850 odd subscribers, and most of the videos here are all on various forms 
+
+83
+00:06:29,720 --> 00:06:36,360
+of AI style content creation, whether it be using notebook LLM or using design, which 
+
+84
+00:06:36,360 --> 00:06:41,40
+is an incredible animation tool. We use a lot of Leonardo. We've created a whole 
+
+85
+00:06:41,40 --> 00:06:45,920
+video trailers with this and avatars. And it occurred to me that as I'm building 
+
+86
+00:06:45,920 --> 00:06:51,280
+out this particular channel, that all the lessons that are learned in this are really 
+
+87
+00:06:51,280 --> 00:06:55,560
+easy to transfer to people that want to create their own YouTube channels. The problem 
+
+88
+00:06:55,560 --> 00:07:02,40
+I had was that I didn't know how to send people to the actual course. It's not a 
+
+89
+00:07:02,40 --> 00:07:06,480
+skill that I've got, so I thought the first thing I've got to do is create video 
+
+90
+00:07:06,480 --> 00:07:07,440
+advert trailers, 
+
+91
+00:07:07,460 --> 00:07:10,450
+and that's what we're enhancing in this PickAxe today.
+
+92
+00:07:10,460 --> 00:07:14,240
+So if you want to learn the multiple techniques that we're using on this particular 
+
+93
+00:07:14,240 --> 00:07:19,520
+channel to build AI generated content, then come over to AI. TLDR and there'll be 
+
+94
+00:07:19,520 --> 00:07:23,800
+a link in the description on how to access the upcoming course.
+
+95
+00:07:23,800 --> 00:07:29,130
+Now we're just about ready to create the document that will be in our knowledge base. 
+
+96
+00:07:29,130 --> 00:07:34,730
+So I've taken a screenshot of PickAxe all this information, including all the input 
+
+97
+00:07:34,730 --> 00:07:40,210
+variables, and I've asked it a question, basically stating that it should build up 
+
+98
+00:07:40,250 --> 00:07:44,730
+a detailed research question. And that's what it's gone and done. It's come up with 
+
+99
+00:07:44,730 --> 00:07:49,370
+information about understanding that there are five different advert styles that 
+
+100
+00:07:49,370 --> 00:07:54,90
+we want to work with, that it's about getting the structure, understanding how story 
+
+101
+00:07:54,90 --> 00:08:00,650
+integration works. And also really important is can it come up with examples from 
+
+102
+00:08:00,650 --> 00:08:04,770
+the real world that fit these sort of advert structures? 
+
+103
+00:08:04,800 --> 00:08:08,840
+and then it's just going to structure the report for us. So let's see what it came 
+
+104
+00:08:08,840 --> 00:08:09,80
+up with.
+
+105
+00:08:09,100 --> 00:08:14,320
+So I ran the research prompt through ChatGPT Deep research. We've got a detailed 
+
+106
+00:08:14,320 --> 00:08:18,680
+activity log here. It asked a couple of questions up front about whether I wanted 
+
+107
+00:08:18,680 --> 00:08:22,800
+English or non-English. It also asked if I wanted to target a particular sort of 
+
+108
+00:08:22,800 --> 00:08:27,960
+product like coaching or e-commerce. And I said, no, this is only for digital courses. 
+
+109
+00:08:27,960 --> 00:08:32,280
+So everything that it's come up with, we've got the short form video scripts that 
+
+110
+00:08:32,280 --> 00:08:37,520
+you might see on the major social networks. We've got the different types of scripts 
+
+111
+00:08:37,600 --> 00:08:42,360
+worked out. Plus, how are the variables that we've already identified going to map 
+
+112
+00:08:42,360 --> 00:08:43,320
+into all of this?
+
+113
+00:08:43,330 --> 00:08:47,900
+So we have a detailed walkthrough of each of the five. We've got the roast to call 
+
+114
+00:08:47,900 --> 00:08:52,740
+out with the emotional effectiveness, the structure that goes on, and the type of 
+
+115
+00:08:52,740 --> 00:08:55,300
+audience that it would resonate with.
+
+116
+00:08:55,300 --> 00:09:00,240
+It also talks about turning negative concepts into positive returns for the audience.
+
+117
+00:09:00,260 --> 00:09:05,140
+And we get a detailed analysis for the other four types. So with the Tactical Coach, 
+
+118
+00:09:05,320 --> 00:09:10,390
+what we're doing here is delivering quick wins and actionable value upfront. 
+
+119
+00:09:10,400 --> 00:09:14,930
+The empathetic coach is about deep emotional resonance and trust building. 
+
+120
+00:09:14,930 --> 00:09:20,580
+The Cur teacher is providing intrigue and intellectual stimulation. And what I think 
+
+121
+00:09:20,580 --> 00:09:24,30
+is interesting about all five types that we're looking at 
+
+122
+00:09:24,30 --> 00:09:30,40
+is that we should be able to take any story, repurpose it, and put it out as a collection 
+
+123
+00:09:30,70 --> 00:09:34,120
+of adverts of which some will resonate with people, some won't. 
+
+124
+00:09:34,130 --> 00:09:40,70
+so if you like to receive information in the story first mentor style, which is captivating 
+
+125
+00:09:40,70 --> 00:09:45,170
+through narrative and authenticity, then you'll resonate with that advert style. 
+
+126
+00:09:45,200 --> 00:09:50,60
+whereas other people resonate with the story through a shock and awe sort of approach.
+
+127
+00:09:50,60 --> 00:09:54,700
+Now it's also come up with a good variable mapping concept, and this is useful when 
+
+128
+00:09:54,700 --> 00:09:59,980
+we think of the way people can input into the tool. And they might not necessarily 
+
+129
+00:09:59,980 --> 00:10:04,540
+know what to fill in. Like do I type in shock? What does that actually mean? Do I 
+
+130
+00:10:04,540 --> 00:10:06,300
+do emotional failure?
+
+131
+00:10:06,330 --> 00:10:11,80
+What does that mean behind the scenes. And this has all been mapped. So when we look 
+
+132
+00:10:11,80 --> 00:10:16,720
+at the hook type and we say this is what it can look like in a roast callout, but 
+
+133
+00:10:16,720 --> 00:10:20,480
+we've got one for each of the five different styles going on here.
+
+134
+00:10:20,500 --> 00:10:25,630
+Now it's given me three new variables. If I want to get really detailed in the configuration, 
+
+135
+00:10:25,630 --> 00:10:30,70
+I'm not sure if I'm going to do that with this particular version of the add bot, 
+
+136
+00:10:30,100 --> 00:10:34,680
+the one thing that's really powerful here is the real world examples by each of the 
+
+137
+00:10:34,680 --> 00:10:38,880
+different styles. So if we look at the roast call out examples.
+
+138
+00:10:38,900 --> 00:10:43,740
+Through to the empathetic coach. We're feeling burnt out. Juggling your business 
+
+139
+00:10:43,740 --> 00:10:48,860
+or family, I get it, I've been there, and it doesn't have to be that way. So all 
+
+140
+00:10:48,860 --> 00:10:53,140
+the way through here, we've got two different examples for each of the different 
+
+141
+00:10:53,140 --> 00:10:58,820
+styles that are based on real world adverts that actually convert and get business.
+
+142
+00:10:58,830 --> 00:11:04,760
+And the final set of instructions is how can we take simple stories and turn them 
+
+143
+00:11:04,760 --> 00:11:09,760
+into each of the different advert types step by step? So there's a real detailed 
+
+144
+00:11:09,760 --> 00:11:16,200
+analysis. With all this in place, the only thing to do is to download it and to upload 
+
+145
+00:11:16,200 --> 00:11:22,520
+it into PickAxe. And the good thing about deep research in ChatGPT is that you can 
+
+146
+00:11:22,520 --> 00:11:26,920
+go and click this button here, and what it does is make it available to you as a 
+
+147
+00:11:26,960 --> 00:11:31,760
+PDF. So we'll just click on that button and next we'll go and upload it into PickAxe.
+
+148
+00:11:31,760 --> 00:11:36,500
+Now, with our complete knowledge base downloaded, we can come over to PickAxe, click 
+
+149
+00:11:36,500 --> 00:11:41,580
+on the knowledge tab here and we can just connect the file. But you might be thinking 
+
+150
+00:11:41,580 --> 00:11:46,460
+so far that's actually been very detailed. And if you were to do it yourself, could 
+
+151
+00:11:46,460 --> 00:11:51,780
+you do it now? It's relatively easy to follow the the process, but if you want to 
+
+152
+00:11:51,780 --> 00:11:56,380
+work one on one with me, then just come over to AppyDave Comm. You can click on the 
+
+153
+00:11:56,420 --> 00:12:01,340
+Book a Call button, and from there we can either do a discovery session or just a 
+
+154
+00:12:01,340 --> 00:12:06,940
+one hour consult just to see what it is that you're trying to achieve. But for now, 
+
+155
+00:12:06,940 --> 00:12:12,500
+let's just click on the connect files. From there we can go add. With that I'm going 
+
+156
+00:12:12,500 --> 00:12:17,580
+to upload a file in this particular case. And I've put the file into the same place 
+
+157
+00:12:17,580 --> 00:12:20,820
+as this recording. And we'll just let it load in.
+
+158
+00:12:20,830 --> 00:12:25,450
+Now. Once it's finished uploading, we just click on the documents we want to connect 
+
+159
+00:12:25,450 --> 00:12:27,330
+and just press the connect button.
+
+160
+00:12:27,330 --> 00:12:31,280
+So with our document uploaded, we could turn it off. That's not the point of this. 
+
+161
+00:12:31,280 --> 00:12:36,80
+So we want to leave it on. And you can also have a look at it. Now the document is 
+
+162
+00:12:36,120 --> 00:12:42,960
+actually 34 pages long, with the final set of information just being some citations 
+
+163
+00:12:43,120 --> 00:12:48,400
+to other resources that it can look at. So a heck of a lot of great information that 
+
+164
+00:12:48,400 --> 00:12:53,720
+will help us generate our scripts effectively. One other thing that I've made a minor 
+
+165
+00:12:53,720 --> 00:12:58,680
+change to is just when should it pick it? Now it should pick it every time, I believe. 
+
+166
+00:12:58,720 --> 00:13:04,120
+But I've just said refer to the high performance, short form ad doc examples, structures 
+
+167
+00:13:04,120 --> 00:13:08,240
+and emotional hooks across the five different advert types.
+
+168
+00:13:08,260 --> 00:13:12,600
+Now I'm just going to make a small modification to the role. One of the big things 
+
+169
+00:13:12,600 --> 00:13:18,200
+is that the tailored platform trends and digital education products have been added 
+
+170
+00:13:18,200 --> 00:13:23,800
+in. Next thing is to have a look at the instruction set which had these original 
+
+171
+00:13:23,800 --> 00:13:26,320
+variables. We are going to need some new ones.
+
+172
+00:13:26,330 --> 00:13:31,720
+So I've taken the instruction, the prompt as such. It's got some modifications. One 
+
+173
+00:13:31,720 --> 00:13:36,360
+of the main ones being is that there are new variables being added. We've also got 
+
+174
+00:13:36,360 --> 00:13:42,80
+the add styles. This I'm going to do as a drop down. So let's just migrate it all 
+
+175
+00:13:42,80 --> 00:13:42,560
+over.
+
+176
+00:13:42,560 --> 00:13:47,940
+Now I've taken the prompt from the original chat bot, and I've just updated it with 
+
+177
+00:13:48,180 --> 00:13:51,980
+anywhere there's a new field. So we've got the four that are going in right here. 
+
+178
+00:13:52,20 --> 00:13:58,20
+There's also a new ad style which has been reproduced as a radio button list. That 
+
+179
+00:13:58,20 --> 00:14:03,260
+way we can only select one particular value. I've also put in a little bit more description 
+
+180
+00:14:03,260 --> 00:14:08,340
+with each of the labels. So then when we look at it over from the public facing point 
+
+181
+00:14:08,340 --> 00:14:13,180
+of view, we've still got the same heading, the same description, but now we can select 
+
+182
+00:14:13,180 --> 00:14:18,500
+a particular ad style that we want to do and then go and fill the values. So let's 
+
+183
+00:14:18,500 --> 00:14:19,460
+give it a test.
+
+184
+00:14:19,460 --> 00:14:24,120
+So we're testing this out for the very first time. And I've started pre filling in 
+
+185
+00:14:24,120 --> 00:14:29,200
+some values. I'm going to go with the curious teacher approach. Now before I go into 
+
+186
+00:14:29,200 --> 00:14:35,00
+details of this I will also point out that I created a fake story. So the story is 
+
+187
+00:14:35,00 --> 00:14:39,80
+I've been thinking about starting a YouTube channel for a while. I've tried a couple 
+
+188
+00:14:39,120 --> 00:14:44,600
+of times, recorded a few videos, tested some formats. So talks about different tools 
+
+189
+00:14:44,600 --> 00:14:50,600
+that I might have used 11 labs for voice capture, for video editing, Canva for presentation, 
+
+190
+00:14:50,640 --> 00:14:56,480
+sort of setup. And what I really want is a bunch of tutorials for the different styles 
+
+191
+00:14:56,480 --> 00:14:57,920
+of AI videos.
+
+192
+00:14:57,930 --> 00:15:02,590
+And the reason I've picked this particular storyline is that's exactly what we've 
+
+193
+00:15:02,590 --> 00:15:08,140
+done over on AI TLDR. We've gone through the process in the past of figuring out 
+
+194
+00:15:08,140 --> 00:15:12,340
+how do you do different sorts of videos, what sort of tools do you use? And this 
+
+195
+00:15:12,340 --> 00:15:16,780
+is actually the course that we want to market as a result of this script building 
+
+196
+00:15:16,780 --> 00:15:22,570
+exercise. So if we come back to the actual setup screen, we've got the curiosity 
+
+197
+00:15:22,570 --> 00:15:24,460
+teacher as the starting point, 
+
+198
+00:15:24,460 --> 00:15:29,170
+and we'll leave the hook tight at curiosity. Similar to the actual ad style we've 
+
+199
+00:15:29,170 --> 00:15:34,180
+got, I failed. This is too hard. This is some of the reasons why you give up on the 
+
+200
+00:15:34,180 --> 00:15:38,680
+different techniques. It's aimed at the person who would actually like to solve the 
+
+201
+00:15:38,680 --> 00:15:39,850
+problem for themselves. 
+
+202
+00:15:39,860 --> 00:15:46,240
+the value that we wanna reveal is an actual course or a mini framework per type of 
+
+203
+00:15:46,240 --> 00:15:47,440
+video that you want to do. 
+
+204
+00:15:47,460 --> 00:15:53,50
+and then it's going to direct people to a community and a course. 
+
+205
+00:15:53,60 --> 00:15:57,260
+Now, I think in keeping with the curious teacher, I'm going to go with the tone as 
+
+206
+00:15:57,260 --> 00:16:02,870
+uplifting, the character archetype as coach and what's the belief that we're trying 
+
+207
+00:16:02,870 --> 00:16:08,30
+to shift? It's you need to hustle to, you just need a simple step-by-step guidance. 
+
+208
+00:16:08,330 --> 00:16:13,580
+So I'll just come back over here, copy. The fake story that we created, it was really 
+
+209
+00:16:13,580 --> 00:16:18,950
+just a generation, and I'm just going to paste it down into the story seed. Let's 
+
+210
+00:16:18,950 --> 00:16:19,790
+see what happens.
+
+211
+00:16:19,800 --> 00:16:21,880
+So we'll press submit 
+
+212
+00:16:21,900 --> 00:16:25,300
+So here's our first output. We've got the hook. Have you ever thought of starting 
+
+213
+00:16:25,300 --> 00:16:30,340
+a YouTube channel. But it's just impossible. You're not alone I get it. And through 
+
+214
+00:16:30,340 --> 00:16:35,500
+to a call to action, which is join our community today to transform your content 
+
+215
+00:16:35,500 --> 00:16:41,20
+creation journey. What I'll do next is I'm going to test this from a more vulgar, 
+
+216
+00:16:41,20 --> 00:16:45,820
+rude, shock point of view, and I'm going to do it within the testing capability. 
+
+217
+00:16:45,820 --> 00:16:48,140
+And then we'll produce a little video around it.
+
+218
+00:16:48,160 --> 00:16:52,410
+Now I've come over here to test a more Hollywood action style. So we're going to 
+
+219
+00:16:52,410 --> 00:16:57,750
+go with the roast call out. Now we're gonna go with shock. Bad technique is the reason. 
+
+220
+00:16:57,990 --> 00:17:03,60
+It's the idea of gurus selling you false hope. We are going to reveal a framework 
+
+221
+00:17:03,420 --> 00:17:08,700
+via a direct offer and we will go with sarcastic and rude. The person talking will 
+
+222
+00:17:08,700 --> 00:17:13,800
+be a drill sergeant and we're going to go with a belief shift. You need to hustle 
+
+223
+00:17:13,800 --> 00:17:18,750
+to, you need to get a life and ultimately you're going to gain something. And we'll 
+
+224
+00:17:18,750 --> 00:17:24,540
+go with the Gary v Alex, her Mozy style, mentioning that it's okay to swear. Now 
+
+225
+00:17:24,540 --> 00:17:29,310
+for a story. I've also changed the story right up a bit and I've said the content 
+
+226
+00:17:29,310 --> 00:17:30,60
+protocol 
+
+227
+00:17:30,60 --> 00:17:34,600
+and we got this idea of I woke up in a hotel room with no memory, a half rendered 
+
+228
+00:17:34,600 --> 00:17:39,880
+cap cut timeline playing on a loop, and a whispering in voice in my ear that says 
+
+229
+00:17:40,00 --> 00:17:45,10
+the algorithm has been compromised. So this has much more of a story appeal. So we'll 
+
+230
+00:17:45,10 --> 00:17:51,70
+just copy all of that, come back and paste it in and press test prompt and see what 
+
+231
+00:17:51,70 --> 00:17:51,880
+happens.
+
+232
+00:17:51,900 --> 00:17:58,30
+So it's starting to write out a story and it goes with hey, yeah, you looking, scrolling 
+
+233
+00:17:58,30 --> 00:18:02,590
+mindlessly, still thinking of those get rich quick videos will save your life.
+
+234
+00:18:02,600 --> 00:18:06,660
+So rather than me reading this out, what I'll do is I'll turn it into a quick eye 
+
+235
+00:18:06,700 --> 00:18:08,620
+video and let's see how it sounds.
+
+236
+00:18:08,630 --> 00:18:13,620
+So I wanna give you a conclusion and also just talk about one other aspect of this. 
+
+237
+00:18:13,680 --> 00:18:20,250
+So in conclusion, this creation of a script is not a lot better than the previous 
+
+238
+00:18:20,250 --> 00:18:26,100
+example. It's, it's okay, but the use of rag hasn't worked exactly the way I want. 
+
+239
+00:18:26,160 --> 00:18:30,690
+But let's have a look into why that could be. So if you go down to this little magnifying 
+
+240
+00:18:30,690 --> 00:18:31,980
+glass here and click on it, 
+
+241
+00:18:32,00 --> 00:18:34,670
+get to see the full prompt explored, 
+
+242
+00:18:34,700 --> 00:18:40,530
+which would be an improvement if we could, but what we can do is explore what information 
+
+243
+00:18:40,530 --> 00:18:43,230
+came out of the knowledge base. So at 
+
+244
+00:18:43,260 --> 00:18:48,690
+file name and we can see all the information that was returned and made available 
+
+245
+00:18:48,750 --> 00:18:54,870
+to the prompt. Now I increased the size of the information being returned and the 
+
+246
+00:18:54,870 --> 00:19:00,240
+relevancy score. So all the relevancy scores here on the right are fairly high. 
+
+247
+00:19:00,260 --> 00:19:05,50
+They're all above an initial value of 75. So if we go all the way down to the bottom, 
+
+248
+00:19:05,80 --> 00:19:10,900
+we don't see anything under 75. I also have a cutoff of a roundabout 
+
+249
+00:19:10,930 --> 00:19:15,800
+and it's that 3000 character limit, which is why this little green line is here. 
+
+250
+00:19:16,190 --> 00:19:21,860
+So what I think I want to do in future examples of using the rag and the knowledge 
+
+251
+00:19:21,860 --> 00:19:27,320
+base is to maybe split the file up into both the structure and the examples 
+
+252
+00:19:27,330 --> 00:19:31,730
+and maybe even a file of just turning stories into scripts 
+
+253
+00:19:31,730 --> 00:19:37,200
+so that I get much better modeling of input values to expected output values.
+
+254
+00:19:37,200 --> 00:19:41,570
+Anyway, I'm AppyDave. If you want to work one on one with me, then book a call. Otherwise 
+
+255
+00:19:41,570 --> 00:19:44,770
+please like and subscribe and I'll see you in the next video.

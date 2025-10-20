@@ -1,0 +1,1104 @@
+﻿1
+00:00:00,266 --> 00:00:04,566
+You know, you can build landing pages
+for websites like this one
+
+2
+00:00:04,566 --> 00:00:09,166
+and a variation on it
+just here using three simple prompts
+
+3
+00:00:09,166 --> 00:00:12,333
+in most of the various AI pair programmers,
+
+4
+00:00:12,566 --> 00:00:14,833
+and with a little bit of a custom
+instruction,
+
+5
+00:00:14,833 --> 00:00:19,133
+you can even change it up a little bit
+by giving it a bit of a Christmas theme.
+
+6
+00:00:19,167 --> 00:00:23,967
+So stay tuned as we explore three prompts
+that build these landing pages.
+
+7
+00:00:24,900 --> 00:00:29,534
+AI is all the rage. And you've decided that you want to create a little business 
+
+8
+00:00:29,634 --> 00:00:34,400
+around something to do with AI and thought, I need a website, I need a landing page. 
+
+9
+00:00:34,534 --> 00:00:39,134
+And now you're researching. Should I use Wix? Should I use WordPress? How do I create 
+
+10
+00:00:39,134 --> 00:00:43,934
+this? In this video, what I'd like to do is see if we can use three simple little 
+
+11
+00:00:43,934 --> 00:00:49,401
+prompts, a little bit of prompt engineering and vibe coding, and create our own landing 
+
+12
+00:00:49,401 --> 00:00:52,768
+page for a brand new business. I'm AppyDave,. Let's get into it.
+
+13
+00:00:53,001 --> 00:00:56,901
+Vibe coding is getting really powerful in the last couple of months. We're seeing 
+
+14
+00:00:56,901 --> 00:01:02,301
+an influx of people doing videos around this topic here at couple. I've done on building 
+
+15
+00:01:02,301 --> 00:01:07,968
+application shells recently. You can check out these videos over on my YouTube channel, 
+
+16
+00:01:08,168 --> 00:01:13,001
+but I've also been using it to work through React and Tailwind Componentry. This 
+
+17
+00:01:13,001 --> 00:01:18,335
+was a little application I put together yesterday and in the last week I've been 
+
+18
+00:01:18,335 --> 00:01:23,502
+working on this application that uses ai. We can press little buttons here to preload 
+
+19
+00:01:23,502 --> 00:01:29,502
+it with data, and as it works through, it can go off to external systems like N8N 
+
+20
+00:01:29,802 --> 00:01:35,602
+this application will go off and use AI to get questions relating to an incident 
+
+21
+00:01:35,602 --> 00:01:37,069
+in a medical situation.
+
+22
+00:01:37,069 --> 00:01:42,302
+Now. The client for that project came to me yesterday, gave me a few pieces of information, 
+
+23
+00:01:42,302 --> 00:01:47,802
+such as a logo and a couple of supporting documents and said, can you turn this into 
+
+24
+00:01:47,802 --> 00:01:49,302
+a website landing page? 
+
+25
+00:01:49,302 --> 00:01:53,269
+And so today that's what we're going to try and do using just three prompts.
+
+26
+00:01:53,269 --> 00:01:58,836
+So I think for today I am just going to go into ChatGTP and just get a starter conversation 
+
+27
+00:01:58,836 --> 00:02:04,303
+going on with the main ideas. So if I was building a landing page for a new business 
+
+28
+00:02:04,303 --> 00:02:10,203
+in HTML and Tailwind CSS, this is all the technology that I've said is available 
+
+29
+00:02:10,203 --> 00:02:10,903
+at the moment 
+
+30
+00:02:11,203 --> 00:02:16,803
+We need an agent or a person who is skilled in the art of making landing pages for 
+
+31
+00:02:16,803 --> 00:02:19,603
+websites, they understand marketing, that sort of stuff. 
+
+32
+00:02:19,870 --> 00:02:24,470
+the next thing we would need is the business or marketing collateral. So the information 
+
+33
+00:02:24,470 --> 00:02:27,203
+about the company or the business that we're trying to 
+
+34
+00:02:27,203 --> 00:02:31,737
+promote on the website. And the last thing we need to know is what would be the requirements 
+
+35
+00:02:31,737 --> 00:02:36,904
+document for the landing page? What would be the structure of the site? So I'm just 
+
+36
+00:02:36,904 --> 00:02:40,104
+going to put this information in and press enter for now. 
+
+37
+00:02:40,104 --> 00:02:45,770
+And what that's done is given us a breakdown of those three areas in just better 
+
+38
+00:02:45,770 --> 00:02:50,637
+writing than I could have done through the inputs. So we've got this role or agent 
+
+39
+00:02:50,637 --> 00:02:56,571
+definition, which is a marketing landing page designer. We've got the skills required 
+
+40
+00:02:56,571 --> 00:02:57,971
+for that particular entity. 
+
+41
+00:02:57,971 --> 00:03:01,604
+Now we've got the sort of information we should collect. I don't know that I'm gonna 
+
+42
+00:03:01,604 --> 00:03:06,038
+have it all, but we've got brand identity, like the logo. We do have colors and fonts. 
+
+43
+00:03:06,038 --> 00:03:09,671
+I don't have that at the moment. Don't currently have a mission and vision. I think. 
+
+44
+00:03:09,771 --> 00:03:13,671
+I haven't actually read all the documents and I don't think that matters too much. 
+
+45
+00:03:13,871 --> 00:03:17,671
+What you really wanna do is the better the information you have available, you just 
+
+46
+00:03:17,671 --> 00:03:21,238
+feed it all in. But this is the sort of information you're trying to come up with. 
+
+47
+00:03:21,505 --> 00:03:26,572
+And then the last one is, what would a requirements document or a product requirements 
+
+48
+00:03:26,572 --> 00:03:31,372
+document look like and the structure? So we've got all this information here. We're 
+
+49
+00:03:31,372 --> 00:03:35,305
+not going to implement it all. We're going to let AI do a lot of the work and we're 
+
+50
+00:03:35,305 --> 00:03:38,339
+just gonna vibe code something that we're happy with. 
+
+51
+00:03:38,439 --> 00:03:43,305
+So because this is a video and we're doing things visually, I just turned that information 
+
+52
+00:03:43,305 --> 00:03:47,872
+firstly into a PowerPoint presentation so I can describe it better to you. We need 
+
+53
+00:03:47,872 --> 00:03:52,106
+an agent role definition. We need business marketing collateral. And we're going 
+
+54
+00:03:52,106 --> 00:03:53,806
+to need a requirements document.
+
+55
+00:03:53,806 --> 00:03:58,572
+And I'm showing you this because when you're coding keep in mind that all the marketing 
+
+56
+00:03:58,572 --> 00:04:03,839
+imagery you want is as simple as taking the information and just shaping it into 
+
+57
+00:04:03,839 --> 00:04:09,673
+a picture of a particular style. This particular image I just said create image 1609 
+
+58
+00:04:09,706 --> 00:04:15,639
+aspect ratio. Use the Golden Age of Comics as the style that represents. And I said 
+
+59
+00:04:15,639 --> 00:04:19,306
+the three part section above as if it was a PowerPoint presentation.
+
+60
+00:04:19,306 --> 00:04:24,040
+Now, the first prompt that I want to create is going to be a persona. So the way 
+
+61
+00:04:24,040 --> 00:04:29,440
+we'll do that is we will just select the information it has right here. And I've 
+
+62
+00:04:29,440 --> 00:04:33,740
+just started. Can you take the following information and turn it into a persona. 
+
+63
+00:04:33,740 --> 00:04:36,807
+We'll paste it in and we'll just press enter on that.
+
+64
+00:04:36,807 --> 00:04:42,540
+So starting to write out information that we'll use in a variety of vibe coding environments. 
+
+65
+00:04:42,640 --> 00:04:47,740
+Now we have a persona document has been created. What I like to do here is just go 
+
+66
+00:04:47,740 --> 00:04:53,240
+into canvas mode. This information, we could use it from any number of vibe coding 
+
+67
+00:04:53,274 --> 00:04:58,341
+tools, but we just copy the information. We can close that down. Head over to VS 
+
+68
+00:04:58,341 --> 00:05:03,241
+code in this case. And I've just set up three blank documents. So the one we're starting 
+
+69
+00:05:03,241 --> 00:05:05,841
+off with is going to be the persona. 
+
+70
+00:05:06,074 --> 00:05:10,874
+we can see all the information that's there. We could edit it over here if we wanted 
+
+71
+00:05:10,874 --> 00:05:11,308
+to.
+
+72
+00:05:11,308 --> 00:05:16,708
+So the next thing we want to do is go and have a look at these documents. We've got 
+
+73
+00:05:16,708 --> 00:05:23,908
+two PDFs and a word document, and I'll just take us back to our GPT window. And essentially 
+
+74
+00:05:23,908 --> 00:05:28,675
+I want to build this area using that information. So I've just started a prompt that 
+
+75
+00:05:28,675 --> 00:05:34,042
+says can you develop a detailed overview of the company information using the attached 
+
+76
+00:05:34,042 --> 00:05:37,908
+documents? I'm also going to just paste in this regular information.
+
+77
+00:05:37,908 --> 00:05:43,042
+Now if we bring up the folder view that we had earlier, we can see these three documents. 
+
+78
+00:05:43,042 --> 00:05:47,409
+And hopefully we can just drag them in here. They're now attached and they're loading 
+
+79
+00:05:47,409 --> 00:05:53,275
+into memory. What I'd like it to do is read through all of these and apply the information, 
+
+80
+00:05:53,275 --> 00:06:04,076
+and just see if we can get a detailed brief related to this particular organisation.
+So that's just finished creating the information. We've got the company, it's called 
+
+81
+00:06:04,076 --> 00:06:10,176
+Supporting Signal. We've got a mission and a vision. We've got brand identity pillars, 
+
+82
+00:06:10,176 --> 00:06:14,943
+taglines, visual identity. So it looks like we don't have colors. 
+
+83
+00:06:14,943 --> 00:06:20,809
+edit this document dynamically here to adding some colors that make sense for this 
+
+84
+00:06:20,809 --> 00:06:26,510
+sort of organization. We've got a target audience personas, we've got social proof, 
+
+85
+00:06:26,510 --> 00:06:31,743
+differentiation, and we've got a little bit of existing information. 
+
+86
+00:06:31,943 --> 00:06:36,710
+I think for the colors, we should just be able to go back to the logo, which already 
+
+87
+00:06:36,710 --> 00:06:42,310
+has some colors in it. Well, we'll just add that in there and say, can you extract 
+
+88
+00:06:42,810 --> 00:06:44,410
+branding colors 
+
+89
+00:06:44,410 --> 00:06:45,477
+from logo? 
+
+90
+00:06:45,477 --> 00:06:47,277
+And we might also say, 
+
+91
+00:06:47,277 --> 00:06:51,010
+I've also added a little bit. You can add more branding colors 
+
+92
+00:06:51,010 --> 00:06:53,044
+if you think it makes sense. 
+
+93
+00:06:53,044 --> 00:06:59,044
+So we've got new colors being created. Now let's go and turn everything into a document. 
+
+94
+00:06:59,044 --> 00:07:03,411
+So I've just said, can you create brand details document using the recommended color 
+
+95
+00:07:03,411 --> 00:07:09,111
+palette from the AI's point of view? Plus I'm just gonna paste in the rest of the 
+
+96
+00:07:09,111 --> 00:07:14,111
+information that we had above. And this should turn it into a Canvas document. Start 
+
+97
+00:07:14,111 --> 00:07:18,811
+writing everything. There's a little button at the top of this where I can press 
+
+98
+00:07:18,811 --> 00:07:23,044
+copy and we'll just move it directly over to the file system. 
+
+99
+00:07:23,044 --> 00:07:28,678
+So here's our document. We'll go and press copy, go back to Visual Studio in this 
+
+100
+00:07:28,678 --> 00:07:32,978
+case, and we'll click on the brand details document and just paste everything in 
+
+101
+00:07:32,978 --> 00:07:33,678
+and save it.
+
+102
+00:07:33,678 --> 00:07:38,011
+So the last piece in the puzzle is to create a requirements document that we can 
+
+103
+00:07:38,011 --> 00:07:42,912
+use. Now, we do need to be careful that whatever we create right now doesn't get 
+
+104
+00:07:43,112 --> 00:07:48,545
+too influenced by the other two documents we've done. The role and the marketing 
+
+105
+00:07:48,545 --> 00:07:53,478
+collateral, mainly because we have detailed information there, it's in this conversation, 
+
+106
+00:07:53,745 --> 00:07:58,212
+but when we use it in another tool, I'll be using Claude Code, but it could be replit, 
+
+107
+00:07:58,445 --> 00:08:03,912
+it could be cursor. They are already provided as tangible finished documents. 
+
+108
+00:08:03,912 --> 00:08:07,612
+so what I've done is started a prompt that says, can you create a requirements document 
+
+109
+00:08:07,612 --> 00:08:14,979
+for me? The project is pure HTML and Tailwind CSS landing page. No JavaScript frameworks 
+
+110
+00:08:14,979 --> 00:08:20,813
+or backend logic. Keep the tech minimal and focused. Now, I've also said this prompt 
+
+111
+00:08:20,813 --> 00:08:25,946
+is being used in a separate chat bot and already has access to the two supporting 
+
+112
+00:08:25,946 --> 00:08:30,046
+documents, which is the brand details and the persona document that we've just talked 
+
+113
+00:08:30,046 --> 00:08:35,413
+about. You can let these documents inspire the structure, but don't integrate it. 
+
+114
+00:08:35,413 --> 00:08:39,213
+So in this case, it's a little bit fuzzy. I would write this prompt a little bit 
+
+115
+00:08:39,213 --> 00:08:44,913
+differently if I was going to do the actual vibe coding inside ChatGTP, but in this 
+
+116
+00:08:44,913 --> 00:08:46,680
+case, I'm just preparing documents. 
+
+117
+00:08:46,680 --> 00:08:51,680
+I might also just take the original information that was right here and throw it 
+
+118
+00:08:51,680 --> 00:09:00,714
+down the bottom. You can use this and we'll paste it in 
+and let's see what sort of a requirements document it produces for us. 
+
+119
+00:09:00,714 --> 00:09:05,314
+So we've got a detailed document with the project scope. The technology is listed. 
+
+120
+00:09:05,314 --> 00:09:09,580
+It looks like the page is going to have a hero, which is the main image at the top 
+
+121
+00:09:09,580 --> 00:09:14,714
+of the website. We've got some features who, it's for compliance and intelligence 
+
+122
+00:09:14,714 --> 00:09:15,247
+section. 
+
+123
+00:09:15,281 --> 00:09:19,814
+this is for government sponsored programs. So this is important. We've got testimonials, 
+
+124
+00:09:20,047 --> 00:09:25,181
+frequently asked questions, and a call to action and footer. We've got all the layout, 
+
+125
+00:09:25,214 --> 00:09:30,348
+SEO media and assets. I think we've even got the location of the file. So a simple 
+
+126
+00:09:30,348 --> 00:09:34,814
+HTML file with simple CSS and an assets folder. 
+
+127
+00:09:34,814 --> 00:09:39,315
+So we'll just copy the information and we'll go down to our requirements document 
+
+128
+00:09:39,315 --> 00:09:40,981
+and we'll paste everything in.
+
+129
+00:09:40,981 --> 00:09:45,815
+Now I plan to do a few versions of the landing page, and I'll do it from a few different 
+
+130
+00:09:45,848 --> 00:09:50,415
+techniques. So we'll start off in regular Claude at the moment and put in a prompt 
+
+131
+00:09:50,415 --> 00:09:54,815
+that says, can you become. Now what do we want to become? We want to become the persona 
+
+132
+00:09:54,815 --> 00:10:00,948
+that we set up earlier. So if we go over and drag the persona into here and press 
+
+133
+00:10:00,982 --> 00:10:01,382
+go, 
+
+134
+00:10:01,382 --> 00:10:06,549
+it's loading in, the idea of what a marketing landing page designer really encompasses.
+
+135
+00:10:06,549 --> 00:10:12,849
+Next we'll put in a simple prompt will go. Can you absorb branding design guidelines? 
+
+136
+00:10:12,982 --> 00:10:17,449
+We're waiting for further instructions. We'll go back down to our files. This time. 
+
+137
+00:10:17,449 --> 00:10:19,682
+We'll put in the brand details
+
+138
+00:10:19,682 --> 00:10:24,682
+and we'll just let that come in. So now we've loaded up this clean conversation with 
+
+139
+00:10:24,749 --> 00:10:29,849
+two useful pieces of information. One is an employee of sorts, 
+
+140
+00:10:29,883 --> 00:10:34,949
+a web designer, in this case. And we've loaded in all of the details around the brand.
+
+141
+00:10:34,949 --> 00:10:40,049
+And the last prompt is, can you create a website using brand details that we've already 
+
+142
+00:10:40,049 --> 00:10:44,550
+inputted and the following requirements. And we can just drag that information in 
+
+143
+00:10:44,550 --> 00:10:49,816
+and press go. And what it should start to do is create an artifact for us and start 
+
+144
+00:10:49,816 --> 00:10:54,283
+generating the code over on the right. One of the things that we can see here is 
+
+145
+00:10:54,283 --> 00:10:59,017
+that we've got tailwind CSS. This actually might be a little bit problematic, because 
+
+146
+00:10:59,017 --> 00:11:05,050
+I find this particular CDN implementation not to be the best. So we may need to change 
+
+147
+00:11:05,050 --> 00:11:11,084
+that. But at the moment it's just writing all the HTML. We need to do some sort of 
+
+148
+00:11:11,084 --> 00:11:15,984
+visual landing page. And this will change every time you do it. So the good thing 
+
+149
+00:11:15,984 --> 00:11:20,884
+about this technique is that you can run it multiple times, and I'll show you a better 
+
+150
+00:11:20,884 --> 00:11:25,417
+way of doing that soon so that you can test different iterations.
+
+151
+00:11:25,417 --> 00:11:30,384
+So it failed to create. And it's happened because of an uncaught reference error 
+
+152
+00:11:30,384 --> 00:11:35,684
+to tailwind. I see this fairly regularly, and when I went to go into fix mode, it 
+
+153
+00:11:35,684 --> 00:11:41,018
+just randomly did 6 or 7 tests. That all failed, and I had to give it a little bit 
+
+154
+00:11:41,018 --> 00:11:45,851
+of instructions. And on the ninth one it did work. And so we've got this landing 
+
+155
+00:11:45,851 --> 00:11:52,051
+page that's been created correctly. It's following the branding guidelines that it 
+
+156
+00:11:52,051 --> 00:11:53,751
+assumed would be the right way to go. 
+
+157
+00:11:53,785 --> 00:11:58,485
+I think we could play around with colors a fair bit, but let's test a couple more 
+
+158
+00:11:58,485 --> 00:12:02,752
+ways of generating this same landing page with other tools.
+
+159
+00:12:02,752 --> 00:12:07,852
+So to test out the next technique, we'll just go to a clean ChatGTP window and I'll 
+
+160
+00:12:07,852 --> 00:12:12,252
+say, I'll give you three documents. I want you to become the persona. I want you 
+
+161
+00:12:12,252 --> 00:12:16,585
+to read and understand the brand details for the client. And lastly, I want you to 
+
+162
+00:12:16,585 --> 00:12:21,819
+create a simple HTML page using the requirements I've also just said for reinforcement, 
+
+163
+00:12:21,852 --> 00:12:27,519
+in other words, as persona rebrand details and create HTML following the requirements. 
+
+164
+00:12:27,752 --> 00:12:33,219
+And if we pop on down to our file system before where we had these files, we should 
+
+165
+00:12:33,219 --> 00:12:38,953
+be able to just drag them in. Once they've loaded, we can just press go and hopefully 
+
+166
+00:12:38,953 --> 00:12:43,853
+it'll start writing html and we'll be able to visualize it in ChatGTP. 
+
+167
+00:12:44,286 --> 00:12:49,920
+So it started writing index html. Maybe it's something that we've gotta bring down 
+
+168
+00:12:49,920 --> 00:12:57,220
+to Visual Studio to edit and run from. One of the things I noticed high up is that 
+
+169
+00:12:57,220 --> 00:13:03,153
+we've got Tailwind CSS, but we don't actually have a link to it to A CDN. So this 
+
+170
+00:13:03,153 --> 00:13:07,920
+wouldn't run the way it is right now. We also don't even have these icons, so things 
+
+171
+00:13:07,920 --> 00:13:11,653
+will be a little bit different when running it this way. And quite frankly, it's 
+
+172
+00:13:11,653 --> 00:13:15,687
+a very small HTML file. So let's just see 
+
+173
+00:13:15,687 --> 00:13:22,387
+what would happen if we just go into the edit mode. So from edit mode, we can actually 
+
+174
+00:13:22,454 --> 00:13:26,654
+preview it. There's a little button up in the top right hand corner, and so we can 
+
+175
+00:13:26,654 --> 00:13:29,754
+see that none of the CSS has come through for us. 
+
+176
+00:13:29,754 --> 00:13:31,887
+So I'm just gonna test whether I can bring this 
+
+177
+00:13:31,887 --> 00:13:38,887
+alignment and working directly from ChatGTP, I've just said, can you make this complete? 
+
+178
+00:13:38,921 --> 00:13:43,588
+In other words, can you replace the asset icons that we had, which were images with 
+
+179
+00:13:43,588 --> 00:13:45,454
+just scalable vetor graphics? 
+
+180
+00:13:45,454 --> 00:13:49,754
+And can we make sure that the CSS is calling A CDN? 
+
+181
+00:13:49,754 --> 00:13:53,555
+And we'll just run that. It'll rewrite the code for us. 
+
+182
+00:13:53,588 --> 00:13:57,788
+We can see the scalable veto graphics being drawn here and here. I don't know what 
+
+183
+00:13:57,788 --> 00:14:01,721
+shape they are, they're just a bunch of mathematical numbers from my point of view 
+
+184
+00:14:01,721 --> 00:14:02,655
+at the moment. 
+
+185
+00:14:02,655 --> 00:14:09,322
+Now, like in Claude, we had similar issues with the tailwind CSS showing up, so I 
+
+186
+00:14:09,322 --> 00:14:13,722
+just gave it a screenshot and said what are the suggestions? Came up with a few. 
+
+187
+00:14:13,755 --> 00:14:18,355
+I said, can you just use the recommended change and rewrote it for us? And what that 
+
+188
+00:14:18,355 --> 00:14:24,022
+means is that if we hit play on this particular one, we now do have a working version 
+
+189
+00:14:24,022 --> 00:14:26,322
+on the screen. It's a little bit different to the other. 
+
+190
+00:14:26,322 --> 00:14:31,422
+But now let's go to the last technique, which I prefer to use over these two. 
+
+191
+00:14:31,422 --> 00:14:35,756
+which is to use Claude Code. So I've come down to Visual Studio. We've got our three 
+
+192
+00:14:35,756 --> 00:14:40,656
+files that we're interested in here, and I'm just going to open up a terminal. 
+
+193
+00:14:40,656 --> 00:14:46,056
+with the terminal open, I can start typing Claude and this will open up, we can initialize 
+
+194
+00:14:46,056 --> 00:14:49,856
+it, we can do options, but I'm just going to use it the way it is right now and start 
+
+195
+00:14:49,856 --> 00:14:50,823
+writing a prompt. 
+
+196
+00:14:50,989 --> 00:14:55,756
+So I've just said, can you become, I'll put in the at symbol and I'll start writing 
+
+197
+00:14:55,756 --> 00:14:58,390
+persona and that becomes available. 
+
+198
+00:14:58,390 --> 00:15:03,556
+Then I say using the brand details again. I put in the at sign, I start typing brand. 
+
+199
+00:15:03,556 --> 00:15:08,456
+I've said create a HTML file called, we can put in anything we want. We can even 
+
+200
+00:15:08,456 --> 00:15:12,823
+use the at symbol, even though it won't make a lot of sense 'cause it doesn't exist 
+
+201
+00:15:12,823 --> 00:15:17,790
+right now. I'll do index one point HTML in this case. And the reason I'm doing the 
+
+202
+00:15:17,790 --> 00:15:21,957
+one is we should be able to create two, three, and four and see different look and 
+
+203
+00:15:21,957 --> 00:15:24,324
+feel. And the last thing we should write here 
+
+204
+00:15:24,324 --> 00:15:29,824
+is follow the requirements. So at that point we can just start typing requirements. 
+
+205
+00:15:29,857 --> 00:15:33,590
+There's the document and we press enter. And press go. 
+
+206
+00:15:33,590 --> 00:15:38,457
+So now it's reading all three files and coming up with a plan of action for what 
+
+207
+00:15:38,457 --> 00:15:43,624
+it wants to do. It says I'll create a marketing landing page for support signal using 
+
+208
+00:15:43,624 --> 00:15:46,357
+the brand details and the requirements provided. 
+
+209
+00:15:46,357 --> 00:15:50,891
+And now it has a list of steps that it's going to work through. We've got creating 
+
+210
+00:15:50,891 --> 00:15:52,358
+the HTML structure.
+
+211
+00:15:52,358 --> 00:15:57,991
+So it's created the code. It's asking if I want to write it into the system. So we've 
+
+212
+00:15:57,991 --> 00:16:01,958
+got this new file called index one html going on, 
+
+213
+00:16:01,958 --> 00:16:03,658
+and it says it's finished everything. 
+
+214
+00:16:03,658 --> 00:16:08,191
+It's told us everything it's done. If we right click on the file and I've got live 
+
+215
+00:16:08,191 --> 00:16:12,725
+server available, so I can click on that button there and here we have it. 
+
+216
+00:16:12,725 --> 00:16:17,892
+One of the things I find about Claude Code over the last two techniques that we used, 
+
+217
+00:16:17,892 --> 00:16:23,592
+which was ChatGTP plus, and the Claude conversation window as well, is that this 
+
+218
+00:16:23,592 --> 00:16:28,659
+tends to work every time and the quality of the output tends to be a lot better. 
+
+219
+00:16:28,792 --> 00:16:33,592
+This is using the Opus model. In this particular case, we're on index number one. 
+
+220
+00:16:33,592 --> 00:16:39,125
+even things work. So I clicked on a button and we saw start your free trial. 
+
+221
+00:16:39,359 --> 00:16:45,192
+Now for the next example, we'll create index two and we'll start typing in Claude 
+
+222
+00:16:45,192 --> 00:16:50,326
+again. But this time I'm going to put in a model and I'm going to use the sonnet 
+
+223
+00:16:50,359 --> 00:16:57,493
+model. So if we pop this up like this and kick it off, where still in Claude, we're 
+
+224
+00:16:57,493 --> 00:17:01,226
+just doing it from a different location. And I'm gonna paste in a prompt that says, 
+
+225
+00:17:01,226 --> 00:17:06,360
+can you become persona, the same brand details, the same requirements only? We're 
+
+226
+00:17:06,360 --> 00:17:12,026
+going to put it into index number two, so it's gonna go through the same thing all 
+
+227
+00:17:12,026 --> 00:17:12,526
+over again. 
+
+228
+00:17:12,526 --> 00:17:18,593
+Now as that happens, we'll have our visual studio coming up. We can see everything 
+
+229
+00:17:18,593 --> 00:17:23,593
+running down in the bottom right hand corner. And hopefully a new file called index 
+
+230
+00:17:23,593 --> 00:17:29,893
+two will get generated here. 
+When we look at it in the terminal, it's got all similar stuff to before, but it 
+
+231
+00:17:29,893 --> 00:17:34,527
+will change things around. We could have even used a little bit of a custom instruction 
+
+232
+00:17:34,794 --> 00:17:38,494
+to do something fancy, and we might do that with the third example. 
+
+233
+00:17:38,494 --> 00:17:42,960
+So it's got all the information. It started writing a new file, 
+
+234
+00:17:43,060 --> 00:17:50,061
+So I'll right click on the index two and we can open it up. And here we have it. 
+
+235
+00:17:50,127 --> 00:17:55,527
+Now it looks very similar. If we go down the bottom, let's look at them side by side 
+
+236
+00:17:55,527 --> 00:17:59,061
+here with the other version that we had 
+slightly different 
+
+237
+00:17:59,061 --> 00:18:00,094
+and we come back.
+
+238
+00:18:00,094 --> 00:18:06,228
+So we'll right click and open up index two. And here it is. If we look at it compared 
+
+239
+00:18:06,228 --> 00:18:07,461
+to index one 
+
+240
+00:18:07,461 --> 00:18:12,495
+it the same way. It's called from reactive reporting to reformative intelligence. 
+
+241
+00:18:12,561 --> 00:18:17,661
+If we look down at FAQ in number two and we move down, we've got FAQ. Again, it's 
+
+242
+00:18:17,661 --> 00:18:22,962
+slightly different and we've got a different way of doing the email sign up down 
+
+243
+00:18:22,962 --> 00:18:23,562
+the bottom.
+
+244
+00:18:23,562 --> 00:18:28,595
+So for our final test, we'll just do something a little bit different. I've got exactly 
+
+245
+00:18:28,595 --> 00:18:34,028
+the same prompt in the same conversation. This time I've called it index three, which 
+
+246
+00:18:34,028 --> 00:18:39,562
+makes sense, but I want to give it more of a Christmas feel. So I'll just say it's 
+
+247
+00:18:39,762 --> 00:18:45,362
+Christmas. And we have decided that the landing page needs a Christmas feel. So let's 
+
+248
+00:18:45,362 --> 00:18:47,095
+see what it does the third time.
+
+249
+00:18:47,095 --> 00:18:52,462
+So it's got our to-dos. It's a little bit different because we're going to structure 
+
+250
+00:18:52,462 --> 00:18:54,629
+it with festive elements. 
+
+251
+00:18:54,629 --> 00:18:59,496
+We're also going to have brand colors plus the Christmas color accents. 
+
+252
+00:18:59,496 --> 00:19:03,763
+Now if you're wondering how long this should take, I'm finding that it's taking somewhere 
+
+253
+00:19:03,763 --> 00:19:08,729
+between two to three minutes to generate these pages. But it is a one shot, it gets 
+
+254
+00:19:08,729 --> 00:19:09,829
+it right each time 
+
+255
+00:19:09,829 --> 00:19:14,163
+So that's finished. We'll go over to Visual Studio. We've got a third file. When 
+
+256
+00:19:14,163 --> 00:19:18,296
+we look through, we've got some colors and look at that. We're starting to see concepts 
+
+257
+00:19:18,296 --> 00:19:24,096
+like animations. We've got Christmas reds. What happens if we go to the web on this? 
+
+258
+00:19:24,096 --> 00:19:27,297
+And it's still our brand colors, but we've now got 
+
+259
+00:19:27,297 --> 00:19:30,997
+Christmas trees, we've got presents, we've got snowflakes, we've got some sort of 
+
+260
+00:19:30,997 --> 00:19:36,197
+border going around. Let's see, and the color of all the panels have all changed 
+
+261
+00:19:36,197 --> 00:19:41,530
+quite a bit. Now this was created from scratch, so normally you wouldn't do it this 
+
+262
+00:19:41,530 --> 00:19:46,964
+way. Normally you might say modify the existing structure to have the Christmas feel. 
+
+263
+00:19:46,964 --> 00:19:49,430
+But this has worked pretty well. I love this.
+
+264
+00:19:49,430 --> 00:19:55,964
+So to recap, we essentially used three prompts. We had the agent definition role. 
+
+265
+00:19:55,964 --> 00:20:01,897
+So who was going to be building the website for us. We then had our marketing collateral, 
+
+266
+00:20:01,964 --> 00:20:06,364
+our branding information, our second brain. And that could be any information that 
+
+267
+00:20:06,364 --> 00:20:11,631
+you want to see going into the website. And lastly, we did the requirements. We tested 
+
+268
+00:20:11,631 --> 00:20:18,365
+it on Claude OpenAI, ChatGPT plus and Claude Code,. And with the Claude Code,, we 
+
+269
+00:20:18,398 --> 00:20:22,598
+were able to do three different variations, including a Christmas version.
+
+270
+00:20:22,598 --> 00:20:27,098
+Now if you're interested in working one on one with me with Vibe coding, you can 
+
+271
+00:20:27,098 --> 00:20:31,998
+come and book a call through that. We can arrange some time to work together, but 
+
+272
+00:20:31,998 --> 00:20:37,065
+otherwise, if you just want to learn more about vibe coding and using Prompt Engineering 
+
+273
+00:20:37,098 --> 00:20:41,865
+to write software, then follow the channel AppyDave,. Please like and subscribe. 
+
+274
+00:20:41,865 --> 00:20:43,132
+I'll see you in the next video.

@@ -1,0 +1,369 @@
+﻿1
+00:00:00,000 --> 00:00:05,333
+In this quick video, I'll show you how to host N8N on DigitalOcean. I'll also show 
+
+2
+00:00:05,333 --> 00:00:10,300
+you how you can get two months of credits so that you can use it through the testing 
+
+3
+00:00:10,333 --> 00:00:15,466
+phase. Look at a couple of challenges I had when getting it set up, and just finally, 
+
+4
+00:00:15,466 --> 00:00:21,000
+how I've hooked it up to a little micro application to do AI agent workflows. At 
+
+5
+00:00:21,000 --> 00:00:23,100
+the end, I'm AppyDave. Let's get into it.
+
+6
+00:00:23,100 --> 00:00:29,266
+So let's get started setting up N8N on DigitalOcean. Now, the first thing to realize 
+
+7
+00:00:29,266 --> 00:00:35,266
+is that the starting price of a droplet is about 4 USD a month. The one we'll work 
+
+8
+00:00:35,266 --> 00:00:40,400
+with is around $6 a month. But at the moment, if you click on the link down below, 
+
+9
+00:00:40,466 --> 00:00:46,133
+you'll get $200 worth of credits that you can use over the next 60 days. So no matter 
+
+10
+00:00:46,200 --> 00:00:50,666
+what workload you're under, you're probably going to have it for free for the next 
+
+11
+00:00:50,666 --> 00:00:51,466
+two months.
+
+12
+00:00:51,466 --> 00:00:56,400
+Now when you use that link, it should take you directly to DigitalOcean and you should 
+
+13
+00:00:56,400 --> 00:00:58,266
+get a $200 credit.
+
+14
+00:00:58,266 --> 00:01:03,166
+So we'll click on Get Started 
+From there I'm going to sign up with an email 
+
+15
+00:01:03,166 --> 00:01:08,900
+We've press create. It's given us the $200 credit. We just need to verify our email 
+
+16
+00:01:08,900 --> 00:01:09,166
+address.
+
+17
+00:01:09,166 --> 00:01:12,766
+Fill in a little bit of marketing information here if you want to.
+
+18
+00:01:12,766 --> 00:01:17,566
+Now, because this is a new onboarding, we come up with these options. We could pick 
+
+19
+00:01:17,600 --> 00:01:22,133
+deploy a virtual machine. But in this case we're just going to go to explore the 
+
+20
+00:01:22,133 --> 00:01:23,100
+control panel.
+
+21
+00:01:23,100 --> 00:01:27,133
+Now we already have our first project. We do want to create a new one, but before 
+
+22
+00:01:27,133 --> 00:01:31,900
+we can do that, we need to deal with this action needed. So we'll click on the billing 
+
+23
+00:01:31,900 --> 00:01:32,533
+right here.
+
+24
+00:01:32,533 --> 00:01:36,333
+We won't have any prepayment because of the credits that we've added, but we are 
+
+25
+00:01:36,366 --> 00:01:42,466
+going to need to add a payment method. So we've successfully added a payment mechanism.
+
+26
+00:01:42,466 --> 00:01:46,866
+And now we've got 59 days and $200 remaining credit.
+
+27
+00:01:46,866 --> 00:01:52,000
+So let's head up to the projects menu and we can create a new project.
+
+28
+00:01:52,000 --> 00:01:57,500
+And I've just called it N8N server. It's hosting Nadine Workflows and my use case 
+
+29
+00:01:57,700 --> 00:02:02,966
+is for APIs and service oriented architecture. So we'll just create the server.
+
+30
+00:02:02,966 --> 00:02:07,500
+Now I don't currently have an app or a droplet, so I'm just going to click Skip for 
+
+31
+00:02:07,500 --> 00:02:07,733
+now.
+
+32
+00:02:07,733 --> 00:02:12,766
+So at this point, what we need to do is install a droplet. We also have to configure 
+
+33
+00:02:12,800 --> 00:02:17,566
+N8N. And we're going to use a really simple technique. So what we do is we come back 
+
+34
+00:02:17,566 --> 00:02:22,733
+to our server and we spin up a droplet. And we need to decide where we're going to 
+
+35
+00:02:22,733 --> 00:02:27,500
+run it. Now this is for an Australian client. So I'm going to pick Sydney. And as 
+
+36
+00:02:27,500 --> 00:02:31,800
+we scroll down you have these computers that you can select. But we don't want to 
+
+37
+00:02:31,800 --> 00:02:36,700
+do it that way. We want to go with the marketplace instead. Now when you go to marketplace 
+
+38
+00:02:36,700 --> 00:02:40,866
+you'll have all these preloaded Docker images that you can work with. One of them 
+
+39
+00:02:40,866 --> 00:02:46,533
+is called N8N. Now if you can't see it there, you can at least type in N8N like this. 
+
+40
+00:02:46,533 --> 00:02:50,966
+Click on the button here. It'll become available. Now when you move down, you'll 
+
+41
+00:02:50,966 --> 00:02:53,066
+be able to set a size of the.
+
+42
+00:02:53,066 --> 00:02:57,766
+Based on this image, we'll go to regular and we'll go to $6 a month.
+
+43
+00:02:57,766 --> 00:03:02,866
+Now, as we scroll down, what we'll notice is that there are other settings we can 
+
+44
+00:03:02,866 --> 00:03:07,133
+go with. There's a password which we will fill in in a moment. And then down the 
+
+45
+00:03:07,133 --> 00:03:11,700
+bottom there's the create droplet. One of the things that we do need to change is 
+
+46
+00:03:11,700 --> 00:03:16,766
+the host name. So I'm going to call it N8N droplet. And then we're going to come 
+
+47
+00:03:16,766 --> 00:03:22,066
+up to the password. And I've put in a pretty strong password. We can now create the 
+
+48
+00:03:22,066 --> 00:03:27,366
+droplet. Now it'll start spinning it up right here. And when this is finished the 
+
+49
+00:03:27,366 --> 00:03:28,933
+IP address will show.
+
+50
+00:03:28,933 --> 00:03:35,300
+Now we can see it's Sydney, one gigabyte, 25GB of disk space. This is the IP address. 
+
+51
+00:03:35,300 --> 00:03:37,400
+We're just going to click copy on that.
+
+52
+00:03:37,400 --> 00:03:42,666
+And the reason we did that is we now need to configure an A record. Now I'm using 
+
+53
+00:03:42,666 --> 00:03:48,000
+Cloudflare. So I'll head over to Cloudflare and I'll scroll down and press add a 
+
+54
+00:03:48,000 --> 00:03:54,500
+new record. From here I'll select type A, I'm going to put it in as N8N, and I'll 
+
+55
+00:03:54,500 --> 00:04:00,566
+put in the IP address right here and press save. Now with my subdomain in place we 
+
+56
+00:04:00,566 --> 00:04:05,666
+can come back and click on these three little dots here. This is going to give us 
+
+57
+00:04:05,700 --> 00:04:10,766
+access to the console. So the first thing you'll do is you will click on the launch 
+
+58
+00:04:10,766 --> 00:04:12,133
+console right here.
+
+59
+00:04:12,133 --> 00:04:18,333
+And if the A record is propagated, this should work. So we'll put in n a to n, we'll 
+
+60
+00:04:18,333 --> 00:04:21,900
+put in a domain name and everything will work.
+
+61
+00:04:21,900 --> 00:04:27,100
+And if we get a error message like this, then we just need to wait for the a record 
+
+62
+00:04:27,100 --> 00:04:27,866
+to propagate.
+
+63
+00:04:27,866 --> 00:04:33,466
+So a particular issue you might also want to check is this proxy value. You do want 
+
+64
+00:04:33,466 --> 00:04:34,200
+it turned on but 
+
+65
+00:04:34,200 --> 00:04:36,466
+to turn it off here. Hit save on that.
+
+66
+00:04:36,466 --> 00:04:41,800
+Now, once that's registered, if you come and you see a page like this one and in 
+
+67
+00:04:41,800 --> 00:04:46,266
+my case, I have a brand new domain name. So there's a little bit of a history issue 
+
+68
+00:04:46,300 --> 00:04:51,266
+with Google. What we can do is go and click on the. Let us know that this page is 
+
+69
+00:04:51,266 --> 00:04:56,266
+safe. We can say this page is safe as the report type. We've got the domain name. 
+
+70
+00:04:56,266 --> 00:05:02,133
+We can say it is a new domain, something like that. We'll hit submit. Now there is 
+
+71
+00:05:02,133 --> 00:05:05,566
+another way that you can do it. There's a little button here and that'll take you 
+
+72
+00:05:05,566 --> 00:05:11,266
+over to the transparency report. And from there we can paste in the URL right here. 
+
+73
+00:05:11,666 --> 00:05:17,766
+And so now when we put in our domain name and we run it, we should get N8N running. 
+
+74
+00:05:17,766 --> 00:05:19,800
+And you can now create a new account.
+
+75
+00:05:19,800 --> 00:05:22,466
+I've just filled in the marketing material here. 
+
+76
+00:05:22,466 --> 00:05:32,266
+And then just put in your email address to get a license key.
+The activation key will come in an email. Go over to settings. And then you can click 
+
+77
+00:05:32,266 --> 00:05:34,700
+here to enter the activation key.
+
+78
+00:05:34,700 --> 00:05:38,933
+I'm now activated. We can go back and from here we can create workflows.
+
+79
+00:05:38,933 --> 00:05:45,266
+Now, I've been doing the N8N workflows so that I can build in backend AI functionality, 
+
+80
+00:05:45,266 --> 00:05:50,100
+and the idea is that I should be able to put information into this little application 
+
+81
+00:05:50,100 --> 00:05:55,933
+that I'm building, and then when I press next, it's now talking to N8N directly to 
+
+82
+00:05:56,000 --> 00:06:01,300
+get a bunch of related questions to an incident that just happened. And then people 
+
+83
+00:06:01,300 --> 00:06:06,266
+can go and fill in extra information. So that's how I'm using N8N workflows.
+
+84
+00:06:06,266 --> 00:06:12,533
+So that's how you host N8N on DigitalOcean. And all of this came about because recently 
+
+85
+00:06:12,533 --> 00:06:18,200
+I did a video on Vibe coding landing pages for websites such as the one that you're 
+
+86
+00:06:18,200 --> 00:06:23,166
+seeing right here. And from there I went into a more detailed context engineering 
+
+87
+00:06:23,166 --> 00:06:29,133
+example on building an application. So if you want to see how I'm building this application, 
+
+88
+00:06:29,166 --> 00:06:34,300
+how as I load it in with different information, and I'm using the live button here 
+
+89
+00:06:34,300 --> 00:06:40,666
+to talk directly to the N8N workflows that we just created. We can see this information 
+
+90
+00:06:40,666 --> 00:06:46,000
+hitting that server and coming up with dynamic questions based on the information 
+
+91
+00:06:46,000 --> 00:06:50,500
+earlier in this form. Anyway, I'm AppyDave. Please like and subscribe and I'll see 
+
+92
+00:06:50,500 --> 00:06:51,566
+you in the next video.

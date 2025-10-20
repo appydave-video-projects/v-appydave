@@ -1,0 +1,740 @@
+﻿1
+00:00:00,000 --> 00:00:05,233
+Have you seen video advertisements that are just incredible? They sell, they convert, 
+
+2
+00:00:05,233 --> 00:00:10,166
+they hook you in and you wish. How do I write a transcript like that so I can generate 
+
+3
+00:00:10,166 --> 00:00:11,866
+my own video advertisement. 
+
+4
+00:00:11,900 --> 00:00:16,500
+In this video, we're going to reverse engineer one such video and turn it into an 
+
+5
+00:00:16,500 --> 00:00:20,566
+AI agent that you can use yourself. I'm AppyDave, let's get into it.
+
+6
+00:00:20,566 --> 00:00:25,466
+So here's the underlying scenario that I'm trying to address. I have this YouTube 
+
+7
+00:00:25,466 --> 00:00:30,033
+channel called AI-TLDR. It has 148 videos. It's 
+
+8
+00:00:30,033 --> 00:00:34,700
+over the 800 subscribers, and it's growing fairly quickly. And when you look through 
+
+9
+00:00:34,700 --> 00:00:40,333
+this particular channel, you'll notice that every video in here is created fairly 
+
+10
+00:00:40,333 --> 00:00:46,600
+quickly. It's all AI generated using tools like Cap Cut and Canva, 11 Labs and a 
+
+11
+00:00:46,600 --> 00:00:54,433
+variety of video and image generation tools like DZine, Leonardo AI, and SORA. And 
+
+12
+00:00:54,433 --> 00:00:59,433
+what I've been able to put together is an outline for a lesson plan that people could 
+
+13
+00:00:59,433 --> 00:01:05,300
+follow if they wanted to build AI generated video channels very much like this one. 
+
+14
+00:01:05,533 --> 00:01:10,533
+But the problem I've got before I even create the course is how am I going to sell 
+
+15
+00:01:10,533 --> 00:01:15,400
+it? And that's what led me to the path of going, let's generate a bunch of video 
+
+16
+00:01:15,400 --> 00:01:20,200
+advertisements, which means we need high impact transcripts, and that's what we're 
+
+17
+00:01:20,200 --> 00:01:21,333
+going to solve today.
+
+18
+00:01:21,333 --> 00:01:26,100
+So in this video we're going to take an advertisement, this particular one that I've 
+
+19
+00:01:26,100 --> 00:01:31,033
+seen online that markets a product very similar to the course that I'm trying to 
+
+20
+00:01:31,033 --> 00:01:36,033
+build. And then what we're going to do is take the transcript that they've produced 
+
+21
+00:01:36,033 --> 00:01:42,200
+and reverse engineer it so that we can build our own AI bot to generate new transcripts 
+
+22
+00:01:42,200 --> 00:01:45,633
+in a style more appropriate to my target audience.
+
+23
+00:01:45,633 --> 00:01:51,466
+So let me introduce you to Pickaxe. What Pickaxe is, is a tool that allows you to 
+
+24
+00:01:51,500 --> 00:01:57,666
+build and deploy your own bespoke AI agents. And the really good thing about these 
+
+25
+00:01:57,666 --> 00:02:02,933
+agents is that you can host them in a beautiful website, and you can make them available 
+
+26
+00:02:02,933 --> 00:02:07,600
+to people, either for free or for a cost. So you can monetize with this. And the 
+
+27
+00:02:07,600 --> 00:02:12,600
+great thing is, in the project that we're doing today, there's a zero cost. We won't 
+
+28
+00:02:12,600 --> 00:02:17,166
+be using too many credits, so we'll be able to work with the free plan to get this 
+
+29
+00:02:17,166 --> 00:02:21,666
+up and running. Now, I do have an affiliate link down below if you want a discount 
+
+30
+00:02:21,666 --> 00:02:25,566
+on any of the plans here, but if you wait till a bit later in the video, I'll talk 
+
+31
+00:02:25,600 --> 00:02:28,733
+about a special deal that's going on with the gold plan.
+
+32
+00:02:28,733 --> 00:02:33,433
+But let's start building the agent. And what we do is we come over to the area where 
+
+33
+00:02:33,433 --> 00:02:38,200
+you can create a new Pickaxe. And the sort that we're going with today is a simple 
+
+34
+00:02:38,200 --> 00:02:43,200
+form. So when we click on that, we end up with this page where we can configure the 
+
+35
+00:02:43,200 --> 00:02:48,133
+role, the prompts, any of the fields that we want the user to interact with. And 
+
+36
+00:02:48,133 --> 00:02:52,533
+we'll be able to see the actual test example over here on the right.
+
+37
+00:02:52,533 --> 00:02:58,066
+So to get started, I'm going to take one of the video advertisements that I've seen. 
+
+38
+00:02:58,266 --> 00:03:04,033
+Grab the transcript and we're going to go and manipulate that within ChatGPT, and 
+
+39
+00:03:04,033 --> 00:03:05,400
+reverse engineer it.
+
+40
+00:03:05,400 --> 00:03:09,933
+So what I've done here is taken the transcript. You can see it all listed in this 
+
+41
+00:03:09,933 --> 00:03:14,933
+section. And I've just given it a little bit of a pre prompt. And I'm just trying 
+
+42
+00:03:14,933 --> 00:03:20,600
+to analyze what sort of concepts are going on inside of this advertisement. I'm not 
+
+43
+00:03:20,600 --> 00:03:28,566
+actually reading the advertisement. I just want to understand the concepts. 
+and we've got a high level categorization framework where we're talking about pattern 
+
+44
+00:03:28,566 --> 00:03:33,366
+interrupts, relatable pain points. We've got the villain and who to blame. One of 
+
+45
+00:03:33,366 --> 00:03:34,966
+the things that are going on here is 
+
+46
+00:03:34,966 --> 00:03:40,700
+this around. And there's also the CTAs. Many of these items will be dropdowns. I'm 
+
+47
+00:03:40,700 --> 00:03:44,066
+envisaging in an AI bot that we put together.
+
+48
+00:03:44,066 --> 00:03:49,133
+Now, after the breakdown of this particular advertisement, there's also a bunch of 
+
+49
+00:03:49,133 --> 00:03:53,933
+ideas like the tone the audience fit. And to me, these are variables that we might 
+
+50
+00:03:53,933 --> 00:03:58,733
+want to have in an AI agent. So the next thing I want to do is write a couple of 
+
+51
+00:03:58,733 --> 00:04:04,500
+prompts against this information, so that we can come up with a good way of writing 
+
+52
+00:04:04,533 --> 00:04:09,766
+advertisement transcripts in general, and identifying what sort of variables and 
+
+53
+00:04:09,766 --> 00:04:14,400
+the values they have so that we can make it a configurable AI agent.
+
+54
+00:04:14,400 --> 00:04:19,366
+So what I want to do now is get general rules for advertisements. Now I want to base 
+
+55
+00:04:19,366 --> 00:04:24,266
+it on the transcript above because I do like it. I also want to take broader examples. 
+
+56
+00:04:24,266 --> 00:04:28,533
+So we're going to search the internet. So what we're looking at here is just getting 
+
+57
+00:04:28,533 --> 00:04:32,566
+the generalized idea of high converting video adds 
+
+58
+00:04:32,566 --> 00:04:38,100
+and making it available that we might use as a second brain with inside the agent 
+
+59
+00:04:38,100 --> 00:04:39,133
+that we're building.
+
+60
+00:04:39,133 --> 00:04:43,633
+So looking through this, this is perfect. We've got structural rules. We've got six 
+
+61
+00:04:43,633 --> 00:04:48,366
+different types coming through. Here we go a bit further down. We've got psychology 
+
+62
+00:04:48,366 --> 00:04:54,433
+rules and we've got hook formulas. What I'd like to do with this now is maybe identify 
+
+63
+00:04:54,666 --> 00:04:59,500
+variables that we could use. So this can be the second brain for sure. In the AI 
+
+64
+00:04:59,566 --> 00:05:04,800
+agent. We're probably also want to load it up with a bunch of successful adverts 
+
+65
+00:05:04,800 --> 00:05:08,600
+that we create over time, but we can't do that until we build them. But for now, 
+
+66
+00:05:08,600 --> 00:05:13,766
+let's just see if we can write a little prompt here that identifies variables that 
+
+67
+00:05:13,766 --> 00:05:18,166
+might be useful for an end user using this particular tool.
+
+68
+00:05:18,166 --> 00:05:23,433
+Now this information is going to be perfect for building the forms for the AI agent, 
+
+69
+00:05:23,433 --> 00:05:29,200
+but to simplify it, I think I just need a tabular grid that shows the variable name. 
+
+70
+00:05:29,200 --> 00:05:34,666
+Maybe the type of data. Is it a drop down list or a text box? Maybe some examples. 
+
+71
+00:05:34,666 --> 00:05:40,233
+So we'll just put in a prompt here and we'll just see how this goes at generating 
+
+72
+00:05:40,233 --> 00:05:46,100
+that information. So it's talking about the idea of variables being in lowercase 
+
+73
+00:05:46,100 --> 00:05:51,900
+snakecase. So you can see that down the left we've got a label a type of input and 
+
+74
+00:05:51,900 --> 00:06:00,766
+some example values. So when I go over to the AI agent builder 
+the tool I'm going to use is Pickaxe, then I'm going to have all the variables and 
+
+75
+00:06:00,766 --> 00:06:03,033
+values that we can just fill in.
+
+76
+00:06:03,033 --> 00:06:07,566
+Now, one of the problems with the list of variables that are being created is that 
+
+77
+00:06:07,566 --> 00:06:12,200
+they're too fine grained. It would make the tool too hard to use, and it would be 
+
+78
+00:06:12,200 --> 00:06:16,800
+too constrained, because you've got to put in a little bit of information about every 
+
+79
+00:06:16,866 --> 00:06:22,133
+sort of variable. So what I've done is just written one more prompt to just reduce 
+
+80
+00:06:22,133 --> 00:06:27,533
+it down to five different variables, just the highest level ones going on, plus a 
+
+81
+00:06:27,566 --> 00:06:32,500
+custom instruction for if something else is needed. Apart from that, we now need 
+
+82
+00:06:32,500 --> 00:06:37,400
+to develop a prompt and a role. So we'll just paste in this little prompt here. This 
+
+83
+00:06:37,400 --> 00:06:42,100
+is about developing the role for the AI agent. And let's see what we get.
+
+84
+00:06:42,100 --> 00:06:48,300
+This is perfect. And I add agent that generates high converting scroll stopping video 
+
+85
+00:06:48,366 --> 00:06:51,366
+ad scripts. 
+Next we'll do a description.
+
+86
+00:06:51,366 --> 00:06:56,533
+The last piece in the puzzle is we're going to need a prompt. So I've just put in 
+
+87
+00:06:56,533 --> 00:07:03,533
+this meta prompt. It'll generate a prompt that is for high converting video ad generator. 
+
+88
+00:07:03,533 --> 00:07:08,533
+We've got a bunch of information. We've got the input variables coming through. So 
+
+89
+00:07:08,533 --> 00:07:14,800
+we should be able to use this pretty much as it is inside our AI agent. 
+
+90
+00:07:14,800 --> 00:07:19,633
+Now we'll head over to Pickaxe and we'll start filling in this agent, and we'll use 
+
+91
+00:07:19,633 --> 00:07:25,133
+a lot of the information that we just developed. So the first area I want is a name 
+
+92
+00:07:25,133 --> 00:07:30,466
+for the agent. And I've asked for a name that is keyword rich rather than branding 
+
+93
+00:07:30,466 --> 00:07:36,200
+rich, because I want people to be able to find this in a marketplace. So the one 
+
+94
+00:07:36,200 --> 00:07:42,100
+I think I'll go with is the hook based video script tool. And we can just go up here 
+
+95
+00:07:42,100 --> 00:07:47,300
+and paste it in. The next area we should look for is the role that we talked about 
+
+96
+00:07:47,300 --> 00:07:53,400
+earlier. 
+So we developed a role right here. And we can just take that particular information 
+
+97
+00:07:53,400 --> 00:07:56,566
+and head over to the role and paste it in.
+
+98
+00:07:56,566 --> 00:08:01,500
+The next area we want to work on is this prompt, and we've already got a partial 
+
+99
+00:08:01,533 --> 00:08:07,200
+set up for it. We have the main instructions. We understand what the input variables 
+
+100
+00:08:07,200 --> 00:08:12,100
+are. Now I'm going to rename this to Input Variable guidelines. And then after that 
+
+101
+00:08:12,100 --> 00:08:17,333
+I want to supply the actual user input variables. And then finally I want to have 
+
+102
+00:08:17,366 --> 00:08:23,200
+output instructions. So I've just reframed that information into a code block right 
+
+103
+00:08:23,200 --> 00:08:27,933
+here. One of the things that you can notice is that the user supplied inputs are 
+
+104
+00:08:27,933 --> 00:08:32,766
+all ready to go. So we'll just click on copy code here and we'll paste that right 
+
+105
+00:08:32,766 --> 00:08:38,400
+in here. Now with that in place what we can do is work on changing the actual input 
+
+106
+00:08:38,400 --> 00:08:39,233
+variables.
+
+107
+00:08:39,233 --> 00:08:44,666
+Now, with the prompt in place, what we can do is add user input anywhere we like. 
+
+108
+00:08:44,800 --> 00:08:49,466
+So I'm just going to double click on this value and say add user input and we'll 
+
+109
+00:08:49,466 --> 00:08:54,300
+see a new field. Now for the actual title, this is where we'll just come back up 
+
+110
+00:08:54,300 --> 00:08:58,066
+here and select the information and paste it in. 
+
+111
+00:08:58,066 --> 00:09:01,900
+this will be the instruction field that people will see on the form. And then we 
+
+112
+00:09:01,900 --> 00:09:04,866
+can just go through and repeat it for each variable.
+
+113
+00:09:04,866 --> 00:09:09,900
+So now on the left we have our complete prompt. We've got all our user inputs. When 
+
+114
+00:09:09,900 --> 00:09:14,233
+you click on them that'll take you to the field over on the right. Now if there's 
+
+115
+00:09:14,233 --> 00:09:18,666
+anything you want to change around the structure, and I think custom instructions 
+
+116
+00:09:18,666 --> 00:09:24,133
+is the main one we'll change is that we'll go from short answer to long answer. We 
+
+117
+00:09:24,133 --> 00:09:29,133
+should be able to put in 1000 characters right there. Now this is not required, but 
+
+118
+00:09:29,133 --> 00:09:34,066
+we might make all the others required because without them you're losing a bit of 
+
+119
+00:09:34,066 --> 00:09:37,333
+the energy. So we'll just make them all required.
+
+120
+00:09:37,333 --> 00:09:43,433
+Now this is a free text box so you can put any value in there. But it might be useful 
+
+121
+00:09:43,433 --> 00:09:47,700
+also to have a sample. Now we could put the information
+
+122
+00:09:47,700 --> 00:09:51,666
+directly into the field like this. I'll just paste that in. And you can see that 
+
+123
+00:09:51,666 --> 00:09:56,600
+there's multiple values and they'll be overridable. But for this example there is 
+
+124
+00:09:56,666 --> 00:10:01,133
+very short. I might just put them in as part of the heading.
+
+125
+00:10:01,133 --> 00:10:06,766
+Now here we have our configuration updated. The custom instruction is long. Each 
+
+126
+00:10:06,766 --> 00:10:12,400
+of the different fields that we want to fill in are also supplied with some examples 
+
+127
+00:10:12,500 --> 00:10:17,433
+in the heading. And the way this looks now is that we've got the custom instruction 
+
+128
+00:10:17,466 --> 00:10:23,900
+hook type. You can type in shock or for the pain target we could put bad technique 
+
+129
+00:10:23,900 --> 00:10:27,400
+or something like that. And the good thing about this is that if you want to use 
+
+130
+00:10:27,400 --> 00:10:29,166
+a different value, you can.
+
+131
+00:10:29,166 --> 00:10:34,533
+Now, what I would like to do is test out this Pickaxe. And what we can do is click 
+
+132
+00:10:34,566 --> 00:10:39,566
+save and it will take us back to the main screen where we can click on the preview 
+
+133
+00:10:39,566 --> 00:10:45,000
+button. So if we come up here, you can see how you can open it up in a new window.
+
+134
+00:10:45,033 --> 00:10:50,700
+And our configured hook based video script is here. We can fill in all the values 
+
+135
+00:10:50,733 --> 00:10:53,533
+and press submit. So let's test it out.
+
+136
+00:10:53,533 --> 00:10:59,000
+So let's fill in a few example fields. So we've got the hook type humor shock or 
+
+137
+00:10:59,000 --> 00:11:04,566
+curiosity. I'm going to go with shock. After that is what do we think we want to 
+
+138
+00:11:04,566 --> 00:11:09,433
+get the audience member to feel in this case just emotional failure. They've tried 
+
+139
+00:11:09,433 --> 00:11:13,366
+to do something, but they've failed at it in the past. Maybe this is something we 
+
+140
+00:11:13,366 --> 00:11:18,366
+can tap into. Then who is the villain in the story? Could be themselves. It could 
+
+141
+00:11:18,366 --> 00:11:22,366
+be some sort of guru that they've learned from. I'm going to go with themselves. 
+
+142
+00:11:22,400 --> 00:11:27,866
+And then what do we want to show them is going to come through if they follow through 
+
+143
+00:11:27,866 --> 00:11:33,000
+on the offer? So maybe it's a mini framework. Maybe it's the contrast of before and 
+
+144
+00:11:33,000 --> 00:11:37,866
+after 
+So then the call to action. Do you want to send them to an offer. Maybe a community 
+
+145
+00:11:37,866 --> 00:11:40,166
+with this will go with a direct offer.
+
+146
+00:11:40,166 --> 00:11:44,066
+Now, in this case, I don't want it to randomly come up with a story. I want to have 
+
+147
+00:11:44,066 --> 00:11:48,800
+some sort of character that we're working towards. So we'll just dictate for a second 
+
+148
+00:11:48,800 --> 00:11:49,600
+and we'll go.
+
+149
+00:11:49,600 --> 00:11:55,166
+You are a freelance video editor. You're pretty good at creating videos, but for 
+
+150
+00:11:55,166 --> 00:12:01,166
+some reason the content never seems to engage, and you suspect that the issue is 
+
+151
+00:12:01,166 --> 00:12:05,766
+with your script writing. And you're wondering, is there a tool out there that can 
+
+152
+00:12:05,800 --> 00:12:09,833
+produce beautiful scripts for YouTube every time?
+
+153
+00:12:09,833 --> 00:12:14,933
+Now let's say there's something custom, maybe a custom avatar or some other sorts 
+
+154
+00:12:14,933 --> 00:12:18,933
+of style that you want to introduce. Then you can use the custom instruction. And 
+
+155
+00:12:18,933 --> 00:12:24,100
+what I've done is I've gone over to ChatGPT, and I've asked questions about 18 to 
+
+156
+00:12:24,100 --> 00:12:29,500
+30 year old men, and it's come up with a good set of information that I can just 
+
+157
+00:12:29,500 --> 00:12:35,766
+take and paste directly into the custom instruction to frame and shape the script 
+
+158
+00:12:35,766 --> 00:12:37,300
+to meet this criteria.
+
+159
+00:12:37,300 --> 00:12:42,533
+So with everything filled in, we can just come down and click the submit button. 
+
+160
+00:12:42,533 --> 00:12:47,066
+And what I'll do is that agent will start processing using a large language 
+
+161
+00:12:47,100 --> 00:12:49,800
+We're using ChatGPT, for a mini.
+
+162
+00:12:49,800 --> 00:12:53,866
+So it's quickly written a script for us. It starts off with a line. Ever felt like 
+
+163
+00:12:53,866 --> 00:12:58,066
+your videos are just meh? Now, to test this out properly, what I'll do is I'll just 
+
+164
+00:12:58,100 --> 00:13:03,333
+add it to 11 labs and do some basic graphics just to get a feel for what this script 
+
+165
+00:13:03,333 --> 00:13:04,266
+could look like.
+
+166
+00:13:04,266 --> 00:13:09,533
+Ever feel like your videos are just man, you're editing your heart out, but it's 
+
+167
+00:13:09,533 --> 00:13:16,033
+like no one even notices. What gives? Real talk. It's not your fault you're stuck 
+
+168
+00:13:16,033 --> 00:13:21,633
+in the loop of outdated advice. The problem? Your scripts are missing that spark. 
+
+169
+00:13:21,766 --> 00:13:25,766
+But what if I told you there's a mini framework that changes everything?
+
+170
+00:13:25,766 --> 00:13:31,800
+Picture this. Killer scripts that hook viewers in seconds. Yeah, it's totally doable. 
+
+171
+00:13:32,066 --> 00:13:38,433
+Join our community for exclusive tips and tools. Let's level up your content together.
+
+172
+00:13:38,433 --> 00:13:42,666
+Now, the script that you just heard is pretty good. It's not excellent. And in the 
+
+173
+00:13:42,666 --> 00:13:46,933
+next video, we're going to take it to the next level. But one of the things that 
+
+174
+00:13:46,933 --> 00:13:51,266
+you would have noticed in that video was that it was put together really quickly. 
+
+175
+00:13:51,266 --> 00:13:57,266
+There is actually a call to action there to the AI. TLDR YouTube channel, where you 
+
+176
+00:13:57,266 --> 00:14:00,966
+can actually learn how to do this yourself. There is a course that we're putting 
+
+177
+00:14:01,033 --> 00:14:06,833
+together around this particular technology, but if you're actually looking at using 
+
+178
+00:14:06,866 --> 00:14:11,166
+Pickaxe, which is what this has all been about, there's a discount going on at the 
+
+179
+00:14:11,166 --> 00:14:11,633
+moment. 
+
+180
+00:14:11,633 --> 00:14:17,333
+so the normal affiliate link in the description will actually give you 25% off the 
+
+181
+00:14:17,400 --> 00:14:21,400
+gold plan at the moment. So if that's something you're interested in then please 
+
+182
+00:14:21,400 --> 00:14:22,133
+check it out.
+
+183
+00:14:22,166 --> 00:14:26,466
+Well. I'm AppyDave,. Please like and subscribe. And if you want to see how we can 
+
+184
+00:14:26,466 --> 00:14:31,900
+add knowledge bases to these script generation tools, then check out the next video.

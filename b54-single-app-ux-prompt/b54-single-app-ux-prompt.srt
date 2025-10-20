@@ -1,0 +1,755 @@
+1
+00:00:00,00 --> 00:00:05,520
+In this video, we're developing a simple role and design prompt concept that will 
+
+2
+00:00:05,520 --> 00:00:11,680
+allow us to build one shot prompts that design front end applications like what we're 
+
+3
+00:00:11,680 --> 00:00:15,320
+seeing right now from a user experience point of view.
+
+4
+00:00:15,330 --> 00:00:21,190
+In the last video, we went into detail of setting up both a role and a design brief 
+
+5
+00:00:21,190 --> 00:00:27,790
+for what was classed as a multi app framework. So the idea that you might have various 
+
+6
+00:00:27,830 --> 00:00:33,70
+extensions or plugins, you could have global settings for all of them. You could 
+
+7
+00:00:33,70 --> 00:00:39,230
+collapse that down and from here have individual menu items for each of the applications 
+
+8
+00:00:39,230 --> 00:00:41,550
+and even go from light to dark mode.
+
+9
+00:00:41,560 --> 00:00:45,560
+Now, to keep things simple, we're building out our new structure. We're going to 
+
+10
+00:00:45,560 --> 00:00:49,640
+take information from the last video, and we're just going to do a slight adaption 
+
+11
+00:00:49,640 --> 00:00:55,320
+on it. So the last video was about a multi app structure within a shell desktop. 
+
+12
+00:00:55,440 --> 00:00:59,880
+In this situation we only want a single application. So what we'll do is have a look 
+
+13
+00:00:59,880 --> 00:01:02,40
+at the structure of how this will come together.
+
+14
+00:01:02,60 --> 00:01:06,630
+Now, I usually start a conversation with a line similar to this. In this conversation 
+
+15
+00:01:06,630 --> 00:01:11,110
+we will explore and I give it a headline. After that, I give it an instruction to 
+
+16
+00:01:11,150 --> 00:01:15,590
+say yay! And please wait, because I don't actually want it to do anything with this 
+
+17
+00:01:15,630 --> 00:01:18,190
+information because I haven't told it what to do.
+
+18
+00:01:18,190 --> 00:01:24,250
+Now, I don't usually go straight into getting it to use a detailed design prompt 
+
+19
+00:01:24,250 --> 00:01:29,450
+to build an application. Instead, I want it to become a certain sort of person. In 
+
+20
+00:01:29,450 --> 00:01:35,770
+this case, it's going to be a single app UX/UI, mockup designer, or an architect 
+
+21
+00:01:35,770 --> 00:01:40,890
+or something like that. So I'll have a simple prompt that says read and wait for 
+
+22
+00:01:40,890 --> 00:01:45,850
+guidance. I'll press enter, and then I'll paste in a really detailed description 
+
+23
+00:01:45,850 --> 00:01:50,690
+of the sort of person that would be perfect for writing this sort of application.
+
+24
+00:01:50,690 --> 00:01:56,190
+Now the last prompt I'll do is code implementation prompt. So see instructions of 
+
+25
+00:01:56,190 --> 00:02:00,990
+what I'm trying to build. And it'll usually be fairly detailed, but it's simply here 
+
+26
+00:02:00,990 --> 00:02:06,310
+is the design brief. Please implement. And then I paste it in. Now you might be wondering 
+
+27
+00:02:06,350 --> 00:02:08,510
+do you need the first two prompts at all?
+
+28
+00:02:08,530 --> 00:02:13,60
+And the answer is not really the first one. Definitely you don't need, but I like 
+
+29
+00:02:13,60 --> 00:02:15,140
+to start it. Then afterwards, if 
+
+30
+00:02:15,160 --> 00:02:18,300
+the second prompt doesn't do exactly what I want, or 
+
+31
+00:02:18,290 --> 00:02:23,300
+the third prompt doesn't do exactly what I want, I can go back and edit them, knowing 
+
+32
+00:02:23,340 --> 00:02:27,980
+that I still understand where the start of the conversation is. As for the role prompt, 
+
+33
+00:02:27,980 --> 00:02:32,820
+if you don't include that, you'll still probably get a good outcome if your requirements 
+
+34
+00:02:32,820 --> 00:02:34,700
+document is detailed, 
+
+35
+00:02:34,900 --> 00:02:40,470
+But what the role will do is give you a higher probability of success, because it 
+
+36
+00:02:40,470 --> 00:02:44,630
+won't just be reading the instruction from the point of view of a general large language 
+
+37
+00:02:44,630 --> 00:02:49,470
+model, it will impersonate and think like the person that would normally implement 
+
+38
+00:02:49,470 --> 00:02:54,30
+this, and they think of things a little bit differently to a generalist person.
+
+39
+00:02:54,30 --> 00:02:58,850
+Now, rather than starting from scratch on this one, I'm going to build on top of 
+
+40
+00:02:58,850 --> 00:03:05,210
+a successful implementation because we'd already built this multi application, which 
+
+41
+00:03:05,210 --> 00:03:09,810
+means we've got multiple applications on the left. When you click on one of them, 
+
+42
+00:03:09,810 --> 00:03:15,250
+the idea is that the menu on the right here or in the middle becomes dynamic based 
+
+43
+00:03:15,250 --> 00:03:17,50
+on that particular application, 
+
+44
+00:03:17,90 --> 00:03:23,90
+we essentially want the same application minus this panel and a couple of other global 
+
+45
+00:03:23,90 --> 00:03:23,810
+settings.
+
+46
+00:03:23,810 --> 00:03:29,60
+So what I've done is just gone down a little bit further after that was created and 
+
+47
+00:03:29,60 --> 00:03:33,780
+given a new prompt, basically saying that earlier in the conversation you gave me 
+
+48
+00:03:33,780 --> 00:03:40,420
+a definition for a role, and I actually pasted the role in again, but I'm asking 
+
+49
+00:03:40,420 --> 00:03:46,420
+for it to just adapt what's going on here so that it's for a single app setup. And 
+
+50
+00:03:46,420 --> 00:03:51,620
+this is because I'm trying to do templates around building micro apps every day, 
+
+51
+00:03:51,740 --> 00:03:57,300
+and I want a consistent user interface each time. And so we develop this role for 
+
+52
+00:03:57,300 --> 00:03:59,780
+someone that can draw that interface for me.
+
+53
+00:03:59,810 --> 00:04:05,260
+But before it does the work. I also said it might be useful if you give me 2 or 3 
+
+54
+00:04:05,260 --> 00:04:10,660
+questions that I can answer. So what it's done is given me a bunch of Q and A's that 
+
+55
+00:04:10,660 --> 00:04:16,580
+I can work through, and I've essentially taken a couple of headings from its questions 
+
+56
+00:04:16,580 --> 00:04:21,500
+that it gave and gave my own opinion of what I want to see happen, and from there 
+
+57
+00:04:21,500 --> 00:04:27,900
+we ended up with a role basically for a single app UX designer. So it's very similar, 
+
+58
+00:04:27,900 --> 00:04:33,460
+but it's got differences that will be important when we go to generate this new structure.
+
+59
+00:04:33,470 --> 00:04:37,650
+So with the role created, we can go and select all the information that's in there, 
+
+60
+00:04:37,650 --> 00:04:43,370
+put in the clipboard. And basically after we do our conversation starter and we've 
+
+61
+00:04:43,370 --> 00:04:48,170
+put read and wait for guidance, press enter. We would just paste that particular 
+
+62
+00:04:48,170 --> 00:04:50,730
+information directly into the conversation window.
+
+63
+00:04:50,740 --> 00:04:55,720
+Now I did that in Claude, but let's look at the code implementation prompt, which 
+
+64
+00:04:55,760 --> 00:05:01,920
+in my case I did in ChatGPT. But what we'd want to do is here is the design brief, 
+
+65
+00:05:01,920 --> 00:05:06,800
+please implement and we'll paste it in. And we can see a design brief has been put 
+
+66
+00:05:06,800 --> 00:05:12,400
+in place, and I'll just go over quickly how I adapted the design brief to make this 
+
+67
+00:05:12,400 --> 00:05:12,800
+one.
+
+68
+00:05:12,810 --> 00:05:18,930
+Now, the desktop single app design document is fairly extensive. It goes through 
+
+69
+00:05:18,930 --> 00:05:24,50
+and every time I run it, it tends to give an accurate result each time. But to create 
+
+70
+00:05:24,50 --> 00:05:28,890
+it was fairly simple, because what we did was we built on top of the design we did 
+
+71
+00:05:29,10 --> 00:05:34,930
+in the last video, which was the Multi Application framework, and we just pasted 
+
+72
+00:05:34,930 --> 00:05:37,210
+it all in and asked it a simple question.
+
+73
+00:05:37,240 --> 00:05:42,320
+Now, the follow up statement to that design document was essentially to update the 
+
+74
+00:05:42,320 --> 00:05:47,480
+current Multi-app shell so that it looks more like a single app shell. And when you're 
+
+75
+00:05:47,480 --> 00:05:52,80
+doing that, should we drop anything, simplify or reframe any of the statements that 
+
+76
+00:05:52,80 --> 00:05:52,640
+were there?
+
+77
+00:05:52,640 --> 00:05:57,960
+Now the drop, simplify, reframe process worked out concepts about what it thought 
+
+78
+00:05:57,960 --> 00:06:02,440
+we should drop one of them I didn't really want to let go of. I wanted the command 
+
+79
+00:06:02,480 --> 00:06:07,160
+K for searching, but I didn't need it for application switching, so a minor change 
+
+80
+00:06:07,160 --> 00:06:12,760
+there. It then talked about different areas that were common and reframed them so 
+
+81
+00:06:12,760 --> 00:06:18,320
+they made more sense in a single application structure. It also gave a couple of 
+
+82
+00:06:18,320 --> 00:06:22,880
+minimal ideas to think about, and I took some of these into account. For instance, 
+
+83
+00:06:22,880 --> 00:06:24,960
+I didn't want to have a footer status bar.
+
+84
+00:06:24,970 --> 00:06:29,160
+So from there I just gave it a few instructions, such as what I wanted with the command 
+
+85
+00:06:29,200 --> 00:06:34,800
+K, a couple of other changes. It started building a single app spec. Now I read this 
+
+86
+00:06:34,840 --> 00:06:38,680
+in detail. It's really important that you get it right. A couple of things that I 
+
+87
+00:06:38,720 --> 00:06:44,280
+noticed is it was going into the technical side of things, such as using a convex 
+
+88
+00:06:44,280 --> 00:06:50,600
+database, and this is a pure UX experience. I don't want to get into the underlying 
+
+89
+00:06:50,640 --> 00:06:55,120
+technologies when building out this prompt, so I let it know. It made a couple of 
+
+90
+00:06:55,160 --> 00:07:01,280
+modifications, and we kept going until we had a final application design that I could 
+
+91
+00:07:01,280 --> 00:07:05,200
+run on a consistent basis. And this did work the first time.
+
+92
+00:07:05,210 --> 00:07:10,340
+So now that you got a copy of the design brief, we can work through the three prompts 
+
+93
+00:07:10,340 --> 00:07:13,940
+that are listed here. Now, if we head over to Claude, this is what I did the first 
+
+94
+00:07:13,940 --> 00:07:20,140
+time. In this conversation we'll explore single app UX design, say yay and wait. 
+
+95
+00:07:20,140 --> 00:07:25,380
+So it started waiting, ready to move forward. And I said read and wait for guidance. 
+
+96
+00:07:25,380 --> 00:07:30,820
+And I gave it the role. It became a personality. So it says, got it. I understand 
+
+97
+00:07:30,820 --> 00:07:35,660
+my role and it's got a little bit of conversation about what goes on. Waiting for 
+
+98
+00:07:35,660 --> 00:07:40,540
+your guidance on the single app design we're creating. I said, here is the design 
+
+99
+00:07:40,540 --> 00:07:45,180
+brief, please implement. And I press paste and I pressed enter to see what it would 
+
+100
+00:07:45,180 --> 00:07:49,340
+create. So we end up with a whole lot of code. You'll notice that there's various 
+
+101
+00:07:49,340 --> 00:07:53,340
+versions going on here. So I'm just going to bring up version one, which is the first 
+
+102
+00:07:53,340 --> 00:07:57,820
+one that it created. And you can see that it had a little bit of a challenge here.
+
+103
+00:07:57,840 --> 00:08:02,290
+So I naturally had a look behind the scenes just to see what was going on. I did 
+
+104
+00:08:02,330 --> 00:08:08,450
+notice the way it was scripting out to tailwind CSS was in the times that it failed. 
+
+105
+00:08:08,450 --> 00:08:13,210
+It looked like this. I gave it a basic prompt that said, why does it look like this? 
+
+106
+00:08:13,450 --> 00:08:18,770
+Is there an issue with CSS or links? And it said, yes, I think it's a CDN issue. 
+
+107
+00:08:18,810 --> 00:08:23,570
+And so then when we move on to version two of this, everything started to come together 
+
+108
+00:08:23,570 --> 00:08:29,770
+looking well. And we can see that it's popping out to Cloudflare to a tailwind module. 
+
+109
+00:08:30,10 --> 00:08:36,330
+So my experience with using this prompt was that it would give really great output. 
+
+110
+00:08:36,330 --> 00:08:42,770
+But when used in the Claude application it would sometimes work, sometimes not unrelated 
+
+111
+00:08:42,770 --> 00:08:47,650
+to the actual code, but more to the order of how things were being called within 
+
+112
+00:08:47,650 --> 00:08:50,690
+the code base. So I'm going to show you a quick way.
+
+113
+00:08:50,710 --> 00:08:56,40
+Now, I just mentioned that if you want one on one help or guidance on vibe coding 
+
+114
+00:08:56,40 --> 00:09:01,120
+or using AI pair programmers, then go look for AppDave online. Once you get there, 
+
+115
+00:09:01,120 --> 00:09:05,120
+you'll come up to the main website where you can book a call with me and we can do 
+
+116
+00:09:05,120 --> 00:09:10,160
+one on one sessions in the area of AI pair programming and coding.
+
+117
+00:09:10,170 --> 00:09:15,890
+So getting back to this session, what I found was generating it within the Claude 
+
+118
+00:09:15,930 --> 00:09:21,450
+application was hit or miss. So if we move on to version three, we start seeing similar 
+
+119
+00:09:21,450 --> 00:09:26,730
+sorts of errors over and over again. And it's not until we get to version five that 
+
+120
+00:09:26,730 --> 00:09:32,450
+we get another working version, though not quite as good. So what I thought was I'll 
+
+121
+00:09:32,450 --> 00:09:38,90
+break out to an IDE, or in this case we'll be using Claude Code just to generate 
+
+122
+00:09:38,130 --> 00:09:39,810
+bulk versions of this.
+
+123
+00:09:39,840 --> 00:09:44,870
+So I've just opened up Visual Studio, and you can see here that I've got three examples, 
+
+124
+00:09:44,870 --> 00:09:49,400
+which we'll look at soon. But the first thing we should look at is the role. And 
+
+125
+00:09:49,400 --> 00:09:53,780
+so the role is in markdown format. We can see that it's a single app, 
+
+126
+00:09:53,810 --> 00:09:58,820
+UX UI design specialist. We've got all the expertise, all the guidance for what that 
+
+127
+00:09:58,820 --> 00:10:03,890
+role should entail. After that, we've got the design brief going on here, and this 
+
+128
+00:10:03,890 --> 00:10:10,100
+is a full spec of what we would like to generate. It's a single app framework shell. 
+
+129
+00:10:10,110 --> 00:10:14,620
+we've got the layout, a menu. On the left. We've got the different pages that we 
+
+130
+00:10:14,620 --> 00:10:19,720
+want to see an example of. We've got a content panel in the center. We're gonna have 
+
+131
+00:10:19,720 --> 00:10:25,810
+command K as a key that can make things happen, like search. And there's an optional 
+
+132
+00:10:25,810 --> 00:10:27,970
+top bar. We'll see what it does there. 
+
+133
+00:10:27,970 --> 00:10:33,80
+And we've got this important idea of theming is that it supports light and dark mode. 
+
+134
+00:10:33,320 --> 00:10:39,500
+So from there, all we can do is go into a terminal and I'm just going to use Claude 
+
+135
+00:10:39,500 --> 00:10:45,20
+in this case. So we'll go Claude. I'm specifically going to use the Sonnet model. 
+
+136
+00:10:45,140 --> 00:10:49,970
+I don't wanna waste my credits on Opus. It's not really needed for the problem we're 
+
+137
+00:10:49,970 --> 00:10:51,380
+trying to deal with here.
+
+138
+00:10:51,410 --> 00:10:55,460
+So the simple prompt will be something similar to this. Become
+
+139
+00:10:55,470 --> 00:11:00,950
+the role and we'll just put in the At sign and we'll go and select role down the 
+
+140
+00:11:00,950 --> 00:11:05,590
+bottom there. And this is this file that we can see over on the left being used. 
+
+141
+00:11:05,630 --> 00:11:10,870
+Now I'll just come over to the design brief. Can you implement.
+
+142
+00:11:10,870 --> 00:11:17,230
+And we'll just say design brief. We'll select that and right into
+
+143
+00:11:18,570 --> 00:11:24,470
+index example four. So it's just going to impersonate the role. Try to implement 
+
+144
+00:11:24,470 --> 00:11:28,790
+the design brief and then write it out to a file that doesn't currently exist.
+
+145
+00:11:28,810 --> 00:11:34,50
+So it's now going through a chain of thought. It's going to create a HTML structure, 
+
+146
+00:11:34,50 --> 00:11:39,50
+implement the different concepts as we go. At the end we're going to see a green 
+
+147
+00:11:39,100 --> 00:11:41,650
+file here called index example four
+
+148
+00:11:41,840 --> 00:11:42,450
+HTML.
+
+149
+00:11:42,470 --> 00:11:44,890
+So that took about two or three minutes. 
+
+150
+00:11:44,890 --> 00:11:49,420
+So let's figure out how this all works. So we'll come over. We've got a dashboard. 
+
+151
+00:11:49,420 --> 00:11:54,540
+It's looking pretty good. We can go to a wizard. There should only be one step implemented. 
+
+152
+00:11:54,540 --> 00:12:00,380
+That's all I asked for in the prompt. Then we've got a form and it's a pretty complex 
+
+153
+00:12:00,380 --> 00:12:06,260
+form. This is great. We've got analytics. Now we've got to figure out where the theme 
+
+154
+00:12:06,260 --> 00:12:07,220
+changes are.
+
+155
+00:12:07,220 --> 00:12:13,790
+We can't see them yet. Let's check this command K first. So if I type in dashboard 
+
+156
+00:12:13,830 --> 00:12:18,350
+yep. Great. And Wizard this is working good. If I go down to settings
+
+157
+00:12:18,350 --> 00:12:23,380
+here are our themes. So we've got light and we've got dark. This is looking pretty 
+
+158
+00:12:23,380 --> 00:12:27,260
+good. So that's our dashboard and wizard.
+
+159
+00:12:27,860 --> 00:12:34,700
+So moving on to the first example, which I did earlier, and we've got the dashboard, 
+
+160
+00:12:34,850 --> 00:12:38,930
+a wizard. We've got a form. It's similar, but it is different 
+
+161
+00:12:38,960 --> 00:12:44,940
+analytics. The command K on this one works. I know that. So we can type information 
+
+162
+00:12:44,940 --> 00:12:49,920
+in when we look at how the settings were done, it's same concept, just a different 
+
+163
+00:12:49,920 --> 00:12:55,20
+way of implementing the control. This is working. Great. Moving on to example two. 
+
+164
+00:12:55,320 --> 00:12:59,670
+Much better look and feel. This was what I loved about this, was the idea that you 
+
+165
+00:12:59,670 --> 00:13:05,280
+could use the same role and prompt multiple times and get totally different outputs 
+
+166
+00:13:05,310 --> 00:13:10,680
+while still keeping true to the goal. So we've got a wizard, we've got a data form 
+
+167
+00:13:10,710 --> 00:13:12,330
+and we've got analytics. 
+
+168
+00:13:12,450 --> 00:13:18,900
+we've got our little theme button here, but if we click on it, the dark theme is 
+
+169
+00:13:18,900 --> 00:13:23,670
+not quite the colors we want. We'd need to play around with this a little bit. And 
+
+170
+00:13:23,670 --> 00:13:28,200
+can I go back? I can command K seems to work. This is good. 
+
+171
+00:13:28,210 --> 00:13:30,100
+And what do preferences do? 
+
+172
+00:13:30,110 --> 00:13:36,40
+we can do our themes here as well. Interesting. And if I move on to the last example, 
+
+173
+00:13:36,40 --> 00:13:42,40
+which is example three for me, we've got dashboard, wizard, form, and analytics. 
+
+174
+00:13:42,40 --> 00:13:48,640
+We've got command K, so if we put in dashboard looking great and settings, it does 
+
+175
+00:13:48,640 --> 00:13:50,500
+it as a little button, which is pretty cool.
+
+176
+00:13:50,500 --> 00:13:56,300
+So just as a quick recap, in the last video I did, we created a role and we created 
+
+177
+00:13:56,300 --> 00:14:03,200
+a brief on multi app desktop design briefs. In this video, what we've done is taken 
+
+178
+00:14:03,200 --> 00:14:08,620
+those original prompts and we've used an adaption technique. We've modified the role 
+
+179
+00:14:08,620 --> 00:14:12,320
+to a single app person. We've modified the design brief 
+
+180
+00:14:12,940 --> 00:14:17,210
+to a single app design brief. After that, what we did was we just worked through 
+
+181
+00:14:17,210 --> 00:14:22,970
+the simple, prompt structure, start the conversation, inject the role, finally inject 
+
+182
+00:14:23,30 --> 00:14:27,740
+the design brief. We basically the word implement and let it go and do what it needs 
+
+183
+00:14:27,740 --> 00:14:28,190
+to do. 
+
+184
+00:14:28,210 --> 00:14:32,600
+now, it worked really well in Claude code. It was a little bit hit and miss in the 
+
+185
+00:14:32,600 --> 00:14:37,310
+Claude Web application, but that had nothing to do so much with the code, but just 
+
+186
+00:14:37,310 --> 00:14:41,150
+the way it was trying to load JavaScript in that particular environment.
+
+187
+00:14:41,170 --> 00:14:46,830
+Anyway, I'm AppDave. In the next video, we'll be continuing this journey of of developing 
+
+188
+00:14:46,830 --> 00:14:52,110
+micro apps using Claude Code. So if you want to see more about this then please like 
+
+189
+00:14:52,110 --> 00:14:54,350
+and subscribe and I'll see you in the next video.

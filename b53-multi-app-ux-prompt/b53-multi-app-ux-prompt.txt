@@ -1,0 +1,189 @@
+Would you like to vibe code a user interface, such as the one you're seeing now, 
+where we've got access to light and dark mode, where we can switch between different 
+applications and have menus that make sense for each of the applications. We've got 
+the concept of settings at the app level and at the global level. And all of this 
+was done using two simple prompts. And in this video, what we'll do is I'll show 
+you the two prompts and how they can be adapted to any sort of user interface that 
+you'd like to create. I'm AppyDave. Let's get into it.
+Yesterday I was putting together a video using Claude code, and the idea was to go 
+through a fairly long product requirements document and build out the application 
+one epic at a time. And so as I was working through it, I built out all the technical 
+foundations I'd started getting into a little bit of the application, scaffolding 
+the concepts of like a wizard that I could go through each of the items. But one 
+of the challenges I had was that it looked pretty average.
+Now this morning having a simple conversation with ChatGPT for requirements and claude 
+for generating the application. I was able to come up with this simple application 
+harness for the visual user interface, and the idea of it was from the get go, I 
+could have extensions in the form of micro apps. So here we've got Visual Studio, 
+slack, Figma. A lot of these names came from the example applications that I used 
+in part of the conversation around what other applications are out there that do 
+what I want to do. And it came up with this provider model. So I should be able to 
+build AI agents that can build new applications quite simply, but they don't have 
+to build the rest of the user interface, such as the menus that you're seeing here, 
+which are application specific, but they're already being designed into the application 
+frame. We have right now, the idea that an application should have settings is being 
+encapsulated here, but the idea that the whole application and the multiple applications 
+going on can have their own settings are here at the moment. If I click on that, 
+this now remains fixed. So as I move off, that's not collapsing, but later on it 
+can become collapsible.
+So let's have a look at the conversation that I used to build, firstly, the requirements, 
+and then we'll look at how I made it all come together. So the conversation started 
+off fairly simply just speaking into the microphone in advanced mode where I said, 
+keep every answer short in the conversation. It started that way. I didn't want long 
+diatribes from it. All I wanted to do was say, I want examples of host applications 
+that have a multi app sort of feeling. So the first one it came up with was Salesforce 
+and Microsoft 360. I gave it additional information. It was telling me about the 
+plugins that go on in WordPress. We talked a little bit about the extensions that 
+go in Visual Studio, and part of the conversation was also talking about the stuff 
+I liked and I didn't like in different applications. At one stage, it came up with 
+WeChat as a perfect example of the sort of application framework I wanted. But then 
+I realized that that was a mobile first approach and I really needed a desktop first 
+approach. 
+But I was starting to get a feel that the WeChat approach would be perfect if I understood 
+it more. I haven't used the application myself, but I mentioned that it's now starting 
+to sound a lot like an operating system, like an Android phone where you've got all 
+these multiple applications, you can click on them, they all open, but there's often 
+a lot of similarity in the user interface.
+As I was doing my conversation, I was ending up with extra GitHub repos like this 
+one here, and noticed it was five years old. So that was no good for me. So I started 
+to ask it the simple question, where are we at? I, all I wanted to do was consolidate 
+what we'd been talking about, 
+and I followed up with just the assumption that WeChat is limited to the mobile phone. 
+I need something that's on the desktop. Now, after a couple of other questions backwards 
+and forwards, we started coming up with 
+various applications that I knew, like Slack and VS. Code, and talking about how 
+they worked. Concepts like Control K to go into search, the idea of contextual surfacing 
+where applications don't appear on the left hand side until you needed them. So I 
+was thinking maybe I need some pinned applications that I use all the time, others 
+that just show up recently. 
+Now, you might be wondering from the prompt engineering point of view, how do you 
+do this yourself? What is the system? Well, this system is simply a simple conversation 
+of what I like and what I don't like through example. I'm just asking what are the 
+applications in this category that do this, such as Microsoft Teams. I had little 
+statements like, hang on, Microsoft Teams only has a few applications. Would this 
+be the right system for me? And I started to learn what are the functionality that 
+I want? 
+this is building up the requirements document through trial and error. 
+Now, one of the things that the conversation naturally went into, but that I didn't 
+want it to go into was I the idea of do any of the apps need multi-step workflows? 
+Now, if you go to what's being built, 
+this is going to be hosting multi-stage wizards where the steps will show up down 
+the left and there'll be a wizard in the middle. But none of that has anything to 
+do with the application harness. That's the specific application that I wanna build 
+in another step.
+Okay, 
+now the idea it was coming up with both visually but also in the data shaping was 
+that it needed to explore areas like the user roles and permissions. How should the 
+data move? It's what sort of database. And I told it to exclude these areas 'cause 
+this is not what I wanted to build from just a user interface point of view. 
+It did ask me if I wanted light and dark mode. So I said yes I did. I wanted settings. 
+I did tell it that I needed both global settings and application specific setting. 
+And sometimes I would ask it, what do you think we should explore? And it would just 
+come up with different areas from the framework, the application discovery, the user 
+interface, the data consistency. And this is where I would answer some of them and 
+say some of them aren't relevant 
+by this time. It had come up with seven areas that were pretty relevant for me. We've 
+got the application panel, which would have the pinned, the recent, it should be 
+collapsible. It had the actual menu item, which is the menu of individual applications. 
+Then how do they show as a main 
+display. It then started talking about a conversational chat panel, which I decided 
+to let go of mainly because that's really going to sit within the application and 
+it's optional, not part of something I need in the application shell, I did need 
+the command K interface to do searches. I did need a top bar and 
+I did need a footer status. 
+And so it was getting really good at writing a brief for me. And I just gave it a 
+little bit of extra instruction and said, can you now turn it into a full document? 
+And there we had the full document once this was in place. And I knew that all the 
+information was specifically what I wanted, excluding the stuff that I didn't want. 
+I was just able to press the copy button.
+So with our design brief in our clipboard, it's a case of how do we run it within 
+this case? Anthropic so what I did was I headed over to Claude. And you can see I've 
+said, here is the brief and I've just pasted everything in verbatim, but there is 
+a little bit going on just before this conversation. And that's the idea of what 
+sort of role do we want?
+Now, the reason I don't drop this really detailed requirements document directly 
+into the conversation is just understanding the nature of how large language models 
+work. So if you were doing a search for promoting a website and you did it on Google, 
+you might say, how do I promote a website? 
+And might come up with ideas around search engine optimization and backlinks might 
+come up with content creation, or it 
+might come up with search engine marketing, so Facebook ads or Google AdWords. Now, 
+you shouldn't generally use your large language models the way you work with Google. 
+Instead, what you want to do is get it to become a certain type of person in the 
+real world, because the way large language models generate the next token is usually 
+based on what come before. So what I like to do is train it and say you are a specific 
+sort of person, but again, I don't come up with that idea. I let that build it for 
+myself. So let's have a look at that and what we'll do is we'll jump over to the 
+original conversation and we'll take it to the top. Now, a lot of this was done just 
+talking into the microphone. So there's all sorts of typos going on in in here, but 
+it was still quite accurate. So I said, you are going to design a user interface. 
+I'm going to give you the details. That's the requirements document that you just 
+looked at, and it said, if I wanted to develop a role under which you operate. So 
+basically what sort of human are you and your experiences and your strengths is building 
+multi app user experiences. Give it examples like Teams and Slack, stuff like that. 
+I mentioned concepts like multiple plugins or multiple sub apps. I give it examples 
+and it doesn't even get the 
+text, right? But it doesn't matter. We've got visual Studio going in there. 
+And with all this information just said directly into the microphone, it ends up 
+coming up with what is considered a pretty good role for a multi-platform UX UI 
+systems architect. I don't think I use the term systems architect anywhere, but it 
+knew how to design this. So this then becomes the full context and you just paste 
+the prompt that you want directly after you've built the role that you want.
+So about a minute after actually pasting this in, we got this little button here 
+that we can click to pull up the application. We also got a summary which I never 
+bothered to read until now, and then realized it had implemented the command and 
+control K. Let's go and check whether that worked, because I haven't tested that 
+yet. So we come over to the application. We've got our light and our dark mode. We've 
+got our expanding menu which has the individual apps that we want. We have the ability 
+to lock the menu in place by clicking the settings here in the real world, other 
+sorts of menus might pop up there. Then we've got the menus related to the individual 
+app. Now let's see what happens if we press command K, it looks like it's doing something. 
+we can not do anything right now, but all of this functionality all worked in one 
+hit by getting the role right and just having a conversation about what you do and 
+what you don't want.
+I think one final useful test while we have this is if we look at the underlying 
+HTML, we've got a bunch of CSS going on here. If we go to the very bottom, we've 
+got a little bit of JavaScript going on, and above that raw HTML. So this is not 
+the sort of format I want to use in the application I'm building here. So this application 
+is using React. It's got Shad CN, and Tailwind CSS. So what I've done is I've just 
+started a remix on the application that we've put together, and we'll just test a 
+little prompt. What would it take to turn the entire application structure into a 
+React component using Shad CN and Tailwind Cs, and let's just see what it comes up 
+with. 
+So we've got a bunch of code being written at the moment. This is the React desktop 
+shell with Shad cn slash 
+ui, 
+starting to write the app panel component right there. We've got application items, 
+we've got a little bit of HTML being embedded in here. 
+Here's our light dart mode component being written. 
+We've got something pretty ugly coming together at the moment.
+Now, the reason this is showing up like this is if we look at the underlying code, 
+all we have is the code for the individual components. And this is probably perfect 
+if we wanted to take it over as components into the existing application, but I think 
+we should do a little more. So when you look on the left here, it talks about the 
+architecture changes that it's made. It's told us about the Shad CN UI components. 
+It's used and it's got other information. But I just asked it a simple question. 
+Would you be able to recreate a HTML page that is using React and actually works? 
+What would be your strategy? Is it as simple as a HTML page or do we need to do more? 
+And it starts working through it? It's using A CDN when we look at the code in a 
+moment. So let's just go and click on this and see what we get. And we've got the 
+HTML. We're using CDNs to go and get Tailwind to go and get React. Everything else 
+is just being written. And so when we run it, it looks like we've got a real application. 
+Now I might just hit the publish button and see what happens from here.
+So we click on our
+published link and it takes us over here. We've got some errors, but let's just see 
+what it does. Now it doesn't quite look as good as the HTML version. So there'll 
+be a few changes that we need to do. We do have the drop out menu. It doesn't look 
+like it locks down. So that's not working the same. If we press command K let's see 
+what we get there. We've got the ability to search. So if I type in slack it finds 
+it. So it's now actually working which is good and light 
+and dark mode. There's a little bit of issues with this, but otherwise we've been 
+able to create all our components 
+and we've been able to see what they could look like in a hosted application.
+So to recap what we've done, there is created a simple user experience having just 
+a conversational prompt and a role based prompt. Now, if you're interested in learning 
+to code with me, you can come over to the AppyDave website, book a call, and we can 
+figure out how that could work for you. Otherwise, like and subscribe because in 
+the next video, I'm going to be doing more on this app-a-day sort of concept and 
+testing my ideas around coding and software architecture. I'm AppyDave see you in 
+the next video.

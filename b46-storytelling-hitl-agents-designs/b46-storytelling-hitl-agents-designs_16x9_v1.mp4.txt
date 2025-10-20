@@ -1,0 +1,94 @@
+Do you want to scale your storytelling using AI without losing the human touch? In this video
+I'll walk you through some of the human in the loop AI automations that I use for storytelling
+and YouTube automation. I'll introduce you to my core automation pillars, what I call the scale
+framework and how I'm using that and tools like Agent Workflow Builder and Pickaxe to bring
+content creation to life. But first let's kick off with an example, a cinematic trailer called
+The Mountain of Mastery that's built using these workflows.
+He has climbed the treacherous mountain of mastery where many have fallen. He has battled
+burnout, braved the shadowbound swamps and faced the dreaded demonetization dungeon. He has studied
+the sacred texts, viral thumbnails, retention graphs and every cat video in search of the
+ultimate truth. Is he a genius? A madman? A man haunted by the ghosts of unfinished edits?
+No one knows but one thing is certain. He won't stop until he finds the answer or loses his mind
+trying. This is the ridiculous legend of Appetit and the 555 Manifesto. Now the rest of this talk
+on the scale framework and the human in the loop agents was actually part of a talk I did last week
+at Ecamm Live Tech Summit. If you want to find the full presentation you can see it down below.
+Otherwise let's move on. Now we're going to look at crafting workflows and these are simple prompt
+chains that you put in place to execute the same sort of instructions over and over again in a
+systematic way and I like to use them in three main areas. Business optimization, creative processes
+like you see in this presentation or in a lot of the YouTube videos I do or personal productivity
+maybe writing an email or a Facebook message. Now if you're doing workflows correctly you also have
+extended tools such as fine tuning, retrieval, augmented generation, memory, human in the loop
+to interact with the AI and maybe different models to solve different problems. So let's have a look
+at it from a marketing agency point of view. So let's say you're a digital marketing company
+and you've got a lot of workflows that you're doing for many clients and it's the same workflows
+over and over again and this was one such company I was working with and we were looking at the
+different workflows they've got and just putting them into structured prompt chains that they could
+run over and over again. Now one of the things I found interesting about working with this company
+that is that there's a lot of similarity between being a YouTuber publishing LinkedIn articles
+and being an SEO agency creating various forms of content. I also worked recently with a branding
+agency and what they had put in place already was competitive analysis market research tools
+in the form of prompt packs and these prompt packs were done in Canva they had nice little
+video walkthroughs of how to use them and they were quite simple in nature basically a bunch
+of prompts that a customer could just copy paste into large language model of choice
+maybe modify a few input variables so this is a simplistic way of getting your first prompt chains
+up running. Now as a YouTuber using prompt chains can be effective in all sorts of areas like creation
+and optimization of your content you might want to repurpose and redistribute it as an article or as
+carousel or you might want to deal with analyzing the comments or building
+some sort of offer to a sponsorship deal. So let's look at a tool I use internally called
+the agent workflow builder to create videos and one of the workflows I go through is the YouTube
+launch optimizer it's a 30-step workflow that I go through every time I release a video but one of
+the steps involved here is the YouTube titles so when we were looking at the video at the beginning
+of this session called the 555 manifesto and the mountain of mastery I would have run that through
+a title generator I would have said the short title is the 555 manifesto its main topic is
+it's about spiral learning and I would put in a couple of content highlights now the good thing
+about this is it would run a prompt through chat gpt in this case and we get a bunch of
+YouTube titles ready to get started now personally I use vidIQ a lot when I want to use
+title generation but what I love about doing it within the agent workflow builder is I have full
+control over the way titles are being created so I use it as a first pass and then I finish off
+with vidIQ. So let's get into a more detailed workflow let's look at story building and in the
+video that we saw at the beginning it starts off with legends are forged in the fires of the
+YouTube battlefield let's just play that for a second so that you can see what it sounds like
+agents are forged in the fires of the YouTube battlefield only the strongest the most persistent
+so you can see there that we've got nothing more than a transcript and with this transcript we can
+run it through various processes so the first one I want to look at is the shot list that we
+talked about with the woman in New York and we're doing some prompt engineering around coming up
+with shot lists and one of the things that you notice with a scene is that there's more than one
+concept going here firstly we've got the scene itself is a mountain in the background but in
+the foreground we've got two different ideas going on firstly we've got the protagonist the hero in
+the story in the red robes the second thing we've got is a main artifact or item in this case it
+happens to be a sword now these specific details are really important when you're generating
+graphics and prompts and stuff like that so I start off with the primary character generator
+and this is where I work through and solidify what the character is going to look like after
+that I'll look at the other characters that might be the villains they might be the other
+characters within the story and how do I get them consistently looking the same across different
+scenes after that I want to work on the scenes themselves can I come up with a style that's
+repeatable that I can reuse to get nice effects and one of the things that you see in a scene is
+there's all sorts of objects but sometimes there's a major object and the major object would be
+something like the 555 manifesto where I want to define that and work through consistently being
+able to reproduce it in various scenes of the video now as an example I will only talk about
+the primary character I've developed two different styles so here I've put myself in a black shirt
+and I've run it through style one and style two I decided I liked style two more but I didn't want
+to work with the black shirt so I just took a different picture and you can see that the image
+on the right was used in the mountain of mastery youtube trailer now with crafting workflows out
+of the way let's look into the next two sections which is AI agents and using loco tools so an AI
+agent is an automation generally but quite often will also do a human in the loop sort of visual
+interface so when it comes to using vidIQ we can see that a video that I did I put in a title and
+it said your score is only 66 but what it did was suggest better ones and I went with the one that
+was 96 so this is a very simple human in the loop interface backed by agent workflows such as the one
+that I build for myself but another way of looking at this and this is where low code tools can come
+in is that you can use a tool like pickaxe now I've done four videos on this particular tool but
+just as a recap if we look at these little tools that are AI driven such as the youtube title
+generator again working on similar principles to what we saw in the age of workflow builder
+you can come along fill in a little bit of information and get a list of titles generated
+or using a tool that you can market you can reuse you can give away to different people
+another tool that I've done is the video advertisement script writer and the idea of
+this is creating an advert script that converts so you put in a few inputs and here we've got the
+hook that says hey yeah you scrolling mindlessly still thinking of those get rich quick videos
+will save your ass spoiler alert they won't and that's a hook we got the pain and the villain the
+reveal and then the call to action all at the end of it so to recap that's the scale framework and
+a couple of the human in the loop agent workflow systems that I'm using for visual storytelling
+this was all spoken about at a tech summit recently for ecamm leap if you want to work
+one-on-one with me then check out the link in the description otherwise in the next video what we're
+going to do from the same presentation is talk about the scalable agent framework that I'm
+starting to develop for the emotional support spiders storytelling system I'm happy Dave see
+you in the next video

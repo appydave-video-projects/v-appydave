@@ -1,0 +1,53 @@
+In this video we're doing a local install of N8n using Node.
+So let's install N8n locally. I've come over to the GitHub repo for n8n, and if you 
+scroll down, you'll be able to find access to various documentation. The one we're 
+looking at at the moment is with NPX, which is one technique we can use. The other 
+is using NPM and the -g command. So why would we use one over the other?
+or whether we would use the docker version. So the docker version is what you would 
+normally run locally. But if you wanted something like GPU acceleration and you're 
+on a mac, which I am at the moment, you don't have access to that using the Docker 
+version. So that would be the reason to come back and use one of the node versions. 
+But then why NPX? Now with NPX, what it'll do is it'll just get it down, get it running 
+for you, but not do a global install. So this is really useful if all you want to 
+do is test out the idea of running it locally. So this is where we'll start. And 
+then after that we'll test the npm version.
+So quickly. Just come up to this little button, copy it to the clipboard. Once you've 
+done that, you can go down to your terminal and just run that and follow the prompts.
+So we have N8n installed. Now we can see that it's running on port localhost 5678. 
+Now if we head over to a browser and we'll just paste in that URL, we now have n8n 
+running for us. The good thing about this version of it is that if I run the same 
+command again in one month's time, it'll give me the latest version every time because 
+it hasn't been installed globally. But each time you run it, it will be a bit slower 
+because it does have to go and check and potentially download a new version.
+So we'll just do a quick little test on this. We'll set up an owner account with 
+this.
+Go through the quick customization and we'll skip this section because I already 
+have a key.
+Now I've opened up a new terminal to use the global npm install. So if we do which 
+on n8n, it'll say there's nothing there. So if we type in npm install and we'll type 
+in n8n and we'll type in g n8n and start the process there.
+So it's finished installing. If we want to try testing it, we can type in N8n and 
+see what happens when we run it. And it tells us that there is a port conflict going 
+on with the version that's running over here. 
+So what we'll do is we'll just set the port in an environment variable. N8n port 
+is 5900 and see whether this runs. And here we have it. We'll take a copy of the 
+URL with the 5900 at the end. Now here we have the older version that's running on 
+NPX. If we do a refresh, everything should be running okay. And we'll just open up 
+a new browser window and start a new version. And this time it's asking us to sign 
+in.
+Now we're entering the credentials that were used on the other version of this, running 
+on a different port, and it looks like we've signed in.
+So what we'll do is 
+we'll click on the add first Node. We're just going to go with the trigger manually. 
+We just want to make sure this is all running.
+And we'll press the execute workflow. And that looks to be working okay. 
+Now to be interesting, to know whether we can run this on the other port. We'll just 
+pop back to there and we do need to sign in. So this is the NPX version. The other 
+one is the NPM
+g version and it looks like it's all available. Let's see what happens if we click 
+through here and we press Execute Workflow. We can run it from both ports. And it 
+is sharing the information. 
+So that's a local install of n8n using either the npm or 
+npm g command. In the next video, what we'll do is 
+we'll install it locally again, but this time using Docker. I'm AppyDave. See you 
+in the next video.
