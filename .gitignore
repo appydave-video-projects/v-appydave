@@ -13,9 +13,9 @@
 *.mov
 *.avi
 
-# Exception: Allow everything in final/ directory
-!final/
-!final/**
+# Exception: Allow video files in final/ directories (at any depth)
+!**/final/
+!**/final/**
 
 # Large raw assets
 **/*.psd
