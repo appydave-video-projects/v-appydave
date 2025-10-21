@@ -13,6 +13,10 @@
 *.mov
 *.avi
 
+# Exception: Allow everything in final/ directory
+!final/
+!final/**
+
 # Large raw assets
 **/*.psd
 **/*.ai

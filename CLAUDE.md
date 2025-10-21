@@ -22,6 +22,31 @@ This directory contains AppyDave brand video projects (107 total) managed across
   - Organized in range folders: `-01-25`, `a01-a49`, `a50-a99`, `b00-b49`, `b50-b99`, etc.
   - Currently: 107 projects (~400.61 GB)
 
+### Final Assets Directory
+
+The `final/` directory stores **publishable final videos** ready for distribution.
+
+**Naming convention**: `{project-name}-v{version}.mp4` (lowercase-kebab-case)
+
+**Examples**:
+```
+project-name/
+└── final/
+    ├── project-name-v1.mp4          # First version
+    ├── project-name-v2.mp4          # Revised version
+    └── project-name-short-v1.mp4    # Short variant
+```
+
+**Git tracking**: Files in `final/` are tracked (exception to video ignore rules).
+
+**When to use**:
+- ✅ Final YouTube uploads
+- ✅ Client deliverables
+- ✅ Multiple versions for A/B testing
+- ❌ NOT for work-in-progress renders
+
+---
+
 ### Project Naming Convention
 
 Projects follow sequential naming: `{letter}{number}-{name}`
