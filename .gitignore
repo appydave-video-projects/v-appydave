@@ -13,10 +13,6 @@
 *.mov
 *.avi
 
-# Exception: Allow video files in final/ directories (at any depth)
-!**/final/
-!**/final/**
-
 # Large raw assets
 **/*.psd
 **/*.ai
@@ -71,3 +67,9 @@ build/
 !**/*.srt
 !**/*.yml
 !**/*.yaml
+
+# Video Asset Tools - Environment config (local SSD paths)
+.video-tools.env
+
+# Video Asset Tools - Generated manifest
+projects.json

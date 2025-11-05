@@ -1,14 +1,14 @@
 {
   "config": {
-    "local_base": "~/dev/video-projects/v-appydave",
+    "local_base": "/Users/davidcruwys/dev/video-projects/v-appydave",
     "ssd_base": "/Volumes/T7/youtube-PUBLISHED/appydave",
-    "last_updated": "2025-10-20T15:26:28Z",
-    "note": "Auto-generated manifest. Regenerate with: ruby generate_manifest.rb",
+    "last_updated": "2025-11-03T03:01:54Z",
+    "note": "Auto-generated manifest. Regenerate with: ruby video-asset-tools/bin/generate_manifest.rb",
     "disk_usage": {
       "local_flat": {
-        "total_bytes": 4221454558,
-        "total_mb": 4025.89,
-        "total_gb": 3.93
+        "total_bytes": 9126410760,
+        "total_mb": 8703.62,
+        "total_gb": 8.5
       },
       "local_grouped": {
         "total_bytes": 1661417291,
@@ -1625,6 +1625,66 @@
           "structure": "flat",
           "has_heavy_files": false,
           "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b64-bmad-claude-sdk",
+      "storage": {
+        "ssd": {
+          "exists": null,
+          "path": "/b64-bmad-claude-sdk"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b65-guy-monroe-marketing-plan",
+      "storage": {
+        "ssd": {
+          "exists": null,
+          "path": "/b65-guy-monroe-marketing-plan"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "b66-context-engineered-html-art",
+      "storage": {
+        "ssd": {
+          "exists": null,
+          "path": "/b66-context-engineered-html-art"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b67-vam-s3-staging",
+      "storage": {
+        "ssd": {
+          "exists": null,
+          "path": "/b67-vam-s3-staging"
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": false
         }
       }
     }

@@ -1,0 +1,1511 @@
+1
+00:00:00,880 --> 00:00:06,900
+Are you interested in creating art with AI but you don't want to use VEO-3 orSORA-2? 
+
+2
+00:00:07,320 --> 00:00:11,830
+You're not really interested in the generative AI. You want to go back to old school 
+
+3
+00:00:11,830 --> 00:00:16,510
+techniques like using programming, maybe games development. In this video, we're 
+
+4
+00:00:16,510 --> 00:00:21,390
+going to use context engineering to do a little bit of artwork and then potentially 
+
+5
+00:00:21,440 --> 00:00:26,350
+show some business use cases where we might project it directly onto a building. 
+
+6
+00:00:26,390 --> 00:00:28,280
+I'm AppyDave let's get into it.
+
+7
+00:00:28,280 --> 00:00:33,530
+I've learned a thing or two about AI art generation. I even have a faceless YouTube 
+
+8
+00:00:33,530 --> 00:00:39,280
+channel where I explore concepts like avatars and face swaps. And we've got all sorts 
+
+9
+00:00:39,280 --> 00:00:41,320
+of tutorials that have been written, 
+
+10
+00:00:41,320 --> 00:00:47,240
+on how to do animations and video creation. In fact, I've even got from about a year 
+
+11
+00:00:47,240 --> 00:00:52,490
+ago, a fancy video that I put together for 90 seconds. I'll just let that play. Legends 
+
+12
+00:00:52,490 --> 00:00:58,280
+are forged in the fires of the YouTube battlefield. Only the strongest, the most 
+
+13
+00:00:58,280 --> 00:01:02,920
+persistent, the most clickbait driven warriors will survive 
+
+14
+00:01:03,970 --> 00:01:10,210
+that's a little video that I did about a year ago for a presentation, and I've loved 
+
+15
+00:01:10,210 --> 00:01:16,150
+what we've been able to do with AI Art and video movie creation. But in this video, 
+
+16
+00:01:16,150 --> 00:01:21,970
+I wanna focus more on a different style of art that can be really useful for generating 
+
+17
+00:01:21,970 --> 00:01:27,10
+graphics for your videos. It can be used as something that you can project onto a 
+
+18
+00:01:27,10 --> 00:01:29,00
+building, do advertising. 
+
+19
+00:01:29,290 --> 00:01:32,110
+and the way we're going to do it is just write 
+
+20
+00:01:32,110 --> 00:01:36,940
+a couple of little programs quickly using context engineering. And we are going to 
+
+21
+00:01:36,940 --> 00:01:38,860
+do it simply using Claude Code.
+
+22
+00:01:38,860 --> 00:01:44,220
+So what I've done is set up a simple environment for us to start our project. I've 
+
+23
+00:01:44,220 --> 00:01:49,140
+got Visual Studio and I've just got a terminal and in it I'm going to just start 
+
+24
+00:01:49,140 --> 00:01:54,310
+writing Claude Code. And this is using Claude Code from the command line. Now, the 
+
+25
+00:01:54,310 --> 00:01:59,260
+good thing about Claude Code, it's relatively easy to use once you get through a 
+
+26
+00:01:59,260 --> 00:02:04,660
+few basic hurdles, and once you've got it going, you can run it within Visual Studio 
+
+27
+00:02:04,820 --> 00:02:09,430
+yourself. Or I like to run it from the command line like this. And I think we'll 
+
+28
+00:02:09,430 --> 00:02:12,870
+just start off with a basic context prompt to get us going.
+
+29
+00:02:12,870 --> 00:02:17,600
+So with a little starter prompt, I've just said, this conversation will be about 
+
+30
+00:02:17,600 --> 00:02:19,560
+generating AI art, 
+
+31
+00:02:19,560 --> 00:02:24,810
+things like word clouds, polygons, all the sort of computer graphics that you might 
+
+32
+00:02:24,810 --> 00:02:27,780
+see in a game. For example. What we'll do is 
+
+33
+00:02:27,780 --> 00:02:31,400
+we'll just tell it up front that we're going to do a little bit of prompt engineering. 
+
+34
+00:02:31,400 --> 00:02:36,150
+We're gonna have to do a little bit of research on styles, and then ultimately it's 
+
+35
+00:02:36,150 --> 00:02:41,640
+about building micro requirements documents and little applications that can just 
+
+36
+00:02:41,640 --> 00:02:48,300
+run in the browser, some sort of HTML, JavaScript, et cetera. Now with this, I'm 
+
+37
+00:02:48,300 --> 00:02:53,00
+just giving it a little bit of pre-contact and then I'm probably just going to write 
+
+38
+00:02:53,100 --> 00:02:55,620
+in it. And this is just going 
+
+39
+00:02:55,620 --> 00:03:01,620
+to build a Claude MD file, which is basically like a system prompt for this particular 
+
+40
+00:03:01,620 --> 00:03:02,180
+project. 
+
+41
+00:03:02,180 --> 00:03:07,710
+So the good thing here is we've got a bunch of tech stack options we could work with. 
+
+42
+00:03:07,710 --> 00:03:13,800
+We've also got some popular techniques and it's just reading the folder structure. 
+
+43
+00:03:13,800 --> 00:03:18,240
+And remember there wasn't much going on at the beginning. We've got a very empty 
+
+44
+00:03:18,420 --> 00:03:21,450
+setup, but in a moment we will have a Claude md. 
+
+45
+00:03:21,440 --> 00:03:27,140
+So the CLAUD.MD file has been created. We'll just click on that. We can read it this 
+
+46
+00:03:27,140 --> 00:03:32,960
+way, or we can put it into a markdown preview. Just makes it a little bit easier 
+
+47
+00:03:32,960 --> 00:03:38,480
+to understand what it thinks it needs as a starting point. So this concept, do the 
+
+48
+00:03:38,480 --> 00:03:43,680
+NPM run Dev probably isn't going to be needed. I don't know that we're going to run 
+
+49
+00:03:43,680 --> 00:03:45,980
+applications from NPM just yet. 
+
+50
+00:03:45,980 --> 00:03:50,840
+we'll we'll see as we go, but we've got a starting document to get going with our 
+
+51
+00:03:50,840 --> 00:03:51,560
+process.
+
+52
+00:03:51,560 --> 00:03:55,970
+So one of the interesting things when we are doing prompt engineering or context 
+
+53
+00:03:55,970 --> 00:04:02,00
+engineering is that when you give a starting statement and then you end up with ideas 
+
+54
+00:04:02,00 --> 00:04:08,180
+on how it's going to run, it's got ideas on the technology stack. It's becoming a 
+
+55
+00:04:08,180 --> 00:04:09,590
+little bit prescriptive. 
+
+56
+00:04:09,590 --> 00:04:15,80
+it's said, this is what we'll use, but I want a little be a little bit more artistic 
+
+57
+00:04:15,110 --> 00:04:19,760
+and free flowing. So what we'll do is we'll just put in an additional prompt that 
+
+58
+00:04:19,760 --> 00:04:21,320
+says, this is great. 
+
+59
+00:04:21,320 --> 00:04:24,870
+but one of the problems I have with the Claude file at the moment 
+
+60
+00:04:24,870 --> 00:04:30,930
+it's already decided on NPM and tech stacks. And what I want it to do is just be 
+
+61
+00:04:30,990 --> 00:04:36,380
+a little bit more free flowing in its thinking. And this is really just going to 
+
+62
+00:04:36,420 --> 00:04:39,180
+modify the system prompt slightly 
+
+63
+00:04:39,180 --> 00:04:44,220
+because while all this information like the tech stack is great, we don't really 
+
+64
+00:04:44,220 --> 00:04:47,340
+want to set that in stone right now. 
+
+65
+00:04:47,340 --> 00:04:51,780
+So now things have changed in a really positive fashion. We've got common techniques, 
+
+66
+00:04:51,780 --> 00:04:52,350
+generative, 
+
+67
+00:04:52,350 --> 00:04:56,700
+animation techniques and visual effects. We got a little bit of a coding structure 
+
+68
+00:04:56,700 --> 00:04:57,240
+going on.
+
+69
+00:04:57,240 --> 00:05:02,520
+So we can see it's modified a lot of the document. Basically it's removed the prescriptive 
+
+70
+00:05:02,560 --> 00:05:08,80
+text stack. We've got no architectures. We've removed code examples. And we're just 
+
+71
+00:05:08,80 --> 00:05:10,200
+emphasizing that this is 
+
+72
+00:05:10,190 --> 00:05:12,870
+an experimental and discovery session. 
+
+73
+00:05:12,870 --> 00:05:17,950
+so when we go back and have a look at our CLAUDE file, it's a much simpler document. 
+
+74
+00:05:17,950 --> 00:05:20,830
+And this will be the system prompt as we move forward.
+
+75
+00:05:20,830 --> 00:05:26,750
+So let's move into this experimentation and research phase. And I've just started 
+
+76
+00:05:26,750 --> 00:05:31,510
+a little prompt here that says, I want to create artwork that's animated. It has 
+
+77
+00:05:31,510 --> 00:05:37,00
+bold contrasting colors, and I wanna make sure it's designed for use with a projector. 
+
+78
+00:05:37,270 --> 00:05:42,460
+Now this could either be for wall art in a city, it could be for shop art, it could 
+
+79
+00:05:42,460 --> 00:05:47,650
+be for advertising in a shop. So we'll let it just start running and do a little 
+
+80
+00:05:47,650 --> 00:05:48,760
+bit of research 
+
+81
+00:05:48,760 --> 00:05:52,390
+on different techniques that would work. And you'd notice that the first thing it 
+
+82
+00:05:52,610 --> 00:05:56,80
+starts doing is searching the internet for ideas. 
+
+83
+00:05:56,80 --> 00:06:00,970
+Now, just point out that when you're using a terminal, it's a little bit different 
+
+84
+00:06:00,970 --> 00:06:08,380
+to using chat GPT or Claude in the websites in that it doesn't look quite as nice, 
+
+85
+00:06:08,560 --> 00:06:12,880
+but it's still fairly easy once you get the idea of it. But it has this benefit that 
+
+86
+00:06:12,880 --> 00:06:18,220
+it can read and write from files directly on your system. So any sort of context 
+
+87
+00:06:18,220 --> 00:06:24,130
+or what I would call a document island is really easy to create, really easy to reference.
+
+88
+00:06:24,130 --> 00:06:29,180
+So it's written up a research document for us. I've just put in a prompt to ask it 
+
+89
+00:06:29,180 --> 00:06:33,940
+to write that research into the dots folder for us. But let's have a quick look. 
+
+90
+00:06:34,00 --> 00:06:36,70
+We've basically got five 
+
+91
+00:06:36,70 --> 00:06:41,560
+graphic systems, I guess. So we've got the neo brutalist geo metric morphing. I've 
+
+92
+00:06:41,560 --> 00:06:46,210
+no idea what that is. We've got kinetic topography. This could be really good for 
+
+93
+00:06:46,210 --> 00:06:53,360
+advertising. We've got liquid fluid gradient animation, so we, and maybe stuff using 
+
+94
+00:06:53,360 --> 00:06:57,880
+various gradients could be good. And then we've got a particle system. They're always 
+
+95
+00:06:57,910 --> 00:07:03,400
+interesting and we've got anamorphic 3D illusion, so I'd be interested to see whether 
+
+96
+00:07:03,400 --> 00:07:08,500
+that's around silhouettes or stuff like that. Silhouettes are a style of art that 
+
+97
+00:07:08,500 --> 00:07:11,650
+I like using in business animations, 
+
+98
+00:07:11,650 --> 00:07:16,490
+and if that isn't what that is, we can always add it in later. So at the moment, 
+
+99
+00:07:16,490 --> 00:07:21,370
+it's writing out a document for us. Let's see what's happened in Visual Studio. We've 
+
+100
+00:07:21,370 --> 00:07:26,320
+got a dots folder. We can go and have a look at what it's written and we've got all 
+
+101
+00:07:26,320 --> 00:07:31,60
+our information ready to go. So the great thing is with this document here, we can 
+
+102
+00:07:31,120 --> 00:07:34,670
+pull it in as we need it. We can modify it anytime we like.
+
+103
+00:07:36,600 --> 00:07:41,720
+Now, if you want access to any of the prompts or the instructions and documents that 
+
+104
+00:07:41,720 --> 00:07:46,200
+I'm creating, they're all available in my community, and I'm going to be making that 
+
+105
+00:07:46,200 --> 00:07:51,80
+link available soon on the YouTube channel. So check it out there if you want the 
+
+106
+00:07:51,80 --> 00:07:53,960
+actual prompts. That said, let's keep going.
+
+107
+00:07:53,960 --> 00:07:58,320
+So we've got a great little document. I'm just going to kick off a new prompt. And 
+
+108
+00:07:58,320 --> 00:08:03,400
+what the document says is that we've got detailed descriptions for each of the styles. 
+
+109
+00:08:03,600 --> 00:08:08,880
+We've got why they would work for the target that we've got advertising, maybe a 
+
+110
+00:08:08,880 --> 00:08:15,280
+bit of artwork, we've got colour palettes. My question is what sort of technology 
+
+111
+00:08:15,320 --> 00:08:16,320
+do we want to use?
+
+112
+00:08:16,320 --> 00:08:21,370
+So I want to use something consistent across all five, but I am open to it. Having 
+
+113
+00:08:21,370 --> 00:08:26,640
+specific ideas around potential styles, it might just make sense to use a particular 
+
+114
+00:08:26,640 --> 00:08:27,250
+library.
+
+115
+00:08:27,250 --> 00:08:29,880
+I'm not sure if we want pure JavaScript, whether 
+
+116
+00:08:29,880 --> 00:08:33,760
+we want something like D3 for JavaScript, or whether 
+
+117
+00:08:33,760 --> 00:08:38,730
+we want something like tailwind for CSS, so it's just coming up with ideas at the 
+
+118
+00:08:38,730 --> 00:08:39,280
+moment.
+
+119
+00:08:39,280 --> 00:08:44,830
+Let's bring up the document as well. So we've got the tech stack analysis going on, 
+
+120
+00:08:45,100 --> 00:08:46,570
+and we'll visualize it 
+
+121
+00:08:46,570 --> 00:08:52,420
+in the markdown document here. But the basic things, it's said that each demo can 
+
+122
+00:08:52,420 --> 00:08:59,230
+be a self-contained HTML file. We'll use the HTML canvas, minimal, raw CSS and vanilla 
+
+123
+00:08:59,230 --> 00:09:01,600
+JavaScript. So this is great. We could run 
+
+124
+00:09:01,600 --> 00:09:02,980
+this in Gemini, we could run it 
+
+125
+00:09:02,980 --> 00:09:07,390
+in Codex, we could run it in Claude, which we're going to do today, or the Claude 
+
+126
+00:09:07,420 --> 00:09:13,250
+Artifact system up in the cloud. And each of these individual requirements documents 
+
+127
+00:09:13,250 --> 00:09:13,960
+should just 
+
+128
+00:09:13,960 --> 00:09:18,160
+come up with something unique. By the way, one of the reasons I like to run these 
+
+129
+00:09:18,160 --> 00:09:23,140
+across different environments is because you can use the same input requirements 
+
+130
+00:09:23,140 --> 00:09:24,500
+and get different styles 
+
+131
+00:09:24,490 --> 00:09:26,980
+based on the large language model you use. 
+
+132
+00:09:26,980 --> 00:09:32,230
+And I think one of the really great things about what it said is that these awesome 
+
+133
+00:09:32,230 --> 00:09:36,640
+libraries are overkill for what we're trying to do. And this was one of the reasons 
+
+134
+00:09:36,640 --> 00:09:42,790
+why I wanted the Claude MD not to describe any architectures up front. I wanted to 
+
+135
+00:09:42,790 --> 00:09:47,290
+see what this system would come up with. And this is part of the contest engineering 
+
+136
+00:09:47,290 --> 00:09:47,980
+approach.
+
+137
+00:09:47,980 --> 00:09:53,50
+Now with our tech stack analysis done, I want to go and figure out what the next 
+
+138
+00:09:53,50 --> 00:09:58,360
+step is. Now, I'm not sure if we want to build requirements documents for the five 
+
+139
+00:09:58,360 --> 00:10:03,520
+different styles or whether we need an intermediate document. So I'm letting it have 
+
+140
+00:10:03,520 --> 00:10:04,570
+a think about it. 
+
+141
+00:10:04,570 --> 00:10:10,240
+And the main reason for this is I want to build an AI agent, I guess. So I've got 
+
+142
+00:10:10,240 --> 00:10:11,680
+this little section in here 
+
+143
+00:10:11,680 --> 00:10:18,40
+and giving it extra context about the fact that we need an agent that can do AB testing. 
+
+144
+00:10:18,80 --> 00:10:23,210
+In other words, create more than one version of each animation style from the same 
+
+145
+00:10:23,410 --> 00:10:28,490
+requirements document. Now it's come up with a document strategy, so let's read that 
+
+146
+00:10:28,490 --> 00:10:30,10
+and see what it's thinking. 
+
+147
+00:10:30,10 --> 00:10:34,450
+And this is perfect. We've got, firstly, the human sort of document. The document 
+
+148
+00:10:34,450 --> 00:10:39,10
+strategy is the style guide, and this is where we can consider all the different 
+
+149
+00:10:39,10 --> 00:10:44,770
+aspects of each individual style and let it go a little bit deep into it. The second 
+
+150
+00:10:44,770 --> 00:10:50,890
+one is the requirements document. This is what the agent will use to build the website 
+
+151
+00:10:50,990 --> 00:10:52,00
+or the animation. 
+
+152
+00:10:52,00 --> 00:10:55,100
+So it's given us a proposed structure, five different 
+
+153
+00:10:55,100 --> 00:10:59,930
+style guides. We'll have a number of requirements documents. It's given a template 
+
+154
+00:10:59,930 --> 00:11:00,320
+for how the 
+
+155
+00:11:00,320 --> 00:11:05,360
+style guide would work and a template for the requirements documents. But it's come 
+
+156
+00:11:05,360 --> 00:11:09,800
+up with two options. I usually go with the recommendation, but let's just have a 
+
+157
+00:11:09,800 --> 00:11:10,400
+quick read 
+
+158
+00:11:10,400 --> 00:11:15,500
+and I'm glad I did read it. So for this video, we will go with option A, because 
+
+159
+00:11:15,500 --> 00:11:21,440
+I just want to test out the ideas, but if I was doing it for an actual project, I 
+
+160
+00:11:21,440 --> 00:11:27,200
+would use option B. I want to go deep into anyone's style. So we can just say option 
+
+161
+00:11:27,200 --> 00:11:31,670
+A, or I'll say Go with the recommendation 
+
+162
+00:11:31,670 --> 00:11:36,80
+like that, and it will start building out the documents that we want. We are going 
+
+163
+00:11:36,80 --> 00:11:42,680
+to see them come through on our Visual studio area, and we'll just pop up the explorer 
+
+164
+00:11:42,680 --> 00:11:45,290
+and see new concept coming in here. 
+
+165
+00:11:45,290 --> 00:11:47,260
+So you can see it's done a make 
+
+166
+00:11:47,270 --> 00:11:52,40
+dash piece. So whether it exists or doesn't exist, it'll create the Style Guides 
+
+167
+00:11:52,40 --> 00:11:58,190
+folder. It's there. We've got our first file being created. It's the template, and 
+
+168
+00:11:58,190 --> 00:12:03,500
+what else? We can see all the different steps that it wants to do right here. One 
+
+169
+00:12:03,500 --> 00:12:08,510
+of the things that you can do is press Control T to hide that, but I like to see 
+
+170
+00:12:08,510 --> 00:12:09,410
+what's going on. 
+
+171
+00:12:09,410 --> 00:12:13,910
+So our first document has been created. One of the things is that it created the 
+
+172
+00:12:13,910 --> 00:12:19,490
+template first so that it could use that as a guideline for future documents. So 
+
+173
+00:12:19,490 --> 00:12:23,390
+if we click in here and go for the geometric morphing, 
+
+174
+00:12:23,390 --> 00:12:28,610
+we've got the visual identity of what that's all about. We've got visual characteristics, 
+
+175
+00:12:28,610 --> 00:12:32,780
+we've got some color palettes, and we've got some motion language. Now, 
+
+176
+00:12:32,780 --> 00:12:37,910
+when we get to the end of this, I'm probably going to get it to review all the documents 
+
+177
+00:12:37,950 --> 00:12:43,410
+to make sure that they're created in such a way that they're good for projections. 
+
+178
+00:12:43,560 --> 00:12:47,670
+Now, I'm not sure whether it needs to be done in the styling documents or whether 
+
+179
+00:12:47,670 --> 00:12:51,300
+we could just do it in the requirements documents, but we'll write the prompt and 
+
+180
+00:12:51,300 --> 00:12:52,260
+see what happens.
+
+181
+00:12:52,260 --> 00:12:57,60
+Okay. We've now got five different style guides that we can work with. What I think 
+
+182
+00:12:57,60 --> 00:13:02,860
+I'll do next is create an agent, something with a role. And the role will specifically 
+
+183
+00:13:02,860 --> 00:13:09,220
+be around software architecture or business analyst. And what I want it to do is 
+
+184
+00:13:09,220 --> 00:13:10,820
+create the first agent
+
+185
+00:13:10,820 --> 00:13:13,140
+who understands how to work with the tech stack, 
+
+186
+00:13:13,340 --> 00:13:17,810
+understands how to work with any of the style guides, and can produce a requirements 
+
+187
+00:13:17,810 --> 00:13:24,170
+document. It's also got a little bit of a special capability, and that's at any graphics 
+
+188
+00:13:24,170 --> 00:13:29,290
+that we generate should be designed for projectors. So when you're projecting on 
+
+189
+00:13:29,290 --> 00:13:34,570
+a wall, if you have an edge to the graphic, like say, a box, it really stands out 
+
+190
+00:13:34,570 --> 00:13:39,650
+on the wall. Whereas if you have a black background, then it kind of blends in and 
+
+191
+00:13:39,650 --> 00:13:44,570
+you don't notice that it's a graphic on top of a wall, it can make it look a little 
+
+192
+00:13:44,620 --> 00:13:45,770
+bit more realistic.
+
+193
+00:13:45,770 --> 00:13:52,860
+So we have our first agent name is Maya, requirements Architect Agent. Let's go and 
+
+194
+00:13:52,860 --> 00:13:59,780
+have a look what she looks like. We'll click in here and there we have Maya. So the 
+
+195
+00:13:59,780 --> 00:14:03,770
+main things is understands the tech stack, the requirements, 
+
+196
+00:14:03,770 --> 00:14:08,900
+style guides, how to write a requirements document, and it's got this critical feature 
+
+197
+00:14:08,900 --> 00:14:16,160
+that it understands how to draw edge management. So make it look nice against a background 
+
+198
+00:14:16,160 --> 00:14:17,600
+like a wall or of a shop, 
+
+199
+00:14:17,610 --> 00:14:22,470
+and we can see what's included here. So as we scroll through, we should see the role 
+
+200
+00:14:22,470 --> 00:14:25,560
+definition, project design principles going on, 
+
+201
+00:14:25,560 --> 00:14:32,580
+knowledge about the tech stack and the agent workflow. So the input process and output 
+
+202
+00:14:32,580 --> 00:14:36,960
+sort of concept. Let's look at this. We've got a little bit of technical implementation 
+
+203
+00:14:36,960 --> 00:14:42,600
+details that it's already pre-trained with. It's not the developer agent, but it's 
+
+204
+00:14:42,650 --> 00:14:48,380
+got basic ideas that it can pass on to the developer agent. Looks like we've also 
+
+205
+00:14:48,380 --> 00:14:51,360
+got a requirements document template for us. 
+
+206
+00:14:51,360 --> 00:14:55,790
+Now, I will point out that I'm a big proponent of the bmad method. For most of my 
+
+207
+00:14:55,790 --> 00:15:00,890
+coding. I use a proper context engineering framework. But as you can see, you can 
+
+208
+00:15:00,890 --> 00:15:05,490
+build your own frameworks pretty quickly with just some simple context engineering 
+
+209
+00:15:05,490 --> 00:15:06,200
+prompts.
+
+210
+00:15:06,210 --> 00:15:12,20
+So the next step, I wanna start building requirements documents. I also want to find 
+
+211
+00:15:12,20 --> 00:15:16,80
+out exactly what structure it thinks we should come up with for the requirements 
+
+212
+00:15:16,80 --> 00:15:21,690
+documents. And then at the very end, I wanted to suggest the sort of software developer 
+
+213
+00:15:21,690 --> 00:15:27,650
+we need to implement these requirements. And that's so I don't need to actually tell 
+
+214
+00:15:27,650 --> 00:15:31,910
+it what to do. It'll come up with a good idea of what the software developer should 
+
+215
+00:15:31,910 --> 00:15:36,810
+look like. And then after that we can simply say, create this as an agent. But let's 
+
+216
+00:15:36,810 --> 00:15:37,880
+see what it's come up with 
+
+217
+00:15:37,880 --> 00:15:42,810
+So this is a great structure. There is one problem I can see already, but we've got 
+
+218
+00:15:42,810 --> 00:15:46,130
+our style guides, we've got our requirements documents that we are 
+
+219
+00:15:46,130 --> 00:15:52,230
+going to be creating. We've got our mayor requirements agent, and our new agent is 
+
+220
+00:15:52,230 --> 00:15:58,70
+going to go in here. The problem I have is with the demos, this all looks good, but 
+
+221
+00:15:58,70 --> 00:16:02,900
+I want to do AB testing, which means that for any one style or requirements that 
+
+222
+00:16:02,900 --> 00:16:08,510
+we're going to work with, let's create 3, 4, 5 different versions of it just so that 
+
+223
+00:16:08,510 --> 00:16:09,410
+we've got variety. 
+
+224
+00:16:09,410 --> 00:16:14,90
+So I've just confirmed most of the statements that's come up with, I've said to go 
+
+225
+00:16:14,90 --> 00:16:20,60
+with Kai, let it build an agent. I've made sure that we've got this variation number, 
+
+226
+00:16:20,60 --> 00:16:26,240
+basically a number of variations starting hopefully from one, I didn't specifically 
+
+227
+00:16:26,510 --> 00:16:30,260
+give the number, but it should be able to work that out. And then I said, go ahead 
+
+228
+00:16:30,260 --> 00:16:34,340
+and create all five requirements and the agent, so when we look at 
+
+229
+00:16:34,340 --> 00:16:34,850
+the to-dos, 
+
+230
+00:16:35,360 --> 00:16:38,00
+the control t, to see that, we can 
+
+231
+00:16:38,00 --> 00:16:41,930
+see that it's going to create five different requirements and then 
+
+232
+00:16:41,930 --> 00:16:44,900
+it's going to create the Kai developer agent.
+
+233
+00:16:45,710 --> 00:16:50,210
+Now here we are with an updated project structure and we've got our new agent and 
+
+234
+00:16:50,210 --> 00:16:55,160
+everything's looking a lot cleaner. So we still have our style guides and requirements 
+
+235
+00:16:55,160 --> 00:17:01,640
+as before. The demos folder has just become a read me document with a naming convention 
+
+236
+00:17:01,640 --> 00:17:02,90
+guideline. 
+
+237
+00:17:02,90 --> 00:17:06,920
+Now, when we look at the agents, we've still got our existing agent Mayor with the 
+
+238
+00:17:06,920 --> 00:17:12,620
+key feature being Albert to work with projection style setups for graphics generation. 
+
+239
+00:17:13,100 --> 00:17:20,390
+And we've got Kai, who is a developer, very specialized in what sort of work this 
+
+240
+00:17:20,480 --> 00:17:23,150
+agent does 60 frame per second, 
+
+241
+00:17:23,150 --> 00:17:29,510
+performance optimization, single HTML, contained pages. And we're using the Canvas, 
+
+242
+00:17:29,540 --> 00:17:29,990
+API 
+
+243
+00:17:29,990 --> 00:17:35,540
+and essentially just reading, reading and writing simple documents. So as we go through 
+
+244
+00:17:35,540 --> 00:17:40,640
+this, we can also see that the demo output structures have been reformatted a little 
+
+245
+00:17:40,640 --> 00:17:47,390
+bit, so that we have the AB testing area in here. So we might be able to do three 
+
+246
+00:17:47,390 --> 00:17:52,280
+different animations and we can see them all through the A, the B, and the C. 
+
+247
+00:17:52,280 --> 00:17:57,50
+And if we just go down to Visual Studio, we can see the new documents or the, we've 
+
+248
+00:17:57,50 --> 00:18:01,730
+got the demos, we have all the instructions on how this is meant to work. It's also 
+
+249
+00:18:01,730 --> 00:18:08,570
+given now a couple of examples of how you could run these pages directly from JavaScript 
+
+250
+00:18:08,630 --> 00:18:08,870
+or 
+
+251
+00:18:08,870 --> 00:18:14,390
+from Python. And we've got the Kai developer going on in here. Let's visualize it 
+
+252
+00:18:14,390 --> 00:18:14,840
+properly. 
+
+253
+00:18:15,140 --> 00:18:20,810
+we've got the full role and identity core responsibilities being listed, the code, 
+
+254
+00:18:20,810 --> 00:18:23,990
+formats and standards that the developer works to. 
+
+255
+00:18:25,40 --> 00:18:29,540
+And of course, if you need any of the prompts or the structures here, it's all available 
+
+256
+00:18:29,540 --> 00:18:32,390
+in my community. There's a link down in the description.
+
+257
+00:18:33,680 --> 00:18:38,240
+Now we're nearly at the point where we can start testing the system to see how the 
+
+258
+00:18:38,280 --> 00:18:43,360
+animations work. But before we do that, let's have a little bit of an audit of the 
+
+259
+00:18:43,360 --> 00:18:48,520
+system just to see how the prompts and the structures are holding up. So what I've 
+
+260
+00:18:48,520 --> 00:18:52,240
+done is just started off with a little prompt asking for 
+
+261
+00:18:52,240 --> 00:18:56,880
+a holistic review of the system. We want to look at the agents. We want to look at 
+
+262
+00:18:56,880 --> 00:19:00,960
+the style guides. We want to look at the requirements documents. And all of this 
+
+263
+00:19:00,960 --> 00:19:05,760
+is to make sure that everything is structurally sound. And then from there, hopefully 
+
+264
+00:19:05,760 --> 00:19:12,160
+we can move on to just generating our HTML animations or if there's any feedback, 
+
+265
+00:19:12,160 --> 00:19:14,80
+we can operate on that as well.
+
+266
+00:19:14,80 --> 00:19:18,440
+Now, just as we're going. I saw this little tip here. I'd. I've been able to add 
+
+267
+00:19:18,440 --> 00:19:23,360
+images into Claude Code all along by referencing them by file, but I just found out 
+
+268
+00:19:23,360 --> 00:19:25,280
+that one of the things that you can do
+
+269
+00:19:25,280 --> 00:19:30,560
+is if you've got a picture in your clipboard, like I do right now, I can press
+
+270
+00:19:30,560 --> 00:19:37,40
+control V. Now I'm on a mac and the normal paste operation is command V, so this 
+
+271
+00:19:37,40 --> 00:19:40,520
+has never worked before until I just saw this tip right now. 
+
+272
+00:19:40,640 --> 00:19:44,520
+Anyway this is finished the comprehensive system audit. Let's go check it out.
+
+273
+00:19:46,310 --> 00:19:50,930
+So the great thing about an audit is that if there's any slight discrepancies, and 
+
+274
+00:19:50,930 --> 00:19:56,420
+we can see one in the naming conventions here, it can be fixed pretty quickly. 
+
+275
+00:19:56,420 --> 00:20:01,70
+there's going to be some questions that need to be answered. So what I'm gonna do 
+
+276
+00:20:01,70 --> 00:20:06,80
+is go down to the bottom where it's got a number of questions. It's asking me, I 
+
+277
+00:20:06,80 --> 00:20:10,490
+just want to apply the fixes and I want to do a little bit of a review. So let's 
+
+278
+00:20:10,490 --> 00:20:15,110
+just see what it comes up with. And so far, Claude is doing pretty good. I'm gonna 
+
+279
+00:20:15,110 --> 00:20:18,50
+press three. This is just a bit of a feedback mechanism. 
+
+280
+00:20:18,50 --> 00:20:22,190
+So we've had a little bit of improvement in the naming convention. It knows about 
+
+281
+00:20:22,190 --> 00:20:27,260
+the AB testing here in the particular agent. It was already in the documentation, 
+
+282
+00:20:27,260 --> 00:20:28,280
+just not in the agent. 
+
+283
+00:20:28,280 --> 00:20:34,700
+So we've got misunderstanding and confusion resolved in both of our agents. And we've 
+
+284
+00:20:34,700 --> 00:20:39,740
+got a little bit of a automatic automated decision making framework going on here. 
+
+285
+00:20:39,950 --> 00:20:44,990
+So when open questions come up, it can autonomously deal with it using documented 
+
+286
+00:20:44,990 --> 00:20:50,720
+decisions. So what that means for me is that as I have different ideas that I want 
+
+287
+00:20:50,720 --> 00:20:55,400
+to become solid and true, I can document them and they can be used automatically 
+
+288
+00:20:55,400 --> 00:21:01,280
+by the agent. So with that said, let's move on and create our first animation.
+
+289
+00:21:01,280 --> 00:21:07,280
+So we have our first generation complete, it's called a geometric morphine. We can 
+
+290
+00:21:07,280 --> 00:21:11,840
+see one of the things it can work with is a bunch of parameters if you want to change 
+
+291
+00:21:11,840 --> 00:21:13,880
+the way the morphine happens, 
+
+292
+00:21:13,880 --> 00:21:15,350
+and it gives various, 
+
+293
+00:21:15,350 --> 00:21:19,760
+versions with different parameters that we can play with right here. Let's go have 
+
+294
+00:21:19,760 --> 00:21:24,500
+a look at what it could look like. So this is the default version, and I'll just 
+
+295
+00:21:24,500 --> 00:21:29,60
+show one of the others that are available. It's just going a little bit slower at 
+
+296
+00:21:29,60 --> 00:21:29,540
+the moment. 
+
+297
+00:21:29,540 --> 00:21:34,940
+And so with our first animation created, let's just go over and see if it can do 
+
+298
+00:21:34,970 --> 00:21:39,920
+two other variations. And this is a great thing about working with either Codex, 
+
+299
+00:21:39,920 --> 00:21:45,530
+Claude Code, or Gemini. In the CLI like we're doing, this is all Claude code, which 
+
+300
+00:21:45,530 --> 00:21:49,310
+is my favorite. We can just start running a new agent, 
+
+301
+00:21:49,310 --> 00:21:54,260
+And this time we're going to generate two different animations in two separate files.
+
+302
+00:21:54,260 --> 00:22:00,580
+So variation B and C are being created. It gives us a bit of information about how 
+
+303
+00:22:00,580 --> 00:22:05,700
+it works. And then if we move down the bottom, we can see how to open each of these 
+
+304
+00:22:05,900 --> 00:22:11,900
+demonstrations and also potential parameters. If we just head over to the web view, 
+
+305
+00:22:12,100 --> 00:22:18,420
+this is variation B going on at the moment. And if we move on to the next one we've 
+
+306
+00:22:18,420 --> 00:22:20,380
+got variation C here.
+
+307
+00:22:20,380 --> 00:22:24,20
+Now the one of the things that we can notice about everything that we're doing is 
+
+308
+00:22:24,20 --> 00:22:28,980
+that there is no edge at the side of the screen. And this was one of the important 
+
+309
+00:22:28,980 --> 00:22:34,60
+rules of this particular developer. And of the styles that we were producing, is 
+
+310
+00:22:34,60 --> 00:22:39,580
+that it should look good on a projector, on a wall without having any images to the 
+
+311
+00:22:39,580 --> 00:22:44,740
+edge. And this is something I've just noticed using projectors on walls is that if 
+
+312
+00:22:44,740 --> 00:22:49,180
+you've got this edge, it just looks a little bit odd in the animations.
+
+313
+00:22:49,180 --> 00:22:53,940
+So now we can just finish off with a bulk running of the system. So I'm just going 
+
+314
+00:22:53,980 --> 00:22:58,340
+to kick off the prompt and talk a little bit about what's going to happen next. So 
+
+315
+00:22:58,380 --> 00:23:03,300
+we have four other styles that we haven't looked at at the moment. And we can see 
+
+316
+00:23:03,300 --> 00:23:09,860
+them coming up here. We've got kinetic type fluid gradients particle system and anamorphic 
+
+317
+00:23:09,860 --> 00:23:16,420
+3D. And what I've also asked for it to do is generate the three variations per type. 
+
+318
+00:23:16,500 --> 00:23:21,420
+Now we could add other custom instructions. We could make statements like we want 
+
+319
+00:23:21,460 --> 00:23:25,900
+it to have a Christmas or a Halloween theme or whatever we want, but for now, we're 
+
+320
+00:23:25,900 --> 00:23:30,220
+just keeping it simple. This will take a little bit of time to run, but at the end 
+
+321
+00:23:30,220 --> 00:23:36,300
+of it we should have 12 new HTML animations that we can test. Hopefully we've got 
+
+322
+00:23:36,300 --> 00:23:36,980
+reports. 
+
+323
+00:23:36,980 --> 00:23:39,940
+and we'll have a look at everything once this is complete.
+
+324
+00:23:39,940 --> 00:23:44,740
+Now here we are at the end of the generation. I dunno how long it took. It was going 
+
+325
+00:23:44,740 --> 00:23:48,250
+for about five minutes. I went out for a coffee. And that's the good thing about 
+
+326
+00:23:48,250 --> 00:23:53,470
+using Claude Code. You can pretty reliably believe that it'll end up with a good 
+
+327
+00:23:53,470 --> 00:23:58,870
+solution. So long as your requirements documents, you processes are well written. 
+
+328
+00:23:59,230 --> 00:24:04,840
+So what I did was I let it run through and I also kicked off a prompt before I left 
+
+329
+00:24:04,840 --> 00:24:10,720
+for the coffee and I just asked it to create a little bit of an index HTML file, 
+
+330
+00:24:10,780 --> 00:24:13,990
+because I wanted to be able to see all the different, 
+
+331
+00:24:13,990 --> 00:24:19,870
+types of generations, but also the variations. So as it went through, it started 
+
+332
+00:24:19,870 --> 00:24:24,280
+building out documentation. We've got a demo's reference, we've got a quick reference 
+
+333
+00:24:24,310 --> 00:24:30,10
+and we've got the primary file that I'd like to open. So what we'll do is we will 
+
+334
+00:24:30,100 --> 00:24:36,730
+open that file right now, and here we have it. It's got the AI, programmatic art 
+
+335
+00:24:36,730 --> 00:24:40,30
+gallery. We've got 15 projection ready demonstrations. 
+
+336
+00:24:40,30 --> 00:24:42,640
+let's see what this text along the top does. 
+
+337
+00:24:42,640 --> 00:24:47,920
+it's just taking us down to the different areas. Okay, that's interesting. So 
+
+338
+00:24:47,920 --> 00:24:53,290
+What I'll do is option, click on each of these and just make sure that I'm opening 
+
+339
+00:24:53,290 --> 00:24:58,690
+up variations just to see how they all work and let's go check it out.
+
+340
+00:24:58,690 --> 00:25:03,730
+Okay, and here we go. We've got our first one that we were working with earlier and 
+
+341
+00:25:03,820 --> 00:25:09,790
+a variation from it. As I was going through and just checking these out, I noticed 
+
+342
+00:25:09,790 --> 00:25:13,810
+that not all of them worked nicely and this is the reason why it's really good to 
+
+343
+00:25:13,810 --> 00:25:19,390
+have variations. The variations are the same requirements document, but it's a different 
+
+344
+00:25:19,390 --> 00:25:25,660
+interpretation each time. So let's keep going. This is where the kinetic text kick 
+
+345
+00:25:25,750 --> 00:25:28,510
+in and this just looks wonderful. This sort of, 
+
+346
+00:25:28,510 --> 00:25:32,800
+text. You could use it on your YouTube channel. I would use it on my YouTube channel, 
+
+347
+00:25:33,640 --> 00:25:38,350
+to change different concepts. So here we've got kinetic topography. I wonder if we 
+
+348
+00:25:38,350 --> 00:25:41,170
+can change any of the words. 
+
+349
+00:25:42,100 --> 00:25:47,740
+And I was able to change the words programmatically. There's a actual variables up 
+
+350
+00:25:47,740 --> 00:25:52,630
+the top of this URL, but they're not working. But I've got AppyDave, I've got AR 
+
+351
+00:25:52,900 --> 00:25:57,970
+A-I-T-L-D-R, which are two of the channels that I have. And if you're after any of 
+
+352
+00:25:57,970 --> 00:26:01,570
+the prompts that we're using here, you can join the community. There's a link in 
+
+353
+00:26:01,570 --> 00:26:06,760
+the description, but let's move through. We've got these gradient fluid effects coming 
+
+354
+00:26:06,760 --> 00:26:11,530
+through a few different types. I noticed that a lot of them were quite similar here. 
+
+355
+00:26:12,880 --> 00:26:18,430
+And then we move into the particle effects, which are pretty cool actually. So 
+
+356
+00:26:19,810 --> 00:26:26,170
+other particle systems going on, just variations here. And then we've got these anamorphic 
+
+357
+00:26:26,170 --> 00:26:28,420
+3D objects coming through. 
+
+358
+00:26:29,170 --> 00:26:34,00
+So the same thing done with text. So this is excellent. This is sort of stuff that 
+
+359
+00:26:34,00 --> 00:26:39,820
+we can now go out and put on the walls of buildings using the projector. Let's try 
+
+360
+00:26:39,820 --> 00:26:40,510
+that next.
+
+361
+00:26:40,510 --> 00:26:46,360
+Before we finish up, I decided to create some documentation and a new agent. So the 
+
+362
+00:26:46,360 --> 00:26:52,750
+new agent that we've created is Iris. And Iris will be able to create new design 
+
+363
+00:26:52,750 --> 00:26:58,120
+documents for us. We've got Maya, who will turn it into the technical architecture 
+
+364
+00:26:58,120 --> 00:27:04,180
+guidelines or the requirements documents. And then we've also got Kai. And Kai is 
+
+365
+00:27:04,180 --> 00:27:08,800
+the one that will do all the development. Now what this means is that if you wanted 
+
+366
+00:27:08,800 --> 00:27:15,40
+to create dozens of different styles, you can use Iris to do that, and then Maya 
+
+367
+00:27:15,40 --> 00:27:21,370
+and Kai will turn it into the HTML version, the canvas, the animations, this sort 
+
+368
+00:27:21,370 --> 00:27:21,880
+of stuff. 
+
+369
+00:27:21,880 --> 00:27:27,520
+Now as you're watching this, you might also start seeing the projector versions of 
+
+370
+00:27:27,520 --> 00:27:32,710
+these animations. So this is something I'm doing later tonight. I don't know how 
+
+371
+00:27:32,710 --> 00:27:34,120
+they're going to look, but you are seeing, 
+
+372
+00:27:34,120 --> 00:27:35,770
+for the first time right here. 
+
+373
+00:27:35,770 --> 00:27:39,550
+and consider this a simple and easy way to create 
+
+374
+00:27:39,550 --> 00:27:45,490
+animations that you could put onto a shop front. You could do it for an arts installation, 
+
+375
+00:27:45,700 --> 00:27:50,320
+anything like that. Now, I've also updated the documentation. It's in the middle 
+
+376
+00:27:50,320 --> 00:27:55,660
+of doing that right now, so that it has a startup guide, and this is available to 
+
+377
+00:27:55,660 --> 00:28:01,30
+anyone who's a member of the community. So please click the link in the description. 
+
+378
+00:28:01,210 --> 00:28:03,370
+I'm AppyDave. I'll see you in the next video.

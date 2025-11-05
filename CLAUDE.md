@@ -70,13 +70,14 @@ Projects are grouped into 50-project ranges for organization:
 
 ## Management Tools
 
-All tools are located in `.admin/` directory and use location-aware paths.
+All tools are located in `../v-shared/video-asset-tools/` directory (shared across all video repos).
 
 ### Prerequisites
 
 1. **Ruby** installed (system Ruby or rbenv/rvm)
 2. **SSD mounted** at `/Volumes/T7/youtube-PUBLISHED/appydave`
-3. **Run from project root**: `~/dev/video-projects/v-appydave/`
+3. **Configuration file**: `.video-tools.env` in repository root
+4. **Run from project root**: `~/dev/video-projects/v-appydave/`
 
 ### Tool Overview
 
@@ -86,7 +87,10 @@ All tools are located in `.admin/` directory and use location-aware paths.
 | `sync_from_ssd.rb` | Pull light files from SSD | ✅ Yes |
 | `archive_project.rb` | Archive project to SSD | ✅ Yes |
 | `dashboard.html` | Visualize project state | ❌ No |
-| `verify_and_cleanup_duplicates.rb` | One-time cleanup tool | ✅ Yes |
+
+**Location**: `../v-shared/video-asset-tools/bin/`
+
+**Documentation**: See `../v-shared/video-asset-tools/README.md` for full usage guide
 
 ## Workflows
 
@@ -96,10 +100,10 @@ All tools are located in `.admin/` directory and use location-aware paths.
 
 ```bash
 # Generate manifest (scans local + SSD)
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 
 # View dashboard
-open .admin/dashboard.html
+open ../v-shared/video-asset-tools/bin/dashboard.html
 ```
 
 **What it does**:
@@ -117,16 +121,16 @@ open .admin/dashboard.html
 
 ```bash
 # Preview what will happen (dry-run)
-ruby .admin/archive_project.rb b63-flivideo --dry-run
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb b63-flivideo --dry-run
 
 # Execute archival
-ruby .admin/archive_project.rb b63-flivideo
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb b63-flivideo
 
 # Pull back light files to archived/
-ruby .admin/sync_from_ssd.rb
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
 
 # Update manifest
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 **What it does**:
@@ -148,16 +152,16 @@ ruby .admin/generate_manifest.rb
 
 ```bash
 # Preview archiving oldest 5 projects
-ruby .admin/archive_project.rb --next 5 --dry-run
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb --next 5 --dry-run
 
 # Execute batch archival
-ruby .admin/archive_project.rb --next 5
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb --next 5
 
 # Pull back light files
-ruby .admin/sync_from_ssd.rb
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
 
 # Update manifest
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 **What it does**:
@@ -174,13 +178,13 @@ ruby .admin/generate_manifest.rb
 
 ```bash
 # Preview what will be synced
-ruby .admin/sync_from_ssd.rb --dry-run
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb --dry-run
 
 # Execute sync
-ruby .admin/sync_from_ssd.rb
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
 
 # Update manifest
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 **What it does**:
@@ -201,7 +205,7 @@ ruby .admin/generate_manifest.rb
 **When to use**: Anytime you want to visualize project state
 
 ```bash
-open .admin/dashboard.html
+open ../v-shared/video-asset-tools/bin/dashboard.html
 ```
 
 **What it shows**:
@@ -220,33 +224,33 @@ open .admin/dashboard.html
 ### Standard Archive Workflow
 
 ```
-1. ruby .admin/archive_project.rb [project-id]
+1. ruby ../v-shared/video-asset-tools/bin/archive_project.rb [project-id]
    └─ Copies to SSD, deletes local
 
-2. ruby .admin/sync_from_ssd.rb
+2. ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
    └─ Pulls back light files to archived/
 
-3. ruby .admin/generate_manifest.rb
+3. ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
    └─ Updates projects.json
 ```
 
 ### After Manual Changes
 
 ```
-1. ruby .admin/generate_manifest.rb
+1. ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
    └─ Rescan everything, update manifest
 
-2. open .admin/dashboard.html
+2. open ../v-shared/video-asset-tools/bin/dashboard.html
    └─ View updated state
 ```
 
 ### Sync Without Archiving
 
 ```
-1. ruby .admin/sync_from_ssd.rb
+1. ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
    └─ Pull light files for SSD-only projects
 
-2. ruby .admin/generate_manifest.rb
+2. ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
    └─ Update manifest
 ```
 
@@ -255,31 +259,31 @@ open .admin/dashboard.html
 ### Scenario: I finished editing project b63-flivideo
 
 ```bash
-ruby .admin/archive_project.rb b63-flivideo
-ruby .admin/sync_from_ssd.rb
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb b63-flivideo
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 ### Scenario: I want to archive my 10 oldest projects
 
 ```bash
-ruby .admin/archive_project.rb --next 10 --dry-run  # Preview
-ruby .admin/archive_project.rb --next 10            # Execute
-ruby .admin/sync_from_ssd.rb
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb --next 10 --dry-run  # Preview
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb --next 10            # Execute
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 ### Scenario: I manually copied files to SSD
 
 ```bash
-ruby .admin/generate_manifest.rb  # Rescan to detect changes
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb  # Rescan to detect changes
 ```
 
 ### Scenario: I want to check disk usage
 
 ```bash
-ruby .admin/generate_manifest.rb  # Recalculate
-open .admin/dashboard.html         # View stats
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb  # Recalculate
+open ../v-shared/video-asset-tools/bin/dashboard.html         # View stats
 ```
 
 ### Scenario: I need to restore a project from SSD
@@ -289,7 +293,7 @@ open .admin/dashboard.html         # View stats
 cp -r /Volumes/T7/youtube-PUBLISHED/appydave/[range]/[project] ./
 
 # Update manifest
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 ## File Types
@@ -320,8 +324,8 @@ ruby .admin/generate_manifest.rb
 All archive and sync tools support `--dry-run`:
 
 ```bash
-ruby .admin/archive_project.rb b63-flivideo --dry-run
-ruby .admin/sync_from_ssd.rb --dry-run
+ruby ../v-shared/video-asset-tools/bin/archive_project.rb b63-flivideo --dry-run
+ruby ../v-shared/video-asset-tools/bin/sync_from_ssd.rb --dry-run
 ```
 
 **Always run dry-run first** to preview changes before executing.
@@ -382,7 +386,7 @@ ls /Volumes/T7/youtube-PUBLISHED/appydave
 
 ```bash
 # Regenerate manifest from scratch
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 ### Sync tool shows "stale manifest" warning
@@ -390,17 +394,17 @@ ruby .admin/generate_manifest.rb
 ```bash
 # Project exists in both flat and grouped (shouldn't happen)
 # Regenerate manifest to update
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 ```
 
 ### Dashboard not showing latest data
 
 ```bash
 # Regenerate manifest first
-ruby .admin/generate_manifest.rb
+ruby ../v-shared/video-asset-tools/bin/generate_manifest.rb
 
 # Then reload dashboard
-open .admin/dashboard.html
+open ../v-shared/video-asset-tools/bin/dashboard.html
 ```
 
 ## Git Strategy
