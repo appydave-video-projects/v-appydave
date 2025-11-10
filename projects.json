@@ -1,248 +1,323 @@
 {
   "config": {
+    "brand": "appydave",
     "local_base": "/Users/davidcruwys/dev/video-projects/v-appydave",
     "ssd_base": "/Volumes/T7/youtube-PUBLISHED/appydave",
-    "last_updated": "2025-11-03T03:01:54Z",
-    "note": "Auto-generated manifest. Regenerate with: ruby video-asset-tools/bin/generate_manifest.rb",
+    "last_updated": "2025-11-10T11:46:12Z",
+    "note": "Auto-generated manifest. Regenerate with: vat manifest",
     "disk_usage": {
-      "local_flat": {
-        "total_bytes": 9126410760,
-        "total_mb": 8703.62,
-        "total_gb": 8.5
-      },
-      "local_grouped": {
-        "total_bytes": 1661417291,
-        "total_mb": 1584.45,
-        "total_gb": 1.55
+      "local": {
+        "total_bytes": 12399975489,
+        "total_mb": 11825.54,
+        "total_gb": 11.55
       },
       "ssd": {
-        "total_bytes": 430148358562,
-        "total_mb": 410221.44,
-        "total_gb": 400.61
+        "total_bytes": 429749225514,
+        "total_mb": 409840.8,
+        "total_gb": 400.24
       }
     }
   },
   "projects": [
     {
-      "id": "006-ac-carnivore-90",
+      "id": "-01-25",
+      "type": "general",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "-01-25/006-ac-carnivore-90"
+          "path": "-01-25"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
+        }
+      }
+    },
+    {
+      "id": "006-ac-carnivore-90",
+      "type": "flivideo",
+      "storage": {
+        "ssd": {
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
+        },
+        "local": {
+          "exists": false,
+          "structure": null,
+          "has_heavy_files": false,
+          "has_light_files": false
         }
       }
     },
     {
       "id": "010-bing-gpt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/010-bing-gpt"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "013-ac-hairandbeauty-job-requirement",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/013-ac-hairandbeauty-job-requirement"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "016-ac-blazed-and-amazed",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/016-ac-blazed-and-amazed"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "016-ac-blazed-and-amazed-premiere-pro",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/016-ac-blazed-and-amazed-premiere-pro"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "018-ac-htmx",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/018-ac-htmx"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "021-automate-youtube-production-pipeline",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/021-automate-youtube-production-pipeline"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "022-yt-automation-challenge",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/022-yt-automation-challenge"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "023-ecamm-live-streamdeck-pedle-krisp-ai",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/023-ecamm-live-streamdeck-pedle-krisp-ai"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "024-consistent-and-predictable-unit-tests-chatgpt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/024-consistent-and-predictable-unit-tests-chatgpt"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "025-ecamm-layout-hell",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": true,
-          "path": "-01-25/025-ecamm-layout-hell"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a01-ac-writing-a-book-using-chatgpt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a01-ac-writing-a-book-using-chatgpt"
+          "path": "a01-ac-writing-a-book-using-chatgpt"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a02-ac-studio-setup-behind-the-scenes",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a02-ac-studio-setup-behind-the-scenes"
+          "path": "a02-ac-studio-setup-behind-the-scenes"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a05-ad-chatgpt-for-converting-code-styles-factory-data-example",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a05-ad-chatgpt-for-converting-code-styles-factory-data-example"
+          "path": "a05-ad-chatgpt-for-converting-code-styles-factory-data-example"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a06-ac-writing-a-book-using-chatgpt-#2",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a06-ac-writing-a-book-using-chatgpt-#2"
+          "path": "a06-ac-writing-a-book-using-chatgpt-#2"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -250,389 +325,493 @@
     },
     {
       "id": "a13-wp-openai-moderation-api-announcement-aug-25",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a13-wp-openai-moderation-api-announcement-aug-25"
+          "path": "a13-wp-openai-moderation-api-announcement-aug-25"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a15-ad-create-code-using-gpt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a15-ad-create-code-using-gpt"
+          "path": "a15-ad-create-code-using-gpt"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a16-ac-create-chatbots-using-nocode",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a16-ac-create-chatbots-using-nocode"
+          "path": "a16-ac-create-chatbots-using-nocode"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a17-vra-competition",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a17-vra-competition"
+          "path": "a17-vra-competition"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a18-ac-take-my-awesome-script-cut-it-in-half-keep-it-awesome",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a18-ac-take-my-awesome-script-cut-it-in-half-keep-it-awesome"
+          "path": "a18-ac-take-my-awesome-script-cut-it-in-half-keep-it-awesome"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a21-ac-custom-gpt-instruction",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a21-ac-custom-gpt-instruction"
+          "path": "a21-ac-custom-gpt-instruction"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a22-ac-browse-with-bing-chatgpt-feature",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a22-ac-browse-with-bing-chatgpt-feature"
+          "path": "a22-ac-browse-with-bing-chatgpt-feature"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a23-ac-dall3-vs-mj-first-100-examples",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a23-ac-dall3-vs-mj-first-100-examples"
+          "path": "a23-ac-dall3-vs-mj-first-100-examples"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a25-ac-todo-list-manager-CI",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a25-ac-todo-list-manager-CI"
+          "path": "a25-ac-todo-list-manager-CI"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a26-ac-7-gpts-to-grow-your-influence-in-2024",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a26-ac-7-gpts-to-grow-your-influence-in-2024"
+          "path": "a26-ac-7-gpts-to-grow-your-influence-in-2024"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a30-gesture-reactions-mac-sonoma",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a30-gesture-reactions-mac-sonoma"
+          "path": "a30-gesture-reactions-mac-sonoma"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a30-gpt-agents-01-shell-script-helper",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a30-gpt-agents-01-shell-script-helper"
+          "path": "a30-gpt-agents-01-shell-script-helper"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a32-kajabi-gpt-appydave",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a32-kajabi-gpt-appydave"
+          "path": "a32-kajabi-gpt-appydave"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a33-at-mention-chatgpt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a33-at-mention-chatgpt"
+          "path": "a33-at-mention-chatgpt"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a34-create-avatars-with-this-simple-api",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a34-create-avatars-with-this-simple-api"
+          "path": "a34-create-avatars-with-this-simple-api"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a35-automate-image-generation",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a35-automate-image-generation"
+          "path": "a35-automate-image-generation"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a36-voice-commands-in-vscode",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a36-voice-commands-in-vscode"
+          "path": "a36-voice-commands-in-vscode"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a37-gpt-mem-and-temporary-chat",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a37-gpt-mem-and-temporary-chat"
+          "path": "a37-gpt-mem-and-temporary-chat"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a38-devin-ai-programmer",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a38-devin-ai-programmer"
+          "path": "a38-devin-ai-programmer"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a39-ai-operating-system-o1-interpreter",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a39-ai-operating-system-o1-interpreter"
+          "path": "a39-ai-operating-system-o1-interpreter"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a40-open-devin",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a40-open-devin"
+          "path": "a40-open-devin"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a41-ecamm-leap",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a41-ecamm-leap"
+          "path": "a41-ecamm-leap"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a42-budha-time-vs-western-time",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a42-budha-time-vs-western-time"
+          "path": "a42-budha-time-vs-western-time"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a45-banned-from-midjourney-16-alternatives",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a45-banned-from-midjourney-16-alternatives"
+          "path": "a45-banned-from-midjourney-16-alternatives"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a48-prompt-engineering-writing-story",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a01-a49/a48-prompt-engineering-writing-story"
+          "path": "a48-prompt-engineering-writing-story"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
-          "exists": true,
-          "structure": "grouped",
+          "exists": false,
+          "structure": null,
           "has_heavy_files": false,
-          "has_light_files": true
+          "has_light_files": false
         }
       }
     },
     {
       "id": "a51-buy-me-a-coffee",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a51-buy-me-a-coffee"
+          "path": "a51-buy-me-a-coffee"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -640,14 +819,18 @@
     },
     {
       "id": "a55-mj-alternatives-shorts",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a55-mj-alternatives-shorts"
+          "path": "a55-mj-alternatives-shorts"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -655,14 +838,18 @@
     },
     {
       "id": "a60-banned-from-midjourney",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a60-banned-from-midjourney"
+          "path": "a60-banned-from-midjourney"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -670,14 +857,18 @@
     },
     {
       "id": "a61-midjourney-alternatives",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a61-midjourney-alternatives"
+          "path": "a61-midjourney-alternatives"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -685,14 +876,18 @@
     },
     {
       "id": "a63-agent-workflow",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a63-agent-workflow"
+          "path": "a63-agent-workflow"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -700,14 +895,18 @@
     },
     {
       "id": "a64-request-for-free-samples",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a64-request-for-free-samples"
+          "path": "a64-request-for-free-samples"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -715,14 +914,18 @@
     },
     {
       "id": "a65-websim.ai",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a65-websim.ai"
+          "path": "a65-websim.ai"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -730,14 +933,18 @@
     },
     {
       "id": "a66-websim.ai-10-games",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a66-websim.ai-10-games"
+          "path": "a66-websim.ai-10-games"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -745,14 +952,18 @@
     },
     {
       "id": "a67-agent-workflow-poc",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a67-agent-workflow-poc"
+          "path": "a67-agent-workflow-poc"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -760,14 +971,18 @@
     },
     {
       "id": "a68-agent-workflow-mvp",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a68-agent-workflow-mvp"
+          "path": "a68-agent-workflow-mvp"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -775,14 +990,18 @@
     },
     {
       "id": "a69-anthropic-prompt-development",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a69-anthropic-prompt-development"
+          "path": "a69-anthropic-prompt-development"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -790,14 +1009,18 @@
     },
     {
       "id": "a70-agent-workflow-AaC",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a70-agent-workflow-AaC"
+          "path": "a70-agent-workflow-AaC"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -805,14 +1028,18 @@
     },
     {
       "id": "a71-agent-workflow-outro-vidiq",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a71-agent-workflow-outro-vidiq"
+          "path": "a71-agent-workflow-outro-vidiq"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -820,14 +1047,18 @@
     },
     {
       "id": "a72-agent-workflow-thumbnail-design-brief",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a72-agent-workflow-thumbnail-design-brief"
+          "path": "a72-agent-workflow-thumbnail-design-brief"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -835,14 +1066,18 @@
     },
     {
       "id": "a73-agent-workflow-designer-TODO",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a73-agent-workflow-designer-TODO"
+          "path": "a73-agent-workflow-designer-TODO"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -850,14 +1085,18 @@
     },
     {
       "id": "a74-agent-workflow-code-documentation-REVIEW",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a74-agent-workflow-code-documentation-REVIEW"
+          "path": "a74-agent-workflow-code-documentation-REVIEW"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -865,14 +1104,18 @@
     },
     {
       "id": "a75-chatgpt-o1-preview",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a75-chatgpt-o1-preview"
+          "path": "a75-chatgpt-o1-preview"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -880,14 +1123,18 @@
     },
     {
       "id": "a76-klue-parser-exploration-strawberry-REVIEW",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a76-klue-parser-exploration-strawberry-REVIEW"
+          "path": "a76-klue-parser-exploration-strawberry-REVIEW"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -895,14 +1142,18 @@
     },
     {
       "id": "a77-klue-langkraft",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a77-klue-langkraft"
+          "path": "a77-klue-langkraft"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -910,14 +1161,18 @@
     },
     {
       "id": "a78-klue-tokenizer",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a78-klue-tokenizer"
+          "path": "a78-klue-tokenizer"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -925,14 +1180,18 @@
     },
     {
       "id": "a79-agent-workflow-intro-outro",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a79-agent-workflow-intro-outro"
+          "path": "a79-agent-workflow-intro-outro"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -940,14 +1199,18 @@
     },
     {
       "id": "a80-yt-launch-optimizer",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a80-yt-launch-optimizer"
+          "path": "a80-yt-launch-optimizer"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -955,14 +1218,18 @@
     },
     {
       "id": "a81-advanced-voice-mode",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a81-advanced-voice-mode"
+          "path": "a81-advanced-voice-mode"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -970,14 +1237,18 @@
     },
     {
       "id": "a82-klue-git-diff",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a82-klue-git-diff"
+          "path": "a82-klue-git-diff"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -985,14 +1256,18 @@
     },
     {
       "id": "a83-v0-fli-brief",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a83-v0-fli-brief"
+          "path": "a83-v0-fli-brief"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1000,14 +1275,18 @@
     },
     {
       "id": "a84-building-documenation-in-cursor",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a84-building-documenation-in-cursor"
+          "path": "a84-building-documenation-in-cursor"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1015,14 +1294,18 @@
     },
     {
       "id": "a85-building-documentation-with-openai-canvas",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a85-building-documentation-with-openai-canvas"
+          "path": "a85-building-documentation-with-openai-canvas"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1030,14 +1313,18 @@
     },
     {
       "id": "a86-openai-canvas-dsl-parser",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a86-openai-canvas-dsl-parser"
+          "path": "a86-openai-canvas-dsl-parser"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1045,14 +1332,18 @@
     },
     {
       "id": "a87-openai-swarm-1st-look",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a87-openai-swarm-1st-look"
+          "path": "a87-openai-swarm-1st-look"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1060,14 +1351,18 @@
     },
     {
       "id": "a90-klue-workflow-tests-ABANDON",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a90-klue-workflow-tests-ABANDON"
+          "path": "a90-klue-workflow-tests-ABANDON"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -1075,14 +1370,18 @@
     },
     {
       "id": "a91-rails8-ep1-security",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a91-rails8-ep1-security"
+          "path": "a91-rails8-ep1-security"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1090,14 +1389,18 @@
     },
     {
       "id": "a92-appytools-srt-join",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a92-appytools-srt-join"
+          "path": "a92-appytools-srt-join"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1105,14 +1408,18 @@
     },
     {
       "id": "a96-aider-getting-started",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a96-aider-getting-started"
+          "path": "a96-aider-getting-started"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1120,14 +1427,18 @@
     },
     {
       "id": "a97-aider-presentation-tool",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a97-aider-presentation-tool"
+          "path": "a97-aider-presentation-tool"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1135,14 +1446,18 @@
     },
     {
       "id": "a98-aider-image-to-code",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a98-aider-image-to-code"
+          "path": "a98-aider-image-to-code"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1150,14 +1465,18 @@
     },
     {
       "id": "a99-aider-script-to-docs-DOOM",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "a50-a99/a99-aider-script-to-docs-DOOM"
+          "path": "a99-aider-script-to-docs-DOOM"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1165,14 +1484,18 @@
     },
     {
       "id": "b01-aider-as-webserver",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b01-aider-as-webserver"
+          "path": "b01-aider-as-webserver"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1180,14 +1503,18 @@
     },
     {
       "id": "b02-sora-first-look",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b02-sora-first-look"
+          "path": "b02-sora-first-look"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1195,14 +1522,18 @@
     },
     {
       "id": "b03-gpt-projects",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b03-gpt-projects"
+          "path": "b03-gpt-projects"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1210,14 +1541,18 @@
     },
     {
       "id": "b04-aider-run-from-dsl",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b04-aider-run-from-dsl"
+          "path": "b04-aider-run-from-dsl"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1225,14 +1560,18 @@
     },
     {
       "id": "b05-gpt-desktop",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b05-gpt-desktop"
+          "path": "b05-gpt-desktop"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1240,14 +1579,18 @@
     },
     {
       "id": "b06-gpt-advanced-voice-video",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b06-gpt-advanced-voice-video"
+          "path": "b06-gpt-advanced-voice-video"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1255,14 +1598,18 @@
     },
     {
       "id": "b07-studio-tour",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b07-studio-tour"
+          "path": "b07-studio-tour"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1270,14 +1617,18 @@
     },
     {
       "id": "b08-green-screen",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b08-green-screen"
+          "path": "b08-green-screen"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1285,14 +1636,18 @@
     },
     {
       "id": "b09-sythesize-chat-convo",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b09-sythesize-chat-convo"
+          "path": "b09-sythesize-chat-convo"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1300,14 +1655,18 @@
     },
     {
       "id": "b10-synthesize-multi-chat",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b10-synthesize-multi-chat"
+          "path": "b10-synthesize-multi-chat"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1315,14 +1674,18 @@
     },
     {
       "id": "b40-pickaxe-first-looks",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b40-pickaxe-first-looks"
+          "path": "b40-pickaxe-first-looks"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1330,14 +1693,18 @@
     },
     {
       "id": "b41-pickaxe-course-trailer-ads",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b41-pickaxe-course-trailer-ads"
+          "path": "b41-pickaxe-course-trailer-ads"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1345,14 +1712,18 @@
     },
     {
       "id": "b42-pickaxe-course-trailer-ads-knowledge-base",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b42-pickaxe-course-trailer-ads-knowledge-base"
+          "path": "b42-pickaxe-course-trailer-ads-knowledge-base"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1360,14 +1731,18 @@
     },
     {
       "id": "b44-ecamm-leap-emo-spiders",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b44-ecamm-leap-emo-spiders"
+          "path": "b44-ecamm-leap-emo-spiders"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1375,14 +1750,18 @@
     },
     {
       "id": "b45-prompt-engineering-stories",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b45-prompt-engineering-stories"
+          "path": "b45-prompt-engineering-stories"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1390,14 +1769,18 @@
     },
     {
       "id": "b46-storytelling-hitl-agents-designs",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b46-storytelling-hitl-agents-designs"
+          "path": "b46-storytelling-hitl-agents-designs"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1405,14 +1788,18 @@
     },
     {
       "id": "b48-n8n-local-install",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b48-n8n-local-install"
+          "path": "b48-n8n-local-install"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1420,14 +1807,18 @@
     },
     {
       "id": "b49-n8n-local-docker",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b00-b49/b49-n8n-local-docker"
+          "path": "b49-n8n-local-docker"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -1435,14 +1826,18 @@
     },
     {
       "id": "b51-chatgpt-project-files",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b51-chatgpt-project-files"
+          "path": "b51-chatgpt-project-files"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1450,14 +1845,18 @@
     },
     {
       "id": "b52-app-a-day",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b52-app-a-day"
+          "path": "b52-app-a-day"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": false
         }
@@ -1465,14 +1864,18 @@
     },
     {
       "id": "b53-multi-app-ux-prompt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b53-multi-app-ux-prompt"
+          "path": "b53-multi-app-ux-prompt"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1480,14 +1883,18 @@
     },
     {
       "id": "b54-single-app-ux-prompt",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b54-single-app-ux-prompt"
+          "path": "b54-single-app-ux-prompt"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1495,14 +1902,18 @@
     },
     {
       "id": "b55-ai-retrospectives",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b55-ai-retrospectives"
+          "path": "b55-ai-retrospectives"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1510,14 +1921,18 @@
     },
     {
       "id": "b56-vibe-code-landing-page",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b56-vibe-code-landing-page"
+          "path": "b56-vibe-code-landing-page"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1525,14 +1940,18 @@
     },
     {
       "id": "b57-publish-host-landing-page",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b57-publish-host-landing-page"
+          "path": "b57-publish-host-landing-page"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1540,14 +1959,18 @@
     },
     {
       "id": "b58-claude-widgets-livestream",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b58-claude-widgets-livestream"
+          "path": "b58-claude-widgets-livestream"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
-          "structure": "grouped",
+          "structure": "archived",
           "has_heavy_files": false,
           "has_light_files": true
         }
@@ -1555,10 +1978,14 @@
     },
     {
       "id": "b59-n8n-digital-ocean",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b59-n8n-digital-ocean"
+          "path": "b59-n8n-digital-ocean"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
@@ -1570,10 +1997,14 @@
     },
     {
       "id": "b60-automate-image-generation",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b60-automate-image-generation"
+          "path": "b60-automate-image-generation"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
@@ -1585,10 +2016,14 @@
     },
     {
       "id": "b61-kdd-bmad",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b61-kdd-bmad"
+          "path": "b61-kdd-bmad"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
@@ -1600,10 +2035,14 @@
     },
     {
       "id": "b62-remotion-overview",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b62-remotion-overview"
+          "path": "b62-remotion-overview"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
@@ -1615,10 +2054,14 @@
     },
     {
       "id": "b63-remotion-tutorial",
+      "type": "flivideo",
       "storage": {
         "ssd": {
           "exists": true,
-          "path": "b50-b99/b63-remotion-tutorial"
+          "path": "b63-remotion-tutorial"
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
@@ -1630,10 +2073,14 @@
     },
     {
       "id": "b64-bmad-claude-sdk",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": null,
-          "path": "/b64-bmad-claude-sdk"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
@@ -1645,25 +2092,33 @@
     },
     {
       "id": "b65-guy-monroe-marketing-plan",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": null,
-          "path": "/b65-guy-monroe-marketing-plan"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": true
         },
         "local": {
           "exists": true,
           "structure": "flat",
           "has_heavy_files": false,
-          "has_light_files": false
+          "has_light_files": true
         }
       }
     },
     {
       "id": "b66-context-engineered-html-art",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": null,
-          "path": "/b66-context-engineered-html-art"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": true
         },
         "local": {
           "exists": true,
@@ -1675,16 +2130,77 @@
     },
     {
       "id": "b67-vam-s3-staging",
+      "type": "flivideo",
       "storage": {
         "ssd": {
-          "exists": null,
-          "path": "/b67-vam-s3-staging"
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": false
         },
         "local": {
           "exists": true,
           "structure": "flat",
           "has_heavy_files": false,
-          "has_light_files": false
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b68-claude-code-web",
+      "type": "flivideo",
+      "storage": {
+        "ssd": {
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": true
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b69-claude-code-with-codex",
+      "type": "flivideo",
+      "storage": {
+        "ssd": {
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": true
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": true
+        }
+      }
+    },
+    {
+      "id": "b70-ito.ai-doubled-productivity",
+      "type": "flivideo",
+      "storage": {
+        "ssd": {
+          "exists": false,
+          "path": null
+        },
+        "s3": {
+          "exists": true
+        },
+        "local": {
+          "exists": true,
+          "structure": "flat",
+          "has_heavy_files": false,
+          "has_light_files": true
         }
       }
     }
