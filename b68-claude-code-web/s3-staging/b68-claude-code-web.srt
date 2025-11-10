@@ -1,0 +1,823 @@
+1
+00:00:00,00 --> 00:00:04,920
+Have you become a fan of Claude Code? I certainly have, and in this video we're going 
+
+2
+00:00:04,920 --> 00:00:09,480
+to look at a new capability that they've created, which is Claude Code in the web. 
+
+3
+00:00:09,590 --> 00:00:11,270
+I'm AppyDave. Let's get into it.
+
+4
+00:00:11,270 --> 00:00:16,110
+On the weekend, I was at an AI meetup group and we were talking about Claude Code 
+
+5
+00:00:16,160 --> 00:00:21,920
+on the web, and one of the people in the meetup group was actually using his phone 
+
+6
+00:00:21,920 --> 00:00:28,440
+at the time and creating PRs on code with little requests to have agents do work 
+
+7
+00:00:28,440 --> 00:00:33,560
+for him while we were in the meetup group. And what I thought I'd do is test out 
+
+8
+00:00:33,560 --> 00:00:39,350
+Claude Code myself with a little problem that's plaguing me at the moment. It's to 
+
+9
+00:00:39,390 --> 00:00:42,790
+do with the amount of documentation that I've created 
+
+10
+00:00:42,790 --> 00:00:47,550
+And I thought this would be a great test to see what I can do with it. 
+
+11
+00:00:47,590 --> 00:00:53,710
+So the positioned Claude Code as a new way of interacting on the web. And the way 
+
+12
+00:00:53,710 --> 00:00:58,790
+it works is that if you've got a repo set up on your system and you've connected 
+
+13
+00:00:58,790 --> 00:01:04,390
+it to Claude Code, it can create a pull request and start executing the prompt that 
+
+14
+00:01:04,390 --> 00:01:08,150
+you give it. And the good thing is, if you have multiple tasks that you want to run, 
+
+15
+00:01:08,150 --> 00:01:10,840
+They all exist in their own pull requests, 
+
+16
+00:01:10,840 --> 00:01:13,920
+and they all get tested within isolated environments.
+
+17
+00:01:13,920 --> 00:01:18,390
+Now this stating here that it's flexible for every task will figure out whether that's 
+
+18
+00:01:18,430 --> 00:01:23,590
+actually true or not. But it's concepts like answering questions should be easy to 
+
+19
+00:01:23,590 --> 00:01:26,750
+do. Bug fixes that are done from well-defined
+
+20
+00:01:26,760 --> 00:01:32,710
+documentation should be easy. So we could use the BMAD method. Or we could do PRDs 
+
+21
+00:01:32,710 --> 00:01:38,150
+or requirements documents, and just making basic back end changes that can also be 
+
+22
+00:01:38,150 --> 00:01:42,200
+tested by unit tests. And the reason this will work is because it will spin up an 
+
+23
+00:01:42,200 --> 00:01:46,590
+isolated environment and do all the integration or unit tests for you.
+
+24
+00:01:46,600 --> 00:01:51,120
+Now, they say, from a security first cloud execution point of view, that every task 
+
+25
+00:01:51,120 --> 00:01:53,880
+is in an isolated sandbox environment. 
+
+26
+00:01:53,880 --> 00:01:58,920
+I've already connected up all my GitHub repositories, and I have a lot of them across 
+
+27
+00:01:58,920 --> 00:02:04,320
+multiple organizations coming through. So we've got little tutorial organizations 
+
+28
+00:02:04,320 --> 00:02:09,920
+that I've had. I've got 88 repositories in one of my main organizations, and then 
+
+29
+00:02:09,920 --> 00:02:14,400
+I've got stuff around AppyDave that I do right now. Now the one we're working with 
+
+30
+00:02:14,400 --> 00:02:16,680
+today is going to be Support Signal. 
+
+31
+00:02:16,880 --> 00:02:22,680
+And Support signal is a set of websites and cloud applications that have been put 
+
+32
+00:02:22,680 --> 00:02:28,640
+together using vibe coding or really context engineering using the BMAD method. It's 
+
+33
+00:02:28,640 --> 00:02:34,520
+got concepts like the ability to use AI to record incidents. We've got all these 
+
+34
+00:02:34,560 --> 00:02:39,560
+users, multi-tenancy, security, all that sort of stuff going on. A little bit of 
+
+35
+00:02:39,560 --> 00:02:45,360
+company management in the back end with the ability to update users, participants. 
+
+36
+00:02:45,360 --> 00:02:51,560
+So it's a fairly complex application designed to allow people to enter in an incident 
+
+37
+00:02:51,560 --> 00:02:57,800
+and have that incident enhanced with AI through asking different questions based 
+
+38
+00:02:57,800 --> 00:02:59,00
+on whatever was said.
+
+39
+00:02:59,00 --> 00:03:04,190
+Now all of this application was done using Claude code and just using it from the 
+
+40
+00:03:04,190 --> 00:03:08,720
+terminal. And if we were to start it up, it's relatively complex. 
+
+41
+00:03:08,720 --> 00:03:12,740
+we've got three different servers that we run. One for the web, one for the convex 
+
+42
+00:03:12,740 --> 00:03:13,310
+database, 
+
+43
+00:03:13,310 --> 00:03:18,50
+and one for the log ingestion server. And under each of those, we've also got the 
+
+44
+00:03:18,50 --> 00:03:22,940
+unit tests that we can run for each of those particular applications. So they're 
+
+45
+00:03:22,940 --> 00:03:24,110
+going through at the moment 
+
+46
+00:03:24,110 --> 00:03:29,540
+Now personally, I think Claude Code in the terminal is an incredible product. It's 
+
+47
+00:03:29,540 --> 00:03:31,700
+been able to build that application, 
+
+48
+00:03:31,700 --> 00:03:37,250
+that you were seeing, and it was all done using a context engineering framework called 
+
+49
+00:03:37,250 --> 00:03:42,920
+the BMAD Method. But when you look at the code base, it's all, all the code, whether 
+
+50
+00:03:42,920 --> 00:03:46,580
+it be the convex server, the web server, or the worker server, 
+
+51
+00:03:46,910 --> 00:03:52,10
+the whole set of applications were built just using prompts. And all of those prompts 
+
+52
+00:03:52,160 --> 00:03:56,990
+are all documented in the docs file. So within this docs file, we've got concept 
+
+53
+00:03:57,170 --> 00:04:02,330
+like custom agents that I've built, analysis, we've got the API, the architecture. 
+
+54
+00:04:02,570 --> 00:04:07,130
+Some of this came out of the BMAD method. It's been enhanced over time. We've got 
+
+55
+00:04:07,130 --> 00:04:08,480
+design systems, 
+
+56
+00:04:08,480 --> 00:04:13,40
+and then we've got this massive bulk of information, which is all the knowledge that's 
+
+57
+00:04:13,40 --> 00:04:15,380
+been generated during the process. 
+
+58
+00:04:15,410 --> 00:04:20,90
+So as the application was being built, there were many epics, there were many stories, 
+
+59
+00:04:20,300 --> 00:04:22,820
+and everything was context engineered. 
+
+60
+00:04:22,820 --> 00:04:27,830
+So that's an overview of all the code. I'm wondering personally how I can use 
+
+61
+00:04:27,830 --> 00:04:32,420
+the web version. When you look at something like this screen where you've got three 
+
+62
+00:04:32,420 --> 00:04:32,870
+different 
+
+63
+00:04:32,900 --> 00:04:37,490
+web servers, you've got three different unit test systems, how can we work with it 
+
+64
+00:04:37,490 --> 00:04:38,960
+from a web interface?
+
+65
+00:04:38,960 --> 00:04:45,280
+So what I thought we'd do is go into Claude Webb and point it at the repository, 
+
+66
+00:04:45,280 --> 00:04:50,400
+also pointed at the particular docs folders and see if we can just get it to clean 
+
+67
+00:04:50,400 --> 00:04:55,240
+everything up, analyze it, make it more readable than it is at the moment. Because 
+
+68
+00:04:55,280 --> 00:05:00,870
+at the moment, after 3 or 4 months of coding an enterprise application, some of the 
+
+69
+00:05:00,870 --> 00:05:04,360
+documentation is a little bit scattered and duplicated.
+
+70
+00:05:04,360 --> 00:05:11,320
+So I've come over to Claude Code AI code, and one of the things I've done is selected 
+
+71
+00:05:11,360 --> 00:05:16,280
+the repository I want to work in, and I've just got a starting prompt. The user is 
+
+72
+00:05:16,280 --> 00:05:21,120
+seeking a comprehensive audit of all documentation files in the system. We're looking 
+
+73
+00:05:21,120 --> 00:05:26,480
+at the BMAD method. We want to see the early documentation created by BMAD like the 
+
+74
+00:05:26,520 --> 00:05:31,360
+PRD and the architecture. We want to understand the epics and stories. This is the 
+
+75
+00:05:31,400 --> 00:05:36,960
+working documentation that's being created. There's about 11 epics and many stories 
+
+76
+00:05:36,960 --> 00:05:44,160
+in the system. And then I use a system called KDD Knowledge Driven Development, and 
+
+77
+00:05:44,160 --> 00:05:48,840
+that's the area that I really want to get cleaned up as well. So what I think we'll 
+
+78
+00:05:48,840 --> 00:05:52,40
+do is just kick it off and see what happens.
+
+79
+00:05:52,40 --> 00:05:57,470
+So it started writing a file for us. It's in the dots area. It's called an analysis 
+
+80
+00:05:57,470 --> 00:06:02,620
+sub folder and documentation audit by type. And it's stating here, 
+
+81
+00:06:02,620 --> 00:06:06,250
+it's completed the audit of all the documentation. 
+
+82
+00:06:06,250 --> 00:06:11,440
+And this is how I felt it would be. We've got the BMAD method and the agents over 
+
+83
+00:06:11,440 --> 00:06:16,910
+62 files. We've got all the technical guides, which are kind of the rules and 
+
+84
+00:06:16,910 --> 00:06:21,320
+instructions that I've built along the way. We've got all the stories coming through. 
+
+85
+00:06:21,560 --> 00:06:26,990
+We've got the patterns and practices. So I'm looking for architecture, coding patterns. 
+
+86
+00:06:27,110 --> 00:06:32,150
+And there's a lot of stuff around error handling strategies and testing patterns. 
+
+87
+00:06:32,480 --> 00:06:36,860
+The lessons learned, this is where we've got the antipatterns coming through. 
+
+88
+00:06:36,860 --> 00:06:38,330
+platform constraints, 
+
+89
+00:06:38,330 --> 00:06:43,10
+because the main system is around the incident analysis. There's a lot of documentation 
+
+90
+00:06:43,10 --> 00:06:43,820
+going on there. 
+
+91
+00:06:43,820 --> 00:06:49,280
+And also whenever I do a story, I have it create a story acceptance test, which is 
+
+92
+00:06:49,280 --> 00:06:51,560
+just what either human need to go through 
+
+93
+00:06:51,560 --> 00:06:52,430
+and test. 
+
+94
+00:06:52,430 --> 00:06:58,280
+And these were actually written in a way that tools like Open AI's Atlas could actually 
+
+95
+00:06:58,280 --> 00:06:59,390
+do the work for me. 
+
+96
+00:06:59,390 --> 00:07:04,520
+So we can see a bit of a characteristics of the different documents going on and 
+
+97
+00:07:04,520 --> 00:07:05,480
+what's it doing now. 
+
+98
+00:07:05,480 --> 00:07:08,510
+So it looks like we've only got this one file. It's, 
+
+99
+00:07:08,510 --> 00:07:13,970
+done a git add. We've got a commit message coming through here. And if we go and 
+
+100
+00:07:13,970 --> 00:07:19,340
+have a look at my repositories and organizations, we'll go down to Support Signal 
+
+101
+00:07:19,340 --> 00:07:24,110
+where we've got multiple repositories. The one we're interested in is the app support 
+
+102
+00:07:24,110 --> 00:07:26,960
+signal. And look at that. It's created a pull request for us. 
+
+103
+00:07:26,960 --> 00:07:33,110
+Now with this here, I could come up and press the create pull request within GitHub, 
+
+104
+00:07:33,110 --> 00:07:39,140
+but I am aware that there's also a button directly in Claude code or Claude code 
+
+105
+00:07:39,140 --> 00:07:42,560
+on the web. And let's try pressing that and see what happens.
+
+106
+00:07:42,560 --> 00:07:47,320
+So the click create PR, it looks like it's just doing the same thing,
+
+107
+00:07:47,320 --> 00:07:52,680
+just with a slightly different title to when I did it manually. So I don't think 
+
+108
+00:07:52,680 --> 00:07:55,520
+it matters which way we go. We'll just go create pull request
+
+109
+00:07:55,520 --> 00:08:00,760
+and it's currently running through the CI pipeline down below. And if we click over 
+
+110
+00:08:00,760 --> 00:08:03,360
+here, we can see the one file that's been changed.
+
+111
+00:08:03,360 --> 00:08:07,840
+If we go towards the bottom of that particular file, I think it might even have a 
+
+112
+00:08:07,840 --> 00:08:12,80
+little bit of a plan of action or recommendations that we can move forward with.
+
+113
+00:08:12,80 --> 00:08:17,440
+So let's come back to Claude Code we could move forward. I noticed that we've got 
+
+114
+00:08:17,440 --> 00:08:23,800
+a view PR I'm assuming it's going to take us to the same location it is. Looks like 
+
+115
+00:08:23,840 --> 00:08:27,440
+CI has run. Let's just run the actions and see how
+
+116
+00:08:27,440 --> 00:08:32,400
+the continuous integration pipeline is working. We've got audit and categorized E 
+
+117
+00:08:32,400 --> 00:08:38,440
+to E test, linting and testing and deploying the convex back end. That's the database 
+
+118
+00:08:38,440 --> 00:08:44,640
+building the application. Also deploying the Next.js application to Cloudflare pages 
+
+119
+00:08:44,880 --> 00:08:47,80
+seems to have all been working.
+
+120
+00:08:47,80 --> 00:08:50,800
+So we can just come back to Claude Code and execute our next prompt.
+
+121
+00:08:50,800 --> 00:08:55,330
+So I've let it run a little prompt. If the goal of the pool request is to clean up 
+
+122
+00:08:55,330 --> 00:09:01,90
+five months worth of documentation and all we've got is the audit that we've built, 
+
+123
+00:09:01,360 --> 00:09:06,280
+what would it prioritize? What order would it do things in? So it's talking about 
+
+124
+00:09:06,520 --> 00:09:11,200
+removing the duplicates, which is an easy win. This is, I think, the first thing 
+
+125
+00:09:11,200 --> 00:09:15,160
+that should happen next. We need to be able to find documents quickly, so getting 
+
+126
+00:09:15,160 --> 00:09:19,750
+all the indexes up to date is really important. After that, it should be able to 
+
+127
+00:09:19,840 --> 00:09:25,330
+archive or remove stale content. I don't know how it's going to go about that. I 
+
+128
+00:09:25,330 --> 00:09:29,110
+know I have that folder. I don't think this is the right area for it, but we can 
+
+129
+00:09:29,110 --> 00:09:34,690
+work on that when we get to it. I'm sure maybe the date timestamp of files will be 
+
+130
+00:09:34,690 --> 00:09:38,20
+important. And then we can go into a consolidated, 
+
+131
+00:09:38,20 --> 00:09:43,960
+documentation view. Now, one of the things I noticed is that unlike other chats systems, 
+
+132
+00:09:44,200 --> 00:09:49,180
+if you did this a little bit incorrectly, you can't edit it and keep moving. And 
+
+133
+00:09:49,180 --> 00:09:53,530
+this is the same in Claude code as well. Once you put information in, it's in the 
+
+134
+00:09:53,530 --> 00:09:56,50
+context window and you can't fork it.
+
+135
+00:09:56,50 --> 00:10:01,170
+Now, the simple little prompt I'm running here is break it into four detailed tasks. 
+
+136
+00:10:01,610 --> 00:10:04,530
+We're only going to work on one at a time, but
+
+137
+00:10:04,530 --> 00:10:10,610
+so like Claude Code, it just goes into its own internal TO-DO system. We're going 
+
+138
+00:10:10,650 --> 00:10:11,650
+to update there.
+
+139
+00:10:11,650 --> 00:10:17,170
+If this was normal Claude Code in the terminal we'd have a command T which shows 
+
+140
+00:10:17,210 --> 00:10:19,130
+or hides this sort of stuff. 
+
+141
+00:10:19,130 --> 00:10:23,90
+we can't expect it to be working the same way as Claude Code right now. One of the 
+
+142
+00:10:23,90 --> 00:10:26,930
+other things to notice if we look up in the top left hand corner, I'm not sure if 
+
+143
+00:10:26,930 --> 00:10:33,810
+it's showing in the video, but I started off at $997 worth of credits. Currently 
+
+144
+00:10:33,810 --> 00:10:39,490
+we're at $995 worth of credits, so it's a lot of work done, 
+
+145
+00:10:39,490 --> 00:10:42,410
+but it could add up over time with a dollar here. $2 there.
+
+146
+00:10:42,410 --> 00:10:47,770
+Now, normally I would go deep and read this, but because it's just part of the video, 
+
+147
+00:10:47,810 --> 00:10:52,610
+we're just going to work through them quickly. So we've got task one, remove duplicates, 
+
+148
+00:10:52,610 --> 00:10:57,730
+we've got update the indexes. It's identified a lot of information here. Remove the 
+
+149
+00:10:57,730 --> 00:10:59,530
+stale content. 
+
+150
+00:10:59,530 --> 00:11:04,890
+in fact I should get it to remove anything from Gemini. I don't use Gemini CLI within 
+
+151
+00:11:04,930 --> 00:11:09,450
+this application anymore. Consolidate related documentation. 
+
+152
+00:11:09,450 --> 00:11:16,290
+say get going and see how long this actually takes. It's currently 9 a.m. in the 
+
+153
+00:11:16,290 --> 00:11:17,690
+morning on a Sunday.
+
+154
+00:11:17,690 --> 00:11:22,580
+Now, funnily enough, we're only about a minute into this and it got to the GI commit, 
+
+155
+00:11:22,580 --> 00:11:28,970
+but I was just looking at it on the phone and refreshed, and it talked about having, 
+
+156
+00:11:28,970 --> 00:11:33,170
+enable notifications. So I'm going to turn that on. 
+
+157
+00:11:33,170 --> 00:11:38,780
+press allow. I'm on an Android phone at the moment, and we can see hopefully on that. 
+
+158
+00:11:38,780 --> 00:11:44,660
+You can see that task one is complete, but what we'll do is we'll bring it over to 
+
+159
+00:11:44,660 --> 00:11:47,90
+the web interface and 
+
+160
+00:11:47,90 --> 00:11:50,390
+it's working through things. We've got a bunch of code 
+
+161
+00:11:50,390 --> 00:11:53,600
+removed. Let's click on this View PR button. 
+
+162
+00:11:53,600 --> 00:11:58,850
+So it's come up to the audit and categorize or documentation files. We've now got 
+
+163
+00:11:58,910 --> 00:12:05,240
+two commits, so let's click on this and see that something happened a minute ago. 
+
+164
+00:12:05,630 --> 00:12:10,580
+So remove duplicate bmad command files. So we come in here. 
+
+165
+00:12:10,580 --> 00:12:15,590
+Now, the interesting thing about this is that this could actually be a big mistake. 
+
+166
+00:12:15,590 --> 00:12:20,840
+code base. I'm going to use Claude code from the terminal to check this. But essentially 
+
+167
+00:12:20,840 --> 00:12:26,690
+what it's done is it's notice that BMAD is in two locations, which makes sense. It's 
+
+168
+00:12:26,690 --> 00:12:32,690
+where it gets installed. BM a core, but it's also been embedded into the commands 
+
+169
+00:12:32,690 --> 00:12:38,270
+directory. Now the thing is, this was done four or five months ago, so the version 
+
+170
+00:12:38,270 --> 00:12:38,630
+of 
+
+171
+00:12:38,630 --> 00:12:42,980
+BMAD that I'm using is not the same as it is today, and I know 
+
+172
+00:12:42,980 --> 00:12:47,300
+whether it's been done in this area. So this is actually an area I'm going to do 
+
+173
+00:12:47,300 --> 00:12:50,240
+some manual review on before I allow it through.
+
+174
+00:12:50,240 --> 00:12:56,30
+Now so far it's actually finished three of the tasks that it needed to do. I asked, 
+
+175
+00:12:56,90 --> 00:12:59,690
+are there any more to do? There's a fourth one remaining. This is where the bulk 
+
+176
+00:12:59,690 --> 00:13:04,910
+of the work is, and when I actually do this, I'm going to have to pay a lot of attention 
+
+177
+00:13:04,910 --> 00:13:08,990
+to it. But the good thing is I should be able to run it all from my mobile phone 
+
+178
+00:13:09,200 --> 00:13:14,90
+and check files that are being created. Now, there was one issue and I did ask it 
+
+179
+00:13:14,90 --> 00:13:15,590
+to go and check into it. 
+
+180
+00:13:15,590 --> 00:13:20,570
+and so if we go and have a look at my conversation with Claude code in the terminal, 
+
+181
+00:13:20,840 --> 00:13:26,180
+I asked it whether there was an issue with deleting the particular agents that we 
+
+182
+00:13:26,180 --> 00:13:30,620
+did because there's kind of clones of them. There's the original and there's one 
+
+183
+00:13:30,620 --> 00:13:34,880
+in include code, and it said yes. This is a big problem. So what we're going to do 
+
+184
+00:13:34,880 --> 00:13:37,250
+is copy all this information right here, 
+
+185
+00:13:37,250 --> 00:13:41,150
+come back to our conversation and we're going to paste it in. Now, one of the things 
+
+186
+00:13:41,150 --> 00:13:46,550
+I noticed this particular file that we also need, you can't drag files into the web 
+
+187
+00:13:46,550 --> 00:13:47,660
+interface just yet. 
+
+188
+00:13:47,660 --> 00:13:53,240
+So instead, I'm grabbing the file off Visual Studio and I'm just going to paste it 
+
+189
+00:13:53,240 --> 00:13:58,940
+in directly and I'll let it go work through and come up with a plan of action to 
+
+190
+00:13:58,940 --> 00:14:02,840
+reverse that, commit or reset the files, whatever it needs to do. 
+
+191
+00:14:02,840 --> 00:14:08,390
+So it'll be working through the files that it lost. We've got a little bit of a corrected 
+
+192
+00:14:08,480 --> 00:14:09,830
+architecture pattern here, 
+
+193
+00:14:09,830 --> 00:14:14,300
+and it's making the changes. If we go and look at our pull requests, we've now got 
+
+194
+00:14:14,300 --> 00:14:19,160
+seven commits and we're back to only eight files changed on the system. 
+
+195
+00:14:19,160 --> 00:14:23,690
+So at the end of this session, what we've got is we've got a little bit of an update 
+
+196
+00:14:23,690 --> 00:14:29,00
+around the clawed files. We've got our audit by type, which is documented. We can 
+
+197
+00:14:29,00 --> 00:14:33,920
+use it in the future. We also know where we're at with the cleanup process. 
+
+198
+00:14:33,920 --> 00:14:38,960
+It's backed up the old historical file. We've got new navigation updates and various 
+
+199
+00:14:38,960 --> 00:14:40,430
+indexes in place. 
+
+200
+00:14:40,850 --> 00:14:43,790
+we've also got a little bit of architecture updates.
+
+201
+00:14:43,790 --> 00:14:49,190
+So that brings us to the end of the session on Claude Code web. So far, I think it 
+
+202
+00:14:49,190 --> 00:14:54,110
+has a lot of potential. I really loved hearing how other people at the AI meetup 
+
+203
+00:14:54,110 --> 00:14:59,470
+group that I go to use it for just sitting in coffee shops or meetings like they 
+
+204
+00:14:59,470 --> 00:15:04,590
+were on the day and just asking for new pull requests to be created. So what I think 
+
+205
+00:15:04,590 --> 00:15:09,150
+I'll do now is go off and have a coffee and keep working on the documentation in 
+
+206
+00:15:09,150 --> 00:15:12,310
+the background. I'm AppyDave I'll see you in the next video.

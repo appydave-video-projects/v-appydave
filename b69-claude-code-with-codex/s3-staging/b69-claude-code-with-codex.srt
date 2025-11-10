@@ -1,0 +1,391 @@
+1
+00:00:00,00 --> 00:00:04,830
+Many people are wondering whether OpenAI, Codex or Claude Code is the way to go. 
+
+2
+00:00:04,870 --> 00:00:09,950
+In this video, I'm going to explore how you could be using them both together and 
+
+3
+00:00:09,950 --> 00:00:15,30
+how I'm also doing that to manage some of the costs I'm AppyDave let's get into it.
+
+4
+00:00:15,30 --> 00:00:19,870
+Yesterday, I found myself doing a fair bit of coding on some internal tools that 
+
+5
+00:00:19,870 --> 00:00:24,960
+I use and doing a lot of refactoring, and I realized I wanted to make sure that the 
+
+6
+00:00:24,960 --> 00:00:31,320
+tools were updated on Ruby Gems, which is like node packages or Python packages. 
+
+7
+00:00:31,320 --> 00:00:37,560
+And with that, I also wanted to do an extensive refactor where I used Claude Code 
+
+8
+00:00:37,640 --> 00:00:44,320
+as the main creator and OpenAI Codex to just check on the quality of the code being 
+
+9
+00:00:44,320 --> 00:00:45,70
+created.
+
+10
+00:00:45,70 --> 00:00:51,70
+Now I have a second goal for using Codex with Claude Code, and that's all about managing 
+
+11
+00:00:51,110 --> 00:00:57,510
+token usage. So if we go over to Claude Code and we look at the usage down here, 
+
+12
+00:00:57,510 --> 00:01:03,890
+we can see all the current models. I've used 33% of my usage. I've got about 3 or 
+
+13
+00:01:03,890 --> 00:01:09,840
+4 days to go before it runs out. Now I should be fine, but on a daily basis I'm working 
+
+14
+00:01:09,840 --> 00:01:16,00
+on 2 or 3 projects at the same time. I keep shifting between tabs. To do that, and 
+
+15
+00:01:16,00 --> 00:01:21,310
+I'll be coding for 6 to 12 hours. And when you're doing that all the time, you can 
+
+16
+00:01:21,310 --> 00:01:26,430
+really run through your tokens. So I thought, could I start another session? And 
+
+17
+00:01:26,430 --> 00:01:33,560
+this is the one we're seeing down here, specifically using Codex to not do my coding, 
+
+18
+00:01:33,560 --> 00:01:36,430
+but to check that my coding is actually any good.
+
+19
+00:01:36,430 --> 00:01:40,900
+So while I was coding with Claude Code, I had this little conversation going on. 
+
+20
+00:01:41,120 --> 00:01:46,60
+Essentially, it was just watching the repo. From time to time. I'd constantly be 
+
+21
+00:01:46,90 --> 00:01:50,990
+tweaking the conversation. It had read individual files, understand the structure 
+
+22
+00:01:51,230 --> 00:01:54,850
+as it was going on. It was creating its own documentation 
+
+23
+00:01:54,850 --> 00:02:00,230
+called Codex Documentation. After a while, I would ask it to look at new commits 
+
+24
+00:02:00,230 --> 00:02:05,710
+that were coming through. I'd ask it to keep focusing on the idea that it was about 
+
+25
+00:02:05,710 --> 00:02:10,870
+patterns and best, best practices, and that it would have to delegate or hand off 
+
+26
+00:02:10,870 --> 00:02:16,120
+the document to Claude Code. So it would be important that it included the line numbers 
+
+27
+00:02:16,120 --> 00:02:18,940
+as well as the descriptions of what was going on. 
+
+28
+00:02:18,940 --> 00:02:22,960
+So with simple tweaks along the way, it would just keep itself up to date. 
+
+29
+00:02:23,20 --> 00:02:28,750
+And so at the end of it, I had a well reasoned document of recommendations. They 
+
+30
+00:02:28,750 --> 00:02:34,330
+had a priority map, it had line numbers, it had descriptions. So I thought, let's 
+
+31
+00:02:34,510 --> 00:02:37,570
+aim this at Claude Code and see what it thinks.
+
+32
+00:02:37,570 --> 00:02:43,130
+So if we go back to our terminals, we've got our Codex here. We've got the actual 
+
+33
+00:02:43,130 --> 00:02:48,810
+help file from some of the tools that are being used here. And if I pop up to a different 
+
+34
+00:02:48,850 --> 00:02:55,270
+terminal, I've got the start of the analysis of the Codex recommendations by Claude 
+
+35
+00:02:55,270 --> 00:03:00,690
+Code. And because this particular conversation has a lot of historical context 
+
+36
+00:03:00,690 --> 00:03:06,250
+about the work it's been executing, but also its own lessons and learnings. 
+
+37
+00:03:06,250 --> 00:03:12,130
+it has a really good perspective on if someone else tells it, what is the right way 
+
+38
+00:03:12,130 --> 00:03:17,740
+to go of saying yes, that is. Or no, it's not because I've actually solved this problem 
+
+39
+00:03:17,780 --> 00:03:18,650
+a different way.
+
+40
+00:03:19,570 --> 00:03:24,850
+Claude Code is reading the comprehensive analysis, and it's making its own assessment, 
+
+41
+00:03:24,850 --> 00:03:29,90
+and it's doing it in the conversation where it's already got a lot of knowledge. 
+
+42
+00:03:29,90 --> 00:03:34,780
+And the first thing it realises is that the information about linting or cops in 
+
+43
+00:03:34,780 --> 00:03:39,460
+this particular case is out of date, because it's already done a whole lot of work 
+
+44
+00:03:39,460 --> 00:03:45,650
+there. The next thing is it's looking at the configuration adapters at Codex is putting 
+
+45
+00:03:45,650 --> 00:03:50,780
+in place. So this is a level of abstraction meant to improve the system. But we've 
+
+46
+00:03:50,780 --> 00:03:57,10
+already got really good usage of the singleton pattern for the configuration. We've 
+
+47
+00:03:57,10 --> 00:04:03,570
+also got dependency injection for individual tools, configuration and test data, 
+
+48
+00:04:03,570 --> 00:04:09,300
+which is useful during the unit test phase. So a lot of the stuff that's here is 
+
+49
+00:04:09,300 --> 00:04:12,60
+good to know about, but not something we need to implement.
+
+50
+00:04:12,50 --> 00:04:17,810
+Scenario number three was really interesting. Codex wants us to get rid of a lot 
+
+51
+00:04:17,810 --> 00:04:22,410
+of the logging, and what Claude Code has pointed out is that this is not a library. 
+
+52
+00:04:22,410 --> 00:04:29,330
+This is a CLI tool where the logging is actually useful as you user feedback. And 
+
+53
+00:04:29,330 --> 00:04:33,810
+it's come up with a counter proposal, which is interesting, but I don't plan to use 
+
+54
+00:04:33,810 --> 00:04:38,170
+this as a library. So I'm going to say no to this particular recommendation.
+
+55
+00:04:38,170 --> 00:04:43,60
+And so now we're at the fifth proposal and it's talking about the method missing 
+
+56
+00:04:43,60 --> 00:04:48,820
+and wanting to harden this code. Make it more explicit. But this is actually a flexible 
+
+57
+00:04:48,820 --> 00:04:51,430
+configuration system that can dynamically, 
+
+58
+00:04:51,430 --> 00:04:54,70
+change to suit new circumstances. 
+
+59
+00:04:54,70 --> 00:04:58,630
+So this is not a correct pattern for us to implement. So this one I'm going to decline. 
+
+60
+00:04:58,630 --> 00:05:03,160
+So you can see here in Claude code, it's asked what do we wanna do? It's come up 
+
+61
+00:05:03,160 --> 00:05:07,120
+with the same idea that Proposal-3 is the only thing we should work with. It has 
+
+62
+00:05:07,120 --> 00:05:12,60
+other options, but I've just ridden my own ideas here and said that Proposal-0 or 
+
+63
+00:05:12,60 --> 00:05:17,170
+Proposal-1, we won't do Proposal-2 is a good idea, but it doesn't make sense because 
+
+64
+00:05:17,170 --> 00:05:18,70
+we're in a purely 
+
+65
+00:05:18,700 --> 00:05:21,460
+UX environment. It's all interactive. 
+
+66
+00:05:21,460 --> 00:05:26,620
+Proposal-4 is going to be declined. But Proposal-3 is what we do want to implement. 
+
+67
+00:05:26,710 --> 00:05:31,480
+I've also said that it needs to clean up this document. It needs to make sure when 
+
+68
+00:05:31,480 --> 00:05:35,920
+it cleans it up, that it does it in a way that Codex knows what's happened. It's 
+
+69
+00:05:35,920 --> 00:05:40,450
+also going to give its reasons, it's rationales. So with that, we can just press 
+
+70
+00:05:40,510 --> 00:05:46,120
+enter and let Claude code do the changes we want, which is make some new coding improvements 
+
+71
+00:05:46,120 --> 00:05:52,60
+and update this document so that Codex is informed of summaries and verdicts.
+
+72
+00:05:52,60 --> 00:05:56,650
+Now Claude Code has claimed that it's finished the work it needed to do. It's successful, 
+
+73
+00:05:56,890 --> 00:06:00,250
+it's given the recommendations back to, 
+
+74
+00:06:00,250 --> 00:06:01,00
+Codex. 
+
+75
+00:06:01,00 --> 00:06:06,760
+one of the things that's said is that it's a little bit dogmatic, so it's given new 
+
+76
+00:06:06,760 --> 00:06:11,920
+information pretty much the same as what it did just rewritten. And as it says, Codex 
+
+77
+00:06:11,920 --> 00:06:16,750
+will understand what's implemented, what was rejected, and why the decisions were 
+
+78
+00:06:16,750 --> 00:06:21,940
+made. Now, if we go and look at the code changes from a unit testing point of view, 
+
+79
+00:06:22,180 --> 00:06:26,500
+we can see that everything is working, but there are some problems. So it might be 
+
+80
+00:06:26,680 --> 00:06:31,390
+useful to go and solve them as we go. So we'll just come back to Claude code, 
+
+81
+00:06:31,390 --> 00:06:35,950
+and I've just put in this little statement, can you resolve the linting issues so 
+
+82
+00:06:35,950 --> 00:06:41,710
+as it changes code, the information on the right here should start to refresh and 
+
+83
+00:06:41,740 --> 00:06:42,310
+update. 
+
+84
+00:06:42,310 --> 00:06:45,700
+One of the great things about this is that you'll see the errors coming through, 
+
+85
+00:06:45,700 --> 00:06:48,790
+and then you'll see it all get resolved pretty quickly. 
+
+86
+00:06:48,790 --> 00:06:51,970
+so we've got our tests being updated automatically, 
+
+87
+00:06:51,970 --> 00:06:57,280
+so we can see in the left hand side that the linting issues have been resolved. And 
+
+88
+00:06:57,280 --> 00:07:01,30
+in the right hand side we've got proof or evidence that it's happened.
+
+89
+00:07:01,390 --> 00:07:08,910
+So that's one of the ways I'm using Claude Code and Codex from OpenAI together, just 
+
+90
+00:07:08,910 --> 00:07:15,150
+to use the strengths that they've got. It's also an example of how to be more cost 
+
+91
+00:07:15,150 --> 00:07:21,870
+effective. So I can use OpenAI Codex at times when I might want to use Claude opus 
+
+92
+00:07:21,910 --> 00:07:27,790
+model, and it can just run in the background. It's running off my $25 team plan, 
+
+93
+00:07:27,790 --> 00:07:31,470
+whereas Claude Code is running off my $100 max plan.
+
+94
+00:07:31,470 --> 00:07:36,590
+So this is allowing me to use different models for different reasons, but also keep 
+
+95
+00:07:36,590 --> 00:07:41,550
+my costs under control. Now I have a community, so if you're interested in learning 
+
+96
+00:07:41,550 --> 00:07:46,430
+more about how I do the prompt engineering, especially using context engineering 
+
+97
+00:07:46,430 --> 00:07:51,270
+frameworks like BMAD method, then click on the link in the description. Otherwise, 
+
+98
+00:07:51,270 --> 00:07:54,310
+I'll see you in the next video. I'm AppyDave. See you soon!
