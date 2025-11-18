@@ -71,5 +71,9 @@ build/
 # Video Asset Tools - Environment config (local SSD paths)
 .video-tools.env
 
+# Video Asset Tools - S3 staging directories (collaboration workspace)
+s3-staging/
+**/s3-staging/
+
 # Video Asset Tools - Generated manifest
 projects.json
