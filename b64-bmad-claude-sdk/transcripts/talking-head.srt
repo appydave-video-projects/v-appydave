@@ -1,0 +1,47 @@
+1
+00:00:00,00 --> 00:00:05,240
+So our agent SDK application is built and this is what it can do for us. So we're 
+
+2
+00:00:05,240 --> 00:00:06,520
+going into the chat bot where 
+
+3
+00:00:06,520 --> 00:00:09,600
+we're going to enter in some products. We should be able 
+
+4
+00:00:09,600 --> 00:00:13,600
+to view those products and see that they're being stored in the back end. At any 
+
+5
+00:00:13,640 --> 00:00:18,320
+time we should be able to create an HTML page. Notice that there's a live activity. 
+
+6
+00:00:18,320 --> 00:00:20,710
+There's also live pages. If we click on the 
+
+7
+00:00:20,710 --> 00:00:25,70
+pages, we should be able to go and see the products listing at any time. Then 
+
+8
+00:00:25,70 --> 00:00:30,710
+we should be able to add a new product or update it, and it should come through instantaneously. 
+
+9
+00:00:30,710 --> 00:00:35,280
+If we need a home page, we should be able to add a link and create a home page at 
+
+10
+00:00:35,280 --> 00:00:39,510
+the same time. When we go to that home page, we should be able to navigate back to 
+
+11
+00:00:39,560 --> 00:00:40,470
+the products.
+
+12
+00:00:40,540 --> 00:00:45,700
+And at the end of the video there's a complex multi page workflow demonstration.

@@ -1,0 +1,347 @@
+1
+00:00:00,00 --> 00:00:05,120
+Now, as we get to the technical considerations, we learn that it's not really doing 
+
+2
+00:00:05,120 --> 00:00:09,160
+what I want. We'll come back and look at why it's not working. But the reason for 
+
+3
+00:00:09,160 --> 00:00:14,550
+this is that the Bmad method is designed, and particularly this agent that we're 
+
+4
+00:00:14,550 --> 00:00:15,160
+working with, 
+
+5
+00:00:15,160 --> 00:00:19,880
+the analyst agent is around creating applications. So you might want to create some 
+
+6
+00:00:19,920 --> 00:00:22,670
+sort of C sharp command line tool. Or 
+
+7
+00:00:22,670 --> 00:00:28,320
+you might want to create a web application using React and Convex as a database. 
+
+8
+00:00:28,320 --> 00:00:29,80
+And for this 
+
+9
+00:00:29,80 --> 00:00:32,920
+and for these sorts of problems, Bmad is ideally suited. 
+
+10
+00:00:32,920 --> 00:00:38,240
+but when we look at the technical considerations, we see that it looks kind of okay. 
+
+11
+00:00:38,440 --> 00:00:43,800
+But on reading individual lines, you start to see that it's fairly off the mark at 
+
+12
+00:00:43,800 --> 00:00:48,240
+the moment. So let's go into what's wrong and then how we could maybe fix this.
+
+13
+00:00:48,240 --> 00:00:53,560
+So let's try and understand the Bmad method. So I have this second brain set up to 
+
+14
+00:00:53,600 --> 00:00:58,880
+point at version four and version six of the Bmad method, and that allows me to do 
+
+15
+00:00:58,880 --> 00:01:01,120
+some Q&A against either system.
+
+16
+00:01:01,120 --> 00:01:06,240
+And in version six we have access to something called the Bmad builder module,
+
+17
+00:01:06,240 --> 00:01:11,400
+and with it we could customize our agents, our workflows, or the modules that are 
+
+18
+00:01:11,400 --> 00:01:12,560
+used under the hood.
+
+19
+00:01:12,560 --> 00:01:17,40
+And one of the things it has is the ability to edit a workflow, which is what I believe 
+
+20
+00:01:17,40 --> 00:01:18,430
+I'd like to do today.
+
+21
+00:01:18,430 --> 00:01:23,150
+Now, understanding custom workflows and custom agents is a whole nother video, so 
+
+22
+00:01:23,150 --> 00:01:24,350
+we'll do that in the future. 
+
+23
+00:01:24,350 --> 00:01:29,430
+But let's have a look at what we could do with Bmad method version four. And in this 
+
+24
+00:01:29,430 --> 00:01:35,70
+particular case it's the technical considerations, which is one of the workflows 
+
+25
+00:01:35,70 --> 00:01:40,560
+within Bmad. For that we either need to edit or we're just going to override.
+
+26
+00:01:40,560 --> 00:01:45,120
+So let's get into the technical considerations and just see where it might have gone 
+
+27
+00:01:45,150 --> 00:01:50,150
+off kilter. So firstly, the fact that it can run on cloud code as the primary with 
+
+28
+00:01:50,150 --> 00:01:57,150
+a backup system being cursor or codex is correct. The idea that it's not a web application. 
+
+29
+00:01:57,150 --> 00:02:03,240
+So no web browser requirements, just API requirements is not quite correct, but also 
+
+30
+00:02:03,280 --> 00:02:09,750
+the fact that it's mentioned as a front end being Astro and the back end being TypeScript 
+
+31
+00:02:09,920 --> 00:02:15,960
+is correct kind of, but this is actually a submodule. It's a tool really, that's 
+
+32
+00:02:15,960 --> 00:02:23,80
+going to be used by the poem system. So the main application is not the astro concepts, 
+
+33
+00:02:23,80 --> 00:02:29,30
+it's actually the poem framework. And then after that some extra tooling or a submodule 
+
+34
+00:02:29,30 --> 00:02:31,30
+would be the astro application.
+
+35
+00:02:31,30 --> 00:02:35,350
+Then we get into the database. And a lot of what I'm talking about here is really 
+
+36
+00:02:35,350 --> 00:02:40,480
+subtle, but it will screw up the system if we don't get it right. And it's the idea 
+
+37
+00:02:40,480 --> 00:02:44,410
+that in the future there's a database, well, that's not needed at all. So we can 
+
+38
+00:02:44,410 --> 00:02:49,840
+remove that. But all of these files being the backend sort of system isn't correct. 
+
+39
+00:02:49,840 --> 00:02:54,740
+So if we think of an Astro application, it might have some backend data in the form 
+
+40
+00:02:54,740 --> 00:02:59,30
+of Jason or Markdown documents. But all of these files are actually part 
+
+41
+00:02:59,30 --> 00:03:03,40
+of a different folder called poem. This is where we create our templates. 
+
+42
+00:03:03,190 --> 00:03:08,200
+This is where we create our different workflows for prompt engineering. And so if 
+
+43
+00:03:08,200 --> 00:03:12,400
+they're used inside of the Astro application, it's because they're given to it, not 
+
+44
+00:03:12,400 --> 00:03:15,430
+because they're part of the backend system or the database. 
+
+45
+00:03:15,430 --> 00:03:19,720
+And then when we get to the infrastructure and hosting, well, this is not even relevant 
+
+46
+00:03:19,720 --> 00:03:20,320
+the way we're 
+
+47
+00:03:20,320 --> 00:03:24,790
+doing this sort of application. So what I've already seen so far is that this is 
+
+48
+00:03:24,790 --> 00:03:29,620
+building it directly for some sort of full stack application, which is not what we're 
+
+49
+00:03:29,620 --> 00:03:30,60
+trying to do.
+
+50
+00:03:30,450 --> 00:03:34,620
+Now when we get to the repository structure, this is pretty good. We've got this 
+
+51
+00:03:34,620 --> 00:03:39,690
+monorepo concept with packages for the core and the app. There's also a location 
+
+52
+00:03:39,690 --> 00:03:45,00
+for where poem is. What is not clear here is how it actually runs on someone else's 
+
+53
+00:03:45,00 --> 00:03:51,210
+system. So how I develop the framework is one thing, but how it's installed elsewhere 
+
+54
+00:03:51,210 --> 00:03:54,900
+is another thing. So we've gotta consider whether it's getting this correct at the 
+
+55
+00:03:54,900 --> 00:03:59,130
+moment. Now we get to the service architecture. This is quite correct. 
+
+56
+00:03:59,130 --> 00:04:04,890
+the only thing is that I would want it to say that this is an instance web server 
+
+57
+00:04:04,890 --> 00:04:09,900
+that gets created for each individual poem implementation. So the fact that it says 
+
+58
+00:04:09,900 --> 00:04:14,850
+configurable is correct, but there's not this clarity that this is an internal service 
+
+59
+00:04:15,00 --> 00:04:18,510
+that needs to be made available. And if you're running two poem projects, 
+
+60
+00:04:18,510 --> 00:04:20,280
+You need two Astro servers. 
+
+61
+00:04:20,280 --> 00:04:26,520
+Now we've got integration requirements. Again, everything here looks good, but understanding 
+
+62
+00:04:26,520 --> 00:04:31,980
+how the bmad method would work, it would start building each of these probably sequentially. 
+
+63
+00:04:32,400 --> 00:04:37,800
+And this would be incorrect approach. So if we look at these support signal convex, 
+
+64
+00:04:37,800 --> 00:04:43,140
+this will not be part of poem at all. What will happen is that when I'm using poem, 
+
+65
+00:04:43,380 --> 00:04:48,240
+I'll want to be able to connect to external systems, and at that point in time, I'll 
+
+66
+00:04:48,240 --> 00:04:53,160
+create one of these. So what we need is more tooling that allows us to create a provider 
+
+67
+00:04:53,460 --> 00:04:58,200
+rather than an actual implementation of the provider within this framework. 
+
+68
+00:04:58,200 --> 00:05:03,780
+The actual Claude code slash commands. This is interesting. We do need it, but this 
+
+69
+00:05:03,780 --> 00:05:10,350
+is such a small little utility object. This is a small utility story that might happen 
+
+70
+00:05:10,350 --> 00:05:13,320
+towards the end. It's like how do we connect it all up? 
+
+71
+00:05:13,320 --> 00:05:19,260
+Now the handlebars js, this is important, but this is going to live with inside this 
+
+72
+00:05:19,260 --> 00:05:24,270
+service architecture. So we just need to make sure that there's a clear separation. 
+
+73
+00:05:24,450 --> 00:05:28,530
+the more I look at this technical requirements, the more I realize it might've been 
+
+74
+00:05:28,530 --> 00:05:31,980
+useful to create two different Bmad PRDs, 
+
+75
+00:05:32,250 --> 00:05:36,30
+one for the poem core and the other one for the poem app. 
+
+76
+00:05:36,30 --> 00:05:40,590
+Then we consider faker, which is great. The only challenge we're going to have here 
+
+77
+00:05:40,590 --> 00:05:45,720
+is that we don't fully understand our mock generation system. So this is quite a, 
+
+78
+00:05:45,720 --> 00:05:47,370
+in the future sort of idea, 
+
+79
+00:05:47,370 --> 00:05:51,150
+security and compliance, this is actually pretty good. 
+
+80
+00:05:51,150 --> 00:05:55,50
+And then it's listing the trade offs. I'm pretty happy with these. So we've got astro 
+
+81
+00:05:55,110 --> 00:05:55,500
+and 
+
+82
+00:05:55,500 --> 00:05:59,640
+good developer experience. So this is great. We've got our assumptions. This is all 
+
+83
+00:05:59,640 --> 00:06:01,470
+good. And we've got our technical risks. 
+
+84
+00:06:01,470 --> 00:06:06,430
+So after talking for three minutes and reading through this, and I know that last 
+
+85
+00:06:06,430 --> 00:06:11,650
+night when I looked at this, I thought this was all off kilter. The more I think 
+
+86
+00:06:11,650 --> 00:06:16,990
+about it, the more I realize it's probably okay. And what I'm going to do is include 
+
+87
+00:06:16,990 --> 00:06:20,500
+this video as a separate video, not part of the main video, 

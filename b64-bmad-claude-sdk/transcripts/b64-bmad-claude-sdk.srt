@@ -1,0 +1,6583 @@
+1
+00:00:00,840 --> 00:00:05,440
+Imagine building a self editing application. What that means is that you could talk 
+
+2
+00:00:05,440 --> 00:00:09,430
+to it and it generates all the data in the back end, or you could ask it to visualize 
+
+3
+00:00:09,430 --> 00:00:16,100
+it on HTML pages suddenly materialized. In this video we're going to use the Agent 
+
+4
+00:00:16,100 --> 00:00:21,230
+SDK from Claude Code to do that. And we're going to build this application using 
+
+5
+00:00:21,230 --> 00:00:24,320
+the BMAD method. I'm AppyDave. Let's get into it.
+
+6
+00:00:24,320 --> 00:00:29,280
+Now this video is a step by step tutorial, so if you want to move ahead or go backwards 
+
+7
+00:00:29,280 --> 00:00:32,280
+and forwards, check out the chapter links in the description.
+
+8
+00:00:32,280 --> 00:00:37,30
+Now, what we're building today is this self editing application. We're going to use 
+
+9
+00:00:37,30 --> 00:00:40,430
+the Claude Agent SDK and the BMAD method.
+
+10
+00:00:40,430 --> 00:00:44,630
+Now, if this all works, what we'll be demonstrating is the idea of creating a bunch 
+
+11
+00:00:44,630 --> 00:00:49,790
+of products, building out a product listing, maybe even a details page for it, adding 
+
+12
+00:00:49,790 --> 00:00:54,670
+a home page, making some of those products featured, and then adding more products 
+
+13
+00:00:54,670 --> 00:00:55,350
+along the way.
+
+14
+00:00:55,350 --> 00:01:01,00
+Now. The magic of a self editing application is firstly this human experience. So 
+
+15
+00:01:01,00 --> 00:01:05,790
+we'll be able to talk to the computer, have it generate features, have it generate 
+
+16
+00:01:05,790 --> 00:01:10,400
+data and we'll be doing that using vibe coding sort of techniques. 
+
+17
+00:01:10,760 --> 00:01:15,80
+But the technical reality of this is that we're going to use context engineering 
+
+18
+00:01:15,80 --> 00:01:21,240
+using the BMAD method, and tools like the Agent SDK to make this application a reality.
+
+19
+00:01:21,240 --> 00:01:25,740
+Now let's just talk a little bit about the planning ahead of time. So I've already 
+
+20
+00:01:25,740 --> 00:01:30,330
+got a planning folder in place for what we're going to do. I've got some preliminary 
+
+21
+00:01:30,330 --> 00:01:35,520
+tech stack stuff, but I wanna run all of this through the BMAD method. Now, which 
+
+22
+00:01:35,520 --> 00:01:35,970
+version 
+
+23
+00:01:35,970 --> 00:01:37,860
+of the BMAD method should we use? 
+
+24
+00:01:38,70 --> 00:01:42,840
+Should we use version four, which is the current, or should we use the version six 
+
+25
+00:01:42,930 --> 00:01:48,330
+alpha nine. Now I tried a video yesterday on alpha eight and I don't 
+
+26
+00:01:48,330 --> 00:01:53,160
+particularly believe it's ready for use just yet for this sort of project. So we 
+
+27
+00:01:53,160 --> 00:01:55,350
+are going to work with version four, 
+
+28
+00:01:55,350 --> 00:01:59,820
+and that means what we're going to do is use this command here, NPX BMAD Method in 
+
+29
+00:01:59,820 --> 00:02:03,960
+install. If you do want to use the version six, it's all available 
+
+30
+00:02:03,960 --> 00:02:08,460
+now the problems I ran into with version six, I've already communicated with Brian 
+
+31
+00:02:08,460 --> 00:02:13,470
+from BMAD and he's aware of it and he's talking through the changes that are coming 
+
+32
+00:02:13,470 --> 00:02:18,300
+in place related to those issues. But for today, we'll keep it simple and work with 
+
+33
+00:02:18,300 --> 00:02:19,140
+version four.
+
+34
+00:02:19,140 --> 00:02:24,580
+Now in the repo that we're building all this, which is 007 BMAD Claude SDK, you can 
+
+35
+00:02:24,580 --> 00:02:29,660
+go to the bottom and find the links. So here's the link to the version for Bmad. 
+
+36
+00:02:29,660 --> 00:02:34,540
+And if you scroll down a little bit we'll go and select our starting command. With 
+
+37
+00:02:34,540 --> 00:02:36,860
+that selected we can go over to 
+
+38
+00:02:36,860 --> 00:02:40,100
+our terminal. And I've already got some pages here. 
+
+39
+00:02:40,340 --> 00:02:45,420
+the readme that you were just seeing is in here at that location. And I've got a 
+
+40
+00:02:45,420 --> 00:02:49,60
+planning phase in my documents directory already, 
+
+41
+00:02:49,60 --> 00:02:54,500
+so we've cleared the screen and putting in the npx bmad-method install. And that's 
+
+42
+00:02:54,500 --> 00:02:56,620
+going to walk us through a wizard.
+
+43
+00:02:56,620 --> 00:03:01,980
+So let's work through step by step. And the first thing is the folder. Now it's opened 
+
+44
+00:03:01,980 --> 00:03:07,540
+it up to an empty directory. So what I'm going to do is put in the directory where 
+
+45
+00:03:07,540 --> 00:03:12,930
+we're building this application today. After that it's talking about different frameworks 
+
+46
+00:03:12,930 --> 00:03:18,140
+of BMAD that we can install. This all changes a fair bit in version six. We've got 
+
+47
+00:03:18,250 --> 00:03:23,140
+better game set up in that particular version. For now, we'll just go with the agile 
+
+48
+00:03:23,180 --> 00:03:29,210
+core in version four. When it comes to the PRD product requirements document and 
+
+49
+00:03:29,210 --> 00:03:33,780
+the architecture document, you can shard the files, meaning that they can be split 
+
+50
+00:03:33,780 --> 00:03:38,810
+up into individual files after generation. This changes a little bit in version six, 
+
+51
+00:03:38,810 --> 00:03:40,740
+but for today we'll say yes.
+
+52
+00:03:40,740 --> 00:03:45,540
+And then you can decide on what agent coding system you're going to use. I'm using 
+
+53
+00:03:45,540 --> 00:03:47,580
+Claude Code. So we'll just select that.
+
+54
+00:03:47,580 --> 00:03:52,140
+And in this example we're not going to use Gemini or Codex. So I'm going to say no 
+
+55
+00:03:52,140 --> 00:03:53,100
+to those models.
+
+56
+00:03:53,100 --> 00:03:57,810
+Now it started off with this idea of reading the user guide. So we'll take a copy 
+
+57
+00:03:57,810 --> 00:04:02,250
+of that and head over to Visual Studio. Now let's have a look at what I already had 
+
+58
+00:04:02,250 --> 00:04:07,680
+in place. So I already have a docs folder with just this planning directory. So there's 
+
+59
+00:04:07,680 --> 00:04:13,950
+a fair bit of spikes and examples of how this application could work. We'll draw 
+
+60
+00:04:13,950 --> 00:04:18,180
+on that when we are building our product brief. We've got a Claude file in place. 
+
+61
+00:04:18,180 --> 00:04:18,380
+We've 
+
+62
+00:04:18,390 --> 00:04:22,560
+got our Claude sub folder, and you'll notice that there's a area called Command. 
+
+63
+00:04:22,560 --> 00:04:26,400
+So all the BMAD methods have been set up within this area. 
+
+64
+00:04:26,400 --> 00:04:31,800
+And then the rest of BMAD is in the BMAD core, where we've got different workflows, 
+
+65
+00:04:31,800 --> 00:04:37,410
+teams, templates for working through checklists. We've got our agents and we've got 
+
+66
+00:04:37,410 --> 00:04:41,370
+this little user guide that it told us to read. So let's pop that up. 
+
+67
+00:04:41,370 --> 00:04:46,130
+We've gotta use the guide for the Greenfield project. So this is a brand new project. 
+
+68
+00:04:46,130 --> 00:04:51,620
+Brownfield is for if you've already got an existing code base. And we can start with 
+
+69
+00:04:51,620 --> 00:04:53,120
+a project idea. 
+
+70
+00:04:53,120 --> 00:04:58,350
+we've got an optional analyst research. Now we don't need that because I've already 
+
+71
+00:04:58,410 --> 00:05:02,60
+done all the planning, but we might just work through it temporarily to see what 
+
+72
+00:05:02,60 --> 00:05:07,250
+it does. Then we've gotta build the brief. So with the brief, we're doing the product 
+
+73
+00:05:07,250 --> 00:05:12,380
+requirements document. We'll do a bit of UX design, we'll do a little bit of architecture 
+
+74
+00:05:12,380 --> 00:05:15,240
+design, and then at the end we'll make it all cohesive 
+
+75
+00:05:15,240 --> 00:05:20,180
+And with the cohesion in place, that's when we'll start using a scrub master to design 
+
+76
+00:05:20,180 --> 00:05:24,780
+stories and a developer to actually create the code for those stories.
+
+77
+00:05:24,780 --> 00:05:29,180
+So let's start with our terminal and we're going to use Claude Code. And I'm going 
+
+78
+00:05:29,180 --> 00:05:32,260
+to run it with the dangerously skipped permissions.
+
+79
+00:05:32,260 --> 00:05:37,420
+Now it's fresh context. And we've just added a lot of context from Claude. So I'm 
+
+80
+00:05:37,420 --> 00:05:42,660
+just going to run an init on this. I'm going to give it a little bit of extra information. 
+
+81
+00:05:42,660 --> 00:05:47,500
+We've got this planning folder, but I don't want it to take too much over with the 
+
+82
+00:05:47,500 --> 00:05:51,820
+Claude file. I want it to be referenced. I want it to maybe use it as a guideline 
+
+83
+00:05:51,820 --> 00:05:53,700
+for what the project will be about. 
+
+84
+00:05:53,740 --> 00:05:59,140
+But the main focus of Claude should be on the BMAD method and whatever it decides 
+
+85
+00:05:59,140 --> 00:05:59,940
+to create.
+
+86
+00:05:59,940 --> 00:06:04,260
+So with those two statements, what we can see is that we're improving the Claude 
+
+87
+00:06:04,320 --> 00:06:10,410
+MD to prioritize the BMAD workflow. So what is Claude md? That's essentially the 
+
+88
+00:06:10,410 --> 00:06:15,540
+system prompt. So it's available every time we do a prompt that anything in this 
+
+89
+00:06:15,540 --> 00:06:19,500
+file will be used and we want it to be hyper-focused on what it does. 
+
+90
+00:06:19,500 --> 00:06:24,750
+So anything in red has been removed, and that's a lot of the stuff that I did in 
+
+91
+00:06:24,750 --> 00:06:26,940
+pre-planning before this video. 
+
+92
+00:06:26,940 --> 00:06:31,830
+We can see that my folder hierarchy that does exist has been removed from the system 
+
+93
+00:06:31,830 --> 00:06:36,780
+prompt, but the important stuff that it's a self editing application is in place 
+
+94
+00:06:36,900 --> 00:06:41,430
+that the core of the server should only be about 200 lines of code. 
+
+95
+00:06:41,430 --> 00:06:46,650
+It's got a very clean understanding of what the BMAD workflow is. So we've got the 
+
+96
+00:06:46,650 --> 00:06:50,820
+workflow primary path. We've got step one, which is installation. Now we've already 
+
+97
+00:06:50,820 --> 00:06:55,750
+done that. We've got step two, which will be the analyst agent doing a workflow-init 
+
+98
+00:06:56,190 --> 00:07:00,330
+and it just keeps going, doing this hyper-focused system prompt. 
+
+99
+00:07:00,330 --> 00:07:04,920
+So we'll start off by having a fresh version of Claude and we'll put in a slash command. 
+
+100
+00:07:04,920 --> 00:07:09,990
+And the one we're going to go with is analyst and Analyst will load up Mary. Now 
+
+101
+00:07:09,990 --> 00:07:14,490
+there's a lot of things that Mary can do for this session. Mostly we're going to 
+
+102
+00:07:14,490 --> 00:07:17,220
+focus on creating a project brief, 
+
+103
+00:07:17,220 --> 00:07:21,900
+but she's one of these agents that you can spend a long time in just doing all sorts 
+
+104
+00:07:21,900 --> 00:07:23,880
+of planning and research. 
+
+105
+00:07:23,880 --> 00:07:29,670
+So we just go back to Claude Code and we'll have create a project brief by reading 
+
+106
+00:07:29,820 --> 00:07:34,770
+an existing document. And if we put in the @ sign, we can start putting in Project 
+
+107
+00:07:34,830 --> 00:07:39,990
+Reference and we'll select it and we'll see what she can do with that particular 
+
+108
+00:07:39,990 --> 00:07:40,380
+document.
+
+109
+00:07:40,380 --> 00:07:45,240
+So the Create Project Brief is going to read from our project reference. 
+
+110
+00:07:45,240 --> 00:07:51,180
+And what it does is it uses commands like the Create Doc, which is based on a template 
+
+111
+00:07:51,330 --> 00:07:53,10
+already in the BMAD call. 
+
+112
+00:07:53,10 --> 00:07:57,30
+And for this we're going to work in the interactive mode. So we'll just press one. 
+
+113
+00:07:57,330 --> 00:08:02,700
+YOLO would be the fast way to do it and with my project documentation it could just 
+
+114
+00:08:02,700 --> 00:08:06,180
+work out perfectly, but I wanna be pretty sure with this. 
+
+115
+00:08:06,180 --> 00:08:11,490
+So notice that the output file is going to be dots brief and we can see that it's 
+
+116
+00:08:11,490 --> 00:08:12,650
+working through many to do's 
+
+117
+00:08:13,530 --> 00:08:16,290
+Currently it's written the executive summary for it 
+
+118
+00:08:16,290 --> 00:08:20,400
+and I've read it through, it's all pretty perfect. I think the target market says 
+
+119
+00:08:20,400 --> 00:08:26,40
+it all. It's developers learning ai, agent integration and self-modifying systems. 
+
+120
+00:08:26,250 --> 00:08:31,890
+It's for technical educators. That's what I do where I want to generate systems that 
+
+121
+00:08:31,890 --> 00:08:34,230
+are a bit flexible and dynamic pretty quickly. 
+
+122
+00:08:34,230 --> 00:08:38,280
+that's also rapid prototyping. That's what we're doing today. And then we've got 
+
+123
+00:08:38,280 --> 00:08:43,590
+the BMAD method practitioners. Now one thing is to know that I, I'll be testing this 
+
+124
+00:08:43,590 --> 00:08:45,900
+with version six BMAD 
+
+125
+00:08:45,900 --> 00:08:49,110
+And if there is anything you want me to test it with, let me know in the comments 
+
+126
+00:08:49,110 --> 00:08:49,500
+below. 
+
+127
+00:08:49,500 --> 00:08:52,140
+But for now we'll just proceed to the next section. 
+
+128
+00:08:52,140 --> 00:08:55,680
+and the good thing is it started writing the briefs. So we'll just bring up Visual 
+
+129
+00:08:55,680 --> 00:09:01,260
+Studio and click on this file here. And so as it goes, we can keep track of what's 
+
+130
+00:09:01,260 --> 00:09:03,300
+going on the left hand side, 
+
+131
+00:09:03,300 --> 00:09:07,110
+But let's have a look at this problem statement that it's come up with. 
+
+132
+00:09:07,110 --> 00:09:11,510
+So reading through the problem statement, everything's pretty good. One of the things 
+
+133
+00:09:11,510 --> 00:09:15,620
+I notice is the database. This is where this application will be a little different 
+
+134
+00:09:15,620 --> 00:09:17,580
+to a lot of applications. It won't have 
+
+135
+00:09:17,580 --> 00:09:23,400
+a database. Instead it's just going to have JSON documents, JSON. They're gonna be 
+
+136
+00:09:23,400 --> 00:09:25,950
+stored in the server and for saving them, 
+
+137
+00:09:26,100 --> 00:09:31,370
+it's just going to be committed to a repository. Now this is not a normal application 
+
+138
+00:09:31,370 --> 00:09:33,380
+that you would run in the cloud I guess, 
+
+139
+00:09:33,380 --> 00:09:38,390
+But for me it allows me to rapidly create tools that I use locally on my computer 
+
+140
+00:09:38,610 --> 00:09:44,150
+through a web interface. So I think we can just move on to the next section. And 
+
+141
+00:09:44,220 --> 00:09:49,400
+what it'll start doing is writing an updated brief. We should see it pop in below, 
+
+142
+00:09:49,400 --> 00:09:54,770
+it's updating so we can see a whole new green section. And here it is listed in the 
+
+143
+00:09:54,770 --> 00:09:55,640
+markdown document. 
+
+144
+00:09:55,640 --> 00:10:00,590
+Now if there was anything out of whack with it, rather than using Claude to change 
+
+145
+00:10:00,590 --> 00:10:04,910
+it, you might just manually come in and alter the document here to have 
+
+146
+00:10:04,910 --> 00:10:07,670
+to rectify any flaws that you notice. 
+
+147
+00:10:07,740 --> 00:10:13,570
+It's important also that you do rectify flaws because these propagate through. If 
+
+148
+00:10:13,570 --> 00:10:16,90
+you fix it now you have less issues in the future. 
+
+149
+00:10:16,90 --> 00:10:19,840
+So the next area we're going to work on is the proposed 
+
+150
+00:10:19,840 --> 00:10:21,00
+solution section. 
+
+151
+00:10:21,00 --> 00:10:25,210
+So it's written the proposed solution. If we go over and have a look, we can see 
+
+152
+00:10:25,210 --> 00:10:29,470
+that it's going to use an express JavaScript server. 
+
+153
+00:10:29,470 --> 00:10:33,430
+embedded into it will be a clawed agent, SDK backend. 
+
+154
+00:10:33,430 --> 00:10:37,600
+Some of the tools that we'll have is the ability to read and write JSON files and 
+
+155
+00:10:37,600 --> 00:10:39,700
+also to write HTML files. 
+
+156
+00:10:39,700 --> 00:10:44,370
+The main front end technology is that we'll use React. We have socket io so that 
+
+157
+00:10:44,370 --> 00:10:49,720
+we can stream information live and we are going to use BMAD method version four 
+
+158
+00:10:49,720 --> 00:10:54,700
+there's also a little note here about using Shad CN for the user interface. We might 
+
+159
+00:10:54,700 --> 00:10:57,850
+also use the vercel AI elements 
+
+160
+00:10:57,850 --> 00:11:02,880
+Now the backend is meant to be simple, just about 200 lines of code. And one of the 
+
+161
+00:11:02,880 --> 00:11:07,810
+key requirements is that I can just use it with my max account from Claude. I don't 
+
+162
+00:11:07,810 --> 00:11:11,410
+need to go and pay any API costs with this particular tool. 
+
+163
+00:11:11,410 --> 00:11:16,540
+Now while that's been happening in the background, it's been setting up the target 
+
+164
+00:11:16,540 --> 00:11:21,100
+users. We'll get it to start writing that brief for us. Once it's done, the target 
+
+165
+00:11:21,310 --> 00:11:26,320
+users section, it should move on automatically to the goals and success metrics. 
+
+166
+00:11:26,500 --> 00:11:31,690
+All I've had to do each time is basically say the next number for it to save the 
+
+167
+00:11:31,690 --> 00:11:32,80
+file. 
+
+168
+00:11:32,80 --> 00:11:36,850
+So the target users have been updated, it should go directly into the next area. 
+
+169
+00:11:36,850 --> 00:11:41,500
+But if we have a look at the target users, we can see that it's a learning system 
+
+170
+00:11:41,500 --> 00:11:42,300
+for developers. 
+
+171
+00:11:42,540 --> 00:11:46,500
+but I would argue that it's for anyone that wants to learn Context engineering, which 
+
+172
+00:11:46,500 --> 00:11:51,870
+is partly about building applications, but it's about building any system in a business 
+
+173
+00:11:51,870 --> 00:11:53,520
+or in your personal workflows. 
+
+174
+00:11:53,520 --> 00:11:55,800
+This is also an area that you could 
+
+175
+00:11:55,800 --> 00:11:56,740
+pull out, 
+
+176
+00:11:56,740 --> 00:12:00,220
+because I think anyone should be able to learn this. One of the things about what 
+
+177
+00:12:00,220 --> 00:12:06,160
+we're doing is that we're not writing any code ourselves. Everything is just understanding 
+
+178
+00:12:06,160 --> 00:12:11,470
+a little bit of architecture following a plan and using natural language processes 
+
+179
+00:12:11,500 --> 00:12:12,490
+the entire way. 
+
+180
+00:12:12,490 --> 00:12:18,580
+So now it's about to create the goals and success metrics. We've already written 
+
+181
+00:12:18,670 --> 00:12:24,370
+all the target user information, it reads the brief each time does what it needs 
+
+182
+00:12:24,370 --> 00:12:27,730
+to do, and then writes the brief again. And you might be wondering, well what does 
+
+183
+00:12:27,730 --> 00:12:32,380
+it need to do? How does it know to do that? And this is just one of the internal 
+
+184
+00:12:32,380 --> 00:12:34,690
+mechanisms of the BMAD method. 
+
+185
+00:12:34,690 --> 00:12:40,270
+So now the KPIs or the key performance indicators have been updated. We can go look 
+
+186
+00:12:40,270 --> 00:12:45,00
+at it while we move on to the next section. One of the things I would suggest is 
+
+187
+00:12:45,220 --> 00:12:50,600
+in this case, they're not that useful for me. I don't really care about these numbers 
+
+188
+00:12:50,600 --> 00:12:55,400
+here. Thousand developers, clonal Fork, the repository not important to me. 
+
+189
+00:12:55,400 --> 00:12:59,540
+content amplification if people use it, I'd be really happy about that. 
+
+190
+00:12:59,540 --> 00:13:04,730
+I guess if anything was important is that people are using a sound content engineering 
+
+191
+00:13:04,760 --> 00:13:06,710
+system, which is BMAD method 
+
+192
+00:13:06,950 --> 00:13:11,570
+but quite frankly, this section is a bit of fluff today for us. But the next area 
+
+193
+00:13:11,600 --> 00:13:14,720
+is really important and this is the minimum viable product. 
+
+194
+00:13:14,720 --> 00:13:20,930
+And so as a must have, it's working on the idea of it having three epics. Now, this 
+
+195
+00:13:20,930 --> 00:13:26,290
+is not normal by the way. This is not the normal area to put in epics. Usually we 
+
+196
+00:13:26,390 --> 00:13:32,00
+do that after we've done the architecture and the PRD and it comes later. But I put 
+
+197
+00:13:32,00 --> 00:13:36,440
+this specifically into my planning documents 'cause I'm thinking of this as a simple 
+
+198
+00:13:36,440 --> 00:13:41,240
+application with three different areas that we need to do. We need a foundation that's 
+
+199
+00:13:41,240 --> 00:13:45,740
+the server, the client, it just needs to be set up after that. The backend is the 
+
+200
+00:13:45,740 --> 00:13:47,480
+main area that we wanna work on. 
+
+201
+00:13:47,480 --> 00:13:54,410
+for the Claude agent SDK implementation, I've already done what's called a core loop 
+
+202
+00:13:54,410 --> 00:13:55,610
+or the event loop, 
+
+203
+00:13:55,610 --> 00:13:56,00
+uh, 
+
+204
+00:13:56,20 --> 00:13:57,40
+documentation. 
+
+205
+00:13:57,40 --> 00:14:00,790
+And essentially this is just a human readable list. 
+
+206
+00:14:00,820 --> 00:14:05,920
+It should work no matter what target language this system is built for. Now we are 
+
+207
+00:14:05,920 --> 00:14:10,660
+going for JavaScript and so hopefully that'll translate pretty readily. And then 
+
+208
+00:14:10,660 --> 00:14:15,430
+the third area is that we're going to have a beautiful user interface. So this is 
+
+209
+00:14:15,430 --> 00:14:21,550
+basically using the Versal and Shad CN and Tailwind CSS and just getting it to talk 
+
+210
+00:14:21,760 --> 00:14:24,70
+to the backend with streams. 
+
+211
+00:14:24,70 --> 00:14:30,790
+And as that information hits the SDK perform, any data creation or webpage designs 
+
+212
+00:14:30,790 --> 00:14:31,360
+as we go. 
+
+213
+00:14:31,960 --> 00:14:36,940
+And the next section of the MVP is what not to do. So we don't need a database. We 
+
+214
+00:14:36,940 --> 00:14:42,430
+don't need multi-tenancy multi-user. We don't need authentication or authorization. 
+
+215
+00:14:42,430 --> 00:14:47,290
+We don't need model context protocol. Good thing about using BMAD is that I've used 
+
+216
+00:14:47,290 --> 00:14:51,790
+it for enterprise applications really effectively. So it can do all of these, but 
+
+217
+00:14:51,790 --> 00:14:53,410
+we're keeping it out of the example. 
+
+218
+00:14:53,410 --> 00:14:56,530
+So after that, we are going to build the 
+
+219
+00:14:56,530 --> 00:15:01,820
+post MVP or the post minimum viable product vision. And we can see that it's already 
+
+220
+00:15:01,820 --> 00:15:06,260
+come up with most of that. It's got different tools that we might want to add later 
+
+221
+00:15:06,260 --> 00:15:06,560
+on. 
+
+222
+00:15:06,560 --> 00:15:09,440
+And additional areas like multi-agent workflows, 
+
+223
+00:15:09,440 --> 00:15:13,910
+production release. Now, quite frankly, I could maybe delete all of the s and b happy 
+
+224
+00:15:13,910 --> 00:15:19,250
+because I'm not planning to go further with this particular project. It's going to 
+
+225
+00:15:19,250 --> 00:15:23,630
+be the foundation for other tools that you'll see me creating using the BMAD method. 
+
+226
+00:15:24,50 --> 00:15:28,970
+So it's gone off and now thought about the technical considerations. They've all 
+
+227
+00:15:28,970 --> 00:15:33,80
+been set up. It feels that we need to use React version 19. 
+
+228
+00:15:33,80 --> 00:15:37,400
+And if we look at it in the markdown, it's typescript , Vite and ShadCN, 
+
+229
+00:15:37,700 --> 00:15:38,870
+tailwind, CSS, 
+
+230
+00:15:38,870 --> 00:15:42,830
+And this is all for the front end. If we look a bit further, we've got the back end, 
+
+231
+00:15:42,830 --> 00:15:48,590
+which is an express server. We've got an installation of the agent SDK planned. We 
+
+232
+00:15:48,590 --> 00:15:52,790
+are going to communicate between the two systems with socket io and we're running 
+
+233
+00:15:52,790 --> 00:15:58,40
+it on node for our database. It's just going to be some Jason documents in the data 
+
+234
+00:15:58,40 --> 00:16:02,690
+directory future. We could use the database if we like. And the hosting is, it's 
+
+235
+00:16:02,690 --> 00:16:04,400
+just planned to run on local host. 
+
+236
+00:16:04,400 --> 00:16:09,620
+So with that, we can go and look at the next section. It's currently working on the 
+
+237
+00:16:09,620 --> 00:16:14,900
+constraints and assumptions. So this was a big thing for me. Is it going to cost 
+
+238
+00:16:14,900 --> 00:16:17,480
+me anything? No, I want it to hook into 
+
+239
+00:16:17,480 --> 00:16:23,660
+my max account, and that should be how it works. Develop a time, 40 to 60 hours for 
+
+240
+00:16:23,660 --> 00:16:24,440
+the MVP. 
+
+241
+00:16:24,440 --> 00:16:27,800
+let's go and look at the risk and open question. 
+
+242
+00:16:27,800 --> 00:16:33,740
+And this is really useful. I've never done the agent SDK, so it is a dependency with 
+
+243
+00:16:33,740 --> 00:16:36,500
+high risk for me when I'm doing this video. 
+
+244
+00:16:36,500 --> 00:16:38,330
+the constraint, I think 
+
+245
+00:16:38,330 --> 00:16:41,900
+that the statement here could be true, but I, I don't think it matters. 
+
+246
+00:16:41,900 --> 00:16:45,800
+it's not that I have to do it in 200 lines of code, it's just that I don't want it 
+
+247
+00:16:45,800 --> 00:16:48,380
+to be complex. That's kind of why I'm doing the constraint. 
+
+248
+00:16:48,380 --> 00:16:50,510
+I will talk about this section briefly. 
+
+249
+00:16:50,510 --> 00:16:52,700
+I took out a section called the BMAD, 
+
+250
+00:16:52,700 --> 00:16:58,40
+quality Gates. What I wanted to have happen is that rather than pure vibe coding 
+
+251
+00:16:58,40 --> 00:17:03,200
+where the user says, I would like a new homepage, I wanted it to actually create 
+
+252
+00:17:03,200 --> 00:17:09,30
+a BMAD story on the backend. Now I think for this demonstration, it's maybe a reach 
+
+253
+00:17:09,30 --> 00:17:14,850
+goal. Maybe we'll do it. But this would be a really powerful idea that users could 
+
+254
+00:17:14,850 --> 00:17:19,710
+just sit on the front end and say, I want a new capability. And BMAD at the other 
+
+255
+00:17:19,710 --> 00:17:24,90
+end. Here's that and says, well, let me create a story for you and then the developer 
+
+256
+00:17:24,90 --> 00:17:27,240
+can go off and create it. But for today, I've taken it out. 
+
+257
+00:17:27,630 --> 00:17:33,150
+So that's the docs brief finish. You notice it's now saying to go on to the next 
+
+258
+00:17:33,210 --> 00:17:38,500
+agent. It's got everything written. What we are going to do is exit out. 'cause what 
+
+259
+00:17:38,500 --> 00:17:44,70
+I'd like to do is have a clean context the next time we start. But while we're looking 
+
+260
+00:17:44,190 --> 00:17:49,830
+at that, let's just see what that last section was. So we've got the next step. Immediate 
+
+261
+00:17:49,920 --> 00:17:54,360
+action is we're going to create the product requirements document. We're gonna do 
+
+262
+00:17:54,360 --> 00:17:59,790
+that by loading the project manager agent and running the create PRD command. 
+
+263
+00:17:59,790 --> 00:18:03,870
+Let's also look at what we've got in our system. So everything that you see on the 
+
+264
+00:18:03,870 --> 00:18:09,360
+left in planning is stuff I've done ahead of time. So the only one document we have 
+
+265
+00:18:09,360 --> 00:18:13,860
+in the system specifically created by BMAD is the brief. 
+
+266
+00:18:14,100 --> 00:18:18,780
+Now I'll just take a moment out to suggest that if you want a little bit more handholding 
+
+267
+00:18:18,780 --> 00:18:25,50
+or just seeing day-to-day operations on using the BMAD method context engineering 
+
+268
+00:18:25,80 --> 00:18:29,700
+to produce applications or other sorts of business systems, then you might wanna 
+
+269
+00:18:29,700 --> 00:18:33,510
+check the link in the description where you can go to my SKOOL community where I'll 
+
+270
+00:18:33,510 --> 00:18:36,30
+be talking about this on a day by day basis. 
+
+271
+00:18:36,30 --> 00:18:41,430
+But next, let's go and look at creating this PRD. Now, to do that, we're going 
+
+272
+00:18:41,430 --> 00:18:46,260
+to have a new agent. And the agent we want is the project manager. So we load the 
+
+273
+00:18:46,260 --> 00:18:49,110
+project manager in with the slash pm command, 
+
+274
+00:18:49,110 --> 00:18:53,880
+and John comes into existence with a whole lot of capabilities. Now the one we want 
+
+275
+00:18:53,950 --> 00:18:59,580
+is the star create PRD. So we just paste that in and let's see what comes up. And 
+
+276
+00:18:59,580 --> 00:19:03,810
+you notice that the way BMAD works is it works with context documents. So we've got 
+
+277
+00:19:03,810 --> 00:19:07,650
+the Create Doc md. There was also a template going on, 
+
+278
+00:19:07,650 --> 00:19:12,570
+which we can see here, and a bit of configuration YAML now in version six. A lot 
+
+279
+00:19:12,570 --> 00:19:16,480
+of this stuff still happens similarly, but they've made it a lot more flexible.
+
+280
+00:19:16,470 --> 00:19:21,390
+Now, you may notice when you start with a clean Claude Code is that the context is 
+
+281
+00:19:21,390 --> 00:19:26,150
+empty and so certain things it doesn't know about. So this idea of do you have a 
+
+282
+00:19:26,150 --> 00:19:30,750
+project brief which we just worked on is something it doesn't currently know about. 
+
+283
+00:19:30,750 --> 00:19:34,990
+So I'm just going to put in one. That's what we want to do. And I'll put in the @ 
+
+284
+00:19:35,110 --> 00:19:40,630
+sign and start typing brief and we'll just press enter. So it'll use that as loaded 
+
+285
+00:19:40,630 --> 00:19:41,390
+context.
+
+286
+00:19:41,390 --> 00:19:45,860
+So it's read in the brief. I've read it. Everything seems okay to me. So I'm just 
+
+287
+00:19:45,860 --> 00:19:48,620
+going to press one and continue on that. 
+
+288
+00:19:48,620 --> 00:19:53,570
+Notice as it goes, it creates a change log. So we've got version one, which is the 
+
+289
+00:19:53,570 --> 00:19:56,120
+initial PRD created from the project brief. 
+
+290
+00:19:56,120 --> 00:20:00,50
+And now we get into the hearts of what a product requirements document is. We're 
+
+291
+00:20:00,50 --> 00:20:05,360
+coming up with the functional requirements as we go. So FR one would be the first 
+
+292
+00:20:05,360 --> 00:20:06,410
+functional requirement. 
+
+293
+00:20:06,410 --> 00:20:11,960
+So it's listing all the basic capabilities that this application is going to do. 
+
+294
+00:20:11,960 --> 00:20:15,230
+And then after that it does the non-functional requirements, 
+
+295
+00:20:15,230 --> 00:20:20,960
+which is all abstractions or ideas that the system's going to work on, such as the 
+
+296
+00:20:20,960 --> 00:20:26,60
+line limit on the server. The fact that we're going to use CLAUDE Auth to log into 
+
+297
+00:20:26,60 --> 00:20:26,510
+the system. 
+
+298
+00:20:27,170 --> 00:20:31,910
+Now, like with the interactive mode with product brief, we could just move on to 
+
+299
+00:20:31,910 --> 00:20:36,950
+the next section, but it's got a couple of areas needing validation. Is 200 lines 
+
+300
+00:20:36,950 --> 00:20:42,710
+realistic and should we have prebuilt examples? So I'm just going to make a simple 
+
+301
+00:20:42,800 --> 00:20:47,900
+adjustment here that says the 200 is a suggestion. What I'm trying to do is have 
+
+302
+00:20:47,930 --> 00:20:53,60
+the actual event loop of the agent be fairly small and contained. There's not a lot 
+
+303
+00:20:53,60 --> 00:20:57,950
+that you need to do there, but this is a guideline. It's not a limit at all. What 
+
+304
+00:20:57,950 --> 00:21:03,560
+I wanted to ensure that it does is not create complex structures as it builds out 
+
+305
+00:21:03,560 --> 00:21:07,700
+this system. 'cause there's nothing complex about the Claude Code event loop. 
+
+306
+00:21:07,700 --> 00:21:12,80
+the other thing I wanted to talk about is this area of, should we have a prebuilt 
+
+307
+00:21:12,80 --> 00:21:15,410
+example application? No, we shouldn't. This is all vibe coding 
+
+308
+00:21:15,410 --> 00:21:20,330
+that we're going to ask people to do, but we may actually create some examples later 
+
+309
+00:21:20,360 --> 00:21:22,310
+on. So we'll just press a enter on that. 
+
+310
+00:21:22,310 --> 00:21:26,700
+And so the functional requirements have been updated. We've removed a concept and 
+
+311
+00:21:26,700 --> 00:21:31,250
+we've done slight updates. And so this is a lot more important than in the brief 
+
+312
+00:21:31,250 --> 00:21:36,260
+to get this right. So we'll move on to the next step. But the idea is that this is 
+
+313
+00:21:36,260 --> 00:21:37,980
+what's actually going to get built.
+
+314
+00:21:37,980 --> 00:21:42,330
+Now the user interface design guides have come through. I've read through all of 
+
+315
+00:21:42,330 --> 00:21:48,150
+this and most of it was good except there was one area and probably the core area, 
+
+316
+00:21:48,420 --> 00:21:53,640
+which is the screens. And this is not working the way I'm thinking. So the first 
+
+317
+00:21:53,640 --> 00:21:57,840
+thing it says is chat interface, primary screen, full height, chat with message, 
+
+318
+00:21:57,840 --> 00:22:01,650
+history, input field streaming indicator and example starters. Love 
+
+319
+00:22:02,280 --> 00:22:07,890
+that. That is the only thing that I saw this initial application having. It's then 
+
+320
+00:22:07,890 --> 00:22:12,690
+got concept of a status panel shows active story, recent file operations, quality 
+
+321
+00:22:12,750 --> 00:22:13,80
+gate 
+
+322
+00:22:13,80 --> 00:22:17,220
+status. Now that's more complexity than I need. 
+
+323
+00:22:17,400 --> 00:22:20,670
+My thoughts were that as soon as you started typing stuff in here, 
+
+324
+00:22:20,670 --> 00:22:25,50
+You could generate HTML in the back end. And now that doesn't necessarily mean the 
+
+325
+00:22:25,50 --> 00:22:27,630
+menus would work, but the actual pages should work. 
+
+326
+00:22:27,930 --> 00:22:32,940
+I had a plan for this particular application that BMAD stories would get generated. 
+
+327
+00:22:32,940 --> 00:22:36,500
+That's what the quality gates were. But then I've taken it out, made it a future 
+
+328
+00:22:36,500 --> 00:22:40,710
+thing. So if we go to the very bottom, I said, this section here doesn't make sense 
+
+329
+00:22:40,710 --> 00:22:41,250
+anymore. 
+
+330
+00:22:41,250 --> 00:22:45,90
+and then I've said the next two steps, which are these ones down here, which I've 
+
+331
+00:22:45,90 --> 00:22:50,130
+copied from above are too complex and I've given it a little bit more clarity on 
+
+332
+00:22:50,130 --> 00:22:54,530
+what to do. So we'll just run with that again. It's so important in this area that 
+
+333
+00:22:54,530 --> 00:22:58,440
+you actually get it stating exactly what you think you wanna see. 
+
+334
+00:22:58,440 --> 00:23:03,210
+So it's come through red is what it's changing. Green is what it's changing it to. 
+
+335
+00:23:03,800 --> 00:23:09,260
+you can see it's continuing with simplified user interface, but we can also go over 
+
+336
+00:23:09,260 --> 00:23:14,930
+to Visual Studio and have a look at the document like before here in a simple markdown 
+
+337
+00:23:14,930 --> 00:23:20,220
+viewer. So BMAD, Claude self editing application. We've got our functional requirements 
+
+338
+00:23:20,220 --> 00:23:24,920
+kicking into place here, and we can see some of the modifications, like the slash 
+
+339
+00:23:24,920 --> 00:23:31,550
+chat and the slash products as examples. So we go back to our conversation, and this 
+
+340
+00:23:31,550 --> 00:23:35,510
+makes a whole lot more sense. We've got the application presents as a minimal chat 
+
+341
+00:23:35,540 --> 00:23:36,50
+interface. 
+
+342
+00:23:36,50 --> 00:23:40,680
+We know it can generate concepts like products and blogs, even though there may not 
+
+343
+00:23:40,680 --> 00:23:43,280
+be a navigation menu in place. 
+
+344
+00:23:43,280 --> 00:23:47,400
+The one little bit of styling we'll have is that it can do dart mode and light mode. 
+
+345
+00:23:47,400 --> 00:23:51,900
+And so we can move on to the next step. There is one big issue in here, and this 
+
+346
+00:23:51,900 --> 00:23:56,820
+is the issue of anyone using vibe coding, is that this application, when we build 
+
+347
+00:23:56,820 --> 00:24:01,560
+it, will allow us to change our backend server. Now that's both a security issue. 
+
+348
+00:24:01,560 --> 00:24:06,190
+You wouldn't do this on a public website. This is an internal tool, but it means 
+
+349
+00:24:06,190 --> 00:24:11,830
+how do we manage those changes? And I'm assuming in my setup that I'm going to use 
+
+350
+00:24:11,860 --> 00:24:16,180
+Git commit, so I should be able to roll back. But that's not necessarily the most 
+
+351
+00:24:16,180 --> 00:24:20,710
+technically easy thing for people to use. But for this example, that's how I'm planning 
+
+352
+00:24:20,710 --> 00:24:21,160
+to do it. 
+
+353
+00:24:21,160 --> 00:24:25,720
+now here, what it's done is come up with the technical assumptions. They're all based 
+
+354
+00:24:25,780 --> 00:24:30,490
+off the project brief, which is great. I've read through all of them and they're 
+
+355
+00:24:30,490 --> 00:24:35,140
+all very accurate. This is exactly the way I see it happening. But I thought I'd 
+
+356
+00:24:35,140 --> 00:24:40,00
+point out one area. So where did this all come from? It came from something called 
+
+357
+00:24:40,90 --> 00:24:41,230
+the Storyline app. 
+
+358
+00:24:41,230 --> 00:24:45,70
+Now, I think it's important that we look at the storyline application because the 
+
+359
+00:24:45,70 --> 00:24:50,70
+catalyst for building this project was could we generate stories dynamically on the 
+
+360
+00:24:50,70 --> 00:24:56,920
+fly? So if we head over to a web view and we are looking at what is a client and 
+
+361
+00:24:56,920 --> 00:25:01,690
+server sort of system. So currently we are connected to the server and it's using 
+
+362
+00:25:01,690 --> 00:25:06,820
+the same technology we're about to build. And if we go and have a look at our project 
+
+363
+00:25:06,820 --> 00:25:10,390
+files, we've got something called the Boy and the baker. Now the boy and the baker 
+
+364
+00:25:10,390 --> 00:25:15,250
+is a five minute video that we've created. And when you look at it, you can see that 
+
+365
+00:25:15,250 --> 00:25:20,70
+it's the story. And the story starts off with an elderly baker walks into his shop 
+
+366
+00:25:20,140 --> 00:25:26,10
+to see a boy being beaten and bullied by some younger children. So we can see pictures 
+
+367
+00:25:26,50 --> 00:25:31,630
+of this baker along the way. Now if we go and toggle the image display, we can see 
+
+368
+00:25:31,630 --> 00:25:37,180
+that we got an establishing shot. We've also got other versions of the shot available. 
+
+369
+00:25:37,360 --> 00:25:42,730
+So as we move through this story and it goes for five minutes, all of these images 
+
+370
+00:25:42,750 --> 00:25:46,300
+are character consistent, they're theme and style consistent. 
+
+371
+00:25:46,560 --> 00:25:51,790
+And so we build our movie by using the image prompts with tools like DALE-3 and SORA 
+
+372
+00:25:51,790 --> 00:25:55,890
+2. And we use the animation prompts along the way for doing 
+
+373
+00:25:55,890 --> 00:25:58,370
+the animations in Hailou or VOE 3. 
+
+374
+00:25:59,70 --> 00:26:03,690
+the interesting thing is that everything that you're seeing is based off this one 
+
+375
+00:26:03,780 --> 00:26:07,650
+narrative. So we've got a little narrative. It creates setting the ambiance, the 
+
+376
+00:26:07,650 --> 00:26:11,610
+characters, the description. We've got the image prompt and we've got the animation 
+
+377
+00:26:11,610 --> 00:26:15,840
+prompt. And I've been going through and refactoring this so that this is a lot more 
+
+378
+00:26:16,90 --> 00:26:21,370
+deeper. But really I just want to type this into a text box and have all of this 
+
+379
+00:26:21,370 --> 00:26:24,400
+extra information generated for me automatically. 
+
+380
+00:26:24,700 --> 00:26:28,810
+and that's what this application is meant to do. We should just be able to save something 
+
+381
+00:26:28,810 --> 00:26:33,820
+into a text box and have complex data structures form around that information.
+
+382
+00:26:33,820 --> 00:26:37,780
+So let me give you a glimpse of what the application we're currently building can 
+
+383
+00:26:37,780 --> 00:26:43,660
+be used for. And it's this storyline application that generated this movie. We've 
+
+384
+00:26:43,660 --> 00:26:49,460
+got character consistency, scene consistency, and everything was generated using 
+
+385
+00:26:49,460 --> 00:26:55,540
+Claude Code in the background to generate the data structures. So as we start asking 
+
+386
+00:26:55,540 --> 00:27:01,460
+questions like, can you create three products that will generate complex JSON documents 
+
+387
+00:27:01,460 --> 00:27:05,460
+behind the scene? Well, that's what's happened with the storyline application. But 
+
+388
+00:27:05,500 --> 00:27:10,980
+instead, there's a simple narrative that converts into image and style guides.
+
+389
+00:27:10,980 --> 00:27:15,980
+Now, if you're interested in seeing the five minute video around The Boy and the 
+
+390
+00:27:16,20 --> 00:27:20,500
+Baker by Voz, then check out the link in the description below.
+
+391
+00:27:20,500 --> 00:27:23,860
+But for now, let's get back to John, our product manager.
+
+392
+00:27:23,860 --> 00:27:28,960
+So I just press one to move forward and we've got our epic list and it looks like 
+
+393
+00:27:28,960 --> 00:27:33,460
+there's going to be three epics, which is what I'd suggested it to do anyway, so 
+
+394
+00:27:33,460 --> 00:27:37,30
+we've got the mono repo set up with basic client and server, 
+
+395
+00:27:37,30 --> 00:27:41,470
+NPM workspaces. We're can express server, minimal HTML client. 
+
+396
+00:27:41,470 --> 00:27:45,860
+so that looks good. After that, we're really working on the backend, which is the 
+
+397
+00:27:45,890 --> 00:27:51,50
+agent SDK integration. It's going to have the three tools that it talked about 
+
+398
+00:27:51,50 --> 00:27:55,500
+And then we're gonna polish up the communication with the front end chat interface 
+
+399
+00:27:55,500 --> 00:27:55,790
+here. 
+
+400
+00:27:56,00 --> 00:28:01,280
+So then we've got our sequencing logic. I think the good bit is the story count. 
+
+401
+00:28:01,280 --> 00:28:06,860
+It's listing three to four stories per epic. There isn't a lot of work in each section, 
+
+402
+00:28:06,860 --> 00:28:11,30
+and then it's listed, it's rationale and decisions. I read through that. This all 
+
+403
+00:28:11,30 --> 00:28:12,620
+seems to make sense for me. 
+
+404
+00:28:13,380 --> 00:28:18,220
+So at this point, we've got many stories already set up for different epics. 
+
+405
+00:28:18,220 --> 00:28:24,180
+The first one is Monorepo set up with a client and server. So the basic application 
+
+406
+00:28:24,220 --> 00:28:27,180
+structure for the front end talking to the back end.
+
+407
+00:28:27,180 --> 00:28:32,900
+Next we have epic number two, which is essentially setting up the Claude Agent SDK 
+
+408
+00:28:33,220 --> 00:28:37,140
+so that it can communicate from server through to the client.
+
+409
+00:28:37,140 --> 00:28:41,540
+And when you look at the goal, there's also tools included such as talking to JSON 
+
+410
+00:28:41,540 --> 00:28:43,380
+and HTML files.
+
+411
+00:28:43,380 --> 00:28:48,460
+And the final epic, epic number three is all about building a react front end 
+
+412
+00:28:48,460 --> 00:28:52,540
+and using libraries like Shadchan and Tailwind CSS.
+
+413
+00:28:52,540 --> 00:28:57,760
+Now if we go back to the top of the epic, we'll see that every story follows a common 
+
+414
+00:28:57,760 --> 00:29:02,710
+formula that's designed for agile development. So firstly, we've got a story number. 
+
+415
+00:29:02,710 --> 00:29:08,200
+So in this case it's 1.1. Then we've got a simple title for what the story is going 
+
+416
+00:29:08,200 --> 00:29:12,250
+to be about. This is initializing, the workspace and the mono repo. 
+
+417
+00:29:12,670 --> 00:29:18,610
+So the idea of a user story is this three part formula that says, as a particular 
+
+418
+00:29:18,610 --> 00:29:23,560
+person using the capability, what do they want to achieve? That's the I want. And 
+
+419
+00:29:23,560 --> 00:29:25,570
+if they did achieve it, what would they get? 
+
+420
+00:29:25,690 --> 00:29:31,630
+then there's an acceptance criteria. So this story is considered complete when all 
+
+421
+00:29:31,630 --> 00:29:33,610
+of these items are checked off. 
+
+422
+00:29:33,910 --> 00:29:37,780
+and this concept's going to repeat through every story in the epic.
+
+423
+00:29:37,780 --> 00:29:41,900
+So what I'll do now is I'll read through every story headline, and then we'll see 
+
+424
+00:29:41,940 --> 00:29:46,620
+pretty quickly that there may be some flaws in the way that it's come up with. So 
+
+425
+00:29:46,620 --> 00:29:51,940
+the first thing it wants to do in the epic is initialize the npm workspaces and monorepo. 
+
+426
+00:29:51,980 --> 00:29:57,60
+That sounds really good. Then it's going to create an express TypeScript server. 
+
+427
+00:29:57,300 --> 00:30:02,980
+After that, it's going to get a very basic HTML client up and running. And finally 
+
+428
+00:30:02,980 --> 00:30:07,740
+we're just going to have a little bit of an end to end test. And mainly that'll be 
+
+429
+00:30:07,740 --> 00:30:12,700
+worked out by starting both servers and checking the browser logs. Checking the console 
+
+430
+00:30:12,700 --> 00:30:17,740
+logs. So so far epic number one looks pretty good. We'll see if it needs any changes 
+
+431
+00:30:17,740 --> 00:30:19,580
+when we look at the next epic.
+
+432
+00:30:19,580 --> 00:30:24,380
+So now we're moving on to epic two, which is all about setting up the Anthropic Cloud 
+
+433
+00:30:24,420 --> 00:30:30,260
+SDK. And it talks about let's get it installed. Seems like a good first step. After 
+
+434
+00:30:30,260 --> 00:30:34,140
+that, it's trying to implement one of the tools which is the read JSON. Then it's 
+
+435
+00:30:34,140 --> 00:30:39,100
+going to do the right JSON and the right file. And then after all of that
+
+436
+00:30:39,100 --> 00:30:43,700
+we're going to integrate socket streaming. And we're going to do it both for the 
+
+437
+00:30:43,700 --> 00:30:48,220
+server. But we're also going to have the chat messages working with this. And then 
+
+438
+00:30:48,220 --> 00:30:53,500
+after that we're going to implement the full event loop. Now it's this particular 
+
+439
+00:30:53,500 --> 00:30:56,140
+epic that I'm having a few challenges with, 
+
+440
+00:30:56,140 --> 00:31:00,300
+and I'll go over what they are soon and how I can change them pretty quickly. But 
+
+441
+00:31:00,300 --> 00:31:01,900
+let's look at the third epic.
+
+442
+00:31:01,900 --> 00:31:07,180
+Now the third Epic is all about setting up a React application as the front end. 
+
+443
+00:31:07,180 --> 00:31:14,590
+So when we look at 3.1, it's initializing react with VI application. Then 3.2 is 
+
+444
+00:31:14,590 --> 00:31:20,200
+setting up Shad cn, configuring it with Tailwind CSS. After that, we build the chat 
+
+445
+00:31:20,230 --> 00:31:23,80
+interface using the Vercel AI elements. 
+
+446
+00:31:23,80 --> 00:31:27,610
+And lastly, we're just giving it a simple light mode, dark mode. Now we've got all 
+
+447
+00:31:27,610 --> 00:31:31,270
+sorts of rationale being listed. We could move on from there. 
+
+448
+00:31:31,270 --> 00:31:36,160
+But like I said, I think there's a problem in Epic two. And the main issue is, I 
+
+449
+00:31:36,160 --> 00:31:41,950
+can see is that after installing the SDK, it starts going into setting up tools. 
+
+450
+00:31:41,950 --> 00:31:46,990
+But we haven't defined yet where they fit into the event loop. We don't even know 
+
+451
+00:31:47,20 --> 00:31:51,880
+whether the event loop is going to work and communicate correctly with the client. 
+
+452
+00:31:51,880 --> 00:31:56,80
+and so as we work through all the stories in Epic two, we're gonna be pretty blind 
+
+453
+00:31:56,80 --> 00:32:01,90
+to whether they're working until the very end of the epic where it all comes together 
+
+454
+00:32:01,90 --> 00:32:02,410
+in a big avalanche.
+
+455
+00:32:02,410 --> 00:32:07,570
+So to resolve this problem, I could have a conversation here, but what I find easier 
+
+456
+00:32:07,570 --> 00:32:10,750
+is to just start selecting the context we need. 
+
+457
+00:32:11,410 --> 00:32:16,480
+And what I've done is copied all the way up to when the epic first started. At this 
+
+458
+00:32:16,480 --> 00:32:18,670
+point, I just select that, put in the clipboard. 
+
+459
+00:32:18,670 --> 00:32:23,320
+After that, I just like to open a new conversation, which I've got down below and 
+
+460
+00:32:23,320 --> 00:32:27,910
+I've started it with the statement. I want you to read and absorb the following information 
+
+461
+00:32:27,910 --> 00:32:29,680
+and then wait for me for guidance. 
+
+462
+00:32:29,680 --> 00:32:32,440
+And that complete epic list has been pasted in. 
+
+463
+00:32:32,440 --> 00:32:36,850
+So that new conversation knows what we've got. We've got it highlighted in blue and 
+
+464
+00:32:36,850 --> 00:32:41,830
+I just tell it that you are going to help me build up an instruction that we can 
+
+465
+00:32:41,830 --> 00:32:43,930
+put back into the previous conversation. 
+
+466
+00:32:43,930 --> 00:32:50,170
+So the goal of this conversation is purely to build a prompt to paste into this conversation. 
+
+467
+00:32:50,170 --> 00:32:55,330
+But before we get started, I ask it to do a bitof a Q&A session with me to get clarity 
+
+468
+00:32:55,360 --> 00:32:57,340
+around the problems as I see it. 
+
+469
+00:32:57,340 --> 00:33:03,100
+I tell it that I'm pretty happy with Epic one. I think it's good, but I think there's 
+
+470
+00:33:03,100 --> 00:33:07,90
+stuff that's we're going to talk about in Epic two that will impact it. So I just 
+
+471
+00:33:07,90 --> 00:33:11,650
+prepare it to know that it can change Epic one even though at the moment it's pretty 
+
+472
+00:33:11,650 --> 00:33:12,10
+good. 
+
+473
+00:33:13,00 --> 00:33:18,160
+After that I went through Epic two and each of the stories and I just gave it this 
+
+474
+00:33:18,160 --> 00:33:23,590
+long diatribe. Now I was just dictating directly into the microphone. It was writing 
+
+475
+00:33:23,590 --> 00:33:28,450
+out everything as we go. And so the good thing about this is it can make it more 
+
+476
+00:33:28,450 --> 00:33:33,340
+readable for me. So the first thing it does is start to unpack the issues that I 
+
+477
+00:33:33,340 --> 00:33:34,570
+had addressed. 
+
+478
+00:33:34,840 --> 00:33:35,980
+figured out that stories 
+
+479
+00:33:35,980 --> 00:33:40,150
+2.2, 2.3 and 2.4 can't be properly 
+
+480
+00:33:40,150 --> 00:33:42,160
+verified until we've done the event loop. 
+
+481
+00:33:42,160 --> 00:33:46,690
+It also worked out that the event loop is not a single story. There's both a beginning 
+
+482
+00:33:46,690 --> 00:33:52,690
+and an incremental development of it before it finishes. It identified from my conversation 
+
+483
+00:33:52,690 --> 00:33:58,810
+that what was called story 2.4 was actually two different concepts. One was the streaming 
+
+484
+00:33:58,810 --> 00:34:03,730
+client area, the other was the same streaming client, but specifically for the agent 
+
+485
+00:34:03,730 --> 00:34:04,450
+SDK. 
+
+486
+00:34:04,450 --> 00:34:09,820
+And this also led it to understanding that 1.4 might need some modifications. 
+
+487
+00:34:09,820 --> 00:34:14,920
+Now, because I asked it to do a q and A system, it actually came up with four pretty 
+
+488
+00:34:14,960 --> 00:34:19,690
+solid questions. But one of the things I noticed while reading them was it, it kind 
+
+489
+00:34:19,690 --> 00:34:24,880
+of suggested the answers as it went. So it's a question of is it asking me questions 
+
+490
+00:34:24,880 --> 00:34:29,50
+or does it already have good recommendations and I just need to sign 'em off. 
+
+491
+00:34:29,50 --> 00:34:34,250
+So I just told it that the questions it's asking, I already thought it had the answer, 
+
+492
+00:34:34,270 --> 00:34:37,900
+could you just give me the recommendation? It just saves me a lot more time than 
+
+493
+00:34:37,900 --> 00:34:39,370
+actually engaging in the Q&A. 
+
+494
+00:34:39,550 --> 00:34:46,280
+And so it wrote these recommendations. So the minimum viable event loop after 2.1 
+
+495
+00:34:46,280 --> 00:34:51,650
+becomes this idea of create a basic event loop. And there's no tooling, no streaming, 
+
+496
+00:34:51,650 --> 00:34:54,590
+there's just the fact that it can receive messages fromthe SDK 
+
+497
+00:34:55,550 --> 00:35:00,590
+at the moment, at the end of Epic one, we're just doing HTTP requests, but it thinks 
+
+498
+00:35:00,590 --> 00:35:04,340
+that it might be useful to put in some socket functionality at that point. 
+
+499
+00:35:04,340 --> 00:35:09,710
+It now feels that the event loop that we're building is a bunch of capabilities that 
+
+500
+00:35:09,710 --> 00:35:11,690
+can be done as multiple stories, 
+
+501
+00:35:11,690 --> 00:35:18,70
+And we can move the tools that we want to do into 2.4 to 2.6. And when I look at 
+
+502
+00:35:18,70 --> 00:35:23,500
+that, I realize that even before we move on to Epic three, if I wanna build in other 
+
+503
+00:35:23,500 --> 00:35:28,70
+capabilities like Claude skills, this Epic will be the right way to go. 
+
+504
+00:35:28,90 --> 00:35:33,280
+because it's designed in such a way that each cross-cutting concern or aspect can 
+
+505
+00:35:33,280 --> 00:35:35,890
+be added one at a time later on if needed. 
+
+506
+00:35:35,900 --> 00:35:40,150
+So it's already figured out a much better plan. But remember that the initial part 
+
+507
+00:35:40,150 --> 00:35:43,570
+of this conversation was can you create the instruction for me? 
+
+508
+00:35:43,570 --> 00:35:48,310
+So I just tell it down the bottom here and I'll press enter that. This is perfect. 
+
+509
+00:35:48,340 --> 00:35:53,170
+I love the way it's thinking. What it needs to do is now create those instructions 
+
+510
+00:35:53,170 --> 00:35:58,90
+that we want to put back into the top conversation. And just so you know, that top 
+
+511
+00:35:58,90 --> 00:36:02,960
+conversation is this one that's here. We're going to take whatever's comes out of 
+
+512
+00:36:02,960 --> 00:36:06,250
+this conversation and drop it straight into here to modify it. 
+
+513
+00:36:06,250 --> 00:36:10,840
+So here's our detailed instruction set. We can just go all the way to the bottom 
+
+514
+00:36:10,900 --> 00:36:17,800
+with this. We'll make a copy of it, come up here and paste it in 203 lines of information 
+
+515
+00:36:17,980 --> 00:36:20,590
+just by asking a couple of questions. 
+
+516
+00:36:20,590 --> 00:36:25,190
+So it was already started working on things. One of the interesting things is it's 
+
+517
+00:36:25,190 --> 00:36:28,840
+also playing around with the product requirements document right here. 
+
+518
+00:36:28,840 --> 00:36:34,960
+So the changes we asked for have been implemented. We've got a change to story 1.4 
+
+519
+00:36:35,260 --> 00:36:41,560
+and we've got a whole new re reordering and breaking up of Epic two. And what the 
+
+520
+00:36:41,560 --> 00:36:46,360
+number of stories really tell us is how many development sessions are going to go 
+
+521
+00:36:46,360 --> 00:36:46,930
+on because 
+
+522
+00:36:46,940 --> 00:36:50,930
+We'll get the scrum master and the developer to work on each of the stories sequentially, 
+
+523
+00:36:51,50 --> 00:36:53,570
+starting from one and going through to number 14. 
+
+524
+00:36:53,570 --> 00:36:59,480
+So quickly looking at the PRD, we've got the new Epic list. It's the monorepo set 
+
+525
+00:36:59,480 --> 00:37:04,220
+up, the agents or the server in the backend and the front end client. And then we've 
+
+526
+00:37:04,230 --> 00:37:09,360
+got all the details coming through one story at a time. These are just simple stories. 
+
+527
+00:37:09,360 --> 00:37:12,810
+They'll be converted into full blown stories with the scrum master. 
+
+528
+00:37:12,810 --> 00:37:18,240
+and then add streaming and logging as we go. And then after that we can do the tools 
+
+529
+00:37:18,240 --> 00:37:21,570
+And then finally connect it all up to the React front end.
+
+530
+00:37:21,570 --> 00:37:27,170
+So with the very complete epic list in place, we'll come back to our conversation 
+
+531
+00:37:27,170 --> 00:37:30,900
+and just move on to the next step, which is the checklist. 
+
+532
+00:37:30,900 --> 00:37:36,230
+So what the checklist has done is just read the PRD. Now this is from a product owner 
+
+533
+00:37:36,230 --> 00:37:41,400
+or a product manager's point of view. So this is all the business cases have been 
+
+534
+00:37:41,400 --> 00:37:45,800
+covered. We haven't yet gone to the tech stack or the software architect's point 
+
+535
+00:37:45,800 --> 00:37:50,510
+of view. That's the next area. But when we look at it, it says it's 92% complete. 
+
+536
+00:37:50,750 --> 00:37:51,170
+There's, 
+
+537
+00:37:51,180 --> 00:37:53,700
+problems with it, but it's mentioned that 
+
+538
+00:37:53,700 --> 00:37:58,710
+the user research area isn't really that relevant for a demonstration like this. 
+
+539
+00:37:58,710 --> 00:38:03,990
+So I won't worry about it. And so everything else has passed except for this area 
+
+540
+00:38:03,990 --> 00:38:04,890
+in the MVP. 
+
+541
+00:38:04,890 --> 00:38:09,930
+So any blockers to moving forward? Well, there's none identified. Are there any high 
+
+542
+00:38:09,930 --> 00:38:14,520
+level issues that we should be aware of? I think this is one we might address, but 
+
+543
+00:38:14,520 --> 00:38:15,60
+we'll do it 
+
+544
+00:38:15,210 --> 00:38:19,830
+asking a recommendation rather than actually taking the time to define it, because 
+
+545
+00:38:19,980 --> 00:38:24,240
+the AI will probably do a better job than me at coming up with an answer anyway. 
+
+546
+00:38:24,240 --> 00:38:29,190
+These medium level issues don't really matter to me. Like the target user doesn't 
+
+547
+00:38:29,220 --> 00:38:32,940
+matter. And the success metrics don't matter in this particular project. 
+
+548
+00:38:32,940 --> 00:38:36,840
+Now my background has been software engineering, software architecture, and even 
+
+549
+00:38:36,840 --> 00:38:41,100
+for a time a scrum master. So these numbers that you're seeing here, the, 
+
+550
+00:38:41,100 --> 00:38:46,680
+23 days to get this application written are legitimate numbers. This is about how 
+
+551
+00:38:46,680 --> 00:38:51,750
+long it would take to do a project like this if you were doing it in an enterprise 
+
+552
+00:38:51,750 --> 00:38:55,530
+system. But at the end of the video, I'll tell you how long it's taken to do the 
+
+553
+00:38:55,530 --> 00:39:00,420
+documentation and to do the coding. So we'll see what numbers really come back. So 
+
+554
+00:39:00,420 --> 00:39:06,480
+I've just dictated a little statement about the outer scope area, like what does 
+
+555
+00:39:06,480 --> 00:39:10,620
+it suggest we put in there? And I've also said that for the logging, I don't want 
+
+556
+00:39:10,620 --> 00:39:15,810
+to use a logging framework, but I wouldn't mind simplistic patterns predefined before 
+
+557
+00:39:15,810 --> 00:39:16,680
+we get started. 
+
+558
+00:39:16,680 --> 00:39:21,630
+And this is perfect. This is just what I didn't want to actually type in myself. 
+
+559
+00:39:21,690 --> 00:39:26,700
+So we're not going to use database and persistent authentication. Authorization isn't 
+
+560
+00:39:26,700 --> 00:39:31,740
+needed. It's not for production testing. Infrastructure is not important in this 
+
+561
+00:39:31,770 --> 00:39:32,550
+process. 
+
+562
+00:39:32,550 --> 00:39:37,920
+advanced features like quality gate hooks, all this sort of stuff was all outta scope 
+
+563
+00:39:37,920 --> 00:39:38,490
+for me. 
+
+564
+00:39:38,490 --> 00:39:42,240
+it doesn't need to be a polished ui though. I hope it'll be pretty good with shad 
+
+565
+00:39:42,240 --> 00:39:44,280
+CN and Tailwind CSS 
+
+566
+00:39:44,610 --> 00:39:50,70
+logging and monitoring is also really good. It's come up with just a simple JavaScript 
+
+567
+00:39:50,70 --> 00:39:54,220
+logger platform. It's not trying to use libraries or anything like that. 
+
+568
+00:39:54,220 --> 00:39:59,620
+So I'm just asking it to update the PRD with all the changes. The only little change 
+
+569
+00:39:59,710 --> 00:40:05,80
+I mentioned is that the hot module reloading, which is a developer experience, 
+
+570
+00:40:05,350 --> 00:40:10,90
+changes like modifying a bit of code and seeing it updated directly in the client 
+
+571
+00:40:10,90 --> 00:40:13,510
+is a really nice capability to have in the application 
+
+572
+00:40:13,540 --> 00:40:16,90
+So we're all complete with our PRD. 
+
+573
+00:40:16,90 --> 00:40:20,440
+at this point it's suggesting that we hand off to the architect. We could do it in 
+
+574
+00:40:20,440 --> 00:40:25,240
+this conversation, but what we'll do is we'll just exit out a Claude and 
+
+575
+00:40:25,270 --> 00:40:31,390
+and start a new Claude session because we wanna have a clean context to get up and 
+
+576
+00:40:31,390 --> 00:40:32,770
+running with the architecture.
+
+577
+00:40:32,770 --> 00:40:37,120
+Now I just wanna point out some basic maintenance that I like to do with working 
+
+578
+00:40:37,120 --> 00:40:40,630
+with Claude. So I've just put in this little prompt here 
+
+579
+00:40:40,630 --> 00:40:46,180
+And the reason is that we've created a brief, we've created a PRD, but my initial 
+
+580
+00:40:46,180 --> 00:40:51,190
+system prompt, or the Claude prompt is pointing to the planning phase of the system. 
+
+581
+00:40:51,460 --> 00:40:56,680
+But now that BMAD method has done these great documents, I want to ensure that my 
+
+582
+00:40:56,680 --> 00:40:58,810
+Claude file knows about them. 
+
+583
+00:40:58,810 --> 00:41:04,900
+And so it's taken some old ideas, like the planning documents and the BMAD execution 
+
+584
+00:41:04,900 --> 00:41:10,30
+guide, which are, now, this one's not relevant anymore, and this one's just lower 
+
+585
+00:41:10,30 --> 00:41:14,320
+priority. So it said, we've got the brief, we've got the PRD, and then we've got 
+
+586
+00:41:14,320 --> 00:41:15,160
+the planning guide. 
+
+587
+00:41:15,160 --> 00:41:18,780
+Now a lot of changes being made, but if we go down the bottom and have a look at 
+
+588
+00:41:18,780 --> 00:41:20,230
+the summary, we can see 
+
+589
+00:41:20,230 --> 00:41:25,150
+that our system prompt has a very clear understanding of everything we've done right 
+
+590
+00:41:25,180 --> 00:41:25,480
+now. 
+
+591
+00:41:25,480 --> 00:41:30,490
+one of the other things I noticed is that it knows that the next step is going to 
+
+592
+00:41:30,490 --> 00:41:35,620
+be the architecture. So if we come down and we will clear out again and start with 
+
+593
+00:41:35,620 --> 00:41:37,270
+a new Claude context, 
+
+594
+00:41:37,270 --> 00:41:40,840
+we'll go straight into the architecture agent, let it load, 
+
+595
+00:41:40,840 --> 00:41:45,430
+and we can move into creating things. So we don't need the backend architecture and 
+
+596
+00:41:45,430 --> 00:41:49,510
+front end individually. We just need the full stack architecture. 
+
+597
+00:41:49,690 --> 00:41:52,150
+So we'll just pace that in and kick it off.
+
+598
+00:41:52,150 --> 00:41:56,680
+So the architect is going to generate our architecture at this location. 
+
+599
+00:41:56,680 --> 00:42:00,940
+in the dots folder, it's read the project brief, it's read the PRD. 
+
+600
+00:42:00,940 --> 00:42:04,540
+We have a basic introduction and it's worked out for 
+
+601
+00:42:04,540 --> 00:42:09,250
+starter templates that while it's based on a different idea, there is no starter 
+
+602
+00:42:09,250 --> 00:42:09,700
+template. 
+
+603
+00:42:09,700 --> 00:42:12,670
+So for us, it's just going to put in a change log and 
+
+604
+00:42:12,670 --> 00:42:16,90
+we can move on to the next section, which is the main architecture. 
+
+605
+00:42:16,90 --> 00:42:18,400
+So it's written out a lot of information. 
+
+606
+00:42:18,400 --> 00:42:23,440
+I've read through it all. It's pretty much just restating a lot of the stuff we've 
+
+607
+00:42:23,440 --> 00:42:27,370
+already got. We've got a technical summary, we've got the platform and infrastructure. 
+
+608
+00:42:27,700 --> 00:42:29,830
+One of the things that it notices is 
+
+609
+00:42:29,830 --> 00:42:30,850
+that for an MVP, 
+
+610
+00:42:30,850 --> 00:42:35,980
+we don't need any complexities like a platform or infrastructure service approach. 
+
+611
+00:42:36,220 --> 00:42:40,690
+We've got some sort of interesting graph that's going to show up in our markdown 
+
+612
+00:42:40,690 --> 00:42:41,230
+document 
+
+613
+00:42:41,230 --> 00:42:45,250
+and a list of the architecture patterns and the rationale. At that point, we can 
+
+614
+00:42:45,250 --> 00:42:48,640
+just move on to the next section, which is building the tech stack. 
+
+615
+00:42:48,640 --> 00:42:52,390
+So it currently has a written the mark down documents. A lot of this is a little 
+
+616
+00:42:52,390 --> 00:42:56,280
+unreadable, but we've got the full tech stack table going on 
+
+617
+00:42:56,290 --> 00:43:02,50
+and again, we've got rationale summary, including the key technology choices. We've 
+
+618
+00:43:02,50 --> 00:43:06,610
+got the trade offs of not having concepts like caching and the database we are going 
+
+619
+00:43:06,610 --> 00:43:07,210
+to use, 
+
+620
+00:43:07,210 --> 00:43:11,830
+version P pinning. So it should be recording what version it's on, like react 19. 
+
+621
+00:43:11,830 --> 00:43:16,720
+And these ideas could be important if we're using an MCP to go and get documentation 
+
+622
+00:43:16,750 --> 00:43:22,870
+around react or express. It needs to know what version to work with. Now if you are 
+
+623
+00:43:22,870 --> 00:43:27,250
+actually coming from a point of view where you don't fully understand all the terminology 
+
+624
+00:43:27,250 --> 00:43:32,530
+going on, remember there are other ways that you can deal with this documentation. 
+
+625
+00:43:32,530 --> 00:43:36,820
+So you can use chain of thought, all sorts of q and a sort of stuff. I understand 
+
+626
+00:43:36,820 --> 00:43:41,50
+generally the technology going on, so I'm just pressing one to move forward. 
+
+627
+00:43:41,50 --> 00:43:46,440
+So now it gets into the data models, and this is just a transport or usage of data 
+
+628
+00:43:46,440 --> 00:43:51,690
+in the system. So the first idea of the chat interface and the fact that it might 
+
+629
+00:43:51,690 --> 00:43:55,690
+have a ID such as the user or the AI bot. 
+
+630
+00:43:55,690 --> 00:44:00,70
+content and status. This is all great. The only thing I'm a little concerned about 
+
+631
+00:44:00,70 --> 00:44:03,150
+is does it match with the Vercel AI elements? 
+
+632
+00:44:03,730 --> 00:44:08,560
+got a section, the tool calling, so the reading of the Jason, writing of the Jason, 
+
+633
+00:44:08,590 --> 00:44:11,560
+and then just messaging between client and server. 
+
+634
+00:44:11,570 --> 00:44:17,30
+So it's only identified three different objects that we need, the chat message tool 
+
+635
+00:44:17,30 --> 00:44:20,900
+call and the socket event. So with that, I'm just gonna move forward. 
+
+636
+00:44:20,900 --> 00:44:26,840
+So we can now just move on to the API specification. The only thing I was looking 
+
+637
+00:44:26,840 --> 00:44:33,170
+at here, which I thought interesting, is that we are using this bio directional communication 
+
+638
+00:44:33,170 --> 00:44:37,420
+pattern. Now, I don't know how much I'm going to be changing specifically on the 
+
+639
+00:44:37,420 --> 00:44:39,920
+server that I need to send back to the client 
+
+640
+00:44:39,920 --> 00:44:44,440
+because I know this was based off a different application, the storyline app that 
+
+641
+00:44:44,440 --> 00:44:48,280
+I talked about, where a lot of that would happen. But I think this will work pretty 
+
+642
+00:44:48,280 --> 00:44:48,760
+cleanly. 
+
+643
+00:44:48,760 --> 00:44:53,690
+So now it's just working out all the different components where it thinks the files 
+
+644
+00:44:53,750 --> 00:44:59,690
+are going to be as it builds out the application. One of the interesting things about 
+
+645
+00:44:59,690 --> 00:45:03,680
+doing it this way is that when we go back and look at the PRD, 
+
+646
+00:45:03,670 --> 00:45:09,670
+we may find out that the order of doing things, which the PRD will list might be 
+
+647
+00:45:09,670 --> 00:45:12,850
+in conflict with some of the architecture decisions. 
+
+648
+00:45:12,850 --> 00:45:17,830
+Now in version six of the BMAD method, they deal with that with a section called 
+
+649
+00:45:17,830 --> 00:45:22,810
+solutioning. I don't think it existed in version four. So we'll deal with that ourselves 
+
+650
+00:45:22,810 --> 00:45:23,680
+when we get to it. 
+
+651
+00:45:23,680 --> 00:45:28,480
+We can also see here that there's a big component diagram being created that we can 
+
+652
+00:45:28,480 --> 00:45:29,860
+go and look at a bit later. 
+
+653
+00:45:29,860 --> 00:45:33,680
+so it's pretty good. It's come up with the idea that there's a data directory and 
+
+654
+00:45:33,680 --> 00:45:38,750
+that's where it's going to put JSON documents based on the ideas I've already told 
+
+655
+00:45:38,750 --> 00:45:39,230
+it about. 
+
+656
+00:45:39,230 --> 00:45:41,450
+It's got the concept of products, 
+
+657
+00:45:41,450 --> 00:45:46,880
+it's got the concept of blog posts, maybe it needs some configuration. So if we needed 
+
+658
+00:45:46,880 --> 00:45:51,950
+to do a homepage and it had a logo or a theme, that's where that sort of information 
+
+659
+00:45:51,950 --> 00:45:52,490
+could go. 
+
+660
+00:45:52,490 --> 00:45:57,710
+It's given a sample file structure talking about the idea that files should be in 
+
+661
+00:45:57,710 --> 00:46:03,320
+kebab case and that it's essentially just an array of JSON objects. 
+
+662
+00:46:03,320 --> 00:46:07,500
+Though we can see with that one that that's more just a general object. 
+
+663
+00:46:07,500 --> 00:46:13,560
+Now there's no schema validation. So this system could be brittle or fragile in the 
+
+664
+00:46:13,560 --> 00:46:17,370
+real world, but I think for the use cases we're doing, it'll work pretty well. 
+
+665
+00:46:17,370 --> 00:46:20,10
+And if we did want a more strict 
+
+666
+00:46:20,10 --> 00:46:24,600
+rules system, we could introduce something like Zod or some sort of schema to make 
+
+667
+00:46:24,600 --> 00:46:29,790
+sure that any data being written or read from always follows a certain format. 
+
+668
+00:46:29,790 --> 00:46:35,310
+So we'll just move on to the next area. One of the things we can see here from our 
+
+669
+00:46:35,310 --> 00:46:39,150
+trade-offs is that this is not designed for big systems. 
+
+670
+00:46:39,270 --> 00:46:43,140
+is really just a little internal tool that I want to use it for at the moment. 
+
+671
+00:46:43,140 --> 00:46:48,420
+So it's come up with a plan for our front end components. We've got the chat interface, 
+
+672
+00:46:48,420 --> 00:46:53,790
+we've got some generic UI controls. We've got the idea of the sockets. 
+
+673
+00:46:53,790 --> 00:46:58,770
+It'll just be a single page application, no router involved, 
+
+674
+00:46:58,770 --> 00:47:05,700
+and a bunch of static HTML pages. I think the big issue we might have there is keeping 
+
+675
+00:47:05,700 --> 00:47:10,830
+style consistency when we generate things and we haven't catered for that, but we'll 
+
+676
+00:47:10,830 --> 00:47:13,860
+see how it goes when we start running the application. 
+
+677
+00:47:13,860 --> 00:47:16,590
+So plenty more examples coming through. 
+
+678
+00:47:16,650 --> 00:47:21,810
+So we're nearly done with the architecture. We've just put in the system backend. 
+
+679
+00:47:21,810 --> 00:47:26,100
+We've got the agents, how they're all going to work. We've got the tools that we 
+
+680
+00:47:26,100 --> 00:47:31,890
+need to work with a couple of utilities, plenty of example code coming through, 
+
+681
+00:47:31,890 --> 00:47:34,740
+more diagrams being added to the system. 
+
+682
+00:47:34,740 --> 00:47:39,00
+so we can see here it's going to have a native NPM workspace. 
+
+683
+00:47:39,00 --> 00:47:42,750
+we're going to have three packages. So we've got the server client and the shared 
+
+684
+00:47:42,750 --> 00:47:43,710
+types going on. 
+
+685
+00:47:43,710 --> 00:47:47,10
+Now the full workflow from the command line has been listed. 
+
+686
+00:47:47,10 --> 00:47:49,480
+got node NPM, we've got the Claude Auth. 
+
+687
+00:47:49,950 --> 00:47:55,800
+This will allow us to hook up our agent SDK to our local Cluade account. 
+
+688
+00:47:55,800 --> 00:48:00,900
+It plans to have a single line to get it all up and running, just NPM Run Dev. We'll 
+
+689
+00:48:00,900 --> 00:48:05,610
+start both the server and the client. And now we're onto the remaining sections. 
+
+690
+00:48:05,610 --> 00:48:08,400
+So we've got the deployment strategy coming through. 
+
+691
+00:48:08,400 --> 00:48:13,290
+We've got a continuous integration, continuous development pipeline, but it's very 
+
+692
+00:48:13,290 --> 00:48:15,510
+empty. There's nothing really going on just yet. 
+
+693
+00:48:15,510 --> 00:48:20,820
+Conversations about environment, we've got security coming through, we've got performance 
+
+694
+00:48:20,850 --> 00:48:22,290
+metrics, we've got 
+
+695
+00:48:22,290 --> 00:48:27,600
+all the testing approaches just documented as future. They're not in place just yet, 
+
+696
+00:48:27,600 --> 00:48:31,470
+but we do have sample code of what it could look like in the future. 
+
+697
+00:48:31,470 --> 00:48:35,880
+and then we've got the error handling strategy. We've got a diagram and we've got 
+
+698
+00:48:35,880 --> 00:48:37,560
+sample codes to work with that.
+
+699
+00:48:37,560 --> 00:48:42,360
+Now we've got a two and a half thousand line document created. It's quite extensive. 
+
+700
+00:48:42,360 --> 00:48:47,610
+If we jump over to VS code and look at it, we can see it's got concepts like the 
+
+701
+00:48:47,610 --> 00:48:51,630
+high level architecture. We've got diagrams being generated. 
+
+702
+00:48:51,630 --> 00:48:55,890
+We can see that the plan is for the user to interact with the browser and for that 
+
+703
+00:48:55,890 --> 00:48:56,640
+to talk 
+
+704
+00:48:56,640 --> 00:48:58,410
+to the agent event loop. 
+
+705
+00:48:58,410 --> 00:49:03,720
+The agent event loop should then be doing any tool calling that it needs to do and 
+
+706
+00:49:03,720 --> 00:49:09,570
+returning information. Back to the Chat GPT stream. We've got the ability to write 
+
+707
+00:49:09,570 --> 00:49:10,980
+different files as we go. 
+
+708
+00:49:10,980 --> 00:49:16,20
+Whole lot of architectural patterns. We've got the defined tech stack. Very extensive 
+
+709
+00:49:16,20 --> 00:49:17,970
+data models are defined 
+
+710
+00:49:17,970 --> 00:49:20,280
+and clearly written out using TypeScript. 
+
+711
+00:49:20,280 --> 00:49:25,500
+We've got the custom tool utilities, which are integrated into the SDK right here. 
+
+712
+00:49:25,500 --> 00:49:30,930
+Then we move into components related to the front end and how it communicates with 
+
+713
+00:49:30,930 --> 00:49:31,560
+the back end 
+
+714
+00:49:31,560 --> 00:49:35,670
+because the shape of data on both the front end, the back end can be the same. We've 
+
+715
+00:49:35,670 --> 00:49:38,880
+got a shared types to transport that data 
+
+716
+00:49:38,880 --> 00:49:43,560
+and then we get a visualization of the components on both the front end and how they 
+
+717
+00:49:43,560 --> 00:49:48,420
+communicate through to the back end. And we can see a little bit of where the shared 
+
+718
+00:49:48,690 --> 00:49:49,680
+components meet. 
+
+719
+00:49:49,680 --> 00:49:54,540
+Now we've got a sequence diagram that's showing us the way data flows through the 
+
+720
+00:49:54,540 --> 00:49:59,10
+system, and this is based on the happy path, meaning what happens when nothing goes 
+
+721
+00:49:59,10 --> 00:50:05,280
+wrong. We've then got examples of the tool invocation. This is the writing of Jason. 
+
+722
+00:50:05,490 --> 00:50:09,510
+Then the error handling workflow. So this is the unhappy workflow. 
+
+723
+00:50:09,510 --> 00:50:14,790
+Now the thing with web sockets is that they can stop working. So we've got a reconnection 
+
+724
+00:50:14,790 --> 00:50:16,110
+workflow coming through 
+
+725
+00:50:16,110 --> 00:50:20,490
+and examples of if I had the product catalog working, what it would all look like, 
+
+726
+00:50:20,490 --> 00:50:25,920
+the writing of the product JSON as an example. Then it talks about database schema. 
+
+727
+00:50:25,920 --> 00:50:29,670
+Well, we don't really have one, but we do have a storage architecture. It's just 
+
+728
+00:50:29,670 --> 00:50:34,710
+going to be files and samples of what in this case, products could look like 
+
+729
+00:50:34,710 --> 00:50:39,570
+blog posts and the configuration for the system and just how the files are going 
+
+730
+00:50:39,570 --> 00:50:43,620
+to be laid out. Then it's documenting what we're not going to have. So we don't have 
+
+731
+00:50:43,620 --> 00:50:47,130
+schema validation. We don't have in-depth and performance, 
+
+732
+00:50:47,130 --> 00:50:50,670
+sorted out. We're not using caching. We'll just, 
+
+733
+00:50:50,670 --> 00:50:55,560
+the data that we store will just be version controlled in GitHub. Then we've got 
+
+734
+00:50:55,560 --> 00:50:58,590
+a full list of what the front end architecture's going to look, 
+
+735
+00:50:59,230 --> 00:51:03,940
+followed by component templates. So when it needs to write a component, it can use 
+
+736
+00:51:03,940 --> 00:51:08,320
+the component template. To start there, we've got the state management architecture 
+
+737
+00:51:08,380 --> 00:51:14,170
+up on the client. So this is the examples of how the client can talk to the backend. 
+
+738
+00:51:14,170 --> 00:51:18,730
+And this has all been listed through here. We've got the routing organization. Now 
+
+739
+00:51:18,760 --> 00:51:23,140
+remember, we don't have a router. This is just a single page application, but we 
+
+740
+00:51:23,140 --> 00:51:26,320
+do have concepts like dealing with static HTML, 
+
+741
+00:51:26,320 --> 00:51:26,440
+and 
+
+742
+00:51:26,440 --> 00:51:30,940
+Then we move on to the backend architecture. We've got the files that are planned 
+
+743
+00:51:30,940 --> 00:51:35,560
+to be created. We've got an example template for what a controller could look like 
+
+744
+00:51:35,560 --> 00:51:38,740
+storing of data. We'll use the repository pattern, 
+
+745
+00:51:38,740 --> 00:51:43,870
+but it'll be file-based persistent. And then we've got authentication and authorization 
+
+746
+00:51:43,870 --> 00:51:49,630
+flows, which is really just the CLUADE authentication for the SDK 
+
+747
+00:51:49,630 --> 00:51:50,320
+kicking in 
+
+748
+00:51:50,320 --> 00:51:56,290
+simple little middleware guard. But generally we don't have any authentication going 
+
+749
+00:51:56,290 --> 00:52:00,280
+on. And then we've got the full unified project coming through right here. 
+
+750
+00:52:00,280 --> 00:52:06,250
+So with all this information done, the next thing to do is just to confirm that our 
+
+751
+00:52:06,250 --> 00:52:11,980
+PRD that we've created is actually going to match with the architecture that we've 
+
+752
+00:52:11,980 --> 00:52:18,880
+got now in version six of BMAD method. They have a section called solutioning, which 
+
+753
+00:52:18,880 --> 00:52:21,280
+takes care of that, but we'll do it manually today.
+
+754
+00:52:21,280 --> 00:52:26,620
+Now I'm just going to go into the PM and we're just going to ensure that we've still 
+
+755
+00:52:26,620 --> 00:52:32,260
+got alignment between the PRD and the architecture because the PRD was created before 
+
+756
+00:52:32,260 --> 00:52:39,520
+the architecture. So I've just told John the PM to check that the architecture document 
+
+757
+00:52:39,520 --> 00:52:45,220
+and the PRD are in alignment. Main thing I want to ensure is that the PRD is still 
+
+758
+00:52:45,220 --> 00:52:50,470
+in the right order based on the architecture. I also wanna see if any of the stories 
+
+759
+00:52:50,470 --> 00:52:55,90
+or the epics or anything needs to change based on what we did with the architecture. 
+
+760
+00:52:55,90 --> 00:52:59,410
+if you are using version six of the BMAD method, this is called solutioning. It's 
+
+761
+00:52:59,410 --> 00:53:01,420
+just something I tend to do manually 
+
+762
+00:53:01,420 --> 00:53:03,760
+because I found it effective in the past.
+
+763
+00:53:03,760 --> 00:53:09,130
+So it's finished the alignment with the architecture document. It's listed a bunch 
+
+764
+00:53:09,130 --> 00:53:14,350
+of areas I've read through them all and they're very minor. So I think the main thing 
+
+765
+00:53:14,380 --> 00:53:15,310
+that we can do 
+
+766
+00:53:15,310 --> 00:53:21,250
+is just apply number one, which is the recommendations to the PRD can be applied 
+
+767
+00:53:21,250 --> 00:53:21,790
+right now. 
+
+768
+00:53:21,790 --> 00:53:28,450
+So those minor alignment issues are now being fixed between the PRD and the architecture. 
+
+769
+00:53:28,780 --> 00:53:32,560
+What we're going to do now is change over to the po, 
+
+770
+00:53:32,560 --> 00:53:37,600
+the product owner. And this is because we wanna shard the documents. Now, if I just 
+
+771
+00:53:37,630 --> 00:53:43,720
+jump down to this view here, sharding is the idea of splitting up a big document 
+
+772
+00:53:43,780 --> 00:53:48,670
+into little documents. And a few of the agents can do sharding, but the one that's 
+
+773
+00:53:48,670 --> 00:53:54,700
+designed to do for both architecture and PRDs is the po. And that's why we've jumped 
+
+774
+00:53:54,700 --> 00:53:55,360
+over to there. 
+
+775
+00:53:55,360 --> 00:53:59,650
+And we can see the command here, it's called shard-doc, followed by the document 
+
+776
+00:53:59,650 --> 00:54:04,150
+we wanna work with and the destination that we wanna put it in. So we'll start by 
+
+777
+00:54:04,150 --> 00:54:10,960
+typing in shard-doc and I'll put in the at sign and type in the PRD. And after that 
+
+778
+00:54:10,960 --> 00:54:15,580
+we'll put it into a file that doesn't currently exist, which is why I haven't used 
+
+779
+00:54:15,580 --> 00:54:18,100
+the at sign. It's docs, PRD. 
+
+780
+00:54:18,100 --> 00:54:21,760
+Now, while that's doing that, we'll head over to VS code to see what's going on. 
+
+781
+00:54:21,760 --> 00:54:27,100
+So it's this big document that we've got going on here and we're moving it into this 
+
+782
+00:54:27,100 --> 00:54:30,670
+folder and you can see everything being split up 
+
+783
+00:54:30,670 --> 00:54:35,170
+and there should be a little index that points to where all the different parts of 
+
+784
+00:54:35,170 --> 00:54:40,600
+that file exist. So with that done, we go back and we run the shard-dock again. This 
+
+785
+00:54:40,600 --> 00:54:43,330
+time we're going to click on architecture, 
+
+786
+00:54:43,330 --> 00:54:48,340
+and if we head over, we should get an architecture folder being generated. And we've 
+
+787
+00:54:48,340 --> 00:54:52,30
+got all the indexes pointing to each individual file as well.
+
+788
+00:54:52,30 --> 00:54:56,30
+Now we're about to get into development, but we should have a look at what our docs 
+
+789
+00:54:56,70 --> 00:55:01,590
+look like. So we have the brief that was generated. We've split the PRD out into 
+
+790
+00:55:01,590 --> 00:55:06,150
+individual files. We've done the same thing for the architecture, but I haven't gotten 
+
+791
+00:55:06,150 --> 00:55:10,750
+rid of those files. So I've moved them into an archive directory, and I've left the 
+
+792
+00:55:10,750 --> 00:55:15,950
+planning document because that's got a lot of detailed files that we can lean on 
+
+793
+00:55:15,950 --> 00:55:19,230
+if we need to at the time of generating the stories.
+
+794
+00:55:19,920 --> 00:55:25,320
+So now we are ready to start developing our application. So to get started, we need 
+
+795
+00:55:25,320 --> 00:55:30,960
+the scrub master and the scrub master will read through the Epic and create the first 
+
+796
+00:55:30,960 --> 00:55:36,300
+story for us. And that can be done by using this command here called Draft. So what 
+
+797
+00:55:36,300 --> 00:55:37,860
+we'll do is we'll type in draft 
+
+798
+00:55:37,860 --> 00:55:41,970
+and we could say something like Draft first story in this case. 
+
+799
+00:55:41,970 --> 00:55:47,970
+So I've got draft first story from first Epic, and if we go over and have a look 
+
+800
+00:55:47,970 --> 00:55:49,140
+at the Epics list, 
+
+801
+00:55:49,200 --> 00:55:54,30
+The first one is the mono repo set up with the basic server and client. 
+
+802
+00:55:54,30 --> 00:55:59,730
+So we can see it starting to gather architecture context. Here. We've got all the 
+
+803
+00:55:59,730 --> 00:56:01,830
+different documents that we've created 
+
+804
+00:56:01,830 --> 00:56:04,890
+in the architecture folder being read as needed. 
+
+805
+00:56:04,890 --> 00:56:09,60
+It's the ensuring for the first time that we've made the stories directory. Now I've 
+
+806
+00:56:09,60 --> 00:56:10,320
+already done that manually. 
+
+807
+00:56:10,320 --> 00:56:15,870
+Now keep in mind that from the epic point of view, it's only got this basic information 
+
+808
+00:56:15,870 --> 00:56:21,450
+to start with. So it's drawing from that, followed by all the architecture documents. 
+
+809
+00:56:21,450 --> 00:56:24,780
+and we now have our first story in draft mode. 
+
+810
+00:56:24,780 --> 00:56:29,640
+And we can see that it's grabbed from the Epic, the story card and the acceptance 
+
+811
+00:56:29,640 --> 00:56:34,680
+criteria. And from that, it's just developed a bunch of tasks and sub-task to work 
+
+812
+00:56:34,680 --> 00:56:34,860
+with. 
+
+813
+00:56:34,860 --> 00:56:40,200
+It's aware that there's no story to start off with. This is the first one. It accesses 
+
+814
+00:56:40,230 --> 00:56:44,760
+the tech stack. We've got the project structure that it's meant to be creating. We 
+
+815
+00:56:44,760 --> 00:56:47,10
+understand the work space that we're in, 
+
+816
+00:56:47,10 --> 00:56:51,990
+and it's gone and prepared some shared types. So it's grabbing a lot of this information 
+
+817
+00:56:51,990 --> 00:56:53,700
+from the architecture document, 
+
+818
+00:56:53,700 --> 00:56:58,320
+setting up the naming conventions and the coding standards. And it also understands 
+
+819
+00:56:58,320 --> 00:57:03,540
+how to set up the types script configuration. It's filled in an area for testing, 
+
+820
+00:57:03,540 --> 00:57:08,250
+which at the moment we don't have any testing. And so at this point, we could start 
+
+821
+00:57:08,340 --> 00:57:12,840
+doing development. Now the normal flow in an application would be to read through 
+
+822
+00:57:12,840 --> 00:57:18,720
+this and check everything is okay. For now, I'm just going to change this from draft 
+
+823
+00:57:18,720 --> 00:57:23,160
+to ready and hit save. And then we can go back to Claude 
+
+824
+00:57:23,160 --> 00:57:27,360
+where we can start doing our development. Now it needed to be in that ready mode, 
+
+825
+00:57:27,360 --> 00:57:31,530
+so we've done that. So we'll just switch over to the development agent 
+
+826
+00:57:31,530 --> 00:57:36,810
+and we can just type develop story. Now I'm going to put in the 1.1 because it'll 
+
+827
+00:57:36,810 --> 00:57:41,730
+make it easier for it to find the correct document without having to look through 
+
+828
+00:57:41,730 --> 00:57:42,750
+documents. 
+
+829
+00:57:42,750 --> 00:57:47,170
+And now it has a plan of of what it's going to work through. So it's going to set 
+
+830
+00:57:47,170 --> 00:57:53,50
+up our package, Jason, create the workspace directory structure for us, move on to 
+
+831
+00:57:53,50 --> 00:57:57,970
+configuring type script, create the workspace package.json, and 
+
+832
+00:57:57,970 --> 00:58:03,940
+create the shared types. We'll do the .gitignore. And then finally it'll verify that 
+
+833
+00:58:03,940 --> 00:58:06,370
+the mono repo has been set up correctly. 
+
+834
+00:58:06,370 --> 00:58:11,890
+So it's finished developing all the code, it makes a statement that everything is 
+
+835
+00:58:11,950 --> 00:58:16,450
+in place. It's a little bit hard to test because we don't actually have any source 
+
+836
+00:58:16,450 --> 00:58:18,280
+code just yet. But when 
+
+837
+00:58:18,280 --> 00:58:23,590
+the story has been updated with a lot of check boxes of the work that's been done. 
+
+838
+00:58:23,590 --> 00:58:25,810
+When I personally run the 
+
+839
+00:58:25,810 --> 00:58:30,610
+build, I got a couple of errors, but they're actually listed here. So that's okay. 
+
+840
+00:58:30,970 --> 00:58:35,680
+All the files have actually been created. So at that point we can close off this 
+
+841
+00:58:35,680 --> 00:58:36,100
+story.
+
+842
+00:58:36,880 --> 00:58:41,350
+Now you might notice at the end of the story there's an area for the QA agent. So 
+
+843
+00:58:41,350 --> 00:58:44,530
+what we can do is go back over type in 
+
+844
+00:58:44,530 --> 00:58:47,890
+/qa for the quality assurance agent. 
+
+845
+00:58:47,890 --> 00:58:51,940
+Now, this is not an agent I would normally use in my own projects. What I have a 
+
+846
+00:58:51,940 --> 00:58:58,00
+custom agents more for story acceptance testing and that's about generating a document 
+
+847
+00:58:58,00 --> 00:59:03,70
+for the human to work through and test different things that would be visual in nature. 
+
+848
+00:59:03,70 --> 00:59:08,710
+But for this video, we would use the QA agent and we'll just do a review on 1.1. 
+
+849
+00:59:08,710 --> 00:59:13,810
+I mentioned that I'd normally do a story acceptance test plan. Now that doesn't preclude 
+
+850
+00:59:13,810 --> 00:59:18,340
+doing normal tests as well. So usually when you are developing an application, you 
+
+851
+00:59:18,340 --> 00:59:19,630
+wanna have unit tests. 
+
+852
+00:59:19,630 --> 00:59:24,340
+you might want to have end-to-end tests, but definitely you need some sort of a test 
+
+853
+00:59:24,340 --> 00:59:29,80
+plan at the end of the story that says these are the things that you have to go and 
+
+854
+00:59:29,80 --> 00:59:29,470
+look at. 
+
+855
+00:59:29,470 --> 00:59:33,910
+And in a more complex application. I like it to actually walk me through and say, 
+
+856
+00:59:33,940 --> 00:59:38,440
+first click on this menu, fill in this piece of information. And all of this information 
+
+857
+00:59:38,440 --> 00:59:40,360
+can be derived from a story. 
+
+858
+00:59:40,360 --> 00:59:44,920
+And if it was something I was doing with this project, the way it would look is that 
+
+859
+00:59:45,400 --> 00:59:50,740
+it would create a new file right next to the story. So we've got 1.1 dot story, but 
+
+860
+00:59:50,740 --> 00:59:52,360
+I would have a 1.1.story-SAT. 
+
+861
+00:59:54,700 --> 00:59:59,200
+And in that would be all the guidance and instructions for me to go and visually 
+
+862
+00:59:59,200 --> 01:00:00,940
+check that everything's working. 
+
+863
+01:00:00,940 --> 01:00:06,310
+Now, currently we can see that the QA agent has come in and started to update the 
+
+864
+01:00:06,310 --> 01:00:06,820
+document. 
+
+865
+01:00:06,820 --> 01:00:12,880
+So we now have our overall quality assessment in place. Everything seems to be okay 
+
+866
+01:00:12,880 --> 01:00:17,740
+and one of the interesting statements is this one right here. So it's just talking 
+
+867
+01:00:17,740 --> 01:00:22,990
+about future considerations that'll be important with new stories. Now if we go back 
+
+868
+01:00:22,990 --> 01:00:29,50
+to our VS code, we can see that the story has been updated with all this extra quality 
+
+869
+01:00:29,50 --> 01:00:30,10
+assurance checks.
+
+870
+01:00:30,10 --> 01:00:33,370
+So with our first story down, we'll do a commit 
+
+871
+01:00:33,370 --> 01:00:38,680
+and we can see that there's all the new configuration and set up for the mono repo. 
+
+872
+01:00:38,920 --> 01:00:45,130
+Plus there's all the architecture PRD and the initial story has been added as well. 
+
+873
+01:00:45,130 --> 01:00:50,380
+We'll set up a new Claude code and the first thing we need to do is make sure we're 
+
+874
+01:00:50,380 --> 01:00:51,640
+on the scrum master 
+
+875
+01:00:51,640 --> 01:00:57,550
+and we'll type in draft story 1.2 and let it go and build that new document for us. 
+
+876
+01:00:57,550 --> 01:01:02,500
+now light before it goes through a template loads in information from the Epic that 
+
+877
+01:01:02,500 --> 01:01:07,570
+we're on story 1.2 loads in all the technical architecture documents 
+
+878
+01:01:07,570 --> 01:01:12,460
+also reads from the previous story so it knows what's already been done. 
+
+879
+01:01:12,460 --> 01:01:15,610
+So story 1.2 has been drafted, 
+
+880
+01:01:15,670 --> 01:01:21,40
+I just had a quick look through the document. So I've set the status to ready, but 
+
+881
+01:01:21,40 --> 01:01:25,480
+we've got our acceptance criteria, we've got all of our subtask in place, 
+
+882
+01:01:25,480 --> 01:01:31,90
+so now it's time to develop. We just go back, I've already set up the development 
+
+883
+01:01:31,90 --> 01:01:36,10
+agent and we'll just type in develop story 1.2 and let it run. 
+
+884
+01:01:36,10 --> 01:01:40,600
+now while that's running, I'll just talk about the idea of working with multiple 
+
+885
+01:01:40,600 --> 01:01:45,910
+projects at once. One of the things I love about BMAD is that if you are generating 
+
+886
+01:01:45,940 --> 01:01:51,70
+two different applications, you've got a fair bit of time while the development is 
+
+887
+01:01:51,70 --> 01:01:56,410
+going on. So you saw what I did, I set up the story, then I switched over to the 
+
+888
+01:01:56,410 --> 01:01:58,540
+developer agent and I kicked it off. 
+
+889
+01:01:58,780 --> 01:02:03,400
+At that point I'll go to another terminal where I've already got BMAD running on 
+
+890
+01:02:03,400 --> 01:02:08,110
+a different project and goes through the same process. Now, personally, I can't do 
+
+891
+01:02:08,110 --> 01:02:12,490
+three projects at a time because usually the first project has finished 
+
+892
+01:02:12,520 --> 01:02:16,870
+and I've gotta go back and manually review it. But the good thing is that you can 
+
+893
+01:02:16,870 --> 01:02:20,200
+be working on two different applications at the same time. 
+
+894
+01:02:20,200 --> 01:02:25,120
+So we'll just come back and have a look at what it's doing and we can see that as 
+
+895
+01:02:25,120 --> 01:02:30,430
+it goes, it's signing off on tasks that it's done and it just keeps working through 
+
+896
+01:02:30,430 --> 01:02:30,580
+them. 
+
+897
+01:02:30,580 --> 01:02:31,780
+So it's finished. 
+
+898
+01:02:31,780 --> 01:02:35,680
+the development, the definition of done has been filled in. 
+
+899
+01:02:35,680 --> 01:02:40,210
+We got some new files. What we'll do is we'll jump over to the quality assurance 
+
+900
+01:02:40,300 --> 01:02:45,400
+agent. So again, we are going through a number of code quality metrics 
+
+901
+01:02:45,470 --> 01:02:51,200
+and we can see a list of the changes that wherever it says this story. And we can 
+
+902
+01:02:51,200 --> 01:02:53,30
+go and have a look at the code over here. 
+
+903
+01:02:53,30 --> 01:02:57,560
+Now, if you're a developer, this is an area that you probably spend a lot of time 
+
+904
+01:02:57,620 --> 01:03:01,790
+looking. I work more as a software architect and so 
+
+905
+01:03:01,790 --> 01:03:06,500
+while it would be smart for me to check all the code, I usually don't check the code. 
+
+906
+01:03:06,500 --> 01:03:11,420
+And that's an interesting thing about this. I've built complete enterprise applications 
+
+907
+01:03:11,600 --> 01:03:17,240
+and I spend more time working on the documentation to check the code quality. Then 
+
+908
+01:03:17,240 --> 01:03:19,730
+I do in actually looking at the code. 
+
+909
+01:03:19,730 --> 01:03:24,620
+Now, the agents I use for that, I'll talk about in future videos. At the moment, 
+
+910
+01:03:24,620 --> 01:03:26,810
+we're just trying to build a simple application. 
+
+911
+01:03:26,810 --> 01:03:29,660
+So all the completion notes have been filled in. 
+
+912
+01:03:29,660 --> 01:03:35,60
+we know the files that have been changed and now the QA has come in. So if we go 
+
+913
+01:03:35,60 --> 01:03:41,780
+and open up QA and look at the Quality Gate number 1.2, we can see a YA L file. On 
+
+914
+01:03:41,780 --> 01:03:46,850
+the changes though, it's a lot easier to see it back in the Claude context window.
+
+915
+01:03:46,850 --> 01:03:53,30
+Now at this point we could be moving on to 1.3, but I suspect there might be something 
+
+916
+01:03:53,30 --> 01:03:58,490
+in this code that we could test that we can see if it's working. But the problem 
+
+917
+01:03:58,490 --> 01:04:00,350
+is that we don't have a list 
+
+918
+01:04:00,350 --> 01:04:05,690
+that we can check. So I've gone and set myself up a new window. This is a conversation 
+
+919
+01:04:05,870 --> 01:04:07,490
+I have with a second brain. 
+
+920
+01:04:07,490 --> 01:04:11,600
+and the second brain has knowledge about things like BMAD version four and version 
+
+921
+01:04:11,600 --> 01:04:12,50
+six. 
+
+922
+01:04:12,50 --> 01:04:18,410
+And I've had it just construct for me instructions for creating a story acceptance 
+
+923
+01:04:18,410 --> 01:04:19,370
+testing agent. 
+
+924
+01:04:19,370 --> 01:04:23,570
+Now, I'll just point out behind the scenes what's really going on is that if we do 
+
+925
+01:04:23,570 --> 01:04:29,390
+a tree, you can see all the different documents that I've got available on Claude. 
+
+926
+01:04:29,390 --> 01:04:34,130
+So we've got the SDK here, we've got Claude code, we've got skills. And you can also 
+
+927
+01:04:34,130 --> 01:04:39,260
+see stuff on BMAD method. We've got mostly V four, but we've also got information 
+
+928
+01:04:39,260 --> 01:04:40,610
+on V six as well. 
+
+929
+01:04:40,610 --> 01:04:44,540
+and it's through having access to that information plus the project we're working 
+
+930
+01:04:44,540 --> 01:04:49,520
+on that we've been able to build these instructions. So what I'm going to do is just 
+
+931
+01:04:49,790 --> 01:04:52,610
+take all the information down to the bottom 
+
+932
+01:04:52,610 --> 01:04:59,810
+and we'll just go into our current conversation and say, can you create a new agent 
+
+933
+01:04:59,810 --> 01:05:03,860
+for me within the BMAD system? I'm going to paste the information in 
+
+934
+01:05:03,860 --> 01:05:08,780
+so that's coming through, and we'll paste all that information and let it go. Now 
+
+935
+01:05:08,930 --> 01:05:12,80
+if this was version six of BMAD, 
+
+936
+01:05:12,80 --> 01:05:18,470
+you would have access to a system called BMB, which is the BMAD module builder. And 
+
+937
+01:05:18,470 --> 01:05:23,150
+if we go back to our second brain, you can see where I've got that information. There 
+
+938
+01:05:23,150 --> 01:05:28,760
+is this BMB folder that allows you to create agents for different workflow modules. 
+
+939
+01:05:28,760 --> 01:05:34,130
+But because we're in V four, we don't have access to that module. And so I've just 
+
+940
+01:05:34,130 --> 01:05:35,390
+let it come through. 
+
+941
+01:05:35,390 --> 01:05:39,530
+So what I'm going to do is select the command we've got, I've copied it into the 
+
+942
+01:05:39,530 --> 01:05:46,790
+clipboard, and it says that if we run it, we should see some blue timestamp ISO 8 6 0 1 
+
+943
+01:05:46,790 --> 01:05:52,880
+format. So what we'll do is we'll jump over to a terminal, we'll paste it in and 
+
+944
+01:05:52,880 --> 01:05:59,330
+see what happens when we run it. And yet certainly does, we've got some line console 
+
+945
+01:05:59,390 --> 01:06:00,80
+items here. 
+
+946
+01:06:00,80 --> 01:06:04,460
+So the good thing is we can see what the application is meant to do based on what 
+
+947
+01:06:04,460 --> 01:06:08,780
+the story says it should do. Now this is a little bit different to a user acceptance 
+
+948
+01:06:08,780 --> 01:06:13,700
+to test because this will change from story to story. Something that would've been 
+
+949
+01:06:13,700 --> 01:06:20,900
+a UAT in say 1.1 might now be defunct and not useful in 1.3. So it's not quite the 
+
+950
+01:06:20,900 --> 01:06:26,480
+same as A UAT, which is generally for the life of the application. This is only for 
+
+951
+01:06:26,480 --> 01:06:27,530
+the life of the story. 
+
+952
+01:06:27,530 --> 01:06:32,930
+So now we'll come down to AC four. This is about checking the health of the server. 
+
+953
+01:06:33,230 --> 01:06:39,510
+Apparently if we hit the a i Health endpoint, we should get a status. Okay, so I'm 
+
+954
+01:06:39,510 --> 01:06:43,20
+just coming up to a terminal and we'll run it. And yes, 
+
+955
+01:06:43,20 --> 01:06:44,910
+it's saying status. Okay, 
+
+956
+01:06:44,910 --> 01:06:49,620
+so that's just a quick demonstration on how you can create your own agents. So at 
+
+957
+01:06:49,680 --> 01:06:53,910
+any time it's easy to just say, model it after something, give it a little bit of 
+
+958
+01:06:53,910 --> 01:06:59,400
+instructions on what to do. One of the things I find with that particular agent that 
+
+959
+01:06:59,400 --> 01:07:05,310
+I did is that some of those commands like was the terminal blue is not something 
+
+960
+01:07:05,340 --> 01:07:10,140
+I need to visually check, but I could get the AI to do it. So I tend to split it 
+
+961
+01:07:10,140 --> 01:07:14,940
+up into two groups. Those that I have to go and check out myself, like entering in 
+
+962
+01:07:14,940 --> 01:07:17,10
+a form, did I see an error message 
+
+963
+01:07:17,220 --> 01:07:21,480
+versus the ones that could just be tested by Claude Code itself. 
+
+964
+01:07:21,510 --> 01:07:25,890
+But hang on, you might be saying, what about playwright or end-to-end tests? Could 
+
+965
+01:07:25,890 --> 01:07:30,750
+you set them up? And the answer is yes, you can. You probably should. But I find 
+
+966
+01:07:30,750 --> 01:07:35,550
+that they're quite hard to get going. They're very fragile. So they're always breaking 
+
+967
+01:07:35,640 --> 01:07:41,190
+and you spend more time wasted around in debugging them. Where then all you really 
+
+968
+01:07:41,190 --> 01:07:45,660
+want in this particular case is do the forms work the way the story said they were 
+
+969
+01:07:45,660 --> 01:07:50,640
+going to be implemented? And I need to test it visually anyway. I can't purely rely 
+
+970
+01:07:50,640 --> 01:07:55,440
+on E two E testing. And this is where the SAT agent is really good. 
+
+971
+01:07:55,440 --> 01:08:00,480
+So at that point, I've just come back to Claude code and what we are going to do 
+
+972
+01:08:00,480 --> 01:08:02,880
+is just do a commit and push this up. 
+
+973
+01:08:02,880 --> 01:08:08,100
+So what I've done is started a new claude code. We've gone over to the scrum master, 
+
+974
+01:08:08,100 --> 01:08:10,680
+we started drafting story 1.3. 
+
+975
+01:08:10,680 --> 01:08:13,380
+So it's finished creating the story. 
+
+976
+01:08:13,380 --> 01:08:18,720
+let's head over to Visual Studio. I've already set it to ready. I think after it 
+
+977
+01:08:18,720 --> 01:08:22,530
+gets through the task. The main thing that we're going to want to look at is the 
+
+978
+01:08:22,530 --> 01:08:27,450
+fact that there's now a HTML page. So we should be able to see something. Apparently 
+
+979
+01:08:27,450 --> 01:08:31,650
+there's going to be a little bit of JavaScript going on, so let's go back and start 
+
+980
+01:08:31,650 --> 01:08:32,160
+developing. 
+
+981
+01:08:32,160 --> 01:08:33,900
+So I'm just letting it, 
+
+982
+01:08:33,900 --> 01:08:39,30
+load up the developer and once that's done, we can just develop story 1.3. 
+
+983
+01:08:39,30 --> 01:08:43,920
+So now the development is finished. It looks like we're going to have an index file 
+
+984
+01:08:43,950 --> 01:08:49,890
+that we can go and look at. We will do the SAT soon, but let's just go over to the 
+
+985
+01:08:50,200 --> 01:08:51,360
+QA bot for a moment 
+
+986
+01:08:51,360 --> 01:08:54,420
+and we'll run our review on 1.3. 
+
+987
+01:08:54,420 --> 01:08:59,130
+While that's running, we'll just do a quick check of the document. It says all the 
+
+988
+01:08:59,130 --> 01:09:03,780
+tasks done, there should be a public directory. We've got the HTML index. We've got 
+
+989
+01:09:03,780 --> 01:09:06,60
+script tags coming through. 
+
+990
+01:09:06,60 --> 01:09:10,110
+In a moment we should see an update to the QA results. 
+
+991
+01:09:10,110 --> 01:09:15,930
+So the QA results are in. We've got a new gate file. We can see the story. We will 
+
+992
+01:09:15,930 --> 01:09:17,820
+check an SAT soon. 
+
+993
+01:09:17,820 --> 01:09:19,860
+There's updates to the packages. 
+
+994
+01:09:19,860 --> 01:09:24,540
+the client application now has an index HTML page going on. 
+
+995
+01:09:24,540 --> 01:09:31,80
+so let's go and test our story acceptance spot. We should be able to type in SAT 
+
+996
+01:09:31,170 --> 01:09:33,180
+and we've got sat. 
+
+997
+01:09:33,180 --> 01:09:39,780
+So currently Taylor is loading into memory. We've got a create SAT command available. 
+
+998
+01:09:39,780 --> 01:09:42,780
+We've also got an update, SAT command. 
+
+999
+01:09:42,780 --> 01:09:48,150
+Now we'll kick off the create and this command, this one here that we haven't used 
+
+1000
+01:09:48,150 --> 01:09:53,40
+yet is just in case. I don't like the instructions that the current bot has. We've 
+
+1001
+01:09:53,40 --> 01:09:55,80
+got the ability to update the bot. 
+
+1002
+01:09:55,80 --> 01:10:01,170
+So this is reading our SAT is reading the story. That's going to be the source of 
+
+1003
+01:10:01,170 --> 01:10:05,850
+truth. It's also looking at some of the code that's been created, like the client 
+
+1004
+01:10:05,880 --> 01:10:07,230
+index, HTML. 
+
+1005
+01:10:07,230 --> 01:10:13,80
+And at the end of this, we should have a new file just sitting next to 1.3 story. 
+
+1006
+01:10:13,80 --> 01:10:18,700
+So it's just created it. Let's pop it open. So the story itself was about creating 
+
+1007
+01:10:18,700 --> 01:10:22,840
+a basic HTML page. And the human test that we can do 
+
+1008
+01:10:22,840 --> 01:10:24,670
+requires us to run the server, 
+
+1009
+01:10:24,670 --> 01:10:26,680
+which I've just done. And then it wants 
+
+1010
+01:10:26,680 --> 01:10:27,10
+to go 
+
+1011
+01:10:27,10 --> 01:10:28,300
+to the chat window and 
+
+1012
+01:10:28,300 --> 01:10:32,800
+We should see a blue header called Client Server Communication test. Let's just bring 
+
+1013
+01:10:32,800 --> 01:10:33,160
+it up. 
+
+1014
+01:10:33,160 --> 01:10:39,700
+that looks like it. And it's also got a text input box saying, enter a message optional. 
+
+1015
+01:10:39,700 --> 01:10:40,00
+Yep, 
+
+1016
+01:10:40,00 --> 01:10:40,810
+That's in place. 
+
+1017
+01:10:40,810 --> 01:10:43,570
+and a blue button labeled test health endpoint. 
+
+1018
+01:10:45,310 --> 01:10:50,620
+I was also saying gray response area with test response will go here. I wonder if 
+
+1019
+01:10:50,620 --> 01:10:51,220
+it works. 
+
+1020
+01:10:51,220 --> 01:10:55,750
+Now we'll come back to having a look at our form. We've got some things around styling. 
+
+1021
+01:10:55,750 --> 01:11:01,300
+I'm not that concerned about that. What's this form? Submission without a page reload 
+
+1022
+01:11:01,300 --> 01:11:07,300
+should just say server response status is okay. And apparently there's no page reload. 
+
+1023
+01:11:07,300 --> 01:11:11,980
+So we will bring up our website and we'll click on test endpoint. 
+
+1024
+01:11:11,980 --> 01:11:16,990
+And there wasn't a refresh, but we did see the server response update. 
+
+1025
+01:11:16,990 --> 01:11:21,340
+Apparently there's a bonus visual test. We can stop the server, 
+
+1026
+01:11:21,340 --> 01:11:27,10
+which I've just done. And if we click on test health endpoint, we get failed to fetch, 
+
+1027
+01:11:27,190 --> 01:11:28,630
+make sure the server is running. 
+
+1028
+01:11:28,630 --> 01:11:34,390
+So that's really cool. I wasn't planning to create the SAT agent as part of this 
+
+1029
+01:11:34,390 --> 01:11:39,100
+video, but this is the idea of it is that you don't have to think about what the 
+
+1030
+01:11:39,100 --> 01:11:44,380
+code did. It tells you what has happened and tells you how to reproduce it, 
+
+1031
+01:11:44,380 --> 01:11:49,360
+which just saves you a heap of time when you are using the BMAD method to develop 
+
+1032
+01:11:49,360 --> 01:11:50,170
+an application. 
+
+1033
+01:11:50,170 --> 01:11:55,360
+We'll come back to our terminal where I was running that server and we'll just clean 
+
+1034
+01:11:55,360 --> 01:11:58,600
+up after ourselves. So we'll do a bit of a commit right now 
+
+1035
+01:11:58,600 --> 01:12:02,200
+and we've got a great commit message. Everything's listed. 
+
+1036
+01:12:02,200 --> 01:12:08,360
+So for story 1.4, I've just run everything at once. I haven't done any testing yet. 
+
+1037
+01:12:08,360 --> 01:12:12,120
+We started off with Bob, the Scrum Master. He created the story.
+
+1038
+01:12:12,120 --> 01:12:17,560
+I went a little bit premature into Taylor for the story acceptance test, because 
+
+1039
+01:12:17,560 --> 01:12:22,320
+that can be derived from the story, but it should also be done after the development. 
+
+1040
+01:12:22,320 --> 01:12:29,240
+So I needed to do a bit of an update later. I also ran James to develop all the code, 
+
+1041
+01:12:29,240 --> 01:12:32,320
+and then did Quinn to do the quality assurance.
+
+1042
+01:12:32,320 --> 01:12:38,800
+So the new documentation files are that we have a story, we have an SAT and we have 
+
+1043
+01:12:39,00 --> 01:12:44,520
+a Q&A document. And from a code point of view, we've got new files plus a little 
+
+1044
+01:12:44,560 --> 01:12:46,320
+bit of an update to the Readme.
+
+1045
+01:12:46,320 --> 01:12:52,320
+So we can see the endpoints that we want to test, but if we go and look at the SAT 
+
+1046
+01:12:52,320 --> 01:12:54,60
+plan, we've got 
+
+1047
+01:12:54,60 --> 01:12:59,610
+a little bit of console logging that we should see in chat, and we should see some 
+
+1048
+01:12:59,670 --> 01:13:05,460
+server responses. If we type anything into the chat window, apparently it can also 
+
+1049
+01:13:05,460 --> 01:13:08,550
+handle a disconnection. So let's go test them out. 
+
+1050
+01:13:08,550 --> 01:13:15,240
+So here's our web application will hit refresh, and it's saying that we're currently 
+
+1051
+01:13:15,240 --> 01:13:15,960
+connected. 
+
+1052
+01:13:15,960 --> 01:13:21,600
+let's just say AppyDave here, press enter and we're getting a response received. 
+
+1053
+01:13:21,600 --> 01:13:27,330
+I've just asked it to kill the server over in Claude code because I think it's running 
+
+1054
+01:13:27,330 --> 01:13:32,700
+in the background over here. I didn't actually start it and look at that. It's starting 
+
+1055
+01:13:32,700 --> 01:13:34,800
+to say that it's disconnected. 
+
+1056
+01:13:34,800 --> 01:13:39,690
+What I'll do is restart it from the terminal myself, and if we come back to our web 
+
+1057
+01:13:39,690 --> 01:13:43,80
+application, hopefully it just automatically reconnects.
+
+1058
+01:13:43,80 --> 01:13:48,480
+So at this point, we're right at the very end of the epic. So number one is done. 
+
+1059
+01:13:48,480 --> 01:13:54,320
+We've done stories one, two, three and four from the epic. Now at this point we might 
+
+1060
+01:13:54,320 --> 01:13:59,640
+want to do a retrospective. This is something that you would do in agile development 
+
+1061
+01:13:59,760 --> 01:14:06,320
+I recently talked about that in a video. So this video here how to make your AI Coding 
+
+1062
+01:14:06,320 --> 01:14:12,440
+Partner Smarter was an AI retrospective that I did a few months ago on Bmad. This 
+
+1063
+01:14:12,440 --> 01:14:17,840
+has now been implemented into Bmad, so you'll see that in the version six once that's 
+
+1064
+01:14:17,840 --> 01:14:21,240
+available. Otherwise you can watch this video to see how it works.
+
+1065
+01:14:21,240 --> 01:14:25,560
+But for now, we will just move straight on to epic number two.
+
+1066
+01:14:25,560 --> 01:14:31,320
+So at this point we have finished our first feature, our first epic in the system. 
+
+1067
+01:14:31,320 --> 01:14:38,00
+We have this client and server application. It uses Socket.io and has bidirectional 
+
+1068
+01:14:38,00 --> 01:14:42,720
+communication, meaning that we can type something in the text box and it immediately 
+
+1069
+01:14:42,760 --> 01:14:47,440
+hits the server. Or if the server was to want to communicate with the client, it 
+
+1070
+01:14:47,440 --> 01:14:48,640
+could do that as well.
+
+1071
+01:14:48,640 --> 01:14:53,400
+Now all the code and prompt sequences are available up on the GitHub repo. If you 
+
+1072
+01:14:53,400 --> 01:14:57,400
+want to access that, there's a link to my community down below.
+
+1073
+01:14:57,400 --> 01:15:02,760
+Now next up we're going to work on epic two, which is the Claude Agent SDK. And what 
+
+1074
+01:15:02,760 --> 01:15:08,240
+that's going to allow us to do is put the equivalent of Claude Code into our server. 
+
+1075
+01:15:08,240 --> 01:15:12,960
+So all the sorts of stuff you've seen me doing with Bmad, which is creating code, 
+
+1076
+01:15:12,960 --> 01:15:18,600
+writing documents, doing research. Hopefully we can do that from our own application 
+
+1077
+01:15:18,600 --> 01:15:23,840
+so that we can build HTML pages and we can generate product and blog posts content.
+
+1078
+01:15:23,840 --> 01:15:28,700
+So we'll head back to Claude Code and we've got our scrum master set up and we're 
+
+1079
+01:15:28,700 --> 01:15:31,250
+going to draft story 2.1. 
+
+1080
+01:15:31,250 --> 01:15:37,280
+And so we have our story created. It's as a developer, I want a Claude agent, SDK 
+
+1081
+01:15:37,340 --> 01:15:39,260
+installed and authenticated, 
+
+1082
+01:15:39,260 --> 01:15:45,170
+so that I can integrate the agent driven conversational capabilities into the application. 
+
+1083
+01:15:45,320 --> 01:15:50,300
+Now we'll do one extra step this time and we're going to go over to the product owner 
+
+1084
+01:15:50,360 --> 01:15:56,390
+agent. And with this we are going to run this validate story, draft 2.1, and what 
+
+1085
+01:15:56,390 --> 01:15:56,990
+that'll do 
+
+1086
+01:15:56,990 --> 01:16:02,900
+is run a validation on the story that we've already done. And what it's really attempting 
+
+1087
+01:16:02,900 --> 01:16:08,990
+to do here, and this is an optional task, is just ensure that there were no hallucinations 
+
+1088
+01:16:09,200 --> 01:16:12,440
+or mistakes made in generating the story. 
+
+1089
+01:16:12,440 --> 01:16:17,960
+Now, I don't normally do the validation system because it slows down my general workflow, 
+
+1090
+01:16:18,50 --> 01:16:23,660
+but sometimes what you notice is that code goes off the rails and if you'd have done 
+
+1091
+01:16:23,660 --> 01:16:27,440
+the validation, you would've saved yourself a lot of headaches. So let's have a look 
+
+1092
+01:16:27,440 --> 01:16:33,320
+at what the validation system is trying to do. So firstly, it's an anti hallucination 
+
+1093
+01:16:33,320 --> 01:16:34,760
+protection is going on, 
+
+1094
+01:16:34,940 --> 01:16:35,930
+what it does is a QA 
+
+1095
+01:16:36,440 --> 01:16:38,660
+against just inventing stuff. 
+
+1096
+01:16:38,660 --> 01:16:42,980
+Then what it does is make sure that all the documentation it needs is in 
+
+1097
+01:16:42,980 --> 01:16:45,200
+internally stored within that story. 
+
+1098
+01:16:45,200 --> 01:16:49,910
+And then finally a whole lot of checks and balances on the template and the sequence 
+
+1099
+01:16:49,970 --> 01:16:50,870
+of the story. 
+
+1100
+01:16:50,870 --> 01:16:56,270
+so use the product owner agents validate story with discretion, like when you think 
+
+1101
+01:16:56,270 --> 01:16:57,290
+something's complex, 
+
+1102
+01:16:57,290 --> 01:17:02,30
+because this will save a lot of future headache if things go off the rails during 
+
+1103
+01:17:02,30 --> 01:17:06,920
+the development cycle. Now so far we've gone through a full epic without any issues, 
+
+1104
+01:17:06,920 --> 01:17:10,910
+so I didn't really need to do it, but I thought I'd just throw it in so you can see 
+
+1105
+01:17:10,910 --> 01:17:11,510
+what it does. 
+
+1106
+01:17:11,510 --> 01:17:17,330
+So after that, we go into developing the 2.1 task and everything was going really 
+
+1107
+01:17:17,330 --> 01:17:22,460
+well, created all the code that we needed, ran the definition of done checklist, 
+
+1108
+01:17:22,460 --> 01:17:25,160
+and this is when a bunch of warnings popped up. 
+
+1109
+01:17:25,160 --> 01:17:30,50
+So you can see here that there's an external dependency that we need, which is to 
+
+1110
+01:17:30,50 --> 01:17:35,210
+authenticate into Claude. So we'll just open up a new terminal window and we'll paste 
+
+1111
+01:17:35,210 --> 01:17:36,470
+that in and see what happens. 
+
+1112
+01:17:36,470 --> 01:17:42,140
+So I ran into a couple of problems doing authentication and apparently I was on the 
+
+1113
+01:17:42,140 --> 01:17:45,770
+wrong version of Claude. So what I've done is an update and I'm going to take you 
+
+1114
+01:17:45,770 --> 01:17:52,610
+through the workflow. As it stands, I've just logged into 2.0 0.42 and I'm just going 
+
+1115
+01:17:52,610 --> 01:17:56,360
+to do a logout. So this ensures that we are now out of Claude. 
+
+1116
+01:17:56,360 --> 01:18:00,350
+And down below I've created a little test, SDK script. 
+
+1117
+01:18:00,410 --> 01:18:00,530
+and 
+
+1118
+01:18:00,530 --> 01:18:05,360
+we're seeing an SDK test fail because we're not logged in. So what we'll do is we'll 
+
+1119
+01:18:05,360 --> 01:18:06,290
+come back up here 
+
+1120
+01:18:06,290 --> 01:18:10,970
+and we'll run the login function and we'll say yes and yes, 
+
+1121
+01:18:10,970 --> 01:18:15,980
+we're using our browser subscription. So we can just come up and click on the authorized 
+
+1122
+01:18:15,980 --> 01:18:16,370
+button 
+
+1123
+01:18:16,370 --> 01:18:20,690
+and we'll come back to the terminal. It says we're signed in, so let's clear this 
+
+1124
+01:18:20,690 --> 01:18:22,10
+and try it again. 
+
+1125
+01:18:22,10 --> 01:18:26,960
+And it's just going to say hello in exactly five words and hopefully it gets something 
+
+1126
+01:18:26,960 --> 01:18:31,70
+back. And so now we can see that our SDK is actually working.
+
+1127
+01:18:31,70 --> 01:18:38,270
+So at the moment the 2.1 story is finished. If we go and look at the main story acceptance 
+
+1128
+01:18:38,270 --> 01:18:43,470
+tests that we need to look for, it's just that we've got colored timestamp with the 
+
+1129
+01:18:43,510 --> 01:18:49,590
+Agent SDK running successfully. If we go down to our terminal, we can see that entry 
+
+1130
+01:18:49,590 --> 01:18:53,910
+just here. So from a terminal point of view, the server seems to be working.
+
+1131
+01:18:53,910 --> 01:18:57,110
+All of our acceptance tests have worked. 
+
+1132
+01:18:57,110 --> 01:19:02,190
+And the little test tool that was created is also returning valid data that the authentication 
+
+1133
+01:19:02,190 --> 01:19:03,30
+is working.
+
+1134
+01:19:03,30 --> 01:19:08,830
+Now for story 2.2, the basic Agent event loop. I've run this ahead of time and so 
+
+1135
+01:19:08,830 --> 01:19:13,470
+we'll go straight into testing it. So here we can put in a message. I'm going to 
+
+1136
+01:19:13,470 --> 01:19:20,270
+say can you help me with the cloud SDK. We'll press send to agent and you'll see 
+
+1137
+01:19:20,270 --> 01:19:24,630
+a message coming through here. And currently it's saying processing.
+
+1138
+01:19:24,630 --> 01:19:29,870
+And we've got this great formatted HTML response. I'd be happy to help you with the 
+
+1139
+01:19:29,870 --> 01:19:36,350
+SDK. However I need to clarify that I'm an HTML application building bot, 
+
+1140
+01:19:36,550 --> 01:19:41,590
+And the messaging that's here happens to be because of a system prompt that was created 
+
+1141
+01:19:41,590 --> 01:19:42,870
+in the last story.
+
+1142
+01:19:42,870 --> 01:19:47,520
+So let's go and check out the flow that we did in conversation. And you can see that 
+
+1143
+01:19:47,520 --> 01:19:49,830
+we started off with the scrum master 
+
+1144
+01:19:49,830 --> 01:19:53,580
+and we just asked Bob to draft story 2.2. 
+
+1145
+01:19:53,580 --> 01:19:58,200
+And with the story created, we can see that it's about doing the minimal event loop 
+
+1146
+01:19:58,200 --> 01:20:00,240
+for communicating with the SDK. 
+
+1147
+01:20:00,240 --> 01:20:05,400
+And we can already see from the success criteria that we were able to send a message, 
+
+1148
+01:20:05,430 --> 01:20:06,330
+see it logged, 
+
+1149
+01:20:06,420 --> 01:20:06,660
+and then 
+
+1150
+01:20:06,660 --> 01:20:08,520
+see it displayed in HTML. 
+
+1151
+01:20:08,520 --> 01:20:11,520
+Now the main file created will be the agent event loop. 
+
+1152
+01:20:11,520 --> 01:20:15,660
+And we've got this solid readiness score and we've also got a list of things that 
+
+1153
+01:20:15,660 --> 01:20:20,160
+the development could do. But we'll notice at the bottom that it does suggest that 
+
+1154
+01:20:20,160 --> 01:20:25,410
+we could use a validation. We don't really have to with this sort of story, but I've 
+
+1155
+01:20:25,410 --> 01:20:29,70
+run one. So we look at Sarah, the technical product owner, 
+
+1156
+01:20:29,70 --> 01:20:31,290
+we can then validate the next story. 
+
+1157
+01:20:31,290 --> 01:20:36,780
+Now it's just comparing the story to other documents in the system, previous documents 
+
+1158
+01:20:36,780 --> 01:20:41,340
+goals, making sure that everything's in alignment. Everything's great. There's one 
+
+1159
+01:20:41,340 --> 01:20:44,460
+little yellow flag here, so we'll go have a look at it. 
+
+1160
+01:20:44,460 --> 01:20:46,980
+There's a slight little question here, 
+
+1161
+01:20:46,980 --> 01:20:51,540
+but we won't worry about it in the story or rectifying it because the development 
+
+1162
+01:20:51,600 --> 01:20:53,790
+agent, we'll figure this out pretty easily. 
+
+1163
+01:20:53,790 --> 01:20:58,110
+And so next we just install the dev agent, which is James, 
+
+1164
+01:20:58,110 --> 01:21:01,920
+and then we can just run the develop story command. 
+
+1165
+01:21:01,920 --> 01:21:07,230
+As James gets all the work done, it's all being marked off on the task list. 
+
+1166
+01:21:07,230 --> 01:21:10,710
+The story document is being filled in along the way 
+
+1167
+01:21:10,710 --> 01:21:15,60
+and we're seeing a little bit of a state change in the document, just making sure 
+
+1168
+01:21:15,90 --> 01:21:16,830
+that it's now ready for review. 
+
+1169
+01:21:16,830 --> 01:21:21,00
+We see confirmation of what was either created or modified. 
+
+1170
+01:21:21,00 --> 01:21:26,10
+And so with the code complete, I just now need a plan of action written up for me. 
+
+1171
+01:21:26,10 --> 01:21:31,530
+So the story acceptance test is what will kick off. This is that new agent we created. 
+
+1172
+01:21:31,830 --> 01:21:34,590
+We've loaded it up, Taylor is in place, 
+
+1173
+01:21:34,590 --> 01:21:40,800
+And we just run the create story acceptance test for 2.2. So a new document is created 
+
+1174
+01:21:40,800 --> 01:21:46,410
+and that helps us understanding things like what are the new files or the modifications 
+
+1175
+01:21:46,410 --> 01:21:48,720
+going on if we want to go and have a look at the code, 
+
+1176
+01:21:48,720 --> 01:21:54,610
+a writeup of what the code is, plus a little bit of key implementation details just 
+
+1177
+01:21:54,610 --> 01:21:54,970
+to help, 
+
+1178
+01:21:54,970 --> 01:21:57,700
+just so that you can understand it a little bit easier. 
+
+1179
+01:21:57,700 --> 01:22:02,560
+So we'll go and have a look at that document. We've got the acceptance test guide 
+
+1180
+01:22:02,620 --> 01:22:07,300
+with the prerequisites, how to set it up. And then we go straight into the human 
+
+1181
+01:22:07,300 --> 01:22:07,900
+test. 
+
+1182
+01:22:07,900 --> 01:22:12,520
+And we started all of this off by running this particular test where we saw the information 
+
+1183
+01:22:12,520 --> 01:22:15,610
+coming through, we saw the log messages coming through. 
+
+1184
+01:22:15,610 --> 01:22:17,560
+Now you got to see the happy path. 
+
+1185
+01:22:17,740 --> 01:22:19,660
+if we put in, hello, can you help me? 
+
+1186
+01:22:19,660 --> 01:22:23,440
+We'd get some sort of clean response coming back from the agent SDK. 
+
+1187
+01:22:23,440 --> 01:22:30,10
+So what I did for the acceptance Test eight happy path is I pasted in the console 
+
+1188
+01:22:30,10 --> 01:22:30,310
+log, 
+
+1189
+01:22:30,310 --> 01:22:35,890
+with a little bit of a message saying that I don't see anything suggesting that this 
+
+1190
+01:22:35,890 --> 01:22:37,510
+actually got all the way through. 
+
+1191
+01:22:37,510 --> 01:22:42,130
+It said that I probably need to do a hard reset on the HTML. So I did that 
+
+1192
+01:22:42,130 --> 01:22:47,200
+and I started getting a response. This was very good, except what I was seeing was 
+
+1193
+01:22:47,200 --> 01:22:50,380
+object, object all the way through the response. 
+
+1194
+01:22:50,380 --> 01:22:55,60
+So I just asked it, was it expecting that that was all we were going to get? 'cause 
+
+1195
+01:22:55,60 --> 01:22:58,270
+I didn't go in thorough enough reading the story to know whether 
+
+1196
+01:22:58,270 --> 01:23:02,530
+I was going to get clean data. It said, no, it's not right. So went and made some 
+
+1197
+01:23:02,530 --> 01:23:04,30
+modifications to the code. 
+
+1198
+01:23:04,30 --> 01:23:08,560
+It first started by suggesting what those modifications were, and then it made the 
+
+1199
+01:23:08,560 --> 01:23:10,00
+changes automatically. 
+
+1200
+01:23:10,00 --> 01:23:12,730
+And that brings us to where we are at the moment 
+
+1201
+01:23:12,730 --> 01:23:17,20
+where we can now put in a message, we'll say, what do you think would be a good application 
+
+1202
+01:23:17,410 --> 01:23:19,270
+to build with the Claude SDK? 
+
+1203
+01:23:19,270 --> 01:23:22,690
+And we've got a conversation, a stream that makes a whole lot of sense. 
+
+1204
+01:23:22,690 --> 01:23:27,670
+and remember that this agent is paired with a system prompt, which is about building 
+
+1205
+01:23:27,670 --> 01:23:28,750
+web applications.
+
+1206
+01:23:28,750 --> 01:23:34,910
+So we clean up the end of the story by just using the QA agent, which is Quinn, and 
+
+1207
+01:23:34,910 --> 01:23:38,870
+we ran the review story to build this quality Gate document.
+
+1208
+01:23:38,870 --> 01:23:43,670
+So we have this audit trail of things that have happened, including that the initial 
+
+1209
+01:23:43,670 --> 01:23:46,30
+implementation did have a failure in it.
+
+1210
+01:23:46,30 --> 01:23:50,790
+Now I've just implemented 2.3, which is real time streaming. And one of the interesting 
+
+1211
+01:23:50,790 --> 01:23:56,870
+things is I was also able to create a BMAD workflow to do all the work for me in 
+
+1212
+01:23:56,870 --> 01:24:01,150
+one sequential flow. We'll look at that in a moment, but for now, let's just test 
+
+1213
+01:24:01,150 --> 01:24:01,470
+it out.
+
+1214
+01:24:01,470 --> 01:24:07,30
+So I've created a bunch of testing prompts that we can work with. The idea is that 
+
+1215
+01:24:07,30 --> 01:24:11,550
+I want to see chunks come through the system. So we'll go and select this particular 
+
+1216
+01:24:11,550 --> 01:24:17,110
+one and come back to our web form. Now I've made a minor change to the system prompt 
+
+1217
+01:24:17,110 --> 01:24:21,470
+so that it has a command called test. What I want it to do is ignore the idea that 
+
+1218
+01:24:21,470 --> 01:24:26,150
+it's a web application building agent. And we'll just paste this information in. 
+
+1219
+01:24:26,190 --> 01:24:31,190
+And it's starting to write some information. And you can see here it's saying processing 
+
+1220
+01:24:31,190 --> 01:24:32,30
+at the moment.
+
+1221
+01:24:32,30 --> 01:24:36,230
+And all of this has been done in one chunk. So
+
+1222
+01:24:36,230 --> 01:24:41,150
+the interesting thing about the Claude Agent SDK is that you can't stream word by 
+
+1223
+01:24:41,150 --> 01:24:46,150
+word. It is done in chunks. So it's a little bit slow between updates, 
+
+1224
+01:24:46,150 --> 01:24:50,510
+But you can see that the streaming is working between where my initial message came 
+
+1225
+01:24:50,510 --> 01:24:52,550
+through, and then the agent got involved.
+
+1226
+01:24:52,550 --> 01:24:58,230
+We'll try a different version where we're testing of reading the package.json. We've 
+
+1227
+01:24:58,230 --> 01:25:03,470
+got I'll help you read the package.json. So we see chunk zero coming through right 
+
+1228
+01:25:03,470 --> 01:25:03,830
+here. 
+
+1229
+01:25:04,270 --> 01:25:06,910
+and now it'll do an analysis MD. 
+
+1230
+01:25:06,910 --> 01:25:10,710
+And we can see the three chunks coming through over in the console log.
+
+1231
+01:25:10,710 --> 01:25:16,50
+So the last test is what would happen if we bombarded it with ideas. So I'm going 
+
+1232
+01:25:16,50 --> 01:25:21,450
+to put in number 10 and we'll press enter. Then we'll paste and we'll put 20 and 
+
+1233
+01:25:21,450 --> 01:25:25,590
+we'll paste and we'll put 100 and then we'll paste and we'll do 10 again. 
+
+1234
+01:25:25,590 --> 01:25:30,720
+And we can see that counting to 10, this is what it's come up with. Count to 20, 
+
+1235
+01:25:30,870 --> 01:25:35,70
+it's done that for us, count to 20 and notice things are starting to get a little 
+
+1236
+01:25:35,70 --> 01:25:40,860
+bit out of order. So it's basically, as the information comes in is when it's written 
+
+1237
+01:25:40,860 --> 01:25:41,610
+to the stream. 
+
+1238
+01:25:41,610 --> 01:25:46,440
+And what I notice about this, that is that it works very much similar to how Claude 
+
+1239
+01:25:46,440 --> 01:25:50,580
+Code would work, which is different to chat GPT, where you actually have to wait 
+
+1240
+01:25:50,580 --> 01:25:52,320
+for each response to come through. 
+
+1241
+01:25:52,320 --> 01:25:57,750
+Now I don't personally know whether the way we've Claude code, if I was to rapid 
+
+1242
+01:25:57,750 --> 01:26:00,990
+fire prompts like this, I kind of get aggregated 
+
+1243
+01:26:00,990 --> 01:26:05,760
+you can put in an idea and then follow it up with a change of idea and it takes it 
+
+1244
+01:26:05,760 --> 01:26:10,50
+into account. I don't think that's happening here, but we've got the rudimentary 
+
+1245
+01:26:10,50 --> 01:26:13,740
+ideas of what you can already do with Claude code or working.
+
+1246
+01:26:13,740 --> 01:26:19,350
+Now let's get back to the workflow because I created a custom workflow to build all 
+
+1247
+01:26:19,350 --> 01:26:23,850
+this out so that it could just run without too much input from me. And it's called 
+
+1248
+01:26:23,850 --> 01:26:29,220
+the affidavit workflow. What it does is it starts off by asking a question, what 
+
+1249
+01:26:29,280 --> 01:26:34,470
+story do you want to have? So we did 2.3 At that point it started creating the story 
+
+1250
+01:26:34,560 --> 01:26:39,630
+and it did that by starting up the scrum master and running the draft story command. 
+
+1251
+01:26:39,630 --> 01:26:45,840
+And as per normal, we got a detailed story written, it's in draft format at the moment, 
+
+1252
+01:26:45,840 --> 01:26:49,650
+and it's, as a developer, I want to stream responses 
+
+1253
+01:26:49,650 --> 01:26:54,180
+so that the end users can see information progressively. Now we've seen that working, 
+
+1254
+01:26:54,180 --> 01:26:55,830
+so we know it's all going on. 
+
+1255
+01:26:55,830 --> 01:27:00,420
+It wrote the initial plan of what the code should look like in the story 
+
+1256
+01:27:00,420 --> 01:27:05,160
+and then it gave me this status update so we can see that it's in draft 
+
+1257
+01:27:05,610 --> 01:27:10,320
+acceptance criteria is there and it's got a couple of questions. Do I want to continue? 
+
+1258
+01:27:10,500 --> 01:27:12,240
+Do I wanna skip or exit? 
+
+1259
+01:27:12,240 --> 01:27:18,90
+so we got a final summary of the creation of the story. We can see that it's in draft 
+
+1260
+01:27:18,90 --> 01:27:22,980
+mode at the moment and it's asked me do I want to continue on to validation or skip. 
+
+1261
+01:27:23,220 --> 01:27:28,470
+Now I said that the validation is optional, but I decided to just press continue 
+
+1262
+01:27:28,470 --> 01:27:34,110
+and we can see that it's now going into to the product owner and validating the information 
+
+1263
+01:27:34,110 --> 01:27:35,980
+in the story against other documents. 
+
+1264
+01:27:36,700 --> 01:27:42,280
+Now we're onto story 2.4, which is all about reading the JSON document. And you can 
+
+1265
+01:27:42,280 --> 01:27:47,440
+see that I've done a basic test here. We can see the conversation, finding information 
+
+1266
+01:27:47,860 --> 01:27:51,430
+on the computer. It's got three sample products in place. 
+
+1267
+01:27:51,430 --> 01:27:56,20
+And if we jump down to the conversation, it started as usual with the new AppyDave 
+
+1268
+01:27:56,260 --> 01:28:00,70
+of workflow. We've got 2.4 being the story that we want to run. 
+
+1269
+01:28:00,70 --> 01:28:03,430
+It created that story and then I just typed in continue 
+
+1270
+01:28:03,430 --> 01:28:09,970
+this, moved on to validating the file that gave a 9.5 out of 10. And the little issues 
+
+1271
+01:28:09,970 --> 01:28:13,750
+that were there were all dealt with pretty cleanly during the development phase. 
+
+1272
+01:28:13,750 --> 01:28:15,40
+So we didn't need to do anything. 
+
+1273
+01:28:15,40 --> 01:28:20,290
+Once I then set the status to develop, we were able to come in and click on the developed 
+
+1274
+01:28:20,290 --> 01:28:20,920
+story. 
+
+1275
+01:28:20,920 --> 01:28:26,590
+It also set up some sample data automatically. So we had some test products in place. 
+
+1276
+01:28:26,800 --> 01:28:31,00
+we also have broken data, which we haven't done a test case on just yet. 
+
+1277
+01:28:31,00 --> 01:28:36,730
+Next, it built the story acceptance test based off the story and the code that we've 
+
+1278
+01:28:36,730 --> 01:28:42,340
+developed. It also ran for me all the automated tests that it could do anything that 
+
+1279
+01:28:42,340 --> 01:28:46,210
+was to do with the terminal or something that could be run from a command. 
+
+1280
+01:28:46,210 --> 01:28:47,860
+Now during the SAT 
+
+1281
+01:28:47,860 --> 01:28:52,300
+generation, it also generated a couple of files that were very unexpected. There 
+
+1282
+01:28:52,330 --> 01:28:55,330
+was this human test, there was also a quick test 
+
+1283
+01:28:55,510 --> 01:29:01,30
+So what I had to do was let it know that the SAT agent that we had created earlier 
+
+1284
+01:29:01,30 --> 01:29:06,730
+in this project probably has some flaws and if it could go through and rectify them 
+
+1285
+01:29:06,910 --> 01:29:11,350
+at the same time as cleaning up these files and putting them in the correct location. 
+
+1286
+01:29:11,350 --> 01:29:15,610
+And this is the sort of bespoke issue that you can get from time to time. 
+
+1287
+01:29:15,610 --> 01:29:20,170
+as soon as you see something out of the ordinary. With BMAD method, it's important 
+
+1288
+01:29:20,170 --> 01:29:22,330
+that you probably fix it in the moment 
+
+1289
+01:29:22,330 --> 01:29:26,680
+and let the system know either through learning documents or your claude.md or in 
+
+1290
+01:29:26,680 --> 01:29:31,570
+this case an agent's file that it's not quite right, can it go and update itself? 
+
+1291
+01:29:32,50 --> 01:29:38,200
+So we can see right here that the create SAT task has been updated with new instructions 
+
+1292
+01:29:38,620 --> 01:29:42,700
+and the cleanup of unnecessary files has happened right here. 
+
+1293
+01:29:42,700 --> 01:29:48,190
+now when I went to read the JSON using the AI agent, there were a couple of problems 
+
+1294
+01:29:48,190 --> 01:29:53,290
+that needed to use the development agent to fix. The first one was a little permission 
+
+1295
+01:29:53,290 --> 01:29:58,240
+issue. It rectified that really quickly based off documentation. Then there was the 
+
+1296
+01:29:58,240 --> 01:30:02,770
+wrong folder. It got that fixed up as soon as I gave it an example of where I was 
+
+1297
+01:30:02,980 --> 01:30:07,420
+trying to read and where the files actually were. And then lastly, which was the 
+
+1298
+01:30:07,420 --> 01:30:12,910
+hardest one, was that we were implementing this concept of Read Jason, but it didn't 
+
+1299
+01:30:12,910 --> 01:30:18,10
+have any ability to figure out what JSON documents were available or to discover 
+
+1300
+01:30:18,10 --> 01:30:19,240
+the one you actually wanted. 
+
+1301
+01:30:19,240 --> 01:30:24,910
+So it suggested and then quickly built two extra tools. The list would show any files 
+
+1302
+01:30:24,910 --> 01:30:25,870
+that were available 
+
+1303
+01:30:26,20 --> 01:30:30,100
+and the preview would let the agent interrogate the files to figure out which one 
+
+1304
+01:30:30,100 --> 01:30:31,30
+you actually wanted.
+
+1305
+01:30:31,30 --> 01:30:36,590
+So let's go and test the Raid system. We've got a little products document and we've 
+
+1306
+01:30:36,590 --> 01:30:42,30
+also got a broken document. And we'll just head over to our site and we'll say, can 
+
+1307
+01:30:42,30 --> 01:30:46,670
+you get me a list of products? We'll send that to the agent. It's processing at the 
+
+1308
+01:30:46,670 --> 01:30:47,350
+moment.
+
+1309
+01:30:47,350 --> 01:30:51,630
+I'll help you get a list of products first. Let's discover them. I've found some 
+
+1310
+01:30:51,630 --> 01:30:55,670
+products. Let me read them. And it's got the file. And look at that. It's got the 
+
+1311
+01:30:55,710 --> 01:30:59,470
+AppyDave on school. So it's got that file that we just updated.
+
+1312
+01:30:59,470 --> 01:31:04,390
+And we'll see if this test against the broken JSON document will work, we'll say. 
+
+1313
+01:31:04,430 --> 01:31:09,870
+Can you get a list of items from broken? And it's doing some processing at the moment. 
+
+1314
+01:31:09,870 --> 01:31:14,510
+It's found that we have a broken JSON document. Let's read it.
+
+1315
+01:31:14,510 --> 01:31:19,990
+And this is perfect. It's giving a nice message that the data is malformed and the 
+
+1316
+01:31:19,990 --> 01:31:21,750
+system is not falling over.
+
+1317
+01:31:21,750 --> 01:31:27,570
+just finished story 2.5, which is the ability to write information to the different 
+
+1318
+01:31:27,570 --> 01:31:30,300
+data files. I've done a few use cases, 
+
+1319
+01:31:30,300 --> 01:31:35,470
+but let's go through the individual changes that have happened. So from the appydave 
+
+1320
+01:31:35,790 --> 01:31:39,120
+workflow point of view, there's a little bit of an improvement 
+
+1321
+01:31:39,120 --> 01:31:44,340
+because on load it has a look through to see what the last story was that was done 
+
+1322
+01:31:44,340 --> 01:31:48,780
+and suggests the next story to go and write. So I've just put in 2.5 here. 
+
+1323
+01:31:48,780 --> 01:31:53,640
+So it's created the story really quickly. But the challenge I had with the last story, 
+
+1324
+01:31:53,640 --> 01:31:57,240
+was that we added a couple of new tools. That was the list, 
+
+1325
+01:31:57,240 --> 01:31:58,630
+and the preview JSON. 
+
+1326
+01:31:58,890 --> 01:32:03,00
+And so what I did at the time of validation, which is the next thing 
+
+1327
+01:32:03,30 --> 01:32:05,370
+I then gave it some extra context 
+
+1328
+01:32:05,370 --> 01:32:07,350
+by talking about the list and preview 
+
+1329
+01:32:07,350 --> 01:32:11,710
+from the previous story and also giving it a little bit of a use case. 
+
+1330
+01:32:11,710 --> 01:32:17,230
+So I was able to talk through the capabilities it could already see with adding Jason, 
+
+1331
+01:32:17,230 --> 01:32:22,210
+but then it went on to document a bunch of critical gaps, which is exactly what we 
+
+1332
+01:32:22,210 --> 01:32:27,430
+want. We want it to pick up old ideas, bring 'em into the new story and make it available 
+
+1333
+01:32:27,430 --> 01:32:28,390
+for the development. 
+
+1334
+01:32:28,390 --> 01:32:33,130
+So it gave me a bunch of options. I went with number one, that's just fix or update 
+
+1335
+01:32:33,130 --> 01:32:33,790
+the story. 
+
+1336
+01:32:33,790 --> 01:32:37,210
+So we're seeing new information being added to the story 
+
+1337
+01:32:37,210 --> 01:32:42,550
+and that allowed us to go into developing with the new capabilities thought of along 
+
+1338
+01:32:42,550 --> 01:32:47,800
+the way. And then when it wrote the SAT plan, one of the things that did automatically 
+
+1339
+01:32:47,800 --> 01:32:53,230
+this time, this because I'm gradually improving agents and workflows as we go, is 
+
+1340
+01:32:53,230 --> 01:32:56,710
+that it did the automated tests of the terminal commands. 
+
+1341
+01:32:56,710 --> 01:33:01,930
+But I did ask it to run up more one more time and just give me a summary of what's 
+
+1342
+01:33:01,930 --> 01:33:06,460
+going on. So we can see the eight tests that are from the terminal are all working. 
+
+1343
+01:33:06,460 --> 01:33:11,50
+And then it started listing eight different tests that I as the human could go and 
+
+1344
+01:33:11,50 --> 01:33:15,490
+test and the steps to work on 'em. Now, the first one actually failed 
+
+1345
+01:33:15,490 --> 01:33:21,220
+and the failure was simply that it wrote the Jason document out in quote mark, so 
+
+1346
+01:33:21,280 --> 01:33:24,760
+as a string. So I let it know that there was an issue there, 
+
+1347
+01:33:24,760 --> 01:33:28,60
+quickly found and rectified that particular problem. 
+
+1348
+01:33:28,60 --> 01:33:32,590
+Then I ran into a new problem, which didn't end up being a bug, but just a gap in 
+
+1349
+01:33:32,590 --> 01:33:37,360
+the requirements. And you can see the basic idea here is that I had a conversation 
+
+1350
+01:33:37,360 --> 01:33:43,150
+that said Add sugar for 50 cents. Now, I said that statement after a prior statement 
+
+1351
+01:33:43,210 --> 01:33:47,950
+of looking in the products table. So I assume contextually it would just work. 
+
+1352
+01:33:47,950 --> 01:33:51,190
+And the issue is that it had no conversational memory 
+
+1353
+01:33:51,190 --> 01:33:54,220
+each time it went back to the SDK, 
+
+1354
+01:33:54,220 --> 01:33:59,620
+So it suggested we could either fix it or create a new story. So what I've done is 
+
+1355
+01:33:59,650 --> 01:34:02,140
+added a new story to this epic called 2.7 
+
+1356
+01:34:02,990 --> 01:34:05,540
+just based directly off the information right here. 
+
+1357
+01:34:05,540 --> 01:34:09,750
+so the ability to have conversational memory is something we'll do in two stories 
+
+1358
+01:34:09,750 --> 01:34:10,80
+time.
+
+1359
+01:34:10,80 --> 01:34:15,270
+So let's test the idea of adding and updating files in the data folder. We've gotta 
+
+1360
+01:34:15,270 --> 01:34:19,260
+test products. We can see the information that's here. We've got one broken file 
+
+1361
+01:34:19,260 --> 01:34:19,740
+as well. 
+
+1362
+01:34:19,740 --> 01:34:24,360
+And we'll come over and say, can you add a product? We want sugar and we want it 
+
+1363
+01:34:24,360 --> 01:34:25,380
+to be 50 cents. 
+
+1364
+01:34:25,380 --> 01:34:30,750
+After that, we'll just go down to our use cases and we've got this create an electronics 
+
+1365
+01:34:30,750 --> 01:34:35,250
+js document under the catalog folder. So it'll be a nested file 
+
+1366
+01:34:35,250 --> 01:34:38,190
+and it's saying it will do it with a laptop and a phone. 
+
+1367
+01:34:38,190 --> 01:34:43,770
+Now we'll head down to our Jason document. We can see that this is expanded to have 
+
+1368
+01:34:43,770 --> 01:34:48,660
+sugar at 50 cents. Looks like we've got our new file. Let's just drag that in. We've 
+
+1369
+01:34:48,660 --> 01:34:53,970
+got an electronics catalog and we've got multiple items coming in here and they're 
+
+1370
+01:34:53,970 --> 01:34:55,20
+quite detailed. 
+
+1371
+01:34:55,20 --> 01:35:00,390
+Now let's try out a couple of discovery commands. So we'll go what Jason exists 
+
+1372
+01:35:00,390 --> 01:35:03,120
+in the data directory. Let's see what comes through. 
+
+1373
+01:35:03,120 --> 01:35:07,410
+We can see the broken and the test products. We don't have the catalog so it hasn't 
+
+1374
+01:35:07,410 --> 01:35:08,310
+looked deeply, 
+
+1375
+01:35:08,310 --> 01:35:13,380
+but what we'll do is we'll add a category field to the test products table. 
+
+1376
+01:35:13,380 --> 01:35:15,330
+So click that center agent. 
+
+1377
+01:35:15,330 --> 01:35:19,20
+It's telling us it'll add a category, now it's done it, 
+
+1378
+01:35:19,20 --> 01:35:24,90
+and if we head over to VS code, we can now see that on products. We've got these 
+
+1379
+01:35:24,120 --> 01:35:26,520
+categories. So we've got groceries over here. 
+
+1380
+01:35:26,520 --> 01:35:31,260
+And there was a couple of other interesting use cases that all worked, which I didn't 
+
+1381
+01:35:31,260 --> 01:35:36,420
+even think of. It just created these and the ability to create a file outside of 
+
+1382
+01:35:36,420 --> 01:35:38,490
+the data directory was blocked. 
+
+1383
+01:35:38,490 --> 01:35:40,920
+Creating a file with circular references. 
+
+1384
+01:35:40,920 --> 01:35:47,940
+And the last useful example is to just add five items, an array to a new table. 
+
+1385
+01:35:47,940 --> 01:35:50,460
+So here we have five sites added. 
+
+1386
+01:35:50,460 --> 01:35:55,680
+So what we're seeing now is this really powerful mechanism where we can read, we 
+
+1387
+01:35:55,680 --> 01:35:57,270
+can write, we can update, 
+
+1388
+01:35:57,270 --> 01:36:02,140
+we can work with sub directories of files back on our server. Now these are data 
+
+1389
+01:36:02,140 --> 01:36:07,690
+files. Next we'll be looking at how we can do HTML files. But the whole idea of this 
+
+1390
+01:36:07,720 --> 01:36:11,830
+is more for an internal tool. I wouldn't, it's not the sort of tool that we would 
+
+1391
+01:36:11,830 --> 01:36:16,150
+use up on a public website where it can write to your server. But if you're trying 
+
+1392
+01:36:16,150 --> 01:36:20,830
+to build a little application for yourself and you want the ability to dynamically 
+
+1393
+01:36:20,860 --> 01:36:25,240
+update data just by talking into the microphone, then this is a perfect technique 
+
+1394
+01:36:25,240 --> 01:36:26,170
+that we can be using.
+
+1395
+01:36:26,170 --> 01:36:32,770
+Now is star 2.6. Our conversational bot is now starting to get really powerful. So 
+
+1396
+01:36:32,810 --> 01:36:37,850
+what we'll do is we'll start off with a simple question. And that's what HTML files 
+
+1397
+01:36:37,850 --> 01:36:39,970
+exist in the public directory. 
+
+1398
+01:36:40,130 --> 01:36:45,130
+And you can see here it's saying that there are currently no HTML files in the public 
+
+1399
+01:36:45,130 --> 01:36:50,890
+directory. And if we head down to VS code we can confirm that. So we've got our data 
+
+1400
+01:36:50,890 --> 01:36:55,810
+directory from the last session available. But in the server when we click on public 
+
+1401
+01:36:55,810 --> 01:36:57,290
+there's nothing there right now.
+
+1402
+01:36:57,290 --> 01:37:01,70
+So the full conversation for this workflow was that we started with the AppyDave 
+
+1403
+01:37:01,160 --> 01:37:06,560
+workflow. It figured out that it had done 2.5 and that it could move on to 2.6, 
+
+1404
+01:37:06,560 --> 01:37:12,110
+and so it was able to start up the scrum master and create the story for us. Now, 
+
+1405
+01:37:12,110 --> 01:37:19,460
+because we'd made a lot of extensions within the 2.4 and the 2.5 story, I decided 
+
+1406
+01:37:19,460 --> 01:37:24,500
+to let it know that it was modeling these two stories, except rather than for data 
+
+1407
+01:37:24,500 --> 01:37:26,360
+it was going to be for HTML. 
+
+1408
+01:37:26,360 --> 01:37:31,280
+And so while there were major differences, like the type of file and the location 
+
+1409
+01:37:31,280 --> 01:37:35,150
+that they were going to be, the actual tooling was pretty much the same. 
+
+1410
+01:37:35,150 --> 01:37:39,470
+And so I suggested that it have a look at the 2.4 and the 2.5 
+
+1411
+01:37:39,560 --> 01:37:42,860
+before updating this story with new capability. 
+
+1412
+01:37:42,860 --> 01:37:46,820
+From that, it was able to notice all the critical gaps that were in place 
+
+1413
+01:37:46,820 --> 01:37:51,230
+and come up with four separate tools to implement. Before that, it had only had one 
+
+1414
+01:37:51,380 --> 01:37:53,450
+tool, which was writing the HTML. 
+
+1415
+01:37:53,450 --> 01:37:59,210
+Now to show that this was an extensive change, we can see as we scroll through that 
+
+1416
+01:37:59,210 --> 01:38:03,170
+there's a lot of green and reds, a lot of stuff being taken out, a lot of new stuff 
+
+1417
+01:38:03,170 --> 01:38:03,980
+being added, 
+
+1418
+01:38:04,280 --> 01:38:10,190
+and the public directory is the 2.6 story. So then we changed over to the development 
+
+1419
+01:38:10,190 --> 01:38:13,130
+agent. Everything pretty much went off without a hitch 
+
+1420
+01:38:13,130 --> 01:38:17,150
+There were two different problems that I did need to address and you can see them 
+
+1421
+01:38:17,150 --> 01:38:21,830
+here. The first one was that it wasn't actually serving from the public directory. 
+
+1422
+01:38:21,980 --> 01:38:26,30
+I was able to test all the HTML, but not from the application. So that was a bit 
+
+1423
+01:38:26,30 --> 01:38:26,570
+of a problem. 
+
+1424
+01:38:26,570 --> 01:38:30,650
+the other problem was that when I was trying to display data that we created in the 
+
+1425
+01:38:30,650 --> 01:38:33,590
+previous story, it, it also wasn't showing through. 
+
+1426
+01:38:33,590 --> 01:38:37,370
+so it did a little bit of prompt engineering just to get the code working. It was 
+
+1427
+01:38:37,370 --> 01:38:38,570
+really easy to do 
+
+1428
+01:38:38,570 --> 01:38:43,670
+because Claude Code gave me option A, B, and C, and I just said, let's go with A 
+
+1429
+01:38:43,670 --> 01:38:46,520
+and C, and it just wrote all the code that we needed, 
+
+1430
+01:38:46,520 --> 01:38:51,590
+So with our chat agent set up to story 2.6, we'll just put in a simple prompt that 
+
+1431
+01:38:51,590 --> 01:38:55,760
+says, can you createa HTML page for AppyDave? 
+
+1432
+01:38:55,760 --> 01:39:00,140
+And along with that question, I'll just paste in a little bit of information I just 
+
+1433
+01:39:00,140 --> 01:39:04,430
+copied from my website and we'll press enter and see what it does with that. 
+
+1434
+01:39:04,430 --> 01:39:08,420
+Now you'll notice as it's building it that we've got this concept down the bottom 
+
+1435
+01:39:08,420 --> 01:39:13,730
+of pages. So I've also added a little menu to the bottom of the chat box to show 
+
+1436
+01:39:13,970 --> 01:39:16,40
+any public pages that are being created. 
+
+1437
+01:39:16,40 --> 01:39:18,320
+So it's just come back with, I'll create 
+
+1438
+01:39:18,320 --> 01:39:23,660
+page. Let me check. I'll create it. And it looks like a bunch of stuff's being created 
+
+1439
+01:39:23,660 --> 01:39:27,980
+and we can see this little index. Let's click on that and see what we get. We've 
+
+1440
+01:39:27,980 --> 01:39:33,170
+got AppyDave, and this is actually a whole lot of information from my main website. 
+
+1441
+01:39:33,170 --> 01:39:37,250
+We'll just pop over and have a look at that. And we can see Master AI and prompt 
+
+1442
+01:39:37,250 --> 01:39:41,630
+engineering different projects and down the bottom different channels. So if we come 
+
+1443
+01:39:41,630 --> 01:39:45,620
+through and look at it here, it looks like it's all the same information. 
+
+1444
+01:39:45,620 --> 01:39:50,900
+all it's done is created this little HTML file for us, and it's put all the colors 
+
+1445
+01:39:51,110 --> 01:39:51,530
+in there. 
+
+1446
+01:39:51,530 --> 01:39:55,580
+Let's see if we can do something a little bit more complex. And we'll do a prompt 
+
+1447
+01:39:55,580 --> 01:40:03,110
+that says, can you create a HTML page called Cat dash Dog and do it talking about 
+
+1448
+01:40:03,110 --> 01:40:08,900
+a pet store that is about cats and dogs. And let's go with the colors of brown, yellow, 
+
+1449
+01:40:08,900 --> 01:40:09,740
+and green. 
+
+1450
+01:40:09,740 --> 01:40:13,400
+So we'll just let this prompt come through as soon as it's typed in.
+
+1451
+01:40:13,400 --> 01:40:16,200
+So we'll send that through to the agent.
+
+1452
+01:40:16,200 --> 01:40:22,00
+And we can see all our product data down here. We can see our cat dog and our HTML 
+
+1453
+01:40:22,00 --> 01:40:22,320
+file.
+
+1454
+01:40:22,320 --> 01:40:28,410
+So what I think I wanna do now is create a new HTML file. We'll go with a CSS file 
+
+1455
+01:40:28,470 --> 01:40:29,280
+as well 
+
+1456
+01:40:29,580 --> 01:40:31,260
+So the prompt will go, 
+
+1457
+01:40:31,260 --> 01:40:35,820
+can you create a HTML file called a AI-TLDR 
+
+1458
+01:40:36,750 --> 01:40:40,770
+And can we create a cs s file to go with that? 
+
+1459
+01:40:40,770 --> 01:40:47,820
+can the colors of that CSS be light blue, dark blue and white? And can we make sure 
+
+1460
+01:40:47,820 --> 01:40:52,620
+that we're displaying a whole lot of products? Can the products come from our test 
+
+1461
+01:40:52,710 --> 01:40:53,310
+products 
+
+1462
+01:40:53,310 --> 01:40:53,940
+document? 
+
+1463
+01:40:53,940 --> 01:40:59,190
+So I'll just let that prompt come through. There it is. And we'll press enter. So 
+
+1464
+01:40:59,250 --> 01:41:00,930
+there's a couple of typos in there, 
+
+1465
+01:41:00,930 --> 01:41:05,130
+but it looks like we're going to create A HTML file matching CSS file. 
+
+1466
+01:41:05,280 --> 01:41:08,520
+Perfect. Now let me check what pages exist 
+
+1467
+01:41:08,520 --> 01:41:13,890
+and while that's happening, what AI TLDR is is one of my other channels. This is 
+
+1468
+01:41:13,890 --> 01:41:18,270
+a faceless YouTube channel where most of the focus is on 
+
+1469
+01:41:18,270 --> 01:41:19,560
+YouTube storytelling. 
+
+1470
+01:41:19,560 --> 01:41:23,670
+so we've got something coming through. They're not necessarily the colors we normally 
+
+1471
+01:41:23,670 --> 01:41:29,430
+use, but let's go and click on this and see what we get. A-I-T-L-D-R product catalog. 
+
+1472
+01:41:29,430 --> 01:41:34,680
+And this is really interesting from a few points of view. So the actual widgets that 
+
+1473
+01:41:34,680 --> 01:41:39,540
+are in the product listing, aby school sugar, this has all come through, but we've 
+
+1474
+01:41:39,540 --> 01:41:44,400
+even got the HTML links so we can get to the homepage. Can we get to 
+
+1475
+01:41:44,400 --> 01:41:45,240
+the cat and dog? 
+
+1476
+01:41:45,540 --> 01:41:49,770
+We can get to the cat and dog. What about products that's taking us to where we are 
+
+1477
+01:41:49,770 --> 01:41:51,540
+And if we go back to the chat interface, 
+
+1478
+01:41:51,630 --> 01:41:55,980
+So at this point, we've almost achieved everything I wanted with this project. It 
+
+1479
+01:41:55,980 --> 01:42:00,840
+was the ability to create any sort of data we want. Let's go and test the idea of 
+
+1480
+01:42:00,930 --> 01:42:01,950
+updating data. 
+
+1481
+01:42:01,950 --> 01:42:08,340
+Can you go and add three different products about nail polish? Let that come through 
+
+1482
+01:42:08,400 --> 01:42:13,860
+and send that to the agent. And what I'm hoping it'll do is it'll come up with three 
+
+1483
+01:42:13,860 --> 01:42:18,480
+interesting products. It should be able to add it to the only file we've got, which 
+
+1484
+01:42:18,480 --> 01:42:19,260
+is the test 
+
+1485
+01:42:19,260 --> 01:42:19,830
+products. 
+
+1486
+01:42:19,830 --> 01:42:23,730
+probably should go and rename that. Well, let's just go back to this. 
+
+1487
+01:42:23,730 --> 01:42:28,500
+It can see the file. It's now apparently added things. Oh, look at that. It's showing 
+
+1488
+01:42:28,500 --> 01:42:33,870
+them as well. So we'll go and click on the AI TLDR page and see what that's showing. 
+
+1489
+01:42:33,870 --> 01:42:35,580
+Okay, we've got five products. 
+
+1490
+01:42:35,580 --> 01:42:40,980
+Now our page hasn't updated, but if I go down to Visual Studio, we can see that three 
+
+1491
+01:42:41,40 --> 01:42:47,880
+actual products have been added. So my assumption is it's not reading from the JavaScript 
+
+1492
+01:42:47,880 --> 01:42:51,900
+and it's not, it's actually been hard coded. So maybe we can modify that. 
+
+1493
+01:42:51,900 --> 01:42:58,210
+So we're going to work with the idea of can we update the HTML of AI-TLDR so that 
+
+1494
+01:42:58,210 --> 01:43:03,520
+the products are actually just reading from that URL. So we'll send that through. 
+
+1495
+01:43:03,520 --> 01:43:08,530
+While that's doing its theme, we can have a look at the URL. This is the data that's 
+
+1496
+01:43:08,530 --> 01:43:09,730
+available to us. 
+
+1497
+01:43:09,730 --> 01:43:14,530
+It says that the page is working. Let's go and click on it and look at that. We've 
+
+1498
+01:43:14,530 --> 01:43:19,300
+got eight products, we've got three new products added. So yeah, we're using our 
+
+1499
+01:43:19,300 --> 01:43:21,340
+chat interface to both, 
+
+1500
+01:43:21,340 --> 01:43:27,250
+create data, update data, delete it, or we dunno whether it can delete and to actually 
+
+1501
+01:43:27,250 --> 01:43:31,510
+modify the HTML. So let's see if we can do one more compound idea. 
+
+1502
+01:43:31,510 --> 01:43:36,590
+So we'll go with the idea of can it delete widgets from the test products
+
+1503
+01:43:36,590 --> 01:43:43,430
+table, the JSON document, can we also go to the AI-TLDR CSS and we'll start changing 
+
+1504
+01:43:43,430 --> 01:43:48,950
+the colors to be a light pink, blue and yellow. We'll send that through to the agent. 
+
+1505
+01:43:48,990 --> 01:43:54,270
+We should see it coming down the bottom here. So currently it's doing a search broadly 
+
+1506
+01:43:54,270 --> 01:43:59,510
+for the CSS files. It's found them. It's now going to read the full content from 
+
+1507
+01:43:59,510 --> 01:43:59,790
+them.
+
+1508
+01:43:59,790 --> 01:44:04,790
+It's found widget A, B and C which it's going to remove from the JSON. Then it's 
+
+1509
+01:44:04,790 --> 01:44:09,230
+going to go and update the CSS. And it looks like it's done that.
+
+1510
+01:44:09,230 --> 01:44:13,670
+And what we'll do is click on AI-TLDR and look at that. 
+
+1511
+01:44:13,670 --> 01:44:18,590
+we got pinks blues and yellows. And we've removed the three widgets.
+
+1512
+01:44:19,580 --> 01:44:25,400
+Moving on to story 2.7, which is a new story that came about 'cause we encountered 
+
+1513
+01:44:25,400 --> 01:44:30,710
+a bug where if you typed in a couple of messages it didn't understand the previous 
+
+1514
+01:44:30,710 --> 01:44:36,140
+messages. So we've put it in place and what I thought we'd do is test it by maybe 
+
+1515
+01:44:36,140 --> 01:44:42,50
+changing the title of this particular website and at the same time also change the 
+
+1516
+01:44:42,50 --> 01:44:45,950
+price of just cats. And we'll do that in two separate messages. 
+
+1517
+01:44:46,100 --> 01:44:47,630
+So here's our first prompt. 
+
+1518
+01:44:47,630 --> 01:44:53,00
+Can you change the title of the cat dog website so that rather than saying cat and 
+
+1519
+01:44:53,00 --> 01:44:55,850
+Dog Pet store, it just says Pet store. 
+
+1520
+01:44:55,850 --> 01:44:59,480
+So we'll kick that off and then we'll start the next prompt. 
+
+1521
+01:44:59,480 --> 01:45:04,460
+Can you go to the Cat Dog website and change every product 
+
+1522
+01:45:04,460 --> 01:45:08,690
+that is related to a cat so that it is $100 more? 
+
+1523
+01:45:08,690 --> 01:45:13,940
+And we'll just press enter on that one. Now, if we look at the current website, it 
+
+1524
+01:45:13,940 --> 01:45:18,170
+says Cat and Dog Pet Store. Now I've done a refresh on it and we can see that the 
+
+1525
+01:45:18,170 --> 01:45:20,390
+pet store has been updated. 
+
+1526
+01:45:20,570 --> 01:45:24,260
+we wanna see ifthe 24.99 becomes 124.99. 
+
+1527
+01:45:25,70 --> 01:45:31,70
+And they have changed. So there's the new value and we've got the old value as 24 99 
+
+1528
+01:45:31,70 --> 01:45:32,390
+and Cat and Dog Pet store. 
+
+1529
+01:45:32,390 --> 01:45:37,370
+So from a conversational point of view, it was pretty much the standard workflow. 
+
+1530
+01:45:37,370 --> 01:45:43,520
+We started off with the appydave-workflow. We created the 2.7 story, we validated 
+
+1531
+01:45:43,520 --> 01:45:43,700
+it. 
+
+1532
+01:45:43,700 --> 01:45:48,920
+The minor change here was that I asked it to go and read the documentation around 
+
+1533
+01:45:48,920 --> 01:45:49,790
+the SDK. 
+
+1534
+01:45:49,790 --> 01:45:53,960
+And we have a second brain of information around that particular tool. 
+
+1535
+01:45:54,290 --> 01:45:58,910
+the basic findings from that were all listed and updated the story. 
+
+1536
+01:45:58,910 --> 01:46:03,890
+We then just did our standard development phase. We did an SAT. There was nothing 
+
+1537
+01:46:03,890 --> 01:46:06,590
+in there other than to run the two commands that I did. 
+
+1538
+01:46:06,590 --> 01:46:11,60
+And so we just finish off with a review from the QA agent 
+
+1539
+01:46:11,60 --> 01:46:17,150
+So that brings us to the end of Epic two, and what we can now do is we can add products 
+
+1540
+01:46:17,150 --> 01:46:21,620
+or any sort of data that we like. We can update it. We can also play around with 
+
+1541
+01:46:21,620 --> 01:46:23,960
+HTML, CSS or JavaScript 
+
+1542
+01:46:23,960 --> 01:46:28,550
+and we could call this a complete application, but if we look at what Epic Number 
+
+1543
+01:46:28,550 --> 01:46:30,110
+three is going to be about, 
+
+1544
+01:46:30,110 --> 01:46:34,790
+we'll be able to give the chat interface a much needed upgrade 
+
+1545
+01:46:34,790 --> 01:46:40,760
+and we'll do that by going to React where we'll use VI Shad cn, tailwind CSS, and 
+
+1546
+01:46:40,760 --> 01:46:46,610
+we'll use the Vercel AI elements to give a really clean chat interface. 
+
+1547
+01:46:46,610 --> 01:46:51,830
+Now it's a fairly simple epic, we're going to initialize the React application, then 
+
+1548
+01:46:51,830 --> 01:46:58,190
+we're going to install the Shad CN and configure Tailwind CSS. Then we'll build the 
+
+1549
+01:46:58,280 --> 01:47:03,890
+chat interface again using Vercel AI elements. And lastly, we'll implement a simple 
+
+1550
+01:47:03,890 --> 01:47:05,750
+dark mode, light mode toggle.
+
+1551
+01:47:05,750 --> 01:47:10,970
+So one of the things that we have to do before we actually start the first story 
+
+1552
+01:47:10,970 --> 01:47:16,190
+for Epic number three is we just need to do a little bit of a retrospective. So I've 
+
+1553
+01:47:16,190 --> 01:47:22,160
+got a basic question just asking it to think about what it would need to do a retrospective, 
+
+1554
+01:47:22,160 --> 01:47:27,410
+and it's come up with a long list of tasks that it should perform to build up that 
+
+1555
+01:47:27,410 --> 01:47:28,400
+particular document. 
+
+1556
+01:47:28,400 --> 01:47:33,800
+I've specifically told it to think deeply, and I've also given it as much time as 
+
+1557
+01:47:33,800 --> 01:47:39,320
+it needs to do a detailed job. And so it goes through and it writes this long document 
+
+1558
+01:47:39,320 --> 01:47:41,780
+and we don't have to read the document, but 
+
+1559
+01:47:41,840 --> 01:47:46,220
+It will have information from here that it can pull on when generating the stories 
+
+1560
+01:47:46,220 --> 01:47:47,90
+for Epic three.
+
+1561
+01:47:47,90 --> 01:47:53,290
+So story 3.1 is finished. There's not actually a lot to see. There's a little bit 
+
+1562
+01:47:53,290 --> 01:47:59,250
+of console logging. We can see now that it's using React and Vite. And from a front 
+
+1563
+01:47:59,250 --> 01:48:04,530
+end point of view, all we've got is hello world, be mad Claude SDK and the fact that 
+
+1564
+01:48:04,530 --> 01:48:06,170
+it says vite connected.
+
+1565
+01:48:06,170 --> 01:48:11,970
+and we'll just check that the hot module reloading is working. That's working. Okay.
+
+1566
+01:48:11,970 --> 01:48:17,650
+So we have a foundation now for the react version of the chat client. 
+
+1567
+01:48:17,650 --> 01:48:19,730
+Let's move on to story 3.2.
+
+1568
+01:48:19,730 --> 01:48:26,130
+Now we are on story 3.2 and there's not a lot to be seen just yet. We've got an installation 
+
+1569
+01:48:26,130 --> 01:48:33,90
+of Shadchan and UI, and if we pop it up, what we'll see is this user interface with 
+
+1570
+01:48:33,130 --> 01:48:37,730
+the basic typing area in place. We've got to click me and we've got some buttons. 
+
+1571
+01:48:37,730 --> 01:48:40,370
+And the styling is very ordinary at the moment.
+
+1572
+01:48:40,370 --> 01:48:45,770
+And according to the component verification, that's exactly what we want to see at 
+
+1573
+01:48:45,770 --> 01:48:46,130
+the moment.
+
+1574
+01:48:46,130 --> 01:48:52,130
+We've just completed story 3.3, and we're really close to the end of building the 
+
+1575
+01:48:52,130 --> 01:48:57,730
+application. And what you can see now is that it started to come together quite nicely. 
+
+1576
+01:48:57,770 --> 01:49:02,250
+We'll demonstrate where it's at in a moment, but I'll point out that this is the 
+
+1577
+01:49:02,250 --> 01:49:08,690
+14th story that we've done, and every story we've done up until this one just came 
+
+1578
+01:49:08,690 --> 01:49:13,650
+across without a hitch. It was able to be created. It was validated. 
+
+1579
+01:49:13,650 --> 01:49:17,130
+It was written by the software developer. We were able to do 
+
+1580
+01:49:17,130 --> 01:49:21,930
+the story acceptance testing, and we were able to do the QA afterwards. And everything 
+
+1581
+01:49:21,930 --> 01:49:27,370
+was really quite quick. This is the one story where everything changed. So I'll do 
+
+1582
+01:49:27,370 --> 01:49:31,970
+a little bit of a postmortem analysis of it as well, after I've demonstrated where 
+
+1583
+01:49:31,970 --> 01:49:32,530
+we're at.
+
+1584
+01:49:32,530 --> 01:49:37,750
+So let's test out our new chat bot. And what we'll do is we'll search for products 
+
+1585
+01:49:37,750 --> 01:49:43,420
+first. So can you tell me what products are available? And we'll let this prompt 
+
+1586
+01:49:43,420 --> 01:49:48,760
+come through. We'll press enter. And so we can see this little bubble coming up here. 
+
+1587
+01:49:48,790 --> 01:49:54,730
+That's what the user has said. This is what the agent SDK is responding with at the 
+
+1588
+01:49:54,730 --> 01:50:00,190
+moment. And there are our products. We've got some groceries, we've got some beauty 
+
+1589
+01:50:00,190 --> 01:50:04,810
+products, nail art sort of stuff. So let's create a little website. 
+
+1590
+01:50:04,810 --> 01:50:11,230
+Can you create a little HTML website called Beauty and Joy? Can this be a nail art 
+
+1591
+01:50:11,350 --> 01:50:17,230
+sort of store? Can we get both a HTML page and a CSS file? 
+
+1592
+01:50:17,230 --> 01:50:23,140
+And we'll let that kick off. And in a moment it'll come up with a plan of action. 
+
+1593
+01:50:23,320 --> 01:50:28,600
+And here it's starting to happen. And what we can also do is just head over to VS 
+
+1594
+01:50:28,600 --> 01:50:33,280
+code where we can see what we currently have. We have a couple of websites here, 
+
+1595
+01:50:33,280 --> 01:50:40,720
+cat Dog Index and AI-AITLDR. And if we come back and we look at these little pages 
+
+1596
+01:50:40,720 --> 01:50:45,880
+here, this is where we can see this and look at that. It just created beauty and 
+
+1597
+01:50:45,880 --> 01:50:50,80
+joy. So maybe that's already started. Let's go back and see whether it's created 
+
+1598
+01:50:50,80 --> 01:50:56,140
+here. Yes, we can see it. We've got a CSS file and a HTML file, and that's why that 
+
+1599
+01:50:56,140 --> 01:51:02,170
+came about. So let's go and click on that and see what we get. Okay, we've got a 
+
+1600
+01:51:02,200 --> 01:51:03,610
+interesting looking 
+
+1601
+01:51:03,610 --> 01:51:09,400
+nail art shop. I think we can do better styling than that. So what I'll do is I'll 
+
+1602
+01:51:09,400 --> 01:51:17,80
+bring it back here and say, can you update the CSS styling for the Beauty and Joy 
+
+1603
+01:51:17,110 --> 01:51:23,290
+website? And can you use this basic guidelines? So what we'll do is we'll just go 
+
+1604
+01:51:23,290 --> 01:51:29,260
+down and paste some extra work and hopefully this will show up plainly. Here we go. 
+
+1605
+01:51:29,260 --> 01:51:34,420
+We've got soft, modern, feminine. We got some primary colors coming through 
+
+1606
+01:51:34,420 --> 01:51:37,810
+and it should be updating the CSS very soon. 
+
+1607
+01:51:37,810 --> 01:51:43,600
+And it looks like it's finished. It's actually created a different HTML. So if we 
+
+1608
+01:51:43,600 --> 01:51:48,370
+go up, we now have two. We have beauty and joy. And we have beauty. Let's look at 
+
+1609
+01:51:48,370 --> 01:51:54,400
+the old one. Here's the old one. And the new one is looking a fair bit more elegant. 
+
+1610
+01:51:54,400 --> 01:51:59,230
+Now, ideally, I would've liked that to actually update the original website, but 
+
+1611
+01:51:59,350 --> 01:52:06,340
+for a first pass at a chat bot that can create data, read data, and also use it for 
+
+1612
+01:52:06,340 --> 01:52:07,60
+websites. 
+
+1613
+01:52:07,90 --> 01:52:08,650
+This is working really well.
+
+1614
+01:52:08,650 --> 01:52:14,530
+Now I said that this story wasn't actually as successful in the coding as any other 
+
+1615
+01:52:14,530 --> 01:52:18,490
+story that we've done, but let's have a look at what it was originally. It's build 
+
+1616
+01:52:18,490 --> 01:52:24,760
+a chat interface with Sal AI as a developer, a chat interface using the AI element 
+
+1617
+01:52:24,790 --> 01:52:30,670
+patterns so that users can send messages and have streaming agent responses. Now 
+
+1618
+01:52:30,670 --> 01:52:33,70
+that's working and so pretty happy with that. 
+
+1619
+01:52:33,70 --> 01:52:39,160
+but let's have a look at the post mortem. And this is where a number of issues happened. 
+
+1620
+01:52:39,160 --> 01:52:42,940
+Now, part of the issues happened because I think when I was doing it, I was really 
+
+1621
+01:52:42,940 --> 01:52:44,830
+tired, so I wasn't paying attention, 
+
+1622
+01:52:44,830 --> 01:52:49,810
+to different things going on. But the main issue, which I seem to run into every 
+
+1623
+01:52:49,810 --> 01:52:53,830
+time I do tailwind and totally forgot about it in this particular case, 
+
+1624
+01:52:53,830 --> 01:52:59,410
+is that it got configured with V3 syntax, but it was a V4 Tailwind. 
+
+1625
+01:52:59,410 --> 01:53:03,460
+and you might've noticed in the last story that there was styling that looked pretty 
+
+1626
+01:53:03,460 --> 01:53:07,270
+average. And I said, well, that's actually how it's meant to be. Well, that's not 
+
+1627
+01:53:07,270 --> 01:53:12,400
+the case. And the reason is that the tailwind styling was misconfigured and it took 
+
+1628
+01:53:12,400 --> 01:53:17,80
+a little while to find it out. Another issue that was happening under the hood for 
+
+1629
+01:53:17,80 --> 01:53:20,560
+me is that one of the servers there, there are two in this, 
+
+1630
+01:53:20,560 --> 01:53:26,830
+was meant to be running on 5173, but Claude was actually running a separate one on 
+
+1631
+01:53:27,10 --> 01:53:32,650
+5174. And so I was trying to see updates and nothing was coming through, and I kept 
+
+1632
+01:53:32,650 --> 01:53:37,210
+saying to Claude, this is not working. And he kept saying, I've fixed it, but I wasn't 
+
+1633
+01:53:37,210 --> 01:53:41,140
+seeing anything visually. Now, again, a lot of that was me tied at the time, 
+
+1634
+01:53:41,140 --> 01:53:46,360
+but this is one of the realities of having AI agents that can run the servers for 
+
+1635
+01:53:46,360 --> 01:53:50,770
+you is that if they've got a conflict with your current server, then it's just going 
+
+1636
+01:53:50,770 --> 01:53:53,470
+to spawn a new one on a different port. 
+
+1637
+01:53:53,470 --> 01:53:59,530
+Then it had a bunch of issues with the bubbles and the dropdown menu that we saw 
+
+1638
+01:53:59,740 --> 01:54:02,50
+go showing up underneath the bubbles. 
+
+1639
+01:54:02,50 --> 01:54:07,60
+Now, the reason I actually wrote this document wasn't just so that I could show you 
+
+1640
+01:54:07,60 --> 01:54:11,260
+the sort of challenges that you can run into, but because once you write a document 
+
+1641
+01:54:11,260 --> 01:54:16,660
+like this, you can make it a part of your documentation system. So if any other issues 
+
+1642
+01:54:16,660 --> 01:54:21,490
+happen in the future and you notice it, you can say, can you go and read other documentation 
+
+1643
+01:54:21,490 --> 01:54:23,560
+or lessons learnt that, 
+
+1644
+01:54:23,560 --> 01:54:24,670
+we've done in the past? 
+
+1645
+01:54:24,670 --> 01:54:30,550
+and this can be a perfect way of training the AI model to you to write code the right 
+
+1646
+01:54:30,580 --> 01:54:34,450
+way if you see a certain problem showing up again and again.

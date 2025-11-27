@@ -1,0 +1,55 @@
+1
+00:00:00,00 --> 00:00:04,710
+So that brings us to the end. And what we've been able to do is build this complete 
+
+2
+00:00:04,710 --> 00:00:09,880
+application just with natural language prompts. And we did that using context engineering. 
+
+3
+00:00:09,920 --> 00:00:15,830
+That's with the BMAD method. And the back end system that we've built is using the 
+
+4
+00:00:15,830 --> 00:00:22,160
+Claude Agent SDK. So this is giving us all the power of claude code within our own 
+
+5
+00:00:22,160 --> 00:00:27,670
+web applications. So the demonstrations we did was that we were able to create HTML 
+
+6
+00:00:27,710 --> 00:00:34,160
+pages, JSON documents, CSS files, make sure all the links go from page to page.
+
+7
+00:00:34,160 --> 00:00:35,710
+Now all the code is available. 
+
+8
+00:00:35,710 --> 00:00:39,670
+you can check it out in the repository. And if you want to join the community, we 
+
+9
+00:00:39,670 --> 00:00:44,190
+have more of a discussion and teachings each day on prompt engineering.
+
+10
+00:00:44,190 --> 00:00:48,710
+Now, if you're loving the power of BMAD in the next video, we're going to use BMAD 
+
+11
+00:00:48,990 --> 00:00:54,70
+Again. But this time we're going to recreate an orchestration framework, just like 
+
+12
+00:00:54,110 --> 00:00:58,990
+BMAD. We're going to call it POEM, which is the prompt orchestration and engineering 
+
+13
+00:00:59,30 --> 00:01:05,230
+method. And the whole idea of it is so that we can create and test prompts in a technique 
+
+14
+00:01:05,230 --> 00:01:09,350
+very similar toBMAD. I'm AppyDave, I'll see you in the next video.
