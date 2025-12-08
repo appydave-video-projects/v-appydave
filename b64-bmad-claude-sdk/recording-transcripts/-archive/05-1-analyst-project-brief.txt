@@ -1,0 +1,21 @@
+So we'll start off by having a fresh version of Claude and we'll put in a
+slash command and the one we're going to go with is analyst and analyst will load
+up Mary. Now there's a lot of things that Mary can do for this session mostly
+we're going to focus on creating a project brief but she's one of these
+agents that you can spend a long time in just doing all sorts of planning and
+research so let's have a look at what the plant so let's have a look at what
+brainstorming could look like so let's have a look at what brainstorming could
+look like so let's have a look at what brainstorming could look like by
+heading over to the documentation and we can see that the analyst agent can do
+things around general brainstorming market research competitor research and
+then at the end of it creating the project brief which is what we want to
+do right now but I said we'll use an existing file so what we'll do is we'll
+go over to my planning folder where I've got a project reference and this
+is my own personal boot up of how I think the application should work we'll
+have the Claude Agent SDK B-MAD method for self editing application so let's
+just take so let's just go back to Claude and we'll go create project brief
+so let's so we'll just go back to Claude code we're going to type in create a
+project brief by reading an existing so we just go back to Claude code and we'll
+have create a project brief by reading an existing document and if we put in
+the at sign we can start putting in project reference and we'll select it
+and we'll see what she can do with that particular document

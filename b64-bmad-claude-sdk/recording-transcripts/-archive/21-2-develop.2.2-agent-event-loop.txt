@@ -1,0 +1,62 @@
+So let's go and check out the flow that we did in conversation and you can see
+that we started off with the Scrum Master and we just asked Bob to draft
+story 2.2 and with the story created we can see that it's about doing the
+minimal event loop for communicating with the SDK and we can already see from
+the success criteria that we were able to send a message, see it logged and then
+see it displayed in HTML. Now the main file that we should see
+created is the agent create. Now the main file created will be the agent event
+loop and we've got this solid readiness score and we've also got a list of
+things that the developer could do but we'll notice at the bottom that it does
+suggest that we could use a validation. We don't really have to with this sort of
+story but I've run one so we look at Sarah the technical product owner and
+with that agent loaded into the conversation stream we can then
+we can then validate the next story. Now it's just comparing the story to other
+documents in the system, previous documents, goals, making sure that
+everything's in alignment. Everything's great there's one little yellow flag
+here so we'll go have a look at it. There's a slight little question here but
+we're not going to worry about it in the story because that but we won't worry
+about it in the story or rectifying it because the development agent will
+figure this out pretty easily and so next we just install the dev agent which
+is James and then click on the and then we can just run the develop story command
+and then we can just run the develop story command. As James gets all the work
+done it's all being marked off on the task list. The story document is being
+filled in along the way and we're seeing a little bit of a state change in the
+document just making sure that it's now ready for review. We see confirmation of
+what was either created or modified and this is all from the story as well and
+this was all listed in the story section and so with the code complete I just now
+need a plan of action written up for me so the story acceptance test is what
+will kick off. This is that new agent we created we've loaded it up Taylor is in
+place and we just run the create and we just run the create story acceptance
+test for 2.2 so a new document is created and that helps us understanding
+things like what are the new files or the modifications going on if we want
+to go and have a look at the code. A write-up of what the code is plus a
+little bit of key implementation details just to help just so that you can
+understand it a little bit easier. So we'll go and have a look at that
+document we've got the acceptance test guide with the prerequisites how to set
+it up and then we go straight into the human tests and we start all of this off
+by running this particular test where we saw the information coming through we
+saw the log messages coming through. Now you got to see the happy path now you
+got to see the happy path but that wasn't exactly how it happened we'll go
+and have a look at what happened when I went to test this part of the system
+but the idea was that if we put in hello can you help me that we would get some
+sort of clean response coming back from the server we'd get some sort of clean
+response coming back from the agent SDK. So if we go back to the conversation
+where that particular acceptance test was we'll go and see what actually
+happened. So what I did for the acceptance test 8 happy path is I pasted
+in the console log as you can see it with a little bit of a message saying
+that I don't see anything suggesting that this actually got all the way
+through. Now it said that it could say the issue it lists some information here
+but the main point is that it said that I probably needed to do a hard reset on
+the HTML. It said that I probably need to do a hard reset on the HTML so I did
+that and I started getting a response this was very good except what I was
+seeing was object object all the way through the response. So I just asked it
+was it expecting that that was all we were going to get because I didn't go in
+thorough enough reading the story to know whether I was going to get internal
+data or whether I was going to get clean data. It said no it's not right so
+went and made some modifications to the code. It first started by suggesting what
+those modifications were and then it made the changes automatically and that
+brings us to where we are at the moment where we can now put it where we can now
+put in a message we'll say what do you think would be a good application to
+build with the Claude SDK and we've got a conversation stream that makes a whole
+lot of sense remember that this agent is and remember that this agent is paired
+with a system prompt which is about building web applications.

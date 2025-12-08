@@ -1,0 +1,5 @@
+So that first 18 seconds is part of a chapter called the intro and if you look
+at a longer video that I've just done recently you can see that you can have
+lots of chapters going through and one of the challenges that we're trying to
+sort out with this particular update to the application is can we automatically
+figure out where the timestamps are.

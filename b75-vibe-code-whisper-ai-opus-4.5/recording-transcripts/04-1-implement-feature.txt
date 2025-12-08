@@ -1,0 +1,24 @@
+So I'm coming over to our product owner and I just want to check what functional requirements
+we have that are pending.
+There are a lot that are being done.
+And so he's reading from the backlog at the moment.
+And some of this may need to be cleaned up.
+I'm not sure whether they're being done or not.
+I've just been keeping them in the backlog.
+But the one we're interested in today is FR-30.
+And the first thing that we're going to do is ask it, can you create a handover document
+for the developer for FR-30, which is the video transcription requirements?
+And what we're doing is we're just letting that go into the conversation stream.
+And because this document and because this conversation should only be about reading,
+writing, and validating the requirements, when information needs to go to the developer,
+we give handover notes.
+You can see that one of the main documents that the PO was reading was this video transcription
+spec.
+This was a short conversation I had just before starting this video.
+Now we will go and read the video transcription spec in a moment.
+But this is essentially the handover document.
+And what we can do is just go up to the developer and say, can you implement something like
+that?
+And we'll just paste in that particular information.
+Now what should happen is the developer should start writing the code for us following the
+specification.

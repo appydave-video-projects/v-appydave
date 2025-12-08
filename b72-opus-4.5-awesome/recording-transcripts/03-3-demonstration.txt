@@ -1,0 +1,16 @@
+And I'm restarting and we can see that the video has been put into place here
+And so we can go back to our web application and unfortunately I have to type it each time
+This is something I wanted to auto calculate so it missed one aspect of the requirements
+But we'll put in the O1 this time. We'll put in 2. We are well
+We're not actually in the intro. We're in the demonstration. So I might call this demonstration instead and
+When we hit the rename button, we're expecting this video here
+To move to this location and it should just fit underneath. So let's hit rename and see what happens and
+it looks like it's created it and
+because
+This video was named wrong. I'm just going to go and rename it manually and this is the problem
+I'm trying to fix and this highlights the issue. I used to have where I had to manually keep changing days myself
+and we'll just be sure there's nothing in the Ecamm directory and it's only got the
+And it's only got the trailer
+And we'll just be sure it's been removed from Ecamm
+so we'll click over there and we've just got the original video that's always in that folder and
+Now I'll just stop the video and we should see it pop into the Ecamm live the recording that we're on right now

@@ -1,0 +1,7 @@
+So we're getting ready to set up BMAD. There's the BMAD install method which
+will run from the POM OS folder but before we do that let's just go over the
+documentation one more time. So we've got all this planning information. This is
+going to be the context that we're going to send to the business analyst agent in
+BMAD to start building out the application. Also I've got a whole lot of
+data scenarios that we can check out so if we look at it we've got information
+for support signal and information for the storyline application.

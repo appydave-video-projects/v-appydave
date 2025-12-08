@@ -1,0 +1,24 @@
+and what this is giving us is just a list of the chapters with the time codes
+that they actually happen at and we've got a little copy button we can click on
+that it's now in the clipboard the values that we can put straight into a
+YouTube description. Now wherever it's green it's got fairly good confidence
+that it's okay there's a few that are not okay so they would need to be
+manually checked. There's also some simple highlights that are actually
+accurate from a matching point of view but it's wondering why is it here purely
+because why is a video marked as number 40 showing up between 2 & 3. Now the
+reality is video 40 and video 41 were both done at the end as demonstrations
+and one of them was put towards the end it's the bigger demonstration the other
+one was put towards the beginning and so those red little so those red
+lightning are a bit of vision so these red so these red light so the red
+lightning is a visual indicator that something seems wrong it's matched okay
+but why is it in the wrong spot and this actually is the case this is not in the
+right position and the reason it's not in the right position is there were a
+bunch of scores that were all similar and it picked the later one one minute
+and five minutes when it should have picked one of these and we'll go into
+the confidence scores when we look at the requirements documents now one of
+the changes I want to make to this is the user experience because when I look
+at this I can't actually tell what I'm meant to do it's got all this scoring it
+says 90% it's from that time frame or 80% is from that time frame but I don't
+have any information on the decision points that got to 90% or 80% other
+than a little bit of tech so I personally believe a user experience
+upgrade is needed to this

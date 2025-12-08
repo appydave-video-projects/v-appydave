@@ -1,0 +1,5 @@
+So when we build the provider pattern what that will make available is that
+our system agent will be able to create connections to different applications
+like the support signal and the storyline application while the
+integration agent will be able to pull down data, pull down schemas or push
+prompts back up to those applications.

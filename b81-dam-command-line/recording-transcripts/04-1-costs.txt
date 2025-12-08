@@ -1,0 +1,4 @@
+Now the other thing to be aware of is if you're already dealing with this problem
+you may be aware of these particular tools but most people aren't. Most people
+are going to use a traditional cloud storage solution like Dropbox or Google
+Drive.

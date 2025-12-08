@@ -1,0 +1,12 @@
+So, to make an effective change to the technical considerations, we really need to understand
+what we're working with and so what POM is a foundational architecture.
+It's a framework, it's not an actual application.
+And as a specialized framework, similar to BMAD, we're going to be creating agents, templates,
+workflows, checklists, those sorts of documents.
+So BMAD will build software, POM will build prompts.
+So like BMAD Core, we're going to have the POM Core which is going to have a lot of similarities.
+What BMAD doesn't currently have is an application to visualize and communicate with.
+That's something new that we're going to add into this framework.
+And when you're using BMAD, you're either generating documents in the docs folder or
+you're generating code or where generally going to be building is documents to go into
+the POM folder.

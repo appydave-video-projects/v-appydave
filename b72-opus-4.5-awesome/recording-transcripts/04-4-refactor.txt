@@ -1,0 +1,12 @@
+So let's look at one of the functional requirements I just added and that was
+as a content creator when I finish recording a video it comes into the
+incoming list and it should also automatically increment the sequence
+number. So we'll head over to the web application and we can see that there is
+a video currently sitting in the ecamm folder and the sequence number is 3
+let's just check that 54 is the video that's correct and if we head over here
+we do want it to become number 3 so we'll come back to our tool and we'll
+just do a rename and hopefully we see a new video we do. Now the next test I want
+to do is around these two bugs that we had so I want to be able to delete
+videos of my hard drive and have the web interface automatically change also
+want to be able to delete it from the web interface and see the hard drive
+change

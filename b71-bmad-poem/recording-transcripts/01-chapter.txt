@@ -1,0 +1,12 @@
+BMAD method is this agent orchestration system that was created to allow you to build software
+effectively and efficiently using context engineering.
+
+It employs really powerful engineering principles and agents that run within AI
+coding environments like Claude Code, Codex or Cursor.
+
+For the last six months I've been using BMAD to build software but today what we're going
+to do is use it to build another orchestration framework with similarities to BMAD method.
+We're going to call it POM which is the Prompt Orchestration and Engineering method but essentially
+what it is is a prompt engineering operating system.
+
+Now before we switch over to building this system, let's turn over to Future Dave to see how it works.

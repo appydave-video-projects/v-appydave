@@ -1,0 +1,6 @@
+so here we have our minimum viable product scope the things that we're
+going to do the main thing is that we can install it on a new system that we
+can create and refine prompts that we should be able to add some handlebar
+helpers and some handlebar templates and once we have a final prompt created can
+we deploy it to an external application so we'll just press 1 and move on to the
+next step so we'll just press 1 and move on to the next section

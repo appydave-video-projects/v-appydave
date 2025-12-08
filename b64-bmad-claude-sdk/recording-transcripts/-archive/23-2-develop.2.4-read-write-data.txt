@@ -1,0 +1,6 @@
+So, let's go and test the read system. We've got our little products document and we've
+also got a broken document. And we'll just head over to our site and we'll say, can you
+get me a list of products? We'll send that to the agent. It's processing at the moment.
+I'll help you get a list of products first. Let's discover them. I've found some products.
+Let me read them. And it's got the file. And look at that. It's got the AppyDave on school.
+So it's got that file that we just updated.

@@ -1,0 +1,6 @@
+So from the beginning we'll embrace the idea of fake or simulated workflows,
+meaning that we don't have to have handlebars templates in place to get a
+templating system working. We don't have to have clawed skills in place to do
+some things that the large language model could infer, but later on when we
+have them it'll just be more... but later on when we have them everything will be
+a lot more predictable.

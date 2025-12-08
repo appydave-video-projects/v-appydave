@@ -1,0 +1,7 @@
+So if agents are doing the work for us and skills represent the capabilities or
+the tools that they have available, then workflows represent the idea of doing a
+standard operating procedure, some sort of system that they follow. So they may
+need to create a new prompt and there's a series of steps or a prompt is being
+used in the system and we need to refine it or once we've done that we need to
+deploy it from this prompt engineering operating system to the actual
+application.

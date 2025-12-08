@@ -1,0 +1,10 @@
+Now, with Story 2.6, our conversational bot is now starting to get really powerful.
+So what we'll do is we'll start off with a simple question and that's what HTML files
+exist in the public directory.
+Now this is one of the Story acceptance tests, it's the first one, and there's going to be
+a whole lot of prompts that we can run through and see what it can do.
+And you can see here it's saying that there are currently no HTML files in the public
+directory.
+And if we head down to VS Code we can confirm that.
+So we've got our data directory from the last session available, but in the server when
+we click on public there's nothing there right now.

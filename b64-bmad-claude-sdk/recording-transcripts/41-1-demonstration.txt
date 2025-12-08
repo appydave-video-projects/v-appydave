@@ -1,0 +1,12 @@
+Now we have our chat application created using the BMAD method. It's got the
+Claude SDK as a backend. Some of the capabilities is that at the moment we're
+seeing no pages but as we add pages they'll appear automatically. There's
+also an activity log showing every file that's coming through. There's also an
+activity log showing every file coming through. So if we just start off with our
+first creation we're going to create five bookstore products. We've set the
+price as one of them is out of stock and it's created a file and automatically
+updated the products. Now it's created a file and automatically created products.
+We can see five products created here. Next we'll create a
+products HTML file. Now as that comes through it should automatically update
+this to show one product at which point we'll be able to click on it and see a
+menu.

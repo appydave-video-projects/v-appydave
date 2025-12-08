@@ -1,0 +1,6 @@
+So let's get back to our requirements and the way they were originally written
+is not correct for us. So I'm just going to start with a simple instruction here
+which is to let it know that it's using the... which is just to let it know that
+it's using the wrong abstractions and then what we'll do... and then what we'll
+do is just take a copy of our updated requirements that are also broken down
+in the right sort of abstractions. Come back to our conversation and we'll paste that in.

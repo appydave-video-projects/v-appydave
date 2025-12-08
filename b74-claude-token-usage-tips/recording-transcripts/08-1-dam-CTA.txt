@@ -1,0 +1,5 @@
+Now, if you're actually interested in seeing more about the digital asset management tool
+and how it runs from the command line and how we can hook it up to Claude's skills,
+then check out the video that's just here.
+It's a tool that I created for myself to cut a lot of my Dropbox costs because essentially
+what it does is it allows me to send videos between me and my video editor and backwards.

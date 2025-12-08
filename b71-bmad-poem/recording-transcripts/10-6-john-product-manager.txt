@@ -1,0 +1,8 @@
+So the main problems in the functional requirements at the moment is the
+description of the agents and the technical plumbing. So what we want to do
+is make sure that there's conceptual groupings along the ideas that we have
+four different agents. We have the prompt engineer, then we have the system
+integrator which will talk to a backend service written in Astro and handlebars
+and then on top of that we'll have the integration agent that can talk to any
+external system and lastly we'll have a testing framework basically the idea of
+sending mock data through our prompts to produce outputs.

@@ -1,0 +1,6 @@
+So one of the big problems I'm dealing with is digital asset management or really it's
+distributed digital asset management because there's multiple people in multiple regions
+because what happens on a daily basis is I might be recording a video that's going to
+have different segments and chapters, it's going to be combined together, then it's going
+to be uploaded so that a video editor can download it, work on it, make the changes,
+and then lastly I download it so then it can be published to YouTube.

@@ -1,0 +1,15 @@
+Now at the moment on my Ecamm Live downloads directory I have two video recordings in place,
+they're both quite big and the one that we had earlier for 122 megabytes is not really
+part of the intro of this video but it's more of a scenario.
+So what I'm going to do is I'm going to come up here and create a new chapter, it's going
+to automatically become chapter 2 and it's going to reset the sequence to number 1.
+Now I don't have any predefined areas called scenario because if I click on that this will
+just fill it in but I can type in whatever I want so we'll type in the word scenario
+here, bring up our folder structure and we'll just do a rename of that and it moves over.
+Now it asks me do I want to delete remaining files and in this particular case I want to
+say no, normally I would have a few bad tates, I want to get rid of them but this particular
+file here is also part of the same scenario so I'm just going to press rename one more
+time and so now I've got two videos in chapter 2 on scenario already recorded.
+Now what I'd like to do is maybe do a little bit of vibe coding right now just to fix a
+little problem.
+So I'm just going to hit save.

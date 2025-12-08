@@ -1,0 +1,7 @@
+So it's come up with six brands that's actually correct and if we were to run
+it the same command again in another Claude code window what we should get is
+similar information it might not be formatted the same way and as you can see
+it's actually a little bit slow because it's got to go and read files all over
+the system and figure things out and that's actually costing a lot of context
+and so the second question exactly the same in a different window does return
+the correct information but as you can see it's totally different formats

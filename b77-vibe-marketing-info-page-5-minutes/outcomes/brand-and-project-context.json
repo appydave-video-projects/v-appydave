@@ -1,0 +1,341 @@
+{
+  "brand": {
+    "name": "AppyDave",
+    "owner": "David Cruwys",
+    "title": "AI Strategist",
+    "focus": "Context Engineering",
+    "tagline": "Architecting knowledge, prompts, and AI interactions as strategic assets",
+    "manifesto": {
+      "name": "The 555 Manifesto",
+      "commitment": "555 videos over 55 weeks across 5 channels",
+      "philosophy": "Creating at scale without losing your soul",
+      "videos_created": "600+",
+      "created_year": 2023
+    },
+    "evolution": {
+      "previous_focus": "n8n workflows, Agent Workflow Builder, low-code automation",
+      "previous_framework": "S.C.A.L.E. System",
+      "current_focus": "Context Engineering"
+    }
+  },
+  "design_system": {
+    "colors": {
+      "brand_brown": "#342d2d",
+      "brand_gold": "#ccba9d",
+      "brand_yellow": "#ffde59",
+      "blue_accent": "#2E91FC",
+      "light_gray": "#595959",
+      "white": "#ffffff"
+    },
+    "color_usage": {
+      "headers": "#342d2d background with white text",
+      "hero_sections": "#ccba9d background",
+      "cta_buttons": "#ffde59 background with #342d2d text",
+      "dark_sections": "#342d2d background with white text",
+      "content_cards": "white background with subtle shadows"
+    },
+    "typography": {
+      "h1": {
+        "font": "BebasNeue",
+        "usage": "Large display text for hero sections"
+      },
+      "h2_h6": {
+        "font": "Oswald",
+        "transform": "uppercase",
+        "usage": "Progressive size scaling"
+      },
+      "body": {
+        "font": "Roboto",
+        "weight": "regular",
+        "elements": ["p", "ul", "ol", "a"]
+      },
+      "buttons": {
+        "font": "BebasNeue",
+        "style": "bold"
+      }
+    },
+    "name_styling": {
+      "format": "AppyDave (single word, no space)",
+      "font": "BebasNeue",
+      "coloring": {
+        "light_backgrounds": {
+          "appy": "#ccba9d",
+          "dave": "#ffde59"
+        }
+      }
+    },
+    "layout": {
+      "container_max_width": "1260px",
+      "mobile_padding": "10px",
+      "desktop_padding": "40px",
+      "section_spacing": {
+        "mobile": "40px",
+        "desktop": "100px"
+      },
+      "border_radius": {
+        "standard": "4px",
+        "special": "10px"
+      }
+    }
+  },
+  "brand_structure": {
+    "owned_brands": [
+      {
+        "name": "David Cruwys",
+        "type": "Personal/umbrella brand"
+      },
+      {
+        "name": "AppyDave",
+        "type": "Primary business brand",
+        "focus": "Context Engineering, BMAD Method"
+      },
+      {
+        "name": "AITLDR",
+        "type": "Secondary content brand",
+        "focus": "AI graphics, animations, storytelling, avatars, faceless YouTube",
+        "operated_by": "Mary",
+        "owned_by": "David + Daniel"
+      }
+    ],
+    "partner_brands": [
+      {
+        "name": "Beauty & Joy",
+        "type": "Joy's personal brand"
+      }
+    ],
+    "client_brands": [
+      {
+        "name": "SupportSignal",
+        "type": "NDIS application",
+        "status": "Primary client"
+      },
+      {
+        "name": "vOz",
+        "type": "Creative content",
+        "contact": "Vasilios Kapenekas"
+      }
+    ]
+  },
+  "content_pillars": {
+    "umbrella": "Context Engineering",
+    "total_active": 10,
+    "pillars": [
+      {
+        "id": 1,
+        "name": "BMAD Method",
+        "priority": "critical",
+        "description": "Business Management and Development methodology",
+        "content_focus": "YouTube to Skool community content creation"
+      },
+      {
+        "id": 2,
+        "name": "Agent Workflow Builder",
+        "priority": "active",
+        "description": "Multi-agent workflow system with human-in-the-loop",
+        "integration": "Motus for virtual employees"
+      },
+      {
+        "id": 3,
+        "name": "FliVideo",
+        "priority": "critical",
+        "description": "Video Asset Management for YouTube creators",
+        "workflow": "YouTube Launch Formula (30-step workflow)"
+      },
+      {
+        "id": 4,
+        "name": "Storyline App",
+        "priority": "active",
+        "description": "Video content management and storyline development",
+        "content_focus": "Dev chronicles to YouTube videos"
+      },
+      {
+        "id": 5,
+        "name": "Klueless",
+        "priority": "exploration",
+        "description": "Ruby-inspired DSL meta-language for LLMs",
+        "output": "Converts structured inputs to JSON for AI workflows"
+      },
+      {
+        "id": 6,
+        "name": "Project Theodore",
+        "priority": "future",
+        "description": "AI companion concept (movie 'Her' inspiration)",
+        "features": "Always-on voice recording + transcript agents"
+      },
+      {
+        "id": 7,
+        "name": "Context Engineering",
+        "priority": "critical",
+        "role": "umbrella",
+        "description": "The philosophy and methodology that underpins everything",
+        "applications": ["AWS", "Claude Code", "Prompt Engineering"]
+      },
+      {
+        "id": 8,
+        "name": "Building Beauty & Joy",
+        "priority": "new",
+        "description": "Teaching BMAD Method through building Joy's brand",
+        "type": "Case study using Context Engineering"
+      },
+      {
+        "id": 9,
+        "name": "Skool Community Building",
+        "priority": "new",
+        "description": "Building successful Skool communities using BMAD/Context Engineering",
+        "focus": "Content and downloadable asset creation"
+      },
+      {
+        "id": 10,
+        "name": "Dent/KPI Systems",
+        "priority": "new",
+        "description": "Brand development using Dent Global's Key Person of Influence framework",
+        "application": "Implementing Context Engineering for brand strategy"
+      }
+    ],
+    "archived": [
+      {
+        "name": "Trend10",
+        "description": "Content platform on emerging trends"
+      },
+      {
+        "name": "KoziKafe",
+        "description": "Physical café + content automation demonstration"
+      }
+    ]
+  },
+  "flivideo_project": {
+    "name": "FliVideo",
+    "type": "Video Asset Management (VAM) System",
+    "target_audience": "YouTube content creators",
+    "repository": "/Users/davidcruwys/dev/ad/flivideo",
+    "stages": {
+      "stage_1": {
+        "name": "Pre-production",
+        "status": "not_implemented",
+        "description": "Planning stage"
+      },
+      "stage_2": {
+        "name": "Recording",
+        "status": "implemented",
+        "description": "Recording workflow",
+        "implementation": "flivideo-namer"
+      },
+      "stage_3": {
+        "name": "Editing",
+        "status": "future",
+        "description": "Editor brief generation"
+      },
+      "stage_4": {
+        "name": "Publishing",
+        "status": "implemented_elsewhere",
+        "description": "AI publishing automation",
+        "location": "agent-workflow-builder"
+      }
+    },
+    "flivideo_namer": {
+      "location": "/Users/davidcruwys/dev/ad/flivideo/flivideo-namer",
+      "type": "TypeScript monorepo",
+      "architecture": {
+        "client": {
+          "framework": "React 19",
+          "build_tool": "Vite",
+          "styling": "TailwindCSS v4",
+          "communication": ["REST API", "Socket.io"]
+        },
+        "server": {
+          "framework": "Express",
+          "realtime": "Socket.io",
+          "file_watching": "chokidar",
+          "port": 5101
+        },
+        "shared": {
+          "content": ["TypeScript types", "utilities"]
+        }
+      },
+      "commands": {
+        "install": "npm install",
+        "dev": "npm run dev",
+        "build": "npm run build"
+      },
+      "features": [
+        "Watch for new recordings from Ecamm Live",
+        "Web UI for naming/organizing files",
+        "Project asset management",
+        "Image asset management",
+        "YouTube thumbnail management"
+      ],
+      "naming_convention": {
+        "format": "{chapter}-{sequence}-{name}-{tags}.mov",
+        "chapter": "2 digits (01-99)",
+        "sequence": "1+ digits",
+        "name": "kebab-case descriptive name",
+        "tags": "optional uppercase tags (CTA, SKOOL)",
+        "example": "10-5-intro-CTA.mov"
+      },
+      "project_structure": {
+        "recordings": "Named video recordings",
+        "safe": "Protected recordings (won't be deleted)",
+        "assets/images": "Assigned image assets",
+        "thumbs": "YouTube thumbnails"
+      }
+    },
+    "team_structure": {
+      "project_manager": {
+        "name": "David (AppyDave)",
+        "role": "CEO / Human in the loop"
+      },
+      "product_owner": {
+        "command": "/po",
+        "role": "Requirements & Documentation",
+        "responsibilities": ["Gather requirements", "Write FR/NFR specs", "Maintain docs"]
+      },
+      "developer": {
+        "command": "/dev",
+        "role": "Implementation",
+        "responsibilities": ["Implement features based on specs", "Provide handover notes"]
+      }
+    }
+  },
+  "legacy_framework": {
+    "name": "S.C.A.L.E. System",
+    "pillars": [
+      {
+        "letter": "S",
+        "name": "Structured Prompts",
+        "description": "Prompt engineering and reusable prompt assets"
+      },
+      {
+        "letter": "C",
+        "name": "Crafting Workflows",
+        "description": "Design → Configure → Implement methodology"
+      },
+      {
+        "letter": "A",
+        "name": "Agent Design",
+        "description": "Human-in-the-loop AI interfaces"
+      },
+      {
+        "letter": "L",
+        "name": "Low-Code Stack",
+        "description": "Tool integration and automation platforms"
+      },
+      {
+        "letter": "E",
+        "name": "Empowerment",
+        "description": "Scaling influence and operations"
+      }
+    ],
+    "status": "legacy",
+    "note": "Originated in automation era, continues to inform Context Engineering approach"
+  },
+  "metadata": {
+    "generated": "2025-12-04",
+    "source_files": [
+      "/Users/davidcruwys/dev/ad/flivideo/CLAUDE.md",
+      "/Users/davidcruwys/dev/ad/appydave-brand/CLAUDE.md",
+      "/Users/davidcruwys/dev/ad/appydave-brand/design-system/brand-guide.md",
+      "/Users/davidcruwys/dev/ad/appydave-brand/docs/555-manifesto.md",
+      "/Users/davidcruwys/dev/ad/content-pillars/README.md"
+    ]
+  }
+}

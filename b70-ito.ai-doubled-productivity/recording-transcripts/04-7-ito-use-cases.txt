@@ -1,0 +1,12 @@
+So for the next example I'm going to press control and the function key and
+what's going to happen is anything I say will go through a large language model
+before it gets written into the text box and since on the AI TLDR channel we do a
+lot of movie making one of the things that we've got to do is create scripts
+so let's see how it can go with just a simple statement. I need to create a
+story about a day in the life of a woman and her cat in New York it should be six
+scenes and it should be visually descriptive so that we can build nice
+visual animations around it and I just let it go and we see what it types for
+us so now we've got a whole lot of information being made available I might
+just submit that straight in now I don't have to do that of course in chat GPT
+because that's the goal of using a tool like that but the great thing is if you
+were doing an email it could pre-write a lot of the email for you

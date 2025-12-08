@@ -1,0 +1,7 @@
+Now our product requirement document is complete. We've got a folder that it's
+been put into as PID, it's for the POM system and what we know about it is that
+it's got seven epics, we've got 40 stories, a bunch of functional and
+non-functional requirements and we can see that mostly it'll be done in six
+epics and the seventh epic might be done after the application is built and the
+seventh epic might be more a testing of the application framework itself. Now
+next we move on to the architecture phase which is Winston.

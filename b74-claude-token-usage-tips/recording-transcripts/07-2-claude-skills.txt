@@ -1,0 +1,4 @@
+So what we'll do is we'll head over to a clean Claude code and we'll just ask a simple question
+can you tell me anything about the brands that I've got.
+Now what I'd probably do is go off to my file systems because of various Claude MD files,
+look through our ontologies and come up with some sort of answer.

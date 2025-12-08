@@ -1,0 +1,26 @@
+so it's read in the brief I've read it everything seems okay to me so I'm just
+going to press 1 and continue on that notice as it goes it creates a change
+log so we've got version 1 which is the initial PRD created from the project
+brief and now we get into the hearts of what a product requirements document is
+we're coming up with the functional requirements as we go so FR1 would be
+the first functional requirement so it's listing all the basic capabilities
+that this application is going to do and then after that it does the non
+functional requirements which is all abstractions or ideas that the system's
+going to work on such as the line limit on the server the fact that we're going
+to use Claude auth to log into the system now like with the interactive mode
+with product brief we could just move on to the next section but it's got a
+couple of areas needing validation is 200 lines realistic and should we have
+pre-built examples so I'm just going to make a simple adjustment here it says
+the 200 is a suggestion what I'm trying to do is have the actual event loop of
+the agent be fairly small and contained there's not a lot that you need to do
+there but this is a guideline it's not a limit at all what I wanted to ensure
+that it does is not create complex structures as it builds out this system
+because there's nothing complex about the Claude code event loop the other
+thing I wanted to do is not general the other thing I wanted to talk about is
+this area or should we have a pre-built example application no we shouldn't this
+is all vibe coding that we're going to ask people to do but we may actually
+create some examples later on so we'll just press the enter on that and so the
+functional requirements have been updated we've removed a concept and
+we've done slight updates and so this is a lot more important than in the brief
+to get this right so we'll move on to the next step but the idea is that this
+is what's actually going to get built

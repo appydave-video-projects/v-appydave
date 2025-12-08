@@ -1,0 +1,13 @@
+So let's just get straight into coding or at the very least understanding the
+agents we're going to work with. So I'm just in the flyvideonamer project at the
+moment and I'm going to run Claude in dangerous skip permissions which means
+that it won't ask me if it needs to change any files or run any sort of
+command. I will also just kick off this little starter prompt just to find out
+what information is in our Claude MD. Now for the last couple of days the whole
+conversation for writing requirements has been down here in the bottom right
+hand corner but it's very unstructured but it's very unstructured and the reason
+for that is that I didn't want to use any context engineering I just wanted to
+find out what the Opus 4.5 model could do and it is exceptional but now that
+the application is getting a little bit bigger but now that the application is
+getting a bit more complex I would like to have a bit of structure and maybe a
+couple of agents.

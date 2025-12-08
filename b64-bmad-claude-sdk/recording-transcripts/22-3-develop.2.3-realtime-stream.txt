@@ -1,0 +1,5 @@
+We'll try a different version where we're testing of reading the package.json we've
+got I'll help you read the package.json so we see chunk 0 coming through
+right here it will now do an analysis and now it'll do an analysis MD and then
+we see it come through and we can see the three chunks coming through over in
+the console.

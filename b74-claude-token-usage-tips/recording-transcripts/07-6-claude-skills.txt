@@ -1,0 +1,13 @@
+Now from an efficient context point of view, what was really nice about creating these cards as an example
+was that I had all the data at hand in a couple of different ways.
+So if we go down to our conversations, I essentially had the conversation that I'd used to build the other flip cards
+and I just started talking inside of it.
+And the first thing I did was take all the information that had come from the conversation we just had
+where we saw the skills being used.
+And then what I did was I just loaded it up with extra information being everything I've actually said in this chapter
+and that was really simple because we have a tool that I've been building for the last week
+and what it can do is show me everything that I've said in this chapter.
+So I just went and clicked on the copy button and you can see it starts with the word
+let's move on to the new optimisation and I just pasted it.
+And you can see it starts with the words let's move on to the new optimisation
+and I just pasted it straight into the conversation verbatim.

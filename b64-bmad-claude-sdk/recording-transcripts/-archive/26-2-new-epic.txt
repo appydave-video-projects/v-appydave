@@ -1,0 +1,12 @@
+So one of the things that we have to do before we actually start the first story
+for epic number three is we just need to do a little bit of a retrospective so
+I've got a basic question just asking it to think about what it would need to do
+a retrospective and it's come up with a long list of tasks that it should
+perform to build up that particular document. I've specifically told it to
+think deeply and I've also given it as much time as it needs to do a detailed
+job and so it goes through and it writes this long document and we don't have to
+read the document but I think one of the key points here is that it also has
+recommendations for epic 3 so whenever we're doing a story in epic 3 it'll
+have information here that it can pull on it will have information here that it
+can pull on to help do a better story it will have information from here that
+it can pull on when generating the stories for epic 3

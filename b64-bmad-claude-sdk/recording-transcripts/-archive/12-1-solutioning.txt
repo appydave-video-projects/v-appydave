@@ -1,0 +1,12 @@
+Now you can see that the architecture is complete and it's suggesting that we're
+ready to go into the first epic but what we're going to do is just prepare the
+files a little bit so we'll exit out and we'll clear our system and go back into
+Claude. Now I'm just going to go into the PM and we're just going to ensure that
+we've still got alignment between the PRD and the architecture because PRD was
+created before the architecture. So I've just told John the PM to check that the
+architecture document and the PRD are in alignment. Main thing I want to ensure is
+that the PRD is still in the right order based on the architecture. I also want to
+see if any of the stories or the epics or anything needs to change based on
+what we did with the architecture. If you're using version 6 of the
+BMAD method this is called Solutioning. It's just something I tend to do
+manually because I found it effective in the past.

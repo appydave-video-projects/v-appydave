@@ -1,0 +1,14 @@
+So, it's written the high level architecture, now this is a wall of text, so what we're
+just going to do is copy it, and so we'll just make that a little bit more visual and
+I'm just pasting it into this prompt that started with the phrase, here is the wall
+of text, can you just simplify it, make it easier to see.
+So we can go and click on this file and this is what it looks like, we've got the poem
+technical summary, the main idea is that we're going to have the core with our agents, workflow,
+skills and a second brain, it's called knowledge base, and we're also going to have the application
+which will be an Astro server with handlebars engine, there'll be two communication areas
+here, there'll be either the APIs both internally for templates or externally for prompts or
+providers, but also plan to do a lot of visual testing of prompts within this area, and then
+we've got PIME which is where you would put your own files, so this is where your own prompts,
+schemas and mappings are planning to go, we can see some of that all listed here in the key services
+that it will also just be a node application running on the system and this is how the
+repository should work and also how we should be able to install it.

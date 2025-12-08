@@ -1,0 +1,47 @@
+So let's move on to a new optimization out there and that's using Claude skills
+and this is not only good for context but this is an incredibly powerful tool
+as well.
+
+So what we'll do is we'll head over to a clean Claude code and we'll just ask a simple question
+can you tell me anything about the brands that I've got.
+Now what I'd probably do is go off to my file systems because of various Claude MD files,
+look through our ontologies and come up with some sort of answer.
+
+So it's come up with six brands that's actually correct and if we were to run
+it the same command again in another Claude code window what we should get is
+similar information it might not be formatted the same way and as you can see
+it's actually a little bit slow because it's got to go and read files all over
+the system and figure things out and that's actually costing a lot of context
+and so the second question exactly the same in a different window does return
+the correct information but as you can see it's totally different formats
+
+So let's try this one more time we've got the same question but we're just
+going to put a little bit extra on the end we're just going to say using DAM and
+we'll let that kick off and see what it does and you can see based on the
+context that it's got some brand structure but it's also started to kick
+in something called a skill and skill involved here is DAM which is for digital
+asset management system and what it's doing is running a tool that's written
+in the Ruby programming language in this case and returning actual data from the
+hard drive in a formatted fashion along with information from S3 drives.
+
+And so this is now opening up a world of opportunity, like if we look at the application I've been
+building this week, which is the Recording Namer, it's taking these recordings and putting
+them into different projects, we can see a bunch of projects that I've got going at the
+moment.
+Now, if we just go back to the terminal here and we'll put in, and we'll just use a voice
+agent this time and we'll say, can you tell me what projects are going on at the moment
+for Appy Dave?
+And we'll let that come through and we'll just press enter.
+And hopefully what it's going to do is use the skill again and it's essentially probably
+going to use something like that command.
+And we can see that it is and look at that, it's just returned some information.
+So it's got a bunch of projects come through and we know it's live data because the project
+we're working on right now is actually listed there.
+And because behind the scenes it is a command line tool, we can do much more interesting
+stuff.
+So this is project code B74.
+So we'll ask a question, what can you tell me about project B74?
+We'll let that go through.
+We'll just press enter on this and hopefully it's going to use maybe the discover command.
+There's a couple of commands it could use.
+Looks like it's going to use the status command for Appy Dave project B74.

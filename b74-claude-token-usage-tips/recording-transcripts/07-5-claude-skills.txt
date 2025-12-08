@@ -1,0 +1,21 @@
+And so this is now opening up a world of opportunity, like if we look at the application I've been
+building this week, which is the Recording Namer, it's taking these recordings and putting
+them into different projects, we can see a bunch of projects that I've got going at the
+moment.
+Now, if we just go back to the terminal here and we'll put in, and we'll just use a voice
+agent this time and we'll say, can you tell me what projects are going on at the moment
+for Appy Dave?
+And we'll let that come through and we'll just press enter.
+And hopefully what it's going to do is use the skill again and it's essentially probably
+going to use something like that command.
+And we can see that it is and look at that, it's just returned some information.
+So it's got a bunch of projects come through and we know it's live data because the project
+we're working on right now is actually listed there.
+And because behind the scenes it is a command line tool, we can do much more interesting
+stuff.
+So this is project code B74.
+So we'll ask a question, what can you tell me about project B74?
+We'll let that go through.
+We'll just press enter on this and hopefully it's going to use maybe the discover command.
+There's a couple of commands it could use.
+Looks like it's going to use the status command for Appy Dave project B74.

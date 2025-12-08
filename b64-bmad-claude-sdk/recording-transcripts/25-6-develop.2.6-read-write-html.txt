@@ -1,0 +1,9 @@
+So we'll go with the idea of can it delete widgets from the test products
+table, the JSON document. Can we also go to the AITLDR CSS and we'll start
+changing the colors to be a light pink, blue and yellow. We'll send that through
+to the agent. We should see it coming down the bottom here. So currently it's
+doing a search broadly for the CSS files. It's found them. It's now going to read
+the full content from them. It's found widget A, B and C which it's going to
+remove from the JSON. Then it's going to go and update the CSS and it looks like
+it's done that. And what we'll do is click on AITLDR and look at that we've got
+Brut, we've got pinks, blues and yellows and we've removed the three widgets.

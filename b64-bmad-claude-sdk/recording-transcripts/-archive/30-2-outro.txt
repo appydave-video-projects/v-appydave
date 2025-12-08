@@ -1,0 +1,6 @@
+Now if you're loving the power of BeMAD, in the next video we're going to use
+BeMAD again, but this time we're going to recreate an orchestration framework
+just like BeMAD. We're going to call it POM, which is the Prompt Orchestration
+and Engineering Method, and the whole idea of it is so that we can create and
+test prompts in a technique very similar to BeMAD. I'm Happy Dave, I'll see you in
+the next video.

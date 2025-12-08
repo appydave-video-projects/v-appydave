@@ -1,0 +1,9 @@
+So at this point we're right at the very end of the epic so number one is done
+we've done stories one two three and four from the epic now at this point we
+might want to do a retrospective this is something that you would do in agile
+development I recently talked about that in a video so this video here how to
+make your AI coding partner smarter was an AI retrospective that I did a few
+months ago on BMAD this has now been implemented into BMAD so you'll see that
+in the version 6 once that's available otherwise you can watch this video to
+see how it works but for today we'll end that and then move on to epic but for
+now we will just move straight on to epic number two

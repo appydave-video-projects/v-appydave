@@ -1,0 +1,22 @@
+restart the video and show that this part is also part of the scenario so in
+theory I could do a rename but what I'd like to know is how long is that in
+seconds. Now to make the modification to this using Vibe coding I'm using a tool
+called Claude code so what I've done is just gone down to the base folder on my
+computer where this application is running and I'm just going to type in
+Claude and in my case I'm going to turn on the dangerously skip permissions
+which means it has full control of my system if it wants it and I'm just gonna
+ask it a simple question what are we doing here in this folder and you can
+see that it's got a couple of folders and these folders are nearly two years
+old of this particular application in its earlier form and I used the
+requirements that were in there the other day to build the application we're
+about to see so I'm now asking it what is going on in the file name of folder
+and you can see here that it's some sort of React and Node.js application that's
+been built it's watching the Ecamm live directory now this could be configured
+for something like OBS if that's the streaming software you're using then
+there's this idea of dealing with thumbnail images for my videos images
+for b-rolls so when I did this symbol so when I pointed to the screen here
+what was happening was an image was generated and it was just going to get
+put into that particular location but for now what I think we want to do is go
+and change the little capability but for now but for now what I want to do is
+come back to this and put in a little capability into the application so if we
+come over to this little

@@ -1,0 +1,11 @@
+So that brings us to the end of EPIC 2 and what we can now do is we can add
+products or any sort of data that we like we can update it we can also play
+around with HTML, CSS, JavaScript and we could call this a complete application
+but if we look at what EPIC number 3 is going to be about we'll be able to give
+the chat interface a much needed upgrade and we'll do it by going to react we'll
+use and we'll do that by going to react where we'll use Vite, ShadCN, Tailwind, CSS
+and we'll use the Versel AI elements to give a really clean chat interface. Now
+it's a fairly simple EPIC we're going to initialize the react application then
+we're going to install the ShadCN and configure Tailwind CSS then we'll build
+the chat interface again using Versel AI elements and lastly we'll implement a
+simple dark mode, light mode, total.

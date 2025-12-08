@@ -1,0 +1,22 @@
+So, with our chat agent set up to story 2.6, we'll just put in a simple prompt that says
+can you create a HTML page for Appy Dave?
+And along with that question, I'll just paste in a little bit of information I just copied
+from my website and we'll press enter and see what it does with that.
+Now you'll notice as it's building it that we've got this concept down the bottom of
+pages, so I've also added a little menu to the bottom of the chat box to show any public
+pages that have been created.
+So it's just come back with I'll create a HTML page, let me check, I'll create it and
+it looks like a bunch of stuff's been created.
+And we can see this little index, let's click on that and see what we get.
+We've got Appy Dave and this is actually a whole lot of information from my main website.
+We'll just pop over and have a look at that and we can see Master AI and Prompt Engineering,
+different projects and down the bottom different channels.
+So if we come through and look at it here, it looks like it's all the same information.
+So that's all been copied over really quickly.
+Now behind the scenes, all it's done is created this little HTML file for us and it's put
+all the colors in there.
+Let's see if we can do something a little bit more complex.
+Let's see if we can do something a little bit more complex and we'll do a prompt that
+it says, can you create a HTML page called cat-dog and do it talking about a pet store
+that is about cats and dogs and let's go with the colors of brown, yellow and green.
+So we'll just let this prompt come through as soon as it's typed in.

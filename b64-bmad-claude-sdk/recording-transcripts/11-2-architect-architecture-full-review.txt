@@ -1,0 +1,54 @@
+Now we've got a two and a half thousand line document created it's quite
+extensive if we jump over to VS code and look at it we can see it's got concepts
+like the high-level architecture we've got diagrams being generated we can see
+that the plan is for the user to interact with the browser and for that
+to talk to the agent event loop the agent event loop should then be doing
+any tool calling that it needs to do and returning information back to the
+chat GPT stream we've got the ability to write different files as we go whole
+lot of architectural patterns we've got the defined tech stack very extensive
+data models are defined and clearly written out and clearly written out
+using TypeScript we've got the API in place for dealing with socket IO very
+minimal endpoints we've got a health check and we're also got a location for
+any static HTML that we generate then we move on to the components from the
+server back end we've got the agent event loop or the core logic with the
+agent SDK we've got some custom tools coming in or utilities we've got the
+custom tool utilities which are integrated into the SDK right here then
+we move into components related to the front end and how it communicates with
+the back end because the shape of data on both the front and the back end can
+be the same we've got a shared types to transport that data and then we get a
+visualization of the components on both the front end and how they communicate
+through to the back end and we can see a little bit of where the shared
+components meet now we've got a sequence diagram that's showing us the way data
+flows through the system and this is based on the happy path meaning what
+happens when nothing goes wrong we've then got examples of the tool
+invocation this is the writing of JSON then the error handling workflow so this
+is the unhappy workflow now the thing with web sockets is that they can stop
+working so we've got a reconnection workflow coming through and examples of
+if I had the product catalog working what it would all look like the writing
+of the product JSON as an example then it talks about database schema well we
+don't really have one but we do have a storage architecture it's just going to
+be files and samples of what in this case products could look like blog posts
+and the configuration for the system and just how the files are going to be laid
+out then it's documenting what we're not going to have so we don't have schema
+validation we don't have index and performance sorted out we're not using
+caching we'll just the data that we store will just be version controlled in
+github then we've got a full list of what the front end architecture is going
+to look like followed by component templates so when it needs to write a
+component it can use the component template to start there we got the state
+management architecture up on the client so this is examples of how the client
+can talk to the back end and this is all being listed through here we've got the
+routing organization now remember we don't have a router this is just a
+single-page application but we do have concepts like dealing with static HTML
+and then we've got the services of how the front end is going to communicate
+with the back end then we move on to the back end architecture we've got the
+files that plan to be created we've got an example template for what a controller
+could look like storing of data will use the repository pattern but it'll be
+file-based repositories but it'll be file-based persistent and then we've
+got authentication and authorization flows which is really just the clawed
+authentication for the SDK kicking in simple little middleware guard but
+generally we don't have any authentication going on and then we've
+got the full unified project coming through right here so with all this
+information done the next thing to do is just to confirm that our PRD that
+we've created is actually going to match with the architecture that we've got
+now in version 6 of be mad method they have a section called solutioning which
+takes care of that but we'll do it manually today

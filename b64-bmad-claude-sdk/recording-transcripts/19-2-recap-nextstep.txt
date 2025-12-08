@@ -1,0 +1,6 @@
+Now next up we're going to work on EPIC 2 which is the Claude agent SDK and what
+that's going to allow us to do is put the equivalent of Claude code into our
+server. So all the sorts of stuff you've seen me doing with Beamad which is
+creating code, writing documents, doing research. Hopefully we can do that from
+our own application so that we can build HTML pages and we can generate product
+and blog post content.

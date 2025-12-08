@@ -1,0 +1,27 @@
+So let's go through what this application can do and maybe along the
+way fix a few things and I think the first thing we need to fix is that the
+last recording that you just saw me doing is 122 megabytes in length and
+it's actually got a lot of errors in it. I was pausing, re-recording, pausing,
+re-recording and that's not a normal workflow for me. I don't like having to
+do that because I really don't like doing video editing. I like to solve the
+problems in pre-production, not in post-production and this is where Ecamm
+Live has become such a beneficial piece of software. If I want to change my
+scenes like to this one, I just go down to the stream deck, I press it, I want to
+go back to the scene that we were just looking at. It's really quick, you're
+seeing animations, there's absolutely no editing going on in this. But where Ecamm
+Live falls down for me is when it records, when it saves a file to the
+hard drive it does it as a date time stamp. Now what I really want to do is
+put it into a chapter, maybe I'm recording the introduction so that's
+chapter one and maybe there's going to be a few parts to the introduction, maybe
+there's a scenario, a call to action, a hook, anything like that and I want to
+make sure that every time I do a recording not only does the file name
+change automatically but it also goes into the correct project. It would be
+really good if I could record two different videos at once and quickly
+just switch from project to project by going to a button like projects and going
+we are now working on this particular video or we're back at this particular
+video. And so that's why I created this software. Now the actual requirements
+document for building it is nearly two years old but recently I did a video and
+you can see a link in the description but recently I did a video and you can
+see a link right here but recently I did a video and you can find out more about
+that right here and that video is about how I used Opus 4.5 for the first time
+to build the initial part of this application that you've been looking at.

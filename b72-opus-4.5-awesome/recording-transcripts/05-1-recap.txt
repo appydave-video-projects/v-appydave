@@ -1,0 +1,13 @@
+So I think we've finished testing the application and the refactor except for
+this last button called the new chapter and so now we're about to go into a
+recap. So what I'd like to do is just see what happens when we press this button
+we'll click on it and it says number five which is perfect segment one I
+really need to rename that to segment but we'll just call this a recap and so
+in the interest of recaps what do we have we have this little config button
+we can go and change the recordings it will automatically save it to the
+environment file now as well as also creating the directory if it doesn't
+exist if we were to hit refresh on a file without anything in it nothing
+following the naming conventions it would reset everything to one one intro
+we will also go into a new chapter in a moment called the outro that's where
+we're going to test some of these tags see what they do but for now I'll stop
+the recording

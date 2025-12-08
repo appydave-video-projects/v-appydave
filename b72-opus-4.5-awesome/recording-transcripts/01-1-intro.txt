@@ -1,0 +1,8 @@
+Claude Opus 4.5 just got released and my initial reaction was who cares and the
+reason for that is I use Sonnet every day and I use Opus every now and then
+when I need to do a little bit of planning but I saw the reports that it
+was an exceptional coding model so I thought why don't I go and look at an
+old project of mine something from over a year ago where I had a little bit of
+requirements document and say how quickly could you build a functional
+application I have to say I've been totally blown away I'm happy Dave let's
+get into it

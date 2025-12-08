@@ -1,0 +1,11 @@
+So what we'll do is we'll go down to the terminal and we'll just start two clean conversations
+and this is how I would start the product owner and the developer.
+And both of these, because they were started from the same directory, do have a Claude
+MD with basic understanding and topology for the project.
+But what neither of them currently have is the current state of the...
+But what neither of them have at the moment is the current state of the project.
+But what neither of them have right now is the current state of the project.
+So what we can do is just come in and put in progress and we'll type that in there and
+while that's loading we'll just run it one more time over here.
+And basically it's just making sure that both agents or both conversations that'll have
+different agents are starting off with the same progress report.

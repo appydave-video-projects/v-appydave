@@ -1,0 +1,2 @@
+And that becomes one more technique that I actually like to build into any application I have
+is the ability to either receive or send data in a format that's ready for Claude Code.

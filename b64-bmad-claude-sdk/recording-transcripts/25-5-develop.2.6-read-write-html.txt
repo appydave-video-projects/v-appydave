@@ -1,0 +1,44 @@
+So what I think I want to do now is create a new HTML file. We'll go with a
+CSS file as well and we'll try and use the JSON documents we've got. I think
+we've got a test product so let's see what we can do. So the prompt will go
+can you create a HTML file called a ITLDR.html and can we create a CSS file
+to go with that. Can the colors of that file, can the colors of that CSS be
+light blue, dark blue and white and can we make sure that we're displaying a
+whole lot of products. Can the products come from our test products JSON
+document. So I'll just let that prompt come through there it is and we press
+enter. So there's a couple of typos in there but it looks like we're going to
+create a HTML file matching CSS file. We've got JSON files to work with
+hopefully. Perfect now let me check what pages exist and while that's happening
+what AITLDR is is one of my other channels. This is a faceless YouTube
+channel where most of the focus is on YouTube storytelling. So we've got
+something coming through they're not necessarily the colors we normally use
+but let's go and click on this and see what we get. AITLDR product catalog and
+this is really interesting from a few points of view. So the actual widgets
+that are in the product listing, Happy Dave on School, Suga, this has all come
+through but we've even got the HTML links so we can get to the home page. Can
+we get to the cat and dog? We can get to the cat and dog. What about products?
+That's taking us to where we are and if we go back to the chat interface look at
+that. So at this point we've almost achieved everything I wanted with this
+project. It was the ability to create any sort of data we want. Let's go and test
+the idea of updating data. Can you go and add three different products about
+nail polish? Let that come through and send that to the agent and what I'm
+hoping it'll do is it'll come up with three interesting products. It should be
+able to add it to the only file we've got which is the test dot products.
+Probably should go and rename that. Well let's just go back to this. It can see
+the file it's now apparently added things. Oh look at that it's showing them
+as well. So we'll go and click on the AITLDR page and see what that's showing.
+Okay we've got five products. Now our page hasn't updated but if I go down to
+Visual Studio we can see that three actual products have been added. So my
+assumption is it's not reading from the JavaScript and it's not. It's actually
+been hard-coded so maybe we can modify that. So we're going to work with the
+idea of can we update the HTML of AITLDR so that the products are actually just
+reading from that URL. So we'll send that through. While that's doing its thing we
+can have a look at the URL. This is the data that's available to us. It says
+that the page is working. Let's go and click on it and look at that we've got
+eight products. We've got three new products added. So yeah we're using our
+chat interface to both create data, update data, delete it. Well we don't know
+whether it can delete and to actually modify the HTML. So let's see if we can
+do one more compound idea. So we'll go with can you delete the widget based
+products from the test products JSON and can you change the CSS for the AITLDR
+website so that it is using pinks and light sort of colors. Make sure you're
+updating the CSS file. So we'll let that prompt come through.

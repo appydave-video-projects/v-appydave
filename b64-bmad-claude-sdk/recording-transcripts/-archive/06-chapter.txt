@@ -1,0 +1,18 @@
+Now, I'll just take a moment out to suggest that if you want a little bit more hand-holding
+or just seeing day-to-day operations on using the BMAD method, context engineering to produce
+applications or other sorts of business systems, then you might want to check the link in the
+description where you can go to my school community where I'll be talking about this
+on a day-by-day basis.
+But next, let's go and look at creating this PRD.
+Now, to do that, we're going to have to have a new agent, and the agent we want is the
+project manager.
+So, we load the project manager in with the slash pm command, and John comes into existence
+with a whole lot of capabilities.
+Now, the one we want is the star create PRD, so we just paste that in, and let's see what
+comes up.
+And you notice that the way BMAD works is it works with context documents, so we've
+got the create doc.md.
+There was also a template going on, which we can see here, and a bit of configuration
+YAML.
+Now, in version 6, a lot of this stuff still happens similarly, but they've made it a lot
+more flexible.

@@ -1,0 +1,124 @@
+Now let's get back to the workflow because I created a custom workflow to
+build all this out so that it could just run without too much input from me and
+it's called the AppyDave workflow what it does is it starts off by asking a
+question what story do you want to have so we did 2.3 at that point it started
+creating the story and it did that by starting up the Scrum Master and running
+the draft story command and as per normal we got a detailed story written
+it's in draft format at the moment and it's as a developer I want to stream
+responses so that the end users can see information progressively now we've seen
+that working so we know it's all going on it wrote the initial plan of what the
+code should look like in the story and then and then it give and then it gave
+me this status update so we can see that it's in draft or the acceptance
+criteria is there and it's got a couple of questions do I want to continue do I
+want to skip or exit so I just so we got this final status of what's going on
+what is the status of the doc so we got this final update of so we got a final
+summary of the creation of the story we can see that it's in draft mode at the
+moment and it's asked me do I want to continue on to validation or skip now I
+said that the validation is optional but I decided to just press continue and we
+can see it's now going into and we can see that it's now going to the product
+owner and validating the information in the story against other documents
+you
+you
+you
+you
+you
+you
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+I don't think when you've finished off working through the
+Happy Dave workflow that you did the QA bot.
+I don't think when you've finished off working through the
+Happy Dave workflow that you did the QA bot.
+That's not right because a QA bot would have taken out
+That's not right because a QA bot would have taken out
+That's not right because a QA bot would have taken out
+It says something wrong in the workflow instructions
+It says something wrong in the workflow instructions
+That's not highlighting this.
+That's not highlighting this.
+Is there something wrong in the workflow instructions that's not highlighting this?
+Is there something wrong in the workflow instructions?
+Yes.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+No, no, that is right.
+A review story does not create a markdown document.
+The workflow is meant to load in the QA bot and then run the review story command.
+What about our workflow is not doing that?
+Okay.
+Okay.
+Okay.
+Okay.
+Are you keeping our workflow document up to date or giving it extra information to remind
+it not to screw up?
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Thanks for watching!

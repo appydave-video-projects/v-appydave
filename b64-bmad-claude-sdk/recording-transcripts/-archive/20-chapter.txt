@@ -1,0 +1,65 @@
+So we'll head back to Claude Code and we've got our Scrum Master set up and
+we're going to draft story 2.1 and so we have our story created it's as a
+developer I want a Claude Agent SDK installed and authenticated so that I
+can implement so that I can implement agent capabilities so that I can
+integrate the agent driven conversational capabilities into the
+application now we'll do one extra step this time and we're going to go over to
+the product owner agent and with this we're going to run this validate story
+draft 2.1 and what that'll do is run a validation on the story that we've
+already done and what it's really attempting to do here and this is an
+optional task is just ensure that there were no hallucinations or mistakes made
+in generating the story now I don't normally do the validation system
+because it slows down my general workflow but sometimes what you notice
+is that code goes off the rails and if you'd have done the validation you
+would have saved yourself a lot of headaches so let's have a look at what
+the validation system is trying to do so firstly it's an anti hallucination
+protection is going on so it just doesn't it what it does is a QA against
+just inventing stuff then what it does is make sure that all the documentation
+it needs is internally stored within that story and then finally a whole lot
+of checks and balances on the template and the sequence of the story so use
+this sort of so use the product owner agents validate story with discretion
+like when you think something's complex maybe you want to use it and you can
+save yourself a lot of future headache if you and you can save a lot of future
+headache because this will save a lot of future headache if things go off the
+rails during the development cycle now so far we've gone through a full epic
+without any issues so I didn't really need to do it but I thought I'd just
+throw it in so you can see what it does so after that we go into developing the
+2.1 task and everything was going really well created all the code that we needed
+when the definition of done checklist and this is when a bunch of warnings
+popped up so you can see here that there's an external dependency that we
+need which is to authenticate into Claude so we'll just open up a new
+terminal window and we'll paste that in and see what happens and it's asking if
+we want to trust this folder and files will say yes to that so it's mentioned
+that it can help me authenticate for this particular application it's going
+to open the browser for authentication and connect to your pro or team and then
+connect to your Claude and then allow you to connect to your Claude
+subscription so I'm just going to press one see what it does it's run a Claude
+authentication status we'll say yes on that so running to a little bit of an
+issue there now what it's doing is checking the config Claude CLI folder
+now it's saying that we're not authenticated it wants to run a workflow
+we'll just say yes to this workflow so that didn't work from within Claude code
+we'll run it externally in our own terminal so we'll run a Claude off login
+
+So I ran into a couple of problems doing authentication and apparently I was on
+the wrong version of Claude so what I've done is an update and I'm going to take
+you through the workflow as it stands I've just logged in to 2.0.42 and I'm
+just going to do a logout so this ensures that we are now out of Claude
+and down below I have this little command that I've run and down below I've
+created a little test SDK script we'll just run that and it should fail so
+we're seeing an SDK fail and we're seeing it SDK and we're seeing an SDK
+test fail because we're not logged in so what we'll do is we'll come back up here
+and we'll run the login function and we'll say yes and yes we're using the
+browser subscription we're using our browser subscription so we can just come
+up and click on the authorize button we'll come back to the terminal it says
+we're signed in so let's clear this and try it again and it's just going to say
+hello in exactly five words and hopefully it gets something back and so
+now we can see that our SDK is actually working
+
+So at the moment the 2.1 story is finished. If we go and look at the main
+story acceptance test that we need to look for it's just that we've got
+colored timestamp with the agent SDK running successfully. If we go down to
+our terminal we can see that entry just here. So from a terminal point of view
+the server seems to be working. All of our acceptance tests have worked and the
+big one is that the new test tool that I added is also returning and the little
+test tool that was created is also returning valid data that the
+authentication is working.

@@ -1,0 +1,5 @@
+The video is in place I'll rename it and what should be happening right now is a
+transcription is happening and the little capability that I'm asking to be
+added to this application while we're watching it is that there'll be a little
+status bar up the top because I found when I had many of these I didn't want
+to scroll through and see what the statuses were.

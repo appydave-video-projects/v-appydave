@@ -1,0 +1,14 @@
+So, I've created a bunch of testing prompts that we can work with.
+The idea is that I want to see chunks come through the system, so we'll go and select
+this particular one and come back to our web form.
+Now, I've made a minor change to the system prompts that it has a command called test.
+What I want it to do is ignore the idea that it's a web application building agent and
+we'll just paste this information in and it's starting to write some information.
+You can see here it's saying processing at the moment and all of this has been done in
+one chunk.
+So, the interesting thing about the Claude Agent SDK is that you can't stream word by
+word.
+It is done in chunks, so it's a little bit slow between updates, but you can see that
+the chunking is working.
+But you can see that the streaming is working between where my initial message came through
+and then the agent got involved.

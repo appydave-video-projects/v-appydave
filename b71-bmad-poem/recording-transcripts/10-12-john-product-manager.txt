@@ -1,0 +1,6 @@
+So one of the cross-cutting capabilities will be skills and this will allow our
+agents to talk explicitly with different systems. So the prompt engineer will be
+talking to the Astro application to process a template while the system
+agent will be talking to the handlebars system to create a helper while the
+integration agent might be talking to the storyline application to get
+data or to send new prompts.

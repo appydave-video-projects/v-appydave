@@ -1,0 +1,10 @@
+So the behind the scenes of what I've been doing has been solving different
+problems. The 555 Manifesto helped me understand the video journey. Then I
+needed to deal with all the cost infrastructure issues, dealing with
+multiple brands, dealing with multiple YouTube channels, automation, that sort
+of stuff. And so I developed a bunch of tools and these are all generally free.
+They're either open source or they're without warranty. They're just tools I
+use internally and if you want access to the code for some of them they're either
+available through repos or over time they'll be available through my
+community. But they basically boil down to three areas of the video generation
+process.

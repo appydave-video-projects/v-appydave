@@ -1,0 +1,6 @@
+So let's start with our terminal and we're going to use Claude code and I'm going to run it with the dangerously skip permissions.
+Now it's fresh context and we've just added a lot of context from Claude so I'm just going to run an init on this.
+I'm going to give it a little bit of extra information.
+We've got this planning folder but I don't want it to take too much over with the Claude file.
+I want it to be referenced, I want it to maybe use it as a guideline for what the project will be about.
+But the main focus of Claude should be on the BMAD method and whatever it decides to create.

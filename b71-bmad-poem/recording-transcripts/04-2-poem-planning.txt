@@ -1,0 +1,7 @@
+Now, the stack that we're building is very similar to how BMAD works.
+So under the hood, we've got an AI provider like Anthropic or OpenAI.
+Then you've got your assistants that you're going to build it on.
+It could be Cloud Codex or Cursor.
+Then we've got the framework, so we're doing something very similar to BMAD.
+We're calling it POM.
+And where BMAD would build apps, POM is designed to build prompts.

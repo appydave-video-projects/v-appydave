@@ -1,0 +1,7 @@
+Now the plan is for between three and four agents we definitely need a prompt
+engineer that's the main use case. We need the system agent which is designed
+to work with the Astro application and to create providers and then we have the
+integration agent and this is how templates will be sent to different
+applications. I also think it would be really useful if we had a data testing
+agent where we could generate mock data and we can send that mock data through
+the prompt templates in real-time tests.

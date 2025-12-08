@@ -1,0 +1,12 @@
+So I've just brought an old development conversation down here. I don't think I
+need it but I want to keep it for context and I'm just going to say for
+this one is what is your role what are the basic responsibilities of the
+product owner and we can see the basic ideas the responsibility is to gather
+requirements from me we've got general documents that we want to work with a
+backlog of ideas anytime we change something we need to keep a change log
+and we've got some implementation notes and user stories basically and user
+stories or specifications now this is not the be mad method which is usually
+what I do for complex applications but I have instructed it to have at least
+some form of context engineering going on so that we don't make so as the
+application gets a little bit more complex it's just not making silly
+mistakes because it doesn't have enough context available

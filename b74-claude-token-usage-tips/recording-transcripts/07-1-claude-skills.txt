@@ -1,0 +1,3 @@
+So let's move on to a new optimization out there and that's using Claude skills
+and this is not only good for context but this is an incredibly powerful tool
+as well.

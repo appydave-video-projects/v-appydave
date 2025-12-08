@@ -1,0 +1,5 @@
+So story 3.1 is finished. There's not actually a lot to see. There's a little bit of console logging.
+We can see now that it's using React and Vite.
+And from our front-end point of view, all we've got is Hello World, Be Mad, Claude SDK, and the fact that it says Vite Connected.
+And we'll just check that the hot module reloading is working. That's working okay.
+So we have a foundation now for the React version of the chat client. Let's move on to story 3.2.

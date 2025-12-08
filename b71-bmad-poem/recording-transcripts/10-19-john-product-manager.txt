@@ -1,0 +1,6 @@
+So, I'm revising EPIC 4 away from pure mock data to a YouTube Launch Optimizer workflow
+which is part of the Agent Workflow Builder that I have.
+And because we've just done a video on BMAD in building a self-editing application, we've
+got this massive two-hour transcript that we can use to build thumbnails, we can have
+titles, YouTube descriptions, chapter links, we can also create a lot of social media content
+such as the LinkedIn post or the school education session.

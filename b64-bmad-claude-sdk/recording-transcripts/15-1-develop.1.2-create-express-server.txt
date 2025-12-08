@@ -1,0 +1,47 @@
+So with our first story down we'll do a commit and we can see that there's all
+the new configuration and setup for the mono repo plus there's all the
+architecture PRD and the initial story has been added as well. Now we're ready
+to go on to 1.2 but what we'll do is make sure we exit Claude code and we'll
+start up again with a fresh context at that point we can just start saying draft
+story 1.2. We'll set up a new Claude code and the first thing we need to do is
+make sure we're on the scrum master and we'll type in draft story 1.2 and let it
+go and build that new document for us. Now like before we've got now like
+before it goes through a template loads in information from the epic that we're
+on story 1.2 loads in all the technical architecture documents also reads from
+the previous story so it knows what's already been done. So story 1.2 has been
+drafted everything's in place what we can do is go over to Visual Studio and
+click on the story here. I just had a quick look through the document so I've
+set the status to ready but we've got our acceptance criteria we've got all
+of our subtasks in place. So now it's time to develop we just go back I've
+already set up the development agent and we'll just type in develop story 1.2 and
+let it run. Now while it's doing that now while that's running I'll just talk
+about the idea of working with multiple projects at once. One of the things I
+love about BeMAD is that if you are generating two different applications
+you've got a fair bit of time while the development is going on. So you saw what
+I did I set up the story then I switched over to the developer agent and I kicked
+it off. At that point I'll often just shift tab over. At that point I'll go to
+another terminal where I've already got BeMAD running on a different project
+and goes through the same process. Now personally I can't do three projects at
+a time because usually the first project has finished and I've got to go back and
+manually renew it and I've got to go back and manually review it but the good
+thing is that you can be working on two different applications at the same time.
+So we'll just come back and have a look at what it's doing and we can see that
+as it goes it's signing off on tasks that it's done and it just keeps working
+through them. So it's finished the development the definition of done has
+been filled in. We've got some new files what we'll do is we'll jump over to the
+quality assurance agent. So again we're going through a number of code quality
+metrics and we'll just jump over to VS code and we can see a list of the
+changes that wherever it says this story and we can go and have a look at the
+code over here. Now if you're a developer this is an area that you probably spend
+a lot of time looking. I work more as a software architect and so while it would
+be smart for me to check all the code I usually don't check the code and that's
+an interesting thing about this. I've built complete enterprise applications
+and I spend more time working on the documentation to check the code quality
+than I do in actually looking at the code. Now the agents I use for that I'll
+talk about in future videos at the moment we're just trying to build a
+simple application. So all the completion notes have been filled in we know the
+files that have been checked with we know the files that have been changed
+with we know the files that have been changed and now the QA has come in so if
+we go and open up QA and look at the quality gate number 1.2 we can see a
+YAML file on the changes though it's a lot easier to see it back in the Claude
+context window.

@@ -1,0 +1,6 @@
+create image: golden age of commics
+
+For the last six months I've been using BMAD to build software but today what we're going
+to do is use it to build another orchestration framework with similarities to BMAD method.
+We're going to call it POM which is the Prompt Orchestration and Engineering method but essentially
+what it is is a prompt engineering operating system.

@@ -1,0 +1,29 @@
+Moving on to story 2.7 which is a new story that came about because we encountered a bug
+where if you typed in a couple of messages it didn't understand the previous messages.
+So we've put it in place and what I thought we'd do is test it by maybe changing the title of this particular website
+and at the same time also change the price of just cats and we'll do that in two separate messages.
+So we'll start off, so here's our first prompt, can you change the title of the cat dog website
+so that rather than saying cat and dog pet store it just says pet store.
+So we'll kick that off and then we'll start the next prompt and it should be,
+can you look at all the cats in the products table or can you look at,
+can you have a look at the cats in the cat pet,
+can you go to the cat dog website and change every product that is related to a cat so that it is $100 more
+and we'll just press enter on that one.
+Now if we look at the current website it says cat and dog pet store,
+now I've done a refresh on it and we can see that the pet store has been updated.
+What we want to do is see after a refresh if this $24.99 becomes,
+we want to see if the $24.99 becomes $124.99
+and we can see in the conversation that it's made a couple of changes right here.
+So we'll come over and it's these two that need to change and they have changed.
+So there's the new value and we've got the old value as $24.99 in cat and dog pet store.
+So from a conversational point of view it was pretty much the standard workflow.
+We started off with the AppyDave workflow, we created the 2.7 story, we validated it.
+The minor change here was that I asked it to go and read the documentation around the SDK
+and we have a second brain of information around that particular tool.
+And we have a second brain of information around the Claude SDK.
+The basic findings from that were all listed and updated the story.
+We then just did our standard development phase.
+We did an SAT, there was nothing in there other than to run the two commands that I did.
+And so we just finish off with a review from the QA agent
+and we'll do the last commit for this particular story.
+And we'll do the last commit for this epi.

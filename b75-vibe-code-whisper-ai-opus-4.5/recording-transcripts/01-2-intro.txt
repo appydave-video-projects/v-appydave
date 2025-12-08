@@ -1,0 +1,7 @@
+In video number one in this series, we essentially built this recording namer application.
+We did it all with VibeCoding and it had the ability to watch for videos from an Ecamm live stream
+and put them directly into a project directory.
+By the end of that video, any incoming recordings, and at the moment we've got the one I'm doing right now,
+would be ready to be either discarded or put into the recordings folder.
+And this is how it would work. I would do a rename on the one that I like and I would discard the rest
+and what would be left with is a recording stored somewhere on the computer.

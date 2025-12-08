@@ -1,0 +1,4 @@
+So we have our starting Claude document, we know about the POEM system, we know
+about the BMAD system, we know about the agents and we have a basic idea of the
+directory structure which will get loaded in the system prompt every time
+we're executing within Claude code.

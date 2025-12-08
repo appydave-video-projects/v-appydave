@@ -1,0 +1,19 @@
+So, we've come over to the ClaudeMD for my brains folder and one of the things you'll
+see once we look through it is it feels more like a table of contents than it does an instruction
+set.
+And the reason for that is that we've got the purpose, what's it going to be, where
+are the locations.
+So, if it needs anything from any of the brains, it can go to this particular location.
+It's got a list of what it isn't.
+That's also incredibly important because you don't want this to be the source of truth.
+This is just the ideas we've been gathering.
+And then when we look at the available brains, we've got one for Claude and we've got one
+for BMAD, they read very keyword heavy so that when I type in a keyword such as what
+would be the best practice for doing something in BMAD version 4, all of the information
+matches to keywords in here so that it can then get to the correct documents it needs
+to.
+This document goes on to talk about some instructions for working with any of the brains.
+But also this key line here is that there's an index which is the navigation hub for when
+you are in that particular brain.
+And this is what I mean by we don't need to put a lot of information into a Claude MD,
+we just need to front load it with knowledge of where to find other knowledge.

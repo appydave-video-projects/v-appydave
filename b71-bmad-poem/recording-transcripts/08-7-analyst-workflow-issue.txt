@@ -1,0 +1,7 @@
+And the rest of the content here is just an instruction that we can paste into the original
+conversation. And so now it's classified as a framework operating system, 95% of it is
+document-based, 5% of it is tooling and APIs, and it's a three-part architecture where the POM Core
+is where all the documents are, the POM App is where the Astro application will be, and POM is
+where user information will get stored. So I just pasted all that information in and we are on to
+the next section. So I just pasted all that information into the original conversation
+and we move on to the constraints and we'll move on to the constraints and assumptions.

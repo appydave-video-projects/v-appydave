@@ -1,0 +1,5 @@
+Now we've got two more areas we can test. We can test this new chapter and we are about
+to go into the recap of the video. So this might be a good time to test that. We've also
+got this idea of what happens when we start a new video project. So let's work on that
+one first and I think the way we can test this is come up to the config and maybe just
+put in a different location.

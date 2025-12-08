@@ -1,0 +1,13 @@
+Now we're just to the end it's just happened right now and I had noticed
+that there were already changes so we've got this concept called transcripts
+let's see what happens when we click on that and we've got a looks like it's
+already doing a video that I've sent through let's see which one it is this
+is 042 we'll just go over to our recordings it'll be down the bottom and
+it is transcribed look at that this is just working I haven't even gone to
+test this we've got a 208 megabyte file this is pretty long recording I just did
+I think it was about four minutes and I wonder what happens when we look at the
+transcripts here while it's doing that I think we'll head over to the actual
+video we'll head over to the development and read through what it's implemented
+so the summary is that it's going to use my local whisper AI command line tool
+it's going to wait till a file is renamed into the recordings directory at
+which point it's going to start the transcription which is what

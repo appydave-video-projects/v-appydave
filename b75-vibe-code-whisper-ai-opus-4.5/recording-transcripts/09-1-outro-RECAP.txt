@@ -1,0 +1,6 @@
+So, there we have it, the third video on testing out Opus 4.5 in a pure vibe-coding sort of
+scenario.
+We're not doing a lot of context engineering frameworks, though we are doing a little bit
+of context engineering from the point of view of having a changelog, a backlog, and a couple
+of agents that we handcrafted, but you're noticing that there aren't really any bugs.
+Things just work, so where Anthropic has got to with this model is incredible.

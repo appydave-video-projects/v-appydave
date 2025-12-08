@@ -1,0 +1,17 @@
+Now, in the video, you wouldn't have seen anything showing up visually, but on the bottom
+of my screen, there is a little voice icon and that was moving as I was talking.
+But you might be wondering, how did it get AppyDave and AITLDR?
+Now, to look at that, we need to go and check out the settings.
+So here you can see the average word speed, the total words that I've done.
+I've been using it for a couple of days at the moment.
+And it's got a dictionary.
+So within the dictionary, I've got AITLDR, AppyDave, I'm always in context engineering
+talking about the BMAD method, and I've got some other sorts of computing terms and my
+full name in here.
+The other thing is we've got the settings and this is where you can play around with
+the keyboard shortcuts.
+I'm using the function key, which is the default, but we've got another one and that's the control
+function key.
+That puts us into intelligence mode where the large language model can intercept whatever
+we say.
+Let's go check that out.

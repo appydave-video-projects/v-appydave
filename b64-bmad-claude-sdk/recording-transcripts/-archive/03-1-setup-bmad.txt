@@ -1,0 +1,13 @@
+So let's work through step-by-step and the first thing is the folder. Now it's
+opened it up to an MPS directory so what I'm going to do is put in the
+directory where we're building this application today. After that it's
+talking about different frameworks of BMAD that we can install. This all
+changes a fair bit in version 6. We've got better games set up in that
+particular version. For now we'll just go with the Agile Core. In version 4 when
+it comes to the PRD product requirements document and the architecture
+document you can shard the files meaning that they can be split up into
+individual files after generation. This changes a little bit in version 6 but
+for today we'll say yes and then you can decide on what agent coding system you're
+going to use. I'm using Claude code so we'll just select that and in this
+example we're not going to use Gemini or Codex so I'm going to say no to those
+models.

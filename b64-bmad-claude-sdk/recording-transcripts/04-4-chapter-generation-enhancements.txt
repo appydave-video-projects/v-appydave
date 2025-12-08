@@ -1,0 +1,18 @@
+And what we end up seeing is this relatively complex user interface where
+if something matched properly that it was an easy find it's a hundred percent
+confidence we'll see it with a tick. Other times we might get a hundred
+percent confidence like we do with this one but the thing is it's from a video
+that was number 40 in the chapter system and the reason for it in this
+particular case is it was one of the demos that I did after generating the
+complete video and so the order of this so the order of the raw recording is not
+actually in sync with the finished product and so the order of the raw
+recording is not in sync with the finished product and so the order of the
+raw recording is not in sync with the finished video but it's still found it
+okay. Then we have another one here called the recap and it's coming from
+apparently video 19 so the fact that these are showing up with a little so
+the fact that these are showing up with a little lightning bolt tells us that
+there's probably out of sync because they've been found they've said it goes
+into that position but this isn't actually the order that I recorded it so
+either the problem is this did not find it correctly or I actually or I named
+the files incorrectly. Now what this system is essentially allowed me to do
+so far

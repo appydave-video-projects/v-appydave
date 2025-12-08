@@ -1,0 +1,9 @@
+So what I'll do now is I'll read through every story headline and then we'll see
+pretty quickly that there may be some flaws in the way that it's come up with.
+So the first thing it wants to do in the Epic is initialize the NPM workspaces
+and Monorepo. That sounds really good. Then it's going to create an express
+TypeScript server. After that it's going to get a very basic HTML client up and
+running. And finally we're just going to have a little bit of an end-to-end test
+and mainly that'll be worked out by starting both servers and checking the
+browser logs, checking the console logs. So so far Epic number one looks pretty
+good. We'll see if it needs any changes when we look at the next Epic.

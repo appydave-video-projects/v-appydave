@@ -1,0 +1,4 @@
+And so we get a bunch of available commands and the one we're interested in is just a green field or a brand new project
+So we'll put in star create PRD
+And it's loading in its instruction guide and a template on how to build a product requirements document
+And because we have a project brief we'll just press 1 and let it keep going

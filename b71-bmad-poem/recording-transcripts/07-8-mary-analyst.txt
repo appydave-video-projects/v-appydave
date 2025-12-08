@@ -1,0 +1,5 @@
+So for the goals and success metrics I'm just pressing one to continue. I don't
+find this too relevant for me because this is only for educational purposes
+what we're doing, though the reality is hopefully this will be an open source
+project that people want to use and expand on so maybe these KPIs will be
+valuable.

@@ -1,0 +1,12 @@
+Now, one of the future agents is the mock data system, and this is what it's for.
+It's for testing prompts that require data.
+We don't want to go into the database and change anything.
+We want to auto-generate realistic data if we can do it, and quickly go through a workflow.
+So Angela here is going to create a template.
+This is the idea.
+We've got some data source, so maybe it's a single incident, or it could be a list of
+incidents.
+Then what we're going to do is understand the schema of the data coming through so that
+we can then generate the mock data along the way.
+That way we can instantly test the template without going into the application, and when
+we're finished, just publish it.

@@ -1,0 +1,24 @@
+So, what going through that reversed engineered specification told me was that Claude Coat
+had done a good job at trying to solve the problem.
+It had written a bunch of algorithms, done a little bit of search on the problem and
+come up with a solution.
+But the problem is that it really didn't use best practices and I started asking it a few
+questions.
+So, the first one was, were there a bunch of quick wins that we could have done to just
+improve the numbers, the confidence?
+Was there a way that we could have looked at the algorithms a little bit differently?
+And I also had some questions about the user experience because it was a bit painful to
+work with.
+So, I read through the quick wins and improvements and they just seemed to be improvements on
+what it was currently doing and I thought there must have been a smarter way than just
+hand crafting.
+And I thought there must have been a smarter way than just hand crafting this stuff.
+It did suggest that I could use a large language model.
+And there's this one phrase here that's interesting because this is something the algorithms wouldn't
+do a good job of just understanding the sentence.
+But I'm not convinced that's the direct answer just yet.
+It's really the way I want to close off this feature.
+And I also asked it to look at the UI problem and we can see what it's come up with.
+And there's some really good examples.
+I really liked the one that was showing up here.
+I really liked the one that was showing up here.

@@ -1,0 +1,12 @@
+So let me give you a glimpse of what the application we're currently building
+can be used for and it's this storyline application that generated this movie
+we've got character consistency scene consistency and everything was
+generated using Claude code in the background to generate the data
+structures so as we start asking questions like can you create three
+products that will generate complex JSON documents behind the scene well that's
+what's happened with the storyline application but instead there's a simple
+narrative that converts into image and style guides
+
+Now if you're interested in seeing the five-minute video around the Boy and the
+Baker by Vozz then check out the link in the description below but for now let's
+get back to John our product manager

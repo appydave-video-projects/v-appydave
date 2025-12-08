@@ -1,0 +1,55 @@
+So what I've done is started a new cloud code we've gone over to the scrum master
+we started drafting story 1.3 so it's finished creating the story it's put it
+into the 1.2 story right here we've got a bunch of we've got a bait we've got a
+bunch of basic information here but let's head over to visual studio I've
+already set it to ready I think after it gets through the tasks the main thing
+that we're going to want to look at is the fact that there's now a HTML page so
+we should be able to see something apparently there's going to be a little
+bit of JavaScript going on so let's go back and start developing so I'm just
+letting it load up the developer and once that's done we can just develop
+story 1.3 so now the development is finished it looks like we're going to
+have an index file that we can go and look at we'll do the SAT soon but let's
+just go over to the QA bot for a moment and we'll run our review on 1.3 while
+that's running we'll just do a quick check of the document it says all the
+tasks done there should be a public directory we've got the HTML index we've
+got script tags coming through in a moment we should see an update to the
+QA results we're also going to see a new gate file added here so the QA results
+are in we've got a new gate file we can see the story we will check an SAT soon
+there's updates to the packages the client application now has a the client
+application now has an index HTML page going on we've got a new server file and
+if we close it down we've also got a public folder which I think is where
+it's going to serve up static files so let's go and test our story acceptance
+bot so if we type in so let's go and test our story acceptance spot we should
+be able to type in SAT and we've got SAT so currently Taylor is loading into
+memory we've got a create SAT command available we've also got an update SAT
+command now we'll kick off the create and this command this one here that we
+haven't used yet is just in case I don't like the instructions that the current
+bot has we've got the ability to update the bot so this is reading out SAT is
+reading the story that's going to be the source of truth it's also looking at
+some of the code that's been created like the client index HTML and at the
+end of this we should have a new file just sitting next to 1.3 story so it's
+just created it let's pop it open so the story itself was about creating a basic
+HTML page and the human test that we can do requires us to run the server which
+I've just done and then it wants to go to the chat window and we should see a
+BMAD plus Claude SDK test client we should see a blue header called client
+server communication test let's just bring it up how that looks like it and
+it's also got a text input box saying enter a message optional yep that's in
+case that's in place and blue button labeled test the health expert and a
+blue button labeled test health endpoint it's also saying gray response area with
+test response will go here I wonder if it works now we'll come back to having a
+look at our form we've got some things around styling I'm not that concerned
+about that what's this form submission without a page reload should just say
+server status response should just say server response status is okay and
+apparently there's no page reload so we'll bring up our website and we'll
+click on test endpoint and there wasn't a refresh but we did see the server
+response update apparently there's a bonus visual test we can stop the
+server which I've just done and if we click on test health endpoint we get
+found to fetch make sure the server is running so that's really cool I wasn't
+planning to create the SAT agent as part of this video but this is the idea of it
+is that you don't have to think about what the code did it tells you what has
+happened and tells you how to reproduce it which is which just saves you a heap
+of time when you're using the be mad method to develop an application we'll
+come back to our terminal where I was running that server and we'll just clean
+up after ourselves so we'll do a bit of a commit right now and we've got a great
+commit message everything's listed we can just push this code right here and
+now we just exit out and go on to the next

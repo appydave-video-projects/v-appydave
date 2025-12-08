@@ -1,0 +1,7 @@
+Now you may notice when you start with a clean Claude code is that the context is empty and
+so certain things it doesn't know about.
+So this idea of do you have a project brief, which we just worked on, is something it doesn't
+currently know about.
+So I'm just going to put in one, that's what we want to do, and I'll put in the at sign
+and start typing brief.
+And we'll just press enter so it'll use that as loaded context.

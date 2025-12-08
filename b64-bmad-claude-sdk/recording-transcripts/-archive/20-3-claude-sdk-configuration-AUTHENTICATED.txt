@@ -1,0 +1,8 @@
+So at the moment the 2.1 story is finished. If we go and look at the main
+story acceptance test that we need to look for it's just that we've got
+colored timestamp with the agent SDK running successfully. If we go down to
+our terminal we can see that entry just here. So from a terminal point of view
+the server seems to be working. All of our acceptance tests have worked and the
+big one is that the new test tool that I added is also returning and the little
+test tool that was created is also returning valid data that the
+authentication is working.

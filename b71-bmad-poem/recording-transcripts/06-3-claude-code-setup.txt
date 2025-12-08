@@ -1,0 +1,11 @@
+So, let's set up in the terminal Claude code and we're running it with the dangerously
+skipped permissions.
+And the first thing we want to do is ensure that we've got a Claude MD file.
+So we'll kick off the Claude.
+Now I'm going to paste in a little extra context in the prompt.
+Essentially what we want to do is make sure that the Claude MD has a lot of knowledge
+about BMAD Core.
+Now it doesn't really need to know much about the data folders.
+It doesn't need to know much about the planning because we will tell BMAD Core, because we
+will tell BMAD about that when we're running it, but we don't want that to influence Claude
+too much in the future.

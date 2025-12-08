@@ -1,0 +1,10 @@
+So at this point we've got many stories already set up for different epics. So
+let's just look at the epics first. The first one is Monorepo set up with
+client and server. So the basic application structure for the front end
+talking to the back end. Next we have epic number two which is essentially
+setting up the Claude agent SDK so that it can communicate from server through
+to the client. And when you look at the goal there's also extra and when you
+look at the goal there's also tools included such as talking to JSON and
+HTML files. And the final epic, epic number three, is all about building a
+react front end and using tools and using libraries like SHAVCN and Tailwind
+CSS.

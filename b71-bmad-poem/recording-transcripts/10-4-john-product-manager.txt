@@ -1,0 +1,5 @@
+So B-MAD has come up with a list of requirements and they've broken up into
+two areas so firstly we have what the user actually interacts with these are
+called the functional requirements and then we have the stuff under the iceberg
+so to speak the non-functional requirements the little infrastructure
+systems sub modules that we need to build

@@ -1,0 +1,12 @@
+So my approach has been to come up with my own ways of doing this and automating it and
+picking the right technology along the way.
+So I'm using a lot of Amazon S3 for videos that might be one, two or three months old.
+I've got NAS Archives going on which is giving us our 6 to 12 month timeline on modelable
+brands.
+Then we're looking into Amazon Glacier as our long term keep everything for a couple
+of years sort of point of view.
+The other thing that we're looking to do is deal with the costs involved with AI.
+So rather than using any of the Zapier or NA10, most of what I'm doing, I'm doing locally
+in automations from my own tooling.
+So not only am I getting cost reductions through the different techniques that I'm using here,
+I'm also getting instantaneous results which really improves.

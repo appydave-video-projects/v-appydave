@@ -1,0 +1,6 @@
+So when you're using standard dictation it's basically WYSIWYG what you see is
+what you get and this is really perfect for a large language model you put it in
+and then you get some information back but what if you wanted to put in
+information directly that had gone through a large language model that's
+what we'll do now by holding down the control key and pressing function while
+we do the same process again.

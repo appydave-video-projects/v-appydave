@@ -1,0 +1,7 @@
+Now we've gone to the constraints and assumptions and this is an incredible
+section, it's written. I've gone through it and everything is accurate. There is
+only one part that could need changing and it's this part here. The MVP target
+is three to four months. Well the reality is we're using the BMAD method
+and we're using Claude code so everything is amplified. I hope that
+this is going to be finished in the next four to five days rather than three to
+four months. So with that we just press one and keep going.

@@ -1,0 +1,6 @@
+And there we have our first scene for our story.
+Now the performance issue is not with the human.
+Now it's with Sora. That took about a minute and a half to do.
+But the actual creation of this process is so incredibly quick
+because we can both do voice dictation
+and we can do voice transformation through large language models.

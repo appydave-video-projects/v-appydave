@@ -1,0 +1,24 @@
+Now you might notice at the end of the story there's an area for the QA agent, so what
+we can do is go back over, type in slash QA for the quality assurance agent.
+Now this is not an agent I would normally use in my own projects, but I have custom
+agents more for story acceptance testing and that's about generating a document for the
+human to work through and test different things that would be visual in nature.
+For this video we'll use the QA agent and we'll just do a review on 1.1.
+Now I mentioned that I'd normally do a story acceptance test plan, now that doesn't preclude
+doing normal tests as well.
+So usually when you're developing an application you want to have unit tests, you might want
+to have end-to-end tests, but definitely you need some sort of a test plan at the end of
+the story that says these are the things that you have to go and look at.
+And in a more complex application I like it to actually walk me through and say first click
+on this menu, fill in this piece of information.
+And all of this information can be derived from a story and if it was something I was
+doing with this project the way it would look is that it would create a new file right next
+to the story, so we've got 1.1.story, but I would also have a 1.1.story-sat.
+I would have a 1.1.story-sat and in that would be all the guidance and instructions for me
+to go and visually check that everything's working.
+Now currently we can see that the QA agent has come in, it's started to update the document.
+So we now have our overall quality assessment in place, everything seems to be okay.
+And one of the interesting statements is this one right here, so it's just talking about
+future considerations, that'll be important with new stories.
+Now if we go back to our VS Code we can see that the story has been updated with all this
+extra quality assurance checks.

@@ -1,0 +1,19 @@
+And so you'll see from time to time that different numbers were changing and that's because I'm doing different
+Recordings and then I might pause for two or three minutes before the recording starts again
+But what did happen is that this code finally finished so we have code and I've been checking it
+I know it works
+So what I now need to do is tell the product owner who's over here that the code has been updated
+Can you change the backlog? Can you?
+Can you change the backlog the changelog maybe update a story if you need to
+So I go over to the developer and I say can you create a handoff for the product owner?
+And that'll write a little document now at the moment. It's been really nice to have those two conversational windows
+They only have context about what they're interested in. This one's interested in requirements
+this one's interested in writing software and
+Since that finished we'll just take that over and give it some more context the context being a handoff from the developer
+So that it can update the documentation it needs but after a while we're going to start seeing a little simple down here
+So 10% until auto compact and it's that particular
+Capability that we want to stop and we do that by pressing the slash compact command on a regular basis
+So if I go and copy that and we'll head over to our
+Conversation streams again what I can do since the developer has finished the work they're working on
+I can just say compact and kick it off now at the same time the product owner is still
+Updating any documentation it needs to and so that's complete. So we'll just run a compact on this window as well

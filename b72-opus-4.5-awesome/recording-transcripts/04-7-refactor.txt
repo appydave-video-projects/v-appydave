@@ -1,0 +1,7 @@
+So what I'll do is I'll just rename this to fake and then we'll hit save and this is just
+updating the configuration and then I assume what we've got to do to clear everything out
+is just do a refresh and we do a refresh and it leaves it back at the beginning.
+So we're on chapter one, number one intro.
+So what we'll do is we'll just call this fake I think and another interesting test will
+be when I do save the video and I'm ready to rename it will it automatically create
+a folder here called capital F A K E will it create a folder here called fake.

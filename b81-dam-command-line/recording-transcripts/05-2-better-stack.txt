@@ -1,0 +1,6 @@
+Another important area of the stack is how do you deal with automation and
+automation is not only something you got to deal with but it's an expensive cost
+as well. So if you're using Zapier or NA10 you might be using them for
+something simple like project management but you also might be transcribing a
+video or turning an audio into images using large language models. This can get
+expensive really quickly and it can and this can get expensive really quickly.

@@ -1,0 +1,5 @@
+So we accepted the previous section and just moved on to target users and it came up with two.
+We've got the standard prompt engineer or technical manager in our regular enterprise.
+And we're looking at it from the point of view of where compliance and privacy is important.
+And the other type of user that I want to be able to do prompt engineering with is your creative.
+So for me this is all about creating movies and scripts and video sort of storytelling.

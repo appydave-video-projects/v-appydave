@@ -1,0 +1,3 @@
+The other thing it's done is written the technical considerations document for us.
+So the main concepts is that 95% of the system is the documentation based agent system
+and 5% of it is just some tooling that we'll use while we're using that system.

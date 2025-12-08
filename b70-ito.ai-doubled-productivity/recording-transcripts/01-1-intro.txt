@@ -1,0 +1,6 @@
+If you're like me, then you love using tools like ChatGPT, Gemini or Claude.
+But, if you're not happy using the keyboard, you might find it a little bit limiting.
+In this video, we're going to look at voice dictation and voice agents
+and see how over the last week my own productivity has doubled
+just by implementing such a simple system.
+I'm Abbey Dave, let's get into it.

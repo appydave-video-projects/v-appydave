@@ -1,0 +1,16 @@
+On any day of the week, I could be working as a YouTuber,
+I could be doing movies and creative sort of work,
+or I could be doing a set of social media assets and videos,
+and I'm working with multiple people.
+So what ends up happening is I have these collaboration flows that I have to work through.
+I might record a video, upload it to Amazon S3,
+then one of my editors, Jan, would take it and see what he can do to improve it.
+Then I want to have it downloaded back onto my computer,
+ultimately I want to publish it.
+Now the other thing that's often going on with me is that,
+and the other thing that I'm often trying to manage,
+is how do I keep my costs down from using tools like Dropbox or Google Drive,
+and I do that using a multi-tiered storage system.
+So some of my files are on S3, some of them are on a network addressable storage,
+and others are on, and others, and others are,
+and longer term storage is with Amazon Glacier.

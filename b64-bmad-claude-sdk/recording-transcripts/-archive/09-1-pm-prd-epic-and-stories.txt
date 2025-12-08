@@ -1,0 +1,18 @@
+So I just press one to move forward and we've got our epic list and it looks
+like there's going to be three epics which is what I'd suggested it to do
+anyway. So we've got the mono repo set up with basic client and server, npm
+workspaces, we've got an express server, minimal HTML client, so that looks good.
+After that we're really working on the backend which is the agent SDK
+integration. It's going to have the three tools that it talked about and then
+we're going to polish up the communication. We should already be
+working hopefully and then we're going to polish up the communication with the
+front-end chat interface here. This is going to use ShadCN and Versel AI agents.
+Versel AI elements. So then we've got our sequencing logic. I think the good bit
+is the story count. It's listing three to four stories per epic. There isn't a lot
+of work in each section. And then it's listed its rationale and decisions. I
+read through that. This all seems to make sense for me. So we're moving forward.
+I've pressed one and moving on to the next section which is going to be the
+epic details and we'll present each epic with all the stories. Now just so you
+know it hasn't updated the PRD yet. We're still sitting on the non-functional
+requirements and it shouldn't do that until it's got the detail about each
+story.

@@ -1,0 +1,10 @@
+Have you been hearing about vibe coding and wondered could you build an
+application for yourself? In this video I'm just demonstrating an application
+that I built this week using Claude Opus 4.5. What it allows me to do is double
+the productivity with my own recording schedule as a youtuber. It's allowing me
+to do short segment recordings, put them directly into a folder and named
+correctly. I can then add images directly and have the images labeled to
+match the recording that they're part of. I can also create thumbnails and add
+them against the video recording and then at any time change to a different
+project. So I'm happy Dave, let's get into it. It will start off a bit cutty because
+it was part of another recording but anyway let's see how it all works.

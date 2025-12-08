@@ -1,0 +1,45 @@
+Now, I've come over to the product owner conversation and made the statement that FR30 is complete.
+We will send some handover documents to let it know that it's done, but can it just add
+a couple of capabilities?
+So the two that I want is, can we get a transcript button?
+And that transcript button should happen somewhere in this column, I think.
+We've already got the transcript label, so I'm assuming that's the right place to do
+it.
+It's a limited instruction, so it may actually end up putting it over here.
+I've asked if it can create another button for us for doing chapter transcriptions.
+Now, we shouldn't need to do an actual transcription, it should be a case of some sort of button
+up here that when we click it, just concatenates all the transcriptions that are there.
+But I did have to give it one extra instruction, and that's to let it know that we don't know
+the best name for it, so it's going to have to review the documentation.
+So at the moment, it's just making some modifications to the FR30 specification.
+So it's got into it, it's got some ideas on how it should be written, and then it's just
+started writing a whole lot of documentation for it.
+And I think this is going to be as easy as just selecting this text.
+We'll go over to our developer conversation, and we'll just paste that text, and we'll
+just paste the text right in, and it should go and do the development.
+Before that's happening, let's go back to our web application and see where we're at.
+Look at that, it's finished everything.
+Now, we only had about 13 seconds, I believe, in this.
+A little bit of things being said, and that was the wrong one, but we can see what it's
+got in it.
+I think it's this one.
+So I just want to do one quick test, and so it starts off, I just want to do one test,
+and this is what I said, the quick brown fox jumped over the lazy dog.
+So this is incredible.
+We've got new coding coming in right now that's going to deal with transcribing features.
+Now this is incredible.
+So we've got new coding going on right now, and that's going to give us access to new
+capabilities.
+Obviously, when we go to the recordings, we're going to have a button, it looks like we've
+already got that button.
+I wonder if we should kick it off on something.
+We'll do this video because it's relatively small, 16 megabytes.
+Let's kick that off, and we'll come back up to our transcripts, and we can see a new one
+is running.
+What I'm a little concerned about is that we lost the other transcription notes.
+I'm not sure if that's because it restarted the application, but we can see everything
+that's been transcripted already.
+We can see the stuff that's now newly been transcribed.
+If I go down to the coding agent, we can see that it's about to implement the button for
+the chapter headings, so that hasn't been done right now, and then it happens.
+There it is combined.

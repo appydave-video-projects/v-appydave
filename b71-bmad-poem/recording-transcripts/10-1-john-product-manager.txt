@@ -1,0 +1,4 @@
+So we're about to kick off the second workflow in the BMAD method and that's
+to use the product manager to create a PRD. So we'll head over to a clean
+Claude code and we'll put in slash PM and what will happen is John the product
+manager will load into memory.

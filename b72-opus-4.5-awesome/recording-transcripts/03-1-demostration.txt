@@ -1,0 +1,15 @@
+So I'm testing this application out for the first time I don't even know if
+it's going to work but let's see what happens so here's what we've got to
+start with we're going to click on the config button and apparently there's a
+location where the ecamm live files will drop and then there's a target where
+they're going to end up. So I'm just going to alter this to the actual
+directory for me and we'll see whether the tilde actually works as well and
+this is based off this particular folder where ecamm live files should drop now
+the other now we also need a target directory so what I'm going to do is
+create a new folder for this particular video and we're going to call it B72
+we'll go with sonnet 2.5 awesome because I'm hoping it is going to be awesome and
+we'll create an assets and recordings file and and we'll create an assets and
+recordings folder now I'm hoping that this is the folder that the files are
+going to get transferred to so we'll come back to this temporary directory
+and we've got our target directory filled in again using a tilde for the
+user directory

@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "03d2defd61358041",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ca02801c5311317",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6bb3b9fac58ce60",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14e3ea650688d1d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d7dd8f2c3e1d58c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68a0f7d2b459830f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "47d73c18f1bc0bd1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "52d0331955e51e27",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd77d5fae03cae3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b067af06119f6e5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07ffc03be360a74d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f46013229a905afe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "b64-bmad-claude-sdk/launch-optimizer/1-1-configure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1-1-configure"
+            }
+          },
+          {
+            "id": "04db3c4429bb10ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c1970a7941815857",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "b64-bmad-claude-sdk/launch-optimizer/1-1-configure.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1-1-configure"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c6bb3b9fac58ce60",
+  "lastOpenFiles": [
+    "b64-bmad-claude-sdk/launch-optimizer/1-2-title-shortlist.md",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/03-2-vibe-coding-opus-45.txt",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/03-1-vibe-coding-opus-45.txt",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/02-3-scenaro.txt",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/02-2-scenaro.txt",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/02-1-scenaro.txt",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/01-2-context.txt",
+    "b73-vibe-code-ecamm-line-opus-4.5/recording-transcripts/01-1-intro.txt",
+    "b64-bmad-claude-sdk/recording-transcripts/05-1-improved-requirement.txt",
+    "b76-vibe-code-auto-chapters-opus-4.5/recordings/05-1-improved-requirement.mov",
+    "05-1-improved-requirement.mov",
+    "b76-vibe-code-auto-chapters-opus-4.5/assets/images/04-1-4-transcript-may-have-useful-graphical-information.png",
+    "b76-vibe-code-auto-chapters-opus-4.5/assets/images/04-1-3-transcript-may-have-useful-graphical-information.png",
+    "b76-vibe-code-auto-chapters-opus-4.5/assets/images/04-1-2-transcript-may-have-useful-graphical-information.png",
+    "b76-vibe-code-auto-chapters-opus-4.5/assets/images/04-1-1-transcript-may-have-useful-graphical-information.png",
+    "b64-bmad-claude-sdk/launch-optimizer/11-segment-analysis.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/10-segment-extract.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/11-segment-analysis.md",
+    "b64-bmad-claude-sdk/launch-optimizer/10-segment-extract.md",
+    "b64-bmad-claude-sdk/launch-optimizer/11-section-analysis.md",
+    "b64-bmad-claude-sdk/launch-optimizer/10-11-qa-session.md",
+    "b64-bmad-claude-sdk/launch-optimizer/section-10-11-qa-session.md",
+    "b64-bmad-claude-sdk/launch-optimizer/10-section-analysis.md",
+    "b73-vibe-code-ecamm-line-opus-4.5/assets/thumbs/thumb-3.jpg",
+    "b73-vibe-code-ecamm-line-opus-4.5/assets/thumbs/thumb-2.jpg",
+    "b73-vibe-code-ecamm-line-opus-4.5/assets/thumbs/thumb-1.jpg",
+    "b73-vibe-code-ecamm-line-opus-4.5/assets/images/04-1-3-appydave.png",
+    "b73-vibe-code-ecamm-line-opus-4.5/assets/images/04-1-1-appydave.png",
+    "b64-bmad-claude-sdk/launch-optimizer/5-section.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/5-section-analysis.md",
+    "b64-bmad-claude-sdk/launch-optimizer/5-1-generate-title.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/5-1-generate-title.md",
+    "b64-bmad-claude-sdk/launch-optimizer/tips-for-paige.md",
+    "b64-bmad-claude-sdk/launch-optimizer/4-content-analysis.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/4-content-analysis.md",
+    "b64-bmad-claude-sdk/launch-optimizer/2-3-create-chapters.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/2-3-create-chapters.md",
+    "b64-bmad-claude-sdk/launch-optimizer/2-2-refine-chapters.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/2-2-refine-chapters.md",
+    "b64-bmad-claude-sdk/launch-optimizer/2-1-identify-chapters.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/2-1-identify-chapters.md",
+    "b64-bmad-claude-sdk/launch-optimizer/1-5-abridge-qa.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/1-5-abridge-qa.md",
+    "b64-bmad-claude-sdk/launch-optimizer/1-4-abridge.AD.md",
+    "b64-bmad-claude-sdk/launch-optimizer/1-3-script-summary.AD.md",
+    "b71-bmad-poem/assets/thumbs/thumb-3.jpg",
+    "Untitled.canvas"
+  ]
+}

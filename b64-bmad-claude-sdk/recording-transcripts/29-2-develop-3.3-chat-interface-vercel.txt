@@ -1,0 +1,28 @@
+So let's test out our new chatbot and what we'll do is we'll search for
+products first so can you tell me what products are available and we'll let
+this prompt come through we'll press enter and so we can see this little
+bubble coming up here that's what the user has said this is what the agent
+SDK is responding with at the moment and there are our products we've got some
+groceries we've got some beauty products nail art sort of stuff so let's create a
+little website can you create a little HTML website called beauty and joy can
+this be a nail art sort of store can we get both a HTML page and a CSS file and
+we'll let that kick off and in a moment it'll come up with a plan of action and
+here it's starting to happen and what we can also do is just head over to VS code
+where we can see what we currently have we have a couple of websites here cat dog
+index and AI TLDR and if we come back and we look at these little pages here
+this is where we can see this and look at that it just created beauty and joy
+so maybe that's already started let's go back and see whether it's created here
+yes we can see it we've got a CSS file and a HTML file and that's why that came
+about so let's go and click on that and see what we get okay we've got a
+interesting looking nail art shop I think we can do better styling than that
+so what I'll do is I'll bring it back here and say can you update the CSS
+styling for the beauty and joy website and can you use this basic guidelines so
+what we'll do is we'll just go down and paste some extra work and hopefully this
+all show up cleanly here we go we've got soft modern feminine we got some primary
+colors coming through and it should be updating the CSS very soon and it looks
+like it's finished it's actually created a different HTML so if we go up we now
+have two we have beauty and joy and we have beauty let's look at the old one
+here's the old one and the new one is looking a fair bit more elegant now
+ideally I would have liked that to actually update the original website but
+for a first pass at a chatbot that can create data read data and also use it
+for websites this is working really well

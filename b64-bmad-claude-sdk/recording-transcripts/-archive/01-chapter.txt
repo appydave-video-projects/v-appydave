@@ -1,0 +1,8 @@
+Imagine building a self-editing application, what that means is that you
+could talk to it and it generates all the data in the back end or you could
+ask it to visualize it and HTML pages suddenly materialized. In this video
+we're going to use the Agent SDK from Claude Code to do that and we're going
+to build this application using the BMAD method. I'm happy Dave, let's get into it.
+
+Now this video is a step by step tutorial so if you want to move ahead or go backwards
+and forwards check out the chapter links in the description.

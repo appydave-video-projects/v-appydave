@@ -1,0 +1,8 @@
+Now this is an area where you probably want to work through in interactive mode
+but because it's a video we're just going to go with number two we're going
+to go with YOLO mode. She already has a lot of context she understands the
+project brief that I've decided upfront that this is about three epics. I know
+the structure of the application I'd like to see happen. Some technology stat
+decisions have been made, architecture and implementation guides, I've even got
+the demo workflow talked about in the planning guide. So what this is really
+doing is preparing that information in a structure that BMAD can work with.

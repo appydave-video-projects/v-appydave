@@ -1,0 +1,79 @@
+Now the user interface design guides have come through. I've read through all
+of this and most of it was good except there was one area and probably the
+core area which is the screens and this is not working the way I'm thinking. So
+the first thing it says is chat interface primary screen full height chat
+with message history input field streaming indicator and example
+starters. Love that. That is the only thing that I saw this initial
+application having. It's then got concept of a status panel shows active story
+recent file operations quality gate status. Now that's more complexity than I
+need. It's also talking about the generated application preview in public
+again more complexity than I actually need. My thoughts were that as soon as
+you started typing stuff in here you could generate data in the back end you
+could generate HTML in the back end and now that doesn't necessarily mean the
+menus would work but the actual pages should work and this also pointed out
+another area the quality gate status. So I have this plan in this I had a plan
+for this particular application that be mad stories would get generated that's
+what the quality gates were but then I've taken it out made it a future thing. So
+if we go to the very bottom I said this section here doesn't make sense anymore
+and I've listed it. I said the next two and then I've said the next two steps
+which are these ones down here which I've copied from above are two complex
+and I've given it a little bit more clarity on what to do so we'll just run
+with that. Again it's so important in this area that you actually get it
+stating exactly what you think you want to see. So it's come through red is what
+it's changing green is what it's changing it to. Now you can see it's
+continuing with simplified user interface but we can also go over to
+Visual Studio and have a look at the document like before here in a simple
+markdown viewer so be mad Claude self-editing application we've got our
+functional requirements kicking into place here and we can see some of the
+modifications like the slash chat and the slash products as examples. So we go
+back to our conversation and this makes a whole lot more sense we've got the
+application presents as a minimal chat interface we can see it's on slash chat
+we know that it can generate concepts like products and blogs we know it can
+generate concepts like products and blogs even though there may not be a
+navigation menu in place. The one little bit of styling we'll have is that it can
+do dark mode and light mode and so we can move on to the next step there is
+one big issue in here and this is the issue of anyone using vibe coding is
+that this application when we build it will allow us to change our backend
+server. Now that's both a security issue you wouldn't do this on a public website
+this is an internal tool but it means how do we manage those changes and I'm
+assuming in my setup that I'm going to use git commit so I should be able to
+roll back but that's not necessarily the most technically easy thing for people
+to use but for this example that's how I'm planning to do it. Now here what it's
+done is now here what it's done is come up with the technical assumptions
+they're all based off the project brief which is great I've read through all of
+them and they're all very accurate this is exactly the way I see it happening
+but I thought I'd point out one area so where did this all come from it came
+from something called the storyline app and so I think it's important to look at
+this application for a second for a second because and I think it's
+important to look at this application for a second because the catalyst for
+this project was how do we create a self-creating documentation system now
+I think it's important that we look at the storyline application because the
+catalyst for building this project was could we generate stories dynamically on
+the fly so if we head over to a web view and we're looking at what is a
+client and server sort of system so currently we are connected to the server
+and it's using the same technology we're about to build and if we go and have a
+look at our project files we've got something called the boy and the Baker
+now the boy and the Baker is a five-minute video that we've created and
+when you look at it you can see that it's a story and the story starts off
+with an elderly Baker walks into his shop to see a boy being beaten and
+bullied by some younger children so we can see pictures of this Baker along the
+way now if we go and toggle the image display we can see that we've got an
+establishing shot we've also got other versions of the shot available so as we
+move through this story and it goes for five minutes all of these images are
+character consistent their theme and style consistent and using tools like
+HALU which we make available which we use to animate using a combination of
+the image prompts for Dali 3 Sora and the animation prompts for and the so we
+build our movie by using the image prompts with tools like Dali 3 and Sora
+and we use the animation prompts along the way for doing the animations in
+HALU or for doing the animations in HALU or VO3 so what I want to do is but the
+interesting thing that but the interesting thing is that everything
+that you're seeing is based off this one narrative so we've got a little
+narrative it creates setting the ambience the characters the description
+we've got the image prompt and we've got the animation prompt and I've been
+going through and refactoring this so that this is a lot more deeper but
+really I just want to type this into a text box and have all of this extra
+information generated for me automatically and so when we get back to
+this particular application that we're building that's exactly what this is
+meant to do save something and data gets generated and that's what this
+application is meant to do we should just be able to save something into a
+text box and have complex data structures form around that information

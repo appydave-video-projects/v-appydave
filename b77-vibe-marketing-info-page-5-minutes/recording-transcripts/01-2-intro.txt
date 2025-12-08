@@ -1,0 +1,71 @@
+What I love about Vibe coding with Claude code and the Opus 4.5 model is just how
+easy it is to come up with some sort of bespoke marketing sort of web page by
+bringing together information from a couple of different sources. In this
+video we're going to go down to the terminal and we're going to kick off a
+Claude code instance and in less than two minutes we're going to have an
+interesting website created. So we'll start with a question. What is the
+content of this folder? What's going on here? So nothing complex about the prompt
+and what it's doing is just reading from the flow video project that I happen to
+be in at the moment. Now we'll kick off another prompt while we're doing it and
+go what do you know about my brand? I think you'll need to look in the
+AppyDave or the AD directory to find out a little bit of information about my
+brand. So it's just gotten us some information about the folder we're in
+and what is that? We've got main components. There's some sort of
+application that I've been building with Claude code and the Opus 4.5 model.
+It's called the flow video Neymar and we can see within there there's a bunch of
+docs there they've set up into different stages and while that was happening it
+also started reading from my computer and was looking around for the AppyDave
+directory and what it's found here is a little bit of information about my
+brand. It's got some visual design system going on. It's got a bunch of content
+pillars that I talk about. It's also got a brand structure. So let's just put in
+one other prompt. Now I'm using ito.ai. It's a voice transcription system or a
+voice dictation system and I'm going to say can you take the information that
+you've collected from both sections and just combine it together in some sort
+of machine readable document. Let's go with JSON, JSON and we'll just let that
+go and I just noticed that my screen was and I just noticed that the recording
+was off the screen so we can see the content pillars here. We can see the
+brand structure going on there and what it's going to do is just build up a
+little machine readable document by selecting information from both seeing
+if they can go together and one of the things you can notice is that this is an
+almost continuous video. I do pause it for a couple of seconds but all up this
+is going to take us about one to two minutes to do the final video but all up
+it's going to take one or two minutes to turn this information into something
+truly useful. So we can see that it's starting to build up a data document.
+It's called a brand. It's got concepts like my brand name, who I am, my title.
+It's got other information around and it's gone and given us a bit of a
+summary of everything we have here. So let's now turn it into something
+beautiful. Can you turn this into some sort of beautiful HTML structure and
+when you do can you tell me the type of structure you plan to do but also give
+me three other variants once you're finished and I mean categories so that I
+can decide what the next structure should be. So just make that minor
+modification because I didn't want it to create three variants of the HTML page.
+I only wanted to create one HTML page and when it's finished give me three
+other ideas that we could play around with just to see what styling could be
+and right now it's starting to write out a little bit of HTML and before it even
+finishes I'll start the next prompt and says can you open up that HTML file in a
+browser for me. So we'll just let that come through and it should come up with
+some sort of open command pointing at that particular file. We could see some
+structure and look at that it's just built it. So we'll jump over to the
+website see what it's come up with. It says Appydave, my name, AI strategist,
+architecting knowledge prompts and AI integrations. We've got some the 555
+manifesto which is an idea I have for running five channels 55 weeks with 555
+videos and we've got a little bit of information about my brand structure.
+The good thing is this is all following the color schemes that I want. We've got
+all the content pillars and look at that we've got fly video projects that
+I'm working on and we've got the video name a tech stack, we've got our brand
+designs coming through here, topography and the legacy scale system. Structure
+prompts, crafting workflows, agent design, low code stack and empowerment. This was
+how I was going to be framing everything on my YouTube channel that's all changed
+a bit. Now the reason I did this video was that 20 minutes ago in another
+meeting I did the same thing and this is what it came up with. It's a little bit
+different, it's different styling, it says fly video which is an old YouTube
+channel of mine. We've got David Crewis, we've got the brands, four stage system.
+This is all part of my fly video system which is pre-production then there's the
+recording, editing and publishing and at the moment the recording which is the
+recording namer application is what I'm actually recording into right now so
+this application was vibe coded this week and you can see the videos above
+I've got four or five videos I'm building that particular application. So
+I just wanted to show this because this was the page that I created for someone
+in a meeting real time and I thought I'll try it again and look at that it's
+wonderful. How's that a five minute and fifty five full video taken what in one
+go. I'm Appy Dave please like and subscribe I'll see you in the next video.

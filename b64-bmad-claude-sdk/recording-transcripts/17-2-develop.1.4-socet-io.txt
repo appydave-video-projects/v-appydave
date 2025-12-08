@@ -1,0 +1,12 @@
+so we can see the endpoints that we want to test but if we go and look at the
+SAT plan we've got a little bit of console logging that we should see in
+chat and we should see some server responses if we type anything into the
+chat window apparently it can also handle a disconnection so let's go test
+them out so here's our web application we'll hit refresh and it's saying that
+we're currently connected let's just say let's just say Appy Dave here press
+enter and we're getting a response received I've just asked it to kill the
+server over in Claude code because I think it's running in the background
+over here I didn't actually start it and look at that it's starting to say that
+it's disconnected what I'll do is restart it from the terminal myself and
+if we come back to our web application hopefully it just automatically
+reconnects

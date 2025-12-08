@@ -1,0 +1,22 @@
+So I'd finished the video and then forgot that I needed a recap stats like
+what have we talked about so let's just go and have a look at what we built
+today. Now it's called the Recording Namer proof of concept this is the
+development timeline and we can see that the initial Claude code and we can see
+that the initial Claude Opus 4.5 took 10 minutes and this built all the and this
+built all of the application while I went to bed the next day I got up we
+fixed a couple of bugs that took two minutes then I added a bunch of new
+features that you saw me do that's about three minutes of coding each time there
+were a couple of bugs so I had to do some bug fixing two minutes and then I
+had and then I added an auto detect files which was really just working out
+that if I started a new web session would it find the next file to create
+the stack is relatively complex we've got a server it's using Express 5
+socket IO and other sorts of libraries we've got a client in react with Vite
+and Tailwind CSS information is being sent directly from my file system to
+the web using socket but when we need to query a little bit of information we're
+using tan stat query now information is sent directly from my file system to the
+web server using the socket IO and the application is in a mono repo with seven
+files for the server ten for the client and one file that shared between them
+both so everything was done without me actually looking at code it was just
+either asking it to follow the requirements updating the requirements
+and merging them in or just giving it the odd little you've got a bug here's
+some context go and fix it

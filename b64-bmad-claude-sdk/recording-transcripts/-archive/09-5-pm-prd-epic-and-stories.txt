@@ -1,0 +1,10 @@
+So now we're moving on to EPIC 2, which is all about setting up the Anthropic Claude SDK.
+And it talks about, let's get it installed. Seems like a good first step.
+After that, it's trying to implement one of the tools, which is the read JSON.
+Then it's going to do the write JSON and the write file.
+And then after all of that, we're going to integrate socket streaming.
+And we're going to do it both for the server, but we're also going to have the chat messages working with this.
+And then after that, we're going to implement the full event loop.
+Now it's this particular EPIC that I'm having a few challenges with.
+And I'll go over what they are soon and how I can change them pretty quickly.
+But let's look at the third EPIC.

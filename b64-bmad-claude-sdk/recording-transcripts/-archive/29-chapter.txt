@@ -1,0 +1,73 @@
+We've just completed story 3.3 and we're really close to the end of
+building the application and what you can see now is that it started to come
+together quite nicely. We'll demonstrate where it's at in a moment but I'll point
+out that this is the 14th story that we've done and every story we've done
+up until this one just came across without a hitch. It was able to be
+created, it was validated, it was written by the software developer. We were able
+to do the story acceptance testing and we were able to do the QA afterwards and
+everything was really quite quick. This is the one story where everything
+changed so I'll do a little bit of a post-mortem analysis of it as well
+after I've demonstrated where we're at.
+
+So let's test out our new chatbot and what we'll do is we'll search for
+products first so can you tell me what products are available and we'll let
+this prompt come through we'll press enter and so we can see this little
+bubble coming up here that's what the user has said this is what the agent
+SDK is responding with at the moment and there are our products we've got some
+groceries we've got some beauty products nail art sort of stuff so let's create a
+little website can you create a little HTML website called beauty and joy can
+this be a nail art sort of store can we get both a HTML page and a CSS file and
+we'll let that kick off and in a moment it'll come up with a plan of action and
+here it's starting to happen and what we can also do is just head over to VS code
+where we can see what we currently have we have a couple of websites here cat dog
+index and AI TLDR and if we come back and we look at these little pages here
+this is where we can see this and look at that it just created beauty and joy
+so maybe that's already started let's go back and see whether it's created here
+yes we can see it we've got a CSS file and a HTML file and that's why that came
+about so let's go and click on that and see what we get okay we've got a
+interesting looking nail art shop I think we can do better styling than that
+so what I'll do is I'll bring it back here and say can you update the CSS
+styling for the beauty and joy website and can you use this basic guidelines so
+what we'll do is we'll just go down and paste some extra work and hopefully this
+all show up cleanly here we go we've got soft modern feminine we got some primary
+colors coming through and it should be updating the CSS very soon and it looks
+like it's finished it's actually created a different HTML so if we go up we now
+have two we have beauty and joy and we have beauty let's look at the old one
+here's the old one and the new one is looking a fair bit more elegant now
+ideally I would have liked that to actually update the original website but
+for a first pass at a chatbot that can create data read data and also use it
+for websites this is working really well
+
+Now, I said that this story wasn't actually as successful in the coding as any other story
+that we've done, but let's have a look at what it was originally.
+It's built a chat interface with Versal AI as a developer, a chat interface using the
+AI element patterns so that users can send messages and have streaming agent responses.
+Now, that's working, and so I'm pretty happy with that, but let's look at what the post
+post.
+But let's have a look at the post more, Tom, and this is where a number of issues happen.
+Now, part of the issues happen because I think when I was doing it, I was really tired, so
+I wasn't paying attention to different things going on, but the main issue, which I seem
+to run into every time I do Tailwind and totally forgot about it in this particular case, is
+it got configured with V3 syntax, but it was a version for Tailwind.
+So in the last story, you would have seen the styling, and I said it was pretty normal.
+That should be what it's like, and you might have noticed in the last story that there
+was styling that looked pretty average, and I said, well, that's actually how it's meant
+to be.
+Well, that's not the case, and the reason is that the Tailwind styling was misconfigured
+and it took a little while to find it out.
+Another issue that was happening under the hood for me is that one of the servers, there
+are two in this, was meant to be running on 5173, but Claude was actually running a separate
+one on 5174, and so I was trying to see updates, and nothing was coming through, and I kept
+saying to Claude, this is not working, and he kept saying, I fixed it, but I wasn't seeing
+anything visually.
+Now again, a lot of that was me tired at the time, but this is one of the realities of
+having AI agents that can run the servers for you, is that if they've got a conflict
+with your current server, then it's just going to spawn a new one on a different port.
+Then it had a bunch of issues with the bubbles, and the drop-down menu that we saw showing
+up underneath the bubbles.
+Now the reason I actually wrote this document wasn't just so that I could show you the sort
+of challenges that you can run into, but because once you write a document like this, you can
+make it a part of your documentation system, so if any other issues happen in the future
+and you notice it, you can say, can you go and read other documentation or lessons learnt
+that were done in the past, and this can be a perfect way of training the AI model to
+write code the right way if you see a certain problem showing up again and again.

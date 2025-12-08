@@ -1,0 +1,7 @@
+Now, it'd be useful to visualize what the progress command looks like, and we've already
+had two other ages before, so what we'll do is we'll just go down to another conversation,
+and we're doing it this way, just so that we can test out the idea of how to include
+a file again.
+So this idea of using specific files as context is incredibly powerful, because we'll be able
+to continue the conversation earlier, where we had the design guidelines for this particular
+document, and it should just update for us.

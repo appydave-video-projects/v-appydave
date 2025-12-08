@@ -1,0 +1,10 @@
+Now finally after a few rabbit holes we're at the demonstration of DAM so
+we'll head down to our terminal and the way we use this tool is by typing in
+DAM and we can put in help and this will give us a list of capabilities within
+the tool. So we've got tools for dealing with both brand and project level assets
+within the repositories. Then we've got the tools that are designed for editing
+the videos, sending them up to S3, bringing them down to S3. We can also
+discover what's already on S3 or share it as a shareable link. Got access to the
+commands that allow us to backup information either to local SSD drives
+or to the NAS and in the future the Glacier system. And lastly we've got the
+basic listing and query sort of tools.

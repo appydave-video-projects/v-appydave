@@ -1,0 +1,17 @@
+At this point, we'll come back to B-MAD, we can see there's some architectural patterns,
+a bit hard to see, but I'm going to kick this off to keep going.
+And we'll come back to our little diagram, and down the bottom we've got this list of
+architectural patterns.
+So the first one is the document framework pattern, then we've got our runtime system
+using Astro, after that it's all going to be agent guided workflows, so the workflows
+will probably be done in YAML files or some other sort of machine readable structure.
+Then we're going to use skills, so a lot of the stuff to go get context or talk to the
+systems will be done with skills, and after that we've got the provider abstraction pattern,
+sometimes known as the plugin pattern.
+And what that will allow us to do is provide integrations to external systems in a consistent
+interface, yet to be defined really, and then everything's going to be file based for story.
+And one of the last and very important areas is just how is data going to be shaped, because
+when we're dealing with prompt engineering, it's a lot of interpolation of values, maybe
+changing the shape of them, pulling them in from different schemas, pulling them in from
+different data sources, and we're going to have to figure out a schema driven approach
+to that.

@@ -1,0 +1,2 @@
+Now POMA has been designed to support three different workflows, the first one is the
+YouTube automation, the second is support signal and the third is the storyline application.

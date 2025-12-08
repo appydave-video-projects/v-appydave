@@ -1,0 +1,47 @@
+So now we're ready to start developing our application so to get started we
+need the scrub master and the scrub master will read through the epic and
+create the first story for us and that can be done by using this command here
+called draft so what we'll do is we'll type in draft and we could say
+something like draft first story in this case so I've got draft first story from
+first epic and if we go over and have a look at the epics list our first one is
+the mono repo the first one is the mono repo set up with the basic server and
+client so we can see it starting to gather architecture context here we've
+got all the different documents that we've created in the architecture folder
+being read as needed it's ensuring for the first time that we've made the
+stories directory now I've already done that manually now keep in mind that from
+the epic point of view it's only got this basic information to start with so
+it's drawing from that followed by all the architecture documents and we now
+have our first and we now have our first story in draft mode so at this point we
+can read it and see that it basically starts off with the story card and the
+acceptance criteria that it got from the epic and we can see that it's grabbed
+from the epic the story card and the acceptance criteria and from that it's
+just developed a bunch of tasks and sub tasks to work with it's aware that
+there's no story to start off with this is the first one it accesses the tech
+stack we've got the project structure that it's meant to be creating we
+understand the workspace that we're in and it's gone and prepared some shared
+types so it's grabbing a lot of this information from the architecture
+document setting up the naming conventions the coding conventions
+setting up the naming conventions and the coding standards and it also
+understands how to set up the type script configuration it's filled in an
+area for testing which at the moment we don't have any testing and so at this
+point we could start doing development now the normal flow in an application
+would be to read through this and check everything is okay for now I'm just
+going to change this from draft to ready and hit save and then we can go back to
+Claude where we can start doing our development now it needed to be in that
+ready mode so we've done that so we'll just switch over to the development
+agent and we can just type develop story now I'm going to put in the 1.1
+because it'll make it easier for it to find the correct document without having
+to look through documents and now it has a plan of action of what it's going to
+work through so it's going to set up our package.json create the workspace
+directory structure for us move on to configuring type script create the
+workspace package.json and create the shared types we'll do the gitignore and
+then finally it will verify that the mono repo has been set up correctly so
+at the end of this we should have a lot of new code in the system not
+necessarily sure if there's anything that we're going to see visually if we
+try to run it so it's finished developing all the code it makes a
+statement that everything is in place it's a little bit hard to test because
+we don't actually have any source code just yet but when we look at the story
+the story has been updated we have a lot of check boxes of the work that's been
+done when I personally run the build I got a couple of errors but they're
+actually listed here so that's okay all the files have actually been created so
+at that point we can close off this story

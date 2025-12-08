@@ -1,0 +1,4 @@
+So as the poem develop matures we'll unlock various capabilities so that at the very end we can create our three scenarios.
+The YouTube launch formula based on 15 months of different prompt engineering in place.
+Followed by the support signal which is all compliance driven and that's five months of prompt engineering going into that.
+And lastly we'll work on the really creative movie and storytelling application to build out the prompts for that.

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FliVideo Project Context</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #e4e4e7;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #06b6d4, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+    header .subtitle {
+      color: #a1a1aa;
+      font-size: 1.1rem;
+    }
+    .owner-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: rgba(255,255,255,0.1);
+      padding: 0.75rem 1.5rem;
+      border-radius: 2rem;
+      margin-top: 1rem;
+    }
+    .owner-badge .avatar {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .card h2 .icon {
+      font-size: 1.5rem;
+    }
+    .brand-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .brand-item {
+      background: rgba(255,255,255,0.05);
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem;
+      border-left: 3px solid #06b6d4;
+    }
+    .brand-item.client {
+      border-left-color: #f59e0b;
+    }
+    .brand-item .name {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .brand-item .desc {
+      font-size: 0.85rem;
+      color: #a1a1aa;
+    }
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      background: rgba(139, 92, 246, 0.3);
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      margin-left: 0.5rem;
+    }
+    .tag.primary {
+      background: rgba(6, 182, 212, 0.3);
+    }
+    .stages {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .stage {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem;
+      background: rgba(255,255,255,0.03);
+      border-radius: 0.5rem;
+    }
+    .stage-number {
+      width: 2rem;
+      height: 2rem;
+      background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    .stage-info {
+      flex: 1;
+    }
+    .stage-info .name {
+      font-weight: 600;
+    }
+    .stage-info .desc {
+      font-size: 0.8rem;
+      color: #a1a1aa;
+    }
+    .status {
+      padding: 0.25rem 0.75rem;
+      border-radius: 1rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    .status.active {
+      background: rgba(34, 197, 94, 0.2);
+      color: #4ade80;
+    }
+    .status.future {
+      background: rgba(251, 191, 36, 0.2);
+      color: #fbbf24;
+    }
+    .status.implemented {
+      background: rgba(6, 182, 212, 0.2);
+      color: #06b6d4;
+    }
+    .status.not-implemented {
+      background: rgba(161, 161, 170, 0.2);
+      color: #a1a1aa;
+    }
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .tech {
+      padding: 0.3rem 0.75rem;
+      background: rgba(139, 92, 246, 0.2);
+      border-radius: 0.25rem;
+      font-size: 0.8rem;
+    }
+    .tech.client {
+      background: rgba(6, 182, 212, 0.2);
+    }
+    .tech.server {
+      background: rgba(34, 197, 94, 0.2);
+    }
+    .pillars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .pillar {
+      padding: 0.5rem 1rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .pillar.critical {
+      border: 1px solid rgba(6, 182, 212, 0.5);
+    }
+    .pillar.highlight {
+      background: rgba(6, 182, 212, 0.2);
+      border: 1px solid #06b6d4;
+    }
+    .pillar.exploration {
+      border: 1px solid rgba(161, 161, 170, 0.3);
+      color: #a1a1aa;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+    }
+    .team-member {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(255,255,255,0.03);
+      border-radius: 0.5rem;
+    }
+    .team-member .role {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .team-member .name {
+      font-size: 0.9rem;
+      color: #a1a1aa;
+    }
+    .team-member .type {
+      font-size: 0.75rem;
+      color: #06b6d4;
+      margin-top: 0.25rem;
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.75rem;
+    }
+    .product {
+      padding: 1rem;
+      background: rgba(255,255,255,0.03);
+      border-radius: 0.5rem;
+      text-align: center;
+    }
+    .product .name {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .product .desc {
+      font-size: 0.8rem;
+      color: #a1a1aa;
+    }
+    .naming-box {
+      background: rgba(0,0,0,0.3);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+    .naming-box .pattern {
+      color: #06b6d4;
+    }
+    .naming-box .example {
+      color: #4ade80;
+      margin-top: 0.5rem;
+    }
+    .full-width {
+      grid-column: 1 / -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>FliVideo</h1>
+      <p class="subtitle">Video Asset Management System for YouTube Creators</p>
+      <div class="owner-badge">
+        <div class="avatar">DC</div>
+        <div>
+          <strong>David Cruwys</strong>
+          <div style="font-size: 0.85rem; color: #a1a1aa;">AppyDave | Project Manager</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Brands Card -->
+      <div class="card">
+        <h2><span class="icon">🏷️</span> Brands</h2>
+        <div class="brand-list">
+          <div class="brand-item">
+            <div class="name">AppyDave <span class="tag primary">Primary</span></div>
+            <div class="desc">Business brand - Context Engineering, BMAD Method</div>
+          </div>
+          <div class="brand-item">
+            <div class="name">AITLDR</div>
+            <div class="desc">AI graphics, animations, storytelling, avatars</div>
+          </div>
+          <div class="brand-item">
+            <div class="name">Beauty & Joy</div>
+            <div class="desc">Joy's personal brand</div>
+          </div>
+          <div class="brand-item client">
+            <div class="name">SupportSignal <span class="tag">Client</span></div>
+            <div class="desc">NDIS application - Primary client</div>
+          </div>
+          <div class="brand-item client">
+            <div class="name">vOz <span class="tag">Client</span></div>
+            <div class="desc">Creative content - Vasilios Kapenekas</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Stages Card -->
+      <div class="card">
+        <h2><span class="icon">🎬</span> 4-Stage System</h2>
+        <div class="stages">
+          <div class="stage">
+            <div class="stage-number">1</div>
+            <div class="stage-info">
+              <div class="name">Pre-production</div>
+              <div class="desc">Planning stage</div>
+            </div>
+            <span class="status not-implemented">Not Started</span>
+          </div>
+          <div class="stage">
+            <div class="stage-number">2</div>
+            <div class="stage-info">
+              <div class="name">Recording</div>
+              <div class="desc">flivideo-namer app</div>
+            </div>
+            <span class="status active">Active</span>
+          </div>
+          <div class="stage">
+            <div class="stage-number">3</div>
+            <div class="stage-info">
+              <div class="name">Editing</div>
+              <div class="desc">Editor brief generation</div>
+            </div>
+            <span class="status future">Future</span>
+          </div>
+          <div class="stage">
+            <div class="stage-number">4</div>
+            <div class="stage-info">
+              <div class="name">Publishing</div>
+              <div class="desc">AI automation</div>
+            </div>
+            <span class="status implemented">Implemented</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech Stack Card -->
+      <div class="card">
+        <h2><span class="icon">⚡</span> Tech Stack</h2>
+        <p style="margin-bottom: 0.75rem; color: #a1a1aa;">flivideo-namer on port 5101</p>
+        <div>
+          <strong style="font-size: 0.85rem;">Client:</strong>
+          <div class="tech-stack">
+            <span class="tech client">React 19</span>
+            <span class="tech client">Vite</span>
+            <span class="tech client">TailwindCSS v4</span>
+          </div>
+        </div>
+        <div style="margin-top: 1rem;">
+          <strong style="font-size: 0.85rem;">Server:</strong>
+          <div class="tech-stack">
+            <span class="tech server">Express</span>
+            <span class="tech server">Socket.io</span>
+            <span class="tech server">chokidar</span>
+          </div>
+        </div>
+        <div class="naming-box">
+          <div class="pattern">{chapter}-{sequence}-{name}-{tags}.mov</div>
+          <div class="example">Example: 10-5-intro-CTA.mov</div>
+        </div>
+      </div>
+
+      <!-- Team Card -->
+      <div class="card">
+        <h2><span class="icon">👥</span> AI-Assisted Team</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="role">PM / CEO</div>
+            <div class="name">David</div>
+            <div class="type">Human</div>
+          </div>
+          <div class="team-member">
+            <div class="role">Product Owner</div>
+            <div class="name">/po</div>
+            <div class="type">Claude Agent</div>
+          </div>
+          <div class="team-member">
+            <div class="role">Developer</div>
+            <div class="name">/dev</div>
+            <div class="type">Claude Agent</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Pillars -->
+      <div class="card full-width">
+        <h2><span class="icon">📚</span> Content Pillars</h2>
+        <div style="margin-bottom: 0.75rem;">
+          <strong style="font-size: 0.85rem; color: #06b6d4;">Critical:</strong>
+        </div>
+        <div class="pillars">
+          <span class="pillar critical">BMAD Method</span>
+          <span class="pillar critical">Agent Workflow Builder</span>
+          <span class="pillar highlight">FliVideo</span>
+          <span class="pillar critical">Storyline App</span>
+          <span class="pillar critical">Skool Community</span>
+          <span class="pillar critical">Dent/KPI Systems</span>
+        </div>
+        <div style="margin-top: 1rem; margin-bottom: 0.5rem;">
+          <strong style="font-size: 0.85rem; color: #a1a1aa;">Exploration:</strong>
+        </div>
+        <div class="pillars">
+          <span class="pillar exploration">Klueless</span>
+          <span class="pillar exploration">Project Theodore</span>
+          <span class="pillar exploration">Prompt Engineering</span>
+        </div>
+      </div>
+
+      <!-- Related Products -->
+      <div class="card full-width">
+        <h2><span class="icon">🚀</span> Related Products</h2>
+        <div class="products-grid">
+          <div class="product">
+            <div class="name">Storyline App</div>
+            <div class="desc">Video storyline tool</div>
+          </div>
+          <div class="product">
+            <div class="name">Agent Workflow</div>
+            <div class="desc">Multi-agent system</div>
+          </div>
+          <div class="product">
+            <div class="name">AppyDave Tools</div>
+            <div class="desc">YouTube CLI</div>
+          </div>
+          <div class="product">
+            <div class="name">Klueless</div>
+            <div class="desc">DSL for LLMs</div>
+          </div>
+          <div class="product">
+            <div class="name">App-a-Day</div>
+            <div class="desc">Daily experiments</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

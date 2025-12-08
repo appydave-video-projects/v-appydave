@@ -1,0 +1,51 @@
+Now we're on to story 2.4 which is all about reading the JSON document and you
+can see that I've done a basic test here we can see the conversation finding
+information on the computer it's got three sample products in place and if we
+jump down to the conversation it started as usual with the new Appy Day of
+Workflow we've got 2.4 being the story that we want to run. It created that
+story and then I just typed in continue. This moved on to validating the file
+that gave a 9.5 out of 10 and the little issues that were there were all dealt
+with pretty cleanly during the development phase so we didn't need to do
+anything. Once I then set the status to develop we were able to come in and
+click on the developed story we've got a new path validator and the tool that
+will read the JSON. It also set up some sample data automatically so we had
+some test products in place we also had some broken data that we could test
+which we also have broken data which we haven't done a test case on just yet.
+Next it built the story acceptance test based off the story and the code that
+we've developed. It also ran for me all the automated tests that it could do
+anything that was to do with the terminal or something that could be run
+from a command. Now during the SAT generation it also generated a couple of
+files that were very unexpected there was this human test there was also a
+quick test and also because I've done QA there was another file called dash QA
+so one of the things I had to do was go through and ensure that so what I had to
+do was let it know that the SAT agent that we had created earlier in this
+project probably has some flaws and if it could go through and rectify them at
+the same time as cleaning up these files and putting them in the correct location.
+And this is a sort of bespoke issue that you can get from time to time as soon as
+you see an anomaly as soon as you see something out of the ordinary with the
+BMAD method it's important that you probably fix it in the moment and let
+the system know either through learning documents or you clawed MD or in this
+case an agents file that it's not quite right can it go and update itself and so
+we can see right here that the create SAT agent or workflow so we can see
+right here that the create SAT task has been updated with new instructions and
+the cleanup of unnecessary files has happened right here. Now at this point to
+get the JSON loading in from the tool calling we had a few different
+challenges to work through the first one was to do now initially I had a
+little bit of a challenge getting it to read the JSON documents firstly it had
+the wrong folder we changed that then it had a little permission issue change
+that but then the big issue kicked in and that it was trying to read a doc now
+initially when it went to read the JSON document the big problem it was having
+is I'd say could you go and load in some products and it wouldn't pick the right
+file firstly it had a directory issue that was a slight request to the dev
+now when we went to read the products now when I went to read the JSON using
+the AI agent there were a couple of problems that needed to use the
+development agent to fix the first one was a little permission issue it
+rectified that really quickly based off documentation then there was the wrong
+folder it got that fixed up as soon as I gave it an example of where I was
+trying to read and where the files actually were and then lastly which was
+the hardest one was that we were implementing this concept of read JSON
+but it didn't have any ability to figure out what JSON documents were available
+or to discover the one you actually wanted so it suggested and then quickly
+built two extra tools the list would show any files that were available and
+the preview would let you interrogate them and and the preview would let the
+agent interrogate the files to figure out which one you actually wanted

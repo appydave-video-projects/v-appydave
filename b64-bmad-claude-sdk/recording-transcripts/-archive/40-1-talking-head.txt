@@ -1,0 +1,10 @@
+So our agent SDK application is built and this is what it can do for us. So
+we're going into the chatbot where we're going to enter in some products. We
+should be able to view those products and see that they've been stored in the
+back end. At any time we should be able to create a HTML page. Notice that
+there's a live activity, there's also live pages. If we click on the pages we
+should be able to go and see the products listing. At any time then we
+should be able to add a new product or update it and it should come through
+instantaneously. If we need a home page we should be able to add a link and
+create a home page. At the same time when we go to that home page we should be
+able to navigate back to the products.

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppyDave - Interactive Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-brown: #342d2d;
+      --brand-gold: #ccba9d;
+      --brand-yellow: #ffde59;
+      --blue-accent: #2E91FC;
+      --light-gray: #595959;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: #f5f5f5;
+      color: var(--brand-brown);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 4rem;
+      letter-spacing: 2px;
+    }
+
+    .logo .appy { color: var(--brand-gold); }
+    .logo .dave { color: var(--brand-yellow); text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+
+    .subtitle {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: var(--light-gray);
+    }
+
+    /* Tab Navigation */
+    .tabs {
+      display: flex;
+      background: var(--brand-brown);
+      border-radius: 8px 8px 0 0;
+      overflow: hidden;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 16px 20px;
+      background: transparent;
+      border: none;
+      color: var(--brand-gold);
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s;
+      border-bottom: 3px solid transparent;
+    }
+
+    .tab:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .tab.active {
+      background: var(--white);
+      color: var(--brand-brown);
+      border-bottom-color: var(--brand-yellow);
+    }
+
+    /* Tab Content */
+    .tab-content {
+      background: var(--white);
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .tab-panel {
+      display: none;
+      padding: 30px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Section Headers */
+    h2 {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: var(--brand-brown);
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--brand-yellow);
+    }
+
+    h3 {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: var(--brand-brown);
+      margin: 20px 0 12px;
+    }
+
+    /* Accordion */
+    .accordion {
+      border: 1px solid #eee;
+      border-radius: 6px;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+
+    .accordion-header {
+      width: 100%;
+      padding: 16px 20px;
+      background: #fafafa;
+      border: none;
+      text-align: left;
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: var(--brand-brown);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+    }
+
+    .accordion-header:hover {
+      background: #f0f0f0;
+    }
+
+    .accordion-header.active {
+      background: var(--brand-brown);
+      color: var(--white);
+    }
+
+    .accordion-icon {
+      font-size: 1.2rem;
+      transition: transform 0.3s;
+    }
+
+    .accordion-header.active .accordion-icon {
+      transform: rotate(180deg);
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .accordion-content.open {
+      max-height: 1000px;
+    }
+
+    .accordion-body {
+      padding: 20px;
+      background: var(--white);
+    }
+
+    /* Cards */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #f9f9f9;
+      border-radius: 6px;
+      padding: 16px;
+      border-left: 4px solid var(--brand-gold);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card.critical { border-left-color: var(--brand-yellow); }
+    .card.active { border-left-color: var(--blue-accent); }
+    .card.new { border-left-color: #4CAF50; }
+
+    .card-title {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      color: var(--light-gray);
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-left: 8px;
+    }
+
+    .badge-critical { background: var(--brand-yellow); color: var(--brand-brown); }
+    .badge-active { background: var(--blue-accent); color: var(--white); }
+    .badge-new { background: #4CAF50; color: var(--white); }
+    .badge-done { background: #4CAF50; color: var(--white); }
+    .badge-pending { background: #f44336; color: var(--white); }
+    .badge-future { background: var(--light-gray); color: var(--white); }
+
+    /* Manifesto */
+    .manifesto-box {
+      background: var(--brand-brown);
+      color: var(--white);
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .manifesto-box h3 {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2rem;
+      color: var(--brand-yellow);
+      margin: 0 0 15px;
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 20px 0;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-num {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2.5rem;
+      color: var(--brand-yellow);
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--brand-gold);
+      text-transform: uppercase;
+    }
+
+    /* Color Palette */
+    .color-grid {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .color-swatch {
+      text-align: center;
+      width: 100px;
+    }
+
+    .color-box {
+      height: 60px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .color-name {
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .color-hex {
+      font-family: monospace;
+      font-size: 0.8rem;
+      color: var(--light-gray);
+    }
+
+    /* Typography */
+    .font-sample {
+      padding: 15px;
+      background: #f9f9f9;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .font-label {
+      font-size: 0.75rem;
+      color: var(--light-gray);
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    .font-bebas { font-family: 'Bebas Neue', Arial, sans-serif; font-size: 2rem; }
+    .font-oswald { font-family: 'Oswald', Arial, sans-serif; font-size: 1.3rem; text-transform: uppercase; }
+    .font-roboto { font-family: 'Roboto', Arial, sans-serif; font-size: 1rem; }
+
+    /* Pipeline */
+    .pipeline {
+      display: flex;
+      gap: 10px;
+    }
+
+    .stage {
+      flex: 1;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .stage-num {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2rem;
+      color: var(--brand-gold);
+    }
+
+    .stage-name {
+      font-family: 'Oswald', Arial, sans-serif;
+      text-transform: uppercase;
+      margin: 8px 0;
+    }
+
+    /* Tech List */
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .tech-box {
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    .tech-box h4 {
+      font-family: 'Oswald', Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      color: var(--brand-brown);
+    }
+
+    .tech-box ul {
+      list-style: none;
+      font-size: 0.9rem;
+    }
+
+    .tech-box li {
+      padding: 4px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .tech-box li:last-child {
+      border-bottom: none;
+    }
+
+    .tech-label {
+      color: var(--light-gray);
+      font-size: 0.8rem;
+    }
+
+    /* SCALE */
+    .scale-row {
+      display: flex;
+      gap: 0;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .scale-item {
+      flex: 1;
+      padding: 20px 10px;
+      background: #f9f9f9;
+      text-align: center;
+      border-right: 1px solid #eee;
+    }
+
+    .scale-item:last-child {
+      border-right: none;
+    }
+
+    .scale-letter {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2.5rem;
+      color: var(--brand-yellow);
+    }
+
+    .scale-name {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .scale-desc {
+      font-size: 0.75rem;
+      color: var(--light-gray);
+      margin-top: 5px;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--light-gray);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .tabs {
+        flex-wrap: wrap;
+      }
+      .tab {
+        flex: 1 1 50%;
+      }
+      .pipeline, .scale-row {
+        flex-direction: column;
+      }
+      .tech-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo"><span class="appy">Appy</span><span class="dave">Dave</span></div>
+      <p class="subtitle">Interactive Brand & Project Explorer</p>
+    </header>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="overview">Overview</button>
+      <button class="tab" data-tab="pillars">Pillars</button>
+      <button class="tab" data-tab="flivideo">FliVideo</button>
+      <button class="tab" data-tab="design">Design</button>
+      <button class="tab" data-tab="legacy">Legacy</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="tab-content">
+
+      <!-- Overview Tab -->
+      <div class="tab-panel active" id="overview">
+        <div class="manifesto-box">
+          <h3>The 555 Manifesto</h3>
+          <p style="color: var(--brand-gold); font-style: italic;">Creating at scale without losing your soul</p>
+          <div class="stats-row">
+            <div class="stat">
+              <div class="stat-num">555</div>
+              <div class="stat-label">Videos</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">55</div>
+              <div class="stat-label">Weeks</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">5</div>
+              <div class="stat-label">Channels</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">600+</div>
+              <div class="stat-label">Created</div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Brand Structure</h3>
+        <div class="accordion">
+          <button class="accordion-header">
+            <span>Owned Brands</span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body">
+              <div class="card-grid">
+                <div class="card critical">
+                  <div class="card-title">David Cruwys</div>
+                  <div class="card-desc">Personal / Umbrella Brand</div>
+                </div>
+                <div class="card critical">
+                  <div class="card-title">AppyDave</div>
+                  <div class="card-desc">Primary Business Brand - Context Engineering, BMAD Method</div>
+                </div>
+                <div class="card">
+                  <div class="card-title">AITLDR</div>
+                  <div class="card-desc">Secondary Content Brand - AI graphics, animations, avatars</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">
+            <span>Partner & Client Brands</span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body">
+              <div class="card-grid">
+                <div class="card">
+                  <div class="card-title">Beauty & Joy</div>
+                  <div class="card-desc">Joy's Personal Brand</div>
+                </div>
+                <div class="card active">
+                  <div class="card-title">SupportSignal</div>
+                  <div class="card-desc">NDIS Application - Primary Client</div>
+                </div>
+                <div class="card active">
+                  <div class="card-title">vOz</div>
+                  <div class="card-desc">Creative Content - Vasilios Kapenekas</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pillars Tab -->
+      <div class="tab-panel" id="pillars">
+        <h2>10 Content Pillars</h2>
+        <p style="margin-bottom: 20px; color: var(--light-gray);">Everything ladders up to <strong>Context Engineering</strong></p>
+
+        <div class="accordion">
+          <button class="accordion-header active">
+            <span>Critical Pillars <span class="badge badge-critical">3</span></span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content open">
+            <div class="accordion-body">
+              <div class="card-grid">
+                <div class="card critical">
+                  <div class="card-title">BMAD Method</div>
+                  <div class="card-desc">Business Management and Development methodology. YouTube to Skool community.</div>
+                </div>
+                <div class="card critical">
+                  <div class="card-title">FliVideo</div>
+                  <div class="card-desc">Video Asset Management for YouTube creators. 30-step workflow.</div>
+                </div>
+                <div class="card critical">
+                  <div class="card-title">Context Engineering</div>
+                  <div class="card-desc">The umbrella philosophy. AWS, Claude Code, Prompt Engineering.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">
+            <span>Active Pillars <span class="badge badge-active">2</span></span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body">
+              <div class="card-grid">
+                <div class="card active">
+                  <div class="card-title">Agent Workflow Builder</div>
+                  <div class="card-desc">Multi-agent workflow system with human-in-the-loop. Motus integration.</div>
+                </div>
+                <div class="card active">
+                  <div class="card-title">Storyline App</div>
+                  <div class="card-desc">Video content management. Dev chronicles to YouTube videos.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">
+            <span>New Pillars <span class="badge badge-new">3</span></span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body">
+              <div class="card-grid">
+                <div class="card new">
+                  <div class="card-title">Building Beauty & Joy</div>
+                  <div class="card-desc">Teaching BMAD through Joy's brand. Case study.</div>
+                </div>
+                <div class="card new">
+                  <div class="card-title">Skool Community Building</div>
+                  <div class="card-desc">Building Skool communities using BMAD/Context Engineering.</div>
+                </div>
+                <div class="card new">
+                  <div class="card-title">Dent/KPI Systems</div>
+                  <div class="card-desc">Brand development using Dent Global's KPI framework.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-header">
+            <span>Exploration & Future <span class="badge badge-future">2</span></span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body">
+              <div class="card-grid">
+                <div class="card">
+                  <div class="card-title">Klueless</div>
+                  <div class="card-desc">Ruby-inspired DSL meta-language for LLMs. JSON output.</div>
+                </div>
+                <div class="card">
+                  <div class="card-title">Project Theodore</div>
+                  <div class="card-desc">AI companion concept. Always-on voice + transcripts.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FliVideo Tab -->
+      <div class="tab-panel" id="flivideo">
+        <h2>FliVideo Project</h2>
+        <p style="margin-bottom: 20px;">Video Asset Management (VAM) System for YouTube content creators</p>
+
+        <h3>4-Stage Pipeline</h3>
+        <div class="pipeline">
+          <div class="stage">
+            <div class="stage-num">01</div>
+            <div class="stage-name">Pre-production</div>
+            <span class="badge badge-pending">Not Implemented</span>
+          </div>
+          <div class="stage">
+            <div class="stage-num">02</div>
+            <div class="stage-name">Recording</div>
+            <span class="badge badge-done">Implemented</span>
+          </div>
+          <div class="stage">
+            <div class="stage-num">03</div>
+            <div class="stage-name">Editing</div>
+            <span class="badge badge-future">Future</span>
+          </div>
+          <div class="stage">
+            <div class="stage-num">04</div>
+            <div class="stage-name">Publishing</div>
+            <span class="badge badge-done">Implemented</span>
+          </div>
+        </div>
+
+        <h3>FliVideo-Namer Tech Stack</h3>
+        <div class="tech-grid">
+          <div class="tech-box">
+            <h4>Client</h4>
+            <ul>
+              <li><span class="tech-label">Framework:</span> React 19</li>
+              <li><span class="tech-label">Build:</span> Vite</li>
+              <li><span class="tech-label">Styling:</span> TailwindCSS v4</li>
+              <li><span class="tech-label">Comms:</span> REST + Socket.io</li>
+            </ul>
+          </div>
+          <div class="tech-box">
+            <h4>Server</h4>
+            <ul>
+              <li><span class="tech-label">Framework:</span> Express</li>
+              <li><span class="tech-label">Realtime:</span> Socket.io</li>
+              <li><span class="tech-label">Watcher:</span> chokidar</li>
+              <li><span class="tech-label">Port:</span> 5101</li>
+            </ul>
+          </div>
+          <div class="tech-box">
+            <h4>Features</h4>
+            <ul>
+              <li>Watch Ecamm recordings</li>
+              <li>Web UI for naming</li>
+              <li>Asset management</li>
+              <li>Thumbnail management</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Naming Convention</h3>
+        <div style="background: var(--brand-brown); color: var(--white); padding: 20px; border-radius: 6px; font-family: monospace;">
+          <div style="font-size: 1.2rem; margin-bottom: 8px;">{chapter}-{sequence}-{name}-{tags}.mov</div>
+          <div style="color: var(--brand-gold);">Example: <span style="color: var(--brand-yellow);">10-5-intro-CTA.mov</span></div>
+        </div>
+      </div>
+
+      <!-- Design Tab -->
+      <div class="tab-panel" id="design">
+        <h2>Design System</h2>
+
+        <h3>Brand Colors</h3>
+        <div class="color-grid">
+          <div class="color-swatch">
+            <div class="color-box" style="background: #342d2d;"></div>
+            <div class="color-name">Brand Brown</div>
+            <div class="color-hex">#342d2d</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #ccba9d;"></div>
+            <div class="color-name">Brand Gold</div>
+            <div class="color-hex">#ccba9d</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #ffde59;"></div>
+            <div class="color-name">Brand Yellow</div>
+            <div class="color-hex">#ffde59</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #2E91FC;"></div>
+            <div class="color-name">Blue Accent</div>
+            <div class="color-hex">#2E91FC</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #595959;"></div>
+            <div class="color-name">Light Gray</div>
+            <div class="color-hex">#595959</div>
+          </div>
+        </div>
+
+        <h3>Typography</h3>
+        <div class="font-sample">
+          <div class="font-label">Bebas Neue - Headlines & Buttons</div>
+          <div class="font-bebas">The Quick Brown Fox Jumps</div>
+        </div>
+        <div class="font-sample">
+          <div class="font-label">Oswald - Subheadings (Uppercase)</div>
+          <div class="font-oswald">The Quick Brown Fox Jumps</div>
+        </div>
+        <div class="font-sample">
+          <div class="font-label">Roboto - Body Text</div>
+          <div class="font-roboto">The quick brown fox jumps over the lazy dog. Context Engineering is the practice of architecting knowledge, prompts, and AI interactions as strategic assets.</div>
+        </div>
+
+        <h3>Name Styling</h3>
+        <div style="background: #f9f9f9; padding: 20px; border-radius: 6px; text-align: center;">
+          <span style="font-family: 'Bebas Neue'; font-size: 3rem;">
+            <span style="color: #ccba9d;">Appy</span><span style="color: #ffde59; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">Dave</span>
+          </span>
+          <p style="margin-top: 10px; color: var(--light-gray); font-size: 0.9rem;">Single word, BebasNeue font, two-tone coloring</p>
+        </div>
+      </div>
+
+      <!-- Legacy Tab -->
+      <div class="tab-panel" id="legacy">
+        <h2>Legacy: S.C.A.L.E. System</h2>
+        <p style="margin-bottom: 20px; color: var(--light-gray);">Originated in automation era, continues to inform Context Engineering approach</p>
+
+        <div class="scale-row">
+          <div class="scale-item">
+            <div class="scale-letter">S</div>
+            <div class="scale-name">Structured Prompts</div>
+            <div class="scale-desc">Prompt engineering and reusable prompt assets</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-letter">C</div>
+            <div class="scale-name">Crafting Workflows</div>
+            <div class="scale-desc">Design → Configure → Implement</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-letter">A</div>
+            <div class="scale-name">Agent Design</div>
+            <div class="scale-desc">Human-in-the-loop AI interfaces</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-letter">L</div>
+            <div class="scale-name">Low-Code Stack</div>
+            <div class="scale-desc">Tool integration and automation</div>
+          </div>
+          <div class="scale-item">
+            <div class="scale-letter">E</div>
+            <div class="scale-name">Empowerment</div>
+            <div class="scale-desc">Scaling influence and operations</div>
+          </div>
+        </div>
+
+        <h3 style="margin-top: 30px;">Brand Evolution</h3>
+        <div class="accordion">
+          <button class="accordion-header">
+            <span>Previous Focus</span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body">
+              <ul style="list-style: disc; margin-left: 20px;">
+                <li>n8n workflows</li>
+                <li>Agent Workflow Builder</li>
+                <li>Low-code automation</li>
+                <li>S.C.A.L.E. System framework</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button class="accordion-header active">
+            <span>Current Focus</span>
+            <span class="accordion-icon">▼</span>
+          </button>
+          <div class="accordion-content open">
+            <div class="accordion-body">
+              <div style="background: var(--brand-brown); color: var(--white); padding: 20px; border-radius: 6px; text-align: center;">
+                <div style="font-family: 'Bebas Neue'; font-size: 2rem; color: var(--brand-yellow);">Context Engineering</div>
+                <p style="color: var(--brand-gold); margin-top: 10px;">Architecting knowledge, prompts, and AI interactions as strategic assets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Interactive Explorer &bull; Generated: December 4, 2025</p>
+    </footer>
+  </div>
+
+  <script>
+    // Tab functionality
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active from all tabs
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+
+        // Add active to clicked tab
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Accordion functionality
+    document.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        const isOpen = content.classList.contains('open');
+
+        // Toggle current
+        header.classList.toggle('active');
+        content.classList.toggle('open');
+      });
+    });
+  </script>
+
+</body>
+</html>

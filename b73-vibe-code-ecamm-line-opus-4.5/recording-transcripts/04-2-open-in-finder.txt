@@ -1,0 +1,17 @@
+then we restart the video and we can see that there is a holding file going on
+right now. We can go to the project directory, we can also go to the
+downloads directory. Now the downloads directory won't make any sense until we
+get to assets, this is where we can attach images to our videos, but what we'll do
+is get this little ecamm live file over to our main application. Now we're not
+on the demonstration of Opus 4.5 so what we'll do is we'll just create a new
+chapter and we'll call this section the open in finder. Now one of the uses of
+labeling my videos this way is that I use the large language model to help me
+automatically generate the chapter links in the YouTube description. So when you
+go down and look at this video from a YouTube description point of view you're
+going to see you're going to see links that are based on the context of the
+transcript but also around whatever this name is. Now that said let's just
+do a rename we know it's 2 minutes and 50 seconds we know it's 2 minutes 57
+seconds which is that new capability we know it's 68 megabytes we'll hit rename
+and it's just moved over for us. So we'll come back to our recordings and we'll
+turn off the safe because I don't really care about that this is where we're up
+to in our video.

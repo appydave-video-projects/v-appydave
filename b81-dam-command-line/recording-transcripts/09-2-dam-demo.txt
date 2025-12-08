@@ -1,0 +1,6 @@
+So we'll just start off with a damn list and what that's doing is checking the
+configuration and finding all the files related to the brands and also getting a
+little bit of information about what's on the git repos and in the s3 drives
+one of the things that you can do with this command is run a more detailed
+version of it and that and that just gives me access to more details about
+those particular brands.

@@ -1,0 +1,8 @@
+So hopefully that was a good demonstration of what we're going to build, but it might be useful to talk about why we're building it.
+So what you're looking at at the moment is an enterprise application that I've built using the BMAD method.
+And one of the capabilities within it is to deal with AI prompt templates.
+Now this is a full working system where we've got different sorts of prompts that we can look at.
+As we go through we've got little template libraries of pre-designed prompt templates like predicates, yes or no, classifications or observations.
+And all of these prompts are being used in areas like question generation for incidents.
+So if something happened in a medical sort of environment with a customer with a...
+So let's say something happened in a support environment with a...

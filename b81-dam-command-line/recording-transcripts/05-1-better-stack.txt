@@ -1,0 +1,17 @@
+So to understand a stack that can keep your seats and your storage costs down, we've got
+to come back and look at how I'm putting together my digital asset management.
+So the first one is when I'm recording a video, there's local storage.
+So I've already paid for the hard drive.
+When I'm dealing with anything that's lightweight and that's anything that's an image or a text
+file or a bit of audio, I'm using GitHub repos and they're free.
+So they're all being stored up in GitHub repos and synchronized with the team using special
+tooling.
+As soon as we've got anything that's heavy, and that's for me is a video, we're using
+S3 staging, we're using Amazon S3 buckets to store the information, but we're only doing
+it for anywhere up to 90 days because it's only on the currently produced content.
+After that, we're storing everything offline in a big NAS, and after that, we're storing
+everything offline in a network addressable storage.
+And this gives us medium term but quick access to anything we want.
+Then the longer term storage solution is to look at Amazon Glacier.
+And this is incredibly cheap on a per terabyte basis per month that it really doesn't affect
+the cost over time.

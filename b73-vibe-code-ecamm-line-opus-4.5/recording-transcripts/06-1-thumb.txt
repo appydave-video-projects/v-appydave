@@ -1,0 +1,26 @@
+And we'll come back and look at thumbnails. So firstly start a new chapter
+We'll call it thumb and we will just click on the thumbs area here
+And I've just come into Canva where I've got a B64
+This was one of the videos I did and we've got some thumbnails going on here
+We can click through and see what they are and I've decided I would like to have these thumbnails in my video
+So I can come up and click on the share button go to the download make sure it's on the
+Make sure it's on the jpeg and then select which images I want. So I'll turn them all off
+I'll take this little blue area. We'll go number 2 3 4 and 5 and we'll hit done and at this moment
+We're saving it to the system. So let's go back to our
+So let's
+So, let's go back to our
+Application and what should happen is once it downloads it should just pop up and it has so if we click on preview here
+We can see the five images now. We might go. Okay, let's go take that that and that and
+Import it and so now we've got our images right here
+But it might have been smarter if we came back made a couple of
+Modifications if we wanted to and then when we shared it do a much more focused set of images
+So we'll get rid of that thumbnail area and we'll get rid of number 5 and we'll do a download
+And we'll do a done and we'll do a download and then when we come back to our application
+Here, we should get a new zip file being created. There it is
+Now we might want to get rid of this
+We can also click on this little button to open up the downloads directory, but we won't we'll click on
+Delete we'll click on this one where we can do a preview and say no
+These are the images that we want in our video now before I do that
+We should just come down to our assets notice that we do have a thumbs folder from before it has
+The three that we had but we're about to click import the selected
+So we'll click on that and now they've been updated for us

@@ -1,0 +1,48 @@
+So let's look at a little update that I'm planning to do and it's this new
+user experience just going on here. I had a little conversation just into the
+microphone of what I was observing and the first thing I recognized was I
+needed some sort of smart timing or smart labeling of times and so I've got
+it to think through the idea of a shared function that I can use in different
+scenarios so that I can show things as 18, 18 seconds, I can show it as 0018, I
+can show it as 0.3 minute and we've got these different variations because I
+know that when I start seeing time on the web interface I might want smart
+formatting in these particular areas because one of the things I've asked for
+is that can I get the total time now I don't know whether it should be seconds
+or minutes but with this new formatting about to happen we should be able to
+get something that works well. Next thing I've asked it to do is look at the
+chapter duration totals so when we've got four different videos what are the
+totals and this is what it currently shows and this is the proposed solution
+now it's also come up with this so it's so it's also come up with this
+cumulative value and this is going to be useful because what we're seeing here
+with these numbers on the right is close to what the YouTube chapter timings will
+be obviously it'll be different once the videos are edited and so I'm just going
+to say can you turn this into a requirement for the developer and we'll
+let that come through and it's just going to write up something for me and
+at the same time the developer which is operating in this window has has just
+written up a bunch of handover documents for what the product owner
+needs to know about. Now to be honest I haven't been verifying this too much but
+I will take the information and I will paste it back into the product owner that
+way the product owner knows what the developer has been working on and we'll
+kick that off so that it can go and update any documents it needs to but
+then what we can do is go back to this developer handover document and take
+everything up to the section that we just pasted in go to the developer and
+say can you start implementing this capability so what should happen at the
+end of this is that this page here should start getting new values shown on
+it hopefully we're going to see things around smarter time formatting we should
+be able to see cumulative values so I should have a gut feel so I should have
+an idea of where the chapter timings are meant to be and if we go down to the
+developer we can see it started writing the code for the formatting of durations
+next it's going to add the chapter duration total next it's going to add
+the chapter duration totals and headings and then while that's happening my screen
+has crashed so it's in the middle of breaking the code base at the moment and
+then it comes back alive again because this is all using hot module reloading
+so any code that changes behind the scenes we see it visually and we're
+starting to see the smart formatting coming through so we got 18 seconds and
+we're also seeing the total so this is 18 seconds for this video this is 2
+minutes and 41 for those four videos and it looks like we can see where the
+chapter timings would be as well so this would start at zero this would start at
+18 seconds this one would start this one would start at 2 minutes and 59 seconds
+so we'll just come back to the developer we can see we can see that we've got a
+handover document so I can just come over to the product owner and just paste
+that in just letting the product owner know that they can update any
+requirements they need to and keep track of the backlog and the change log

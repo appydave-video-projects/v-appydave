@@ -1,0 +1,166 @@
+Now I've just implemented 2.3 which is real-time streaming and one of the
+interesting things is I was also able to create a BMAD workflow to do all the
+work for me in one sequential flow. We'll look at that in a moment but for now
+let's just test it out.
+
+So, I've created a bunch of testing prompts that we can work with.
+The idea is that I want to see chunks come through the system, so we'll go and select
+this particular one and come back to our web form.
+Now, I've made a minor change to the system prompts that it has a command called test.
+What I want it to do is ignore the idea that it's a web application building agent and
+we'll just paste this information in and it's starting to write some information.
+You can see here it's saying processing at the moment and all of this has been done in
+one chunk.
+So, the interesting thing about the Claude Agent SDK is that you can't stream word by
+word.
+It is done in chunks, so it's a little bit slow between updates, but you can see that
+the chunking is working.
+But you can see that the streaming is working between where my initial message came through
+and then the agent got involved.
+
+We'll try a different version where we're testing of reading the package.json we've
+got I'll help you read the package.json so we see chunk 0 coming through
+right here it will now do an analysis and now it'll do an analysis MD and then
+we see it come through and we can see the three chunks coming through over in
+the console.
+
+So the last test is what would happen if we bombarded it with ideas so I'm going
+to put in number 10 and we'll press enter then we'll paste and we'll put 20
+and we'll paste and we'll put 100 and then we'll paste and we'll do 10 again
+and we can see that counting to 10 this is what it's come up with count to 20
+it's done that for us count to 20 and notice things are starting to get a
+little bit out of order so it's basically as the information comes in
+is when it's written to the stream and what I notice about this that is that it
+works very much similar to how Claude code would work which is different to
+chat GPT where you actually have to wait for each response to come through now I
+don't personally know whether the way with Claude code if I was to rapid-fire
+prompts like this they kind of get aggregated and you get really
+interesting you you can put in an idea and then follow it up with a change of
+idea and it takes it into account don't think that's happening here but we've
+got the rudimentary ideas of what you can already do with Claude code or
+working
+
+Now let's get back to the workflow because I created a custom workflow to
+build all this out so that it could just run without too much input from me and
+it's called the AppyDave workflow what it does is it starts off by asking a
+question what story do you want to have so we did 2.3 at that point it started
+creating the story and it did that by starting up the Scrum Master and running
+the draft story command and as per normal we got a detailed story written
+it's in draft format at the moment and it's as a developer I want to stream
+responses so that the end users can see information progressively now we've seen
+that working so we know it's all going on it wrote the initial plan of what the
+code should look like in the story and then and then it give and then it gave
+me this status update so we can see that it's in draft or the acceptance
+criteria is there and it's got a couple of questions do I want to continue do I
+want to skip or exit so I just so we got this final status of what's going on
+what is the status of the doc so we got this final update of so we got a final
+summary of the creation of the story we can see that it's in draft mode at the
+moment and it's asked me do I want to continue on to validation or skip now I
+said that the validation is optional but I decided to just press continue and we
+can see it's now going into and we can see that it's now going to the product
+owner and validating the information in the story against other documents
+you
+you
+you
+you
+you
+you
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+That's alright.
+I don't think when you've finished off working through the
+Happy Dave workflow that you did the QA bot.
+I don't think when you've finished off working through the
+Happy Dave workflow that you did the QA bot.
+That's not right because a QA bot would have taken out
+That's not right because a QA bot would have taken out
+That's not right because a QA bot would have taken out
+It says something wrong in the workflow instructions
+It says something wrong in the workflow instructions
+That's not highlighting this.
+That's not highlighting this.
+Is there something wrong in the workflow instructions that's not highlighting this?
+Is there something wrong in the workflow instructions?
+Yes.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+No, no, that is right.
+A review story does not create a markdown document.
+The workflow is meant to load in the QA bot and then run the review story command.
+What about our workflow is not doing that?
+Okay.
+Okay.
+Okay.
+Okay.
+Are you keeping our workflow document up to date or giving it extra information to remind
+it not to screw up?
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Thanks for watching!

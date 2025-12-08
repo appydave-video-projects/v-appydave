@@ -1,0 +1,16 @@
+Now, while we're talking about UX changes, you might've just noticed a couple have happened
+and I'm about to run another one.
+So since this is a continuous vibe coding session that I've been doing for a few days,
+I'll just show you a little bit about what's going on.
+So the change I've just made right now is that I've moved the config up to this level
+because it's not really something I need to use very often.
+The other thing I've done is made sure that the current project that I'm working on is
+just showing up here.
+So if we come to another project and we will be switching between these two projects, we
+can see it right here.
+So we'll come back to the chapters that we're working on, go to the recordings and I'm about
+to add in some new capabilities.
+Because we know that this is chapter one and that it's 18 seconds, we know that on YouTube,
+if this wasn't edited, this would be 00 colon 00 and we know that this one would be about
+00 colon 19.
+So what I've just done.

@@ -1,0 +1,7 @@
+Now, as powerful as the AI prompt management system is, the problem with it is that it
+was added into an application for which it's not a primary use case of the application.
+This application is specifically about listing incidents, it's about creating new incidents.
+And while having this prompt engineering framework built in and being able to dynamically change
+on the fly has been useful, it really slows down the development of this system.
+And so I thought when new capabilities were needed, why don't we go and create that using
+a brand new system, and this is where the idea for Pome came about.

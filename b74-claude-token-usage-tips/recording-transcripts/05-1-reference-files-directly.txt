@@ -1,0 +1,16 @@
+Now let's pick out another optimization and this time we're going to go with the
+be more directive and we'll do that through example as well I think so we'll
+head over to a terminal it's a new Claude window and what I'm doing is just
+saying can it list and gather up some HTML files and the files that we're
+looking at are the ones that generated these little presentations that you're
+seeing so everything that you're seeing here is all generated in a particular
+folder so if we so everything you see here is generated in a particular folder
+so if we go back to this location we can see the files now we also are aware that
+we have a PO and we have a dev agent so what we might say is so I've just
+started a prompt that says can we read from the HTML files what we're looking
+to do is gather the style and then what I wanted to do is read from a couple of
+our agents so I'll put in the at symbol and I'll put in PO and we should find it
+in our list of commands and we'll also do the dev agent so if we do dev should
+pop up and he happens to be the second one and what's going to happen is it's
+going to read whatever's going on in these two agents and turn it hopefully
+into some sort of beautiful flip card system

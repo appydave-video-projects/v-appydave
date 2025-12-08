@@ -1,0 +1,5 @@
+So I'll quickly go through this and state that Storyline is about generating movies.
+It's about taking a transcript, extracting the beats, turning it into image prompts and animation prompts,
+and also extracting the sound profiles for emotion and that sort of areas.
+Then we move on to Flyhub, which is where I do all my recording from,
+and this is the stuff doing transcripts, generating images directly from transcripts.

@@ -1,0 +1,10 @@
+So while I was doing that workflow I was also documenting what was going on and I
+was able to develop a preliminary agent called Page and that was able to
+deliver 27 prompt engineering tips or principles that I developed during that
+process which are going to be really useful in Pome. Plus we got this primary
+document which just documented the complete workflow. So I've just dropped
+that into the planning and exploration folder. It's got a bunch of template
+sections. We've got workflow data being collected along the way and then we'll
+just select all the data put it into the clipboard and then we'll just select all
+the data put it into the clipboard and we can go back to our other conversation
+paste it in and that's what we'll use for context for this particular question.

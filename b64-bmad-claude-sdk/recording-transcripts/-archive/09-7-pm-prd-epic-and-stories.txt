@@ -1,0 +1,77 @@
+So to resolve this problem I could have a conversation here but what I find
+easier is to just start selecting the context we need. What I've done is copied
+all the way up to when the epic first started. At this point I just select that
+put in the clipboard. After that I just like to open a new conversation which
+I've got down below and I've started it with the statement I want you to read
+and absorb the following information and then wait for me for guidance. And that
+complete epic list has been pasted in. So that new conversation knows what we've
+got. We've got it highlighted in blue and I just tell it that you're going to help me
+build up an instruction that we can put back into the previous conversation. So
+the goal of this conversation is purely to build a prompt to paste into this
+conversation. Now that it knows the goal for the conversation what I want to tell
+it is I need a Q&A session with it to say what I think are the issues and I
+want it to give me questions to get clarity around the problem. But before we
+get started I ask it to do a bit of a Q&A session with me to get clarity
+around the problems as I see it. So the first bit of the Q&A session is I tell
+it that I'm pretty happy with epic one. I think it's good but I think there's
+stuff that we're going to talk about in epic two that will impact it. So I just
+prepare it to know that it can change epic one even though at the moment it's
+pretty good. After that I went through epic two and each of the stories and I
+just gave it this long diatribe. Now I was just dictating directly into the
+microphone. It was writing out everything as we go and so the good thing about
+this is it can make it more readable for me. So the first thing it does is start
+to unpack the issues that I had addressed. And with that, so these are the
+main things it unpacked. It figured out that stories 2.2, 2.3 and 2.4
+can't be properly verified until we've done the event loop. It also worked out
+that the event loop is not a single story. There's both a beginning and an
+incremental development of it before it finishes. It identified from my
+conversation that what was called story 2.4 was actually two different concepts.
+One was the streaming client area, the other was the same streaming client but
+specifically for the agent SDK. And this also led it to understanding that 1.4
+might need some modifications. Now because I asked it to do a Q&A system it
+actually came up with four pretty solid questions but one of the things I
+noticed while reading them was it kind of suggested the answers as it went. So
+it's a question of is it asking me questions or does it already have good
+recommendations and I just need to sign them off. So I just told it that all of
+the answers, all the questions seem okay. So I just told it that the questions
+it's asking I already thought it had the answer could you just give me the
+recommendation. It just saves me a lot more time than actually engaging in the
+Q&A. And so it wrote these recommendations so the minimum viable
+event loop after 2.1 becomes this idea of create a basic event loop and there's
+no tooling, no streaming, there's just the fact that it can receive messages from
+the SDK. At the moment at the end of EPIC 1 we're just doing HTTP requests but it
+thinks that it might be useful to put in some socket functionality at that point.
+It now feels that the event loop that we're building is a bunch of capabilities
+that can be done as multiple stories mostly here in 2.4 to 2.6 and we can
+move the tools that we want to do into 2.4 to 2.6 and when I look at that I
+realize that even before we move on to EPIC 3 if I want to build in other
+capabilities like Claude skills this EPIC will be the right way to go because
+it's designed in such a way that each new, because it's designed in such a way
+that each cross-cutting concern or aspect can be added one at a time later
+on if needed. So it's already figured out a much better plan but remember that the
+initial part of this conversation was can you create the instruction for me. So
+I just tell it down the bottom here and I'll press enter that this is perfect. I
+love the way it's thinking. What it needs to do is now create those
+instructions that we want to put back into the top conversation and just so
+you know that top conversation is this one that's here we're going to take
+whatever comes out of this conversation and drop it straight into here to
+modify it. So here's our detailed instruction set we can just go all the
+way to the bottom with this we'll make a copy of it come up here and paste it in
+203 lines of information just by asking a couple of questions. So it's already
+started working on things one of the interesting things is it's also playing
+around with the product requirements document right here. So the changes we
+asked for have been implemented we've got a change to story 1.4 and we've got
+a whole new re-ordering and breaking up of EPIC 2 and what the number of
+stories really tell us is how many development sessions are going to go on
+because we'll get the scrum master and the developer to work on each story's
+sequential. We'll get the scrum master and the developer to work on each of the
+stories sequentially starting from one and going through to number 14. So
+quickly looking at the PRD we've got the new EPIC list it's the monorepo set up
+the agents or the server in the back end and the front end client and then we've
+got all the details coming through one story at a time. These are just simple
+stories they'll be converted into full-blown stories with the scrum master
+and we can see the main breakup that I needed which is to start off with an
+event loop not finish with an event loop and then add streaming and logging as we
+go and then after that we can do the tools and finally finish off and then
+finally connect it all up to the react front end.
+you

@@ -1,0 +1,41 @@
+Now, what we're building today is this self-editing application.
+We're going to use the Claude Agent SDK and the BMAD method.
+
+Now if this all works, what we'll be demonstrating is the idea of creating a bunch of products,
+building out a product listing, maybe even a details page for it, adding a home page,
+making some of those products featured and then adding more products along the way.
+
+Now, the magic of a self-editing application is firstly this human experience, so we'll
+be able to talk to the computer, have it generate features, have it generate data, and we'll
+be doing that using vibe coding sort of techniques.
+But the way we implement it, the technical reality is that we're going to use context
+engineering and the framework we're going to use is the BMAD method to build this application
+in front of us.
+But the technical reality of this is that we're going to use context engineering via
+the BMAD method to build the application, it'll build all the data.
+But the technical reality of this is that we're going to use context engineering using
+the BMAD method and tools like the Agent SDK to make this application a reality.
+
+Now let's just talk a little bit about the planning ahead of time. So I've
+already got a planning folder in place for what we're going to do. I've got some
+preliminary tech stack stuff but I want to run all of this through the BMAD
+method. Now which version of the BMAD method should we use? Should we use
+version 4 which is the current or should we use the version 6 alpha 9? Now I tried
+a video yesterday on alpha 8 and I don't particularly believe it's ready for use
+just yet for this sort of project. So we're going to work with version 4 and
+that means what we're going to do is use this command here, mpx BMAD method
+install. If you do want to use the version 6 it's all available. Now the few
+problems I ran into I had a conversation with Brian from the BMAD method and he
+is aware of it and he's talking through the changes that are coming in place
+related to those issues but for today we'll keep it simple and work with
+version 4.
+
+Now in the repo that we're building all this which is 07BMAD Claude SDK you can
+go to the bottom and find the links so here's the link to the version 4 BMAD
+and if you scroll down a little bit we'll go and select our starting command
+with that selected we can go over to our terminal and I've already got some pages
+here the files that you were just seeing the readme that you were just seeing is
+in here at that location and I've got a planning phase in my documents
+directory already so we'll clear that out and so we've cleared the screen and
+putting in the MPX BMAD method install and that's going to walk us through a
+wizard

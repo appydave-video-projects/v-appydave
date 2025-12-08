@@ -1,0 +1,52 @@
+So the development has started there's quite a lot of actions that are going to
+take place let's just go over and have a look at the documentation over here and
+we can see that we've got the video transcription specification we've got
+the current problem or we've got the problem statement which is the current
+problem is that and we've got the problem statement listed which is that
+we record a video we rename it in the app later we run a transcription manually
+now I end up doing it on the full video the idea now is that as we're recording
+individual videos we should just be able to create transcriptions directly in
+transcripts folder and I've got a list of where they're going to be so
+currently recordings either go into the recordings directory or once they're
+safe and I think this is good I'll move them into the safe directory and I just
+want to keep whatever recordings are in either directory I want the transcripts
+to be here now the capability should happen automatically whenever a new
+recording is added to the system and we've got a little bit of a UI design
+guide going on here so currently where we see the movie files and we can see
+the size of the video in seconds we can see the size of any megabytes we should
+now be able to see no transcript or transcribing or let's go and view or
+open it now from time to time we'll just jump over and see what the now from
+time to time we'll just jump over and see where the developments up to so it's
+got through four different areas it's still working its way through we'll come
+back to our documentation and so we're also planning to have a transcriptions
+live logged view so we should be able to see it we should also be able to see
+anything that might have failed now I don't have any retry capability in this
+feature if I need it later we'll add it but we can see how the engines going to
+work so I'm not actually trying to integrate any libraries I'm just using a
+little command line tool that I already use for my transcriptions later on I
+might use ito AI and I've got a video in and I've got a recent video on ito it's
+a voice agent system and I've got access to the open source code base and I would
+love to integrate this into that but that's a future job and it's also
+written and it's also written all the instructions for the developer it's
+basically read the code base before writing the requirements document so
+this has a lot of similarity to work it would be mad or spec it just get back
+over and look at the code we've gone through another four items so we're
+nearly to the end of this and we'll come back and we can see that so we'll come
+back to our documentation and see that there's an API design in place to list
+the transcriptions but also to probably update the transcriptions going through
+here now also point out that this wasn't the document I gave the developer this
+is the document that has suspects the document I gave was the handover notes
+and the handover notes were just written on the spot to say you can find the
+information in the video transcription and this is the basic ideas that you
+need to work through now this is quite redundant but this was not done in a
+live conversation usually I do it in a live conversation and we only get a
+little bit of information pointing to the original specs so we'll just come
+back to the coding session there's been plenty of stuff going on here notice
+I'm not really reading the code when I'm using be mad what I'm usually doing is
+just context engineering it's all software architecture documents and when
+things go wrong what I like to do is either build agents or patterns or any
+patterns or principles or other sorts of documents that solve the problem and
+that might go against what a lot of developers think they should do but I
+believe that the way agents are going in the world at the moment that within a
+year on within a year from now so long as you're doing the right documentation
+they'll do the right coding for you

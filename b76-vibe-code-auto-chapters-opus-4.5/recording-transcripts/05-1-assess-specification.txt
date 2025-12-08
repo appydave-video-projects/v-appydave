@@ -1,0 +1,19 @@
+So let's have a look at the specification that's trying to identify
+the chapter timings and we can see it here and the basic premise of it is
+that we've got recordings on the left these are the original raw recordings
+unedited and then we've got the final video which is edited and then there's
+the timestamps in the SRT file and what it's trying to do is identify which
+numbers apply to which chapter name and it's got this little flow chart we can
+see that it's doing some sort of 10 word phrase match we can see it's doing a 10
+word phrase match if that doesn't work it goes down to smaller increments it's
+trying to handle collisions and out-of-order situation it's also trying
+to deal with when the editor removes the word like um and ah and then basically
+builds up a confidence score and then basically builds up a confidence score
+now from a testing point of view it's also build up some scenarios and test
+cases from the data I've been throwing into it so it notices ideas like this is
+almost the same sentence except the word configuration and deployment are in two
+totally different chapters and what and what going through that whole document
+told me was that it's interesting it did a really good attempt at trying to solve
+the problem we are at 80% but it's also quite primitive it's very much
+handwritten code based on some sort of algorithm it's searched for on the
+internet or from its internal memory

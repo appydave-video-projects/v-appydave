@@ -1,0 +1,15 @@
+Now the proposed solution is coming together here and we can see POM Core
+which is very similar to BMAD Core in function. Then we have the POM app and
+the idea of this from the very beginning was it was kind of like an operating
+system. So Windows has Windows Explorer and Apple and the Mac has Finder and I
+thought it'd be really useful if when we're creating documents in POM we'd be
+able to visualize them quickly and so we'll do that with the POM app and that
+will also provide a couple of other capabilities such as templates that
+are pre-compiled. I was originally going to do this with
+Claude skills but they get loaded up every time and that would be a bit of a
+slow boot up sequence so we'll put it into the handlebars application and when
+you're deploying any templates to an application you're going to have to have
+a custom provider model so that again can be handled by the API endpoints
+that are already available in an Astro application. After that all we want to do
+is have a POM directory and this is where all the prompt engineering output
+will end up.

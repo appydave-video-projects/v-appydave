@@ -1,0 +1,16 @@
+Now we're nearly at the end and about to demonstrate this system all working so
+the 3.4 planning document ended up getting a fair few changes. This became
+a little bit of a conversation to deal with different issues so the first thing
+we did was we added in the light mode dark mode and that's working. We've got
+an activity slide out panel that's actually working really well. Clicks
+happen everywhere it's all using socket IO. It had nice status checks on when
+files are added, deleted, updated. When I went to use the system there were a
+number of issues just with the system prompt so I kept feeding the
+conversationist back in and asking it to update the system prompt. It now works
+really well and so now I've set it up for four different demonstrations. Now
+there's only two in the video. The first one is the four prompts that are going
+on here. The first one is a little video. The first one is the little example at
+the beginning of the video is essentially based off these prompts here
+and the full session that we're about to demonstrate is the creation of the
+bookstore. It's the creation of the bookstore and we can see all the prompts
+that we're about to run. So with that so let's see this whole system in action.

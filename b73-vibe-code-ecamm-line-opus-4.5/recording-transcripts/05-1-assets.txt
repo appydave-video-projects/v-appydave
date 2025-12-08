@@ -1,0 +1,83 @@
+so I've just finished that so we can see it updated and we're about to go on to
+assets but before we do that let's just set ourselves up with a new chapter we'll
+call it assets ahead of time so when I hit save on this this is where it's
+going to go but let's talk about what it is so firstly we've got this set of
+controls so I'll make sense in a moment and then under it we've got incoming
+images and just below my head at the moment is also assets so currently we've
+got our asset assignment and this is where we can label things correctly
+we've got our incoming images and that's in the downloads directory I'll just
+click on that button right now and we can see that it's popping up here and
+there's nothing in there at the moment we haven't downloaded anything and we
+do want to get our assets from the downloads directory over to our video
+and the last area we've got is where the assets get assigned to now what is an
+asset what I'll do is I'm just going to go over to a chat GPT window and this is
+from another video and I've got a bunch of assets that have been generated using
+just prompt engineering and a style guide and we'll just pick the bottom one
+so we'll click on it and we'll press this little download button right here
+and if we go down to our downloads directory or in this case finder we can
+see that the image has just gone into this particular location now I didn't
+generate this image for this video but let's say it was meant to work with the
+04 to open finder now I didn't produce this image for this video but let's say
+it was meant to work with the 04-1 opening finder what I can do is come
+over to our web application what I can do is come over to our application it's
+now automatically shown in the incoming images area it's got a time stamp of
+midday it's currently two minutes past midday and the reason I put pauses in
+in this particular case was a plane flew over my house and so I had to pause the
+video by pressing the right foot pedal but what I want to do now is come up to
+our asset control and say let's assign it to one of the videos now and we'll do
+the last one which is number 2 open in finder but what we might do is just go
+up to number 1 now I can control things from different locations I could say
+it's part of chapter 3 instead and it'll do that chapter 2 or I can just go to
+the end I can also do variations the reason I want variations is sometimes I
+want to have more than one image that I'll let the video editor decide which
+image to use and this is where I'll do A's and B's and what's going on here is
+whatever I type in here we'll say Abby Dave the variation will put in there so
+there's a variation if there's no variation then it'll just be a sequential
+number and where's it related to chapter 4 sequence sequence 1 in the video now
+I have other capabilities now I have other capabilities here I'll show you
+there's a hover effect and we can make it small medium or large like that but
+the only thing we really want to do is come up and press this assign button and
+we're expecting the video to move out of the downloads folder and somewhere in
+here and whatever location it goes into that should be the name so I'm going to
+press assign and it's disappeared from the download we now have this new folder
+called assets we'll click in there we've got one called images we'll click in
+there and there's that image now I may not want to waste my time during the
+recording of the video of doing the images I might instead just want to come
+up with a prompt for an image and ask my video editor if he could generate the
+image so I'm going to use a product right now called ito AI there is a link
+in the there is a link to a video on this product on my channel but so what
+I'm about to do is use ito AI now I do have a link to a video on what is an
+awesome tool and another one of those productivity enhancements but what we're
+going to do is write a prompt here and I'm going to I'm going to say can you
+do some sort of infographic can you do this could you do some sort of
+infographic about the quick brown fox jumping over the lazy dog we'll let that
+go and what I'll do is it's just written that information into the text box now
+when I press save here we still get a file but it's not a PNG this time it's
+just the text that was actually in the prompt and that text is actually
+recorded in the assigned assets so we've got a section down the bottom here
+where we can see that we've got the 041 opening finder with an image we've also
+got an 041 opening finder with an actual prompt and if I take that prompt now
+I've just asked chat GPT to look at my previous infographics for style
+guidelines rather than trying to come up with a prompt directly and I've just
+taken that information and it's come up with some options for me I don't know
+what this is looks good so we're just gonna see what it does when it creates
+an image so it's generating some sort of infographic at the moment so it's
+generating some sort of infographic at the moment and a few minutes later here
+we have our infographic now it looks beautiful there's obviously some typos
+going on in this but what we want to do is get it into the incoming images right
+here so I'm just going to press the little download button right there and
+in a moment it should just automatically appear it's just automatically appeared
+that's great now I'm currently pretending that I'm the video editor
+because he would have done the image himself using this text then what he can
+do is click on this and that just resets to the correct location we've got the
+opening finder notice it's saying image number three it's because it already
+understands that there's a 1.png and a 2.appydavetext what I might do is I
+might just leave it that way and say I might just leave it that way and do an
+assign on it it should currently be in the assets folder if we want to make it
+bigger we can either do it by pressing this or we can also do a hover effect
+with the hover effect we see the size of the file the date and time and when we
+head down to our folder we've got that new image now let's move on to the next
+step and that's dealing with thumbnails for your video so I was able to vibe
+code this little thumbnail section and currently there is a zip file there
+we'll just delete that I don't think we need it and we'll come over to the
+incoming I'm going to hit stop on this video which is all about the assets

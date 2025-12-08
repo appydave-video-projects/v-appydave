@@ -1,0 +1,1215 @@
+Imagine building a self-editing application. What that means is that you could talk to it and it
+generates all the data in the back end or you could ask it to visualize it and html pages suddenly
+materialized. In this video we're going to use the Agent SDK from Claude Code to do that and we're
+going to build this application using the BMAD method. I'm Abbey Dade, let's get into it. Now
+this video is a step-by-step tutorial so if you want to move ahead or go backwards and forwards
+check out the chapter links in the description. Now what we're building today is this self-editing
+application. We're going to use the Claude Agent SDK and the BMAD method. Now if this all works
+what we'll be demonstrating is the idea of creating a bunch of products building out a product listing
+maybe even a details page for it adding a home page making some of those products featured and
+then adding more products along the way. Now the magic of a self-editing application is firstly this
+human experience so we'll be able to talk to the computer have it generate features have it generate
+data and we'll be doing that using vibe coding sort of techniques but the technical reality of
+this is that we're going to use context engineering using the BMAD method and tools like the Agent SDK
+to make this application a reality. So our Agent SDK application is built and this is what it can
+do for us. So we're going into the chat bot where we're going to enter in some products we should be
+able to view those products and see that they're being stored in the back end at any time we should
+be able to create a HTML page notice that there's a live activity there's also live pages if we click
+on the pages we should be able to go and see the products listing at any time then we should be
+able to add a new product or update it and it should come through instantaneously. If we need
+a home page we should be able to add a link and create a home page at the same time when we go
+to that home page we should be able to navigate back to the products and at the end of the video
+there's a complex multi-page workflow demonstration. Now let's just talk a little bit about the
+planning ahead of time so I've already got a planning folder in place for what we're going to
+do. I've got some preliminary tech stack stuff but I want to run all of this through the BMAD
+method. Now which version of the BMAD method should we use? Should we use version four which
+is the current or should we use the version six alpha nine? Now I tried a video yesterday on alpha
+eight and I don't particularly believe it's ready for use just yet for this sort of project so we're
+going to work with version four and that means what we're going to do is use this command here
+npx BMAD method in store. If you do want to use the version six it's all available. Now the problems
+I ran into with version six I've already communicated with Brian from BMAD and he's aware of it and
+he's talking through the changes that are coming in place related to those issues but for today
+we'll keep it simple and work in version four. Now in the repo that we're building all this which is
+07 BMAD Claude SDK you can go to the bottom and find the links so here's the link to the version
+for BMAD and if you scroll down a little bit we'll go and select our starting command. With that
+selected we can go over to our terminal and I've already got some pages here. The readme that you
+were just seeing is in here at that location and I've got a planning phase in my documents directory
+already. So we've cleared the screen and putting in the npx BMAD method in store and that's going
+to walk us through a wizard. So let's work through it step by step and the first thing is the folder.
+Now it's opened it up to an npx directory so what I'm going to do is put in the directory
+where we're building this application today. After that it's talking about different frameworks of
+BMAD that we can install. This all changes a fair bit in version six we've got better games
+set up in that particular version. For now we'll just go with the Agile Core. In version four when
+it comes to the PRD product requirements document and the architecture document you can shard the
+files meaning that they can be split up into individual files after generation. This changes
+a little bit in version six but for today we'll say yes and then you can decide on what agent
+coding system you're going to use. I'm using Claude Code so we'll just select that and in this example
+we're not going to use Gemini or Codec so I'm going to say no to those models. Now it started
+off with this idea of reading the user guide so we'll take a copy of that and head over to
+Visual Studio. Now let's have a look at what I already had in place. So I already have a docs
+folder with just this planning directory so there's a fair bit of spikes and examples
+of how this application could work. We'll draw on that when we're building our product brief.
+We've got a Claude file in place we've got our Claude subfolder and you'll notice that there's
+an area called commands so all the BMAD methods have been set up within this area and then the
+rest of BMAD is in the BMAD Core where we've got different workflows, teams, templates for working
+through checklists, we've got our agents and we've got this little user guide that it told us to
+read so let's pop that up. We've got a user guide for the Greenfield project so this is a brand new
+project. Brownfield is for if you've already got an existing code base and we can start with a
+project idea. We've got an optional analyst research now we don't need that because I've
+already done all the planning but we might just work through it temporarily to see what it does.
+Then we've got to build the brief so with the brief we're doing the product requirements
+document, we'll do a bit of UX design, we'll do a little bit of architecture design and then at the
+end we'll make it all cohesive and with the cohesion in place that's when we'll start using
+a scrub master to design stories and a developer to actually create the code for those stories.
+So let's start with our terminal and we're going to use Claude code and I'm going to run it with
+the dangerously skipped permissions. Now it's fresh context and we've just added a lot of
+context from Claude so I'm just going to run and knit on this. I'm going to give it a little bit
+of extra information. We've got this planning folder but I don't want it to take too much over
+with the Claude file. I want it to be referenced, I want it to maybe use it as a guideline for what
+the project will be about but the main focus of Claude should be on the BMAD method and whatever
+it decides to create. So with those two statements what we can see is that we're
+improving the Claude MD to prioritize the BMAD workflow. So what is Claude MD?
+That's essentially the system prompt so it's available every time we do a prompt that anything
+in this file will be used and we want it to be hyper focused on what it does. So anything in red
+has been removed and that's a lot of the stuff that I did in pre-planning before this video. We
+can see that my folder hierarchy that does exist has been removed from the system prompt
+but the important stuff that it's a self-editing application is in place, that the core of the
+server should only be about 200 lines of code. It's got a very clean understanding of what the
+BMAD workflow is. So we've got the workflow primary path, we've got step one which is
+installation. Now we've already done that. We've got step two which will be the analyst agent
+doing a workflow init and it just keeps going doing this hyper focused system prompt. So we'll
+start off by having a fresh version of Claude and we'll put in a slash command and the one we're
+going to go with is analyst and analyst will load up Mary. Now there's a lot of things that
+Mary can do. For this session mostly we're going to focus on creating a project brief but she's
+one of these agents that you can spend a long time in just doing all sorts of planning and research.
+So we just go back to Claude code and we'll have create a project brief by reading an existing
+document and if we put in the at sign we can start putting in project reference and we'll select it
+and we'll see what she can do with that particular document. So the create project brief is going to
+read from our project reference and what it does is it uses commands like the create doc which is
+based on a template already in the BMAD core and for this we're going to work in the interactive
+mode. So we'll just press one. YOLO would be the fast way to do it and with my project documentation
+it could just work out perfectly but I want to be pretty sure with this. So notice that the output
+file is going to be docs brief and we can see that it's working through many to-dos. Currently
+it's written the executive summary for it and I've read it through. It's all pretty perfect.
+I think the target market says it all. It's developers learning AI agent integration and
+self-modifying systems. It's for technical educators. That's what I do where I want to
+generate systems that are a bit flexible and dynamic pretty quickly. That's also rapid
+prototyping. That's what we're doing today and then we've got the BMAD method practitioners.
+Now one thing is to know that I'll be testing this with version 6 BMAD and if there is anything you
+want me to test it with let me know in the comments below but for now we'll just proceed
+to the next section and the good thing is it started writing the brief so we'll just bring
+up Visual Studio and click on this file here and so as it goes we can keep track of what's going
+on the left hand side but let's have a look at this problem statement that it's come up with.
+So reading through the problem statement everything's pretty good. One of the things I
+notice is the database. This is where this application will be a little different to a
+lot of applications. It won't have a database. Instead it's just going to have JSON documents,
+JSOM. They're going to be stored in the server and for saving them it's just going to be committed
+to a repository. Now this is not a normal application that you would run in the cloud I guess
+but for me it allows me to rapidly create tools that I use locally on my computer through a web
+interface. So I think we can just move on to the next section and what it will start doing is
+writing an updated brief. We should see it pop in below. It's updating so we can see a whole new
+green section and here it is listed in the markdown document. Now if there was anything
+out of whack with it rather than using Claude to change it you might just manually come in
+and alter the document here to have it to rectify any flaws that you notice. It's important also
+that you do rectify flaws because these propagate through. If you fix it now you have less issues
+in the future. So the next area we're going to work on is the proposed solution section. So it's
+written the proposed solution. If we go over and have a look we can see that it's going to use an
+express JavaScript server. Embedded into it will be a Claude Agent SDK back end. Some of the tools
+that we'll have is the ability to read and write JSON files and also to write HTML files. The main
+front end technology is that we'll use React with socket IO so that we can stream information live
+and we're going to use BMAB method version 4. There's also a little note here about using
+for the user interface. We might also use the Versel AI elements. Now the back end is meant
+to be simple. Just about 200 lines of code and one of the key requirements is that I can just
+use it with my Max account from Claude. I don't need to go and pay any API costs with this
+particular tool. Now while that's been happening in the background it's been setting up the target
+users. We'll get it to start writing that brief for us. Once it's done the target users section
+it should move on automatically to the goals and success metrics. All I've had to do each time
+is basically say the next number for it to save the file. So the target users have been
+updated. It should go directly into the next area but if we have a look at the target users
+we can see that it's a learning system for developers but I would argue that it's for
+anyone that wants to learn context engineering which is partly about building applications but
+it's about building any system in a business or in your personal workflows. This is also an area
+that you could pull out because I think anyone should be able to learn this. One of the things
+about what we're doing is that we're not writing any code ourselves. Everything is just understanding
+a little bit of architecture, following a plan and using natural language processes the entire
+way. So now it's about to create the goals and success metrics. We've already written
+all the target user information. It reads the brief each time, does what it needs to do and
+then writes the brief again and you might be wondering what does it need to do? How does it
+know to do that? And this is just one of the internal mechanisms of the BMAD method. So now
+the KPIs or the key performance indicators have been updated. We can go look at it while we move
+on to the next section. One of the things I would suggest is in this case they're not that useful
+for me. I don't really care about these numbers here. 1000 developers clone or fork the repository,
+not important to me. Content amplification, if people use it I'd be really happy about that.
+I guess if anything was important is that people are using a sound content engineering system which
+is BMAD method. But quite frankly this section is a bit of fluff today for us but the next area
+is really important and this is the minimum viable product. And so as a must have it's working on the
+idea of it having three epics. Now this is not normal by the way, this is not the normal area to
+put in epics. Usually we do that after we've done the architecture and the PRD and it comes later.
+But I put this specifically into my planning documents because I'm thinking of this as a
+simple application with three different areas that we need to do. We need a foundation, that's the
+server, the client, it just needs to be set up. After that the back end is the main area that we
+want to work on. For the Claude Agent SDK implementation I've already done what's called
+a core loop or the event loop documentation and essentially this is just a human readable list
+it should work no matter what target language this system is built for. Now we are going for
+JavaScript and so hopefully that'll translate pretty readily. And then the third area is that
+we're going to have a beautiful user interface so this is basically using the Verso and ShadCN and
+Tailwind CSS and just getting it to talk to the back end with streams. And as that information
+hits the SDK perform any data creation or web page designs as we go. And the next section of
+the MVP is what not to do. So we don't need a database, we don't need multi-tenancy, multi-user,
+we don't need authentication or authorization, we don't need model context protocol. Good thing
+about using BMAD is that I've used it for enterprise applications really effectively so it can do all
+of these but we're keeping it out of the example. So after that we're going to build the post-MVP
+or the post-minimum viable product vision and we can see that it's already come up with most of
+that. It's got different tools that we might want to add later on and additional areas like multi-agent
+workflows, production release. Now quite frankly I could maybe delete all of this and be happy
+because I'm not planning to go further with this particular project. It's going to be the foundation
+for other tools that you'll see me creating using the BMAD method. So it's gone off and now
+thought about the technical considerations they've all been set up. It feels that we need to use
+React version 19 and if we look at it in the mark down it's TypeScript and Vite, ShadCN, Tailwind,
+CSS. This is all for the front end. If we look a bit further we've got the back end which is an
+express server. We've got an installation of the agent SDK planned. We're going to communicate
+between the two systems with socket IO and we're running it on Node. For our database it's just
+going to be some JSON documents in the data directory. Future we could use a database if
+we like and the hosting is it's just planned to run on localhost. So with that we can go and look
+at the next section. It's currently working on the constraints and assumptions so this was a big thing
+for me. Is it going to cost me anything? No, I want it to hook into my Mac's account and that
+should be how it works. Developer time 40 to 60 hours for the MVP. Let's go and look at the
+risk and open question and this is really useful. I've never done the agent SDK so it is a dependency
+with high risk for me when I'm doing this video. The constraint, I think that the statement here
+could be true but I don't think it matters. It's not that I have to do it in 200 lines of code,
+it's just that I don't want it to be complex. That's kind of why I'm doing the constraint.
+I will talk about this section briefly. I took out a section called the BMAD quality gates.
+What I wanted to have happen is that rather than pure vibe coding where the user says I would like
+a new home page, I wanted it to actually create a BMAD story on the back end. Now I think for this
+demonstration it's maybe a reach goal, maybe we'll do it but this would be a really powerful
+idea that users could just sit on the front end and say I want a new capability and BMAD
+at the other end hears that and says well let me create a story for you and then the developer
+can go off and create it. But for today I've taken it out. So that's the docs brief finish.
+You notice it's now saying to go on to the next agent. It's got everything written. What we're
+going to do is exit out because what I'd like to do is have a clean context the next time we start
+but while we're looking at that let's just see what that last section was. So we've got the next
+step immediate action is we're going to create the product requirements document. We're going to do
+that by loading the project manager agent and running the create PRD command. Let's also look
+at what we've got in our system. So everything that you see on the left in planning is stuff I've
+done ahead of time. So the only one document we have in the system specifically created by BMAD
+is the brief. Now I'll just take a moment out to suggest that if you want a little bit more
+hand-holding or just seeing day-to-day operations on using the BMAD method context engineering to
+produce applications or other sorts of business systems then you might want to check the link in
+the description where you can go to my school community where I'll be talking about this on a
+day-by-day basis but next let's go and look at creating this PRD. Now to do that we're going to
+have a new agent and the agent we want is the project manager. So we load the project manager
+in with the slash PM command and John comes into existence with a whole lot of capabilities. Now
+the one we want is the star create PRD. So we just paste that in and let's see what comes up
+and you notice that the way BMAD works is it works with context documents so we've got the create doc
+dot md there was also a template going on which we can see here and a bit of configuration yaml.
+Now in version 6 a lot of this stuff still happens similarly but they've made it a lot more
+flexible. Now you may notice when you start with a clean cloud code is that the context is empty
+and so certain things it doesn't know about. So this idea of do you have a project brief which
+we just worked on is something it doesn't currently know about. So I'm just going to put in one that's
+what we want to do and I'll put in the app sign and start typing brief and we'll just press enter
+so it'll use that as loaded context. So it's read in the brief I've read it everything seems okay to
+me so I'm just going to press one and continue on that. Notice as it goes it creates a change log
+so we've got version one which is the initial PRD created from the project brief and now we get into
+the hearts of what a product requirements document is we're coming up with the functional
+requirements as we go so FR1 would be the first functional requirement so it's listing all the
+basic capabilities that this application is going to do and then after that it does the non-functional
+requirements which is all abstractions or ideas that the system's going to work on such as the
+line limit on the server the fact that we're going to use Claude auth to log into the system.
+Now like with the interactive mode with product brief we could just move on to the next section
+but it's got a couple of areas needing validation is 200 lines realistic and should we have pre-built
+examples. So I'm just going to make a simple adjustment here it says the 200 is a suggestion
+what I'm trying to do is have the actual event loop of the agent be fairly small and contained
+there's not a lot that you need to do there but this is a guideline it's not a limit at all what
+I wanted to ensure that it does is not create complex structures as it builds out this system
+because there's nothing complex about the Claude code event loop the other thing I wanted to talk
+about is this area of should we have a pre-built example application no we shouldn't this is all
+vibe coding that we're going to ask people to do but we may actually create some examples later
+on so we'll just press enter on that and so the functional requirements have been updated we've
+removed a concept and we've done slight updates and so this is a lot more important than in the
+brief to get this right so we'll move on to the next step but the idea is that this is what's
+actually going to get built. Now the user interface design guides have come through I've read through
+all of this and most of it was good except there was one area and probably the core area
+which is these screens and this is not working the way I'm thinking so the first thing it says is
+chat interface primary screen full height chat with message history input field streaming indicator
+and example starters love that that is the only thing that I saw this initial application having
+it's then got concept of a status panel shows active story recent file operations quality
+gait status now that's more complexity than I need my thoughts were that as soon as you started
+typing stuff in here you could generate html in the back end and now that doesn't necessarily
+mean the menus would work but the actual pages should work I had a plan for this particular
+application that be mad stories would get generated that's what the quality gates were but then I've
+taken it out made it a future thing so if we go to the very bottom I said this section here doesn't
+make sense anymore and then I've said the next two steps which are these ones down here which I've
+copied from above are too complex and I've given it a little bit more clarity on what to do so
+we'll just run with that again it's so important in this area that you actually get it stating
+exactly what you think you want to see so it's come through red is what it's changing green is
+what it's changing it to you can see it's continuing with simplified user interface but
+we can also go over to visual studio and have a look at the document like before here in a simple
+markdown viewer so be mad Claude self-editing application we've got our functional requirements
+kicking into place here and we can see some of the modifications like the slash chat and the
+products as examples so we go back to our conversation and this makes a whole lot more
+sense we've got the application presents as a minimal chat interface we know it can generate
+concepts like products and blogs even though there may not be a navigation menu in place
+the one little bit of styling we'll have is that it can do dark mode and light mode and so we can
+move on to the next step there is one big issue in here and this is the issue of anyone using
+coding is that this application when we build it will allow us to change our backend server
+now that's both a security issue you wouldn't do this on a public website this is an internal tool
+but it means how do we manage those changes and i'm assuming in my setup that i'm going to use
+git commit so i should be able to roll back but that's not necessarily the most technically
+easy thing for people to use but for this example that's how i'm planning to do it now here what
+it's done is come up with the technical assumptions they're all based off the project brief which is
+great i've read through all of them and they're all very accurate this is exactly the way i see
+it happening but i thought i'd point out one area so where did this all come from it came from
+something called the storyline app now i think it's important that we look at the storyline
+application because the catalyst for building this project was could we generate stories
+dynamically on the fly so if we head over to a web view and we're looking at what is a client
+and server sort of system so currently we are connected to the server and it's using the same
+technology we're about to build and if we go and have a look at our project files we've got something
+called the boy and the baker now the boy and the baker is a five minute video that we've created
+and when you look at it you can see that it's the story and the story starts off with an elderly
+baker what's into his shot to seize a boy being beaten and bullied by some younger children so we
+can see pictures of this baker along the way now if we go and toggle the image display we can see
+that we got an establishing shot we've also got other versions of the shot available so as we
+move through this story and it goes for five minutes all of these images are character
+consistent their theme and style consistent and so we build our movie by using the image prompts
+with tools like dali3 and so on and we use the animation prompts along the way for doing the
+animations in halo or vo3 the interesting thing is that everything that you're seeing is based
+off this one narrative so we've got a little narrative it creates setting the ambience characters
+the description we got the image prompt and we've got the animation prompt and i've been going
+through and refactoring this so that this is a lot more deeper but really i just want to type this
+into a text box and have all of this extra information generated for me automatically and
+that's what this application is meant to do we should just be able to save something into a text
+box and have complex data structures form around that information so let me give you a glimpse of
+what the application we're currently building can be used for and it's this storyline application
+that generated this movie we've got character consistency scene consistency and everything was
+generated using clawed code in the background to generate the data structures so as we start
+asking questions like can you create three products that will generate complex json documents behind
+the scene well that's what's happened with the storyline application but instead there's a simple
+narrative that converts into image and style guides now if you're interested in seeing the
+five minute video around the boy and the baker by vos then check out the link in the description
+below but for now let's get back to john our product manager so i just press one to move
+forward and we've got our epic list and it looks like there's going to be three epics which is what
+i'd suggested it to do anyway so we've got the mono repo set up with basic client and server npm
+workspaces we're going to express server minimal html client so that looks good after that we're
+really working on the back end which is the agent sdk integration it's going to have the three tools
+that are talked about and then we're going to polish up the communication with the front end
+chat interface here so then we've got our sequencing logic i think the good bit is the
+story count it's listing three to four stories per epic there isn't a lot of work in each section
+and then it's listed its rationale and decisions i read through that this all seems to make sense
+for me so at this point we've got many stories already set up for different epics the first one
+is mono repo set up with a client in the server so the basic application structure for the front
+end talking to the back end next we have epic number two which is essentially setting up the
+clawed agent sdk so that it can communicate from server through to the client and when you look at
+the goal there's also tools included such as talking to jason and html files and the final epic
+number three is all about building a react front end and using libraries like shad cn and tailwind
+css now if we go back to the top of the epic we'll see that every story follows a common
+formula that's designed for agile development so firstly we've got a story number so in this case
+it's 1.1 then we've got a simple title for what the story is going to be about this is initializing
+the workspace and the mono repo so the idea of a user story is this three-part formula that says
+as a particular person using the capability what do they want to achieve that's the i want
+and if they did achieve it what would they get then there's an acceptance criteria so this story
+is considered complete when all of these items are checked off and this concept is going to
+repeat through every story in the epic so what i'll do now is i'll read through every story
+headline and then we'll see pretty quickly that there may be some flaws in the way that it's
+come up with so the first thing it wants to do in the epic is initialize the npm workspaces and
+mono repo that sounds really good then it's going to create an express type script server
+after that it's going to get a very basic html client up and running and finally we're just
+going to have a little bit of an end-to-end test and mainly that'll be worked out by starting both
+servers and checking the browser logs checking the console logs so so far epic number one looks
+pretty good we'll see if it needs any changes when we look at the next step epic so now we're
+moving on to epic 2 which is all about setting up the anthropic clawed sdk and it talks about
+let's get it installed seems like a good first step after that is trying to implement one of
+the tools which is the read json then it's going to do the right json and the right file and then
+after all of that we're going to integrate socket streaming and we're going to do it both for the
+server but we're also going to have the chat messages working with this and then after that
+we're going to implement the full event loop now it's this particular epic that i'm having a few
+challenges with and i'll go over what they are soon and how i can change them pretty quickly
+but let's look at the third epic now the third epic is all about setting up a react application
+as the front end so when we look at 3.1 it's initializing react with vite application
+then 3.2 is setting up shad cn configuring it with tailwind css after that we build the chat
+interface using the verse cell ai elements and lastly we're just giving it a simple light mode
+dark mode now we've got all sorts of rationale being listed we could move on from there but
+like i said i think there's a problem in epic 2 and the main issues i can see is that after
+installing the sdk it starts going into setting up tools but we haven't defined yet where they
+fit into the event loop we don't even know whether the event loop is going to work and
+communicate correctly with the client and so as we work through all the stories in epic 2 we're
+going to be pretty blind to whether they're working until the very end of the epic where
+it all comes together in a big avalanche so to resolve this problem i could have a conversation
+here but what i find easier is to just start selecting the context we need and what i've done
+is copied all the way up to when the epic first started at this point i just select that put it
+in the clipboard after that i just like to open a new conversation which i've got down below
+and i've started it with the statement i want to read and absorb the following information
+and then wait for me for guidance and that complete epic list has been pasted in so that
+new conversation knows what we've got i've got it highlighted in blue and i just tell it that
+you're going to help me build up an instruction that we can put back into the previous conversation
+so the goal of this conversation is purely to build a prompt to paste into this conversation
+but before we get started i ask it to do a bit of a q&a session with me to get clarity around
+the problems as i see it i tell it that i'm pretty happy with epic 1 i think it's good but i think
+there's stuff that we're going to talk about in epic 2 that will impact it so i just prepare it
+to know that it can change epic 1 even though at the moment it's pretty good after that i went
+through epic 2 and each of the stories and i just gave it this long diatribe now i was just dictating
+directly into the microphone it was writing out everything as we go and so the good thing about
+this is it can make it more readable for me so the first thing it does is start to unpack the issues
+that i had addressed figured out that stories 2.2 2.3 and 2.4 can't be properly verified until we've
+done the event loop it also worked out that the event loop is not a single story there's both a
+beginning and an incremental development of it before it finishes it identified from my
+conversation that what was called story 2.4 was actually two different concepts one was the
+streaming client area the other was the same streaming client but specifically for the agent
+sdk and this also led it to understanding that 1.4 might need some modifications now because i asked
+it to do a q and a system it actually came up with four pretty solid questions but one of the
+things i noticed while reading them was it kind of suggested the answers as it went so it's a
+question of is it asking me questions or does it already have good recommendations and i just need
+to sign them off so i just told it that the questions it's asking i already thought it had
+the answer could you just give me the recommendation it just saves me a lot more time than actually
+engaging in the q and a and so it wrote these recommendations so the minimum viable event loop
+after 2.1 becomes this idea of create a basic event loop and there's no tooling no streaming
+there's just the fact that it can receive messages from the sdk at the moment at the end of epic one
+we're just doing http requests but it thinks that it might be useful to put in some socket
+functionality at that point it now feels that the event loop that we're building is a bunch
+of capabilities that can be done as multiple stories and we can move the tools that we want
+to do into 2.4 to 2.6 and when i look at that i realize that even before we move on to epic three
+if i want to build in other capabilities like clawed skills this epic will be the right way
+to go because it's designed in such a way that each cross-cutting concern or aspect
+can be added one at a time later on if needed so it's already figured out a much better plan
+but remember that the initial part of this conversation was can you create the instruction
+for me so i just tell it down the bottom here and i'll press enter that this is perfect i love the
+way it's thinking what it needs to do is now create those instructions that we want to put
+back into the top conversation and just so you know that top conversation is this one that's
+here we're going to take whatever comes out of this conversation and drop it straight into here
+to modify it so here's our detailed instruction set we can just go all the way to the bottom
+with this we'll make a copy of it come up here and paste it in 203 lines of information just
+by asking a couple questions so it's already started working on things one of the interesting
+things is it's also playing around with the product requirements document right here so the
+changes we asked for have been implemented we've got a change to story 1.4 and we've got a whole
+new re reordering and breaking up of epic 2 and what the number of stories really tell us is how
+many development sessions are going to go on because we'll get the scrum master and the
+developer to work on each of the stories sequentially starting from one and going through to number 14
+so quickly looking at the prd we've got the new epic list it's the mono repo set up the agents
+or the server in the back end and the front end client and then we've got all the details coming
+through one story at a time these are just simple stories they'll be converted into full-blown
+stories with the scrum master and then add streaming and logging as we go and then after
+that we can do the tools and then finally connect it all up to the react front end so with the very
+complete epic list in place we'll come back to our conversation and just move on to the next step
+which is the checklist so what the checklist has done is just read the prd now this is from a
+product owner or product manager's point of view so this is all the business cases have been covered
+we haven't yet gone to the tech stack or the software architect's point of view that's the
+next area but when we look at it it says it's 92 complete there's problems with it but it's
+mentioned that the user research area isn't really that relevant for a demonstration like this so i
+won't worry about it and so everything else has passed except for this area in the mvp so any
+blockers to moving forward well there's none identified are there any high level issues that
+we should be aware of i think this is one we might address but we'll do it asking a recommendation
+rather than actually taking the time to define it because the ai will probably do a better job
+than me at coming up with an answer anyway these medium level issues don't really matter to me
+like the target user doesn't matter and the success metrics don't matter in this particular
+project now my background has been software engineering software architecture and even
+for a time a scrum master so these numbers that you're seeing here the 23 days to get this
+application written are legitimate numbers this is about how long it would take to do a project
+like this if you were doing it in an enterprise system but at the end of the video i'll tell you
+how long it's taken to do the documentation and to do the coding so we'll see what numbers really
+come back so i've just dictated a little statement about the outer scope area like what does it
+suggest we put in there and i've also said that for the logging i don't want to use a logging
+framework but i wouldn't mind some simplistic patterns predefined before we get started and
+this is perfect this is just what i didn't want to actually type in myself so we're not going to use
+database and persistent authentication authorization isn't needed it's not for
+production testing infrastructure is not important in this process advanced features like quality
+gate hoops all this sort of stuff was all out of scope for me it doesn't need to be a polished ui
+though i hope it'll be pretty good with shad cn and tailwind css logging and monitoring is also
+really good it's come up with just a simple javascript logo platform it's not trying to
+use libraries or anything like that so i'm just asking it to update the prd with all the changes
+the only little change i mentioned is that the hot module reloading which is a developer experience
+changes like modifying a bit of code and seeing it updated directly in the client is a really
+nice capability to have in the application so we're all complete with our prd at this point
+it's suggesting that we hand off to the architect we could do it in this conversation
+but what we'll do is we'll just exit out of clawed and and start a new clawed session because we
+want to have a clean context to get up and running with the architecture now i just want to point out
+some basic maintenance that i like to do with working with clawed so i've just put in this
+little prompt here and the reason is that we've created a brief we've created a prd but my initial
+system prompt or the clawed prompt is pointing to the planning phase of the system but now that
+bmad method has done these great documents i want to ensure that my clawed file knows about them
+and so it's taken some old ideas like the planning documents and the bmad execution guide which are
+now this one's not relevant anymore and this one's just lower priority so it said we've got the brief
+we've got the prd and then we've got the planning guide now a lot of changes have been made but if
+we go down the bottom and have a look at the summary we can see that our system prompt has
+a very clear understanding of everything we've done right now one of the other things i noticed
+is that it knows that the next step is going to be the architecture so if we come down and we will
+clear out again and start with a new clawed context we'll go straight into the architecture
+agent let it load and we can move into creating things so we don't need the back end architecture
+and front end individually we just need the full stack architecture so we'll just paste that in
+and kick it off so the architect is going to generate our architecture at this location
+in the dots folder it's read the project brief it's read the prd we have a basic introduction
+and it's worked out for starter templates that while it's based on a different idea there is no
+starter template so for us it's just going to put in a changelog and we can move on to the next
+section which is the main architecture so it's written out a lot of information i've read through
+it all it's pretty much just restating a lot of the stuff we've already got we've got a technical
+summary we've got the platform and infrastructure one of the things that it notices is that for an
+mvp we don't need any complexities like a platform or infrastructure service approach we've got some
+interesting graph that's going to show up in our markdown document and a list of the architecture
+patterns and the rationale at that point we can just move on to the next section which is building
+the tech stack so it currently hasn't written the markdown documents a lot of this is a little
+unreadable but we've got the full tech stack table going on and again we've got rationale summary
+including the key technology choices we've got the trade-offs of not having concepts like caching
+and the database we're going to use version pinning so should be recording what version it's on
+like react 19 and these ideas could be important if we're using an mcp to go and get documentation
+around react or express it needs to know what version to work with now if you are actually
+coming from a point of view where you don't fully understand all the terminology going on remember
+there are other ways that you can deal with this documentation so you can use chain of thought also
+secure day sort of stuff i understand generally the technology going on so i'm just pressing one
+to move forward so now it gets into the data models and this is just the transport or usage
+of data in the system so the first idea of the chat interface and the fact that it might have a
+id such as the user or the ai bot content and status this is all great the only thing i'm a
+little concerned about is does it match with the verse cell ai chat bot got a section on the tool
+calling so the reading of the json writing of the json and then just messaging between client and
+server so it's only identified three different objects that we need the chat message tool call
+and the socket event so with that i'm just going to move forward so we can now just move on to the
+api specification the only thing i was looking at here which i thought interesting is that we
+are using this bio directional communication pattern now i don't know how much i'm going to
+be changing specifically on the server that i need to send back to the client because i know this was
+based off a different application the storyline app that i talked about where a lot of that would
+happen but i think this will work pretty cleanly so now it's just working out all the different
+components where it thinks the files are going to be as it builds out the application one of the
+interesting things about doing it this way is that when we go back and look at the prd we may find
+out that the order of doing things which the prd will list might be in conflict with some of the
+architecture decisions now in version 6 of the bmad method they deal with that with a section
+called solutioning i don't think it existed in version 4 so we'll deal with that ourselves
+when we get to it we can also see here that there's a big component diagram being created
+that we can go and look at a bit later so it's pretty good it's come up with the idea that
+there's a data directory and that's where it's going to put json documents based on the ideas
+i've already told it about it's got the concept of products it's got the concept of blog posts
+maybe it needs some configuration so if we needed to do a home page and it had a logo or a theme
+that's where that sort of information could go it's given a sample file structure talking about
+the idea that files should be in kebab case and that it's essentially just an array of json objects
+though we can see with that one that that's more just a general object now there's no scheme of
+validation so this system could be brittle or fragile in the real world but i think for the
+use cases we're doing it'll work pretty well and if we did want a more strict rules system we could
+introduce something like zod or some sort of schema to make sure that any data being written
+or read from always follows a certain format so we'll just move on to the next area one of the
+things we can see here from our trade-offs is that this is not designed for big systems
+it's really just a little internal tool that i want to use it for at the moment so it's come up
+with a plan for our front-end components we've got the chat interface we've got some generic ui
+controls we got the idea of the sockets it'll just be a single page application no router involved
+and a bunch of static html pages i think the big issue we might have there is keeping style
+consistency when we generate things and we haven't catered for that but we'll see how it
+goes when we start running the application so plenty more examples coming through so we're
+nearly done with the architecture we've just put in the system backend we've got the agents how
+they're all going to work we got the tools that we need to work with a couple of utilities plenty
+of example code coming through more diagrams being added to the system so we can see here
+it's going to have a native npm workspace we're going to have three packages so we've got the
+server client and the shared types going on now the full workflow from the command line has been
+listed like node npm we've got the clawed auth this will allow us to hook up our agent sdk to our
+local clawed account it plans to have a single line to get it all up and running just npm run
+dev we'll start both the server and the client and now we're on to the remaining sections so
+we've got the deployment strategy coming through we've got a continuous integration continuous
+development pipeline but it's very empty there's nothing really going on just yet conversations
+about environment we've got security coming through we've got performance metrics we've got
+all the testing approaches just documented as future they're not in place just yet but we do
+have sample code of what it could look like in the future and then we've got the error handling
+strategy we've got a diagram and we've got sample codes to work with now we've got a two and a half
+thousand line document created it's quite extensive if we jump over to vs code and look at it we can
+see it's got concepts like the high level architecture we've got diagrams being generated
+we can see that the plan is for the user to interact with the browser and for that to talk
+to the agent event loop the agent event loop should then be doing any tool calling that it
+needs to do and returning information back to the chat gpt stream we've got the ability to write
+different files as we go a whole lot of architectural patterns we've got the defined tech stack very
+extensive data models are defined and clearly written out using typescript we've got the custom
+utilities which are integrated into the sdk right here then we move into components related to the
+front end and how it communicates with the back end because the shape of data on both the front
+and the back end can be the same we've got a shared types to transport that data and then we
+get a visualization of the components on both the front end and how they communicate through to the
+back end and we can see a little bit of where the shared components meet now we've got a sequence
+diagram that's showing us the way data flows through the system and this is based on the
+happy path meaning what happens when nothing goes wrong we've then got examples of the tool
+invocation this is the writing of jason then the error handling workflow so this is the unhappy
+workflow now the thing with web sockets is that they can stop working so we've got a reconnection
+workflow coming through and examples of if i had the product catalog working what it would all look
+like the writing of the product jason as an example then it talks about database schema well
+we don't really have one but we do have a storage architecture it's just going to be files and samples
+of what in this case products could look like blog posts and the configuration for the system and just
+how the files are going to be laid out then it's documenting what we're not going to have so we
+don't have schema validation we don't have index and performance sorted out we're not using caching
+we'll just the data that we store will just be version controlled in github then we've got a
+full list of what the front end architecture is going to look like followed by component templates
+so when it needs to write a component it can use the component template to start there we've got
+the state management architecture up on the client so this is examples of how the client can talk
+to the back end and this has all been listed through here we've got the routing organization
+now remember we don't have a router this is just a single page application but we do have concepts
+like dealing with static html and then we move on to the back end architecture we've got the files
+that are planned to be created we've got an example template for what a controller could look like
+storing of data we'll use the repository pattern but it'll be file based persistent and then we've
+got authentication and authorization flows which is really just the clawed authentication
+for the sdk kicking in simple little middleware guard but generally we don't have any authentication
+going on and then we've got the full unified project coming through right here so with all
+this information done the next thing to do is just to confirm that our prd that we've created
+is actually going to match with the architecture that we've got now in version 6 of be mad method
+they have a section called solutioning which takes care of that but we'll do it manually today
+now i'm just going to go into the pm and we're just going to ensure that we've still got alignment
+between the prd and the architecture because the prd was created before the architecture
+so i've just told john the pm to check that the architecture document and the prd are in alignment
+main thing i want to ensure is that the prd is still in the right order based on the architecture
+i also want to see if any of the stories or the epics or anything needs to change based on what
+we did with the architecture if you're using version 6 of the be mad method this is called
+solutioning it's just something i tend to do manually because i found it effective in the past
+so it's finished the alignment with the architecture document it's listed a bunch of areas i've read
+through them all and they're very minor so i think the main thing that we can do is just apply number
+one which is the recommendations to the prd can be applied right now so those minor alignment issues
+are now being fixed between the prd and the architecture what we're going to do now is
+change over to the po the product donor and this is because we want to shard the documents now if
+i just jump down to this view here sharding is the idea of splitting up a big document into little
+documents and a few of the agents can do sharding but the one that's designed to do for both
+architecture and prds is the po and that's why we've jumped over to there and we can see
+the command here it's called shard doc followed by the document we want to work with and the
+destination that we want to put it in so we'll start by typing in shard doc and i'll put in
+the at sign and type in the prd and after that we'll put it into a file that doesn't currently
+exist which is why i haven't used the at sign it's docs prd now while that's doing that we'll
+head over to vs code to see what's going on so it's this big document that we've got going on
+here and we're moving it into this folder and you can see everything being split up and there
+should be a little index that points to where all the different parts of that file exist
+so with that done we go back and we run the shard doc again this time we're going to click on
+architecture and if we head over we should get an architecture folder being generated and we've got
+all the indexes pointing to each individual file as well now we're about to get into development
+but we should have a look at what our dots look like so we have the brief that was generated
+we've split the prd out into individual files we've done the same thing for the architecture
+but i haven't gotten rid of those files i've moved them into an archive directory and i've
+left the planning document because that's got a lot of detailed files that we can lean on if we
+need to at the time of generating the stories so now we're ready to start developing our application
+so to get started we need the scrub master and the scrub master will read through the epic and
+create the first story for us and that can be done by using this command here called draft so what
+we'll do is we'll type in draft and we could say something like draft first story in this case
+so i've got draft first story from first epic and if we go over and have a look at the epics list
+the first one is the mono repo set up with the basic server and client so we can see it starting
+to gather architecture context here we've got all the different documents that we've created
+in the architecture folder being read as needed it's ensuring for the first time that we've made
+the stories directory now i've already done that manually now keep in mind that from the epic point
+of view it's only got this basic information to start with so it's drawing from that followed by
+all the architecture documents and we now have our first story in draft mode and we can see that it's
+grabbed from the epic the story card and the acceptance criteria and from that it's just
+developed a bunch of tasks and sub tasks to work with it's aware that there's no story to start off
+with this is the first one it accesses the tech stack we've got the project structure that it's
+meant to be creating we understand the workspace that we're in and it's gone and prepared some
+shared types so it's grabbing a lot of this information from the architecture document
+setting up the naming conventions and the coding standards and it also understands how to set up
+the type script configuration it's filled in an area for testing which at the moment we don't
+have any testing and so at this point we could start doing development now the normal flow in
+an application would be to read through this and check everything is okay for now i'm just going
+to change this from draft to ready and hit save and then we can go back to clawed where we can
+start doing our development now it needed to be in that ready mode so we've done that so we'll just
+switch over to the development agent and we can just type develop story now i'm going to put in
+the 1.1 because it'll make it easier for it to find the correct document without having to look
+through documents and now it has a plan of action of what it's going to work through so it's going
+to set up our package.json create the workspace directory structure for us move on to configuring
+type script create the workspace package.json and create the shared types we'll do the git ignore
+and then finally it will verify that the mono repo has been set up correctly so it's finished
+developing all the code it makes a statement that everything is in place it's a little bit hard to
+test because we don't actually have any source code just yet but when the story has been updated
+we have a lot of check boxes of the work that's been done when i personally run the build i got
+a couple of errors but they're actually listed here so that's okay all the files have actually
+been created so at that point we can close off this store now you might notice at the end of
+the story there's an area for the QA agent so what we can do is go back over type in slash QA for the
+quality assurance agent now this is not an agent i would normally use in my own projects what i
+have are custom agents more for story acceptance testing and that's about generating a document
+for the human to work through and test different things that would be visual in nature but for this
+video we'll use the QA agent and we'll just do a review on 1.1 i mentioned that i'd normally do a
+story acceptance test plan now that doesn't preclude doing normal tests as well so usually
+when you're developing an application you want to have unit tests you might want to have end-to-end
+tests but definitely you need some sort of a test plan at the end of the story that says these are
+the things that you have to go and look at and in a more complex application i like it to actually
+walk me through and say first click on this menu filling this piece of information and all of this
+information can be derived from a story and if it was something i was doing with this project the
+way it would look is that it would create a new file right next to the story so we've got 1.1
+dot story but i would have a 1.1 dot story dash sat and in that would be all the guidance and
+instructions for me to go and visually check that everything's working now currently we can see that
+the qa agent has come in it started to update the document so we now have our overall quality
+assessment in place everything seems to be okay and one of the interesting statements is this one
+right here so it's just talking about future considerations that'll be important with new
+stories now if we go back to our vs code we can see that the story has been updated with all this
+extra quality assurance checks so with our first story down we'll do a commit and we can see that
+there's all the new configuration and setup for the mono repo plus there's all the architecture prd
+and the initial story has been added as well we'll set up a new claw code and the first thing we need
+to do is make sure we're on the scrum master and we'll type in draft story 1.2 and let it go and
+build that new document for us now like before it goes through a template loads in information from
+the epic that we're on story 1.2 loads in all the technical architecture documents also reads from
+the previous story so it knows what's already been done so story 1.2 has been drafted i just had a
+quick look through the document so i've set the status to ready but we've got our acceptance
+criteria we've got all of our subtasks in place so now it's time to develop we just go back i've
+already set up the development agent and we'll just type in develop story 1.2 and let it run
+now while that's running i'll just talk about the idea of working with multiple projects at once
+one of the things i love about being mad is that if you are generating two different applications
+you've got a fair bit of time while the development is going on so you saw what i
+did i set up the story then i switched over to the developer agent and i kicked it off
+at that point i'll go to another terminal where i've already got the mad running on a different
+project and goes through the same process now personally i can't do three projects at a time
+because usually the first project has finished and i've got to go back and manually review it
+but the good thing is that you can be working on two different applications at the same time
+so we'll just come back and have a look at what it's doing and we can see that as it goes it's
+signing off on tasks that it's done and it just keeps working through them so it's finished the
+development the definition of done has been filled in we got some new files what we'll do is we'll
+jump over to the quality assurance agent so again we're going through a number of code quality
+metrics and we can see a list of the changes that wherever it says this story and we can go and have
+a look at the code over here now if you're a developer this is an area that you probably
+spend a lot of time looking i work more as a software architect and so while it would be smart
+for me to check all the code i usually don't check the code and that's an interesting thing about this
+i've built complete enterprise applications and i spend more time working on the documentation
+to check the code quality than i do in actually looking at the code now the agents i use for that
+i'll talk about in future videos at the moment we're just trying to build a simple application
+so all the completion notes have been filled in we know the files that have been changed and now
+the qa has come in so if we go and open up qa and look at the quality gate number 1.2 we can see
+a yaml file on the changes though it's a lot easier to see it back in the clawed context window now at
+this point we could be moving on to 1.3 but i suspect there might be something in this code
+that we could test that we can see if it's working but the problem is that we don't have a list that
+we can check so i've gone and set myself up a new window this is a conversation i have with a second
+brain and the second brain has knowledge about things like be mad version 4 and version 6 and
+i've had it just construct for me instructions for creating a story acceptance testing agent
+now i'll just point out behind the scenes what's really going on is that if we do a tree you can
+see all the different documents that i've got available on clawed so we've got the sdk here
+we've got clawed code we've got skills and you can also see stuff on be mad method we've got
+mostly v4 but we've also got information on v6 as well and it's true having access to that information
+plus the project we're working on that we've been able to build these instructions so what i'm going
+to do is just take all the information down to the bottom and we'll just go into our current
+conversation and say can you create a new agent for me within the be mad system i'm going to paste
+the information in so that's coming through and we'll paste all that information and let it go
+now if this was version 6 of be mad you would have access to a system called bmb which is the
+be mad module builder and if we go back to our second brain you can see where i've gone that
+information there is this bmb folder that allows you to create agents for different workflow modules
+but because we're in v4 we don't have access to that module and so i've just let it come through
+so what i'm going to do is select the command we've got i've copied it into the clipboard
+and it says that if we run it we should see some blue time stamp iso 8601 format so what we'll do
+is we'll jump over to a terminal we'll paste it in and see what happens when we run it and yep
+certainly does we've got some line console items here so the good thing is we can see what the
+application is meant to do based on what the story says it should do now this is a little bit
+different to a user acceptance test because this will change from story to story something that
+would have been a uat in say 1.1 might now be defunct and not useful in 1.3 so it's not quite
+the same as a uat which is generally for the life of the application this is only for the life of
+the story so now we'll come down to ac4 this is about checking the health of the server apparently
+if we hit the api health endpoint we should get a status okay so i'm just coming up to a terminal
+and we'll run it and yes it's saying status okay so that's just a quick demonstration on how you
+can create your own agents at any time it's easy to just say model it after something give it a
+little bit of instructions on what to do one of the things i find with that particular agent that
+i did is that some of those commands like was the terminal blue is not something i need to
+visually check but i could get the ai to do it so i tend to split it up into two groups those that
+i have to go and check out myself like entering in a form did i see an error message versus the
+ones that could just be tested by clod code itself but hang on you might be saying what about play
+riot or end-to-end tests could you set them up and the answer is yes you can you probably should
+but i find that they're quite hard to get going they're very fragile so they're always breaking
+and you spend more time wasted around in debugging them where then all you really want in this
+particular case is do the forms work the way the story said they were going to be implemented
+and i need to test it visually anyway i can't purely rely on e2e testing and this is where
+the sat agent is really good so at that point i've just come back to clod code and what we're
+going to do is just do a commit and push this up so what i've done is started a new clod code
+we've gone over to the scrum master we started drafting story 1.3 so it's finished creating the
+story let's head over to visual studio i've already set it to ready i think after it gets
+through the tasks the main thing that we're going to want to look at is the fact that there's now a
+html page so we should be able to see something apparently there's going to be a little bit of
+javascript going on so let's go back and start developing so i'm just letting it load up the
+developer and once that's done we can just develop the story 1.3 so now the development is finished
+it looks like we're going to have an index file that we can go and look at or do the sat soon but
+let's just go over to the qa bot for a moment and we'll run our review on 1.3 while that's running
+we'll just do a quick check of the document it says all the tasks done there should be a public
+directory we've got the html index we've got script tags coming through in a moment we should
+see an update to the qa results so the qa results are in we've got a new gait file we can see the
+story we will check an sat soon there's updates to the packages the client application now has an
+index html page going on so let's go and test our story except in a spot we should be able to type
+in sat and we've got sat so currently taylor is loading into memory we've got a create sat command
+available we've also got an update sat command now we'll kick off the create and this command
+this one here that we haven't used yet is just in case i don't like the instructions that the
+current bot has we've got the ability to update the bot so this is reading our sat is reading the
+story that's going to be the source of truth it's also looking at some of the code that's been
+created like the client index html and at the end of this we should have a new file just sitting
+next to 1.3 story so it's just created it let's pop it open so the story itself was about creating
+a basic html page and the human test that we can do requires us to run the server which i've just
+done and then it wants to go to the chat window and we should see a blue header called client
+server communication test let's just bring it up that looks like it and it's also got a text input
+box saying enter a message optional yep that's in place and a blue button labeled test health endpoint
+it's also saying gray response area with test response will go here i wonder if it works now
+we'll come back to having a look at our form we've got some things around styling i'm not that concerned
+about that what's this form submission without a page reload should just say server response status
+is okay and apparently there's no page reload so we'll bring up our website and we'll click on test
+endpoint and there wasn't a refresh but we did see the server response update there's a bonus
+visual test we can stop the server which i've just done and if we click on test health endpoint we get
+failed to fetch make sure the server is running so that's really cool i wasn't planning to create
+the sat agent as part of this video but this is the idea of it is that you don't have to think
+about what the code did it tells you what has happened and tells you how to reproduce it which
+just saves you a heap of time when you're using the beam add method to develop an application we'll
+come back to our terminal where i was running that server and we'll just clean up after ourselves so
+we'll do a bit of a commit right now and we've got a great commit message everything's listed
+so for story 1.4 i've just run everything at once i haven't done any testing yet we started off with
+bob the scrum master he created the story i went a little bit premature into taylor for the story
+acceptance test because that can be derived from the story but it should also be done after
+the development so i needed to do a bit of an update later i also ran james to develop all
+the code and then did quinn to do the quality assurance so the new documentation files are
+that we have a story we have an sat and we have a q and a document and from a code point of view
+we got new files plus a little bit of an update to the readme so we can see the end points that
+we want to test but if we go and look at the sat plan we've got a little bit of console logging
+that we should see in chat and we should see some server responses if we type anything into
+the chat window apparently it can also handle a disconnection so let's go test them out so here's
+our web application will hit refresh and it's saying that we're currently connected let's just
+say appy dave here press enter and we're getting a response received i've just asked it to kill
+the server over in clawed code because i think it's running in the background over here i didn't
+actually start it and look at that it's starting to say that it's disconnected what i'll do is
+restart it from the terminal myself and if we come back to our web application hopefully it just
+automatically reconnects so at this point we're right at the very end of the epic so number one
+is done we've done stories one two three and four from the epic now at this point we might want to
+do a retrospective this is something that you would do in agile development i recently talked
+about that in a video so this video here how to make your ai coding partner smarter was an ai
+retrospective that i did a few months ago on be mad this has now been implemented into be mad so
+you'll see that in the version 6 once that's available otherwise you can watch this video
+to see how it works but for now we will just move straight on to epic number two so at this point
+we have finished our first feature our first epic in the system we have this client and server
+application it uses socket io and has bio directional communication meaning that we can
+type something in the text box and it immediately hits the server or if the server was to want to
+communicate with the client it could do that as well now all the code and prompt sequences are
+available up on the github repo if you want to access that there's a link to my community down
+below now next up we're going to work on epic 2 which is the clawed agent sdk and what that's
+going to allow us to do is put the equivalent of clawed code into our server so all the sorts of
+stuff you've seen me doing with be mad which is creating code writing documents doing research
+hopefully we can do that from our own application so that we can build html pages and we can generate
+product and blog post content so we'll head back to clawed code and we've got our scrum master
+set up and we're going to draft story 2.1 and so we have our story created it's as a developer
+i want a clawed agent sdk installed and authenticated so that i can integrate the
+agent-driven conversational capabilities into the application now we'll do one extra step this time
+and we're going to go over to the product owner agent and with this we're going to run this
+validate story draft 2.1 and what that'll do is run a validation on the story that we've
+already done and what it's really attempting to do here and this is an optional task is just
+ensure that there were no hallucinations or mistakes made in generating the story now i
+don't normally do the validation system because it slows down my general workflow but sometimes
+what you notice is that code goes off the rails and if you'd have done the validation you would
+have saved yourself a lot of headaches so let's have a look at what the validation system is trying
+to do so firstly it's an anti-hallucination protection is going on what it does is a qa
+against just inventing stuff then what it does is make sure that all the documentation it needs
+is internally stored within that story and then finally a whole lot of checks and balances on the
+template and the sequence of the story so use the product owner agents validate story with
+discretion like when you think something's complex because this will save a lot of future headache
+if things go off the rails during the development cycle now so far we've gone through a full epic
+without any issues so i didn't really need to do it but i thought i'd just throw it in so you can
+see what it does so after that we go into developing the 2.1 task and everything was going really well
+created all the code that we needed ran the definition of done checklist and this is when
+a bunch of warnings popped up so you can see here that there's an external dependency that we need
+which is to authenticate into Claude so we'll just open up a new terminal window and we'll paste
+that in and see what happens so i ran into a couple of problems doing authentication and
+apparently i was on the wrong version of Claude so what i've done is an update and i'm going to
+take you through the workflow as it stands i've just logged into 2.0.42 and i'm just going to do
+a log out so this ensures that we are now out of Claude and down below i've created a little test
+SDK script and we're seeing an SDK test fail because we're not logged in so what we'll do is
+we'll come back up here and we'll run the login function and we'll say yes and yes we're using
+our browser subscription so we can just come up and click on the authorize button we'll come back
+to the terminal it says we're signed in so let's clear this and try it again and it's just going
+to say hello in exactly five words and hopefully it gets something back and so now we can see that
+our SDK is actually working so at the moment the 2.1 story is finished if we go and look at the main
+story acceptance test that we need to look for it's just that we've got colored timestamp with the
+agent SDK running successfully if we go down to our terminal we can see that entry just here
+so from a terminal point of view the server seems to be working all of our acceptance tests have
+worked and the little test tool that was created is also returning valid data that the authentication
+is working now for story 2.2 the basic agent event loop i've run this ahead of time as i said we'll
+go straight into testing it so here we can put in a message i'm going to say can you help me with
+the Claude SDK we'll press send to agent and you'll see a message coming through here and
+currently it's saying processing and we've got this great formatted HTML response i'd be happy
+to help you with the SDK however i need to clarify that i'm a HTML application building bot
+and the messaging that's here happens to be because of a system prompt that was created
+in the last story so let's go and check out the flow that we did in conversation and you can see
+that we started off with the scrum master and we just asked bob to draft story 2.2 and with the
+story created we can see that it's about doing the minimal event loop for communicating with the SDK
+and we can already see from the success criteria that we were able to send a message see it logged
+and then see it displayed in HTML now the main file created will be the agent event loop and
+we've got this solid readiness score and we've also got a list of things that the developer could do
+but we'll notice at the bottom that it does suggest that we could use a validation we don't
+really have to with this sort of story but i've run one so we look at Sarah the technical product
+owner we can then validate the next story now it's just comparing the story to other documents
+in the system previous documents goals making sure that everything's in alignment everything's
+great there's one little yellow flag here so we'll go have a look at it there's a slight
+little question here but we won't worry about it in the story or rectifying it because the development
+agent will figure this out pretty easily and so next we just install the dev agent which is
+james and then we can just run the develop story command as james gets all the work done it's all
+being marked off on the task list the story document is being filled in along the way and
+we're seeing a little bit of a state change in the document just making sure that it's now ready
+for review we see confirmation of what was either created or modified and so with the code complete
+i just now need a plan of action written up for me so the story acceptance test is what will kick
+off this is that new agent we created we've loaded it up taylor is in place and we just run the create
+story acceptance test for 2.2 so new document is created and that helps us understanding things
+like what are the new files or the modifications going on if we want to go and have a look at the
+code a write-up of what the code is plus a little bit of key implementation details just to help
+just so that you can understand it a little bit easier so we'll go and have a look at that document
+we've got the acceptance test guide with the prerequisites how to set it up and then we go
+straight into the human tests and we started all of this off by running this particular test where
+we saw the information coming through we saw the log messages coming through now you got to see the
+happy path if we put in hello can you help me we'd get some sort of clean response coming back from
+the agent sdk so what i did for the acceptance test 8 happy path is i pasted in the console log
+with a little bit of a message saying that i don't see anything suggesting that this actually got all
+the way through it said that i probably need to do a hard reset on the html so i did that and i
+started getting a response this was very good except what i was seeing was object object all
+the way through the response so i just asked it was it expecting that that was all we were going
+to get because i didn't go in thorough enough reading the story to know whether i was going
+to get clean data it said no it's not right so when it made some modifications to the code
+it first started by suggesting what those modifications were and then it made the changes
+automatically and that brings us to where we are at the moment where we can now put in a message
+we'll say what do you think would be a good application to build with the clawed sdk and
+we've got a conversation stream that makes a whole lot of sense and remember that this agent
+is paired with a system prompt which is about building web applications so we clean up the
+end of the story by just using the qa agent which is quin and we ran the review story to build this
+quality gait document so we have this audit trail of things that have happened including that the
+initial implementation did have a failure in it now i've just implemented 2.3 which is real-time
+streaming and one of the interesting things is i was also able to create a beam add workflow
+to do all the work for me in one sequential flow we'll look at that in a moment but for now let's
+just test it out so i've created a bunch of testing prompts that we can work with the idea
+is that i want to see chunks come through the system so we go and select this particular one
+and come back to our web form now i've made a minor change to the system prompt so that it
+has a command called test what i want it to do is ignore the idea that it's a web application
+building agent and we'll just paste this information in and it's starting to write some information
+you can see here it's saying processing at the moment and all of this has been done in one chunk
+so the interesting thing about the Claude Agent SDK is that you can't stream word by word it is
+done in chunks so it's a little bit slow between updates but you can see that the streaming is
+working between where my initial message came through and then the agent got involved we'll
+try a different version where we're testing of reading the package.json we've got i'll help you
+read the package.json so we see chunk zero coming through right here and now it'll do an analysis
+md and we can see the three chunks coming through over in the console log so the last test is what
+would happen if we bombarded it with ideas so i'm going to put in number 10 and we'll press enter
+then we'll paste and we'll put 20 and we'll paste and we'll put 100 and then we'll paste and we'll
+do 10 again and we can see that counting to 10 this is what it's come up with count 20 it's done
+that for us count to 20 and notice things are starting to get a little bit out of order so it's
+basically as the information comes in is when it's written to the stream and what i notice about this
+is that it works very much similar to how Claude code would work which is different to ChatGPT
+where you actually have to wait for each response to come through now i don't personally know whether
+the way with Claude code if i was to rapid fire prompts like this they kind of get aggregated
+you can put in an idea and then follow it up with a change of idea and it takes it into account
+don't think that's happening here but we've got the rudimentary ideas of what you can already do
+with Claude code all working now let's get back to the workflow because i created a custom workflow
+to build all this out so that it could just run without too much input from me and it's called
+the AppyDave workflow what it does is it starts off by asking a question what story do you want
+to have so we did 2.3 at that point it started creating the story and it did that by starting
+up the scrum master and running the draft story command and as per normal we got a detailed story
+written it's in draft format at the moment and it's as a developer i want to stream responses
+so that the end users can see information progressively now we've seen that working
+so we know it's all going on it wrote the initial plan of what the code should look like in the
+story and then it gave me this status update so we can see that it's in draft acceptance criteria
+is there and it's got a couple of questions do i want to continue do i want to skip or exit so
+we got a final summary of the creation of the story we can see that it's in draft mode at the
+moment and it's asked me do i want to continue on the validation or skip now i said that the
+validation is optional but i decided to just press continue and we can see that it's now going into
+to the product owner and validating the information in the story against other documents now we're
+onto story 2.4 which is all about reading the json document and you can see that i've done
+a basic test here we can see the conversation finding information on the computer it's got
+three sample products in place and if we jump down to the conversation it started as usual with the
+new abby dave workflow we've got 2.4 being the story that we want to run it created that story
+and then i just typed in continue this moved on to validating the file that gave a 9.5 out of 10
+and the little issues that were there were all dealt with pretty cleanly during the development
+phase so we didn't need to do anything once i then set the status to develop we were able to come
+in and click on the develop story it also set up some sample data automatically so we had some
+test products in place we also have broken data which we haven't done a test test on just yet
+next it built the story acceptance test based off the story and the code that we've developed it
+also ran for me all the automated tests that it could do anything that was to do with the terminal
+or something that could be run from a command now during the sat generation it also generated a
+couple of files that were very unexpected there was this human test there was also a quit test
+so what i had to do was let it know that the sat agent that we had created earlier in this project
+probably has some flaws and if it could go through and rectify them at the same time as cleaning up
+these files and putting them in the correct location and this is the sort of bespoke issue
+that you can get from time to time as soon as you see something out of the ordinary with the bmad
+method it's important that you probably fix it in the moment and let the system know either through
+learning documents or you clawed md or in this case an agent's file that it's not quite right can
+it go and update itself so we can see right here that the create sat task has been updated with new
+instructions and the cleanup of unnecessary files has happened right here now when i went to read
+the json using the ai agent there were a couple of problems that needed to use the development
+agent to fix the first one was a little permission issue it rectified that really quickly based off
+documentation then there was the rom folder it got that fixed up as soon as i gave it an example
+of where it was trying to read and where the files actually were and then lastly which was the hardest
+one was that we were implementing this concept of read json but it didn't have any ability to
+figure out what json documents were available or to discover the one you actually wanted so it
+suggested and then quickly built two extra tools the list would show any files that were available
+and the preview would let the agent interrogate the files to figure out which one you actually
+wanted so let's go and test the read system we've got our little products document and we've also
+got a broken document and we'll just head over to our site and we'll say can you get me a list of
+products we'll send that to the agent it's processing at the moment i'll help you get a
+list of products first let's discover them i've found some products let me read them and it's
+got the file and look at that it's got the api dave on school so it's got that file that
+we just updated and we'll see if this test against the broken json document will work we'll say can
+you get a list of items from broken and it's doing some processing at the moment it's found that we
+have a broken dot json document let's read it and this is perfect it's giving a nice message that
+the data is malformed and the system is not falling over just finished story 2.5 which is
+the ability to write information to the different data files i've done a few use cases but let's
+go through the individual changes that have happened so from the api dave workflow point of
+view there's a little bit of an improvement because on load it has a look through to see what the last
+story was that was done and suggest the next story to go and write so i've just put in 2.5
+here so it's created the story really quickly but the challenge i had with the last story
+was that we added a couple of new tools that was the lists and and the preview json and so what i
+did at the time of validation which is the next thing i then gave it some extra context by talking
+about the list and preview json from the previous story and also giving it a little bit of a use
+case so i was able to talk through the capabilities it could already see with adding json but then it
+went on to document a bunch of critical gaps which is exactly what we want we want it to pick up old
+ideas bring them into the new story and make it available for the development so it gave me a
+bunch of options i went with number one that's just fix or update the story so we're seeing new
+information being added to the story and that allowed us to go into developing with the new
+capabilities thought of along the way and then when it wrote the sat plan one of the things
+that did automatically this timeness because i'm gradually improving agents and workflows as we go
+is that it did the automated tests of the terminal commands but i did ask it to run it
+lot one more time and just give me a summary of what's going on so we can see the eight tests
+that are from the terminal are all working and then it started listing eight different tests
+that i as the human could go and test and the steps to work on them now the first one actually
+failed and the failure was simply that it wrote the json document out in quote marks so as a
+string so i let it know that there was an issue there quickly found and rectified that particular
+problem then i ran into a new problem which didn't end up being a bug but just a gap in the
+requirements and you can see the basic idea here is that i had a conversation that said add sugar
+for 50 cents now i said that statement after a prior statement of looking in the products table
+so i assumed contextually it would just work and the issue is that it had no conversational memory
+each time it went back to the sdk so it suggested we could either fix it or create a new story
+so what i've done is added a new story to this epic called 2.7 just based directly off the
+information right here so the ability to have conversational memory is something we'll do in
+two stories time so let's test the idea of adding and updating files in the data folder we've got to
+test products we can see the information that's here we've got one broken file as well and we'll
+come over and say can you add a product we want sugar and we want it to be 50 cents after that
+we'll go down to our use cases and we've got this create an electronics json document under the
+catalog folder so it'll be a nested file and it's saying it will do it with a laptop and a phone now
+we'll head down to our json document we can see that this is expanded to have sugar at 50 cents
+looks like we've got our new file let's just drag that in we've got an electronics catalog and we've
+got multiple items coming in here and they're quite detailed now let's try out a couple of
+discovery commands so we'll go what json exists in the data directory let's see what comes through
+we can see the broken and the test products we don't have the catalog so it hasn't looked
+deeply but what we'll do is we'll add a category field to the test products table so click that
+center agent it's telling us it'll add a category now it's done it and if we head over to vs code
+we can now see that on products we've got these categories so we've got groceries over here and
+there was a couple of other interesting use cases that all worked which i didn't even think of it
+just created these and the ability to create a file outside of the data directory was blocked
+creating a file with circular references and the last useful example is to just add five items and
+array to a new table so here we have five sites added so what we're seeing now is this really
+powerful mechanism where we can read we can write we can update we can work with subdirectories of
+files back on our server now these are data files next we'll be looking at how we can do html files
+but the whole idea of this is more for an internal tool i wouldn't it's not the sort of tool that we
+would use up on a public website where it can write to your server but if you're trying to
+build a little application for yourself and you want the ability to dynamically update data just
+by talking into the microphone then this is a perfect technique that we can be using now with
+story 2.6 our conversational bot is now starting to get really powerful so what we'll do is we'll
+start off with a simple question and that's what html files exist in the public directory
+and you can see here it's saying that there are currently no html files in the public directory
+and if we head down to vs code we can confirm that so we've got our data directory from the
+last session available but in the server when we click on public there's nothing there right now
+so the full conversation for this workflow was that we started with the appy dave workflow it
+figured out that it had done 2.5 and that it could move on to 2.6 and so it was able to start up the
+scrum master and create the story for us now because we'd made a lot of extensions within the
+2.4 and this 2.5 story i decided to let it know that it was modeling these two stories except
+rather than for data it was going to be for html and so while there were major differences like
+the type of file and the location that they were going to be the actual tooling was pretty much
+the same and so i suggested that it have a look at the 2.4 and the 2.5 before updating this story
+with new capability from that it was able to notice all the critical gaps that were in place
+and come up with four separate tools to implement before that it only had one tool which was writing
+the html now to show that this was an extensive change we can see as we scroll through that
+there's a lot of green and reds a lot of stuff been taken out a lot of new stuff being added
+and the public directory is the 2.6 story so then we changed over to the development agent
+everything pretty much went off without a hitch there were two different problems that i did need
+to address and you can see them here the first one was that it wasn't actually serving from the
+public directory i was able to test all the html but not from the application so that was a bit
+of a problem the other problem was that when i was trying to display data that we created in
+the previous story it also wasn't showing through so i did a little bit of prompt engineering just
+to get the code working it was really easy to do because clodcode gave me option a b and c and i
+just said let's go with a and c and it just wrote all the code that we needed so with our chat agent
+set up to story 2.6 we'll just put in a simple prompt that says can you create a html page for
+and along with that question i'll just paste in a little bit of information i just copied from my
+website and we'll press enter and see what it does with that now you'll notice as it's building it
+that we've got this concept down the bottom of pages so i've also added a little menu to the
+bottom of the chat box to show any public pages that are being created so it's just come back
+with i'll create a page let me check i'll create it and it looks like a bunch of stuff's being
+created and we can see this little index let's click on that and see what we get we've got abby
+dave and this is actually a whole lot of information from my main website we'll just pop over and have
+a look at that and we can see master ai and prompt engineering different projects and down
+the bottom different channels so if we come through and look at it here it looks like it's
+all the same information all it's done is created this little html file for us and it's put all the
+colors in there let's see if we can do something a little bit more complex and we'll do a prompt
+that says can you create a html page called cat dash dog and do it talking about a pet store that
+is about cats and dogs and let's go with the colors of brown yellow and green so we'll just
+let this prompt come through as soon as it's typed in so we'll send that through to the agent
+and we can see all our product data down here we can see our cat dog and our html file so what
+i think i want to do now is create a new html file we'll go with a css file as well so the prompt will
+go can you create a html file called aitldr.h and can we create a css file to go with that can the
+colors of that css be light blue dark blue and white and can we make sure that we're displaying
+a whole lot of products can the products come from our test products and document so i'll just
+let that prompt come through there it is and we'll press enter so there's a couple of typos in there
+but it looks like we're going to create a html file matching css file perfect now let me check
+what pages exist and while that's happening what aitldr is is one of my other channels this is a
+faceless youtube channel where most of the focus is on youtube storytelling so we've got something
+coming through they're not necessarily the colors we normally use but let's go and click on this
+and see what we get aitldr product catalog and this is really interesting from a few points of
+view so the actual widgets that are in the product listing abby dave on school sugar
+this has all come through but we've even got the html links so we can get to the home page can we
+get to the cat and dog we can get to the cat and dog what about products that's taking us to where
+we are and if we go back to the chat interface so at this point we've almost achieved everything
+i wanted with this project it was the ability to create any sort of data we want let's go and
+test the idea of updating data can you go and add three different products about nail polish
+let that come through and send that to the agent and what i'm hoping it'll do is it'll come up
+with three interesting products it should be able to add it to the only file we've got which is the
+test products i probably should go and rename that well let's just go back to this it can see
+the file it's now apparently added things oh look at that it's showing them as well
+so we'll go and click on the aitldr page and see what that's showing okay we've got five products
+now our page hasn't updated but if i go down to visual studio we can see that three actual
+products have been added so my assumption is it's not reading from the javascript and it's
+not it's actually been hard coded so maybe we can modify that so we're going to work with the idea
+of can we update the html of aitldr so that the products are actually just reading from that url
+so we'll send that through while that's doing its thing we can have a look at the url this is the
+data that's available to us it says that the page is working let's go and click on it and look at
+that we've got eight products we've got three new products added so yeah we're using our chat
+interface to both create data update data delete it well we don't know whether it can delete
+and to actually modify the html so let's see if we can do one more compound idea so we'll go with
+the idea of can it delete widgets from the test products table the json document can we also go
+to the aitldr css and we'll start changing the colors to be a light pink blue and yellow we'll
+send that through to the agent we should see it coming down the bottom here so currently it's
+doing a search broadly for the css files it's found them it's now going to read the full
+content from them it's found widget abnc which it's going to remove from the json then it's
+going to go and update the css and it looks like it's done that and what we'll do is click on
+aitldr and look at that we got pinks blues and yellows and we've removed the three widgets
+moving on to story 2.7 which is a new story that came about because we encountered a bug
+where if you typed in a couple of messages it didn't understand the previous messages
+so we've put it in place and what i thought we'd do is test it by maybe changing the title of this
+particular website and at the same time also change the price of just cats and we'll do that
+in two separate messages so here's our first prompt can you change the title of the cat dog
+website so that rather than saying cat and dog pet store it just says pet store so we'll kick that
+off and then we'll start the next prompt can you go to the cat dog website and change every product
+that is related to a cat so that it is 100 more and we'll just press enter on that one now if
+we look at the current website it says cat and dog pet store now i've done a refresh on it and
+we can see that the pet store has been updated we want to see if the 24.99 becomes 124.99 and
+they have changed so there's the new value and we've got the old value as 24.99 and cat and dog pet
+store so from a conversational point of view it was pretty much the standard workflow we started
+off with the appy dave workflow we created the 2.7 story we validated it the minor change here was
+that i asked it to go and read the documentation around the sdk and we have a second brain of
+information around that particular tool the basic findings from that were all listed and updated the
+story we then just did our standard development phase we did an sat there was nothing in there
+other than to run the two commands that i did and so we just finish off with a review from the qa
+agent so that brings us to the end of epic 2 and what we can now do is we can add products or any
+sort of data that we like we can update it we can also play around with html css javascript and we
+could call this a complete application but if we look at what epic number three is going to be
+about we'll be able to give the chat interface a much needed upgrade and we'll do that by going
+to react where we'll use vite shad cn tailwind css and we'll use the versel ai elements to give
+a really clean chat interface now it's a fairly simple epic we're going to initialize the react
+application then we're going to install the shad cn and configure tailwind css then we'll build the
+chat interface again using versel ai elements and lastly we'll implement a simple dark mode light
+mode toggle so one of the things that we have to do before we actually start the first story for
+epic number three is we just need to do a little bit of a retrospective so i've got a basic question
+just asking it to think about what it would need to do a retrospective and it's come up with a
+long list of tasks that it should perform to build up that particular document i've specifically told
+it to think deeply and i've also given it as much time as it needs to do a detailed job and so it
+goes through and it writes this long document and we don't have to read the document but it will have
+information from here that it can pull on when generating the stories for epic 3 so story 3.1
+is finished there's not actually a lot to see there's a little bit of console logging we can
+see now that it's using react and bite and from our front end point of view all we've got is hello
+world be mad claude sdk and the fact that it says bite connected and we'll just check that the hot
+module reloading is working that's working okay so we have a foundation now for the react version
+of the chat client let's move on to story 3.2 now we are on story 3.2 and there's not a lot to be
+seen just yet we've got an installation of shad cn and ui and if we pop it up what we'll see is
+this user interface with the basic typing area in place we've got to click me and we've got some
+buttons and the styling is very ordinary at the moment and according to the component verification
+that's exactly what we want to see at the moment we've just completed story 3.3 and we're really
+close to the end of building the application and what you can see now is that it started to come
+together quite nicely we'll demonstrate where it's at in a moment but i'll point out that this is the
+14th story that we've done and every story we've done up until this one just came across without
+a hitch it was able to be created it was validated it was written by the software developer we were
+able to do the story acceptance testing and we were able to do the qa afterwards and everything
+was really quite quick this is the one story where everything changed so i'll do a little bit of a
+post-mortem analysis of it as well after i've demonstrated where we're at so let's test out
+our new chatbot and what we'll do is we'll search for products first so can you tell me what products
+are available and we'll let this prompt come through we'll press enter and so we can see this
+little bubble coming up here that's what the user has said this is what the agent stk is responding
+with at the moment and there are our products we've got some groceries we've got some beauty
+products nail art sort of stuff so let's create a little website can you create a little html
+website called beauty and joy can this be a nail art sort of store can we get both a html page
+and a css file and we'll let that kick off and in a moment it'll come up with a plan of action
+and here it's starting to happen and what we can also do is just head over to vs code where we can
+see what we currently have we have a couple of websites here cat dog index and ai tldr and if
+we come back and we look at these little pages here this is where we can see this and look at
+that it just created beauty and joy so maybe that's already started let's go back and see
+whether it's created here yes we can see it we've got a css file and a html file and that's why that
+came about so let's go and click on that and see what we get okay we've got a interesting looking
+nail art shop i think we can do better styling than that so what i'll do is i'll bring it back
+here and say can you update the css styling for the beauty and joy website and can you
+use this basic guidelines so what we'll do is we'll just go down and paste some extra work
+and hopefully this will show up cleanly here we go we've got soft modern feminine we got some
+primary colors coming through and it should be updating the css very soon and it looks like it's
+finished it's actually created a different html so if we go up we now have two we have beauty and
+joy and we have beauty let's look at the old one here's the old one and the new one is looking a
+fair bit more elegant now ideally i would have liked that to actually update the original website
+but for a first pass add a chat bot that can create data read data and also use it for websites
+this is working really well now i said that this story wasn't actually as successful in the coding
+as any other story that we've done but let's have a look at what it was originally it's build a chat
+interface with versal ai as a developer a chat interface using the ai element patterns so that
+users can send messages and have streaming agent responses now that's working and so pretty happy
+but let's have a look at the postmortem and this is where a number of issues happen now part of
+the issues happen because i think when i was doing it i was really tired so i wasn't paying
+attention to different things going on but the main issue which i seem to run into every time i
+do tailwind and totally forgot about it in this particular case is that it got configured with
+v3 syntax but it was a version for tailwind and you might have noticed in the last story that
+there was styling that looked pretty average and i said well that's actually how it's meant to be
+well that's not the case and the reason is that the tailwind styling was misconfigured and took
+a little while to find it out another issue that was happening under the hood for me is that one
+of the servers there are two in this was meant to be running on 5173 but claude was actually running
+a separate one on 5174 and so i was trying to see updates and nothing was coming through and i kept
+saying to claude this is not working and he kept saying i've fixed it but i wasn't seeing anything
+visually now again a lot of that was me tired at the time but this is one of the realities of having
+ai agents that can run the servers for you is that if they've got a conflict with your current server
+then it's just going to spawn a new one on a different port then it had a bunch of issues
+with the bubbles and the drop down menu that we saw going up showing up underneath the bubbles
+now the reason i actually wrote this document wasn't just so that i could show you the sort
+of challenges that you can run into but because once you write a document like this you can make
+it a part of your documentation system so if any other issues happen in the future and you notice
+it you can say can you go and read other documentation or lessons learnt that were
+done in the past and this can be a perfect way of training the ai model to you to write code the
+right way if you see a certain problem showing up again and again now we're nearly at the end
+and about to demonstrate this system all working so the 3.4 planning document ended up getting a
+fair few changes this became a little bit of a conversation to deal with different issues so the
+first thing we did was we added in the light mode dark mode and that's working we've got an activity
+slide out panel that's actually working really well clicks happen everywhere it's all using socket
+io it had nice status checks on when files are added deleted updated when i went to use the system
+there were a number of issues just with the system prompt so i kept feeding the conversations back
+in and asking it to update the system prompt it now works really well and so now i've set it up
+for four different demonstrations now there's only two in the video the first one is the little
+example at the beginning of the video is essentially based off these prompts here and the full session
+that we're about to demonstrate is the creation of the bookstore and we can see all the prompts
+that we're about to run now we have our chat application created using the be mad method
+it's got the clawed sdk as a backend some of the capabilities is that at the moment we're seeing
+no pages but as we add pages they'll appear automatically there's also an activity log
+showing every file coming through so if we just start off with our first creation we're going to
+create five bookstore products we've set the prices one of them is out of stock now it's created a
+file and automatically created products dot jason we can see five products created here next we'll
+create a products html file now as that comes through it should automatically update this to
+show one product at which point we'll be able to click on it and see a menu so we'll go and add a
+few more products and if we pop up the website hopefully we're going to see it dynamically load
+because of the socket connection which means that any updates on the server will automatically
+come through to the client we're seeing that right there if we don't like the style we can ask for it
+to create a product css file this is going to go with a professional blue and gold color scheme
+now this probably won't update the html because we're only asking for it to create the css at
+the moment and nothing has updated so we'll just say update the products html so it uses the css
+while we're doing that we'll have a look at what it's created so we got a bunch of css created
+right here and it's just started writing the file and a refresh is showing the blue and gold coming
+through on the website now there's a little home page if we click on that we're going to get a
+file not found so what we'll do is we'll come back to our chat client and put in create a html
+file this is the index we also want to feature a few products on the front page so let's bring up
+page and we'll click on the home see what we get and we've got a shop now and a chat with us
+and it looks like we've got some featured products on the beginning let's go back to shop now and
+we're taken back to the products at this point it might be useful to create some blog posts so
+we'll start with a little bit of data and we can see that it's creating it with a title author date
+content and tags so it's very much related to the bookstore if we click on the blog post we can see
+the information coming through here and here so we'll create a html page we're making sure
+we're using the sockets if we bring up the page started writing the page now i think it's created
+the blog page but when we look there's no link on the products there's no link on the home page
+so what we'll do is we'll just jump down and put in a can you add a link on the home and the products
+page if we click through we can read our blog articles here this looks good we'll click on
+home we'll come back to the products and we've got the blog here as well so the three articles
+we've got golden age of reading building your personal library and we've got philosophy in
+pages let's go and add another blog post to the blog post jason it's in the middle of writing
+and we have creating your home library so at that point it might be good to think about it's
+coming up to christmas can we have a design that makes sense so we'll apply a christmas
+styling to the product css with snowfall animation and festive red green colors it's started to come
+through there's styling bugs and we can't currently click on the blog post if we go over to the blog
+we can see the tinsel coming through here one thing you might notice though is that there were
+a number of attempts to get this working so we started with apply christmas styling to the
+product css and had to follow it up with five different prompts to get it working across all
+the different pages it had a recommendation to go with scalable vector graphics so that was the
+recommendation we went through now since it's christmas i think we should take the sold out
+item and do an article about promoting some of it so we'll write a blog post announcing that
+there's a special that the product has gone from 32 to 22 but there's only 10 left now the article
+has been written but we better go and update the products so that it's in stock and we have a price
+for it we'll click on products and this is the product that we're looking to see change and
+there it is it's changed through it might be useful to change the color as well
+just asking for it to be highlighted at the moment and there's our holiday special slightly
+misaligned but we'll leave that for now and let's make sure the home page has a product for the
+holiday special exclusive and we should be able to view it in the catalog so that brings us to
+the end and what we've been able to do is build this complete application just with natural language
+prompts and we did that using context engineering that's with the be mad method and the backend
+system that we've built is using the clawed agent sdk so this is giving us all the power of clawed
+code within our own web applications so the demonstrations we did was that we were able to
+create html pages json documents css files make sure all the links go from page to page now all
+the code is available you can check it out in the repository and if you want to join the community
+we have more of a discussion and teachings each day on prompt engineering now if you're loving
+the power of be mad in the next video we're going to use be mad again but this time we're going to
+recreate an orchestration framework just like be mad we're going to call it poem which is the prompt
+orchestration and engineering method and the whole idea of it is so that we can create and test prompts
+in a technique very similar to be mad i'm happy dave i'll see you in the next video

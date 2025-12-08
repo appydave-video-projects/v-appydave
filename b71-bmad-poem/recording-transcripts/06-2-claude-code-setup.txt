@@ -1,0 +1,5 @@
+So let's head over to the terminal and we'll set up Claude. I'm going to run the dangerously skip permissions.
+Now the first thing we want to do is an init to get the Claude ND file set up.
+And we'll just put in an extra instruction letting it know that it should focus on the BMAD core and anything in the .Claude folder.
+But anything related to the planning or the data files, they're not really that relevant to us.
+Because that's going to be used by BMAD core, but we don't want our general instructions in Claude to need to know about it.

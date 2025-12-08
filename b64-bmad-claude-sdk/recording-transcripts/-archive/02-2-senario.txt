@@ -1,0 +1,3 @@
+Now if this all works, what we'll be demonstrating is the idea of creating a bunch of products,
+building out a product listing, maybe even a details page for it, adding a home page,
+making some of those products featured and then adding more products along the way.

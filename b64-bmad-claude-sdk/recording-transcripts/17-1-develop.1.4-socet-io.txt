@@ -1,0 +1,9 @@
+So for story 1.4 I've just run everything at once I haven't done any
+testing yet we started off with Bob the Scrum Master he created the story. I went
+a little bit premature into Taylor for the story acceptance test because that
+can be derived from the story but it should also be done after the
+development so I needed to do a bit of an update later. I also ran James to
+develop all the code and then did Quinn to do the quality assurance. So the new
+documentation files are that we have a story we have an SAT and we have a Q&A
+document and from a code point of view we've got new files plus a little bit of
+an update to the readme.

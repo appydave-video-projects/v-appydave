@@ -1,0 +1,5 @@
+So we're just about to get ready with BMAD and for it to work effectively we need to give it some sort of context documents.
+We can do it with the business analyst agent in BMAD, but I've already done most of the hard work here in this file structure.
+And apart from the rules and the planning that we've got, I've also got a couple of folders related just to data.
+So we've got all the schemas, the prompts and the data from the storyline application.
+And we get the same sort of information from the support signal application.

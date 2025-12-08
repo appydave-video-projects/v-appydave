@@ -1,0 +1,17 @@
+So in section six we're just setting up the EPIC details. Now that will have a
+list of stories. They're lightweight, they're not heavy-duty stories that we
+see later on and so it's going to work with EPIC 4. It would normally start
+with EPIC 1 but we've just given it information so it knows let's work with
+that first. So it says for EPIC 4 it's going to be the YouTube
+automation workflow as a system validation concept. So the first story
+within that EPIC will be how do we bring in information from an external
+system. Now it then lists only two concepts. We've got the user story, we've
+got the acceptance criteria and in the user story the way it starts is who's
+it for, like what person is going to be affected by the change and in this case
+it's the prompt engineer. The next step in a user story is what do they want to
+achieve. So in this case what we want to do is bring that templating system into
+Pone and the last part of a user story is why would this be of use to them and
+so here we're just listing that they'd have real-world prompt templates
+available to work with. Now when we go to do the development we will know that
+this particular story is done once the acceptance criteria have been complete.
+So it's quite lightweight but it's also really powerful in the way it's structured.

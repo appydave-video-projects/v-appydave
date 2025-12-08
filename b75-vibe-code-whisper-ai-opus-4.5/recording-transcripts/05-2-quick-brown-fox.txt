@@ -1,0 +1,11 @@
+and we'll start again and what happens is we've got the quick brown fox video
+it's only 13 seconds long we'll hit rename on that head back to our
+transcripts we now have two that are in the queue so another one that's just
+finished we've got the next one in the queue this is the one I want to go and
+test the text on while I'm doing that it also did another thing that I wasn't
+sure about and we can see when we're looking at the recordings which ones
+have transcripts which ones transcribing which ones queued and I
+guess I'm going to have to add some buttons here so that I can transcribe
+the ones that don't have transcriptions I think while we're waiting we should
+just kick off a development environment for that we're going to need an updated
+requirements document

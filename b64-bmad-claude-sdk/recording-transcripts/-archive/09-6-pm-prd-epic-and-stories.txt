@@ -1,0 +1,15 @@
+Now, the third epic is all about setting up a React application as the front end.
+So when we look at 3.1, it's initializing React with Vite application, then 3.2 is setting
+up ShadCN, configuring it with Tailwind CSS.
+After that, we build the chat interface using the Versel AI elements.
+And lastly, we're just giving it a simple light mode, dark mode.
+Now, we've got all sorts of rationale being listed.
+We could move on from there, but like I said, I think there's a problem in Epic 2.
+And the main issues I can see is that after installing the SDK, it starts going into setting
+up tools, but we haven't defined yet where they fit into the event loop.
+We don't even know whether the event loop is going to work and communicate correctly
+with the client.
+And so as we work through all those stories, we're going to be fairly blind as to...
+And so as we work through all the stories in Epic 2, we're going to be pretty blind
+to whether they're working until the very end of the epic, where it all comes together
+in a big avalanche.

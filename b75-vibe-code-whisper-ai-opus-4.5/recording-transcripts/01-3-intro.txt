@@ -1,0 +1,6 @@
+In the second video on the Opus 4.5, I demonstrated that new capabilities were added.
+We had projects, we had thumbnails that we could preview and add to the video that we were recording.
+We'd have assets that we could then go and manage and assign next to different videos.
+And we developed a few more capabilities around the tagging and the statuses of videos.
+So as I'd add in a second video here, we could see it available over in the recording.
+And by this point, this application was already doubling the productivity that I was doing with YouTube videos.

@@ -1,0 +1,9 @@
+now for story 2.2 the basic agent event loop I've run this ahead of time and so
+we'll go straight into testing it so here we can put in a message I'm going
+to say can you help me with the Claude SDK we'll press send to agent and you'll
+see a message coming through here and currently it's saying processing and
+we've got this great formatted HTML response I'd be happy to help you with
+the SDK however I need to clarify that I'm a HTML application building bot and
+this has to do with a system prompt that got created as well and the messaging
+that's here happens to be because of a system prompt that was created in the
+last story

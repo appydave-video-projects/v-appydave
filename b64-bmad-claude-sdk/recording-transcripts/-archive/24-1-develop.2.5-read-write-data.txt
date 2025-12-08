@@ -1,0 +1,46 @@
+We've just finished story 2.5 which is the ability to write information to the different
+data files.
+I've done a few use cases but let's go through the individual changes that have happened.
+So from the AppyDave workflow point of view there's a little bit of an improvement because
+on load it has a look through to see what the last story was that was done and suggest
+the next story to go and write.
+So I've just put in 2.5 here.
+So it's created the story really quickly but the challenge I had with the last story 2.4
+was that we added a couple of new tools that was the ListJson and the PreviewJson.
+And so what I did at the time of validation which is the next thing, I then asked it,
+I then gave it some extra context by talking about the List and PreviewJson from the previous
+story and also giving it a little bit of a use case.
+So I was able to talk through the capabilities it could already see with adding JSON.
+But then it went on to document a bunch of critical gaps which is exactly what we want.
+We want it to pick up old ideas, bring them into the new story and make it available for
+the development.
+So it gave me a bunch of options.
+I went with number one that's just fix or update the story.
+So we're seeing new information being added to the story and that allowed us to go into
+developing with the new capabilities thought of along the way.
+And then when it wrote the SAT plan, one of the things it did automatically this time
+this because I'm gradually improving agents and workflows as we go is that it did the
+automated tests of the terminal commands.
+But I did ask it to run it one more time and just give me a summary of what's going on
+so we can see the eight tests that are from the terminal are all working.
+And then it started listing eight different tests that I as the human could go and test
+and the steps to work on them.
+Now the first one actually failed.
+And the failure was simply that it wrote the JSON document out in quote marks so as a string.
+So I let it know that there was an issue there, quickly found and rectified that particular
+problem.
+Then I ran into a new problem which didn't end up being a bug but just a gap in the requirements
+and you can see the basic idea here is that I had a conversation that said add sugar for
+50 cents.
+Now I said that statement after a prior statement of looking in the products table.
+So I assumed contextually it would just work.
+And the issue is that it had no conversational memory each time it went back to the SDK, each
+time it went back to the agent SDK.
+So it suggested we could either fix it or create a new story.
+So what I've done is added a new story to this epic called 2.7 just based directly off
+the information right here.
+So I just asked it to update the epic with a 2.7 story which is not the same as a regular
+story that we create.
+It's a bit summarized when it's inside the epic.
+So the ability to have conversational memory in the system will be...
+So the ability to have conversational memory is something we'll do in two stories time.

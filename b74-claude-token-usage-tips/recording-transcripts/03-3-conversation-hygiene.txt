@@ -1,0 +1,7 @@
+But there's also another idea here called the compact method and this is not
+something I tend to use. Now you might be thinking if you're going to have a
+clean Claude code window every time you do a new feature why do you even need
+the compact keyword? Why do you even need the compact command? And the reason is
+based on a second usage pattern that I do all the time. So over here I've got my
+product owner bot and this is vibe coding now we're not in contest
+engineering but I do have some agents set up

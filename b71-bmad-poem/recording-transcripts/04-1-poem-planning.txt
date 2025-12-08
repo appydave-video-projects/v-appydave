@@ -1,0 +1,5 @@
+So what I'm trying to create with POM is a prompt engineering operating system.
+Now the actual name POM stands for prompt orchestration and engineering
+method and as you saw from the application we just ran the idea is
+that we should be able to compose a prompt, test it, refine it and then at the
+end deploy it to whatever application it's used for.

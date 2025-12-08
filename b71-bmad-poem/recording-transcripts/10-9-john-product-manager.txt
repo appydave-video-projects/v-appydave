@@ -1,0 +1,4 @@
+Now when we get to the system agent we'll unlock a bunch of capabilities.
+So first will be the handlebars templates, then we'll be able to do
+advanced add-ons to the templates through helpers, and then after that we'll
+be able to prep for the integration agent by creating the actual providers.

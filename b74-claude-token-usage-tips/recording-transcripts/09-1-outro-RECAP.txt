@@ -1,0 +1,80 @@
+So let's just do a little bit of a recap.
+So we started off the session
+looking at concepts like fresh conversations,
+and that's the idea that you just start
+a new conversation whenever you need to.
+If a conversation gets a bit dirty,
+you can use the compact command.
+If you want to bring knowledge straight into the conversation,
+best way is through commands,
+you can either do it in an agent-oriented pattern,
+or you can do it in a data-grabbing pattern,
+and this is where it was reading various documents
+that were already loaded into index files.
+We talked a little bit at the end about skills.
+We did take a look at the Clawd MD and cleaning it up,
+and a lot of that we did as part of the second brain,
+where we looked at how it really only had
+certain information to find other index files,
+or really basic system information,
+such as common commands that the,
+such as common commands that you would use over and over.
+We showed a number of examples of being directive
+and including content, and including files as context,
+and the first,
+now we also spent a fair bit of time being more directive,
+meaning that we were including various files for context.
+The first time we did it, we made these little flip cards.
+They were pretty good,
+and that was all based off information in the conversation.
+Took it a bit further, and we took all the information
+that we dragged out of the skills to build this.
+I then manually added a little bit myself,
+so I said Appy Dave,
+so if you wanna join my skill community, you can do that,
+but that's not the only brand I have.
+I have AITLDR, we're doing a whole lot of work
+around movies and faceless YouTube automation,
+and we also got to look at just the different way
+I might go through a progression,
+so start up a new Claude that loads in the Claude MD.
+After that, we could do a progress.
+After that, we could either call the PO or the dev,
+or we could call them in sequence,
+like you see right there,
+and one area we really didn't touch on is
+what would happen if you used other sort of coding agents,
+so we could use something like Gemini
+for working with our documentation.
+We certainly could do the same thing with Codex,
+or we could use bulk changes.
+I like to use Perplexity from time to time
+to do my research.
+I prefer it over any of the other search tools generally,
+and specifically when I'm doing brainstorming
+for, say, the application we've,
+and one of the ways I actually like to come back
+to the session flows and pair it with one of the other tools
+is I have a brainstorming agent,
+and the brainstorming agent knows how to communicate
+with the PO and send them to ideas.
+The PO knows how to turn it into a requirements,
+but the way I use that,
+but the way I use that is with this chat GPT conversation,
+and that way I can use it while I'm out and about
+by just talking to chat GPT,
+and that particular agent has little commands
+that are allowed,
+and that particular agent has commands
+that allow me to send data from the agent back to the PO,
+and the PO has commands that allow it
+to send information to the brainstorming,
+and the PO has commands allowing it
+to send information to the brainstorm agent.
+Now, we'll be clear that that's not automated.
+It's essentially just getting the information together,
+and I've still got to do a copy and paste,
+but in keeping with everything we've been talking about,
+it's only about creating data structures,
+data islands that have the specific context
+that you want to see in your conversations.

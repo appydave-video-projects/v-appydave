@@ -1,0 +1,42 @@
+now we've got the reverse of that test so there's a little file here and what
+we're about to do is I've removed the fake directory I've popped so what I've
+done is I've removed the fake directory and in recordings I've moved the fake
+and in recordings I've moved the fake recording to this location but we've
+still got one left what we'll do is we'll jump into here change it to
+recordings and hit save and at the moment this is incorrect I'm just want
+to see what happens if I do a refresh so I do a refresh and it just starts from
+scratch so we've got one slight little bug because it would be nice if it
+actually read the recordings directory and recalculated what it thinks is the
+next set of values so what I'm going to do is I'm just going to come back to so
+I think it's really easy to add that new capability I've just put in as a content
+creator I should be able to open an application pointed at a folder and have
+it recalculate the chapter ID the segment ID and the name so I've just
+added this here and with the last five items and with the last two bugs and
+three features taking three minutes to create we're just going to make sure that
+this new feature is added in I'm just saying now I've just asked it to update
+the renamer proof of concept application it's gone and renumbered a
+couple of files and it's added in this new functional requirement which is
+that it scans the directory on refresh let's go test that out so we'll come
+over to our application we are pointing at the recordings directory when we look
+at our folders my expectation is that the next number should be 04 number 8
+so segment 8 and it should say refactor so let's do a
+refresh and here it comes and it didn't work and that's to be expected because I
+totally forgot to implement it so we'll just say can you implement so with a
+little task list coming up of what it's about to do building in a little model
+for checking suggested naming so it is only a suggestion it doesn't need to go
+with that but this is important when we first start up that it finds it out so
+it says it's done everything that we need I haven't really read this I'm just
+assuming it does because I'm pretty impressed with what Opus can do what
+we'll do is we'll come back to our system we can see that we're meant to be
+at 408 we can see that we're meant to be a chapter for segment 8 if I do a
+refresh we so what we'll do is a refresh and see if this works it hasn't worked
+and this is the first actual time that we've asked and this is the first time
+we've asked Opus to do something and it didn't work and I'm not sure why but
+it's usually a fairly easy fix because what we can do is just take context in
+this case all the information that's actually wrong because this should be
+chapter 4 number 8 because this should be chapter 4 segment 8 refactor we'll
+just head down to our screen and say so I've just put in a little prompt saying
+that what I was expecting was 8 because the last one was 7 and we'll just paste
+in the screenshot from before for context and we'll just paste in the
+screenshot before for context and what we'll do is we'll just run a refresh and
+see what happens and there we have it chapter 4 segment 8 name is refactor

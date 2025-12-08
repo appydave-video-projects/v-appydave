@@ -1,0 +1,31 @@
+So, the full conversation for this workflow was that we started with the AppyDave workflow
+and figured out that it had done 2.5 and that it could move on to 2.6.
+And so, it was able to start up the Scrum Master and create the story for us.
+Now, because we'd made a lot of extensions within the 2.4 and the 2.5 story, I decided
+to let it know that it was modeling these two stories, except rather than for data,
+it was going to be for HTML.
+And so, while there were major differences like the type of file and the location that
+they were going to be, the actual tooling was pretty much the same.
+And so, I suggested that it have a look at the 2.4 and the 2.5 story before recreating,
+before updating this story with new capability.
+From that, it was able to notice all the critical gaps that were in place and come up with four
+separate tools to implement.
+Before that, it only had one tool, which was writing the HTML.
+Now, to show that this was an extensive change, we can see as we scroll through that there's
+a lot of green and reds, a lot of stuff being taken out, a lot of new stuff being added,
+but all very much in alignment with what was in 2.4 and 2.5 stories.
+And so, as a summary, we can see that the data directory is the 2.4 and the 2.5 stories
+and that, and the public directory is the 2.6 story.
+So then we changed over to the development agent.
+Everything pretty much went off without a hitch, though there were two different problems
+that I did need to address, and you can see them here.
+The first one was that it wasn't actually serving from the public directory.
+I was able to test all the HTML, but not from the application, so that was a bit of a problem.
+The other problem was that, the other problem was that when I was trying to display data
+that we created in the previous story, it also wasn't showing through.
+So I made a few modifications.
+So I did a little bit of prompt engineering just to get the code working.
+It was really easy to do because Cloud Code gave me option A, B, and C, and I just said
+let's go with A and C, and it just wrote all the code that we needed, including some quality
+of life changes, such as being able to call products on their own or products with .html,
+which would be how the file was written.

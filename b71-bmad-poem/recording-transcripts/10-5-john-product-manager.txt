@@ -1,0 +1,17 @@
+So as we read through the functional requirements we can see that the first
+thing it's considering is that we should be able to install the POM framework.
+It's thinking that we need some sort of agent called the prompt engineer and it
+moves on to talking about extracting data from handlebars. Now one of the
+problems we can see already with this is that handlebars really can't happen
+until we've done stuff around Astro. Plus it's trying to emphasize a fair bit
+that handlebars is used in this system and it's really only a small part
+and it's really only a small part of the system. The main thing that we need are
+the agents and that when we're using the agents some of these other
+capabilities like handlebars can only get introduced when certain layers of
+the system are in place. And so this led me to think that I really need to
+refactor this a little bit or at least have a dialogue with my original
+planning documents. And this got me thinking that I needed to go back and
+look at my original planning documents and have a little bit of a conversation
+with them. And so in a new Claude code context what I've done is started a
+planning session including all the functional requirements that we just
+saw and looking at the planning documents.

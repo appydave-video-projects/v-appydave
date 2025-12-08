@@ -1,0 +1,4 @@
+And to demonstrate the problem, I thought I'd just start off a new feature, and this is a feature I'm going to do.
+And I'm doing it because I know it's fairly small.
+So what I've got here is just this little handoff command.
+What it's going to do is read that little functional requirement and create some instructions on where the document is and make it available to the developer.

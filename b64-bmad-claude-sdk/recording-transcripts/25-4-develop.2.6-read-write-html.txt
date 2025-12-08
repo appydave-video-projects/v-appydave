@@ -1,0 +1,9 @@
+So, we'll send that through to the agent and we can see the agent processing down the bottom
+and here it comes through right now, we've got the HTML, we've now got our cat dog down
+the bottom, let's click on that, see what we get and that is a brown, yellow and green
+pet store.
+So, that was pretty easy.
+I think what we might do is see if we can make a change to the CSS, but firstly let's
+have a list of files, we'll just say that for now, see what it comes up with.
+It's processing, it's going to get them from both the public and the data which is interesting
+and we can see all our product data down here, we can see our cat dog and our HTML file.

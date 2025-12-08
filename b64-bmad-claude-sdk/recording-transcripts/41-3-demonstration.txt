@@ -1,0 +1,10 @@
+So let's bring up our page and we'll click on the home, see what we get and we've got a shop now and a chat with us and it looks like we've got some featured products on the beginning.
+Let's go back to shop now and we're taken back to the products.
+At this point it might be useful to create some blog posts so we'll start with a little bit of data right now.
+And we can see that it's creating it with a title, author, date, content and tags so it's very much related to the book.
+So it's very much related to the bookstore. If we click on the blog post we can see the information coming through here and here.
+So we'll create a HTML page, we're making sure we're using the sockets. If we bring up the page, it's started writing the page.
+Now I think it's created the blog page but when we look there's no link on the products, there's no link on the home page.
+So what we'll do is we'll just jump down and put in, can you add a link to the blog and the home page?
+Can you add a link on the home and the products page? If we click through, we can read our blog articles here, this looks good.
+We'll click on home, we'll come back to the products and we've got the blog here as well.

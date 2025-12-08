@@ -1,0 +1,4 @@
+Now let's set up Claude, now I already have a Claude MD file from before but I'm going
+to get rid of it because I'd like to set it up with the BMAD Core as the primary starting
+point and I want it to know that we have a planning folder but I don't want it to take
+too much information from there because it's going to be read by the BMAD Core.

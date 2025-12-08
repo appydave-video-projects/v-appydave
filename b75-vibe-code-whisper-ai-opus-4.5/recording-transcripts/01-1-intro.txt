@@ -1,0 +1,6 @@
+Vibe coding with Opus 4.5 is really awesome and in this video which is
+number three in a series on building a particular application for managing my
+recording system we're going to integrate whisper AI and what that will
+allow us to do is take any recordings and transcribe the text so that we can
+then send so that we can then send that information through large language
+models. I'm Appy Dave, let's get into it.

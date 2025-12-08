@@ -1,0 +1,1175 @@
+1
+00:00:00,920 --> 00:00:05,200
+Have you been hearing about Vibe coding and wondered, could you build an application 
+
+2
+00:00:05,200 --> 00:00:10,350
+for yourself? In this video, I'm just demonstrating an application that I built this 
+
+3
+00:00:10,350 --> 00:00:16,230
+week using Claude Opus 4.5. What it allows me to do is double the productivity with 
+
+4
+00:00:16,230 --> 00:00:21,190
+my own recording schedule as a YouTuber. It's allowing me to do short segment
+
+5
+00:00:21,190 --> 00:00:26,390
+recordings, put them directly into a folder, and named correctly. I can then add 
+
+6
+00:00:26,390 --> 00:00:31,160
+images directly and have the images labeled to match the recording that they're part 
+
+7
+00:00:31,160 --> 00:00:36,240
+of. I can also create thumbnails and add them against the video recording, and then 
+
+8
+00:00:36,240 --> 00:00:38,550
+at any time change to a different project.
+
+9
+00:00:38,550 --> 00:00:42,210
+Now, let me give you a little bit of context. We are looking at the application. 
+
+10
+00:00:42,210 --> 00:00:46,920
+There's a bunch of what are considered bad takes, which are all the white area and 
+
+11
+00:00:46,920 --> 00:00:52,950
+potential good takes in yellow, and what is probably the good take in green. And 
+
+12
+00:00:53,310 --> 00:00:58,830
+I'm using ECammLive. So what's good about using ECammLive is I can press buttons 
+
+13
+00:00:58,830 --> 00:01:04,320
+on my stream deck and I can go to pre-configured scenes. So if we wanted to look 
+
+14
+00:01:04,320 --> 00:01:09,180
+at the coding that's over here on this monitor right here, I can press this button. 
+
+15
+00:01:09,340 --> 00:01:15,120
+There's a coding going on. If I'm having conversations with a requirements document 
+
+16
+00:01:15,120 --> 00:01:17,680
+that's building the application, I can look here. 
+
+17
+00:01:18,400 --> 00:01:22,990
+Now another thing that I've got going on is I've got a little strand deck pedal. 
+
+18
+00:01:23,170 --> 00:01:25,590
+Now if I press the right pedal right now, 
+
+19
+00:01:26,460 --> 00:01:31,980
+I can pause the video long enough to reset up the scene with a prop as I've done. 
+
+20
+00:01:32,220 --> 00:01:34,260
+And if I press the button one more time, 
+
+21
+00:01:34,260 --> 00:01:37,380
+I could put the prop back on the shelf. 
+
+22
+00:01:38,430 --> 00:01:44,370
+Now another thing I could do is use my voice to create an image prompt and then have 
+
+23
+00:01:44,370 --> 00:01:46,650
+that image put right here. 
+
+24
+00:01:46,650 --> 00:01:51,30
+And the way this is happening is through the software that I've built that helps 
+
+25
+00:01:51,30 --> 00:01:53,100
+me automate these workflows.
+
+26
+00:01:53,100 --> 00:01:58,420
+this little application that I've vibe coded using Opus 4.5 from Anthropic.
+
+27
+00:01:58,420 --> 00:02:03,420
+So let's go through what this application can do and maybe along the way fix a few 
+
+28
+00:02:03,420 --> 00:02:08,190
+things. And I think the first thing we need to fix is that the last recording that 
+
+29
+00:02:08,190 --> 00:02:15,370
+you just saw me doing is 122 megabytes in length and it's actually got a lot of errors 
+
+30
+00:02:15,370 --> 00:02:20,880
+in it. I was pausing, re-recording, pausing, re-recording, and that's not a normal 
+
+31
+00:02:20,880 --> 00:02:25,300
+workflow for me. I don't like having to do that because I really don't like doing 
+
+32
+00:02:25,300 --> 00:02:30,810
+video editing. I like to solve the problems in pre-production, not in post-production. 
+
+33
+00:02:30,810 --> 00:02:33,90
+And this is where e ECammLive has been 
+
+34
+00:02:33,370 --> 00:02:37,680
+such a beneficial piece of software. If I want to change my scenes, like to this 
+
+35
+00:02:37,680 --> 00:02:42,960
+one, I just go down to the stream deck, I press it. I want to go back to the scene 
+
+36
+00:02:43,150 --> 00:02:47,400
+that we were just looking at. It's really quick. You're seeing animations. There's 
+
+37
+00:02:47,460 --> 00:02:49,840
+absolutely no editing going on in this. 
+
+38
+00:02:49,840 --> 00:02:53,400
+But where ECammLive falls down for me is 
+
+39
+00:02:53,860 --> 00:02:59,350
+when it saves a file to the hard drive, it does it as a date timestamp. Now what 
+
+40
+00:02:59,350 --> 00:03:03,870
+I really want to do is put it into a chapter. Maybe I'm recording the introduction. 
+
+41
+00:03:03,870 --> 00:03:09,250
+So that's chapter one. And maybe there's going to be a few parts to the introduction. 
+
+42
+00:03:09,250 --> 00:03:14,530
+Maybe there's a scenario, a call to action or hook, anything like that. And I wanna 
+
+43
+00:03:14,530 --> 00:03:20,110
+make sure that every time I do a recording, not only does the file name change automatically, 
+
+44
+00:03:20,350 --> 00:03:24,730
+but it also goes into the correct project. It would be really good if I could record 
+
+45
+00:03:24,790 --> 00:03:26,560
+two different videos at once 
+
+46
+00:03:26,560 --> 00:03:31,330
+and quickly just switch from project to project by going to a bundle light projects 
+
+47
+00:03:31,330 --> 00:03:35,980
+and going, we are now working on this particular video, or we're back at this particular 
+
+48
+00:03:36,310 --> 00:03:36,750
+video. 
+
+49
+00:03:36,750 --> 00:03:41,580
+And so that's why I created this software. And now the actual requirements document 
+
+50
+00:03:41,580 --> 00:03:44,400
+for building it is nearly two years old, 
+
+51
+00:03:44,850 --> 00:03:49,860
+But recently I did a video and you can find out more about that right here. And that 
+
+52
+00:03:49,920 --> 00:03:54,630
+video is about how I used Opus 4.5 for the first time 
+
+53
+00:03:54,630 --> 00:03:58,290
+to build the initial part of this application that you've been looking at.
+
+54
+00:03:58,920 --> 00:04:04,350
+Now at the moment, on my e ECammLive downloads directory, I have two video recordings 
+
+55
+00:04:04,350 --> 00:04:10,20
+in place. They're both quite big and the one that we had earlier for 122 megabytes 
+
+56
+00:04:10,500 --> 00:04:15,330
+is not really part of the intro of this video, but it's more a scenario. So what 
+
+57
+00:04:15,330 --> 00:04:19,410
+I'm going to do is I'm going to come up here and create a new chapter. It's going 
+
+58
+00:04:19,410 --> 00:04:23,970
+to automatically become chapter two, and it's gonna reset the sequence to number 
+
+59
+00:04:23,970 --> 00:04:24,270
+one. 
+
+60
+00:04:24,270 --> 00:04:29,220
+Now I don't have any predefined areas called Scenario 'cause if I click on that, 
+
+61
+00:04:29,250 --> 00:04:32,820
+this will just fill it in. But I can type in whatever I want. 
+
+62
+00:04:32,820 --> 00:04:37,320
+So we'll type in the word scenario here, bring up our folder structure, and we'll 
+
+63
+00:04:37,320 --> 00:04:42,670
+just do a rename of that and it moves over. Now it asked me do I want to delete remaining 
+
+64
+00:04:42,670 --> 00:04:47,620
+files? And in this particular case, I wanna say no. Normally I would have a few bad 
+
+65
+00:04:47,620 --> 00:04:52,180
+tapes. I want to get rid of them, but this particular file here is also part of the 
+
+66
+00:04:52,180 --> 00:04:56,50
+same scenario. So I'm just going to press rename one more time. 
+
+67
+00:04:56,550 --> 00:05:02,430
+And so now I've got two videos in chapter two on scenario already recorded. Now what 
+
+68
+00:05:02,430 --> 00:05:06,930
+I'd like to do is maybe do a little bit of vibe coding right now just to fix a little 
+
+69
+00:05:06,930 --> 00:05:09,90
+problem. So I'm just gonna hit save.
+
+70
+00:05:09,90 --> 00:05:14,400
+And restart the video and show that this part is also part of the scenario. So in 
+
+71
+00:05:14,400 --> 00:05:19,860
+theory, I could do a rename, but what I'd like to know is how long is that in seconds. 
+
+72
+00:05:19,860 --> 00:05:25,620
+Now to make the modification to this using Vibe coding, I'm using a tool called Claude 
+
+73
+00:05:25,620 --> 00:05:31,290
+Code. So what I've done is just gone down to the base folder on my computer where 
+
+74
+00:05:31,290 --> 00:05:36,630
+this application is running, and I'm just going to type in Claude. And in my case, 
+
+75
+00:05:36,630 --> 00:05:41,310
+I'm going turn on the -dangerously-skipped-permissions, which means it has full control 
+
+76
+00:05:41,310 --> 00:05:42,990
+of my system if it wants it. 
+
+77
+00:05:42,990 --> 00:05:47,850
+And I'm just gonna ask it a simple question, what are we doing here in this folder? 
+
+78
+00:05:48,600 --> 00:05:53,70
+And you can see that it's got a couple of folders. And these folders are nearly two 
+
+79
+00:05:53,70 --> 00:06:00,210
+years old of this particular application in its earlier form. And I used the requirements 
+
+80
+00:06:00,210 --> 00:06:03,810
+that were in there the other day to build the application we're about to see. So 
+
+81
+00:06:03,810 --> 00:06:08,100
+I'm now asking it what is going on in the file-namer folder. 
+
+82
+00:06:08,100 --> 00:06:13,200
+And you can see here that it's some sort of React, node js application that's being 
+
+83
+00:06:13,260 --> 00:06:18,480
+built. It's watching the e ECammLive directory. Now this could be configured for 
+
+84
+00:06:18,720 --> 00:06:22,230
+something like OBS if that's the streaming software you are using. 
+
+85
+00:06:22,230 --> 00:06:27,660
+then there's this idea of dealing with thumbnail images for my videos, images for 
+
+86
+00:06:27,660 --> 00:06:28,200
+B roll. 
+
+87
+00:06:28,200 --> 00:06:33,330
+so when I pointed to the screen here, what was happening was an image was generated 
+
+88
+00:06:33,330 --> 00:06:36,420
+and it was just going to get put into that particular location. 
+
+89
+00:06:36,420 --> 00:06:40,920
+So I currently have three different terminals running The bottom terminal is the 
+
+90
+00:06:40,920 --> 00:06:42,30
+actual application. 
+
+91
+00:06:42,30 --> 00:06:47,500
+so it's running and it's listening to the ECammLive directory and just sending information 
+
+92
+00:06:47,500 --> 00:06:53,700
+directly to the website. In here, this is my software architect or my product owner 
+
+93
+00:06:54,00 --> 00:06:54,870
+conversation. 
+
+94
+00:06:54,960 --> 00:06:59,280
+this is where I'm building functional requirements or non-functional requirements. 
+
+95
+00:06:59,490 --> 00:07:04,440
+The difference is, is it visible and is it something that the user does, or is it 
+
+96
+00:07:04,440 --> 00:07:08,40
+something under the system like maybe communicating with a server. 
+
+97
+00:07:08,40 --> 00:07:12,250
+and I recently asked it to create this functional requirement, which is, can you 
+
+98
+00:07:12,250 --> 00:07:17,140
+tell me how many seconds the video's actually going for? And what it did was write 
+
+99
+00:07:17,140 --> 00:07:21,880
+all this information in green. I don't tend to read it. I know this is working very 
+
+100
+00:07:21,880 --> 00:07:27,370
+effectively and it's created a non-functional requirement, number seven for us. And 
+
+101
+00:07:27,370 --> 00:07:31,960
+it's asking, do I want to hand this over to the developer? So I'm just going to say 
+
+102
+00:07:31,960 --> 00:07:36,940
+yes. And all it's doing at the moment is creating for me a little instruction set 
+
+103
+00:07:37,240 --> 00:07:42,10
+that includes the non-functional requirement it just wrote, and an instruction to 
+
+104
+00:07:42,10 --> 00:07:44,470
+put it into a different conversation window. 
+
+105
+00:07:44,470 --> 00:07:48,820
+So it's finished writing that instruction. And what I can do is just select all the 
+
+106
+00:07:48,820 --> 00:07:54,340
+information down to the bottom, put it into my clipboard, and I just head over to 
+
+107
+00:07:54,370 --> 00:07:59,140
+the second conversation I've got going on in this system. And this is the developer. 
+
+108
+00:07:59,140 --> 00:08:04,420
+So all the requirements are done in the other conversation. This particular conversation 
+
+109
+00:08:04,570 --> 00:08:09,730
+is showing the developer. And so the developer is off writing code. We can see them 
+
+110
+00:08:09,730 --> 00:08:11,470
+side by side if we want to. 
+
+111
+00:08:11,470 --> 00:08:17,200
+I could even come over to the functional requirements area and start preparing the 
+
+112
+00:08:17,200 --> 00:08:18,700
+next bit of work to be done. 
+
+113
+00:08:18,700 --> 00:08:23,110
+but the main thing that I'm work hoping for is that when it gets to this area of 
+
+114
+00:08:23,110 --> 00:08:28,750
+updating the file card, it'll come over and will automatically see a new time sitting 
+
+115
+00:08:28,750 --> 00:08:31,30
+right next to this 71 megabytes. 
+
+116
+00:08:31,30 --> 00:08:35,650
+We can see that the last section where I was making all these changes actually took 
+
+117
+00:08:35,650 --> 00:08:36,430
+four minutes. 
+
+118
+00:08:36,430 --> 00:08:40,360
+Now you might be thinking that's not how long the video is on YouTube. And that's 
+
+119
+00:08:40,360 --> 00:08:42,910
+because I will do some post editing 
+
+120
+00:08:42,910 --> 00:08:47,920
+because not every bad take I do, I stop the video if I've already got a really good 
+
+121
+00:08:47,920 --> 00:08:51,940
+starting part to that section and then I have a bad take, 
+
+122
+00:08:51,940 --> 00:08:57,40
+all I do is use my right foot to pause the video, compose myself, 
+
+123
+00:08:57,40 --> 00:08:58,510
+and then record the next part. 
+
+124
+00:08:58,510 --> 00:09:03,430
+Now let's integrate these two into the main video. So this is a new chapter, so we're 
+
+125
+00:09:03,430 --> 00:09:07,660
+gonna go number three. We're on sequence one, and what we've been doing 
+
+126
+00:09:07,660 --> 00:09:14,260
+is vibe coding using Opus 4.5. So I'll just press rename on this particular one. 
+
+127
+00:09:14,260 --> 00:09:19,690
+That'll be number one. We will not discard and we will do another rename. And so 
+
+128
+00:09:19,930 --> 00:09:24,250
+both of those sections are now into my main video recording project. 
+
+129
+00:09:24,250 --> 00:09:28,900
+Now I did mention that a lot of files were also discarded, so were they deleted? 
+
+130
+00:09:28,900 --> 00:09:33,730
+And the answer is no. So one of the things going on in my video project is I do have 
+
+131
+00:09:33,730 --> 00:09:38,650
+a backup in the trash can of all the recordings that I said I didn't want, just in 
+
+132
+00:09:38,650 --> 00:09:40,480
+case I do want to go back and use 'em. 
+
+133
+00:09:40,480 --> 00:09:44,800
+But another thing that happens once you are recording a number of videos is that 
+
+134
+00:09:44,800 --> 00:09:48,670
+the list of current files here starts to get a little bit long. 
+
+135
+00:09:48,670 --> 00:09:53,350
+So let's start working through the capabilities that are in the recordings area. 
+
+136
+00:09:53,350 --> 00:09:57,760
+So what the recordings area is showing is the same videos that we were just looking 
+
+137
+00:09:57,760 --> 00:10:02,860
+at. If we press the folder button, we can see them right here. And we also have this 
+
+138
+00:10:02,860 --> 00:10:07,30
+little toggle called safe. And at the moment that's not doing anything because nothing 
+
+139
+00:10:07,30 --> 00:10:12,220
+has been marked as safe. But what we could do is take the intro because I don't really 
+
+140
+00:10:12,220 --> 00:10:17,980
+need to refer to it anymore, and we'll just say Safe. And what that's done is moved 
+
+141
+00:10:17,980 --> 00:10:19,90
+it into a new fold 
+
+142
+00:10:19,90 --> 00:10:23,440
+right here. And if we click on that, we'll see that the three intros are living in 
+
+143
+00:10:23,440 --> 00:10:25,450
+this position. Now, if we want to do 
+
+144
+00:10:25,450 --> 00:10:30,10
+the same thing for chapter two, which is the scenario, we can press that button there 
+
+145
+00:10:30,10 --> 00:10:30,520
+as well. 
+
+146
+00:10:30,520 --> 00:10:33,670
+I've also put some quality of life features into the application. 
+
+147
+00:10:33,670 --> 00:10:36,670
+what this will do when I click on it is open finder 
+
+148
+00:10:36,670 --> 00:10:40,990
+and it's opened a second one for us, but it's opened it right where the recordings 
+
+149
+00:10:40,990 --> 00:10:41,290
+are. 
+
+150
+00:10:41,290 --> 00:10:45,400
+And I have this capability throughout the system. So if we go to the configuration, 
+
+151
+00:10:45,400 --> 00:10:47,560
+we can see where the ECamm files are. 
+
+152
+00:10:47,560 --> 00:10:51,340
+So they would get saved into here. In fact, let's stop the video.
+
+153
+00:10:51,340 --> 00:10:56,170
+And then we restart the video and we can see that there is a holding file going on 
+
+154
+00:10:56,170 --> 00:11:01,240
+right now. We can go to the project directory. We can also go to the downloads directory. 
+
+155
+00:11:01,240 --> 00:11:05,830
+Now the downloads directory won't make any sense until we get to assets. This is 
+
+156
+00:11:05,830 --> 00:11:10,30
+where we can attach images to our videos, but what we'll do is 
+
+157
+00:11:10,30 --> 00:11:15,340
+get this little ECammLive file over to our main application. Now we're not on the 
+
+158
+00:11:15,340 --> 00:11:20,440
+demonstration of Opus 4.5, so what we'll do is we'll just create a new chapter 
+
+159
+00:11:20,440 --> 00:11:25,510
+and we'll call this section the opening finder. Now, one of the uses of labeling 
+
+160
+00:11:25,510 --> 00:11:31,270
+my videos this way is that I use large language model to help me automatically generate 
+
+161
+00:11:31,270 --> 00:11:35,500
+the chapter links in the YouTube description. So when you go down and look at this 
+
+162
+00:11:35,500 --> 00:11:37,900
+video from a YouTube description point of view, 
+
+163
+00:11:37,900 --> 00:11:43,90
+you're going to see links that are based on the context of the transcript, but also 
+
+164
+00:11:43,90 --> 00:11:44,680
+around whatever this name is. 
+
+165
+00:11:44,680 --> 00:11:49,120
+We know it's two minutes, 57 seconds, which is that new capability. We know it's 
+
+166
+00:11:49,120 --> 00:11:53,560
+68 megabytes. We'll hit rename and it's just moved over for us. 
+
+167
+00:11:53,560 --> 00:11:58,450
+So we'll come back to our recordings and we'll turn off the safe because I don't 
+
+168
+00:11:58,450 --> 00:12:01,390
+really care about that. This is where we're up to in our video.
+
+169
+00:12:01,390 --> 00:12:04,390
+So I've just finished that so we can see it updated 
+
+170
+00:12:04,390 --> 00:12:07,90
+and we're about to go onto assets. 
+
+171
+00:12:07,90 --> 00:12:12,520
+So currently we've got our asset assignment, and this is where we can label things 
+
+172
+00:12:12,520 --> 00:12:17,20
+correctly. We've got our incoming images and that's in the downloads directory. I'll 
+
+173
+00:12:17,20 --> 00:12:18,700
+just click on that button right now 
+
+174
+00:12:18,700 --> 00:12:23,650
+and we can see that it's popping up here and there's nothing in there at the moment. 
+
+175
+00:12:23,650 --> 00:12:27,880
+We haven't downloaded anything. And we do want to get our assets from the downloads 
+
+176
+00:12:27,880 --> 00:12:31,780
+directory over to our video. And the last area we've got 
+
+177
+00:12:31,780 --> 00:12:34,150
+is where the assets get assigned to. 
+
+178
+00:12:34,150 --> 00:12:38,680
+I'm just gonna go over to a chat GPT window. And this is from another video and I've 
+
+179
+00:12:38,680 --> 00:12:44,20
+got a bunch of assets that have been generated using just prompt engineering and 
+
+180
+00:12:44,20 --> 00:12:47,710
+a style guide. And we'll just pick the bottom one. So we'll click on it and we'll 
+
+181
+00:12:47,710 --> 00:12:49,870
+press this little download button right here. 
+
+182
+00:12:49,870 --> 00:12:55,120
+And if we go down to our downloads directory, or in this case finder, we can see 
+
+183
+00:12:55,120 --> 00:12:58,630
+that the image has just gone into this particular location. 
+
+184
+00:12:58,630 --> 00:13:02,470
+Now, I didn't produce this image for this video, but let's say it was meant to work 
+
+185
+00:13:02,470 --> 00:13:05,650
+with the oh four dash one open in finder. 
+
+186
+00:13:05,650 --> 00:13:10,930
+What I can do is come over to our application. It's now automatically shown in the 
+
+187
+00:13:10,930 --> 00:13:12,820
+incoming images area. 
+
+188
+00:13:12,820 --> 00:13:17,500
+come up to our asset control and say, let's assign it to one of the videos. 
+
+189
+00:13:17,500 --> 00:13:21,760
+Now I can control things from different locations. I could say it's part of chapter 
+
+190
+00:13:21,760 --> 00:13:26,710
+three instead, and it'll do that chapter two, or I can just go to the end. 
+
+191
+00:13:26,920 --> 00:13:31,390
+there's a hover effect and we can make it small, medium, or large 
+
+192
+00:13:31,750 --> 00:13:36,580
+But the only thing we really want to do is come up and press this assign button. 
+
+193
+00:13:36,580 --> 00:13:41,80
+And we're expecting the video to move out of the downloads folder 
+
+194
+00:13:41,80 --> 00:13:45,700
+and whatever location it goes into, that should be the name. So I'm going to press 
+
+195
+00:13:45,700 --> 00:13:48,580
+assign and it's disappeared from the download. 
+
+196
+00:13:48,580 --> 00:13:51,910
+called images. We'll click in there and there's that image. 
+
+197
+00:13:51,910 --> 00:13:56,710
+Now, I may not wanna waste my time during the recording of the video of doing the 
+
+198
+00:13:56,770 --> 00:13:57,430
+images. 
+
+199
+00:13:57,430 --> 00:14:02,410
+I might instead just want to come up with a prompt for an image and ask my video 
+
+200
+00:14:02,410 --> 00:14:04,630
+editor if he could generate the image. 
+
+201
+00:14:04,630 --> 00:14:10,00
+so what I'm about to dois use Ito.AI. Now I do have a link to a video on what is 
+
+202
+00:14:10,00 --> 00:14:14,20
+an awesome tool and another one of those productivity enhancements. But what we're 
+
+203
+00:14:14,20 --> 00:14:15,760
+gonna do is write a prompt here. 
+
+204
+00:14:15,760 --> 00:14:21,880
+could you do some sort of infographic about the quick brown fox jumping over the 
+
+205
+00:14:21,880 --> 00:14:22,690
+lazy dog? 
+
+206
+00:14:22,990 --> 00:14:27,610
+it's just written that information into the text box. Now when I press save here, 
+
+207
+00:14:27,610 --> 00:14:33,730
+we still get a file, but it's not a .png this time. It's just the text that was actually 
+
+208
+00:14:33,790 --> 00:14:34,600
+in the prompt. 
+
+209
+00:14:34,600 --> 00:14:39,430
+And that text is actually recorded in the assigned assets. So we've got a section 
+
+210
+00:14:39,430 --> 00:14:40,330
+down the bottom here 
+
+211
+00:14:40,330 --> 00:14:44,650
+We've also got an oh four one opening finder with a natural prompt. 
+
+212
+00:14:44,980 --> 00:14:50,410
+I've just asked chat GPT to look at my previous infographics for style guidelines 
+
+213
+00:14:50,410 --> 00:14:53,410
+So it's generating some sort of infographic at the moment. 
+
+214
+00:14:53,410 --> 00:14:57,490
+Now it looks beautiful. There's obviously some typos going on in this, 
+
+215
+00:14:57,490 --> 00:15:01,930
+what we wanna do is get it into the incoming images right here. 
+
+216
+00:15:01,930 --> 00:15:07,00
+I might just leave it that way and do an assign on it. It should currently be in 
+
+217
+00:15:07,00 --> 00:15:08,140
+the assets folder. 
+
+218
+00:15:08,140 --> 00:15:11,740
+With the hover effect. We see the size of the file, the date and time, 
+
+219
+00:15:11,740 --> 00:15:14,710
+and when we head down to our folder, we've got that new image. 
+
+220
+00:15:14,710 --> 00:15:19,120
+Now let's move on to the next step. And that's dealing with thumbnails for your video. 
+
+221
+00:15:19,120 --> 00:15:24,550
+So I was able to vibe code this little thumbnail section, and currently there is 
+
+222
+00:15:24,550 --> 00:15:26,680
+a zip file there. We'll just delete that. 
+
+223
+00:15:26,680 --> 00:15:31,280
+I'm going to click on this field, which is all about the assets. Now, I did do a 
+
+224
+00:15:31,400 --> 00:15:36,600
+little error, but this is the one we're going to rename. And when we rename it it's 
+
+225
+00:15:36,600 --> 00:15:41,880
+going to end up in this location. So we'll let that happen. And it's also asking 
+
+226
+00:15:41,920 --> 00:15:46,40
+do we want to discard the error video. We'll say yes to that
+
+227
+00:15:46,40 --> 00:15:50,420
+And we will come back and look at thumbnails. So firstly, start a new chapter. We'll 
+
+228
+00:15:50,420 --> 00:15:51,440
+call it thumb. 
+
+229
+00:15:51,830 --> 00:15:53,660
+I've just come into Canva 
+
+230
+00:15:53,660 --> 00:15:58,940
+we've got some thumbnails going on here. We can click through and see what they are. 
+
+231
+00:15:59,120 --> 00:16:02,240
+I would like to have these thumbnails in my video. 
+
+232
+00:16:02,240 --> 00:16:05,750
+I can come up and click on the share button, go to the download, 
+
+233
+00:16:05,750 --> 00:16:10,70
+make sure it's on the jpeg, and then select which images I want. So I'll turn 'em 
+
+234
+00:16:10,70 --> 00:16:16,580
+all off. I'll take this little blue area, we'll go number 2, 3, 4, and five, and 
+
+235
+00:16:16,640 --> 00:16:20,900
+we'll hit done. And at this moment, we're saving it to the system. 
+
+236
+00:16:20,900 --> 00:16:26,00
+so let's go back to our application. And what should happen is once it downloads, 
+
+237
+00:16:26,00 --> 00:16:27,110
+it should just pop up 
+
+238
+00:16:27,470 --> 00:16:31,400
+if we click on preview here, we can see the five images. 
+
+239
+00:16:31,670 --> 00:16:32,750
+let's go take that, 
+
+240
+00:16:32,750 --> 00:16:39,80
+and import it. And so now we've got our images right here, but it might've been smarter 
+
+241
+00:16:39,80 --> 00:16:44,300
+if we came back, made a couple of modifications if we wanted to. And then when we 
+
+242
+00:16:44,300 --> 00:16:49,910
+shared it, do a much more focused set of images. So we'll get rid of that thumbnail 
+
+243
+00:16:49,940 --> 00:16:52,340
+area and we'll get rid of number five. 
+
+244
+00:16:52,550 --> 00:16:58,40
+And we'll do a download. And then when we come back to our application here, we should 
+
+245
+00:16:58,40 --> 00:17:00,140
+get a new zip file being created. 
+
+246
+00:17:00,290 --> 00:17:04,970
+We'll click on delete. We'll click on this one where we can do a preview 
+
+247
+00:17:04,970 --> 00:17:08,360
+these are the images that we want in our video. 
+
+248
+00:17:08,840 --> 00:17:14,870
+come down to our assets. Notice that we do have a thumbs folder from before it has 
+
+249
+00:17:15,50 --> 00:17:20,240
+the three that we had, but we're about to click, import the selected. So we'll click 
+
+250
+00:17:20,240 --> 00:17:23,720
+on that, and now they've been updated for us.
+
+251
+00:17:23,720 --> 00:17:27,360
+So what we'll do is come back to our incoming area,
+
+252
+00:17:27,360 --> 00:17:32,800
+make sure we're on our recordings. We'll just do a rename of that. So this is number 
+
+253
+00:17:32,800 --> 00:17:37,680
+six thumb. We can also go back to our recordings right here. 
+
+254
+00:17:37,720 --> 00:17:42,280
+I don't currently have a restore all but I can restore them one at a time. So we'll 
+
+255
+00:17:42,280 --> 00:17:44,280
+click on that one, that one and that one. 
+
+256
+00:17:44,640 --> 00:17:47,320
+And our safe directory is now empty. 
+
+257
+00:17:47,320 --> 00:17:52,150
+And so as I get towards the very end of the video, what you can see is that we've 
+
+258
+00:17:52,150 --> 00:17:57,250
+got the final set of files they'll need to be merged. I'll use Gling AI to do that. 
+
+259
+00:17:57,250 --> 00:18:02,590
+I've got all my chapters here. So the intro, the scenario, how we vibe coded, a little 
+
+260
+00:18:02,590 --> 00:18:04,660
+feature with Opus 4.5, 
+
+261
+00:18:04,870 --> 00:18:10,30
+how we pressed a little icon to open in finder, how we looked at the assets management, 
+
+262
+00:18:10,30 --> 00:18:10,840
+the thumbnail. 
+
+263
+00:18:11,50 --> 00:18:14,890
+The thing is with videos, when you're doing an intro or when you're doing an outro, 
+
+264
+00:18:15,40 --> 00:18:19,240
+there are other components of it. So we'll click on there. And what we've just done 
+
+265
+00:18:19,240 --> 00:18:20,830
+really is the recap. 
+
+266
+00:18:21,190 --> 00:18:26,20
+what I'm gonna do is click on recap, and so when it saves this video, I will know 
+
+267
+00:18:26,20 --> 00:18:31,990
+that the chapter is outro. But the very specific area within the video is the recap. 
+
+268
+00:18:31,990 --> 00:18:35,560
+So what we'll do is we'll stop the video right here.
+
+269
+00:18:35,560 --> 00:18:39,160
+Start the video and rename that segment right there. 
+
+270
+00:18:39,160 --> 00:18:42,640
+what we're going to do is go into the call to action.
+
+271
+00:18:42,640 --> 00:18:49,520
+I'm AppyDave if you enjoy learning about coding prompt engineering, context engineering, 
+
+272
+00:18:49,640 --> 00:18:53,800
+then that's what I talk about all the time on this channel. If you want to join my 
+
+273
+00:18:53,800 --> 00:18:57,560
+school community, there is a link in the description. And this is where you can find 
+
+274
+00:18:57,600 --> 00:19:02,920
+prompts and different projects that I'm working on. You can find a really cool image 
+
+275
+00:19:02,920 --> 00:19:06,320
+about whatever the school community looks like right about here.
+
+276
+00:19:06,320 --> 00:19:10,800
+And so now what we can do is come back to our play here. We'll press.
+
+277
+00:19:10,800 --> 00:19:13,440
+Stop and the video has appeared. 
+
+278
+00:19:13,480 --> 00:19:17,840
+So the things that are in yellow like that, they're only because we're on the outro. 
+
+279
+00:19:18,00 --> 00:19:23,120
+So if I go to summary you won't see them, you will have custom. I could put in AppyDave 
+
+280
+00:19:23,160 --> 00:19:27,40
+as an example. If I just want something tagged in the video, 
+
+281
+00:19:27,80 --> 00:19:31,880
+Come back to the outro. Know that I just did a call to action, but I did a specific 
+
+282
+00:19:31,880 --> 00:19:33,960
+one. I did one to the school community,
+
+283
+00:19:33,960 --> 00:19:37,960
+hope you enjoyed that. I'm AppyDave. Please like and subscribe and I'll see you in 
+
+284
+00:19:37,960 --> 00:19:38,800
+the next video.
+
+285
+00:19:38,800 --> 00:19:43,960
+Now in the next video we're going to extend the recording system and what we're going 
+
+286
+00:19:43,960 --> 00:19:49,270
+to look at is the recordings themselves and as they come into the system, automatically 
+
+287
+00:19:49,270 --> 00:19:50,170
+transcribe them. 
+
+288
+00:19:50,320 --> 00:19:54,850
+it'll be able to suggest when we need to do calls to action things that we need to 
+
+289
+00:19:54,850 --> 00:19:59,380
+talk about automatically. It will be able to generate the assets that we were looking 
+
+290
+00:19:59,380 --> 00:19:59,680
+at 
+
+291
+00:19:59,920 --> 00:20:03,730
+by generating prompts for us automatically based off the transcript. 
+
+292
+00:20:03,730 --> 00:20:08,320
+We'll be able to put the timestamp where they're at, and then easily create the chapter 
+
+293
+00:20:08,320 --> 00:20:10,210
+links in the YouTube description. 
+
+294
+00:20:10,210 --> 00:20:13,650
+So check out the link to that video right here. I'm AppyDave.

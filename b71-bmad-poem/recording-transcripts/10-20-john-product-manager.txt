@@ -1,0 +1,6 @@
+Now the great thing is that doing this will be the total foundation for the
+application because we're going to have prompt chaining, we're going to have
+variables, we might be able to modify the variables with helpers, we'll be building
+up a data set, this is the workflow, this would be the workflow attribute set and
+if along the way I want to add new workflows or prompts into it we'll also
+have the ability to extract and update the schema on the fly.

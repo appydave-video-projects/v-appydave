@@ -1,0 +1,52 @@
+So with the very complete epic list in place we'll come back to our
+conversation and just move on to the next step which is the checklist. So what
+the checklist has done is just read the PRD. Now this is from a product owner or
+product managers point of view so this is all the business cases have been
+covered. We haven't yet gone to the tech stack or the software architects point
+of view that's the next area but when we look at it it says it's 92%
+complete there's some problems with it but it's mentioned that the user
+research area isn't really that relevant for a demonstration like this so I won't
+worry about it and so everything else has passed except for this area in the
+MVP. So any blockers to moving forward well there's none identified are there
+any high-level issues that we should be aware of. I think this is one we might
+address but we'll do it using it asking a recommendation rather than actually
+taking the time to define it because the AI will probably do a better job
+than me at coming up with an answer anyway. These medium level issues don't
+really matter to me like the target user doesn't matter and the success metrics
+don't matter in this particular project. Now this low level one I will get it to
+come up with a solution here I don't want to use an external framework I
+don't need a logging system but I do want something consistent about the way
+we do logging. Now my background has been software engineering software
+architecture and even for a time a scrum master so these numbers that you're
+seeing here the 23 days to get this application written are legitimate
+numbers this is about how long it would take to do a project like this if you
+were doing it in an enterprise system but at the end of the video I'll tell
+you how long it's taken to do the documentation and to do the coding so
+we'll see what numbers really come back. So I've just dictated a little statement
+about the outer scope area like what does it suggest we put in there and I've
+also said that for the logging I don't want to use a logging framework but I
+wouldn't mind some simplistic patterns predefined before we get started and
+this is perfect this is just what I didn't want to actually type in myself
+so we're not going to use database and persistent authentication
+authorization isn't needed it's not for production testing infrastructure is
+not important in this process advanced features like quality gate hooks all
+this sort of stuff was all out of scope for me it doesn't need to be a polished
+UI though I hope it'll be pretty good with ShadCN and Tailwind CSS and
+developer experience well that's something I wouldn't mind so we might
+actually change that one area and the logging and monitoring is also really
+good it's come up with just a simple JavaScript logo platform it's not trying
+to use libraries or anything like that so we can go with all of that so I'm
+just asking it to update the PRD with all the changes the only little change
+I mentioned is that the hot module reloading which is a developer
+experience I don't want that to not be in the system because that really helps
+us develop quicker if when you change some code you automatically see it in
+the browser this is a great capability to keep so changes like modifying a bit
+of code and seeing it updated directly in the client is a really nice
+capability to have in the application from the from the beginning so we can
+see that our documents been updated our change log we've got a out of scope
+section we've got logging patterns and we got advanced developer experience
+details added so we're all complete with our PRD at this point it's suggesting
+that we hand off to the architect we could do it in this conversation but
+what we'll do is we'll just exit out of Claude and clear up and start a new
+Claude session because we want to have a clean context to get up and running with
+the architecture

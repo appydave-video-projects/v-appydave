@@ -1,0 +1,5 @@
+And we'll see if this test against the broken JSON document will work, we'll say can you
+get a list of items from broken, and it's doing some processing at the moment.
+It's found that we have a broken JSON document, let's read it.
+And this is perfect, it's giving a nice message that the data is malformed and the system
+is not falling over.

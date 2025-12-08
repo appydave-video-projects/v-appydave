@@ -1,0 +1,13 @@
+So with that we can move on to working with the architect and the best way to
+get started is to run a Claude system. And to get started we start a fresh
+system. I'm doing Claude this time. So we start a new terminal with Claude.
+So we'll just start a new session with Claude and we'll go straight into the
+architect. So Winston has come up. We've got a list of commands that we can work
+with and what we'll do is we'll start putting in the create full stack
+architecture using the PRD. Now we are actually going to have to put in a
+little bit different prompt because we don't specifically have a full stack
+application. So this is what we'll go with. So the little change is be aware
+that it's not a full stack, that you can find what you're looking for in the PRD
+and that essentially what we're building is a BMAD style framework with a
+separate sub module or application that we'll communicate with and with that
+we'll just press enter.

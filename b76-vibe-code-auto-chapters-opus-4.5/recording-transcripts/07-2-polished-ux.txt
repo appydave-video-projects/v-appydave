@@ -1,0 +1,14 @@
+So to get to this stage, this is what we worked on. So we came in with an MVP that
+had all been vibe coded by Claude code and it did about 80% of what I needed it
+to do. We then had a number of requirements conversations talking
+about how it would work and it gave me user interface improvements and what
+that did at a high level was give us basically the information we're seeing
+here. It's very clear that things might be wrong, might need looking at. We've
+still got a little bit of issues with the detail. I'll work on that in another
+session and then after that we also improved the algorithms because the
+algorithms that are initially used it coded itself so I said I need you to use
+third-party libraries so I know it's best practice. So the next
+thing I would need to do to finish this off is come down to the video we're
+actually working on and be able to run and be able to run that process but that
+requires me to edit this video so you'll see this so you'll see this right at the
+end of the video.

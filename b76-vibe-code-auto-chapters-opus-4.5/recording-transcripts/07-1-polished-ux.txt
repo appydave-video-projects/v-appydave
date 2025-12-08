@@ -1,0 +1,11 @@
+Now we've just got to the end of the coding session and we have a much
+improved user interface. So when things are just working perfectly we should see
+a green here, a green here and a grey number. It's quite okay to see a pink
+line it just means that it's found the correct location to put the chapter but
+it was recorded in a different video out of sequence from the normal video
+recording workflow. The yellow just says that it's got low confidence that it got
+it right and we'll look at how we'll fix that in the future and we can see
+various user interface components here that aren't really that user friendly
+right now so I'll deal with that in another session. And so so far I'm really
+confident that this is getting me about 90-95% of the way through to a clean and
+simple chapter creation process.

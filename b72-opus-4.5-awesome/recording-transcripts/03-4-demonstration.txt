@@ -1,0 +1,12 @@
+and there's the recording in Ecamm and we're already configured. Now one of the
+reasons I like to put these names, now one of the reasons I like to have the
+names there is that this is how I build my chapters and I use large language
+models to read the transcript and read the file names to figure out what a
+good chapter heading should be. So we'll make our last manual change this is 013
+and we will call it intro and it's filtered in and as we hit the rename and
+have a look at the recordings folder we can see that I made a mistake it should
+have been demonstration and this is really highlighting why we need to build
+in a little bit of automation so it just remembers the name each time and
+automatically increments the sequence as we go. So I'll finish this part of the
+video and it will be number four segment when I hit stop and then the next stage
+we'll move into doing a little bit of refactoring.

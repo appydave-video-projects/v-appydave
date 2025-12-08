@@ -1,0 +1,9 @@
+Now the other capability I want from the transcription system is that when a
+chapter is finished and currently this is the intro I would like to bundle up
+all the text and be able to figure out things like what should the chapter link
+from an SEO perspective be. So if we go back to the incoming where I've just
+finished a video and I'm calling it the scenario and we rename it what should
+happen at this point because we are on a new chapter is that all of these
+transcriptions should be bundled up together so that I can do chapter level
+transcript so that I can do chapter level assessment with large language
+models.

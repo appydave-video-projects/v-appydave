@@ -1,0 +1,9 @@
+Now, the prices I'm showing here are samples, they're only for demonstration.
+They're close, but I haven't fully researched them.
+But the thing to be aware of is that when you're dealing with the cost of storage with
+these tools, you're paying for about three things.
+One would be the cost of the storage itself.
+One would be the seats, the number of people that can access it.
+Sometimes it's for editing reasons, sometimes it's just for read only, especially with clients.
+And the other area that you've got to deal with is do they have any automations built
+in that automate the workflows you're using?

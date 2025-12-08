@@ -1,0 +1,10 @@
+We've just completed story 3.3 and we're really close to the end of
+building the application and what you can see now is that it started to come
+together quite nicely. We'll demonstrate where it's at in a moment but I'll point
+out that this is the 14th story that we've done and every story we've done
+up until this one just came across without a hitch. It was able to be
+created, it was validated, it was written by the software developer. We were able
+to do the story acceptance testing and we were able to do the QA afterwards and
+everything was really quite quick. This is the one story where everything
+changed so I'll do a little bit of a post-mortem analysis of it as well
+after I've demonstrated where we're at.

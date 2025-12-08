@@ -1,0 +1,6 @@
+Next we need to deal with a lot of the chicken-and-egg scenarios in this sort
+of setup. So the first one is taking the prompt engineer. We'll not have any
+access to a handlebars templating system early on, we'll not have access to mock
+data. So at the beginning there will be the ability to create prompts, there will
+be the ability to fake the idea that we have a astro and handlebars system, also
+be the ability to fake mock data.

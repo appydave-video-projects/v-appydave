@@ -1,0 +1,4 @@
+Now we've gotten to the technical considerations area and it's written this interesting document
+about setting up an Astro application and this is a little bit of a problem because
+what we're doing is creating something that's similar to B-MAD than a traditional application.
+Now we do have an Astro application in what we're building but it's kind of a sub-module.

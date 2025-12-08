@@ -1,0 +1,4 @@
+So as soon as my usage came back on, I started doing this conversation and it was able to
+give me some ideas and way of thinking through the problem that would help me improve my
+usage.
+And it had some obvious optimizations which I generally knew about, didn't always use

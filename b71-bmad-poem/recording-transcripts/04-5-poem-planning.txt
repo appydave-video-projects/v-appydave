@@ -1,0 +1,3 @@
+Now I want to hook it into software automation so we might be able to read
+prompts and skill definitions, work with the data dictionary and then send or
+receive information from different applications.

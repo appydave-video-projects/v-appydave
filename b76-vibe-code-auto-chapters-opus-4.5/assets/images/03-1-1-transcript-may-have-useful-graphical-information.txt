@@ -1,0 +1,12 @@
+Let's now consider the user experience when managing these chapters so at the
+moment we've got two chapters intro and scenario the intro is currently an 18
+second video while the outro is these four videos and they add up to about a
+hundred and sixty seconds or two minutes forty but from a timing point of view if
+this was a YouTube description what we would want is that the intro is at zero
+zero colon zero zero it goes for 18 seconds which means that the next video
+the scenario which means that the next section which means that the next
+chapter which is the scenario should start at about zero zero colon 19 and if
+we based it purely off those recordings that would be about what the numbers are
+but the reality is that the editor might end up editing this particular video so
+rather than it being 18 seconds long it could end up being 15 seconds long which
+means this one would start at say 16 seconds

@@ -1,0 +1,15 @@
+So using this screen as basis, let's talk about what a prompt orchestration framework could have.
+So we can have various prompts of course, and we might want to be able to copy them to the clipboard.
+We want to see them as a template with interpolation values in the middle,
+and those interpolation values would come from different data sources.
+Here we've got concepts like incidents, and we should be able to have various fields,
+and if they're green it means that we're actually using the field from the data source.
+If they're blue in this case, we're not using them, but they are available.
+We should be able to see how it looks if it was all interpolated,
+and also be able to press copy on that and test it in any large language model that we like.
+And we should be able to quickly iterate and test concepts.
+So if we just paste in this idea of reporter name, caring for participant at location,
+we should be able to see that information interpolated and run automatically in the testing harness.
+And that's exactly what this application is doing.
+So we've got some output format going on here, and if we were to press the complete step,
+what would happen is it would generate a bunch of questions based on the prompt.

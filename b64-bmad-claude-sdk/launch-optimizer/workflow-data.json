@@ -1,0 +1,516 @@
+{
+  "projectCode": "b64",
+  "shortTitle": "BMAD Claude SDK",
+  "youtubeUrl": "https://youtu.be/zfOFf6wMfh0",
+  "publishedPlaylists": [
+    {
+      "name": "BMAD Method",
+      "id": "PL4hcFJE_EeqQfTlzqv87g2mY8gKWxJJLD"
+    },
+    {
+      "name": "Context Engineering / Vibe Coding",
+      "id": "PL4hcFJE_EeqQFU8lYYaL1O5sYgNb2sKfG"
+    }
+  ],
+  "transcriptAbridgement_v1": "This tutorial demonstrates building a self-editing application using the Claude Agent SDK and BMAD Method v4. The application enables users to generate data and HTML pages through natural language conversation.\n\nThe video begins by explaining that a self-editing application allows users to talk to it, generating backend data and visualizing HTML pages dynamically. The project uses context engineering with the BMAD method and vibe coding techniques.\n\nThe presenter installs BMAD Method v4 (choosing it over the alpha v6 which wasn't ready) using npx, selecting Agile Core framework and Claude Code as the agent system. The workflow follows BMAD's structured approach: Brief → PRD → Architecture → Stories → Development.\n\nUsing the Analyst agent (Mary), a project brief is created from existing planning documents. The brief defines a simple ~200-line Express server with Claude Agent SDK, React frontend with Socket.IO for real-time communication, and JSON file storage instead of a database. The application targets developers learning AI agent integration.\n\nThe PM agent (John) creates the PRD with functional requirements, identifying three epics: mono repo setup, Claude Agent SDK integration, and React frontend. After initial epic planning, a separate conversation refines Epic 2's sequencing to avoid building tools before the event loop is verified.\n\nThe Architect agent generates a comprehensive architecture document covering tech stack (Express, React 19, TypeScript, Vite, ShadCN, Tailwind), data models, API specifications, and component diagrams. The PO agent then shards both PRD and architecture into separate files.\n\nDevelopment proceeds story by story using the Scrum Master (Bob) to draft stories and Developer agent (James) to implement. A custom SAT (Story Acceptance Test) agent named Taylor is created to generate human-testable verification steps for each story.\n\nEpic 1 establishes the mono repo with client/server communication via Socket.IO. Epic 2 implements the Claude Agent SDK with tools for reading/writing JSON files and HTML. Story 2.4 adds list and preview capabilities after discovering the AI couldn't find available files. Story 2.7 adds conversational memory after a bug revealed the system wasn't retaining context between messages.\n\nEpic 3 builds the React frontend with ShadCN and Tailwind CSS. Story 3.3 encounters significant issues: Tailwind v3/v4 syntax conflicts, port conflicts with Claude spawning servers on different ports, and styling bugs. A postmortem documents lessons learned.\n\nThe final demonstration shows creating a bookstore application: adding products, generating HTML pages with CSS styling, creating blog posts, adding Christmas theming with snowfall animations, and dynamically linking pages together - all through conversation.\n\nThe video concludes by teasing the next project: POEM (Prompt Orchestration and Engineering Method), a framework for creating and testing prompts similar to BMAD.",
+  "transcriptAbridgement_v2": "# BMAD Claude SDK Self-Editing Application Tutorial - Abridgement\n\n## Introduction & Concept\n\n**AppyDave** introduces building a **self-editing application** - an app where you talk to it, it generates backend data, and HTML pages materialize. Built using **Claude Agent SDK** and **BMAD Method v4**. The video is a step-by-step tutorial with chapter links.\n\nThe application demonstrates: creating products, building product listings, adding home pages, featuring products, and a complex multi-page workflow. The magic is the human experience of talking to generate features using **vibe coding** techniques, with the technical reality being **context engineering** using BMAD.\n\n## BMAD Installation (v4 vs v6)\n\nCommand: `npx bmad-method install`\n\nChose **v4** over **v6 alpha 9** because v6 wasn't ready (issues communicated to Brian from BMAD). Selected:\n- **Agile Core** framework\n- **Claude Code** as agent system\n- Sharding enabled for PRD and architecture docs\n\nBMAD installed to `.bmad-core/` with agents, workflows, templates, checklists, and user guide.\n\n## Phase 1: Project Brief (Analyst Agent - Mary)\n\nLoaded analyst via `/analyst` slash command. Created brief from existing planning document using `create project brief` command in interactive mode.\n\nOutput: `docs/brief.md`\n\nKey decisions documented:\n- **No database** - JSON documents stored in data directory, committed to git\n- **Target users**: Developers learning AI agent integration, technical educators, rapid prototypers, BMAD practitioners\n- **~200 lines of code** constraint for server (guideline, not limit - avoiding complexity)\n- **No authentication/authorization** needed\n- **Claude Max account** authentication (no API costs)\n- **Three epics defined** in MVP section (unusual placement but intentional)\n\n## Phase 2: PRD (PM Agent - John)\n\nLoaded PM via `/pm` slash command. Ran `*create-prd` command, loading brief as context.\n\n**Functional Requirements** (FR1+): Listed basic capabilities\n**Non-Functional Requirements**: Line limit on server, Claude auth\n\n**User Interface simplified** to:\n- Chat interface (primary screen)\n- No status panel, quality gates (removed complexity)\n\n**Epic List** (initial):\n1. Mono repo setup with basic client/server\n2. Claude Agent SDK integration\n3. React frontend with chat interface\n\n### Epic 2 Refinement (Separate Conversation)\n\nIdentified problem: Stories 2.2-2.4 (tools) couldn't be verified until event loop was done in 2.6.\n\nUsed second conversation to build detailed instructions, then pasted 203 lines back into main conversation.\n\n**Revised Epic 2 sequencing**:\n- 2.1: Install SDK\n- 2.2: Minimal event loop (no tools, no streaming)\n- 2.3: Socket functionality\n- 2.4-2.6: Tools (read JSON, write JSON, write HTML)\n- Each cross-cutting concern added one at a time\n\n**Story count**: 14 stories total, 3-4 per epic.\n\n**Out of scope documented**: Database, authentication, testing infrastructure, polished UI, advanced features.\n\n## Phase 3: Architecture (Architect Agent)\n\nLoaded architect, ran full-stack architecture command.\n\nOutput: `docs/architecture/` (2,500 line document, then sharded)\n\n**Tech Stack**:\n- Backend: Express.js, TypeScript, Node\n- Frontend: React 19, Vite, ShadCN, Tailwind CSS\n- Communication: Socket.IO (bidirectional)\n- Storage: JSON files in `/data` directory\n- Auth: Claude auth for SDK\n\n**Diagrams generated**: High-level architecture, component diagram, sequence diagrams (happy path, error handling, reconnection workflow)\n\n**Data models**: ChatMessage, ToolCall, SocketEvent (only 3 objects needed)\n\n**File structure**: Kebab-case naming, products.json/blog-posts.json examples\n\n## Phase 4: PRD-Architecture Alignment\n\nUsed PM agent to check alignment between PRD and architecture. Applied recommendations to ensure story order matched architecture decisions.\n\n## Phase 5: Sharding (PO Agent - Sarah)\n\nUsed PO agent's `shard-doc` command:\n- Sharded PRD → `docs/prd/` (individual files with index)\n- Sharded Architecture → `docs/architecture/`\n\nOriginal files moved to archive directory.\n\n## Development Phase\n\n### Story Workflow Pattern\n\n1. **Scrum Master (Bob)**: `draft story X.Y` → creates story from epic + architecture\n2. **Manual**: Set status from \"Draft\" to \"Ready\"\n3. **Developer (James)**: `develop story X.Y` → implements code, checks off tasks\n4. **QA (Quinn)**: `review story X.Y` → creates quality gate document\n5. **Custom SAT Agent (Taylor)**: `create sat X.Y` → generates human test plan\n\n### Epic 1: Mono Repo Setup (Stories 1.1-1.4)\n\n**Story 1.1**: Initialize npm workspaces and mono repo\n- Created package.json, workspace structure\n- Minor build errors noted but acceptable\n\n**Story 1.2**: Express TypeScript server\n- Server setup with basic endpoints\n\n**Story 1.3**: Basic HTML client\n- Created `/public/index.html`\n- Blue header \"Client Server Communication Test\"\n- Test health endpoint button\n- Form submission without page reload\n\n**Story 1.4**: Socket.IO bidirectional communication\n- Connected/disconnected status\n- Server can push to client\n- Auto-reconnection on server restart\n\n### Custom SAT Agent Creation\n\nCreated **Taylor** (Story Acceptance Test agent) mid-project using second brain documentation about BMAD v4/v6 and Claude SDK.\n\nSAT generates:\n- Terminal commands that can be auto-tested\n- Human visual tests with step-by-step instructions\n\nAgent file: `.bmad-core/agents/sat.md`\n\n### Epic 2: Claude Agent SDK (Stories 2.1-2.7)\n\n**Story 2.1**: SDK installation and authentication\n- Ran into version issues, updated Claude\n- `claude login` → browser authorization\n- Test script: SDK returns \"hello in exactly five words\"\n\n**Story 2.2**: Basic agent event loop\n- Minimal loop receiving messages from SDK\n- System prompt defines \"HTML application building bot\"\n- Initial bug: object [Object] display → fixed\n\n**Story 2.3**: Real-time streaming\n- Chunks come through (SDK streams in chunks, not word-by-word)\n- Tested with rapid-fire prompts (10, 20, 100 counts)\n- Prompts can be queued, responses may arrive out of order\n\n**Story 2.4**: Read JSON tool\n- Initial implementation couldn't discover available files\n- Added **two extra tools**: `list` (show available files) and `preview` (interrogate file contents)\n- Handles malformed JSON gracefully\n\n**Story 2.5**: Write JSON tool\n- Can add products, update fields, create nested files (e.g., `catalog/electronics.json`)\n- Bug: Initially wrote JSON as string (in quotes) → fixed\n- Created new story 2.7 when discovered no conversational memory\n\n**Story 2.6**: HTML file tools\n- Four tools: write HTML, list HTML, preview HTML, serve HTML\n- Issues: Not serving from public directory initially, products not displaying\n- Options A and C selected to fix\n\n**Story 2.7**: Conversational memory (added mid-project)\n- Each SDK call was stateless\n- Read SDK documentation via second brain\n- Now retains context between messages\n\n### AppyDave Workflow Automation\n\nCreated custom workflow to run full story cycle:\n1. Asks which story number\n2. Runs Scrum Master draft\n3. Optional: Validation with PO\n4. Runs Developer\n5. Generates SAT\n6. Runs automated terminal tests\n\nAlso auto-detects last completed story and suggests next.\n\n### Epic 3: React Frontend (Stories 3.1-3.4)\n\n**Story 3.1**: Initialize React with Vite\n- Basic \"Hello World BMAD Claude SDK\"\n- Vite connected, hot module reloading working\n\n**Story 3.2**: ShadCN and Tailwind CSS\n- Basic UI components installed\n- Styling \"very ordinary\" at this point (expected)\n\n**Story 3.3**: Chat interface with Vercel AI elements ⚠️ PROBLEM STORY\n- **14th story** - first with significant issues\n- **Tailwind v3/v4 conflict**: Configured with v3 syntax but was v4 installation\n- **Port conflict**: Claude spawned server on 5174, user expected 5173\n- **Bubble/dropdown styling issues**\n- Postmortem document created as learning resource\n\n**Story 3.4**: Light/dark mode + polish\n- Activity slide-out panel\n- Socket status checks\n- System prompt refinements\n- Multiple iterations to fix styling bugs\n\n## Final Demonstrations\n\n### Demo 1: Opening Demo (shown at video start)\n- Create products → View in backend\n- Create HTML page → See in pages list\n- Add/update products → Instant updates\n- Create home page with navigation\n\n### Demo 2: Bookstore Application\n\n**Products**: Created 5 bookstore products with prices, one out-of-stock\n\n**HTML generation**: products.html created, auto-appeared in pages list\n\n**Dynamic updates**: Added more products → website updated via Socket.IO\n\n**CSS styling**: Created products.css with \"professional blue and gold color scheme\"\n\n**Home page**: index.html with featured products, \"Shop Now\" and \"Chat with us\" links\n\n**Blog posts**: Created blog-posts.json with title, author, date, content, tags\n\n**Blog HTML**: blog.html created using sockets, linked from home and products pages\n\n**Christmas theming**: Applied to products.css with:\n- Snowfall animation\n- Festive red/green colors\n- Required 5 follow-up prompts to work across all pages\n- Used SVG graphics per AI recommendation\n\n**Dynamic content updates**:\n- Added blog post about out-of-stock item going on sale ($32 → $22, only 10 left)\n- Updated product to be in-stock with new price\n- Changed CSS to highlight \"Holiday Special\"\n\n**Conversational memory test**:\n- Message 1: Change title of cat-dog website from \"Cat and Dog Pet Store\" to \"Pet Store\"\n- Message 2: Change every cat product to $100 more\n- Both changes applied correctly, demonstrating memory retention\n\n## Key Insights\n\n1. **Parallel development**: Can work on 2 projects simultaneously while AI generates code (not 3 - first finishes before you can manage)\n\n2. **Custom agents on-the-fly**: SAT agent created mid-project from documentation\n\n3. **Validation prevents hallucinations**: PO's validate-story catches issues before development\n\n4. **Document lessons learned**: Postmortem from 3.3 becomes training data for future\n\n5. **Internal tools only**: Not for public websites - allows AI to modify server\n\n6. **Git for rollback**: Changes committed to repo for version control\n\n## Closing & Next Video Teaser\n\nAll code available in GitHub repository. Community link for daily prompt engineering discussions.\n\n**Next video**: Creating **POEM** (Prompt Orchestration and Engineering Method) - a framework for creating and testing prompts, similar to BMAD. \"I'm AppyDave, see you in the next video.\"",
+  "titleIdeas": [
+    "Build Self-Editing Apps with Claude Agent SDK",
+    "Context Engineering with BMAD Method Tutorial",
+    "Create AI-Powered Web Apps Using Claude SDK",
+    "Self-Modifying Applications with BMAD Framework",
+    "Claude Agent SDK Step-by-Step Development Guide",
+    "From Vibe Coding to Production Apps with BMAD",
+    "AI Agent Integration for Web Developers",
+    "Build Dynamic Data Apps with Claude SDK",
+    "BMAD Method v4 Complete Development Tutorial",
+    "Context Engineering for Self-Editing Applications"
+  ],
+  "titleIdeasShortlist": [
+    "Build Self-Editing Apps with Claude Agent SDK",
+    "Create AI-Powered Web Apps Using Claude SDK",
+    "BMAD Method v4 Complete Development Tutorial"
+  ],
+  "transcriptAbridgementQA_v1": "## Discrepancies in V1 Abridgement\n\n### Missing Key Points\n\n1. **Specific story numbers** - V1 mentions stories exist but doesn't list 1.1-1.4, 2.1-2.7, 3.1-3.4\n2. **Commands used** - No mention of `npx bmad-method install`, `/analyst`, `/pm`, `draft story`, `develop story`, etc.\n3. **File paths** - Missing `docs/brief.md`, `.bmad-core/`, `docs/prd/`, `docs/architecture/`\n4. **Sarah (PO agent)** - Only 6 of 7 agents named\n5. **Brian from BMAD** - Not mentioned (issues communicated to him about v6)\n6. **Specific demonstrations** - Missing cat-dog, aitldr, beauty-and-joy website examples\n7. **Price changes** - $32→$22, $100 more for cats not mentioned\n8. **AppyDave workflow automation** - Custom workflow created mid-project not mentioned\n9. **Parallel development insight** - Can work on 2 projects simultaneously (not 3)\n10. **203 lines** pasted back into conversation\n11. **2,500 line** architecture document\n12. **5 follow-up prompts** needed for Christmas styling\n\n### Tone/Intent Changes\n\n- V1 reads as a summary rather than capturing the instructional/tutorial nature\n- Loses the problem-solving journey (bugs encountered and fixed)\n- Doesn't convey the iterative nature of the development\n\n### Oversimplifications\n\n- \"Story 2.4 adds list and preview capabilities\" - doesn't explain WHY (AI couldn't discover files)\n- \"Story 3.3 encounters significant issues\" - vague, doesn't detail Tailwind v3/v4, port conflicts\n- Bookstore demo mentioned but without the iterative detail (Christmas styling, memory test)\n\n### Overall Assessment\n\n~35-40% of meaningful information lost. Suitable for high-level understanding but not for recreating the tutorial or educational repurposing.",
+  "transcriptAbridgementQA_v2": "## Structured QA for V2 Abridgement\n\n### Named Entities\n\n**Present**: AppyDave, Mary (Analyst), John (PM), Bob (Scrum Master), James (Developer), Quinn (QA), Taylor (SAT), Sarah (PO), Brian (BMAD creator), Claude, React, Express, Vite, ShadCN, Tailwind, Socket.IO, Vercel AI\n\n**Missing**: None identified\n\n**Altered**: None\n\n---\n\n### Numbered Items\n\n**Present**: BMAD v4, v6 alpha 9, React 19, Tailwind v3/v4, Stories 1.1-1.4, 2.1-2.7, 3.1-3.4, 14 stories total, 3-4 stories per epic, ~200 lines constraint, 2,500 line architecture, 203 lines pasted\n\n**Missing**: None identified\n\n**Altered**: None\n\n---\n\n### Technical Terms\n\n**Present**: npm workspaces, mono repo, Express, TypeScript, Socket.IO, Claude Agent SDK, JSON, HTML, CSS, Vite, ShadCN, Tailwind CSS, kebab-case, SVG, hot module reloading, bidirectional communication\n\n**Missing**: None identified\n\n**Altered**: None\n\n---\n\n### Problems & Solutions\n\n**Present**:\n1. Epic 2 sequencing problem → separate conversation to reorder (203 lines)\n2. Story 2.4 couldn't discover files → added list and preview tools\n3. Story 2.5 no conversational memory → created story 2.7\n4. Story 2.5 JSON written as string → fixed\n5. Story 3.3 Tailwind v3/v4 conflict → identified in postmortem\n6. Story 3.3 port 5173/5174 conflict → documented\n7. Christmas styling issues → 5 follow-up prompts, SVG recommendation\n\n**Missing**: None identified\n\n**Altered**: None\n\n---\n\n### Demonstrations\n\n**Present**: Opening demo (products, HTML, navigation), Bookstore demo (products, blog, CSS styling, Christmas theme, memory test), cat-dog website, aitldr website, beauty-and-joy website\n\n**Missing**: None identified\n\n**Altered**: None\n\n---\n\n### Chronological Flow\n\n**Present**: Installation → Brief → PRD → Architecture → Sharding → Epic 1 → Epic 2 → Epic 3 → Demos → Closing\n\n**Missing**: None - sequence preserved\n\n**Altered**: None\n\n---\n\n### Quantitative Details\n\n**Present**: ~200 lines, 2,500 lines, 203 lines, 14 stories, 3-4 per epic, 7 agents, $32→$22, $100 more, 10 left in stock, 5 follow-up prompts, port 5173/5174\n\n**Missing**: Some minor counts (exact number of products created, etc.)\n\n**Altered**: None\n\n---\n\n## Overall Assessment\n\n**Preservation Estimate**: ~90-95% of meaningful content retained\n\n**Critical Gaps**: None identified. All major concepts, demonstrations, problems/solutions, and technical details preserved.\n\n**Recommendations**:\n1. Could add exact product names from bookstore demo (minor)\n2. Could include more quotes from the presenter (stylistic, not critical)\n\n**Verdict**: V2 abridgement is suitable for educational repurposing. Someone could follow the tutorial from this document.",
+  "identifyChapters": "```\n1. Introduction\n  \"Imagine building a self-editing application. What that means is that you could talk to it and it generates all the data in the back end\"\n\n2. Application Demo Preview\n  \"So our Agent SDK application is built and this is what it can do for us\"\n\n3. BMAD Installation\n  \"Now which version of the BMAD method should we use? Should we use version four which is the current or should we use the version six alpha nine\"\n\n4. Project Brief Creation\n  \"So let's start with our terminal and we're going to use Claude code... We've got this planning folder\"\n\n5. PRD Creation\n  \"Now to do that we're going to have a new agent and the agent we want is the project manager\"\n\n6. Epic Refinement\n  \"I think there's a problem in epic 2 and the main issues I can see is that after installing the SDK it starts going into setting up tools\"\n\n7. Architecture Document\n  \"We'll go straight into the architecture agent let it load and we can move into creating things\"\n\n8. Document Sharding\n  \"Sharding is the idea of splitting up a big document into little documents\"\n\n9. Story Development Workflow\n  \"Now we're ready to start developing our application so to get started we need the scrub master\"\n\n10. Epic 1 Development\n  \"The first one is the mono repo set up with the basic server and client\"\n\n11. Custom SAT Agent\n  \"I've gone and set myself up a new window this is a conversation I have with a second brain\"\n\n12. Epic 2 Development\n  \"Now we're moving on to epic 2 which is all about setting up the anthropic clawed sdk\"\n\n13. Epic 3 Development\n  \"The third epic is all about setting up a react application as the front end\"\n\n14. Story 3.3 Postmortem\n  \"This is the one story where everything changed so I'll do a little bit of a post-mortem analysis\"\n\n15. Bookstore Demo\n  \"Now we have our chat application created using the be mad method... let's test it out\"\n\n16. Closing\n  \"So this is giving us all the power of clawed code within our own web applications... in the next video we're going to use be mad again\"\n```",
+  "refineChapters_v1": "```\nChapters:\nIntroduction to Self-Editing Apps\nApplication Demo Preview\nProject Scenario Overview\nSetting Up BMAD Method v4\nClaude Code Initialization\nProject Brief with Analyst Agent\nSkool Community Overview\nPRD Creation with PM Agent\nVOZ Boy Baker Example\nVOZ Boy Baker Demo Continued\nEpic and Story Refinement\nClaude System Prompt Cleanup\nArchitecture Document Creation\nSolutioning Discussion\nDocument Sharding and Cleanup\nStory 1.1: Monorepo Setup\nStory 1.2: Express Server\nCreating Custom SAT Agent\nStory 1.3: HTML Client\nStory 1.4: Socket.IO Integration\nDevelopment Retrospective\nRecap and Next Steps\nClaude SDK Configuration\nStory 2.2: Agent Event Loop\nStory 2.3: Realtime Streaming\nStory 2.4: Read JSON Tool\nStory 2.5: Write JSON Tool\nStory 2.6: HTML File Tools\nNew Epic Introduction\nStory 3.1: React Setup\nStory 3.2: ShadCN and Tailwind\nStory 3.3: Chat Interface\nBookstore Demo\nOutro and Next Video\n```",
+  "refineChapters_v2": "```\nChapters:\n\n00. Intro: Self-Editing Apps\n    \"Imagine building a self-editing application where you talk to it and it generates all the data\"\n\n01. Demo: What We're Building\n    \"So our Agent SDK application is built and this is what it can do for us\"\n\n02. Project Scenario\n    \"The application demonstrates creating products, building product listings, adding home pages\"\n\n03. Installing BMAD Method v4\n    \"Now which version of the BMAD method should we use? v4 or v6 alpha nine\"\n\n04. Claude Code Setup\n    \"Let's start with our terminal and we're going to use Claude code\"\n\n05. Project Brief with Analyst\n    \"Loaded analyst via slash analyst slash command. Created brief from planning document\"\n\n06. Skool Community Mention\n    \"Community link for daily prompt engineering discussions\"\n\n07. PRD with PM Agent\n    \"Now to do that we need a new agent - the project manager\"\n\n08. VOZ Boy Baker Example\n    \"Demonstrating the workflow with the VOZ client project\"\n\n08. VOZ Boy Baker Continued\n    \"Continuing the VOZ example demonstration\"\n\n09. Epic and Story Planning\n    \"I think there's a problem in epic 2 - after installing SDK it starts setting up tools\"\n\n10. System Prompt Cleanup\n    \"Cleanup of the Claude system prompt configuration\"\n\n11. Architecture Document\n    \"We'll go straight into the architecture agent and create things\"\n\n12. Solutioning Discussion\n    \"Used PM agent to check alignment between PRD and architecture\"\n\n13. Sharding Documents\n    \"Sharding is the idea of splitting up a big document into little documents\"\n\n14. Story 1.1: Monorepo Setup\n    \"The first one is the mono repo set up with the basic server and client\"\n\n15. Story 1.2: Express Server\n    \"Server setup with basic endpoints\"\n\n16. Creating Custom SAT Agent\n    \"I've set myself up a new window - a conversation with a second brain\"\n\n16. Story 1.3: HTML Client\n    \"Created public index.html with blue header Client Server Communication Test\"\n\n17. Story 1.4: Socket.IO\n    \"Connected/disconnected status. Server can push to client\"\n\n18. Development Retrospective\n    \"Looking back at what we learned during Epic 1 development\"\n\n19. Recap and Next Steps\n    \"Summary of progress and planning for Epic 2\"\n\n20. Claude SDK Configuration\n    \"SDK installation and authentication - claude login browser authorization\"\n\n21. Story 2.2: Event Loop\n    \"Minimal loop receiving messages from SDK. System prompt defines HTML bot\"\n\n22. Story 2.3: Realtime Streaming\n    \"Chunks come through - SDK streams in chunks not word-by-word\"\n\n23. Story 2.4: Read JSON\n    \"Initial implementation couldn't discover available files. Added list and preview\"\n\n24. Story 2.5: Write JSON\n    \"Can add products, update fields, create nested files\"\n\n25. Story 2.6: HTML Tools\n    \"Four tools: write HTML, list HTML, preview HTML, serve HTML\"\n\n26. Epic 3 Introduction\n    \"The third epic is all about setting up a react application as the front end\"\n\n27. Story 3.1: React Setup\n    \"Basic Hello World BMAD Claude SDK. Vite connected, hot module reloading\"\n\n28. Story 3.2: ShadCN + Tailwind\n    \"Basic UI components installed. Styling very ordinary at this point\"\n\n29. Story 3.3: Chat Interface\n    \"This is the one story where everything changed - a post-mortem analysis\"\n\n30. Bookstore Demo\n    \"Now we have our chat application created using BMAD - let's test it out\"\n\n31. Outro: Next Video POEM\n    \"In the next video we're going to use BMAD again to create POEM\"\n```",
+  "chapterFolderNames": "00-intro\n01-demonstration\n02-senario\n03-setup-bmad\n04-claude-code-init\n05-analyst-project-brief\n06-skool-community\n07-pm-prd\n08-voz-boy-baker\n08-voz-boy-baker\n09-pm-prd-epic-and-stories\n10-cleanup-claude-system-prompt\n11-architect-architecture\n12-solutioning\n13-sharding-cleanup\n14-develop.1.1-setup-monorepo\n15-develop.1.2-create-express-server\n16-create-custom-agent\n16-develop.1.3-create-html-client\n17-develop.1.4-socet-io\n18-retrospective\n19-recap-nextstep\n20-claude-sdk-configuration\n21-develop.2.2-agent-event-loop\n22-develop.2.3-realtime-stream\n23-develop.2.4-read-write-data\n24-develop.2.5-read-write-data\n25-develop.2.6-read-write-html\n26-new-epic\n27-develop-3.1-setup-react\n28-develop-3.2-shadcn-tailwindcss\n29-develop-3.3-chat-interface-vercel\n30-demonstration\n31-outro",
+  "createChapters": "0:00 Intro\n0:29 Senario\n1:19 Talking Head\n3:41 Setup BMAD\n6:11 Claude Code Init\n18:59 Skool Community\n20:02 PM PRD\n27:15 Voz Boy Baker\n28:06 PM PRD Epic And Stories\n28:58 Recap Nextstep\n41:15 Cleanup Claude System Prompt\n42:37 Architect Architecture\n48:42 Develop.2.4 Read Write Data\n53:46 Sharding Cleanup\n54:43 Analyst Project Brief\n55:58 Develop.1.1 Setup Monorepo\n1:01:10 Develop.1.2 Create Express Server\n1:12:44 Develop.1.4 Socet Io\n1:14:23 Retrospective\n1:14:30 Create Custom Agent\n1:16:04 Claude SDK Configuration\n1:19:44 Develop.2.2 Agent Event Loop\n1:24:25 Develop.2.3 Realtime Stream\n1:25:24 Solutioning\n1:32:00 Develop.2.5 Read Write Data\n1:37:08 Develop.2.6 Read Write Html\n1:46:52 New Epic\n1:48:24 Develop 3.1 Setup React\n1:48:58 Develop 3.2 Shadcn Tailwindcss\n1:49:25 Develop 3.3 Chat Interface Vercel\n1:55:12 Demonstration\n2:01:14 Outro",
+  "transcriptSummary": "This step-by-step tutorial demonstrates building a self-editing application using the Claude Agent SDK and BMAD Method v4. The application allows users to talk to a chatbot that can generate data (JSON files) and create HTML pages dynamically.\n\n**Key Concepts:**\n- Self-editing applications: Apps that can modify their own backend data and generate frontend pages through natural language conversation\n- Context engineering using BMAD Method for structured AI-driven development\n- Vibe coding: Building applications through natural language without writing code manually\n\n**Technical Stack:**\n- Backend: Express.js server with Claude Agent SDK integration\n- Frontend: React with ShadCN, Tailwind CSS, and Vercel AI elements\n- Communication: Socket.IO for bidirectional real-time streaming\n- Storage: JSON files (no database) committed to git repository\n- Authentication: Claude Max account (no API costs)\n\n**BMAD Workflow Demonstrated:**\n1. Project Brief creation with Analyst agent (Mary)\n2. PRD (Product Requirements Document) with PM agent (John)\n3. Architecture document with Architect agent\n4. Story drafting with Scrum Master agent (Bob)\n5. Development with Developer agent (James)\n6. Quality review with QA agent (Quinn)\n7. Story Acceptance Testing with custom SAT agent (Taylor)\n\n**Three Epics Implemented:**\n- Epic 1: Mono repo setup with basic client/server communication\n- Epic 2: Claude Agent SDK integration with tools (read/write JSON, read/write HTML)\n- Epic 3: React frontend with chat interface\n\n**Notable Features Built:**\n- Real-time streaming responses from Claude SDK\n- JSON file CRUD operations through conversation\n- HTML page generation and serving\n- Tool discovery (list files, preview content)\n- Conversational memory (added as story 2.7)\n\n**Key Insights:**\n- BMAD Method allows parallel project development while AI generates code\n- Custom agents (like SAT) can be created on-the-fly for specific needs\n- Validation steps prevent hallucinations and maintain story alignment\n- The approach works for internal tools, not production public websites",
+  "analyzeContentEssence": {
+    "mainTopic": "Building a self-editing application using Claude Agent SDK and BMAD Method v4 - a step-by-step tutorial demonstrating how to create an AI-powered web application that generates backend data and HTML pages through natural language conversation.",
+    "keywords": [
+      "Claude Agent SDK",
+      "BMAD Method v4",
+      "Self-editing application",
+      "Context engineering",
+      "Vibe coding",
+      "Express.js",
+      "React 19",
+      "Socket.IO",
+      "JSON file storage",
+      "AI agent integration",
+      "Mono repo",
+      "Story-driven development",
+      "Real-time streaming",
+      "Tool integration"
+    ],
+    "statistics": [
+      "~200 lines of code constraint for server",
+      "2,500 line architecture document",
+      "203 lines pasted for epic refinement",
+      "14 stories total",
+      "3-4 stories per epic",
+      "3 epics (mono repo, SDK integration, React frontend)",
+      "7 BMAD agents used",
+      "5 follow-up prompts for Christmas styling",
+      "Tailwind v3/v4 conflict",
+      "Ports 5173/5174 conflict",
+      "$32→$22 price change demo",
+      "$100 price increase demo"
+    ],
+    "keyTakeaways": [
+      "Self-editing apps allow users to generate data and UI through conversation",
+      "BMAD Method provides structured AI-driven development workflow",
+      "Custom agents (like SAT) can be created mid-project for specific needs",
+      "Validation steps prevent AI hallucinations and maintain alignment",
+      "Can work on 2 parallel projects while AI generates code (not 3)",
+      "JSON file storage with git commits provides simple version control",
+      "Socket.IO enables real-time bidirectional communication",
+      "Document lessons learned (postmortems) for future training data",
+      "Internal tools only - not suitable for public-facing websites"
+    ]
+  },
+  "analyzeAudienceEngagement": {
+    "emotionalTriggers": [
+      "Wonder/Excitement: 'Imagine building a self-editing application' - sparks curiosity",
+      "Empowerment: 'talk to it and it generates all the data' - makes complex dev feel accessible",
+      "Frustration-relief: Story 3.3 postmortem shows real problems and solutions - builds trust",
+      "Achievement: Demo sections show tangible results - provides dopamine hits",
+      "FOMO: 'Community link for daily prompt engineering discussions' - social proof"
+    ],
+    "overallTone": "Educational and tutorial-focused with step-by-step walkthrough. Transparent about problems - doesn't hide failures (v6 wasn't ready, Story 3.3 issues). Practical and hands-on with real code, real bugs, real fixes. Conversational but technical - balances accessibility with depth.",
+    "audienceInsights": [
+      "Developers learning AI agent integration - explicitly stated target",
+      "Technical educators creating content about AI development",
+      "Rapid prototypers wanting quick AI-powered app creation",
+      "BMAD practitioners already familiar with the method",
+      "Claude/Anthropic users seeking SDK implementation examples"
+    ],
+    "uniqueSellingPoints": [
+      "Complete end-to-end tutorial from brief to working demo",
+      "Uses real methodology (BMAD) not just ad-hoc coding",
+      "Shows failures and fixes - authentic learning experience",
+      "Creates tangible product (bookstore app) viewers can replicate",
+      "Introduces custom agent creation mid-project",
+      "Demonstrates parallel project development technique"
+    ]
+  },
+  "analyzeCtaCompetitors": {
+    "ctaPhrases": [
+      "All code available in GitHub repository",
+      "Community link for daily prompt engineering discussions",
+      "In the next video we're going to use BMAD again to create POEM"
+    ],
+    "catchyPhrases": [
+      "Imagine building a self-editing application",
+      "The magic is the human experience of talking to generate features",
+      "Vibe coding techniques with context engineering",
+      "This is the one story where everything changed",
+      "Can work on 2 projects simultaneously while AI generates code (not 3)"
+    ],
+    "questionsAnswered": [
+      "Now which version of the BMAD method should we use? v4 or v6 alpha nine?",
+      "What that means is that you could talk to it and it generates all the data in the back end?",
+      "I think there's a problem in epic 2?",
+      "Why couldn't the initial implementation discover available files?"
+    ],
+    "searchTerms": [
+      "Claude Agent SDK tutorial",
+      "BMAD Method development",
+      "Self-editing application AI",
+      "Context engineering tutorial",
+      "Vibe coding AI development",
+      "Express React Socket.IO tutorial",
+      "AI agent integration web app",
+      "Claude Code development workflow",
+      "Story-driven AI development",
+      "Real-time AI chat application"
+    ]
+  },
+  "video_topic_theme": "Building a self-editing application using Claude Agent SDK and BMAD Method v4 - a step-by-step tutorial demonstrating how to create an AI-powered web application that generates backend data and HTML pages through natural language conversation.",
+  "content_highlights": [
+    "Self-editing apps allow users to generate data and UI through conversation",
+    "BMAD Method provides structured AI-driven development workflow",
+    "7 BMAD agents used (Mary, John, Bob, James, Quinn, Taylor, Sarah)",
+    "14 stories across 3 epics",
+    "Custom SAT agent created mid-project",
+    "Real-time streaming via Socket.IO",
+    "2,500 line architecture document generated",
+    "Bookstore demo with Christmas theming",
+    "Can work on 2 parallel projects while AI generates code"
+  ],
+  "generate_title_v1": [
+    "Build a Self-Editing App: Claude Agent SDK + BMAD Method (2025)",
+    "BMAD Method Tutorial: Create AI Apps with Claude Agent SDK",
+    "7 AI Agents Code for You: BMAD Method + Claude Agent SDK Demo",
+    "Claude Agent SDK + BMAD: Build Apps Through Conversation",
+    "From Prompt to Product: BMAD Method with Claude Agent SDK",
+    "AI Builds 2,500 Line App While You Work: BMAD + Claude SDK",
+    "BMAD Method v4: Building Self-Editing Apps with Claude Agents",
+    "Code Without Coding: Claude Agent SDK + BMAD Method Tutorial",
+    "14 Stories, 7 Agents, 1 App: BMAD Method + Claude SDK Workflow",
+    "Master BMAD Method: Build AI-Powered Apps with Claude Agent SDK"
+  ],
+  "generate_title_v2": [
+    {
+      "category": "bmad+sdk",
+      "emotion": "desire",
+      "chars": 47,
+      "title": "BMAD Method + Agent SDK: Self-Editing Apps Made"
+    },
+    {
+      "category": "bmad+sdk",
+      "emotion": "curiosity",
+      "chars": 48,
+      "title": "Agent SDK Meets BMAD: Apps That Code Themselves"
+    },
+    {
+      "category": "bmad-only",
+      "emotion": "desire",
+      "chars": 42,
+      "title": "BMAD Method: 7 Agents Build Your Entire App"
+    },
+    {
+      "category": "bmad-only",
+      "emotion": "curiosity",
+      "chars": 49,
+      "title": "BMAD Method Turns 14 Stories Into Working Code"
+    },
+    {
+      "category": "sdk-only",
+      "emotion": "desire",
+      "chars": 43,
+      "title": "Agent SDK: Build Apps Through Conversation"
+    },
+    {
+      "category": "sdk-only",
+      "emotion": "fear",
+      "chars": 48,
+      "title": "Before You Code Another App, Watch This (SDK)"
+    },
+    {
+      "category": "concept",
+      "emotion": "curiosity",
+      "chars": 38,
+      "title": "I Built an App That Edits Itself Live"
+    },
+    {
+      "category": "concept",
+      "emotion": "desire",
+      "chars": 44,
+      "title": "Vibe Coding: Apps That Write Their Own Code"
+    },
+    {
+      "category": "number-hook",
+      "emotion": "curiosity",
+      "chars": 47,
+      "title": "7 AI Agents Wrote 200 Lines. You Won't Believe"
+    },
+    {
+      "category": "number-hook",
+      "emotion": "desire",
+      "chars": 49,
+      "title": "200 Lines of Code, 2,500 Line Architecture? How?"
+    }
+  ],
+  "selectedTitles": [
+    "BMAD + Agent SDK: Self-Editing Apps Made",
+    "BMAD: 7 Agents Build Your Entire App",
+    "I Built an App That Edits Itself Live | BMAD + SDK"
+  ],
+  "youtubeTags": "claude agent sdk tutorial, bmad method development, self editing application, ai coding assistant, vibe coding tutorial, context engineering, build apps with ai, claude code workflow, multi agent development, express react socketio, ai agent integration, story driven development, real time ai chat app",
+  "descriptionHashtags": "#BMADMethod #ClaudeAgentSDK #ContextEngineering #VibeCoding #BuildWithAI",
+  "relatedVideos": [
+    {
+      "code": "b55",
+      "title": "How To Make Your AI Coding Partner Smarter!",
+      "url": "https://www.youtube.com/watch?v=ai_sSQH1Pn4",
+      "placement": "end_screen"
+    },
+    {
+      "code": "b62",
+      "title": "Stop Using Canva! AI Automate Videos with CLAUDE + REMOTION",
+      "url": "https://www.youtube.com/watch?v=_nJcQdDHtyg",
+      "placement": "card_early"
+    },
+    {
+      "code": "b44",
+      "title": "How I Built a Crazy Multi-Agent AI System!",
+      "url": "https://www.youtube.com/watch?v=xnMpKMH6toM",
+      "placement": "card_middle"
+    },
+    {
+      "code": "b12",
+      "title": "Master Aider AI's Chat Modes: Ask, Code, Architect Explained!",
+      "url": "https://www.youtube.com/watch?v=92CkqX_95kA",
+      "placement": "card_late"
+    }
+  ],
+  "videoIntroExtract": {
+    "segments": [
+      {
+        "type": "hook",
+        "text": "Imagine building a self-editing application. What that means is that you could talk to it and it generates all the data in the back end or you could ask it to visualize it and html pages suddenly materialized."
+      },
+      {
+        "type": "promise",
+        "text": "In this video we're going to use the Agent SDK from Claude Code to do that and we're going to build this application using the BMAD method."
+      },
+      {
+        "type": "signOff",
+        "text": "I'm AppyDave, let's get into it."
+      },
+      {
+        "type": "chapterMention",
+        "text": "Now this video is a step-by-step tutorial so if you want to move ahead or go backwards and forwards check out the chapter links in the description."
+      },
+      {
+        "type": "demoPreview",
+        "text": "So our Agent SDK application is built and this is what it can do for us. So we're going into the chat bot where we're going to enter in some products we should be able to view those products and see that they're being stored in the back end at any time we should be able to create a HTML page notice that there's a live activity there's also live pages if we click on the pages we should be able to go and see the products listing at any time then we should be able to add a new product or update it and it should come through instantaneously."
+      }
+    ]
+  },
+  "videoOutroExtract": {
+    "segments": [
+      {
+        "type": "recap",
+        "text": "So that brings us to the end and what we've been able to do is build this complete application just with natural language prompts and we did that using context engineering that's with the BMAD method and the backend system that we've built is using the Claude Agent SDK so this is giving us all the power of Claude Code within our own web applications so the demonstrations we did was that we were able to create html pages json documents css files make sure all the links go from page to page"
+      },
+      {
+        "type": "teaser",
+        "text": "Now if you're loving the power of BMAD in the next video we're going to use BMAD again but this time we're going to recreate an orchestration framework just like BMAD we're going to call it POEM which is the prompt orchestration and engineering method and the whole idea of it is so that we can create and test prompts in a technique very similar to BMAD"
+      },
+      {
+        "type": "signOff",
+        "text": "I'm AppyDave I'll see you in the next video"
+      }
+    ],
+    "ctasPresent": true
+  },
+  "videoCtaExtract": {
+    "items": [
+      {
+        "text": "Check out the chapter links in the description",
+        "position": "intro"
+      },
+      {
+        "text": "You might want to check the link in the description where you can go to my Skool community where I'll be talking about this on a daily basis",
+        "position": "early"
+      },
+      {
+        "text": "If you want to see a five minute video around the Boy and the Baker by VOZ then check out the link in the description",
+        "position": "middle"
+      },
+      {
+        "text": "Available up on the GitHub repo if you want to access that there's a link to my community down below",
+        "position": "middle"
+      },
+      {
+        "text": "Now all the code is available you can check it out in the repository and if you want to join the community we have more of a discussion and teachings each day on prompt engineering",
+        "position": "outro"
+      }
+    ]
+  },
+  "videoBreakoutExtract": {
+    "items": [
+      {
+        "text": "I just like to open a new conversation which I've got down below. The new conversation knows what we've got I've got it highlighted in blue and I just tell it that you're going to help me build up an instruction that we can put back into the previous conversation so the goal of this conversation is purely to build a prompt to paste into this conversation",
+        "position": "early"
+      },
+      {
+        "text": "I've gone and set myself up a new window this is a conversation I have with a second brain and the second brain has knowledge about things like BMAD version 4 and version 6 and I've had it just construct for me instructions for creating a story acceptance testing agent",
+        "position": "middle"
+      },
+      {
+        "text": "Now the reason I actually wrote this document wasn't just so that I could show you the sort of challenges that you can run into but because once you write a document like this you can make it a part of your documentation system so if any other issues happen in the future and you notice it you can say can you go and read other documentation or lessons learnt that were done in the past and this can be a perfect way of training the AI model to write code the right way",
+        "position": "late"
+      }
+    ]
+  },
+  "videoIntroAnalysis": {
+    "analyses": [
+      {
+        "type": "hook",
+        "text": "Imagine building a self-editing application...",
+        "hookType": "imagination",
+        "emotionalTrigger": "curiosity",
+        "strength": "strong",
+        "reasoning": "Opens with 'Imagine' which invites viewer into a possibility. The concept of 'self-editing application' is novel and intriguing. Follows up with concrete examples (talk to it, generates data, HTML materializes)."
+      },
+      {
+        "type": "promise",
+        "text": "In this video we're going to use the Agent SDK from Claude Code...",
+        "clarity": "clear",
+        "specificity": "specific",
+        "deliverable": "Build a self-editing application using Agent SDK and BMAD method",
+        "reasoning": "Names exact tools (Agent SDK, BMAD method) and outcome (build this application). Viewer knows exactly what they'll learn."
+      },
+      {
+        "type": "signOff",
+        "text": "I'm AppyDave, let's get into it.",
+        "brandConsistency": true,
+        "transitionClarity": "clear",
+        "reasoning": "Consistent catchphrase. Clear signal that intro is ending and content is beginning."
+      },
+      {
+        "type": "chapterMention",
+        "text": "Now this video is a step-by-step tutorial...",
+        "placement": "appropriate",
+        "reasoning": "Placed after sign-off but before content. Sets expectations for long-form tutorial and gives navigation option."
+      },
+      {
+        "type": "demoPreview",
+        "text": "So our Agent SDK application is built and this is what it can do...",
+        "showsDontTell": true,
+        "intrigueLevel": "high",
+        "reasoning": "Shows the finished product in action before explaining how to build it. Creates 'I want that' desire. Lists multiple capabilities (products, backend, HTML pages, live updates)."
+      }
+    ]
+  },
+  "videoOutroAnalysis": {
+    "analyses": [
+      {
+        "type": "recap",
+        "text": "So that brings us to the end and what we've been able to do...",
+        "completeness": "comprehensive",
+        "reinforcesPromise": true,
+        "keyTakeaway": "Built complete application with natural language prompts using context engineering (BMAD) and Claude Agent SDK",
+        "reasoning": "Recaps the tools used, the method, and the outcomes. Lists specific deliverables (HTML pages, JSON, CSS, links). Directly fulfills the intro promise."
+      },
+      {
+        "type": "teaser",
+        "text": "Now if you're loving the power of BMAD in the next video...",
+        "curiosityLevel": "high",
+        "connectionToCurrent": "Direct continuation - uses BMAD again but for a new purpose",
+        "nextVideoTopic": "POEM - Prompt Orchestration and Engineering Method",
+        "reasoning": "Conditional opener ('if you're loving') qualifies interested viewers. POEM acronym creates intrigue. 'Just like BMAD' leverages satisfaction from current video."
+      },
+      {
+        "type": "signOff",
+        "text": "I'm AppyDave I'll see you in the next video",
+        "brandConsistency": true,
+        "memorability": "standard",
+        "reasoning": "Matches intro pattern with name. 'See you in the next video' is common but effective for continuity."
+      }
+    ]
+  },
+  "videoCtaAnalysis": {
+    "analyses": [
+      {
+        "text": "Check out the chapter links in the description",
+        "position": "intro",
+        "ctaType": "description",
+        "directness": "soft",
+        "urgency": "casual",
+        "placement": "appropriate",
+        "naturalness": "natural",
+        "reasoning": "Navigation CTA for a 2-hour video. Helps viewer, not promotional. Appropriate in intro."
+      },
+      {
+        "text": "You might want to check the link in the description where you can go to my Skool community...",
+        "position": "early",
+        "ctaType": "community",
+        "directness": "soft",
+        "urgency": "casual",
+        "placement": "appropriate",
+        "naturalness": "natural",
+        "reasoning": "'Might want to' is non-pushy. Offers ongoing value (daily discussions). Placed after establishing credibility."
+      },
+      {
+        "text": "If you want to see a five minute video around the Boy and the Baker by VOZ...",
+        "position": "middle",
+        "ctaType": "video",
+        "directness": "soft",
+        "urgency": "casual",
+        "placement": "appropriate",
+        "naturalness": "natural",
+        "reasoning": "Cross-promotion to related content. Conditional ('if you want') respects viewer choice. Contextually relevant."
+      },
+      {
+        "text": "Available up on the GitHub repo if you want to access that...",
+        "position": "middle",
+        "ctaType": "repository",
+        "directness": "soft",
+        "urgency": "casual",
+        "placement": "appropriate",
+        "naturalness": "natural",
+        "reasoning": "Resource CTA after showing code. High value for technical audience. Non-pushy phrasing."
+      },
+      {
+        "text": "Now all the code is available you can check it out in the repository...",
+        "position": "outro",
+        "ctaType": "repository",
+        "directness": "direct",
+        "urgency": "casual",
+        "placement": "appropriate",
+        "naturalness": "natural",
+        "reasoning": "Final resource reminder. More direct than mid-video mentions. Combined with community CTA."
+      }
+    ]
+  },
+  "videoBreakoutAnalysis": {
+    "analyses": [
+      {
+        "text": "I just like to open a new conversation...",
+        "position": "early",
+        "breakoutType": "problem-solving",
+        "standaloneValue": "medium",
+        "standaloneReasoning": "Teaches a technique (second conversation for building prompts) but needs context of why the problem occurred",
+        "potentialFormats": [
+          "short",
+          "snippet"
+        ],
+        "estimatedLength": "medium",
+        "teachesTransferable": true,
+        "keyLesson": "Use a separate conversation to build complex instructions, then paste back into your main context"
+      },
+      {
+        "text": "I've gone and set myself up a new window this is a conversation I have with a second brain...",
+        "position": "middle",
+        "breakoutType": "creation",
+        "standaloneValue": "high",
+        "standaloneReasoning": "Complete standalone concept - using a second brain to create custom agents. Could be its own tutorial.",
+        "potentialFormats": [
+          "video",
+          "short",
+          "blog"
+        ],
+        "estimatedLength": "medium",
+        "teachesTransferable": true,
+        "keyLesson": "Maintain a second brain with documentation knowledge to help you create custom agents on-the-fly"
+      },
+      {
+        "text": "Now the reason I actually wrote this document...",
+        "position": "late",
+        "breakoutType": "retrospective",
+        "standaloneValue": "high",
+        "standaloneReasoning": "Meta-learning about documentation as AI training data. Applicable to any AI-assisted development.",
+        "potentialFormats": [
+          "video",
+          "short",
+          "blog",
+          "tweet"
+        ],
+        "estimatedLength": "brief",
+        "teachesTransferable": true,
+        "keyLesson": "Write postmortems not just for yourself but as training data for AI - it learns from your documented lessons"
+      }
+    ]
+  },
+  "videoSimpleDescription": "This step-by-step tutorial walks developers through creating an AI-powered web app using 7 BMAD agents for story-driven development.\n\nYou'll learn:\n- Setting up Claude Agent SDK with Express.js, React 19, and Socket.IO\n- Building real-time tools that read/write JSON and generate HTML\n- Using context engineering and vibe coding to ship features by conversation\n- Creating custom agents on-the-fly for your specific needs\n\nPerfect for developers learning AI agent integration or anyone wanting to build apps through conversation instead of code.",
+  "videoDescriptionFirstLine": "Build a self-editing app with Claude Agent SDK and BMAD Method v4 - talk to your app and watch it generate data and HTML pages in real-time. Join the community for daily prompt engineering tips: https://skool.com/appydave-6257",
+  "videoFullDescription": "Build a self-editing app with Claude Agent SDK and BMAD Method v4 - talk to your app and watch it generate data and HTML pages in real-time. Join the community for daily prompt engineering tips: https://skool.com/appydave-6257\n\nThis step-by-step tutorial walks developers through creating an AI-powered web app using 7 BMAD agents for story-driven development.\n\nYou'll learn:\n- Setting up Claude Agent SDK with Express.js, React 19, and Socket.IO\n- Building real-time tools that read/write JSON and generate HTML\n- Using context engineering and vibe coding to ship features by conversation\n- Creating custom agents on-the-fly for your specific needs\n\nPerfect for developers learning AI agent integration or anyone wanting to build apps through conversation instead of code.\n\n👉 Access Benefits: https://www.appydave.com/opt-in\n\n🎥 *Related Videos*\nHow To Make Your AI Coding Partner Smarter!: https://www.youtube.com/watch?v=ai_sSQH1Pn4\nStop Using Canva! AI Automate Videos with CLAUDE + REMOTION: https://www.youtube.com/watch?v=_nJcQdDHtyg\nHow I Built a Crazy Multi-Agent AI System!: https://www.youtube.com/watch?v=xnMpKMH6toM\nMaster Aider AI's Chat Modes: Ask, Code, Architect Explained!: https://www.youtube.com/watch?v=92CkqX_95kA\n\n🔗 *Tools & Affiliate Links*\nBuy Me a Coffee: https://buymeacoffee.com/appydave\nDZine: https://www.dzine.ai/?via=aitldr\nECamm Live: https://www.ecamm.com/mac/ecammlive/?fp_ref=appydave\nGling.AI: https://gling.ai/?via=appydave\nDigital Stage Summit: https://www.takeonetech.io/a/2147948540/PrfAQcmG\nElevenLabs: https://try.elevenlabs.io/zh43n4omex1o\n\n🌐 *Connect*\nWebsite: https://appydave.com\nTwitter: https://twitter.com/appyDave\nYouTube: https://youtube.com/@appydave\nCommunity: https://skool.com/appydave-6257\n\n⏱️ *Chapters*\n0:00 Intro\n0:29 Senario\n1:19 Talking Head\n3:41 Setup BMAD\n6:11 Claude Code Init\n18:59 Skool Community\n20:02 PM PRD\n27:15 Voz Boy Baker\n28:06 PM PRD Epic And Stories\n28:58 Recap Nextstep\n41:15 Cleanup Claude System Prompt\n42:37 Architect Architecture\n48:42 Develop.2.4 Read Write Data\n53:46 Sharding Cleanup\n54:43 Analyst Project Brief\n55:58 Develop.1.1 Setup Monorepo\n1:01:10 Develop.1.2 Create Express Server\n1:12:44 Develop.1.4 Socet Io\n1:14:23 Retrospective\n1:14:30 Create Custom Agent\n1:16:04 Claude SDK Configuration\n1:19:44 Develop.2.2 Agent Event Loop\n1:24:25 Develop.2.3 Realtime Stream\n1:25:24 Solutioning\n1:32:00 Develop.2.5 Read Write Data\n1:37:08 Develop.2.6 Read Write Html\n1:46:52 New Epic\n1:48:24 Develop 3.1 Setup React\n1:48:58 Develop 3.2 Shadcn Tailwindcss\n1:49:25 Develop 3.3 Chat Interface Vercel\n1:55:12 Demonstration\n2:01:14 Outro\n\n#BMADMethod #ClaudeAgentSDK #ContextEngineering #VibeCoding #BuildWithAI\n\nSome links may be affiliate links. I may earn a small commission at no extra cost to you."
+}

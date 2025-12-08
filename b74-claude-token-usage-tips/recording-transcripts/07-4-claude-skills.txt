@@ -1,0 +1,8 @@
+So let's try this one more time we've got the same question but we're just
+going to put a little bit extra on the end we're just going to say using DAM and
+we'll let that kick off and see what it does and you can see based on the
+context that it's got some brand structure but it's also started to kick
+in something called a skill and skill involved here is DAM which is for digital
+asset management system and what it's doing is running a tool that's written
+in the Ruby programming language in this case and returning actual data from the
+hard drive in a formatted fashion along with information from S3 drives.

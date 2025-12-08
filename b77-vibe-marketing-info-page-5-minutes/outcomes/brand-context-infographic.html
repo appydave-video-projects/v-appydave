@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppyDave - Visual Infographic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-brown: #342d2d;
+      --brand-gold: #ccba9d;
+      --brand-yellow: #ffde59;
+      --blue-accent: #2E91FC;
+      --light-gray: #595959;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+      color: var(--brand-brown);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    .infographic {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 60px 40px;
+      background: var(--brand-brown);
+      border-radius: 20px;
+      margin-bottom: 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(204,186,157,0.1) 0%, transparent 50%);
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 5rem;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+
+    .logo .appy { color: var(--brand-gold); }
+    .logo .dave { color: var(--brand-yellow); }
+
+    .hero-title {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 15px;
+    }
+
+    .hero-tagline {
+      color: var(--brand-gold);
+      font-size: 1.1rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+
+    .section-icon {
+      width: 50px;
+      height: 50px;
+      background: var(--brand-yellow);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2rem;
+      color: var(--brand-brown);
+    }
+
+    /* Manifesto Infographic */
+    .manifesto-visual {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .manifesto-circle {
+      width: 200px;
+      height: 200px;
+      background: conic-gradient(
+        var(--brand-yellow) 0deg 120deg,
+        var(--brand-gold) 120deg 240deg,
+        var(--brand-brown) 240deg 360deg
+      );
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .manifesto-inner {
+      width: 140px;
+      height: 140px;
+      background: var(--white);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .manifesto-inner .big-num {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 3rem;
+      color: var(--brand-brown);
+      line-height: 1;
+    }
+
+    .manifesto-inner .label {
+      font-size: 0.8rem;
+      color: var(--light-gray);
+    }
+
+    .manifesto-stats {
+      flex: 1;
+    }
+
+    .stat-row {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 3rem;
+      color: var(--brand-brown);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-family: 'Oswald', Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      color: var(--light-gray);
+    }
+
+    .manifesto-quote {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--light-gray);
+      border-left: 4px solid var(--brand-yellow);
+      padding-left: 20px;
+      margin-top: 20px;
+    }
+
+    /* Brand Hierarchy Diagram */
+    .hierarchy {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    .hierarchy-diagram {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .hierarchy-level {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .hierarchy-node {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px 30px;
+      text-align: center;
+      position: relative;
+      min-width: 150px;
+    }
+
+    .hierarchy-node.primary {
+      background: var(--brand-brown);
+      color: var(--white);
+    }
+
+    .hierarchy-node.primary .node-name {
+      color: var(--brand-yellow);
+    }
+
+    .hierarchy-node.owned {
+      border: 3px solid var(--brand-yellow);
+    }
+
+    .hierarchy-node.partner {
+      border: 3px solid var(--brand-gold);
+    }
+
+    .hierarchy-node.client {
+      border: 3px solid var(--blue-accent);
+    }
+
+    .node-name {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 1.3rem;
+    }
+
+    .node-type {
+      font-size: 0.8rem;
+      color: var(--light-gray);
+      margin-top: 4px;
+    }
+
+    .hierarchy-node.primary .node-type {
+      color: var(--brand-gold);
+    }
+
+    .connector {
+      width: 2px;
+      height: 30px;
+      background: var(--brand-gold);
+      position: relative;
+    }
+
+    .connector::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: var(--brand-gold);
+    }
+
+    .hierarchy-legend {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+    }
+
+    .legend-dot {
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+    }
+
+    .legend-dot.owned { background: var(--brand-yellow); }
+    .legend-dot.partner { background: var(--brand-gold); }
+    .legend-dot.client { background: var(--blue-accent); }
+
+    /* Pillars Wheel */
+    .pillars-visual {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    .pillars-container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .pillars-wheel {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .wheel-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 120px;
+      height: 120px;
+      background: var(--brand-brown);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      z-index: 2;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .wheel-center-text {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      color: var(--brand-yellow);
+      line-height: 1.2;
+    }
+
+    .pillar-node {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      padding: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+    }
+
+    .pillar-node:hover {
+      transform: scale(1.1);
+    }
+
+    .pillar-node.critical {
+      background: var(--brand-yellow);
+      color: var(--brand-brown);
+    }
+
+    .pillar-node.active {
+      background: var(--blue-accent);
+      color: var(--white);
+    }
+
+    .pillar-node.new {
+      background: #4CAF50;
+      color: var(--white);
+    }
+
+    .pillar-node.explore {
+      background: var(--brand-gold);
+      color: var(--brand-brown);
+    }
+
+    .pillar-node.future {
+      background: var(--light-gray);
+      color: var(--white);
+    }
+
+    /* Position pillars in circle */
+    .pillar-node:nth-child(2) { top: 0; left: 50%; transform: translateX(-50%); }
+    .pillar-node:nth-child(3) { top: 10%; right: 5%; }
+    .pillar-node:nth-child(4) { top: 40%; right: -5%; }
+    .pillar-node:nth-child(5) { bottom: 10%; right: 5%; }
+    .pillar-node:nth-child(6) { bottom: 0; left: 50%; transform: translateX(-50%); }
+    .pillar-node:nth-child(7) { bottom: 10%; left: 5%; }
+    .pillar-node:nth-child(8) { top: 40%; left: -5%; }
+    .pillar-node:nth-child(9) { top: 10%; left: 5%; }
+
+    .pillars-legend {
+      flex: 1;
+    }
+
+    .pillar-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .pillar-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 15px;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .pillar-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .pillar-dot.critical { background: var(--brand-yellow); }
+    .pillar-dot.active { background: var(--blue-accent); }
+    .pillar-dot.new { background: #4CAF50; }
+    .pillar-dot.explore { background: var(--brand-gold); }
+    .pillar-dot.future { background: var(--light-gray); }
+
+    .pillar-name {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+    }
+
+    /* Pipeline Flow */
+    .pipeline-visual {
+      background: var(--brand-brown);
+      border-radius: 20px;
+      padding: 40px;
+      color: var(--white);
+    }
+
+    .pipeline-flow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .pipeline-stage {
+      flex: 1;
+      text-align: center;
+      padding: 30px 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      position: relative;
+    }
+
+    .pipeline-stage.done {
+      background: rgba(76, 175, 80, 0.2);
+      border: 2px solid #4CAF50;
+    }
+
+    .pipeline-stage.pending {
+      background: rgba(244, 67, 54, 0.2);
+      border: 2px solid #f44336;
+    }
+
+    .pipeline-stage.future {
+      opacity: 0.6;
+    }
+
+    .stage-icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .stage-number {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2.5rem;
+      color: var(--brand-yellow);
+    }
+
+    .stage-name {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .stage-status {
+      font-size: 0.8rem;
+      padding: 4px 12px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    .stage-status.done { background: #4CAF50; }
+    .stage-status.pending { background: #f44336; }
+    .stage-status.future { background: var(--light-gray); }
+
+    .pipeline-arrow {
+      font-size: 2rem;
+      color: var(--brand-gold);
+    }
+
+    /* Tech Stack Visual */
+    .tech-visual {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    .tech-diagram {
+      display: flex;
+      gap: 30px;
+      align-items: stretch;
+    }
+
+    .tech-block {
+      flex: 1;
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      position: relative;
+    }
+
+    .tech-block::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+      border-radius: 12px 12px 0 0;
+    }
+
+    .tech-block.client::before { background: var(--blue-accent); }
+    .tech-block.server::before { background: var(--brand-yellow); }
+    .tech-block.shared::before { background: var(--brand-gold); }
+
+    .tech-icon {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    .tech-title {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .tech-items {
+      text-align: left;
+    }
+
+    .tech-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 0.9rem;
+    }
+
+    .tech-item:last-child {
+      border-bottom: none;
+    }
+
+    .tech-key {
+      color: var(--light-gray);
+    }
+
+    .tech-value {
+      font-weight: 500;
+    }
+
+    /* SCALE Visual */
+    .scale-visual {
+      background: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-yellow) 100%);
+      border-radius: 20px;
+      padding: 40px;
+    }
+
+    .scale-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .scale-header h3 {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 2rem;
+      color: var(--brand-brown);
+    }
+
+    .scale-header p {
+      color: var(--brand-brown);
+      opacity: 0.7;
+    }
+
+    .scale-blocks {
+      display: flex;
+      gap: 15px;
+    }
+
+    .scale-block {
+      flex: 1;
+      background: var(--white);
+      border-radius: 12px;
+      padding: 25px 15px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .scale-letter {
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      font-size: 4rem;
+      color: var(--brand-brown);
+      line-height: 1;
+    }
+
+    .scale-word {
+      font-family: 'Oswald', Arial, sans-serif;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      color: var(--brand-brown);
+      margin: 10px 0;
+    }
+
+    .scale-desc {
+      font-size: 0.75rem;
+      color: var(--light-gray);
+    }
+
+    /* Colors Visual */
+    .colors-visual {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+
+    .colors-row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .color-block {
+      flex: 1;
+      height: 120px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 15px;
+      color: var(--white);
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    }
+
+    .color-block.brown { background: #342d2d; }
+    .color-block.gold { background: #ccba9d; color: var(--brand-brown); text-shadow: none; }
+    .color-block.yellow { background: #ffde59; color: var(--brand-brown); text-shadow: none; }
+    .color-block.blue { background: #2E91FC; }
+    .color-block.gray { background: #595959; }
+
+    .color-name {
+      font-family: 'Oswald', Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+
+    .color-hex {
+      font-family: monospace;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: var(--light-gray);
+    }
+
+    @media (max-width: 768px) {
+      .manifesto-visual,
+      .pillars-container,
+      .tech-diagram {
+        flex-direction: column;
+      }
+
+      .manifesto-circle,
+      .pillars-wheel {
+        margin: 0 auto;
+      }
+
+      .pipeline-flow {
+        flex-direction: column;
+      }
+
+      .pipeline-arrow {
+        transform: rotate(90deg);
+      }
+
+      .scale-blocks {
+        flex-wrap: wrap;
+      }
+
+      .scale-block {
+        flex: 1 1 45%;
+      }
+
+      .colors-row {
+        flex-wrap: wrap;
+      }
+
+      .color-block {
+        flex: 1 1 45%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="infographic">
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="logo"><span class="appy">Appy</span><span class="dave">Dave</span></div>
+        <h1 class="hero-title">AI Strategist &bull; Context Engineering</h1>
+        <p class="hero-tagline">Architecting knowledge, prompts, and AI interactions as strategic assets</p>
+      </div>
+    </header>
+
+    <!-- Manifesto -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">📜</div>
+        <h2 class="section-title">The 555 Manifesto</h2>
+      </div>
+      <div class="manifesto-visual">
+        <div class="manifesto-circle">
+          <div class="manifesto-inner">
+            <div class="big-num">555</div>
+            <div class="label">Videos Goal</div>
+          </div>
+        </div>
+        <div class="manifesto-stats">
+          <div class="stat-row">
+            <div class="stat-item">
+              <div class="stat-value">55</div>
+              <div class="stat-label">Weeks</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value">5</div>
+              <div class="stat-label">Channels</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value">600+</div>
+              <div class="stat-label">Created</div>
+            </div>
+          </div>
+          <blockquote class="manifesto-quote">
+            "Creating at scale without losing your soul"
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Hierarchy -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">🏢</div>
+        <h2 class="section-title">Brand Hierarchy</h2>
+      </div>
+      <div class="hierarchy">
+        <div class="hierarchy-diagram">
+          <div class="hierarchy-level">
+            <div class="hierarchy-node primary">
+              <div class="node-name">David Cruwys</div>
+              <div class="node-type">Umbrella Brand</div>
+            </div>
+          </div>
+          <div class="connector"></div>
+          <div class="hierarchy-level">
+            <div class="hierarchy-node owned">
+              <div class="node-name">AppyDave</div>
+              <div class="node-type">Primary Business</div>
+            </div>
+            <div class="hierarchy-node owned">
+              <div class="node-name">AITLDR</div>
+              <div class="node-type">Secondary Content</div>
+            </div>
+          </div>
+          <div class="connector"></div>
+          <div class="hierarchy-level">
+            <div class="hierarchy-node partner">
+              <div class="node-name">Beauty & Joy</div>
+              <div class="node-type">Partner</div>
+            </div>
+            <div class="hierarchy-node client">
+              <div class="node-name">SupportSignal</div>
+              <div class="node-type">Primary Client</div>
+            </div>
+            <div class="hierarchy-node client">
+              <div class="node-name">vOz</div>
+              <div class="node-type">Client</div>
+            </div>
+          </div>
+        </div>
+        <div class="hierarchy-legend">
+          <div class="legend-item">
+            <div class="legend-dot owned"></div>
+            <span>Owned</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot partner"></div>
+            <span>Partner</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot client"></div>
+            <span>Client</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Pillars Wheel -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">🎯</div>
+        <h2 class="section-title">10 Content Pillars</h2>
+      </div>
+      <div class="pillars-visual">
+        <div class="pillars-container">
+          <div class="pillars-wheel">
+            <div class="wheel-center">
+              <div class="wheel-center-text">Context<br>Engineering</div>
+            </div>
+            <div class="pillar-node critical">BMAD</div>
+            <div class="pillar-node active">Agent WF</div>
+            <div class="pillar-node critical">FliVideo</div>
+            <div class="pillar-node active">Storyline</div>
+            <div class="pillar-node explore">Klueless</div>
+            <div class="pillar-node future">Theodore</div>
+            <div class="pillar-node new">Joy Brand</div>
+            <div class="pillar-node new">Skool</div>
+          </div>
+          <div class="pillars-legend">
+            <div class="pillar-list">
+              <div class="pillar-item">
+                <div class="pillar-dot critical"></div>
+                <span class="pillar-name">BMAD Method</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot active"></div>
+                <span class="pillar-name">Agent Workflow</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot critical"></div>
+                <span class="pillar-name">FliVideo</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot active"></div>
+                <span class="pillar-name">Storyline App</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot explore"></div>
+                <span class="pillar-name">Klueless</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot future"></div>
+                <span class="pillar-name">Project Theodore</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot new"></div>
+                <span class="pillar-name">Beauty & Joy</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot new"></div>
+                <span class="pillar-name">Skool Community</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot new"></div>
+                <span class="pillar-name">Dent/KPI</span>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-dot critical"></div>
+                <span class="pillar-name">Context Eng. (Hub)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FliVideo Pipeline -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">🎬</div>
+        <h2 class="section-title">FliVideo Pipeline</h2>
+      </div>
+      <div class="pipeline-visual">
+        <div class="pipeline-flow">
+          <div class="pipeline-stage pending">
+            <div class="stage-icon">📋</div>
+            <div class="stage-number">01</div>
+            <div class="stage-name">Pre-production</div>
+            <span class="stage-status pending">Pending</span>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-stage done">
+            <div class="stage-icon">🎥</div>
+            <div class="stage-number">02</div>
+            <div class="stage-name">Recording</div>
+            <span class="stage-status done">Done</span>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-stage future">
+            <div class="stage-icon">✂️</div>
+            <div class="stage-number">03</div>
+            <div class="stage-name">Editing</div>
+            <span class="stage-status future">Future</span>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-stage done">
+            <div class="stage-icon">🚀</div>
+            <div class="stage-number">04</div>
+            <div class="stage-name">Publishing</div>
+            <span class="stage-status done">Done</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">⚙️</div>
+        <h2 class="section-title">FliVideo-Namer Stack</h2>
+      </div>
+      <div class="tech-visual">
+        <div class="tech-diagram">
+          <div class="tech-block client">
+            <div class="tech-icon">💻</div>
+            <h3 class="tech-title">Client</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <span class="tech-key">Framework</span>
+                <span class="tech-value">React 19</span>
+              </div>
+              <div class="tech-item">
+                <span class="tech-key">Build</span>
+                <span class="tech-value">Vite</span>
+              </div>
+              <div class="tech-item">
+                <span class="tech-key">CSS</span>
+                <span class="tech-value">Tailwind v4</span>
+              </div>
+            </div>
+          </div>
+          <div class="tech-block server">
+            <div class="tech-icon">🖥️</div>
+            <h3 class="tech-title">Server</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <span class="tech-key">Framework</span>
+                <span class="tech-value">Express</span>
+              </div>
+              <div class="tech-item">
+                <span class="tech-key">Realtime</span>
+                <span class="tech-value">Socket.io</span>
+              </div>
+              <div class="tech-item">
+                <span class="tech-key">Port</span>
+                <span class="tech-value">5101</span>
+              </div>
+            </div>
+          </div>
+          <div class="tech-block shared">
+            <div class="tech-icon">🔗</div>
+            <h3 class="tech-title">Shared</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <span class="tech-key">Types</span>
+                <span class="tech-value">TypeScript</span>
+              </div>
+              <div class="tech-item">
+                <span class="tech-key">Naming</span>
+                <span class="tech-value">Utilities</span>
+              </div>
+              <div class="tech-item">
+                <span class="tech-key">Paths</span>
+                <span class="tech-value">Helpers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colors -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">🎨</div>
+        <h2 class="section-title">Brand Colors</h2>
+      </div>
+      <div class="colors-visual">
+        <div class="colors-row">
+          <div class="color-block brown">
+            <div class="color-name">Brand Brown</div>
+            <div class="color-hex">#342d2d</div>
+          </div>
+          <div class="color-block gold">
+            <div class="color-name">Brand Gold</div>
+            <div class="color-hex">#ccba9d</div>
+          </div>
+          <div class="color-block yellow">
+            <div class="color-name">Brand Yellow</div>
+            <div class="color-hex">#ffde59</div>
+          </div>
+          <div class="color-block blue">
+            <div class="color-name">Blue Accent</div>
+            <div class="color-hex">#2E91FC</div>
+          </div>
+          <div class="color-block gray">
+            <div class="color-name">Light Gray</div>
+            <div class="color-hex">#595959</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S.C.A.L.E. -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">📈</div>
+        <h2 class="section-title">Legacy Framework</h2>
+      </div>
+      <div class="scale-visual">
+        <div class="scale-header">
+          <h3>The S.C.A.L.E. System</h3>
+          <p>Originated in automation era, informs Context Engineering</p>
+        </div>
+        <div class="scale-blocks">
+          <div class="scale-block">
+            <div class="scale-letter">S</div>
+            <div class="scale-word">Structured Prompts</div>
+            <div class="scale-desc">Prompt engineering & reusable assets</div>
+          </div>
+          <div class="scale-block">
+            <div class="scale-letter">C</div>
+            <div class="scale-word">Crafting Workflows</div>
+            <div class="scale-desc">Design → Configure → Implement</div>
+          </div>
+          <div class="scale-block">
+            <div class="scale-letter">A</div>
+            <div class="scale-word">Agent Design</div>
+            <div class="scale-desc">Human-in-the-loop interfaces</div>
+          </div>
+          <div class="scale-block">
+            <div class="scale-letter">L</div>
+            <div class="scale-word">Low-Code Stack</div>
+            <div class="scale-desc">Tool integration & automation</div>
+          </div>
+          <div class="scale-block">
+            <div class="scale-letter">E</div>
+            <div class="scale-word">Empowerment</div>
+            <div class="scale-desc">Scaling influence & operations</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Visual Infographic &bull; Generated: December 4, 2025</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

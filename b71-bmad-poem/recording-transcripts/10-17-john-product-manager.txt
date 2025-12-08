@@ -1,0 +1,9 @@
+So, just answering four of the questions and we're letting it use the latest version of
+Astro.
+When it works with helpers, they should eager load because the performance won't matter
+because this is a startup sequence for the Astro server.
+Now, I don't know how the providers are going to work, but I'm assuming it's going to be
+an interface specification, so I've just put that in place.
+And the same thing with the schema, I don't know much about whether I want to use Zod
+or some sort of type checking, but for now it's just going to be a simple JSON document,
+so we'll let that go through.

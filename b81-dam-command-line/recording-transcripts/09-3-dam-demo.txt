@@ -1,0 +1,3 @@
+Next, we can look at the active projects within any brand, so we'll put in AD, that's the
+code for AppyDave, and that will start finding the folders and the status of where they're
+at on my computer, there's also a detailed option with this one.

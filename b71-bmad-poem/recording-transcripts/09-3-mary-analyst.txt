@@ -1,0 +1,14 @@
+So we've just hit the end of the business analyst phase and you can see
+that there's a whole lot of planning documents being referenced. If you want
+to go into detail on any of them they are in the repository also in my skill
+community I do a video on each of these. Now it's also referencing second brains
+on my system we've got an SDK here from Anthropic otherwise we've got other
+documentation otherwise it's other documentation that I've compiled on both
+BMAD and ClaudeSkills. It's interesting it understands the three stakeholders so
+it's got me as the project lead then it's got the primary user which is Angela who
+does a lot of the prompt engineering on support signal and lastly we've got Vos
+who does a lot of movie making and storytelling and he'll be using this
+for creative projects and lastly we've got references to external libraries and
+systems that we need to be able to call on during the build phase. So that's a
+review done what we can do next is move on to the project brief and that'll and
+what we can do now is move on to the project manager and creating the PRD.

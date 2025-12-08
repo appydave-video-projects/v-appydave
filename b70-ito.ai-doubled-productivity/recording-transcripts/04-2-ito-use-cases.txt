@@ -1,0 +1,8 @@
+Now, the next criteria is extensibility, and what's great about this is it's a GitHub repo.
+What that means is that all the code for this tool is available, you can download it, they've
+got instructions on how to use it, including a video, they've got all the instructions
+for getting it compiling on your computer, plus a bunch of communication flow and keyboard
+shortcuts that you can work with.
+And what this means is that if you want to use it, and what this means is that if you
+want data privacy, or if you want to integrate it into any of your own applications, it becomes
+really easy to do.

@@ -1,0 +1,10 @@
+So that brings us to the end and what we've been able to do is build this
+complete application just with natural language prompts and we did that using
+context engineering that's with the BMAD method and the backend system that
+we've built is using the Claude agent SDK so this is giving us all the power
+of Claude code within our own web applications so the demonstrations we
+did was that we were able to create HTML pages, JSON documents, CSS files, make sure
+all the links go from page to page. Now all the code is available you can check
+it out in the repo you can check it out in the repository and if you want to
+join the community we have more of a discussion and teachings each day on
+prompt engineering

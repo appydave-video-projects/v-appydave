@@ -1,0 +1,9 @@
+So I think for the next video we'll continue the Opus 4.5 and what we'll do
+is we'll come over to the system where the different recordings get combined
+into one video and at that point we use a digital asset management system that
+we've built and we'll integrate it into this. And what that's planning to do is
+take these files that are basically local to my computer at the moment and
+make them available in S3 drives, also Glacier and also NAS, a network
+addressable storage system in another country. So that's the progress we want
+to start on in the next video. I'm Happy Dave. I'm Happy Dave. Please like and
+subscribe. I'll see you in the next video.

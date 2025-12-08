@@ -1,0 +1,19 @@
+So the three articles we've got, Golden Age of Reading, Building Your Personal
+Library and we've got Philosophy in Pages. Let's go and add another blog post to
+the blog post Jason. With that happening it should just automatically add it to
+the HTML. It's in the middle of writing and what do we got, Creating Your Home
+Library and we have Creating Your Home Library. So at that point it might be
+good to think about it's coming up to Christmas. Can we have a design that
+makes sense? So we'll apply a Christmas styling to the product CSS with snow,
+fall, animation, red, green colors and festive red green colors. So that's
+about to come through and it's started to come through. There's a couple of
+bugs. There's styling bugs and we can't currently click on the blog post. So
+here's our Christmas theme. We've got some tinsel coming through. If we go
+through to the products we can see similar stuff happening here. There's a
+little bit of a delay. If we go over to the blog, if we go over to the, if we go
+over to the blog we can see the tinsel coming through here. One thing you might
+notice though is that there were a number of attempts to get this working.
+So we started with apply Christmas styling to the product CSS and had to
+follow it up with five different prompts to get it working across all the
+different pages. It had a recommendation to go with scalable vector graphics so
+that was the recommendation we went through.

@@ -1,0 +1,174 @@
+So the create project brief is going to read from our project reference and what
+it does is it uses commands like the create doc which is based on a template
+already in the BMAD core and for this we're going to work in the interactive
+mode so we'll just press 1. YOLO would be the fast way to do it and with my
+project documentation it could just work out perfectly but I want to be pretty
+sure with this. So notice that the output file is going to be docs brief and we
+can see that it's working through many to-dos currently it's written the
+executive summary for it and I've read it through it's all pretty perfect I
+think the target market says it all it's developers learning AI agent
+integration and self-modifying systems it's for technical educators that's
+what I do where I want to generate systems that are a bit flexible and
+dynamic pretty quickly that's also rapid prototyping that's what we're doing
+today and then we've got the BMAD method practitioners now one thing is to know
+that I'll be testing this with version 6 BMAD and maybe other systems as well in
+the future if there is anything you want me to test it with just let me know and
+if there is anything you want me to test it with let me know in the comments
+below but for now we'll just proceed to the next section and the good thing is
+it started writing the briefs and the good thing is it started writing the
+brief and the good thing is it started writing the brief so we'll just bring up
+Visual Studio and click on this file here and so as it goes we can keep track
+of what's going on the left-hand side but let's take a look at this problem
+but let's have a look at this problem statement that it's come up with so
+reading through the problem statement everything's pretty good one of the
+things I notice is the database this is where this application will be a little
+different to a lot of applications it won't have a database instead it's just
+going to have JSON documents JSOM they're going to be stored in the server
+and for saving them it's just going to be committed to a repository now this is
+not a normal application that you would run in the cloud I guess but for me it
+helps me create high-performing but for me it allows me to rapidly create tools
+that I use locally on my computer through a web interface so I think we
+can just move on to the next section and what it will start doing is writing an
+updated brief we should see it pop in below it's updating so we can see a
+whole new green section and here it is listed in the markdown document now if
+there was anything out of whack with it rather than using Claude to change it
+you might just manually come in and alter the document here to have any
+rectify to rectify any flaws that you notice it's important that you do
+rectify it's important also that you do rectify flaws because these propagate
+through if you fix it now you have less issues in the future so the next area
+we're going to work on is the proposed solution section so it's written the
+proposed solution if we go over and have a look we can see that it's going
+to use an express JavaScript server embedded into it will be a Claude
+agent SDK backend some of the tools that we'll have is the ability to read and
+write JSON files and also to write HTML files the main front-end technology is
+that we'll use react with socket IO so that we can stream information live and
+we're going to use be mad method version 4 to integrate everything there's also a
+little note there's also a little note here about using shad CN for the user
+interface we might also use the first cell AI elements now now the backend is
+meant to be simple just about 200 lines of code and one of the key requirements
+is that I can just use it with my max account from Claude I don't need to go
+and pay any API costs with this particular tool now while that's been
+happening in the background it's been setting up the target users we'll get
+it to start writing that brief for us once it's done the target users section
+it should move on automatically to the goals and success metrics all I've had
+to do each time is basically say the next number for it to save the file so
+the target users have been updated it should go directly into the next area
+but if we have a look at the target users we can see that it's a learning
+system for developers but I would argue that this is for anyone that wants to
+learn vibe engineering so context engineering but I would argue that it's
+for anyone that wants to learn context engineering which is partly about
+building applications but it's about building any system in a business or in
+your personal workflows this is also an area that you could pull out at because
+I think anyone should be able to learn this one of the things about what we're
+doing is that we're not writing any code ourselves everything is just
+understanding a little bit of architecture following a plan and using
+natural language processes the entire way so now it's about to create the
+goals and success metrics we've already written all the target user information
+it reads the brief each time it does what it needs to do and then writes the
+brief again and you might be wondering what does it need to do how does it know
+to do that and this is just one of the internal mechanisms of the BMAD method
+so now the KPIs or the key performance indicators have been updated we can go
+look at it while we move on to the next section one of the things I would
+suggest is in this case they're not that useful for me I don't really care about
+these numbers here thousand developers clone or fork the repository not
+important to me content amplification if people use it I'd be really happy about
+that I guess if anything was important is that people are using a sound content
+engineering system which is BMAD method and that I'm being seen as a thought
+leader in this particular area but this is but quite frankly this section is a
+bit of fluff today for us but the next area is really important and this is the
+minimum viable product and so as a must-have it's working on the idea of it
+having three epics now this is not normal by the way this is not the normal
+area to put in epics usually we do that after we've done the architecture and the
+PRD and it comes later but I put this specifically into my planning documents
+because I'm thinking of this as a simple application with three different areas
+that we need to do we need a foundation that's the server the client it just
+needs to be set up after that the back end is the main area that we want to
+work on and it's fairly simple I want it to be quite small and contained I've
+already documented the concept I've already documented the concept of a core
+event loop I've already documented the concept of a core event loop this is the
+main thing that I want it to do whether it be in Python or JavaScript is kind of
+irrelevant I've written it in what is domain specific language basically human
+readable information so for epic 2 which is the Claude agent SDK
+implementation I want it to be very simple and what I've done ahead of time
+now for the Claude agent SDK implementation I've already done what's
+called a core loop or the event loop documentation and essentially this is
+just a human readable list it's not written in a specific coding language it
+should work no matter what target language this system is built for now
+we are going for JavaScript and hopefully that'll translate pretty
+readily and then the third area is that we're going to have a beautiful user
+interface so this is basically using the Vercel and ShadCN and Tailwind CSS
+and just getting it to talk to the backend with streams and as that
+information hits the SDK perform any data creation or web page designs as we
+go and the next section of the MVP is what not to do so we don't need a
+database we don't need multi-tenancy multi-user we don't need authentication
+or authorization we don't need model context protocol good thing about using
+BMAD is that I've used it for enterprise applications really effectively so it
+can do all of these but we're keeping it out of the example so after that we're
+going to build the post MVP or the post minimum viable product vision and we can
+see that it's already come up with most of that it's got different tools that
+we might want to add later on and additional areas like multi-agent
+workflows production release now quite frankly I could maybe delete all of this
+and be happy because I'm not planning to go further with this particular project
+it's going to be the foundation for other tools that you'll see me creating
+using the BMAD method so it's gone off and now thought about the technical
+considerations they've all been set up it feels that we need to use react
+version 19 and if we look at it in the markdown it's TypeScript and Vite, ShadCN,
+UI, Tailwind, CSS and socket IO client this is all for the front end if we look
+a bit further we've got the back end which is an express server we've got an
+installation of the agent SDK planned we're going to communicate between the
+two systems with socket IO and we're running it on node for our database it's
+just going to be some JSON documents in the data directory future we could use
+a database if we like and the hosting is it's just planned to run on localhost
+so with that we can go and look at the next section it's currently working on
+the constraints and assumptions so this was a big thing for me is it going to
+cost me anything no I want it to hook into my max account and that should be
+how it works developer time 40 to 60 hours for the MVP I don't think that's
+accurate hopefully this is only going to be a three hour process at most it'll
+just be made by me let's look at those key assumptions so Claude SDK BMAD
+version 4 a bit of fluff in here but from a technology point of view
+everything is pretty tried and tested the next area it's working on is the
+risk and open questions we'll read that in a moment but notice that I just keep
+moving on to the next section while this is working away so we can see here it's
+about to update the document and there it is it'll be moving on to the
+appendices system but let's go and look at the risk and open questions and this
+is really useful I've never done the agent SDK so it is a dependency with
+high risk for me when I'm doing this video the constraint I think that the
+statement here could be true but I don't think it matters it's not a it's not
+that I have to do it in 200 lines of code it's just that I don't want it to be
+complex that's kind of why I'm doing the constraint I will talk about this
+section briefly I took out a section called the BMAD quality gates what I
+wanted to have happen is that rather than pure vibe coding where the user says
+I would like a new home page I wanted it to actually create a BMAD story on the
+back end now I think for this demonstration it's maybe a reach goal
+maybe we'll do it but this would be a really powerful idea that users could
+just sit on the front end and say I want a new capability and BMAD at the other
+end hears that and says well let me create a story for you and then the
+developer can go off and create it but for today I've taken it out so we're at
+the final stages we're about to build the appendices and it says we've got
+content information about the SDK BMAD version 4 we've got our technology
+stack validation in place we've got a competitive analysis now interestingly
+with that competitive analysis it we haven't written anything per se and
+interestingly with that competitive analysis it hasn't really done one we've
+got a little bit of information so let's compare what we're doing to what's out
+there now if you don't ever want to get your hands dirty with code these are two
+that you could use bubble and web flow work in a low code system it's all drag
+and drop this is pretty good but I like having a little bit of control of the
+stack we can use different AI coding assistance like copilot and cursor but
+since I found Claude code I see no reason to go back to these IDE based
+systems I do like using codecs I do like using Claude code a lot so that's where
+we're staying then we've got agent framework so these are low-level AI
+language there's a low-level AI library so we've got Lang chain auto GPT this is
+more complex than we need to do for what this application is and I'm assuming
+that this will be the very first example of doing Claude SDK with BMAD because
+it's quite a new framework itself so as the rest of the BMAD workflow is
+happening there's also links to various files that I've created plus external
+resources so that's the docs brief finish you notice it's now saying to go
+on to the next agent it's got everything written what we're going to
+do is exit out because what I'd like to do is have a clean context the next time
+we start but while we're looking at that let's just see what that last section
+was so we've got the next step immediate action is we're going to create the
+product requirements document we're going to do that by loading the project
+manager agent and running the create PRD command let's also look at what
+we've got in our system so everything that you see on the left in planning is
+stuff I've done ahead of time so the only one document we have in the system
+specifically created by BMAD is the brief so next step create

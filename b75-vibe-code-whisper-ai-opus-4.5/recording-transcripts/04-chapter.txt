@@ -1,0 +1,132 @@
+--- 04-1-implement-feature ---
+
+So I'm coming over to our product owner and I just want to check what functional requirements
+we have that are pending.
+There are a lot that are being done.
+And so he's reading from the backlog at the moment.
+And some of this may need to be cleaned up.
+I'm not sure whether they're being done or not.
+I've just been keeping them in the backlog.
+But the one we're interested in today is FR-30.
+And the first thing that we're going to do is ask it, can you create a handover document
+for the developer for FR-30, which is the video transcription requirements?
+And what we're doing is we're just letting that go into the conversation stream.
+And because this document and because this conversation should only be about reading,
+writing, and validating the requirements, when information needs to go to the developer,
+we give handover notes.
+You can see that one of the main documents that the PO was reading was this video transcription
+spec.
+This was a short conversation I had just before starting this video.
+Now we will go and read the video transcription spec in a moment.
+But this is essentially the handover document.
+And what we can do is just go up to the developer and say, can you implement something like
+that?
+And we'll just paste in that particular information.
+Now what should happen is the developer should start writing the code for us following the
+specification.
+
+--- 04-2-implement-feature ---
+
+So the development has started there's quite a lot of actions that are going to
+take place let's just go over and have a look at the documentation over here and
+we can see that we've got the video transcription specification we've got
+the current problem or we've got the problem statement which is the current
+problem is that and we've got the problem statement listed which is that
+we record a video we rename it in the app later we run a transcription manually
+now I end up doing it on the full video the idea now is that as we're recording
+individual videos we should just be able to create transcriptions directly in
+transcripts folder and I've got a list of where they're going to be so
+currently recordings either go into the recordings directory or once they're
+safe and I think this is good I'll move them into the safe directory and I just
+want to keep whatever recordings are in either directory I want the transcripts
+to be here now the capability should happen automatically whenever a new
+recording is added to the system and we've got a little bit of a UI design
+guide going on here so currently where we see the movie files and we can see
+the size of the video in seconds we can see the size of any megabytes we should
+now be able to see no transcript or transcribing or let's go and view or
+open it now from time to time we'll just jump over and see what the now from
+time to time we'll just jump over and see where the developments up to so it's
+got through four different areas it's still working its way through we'll come
+back to our documentation and so we're also planning to have a transcriptions
+live logged view so we should be able to see it we should also be able to see
+anything that might have failed now I don't have any retry capability in this
+feature if I need it later we'll add it but we can see how the engines going to
+work so I'm not actually trying to integrate any libraries I'm just using a
+little command line tool that I already use for my transcriptions later on I
+might use ito AI and I've got a video in and I've got a recent video on ito it's
+a voice agent system and I've got access to the open source code base and I would
+love to integrate this into that but that's a future job and it's also
+written and it's also written all the instructions for the developer it's
+basically read the code base before writing the requirements document so
+this has a lot of similarity to work it would be mad or spec it just get back
+over and look at the code we've gone through another four items so we're
+nearly to the end of this and we'll come back and we can see that so we'll come
+back to our documentation and see that there's an API design in place to list
+the transcriptions but also to probably update the transcriptions going through
+here now also point out that this wasn't the document I gave the developer this
+is the document that has suspects the document I gave was the handover notes
+and the handover notes were just written on the spot to say you can find the
+information in the video transcription and this is the basic ideas that you
+need to work through now this is quite redundant but this was not done in a
+live conversation usually I do it in a live conversation and we only get a
+little bit of information pointing to the original specs so we'll just come
+back to the coding session there's been plenty of stuff going on here notice
+I'm not really reading the code when I'm using be mad what I'm usually doing is
+just context engineering it's all software architecture documents and when
+things go wrong what I like to do is either build agents or patterns or any
+patterns or principles or other sorts of documents that solve the problem and
+that might go against what a lot of developers think they should do but I
+believe that the way agents are going in the world at the moment that within a
+year on within a year from now so long as you're doing the right documentation
+they'll do the right coding for you
+
+--- 04-3-implement-feature ---
+
+Now we're just to the end it's just happened right now and I had noticed
+that there were already changes so we've got this concept called transcripts
+let's see what happens when we click on that and we've got a looks like it's
+already doing a video that I've sent through let's see which one it is this
+is 042 we'll just go over to our recordings it'll be down the bottom and
+it is transcribed look at that this is just working I haven't even gone to
+test this we've got a 208 megabyte file this is pretty long recording I just did
+I think it was about four minutes and I wonder what happens when we look at the
+transcripts here while it's doing that I think we'll head over to the actual
+video we'll head over to the development and read through what it's implemented
+so the summary is that it's going to use my local whisper AI command line tool
+it's going to wait till a file is renamed into the recordings directory at
+which point it's going to start the transcription which is what
+
+--- 04-4-implement-feature ---
+
+So we can see the backend changes. There's just a bunch of entries. I'm not
+bothering to read the code. We've got the front-end entries going on. We have
+three new files. So we've got the transcriptions routes, we've got the
+transcriptions page, and we've got some sort of transcriptions modal dialog. I'm
+just going to go over to the web page. We've also got a little link. This
+should actually open up in Finder. So we'll go to Finder for a moment. And that
+opened up automatically. We've got a transcript. Look at that, it's just finished
+by the way. And I can see that because if I go over to the transcriptions, we've
+got it listed. Let's see what happens if we click view. So the development has
+started. So there's everything I said in that particular video. Might be nice if
+we had some sizes of the videos. Now one of the other things that happened while
+I was recording it is that eCAM stopped and we got a new video. So what I'm
+going to do is run a rename on this. This will become sequence three in the
+implementing of the feature. That's what we're doing right now. It's a smaller
+video, one minute and eight seconds long. We'll hit rename. So that should then
+head over to transcripts. And there it is. We've got the one that we were doing
+and now we've got a new one. And we can see the actual command line running. And
+we can see the actual whisper AI running from the command line. It's whisper
+transcribe.py. I don't think we saw that before. I'm kind of wondering whether the
+capability was added while we were looking at the screen. But what this will
+allow us to do is see if we can run two at the same time. So the way we do that
+is I will stop the video and I'm using a stream deck pedal to do that. And then I
+will restart straight away. And what should happen is that the new video
+should come in here. So let's stop it.
+
+--- 04-5-implement-feature ---
+
+and now what we're doing and now what we're doing is restarting it and there it is and we will do a
+rename and now if we go over to our transcripts hopefully we've got two being processed so we got
+one being queued which is chapter four sequence four and we're currently processing chapter four
+sequence three and look at that it's done so this is all just we can just line up video after video
+and they'll just transcribe on the fly as we go

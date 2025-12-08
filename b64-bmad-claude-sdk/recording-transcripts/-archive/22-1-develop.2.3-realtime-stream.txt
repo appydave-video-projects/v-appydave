@@ -1,0 +1,4 @@
+Now I've just implemented 2.3 which is real-time streaming and one of the
+interesting things is I was also able to create a BMAD workflow to do all the
+work for me in one sequential flow. We'll look at that in a moment but for now
+let's just test it out.

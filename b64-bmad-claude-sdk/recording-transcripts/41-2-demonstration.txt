@@ -1,0 +1,14 @@
+So we go and add a few more products and if we pop up the website hopefully
+we're going to see it dynamically load because of the socket connection which
+means that any updates on the server will automatically come through to the
+client we're seeing that right there. If we don't like the style we can ask for
+it to create a product CSS file. This is going to go with a professional blue and
+gold color scheme. Now this probably won't update the HTML because we're
+only asking for it to create the CSS at the moment and nothing has updated so
+we'll just say update the products HTML so it uses the CSS. While we're doing
+that we'll have a look at what it's created so we've got a bunch of CSS
+created right here and it's just started writing the file and a refresh is
+showing the blue and gold coming through on the website. Now there's a little
+homepage if we click on that we're going to get a file not found. So what
+we'll do is we'll come back to our chat client and put in create a HTML file.
+This is the index we also want to feature a few products on the front page.

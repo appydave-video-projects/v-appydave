@@ -1,0 +1,8 @@
+So now it's just analyzing whether the PRD is ready. We've got 92% completion in
+its opinion. It's ready for architecture so we could move on to that soon. It's
+listing an analysis of all the different categories and whether they're a pass
+or something that we potentially need to go and look at. And the two that are
+listed make a lot of sense not to be fully done because I don't really know
+how I want the user interface in the Astro application to work. It's not
+primarily the main thing of this project just yet and the integration with
+providers will need to wait till we have providers to integrate with.

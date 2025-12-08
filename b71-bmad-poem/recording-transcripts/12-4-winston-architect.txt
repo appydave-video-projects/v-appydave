@@ -1,0 +1,16 @@
+So we come back to our conversation the next thing it gave us was a mermaid
+diagram so we've got a high level design document so we'll do the same thing and
+we'll just visualize that and we can see that the user environment is that it's
+planned to work within a coding agent like Claude could be used in is that
+it's planned to be used in a coding agent like Claude it could be used in
+the IDE or the terminal it's planned to be used in Claude code but we could use
+it with Codex or I have got a plan to be working within Claude code but maybe it
+can be used in Codex or Gemini as well it's an IDE terminal based system
+anyway so we've got the different agents that we've planned the prompt engineer
+system agent and integration agent later on less definition on this we got the
+mock data agent we've got some workflows defined we've got some skills
+and it's the skills that currently would limit it to Claude code because that's
+a because that's an anthropic concept and then we've got the knowledge base so
+anything I'm learning about prompt engineering gets stored into best
+practices then we've got the runtime this is all going to run out of the
+home app got the astro handlebars custom helpers and the rest API's

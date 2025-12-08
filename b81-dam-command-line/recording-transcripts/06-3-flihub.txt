@@ -1,0 +1,17 @@
+So, once the recording has had time to transcribe, we've got access to it, we can copy it to
+the clipboard, we can open it up in the folder, and over time we'll have other buttons that
+will allow us to generate movies automatically.
+So let me just show you three seconds of a movie and then we'll show you what we could
+do with this sort of text.
+...are forged in the fires of the YouTube battlefield.
+Only the strongest, the most persistent, the most clickbait driven warriors will survive.
+So that video that you just watched was a advertisement...
+So that video that you just watched was based on a...
+So that video that you just watched was based off a Hollywood trailer that I'd done a year
+and a half ago, but the one that you're watching now is more of a five minute movie that it's
+one of the biggest we've done so far and we're working through bigger ones in the future.
+And what you can see here is that we've got character consistency, scene consistency,
+animations, and everything that you're looking at is all done using prompt engineering based
+off the transcripts and various style guides, and then we run it through the various image
+and animation generators.
+But most of the work for this is done with another tool that I've built called the Storyline App.

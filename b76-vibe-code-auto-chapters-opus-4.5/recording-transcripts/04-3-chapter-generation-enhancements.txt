@@ -1,0 +1,4 @@
+Now having access to the video and the SRT file is what's allowing us to see the actual chapters.
+But they don't just show up, what happens is they get extracted on the fly.
+So if we click here, we'll see the extraction happen.
+And it's basically doing a calculation, in this case, over a two hour video.

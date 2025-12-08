@@ -1,0 +1,2 @@
+And the command we want to run is the create product brief now
+I'm also going to put in planning and make sure we're pointing to the right folder and we'll press enter on that

@@ -1,0 +1,10 @@
+Now, an example of another timestamp might be what I just showed, which is the scenario.
+So what I might do here is create a new chapter, and this is going to be for the two files
+that we've recorded, and it's Chapter 2, Sequence 1, and we'll put in scenario, and we'll make
+sure that the first file has gone over.
+We will not delete the other one because we want that one to go over as well.
+So now what's happening is we've got two more recordings, and we've got two transitions,
+and we've got two transcriptions getting ready to be transcribed.
+And when they're all finished, what will end up happening is we'll be able to see the individual
+transcriptions here, and soon we'll also have a combine button for these two once they're
+transcribed, and we'll be able to see the full chapter transcription.

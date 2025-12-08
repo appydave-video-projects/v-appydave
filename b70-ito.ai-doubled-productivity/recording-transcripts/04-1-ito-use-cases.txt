@@ -1,0 +1,6 @@
+So I'm going to talk about ITO from four points of view, general access, extensibility, voice
+dictation and voice agents.
+Now the first one is general access and the great thing is that for most people this is
+a free product.
+Now they do have Pro and Enterprise coming but it's an open source project so you can
+download it, it's really easy to install, it's really easy to use.

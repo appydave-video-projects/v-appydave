@@ -1,0 +1,12 @@
+And so to see where this is all going to be I've decided it's going to be in the
+projects directory. Now we're currently working on this chapters video at the
+moment and we can see already that we have three chapters because I just
+started a third one. We're up to six recordings but we've only got 83% of the
+transcriptions in place and that's because one of them is in the middle of
+transcribing right now. Now I've also got this little info button and what this is
+designed to do is tell us a lot of metadata about the video we're on. We can
+see that it was edited a minute ago, we've got the recordings, we've got the
+chapters, we can just see that that just increased to 100% so that's done but
+what we don't see is a list of the broken down chapters and the reality is
+we can't do it right now with this video because we don't have an SRT file of the
+final video.

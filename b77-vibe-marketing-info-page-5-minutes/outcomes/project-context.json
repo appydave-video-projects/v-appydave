@@ -1,0 +1,177 @@
+{
+  "owner": {
+    "name": "David Cruwys",
+    "alias": "AppyDave",
+    "role": "Project Manager / CEO"
+  },
+  "brands": {
+    "owned": [
+      {
+        "name": "David Cruwys",
+        "type": "personal",
+        "description": "Personal/umbrella brand"
+      },
+      {
+        "name": "AppyDave",
+        "type": "business",
+        "primary": true,
+        "focus": ["Context Engineering", "BMAD Method"],
+        "location": "/appydave-brand/"
+      },
+      {
+        "name": "AITLDR",
+        "type": "content",
+        "focus": ["AI graphics", "animations", "storytelling", "avatars", "faceless YouTube"],
+        "operators": {
+          "run_by": "Mary",
+          "owned_by": ["David", "Daniel"]
+        }
+      },
+      {
+        "name": "Beauty & Joy",
+        "type": "personal",
+        "owner": "Joy",
+        "location": "/beauty-and-joy/"
+      }
+    ],
+    "clients": [
+      {
+        "name": "SupportSignal",
+        "type": "NDIS application",
+        "status": "primary client",
+        "shortcut": "jss-app"
+      },
+      {
+        "name": "vOz",
+        "type": "creative content",
+        "client": "Vasilios Kapenekas"
+      }
+    ]
+  },
+  "project": {
+    "name": "FliVideo",
+    "type": "Video Asset Management (VAM)",
+    "target_audience": "YouTube content creators",
+    "location": "/flivideo/",
+    "content_pillar": true,
+    "priority": "critical",
+    "stages": [
+      {
+        "number": 1,
+        "name": "Pre-production",
+        "description": "Planning stage",
+        "status": "not implemented"
+      },
+      {
+        "number": 2,
+        "name": "Recording",
+        "description": "File management during recording sessions",
+        "status": "active",
+        "application": "flivideo-namer"
+      },
+      {
+        "number": 3,
+        "name": "Editing",
+        "description": "Editor brief generation",
+        "status": "future"
+      },
+      {
+        "number": 4,
+        "name": "Publishing",
+        "description": "AI-powered publishing automation",
+        "status": "implemented",
+        "location": "agent-workflow-builder"
+      }
+    ],
+    "application": {
+      "name": "flivideo-namer",
+      "location": "/flivideo-namer/",
+      "type": "TypeScript monorepo",
+      "stack": {
+        "client": ["React 19", "Vite", "TailwindCSS v4"],
+        "server": ["Express", "Socket.io", "chokidar"],
+        "shared": ["TypeScript"]
+      },
+      "ports": {
+        "server": 5101,
+        "client": "Vite dev server"
+      },
+      "features": [
+        "Real-time file watching",
+        "Recording naming/organization",
+        "Image asset management",
+        "YouTube thumbnail management",
+        "Project-based organization"
+      ],
+      "naming_convention": {
+        "recordings": "{chapter}-{sequence}-{name}-{tags}.mov",
+        "images": "{chapter}-{seq}-{imgOrder}{variant}-{label}.{ext}",
+        "example": "10-5-intro-CTA.mov"
+      }
+    },
+    "team": {
+      "structure": "AI-assisted workflow",
+      "members": [
+        {
+          "role": "Project Manager",
+          "name": "David",
+          "type": "human"
+        },
+        {
+          "role": "Product Owner",
+          "command": "/po",
+          "type": "Claude agent",
+          "responsibility": "Requirements & documentation"
+        },
+        {
+          "role": "Developer",
+          "command": "/dev",
+          "type": "Claude agent",
+          "responsibility": "Implementation"
+        }
+      ]
+    }
+  },
+  "content_pillars": {
+    "critical": [
+      "BMAD Method",
+      "Agent Workflow Builder",
+      "FliVideo",
+      "Storyline App",
+      "Skool Community Building",
+      "Dent/KPI Systems"
+    ],
+    "exploration": [
+      "Klueless",
+      "Project Theodore",
+      "Prompt Engineering"
+    ]
+  },
+  "related_products": [
+    {
+      "name": "Storyline App",
+      "description": "Video storyline tool",
+      "location": "/storyline-app/"
+    },
+    {
+      "name": "Agent Workflow Builder",
+      "description": "Multi-agent system",
+      "location": "/agent-workflow-builder/"
+    },
+    {
+      "name": "AppyDave Tools",
+      "description": "YouTube CLI tools",
+      "location": "/appydave-tools/"
+    },
+    {
+      "name": "Klueless",
+      "description": "DSL for LLMs",
+      "location": "/klueless/"
+    },
+    {
+      "name": "AppyDave App-a-Day",
+      "description": "Daily app experiments",
+      "location": "/appydave-app-a-day/"
+    }
+  ]
+}

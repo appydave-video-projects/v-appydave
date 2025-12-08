@@ -1,0 +1,24 @@
+Now one of the things that you might have also noticed looking at that last
+screen is that the visuals in the video have suddenly started to get a little
+bit better and the reason for that is that I'm actively using Pome even though
+I haven't built the Pome system right now. So the two systems that were
+built and so the two visuals that were built in the last half an hour this one
+and the one we saw a little bit earlier right here we're all done from one shot
+prompts and another one that I've got in place is this another one I've got in
+place and another one that I've got in place is a branding system so this up
+here has generally been the branding system I've been using in the past and
+I'm in the middle of and I'm in the middle of testing out a little bit of a
+change in style and these are just ideas that I'm playing around with and
+the way I've done it is built a bunch of little components and as I move left and
+right I can see different components how they could look but the actual two but
+the two that you've just seen they're done directly from a prompt let's go
+have a look at that and all of this is just one of the experiments that I'm
+doing so if we come back and have a look at the prompt we used for this we can go
+down to this terminal screen we can go down to this terminal screen and you can
+see that it's written out the file it is a one-shot prompt if we move up all I
+did was gave it a little bit of information that we had from be mad and
+one thing you didn't see in the be mad prompt was I'd also asked it what the
+name of the architect was so I'd forgotten and said it's Winston and so
+all up it created this really beautiful summary it's a transition we know where
+we're going next and this is one of the primary goals that I'm trying to deal
+with with using the poem framework

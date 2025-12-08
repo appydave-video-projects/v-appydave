@@ -1,0 +1,2 @@
+Now, what we're building today is this self-editing application.
+We're going to use the Claude Agent SDK and the BMAD method.

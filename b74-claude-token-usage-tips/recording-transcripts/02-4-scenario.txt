@@ -1,0 +1,6 @@
+Now I had a basic idea of why it was happening and it's because I've moved
+the way I do the terminal communication to a multi-agent workflow. So over here
+I've got a product owner and this is just dealing with requirements and
+communication handoff to the developer. I've then got a main development window
+that I would be working on for a bigger feature but while that's happening I'll
+come down and kick off another developer here, more to work on little bug fixes that I notice and while the main developer is doing a big feature I'll be going backwards and forwards between these two windows or I might even pop down to this bottom window where I might have a little bit of an information or brainstorming session.

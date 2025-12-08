@@ -1,0 +1,6 @@
+Now I've got data for prompts in two different systems we've got support
+signal which is a healthcare system it's very structured it's rules-based it's
+compliance and then we've got storyline which is an application I've built for
+making movies it's a very free flow and creative sort of process and so I'm
+hoping that the poem operating system will be able to deal with two totally
+different scenarios and work effectively in both.

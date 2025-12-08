@@ -1,0 +1,7 @@
+The other big issue is dealing with multi-tenants and how do we manage costs at different life
+cycles of the videos.
+So are we using free storage using GitHub repos, are we using quick synchronizations
+for the videos that are currently in edit using your Amazon S3, are we using medium
+term storage where anyone can access anything through the network addressable storage, or
+have we got really long term archival, or have we got affordable and long term archival
+using Amazon Glacier.

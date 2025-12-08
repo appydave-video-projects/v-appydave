@@ -1,0 +1,35 @@
+we can see that the last section where I was making all these changes actually
+took four minutes. Now you might be thinking that's not how long the video
+is on YouTube and that's because I will do some post editing because not every
+bad take I do I stop the video if I've already got a really good starting part
+to that section and then I have a bad take all I do is I press the all I do is
+use my right foot to pause the video compose myself and then and then record
+the next part. Now let's integrate these two into the main video so this is a new
+chapter so we're going to go number three we're on sequence one and what
+we've been doing is vibe coding using Opus 4.5 so I'll just press rename on
+this particular one that'll be number one we will not discard and we will do
+another rename and so both of those sections are now into my main video
+recording project so now both of those sections are in my video recording
+project. Now I did mention that a lot of files were also discarded so were they
+deleted and the answer is no so one of the things going on in my video project
+is I do have a backup in the trash can of all the recordings that I said I
+didn't want just in case I do want to go back and use them but another thing
+that happens once you're recording a number of videos is that the list of
+current files here starts to get a little bit long so let's start working
+through the capabilities that are in the recordings area so what the recordings
+area is showing is the same videos that we were just looking at if we press the
+folder button we can see them right here and we also have this little toggle
+called safe and at the moment that's not doing anything because nothing has been
+but what we could do is take the intro because I don't really need to refer to
+it anymore and we'll just say safe and what that's done is moved it into a new
+file right here and if we click on that we'll see that the three intros are
+living in this position now if we want to do the same thing for scenario if we
+want to do the same thing for chapter 2 which is the scenario we can press that
+button there as well now I've also put other quality of life instructions or
+I've also put some quality of I've also put some quality of life I've also put
+some quality of life features into the application so if we come up here and I
+know there's some sort of bug going on but what this will do when I click on it
+is open finder and it's opened a second one for us but it's opened it right
+where the recordings are and I have this capability throughout the system so
+if we go to the configuration we can see where the ecam files are so they would
+get saved into here in fact let's stop the video

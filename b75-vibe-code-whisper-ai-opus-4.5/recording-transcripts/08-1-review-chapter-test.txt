@@ -1,0 +1,6 @@
+So what should have happened right then is a whole set of chapter recordings
+have come in. They're all queued at the moment. We can head over to the
+transcriptions. Everything's progressing. I notice there's a little bug when we go
+to the recordings. Well maybe it's a bug but the idea of the combine is only
+showing up where we've got a transcription. I personally don't want to
+see it unless I've got all the transcriptions.

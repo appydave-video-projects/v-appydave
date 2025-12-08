@@ -1,0 +1,16 @@
+Now if we go back to the top of the epic we'll see that every story follows a
+common formula that's designed for agile development so firstly we've got a
+story number so in this case it's 1.1 then we've got a simple title for what
+the story is going to be about this is initializing the workspace in the mono
+repo then we have the Conextra template this is also called a user story and the
+original company that came up with this idea worked on the idea that as a being
+who is this going to affect what do they want to achieve if the feature was put
+in place and if they had achieved it what would it mean to them so the idea
+of a user story is this three-part formula that says as a particular person
+using the capability what do they want to achieve that's the I want and if they
+did achieve it what would they get so that so in this case we've got as a
+developer I want to have a properly configured NPN workspace so that I can
+develop a server and client application and then there's an acceptance criteria
+so this story is considered complete when all of these items are checked off
+and this concept is going to repeat all the way through every and this concept
+is going to repeat through every story in the epic

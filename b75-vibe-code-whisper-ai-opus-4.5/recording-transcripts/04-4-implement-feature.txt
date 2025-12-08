@@ -1,0 +1,24 @@
+So we can see the backend changes. There's just a bunch of entries. I'm not
+bothering to read the code. We've got the front-end entries going on. We have
+three new files. So we've got the transcriptions routes, we've got the
+transcriptions page, and we've got some sort of transcriptions modal dialog. I'm
+just going to go over to the web page. We've also got a little link. This
+should actually open up in Finder. So we'll go to Finder for a moment. And that
+opened up automatically. We've got a transcript. Look at that, it's just finished
+by the way. And I can see that because if I go over to the transcriptions, we've
+got it listed. Let's see what happens if we click view. So the development has
+started. So there's everything I said in that particular video. Might be nice if
+we had some sizes of the videos. Now one of the other things that happened while
+I was recording it is that eCAM stopped and we got a new video. So what I'm
+going to do is run a rename on this. This will become sequence three in the
+implementing of the feature. That's what we're doing right now. It's a smaller
+video, one minute and eight seconds long. We'll hit rename. So that should then
+head over to transcripts. And there it is. We've got the one that we were doing
+and now we've got a new one. And we can see the actual command line running. And
+we can see the actual whisper AI running from the command line. It's whisper
+transcribe.py. I don't think we saw that before. I'm kind of wondering whether the
+capability was added while we were looking at the screen. But what this will
+allow us to do is see if we can run two at the same time. So the way we do that
+is I will stop the video and I'm using a stream deck pedal to do that. And then I
+will restart straight away. And what should happen is that the new video
+should come in here. So let's stop it.

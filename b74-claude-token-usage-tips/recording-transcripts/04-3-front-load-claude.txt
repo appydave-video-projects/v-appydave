@@ -1,0 +1,5 @@
+Now if you look through this tree one of the things you'll notice is that there
+is a Claude MD here and this is the file we want to go and look at. The other
+thing that you should pay attention to is that there's a lot of index files
+going on as well. Basically an index file should exist in each of the major
+categories but if we do an open and go and open Claude head over to VS code

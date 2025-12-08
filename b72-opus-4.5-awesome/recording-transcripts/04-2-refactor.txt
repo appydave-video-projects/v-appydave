@@ -1,0 +1,18 @@
+So to fix the actual bugs and also add a couple of new functional requirements
+what I've done is I've read in the original Neymar proof of concept file
+that built this application I've seen what it's got I can see that part of the
+issue is that it hasn't finished off this area autosuggest but what I've done
+is created a file called fr which is for the functional requirements but what
+I've done is created a file called recording Neymar functional requirements
+and if we go and have a look at them what I've done is using story notation
+I've said what the bugs are so as a content creator if I manually remove an
+ecamm live video from the hard drive I just want it to be removed from the web
+interface from the incoming files or if I do it from the web interface I
+actually want it to be moved into a trash directory now I've done it as
+both bugs and some new functional requirements and what I'll do is save
+this file and I've just put in this little prompt that says can we move the
+functional requirements there are only five of them into the original Neymar
+proof of concept application and I just need it to blend in cleanly so you can
+see there that it's put some IDs into it so we'll just say can you implement
+and the great thing is it just breaks it up into tasks and we keep going we
+should be checking that we are still on the right model it should be

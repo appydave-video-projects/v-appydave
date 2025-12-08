@@ -1,0 +1,11 @@
+So let's have a quick look at what's been installed so firstly we have the
+BMAD Core has been installed we've got agents that are all in place we've got
+templates workflows tasks etc from there we also have the Claude code folder and
+this is where we can see a mapping of the agents and tasks from BMAD Core
+through to Claude code. Now the rest of the information was already there we've
+got the data for the storyline application and the support signal
+application so we've got prompts data schemas etc and we've got our dots
+folder and this is where BMAD method will write into now it won't write into
+the planning but it will read from the planning that we've already set up. Now
+at this point I would normally go into Claude and do a Claude init but I do
+have a simple Claude file set up

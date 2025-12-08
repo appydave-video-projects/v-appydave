@@ -1,0 +1,118 @@
+So the architect is going to generate our architecture at this location in the
+dots folder. It's read the project brief, it's read the PRD. We have a basic
+introduction and it's worked out for starter templates that while it's based
+on a different idea there is no starter template so it can just put in a change
+log and we can move on to the next section. So for us it's just going to put
+in a change log and we can move on to the next section which is the main
+architecture. We can move on to the next section which is just creating the high
+level architecture. So it's written out a lot of information. I've read through
+it all. It's pretty much just restating a lot of the stuff we've already got. We've
+got a technical summary, we've got the platform and infrastructure. One of the
+things that it notices is that for an MVP we don't need any complex back ends
+like super base versus out. One of the things it's identified is we don't need
+any complexities like a platform or infrastructure service approach. We've
+got some sort of interesting graph that's going to show up in our markdown
+document and a list of the architectural patterns and the rational
+and a list of the architecture patterns and the rationale. At that point we can
+just move on to the next section which is building the tech stack. So it
+currently hasn't written the markdown documents. A lot of this is a little
+unreadable but we've got the full tech stack table going on and again we've got
+rationale summary including the key technology choices. We've got the
+trade-offs of not having concepts like caching and the database. We're going to
+use version pinning so should be recording what version it's on like
+react 19 and these ideas could be important if we're using an MCT and
+these ideas could be important if we're using an MCP to go and get
+documentation around react or express. It needs to know what version to work
+with. Now if you are actually coming from a point of view where you don't fully
+understand all the terminology going on remember there are other ways that you
+can deal with this documentation so you can use chain of thought also it's a Q&A
+sort of stuff. I understand generally the technology going on so I'm just pressing
+one to move forward. So now it gets into the data models and this is just the
+transport or usage of data in the system. So the first idea of the chat interface
+and the fact that it might have an ID such as the user or the AI bot content
+and status this is all great. The only thing I'm a little concerned about is
+does it match with the Versel AI chatbot? I don't know. The good thing is we could
+either do research ahead of time or we could maybe just do it on the fly it's
+probably easier to do it on the fly in this particular case. Got a section on the
+tool calling so the reading of the JSON, writing of the JSON and then just
+messaging between client and server. So it's only identified three different
+objects that we need the chat message, tool call and the socket event so with
+that I'm just going to move forward. So we can now just move on to the API
+specification. The only thing I was looking at here which I thought
+interesting is that we are using this bio directional communication pattern.
+Now I don't know how much I'm going to be changing specifically on the server
+that I need to send back to the client because I know this was based off a
+different application the Storyline app that I talked about where a lot of that
+would happen but I think this will work pretty cleanly. So now it's just working
+out all the different components where it thinks the files are going to be as
+it builds out the application. One of the interesting things about doing it this
+way is that when we go back and look at the PRD we may find out that the order
+of doing things which the PRD will list might be in conflict with some of the
+architecture decisions. Now in version 6 of the BMAD method they deal with that
+with a section called Solutioning. I don't think it existed in version 4 so
+we'll deal with that ourselves when we get to it. We can also see here that
+there's a big component diagram being created that we can go and look at a bit
+later. So we'll just move on to the core workflows. Now at the moment nothing's
+actually been written to this so we don't have an architecture document just
+yet. So now we have the core architecture workflows and this is just a bunch of
+sequence diagrams that are going to be generated. So this is just a bunch of
+sequence diagrams that are going to help us visualize things a little bit better
+in the architecture document. So now we can move on to the database schema. Now
+we don't have a database per se but I do talk about the idea of saving JSON
+documents when the user wants say a new product or a new blog post so I'll be
+curious to see what ideas it comes up with. So this is pretty good it's come up
+with the idea that there'll be a data directory for status. So that's pretty
+good it's come up with the idea that there's a data directory and that's
+where it's going to put JSON documents based on the ideas I've already told it
+about. It's got the concept of products, it's got the concept of blog posts, maybe
+it needs some configuration so if we needed to do a home page and it had a
+logo or a theme that's where that sort of information could go. It's given a
+sample file structure talking about the idea that files should be in kebab case
+and that it's essentially just an array of JSON objects though we can see with
+that one that that's more just a general object. Now there's no schema
+validation so this system could be brittle or fragile in the real world but
+I think for the use cases we're doing it'll work pretty well. And if we did
+want a more strict rules system we could introduce something like Zod or some
+sort of schema to make sure that any data being written or read from always
+follows a certain format. So we'll just move on to the next area one of the
+things we can see here from our trade-offs is that this is not designed
+for big systems it's just a little this is really just a little internal tool
+that I want to use it for at the moment. So it's come up with a plan for our
+front-end components. We've got the chat interface, we've got some generic UI
+controls, we've got the idea of the sockets, we've got some additional
+information and we can see examples being generated as we go. It'll just be a
+single page application, no router involved and a bunch of static HTML
+pages. I think the big issue we might have there is keeping style consistency
+when we generate things and we haven't catered for that but we'll see how it
+goes when we start running the application. So plenty more examples
+coming through and we've got a bit of a summary trade-offs. I've just kicked off
+the next area which is the back-end architecture. So we're nearly done with
+the architecture, we've just put in the system back-end, we've got the agents
+how they're all going to work, we've got the tools that we need to work with, a
+couple of utilities, plenty of example code coming through, more diagrams being
+added to the system and so we can just move on to the remaining cleanup areas
+at the end of the document and so we can just move on to bringing it all together
+the unified project structure. So now we know what the complete application
+structure could look like at the end. We can see all the packages and how you
+execute them at the server and the client level. We can see how you run the
+server and the client, we've got the package.json and some scripts to get it
+running. We've also got the package structures for both the server and the
+client. After that let's, so we can see here it's going to have a native NPM
+workspace, we're going to have three and we're going to have
+three packages. So we've got server, client and the shared types going on. Now the
+full workflow from the command line has been listed, we've got node, NPM, we've
+got the Claude auth. This will allow us to hook up our agent SDK to our max
+account. This will allow us to hook up our agent SDK to our local Claude account.
+It plans to have a single line to get it all up and running, just NPM run dev
+will start both the server and the client. And now we're on to the remaining
+section. So we've got the deployment strategy coming through. We've got a
+continuous integration, continuous development pipeline but it's very empty,
+there's nothing really going on just yet. Conversation is about environment, we've
+got security coming through, we've got performance metrics, we've got all the
+testing approaches just documented as future, they're not in place just yet.
+But we do have sample code of what it could look like in the future. We've got
+all the rules on how it should write files and class names. So we've got
+components in Pascal case, hooks in camel case, etc. And the data files,
+they'll be in kebab case. Then we've got the full error handling strategy as
+both documentation in the form of... And then we've got the error handling
+strategy, we've got a diagram and we've got sample codes to work with that.

@@ -1,0 +1,7 @@
+So what we're looking at today is how to stop burning context and the reason this
+is important to me is that earlier today I had to take a one-hour break from the
+coding and the context engineering because I'd used up my limit, had to
+wait one hour and then when I went to look at my usage charts I also saw that
+I'm going to hit my limit by the 9th of December and it's currently the 5th of
+December so there's a good chance that I'm going to run out maybe a day or
+half a day early.

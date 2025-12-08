@@ -1,0 +1,13 @@
+After that we've got eight other stories so they're all following the same process.
+We've got the user story coming in here, we've got the acceptance criteria each time.
+And it finishes up with this rationale as to why it did the eight and why they're in the particular order they're in.
+Now one of the other things it does is it gives semantic coding to each of the requirements that it's listed above.
+And the naming convention it goes with is generally a FR for functional requirement.
+There'll be some sort of category and a number.
+The one it's picked out for us is there's a couple of use cases.
+There's examples of how it would work with two of the agents.
+We've got the prompt engineer, we've got the system infrastructure.
+But we've also got some backend stuff, so we've got the runtime infrastructure.
+It'll then finish it off and tell us what it's not going to include.
+And then lastly, what do we want to do next?
+So I think what we'll do is we'll just do number one and we'll just proceed and see what happens.

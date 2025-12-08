@@ -1,0 +1,5 @@
+So we're about to install the BMAD method to get started but let's just have one more look at the data we've got available.
+So firstly is the two data scenarios and I've got mappings prompts and schemas for both the storyline creative application
+and for the support signal application and all of this will be fed into BMAD at some stage.
+And I also have all the planning documents and so we can see from those documents that there's a lot of rich information.
+If you want to see a look at each individual document in my community I have recordings of me talking about each and every document for understanding.

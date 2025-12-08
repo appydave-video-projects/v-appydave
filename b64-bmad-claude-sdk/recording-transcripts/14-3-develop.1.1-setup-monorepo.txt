@@ -1,0 +1,1 @@
+So the first story is down, we'll do a commit. What we're currently committing is all the documentation we've done plus the first story. We probably should have done a commit beforehand.

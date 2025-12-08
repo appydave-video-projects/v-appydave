@@ -1,0 +1,6 @@
+So it's done the compact and what I want to do is just have a look at what this conversation is now about.
+And what we can see is that even though we've got a clear context at the moment, or I should say compacted context,
+because there is a clear command that does something a little different,
+we can still see that it's got basic information about what we just worked on,
+which was we did the FR52 has been added to the backlog.
+The change log was also updated and we also know from the developer agent that he recently worked on that particular feature.

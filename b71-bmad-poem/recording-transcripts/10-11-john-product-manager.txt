@@ -1,0 +1,1 @@
+The last part of the POM architecture will be the mock and test data workflows, and what that means is we should be able to generate fake data using a large language model, using tools like Faker.js, or integrating directly into the databases of other applications and getting both their data and their schema to test new ideas.

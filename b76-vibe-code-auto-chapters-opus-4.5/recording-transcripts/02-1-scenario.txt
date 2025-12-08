@@ -1,0 +1,11 @@
+So where I plan to start is that we've just recorded a video it's 18 seconds
+long and as soon as I hit rename it's going to go into my recordings folder as
+chapter 1 sequence 1 and it'll be the intro now as that happens we should see
+it end up in the recordings here and we should see transcriptions being created
+at the same time so if we go over to our folder structure as well so we can see
+things getting added automatically we'll hit the rename button and what should
+happen is we get a recordings folder just here and there's the recordings
+folder and we've got a transcription folder being created but we don't
+currently have a transcript right now let's have a look at what's coming here
+we've got the recording and we go to the transcript we can see that the
+transcript is processing and there's the transcript

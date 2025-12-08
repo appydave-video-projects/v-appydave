@@ -1,0 +1,2 @@
+It employs really powerful engineering principles and agents that run within AI
+coding environments like Claude Code, Codex or Cursor.

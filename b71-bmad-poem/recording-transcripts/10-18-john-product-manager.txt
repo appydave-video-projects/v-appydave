@@ -1,0 +1,18 @@
+So for epics, it's come up with seven and it's really interesting reading through this.
+This is pretty much exactly how I need it to work.
+Now seven epics is fairly big and things can go adrift fairly easy with this number of
+epics, but it still feels like it's the right size for what we're trying to do.
+It thinks about alternative structures and gives rationale for why it might not do it
+and in each case it's actually correct.
+We wouldn't want to mix the creation of the prompt engineer with the mock data and it
+makes total sense to combine astro and handlebars, especially when we're doing the API.
+The only area I've got a little bit of concern with is this mock data area, so it makes it
+think that we're going to have this mock system, we'll test it with the prompts, it'll produce
+output and this is great and I want to have this.
+This is great and I want to have it, but there's a much more important workflow which we could
+mix in with this.
+So I've just given it an idea of a realistic workflow that I'm going to do later today
+using YouTube automation and so it'll still do the same things as the mock data, but it
+will be for a real workflow.
+So earlier in the week, so I've just finished a video on B-mad, it's a two hour video and
+part of the launching...

@@ -1,0 +1,10 @@
+And so by putting that little extra prompt in we got it to really check the PRD and all the information
+We'd all already worked out that 95% of it was document based and 5% was
+Runtime based has been called through what that's also said is that it realizes
+There's no template really that it needs to work with this is Greenfield project
+And it's got some structural influences so that so with that we should just be able to go down to number one
+So with that we should just be able to let it go ahead
+So I'll type in go and it's going to work through all these to-do lists that we see here
+This is generally very useful, but we've include code if you want to you can just reduce it by pressing command T
+But we'll bring it up, so it's already created the introduction
+section with the project

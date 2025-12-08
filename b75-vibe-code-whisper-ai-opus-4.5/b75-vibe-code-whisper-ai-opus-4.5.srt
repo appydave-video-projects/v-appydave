@@ -1,0 +1,1119 @@
+1
+00:00:00,800 --> 00:00:06,960
+Vibe Coding with Opus 4.5 is really awesome. And in this video, which is number three 
+
+2
+00:00:07,00 --> 00:00:13,00
+in a series on building a particular application for managing my recording system, 
+
+3
+00:00:13,160 --> 00:00:15,510
+we're going to integrate whisper AI. 
+
+4
+00:00:15,510 --> 00:00:20,70
+what that will allow us to do is take any recordings and transcribe the text 
+
+5
+00:00:20,70 --> 00:00:24,870
+so that we can then send that information through large language models. I'm AppyDave. 
+
+6
+00:00:24,920 --> 00:00:25,870
+Let's get into it.
+
+7
+00:00:25,870 --> 00:00:32,150
+In video number one in this series, we essentially built this recording Namer application. 
+
+8
+00:00:32,200 --> 00:00:36,960
+We did it all with vibe coding, and it had the ability to watch for videos from an 
+
+9
+00:00:36,960 --> 00:00:42,280
+ECamm Live stream and put them directly into a project directory.
+
+10
+00:00:42,280 --> 00:00:47,200
+By the end of that video, any incoming recordings and at the moment we got the one 
+
+11
+00:00:47,200 --> 00:00:52,790
+I'm doing right now, plus four that are here would be ready to be either discarded 
+
+12
+00:00:52,790 --> 00:00:57,960
+or put into the recordings folder. And this is how it would work. I would do a rename 
+
+13
+00:00:57,960 --> 00:01:02,840
+on the one that I like, and I would discard the rest. And what would be left with 
+
+14
+00:01:02,960 --> 00:01:05,680
+is a recording stored somewhere on the computer.
+
+15
+00:01:05,680 --> 00:01:11,600
+In the second video on the Opus 4.5, I demonstrated that new capabilities were added. 
+
+16
+00:01:11,600 --> 00:01:17,320
+We had projects, we had thumbnails that we could preview and add to the video that 
+
+17
+00:01:17,320 --> 00:01:21,880
+we were recording. We'd have assets that we could then go and manage and assign next 
+
+18
+00:01:21,880 --> 00:01:23,80
+to different videos 
+
+19
+00:01:23,280 --> 00:01:29,710
+and we developed a few more capabilities around the tagging and the statuses of videos. 
+
+20
+00:01:29,710 --> 00:01:35,600
+So as I'd add in a second video here, we could see it available over in the recording. 
+
+21
+00:01:36,80 --> 00:01:41,280
+And by this point, this application was already doubling the productivity that I 
+
+22
+00:01:41,280 --> 00:01:43,360
+was doing with YouTube videos.
+
+23
+00:01:43,350 --> 00:01:48,430
+So the capability I want to add to the application today is transcription. And the 
+
+24
+00:01:48,430 --> 00:01:53,760
+way I think it's going to work is that whenever a video is recorded and put into 
+
+25
+00:01:53,760 --> 00:01:58,310
+the recordings folder, the next thing that should happen is a background process 
+
+26
+00:01:58,310 --> 00:02:03,350
+should run and it starts transcribing the individual video. And when it's done, we 
+
+27
+00:02:03,350 --> 00:02:06,430
+should be able to click on it and see the actual transcription.
+
+28
+00:02:06,430 --> 00:02:11,630
+Now, the other capability I want from the transcription system is that when a chapter 
+
+29
+00:02:11,630 --> 00:02:16,560
+is finished and currently this is the intro, I would like to bundle up all the text 
+
+30
+00:02:16,560 --> 00:02:21,750
+and be able to figure out things like what should the chapter link from an SEO perspective 
+
+31
+00:02:21,800 --> 00:02:26,360
+be? So if we go back to the incoming where I've just finished a video and I'm calling 
+
+32
+00:02:26,360 --> 00:02:31,430
+it the scenario and we rename it, what should happen at this point because we are 
+
+33
+00:02:31,430 --> 00:02:36,590
+on a new chapter, is that all of these transcriptions should be bundled up together
+
+34
+00:02:36,590 --> 00:02:40,870
+so that I can do chapter level assessment with large language models.
+
+35
+00:02:40,870 --> 00:02:45,870
+So let's just get straight into coding, or at the very least understanding the agents 
+
+36
+00:02:45,870 --> 00:02:50,920
+we're going to work with. So I'm just in the fly video Namer project at the moment, 
+
+37
+00:02:50,920 --> 00:02:56,560
+and I'm going to run Claude in dangerous skip permissions, which means that it won't 
+
+38
+00:02:56,590 --> 00:03:01,800
+ask me if it needs to change any files or run any sort of command. And also just 
+
+39
+00:03:01,800 --> 00:03:06,870
+kick off this little starter prompt just to find out what information is in our Claude 
+
+40
+00:03:06,920 --> 00:03:11,640
+MD. Now, for the last couple of days, the whole conversation for writing requirements 
+
+41
+00:03:11,640 --> 00:03:14,310
+has been down here in the bottom right hand corner. 
+
+42
+00:03:14,310 --> 00:03:18,910
+but it's very unstructured. And the reason for that is that I didn't want to use 
+
+43
+00:03:18,910 --> 00:03:23,840
+any context engineering. I just wanted to find out what the Opus 4.5 model could 
+
+44
+00:03:23,840 --> 00:03:26,840
+do. And it is exceptional. But now that 
+
+45
+00:03:26,840 --> 00:03:31,30
+the application is getting a bit more complex, I would like to have a bit of structure 
+
+46
+00:03:31,30 --> 00:03:32,240
+and maybe a couple of agents.
+
+47
+00:03:32,240 --> 00:03:36,870
+So I've just brought an old development conversation down here. I don't think I need 
+
+48
+00:03:36,870 --> 00:03:41,00
+it, but I want to keep it for context. And I'm just going to say for this one is 
+
+49
+00:03:41,00 --> 00:03:45,870
+what is your role? What are the basic responsibilities of the product owner? And 
+
+50
+00:03:45,870 --> 00:03:50,750
+we can see the basic ideas. The responsibility is to gather requirements from me. 
+
+51
+00:03:51,00 --> 00:03:56,480
+We've got general documents that we want to work with, a backlog of ideas. Any time 
+
+52
+00:03:56,480 --> 00:04:01,190
+we change something, we need to keep a change log. And we've got some implementation 
+
+53
+00:04:01,190 --> 00:04:01,800
+notes 
+
+54
+00:04:01,800 --> 00:04:06,440
+and user stories or specifications. Now, this is not the BMAD method, which is usually 
+
+55
+00:04:06,440 --> 00:04:08,560
+what I do for complex applications,
+
+56
+00:04:08,560 --> 00:04:13,710
+but I have instructed it to have at least some form of context engineering going 
+
+57
+00:04:13,710 --> 00:04:14,240
+on 
+
+58
+00:04:14,240 --> 00:04:19,120
+So as the application gets a little bit more complex, it's just not making silly 
+
+59
+00:04:19,120 --> 00:04:22,70
+mistakes because it doesn't have enough context available.
+
+60
+00:04:22,80 --> 00:04:27,120
+Now, I'll just point out that if you do really want to understand context engineering, 
+
+61
+00:04:27,120 --> 00:04:32,840
+then I've just released a video on BMAD. It's all about context engineering and the 
+
+62
+00:04:32,840 --> 00:04:40,360
+application that we build over three epics and 14 stories is using the SDK agent 
+
+63
+00:04:40,360 --> 00:04:45,720
+from Claude, and you'll have a self editing application at the end of it, built using 
+
+64
+00:04:45,750 --> 00:04:46,400
+Bmad.
+
+65
+00:04:46,400 --> 00:04:51,440
+So coming back to our product owner, the main usage being the requirements document, 
+
+66
+00:04:51,440 --> 00:04:55,560
+we should also go and have a look at the developer. So what we'll do is we'll just 
+
+67
+00:04:55,560 --> 00:05:01,00
+go slash dev and load that one up. And if we look at them side by side, you can just 
+
+68
+00:05:01,00 --> 00:05:05,40
+see that it's two different terminal windows with two different conversations going 
+
+69
+00:05:05,40 --> 00:05:10,200
+on. We'll also just ask a simple question what are your main skills, capabilities 
+
+70
+00:05:10,200 --> 00:05:11,560
+and responsibilities 
+
+71
+00:05:11,560 --> 00:05:16,00
+from the developer agent? And we can see that it's already been set up with core 
+
+72
+00:05:16,40 --> 00:05:20,00
+capabilities for React and Socket.io in the background. 
+
+73
+00:05:20,00 --> 00:05:24,600
+and we can see that the areas of expertise are front end and back end. It's specifically 
+
+74
+00:05:24,600 --> 00:05:30,600
+TypeScript with react 19 and also an express web server with Socket.io integration.
+
+75
+00:05:30,600 --> 00:05:36,240
+So I'm coming over to our product owner, and I just wanna check what functional requirements 
+
+76
+00:05:36,240 --> 00:05:39,120
+we have that are pending. There are a lot that have been done, 
+
+77
+00:05:39,120 --> 00:05:42,270
+and so he's reading from the backlog at the moment, 
+
+78
+00:05:42,270 --> 00:05:46,50
+and some of this may need to be cleaned up. I'm not sure whether they're being done 
+
+79
+00:05:46,50 --> 00:05:50,160
+or not. I've just been keeping 'em in the backlog. But the one we're interested in 
+
+80
+00:05:50,160 --> 00:05:51,960
+today is FR 30. 
+
+81
+00:05:51,960 --> 00:05:54,780
+And the first thing that we're going to do is ask it, 
+
+82
+00:05:54,780 --> 00:06:01,380
+can you create a handover document for the developer for FR 30, which is the video 
+
+83
+00:06:01,380 --> 00:06:07,50
+transcription requirements. And what we're doing is we're just letting that go into 
+
+84
+00:06:07,50 --> 00:06:08,580
+the conversation stream. 
+
+85
+00:06:08,580 --> 00:06:13,470
+because this conversation should only be about reading, writing, and validating the 
+
+86
+00:06:13,470 --> 00:06:19,80
+requirements when information needs to go to the developer, we give handover notes. 
+
+87
+00:06:19,80 --> 00:06:24,30
+You can see that one of the main documents that the PO was reading was this video 
+
+88
+00:06:24,30 --> 00:06:29,10
+transcription spec. This was a short conversation I had just before starting this 
+
+89
+00:06:29,10 --> 00:06:29,460
+video. 
+
+90
+00:06:29,460 --> 00:06:35,100
+Now we will go and read the video transcription spec in a moment, but this is essentially 
+
+91
+00:06:35,100 --> 00:06:40,620
+the handover document. And what we can do is just go up to the developer and say, 
+
+92
+00:06:40,620 --> 00:06:42,480
+can you implement 
+
+93
+00:06:42,480 --> 00:06:47,280
+something like that? And we'll just paste in that particular information. Now, what 
+
+94
+00:06:47,280 --> 00:06:52,140
+should happen is the developer should start writing the code for us following the 
+
+95
+00:06:52,140 --> 00:06:53,10
+specification.
+
+96
+00:06:53,00 --> 00:06:57,150
+So the development has started. There's quite a lot of actions that are going to 
+
+97
+00:06:57,150 --> 00:07:02,180
+take place. Let's just go over and have a look at the documentation over here, 
+
+98
+00:07:02,180 --> 00:07:06,480
+and we got the problem statement listed, which is that we record a video, we rename 
+
+99
+00:07:06,480 --> 00:07:10,230
+it in the app later, we run a transcription manually. 
+
+100
+00:07:10,230 --> 00:07:16,50
+The idea now is that as we're recording individual videos, we should just be able 
+
+101
+00:07:16,50 --> 00:07:20,850
+to create transcriptions directly in a transcripts folder. And I've got a list of 
+
+102
+00:07:20,850 --> 00:07:25,310
+where they're going to be. So currently recordings either go into the recordings 
+
+103
+00:07:25,400 --> 00:07:30,80
+directory or once they're safe, and I think this is good, I'll move them into the 
+
+104
+00:07:30,80 --> 00:07:35,310
+safe directory. And I just want to keep whatever recordings are in either directory. 
+
+105
+00:07:35,430 --> 00:07:37,400
+I want the transcripts to be here. 
+
+106
+00:07:37,410 --> 00:07:42,480
+Now the capability should happen automatically whenever a new recording is added 
+
+107
+00:07:42,480 --> 00:07:43,80
+to the system. 
+
+108
+00:07:43,80 --> 00:07:47,970
+And we've got a little bit of a UI design guide going on here. So currently where 
+
+109
+00:07:47,970 --> 00:07:53,580
+we see the movie files and we can see the size of the video in seconds, we can see 
+
+110
+00:07:53,580 --> 00:07:58,980
+the size of it in megabytes. We should now be able to see no transcript or transcribing 
+
+111
+00:07:59,190 --> 00:08:01,440
+or let's go and view or open it. 
+
+112
+00:08:01,440 --> 00:08:05,670
+now from time to time, we'll just jump over and see where the development's up to. 
+
+113
+00:08:05,670 --> 00:08:10,200
+So it's got through four different areas. It's still working its way through. We'll 
+
+114
+00:08:10,200 --> 00:08:12,60
+come back to our documentation. 
+
+115
+00:08:12,60 --> 00:08:16,770
+And so we are also planning to have a transcriptions live logged view, 
+
+116
+00:08:16,770 --> 00:08:20,730
+We should also be able to see anything that might have failed. Now, I don't have 
+
+117
+00:08:20,730 --> 00:08:25,20
+any retry capability in this feature. If I need it later, we'll add it, 
+
+118
+00:08:25,20 --> 00:08:29,820
+but we can see how the engine's going to work. So I'm not actually trying to integrate 
+
+119
+00:08:29,820 --> 00:08:34,320
+any libraries. I'm just using a little command line tool that I already use for my 
+
+120
+00:08:34,320 --> 00:08:35,310
+transcriptions. 
+
+121
+00:08:35,510 --> 00:08:40,940
+and I've got a recent video on Ito.AI, it's a voice agent system and I've got access 
+
+122
+00:08:40,940 --> 00:08:45,380
+to the open source code base and I would love to integrate this into that. But that's 
+
+123
+00:08:45,380 --> 00:08:46,230
+a future job. 
+
+124
+00:08:46,230 --> 00:08:50,270
+and it's also written all the instructions for the developer. It's basically read 
+
+125
+00:08:50,270 --> 00:08:55,280
+the code base before writing the requirements document. So this has a lot of similarity 
+
+126
+00:08:55,280 --> 00:08:57,360
+to working with BMAD or Spec Kit 
+
+127
+00:08:57,360 --> 00:09:01,620
+and just get back over and look at the code. We've gone through another four items, 
+
+128
+00:09:01,620 --> 00:09:06,380
+So we'll come back to our documentation and see that there's an API design in place 
+
+129
+00:09:06,380 --> 00:09:12,500
+to list the transcriptions, but also to probably update the transcriptions going 
+
+130
+00:09:12,500 --> 00:09:13,250
+through here. 
+
+131
+00:09:13,250 --> 00:09:17,520
+Now I also point out that this wasn't the document I gave the developer. This is 
+
+132
+00:09:17,520 --> 00:09:21,750
+the document that has suspects. The document I gave was the handover notes. And the 
+
+133
+00:09:21,750 --> 00:09:26,710
+handover notes were just written on the spot to say, you can find the information 
+
+134
+00:09:26,710 --> 00:09:31,20
+in the video transcription, and this is the basic ideas that you need to work through. 
+
+135
+00:09:31,20 --> 00:09:35,430
+So we'll just come back to the coding session. There's been plenty of stuff going 
+
+136
+00:09:35,430 --> 00:09:38,460
+on here. Notice I'm not really reading the code 
+
+137
+00:09:38,470 --> 00:09:44,740
+when I'm using BMAD. What I'm usually doing is just context engineering. It's all 
+
+138
+00:09:44,740 --> 00:09:49,750
+software architecture documents and when things go wrong, what I like to do is either 
+
+139
+00:09:49,750 --> 00:09:55,240
+build agents or patterns or anti-patterns or principles or other sorts of documents 
+
+140
+00:09:55,500 --> 00:09:56,740
+that solve the problem. 
+
+141
+00:09:56,740 --> 00:10:01,440
+And that might go against what a lot of developers think they should do. But I believe 
+
+142
+00:10:01,440 --> 00:10:04,500
+that the way agents are going in the world at the moment 
+
+143
+00:10:04,530 --> 00:10:08,500
+within a year from now, so long as you're doing the right documentation, they'll 
+
+144
+00:10:08,500 --> 00:10:09,960
+do the right coding for you.
+
+145
+00:10:09,960 --> 00:10:14,670
+Now we're just to the end. It's just happened right now and I had noticed that there 
+
+146
+00:10:14,670 --> 00:10:19,470
+were already changes. So we've got this concept called transcripts. Let's see what 
+
+147
+00:10:19,470 --> 00:10:24,660
+happens when we click on that. And we've got a, oh, it looks like it's already doing 
+
+148
+00:10:24,660 --> 00:10:30,720
+a video that I've sent through. Let's see which one it is. This is oh four two. We'll 
+
+149
+00:10:30,720 --> 00:10:35,550
+just go over to our recordings. It'll be down the bottom and it is transcribed. Look 
+
+150
+00:10:35,550 --> 00:10:42,660
+at that. This is just working. I haven't even gone to test this. We got a 208 megabyte 
+
+151
+00:10:42,660 --> 00:10:47,190
+file. This is pretty long recording. I just did, I think it was about four minutes. 
+
+152
+00:10:47,550 --> 00:10:51,630
+I wonder what happens when we look at the transcripts here. 
+
+153
+00:10:51,630 --> 00:10:55,260
+We'll head over to the development and read through what it's implemented. 
+
+154
+00:10:55,260 --> 00:11:01,570
+So the summary is that it's going to use my local whisper AI command line tool. It's 
+
+155
+00:11:01,660 --> 00:11:05,50
+going to wait till a file is renamed into the recordings 
+
+156
+00:11:05,40 --> 00:11:07,920
+at which point it's going to start the transcription, 
+
+157
+00:11:08,100 --> 00:11:13,80
+So we can see the backend changes. There's just a bunch of entries. I'm not bothering 
+
+158
+00:11:13,80 --> 00:11:16,140
+to read the code. We've got the front end entries going on. 
+
+159
+00:11:16,140 --> 00:11:20,370
+we've got the transcriptions page, and we've got some sort of transcriptions. My 
+
+160
+00:11:20,580 --> 00:11:21,120
+dialogue. 
+
+161
+00:11:21,120 --> 00:11:26,40
+I'm just going to go over the, to the webpage. We've also got a little link. This 
+
+162
+00:11:26,40 --> 00:11:30,300
+should actually open up in Finder. So we'll go to Finder for a moment. 
+
+163
+00:11:30,300 --> 00:11:33,870
+And that opened up automatically. We've got a transcript. Look at that. It's just 
+
+164
+00:11:33,870 --> 00:11:34,710
+finished by the way. 
+
+165
+00:11:34,710 --> 00:11:39,150
+and I can see that because if I go over to the transcriptions, we've got it listed. 
+
+166
+00:11:39,150 --> 00:11:43,590
+Let's see what happens if we click view. So the development has started. So there's 
+
+167
+00:11:43,590 --> 00:11:49,50
+everything I said in that particular video. Might be nice if we had some sizes of 
+
+168
+00:11:49,50 --> 00:11:53,820
+the videos. Now one of the other things that happened while I was recording it is 
+
+169
+00:11:53,820 --> 00:11:54,90
+that, 
+
+170
+00:11:54,90 --> 00:12:00,900
+ECA m stopped and we got a new video. So what I'm going to do is run a rename on 
+
+171
+00:12:00,900 --> 00:12:05,760
+this. This will become sequence three in the implementing of the feature. That's 
+
+172
+00:12:05,760 --> 00:12:08,640
+what we're doing right now. It's a smaller video. 
+
+173
+00:12:08,640 --> 00:12:13,650
+one minute and eight seconds long. We'll hit rename. So that should then head over 
+
+174
+00:12:13,650 --> 00:12:19,50
+to transcripts. And there it is. We've got the one that we were doing and now we've 
+
+175
+00:12:19,50 --> 00:12:20,10
+got a new one. 
+
+176
+00:12:20,10 --> 00:12:24,750
+And we can see the actual whisper AI running from the command line. It's whisper_transcribe.py. 
+
+177
+00:12:25,710 --> 00:12:30,300
+I don't think we saw that before. I'm kind of wondering whether the capability was 
+
+178
+00:12:30,450 --> 00:12:32,550
+added while we were looking at the screen. 
+
+179
+00:12:32,550 --> 00:12:37,200
+But what this will allow us to do is see if we can run two at the same time. So the 
+
+180
+00:12:37,200 --> 00:12:43,470
+way we do that is I will stop the video and I'm using a stream deck pedal to do that, 
+
+181
+00:12:43,890 --> 00:12:48,60
+and then I will restart straight away. And what should happen is that the new video 
+
+182
+00:12:48,60 --> 00:12:50,400
+should come in here. So let's stop it.
+
+183
+00:12:50,400 --> 00:12:55,680
+and now what we're doing is restarting it. And there it is. And we will do a rename. 
+
+184
+00:12:55,680 --> 00:13:00,480
+And now if we go over to our transcripts, hopefully we've got two being processed.
+
+185
+00:13:00,480 --> 00:13:07,760
+So we got one being queued, which is chapter four sequence four. And we're currently 
+
+186
+00:13:07,760 --> 00:13:10,440
+processing chapter four, sequence three.
+
+187
+00:13:10,440 --> 00:13:15,600
+we can just line up video after video and they'll just transcribe on the fly as we 
+
+188
+00:13:15,600 --> 00:13:15,960
+go.
+
+189
+00:13:15,960 --> 00:13:20,640
+So I just want to do one other quick test. What we'll do is we'll come over to incoming 
+
+190
+00:13:20,640 --> 00:13:26,160
+and I will say the quick brown fox jumps over the lazy dog, and we'll come back to 
+
+191
+00:13:26,200 --> 00:13:28,440
+the website and we'll stop.
+
+192
+00:13:28,440 --> 00:13:33,80
+and we'll start again. And what happens is we've got the quick brown Fox video. It's 
+
+193
+00:13:33,80 --> 00:13:38,480
+only 13 seconds long. We'll hit rename on that. Head back to our transcripts. We 
+
+194
+00:13:38,520 --> 00:13:40,720
+now have two that are in the queue.
+
+195
+00:13:40,720 --> 00:13:44,640
+So another one is just finished. We've got the next one in the queue. This is the 
+
+196
+00:13:44,640 --> 00:13:46,760
+one I want to go and test the text on. 
+
+197
+00:13:47,240 --> 00:13:51,880
+and we can see when we're looking at the recordings, which ones have transcripts, 
+
+198
+00:13:51,880 --> 00:13:54,680
+which ones transcribing, which ones queued. 
+
+199
+00:13:54,880 --> 00:13:59,920
+I guess I'm going to have to add some buttons here so that I can transcribe the ones 
+
+200
+00:13:59,920 --> 00:14:04,520
+that don't have transcriptions. I think while we're waiting, we should just kick 
+
+201
+00:14:04,520 --> 00:14:09,320
+off a development environment. For that, we're going to need an updated requirements 
+
+202
+00:14:09,320 --> 00:14:10,00
+document.
+
+203
+00:14:10,00 --> 00:14:14,800
+Now I've come over to the product owner conversation and made the statement that 
+
+204
+00:14:14,800 --> 00:14:21,250
+FR 30 is complete. We will send some handover documents to let it know that it's 
+
+205
+00:14:21,250 --> 00:14:26,80
+done, but can it just add a couple of capabilities? So the two that I want is can 
+
+206
+00:14:26,80 --> 00:14:27,640
+we get a transcript button? 
+
+207
+00:14:27,640 --> 00:14:31,60
+And that transcript button should happen somewhere 
+
+208
+00:14:31,60 --> 00:14:35,560
+in this column. I think we've already got the transcript label, so I'm assuming that's 
+
+209
+00:14:35,560 --> 00:14:39,730
+the right place to do it. I haven't given it instruction, so it may actually end 
+
+210
+00:14:39,730 --> 00:14:40,840
+up putting it over here. 
+
+211
+00:14:40,840 --> 00:14:46,360
+I've asked if it's can create another button for us for doing chapter transcriptions. 
+
+212
+00:14:46,360 --> 00:14:51,250
+Now we shouldn't need to do an actual transcription. Should be a case of some sort 
+
+213
+00:14:51,250 --> 00:14:56,50
+of button up here that when we click it just concatenates all the transcriptions 
+
+214
+00:14:56,50 --> 00:14:56,680
+that are there. 
+
+215
+00:14:56,680 --> 00:15:00,970
+But I did have to give it one extra instruction and that's to let it know that we 
+
+216
+00:15:00,970 --> 00:15:05,80
+don't know the best name for it. So it's going to have to review the documentation. 
+
+217
+00:15:05,290 --> 00:15:11,230
+So at the moment it's just making some modifications to the FR 30 specification. 
+
+218
+00:15:11,230 --> 00:15:12,250
+it's got some, 
+
+219
+00:15:12,310 --> 00:15:16,330
+ideas on how it should be written and then it's just started writing a whole lot 
+
+220
+00:15:16,330 --> 00:15:17,560
+of documentation for it. 
+
+221
+00:15:17,560 --> 00:15:22,390
+And I think this is going to be as easy as just selecting this text. We'll go over 
+
+222
+00:15:22,390 --> 00:15:24,520
+to our developer conversation 
+
+223
+00:15:24,520 --> 00:15:29,200
+and we'll just paste the text right in and it should go and do the development. While 
+
+224
+00:15:29,200 --> 00:15:33,550
+that's happening, let's go back to our web application and see where we're at. 
+
+225
+00:15:33,550 --> 00:15:38,590
+Look at that. It's finished everything. Now we only had about 13 seconds, 
+
+226
+00:15:38,590 --> 00:15:42,430
+I just wanna do one test and this is what I said. The quick brown thoughts jumped 
+
+227
+00:15:42,430 --> 00:15:43,540
+over the lazy dog. 
+
+228
+00:15:43,540 --> 00:15:48,280
+now. This is incredible. So we've got new coding going on right now and that's going 
+
+229
+00:15:48,280 --> 00:15:51,220
+to give us access to new capabilities. 
+
+230
+00:15:51,220 --> 00:15:55,420
+basically when we go to the recordings, we are going to have a button. It looks like 
+
+231
+00:15:55,420 --> 00:15:59,110
+we've already got that button. I wonder if we should kick it off on something. 
+
+232
+00:15:59,110 --> 00:16:05,470
+We'll do this video 'cause it's relatively small. 16 megabytes. Let's kick that off 
+
+233
+00:16:05,590 --> 00:16:10,810
+and we'll come back up to our transcripts and we can see a new one is running. What 
+
+234
+00:16:10,810 --> 00:16:16,180
+I'm a little concerned about is that we lost the other transcription notes. 
+
+235
+00:16:16,180 --> 00:16:20,530
+Not sure if that's because it restarted the application, but we can see everything 
+
+236
+00:16:20,530 --> 00:16:21,250
+that's been, 
+
+237
+00:16:21,250 --> 00:16:26,690
+transcripted already. We can see the stuff that's now newly being transcribed. 
+
+238
+00:16:26,690 --> 00:16:31,670
+If I go down to the coding agent, we can see that it's about to implement the bottom 
+
+239
+00:16:31,670 --> 00:16:35,300
+for the chapter headings. So that hasn't been done right now. 
+
+240
+00:16:35,300 --> 00:16:36,980
+and then it happens there it is combined.
+
+241
+00:16:37,500 --> 00:16:39,620
+So here's my chapter test.
+
+242
+00:16:41,350 --> 00:16:42,710
+The quick brown fox.
+
+243
+00:16:44,440 --> 00:16:46,520
+Jumped over the lazy dog.
+
+244
+00:16:48,210 --> 00:16:53,250
+And went straight to the link in the description where he could go to AppyDave Skool 
+
+245
+00:16:53,730 --> 00:16:55,330
+on context engineering.
+
+246
+00:16:55,330 --> 00:17:01,90
+So what should have happened right then is a whole set of chapter recordings have 
+
+247
+00:17:01,90 --> 00:17:03,10
+come in. They're all queued at the moment.
+
+248
+00:17:03,10 --> 00:17:06,10
+We can head over to the transcriptions.
+
+249
+00:17:06,10 --> 00:17:11,10
+Everything's progressing. I noticed there's a little bug. We go to the recordings. 
+
+250
+00:17:11,10 --> 00:17:16,570
+Well, maybe it's a bug, but the idea of the combine is only showing up where we've 
+
+251
+00:17:16,570 --> 00:17:21,570
+got a transcription. I personally don't want to see it unless I've got all the transcriptions.
+
+252
+00:17:21,570 --> 00:17:26,700
+So what I've done is I've combined it. I did that by mistake. We'll go and do another 
+
+253
+00:17:26,700 --> 00:17:30,180
+one in a moment, but let's click on view and see what we've got. 
+
+254
+00:17:30,180 --> 00:17:34,650
+And this is okay. It probably won't be good in the future. I don't think I wanna 
+
+255
+00:17:34,650 --> 00:17:40,350
+see the actual video names in here, but for testing, this is perfect. So we can see 
+
+256
+00:17:40,350 --> 00:17:45,420
+that I said, so here's my chapter test. The quick brown fox jumped over the lazy 
+
+257
+00:17:45,420 --> 00:17:49,960
+dog and went straight to a link in the description where he could go to AppyDave 
+
+258
+00:17:50,280 --> 00:17:52,110
+school on context engineering. 
+
+259
+00:17:52,110 --> 00:17:53,580
+Let's see what this button does. 
+
+260
+00:17:53,580 --> 00:17:58,950
+going to copy it to the clipboard, and this is going to open it in the folder system. 
+
+261
+00:17:58,950 --> 00:18:04,650
+we can see the file down here. So one last test. We're just going to go to this big 
+
+262
+00:18:04,650 --> 00:18:06,930
+one. We'll do combine, and then we will 
+
+263
+00:18:06,930 --> 00:18:07,800
+do view, 
+
+264
+00:18:07,800 --> 00:18:09,780
+and then we will do clipboard, 
+
+265
+00:18:09,780 --> 00:18:11,370
+and then we will do paste. 
+
+266
+00:18:11,730 --> 00:18:15,90
+there's all the sequences from one chapter all listed.
+
+267
+00:18:15,90 --> 00:18:22,290
+So there we have it. The third video on testing out Opus 4.5 in a pure vibe coding 
+
+268
+00:18:22,330 --> 00:18:27,970
+sort of scenario. We're not doing a lot of context engineering frameworks, though. 
+
+269
+00:18:27,970 --> 00:18:31,450
+We are doing a little bit of context engineering from the point of view of having 
+
+270
+00:18:31,450 --> 00:18:36,210
+a changelog, a backlog, and a couple of agents that we handcrafted.
+
+271
+00:18:36,210 --> 00:18:40,330
+But you're noticing that there aren't really any bugs. Things just work. 
+
+272
+00:18:40,330 --> 00:18:44,650
+where anthropic has got to with this model is incredible.
+
+273
+00:18:44,650 --> 00:18:50,850
+So I think for the next video we'll continue the Opus 4.5. And what we'll do is we'll 
+
+274
+00:18:50,850 --> 00:18:56,810
+come over to the system where the different recordings get combined into one video. 
+
+275
+00:18:57,10 --> 00:19:02,610
+And at that point we use a digital asset management system that were built and will 
+
+276
+00:19:02,610 --> 00:19:08,130
+integrate it into this. And what that's planning to do is take these files that are 
+
+277
+00:19:08,130 --> 00:19:13,890
+basically local to my computer at the moment and make them available in S3 drives, 
+
+278
+00:19:13,930 --> 00:19:21,10
+also Glacier, and also as a network addressable storage system in another country.
+
+279
+00:19:21,10 --> 00:19:24,330
+So that's the progress we want to start on in the next video. 
+
+280
+00:19:24,330 --> 00:19:28,130
+I'm AppyDave. Please like and subscribe. I'll see you in the next video.

@@ -1,0 +1,33 @@
+So let's start with our terminal and we're going to use Claude code and I'm going to run it with the dangerously skip permissions.
+Now it's fresh context and we've just added a lot of context from Claude so I'm just going to run an init on this.
+I'm going to give it a little bit of extra information.
+We've got this planning folder but I don't want it to take too much over with the Claude file.
+I want it to be referenced, I want it to maybe use it as a guideline for what the project will be about.
+But the main focus of Claude should be on the BMAD method and whatever it decides to create.
+
+So with those two statements what we can see is that we're improving the
+Claude MD to prioritize the BMAD workflow. So what is Claude MD? That's
+essentially the system prompt. So it's available every time we do a prompt that
+anything in this file will be used and we want it to be hyper focused on what
+it does. So anything in red has been removed and that's a lot of the stuff
+that I did in pre-planning before this video. We can see that my folder hierarchy
+that does exist has been removed from the system prompt but the important
+stuff that it's a self editing application is in place that the core of
+the server should only be about 200 lines of code. It's got a very clean
+understanding of what the BMAD workflow is. So we've got the workflow primary
+path, we've got step one which is installation. Now we've already done
+that. We've got step two which will be the analyst agent doing a workflow init
+and it just keeps going doing this hyper focused system prompt and at the end
+what we've got and at the end what we've got is a clear project status with the
+pre-implementation mentioned. We've got workflow task priorities in place, we've
+got the architecture overview, implementation concepts and just some
+labeling reference only that we have planning document and so Claude is ready
+to work with the installation which we've already done and I'm going to
+just make the statement I've already completed the installation and that I
+wanted to move on to whatever the first step is which I believe is the research
+agent. Now it's come up and said what we'll probably need to do is the
+workflow init so we'll run that. You might be wondering why it's already
+pre-answered some questions here and that's because I've already got an
+execution guide that I've done before the video but normally these are the
+sorts of answers we'd want to fill in so let's just do the workflow init and see
+what happens.

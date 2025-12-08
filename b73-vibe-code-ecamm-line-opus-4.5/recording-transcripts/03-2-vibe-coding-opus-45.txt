@@ -1,0 +1,36 @@
+So I currently have three different terminals running. The bottom terminal is
+the actual application so it's running and it's so it's running and it's
+listening to the Ecamm live directory and just sending information directly to
+the website. In here this is my software architect or my product owner
+conversation and in here this is where I'm building functional requirements or
+non-functional requirements. The difference is is it visible and is it
+something that the user does or is it something under the system like maybe
+communicating with a server. And I just recently asked it to create this
+non-functional and I just recently asked it to create this functional
+requirement which is can we see a timestamp and I just recently asked it to
+create this functional requirement which is can we see the time of the video on
+our incoming and I recently just asked it and I recently just asked it to create
+this functional requirement which is and I recently asked it to create this
+functional requirement which is what how and I recently asked it to create this
+functional requirement which is can you tell me how many seconds the video is
+actually going for. And what it did was write all this information in green I
+tend to read it I know this is working very effectively and it's created a
+non-functional requirement number seven for us and it's asking do I want to hand
+this over to the developer so I'm just going to say yes and all it's doing at
+the moment is creating for me a little instruction set that includes the
+non-functional requirement it just wrote and an instruction to put it into a
+different conversation window. So it's finished writing that instruction
+and what I can do is just select all the information down to the bottom put it
+into my clipboard and I just head over to the second conversation I've got
+going on in this system and this is the developer so all the requirements are
+done in the other conversation this particular conversation is showing the
+developer and so the developer is off writing code we can see them side by
+side if we want to I could even come over to the functional requirements
+area and start preparing the next bit of work to be done but the main thing that
+I'm hoping is that when it gets to this point of updating the file card but the
+main thing that I'm hoping for is that when it gets to this area of
+updating the file card it'll come over and will automatically see a new time
+sitting right next to this 71 megabytes
+why did I need to do a page refresh is there is this information not coming
+through on the socket
+you

@@ -1,0 +1,33 @@
+So let's test the idea of adding and updating files in the data folder. We've
+got a test products we can see the information that's here we've got one
+broken file as well and we'll come over and say can you add a product we want
+sugar and we want it to be 50 cents. After that we'll just go down to our use
+cases and we've got this create an electronics JSON document under the
+catalog folder so it'll be a nested file and it's saying it will do it with a
+laptop and a phone. Now we'll head down to our JSON document we can see that
+this is expanded to have sugar at 50 cents looks like we've got our new file
+let's just drag that in we've got an electronics catalog and we've got
+multiple items coming in here and they're quite detailed. Now let's try out
+a couple of discovery commands so we'll go what JSON exists in the data
+directory let's see what comes through we can see the broken and the test
+products we don't have the catalog so it hasn't looked deeply but what we'll do
+is we'll add a category field to the test products table so click that center
+agent it's telling us it'll add a category now it's done it and if we
+head over to VS code we can now see that on products we've got these categories
+so we got groceries over here and there was a couple of other interesting use
+cases that all worked which I didn't even think of it just created these and
+the ability to create a file outside of the data directory was blocked creating
+a file with circular references we'll do that because that was interesting so a
+new file called test has just been created and it just talks about here's
+node one next is no two and while it's tried to do it it's come up with a nice
+message saying that this is something that can't be done with the JSON format
+and the last useful example is to just add five items and array to a new table
+so here we have five sites added so what we're seeing now is this really
+powerful mechanism where we can read we can write we can update we can work with
+sub directory we can work with subdirectories of files back on our
+server now these are data files next we'll be looking at how we can do HTML
+files but the whole idea of this is more for an internal tool I wouldn't it's not
+the sort of tool that we would use up on a public website where it can write to
+your server but if you're trying to build a little application for yourself
+and you want the ability to dynamically update data just by talking into the
+microphone then this is a perfect technique that we can be using

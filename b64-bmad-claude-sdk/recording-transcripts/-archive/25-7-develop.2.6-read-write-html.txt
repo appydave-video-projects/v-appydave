@@ -1,0 +1,12 @@
+So we're testing 2.7 which is conversation memory this is a new ticket
+because we found a bug earlier in the epic and what we're going to do is
+firstly just find out the prices of cats so the prompt will be can you have a
+look in the cat dog HTML and just give me the prices of any cat related product
+and we'll press enter on that now if we look inside we can see negative a hundred
+dollars so if we look inside we can see negative a hundred dollars for the two
+cat products so we'll just come back here and that's what it says and we'll
+go with can you change the prices to $49.95 and $69.95 respectively and we'll
+press enter on that so hopefully we're going to see this one become $49.95 and
+this one become $69.95 so this is looking great it seems like it's done
+the right products let's go over to the product listing we'll do a refresh and
+we we have it $49.69.95

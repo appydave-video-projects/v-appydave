@@ -1,0 +1,3 @@
+And so now we've got two conversations, one loaded with the current project status, as
+is the second conversation.
+And so they've both been loaded with hyper-focused information for this one project.

@@ -1,0 +1,8 @@
+So, imagine you're in a situation where you're a caregiver and what you're doing is giving
+care to people with disabilities and we'll call that person Michael and the reporter,
+the person giving the care is David in this particular situation.
+And what happens during a session of work is that there's an event happened, some incident
+of some sort, we got before, during, after, etc.
+Now, if you filled in all this information yourself and especially if you're not really
+good at doing writing, it might be useful if the AI could help you or support you by
+generating a bunch of questions to elicit better information.

@@ -1,0 +1,5 @@
+Now two weeks ago I was hitting my limits pretty consistently and the reason for that
+was that when you look at my development setup I've got all these terminals that I open and
+they're all different projects that I'm working on.
+So it does make sense that I can hit the limits of the Max 100 account pretty easily on that
+alone.

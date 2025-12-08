@@ -1,0 +1,4 @@
+and the reason for that is the status on the file so if we hover over this we
+don't have a status at all we come to this one and what we've got is a status
+for an mp4 file or if we go up to this one we've got a status for both an mp4
+file and an srt file

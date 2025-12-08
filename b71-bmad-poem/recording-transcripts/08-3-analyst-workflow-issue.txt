@@ -1,0 +1,2 @@
+Now, because we're in BMAT 4, what we really need to do is go and modify the PRD template
+for the business analyst and we're specifically looking at this technical consideration section.

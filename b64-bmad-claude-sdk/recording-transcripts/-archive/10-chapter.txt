@@ -1,0 +1,21 @@
+Now I just want to point out some basic maintenance that I like to do with
+working with Claude. So I've just put in this little prompt here and kick it off
+and the reason is that we've created a brief, we've created a PRD but my initial
+system prompt or the Claude prompt is pointing to the planning phase of the
+system. But now that BMAD method has done these great documents I want to
+ensure that my Claude file knows about them and so it's just making some minor
+modifications. I don't want it to forget that we have a planning area and so
+when and so it's seen this planning documents reference only and it's added
+in the project brief and the PRD and so it's taken some old ideas like the
+planning documents and the BMAD execution guide which now this one's not
+relevant anymore and this one's just lower priority so it said we've got the
+brief, we've got the PRD and then we've got the planning guide. Now a lot of
+changes being made but if we go down the bottom and have a look at the summary we
+can see that our system prompt has a very clear understanding of everything
+we've done right now. One of the other things I notice, one of the other things
+I noticed is that it knows that the next step is going to be the architecture so
+if we come down and we will clear out again and start with a new Claude
+context we'll go straight into the architecture agent, let it load and we
+can move into creating things so we don't need the backend architecture and
+front-end individually we just need the full stack architecture. It knows that
+that's the next thing to do so we'll just paste that in and kick it off.

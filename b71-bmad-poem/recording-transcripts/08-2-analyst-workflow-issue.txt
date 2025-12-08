@@ -1,0 +1,12 @@
+Now, to resolve this we're going to have to understand a little bit about how BMAD works
+under the hood.
+So, one of the things I have set up for myself is a second brain for both BMAD 4 and BMAD
+6.
+Now, when I asked it how BMAD 6 would deal with the changes that I needed, it talks about
+the BMAD module builder and what that gives us the ability to do is customize our agents,
+workflows and modules and I'm currently in a situation with the business analyst agent
+that I need the workflow modified a little bit to not talk about traditional application
+development but to talk about something more related to building a BMAD clone.
+So, the situation I'm in at the moment is I need to modify the business analyst agent's
+workflow so that it's not building a traditional application but instead it's building an orchestration
+framework similar to BMAD.

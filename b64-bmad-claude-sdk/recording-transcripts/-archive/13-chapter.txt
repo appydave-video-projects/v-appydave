@@ -1,0 +1,29 @@
+So it's finished the alignment with the architecture document. It's listed a bunch of areas
+I've read through them all and they're very minor
+So I think the main thing that we can do is just apply number one
+Which is the recommendations to the PRD can be applied right now
+So those minor alignment issues are now being fixed between the PRD and the architecture
+What we're going to do now is change over to the PO
+The product donor and this is because we want to shard the documents now
+If I just jump down to this view here
+Sharding is the idea of splitting up a big document into little documents and a few of the agents can do sharding
+But the one that's designed to do for both architecture and PRDs is the PO and that's why we've jumped over to there
+And we can see the command here
+It's called shard doc followed by the document we want to work with and the destination that we want to put it in
+So we'll start by typing in shard doc and I'll put in the at sign and type in the PRD
+And after that we'll put it into a file that doesn't currently exist
+Which is why I haven't used the at sign its docs PRD
+Now while that's doing that we'll head over to VS code to see what's going on
+So it's this big document that we've got going on here and we're moving it into this folder and you can see
+everything being split up and
+There should be a little index that points to where all the different parts of that file exist
+So with that done we go back and we run the shard doc again this time. We're going to click on architecture and
+If we head over we should get an architecture folder being generated and we've got all the
+indexes pointing to each individual file as well
+
+Now we're about to get into development but we should have a look at what our dots look like.
+So we have the brief that was generated, we've split the PRD out into individual files,
+we've done the same thing for the architecture, but I haven't gotten rid of those files.
+I've moved them into an archive directory and I've left the planning document
+because that's got a lot of detailed files that we can lean on if we need to
+at the time of generating the stories.

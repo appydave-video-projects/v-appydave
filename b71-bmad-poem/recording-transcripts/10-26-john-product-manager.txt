@@ -1,0 +1,10 @@
+So I've gone and read through all the issues there's nothing there that we
+need to look at there's an MVP scope and what I think I really love about this is
+it's quite ambitious this and what I like about this is it is quite ambitious
+especially 40 stories across seven epics in a normal enterprise application you
+would have a team of people working on one epic at a time but as it says we're
+using BMAD so a solo developer myself just working with all these AI agents
+should be able to achieve this project the big thing I'm going to have to worry
+about as I go through it is project drift where earlier stories and epics
+influence in a where earlier stories and epics diverge from later stories and
+epics but we'll deal with that as we go

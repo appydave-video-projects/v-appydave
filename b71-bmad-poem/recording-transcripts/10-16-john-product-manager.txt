@@ -1,0 +1,5 @@
+So it's come up with a technical assumptions. It's got area around the
+architecture and the testing frameworks to use. You'll notice that while POM is a
+framework we don't need any end-to-end testing frameworks. It's come up with an
+accurate technical assumptions. It's come up with an accurate technical
+assumptions and requests, but it does have four areas that we should address.

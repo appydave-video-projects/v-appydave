@@ -1,0 +1,21 @@
+So what's really cool is it's picked up the file but it did have a minor bug so
+when I put in the watch directory and the target directory and I hit save I
+didn't see anything happen I never saw any files move I wasn't sure what to
+expect and so what I did was I just pasted in the information I had in
+screen and a little message and it's told me that the big problem is that the
+environment variable that's driving that configuration needed to be changed and
+then restart the server so I just said well can you make it so this happens
+automatically and so it just built a restart server based on the environment
+variable changing and as soon as I hit save it just started working again but
+the next question is what happens to the files so this is the this is the
+previous recording it's stored in this is the first segment of the recording
+now it's just stored as an ecam recording with a date time stamp and
+where it needs to be is over in this video project folder under the
+recordings directory and it should be named 1-1-intro so we'll come
+back to the application and we'll put in a one and we'll leave it with intro and
+and we can see what file name it's going to be let's click rename and see what
+happens it says renamed to that's really cool because I think it's worked
+click on the file yeah that's the same file now renamed at the target location
+now what I'm going to do now is stop this segment of the video and what we
+should see is a new video pop up here just with the date time stamp so I'll
+hit stop

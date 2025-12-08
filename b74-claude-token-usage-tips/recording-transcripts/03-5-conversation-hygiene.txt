@@ -1,0 +1,10 @@
+And what's happened in this particular conversation is we've got this area called developer handoff.
+I've already taken a copy of it and I've come over to the developer and I can just press
+enter and the developer will now start implementing whatever was suggested in the document, whatever
+was suggested in the requirements handoff.
+And so at the moment we can see it's starting to do five different tasks, it's writing some
+code in that content.
+Now as it's doing that let's see what code this is going to do.
+So we've got this little design here and the idea of it is that when I stop the recording
+we're going to see a value come here and then we're going to see this transcription happen.
+So I'll stop the recording right now.

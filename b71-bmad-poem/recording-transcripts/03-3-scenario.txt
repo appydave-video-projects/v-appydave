@@ -1,0 +1,6 @@
+Now if you're the domain expert building the questions for this sort of system
+you are going to want access to some sort of prompt testing framework so what
+we've built behind the scenes with this application is the idea of having a
+prompt to see what it would look like if it was interpolated with a bunch of
+values and to see what values are available on the form that we're
+actually editing right now.

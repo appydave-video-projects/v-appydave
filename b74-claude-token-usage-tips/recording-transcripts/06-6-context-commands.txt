@@ -1,0 +1,9 @@
+So that conversation just finished let's see what we've got we've got this new
+context command it's called progress and we can see here quick orientation check
+if we hover over it we've got some instructions so it'll read the backlog
+change log and the brainstorming notes and then it and then it has this
+formatted output that it does and then at the end it just tells you when you
+can use it which is essentially any time but usually at the beginning of a
+conversation and the good thing about this was when we included it in the HTML
+it just put it naturally into the right place so we've still got our agents in
+place and we've got this little commands here

@@ -1,0 +1,6 @@
+So, what we'll do is come back to our incoming area, make sure we're on our recordings, we'll
+just do a rename of that, so this is number six thumb, we can also go back to our recordings
+right here.
+Now, I don't currently have a restore all, but I can restore them one at a time, so we'll
+click on that one, that one and that one, finally we'll do this one, this one and this
+one and our safe directory is now empty, I could delete it manually.

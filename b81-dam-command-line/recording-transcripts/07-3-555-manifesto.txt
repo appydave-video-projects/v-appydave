@@ -1,0 +1,9 @@
+So the behind the scenes, which we've already seen a bit of, is that I wanted a system for
+myself without vendor logging, without the costs involved, but more importantly a really
+bespoke sort of workflows that just fit together like a glove.
+So all the tooling I've been building is generally open source or it's available to my community
+because it's not something I'm looking to sell, it's something I'm looking to build
+internally to automate my own processes.
+And the first one is the Storyline application, and this is where we're using that to generate
+stories, video content, animation, sound profiles, all that sort of information.
+And we've, it's, bleh, bleh, bleh, bleh.

@@ -1,0 +1,2 @@
+BMAD method is this agent orchestration system that was created to allow you to build software
+effectively and efficiently using context engineering.

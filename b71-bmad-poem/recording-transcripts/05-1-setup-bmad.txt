@@ -1,0 +1,5 @@
+So we'll get started by installing BMAD method now today we're going to do
+version 4 of the BMAD method version 6 is nearly ready but I really like version
+4 anyway and it's going to ask what directory we want it to go into and
+we're going to put it into a subdirectory under the POM OS called
+POM and all I want to set up is the BMAD Agile Core

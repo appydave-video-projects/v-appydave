@@ -1,0 +1,16 @@
+Now let me give you a little bit of context we are looking at the application
+there's a bunch of what I consider bad takes which are all the white area and
+potential good takes in yellow and what is probably the good take in green and
+I'm using Ecamm live so what's good about using Ecamm live is I can press
+buttons on my stream deck and I can go to pre-configured scenes so if we wanted
+to look at the coding that's over here on this monitor right here I can press
+this button there's the coding going on if I'm having conversations with a
+requirements document that's building the application I can look here now
+another thing that I've got going on is I've got a little stream deck pedal now
+if I press the right pedal right now I can pause the video long enough to reset
+up the scene with a prop as I've done and if I press the button one more time
+I could put the prop back on the shelf now the other thing I could do is hit
+pause now the other thing I could do is automatically generate an image now
+another thing I could do is use my voice to create an image prompt and then have
+that image put right here and the way this is happening is through the
+software that I've built that helps me automate these workflows

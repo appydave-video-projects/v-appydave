@@ -1,0 +1,7 @@
+so the recording is in place no folder exists right now we'll just click on this
+rename and see if it works and it did now that's also interesting notice how
+it's saying little fake here and we've got capital fake here I think there's an
+issue with the way it I think there's an issue in the naming conventions going on
+here now it looks like it's worked correctly so we've got the fake file in
+the capital fake directory which is based on this value here I didn't need
+to create the directory it did it automatically

@@ -1,0 +1,2 @@
+Now with the project brief completed, what we can do is move on to the project manager.
+So we'll just exit out and we'll just start with a brand new Claude session.

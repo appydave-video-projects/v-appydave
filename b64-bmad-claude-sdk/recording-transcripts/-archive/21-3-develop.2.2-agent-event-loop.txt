@@ -1,0 +1,4 @@
+So we clean up the end of the story by just using the QA agent, which is Quinn, and we
+ran the review story to build this quality gate document.
+So we have this audit trail of things that have happened, including that the initial
+implementation did have a failure in it.

@@ -1,0 +1,6 @@
+Now we're about to get into development but we should have a look at what our dots look like.
+So we have the brief that was generated, we've split the PRD out into individual files,
+we've done the same thing for the architecture, but I haven't gotten rid of those files.
+I've moved them into an archive directory and I've left the planning document
+because that's got a lot of detailed files that we can lean on if we need to
+at the time of generating the stories.

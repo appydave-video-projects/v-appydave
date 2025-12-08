@@ -1,0 +1,33 @@
+Now, I said that this story wasn't actually as successful in the coding as any other story
+that we've done, but let's have a look at what it was originally.
+It's built a chat interface with Versal AI as a developer, a chat interface using the
+AI element patterns so that users can send messages and have streaming agent responses.
+Now, that's working, and so I'm pretty happy with that, but let's look at what the post
+post.
+But let's have a look at the post more, Tom, and this is where a number of issues happen.
+Now, part of the issues happen because I think when I was doing it, I was really tired, so
+I wasn't paying attention to different things going on, but the main issue, which I seem
+to run into every time I do Tailwind and totally forgot about it in this particular case, is
+it got configured with V3 syntax, but it was a version for Tailwind.
+So in the last story, you would have seen the styling, and I said it was pretty normal.
+That should be what it's like, and you might have noticed in the last story that there
+was styling that looked pretty average, and I said, well, that's actually how it's meant
+to be.
+Well, that's not the case, and the reason is that the Tailwind styling was misconfigured
+and it took a little while to find it out.
+Another issue that was happening under the hood for me is that one of the servers, there
+are two in this, was meant to be running on 5173, but Claude was actually running a separate
+one on 5174, and so I was trying to see updates, and nothing was coming through, and I kept
+saying to Claude, this is not working, and he kept saying, I fixed it, but I wasn't seeing
+anything visually.
+Now again, a lot of that was me tired at the time, but this is one of the realities of
+having AI agents that can run the servers for you, is that if they've got a conflict
+with your current server, then it's just going to spawn a new one on a different port.
+Then it had a bunch of issues with the bubbles, and the drop-down menu that we saw showing
+up underneath the bubbles.
+Now the reason I actually wrote this document wasn't just so that I could show you the sort
+of challenges that you can run into, but because once you write a document like this, you can
+make it a part of your documentation system, so if any other issues happen in the future
+and you notice it, you can say, can you go and read other documentation or lessons learnt
+that were done in the past, and this can be a perfect way of training the AI model to
+write code the right way if you see a certain problem showing up again and again.

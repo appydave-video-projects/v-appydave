@@ -1,0 +1,15 @@
+So at this point we have finished our first feature, our first epic in the
+system. We have this client and server application. It uses socket IO and has
+bio directional communication meaning that we can type something in the text
+box and it immediately hits the server or if the server was to want to
+communicate with the client it could do that as well. Now all the code and now
+all the code and prompt sequences are available up on the
+github repo if you want to access that. There's a link to my community down
+below.
+
+Now next up we're going to work on EPIC 2 which is the Claude agent SDK and what
+that's going to allow us to do is put the equivalent of Claude code into our
+server. So all the sorts of stuff you've seen me doing with Beamad which is
+creating code, writing documents, doing research. Hopefully we can do that from
+our own application so that we can build HTML pages and we can generate product
+and blog post content.

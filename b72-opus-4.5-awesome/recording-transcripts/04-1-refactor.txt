@@ -1,0 +1,11 @@
+Now I've encountered my first either bug or at least missing the complete
+implementation. So the first thing that we notice is that we've got the four
+videos that we've recorded so far. If we go over to the ecamm directory I've
+created two false starts and we can see them. Now my expectation is that if I
+deleted one of these files it should delete, it should get removed from here.
+That hasn't happened. The other thing that I'm expecting is that if I come
+down here to the other file and press discard it should remove. Now I'll remove
+this one so that we can see it and the one that I want to remove which should
+affect the actual file here is this value. So we press
+discard and it says removed from list but we don't see it actually removed. So
+we've got two little issues to resolve.

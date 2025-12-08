@@ -1,0 +1,4 @@
+So based on that analysis it's done two different things. The first is it's
+updated the project brief template and this will be useful in the future
+especially when we start writing the PRD because the project manager will
+actually read this document.

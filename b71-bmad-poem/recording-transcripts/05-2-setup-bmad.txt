@@ -1,0 +1,4 @@
+With version 4, it's appropriate to split the product requirements document into multiple files, so we'll shard it.
+And we're doing the same thing with the architecture documents.
+And I'm going to build all of this out in Claude code.
+We don't need any extra baggage at the moment.

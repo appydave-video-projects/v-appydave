@@ -1,0 +1,5 @@
+Now, I'll just point out that if you do really want to understand context engineering, then
+I've just released a video on BMAD.
+It's all about context engineering and the application that we build over three epics
+and 14 stories is using the SDK agent from Claude and you'll have a self-editing application
+at the end of it built using BMAD.

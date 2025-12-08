@@ -1,0 +1,4 @@
+Now last week Anthropic increased usage limits and I thought great I'm not going
+to have the issue anymore but today I am finding it and it got me thinking why is
+this happening and I actually asked the question of Claude to try and get an
+answer

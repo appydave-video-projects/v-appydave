@@ -1,0 +1,29 @@
+As a YouTuber the most difficult part of this job is the planning, the recording,
+the editing and the publishing. It's never about the content ideas or how we
+build the software in my particular case. Now a year and a half ago I designed
+some software ideas called FlyVideo to deal with them. How do I do all the
+preparation? How do I do the recording which is the area we're looking at today
+by the way? How do we do the editing which is done later on and then how do
+we do the publishing? So the publishing for me is generally done using software
+I've built called the Agent Workflow Builder. It takes care of using large
+language models to deal with the publishing workflow like creating blog
+posts, that sort of stuff. I also use Agent Workflow Builder
+for the pre-production but it's the recording that can be really time
+consuming and it's to do with areas like how do I rename and set up all my
+projects across different brands? How do I name the files so that they have how
+when I record a file how does it get named and how when I name how when I
+record a file how does it get named? How does it get moved into the right chapter,
+the right segment, the right labeling? How when I record a file how does it get
+labeled? How does it get how when I record a file how does it get a proper
+chapter heading, a segment number, a label and automatically routed into the video
+project or discarded quickly? You might think that this is fairly simple but
+it's more complex than you think so the video that you're watching right now is
+actually complete I'm just in the middle of doing chapter 2 which is the
+scenario and when I'm finished recording this segment it's going to go
+between number one the intro and number three the demonstration. Well today we're
+going to see how in about 20 minutes Claude Opus was able to create this
+entire application I'll just demonstrate a part of it now because
+before I did this part of the recording I have a I have a particular file here
+that I don't care about anymore so we're just going to click this so we're just
+going to click discard and we should see some nice messaging and the file
+disappears. So let's get into the demonstration

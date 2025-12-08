@@ -1,0 +1,13 @@
+Now let's just talk a little bit about the planning ahead of time. So I've
+already got a planning folder in place for what we're going to do. I've got some
+preliminary tech stack stuff but I want to run all of this through the BMAD
+method. Now which version of the BMAD method should we use? Should we use
+version 4 which is the current or should we use the version 6 alpha 9? Now I tried
+a video yesterday on alpha 8 and I don't particularly believe it's ready for use
+just yet for this sort of project. So we're going to work with version 4 and
+that means what we're going to do is use this command here, mpx BMAD method
+install. If you do want to use the version 6 it's all available. Now the few
+problems I ran into I had a conversation with Brian from the BMAD method and he
+is aware of it and he's talking through the changes that are coming in place
+related to those issues but for today we'll keep it simple and work with
+version 4.

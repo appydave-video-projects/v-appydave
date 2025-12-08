@@ -1,0 +1,14 @@
+So I ran into a couple of problems doing authentication and apparently I was on
+the wrong version of Claude so what I've done is an update and I'm going to take
+you through the workflow as it stands I've just logged in to 2.0.42 and I'm
+just going to do a logout so this ensures that we are now out of Claude
+and down below I have this little command that I've run and down below I've
+created a little test SDK script we'll just run that and it should fail so
+we're seeing an SDK fail and we're seeing it SDK and we're seeing an SDK
+test fail because we're not logged in so what we'll do is we'll come back up here
+and we'll run the login function and we'll say yes and yes we're using the
+browser subscription we're using our browser subscription so we can just come
+up and click on the authorize button we'll come back to the terminal it says
+we're signed in so let's clear this and try it again and it's just going to say
+hello in exactly five words and hopefully it gets something back and so
+now we can see that our SDK is actually working

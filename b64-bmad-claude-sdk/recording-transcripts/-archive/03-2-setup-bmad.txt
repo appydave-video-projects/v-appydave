@@ -1,0 +1,25 @@
+Now it started off with this idea of reading the user guide, so we'll take a
+copy of that and head over to Visual Studio. Now let's have a look at what I
+already had in place. So I already have a dots folder with just this planning
+directory. So there's a fair bit of spikes and examples of how this
+application could work. We'll draw on that when we're building our product
+brief. We've got a Claude file in place, we've got our Claude subfolder
+and you'll notice that there's an area called command. So all the BMAD
+methods have been set up within this area. And then the rest of BMAD is in
+the BMAD core where we've got different workflows, teams, templates for working
+through checklists, we've got our agents and we've got this little user guide
+that it told us to read. So let's pop that up and you can see we've got a
+user guide for a Greenfield document which is what we're doing. We've got a
+user guide for the Greenfield project, so this is a brand new project. Brownfield
+is for if you've already got an existing code base and we can start with a
+project idea. We pretty much know that. It's optional if we do the analyst, we
+don't need to because I've got a planning folder but we might. We've got an
+optional analyst research. Now we don't need that because I've already done all
+the planning but we might just work through it temporarily to see what it
+does. Then we've got to build the brief. So with the brief we're doing the
+product requirements document, we'll do a bit of UX design, we'll do a little bit
+of architecture design and then at the end we'll make it all cohesive. With the
+cohesion in place that's when we switch to just development and building epics
+and stories. And with the cohesion in place that's where we'll develop and with
+the cohesion in place that's when we'll start using a scrub master to design
+stories and a developer to actually create the code for those stories.

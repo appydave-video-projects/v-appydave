@@ -1,0 +1,6 @@
+To explore documentation libraries what we could do is head over to a terminal
+session and I've put us into one of the second brain areas I have on my computer
+and we'll type in tree and we can see some of the information coming through
+here. So we've got Anthropic and Claude, we've got stuff related to the SDK,
+Claude code and skills, we've got a whole lot of information related to BMAD
+method version 4 and version 6.

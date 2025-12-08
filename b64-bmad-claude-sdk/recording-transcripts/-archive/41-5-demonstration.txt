@@ -1,0 +1,24 @@
+Now since it's Christmas I think we should take the sold out item and do an
+article about promoting some of it. So we'll write a blog post announcing that
+there's a special that the product has gone from $32 to $22 but there's only
+10 left. Now the article has been written but we better go and update the
+products so that it's in stock and we have a price for it. We'll click on
+products and this is the product that we're looking to see change and there it
+is it's changed through it might be useful to change the color as well.
+We're just asking for it to be highlighted at the moment and there's
+our holiday special slightly misaligned but we'll leave that for now and let's
+also make sure that the home page has an update for the products. Let's make sure
+the home page has a product for the holiday special. I'm not sure where it's
+going to put it and it's starting to write the file right now and we had to
+refresh because this is not a product being delivered via socket.io and here's
+our holiday specials. Let's see what happens if we view it in the catalogue
+and here's our holiday special exclusive and we should be able to
+view it in the catalogue. Let's test an after Christmas cleanup so what we'll do
+is we'll remove all the styling from the CSS also remove any animations if they're
+found. We'll set the stock to 2 so we sold a few products and we'll put the
+price back to $32 so the styling has come through it's still writing out
+information.
+Please remove this special from the home page.
+Please remove this special from the home page.
+Snow and confetti is still showing up on all the pages I did ask you to remove
+that.

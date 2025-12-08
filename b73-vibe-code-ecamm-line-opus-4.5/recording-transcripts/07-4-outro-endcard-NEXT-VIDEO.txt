@@ -1,0 +1,7 @@
+Now in the next video we're going to extend the recording system and what we're going to look at is the recordings themselves and as they come into the system automatically transcribe them.
+Now this will have a few major benefits.
+The first one is it'll be able to suggest when we need to do calls to action, things that we need to talk about automatically.
+It will be able to generate the assets that we were looking at by generating prompts for us automatically based off the transcript.
+And once we also integrate concepts like the timestamps, so SRT files, we'll also be able to automatically create the chapter headings and the timestamps where they go in the YouTube descriptions.
+And when we combine a bunch of transcripts together we'll be able to automatically generate the chapter headings, we'll be able to put the timestamp where they're at and then easily create the chapter links in the YouTube description.
+So check out the link to that video right here. I'm Happy Dave.

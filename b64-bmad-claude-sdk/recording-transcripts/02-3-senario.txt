@@ -1,0 +1,10 @@
+Now, the magic of a self-editing application is firstly this human experience, so we'll
+be able to talk to the computer, have it generate features, have it generate data, and we'll
+be doing that using vibe coding sort of techniques.
+But the way we implement it, the technical reality is that we're going to use context
+engineering and the framework we're going to use is the BMAD method to build this application
+in front of us.
+But the technical reality of this is that we're going to use context engineering via
+the BMAD method to build the application, it'll build all the data.
+But the technical reality of this is that we're going to use context engineering using
+the BMAD method and tools like the Agent SDK to make this application a reality.

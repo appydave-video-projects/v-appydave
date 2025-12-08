@@ -1,0 +1,6 @@
+Now we are on story 3.2 and there's not a lot to be seen just yet. We've got an
+installation of ShadCN and UI and if we pop it up what we'll see is this user
+interface with the basic typing area in place. We've got to click me and we've got
+some buttons and the styling is very ordinary at the moment and according to
+the component verification that's exactly what we want to see at the
+moment.

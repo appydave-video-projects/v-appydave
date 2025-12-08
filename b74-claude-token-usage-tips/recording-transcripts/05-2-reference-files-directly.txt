@@ -1,0 +1,17 @@
+So it's made a little bit of progress it's read those files it's gathered for
+us the style that we need and it seems like it's written this file agent flip
+cards let's go and click on that and we'll head over to let's go and click
+on the agent flip cards and here we have it let's go and click on the agent flip
+cards and this is it and that looks pretty cool actually oh look it and it
+flips over which is what we asked it to do in the instructions we can move up
+and down so let's just read what firstly these two agents have and so the product
+owner is designed to gather the requirements from me on the stakeholder
+and in this case create either a functional requirement something that I
+might use visually versus a non-functional requirement something
+that's under the iceberg so to speak and then we've got the developer and the
+developer says it implements the features when given an FR or an NFR and
+if we look on the back we can see the basic ideas it works with it's
+maintaining some documents it operates to a very specific process or standard
+operating procedure and then it has communication that it does with the
+developer we look at the developer it's a different sort of setup it's a tech
+stack still got a process and we discuss some basic commands
