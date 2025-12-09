@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Compass 2026 - Meet Your Expedition Leaders</title>
+  <style>
+    /* Thunder Font */
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/q9EFa8AGTQeibtD87b2FA7.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/V8NcPhew9C2jaXdTjgp2Uf.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+    /* Space Grotesk Font */
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/y2KBfzyp23sNUHAG7iCBvi.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/A5KchbEeFAnQUpYGYHv8rR.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    :root {
+      --cc-teal: #1a5a5a;
+      --cc-teal-dark: #0d3d3d;
+      --cc-orange: #e07830;
+      --cc-coral: #e85a4f;
+      --cc-gold: #d4a853;
+      --cc-cream: #f5f0e8;
+      --cc-white: #ffffff;
+      --cc-brown: #3d2c24;
+      /* AppyDave accent */
+      --ad-gold: #ccba9d;
+      --ad-yellow: #ffde59;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Grotesk', Roboto, sans-serif;
+      background: var(--cc-teal-dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    /* Header */
+    .header {
+      background: var(--cc-teal);
+      padding: 28px 40px;
+      border-radius: 16px 16px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+
+    .logo-text .content { color: var(--cc-white); }
+    .logo-text .compass { color: var(--cc-orange); }
+
+    .title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    /* Main Content */
+    .main {
+      background: var(--cc-cream);
+      padding: 40px;
+    }
+
+    /* Intro */
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .intro-text {
+      font-size: 1.1rem;
+      color: var(--cc-brown);
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .intro-text strong {
+      color: var(--cc-teal);
+    }
+
+    /* Host Cards Grid - Now 3 columns */
+    .hosts-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .host-card {
+      background: var(--cc-white);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .host-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+    }
+
+    .host-card.jill {
+      border-top: 6px solid var(--cc-coral);
+    }
+
+    .host-card.caleb {
+      border-top: 6px solid var(--cc-orange);
+    }
+
+    .host-card.appydave {
+      border-top: 6px solid var(--ad-yellow);
+    }
+
+    /* Avatar Section */
+    .avatar-section {
+      padding: 24px;
+      text-align: center;
+      position: relative;
+    }
+
+    .host-card.jill .avatar-section {
+      background: linear-gradient(135deg, var(--cc-coral) 0%, #d64545 100%);
+    }
+
+    .host-card.caleb .avatar-section {
+      background: linear-gradient(135deg, var(--cc-orange) 0%, #c06020 100%);
+    }
+
+    .host-card.appydave .avatar-section {
+      background: linear-gradient(135deg, var(--ad-gold) 0%, #a89070 100%);
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      background: var(--cc-white);
+      border-radius: 50%;
+      margin: 0 auto 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .host-name {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--cc-white);
+      letter-spacing: 2px;
+    }
+
+    .host-card.appydave .host-name {
+      color: var(--cc-brown);
+    }
+
+    .host-role {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.9);
+      font-weight: 600;
+      margin-top: 4px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .host-card.appydave .host-role {
+      color: var(--cc-brown);
+      opacity: 0.8;
+    }
+
+    /* Info Section */
+    .info-section {
+      padding: 20px;
+    }
+
+    /* Stats Row */
+    .stats-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .stat {
+      background: var(--cc-cream);
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .stat-icon {
+      font-size: 1rem;
+      margin-bottom: 2px;
+    }
+
+    .stat-label {
+      font-size: 0.65rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-value {
+      font-weight: 700;
+      font-size: 0.75rem;
+      color: var(--cc-brown);
+      margin-top: 2px;
+    }
+
+    /* Section Label */
+    .section-label {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color: var(--cc-teal);
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    /* Tags */
+    .background-section {
+      margin-bottom: 16px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .tag {
+      background: var(--cc-cream);
+      color: var(--cc-brown);
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 0.65rem;
+      font-weight: 600;
+    }
+
+    /* Known For */
+    .known-for {
+      margin-bottom: 16px;
+    }
+
+    .known-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .known-item:last-child {
+      border-bottom: none;
+    }
+
+    .known-icon {
+      font-size: 0.9rem;
+    }
+
+    .known-text {
+      font-size: 0.75rem;
+      color: var(--cc-brown);
+    }
+
+    /* 2026 Goal */
+    .goal-section {
+      background: var(--cc-teal);
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .host-card.appydave .goal-section {
+      background: linear-gradient(135deg, var(--ad-gold) 0%, #a89070 100%);
+    }
+
+    .goal-label {
+      font-family: 'Thunder', sans-serif;
+      font-size: 0.75rem;
+      color: var(--cc-gold);
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .host-card.appydave .goal-label {
+      color: var(--cc-brown);
+    }
+
+    .goal-text {
+      color: var(--cc-white);
+      font-size: 0.8rem;
+      line-height: 1.4;
+      font-style: italic;
+    }
+
+    .host-card.appydave .goal-text {
+      color: var(--cc-brown);
+    }
+
+    .goal-text::before {
+      content: '"';
+    }
+
+    .goal-text::after {
+      content: '"';
+    }
+
+    /* Channels Section - AppyDave only */
+    .channels-section {
+      margin-bottom: 16px;
+    }
+
+    .channel-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 0;
+    }
+
+    .channel-icon {
+      font-size: 0.9rem;
+    }
+
+    .channel-text {
+      font-size: 0.7rem;
+      color: var(--cc-brown);
+    }
+
+    .channel-text a {
+      color: var(--cc-teal);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* Quote Banner */
+    .quote-banner {
+      background: var(--cc-gold);
+      padding: 24px 40px;
+      text-align: center;
+    }
+
+    .quote-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-brown);
+      letter-spacing: 1px;
+      line-height: 1.3;
+    }
+
+    .quote-author {
+      font-size: 0.85rem;
+      color: var(--cc-brown);
+      opacity: 0.8;
+      margin-top: 8px;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--cc-teal);
+      padding: 20px 40px;
+      border-radius: 0 0 16px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: var(--cc-white);
+    }
+
+    .footer-url {
+      font-family: 'Thunder', sans-serif;
+      font-size: 1.2rem;
+      color: var(--cc-orange);
+      letter-spacing: 1px;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        max-width: 100%;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hosts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo-text"><span class="content">CONTENT</span> <span class="compass">COMPASS</span></div>
+      <div class="title">YOUR EXPEDITION LEADERS</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Intro -->
+      <div class="intro">
+        <p class="intro-text">
+          Your guides aren't just leading from the front — <strong>they're doing the work alongside you</strong>.
+          Jill, Caleb, and AppyDave are all creators using Content Compass to level up their content in 2026.
+        </p>
+      </div>
+
+      <!-- Host Cards -->
+      <div class="hosts-grid">
+        <!-- Jill -->
+        <div class="host-card jill">
+          <div class="avatar-section">
+            <div class="avatar">👩‍💼</div>
+            <div class="host-name">JILL</div>
+            <div class="host-role">Community Manager @ Ecamm</div>
+          </div>
+          <div class="info-section">
+            <div class="stats-row">
+              <div class="stat">
+                <div class="stat-icon">🎥</div>
+                <div class="stat-label">Role</div>
+                <div class="stat-value">Livestreamer</div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">🎬</div>
+                <div class="stat-label">Also</div>
+                <div class="stat-value">Video Producer</div>
+              </div>
+            </div>
+
+            <div class="background-section">
+              <div class="section-label">Background</div>
+              <div class="tags">
+                <span class="tag">Livestreamer</span>
+                <span class="tag">Video Producer</span>
+                <span class="tag">Education</span>
+                <span class="tag">Communications</span>
+              </div>
+            </div>
+
+            <div class="known-for">
+              <div class="section-label">Focus Areas</div>
+              <div class="known-item">
+                <span class="known-icon">🤝</span>
+                <span class="known-text">Community engagement</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">📚</span>
+                <span class="known-text">Tutorials & education</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">✨</span>
+                <span class="known-text">Creator stories</span>
+              </div>
+            </div>
+
+            <div class="goal-section">
+              <div class="goal-label">2026 Goal</div>
+              <div class="goal-text">Create content I'm passionate about, even outside my role at Ecamm</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Caleb -->
+        <div class="host-card caleb">
+          <div class="avatar-section">
+            <div class="avatar">🧔</div>
+            <div class="host-name">CALEB</div>
+            <div class="host-role">Lifecycle Marketer @ Ecamm</div>
+          </div>
+          <div class="info-section">
+            <div class="stats-row">
+              <div class="stat">
+                <div class="stat-icon">🎭</div>
+                <div class="stat-label">Specialty</div>
+                <div class="stat-value">Comedy Writer</div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">🎮</div>
+                <div class="stat-label">Style</div>
+                <div class="stat-value">Gamification</div>
+              </div>
+            </div>
+
+            <div class="known-for">
+              <div class="section-label">Known For</div>
+              <div class="known-item">
+                <span class="known-icon">🏆</span>
+                <span class="known-text">Gamified email leaderboards</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">📧</span>
+                <span class="known-text">Choose your own adventure</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">🏕️</span>
+                <span class="known-text">Creator Camp program</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">🎄</span>
+                <span class="known-text">Vlogmas campaign</span>
+              </div>
+            </div>
+
+            <div class="goal-section">
+              <div class="goal-label">2026 Goal</div>
+              <div class="goal-text">Post videos every week, if not twice a week. Ramp up my solo content journey.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AppyDave -->
+        <div class="host-card appydave">
+          <div class="avatar-section">
+            <div class="avatar">🧑‍💻</div>
+            <div class="host-name">APPYDAVE</div>
+            <div class="host-role">Context Engineering & AI Mastery</div>
+          </div>
+          <div class="info-section">
+            <div class="stats-row">
+              <div class="stat">
+                <div class="stat-icon">🤖</div>
+                <div class="stat-label">Focus</div>
+                <div class="stat-value">AI & Agents</div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon">🛠️</div>
+                <div class="stat-label">Style</div>
+                <div class="stat-value">Builder</div>
+              </div>
+            </div>
+
+            <div class="background-section">
+              <div class="section-label">Content Pillars</div>
+              <div class="tags">
+                <span class="tag">Context Engineering</span>
+                <span class="tag">BMAD Method</span>
+                <span class="tag">FliVideo</span>
+                <span class="tag">Agent Workflows</span>
+                <span class="tag">Storyline App</span>
+              </div>
+            </div>
+
+            <div class="known-for">
+              <div class="section-label">Building</div>
+              <div class="known-item">
+                <span class="known-icon">📹</span>
+                <span class="known-text">FliVideo - Video Asset Mgmt</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">🎬</span>
+                <span class="known-text">Storyline App - Content Planning</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">🤖</span>
+                <span class="known-text">Agent Workflow Builder</span>
+              </div>
+              <div class="known-item">
+                <span class="known-icon">💎</span>
+                <span class="known-text">Klueless - DSL for LLMs</span>
+              </div>
+            </div>
+
+            <div class="channels-section">
+              <div class="section-label">Channels</div>
+              <div class="channel-item">
+                <span class="channel-icon">▶️</span>
+                <span class="channel-text"><a href="https://youtube.com/@appydave">YouTube @appydave</a></span>
+              </div>
+              <div class="channel-item">
+                <span class="channel-icon">🌐</span>
+                <span class="channel-text"><a href="https://appydave.com">appydave.com</a></span>
+              </div>
+            </div>
+
+            <div class="goal-section">
+              <div class="goal-label">2026 Goal</div>
+              <div class="goal-text">Master AI Agents & Context Engineering for content creators. Build in public.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quote Banner -->
+    <div class="quote-banner">
+      <div class="quote-text">"Context is the most powerful lever in AI. Teaching is a form of mastery."</div>
+      <div class="quote-author">— AppyDave's Philosophy</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-note">Join us for the 2026 journey</div>
+      <div class="footer-url">ECAMM.COM/COMPASS</div>
+    </div>
+  </div>
+
+</body>
+</html>

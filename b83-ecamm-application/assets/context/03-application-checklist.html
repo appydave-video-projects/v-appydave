@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Compass 2026 - Application Checklist</title>
+  <style>
+    /* Thunder Font */
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/q9EFa8AGTQeibtD87b2FA7.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/V8NcPhew9C2jaXdTjgp2Uf.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+    /* Space Grotesk Font */
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/y2KBfzyp23sNUHAG7iCBvi.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/A5KchbEeFAnQUpYGYHv8rR.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    :root {
+      --cc-teal: #1a5a5a;
+      --cc-teal-dark: #0d3d3d;
+      --cc-orange: #e07830;
+      --cc-coral: #e85a4f;
+      --cc-gold: #d4a853;
+      --cc-cream: #f5f0e8;
+      --cc-white: #ffffff;
+      --cc-brown: #3d2c24;
+      --cc-green: #2d8a4e;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Grotesk', Roboto, sans-serif;
+      background: var(--cc-teal-dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .checklist {
+      background: var(--cc-cream);
+      width: 100%;
+      max-width: 800px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    /* Header */
+    .header {
+      background: var(--cc-teal);
+      padding: 28px 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+
+    .logo-text .content { color: var(--cc-white); }
+    .logo-text .compass { color: var(--cc-orange); }
+
+    .title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    /* Deadline Banner */
+    .deadline-banner {
+      background: var(--cc-coral);
+      padding: 16px 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .deadline-icon {
+      font-size: 1.5rem;
+    }
+
+    .deadline-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    /* Content */
+    .content-area {
+      padding: 32px 36px;
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .section-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--cc-teal);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .section-title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--cc-brown);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* Checklist Items */
+    .check-group {
+      background: var(--cc-white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .check-item {
+      padding: 16px 20px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .check-item:last-child {
+      border-bottom: none;
+    }
+
+    .check-item:hover {
+      background: #fafafa;
+    }
+
+    .checkbox {
+      width: 24px;
+      height: 24px;
+      border: 2px solid var(--cc-teal);
+      border-radius: 6px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      margin-top: 2px;
+    }
+
+    .check-item.checked .checkbox {
+      background: var(--cc-green);
+      border-color: var(--cc-green);
+    }
+
+    .checkbox::after {
+      content: '✓';
+      color: var(--cc-white);
+      font-size: 0.9rem;
+      font-weight: 700;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .check-item.checked .checkbox::after {
+      opacity: 1;
+    }
+
+    .check-content {
+      flex: 1;
+    }
+
+    .check-label {
+      font-weight: 700;
+      color: var(--cc-brown);
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    .check-item.checked .check-label {
+      text-decoration: line-through;
+      opacity: 0.6;
+    }
+
+    .check-desc {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.4;
+    }
+
+    .check-tag {
+      font-size: 0.7rem;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      flex-shrink: 0;
+    }
+
+    .tag-required {
+      background: var(--cc-coral);
+      color: var(--cc-white);
+    }
+
+    .tag-optional {
+      background: var(--cc-gold);
+      color: var(--cc-brown);
+    }
+
+    /* Video Requirements Box */
+    .video-requirements {
+      background: var(--cc-teal);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 20px;
+    }
+
+    .video-requirements .section-title {
+      color: var(--cc-orange);
+      margin-bottom: 16px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .video-card {
+      background: var(--cc-white);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .video-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .video-duration {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: var(--cc-teal);
+    }
+
+    .video-format {
+      font-size: 0.75rem;
+      background: var(--cc-gold);
+      color: var(--cc-brown);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 700;
+    }
+
+    .video-title {
+      font-weight: 700;
+      color: var(--cc-brown);
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .video-includes {
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .video-includes li {
+      margin-bottom: 4px;
+    }
+
+    /* Agreement Section */
+    .agreement-section {
+      background: linear-gradient(135deg, var(--cc-orange) 0%, var(--cc-coral) 100%);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .agreement-section .section-title {
+      color: var(--cc-white);
+      margin-bottom: 16px;
+    }
+
+    .agreement-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .agreement-item {
+      background: rgba(255,255,255,0.95);
+      border-radius: 8px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .agreement-check {
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--cc-teal);
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .agreement-text {
+      font-size: 0.85rem;
+      color: var(--cc-brown);
+      font-weight: 500;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--cc-gold);
+      padding: 20px 36px;
+      text-align: center;
+    }
+
+    .footer-url {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--cc-brown);
+      letter-spacing: 1px;
+    }
+
+    .footer-note {
+      font-size: 0.85rem;
+      color: var(--cc-brown);
+      margin-top: 6px;
+      opacity: 0.8;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .checklist {
+        box-shadow: none;
+        max-width: 100%;
+      }
+      .check-item {
+        break-inside: avoid;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .video-grid,
+      .agreement-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="checklist">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo-text"><span class="content">CONTENT</span> <span class="compass">COMPASS</span></div>
+      <div class="title">APPLICATION CHECKLIST</div>
+    </div>
+
+    <!-- Deadline Banner -->
+    <div class="deadline-banner">
+      <span class="deadline-icon">⏰</span>
+      <span class="deadline-text">DEADLINE: DECEMBER 10, 2025</span>
+      <span class="deadline-icon">⏰</span>
+    </div>
+
+    <!-- Content -->
+    <div class="content-area">
+      <!-- Basic Info Section -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">📝</div>
+          <div class="section-title">Basic Information</div>
+        </div>
+        <div class="check-group">
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Name & Email</div>
+              <div class="check-desc">Your contact information</div>
+            </div>
+            <span class="check-tag tag-required">Required</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Ecamm Live Subscriber</div>
+              <div class="check-desc">Confirm your active subscription status</div>
+            </div>
+            <span class="check-tag tag-required">Required</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Content Creation Level</div>
+              <div class="check-desc">Describe your experience level (not a beginner)</div>
+            </div>
+            <span class="check-tag tag-required">Required</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Primary Content Type</div>
+              <div class="check-desc">What kind of content do you create?</div>
+            </div>
+            <span class="check-tag tag-required">Required</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Materials Section -->
+      <div class="video-requirements">
+        <div class="section-title">Video Materials Required</div>
+        <div class="video-grid">
+          <div class="video-card">
+            <div class="video-card-header">
+              <span class="video-duration">1-3 MIN</span>
+              <span class="video-format">Unlisted</span>
+            </div>
+            <div class="video-title">Video Introduction</div>
+            <ul class="video-includes">
+              <li>Who you are & your brand</li>
+              <li>Highlights from your content</li>
+              <li>Your creation process</li>
+              <li>What support you need</li>
+            </ul>
+          </div>
+          <div class="video-card">
+            <div class="video-card-header">
+              <span class="video-duration">30 SEC</span>
+              <span class="video-format">Vertical</span>
+            </div>
+            <div class="video-title">Ecamm Testimonial</div>
+            <ul class="video-includes">
+              <li>Why you love Ecamm</li>
+              <li>What features you use</li>
+              <li>Being part of the Fam</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Examples Section -->
+      <div class="section" style="margin-top: 24px;">
+        <div class="section-header">
+          <div class="section-icon">🔗</div>
+          <div class="section-title">Content Examples</div>
+        </div>
+        <div class="check-group">
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Content Example #1</div>
+              <div class="check-desc">Link to recent work that represents your best</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Content Example #2</div>
+              <div class="check-desc">Another example of your work</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Content Example #3</div>
+              <div class="check-desc">Third example if you have it</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">YouTube Channel URL</div>
+              <div class="check-desc">Your channel link</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Written Questions Section -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">✍️</div>
+          <div class="section-title">Written Responses</div>
+        </div>
+        <div class="check-group">
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Habits to Build/Improve</div>
+              <div class="check-desc">What content creation habits do you want to develop?</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Consistency Blockers</div>
+              <div class="check-desc">What's preventing you from being more consistent?</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">12-Month Content Goal</div>
+              <div class="check-desc">Your one major goal for the year</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+          <div class="check-item" onclick="this.classList.toggle('checked')">
+            <div class="checkbox"></div>
+            <div class="check-content">
+              <div class="check-label">Why This Program?</div>
+              <div class="check-desc">Why are you interested in Content Compass specifically?</div>
+            </div>
+            <span class="check-tag tag-optional">Optional</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Agreements Section -->
+      <div class="agreement-section">
+        <div class="section-title">Agreements (Required)</div>
+        <div class="agreement-grid">
+          <div class="agreement-item">
+            <div class="agreement-check"></div>
+            <span class="agreement-text">5-10 hours/month commitment</span>
+          </div>
+          <div class="agreement-item">
+            <div class="agreement-check"></div>
+            <span class="agreement-text">Bi-weekly call attendance</span>
+          </div>
+          <div class="agreement-item">
+            <div class="agreement-check"></div>
+            <span class="agreement-text">Share results as case study</span>
+          </div>
+          <div class="agreement-item">
+            <div class="agreement-check"></div>
+            <span class="agreement-text">Allow marketing use of story</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-url">ECAMM.COM/COMPASS</div>
+      <div class="footer-note">Selection announced by December 31, 2025</div>
+    </div>
+  </div>
+
+</body>
+</html>

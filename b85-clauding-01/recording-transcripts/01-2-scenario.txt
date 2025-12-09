@@ -1,0 +1,4 @@
+Here's our scenario. We're working with Vos and he has a movie studio, AI movie studio and he's learning a little bit of Claude code and he's communicated a really short video to me in Loom.
+Basically it's 40 seconds of information with a couple of screenshots.
+And what I've done is I've grabbed this and what I've done is grabbed the transcript from Loom by clicking this button.
+I've taken this screenshot and I've taken a couple of others.

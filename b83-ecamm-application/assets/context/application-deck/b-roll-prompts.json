@@ -1,0 +1,250 @@
+{
+  "title": "Content Compass Application - B-Roll Image Prompts",
+  "description": "28 image prompts (2 per slide) for B-roll overlays. Created for Jan to generate AI images.",
+  "created": "2025-12-09",
+  "style_notes": {
+    "color_palette": "Teal (#1a5a5a), Orange (#e07830), Coral (#e85a4f), Gold (#d4a853), Cream (#f5f0e8)",
+    "aesthetic": "Modern, professional, tech-forward, warm and approachable",
+    "recommended_tools": "Leonardo AI, Midjourney, DALL-E 3"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Hi, I'm AppyDave",
+      "content_summary": "Title slide introducing AppyDave - Context Engineering & AI Mastery",
+      "prompts": [
+        {
+          "id": "s01-a",
+          "prompt": "A confident tech professional standing in a modern home studio setup with multiple monitors, warm lighting, and a microphone. Clean, professional aesthetic with teal and orange accent colors. Photorealistic style.",
+          "usage": "Main visual for title introduction"
+        },
+        {
+          "id": "s01-b",
+          "prompt": "Abstract digital compass made of glowing orange and teal circuits and code fragments, floating in a dark professional space. Modern tech aesthetic, cinematic lighting.",
+          "usage": "Background overlay or transition element"
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "Who Am I",
+      "content_summary": "David Cruwys - 35+ years tech, 7-8 YouTube channels, 3 years on Ecamm",
+      "prompts": [
+        {
+          "id": "s02-a",
+          "prompt": "Timeline visualization showing 35 years of technology evolution - from early computers to modern AI. Split screen effect with vintage tech on left transitioning to modern setup on right. Warm tones, professional.",
+          "usage": "Visual representation of tech journey"
+        },
+        {
+          "id": "s02-b",
+          "prompt": "Grid of YouTube play buttons in different colors representing multiple channels, floating in a teal and gold gradient background. Modern, clean, professional style.",
+          "usage": "Multiple channels visualization"
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "The 555 Manifesto",
+      "content_summary": "5 Channels x 55 Weeks x 555 Videos - content philosophy",
+      "prompts": [
+        {
+          "id": "s03-a",
+          "prompt": "Bold typography design showing '555' in a manifesto style, with 5 video icons, 55 calendar weeks, and a counter reaching 555. Orange and gold colors on dark teal background. Motivational poster aesthetic.",
+          "usage": "Manifesto visual"
+        },
+        {
+          "id": "s03-b",
+          "prompt": "Mountain climber halfway up a steep cliff face, looking up toward the summit. Metaphor for ambitious goals. Dramatic lighting with warm orange sunset tones. Cinematic.",
+          "usage": "Metaphor for ambitious journey"
+        }
+      ]
+    },
+    {
+      "slide": 4,
+      "title": "My Channels",
+      "content_summary": "AppyDave, AITLDR, VOZ, AppyDave Coding - four channels with different focuses",
+      "prompts": [
+        {
+          "id": "s04-a",
+          "prompt": "Four distinct video screens arranged in a grid, each showing different content styles: coding tutorial, AI graphics demo, cinematic movie scene, and live streaming setup. Professional multi-screen presentation.",
+          "usage": "Channel diversity showcase"
+        },
+        {
+          "id": "s04-b",
+          "prompt": "Content creator hub with multiple monitors showing analytics dashboards, video editing software, and live chat. Modern home office with warm accent lighting in teal and gold.",
+          "usage": "Multi-channel management visual"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "What I Build",
+      "content_summary": "FliVideo, Storyline App, DAM Util, Agent Workflow - four products",
+      "prompts": [
+        {
+          "id": "s05-a",
+          "prompt": "Modern software dashboard UI mockup showing video asset management interface with drag-and-drop files, timeline view, and transcription panel. Clean design with teal accents.",
+          "usage": "FliVideo/tool interface representation"
+        },
+        {
+          "id": "s05-b",
+          "prompt": "Interconnected system diagram showing four glowing nodes (representing four products) connected by flowing data streams. Abstract tech visualization with orange and teal energy paths.",
+          "usage": "Product ecosystem visualization"
+        }
+      ]
+    },
+    {
+      "slide": 6,
+      "title": "My Process",
+      "content_summary": "Plan (POEM) → Record (Ecamm+FliHub) OR Generate (Storyline) → Publish (Agent Workflow)",
+      "prompts": [
+        {
+          "id": "s06-a",
+          "prompt": "Flowchart visualization showing content creation pipeline: planning board on left, recording studio in middle splitting into two paths (camera and AI generation), merging into publishing automation on right. Clean infographic style.",
+          "usage": "Process flow visualization"
+        },
+        {
+          "id": "s06-b",
+          "prompt": "Split scene: left side shows professional video recording setup with camera and lighting, right side shows AI-generated animated content on screen. Both paths leading to same output. Modern tech aesthetic.",
+          "usage": "Dual path content creation"
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "Ecamm Is Central",
+      "content_summary": "3 years on Ecamm, video editing becomes pre-production, Stream Deck workflow",
+      "prompts": [
+        {
+          "id": "s07-a",
+          "prompt": "Professional streaming setup featuring Ecamm Live interface on main monitor, Stream Deck with glowing buttons in foreground, high-quality microphone and camera visible. Warm studio lighting with teal and orange accents.",
+          "usage": "Ecamm setup showcase"
+        },
+        {
+          "id": "s07-b",
+          "prompt": "Close-up of hands on Stream Deck pedal, with motion blur suggesting quick tap actions. Recording studio background softly blurred. Professional product photography style.",
+          "usage": "Stream Deck workflow detail"
+        }
+      ]
+    },
+    {
+      "slide": 8,
+      "title": "My Reality",
+      "content_summary": "Last 4 months travel, zero videos, finally shipped 80-hour project",
+      "prompts": [
+        {
+          "id": "s08-a",
+          "prompt": "World map with flight path lines connecting Philippines, Australia, USA, and Thailand. Airplane icons along route. Travel journey visualization with warm vintage map aesthetic and modern overlay.",
+          "usage": "Travel journey visualization"
+        },
+        {
+          "id": "s08-b",
+          "prompt": "Before/after split: left shows empty video timeline with zero uploads, right shows completed project with full timeline and celebration confetti. Contrast visualization. Clean UI style.",
+          "usage": "From zero to shipped contrast"
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "The Gap",
+      "content_summary": "I know what to do. I need go-getters passionate about the journey.",
+      "prompts": [
+        {
+          "id": "s09-a",
+          "prompt": "Group of diverse content creators working together around a shared table, laptops open, engaged in collaborative discussion. Warm, inviting workspace with plants and natural light. Community feel.",
+          "usage": "Collaborative community visual"
+        },
+        {
+          "id": "s09-b",
+          "prompt": "Bridge spanning a gap between two cliffs - one labeled 'KNOWING' and one labeled 'DOING'. Person walking across. Inspirational metaphor visualization with dramatic lighting.",
+          "usage": "Knowledge-to-action metaphor"
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "What I Need",
+      "content_summary": "Bi-weekly check-ins, small group, public commitment, fellow builders",
+      "prompts": [
+        {
+          "id": "s10-a",
+          "prompt": "Calendar with bi-weekly meeting blocks highlighted in orange, video call icons on alternating weeks. Clean planning visualization with checkmarks and progress indicators.",
+          "usage": "Accountability structure visual"
+        },
+        {
+          "id": "s10-b",
+          "prompt": "Small group video call grid showing 6 people engaged in discussion, each in their own creative workspace. Warm, supportive atmosphere. Professional yet friendly.",
+          "usage": "Small group community visual"
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "What I Bring",
+      "content_summary": "Context engineering, systems thinking, tools to share, 35+ years shipping",
+      "prompts": [
+        {
+          "id": "s11-a",
+          "prompt": "Toolbox overflowing with digital tools and frameworks - code snippets, workflow diagrams, automation gears. Gift box style opening with tools floating out. Generous sharing metaphor.",
+          "usage": "Tools and expertise sharing"
+        },
+        {
+          "id": "s11-b",
+          "prompt": "System architecture diagram showing interconnected nodes representing context engineering concepts. Clean technical diagram with flowing connections in teal and gold colors.",
+          "usage": "Systems thinking visualization"
+        }
+      ]
+    },
+    {
+      "slide": 12,
+      "title": "2026 Goal",
+      "content_summary": "Master AI Agents & Context Engineering for Content Creators",
+      "prompts": [
+        {
+          "id": "s12-a",
+          "prompt": "Futuristic vision board for 2026 showing AI agent interfaces, content creator tools, and mastery badges. Vision board collage style with aspirational energy. Orange and gold tones.",
+          "usage": "2026 vision visualization"
+        },
+        {
+          "id": "s12-b",
+          "prompt": "Teacher at a digital whiteboard explaining AI concepts to engaged students/creators. Knowledge transfer moment. Warm educational setting with modern tech elements.",
+          "usage": "Teaching and sharing expertise"
+        }
+      ]
+    },
+    {
+      "slide": 13,
+      "title": "Why I Love Ecamm",
+      "content_summary": "30-second vertical video CTA with QR code",
+      "prompts": [
+        {
+          "id": "s13-a",
+          "prompt": "Smartphone displaying vertical video content with play button, surrounded by heart and fire emojis. Social media vertical format showcase. Modern, energetic, youthful.",
+          "usage": "Vertical video format highlight"
+        },
+        {
+          "id": "s13-b",
+          "prompt": "QR code transforming into a play button with energy rays emanating outward. Call-to-action visualization. Clean tech aesthetic with orange and teal glow effects.",
+          "usage": "Scan-to-watch CTA visual"
+        }
+      ]
+    },
+    {
+      "slide": 14,
+      "title": "Let's Do This",
+      "content_summary": "CTA - Q1:Habits → Q2:Voice → Q3:Case Study → Q4:Solo, APPYDAVE.COM",
+      "prompts": [
+        {
+          "id": "s14-a",
+          "prompt": "Four stepping stones crossing a stream, each stone labeled Q1, Q2, Q3, Q4 with icons for habits, voice, case study, solo. Journey progression visualization. Inspirational nature meets tech.",
+          "usage": "Quarterly journey stepping stones"
+        },
+        {
+          "id": "s14-b",
+          "prompt": "Handshake between two creators with digital overlay showing connection. Partnership and collaboration. Warm professional lighting with Content Compass colors (teal, orange, gold).",
+          "usage": "Let's build together visual"
+        }
+      ]
+    }
+  ]
+}

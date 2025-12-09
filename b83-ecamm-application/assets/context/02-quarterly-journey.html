@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Compass 2026 - Quarterly Journey Map</title>
+  <style>
+    /* Thunder Font */
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/q9EFa8AGTQeibtD87b2FA7.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/V8NcPhew9C2jaXdTjgp2Uf.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+    /* Space Grotesk Font */
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/y2KBfzyp23sNUHAG7iCBvi.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/A5KchbEeFAnQUpYGYHv8rR.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    :root {
+      /* Content Compass Colors */
+      --cc-teal: #1a5a5a;
+      --cc-teal-dark: #0d3d3d;
+      --cc-teal-light: #2a7a7a;
+      --cc-orange: #e07830;
+      --cc-coral: #e85a4f;
+      --cc-gold: #d4a853;
+      --cc-cream: #f5f0e8;
+      --cc-parchment: #e8dcc8;
+      --cc-white: #ffffff;
+      --cc-brown: #3d2c24;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Grotesk', Roboto, sans-serif;
+      background: var(--cc-teal-dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .map-container {
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    /* Header */
+    .header {
+      background: var(--cc-teal);
+      padding: 24px 40px;
+      border-radius: 16px 16px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+    }
+
+    .logo-text .content { color: var(--cc-white); }
+    .logo-text .compass { color: var(--cc-orange); }
+
+    .title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    /* Map Area */
+    .map {
+      background: var(--cc-parchment);
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 40px,
+          rgba(139, 119, 91, 0.1) 40px,
+          rgba(139, 119, 91, 0.1) 41px
+        ),
+        repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 40px,
+          rgba(139, 119, 91, 0.1) 40px,
+          rgba(139, 119, 91, 0.1) 41px
+        );
+      padding: 60px 50px;
+      position: relative;
+      min-height: 600px;
+    }
+
+    /* Topographic lines effect */
+    .map::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 50 Q50 30 100 50 T200 50' fill='none' stroke='%23b5a88a' stroke-opacity='0.3' stroke-width='1'/%3E%3Cpath d='M0 100 Q50 80 100 100 T200 100' fill='none' stroke='%23b5a88a' stroke-opacity='0.3' stroke-width='1'/%3E%3Cpath d='M0 150 Q50 130 100 150 T200 150' fill='none' stroke='%23b5a88a' stroke-opacity='0.3' stroke-width='1'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    /* Journey Path SVG */
+    .journey-path {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .path-line {
+      fill: none;
+      stroke: var(--cc-coral);
+      stroke-width: 4;
+      stroke-dasharray: 12, 8;
+      stroke-linecap: round;
+    }
+
+    /* Quarter Cards Grid */
+    .quarters-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 40px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .quarter-card {
+      background: var(--cc-white);
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .quarter-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+    }
+
+    /* Card positions for visual flow */
+    .quarter-card.q1 {
+      border-top: 5px solid var(--cc-teal);
+    }
+    .quarter-card.q2 {
+      border-top: 5px solid var(--cc-orange);
+    }
+    .quarter-card.q3 {
+      border-top: 5px solid var(--cc-coral);
+    }
+    .quarter-card.q4 {
+      border-top: 5px solid var(--cc-gold);
+    }
+
+    .quarter-badge {
+      position: absolute;
+      top: -20px;
+      left: 24px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-white);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .q1 .quarter-badge { background: var(--cc-teal); }
+    .q2 .quarter-badge { background: var(--cc-orange); }
+    .q3 .quarter-badge { background: var(--cc-coral); }
+    .q4 .quarter-badge { background: var(--cc-gold); }
+
+    .quarter-icon {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .quarter-months {
+      font-size: 0.8rem;
+      color: var(--cc-orange);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .quarter-theme {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--cc-brown);
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+      line-height: 1.2;
+    }
+
+    .quarter-metaphor {
+      font-size: 0.9rem;
+      color: var(--cc-teal);
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .quarter-focus {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .quarter-focus ul {
+      list-style: none;
+      margin-top: 8px;
+    }
+
+    .quarter-focus li {
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+
+    .quarter-focus li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--cc-orange);
+      font-weight: 700;
+    }
+
+    /* Center Logo */
+    .center-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 120px;
+      height: 120px;
+      background: var(--cc-teal);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      z-index: 3;
+      border: 4px solid var(--cc-orange);
+    }
+
+    .center-logo .compass-icon {
+      font-size: 2.5rem;
+      margin-bottom: 4px;
+    }
+
+    .center-logo .year {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-white);
+      letter-spacing: 2px;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--cc-teal);
+      padding: 20px 40px;
+      border-radius: 0 0 16px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-text {
+      font-family: 'Thunder', sans-serif;
+      font-size: 1.2rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    .footer-url {
+      font-size: 0.9rem;
+      color: var(--cc-orange);
+      font-weight: 600;
+    }
+
+    /* Waypoint markers */
+    .waypoint {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: var(--cc-coral);
+      border-radius: 50%;
+      border: 3px solid var(--cc-white);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 4;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .map-container {
+        box-shadow: none;
+        max-width: 100%;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .quarters-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .center-logo {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 0 auto 30px;
+      }
+      .map {
+        padding: 40px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="map-container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo-text"><span class="content">CONTENT</span> <span class="compass">COMPASS</span></div>
+      <div class="title">THE 2026 JOURNEY</div>
+    </div>
+
+    <!-- Map Area -->
+    <div class="map">
+      <!-- Center Logo -->
+      <div class="center-logo">
+        <span class="compass-icon">🧭</span>
+        <span class="year">2026</span>
+      </div>
+
+      <!-- Quarter Cards -->
+      <div class="quarters-grid">
+        <!-- Q1: Build Strong Creator Habits -->
+        <div class="quarter-card q1">
+          <div class="quarter-badge">Q1</div>
+          <span class="quarter-icon">⛺</span>
+          <div class="quarter-months">January - March</div>
+          <div class="quarter-theme">BUILD STRONG CREATOR HABITS</div>
+          <div class="quarter-metaphor">📍 Basecamp</div>
+          <div class="quarter-focus">
+            <ul>
+              <li>Establish content creation routines</li>
+              <li>Set up accountability systems</li>
+              <li>Define your content calendar</li>
+              <li>Build foundation for the year</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Q2: Own Your Voice -->
+        <div class="quarter-card q2">
+          <div class="quarter-badge">Q2</div>
+          <span class="quarter-icon">🎤</span>
+          <div class="quarter-months">April - June</div>
+          <div class="quarter-theme">OWN YOUR VOICE</div>
+          <div class="quarter-metaphor">📍 Cliff Overlook</div>
+          <div class="quarter-focus">
+            <ul>
+              <li>Develop your unique perspective</li>
+              <li>Refine your messaging</li>
+              <li>Build confidence on camera</li>
+              <li>Stand out in your niche</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Q3: Create a Strong Case Study -->
+        <div class="quarter-card q3">
+          <div class="quarter-badge">Q3</div>
+          <span class="quarter-icon">📸</span>
+          <div class="quarter-months">July - September</div>
+          <div class="quarter-theme">CREATE A STRONG CASE STUDY</div>
+          <div class="quarter-metaphor">📍 Camp</div>
+          <div class="quarter-focus">
+            <ul>
+              <li>Document your transformation</li>
+              <li>Capture metrics and growth</li>
+              <li>Build your success story</li>
+              <li>Create shareable results</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Q4: Prepare for Solo Expedition -->
+        <div class="quarter-card q4">
+          <div class="quarter-badge">Q4</div>
+          <span class="quarter-icon">🏔️</span>
+          <div class="quarter-months">October - December</div>
+          <div class="quarter-theme">PREPARE FOR SOLO EXPEDITION</div>
+          <div class="quarter-metaphor">📍 Summit</div>
+          <div class="quarter-focus">
+            <ul>
+              <li>Solidify independent systems</li>
+              <li>Plan your 2027 content strategy</li>
+              <li>Graduate with confidence</li>
+              <li>Celebration call!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-text">WHERE ACCOUNTABILITY GUIDES EVERY STEP</div>
+      <div class="footer-url">ecamm.com/compass</div>
+    </div>
+  </div>
+
+</body>
+</html>

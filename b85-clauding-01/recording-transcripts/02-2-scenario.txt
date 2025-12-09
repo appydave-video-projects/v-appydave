@@ -1,0 +1,3 @@
+Now all I've done is pasted in the transcript, I've taken a couple of screenshots and I've
+just asked it to extract any information into Markdown, I've given it a file name and just
+said to put it in logical order, so it's doing that right now.

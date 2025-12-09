@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Compass 2026 - Program Overview</title>
+  <style>
+    /* Thunder Font */
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/q9EFa8AGTQeibtD87b2FA7.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/V8NcPhew9C2jaXdTjgp2Uf.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+    /* Space Grotesk Font */
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/y2KBfzyp23sNUHAG7iCBvi.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/A5KchbEeFAnQUpYGYHv8rR.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    :root {
+      /* Content Compass Colors */
+      --cc-teal: #1a5a5a;
+      --cc-teal-dark: #0d3d3d;
+      --cc-orange: #e07830;
+      --cc-coral: #e85a4f;
+      --cc-gold: #d4a853;
+      --cc-cream: #f5f0e8;
+      --cc-white: #ffffff;
+      --cc-brown: #3d2c24;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Grotesk', Roboto, sans-serif;
+      background: var(--cc-teal-dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .cheatsheet {
+      background: var(--cc-cream);
+      width: 100%;
+      max-width: 900px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    /* Header */
+    .header {
+      background: var(--cc-teal);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 30 Q15 25 30 30 T60 30' fill='none' stroke='%23ffffff' stroke-opacity='0.05' stroke-width='1'/%3E%3C/svg%3E");
+      opacity: 0.5;
+    }
+
+    .logo {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+    }
+
+    .logo-text .content { color: var(--cc-white); }
+    .logo-text .compass { color: var(--cc-orange); }
+
+    .title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2.2rem;
+      color: var(--cc-white);
+      text-align: right;
+      position: relative;
+      z-index: 1;
+      letter-spacing: 1px;
+    }
+
+    /* Content */
+    .content-area {
+      padding: 32px 40px;
+    }
+
+    /* Quick Facts */
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .fact-card {
+      background: var(--cc-white);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--cc-orange);
+    }
+
+    .fact-value {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: var(--cc-teal);
+      line-height: 1;
+    }
+
+    .fact-label {
+      font-size: 0.85rem;
+      color: var(--cc-brown);
+      margin-top: 8px;
+      font-weight: 500;
+    }
+
+    /* Row Grid */
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .section {
+      background: var(--cc-white);
+      border-radius: 12px;
+      padding: 24px;
+      border-left: 5px solid var(--cc-orange);
+    }
+
+    .section-title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      color: var(--cc-teal);
+      margin-bottom: 16px;
+      letter-spacing: 2px;
+    }
+
+    .item-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .item-row:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .item-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--cc-teal);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 14px;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .item-content {
+      flex: 1;
+    }
+
+    .item-label {
+      font-weight: 700;
+      color: var(--cc-brown);
+      font-size: 0.95rem;
+    }
+
+    .item-desc {
+      color: #666;
+      font-size: 0.85rem;
+      margin-top: 2px;
+    }
+
+    /* Hosts Section */
+    .hosts-section {
+      background: var(--cc-teal);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .hosts-section .section-title {
+      color: var(--cc-orange);
+    }
+
+    .hosts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .host-card {
+      background: var(--cc-white);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .host-avatar {
+      width: 60px;
+      height: 60px;
+      background: var(--cc-orange);
+      border-radius: 50%;
+      margin: 0 auto 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Thunder', sans-serif;
+      font-size: 1.8rem;
+      color: var(--cc-white);
+    }
+
+    .host-name {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-teal);
+      letter-spacing: 1px;
+    }
+
+    .host-role {
+      font-size: 0.85rem;
+      color: var(--cc-orange);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .host-goal {
+      font-size: 0.8rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    /* Journey Section */
+    .journey-section {
+      background: linear-gradient(135deg, var(--cc-orange) 0%, var(--cc-coral) 100%);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .journey-section .section-title {
+      color: var(--cc-white);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .journey-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .quarter-card {
+      background: var(--cc-white);
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .quarter-badge {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-white);
+      background: var(--cc-teal);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px;
+    }
+
+    .quarter-theme {
+      font-weight: 700;
+      color: var(--cc-brown);
+      font-size: 0.85rem;
+      line-height: 1.3;
+    }
+
+    .quarter-metaphor {
+      font-size: 0.75rem;
+      color: var(--cc-orange);
+      margin-top: 6px;
+      font-weight: 600;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--cc-gold);
+      padding: 24px 40px;
+      text-align: center;
+    }
+
+    .footer-label {
+      font-family: 'Thunder', sans-serif;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      color: var(--cc-brown);
+      opacity: 0.7;
+      margin-bottom: 8px;
+      letter-spacing: 2px;
+    }
+
+    .footer-message {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: var(--cc-brown);
+      letter-spacing: 1px;
+    }
+
+    /* Dates Banner */
+    .dates-banner {
+      background: var(--cc-teal-dark);
+      padding: 16px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .date-item {
+      text-align: center;
+    }
+
+    .date-label {
+      font-size: 0.75rem;
+      color: var(--cc-orange);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+
+    .date-value {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--cc-white);
+    }
+
+    .date-arrow {
+      color: var(--cc-orange);
+      font-size: 1.5rem;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .cheatsheet {
+        box-shadow: none;
+        max-width: 100%;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .quick-facts {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .row {
+        grid-template-columns: 1fr;
+      }
+      .journey-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .hosts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cheatsheet">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <div class="logo-text"><span class="content">CONTENT</span> <span class="compass">COMPASS</span></div>
+      </div>
+      <div class="title">PROGRAM OVERVIEW</div>
+    </div>
+
+    <!-- Dates Banner -->
+    <div class="dates-banner">
+      <div class="date-item">
+        <div class="date-label">Applications Open</div>
+        <div class="date-value">NOV 10, 2025</div>
+      </div>
+      <div class="date-arrow">→</div>
+      <div class="date-item">
+        <div class="date-label">Deadline</div>
+        <div class="date-value">DEC 10, 2025</div>
+      </div>
+      <div class="date-arrow">→</div>
+      <div class="date-item">
+        <div class="date-label">Selection</div>
+        <div class="date-value">DEC 31, 2025</div>
+      </div>
+      <div class="date-arrow">→</div>
+      <div class="date-item">
+        <div class="date-label">Program Runs</div>
+        <div class="date-value">JAN - DEC 2026</div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content-area">
+      <!-- Quick Facts -->
+      <div class="quick-facts">
+        <div class="fact-card">
+          <div class="fact-value">12</div>
+          <div class="fact-label">Months</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">6</div>
+          <div class="fact-label">Creators Selected</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">FREE</div>
+          <div class="fact-label">For Ecamm Subscribers</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">5-10</div>
+          <div class="fact-label">Hours/Month</div>
+        </div>
+      </div>
+
+      <!-- Two Column Row -->
+      <div class="row">
+        <!-- What You Get -->
+        <div class="section">
+          <div class="section-title">What You Get</div>
+          <div class="item-row">
+            <div class="item-icon">📞</div>
+            <div class="item-content">
+              <div class="item-label">Bi-Weekly Zoom Calls</div>
+              <div class="item-desc">Small group accountability with hosts</div>
+            </div>
+          </div>
+          <div class="item-row">
+            <div class="item-icon">🎥</div>
+            <div class="item-content">
+              <div class="item-label">Monthly Live Streams</div>
+              <div class="item-desc">Share progress with Ecamm community</div>
+            </div>
+          </div>
+          <div class="item-row">
+            <div class="item-icon">🎓</div>
+            <div class="item-content">
+              <div class="item-label">Expert Access</div>
+              <div class="item-desc">Learn from Ecamm Fam creators</div>
+            </div>
+          </div>
+          <div class="item-row">
+            <div class="item-icon">📊</div>
+            <div class="item-content">
+              <div class="item-label">Case Study</div>
+              <div class="item-desc">Document your transformation</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Requirements -->
+        <div class="section">
+          <div class="section-title">Requirements</div>
+          <div class="item-row">
+            <div class="item-icon">✓</div>
+            <div class="item-content">
+              <div class="item-label">Ecamm Live Subscriber</div>
+              <div class="item-desc">Active subscription required</div>
+            </div>
+          </div>
+          <div class="item-row">
+            <div class="item-icon">✓</div>
+            <div class="item-content">
+              <div class="item-label">Consistent Creator</div>
+              <div class="item-desc">Not a beginner - already creating</div>
+            </div>
+          </div>
+          <div class="item-row">
+            <div class="item-icon">✓</div>
+            <div class="item-content">
+              <div class="item-label">Public Participation</div>
+              <div class="item-desc">Share journey in streams & case studies</div>
+            </div>
+          </div>
+          <div class="item-row">
+            <div class="item-icon">✓</div>
+            <div class="item-content">
+              <div class="item-label">Year-Long Commitment</div>
+              <div class="item-desc">Full 12-month dedication</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hosts Section -->
+      <div class="hosts-section">
+        <div class="section-title">Your Expedition Leaders</div>
+        <div class="hosts-grid">
+          <div class="host-card">
+            <div class="host-avatar">J</div>
+            <div class="host-name">JILL</div>
+            <div class="host-role">Community Manager</div>
+            <div class="host-goal">"Create content I'm passionate about, even outside my Ecamm role"</div>
+          </div>
+          <div class="host-card">
+            <div class="host-avatar">C</div>
+            <div class="host-name">CALEB</div>
+            <div class="host-role">Lifecycle Marketer</div>
+            <div class="host-goal">"Post videos every week, if not twice a week"</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Journey Section -->
+      <div class="journey-section">
+        <div class="section-title">The 2026 Journey</div>
+        <div class="journey-grid">
+          <div class="quarter-card">
+            <div class="quarter-badge">Q1</div>
+            <div class="quarter-theme">Build Strong Creator Habits</div>
+            <div class="quarter-metaphor">Basecamp</div>
+          </div>
+          <div class="quarter-card">
+            <div class="quarter-badge">Q2</div>
+            <div class="quarter-theme">Own Your Voice</div>
+            <div class="quarter-metaphor">Cliff Overlook</div>
+          </div>
+          <div class="quarter-card">
+            <div class="quarter-badge">Q3</div>
+            <div class="quarter-theme">Create a Strong Case Study</div>
+            <div class="quarter-metaphor">Camp</div>
+          </div>
+          <div class="quarter-card">
+            <div class="quarter-badge">Q4</div>
+            <div class="quarter-theme">Prepare for Solo Expedition</div>
+            <div class="quarter-metaphor">Summit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-label">Core Message</div>
+      <div class="footer-message">No one should have to do this stuff alone. We need each other.</div>
+    </div>
+  </div>
+
+</body>
+</html>

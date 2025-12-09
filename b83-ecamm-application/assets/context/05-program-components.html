@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Compass 2026 - Program Components</title>
+  <style>
+    /* Thunder Font */
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/q9EFa8AGTQeibtD87b2FA7.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Thunder';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/evcmDsp9BzNSkT6wvfoEd7/V8NcPhew9C2jaXdTjgp2Uf.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+    /* Space Grotesk Font */
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/y2KBfzyp23sNUHAG7iCBvi.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('https://user.lpcontent.net/fonts/Nn96X4oMEvyUSnmidyhnd/BLZWca3223ZtMttwMfzaj5/A5KchbEeFAnQUpYGYHv8rR.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    :root {
+      --cc-teal: #1a5a5a;
+      --cc-teal-dark: #0d3d3d;
+      --cc-teal-light: #2a7a7a;
+      --cc-orange: #e07830;
+      --cc-coral: #e85a4f;
+      --cc-gold: #d4a853;
+      --cc-cream: #f5f0e8;
+      --cc-white: #ffffff;
+      --cc-brown: #3d2c24;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Grotesk', Roboto, sans-serif;
+      background: var(--cc-teal-dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    /* Header */
+    .header {
+      background: var(--cc-teal);
+      padding: 28px 40px;
+      border-radius: 16px 16px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+
+    .logo-text .content { color: var(--cc-white); }
+    .logo-text .compass { color: var(--cc-orange); }
+
+    .title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    /* Main Content */
+    .main {
+      background: var(--cc-cream);
+      padding: 40px;
+    }
+
+    /* Section Title */
+    .section-title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--cc-brown);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    /* Components Grid */
+    .components-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .component-card {
+      background: var(--cc-white);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .component-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    }
+
+    .component-header {
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .component-card:nth-child(1) .component-header { background: var(--cc-teal); }
+    .component-card:nth-child(2) .component-header { background: var(--cc-orange); }
+    .component-card:nth-child(3) .component-header { background: var(--cc-coral); }
+    .component-card:nth-child(4) .component-header { background: var(--cc-gold); }
+    .component-card:nth-child(5) .component-header { background: var(--cc-teal-light); }
+
+    .component-icon {
+      width: 50px;
+      height: 50px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+
+    .component-title {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    .component-frequency {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.8);
+      margin-top: 2px;
+    }
+
+    .component-body {
+      padding: 20px 24px;
+    }
+
+    .component-desc {
+      font-size: 0.95rem;
+      color: var(--cc-brown);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .component-details {
+      background: var(--cc-cream);
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 0;
+    }
+
+    .detail-icon {
+      color: var(--cc-teal);
+      font-size: 1rem;
+    }
+
+    .detail-text {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    /* Case Study - Full Width */
+    .case-study-card {
+      grid-column: span 2;
+    }
+
+    .case-study-card .component-header {
+      background: linear-gradient(135deg, var(--cc-orange) 0%, var(--cc-coral) 100%);
+    }
+
+    .case-study-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .case-step {
+      text-align: center;
+      padding: 12px;
+    }
+
+    .case-step-num {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: var(--cc-teal);
+      line-height: 1;
+    }
+
+    .case-step-text {
+      font-size: 0.8rem;
+      color: var(--cc-brown);
+      margin-top: 6px;
+    }
+
+    /* Time Commitment Section */
+    .time-section {
+      background: var(--cc-teal);
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+
+    .time-section .section-title {
+      color: var(--cc-orange);
+      margin-bottom: 24px;
+    }
+
+    .time-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .time-card {
+      background: var(--cc-white);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .time-value {
+      font-family: 'Thunder', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--cc-teal);
+      line-height: 1;
+    }
+
+    .time-unit {
+      font-size: 0.8rem;
+      color: var(--cc-orange);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .time-label {
+      font-size: 0.85rem;
+      color: var(--cc-brown);
+      margin-top: 8px;
+    }
+
+    /* What You Get Section */
+    .outcome-section {
+      background: linear-gradient(135deg, var(--cc-gold) 0%, #c49840 100%);
+      border-radius: 16px;
+      padding: 30px;
+    }
+
+    .outcome-section .section-title {
+      color: var(--cc-brown);
+      margin-bottom: 24px;
+    }
+
+    .outcome-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .outcome-card {
+      background: var(--cc-white);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .outcome-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .outcome-text {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--cc-brown);
+      line-height: 1.4;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--cc-teal);
+      padding: 20px 40px;
+      border-radius: 0 0 16px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-message {
+      font-family: 'Thunder', sans-serif;
+      font-size: 1.2rem;
+      color: var(--cc-white);
+      letter-spacing: 1px;
+    }
+
+    .footer-url {
+      font-family: 'Thunder', sans-serif;
+      font-size: 1.2rem;
+      color: var(--cc-orange);
+      letter-spacing: 1px;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        max-width: 100%;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .components-grid {
+        grid-template-columns: 1fr;
+      }
+      .case-study-card {
+        grid-column: span 1;
+      }
+      .case-study-grid,
+      .time-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .outcome-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo-text"><span class="content">CONTENT</span> <span class="compass">COMPASS</span></div>
+      <div class="title">WHAT'S INCLUDED</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Components Grid -->
+      <div class="section-title">Program Components</div>
+      <div class="components-grid">
+        <!-- Bi-Weekly Calls -->
+        <div class="component-card">
+          <div class="component-header">
+            <div class="component-icon">📞</div>
+            <div>
+              <div class="component-title">BI-WEEKLY GROUP CALLS</div>
+              <div class="component-frequency">Every 2 weeks via Zoom</div>
+            </div>
+          </div>
+          <div class="component-body">
+            <p class="component-desc">
+              Small-group accountability sessions with Caleb, Jill, and 5 other creators.
+              Share what you're working on and get support.
+            </p>
+            <div class="component-details">
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">8 total participants (you + 5 + 2 hosts)</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Share progress & challenges</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Hold each other accountable</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Monthly Streams -->
+        <div class="component-card">
+          <div class="component-header">
+            <div class="component-icon">🎥</div>
+            <div>
+              <div class="component-title">MONTHLY LIVE STREAMS</div>
+              <div class="component-frequency">Once per month, public</div>
+            </div>
+          </div>
+          <div class="component-body">
+            <p class="component-desc">
+              Share your progress with the broader Ecamm community.
+              Be part of creator spotlight content.
+            </p>
+            <div class="component-details">
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Public visibility for your brand</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Featured in Ecamm marketing</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Build your audience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quarterly Themes -->
+        <div class="component-card">
+          <div class="component-header">
+            <div class="component-icon">📅</div>
+            <div>
+              <div class="component-title">QUARTERLY FOCUS THEMES</div>
+              <div class="component-frequency">New theme each quarter</div>
+            </div>
+          </div>
+          <div class="component-body">
+            <p class="component-desc">
+              Each quarter tackles a new area of growth, building on the previous
+              to create lasting transformation.
+            </p>
+            <div class="component-details">
+              <div class="detail-item">
+                <span class="detail-icon">Q1</span>
+                <span class="detail-text">Build Strong Creator Habits</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">Q2</span>
+                <span class="detail-text">Own Your Voice</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">Q3</span>
+                <span class="detail-text">Create a Strong Case Study</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">Q4</span>
+                <span class="detail-text">Prepare for Solo Expedition</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Expert Access -->
+        <div class="component-card">
+          <div class="component-header">
+            <div class="component-icon">🎓</div>
+            <div>
+              <div class="component-title">EXPERT PARTNER ACCESS</div>
+              <div class="component-frequency">Throughout the program</div>
+            </div>
+          </div>
+          <div class="component-body">
+            <p class="component-desc">
+              Learn from powerhouse creators in the Ecamm Fam.
+              Get insights from successful content entrepreneurs.
+            </p>
+            <div class="component-details">
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Guest expert sessions</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Real-world strategies</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">→</span>
+                <span class="detail-text">Network with pros</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study - Full Width -->
+        <div class="component-card case-study-card">
+          <div class="component-header">
+            <div class="component-icon">📊</div>
+            <div>
+              <div class="component-title">YOUR TRANSFORMATION CASE STUDY</div>
+              <div class="component-frequency">Built throughout the year</div>
+            </div>
+          </div>
+          <div class="component-body">
+            <p class="component-desc">
+              Document your journey from start to finish. Create a compelling story
+              of your growth that you can share and that Ecamm can feature.
+            </p>
+            <div class="case-study-grid">
+              <div class="case-step">
+                <div class="case-step-num">1</div>
+                <div class="case-step-text">Document your starting point</div>
+              </div>
+              <div class="case-step">
+                <div class="case-step-num">2</div>
+                <div class="case-step-text">Track metrics & growth</div>
+              </div>
+              <div class="case-step">
+                <div class="case-step-num">3</div>
+                <div class="case-step-text">Capture key moments</div>
+              </div>
+              <div class="case-step">
+                <div class="case-step-num">4</div>
+                <div class="case-step-text">Share your success story</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Time Commitment -->
+      <div class="time-section">
+        <div class="section-title">Time Commitment</div>
+        <div class="time-grid">
+          <div class="time-card">
+            <div class="time-value">5-10</div>
+            <div class="time-unit">Hours/Month</div>
+            <div class="time-label">Total commitment</div>
+          </div>
+          <div class="time-card">
+            <div class="time-value">2x</div>
+            <div class="time-unit">Per Month</div>
+            <div class="time-label">Group calls</div>
+          </div>
+          <div class="time-card">
+            <div class="time-value">1x</div>
+            <div class="time-unit">Per Month</div>
+            <div class="time-label">Public stream</div>
+          </div>
+          <div class="time-card">
+            <div class="time-value">12</div>
+            <div class="time-unit">Months</div>
+            <div class="time-label">Full program</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Outcomes -->
+      <div class="outcome-section">
+        <div class="section-title">What You'll Walk Away With</div>
+        <div class="outcome-grid">
+          <div class="outcome-card">
+            <div class="outcome-icon">🎯</div>
+            <div class="outcome-text">Consistent content creation habits</div>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">🎤</div>
+            <div class="outcome-text">Confidence in your unique voice</div>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">📈</div>
+            <div class="outcome-text">Documented growth & metrics</div>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">🤝</div>
+            <div class="outcome-text">Lifelong creator connections</div>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">🌟</div>
+            <div class="outcome-text">Featured in Ecamm marketing</div>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">🚀</div>
+            <div class="outcome-text">Ready to fly solo in 2027</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-message">APPLICATIONS CLOSE DEC 10, 2025</div>
+      <div class="footer-url">ECAMM.COM/COMPASS</div>
+    </div>
+  </div>
+
+</body>
+</html>
