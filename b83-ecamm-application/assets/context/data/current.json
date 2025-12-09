@@ -1,0 +1,433 @@
+{
+  "collection_meta": {
+    "id": "ecamm-content-compass",
+    "description": "Ecamm Live Content Compass 2026 - Creator Accountability Program",
+    "collected": "2025-12-09",
+    "source": "ecamm.com/compass",
+    "purpose": "External program reference - accountability group model research"
+  },
+  "program": {
+    "name": "Content Compass 2026",
+    "tagline": "An exclusive creator community where accountability guides every step",
+    "url": "https://ecamm.com/compass",
+    "type": "accountability_program",
+    "duration_months": 12,
+    "cost": "free",
+    "cohort_size": 6,
+    "total_participants": 8,
+    "participant_breakdown": {
+      "selected_creators": 6,
+      "hosts": 2,
+      "note": "Caleb and Jill participate alongside the 6 selected creators"
+    }
+  },
+  "dates": {
+    "application_open": "2025-11-10",
+    "application_deadline": "2025-12-10",
+    "selection_announced": "2025-12-31",
+    "program_start": "2026-01",
+    "program_end": "2026-12",
+    "celebration_call": "Early December 2026"
+  },
+  "organization": {
+    "name": "Ecamm Network",
+    "product": "Ecamm Live",
+    "application_platform": "ClickUp Forms",
+    "community_name": "EcammFam"
+  },
+  "hosts": [
+    {
+      "name": "Jill",
+      "role": "Community Manager",
+      "company": "Ecamm",
+      "responsibilities": [
+        "Community engagement",
+        "Marketing strategies",
+        "Content creation",
+        "Bridging marketing and community efforts"
+      ],
+      "background": [
+        "Professional livestreamer",
+        "Video producer",
+        "Education background",
+        "Communications background"
+      ],
+      "personal_goal_2026": "Create more content I'm passionate about, even outside my role at Ecamm",
+      "avatar": {
+        "style": "3D Pixar/Disney-esque",
+        "hair": "Dark brown bob with pink/magenta tips",
+        "outfit": "Coral puffy jacket, teal sweater, olive cargo pants, hiking boots",
+        "accessories": "Olive crossbody messenger bag, golden compass",
+        "pose": "Confident stance, hand on hip, holding compass"
+      }
+    },
+    {
+      "name": "Caleb",
+      "role": "Lifecycle Marketer",
+      "company": "Ecamm",
+      "specialty": "Comedy writer",
+      "philosophy": "Play isn't just for kids—it's the secret to better marketing",
+      "known_for": [
+        "Gamified email leaderboards",
+        "Choose your own adventure newsletters",
+        "Creator Camp program",
+        "Vlogmas campaign"
+      ],
+      "personal_goal_2026": "Post videos every week, if not twice a week. Ramp up solo content journey started last year.",
+      "avatar": {
+        "style": "3D Pixar/Disney-esque",
+        "hair": "Brown wavy hair, beard",
+        "outfit": "Caramel puffy jacket with teal accents, teal t-shirt, brown cargo pants, tan hiking boots",
+        "accessories": "Green hiking backpack, vintage camera, teal hiking pole, ear piercing",
+        "pose": "Standing with hiking pole, giving thumbs up"
+      }
+    }
+  ],
+  "program_structure": {
+    "call_format": {
+      "frequency": "Bi-weekly",
+      "platform": "Zoom",
+      "participants": "Caleb, Jill, and 6 selected creators",
+      "focus": "What we're working on, how to help each other, accountability"
+    },
+    "quarterly_themes": [
+      {
+        "quarter": "Q1",
+        "theme": "Build Strong Creator Habits",
+        "icon": "Tent at basecamp with checklist",
+        "location_metaphor": "Basecamp"
+      },
+      {
+        "quarter": "Q2",
+        "theme": "Own Your Voice",
+        "icon": "Mountain cliff with microphone",
+        "location_metaphor": "Cliff overlook"
+      },
+      {
+        "quarter": "Q3",
+        "theme": "Create a Strong Case Study",
+        "icon": "Camping scene with tent, campfire, camera, notebook",
+        "location_metaphor": "Camp"
+      },
+      {
+        "quarter": "Q4",
+        "theme": "Prepare for Your Solo Expedition",
+        "icon": "Mountain peaks with backpack",
+        "location_metaphor": "Summit"
+      }
+    ],
+    "components": [
+      {
+        "name": "Bi-Weekly Group Calls",
+        "frequency": "Every 2 weeks",
+        "description": "Small-group accountability sessions with 5 other creators"
+      },
+      {
+        "name": "Monthly Public Live Streams",
+        "frequency": "Monthly",
+        "description": "Share your progress with the Ecamm community"
+      },
+      {
+        "name": "Quarterly Focus Themes",
+        "frequency": "Quarterly",
+        "description": "Each quarter tackles a new area of growth"
+      },
+      {
+        "name": "Access to Expert Partners",
+        "frequency": "Ongoing",
+        "description": "Learn from powerhouse creators in the Ecamm Fam"
+      },
+      {
+        "name": "Case Study Creation",
+        "frequency": "End of program",
+        "description": "Hit your content goals and create a killer case study"
+      }
+    ]
+  },
+  "requirements": {
+    "eligibility": [
+      "Current Ecamm Live subscriber",
+      "Consistent creator (not a beginner)",
+      "Comfortable with Ecamm Live basics",
+      "Actively creating content"
+    ],
+    "commitment": [
+      "Focused on growing brand, business, or audience through video",
+      "Willing to share journey publicly",
+      "Show up for peers",
+      "Commit to year-long program",
+      "Take action"
+    ],
+    "time_commitment": {
+      "hours_per_month": "5-10",
+      "includes": [
+        "Bi-weekly group calls (mandatory)",
+        "Creating content",
+        "Applying group feedback",
+        "Monthly public live streams"
+      ]
+    },
+    "marketing_agreement": [
+      "Share results publicly as part of case studies",
+      "Allow Ecamm to use content/story for marketing purposes",
+      "Provide testimonials and feedback about the program"
+    ]
+  },
+  "application_process": {
+    "method": "ClickUp form",
+    "review_type": "Rolling basis",
+    "selection_criteria": "Competitive - looking for commitment, creativity, genuine desire to improve",
+    "required_materials": {
+      "video_introduction": {
+        "length": "1-3 minutes",
+        "format": "Unlisted video",
+        "must_include": [
+          "Brief introduction to who you are and your brand",
+          "Highlights/clips from content you've already created",
+          "Your current content creation process",
+          "What accountability support would help you most"
+        ]
+      },
+      "ecamm_testimonial": {
+        "length": "30 seconds",
+        "format": "Vertical video",
+        "topic": "Why you love Ecamm and being part of the Ecamm Fam"
+      },
+      "content_examples": {
+        "quantity": "2-3 links",
+        "description": "Recent content that best represents your current work"
+      }
+    },
+    "form_fields": [
+      {
+        "field": "Name",
+        "required": true
+      },
+      {
+        "field": "Email",
+        "required": true
+      },
+      {
+        "field": "Ecamm Live subscriber status",
+        "required": true,
+        "type": "checkbox"
+      },
+      {
+        "field": "Content creation level",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "field": "Primary content type",
+        "required": true,
+        "type": "select",
+        "has_other": true
+      },
+      {
+        "field": "Video creation frequency",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "field": "Publishing platforms",
+        "required": true,
+        "type": "multi-select"
+      },
+      {
+        "field": "Business stage",
+        "required": true,
+        "type": "select"
+      },
+      {
+        "field": "1-3 minute video application",
+        "required": true,
+        "type": "url"
+      },
+      {
+        "field": "30s vertical Ecamm testimonial",
+        "required": true,
+        "type": "file_upload"
+      },
+      {
+        "field": "Content examples (2-3)",
+        "required": false,
+        "type": "url",
+        "count": 3
+      },
+      {
+        "field": "YouTube Channel URL",
+        "required": false,
+        "type": "url"
+      },
+      {
+        "field": "Habits to build/improve",
+        "required": false,
+        "type": "textarea"
+      },
+      {
+        "field": "Consistency blockers",
+        "required": false,
+        "type": "textarea"
+      },
+      {
+        "field": "12-month content goal",
+        "required": false,
+        "type": "textarea"
+      },
+      {
+        "field": "Why interested in program",
+        "required": false,
+        "type": "textarea"
+      },
+      {
+        "field": "Anything else",
+        "required": false,
+        "type": "textarea"
+      },
+      {
+        "field": "Time commitment agreement",
+        "required": true,
+        "type": "checkbox"
+      },
+      {
+        "field": "Marketing requirements agreement",
+        "required": true,
+        "type": "checkbox"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Who can apply?",
+      "answer": "Any current Ecamm Live subscriber who's actively creating content and ready to stay accountable in 2026."
+    },
+    {
+      "question": "Is this program free?",
+      "answer": "Yes! Content Compass is 100% free for Ecamm subscribers."
+    },
+    {
+      "question": "How much time will this take?",
+      "answer": "Expect to commit 5–10 hours a month. That includes calls, creating content, and applying group feedback."
+    },
+    {
+      "question": "What happens if I miss a call?",
+      "answer": "We know life happens. If you can't make a call, you can be excused—but regular attendance is expected."
+    },
+    {
+      "question": "Will my participation be public?",
+      "answer": "Yes! We'll highlight participants in streams, social media, and case studies. You'll be part of our creator spotlight content."
+    },
+    {
+      "question": "What if I'm not selected?",
+      "answer": "Don't worry, you'll still be part of the Ecamm community. You'll get updates, invitations to public live streams, and future program opportunities."
+    },
+    {
+      "question": "When do we start?",
+      "answer": "Early January 2026 until early December 2026 when we host an amazing celebration call after all that we've done together!"
+    }
+  ],
+  "value_proposition": {
+    "problem_statement": "Stuck between knowing what to do and actually doing it",
+    "core_message": "No one should have to do this stuff alone. We need support. We need each other and that's what makes us fam.",
+    "solution": "Year-long accountability program with small group of fellow creators",
+    "outcomes": [
+      "Create content consistently",
+      "Build strong creator habits",
+      "Own your voice",
+      "Grow audience/brand/business",
+      "Stay on course all year",
+      "Build measurable success",
+      "Create a case study of your journey"
+    ]
+  },
+  "branding": {
+    "theme": "Expedition/Explorer/Journey",
+    "visual_metaphor": "Treasure map with quarterly waypoints",
+    "color_palette": {
+      "primary": "Teal/dark cyan",
+      "secondary": "Orange/coral",
+      "accent": "Gold/amber"
+    },
+    "mascot_style": "3D Pixar-style explorer characters",
+    "logo": {
+      "design": "Compass rose with gear/cog border",
+      "text": "CONTENT COMPASS on orange banner",
+      "style": "Badge/emblem"
+    },
+    "map_elements": [
+      "Topographic contour lines",
+      "Dotted trail paths",
+      "X marks",
+      "Camp/tent icons",
+      "Mountain icons",
+      "Microphone icon",
+      "Camera icon",
+      "Campfire icon"
+    ]
+  },
+  "visual_assets": {
+    "avatars": [
+      {
+        "name": "Jill Avatar",
+        "type": "3D character render",
+        "background": "Transparent",
+        "use": "Landing page, slides, promotional material"
+      },
+      {
+        "name": "Caleb Avatar",
+        "type": "3D character render",
+        "background": "Transparent",
+        "use": "Landing page, slides, promotional material"
+      }
+    ],
+    "slides": [
+      {
+        "name": "Hero/Welcome Slide",
+        "elements": [
+          "Content Compass logo (large)",
+          "Tagline text",
+          "Application dates",
+          "URL",
+          "Both avatars"
+        ],
+        "background": "Teal with topographic patterns"
+      },
+      {
+        "name": "Quarterly Roadmap",
+        "elements": [
+          "Parchment/treasure map style",
+          "4 quarterly waypoints",
+          "Dotted trail connecting them",
+          "Content Compass logo (center)",
+          "Illustrated icons for each quarter"
+        ],
+        "style": "Aged paper, hand-drawn aesthetic"
+      }
+    ]
+  },
+  "transcript_quotes": {
+    "caleb_on_purpose": "What we really wanted to do was include community members that are super focused, driven, ready to put in the work and the time and ready to create some awesome content together as we kind of journey together.",
+    "caleb_on_community": "No one should have to do this stuff alone. We need support. We need each other and that's what makes us fam.",
+    "caleb_on_format": "Every other week, me, Jill, and six of you will be in a Zoom call talking about what we're working on, how we can help each other and hold each other accountable to create the best content that we can create in 2026.",
+    "jill_on_journey": "We're going to be taking this fun journey where we're going to be building strong creator habits. We're going to learn how to really own our voices. We're going to create a strong case study. We're going to prepare for our solo expedition.",
+    "caleb_personal_goal": "I started my solo content journey last year, and I'm just looking to ramp things up and stay accountable to posting videos every week, if not twice a week."
+  },
+  "david_application": {
+    "status": "In progress",
+    "name": "David Cruwys",
+    "email": "david@ideasmen.com.au",
+    "content_type_other": "AI Agents & Context Engineering for Content Creators",
+    "materials_needed": [
+      "1-3 minute unlisted video introduction",
+      "30 second vertical Ecamm testimonial",
+      "2-3 content example links",
+      "YouTube channel URL"
+    ],
+    "questions_to_answer": [
+      "Content creation habits to build/improve",
+      "What's preventing consistency",
+      "12-month content goal",
+      "Why interested in program"
+    ]
+  }
+}
