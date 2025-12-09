@@ -1,0 +1,16 @@
+So the video editing with Gling is finished.
+This is how you cut different information out
+and then I've got the video sitting right here
+at six minutes and 18 seconds long.
+And one of the things I realized from that
+is that it's actually too long for the application.
+So this has really now become the behind the scenes
+of doing the application.
+And what I will have is just a slide date
+that I've put together.
+But essentially what I've done here
+is I've vibe coded this whole slide date.
+You can see that it's 13 different scenes going on here.
+All done in one prompt.
+And then I had one secondary prompt
+just to say that I needed a little bit of data change.

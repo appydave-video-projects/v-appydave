@@ -1,0 +1,60 @@
+G'day, Jill and Caleb. I'm David. I go by the name Appy Dave on YouTube. I do have a
+couple of YouTube channels and what I thought I'd do is take you through a little bit of
+a presentation that I'm doing as a one-take. I'm kind of following Alec from Take One Text's
+do it all in one go sort of approach. So what I put together is a little presentation that's
+been vibe coded in one prompt and the reason I've done it that way is because that's what
+I do. I'm a context engineer and I educate people on context engineering quite often
+in programming but I'm also big in the YouTube automation. This is an area that I love doing
+and what I've done behind the scenes is given another six minute video. I'll talk about
+that a bit later but essentially I've got a background in tech. I've had many YouTube
+channels over the last three years, me just practicing, just trying all sorts of stuff
+and my love affair with Ecamm Live happened when I was doing some Camtasia and nearly
+three years ago I got onto Ecamm Live by accident, fell in love with it. So for me,
+like I said, I had multiple videos because early in the chat, check me T-space, I'd done
+this idea, I'd done this research on the 555 manifesto. It was could I, using automation,
+create five channels and over a 55 week period create 555 videos and it's a goal, it's an
+aspiration maybe that I'm trying to get to. Now behind the scenes I have Abby Dave which
+is just sitting around the tour, 2500 subscribers at the moment and I've got the AI TLDR channel
+which is a faceless YouTube channel so everything going on there is all AI generated and I'm
+also in the middle of building a video or a movie studio with Vozz. Vozz is a member
+of the Ecamm community. Now I have an original Abby Dave coding channel which monetized 4000
+watch hours, 2500 subscribers in nine days and I never took that anywhere so that's a
+dead channel but it's part of my learnings. Then behind the scenes I also have a lot of
+applications that I've coded just for the content creation process. So the behind the
+scenes video that I have linked for you is generally using fly video and it's a tool
+that integrates directly into Ecamm Live and what it does is do all the routing of my individual
+recordings and it can do transcriptions, generate images, b-rolls, all that sort of
+stuff. Then I've got my Storyline app and this is where I'm doing all my movie generation
+sort of stuff. It's an application I've built. This is like vibe coded in a few days. They're
+not vastly great applications but they solve problems really well. And then I have my digital
+asset management so at the moment I've got some videos in edit for you guys. The way
+I'm transferring it to people is through digital asset management and then I publish my videos
+using my agent workflow builder. So my normal sort of flow is either to use planning and
+orchestration methods with prompt engineering and I'll either record with Ecamm and Fly
+Hub or I will generate automatically with the Storyline app and then lastly we do publishing.
+After that we've got Ecamm sitting in the middle so this is really the cornerstone of
+everything I do. Everything sits around Ecamm for me and for the last four months I haven't
+been able to produce any videos so I was made redundant. I went to Thailand, then I went
+to the Philippines for a month and I was there to just get a long term visa to Thailand and
+then I went to Australia for a month to see family. Then I went to US to hang out with
+those for a week and then I got back to Thailand. So for four months I haven't done any video
+content. And I will just segue. I've been part of a little group of four or five people
+from Brisbane and Sydney Australia. We all met through Video Ranking Academy. I've tried
+to get involved with video groups here in Chiang Mai. Nothing available and I'm also
+involved with Alec from Take One Tech and his accountability group every Thursday morning.
+But what I really want is a group of just video content creators that are really on
+the journey and really want to go somewhere with it. So that's what I'm looking for. It's
+not so much accountability. I'm really accountable. I'm really focused on what I do. What I want
+to do is I want to work with people that go get us and on the journey. Like I said I haven't
+even seen this deck popping up in front of me. It was vibrated. So I know you've got
+the accountability themes. What do I bring to the group? I bring enthusiasm and vibrancy.
+I love this. I live and breathe this. I do 12 hours a day in here. I'm living in the
+cheapest place in Thailand so that I can afford to be just a content creator. It's what I
+love doing. So my whole thing is about mastering AI agents, context engineering and very specifically
+for content creation. So I'm going to put a little video right here. This is a 30 second
+video. It'll be faceless YouTube. And yeah I look forward to building together. Was there
+anything else? There was all this other stuff that I'd put together for you guys. These
+are the three other tools. I have more than this that I use in my content creation process
+and you would have seen this if you watched the other video. That's part of the fly. Anyway
+that was a take one tech or a take one video. I'm happy Dave. Looking forward to hearing
+the assessment of the application. Okay.
