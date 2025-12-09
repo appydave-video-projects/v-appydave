@@ -1,0 +1,18 @@
+Now we're getting into the asset generation and since we've met Jill and
+Caleb we might as well start coming up with some images that are going to suit
+and we'll head over to the asset management system where we've got a
+bunch of images and for now we're just going to assign them all to the intro so
+we're just assigning the map and we've got named files for Jill Caleb and a
+bunch of Davids
+
+Now, I've just coded up a bit of information about the Content Compass system.
+This is all based off the transcripts from the YouTube video, as well as anything that
+we can see on the home page, including Jill and Caleb.
+We'll throw in some animated avatars over the top of that.
+I think it'd be great if we had some animated avatars over the top of that, and let's go
+and edit this as well.
+So I'm just kicking off a prompt that's going to bring me into the group of two people.
+We've got two leaders and one content creator.
+
+So that information has just come through let's refresh the page and there
+we have it we have Abby Dave in the mix now.

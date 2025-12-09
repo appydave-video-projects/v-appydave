@@ -1,0 +1,10 @@
+So if we come and look at the lifecycle management for DAM, we've done the local storage and
+the git trapped, what we're going to do now is deal with the files that need to be edited.
+So we come back to our terminal and before we used the DAM list AD for AppyDave, we'll
+just use a little flag in this case and it's the S3, it's going to get all the local files
+but it's also going to have a look at what the state of them are, do they need to be
+uploaded, downloaded or are they in sync with everything on your computer. So from this
+we can see files that have been edited and I need to get the latest copy of them. We
+can see files in which I've got the same version as the S3 version and we can see a bunch of
+projects that I've done editing on locally but they've not yet been committed, but they're
+not yet been uploaded to S3 so they're still to be edited.

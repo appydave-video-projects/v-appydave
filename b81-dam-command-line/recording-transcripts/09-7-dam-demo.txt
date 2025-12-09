@@ -1,0 +1,11 @@
+So everything's been uploaded I did notice there were a couple of files that
+need to be downloaded so we're running 64 at the moment and what it'll do is
+only do the files in the folder it needs to so in this particular case there were
+a bunch of version edits going on so many of the files I already have. So it's
+finished checking the 16 files there was only one file that I still had to have
+downloaded and there's a second one now it would be nicer if I had tools that
+did multiple projects it now would be nicer if I had multiple projects at once
+but this is just something I'll vibe code into the tool a bit later on anyway
+so let's run a new damn list it's still on AD and we are using the S3 flag and
+now all that's left is that everything is synced or I haven't yet created a
+video ready to upload or there's one file that I forgot to do

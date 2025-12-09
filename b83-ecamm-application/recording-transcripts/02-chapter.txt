@@ -1,0 +1,53 @@
+So a little bit about me I am Appy Dave and for the last four months I have not
+done much work because I've lived in Philippines, Australia, traveled to
+America and come back to where I currently live which is Thailand and
+I've not been able to get any videos out until last week when I got a two hour
+80 hours to record video monstrosity out. Now on the side I'm also running a
+faceless YouTube channel which someone else is managing for me using prompt
+engineering, context engineering and various graphic and audio generation
+tools and I do get to make the odd AI appearance.
+
+So we just recorded part of the who am I section but let's get into who am I so
+two years ago I created the 555 manifesto this was the idea of could I
+create five channels and over 55 weeks create 555 videos and that ended up
+becoming a Hollywood trailer are forged in the fires of the YouTube
+battlefield only the strongest the most persistent the most clickbait driven
+warriors will survive. Now coming back to what we're talking about did
+I get there no I didn't but what I have done over the last few years is played
+around with about seven or eight channels two of them have got two and a
+half thousand subs one to 1,500 subs and that's two of them are here it's the
+Appy Dave and the AIT LDR but what I also do is apply all my YouTube systems
+and tools to my girlfriend couple of my friends and Vos and we're here we're
+doing a movie creation studio
+
+Let's save that and keep going.
+So the 555 manifesto is basically a bunch of principles
+that I'm working to.
+But the only way for me to make it happen
+is to build a bunch of tools.
+So I have this application called
+the Storyline Application.
+And let's just see if this video pops into place.
+So I use the Storyline Application
+to create a five minute video.
+And in this video, we're seeing character consistency,
+scene consistency, and, well, a whole lot of AI
+and hard work going into the process.
+But the other tool that you've been watching me use
+is FlyVideo.
+And FlyVideo is where I'm automatically routing
+eCAM live videos onto my computer,
+transcribing them, using large language models
+to generate B-roll images.
+We'll probably see B-roll images in this video in a moment.
+But then the next step I need to go
+is go into digital asset management.
+And the digital asset management is more software
+that I've created that runs from the command line
+that allows me to package this up
+and automatically transfer it to my video editor.
+He just puts on a little bit of information on top of it
+because I've done part of the editing in Gling.
+Bring it back, and then we take it through
+the Agent Workflow Builder,
+which I personally taught about at the beginning of 2024.

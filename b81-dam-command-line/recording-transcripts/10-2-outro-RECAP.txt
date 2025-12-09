@@ -1,0 +1,9 @@
+Now, a quick recap, we've got the multi-brand DAM, so we've been looking at it mostly from
+EpiDave, but it is designed to work around various brands.
+It's got the collaboration workflow of how I work with the team, also with clients, there's
+other workflows for that as well.
+It's the idea that it has multiple layers of storage, so we can see those layers from
+the local through to the Git repos, onto the Amazon S3.
+After that, we've got the network.
+After that, we've got the network addressable storage, which is about to be implemented.
+We've also got the Amazon Glacier for the future.

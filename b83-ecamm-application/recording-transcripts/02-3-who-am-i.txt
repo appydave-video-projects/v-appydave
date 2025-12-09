@@ -1,0 +1,31 @@
+Let's save that and keep going.
+So the 555 manifesto is basically a bunch of principles
+that I'm working to.
+But the only way for me to make it happen
+is to build a bunch of tools.
+So I have this application called
+the Storyline Application.
+And let's just see if this video pops into place.
+So I use the Storyline Application
+to create a five minute video.
+And in this video, we're seeing character consistency,
+scene consistency, and, well, a whole lot of AI
+and hard work going into the process.
+But the other tool that you've been watching me use
+is FlyVideo.
+And FlyVideo is where I'm automatically routing
+eCAM live videos onto my computer,
+transcribing them, using large language models
+to generate B-roll images.
+We'll probably see B-roll images in this video in a moment.
+But then the next step I need to go
+is go into digital asset management.
+And the digital asset management is more software
+that I've created that runs from the command line
+that allows me to package this up
+and automatically transfer it to my video editor.
+He just puts on a little bit of information on top of it
+because I've done part of the editing in Gling.
+Bring it back, and then we take it through
+the Agent Workflow Builder,
+which I personally taught about at the beginning of 2024.

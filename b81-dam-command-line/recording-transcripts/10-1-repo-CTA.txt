@@ -1,0 +1,5 @@
+So, that brings us pretty much to the end. If you actually want the code, you can go
+and find ApiDave and the ApiDave tools directory. This is a Ruby application. Like I said, there's
+no warranty. There's like, use it at your own risk. But what I suggest you do, because
+I do educate on either context engineering or vibe coding, is that the code in here can
+be a good model on which to write your own systems using vibe coding techniques.

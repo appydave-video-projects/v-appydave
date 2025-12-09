@@ -1,0 +1,3 @@
+Now we don't currently have any recordings but we do have our tool where we can take
+the last recording we did one minute ago, rename it, discard everything else and at
+the same time hopefully see our intro ready for editing.

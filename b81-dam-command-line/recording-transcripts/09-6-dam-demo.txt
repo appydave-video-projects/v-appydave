@@ -1,0 +1,9 @@
+So if I decide I want to upload this particular file I'll just put in the
+damn S3 up I can put in a project code if I like and in this case we'll just do
+a dry run and see what that does and I needed to add in the brand so we'll just
+put in AD try it one more time and we can see what would happen but it's a
+dry run so it hasn't actually done it so we can just come back and run it one
+more time and it's talking about uploading a large file it's 954
+megabytes and that took 30 seconds so from this point on I can just go and run
+this command again on anything else so at this point I can just run it on any
+of the other files I want we'll do the B74 and then keep going through it

@@ -1,0 +1,6 @@
+Now we're getting into the asset generation and since we've met Jill and
+Caleb we might as well start coming up with some images that are going to suit
+and we'll head over to the asset management system where we've got a
+bunch of images and for now we're just going to assign them all to the intro so
+we're just assigning the map and we've got named files for Jill Caleb and a
+bunch of Davids

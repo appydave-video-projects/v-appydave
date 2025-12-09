@@ -1,0 +1,14 @@
+Now what I actually do is teach context engineering so I'm just taking the
+information there and I'm just going to ask what is that and that's everything
+that was on this particular page and we just try to learn some context. Now
+because it's raw data all we're going to do is ask it to be turned into a machine
+readable format that's JSON. So there's our machine readable format and so now
+we have machine readable data what we'll do is we'll come over and pick a bunch
+of images I've already grabbed four of them we've got two avatars a beautiful
+slide deck and this map and I'm just letting the AI describe the images right
+now so that's coming through at the moment.
+
+Now I'm just running a little agent right here to analyse all the information for the application.
+
+Now this has given me a content collection around the Ecamm content company and a B-Rail
+visualization agent has come up with some ideas for visualizing information.

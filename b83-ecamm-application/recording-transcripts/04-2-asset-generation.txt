@@ -1,0 +1,8 @@
+Now, I've just coded up a bit of information about the Content Compass system.
+This is all based off the transcripts from the YouTube video, as well as anything that
+we can see on the home page, including Jill and Caleb.
+We'll throw in some animated avatars over the top of that.
+I think it'd be great if we had some animated avatars over the top of that, and let's go
+and edit this as well.
+So I'm just kicking off a prompt that's going to bring me into the group of two people.
+We've got two leaders and one content creator.

@@ -1,0 +1,13 @@
+So what that's doing is showing us a combination of files that are locally on
+the computer, local storage and the ones that are Git tracked and the reason this
+is important to understand is that I've got all my images and text files in Git
+repos. It keeps it free to use and I can also process them in the cloud using AI
+and so I have DAM files designed to deal with the Git repos. This one's doing a
+check on all the different brands to see if there are any files that I need to
+push up on my brand or the other brands that I'm managing and as you can see it's
+just standard Git repos so you can use ordinary Git commands so if we run the
+Git repo status all again we should get better information because I've gone and
+done a push on all the changes and while that's a gap in the tool today what will
+happen is later in the week I will look at that problem and just use some vibe
+coding and make it a first-class citizen of the command structure within digital
+asset management.
