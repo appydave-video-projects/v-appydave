@@ -1,0 +1,7 @@
+So what we can do is say, can you generate five different HTML files please and can you put them into this folder?
+So I'm letting that prompt go in and I've already just set up a folder for us called Lesson 1
+and so hopefully we're just going to see five HTML files.
+Now we haven't done anything to think about styling right now.
+At the moment we just want to see how can we visualize data.
+So Claude will just naturally break this up into tasks and they'll run sequentially.
+So the first one will write out the HTML file before moving on to the second one.

@@ -1,0 +1,13 @@
+Now what you do with this information is really up to you but what we can do is
+maybe just interrogate it say are there any categories if we wanted to visualize
+it are there any ways that you could see it being visualized so we'll come back
+to a terminal and we'll read that document so we'll just come back to a
+terminal where we've got the document ready to be loaded and we'll just put in
+a prompt along the lines of can you read this information and just tell me two or
+three categories or ideas of information that you'd see here and what are
+different ways you could see us visualizing this in a HTML page and I'm
+just letting that prompt go straight into the terminal and we're running it
+and so from this what we can see is that we've got some ideas of what the data is
+about but we've also got some ideas of how it could be visualized and it looks
+like there's five of them so from this alone we could just spin up five simple
+websites.

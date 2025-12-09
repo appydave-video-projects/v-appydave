@@ -1,0 +1,12 @@
+So to recap it was fairly easy to get started with Claude bring in a little
+bit of context from some documents or from images which we did. We really only
+asked a couple of questions could it read the data put it into some sort of
+data file if it was more complex I put it into a machine readable format like
+JSON but it was nice to have it in a markdown format that we could just read
+I also asked it if it could just categorize some of the data and think
+about visualization techniques. From there we were able to just generate the
+visual HTML pages we did five of them and after that we added in an index file
+just to see it all working. It took a couple of minutes to turn raw data
+that's coming from disparate sources and turn it into something visual and nice
+and turn it into something visual using vibe coding techniques. I'm happy Dave if
+I'm happy Dave if

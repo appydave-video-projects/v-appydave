@@ -1,0 +1,42 @@
+Now, interestingly, I also don't need to know where the file is.
+I can get Claude to open it for me.
+So I'll just say, when finished, can you open the index.html file?
+So we'll put that prompt in and we'll just add it to the end of the list.
+So you can see there, it's starting to open and it's actually just popped up.
+So let's bring it up.
+And we've got this progress dashboard, resource grid, timeline view, Kanban board and a combined
+dashboard.
+Now, I think we should just be able to command click on each of them.
+Looks like something's opening up.
+Let's go through.
+And here we have Claude in action.
+So this was based on the progress board.
+So let's see what that was related to.
+So it looks perfect.
+It's just related to the information that was in the beginning of the markdown document.
+So we'll come back to the main view.
+And the next one is learning resources.
+So we've got a bunch of learning resources that we can look at.
+Looks like there's some sort of filtration system going on.
+So you can filter it by the different learning resources.
+Next, we've got a learning timeline.
+So this is Voz's journey through Claude code and AI assisted development.
+Look at that.
+It's got coming soon.
+It's got date and time.
+It's got this watch the loom recording.
+Let's see whether that actually loads.
+It does.
+So that's the video that was sent through to me where this all started.
+And if we move to the next one, we've got Claude code in action, five completed, one
+in progress.
+So we've got a little Kanban board here by the looks of things.
+Perfect.
+So it's created a Kanban board.
+Maybe there's a little bug or two going on, but it's generally pretty functional.
+And what's last?
+We've got the Claude code learning hub.
+I was about to say it looked like a dashboard, but that's the actual file that's in.
+It's called combined-dashboard.html.
+So the buttons don't do anything, but we've got our learning resources, activity timeline,
+and we've got the video series for Claude going on.

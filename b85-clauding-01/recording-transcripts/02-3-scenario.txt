@@ -1,0 +1,5 @@
+So Claude has gone and found a lot of content, it's gone and written a bunch of content and
+if we go and have a look at a markdown document we can see what it wrote.
+So there's a little bit of information about a course being run, there's a couple of learning
+resources going on and additional information, platform courses, tools, references and the
+official Claude documentation.

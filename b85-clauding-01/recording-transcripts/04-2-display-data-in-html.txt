@@ -1,0 +1,12 @@
+Now while it's building that we can kick off another task and it will just run
+afterwards and because we've got five different HTML files there I don't want
+to have to open them up individually so it might be useful if we had an index
+page so what I'll do is start a prompt that says can you also create an index
+file and make sure that all five of them are available make sure that it looks
+fairly pretty some sort of card system so that we can display them and we'll put
+that prompt in I'm not really thinking it through it's just throwing it through
+in basically the way I believe it should work that it's following the context of
+the conversation so it can draw a lot of information from there that you might
+not specifically give yourself and you can see that the third one is finished
+but a new one the sixth one being create index page with card navigation has just
+been added as the next task in the list
